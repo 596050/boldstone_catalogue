@@ -25,13 +25,14 @@ Read each project's instructions before running it.
 
 ## Review application
 
-Python 3.11+ is required. Install the Dropbox SDK, Pillow and Keyring in the
+Use Python 3.11-3.14 for the shared environment (the current Mac uses 3.13).
+Install the Dropbox SDK, Pillow and Keyring in the
 existing `application/.venv` environment (the dependency ranges are in
 `application/pyproject.toml`). On a new checkout, create that environment and
 install the application package:
 
 ```sh
-python3 -m venv application/.venv
+python3.13 -m venv application/.venv
 application/.venv/bin/python -m pip install -e './application[dev]'
 python3 catalogue-review/launch.py
 ```
