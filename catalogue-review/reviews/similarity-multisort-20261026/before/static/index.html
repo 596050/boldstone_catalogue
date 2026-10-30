@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boldstone · Review room</title><link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="masthead"><a href="#" class="brand">BOLDSTONE<span>CATALOGUE STUDIO</span></a><div class="mast-title">Review room <span class="local-dot">Saved on this Mac</span></div><div class="dropbox-sync" aria-label="Dropbox image refresh"><span id="dropbox-sync-status" role="status">Dropbox images</span><button id="dropbox-sync-now" class="button subtle">Check now</button></div><button id="export-open" class="button dark">Export decisions <span>↗</span></button></header>
+  <div class="shell">
+    <aside class="sidebar"><div class="side-heading"><span>YOUR COLLECTION</span><span id="total-products">188</span></div><div class="view-switch"><button id="sculptures-view" class="active">Sculptures</button><button id="library-view">Image library</button></div><label class="search-label"><span>⌕</span><input id="search" placeholder="Search sculptures…" aria-label="Search sculptures"></label><select id="family-filter" aria-label="Filter by family"><option value="">All families</option></select><select id="review-filter" aria-label="Filter by review status"><option value="">All review states</option><option value="unreviewed">Not reviewed</option><option value="in_progress">In progress</option><option value="reviewed">Review complete</option><option value="exclude">Excluded from listing</option></select><div class="list-caption"><span id="list-count">Loading catalogue…</span><span>OPTIONS</span></div><div class="family-list-controls" aria-label="Family sections"><button type="button" id="collapse-families">Collapse all</button><button type="button" id="expand-families">Expand all</button></div><nav id="product-list" aria-label="Sculptures"></nav><div class="sidebar-foot"><strong id="review-progress">0 reviews complete</strong><p>Review choices are saved on this Mac. Delete file removes a reviewed original from Dropbox.</p></div></aside>
+    <main id="main"><div class="loading">Opening your catalogue…</div></main>
+  </div>
+  <dialog id="image-dialog" class="image-dialog"><div id="image-detail"></div></dialog>
+  <dialog id="transfer-dialog" class="transfer-dialog"></dialog>
+  <dialog id="history-dialog" class="transfer-dialog"></dialog>
+  <dialog id="delete-dialog" class="delete-dialog"></dialog>
+  <dialog id="export-dialog" class="export-dialog"><button class="close" data-close="export-dialog" aria-label="Close export">×</button><span class="eyebrow">YOUR REVIEW, READY TO SHARE</span><h2>Export your decisions</h2><p>Create a dated bundle of product choices, specification edits, image uses and tags. Only completed selections enter the listing-ready file.</p><label class="check-line"><input id="include-media" type="checkbox"> Also copy selected images into listing, advertising, social and reference folders</label><p class="muted small">Available local source files are copied. Cached thumbnails stay in a separate preview-reference folder. This exports your work; it does not publish to a store.</p><button id="export-run" class="button dark">Create review bundle</button><div id="export-result" role="status"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="/image-tools.js"></script><script src="/delete-tools.js"></script><script src="/bulk-delete.js"></script><script src="/family-tools.js"></script><script src="/sync-tools.js"></script><script src="/app.js"></script>
+</body>
+</html>

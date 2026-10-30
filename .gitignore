@@ -1,0 +1,64 @@
+# Source-only repository. Local catalogues, private records and evidence stay
+# on this Mac/Dropbox. Allow source files across every workspace subproject.
+*
+!*/
+!*.py
+!*.js
+!*.mjs
+!*.cjs
+!*.ts
+!*.tsx
+!*.jsx
+!*.css
+!*.sh
+!*.command
+!*.sql
+!*.toml
+!*.yaml
+!*.yml
+!requirements*.txt
+!requirements*.lock
+!uv.lock
+!package.json
+!package-lock.json
+!AGENTS.md
+!.gitignore
+!**/static/*.html
+!/README.md
+!/Boldstone_Relief_Layout_Lab (1).html
+!/catalogue-review/README.md
+!/application/README.md
+!/application/docs/*.md
+!/image-processing/*.md
+!/search-analytics-toolkit/README.md
+!/search-analytics-toolkit/docs/*.md
+!/search-analytics-toolkit/profiles/example.json
+!/dropbox resolution/blueprint/config.example.json
+!/boldstone_flat_migration_local_2026-10-15/spec/CONFIG.example.json
+!/dropbox resolution/instructions/*.md
+!/boldstone_flat_migration_local_2026-10-15/instructions/*.md
+
+# Never include installed dependencies, caches, build outputs or local secrets.
+**/.git/
+**/.venv/
+**/venv/
+**/node_modules/
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+**/.mypy_cache/
+**/.runtime/
+**/*.egg-info/
+**/dist/
+**/build/
+**/.env*
+**/*credentials*.json
+**/*token*.json
+**/*client_secret*.json
+**/config.local.*
+**/secrets.*
+**/.DS_Store
+
+# Generated JavaScript containing a full private image inventory, not source.
+/reports/dropbox-wall-complete-role-review-20261024T214349Z/reader-script-check.js
+/dropbox resolution/instructions/02_EXACT_BATCH_CATALOGUE.md

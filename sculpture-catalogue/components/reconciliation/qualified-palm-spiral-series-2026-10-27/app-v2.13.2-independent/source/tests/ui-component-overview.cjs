@@ -1,0 +1,52 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),test=require('node:test');
+function harness(){
+ const nodes=new Map(),listeners={};
+ const node=s=>{if(!nodes.has(s))nodes.set(s,{innerHTML:'',textContent:'',value:'',open:false,addEventListener(){},showModal(){this.open=true;},close(){this.open=false;},classList:{toggle(){}}});return nodes.get(s);};
+ const context=vm.createContext({console,URL,URLSearchParams,FormData:class{},document:{querySelector:node,querySelectorAll:()=>[],addEventListener:(k,f)=>(listeners[k]||=[]).push(f)},window:{addEventListener(){},confirm:()=>false},location:{hash:'#A'},history:{replaceState(){}},localStorage:{getItem:()=>null,setItem(){}},setTimeout(){},clearTimeout(){},setInterval(){},clearInterval(){}});
+ const run=s=>vm.runInContext(s,context);
+ for(const file of ['app.js','image-tools.js','specifications.js','component-overview.js','family-tools.js','sync-tools.js'])run(fs.readFileSync(path.join(__dirname,'../static',file),'utf8').replace(/\nboot\(\);\s*$/,'\n'));
+ run("state.pid='A';state.current={images:[]};state.boot={products:[{id:'A',name:'White',family:'Panels'},{id:'B',name:'Gold',family:'Panels'}],image_types:{},families:['Panels']};");
+ return {run,context,node,listeners};
+}
+const payload=()=>({product:{id:'A',name:'White',family:'Panels',fields:[{label:'Depth',value:'3 cm',source_value:'3 cm'}],listing_fields:[],listing_decision:'pending'},images:[{id:'photo',name:'original.jpg',selected_uses:['listing','advertising'],effective_types:['in_situ'],primary_eligible:true,withheld_reasons:[],url:'https://www.dropbox.com/photo',folder_url:'https://www.dropbox.com/folder'}],related_images:[],in_situ_ids:['photo'],primary_id:'photo',source_reference_id:'photo'});
+test('photo overview displays primary, in situ, all images, uses and specs',()=>{const h=harness();h.context.payload=payload();const html=h.run('renderComponentOverview(payload)');for(const s of ['Primary listing photo','In-situ photos','All associated images','All specifications','listing · advertising','3 cm'])assert(html.includes(s),s);});
+test('missing primary is explicit and source reference is not promoted',()=>{const h=harness();const p=payload();p.primary_id=null;p.images[0].primary_eligible=false;h.context.payload=p;const html=h.run('renderComponentOverview(payload)');assert(html.includes('No primary listing photo selected.'));assert(html.includes('not selected as primary'));});
+test('overview escapes names, values and link protocols',()=>{const h=harness();const p=payload();p.product.name='<script>bad</script>';p.images[0].url='javascript:bad()';h.context.payload=p;const html=h.run('renderComponentOverview(payload)');assert(!html.includes('<script>'));assert(!html.includes('javascript:'));assert(html.includes('&lt;script&gt;'));});
+test('closing during a load prevents a late result from filling the modal',async()=>{const h=harness();h.node('#component-overview-dialog').open=true;let release;h.context.api=()=>new Promise(r=>release=r);const pending=h.run("selectOverviewComponent('A')");h.run('closeComponentOverview()');release(payload());await pending;assert(!h.node('#component-overview-content').innerHTML.includes('All specifications'));});
+test('rapid component switching cannot show the previous response',async()=>{const h=harness();h.node('#component-overview-dialog').open=true;const reads={};h.context.api=url=>new Promise(r=>reads[url]=r);const a=h.run("selectOverviewComponent('A')"),b=h.run("selectOverviewComponent('B')");const p=payload();p.product.name='Gold';reads['/api/component-overview/B'](p);await b;reads['/api/component-overview/A'](payload());await a;assert(h.node('#component-overview-content').innerHTML.includes('Gold'));});
+test('image card overview retains gallery selection and unsaved edits',async()=>{const h=harness();h.context.api=async()=>payload();h.run("state.selected.add('photo');state.dirty.add('field:Depth');openComponentOverview('A')");await Promise.resolve();assert(h.run("state.selected.has('photo')"));assert(h.run("state.dirty.has('field:Depth')"));assert.equal(h.run('state.pid'),'A');});
+test('image-only Dropbox folders appear in sidebar without invented products',()=>{const h=harness();h.run("state.boot.family_inventory={image_only_folders:[{name:'Collection Together'}]}");const html=h.run('groupedProductList(state.boot.products)');assert(html.includes('Collection Together'));assert(html.includes('Images only - no component records'));assert.equal(h.run('state.boot.products.length'),2);});
+test('family coverage panel distinguishes physical folders and component families',()=>{const h=harness();h.run("state.specifications={family_inventory:{dropbox_folder_count:2,image_only_folders:[{name:'Collection Together'}],folders:[{name:'Fold Unfold',registered_families:['Fan Folds'],product_ids:['A'],url:'https://www.dropbox.com/folder'}]}}");const html=h.run('specificationFamilyInventory()');assert(html.includes('Fold Unfold'));assert(html.includes('Fan Folds'));assert(html.includes('folders without component records'));});
+test('publisher-only source change triggers refresh without new Dropbox generation',()=>{const h=harness();h.run("dropboxShownGeneration=10;state.boot.source={register:'old'}");assert(h.run("syncHasUpdate({generation:10,catalogue_source:{register:'new'}})"));assert(!h.run("syncHasUpdate({generation:10,catalogue_source:{register:'old'}})"));});
+test('Listing photos has its own section and shared in-situ images remain in both',()=>{
+ const h=harness(),p=payload();p.listing_ids=['photo'];h.context.payload=p;
+ const html=h.run('renderComponentOverview(payload)');
+ assert.match(html, /id="overview-listing"><h3>Listing photos · 1/);
+ assert.match(html, /id="overview-in_situ"><h3>In-situ photos · 1/);
+ const listing=html.split('id="overview-listing"')[1].split('</section>')[0];
+ assert(listing.includes('original.jpg'));assert.match(html,/data-overview-section="listing"/);
+});
+test('Ads-only, excluded and related images never enter the Listing photos section',()=>{
+ const h=harness(),p=payload();p.images[0].selected_uses=['advertising'];p.images[0].primary_eligible=false;p.primary_id=null;p.listing_ids=[];
+ p.images.push({...p.images[0],id:'excluded',name:'excluded.jpg',excluded:true,selected_uses:[]});
+ p.related_images.push({...p.images[0],id:'related',name:'related.jpg'});h.context.payload=p;
+ const html=h.run('renderComponentOverview(payload)'),listing=html.split('id="overview-listing"')[1].split('</section>')[0];
+ assert(listing.includes('No photos are selected for listing'));assert(!listing.includes('original.jpg'));assert(!listing.includes('excluded.jpg'));assert(!listing.includes('related.jpg'));
+});
+test('primary status beside in-situ count distinguishes set, missing and needs review',()=>{
+ const h=harness();
+ for(const [status,label] of [['set','Primary set'],['missing','Primary missing'],['needs_review','Primary needs review']]){
+  h.context.p={in_situ:{count:1,target:2,missing:1},primary_listing:{status}};
+  const html=h.run('coverageBadge(p)');assert(html.includes('1/2 in situ'));assert(html.includes(label));
+  assert.equal(html.includes('primary-coverage complete'),status==='set');
+ }
+});
+test('blocked primary in modal is visibly flagged rather than reported as unselected',()=>{
+ const h=harness(),p=payload();p.primary_id=null;p.primary_listing={status:'needs_review'};h.context.payload=p;
+ assert(h.run('renderComponentOverview(payload)').includes('selected primary photo needs review'));
+});
+test('card section link opens the component without changing gallery selections',async()=>{
+ const h=harness();h.context.api=async()=>payload();let scrolled=false;h.node('#overview-listing').scrollIntoView=()=>{scrolled=true;};
+ await h.run("state.selected.add('photo');state.dirty.add('field:Depth');openComponentOverview('A','','listing')");
+ assert(scrolled);assert(h.run("state.selected.has('photo')"));assert(h.run("state.dirty.has('field:Depth')"));
+});

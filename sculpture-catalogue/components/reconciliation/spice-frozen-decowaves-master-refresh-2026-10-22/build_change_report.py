@@ -1,0 +1,20 @@
+"""Create a concise, linked walkthrough of the two completed folder changes."""
+import csv,hashlib,html,json
+from pathlib import Path
+from datetime import datetime,timezone
+H=Path(__file__).resolve().parent;BASE=H.parents[2];OUT=BASE/'outputs/spice-frozen-decowaves-master-refresh-2026-10-22';read=lambda p:json.loads(Path(p).read_text());sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest();esc=lambda x:html.escape(str(x),quote=True)
+spice=read(H/'inputs/spice_overlay.before');frozen=read(H/'inputs/frozen_overlay.before');rows=[]
+for o in [spice,frozen]:
+ for x in o['objects']:
+  if x['object_type']=='file'and x['old_path']!=x['current_path']:rows.append({k:x.get(k,'')for k in ['file_id','old_name','current_name','old_path','current_path','old_parent_id','current_parent_id','size','current_native_url']})
+assert len(rows)==26 and len({x['file_id']for x in rows})==26
+p=OUT/'Changed_Image_References_26.csv'
+with p.open('w',encoding='utf-8-sig',newline='')as f:w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+def link(url,label):return'<a href="'+esc(url)+'" target="_blank" rel="noopener">'+esc(label)+'</a>'
+cards=[]
+for x in spice['component_finish_folder_bindings']:
+ cards.append('<article><h2>'+esc('Spice Texture '+('1'if x['component_id']=='CAT-SPICE-1'else'2')+' — White')+'</h2><p>'+link(x['current_file_url'],'Original individual image')+' · '+link(x['current_folder_url'],'Containing folder')+'</p><p>Component '+esc(x['component_id'])+' · Option '+esc(x['product_id'])+'</p><p>Retained file ID: '+esc(x['file_id'])+'<br>Actual containing folder ID: '+esc(x['current_folder_id'])+'</p><p>Existing identity, working specifications and image classification retained.</p></article>')
+pfx=frozen['prefix_maps'][0];example=next(x for x in frozen['objects']if x['object_type']=='file'and x['current_parent_id']==pfx['file_id'])
+cards.append('<article><h2>Frozen Decowaves 1 and Frozen Decowaves 2 — White three-panel arrangement</h2><p>'+link(example['current_native_url'],'Example group image')+' · '+link(pfx['current_native_url'],'Containing folder')+'</p><p>Sequence: Frozen Decowaves 1, Frozen Decowaves 2, Frozen Decowaves 1. The right panel is rotated 180 degrees relative to the left.</p><p>Retained folder ID: '+esc(pfx['file_id'])+'<br>All 22 original group-image IDs retained.</p><p>This is an arrangement of two existing designs. It does not add a third component.</p></article>')
+report=OUT/'folder-changes.html';report.write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Spice Texture and Frozen Decowaves folder mapping</title><style>body{font:16px/1.5 Arial,sans-serif;background:#f5f6f3;color:#28362d;margin:0}main{max-width:1050px;margin:auto;padding:24px}article{background:white;border:1px solid #d8ded4;padding:20px;margin:20px 0;overflow-wrap:anywhere}h1,h2{color:#344e40}a{color:#245f7a}</style></head><body><main><h1>Spice Texture and Frozen Decowaves folder mapping</h1><p>Two completed Dropbox changes are reflected in the current master. All original file and folder IDs are preserved. Spice Texture 2 uses the new folder ID as its actual parent. No specifications, prices, names, image roles or catalogue counts change.</p>'+''.join(cards)+'<p>'+link('Changed_Image_References_26.csv','Download all 26 changed image references')+' · '+link('individual-images.html','Remaining individual-image requests')+' · '+link('specifications-to-verify.html','Specification checklist')+'</p></main></body></html>')
+result={'status':'PASS_LINKED_CHANGE_WALKTHROUGH','recorded_utc':datetime.now(timezone.utc).isoformat(),'pages':[{'path':str(report),'sha256':sha(report)}],'csv_files':[{'path':str(p),'sha256':sha(p),'rows':26}],'spice_individuals':2,'frozen_group_panel_positions':3,'frozen_group_designs':2,'new_components':0};(H/'folder-refresh-report-verification.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps({'status':result['status'],'changed_image_paths':26,'page':str(report)}))

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "project": "Boldstone wall-sculpture media cleanup",
+  "mode": "read_only",
+  "local_paths": {
+    "state_database": "REPLACE_WITH_ABSOLUTE_NON_SYNCED_PATH",
+    "evidence_directory": "REPLACE_WITH_ABSOLUTE_NON_SYNCED_PATH",
+    "cache_directory": "REPLACE_WITH_ABSOLUTE_NON_SYNCED_PATH",
+    "backup_directory": "REPLACE_WITH_VERIFIED_INDEPENDENT_BACKUP_PATH"
+  },
+  "dropbox": {
+    "app_key": "REPLACE_WITH_YOUR_APP_KEY",
+    "credential_store_reference": "boldstone/dropbox/audit",
+    "expected_account_id": null,
+    "verified_root_folder_id": null,
+    "verified_namespace_id": null,
+    "verified_api_root_path": null,
+    "historical_display_path_hint": "/BOLDSTONE MASTER/Products/01 Wall Sculptures",
+    "historical_connector_namespace_hint": "202238505",
+    "read_scopes": ["account_info.read", "files.metadata.read", "files.content.read", "sharing.read"],
+    "execution_scopes_additional": ["files.content.write"],
+    "oauth_pkce": true,
+    "offline_access": true,
+    "autorename": false,
+    "allow_ownership_transfer": false,
+    "permanent_delete_enabled": false
+  },
+  "batch_limits": {"M":100,"F":25,"D":25,"B":10,"R":25,"X":25,"C":5,"Q":5,"G":1,"V":25,"T":100},
+  "concurrency": {"read_workers":4,"write_workers":1,"require_overlap_lease":true},
+  "safety": {
+    "execute_enabled": false,
+    "require_explicit_manifest_approval": true,
+    "require_verified_root": true,
+    "require_verified_backup_for_deletion": true,
+    "require_available_history_review": true,
+    "require_current_sharing_review": true,
+    "require_independent_post_read": true,
+    "require_remote_download_verification_for_jpg": true,
+    "retain_source_until_Q": true,
+    "hold_case_only_renames_by_default": true,
+    "hold_unresolved_identity": true,
+    "hold_unknown_remote_outcome": true,
+    "hold_unavailable_permissions": true,
+    "never_override_recorded_H01_holds": true,
+    "delete_folders_enabled": false,
+    "no_external_image_transmission_by_default": true
+  },
+  "jpeg_policy_proposed_not_historical_approval": {
+    "quality":95,"subsampling":0,"resize":false,"crop":false,
+    "preserve_valid_icc":true,"preserve_applicable_exif":true,"preserve_applicable_dpi":true,
+    "auto_normalize_orientation":false,"flatten_transparency":false,
+    "hold_unsupported_bit_depth_or_mode":true,"psnr_is_diagnostic_only":true,
+    "default_suffix":"__from-bmp.jpg"
+  },
+  "retry_policy_proposed": {
+    "safe_read_max_attempts":5,"backoff_base_seconds":1,"backoff_cap_seconds":60,
+    "obey_retry_after":true,"jitter":true,"reconcile_before_write_retry":true
+  },
+  "reporting": {"csv":true,"json":true,"markdown":true,"html":true,"xlsx":true,"preserve_sources":true}
+}

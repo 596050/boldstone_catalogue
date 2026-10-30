@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "example",
+  "website": {
+    "url": "https://example.com/",
+    "domain": "example.com",
+    "sitemaps": [
+      "https://example.com/sitemap.xml"
+    ],
+    "priority_urls": [
+      "https://example.com/"
+    ]
+  },
+  "organization": {
+    "name": "Example Company",
+    "type": "Organization"
+  },
+  "social_profiles": {},
+  "google": {
+    "expected_email": null
+  },
+  "network": {
+    "dns_fallback": null
+  },
+  "ga4": {
+    "enabled": true,
+    "account_id": null,
+    "property_id": null,
+    "stream_id": null,
+    "create_property": false,
+    "display_name": "Example Company",
+    "time_zone": "Europe/London",
+    "currency": "GBP",
+    "retention_months": 14,
+    "update_property_settings": false,
+    "native_installation": false,
+    "key_events": [
+      {
+        "eventName": "generate_lead",
+        "countingMethod": "ONCE_PER_EVENT"
+      }
+    ],
+    "custom_dimensions": [
+      {
+        "parameterName": "form_name",
+        "displayName": "Website form name",
+        "description": "Filter eventName=generate_lead for successful enquiries.",
+        "scope": "EVENT"
+      }
+    ],
+    "audiences": [
+      {
+        "name": "Website enquiries \u2014 30 days",
+        "event": "generate_lead",
+        "days": 30
+      }
+    ]
+  },
+  "search_console": {
+    "enabled": true,
+    "site_url": "sc-domain:example.com"
+  },
+  "bing": {
+    "enabled": true
+  },
+  "indexnow": {
+    "enabled": true
+  },
+  "cloudflare": {
+    "zone_id": null
+  },
+  "yandex": {
+    "enabled": false
+  }
+}

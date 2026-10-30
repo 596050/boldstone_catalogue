@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "boldstone-local"
+version = "0.1.0"
+description = "Read-only, evidence-preserving Boldstone Dropbox auditor"
+requires-python = ">=3.11,<3.15"
+dependencies = ["dropbox>=12.0,<13", "Pillow>=12,<13", "keyring>=25,<26"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.12,<1"]
+
+[project.scripts]
+boldstone = "boldstone.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/boldstone"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+

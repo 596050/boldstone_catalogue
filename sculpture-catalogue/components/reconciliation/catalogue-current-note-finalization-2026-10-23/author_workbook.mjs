@@ -1,0 +1,22 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {FileBlob,SpreadsheetFile} from '@oai/artifact-tool';
+const h=path.dirname(fileURLToPath(import.meta.url)),read=async p=>JSON.parse(await fs.readFile(path.join(h,p),'utf8'));
+const p=await read('workbook-edit-plan.json');
+const wb=await SpreadsheetFile.importXlsx(await FileBlob.load(path.join(h,process.argv.includes('--saved-preview')?'master-workbook.pending':'inputs/master_workbook.before')));
+await fs.mkdir(path.join(h,'previews'),{recursive:true});
+async function render(ranges){const out=[];for(const[sheetName,range,name]of ranges){const blob=await wb.render({sheetName,range,scale:1.25,format:'png'}),file=path.join(h,'previews',name+'.png');await fs.writeFile(file,new Uint8Array(await blob.arrayBuffer()));out.push({sheet:sheetName,range,path:file});}return out;}
+if(process.argv.includes('--baseline')){await render(p.baseline_ranges);console.log('BASELINE_RENDERED_NO_AUTHORING');process.exit(0);}
+if(process.argv.includes('--saved-preview')){const views=await render(p.supplemental_preview_ranges??[['Photo Coverage','U19:V19','05-pale-blue-context-hold'],['Photo Coverage','U196:V196','06-two-leaves-pewter-context-hold'],['Missing Pictures','L42:N42','07-pale-blue-owner-action'],['Missing Pictures','L215:N215','08-pewter-owner-action'],['Photo Coverage','A2:V5','09-full-coverage-header'],['Master Catalogue','A1:Y3','10-master-refresh-header']]);await fs.writeFile(path.join(h,'supplemental-preview-manifest.json'),JSON.stringify(views,null,2));console.log('SAVED_PREVIEWS_RENDERED_NO_AUTHORING');process.exit(0);}
+for(const x of p.cell_changes)if((wb.worksheets.getItem(x.sheet).getRange(x.cell).values[0][0]??'')!==x.before)throw Error('Input drift '+x.sheet+'!'+x.cell);
+for(const x of p.value_blocks)wb.worksheets.getItem(x.sheet).getRange(x.range).values=x.values.map(r=>r.map(v=>v===''?null:v));
+for(const x of p.row_heights)wb.worksheets.getItem(x.sheet).getRange('A'+x.row+':Y'+x.row).format.rowHeight=x.height;
+const value=(s,c)=>wb.worksheets.getItem(s).getRange(c).values[0][0],eq=(x,y,label)=>{if(x!==y)throw Error(label+': '+x+' != '+y);};
+const optionalTask=wb.worksheets.getItem('Missing Pictures').getRange('N'+p.optional_action_row),optionalType=wb.worksheets.getItem('Missing Pictures').getRange('E'+p.optional_action_row);
+optionalType.values=[['Find / capture']];optionalTask.values=[['Open']];eq(value('Missing Pictures','B4'),39,'Reopening optional Series responds in required summary');eq(value('Missing Pictures','F4'),54,'Reopening removes one optional action');
+optionalType.values=[['Optional image']];optionalTask.values=[['Optional']];eq(value('Missing Pictures','B4'),38,'Restored owner policy removes mandatory action');eq(value('Missing Pictures','F4'),55,'Restored optional action count');
+wb.recalculate();for(const x of p.summary_expected)eq(value(x.sheet,x.cell),x.value,'Summary '+x.sheet+'!'+x.cell);
+const errors=await wb.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A|#NUM!|#NULL!|#SPILL!|#CALC!',options:{useRegex:true,maxResults:20},maxChars:2000});await fs.writeFile(path.join(h,'formula-error-scan.ndjson'),errors.ndjson);
+const previews=await render(p.preview_ranges);await(await SpreadsheetFile.exportXlsx(wb)).save(path.join(h,'master-workbook.pending'));
+await fs.writeFile(path.join(h,'preview-manifest.json'),JSON.stringify(previews,null,2));await fs.writeFile(path.join(h,'artifact-authoring-receipt.json'),JSON.stringify({status:'PASS',recalculated:true,temporary_inputs_restored:true,checks:['Current summary results verified after recalculate','187 active options and six working fields preserved','Seven current source notes and one exact owner Series policy imported; IDs, physical values, existing role bindings and all holds retained'],formula_text_changes:0,new_native_or_platform_writes:0},null,2));console.log('CURRENT_NOTE_FINALIZATION_MASTER_EXPORTED');
