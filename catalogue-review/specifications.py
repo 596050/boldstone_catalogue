@@ -27,9 +27,11 @@ def specification_overview(catalogue, reviews, photos=None):
                                   evidence=f"Total manufacturing cost including labour, with {cost['pricing']['markup_percent']}% markup; shared rates revision {cost['settings_version']}.")
         specs = [f for f in fields if f['section'] != 'Listing copy']
         name = next((f['value'] for f in fields if f['key'] == 'Name'), None) or product['name']
+        retail_name = next((f['value'] for f in fields if f['key'] == 'Retail name'), None) or ''
         review = lookup.get(('product', pid, ''), {}).get('data', {})
         products.append({'id': pid, 'component_id': product.get('component_id', ''),
                          'name': name.replace('\u2014', '-'), 'original_name': product['name'],
+                         'retail_name': retail_name.replace('\u2014', '-'),
                          'family': product['family'], 'folder_url': product.get('folder_url', ''),
                          'costing': cost,
                          'fields': specs, 'listing_fields': [f for f in fields if f['section'] == 'Listing copy'],

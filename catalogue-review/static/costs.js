@@ -9,7 +9,7 @@ function costPricingSummary(cost){
 function costSummary(cost,pid){
   if(!cost)return '';
   if(cost.status!=='calculated')return `<section class="cost-summary"><h4>Manufacturing cost</h4><p>${esc(cost.message)}</p></section>`;
-  return `<section class="cost-summary"><div class="section-title"><h4>Manufacturing cost <strong>${costMoney(cost.total_cost)}</strong></h4><button class="button" data-cost-product="${esc(pid)}">Costs &amp; alternatives</button></div><p class="small">${esc(cost.material_label)} · ${cost.finish_lines.map(f=>esc(f.label)+(f.coverage<1?' ('+Math.round(f.coverage*100)+'%)':'')).join(' + ')}</p><dl class="overview-fields">${[['Casting',cost.material_cost],['Surface effects',cost.finish_cost],['Fixings ('+cost.inputs.fixing_count+')',cost.fixing_cost],['Overheads',cost.overhead_cost],['Other parts',cost.other_cost],['Labour ('+cost.labour_hours.toFixed(2)+' h)',cost.labour_cost]].map(([k,v])=>`<div class="overview-field"><dt>${esc(k)}</dt><dd>${costMoney(v)}</dd></div>`).join('')}</dl>${costPricingSummary(cost)}<p class="small muted">Rates, quantities, labour and pricing are editable.</p></section>`;
+  return `<section class="cost-summary"><div class="section-title"><h4>Manufacturing cost <strong>${costMoney(cost.total_cost)}</strong></h4><div class="cost-summary-actions"><button type="button" class="button" data-delivery-product="${esc(pid)}">Delivery checker</button><button type="button" class="button" data-cost-product="${esc(pid)}">Costs &amp; alternatives</button></div></div><p class="small">${esc(cost.material_label)} · ${cost.finish_lines.map(f=>esc(f.label)+(f.coverage<1?' ('+Math.round(f.coverage*100)+'%)':'')).join(' + ')}</p><dl class="overview-fields">${[['Casting',cost.material_cost],['Surface effects',cost.finish_cost],['Fixings ('+cost.inputs.fixing_count+')',cost.fixing_cost],['Overheads',cost.overhead_cost],['Other parts',cost.other_cost],['Labour ('+cost.labour_hours.toFixed(2)+' h)',cost.labour_cost]].map(([k,v])=>`<div class="overview-field"><dt>${esc(k)}</dt><dd>${costMoney(v)}</dd></div>`).join('')}</dl>${costPricingSummary(cost)}<p class="small muted">Rates, quantities, labour and pricing are editable.</p></section>`;
 }
 function costAlternatives(cost,config){return `<dl class="overview-fields">${Object.entries(cost.alternatives||{}).map(([k,total])=>`<div class="overview-field"><dt>${esc(config.materials[k].label)}</dt><dd>${costMoney(total)}</dd></div>`).join('')}</dl>`;}
 function costNumber(label,name,value,min=0,step='any',optional=false){
@@ -64,10 +64,12 @@ function costFormData(){
 }
 async function previewCosts(){
   const e=costEditor;if(!e||e.saving)return;
-  try{const submitted=costFormData(),result=await api('/api/costs/preview',{product_id:e.pid,data:submitted,settings_version:e.rates.version});
-    if(JSON.stringify(submitted)!==JSON.stringify(costFormData()))return;
-    if(costEditor===e){$('#cost-result').innerHTML=costSummary(result,e.pid);$('#cost-alternatives').innerHTML=costAlternatives(result,e.rates.settings);$('#cost-status').textContent='Preview recalculated. Save to keep these inputs.';}
-  }catch(error){if(costEditor===e)$('#cost-status').textContent=error.message;}
+  const request=e.previewRequest=(e.previewRequest||0)+1;let submitted;
+  try{submitted=costFormData();$('#cost-status').textContent='Recalculating preview…';
+    const result=await api('/api/costs/preview',{product_id:e.pid,data:submitted,settings_version:e.rates.version});
+    if(costEditor!==e||e.saving||e.previewRequest!==request||JSON.stringify(submitted)!==JSON.stringify(costFormData()))return;
+    $('#cost-result').innerHTML=costSummary(result,e.pid);$('#cost-alternatives').innerHTML=costAlternatives(result,e.rates.settings);$('#cost-status').textContent='Preview recalculated. Save to keep these inputs.';
+  }catch(error){if(costEditor===e&&!e.saving&&e.previewRequest===request&&(!submitted||JSON.stringify(submitted)===JSON.stringify(costFormData())))$('#cost-status').textContent=error.message;}
 }
 async function refreshCostViews(pid){
   if(state.pid==='__specifications__')await refreshAllSpecifications(true);
@@ -102,6 +104,8 @@ document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)r
   if(b.dataset.addCostRate){const group=b.dataset.addCostRate;let n=1;while($('[data-rate-key="custom_'+n+'"]'))n++;
     $('#cost-'+group).insertAdjacentHTML('beforeend',costRateRow(group,'custom_'+n,{label:'New '+(group==='materials'?'material':'surface effect'),rate:0,minutes:0,basis:'Enter your cost and quantity basis.',source:''}));costEditor.dirty=true;state.dirty.add('cost-editor');}
 });
-function markCostDirty(e){if(e.target.closest('#cost-form')&&costEditor){costEditor.dirty=formSnapshot($('#cost-form'))!==costEditor.formBaseline;if(costEditor.dirty)state.dirty.add('cost-editor');else state.dirty.delete('cost-editor');$('#cost-status').textContent=costEditor.dirty?'Inputs changed - recalculate or save to update costs.':'';}}
+function markCostDirty(e){if(e.target.closest('#cost-form')&&costEditor){costEditor.dirty=formSnapshot($('#cost-form'))!==costEditor.formBaseline;if(costEditor.dirty)state.dirty.add('cost-editor');else state.dirty.delete('cost-editor');$('#cost-status').textContent=costEditor.dirty?'Inputs changed - recalculate or save to update costs.':'';
+  if(e.type==='change'&&e.target.name==='material')return previewCosts();
+}}
 document.addEventListener('input',markCostDirty);document.addEventListener('change',markCostDirty);
 document.addEventListener('submit',e=>{if(e.target.id==='cost-form'){e.preventDefault();saveCosts();}});

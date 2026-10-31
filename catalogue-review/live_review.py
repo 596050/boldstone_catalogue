@@ -115,9 +115,11 @@ def effective_document(cat, snapshot):
         products[pid] = {
             'original': deepcopy(p), 'review': review, 'fields': fields, 'images': images,
             'manufacturing_cost': product_cost({**p, 'id': pid}, view.reviews, rates),
+            'delivery_package': view.record('delivery', pid),
             'listing_decision': review['data'].get('decision', 'pending'),
             'review_status': review['data'].get('status', 'unreviewed'),
             'name': fields.get('Name', {}).get('effective_value', p['name']),
+            'retail_name': fields.get('Retail name', {}).get('effective_value', ''),
             'family': fields.get('Family', {}).get('effective_value', p['family']),
             'selected_listing_image_ids': [aid for _, _, aid in sorted(listing)],
             'effective_primary_id': primary[0] if len(primary) == 1 else None,

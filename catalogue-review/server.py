@@ -33,6 +33,7 @@ from family_inventory import family_inventory, belongs_to_family
 from component_overview import component_overview
 from source_refresh import refresh_source
 from image_delivery import ImageDelivery, ImageUnavailable
+from delivery import Tariffs, quote as delivery_quote
 
 HERE = Path(__file__).resolve().parent
 
@@ -54,6 +55,7 @@ class Application:
         self.export_lock = threading.Lock()
         self.original_lock = threading.Lock()
         self.images = ImageDelivery(project, self.store.root)
+        self.tariffs = Tariffs(self.store.root)
         self.deletions = Deletions(self.catalogue, self.store)
         self.sync = DropboxSync(self, enabled=auto_sync)
         self.similarity = Similarity(self.store.root)
@@ -287,6 +289,10 @@ class Application:
             if pid not in cat.products or item:
                 raise ValueError('Unknown sculpture')
             original = {k: cat.products[pid][k] for k in ('id', 'name', 'family')}
+        elif kind == 'delivery':
+            if pid not in cat.products or item:
+                raise ValueError('Unknown sculpture')
+            original = {k: cat.products[pid][k] for k in ('id', 'name', 'family')}
         elif kind in ('cost', 'cost_settings'):
             config, config_version = cost_settings(view.reviews)
             if item or (kind == 'cost' and pid not in cat.products) or (kind == 'cost_settings' and pid):
@@ -335,7 +341,7 @@ class Application:
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version = 'BoldstoneReview/2.17.0'
+    server_version = 'BoldstoneReview/2.18.0'
 
     @property
     def app(self):
@@ -467,6 +473,17 @@ class Handler(BaseHTTPRequestHandler):
                 reviews = self.app.store.all()
                 config, version = cost_settings(reviews)
                 return self.send({'settings': config, 'version': version})
+            if path == '/api/delivery':
+                pid = parse_qs(parsed.query).get('product_id', [''])[0]
+                if pid and pid not in self.app.catalogue.products:
+                    raise KeyError('Unknown sculpture')
+                view = self.app.projection()
+                name = self.app.catalogue.products[pid]['name'] if pid else ''
+                edit = view.record('field', pid, 'Name')['data']
+                if edit.get('decision') == 'edit':
+                    name = edit['value']
+                return self.send({**self.app.tariffs.snapshot(), 'product_id': pid, 'name': name,
+                                  'package': view.record('delivery', pid) if pid else {'version': 0, 'data': {}}})
             if path == '/api/specifications':
                 view = self.app.projection()
                 photos = {pid: p['photos'] for pid, p in coverage(view, include_photos=True)['products'].items()}
@@ -490,7 +507,7 @@ class Handler(BaseHTTPRequestHandler):
             if path == '/api/history':
                 return self.send(self.app.store.history())
             if path == '/api/health':
-                return self.send({'status': 'ok', 'application': 'boldstone-review', 'version': '2.17.0', 'products': len(self.app.catalogue.products)})
+                return self.send({'status': 'ok', 'application': 'boldstone-review', 'version': '2.18.0', 'products': len(self.app.catalogue.products)})
             if path.startswith('/api/exports/'):
                 name = path.split('/')[-1]
                 import re
@@ -498,7 +515,7 @@ class Handler(BaseHTTPRequestHandler):
                     raise KeyError('Unknown export')
                 target = self.app.store.root / 'exports' / name
                 return self.send(target.read_bytes(), mime='application/zip', disposition='attachment; filename="Boldstone-review-' + name + '"')
-            if path in ('/', '/index.html', '/app.js', '/image-tools.js', '/delete-tools.js', '/bulk-delete.js', '/family-tools.js', '/sync-tools.js', '/sort-core.js', '/sort-tools.js', '/component-tools.js', '/component-overview.js', '/jobs.js', '/specifications.js', '/costs.js', '/style.css'):
+            if path in ('/', '/index.html', '/app.js', '/image-tools.js', '/delete-tools.js', '/bulk-delete.js', '/family-tools.js', '/sync-tools.js', '/sort-core.js', '/sort-tools.js', '/component-tools.js', '/component-overview.js', '/jobs.js', '/specifications.js', '/costs.js', '/delivery.js', '/style.css'):
                 target = HERE / 'static' / ('index.html' if path == '/' else path[1:])
                 return self.send(target.read_bytes(), mime=mimetypes.guess_type(target)[0] or 'text/plain')
             raise KeyError('Not found')
@@ -516,7 +533,7 @@ class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         # Native inspections and explicit recovery may wait on Dropbox. They
         # must not freeze gallery reads or unrelated saved review choices.
-        if self.path in ('/api/deletions/prepare', '/api/deletions/check', '/api/jobs/check', '/api/jobs/resume-rename', '/api/original'):
+        if self.path in ('/api/deletions/prepare', '/api/deletions/check', '/api/jobs/check', '/api/jobs/resume-rename', '/api/original', '/api/delivery/refresh', '/api/delivery/quote'):
             return self.post_response()
         with self.app.catalogue_lock:
             self.post_response()
@@ -533,8 +550,13 @@ class Handler(BaseHTTPRequestHandler):
             body = json.loads(self.rfile.read(length))
             if not isinstance(body, dict):
                 raise ValueError('Invalid request')
-            if self.path not in ('/api/deletions/check', '/api/jobs/check', '/api/jobs/cancel', '/api/jobs/dismiss', '/api/jobs/restore', '/api/jobs/clear-finished', '/api/original') and hasattr(self.app, 'refresh_source'):
+            if self.path not in ('/api/deletions/check', '/api/jobs/check', '/api/jobs/cancel', '/api/jobs/dismiss', '/api/jobs/restore', '/api/jobs/clear-finished', '/api/original', '/api/delivery/refresh', '/api/delivery/quote') and hasattr(self.app, 'refresh_source'):
                 self.app.refresh_source()
+            if self.path == '/api/delivery/refresh':
+                return self.send(self.app.tariffs.refresh(force=body.get('force', False)))
+            if self.path == '/api/delivery/quote':
+                snapshot = self.app.tariffs.snapshot()
+                return self.send({**delivery_quote(body.get('data'), snapshot['tariff']), 'rates': snapshot})
             if self.path in ('/api/jobs/dismiss', '/api/jobs/restore'):
                 return self.send(self.app.jobs.dismiss(body.get('job_id'), body.get('updated_at'), restore=self.path.endswith('/restore')))
             if self.path == '/api/jobs/clear-finished':

@@ -115,6 +115,11 @@ def create_export(catalogue, store, include_media=False):
         cost.update(pricing_mode=cost['pricing']['mode'], markup_percent=cost['pricing']['markup_percent'],
                     marked_up_price=cost['pricing']['marked_up_price'], listing_price=cost['pricing']['listing_value'])
     csv_write(root / 'manufacturing-costs.csv', ['product_id','name','status','material_label','material_cost','finish_cost','fixing_cost','overhead_cost','other_cost','labour_hours','labour_cost','subtotal_before_labour','total_cost','pricing_mode','markup_percent','marked_up_price','listing_price','inputs'], costs)
+    packages = [{'product_id': r['product_id'], 'name': catalogue.products[r['product_id']]['name'],
+                 'saved_at': r['updated_at'], **r['data']} for r in reviews
+                if r['kind'] == 'delivery' and r['product_id'] in catalogue.products]
+    csv_write(root / 'delivery-packages.csv', ['product_id', 'name', 'saved_at', 'length_cm', 'width_cm', 'depth_cm',
+              'weight_kg', 'destination', 'collection', 'packaging_gbp'], packages)
     costs_by_id = {c['product_id']: c for c in costs}
     field_rows, product_rows, media_rows = [], [], []
     for pid, product in catalogue.products.items():
@@ -279,6 +284,7 @@ def create_export(catalogue, store, include_media=False):
         'listing-ready.csv includes only selected, completed product reviews with reviewed specification fields and a selected primary image.\n'
         'listing-drafts.csv retains included products with review blockers. Neither file is a certified platform-specific import schema.\n'
         'Markup pricing uses total manufacturing cost including labour x (1 + markup / 100), rounded to pennies. Shared and component overrides are retained in manufacturing-costs.json. Fixed-price source values stay in the specification audit; omitted prices remain omitted.\n'
+        'delivery-packages.csv contains saved single-parcel outer box dimensions and gross weights. Recalculate postage against the current tariff when quoting; these are package inputs, not a booked delivery or fixed shipping charge.\n'
         'An unrelated catalogue publication preserves a field review only when its retained source snapshot is identical, and an image review only when original hashes prove unchanged bytes. Missing proof or changed content still needs review.\n'
         'Primary readiness uses the same eligibility check as the app. Missing cached files keep their source links and do not interrupt other exported media.\n'
         'Product exclusions are distinct from image exclusions. Image exclusions apply to the named sculpture only.\n'

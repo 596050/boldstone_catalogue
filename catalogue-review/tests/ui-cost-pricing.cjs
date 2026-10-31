@@ -16,6 +16,58 @@ function harness(){
   return {context,run,node,listeners,cost,config};
 }
 
+function materialEditor(h){
+  const form=h.node('#cost-form');
+  form.values={pricing_mode:'default',markup_percent:'',width_cm:'120',height_cm:'60',depth_cm:'6',shape_factor:'1',casting_factor:'1',material:'gfrc',fixing_count:'2',labour_hours_override:'',other_cost:'0',notes:'',finish:['white']};
+  form.querySelector=()=>({value:'1'});
+  h.config.materials.jesmonite={label:'Jesmonite AC730'};
+  const change=material=>{
+    form.values.material=material;
+    return Promise.all(h.listeners.change.map(listener=>listener({type:'change',target:{name:'material',closest:()=>form}})));
+  };
+  const result=material=>({...h.cost,total_cost:material==='jesmonite'?321.57:112.87,
+    material_label:material==='jesmonite'?'Jesmonite AC730':'GFRC',inputs:{...h.cost.inputs,fixing_count:2},
+    pricing:{...h.cost.pricing,listing_value:material==='jesmonite'?'£643.14':'£225.74'}});
+  return {form,change,result};
+}
+
+test('switching Large Ammonite material updates cost and markup preview without saving',async()=>{
+  const h=harness(),e=materialEditor(h),calls=[];
+  h.context.api=async(url,body)=>{calls.push({url,body});return e.result(body.data.material);};
+  await e.change('jesmonite');
+  assert.match(h.node('#cost-result').innerHTML,/Manufacturing cost <strong>£321.57/);
+  assert.match(h.node('#cost-result').innerHTML,/Selling price £643.14/);
+  assert.match(h.node('#cost-result').innerHTML,/Jesmonite AC730/);
+  await e.change('gfrc');
+  assert.match(h.node('#cost-result').innerHTML,/Manufacturing cost <strong>£112.87/);
+  assert.match(h.node('#cost-result').innerHTML,/Selling price £225.74/);
+  assert.deepEqual(calls.map(c=>c.body.data.material),['jesmonite','gfrc']);
+  assert(calls.every(c=>c.url==='/api/costs/preview'&&c.body.product_id==='A'&&c.body.settings_version===3));
+  assert.match(h.node('#cost-status').textContent,/Save to keep/);
+  assert.equal(h.run('costEditor.dirty'),true);
+  assert.equal(h.run('costEditor.product.costing.version'),4);
+});
+
+test('an older material preview failure cannot overwrite a newer successful preview',async()=>{
+  const h=harness(),e=materialEditor(h);let reject;
+  h.context.api=(_url,body)=>body.data.material==='jesmonite'?new Promise((_resolve,r)=>reject=r):Promise.resolve(e.result('gfrc'));
+  const old=e.change('jesmonite');await e.change('gfrc');
+  const status=h.node('#cost-status').textContent;
+  reject(new Error('Earlier preview failed'));await old;
+  assert.equal(h.node('#cost-status').textContent,status);
+  assert.match(h.node('#cost-result').innerHTML,/£112.87/);
+});
+
+test('a preview cannot replace the result after its editor closes or starts saving',async()=>{
+  for(const update of ['costEditor=null','costEditor.saving=true']){
+    const h=harness(),e=materialEditor(h);let resolve;
+    h.context.api=()=>new Promise(r=>resolve=r);
+    const pending=e.change('jesmonite');h.run(update);
+    resolve(e.result('jesmonite'));await pending;
+    assert.equal(h.node('#cost-result').innerHTML,'');
+  }
+});
+
 test('pricing summary shows markup on total cost including labour',()=>{
   const h=harness(),html=h.run('costPricingSummary(cost)');
   assert.match(html,/Selling price £76.66/);assert.match(html,/100% markup on £38.33, including labour/);

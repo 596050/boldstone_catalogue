@@ -70,6 +70,7 @@ class Catalogue:
                     {'key': 'Availability', 'label': 'Availability', 'value': selling.get('availability', 'Unknown').replace('_', ' '), 'basis': 'Current owner working policy', 'qualification': 'No physical stock quantity inferred.', 'section': 'Selling details'},
                     {'key': 'Lead time', 'label': 'Lead time', 'value': f"{selling.get('lead_time_min_weeks', '?')}–{selling.get('lead_time_max_weeks', '?')} weeks", 'basis': selling.get('lead_time_basis', ''), 'qualification': 'Working lead time; delivery and start event not specified.', 'section': 'Selling details'},
                     {'key': 'Name', 'label': 'Product name', 'value': name, 'basis': 'Catalogue name', 'qualification': '', 'section': 'Listing copy'},
+                    {'key': 'Retail name', 'label': 'Retail / website name', 'value': '', 'basis': 'Customer-facing title, separate from the catalogue identity.', 'qualification': '', 'section': 'Listing copy'},
                     {'key': 'Family', 'label': 'Family / collection', 'value': family, 'basis': 'Existing family association', 'qualification': 'Editing display text does not merge identities.', 'section': 'Listing copy'},
                     {'key': 'Description', 'label': 'Listing description', 'value': '', 'basis': 'Write your customer-facing description here.', 'qualification': '', 'section': 'Listing copy'},
                     {'key': 'Sale unit', 'label': 'Sale unit', 'value': p.get('sale_unit', ''), 'basis': 'Individual option scope', 'qualification': '', 'section': 'Listing copy'},

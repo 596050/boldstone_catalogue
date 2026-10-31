@@ -219,6 +219,9 @@ class ReviewStore:
 
 
 def validate(kind, data):
+    if kind == 'delivery':
+        from delivery import validate_package
+        return validate_package(data)
     if kind == 'cost_settings':
         from costing import validate_settings
         return validate_settings(data)

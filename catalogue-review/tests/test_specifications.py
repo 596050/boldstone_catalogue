@@ -89,6 +89,17 @@ class SpecificationOverviewTests(unittest.TestCase):
         self.assertEqual(product['family'], 'Panels')
         self.assertEqual(next(f['value'] for f in product['listing_fields'] if f['key'] == 'Family'), 'Another collection')
 
+    def test_retail_title_is_editable_without_changing_catalogue_identity(self):
+        self.cat.products['A']['fields'].append({'key': 'Retail name', 'label': 'Retail / website name',
+            'value': '', 'section': 'Listing copy', 'basis': '', 'qualification': ''})
+        rows = [self.review('field', 'A', 'Retail name', {'decision': 'edit', 'value': 'Tidal Relief - White'})]
+        product = next(p for p in specification_overview(self.cat, rows)['products'] if p['id'] == 'A')
+        self.assertEqual(product['retail_name'], 'Tidal Relief - White')
+        self.assertEqual(product['name'], 'Panel - White')
+        self.assertEqual(product['family'], 'Panels')
+        self.assertEqual(product['original_name'], 'Panel — White')
+        self.assertEqual(product['missing_count'], 1)
+
     def test_overview_endpoint_and_every_page_script_are_served(self):
         self.cat.assets = {}
         self.cat.edges = {pid: {} for pid in self.cat.products}

@@ -14,6 +14,8 @@ Opening a Dropbox image streams its original through the local server using the 
 
 ## Markup pricing
 
+Changing **Production material** in **Costs & alternatives** automatically refreshes the manufacturing-cost and selling-price preview. **Save component costs** retains the selection. Other cost inputs can be checked with **Recalculate preview** before saving.
+
 In v2.16.0, **All specifications > Cost rates & pricing** controls the shared pricing method and markup. **Costs & alternatives** or **Pricing options** opens a component's override. A 100% markup means selling price = total manufacturing cost x 2, including the separately editable labour cost. Changing costs or rates recalculates markup prices to the nearest penny. A component can inherit the shared settings, use its own markup (including 0%), or keep a fixed price. Clearing its markup override restores the shared percentage. Previous fixed prices and their source evidence are retained; choose Fixed price to use or edit them. Explicit price exclusions remain excluded. Missing cost inputs withhold a markup price instead of reusing an unrelated fixed price. The specifications register, component preview and listing exports use the same calculated price. Saving pricing does not publish to Shopify or Squarespace.
 
 ## Automatic folder updates
@@ -129,6 +131,7 @@ Review data uses these independent keys:
 | `asset` | stable asset ID | multi-select types, shared tags, collection, rights, notes |
 | `assignment` | option ID + preferred stable asset ID | attached/removed/source, original and target option IDs, operation ID, all identical source IDs |
 | `deletion` | exact native file ID, reviewed revision and operation ID | server-owned deletion intent/receipt; executing, uncertain, deleted, already_absent or rejected |
+| `delivery` | stable option ID | outer box dimensions in cm, packed weight in kg, destination, collection and packaging charge |
 
 The `__library__` image scope supports advertising/social/reference decisions independent of a product. It cannot designate a listing or primary image. Dropbox native file/folder IDs and platform gallery identities remain in the source provenance. The export does not constitute canonical or platform application; it is intended for a separate, reviewable publisher integration.
 
@@ -223,6 +226,16 @@ Each generation contains immutable `data.json` and `manifest.json`; `current.jso
 The data retains original fields, qualifications, source image references, current choices, per-product exclusions, exact-byte aliases, shared types/tags, transfer provenance and withheld-image reasons. An explicitly excluded primary remains unset until the user chooses a replacement. These records do not claim that an old workbook, raw platform export or original file changed. Full snapshots currently occupy roughly 29 MB before compression; automatic publishing should use appropriate coalescing/storage management when the source is enabled. The append-only review database remains the durable operation history.
 
 ## Development and checks
+
+### Royal Mail delivery checker (v2.18)
+
+Use **Delivery** in the navbar, or **Delivery checker** on a component's specification/cost card. The calculator quotes one rectangular UK parcel using Royal Mail Tracked 48 online prices, checking all box orientations and inclusive weight/size limits. Optional collection and a separate packaging charge are added in integer pennies. Oversize, overweight and international parcels require a separate quote. Blank inputs are deliberately not populated from unpacked sculpture dimensions or weights. Component package details use versioned `delivery` reviews and appear in `delivery-packages.csv` and the review JSON export; quotes are recalculated rather than saved as permanent postage prices.
+
+The bundled tariff was checked on 30 October 2026 against the official service page and October online guide. Opening the checker attempts a public-page refresh at most daily, with a manual **Check prices now** action (one-minute cooldown). All four online prices, the size limits, collection fee and VAT statement must parse before an atomic cache update. Requests have a timeout/size limit, concurrent refreshes share a single fetch, and network work never holds the catalogue lock. The status distinguishes the last verified tariff from the last failed attempt. Cache location: `~/Library/Application Support/BoldstoneReview/royal-mail-tariff.json`.
+
+**Current connection limit:** direct requests to Royal Mail returned HTTP 403 during implementation. The calculator therefore works with the last verified tariff and visibly asks for rate confirmation; automatic source updates are implemented but have not succeeded against the live page. HTML parsing is covered by contract fixtures, not a claimed successful live fetch. Royal Mail's [Buy And Print API](https://pp.developer.royalmail.net/product/8022) documents postage prices but requires eligibility through an account handler. No API credentials, account integration, label purchase or booking is configured.
+
+Focused checks: `python3 -m unittest discover -s tests -p test_delivery.py -v` and `node --test tests/ui-delivery.cjs`. They cover size/weight boundaries, box rotation, incomplete inputs, pennies, failed refresh retention, parser changes, concurrent checks, save conflicts, export/reopen, UI races and slow-request responsiveness.
 
 ```sh
 python3 -m unittest discover -s tests -v

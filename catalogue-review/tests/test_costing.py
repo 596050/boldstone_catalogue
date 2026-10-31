@@ -5,7 +5,7 @@ import sys
 import tempfile
 import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from costing import DEFAULTS, calculate, dimensions, finish_defaults, default_inputs, product_cost, validate_inputs, validate_settings
+from costing import DEFAULTS, calculate, dimensions, finish_defaults, default_inputs, product_cost, pricing, validate_inputs, validate_settings
 from server import Application
 from store import ReviewStore, Conflict
 from projection import Projection
@@ -24,6 +24,16 @@ class CostModelTests(unittest.TestCase):
         self.assertEqual(c['subtotal_before_labour'],20)
         self.assertEqual(c['labour_cost'],18.33)
         self.assertEqual(c['total_cost'],38.33)
+
+    def test_large_ammonite_material_costs_and_markup_prices(self):
+        inputs={**self.inputs,'width_cm':120,'height_cm':60,'depth_cm':6,
+                'finishes':[{'id':'white','coverage':1}],'fixing_count':2,'pricing_mode':'markup'}
+        for material,total,selling in [('gfrc',112.87,225.74),('jesmonite',321.57,643.14)]:
+            with self.subTest(material=material):
+                scenario={**inputs,'material':material}
+                cost=calculate(scenario,self.config)
+                self.assertEqual(cost['total_cost'],total)
+                self.assertEqual(pricing(scenario,self.config,cost['total_cost'])['marked_up_price'],selling)
 
     def test_half_penny_rounding_is_stable_after_volume_arithmetic(self):
         inputs={**self.inputs,'width_cm':31.5,'height_cm':31.5,'depth_cm':4}
