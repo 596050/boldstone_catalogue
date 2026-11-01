@@ -29,7 +29,17 @@ function deliveryNumber(label,name,value,min){return `<label>${label}<input name
 function renderDelivery(){
   const e=deliveryEditor,p=e.payload,d=p.package.data;
   $('#delivery-dialog').innerHTML=`<button class="close" data-delivery-close aria-label="Close delivery checker">×</button><span class="eyebrow">UK PARCEL DELIVERY · GBP</span><h2>${esc(p.name||'Delivery checker')}</h2><p>Quote one fully packed parcel using Royal Mail Tracked 48 online prices. Enter the outer box measurements and total weight, including packaging.</p><section id="delivery-rates" aria-live="polite"></section><form id="delivery-form"><div class="delivery-inputs">${deliveryNumber('Box length (cm)','length_cm',d.length_cm,.001)}${deliveryNumber('Box width (cm)','width_cm',d.width_cm,.001)}${deliveryNumber('Box depth (cm)','depth_cm',d.depth_cm,.001)}${deliveryNumber('Packed weight (kg)','weight_kg',d.weight_kg,.001)}${deliveryNumber('Packaging charge (£)','packaging_gbp',d.packaging_gbp??0,0)}<label>Destination<select name="destination"><option value="uk"${d.destination!=='international'?' selected':''}>United Kingdom</option><option value="international"${d.destination==='international'?' selected':''}>International - separate quote</option></select></label></div><label class="delivery-collection"><input type="checkbox" name="collection"${d.collection?' checked':''}> Add Royal Mail parcel collection</label><div id="delivery-result" aria-live="polite"></div><div class="delivery-save">${e.pid?'<button class="button dark" type="submit">Save package details</button>':'<span class="small muted">Open Delivery checker from a sculpture’s specification card to save its package details.</span>'}<span id="delivery-save-status" role="status">${p.package.version?'Package details saved '+esc(deliveryDate(p.package.updated_at)):''}</span></div></form><p class="small muted">Each box needs its own quote. Box orientation is checked automatically. Product dimensions and weight are kept separate from these packed measurements. The postage total is separate from the sculpture price.</p><a class="button" href="https://send.royalmail.com/" target="_blank" rel="noopener">Open Royal Mail postage ↗</a>`;
-  e.baseline=formSnapshot($('#delivery-form'));renderDeliveryRates();
+  e.baseline=formSnapshot($('#delivery-form'));renderDeliveryRates();renderUSDelivery();
+}
+function renderUSDelivery(){
+  const e=deliveryEditor;if(!e)return;
+  let section=$('#us-delivery-estimates');
+  if(!section){section=document.createElement('section');section.id='us-delivery-estimates';$('#delivery-dialog').append(section);}
+  const u=e.payload.us_shipping;
+  if(!u){section.innerHTML='';return;}
+  const money=p=>deliveryMoney(Math.round(p*100));
+  if(u.status!=='available'){section.innerHTML=`<h3>USA delivery estimate</h3><p>${esc(u.message)}</p>`;return;}
+  section.innerHTML=`<hr><span class="eyebrow">USA · PLANNING ESTIMATES</span><h3>Delivery to the United States</h3><p>${esc(u.packing_basis)}</p><p><strong>${esc(u.packed_cm.join(' × '))} cm · ${esc(u.packed_kg)} kg packed</strong>${u.package_estimated?' · estimated package':''}</p><p class="small muted">Carrier list-rate budgets for one residential delivery, not live booking quotes or automatic checkout charges. Prices exclude packaging, artwork insurance, import duties/taxes and address-specific charges.</p>${u.quotes.map(q=>`<details><summary>${esc(q.destination.name+' '+q.destination.postcode)} — ${q.estimate_gbp!==undefined?money(q.estimate_gbp):'Freight / carrier quote required'}</summary><p>${esc(q.message)}</p>${q.stale?'<p class="delivery-warning">The saved fuel rate has expired. Get a new carrier quote.</p>':''}<p>${esc(q.service)} · ${esc(q.billable_kg)} kg billable · ${esc(q.dimensional_kg)} kg dimensional weight</p>${q.charges?`<table class="delivery-table"><tbody>${Object.entries(q.charges).map(([k,v])=>`<tr><td>${esc(k.replace(/_gbp$/,'').replaceAll('_',' '))}</td><td>${money(v)}</td></tr>`).join('')}<tr><th>Estimated carrier charge</th><th>${money(q.estimate_gbp)}</th></tr></tbody></table><p class="small">Fuel: ${esc(q.fuel_percent)}%, effective ${esc(q.fuel_effective_date)}. Calculated ${esc(q.as_of)}.</p>`:''}<p class="small">${q.exclusions.map(esc).join('; ')}.</p><p><a href="${safeURL(q.sources.calculator)}" target="_blank" rel="noopener">Get a booking quote from UPS ↗</a> · <a href="${safeURL(q.sources.rates)}" target="_blank" rel="noopener">Rate source ↗</a> · <a href="${safeURL(q.sources.fuel)}" target="_blank" rel="noopener">Fuel source ↗</a></p></details>`).join('')}`;
 }
 function renderDeliveryRates(){
   const e=deliveryEditor;if(!e)return;
@@ -73,6 +83,10 @@ async function saveDelivery(){
     if(deliveryEditor!==e)return;
     e.payload.package=saved;e.baseline=formSnapshot(form);e.dirty=false;state.dirty.delete('delivery-editor');
     $('#delivery-save-status').textContent='Package details saved '+deliveryDate(saved.updated_at);toast('Package details saved');
+    try{
+      const refreshed=await api('/api/delivery?product_id='+encodeURIComponent(e.pid));
+      if(deliveryEditor===e){e.payload.us_shipping=refreshed.us_shipping;renderUSDelivery();}
+    }catch(error){if(deliveryEditor===e)$('#delivery-save-status').textContent='Package details saved. USA estimates could not refresh; reopen the checker.';}
   }catch(error){if(deliveryEditor===e)$('#delivery-save-status').textContent=error.message;}
   finally{e.saving=false;form.inert=false;if(deliveryEditor===e)previewDelivery();}
 }

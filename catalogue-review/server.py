@@ -34,6 +34,8 @@ from component_overview import component_overview
 from source_refresh import refresh_source
 from image_delivery import ImageDelivery, ImageUnavailable
 from delivery import Tariffs, quote as delivery_quote
+from us_delivery import product_estimate as us_shipping_estimate
+from costing import values as specification_values
 
 HERE = Path(__file__).resolve().parent
 
@@ -280,7 +282,9 @@ class Application:
         if type(body.get('version')) is not int or body['version'] < 0:
             raise ValueError('A review version is required.')
         cat = self.catalogue
-        view = self.projection()
+        # Text fields do not depend on image grouping. Avoid rebuilding the
+        # full gallery for each small specification change.
+        view = self.projection() if kind in ('image', 'asset', 'cost', 'cost_settings') else None
         if kind in ('image', 'asset') and 'expected_content_hash' in body:
             native = cat.assets.get(item, {}).get('original', {})
             if body['expected_content_hash'] != (native.get('dropbox_content_hash') or native.get('sha256')):
@@ -337,7 +341,8 @@ class Application:
                 raise ValueError('Duplicate review versions are invalid; reload this image.')
             versions[item] = body['version']
         self.store.save(kind, pid, item, data, body['version'], cat.source['register_sha256'], original, versions)
-        return self.projection().record(kind, pid, item)
+        return (self.projection().record(kind, pid, item) if kind in ('image', 'asset')
+                else self.store.get(kind, pid, item))
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -482,8 +487,12 @@ class Handler(BaseHTTPRequestHandler):
                 edit = view.record('field', pid, 'Name')['data']
                 if edit.get('decision') == 'edit':
                     name = edit['value']
+                package = view.record('delivery', pid) if pid else {'version': 0, 'data': {}}
+                estimate = us_shipping_estimate({**self.app.catalogue.products[pid], 'id': pid},
+                    fields=specification_values(self.app.catalogue.products[pid], view.reviews),
+                    measured=package['data']) if pid else None
                 return self.send({**self.app.tariffs.snapshot(), 'product_id': pid, 'name': name,
-                                  'package': view.record('delivery', pid) if pid else {'version': 0, 'data': {}}})
+                                  'package': package, 'us_shipping': estimate})
             if path == '/api/specifications':
                 view = self.app.projection()
                 photos = {pid: p['photos'] for pid, p in coverage(view, include_photos=True)['products'].items()}

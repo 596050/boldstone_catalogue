@@ -75,6 +75,15 @@ class Catalogue:
                     {'key': 'Description', 'label': 'Listing description', 'value': '', 'basis': 'Write your customer-facing description here.', 'qualification': '', 'section': 'Listing copy'},
                     {'key': 'Sale unit', 'label': 'Sale unit', 'value': p.get('sale_unit', ''), 'basis': 'Individual option scope', 'qualification': '', 'section': 'Listing copy'},
                 ])
+                # Editable source fields for channel exports. Keep identifiers,
+                # stock and platform approvals distinct; never fabricate them.
+                for key in ('Brand', 'Product type', 'Model / catalogue reference',
+                            'Seller SKU', 'Colour / appearance', 'Quantity per sale',
+                            'Marketplace title', 'Dispatch exceptions',
+                            'Product identifier status', 'Channel information gaps'):
+                    fields.append({'key':key, 'label':key, 'value':'',
+                                   'basis':'Channel publishing details from the current catalogue.',
+                                   'qualification':'', 'section':'Channel details'})
                 self.products[pid] = {'id': pid, 'name': name, 'family': family, 'fields': fields,
                                      'folder_url': p.get('folder_url', ''), 'image_url': p.get('image_url', ''),
                                      'primary_id': p.get('file_id'), 'component_id': p.get('canonical_component_id'),

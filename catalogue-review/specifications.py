@@ -5,6 +5,7 @@ import json
 
 from presentation import listing_value
 from costing import product_cost, priced_listing_value, settings as cost_settings
+from us_delivery import product_estimate as us_shipping_estimate
 
 
 def specification_overview(catalogue, reviews, photos=None):
@@ -42,6 +43,9 @@ def specification_overview(catalogue, reviews, photos=None):
     products.sort(key=lambda p: (p['family'].casefold(), p['name'].casefold(), p['id']))
     for number, product in enumerate(products, 1):
         product['number'] = number
+        packed = next((r.get('data', {}) for r in reviews
+                       if r['kind'] == 'delivery' and r['product_id'] == product['id']), {})
+        product['us_shipping'] = us_shipping_estimate(product, measured=packed)
         if photos is not None:
             product['photos'] = photos[product['id']]
     result = {'products': products, 'families': sorted({p['family'] for p in products}),

@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import {Workbook} from '@oai/artifact-tool';
+const dir=new URL('.',import.meta.url).pathname;
+const wb=await Workbook.fromCSV(await fs.readFile(dir+'google-requirements-supplement-176.csv','utf8'),{sheetName:'Google'});
+const sheet=wb.worksheets.getItem('Google'),values=sheet.getUsedRange().values;
+if(values.length!==177)throw Error('Unexpected product count');
+const col=values[0].length;sheet.getRangeByIndexes(0,col,values.length,1).values=[['max_handling_time'],...values.slice(1).map(()=>[10])];
+const rows=sheet.getUsedRange().values.map(r=>r.map(v=>String(v??'').replace(/[\r\n\t]+/g,' ').trim()));
+await fs.writeFile(dir+'google-requirements-handling-176.tsv',rows.map(r=>r.join('\t')).join('\n')+'\n');
+console.log(JSON.stringify({rows:rows.length-1,max_handling_time:10,source:'https://support.google.com/merchants/answer/7388496?hl=en'}));

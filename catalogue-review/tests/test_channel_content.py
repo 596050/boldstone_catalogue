@@ -1,0 +1,84 @@
+from pathlib import Path
+import sys
+import unittest
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from channel_content import complete_description, marketplace_title, product_type, validate, description_html, chairish_description, saatchi_description
+
+class ChannelContentTests(unittest.TestCase):
+    def product(self, name='Moon II - White'):
+        return {'id':'BSI-ABC', 'name':name, 'retail_name':name,
+                'fields':[{'key':'Material / finish','value':'Gypsum-based material with a white finish'},
+                          {'key':'Dimensions / depth','value':'100 × 22 cm; approximately 6 cm panel depth'},
+                          {'key':'Weight','value':'Approximately 8–10 kg'}],
+                'listing_fields':[{'key':'Description','value':'Lunar curves meet a shell-like wave.\n\nMaterial: Made from a gypsum-based material.\nDimensions: 100 × 22 cm; approximately 6 cm panel depth\nProduction lead time: 1–2 weeks\nDelivery: Please contact us for delivery options.'}]}
+    def test_copy_preserves_design_and_measurement_qualification(self):
+        p=self.product(); text=complete_description(p,'BOLD-ABC')
+        self.assertIn('Lunar curves meet',text); self.assertIn('approximately 6 cm',text)
+        self.assertIn('Within 10 working days',text); self.assertNotIn('1–2 weeks',text)
+        self.assertIn('Quantity supplied: 1',text); self.assertNotIn('Stock:',text)
+        self.assertEqual(validate(p,{'description_text':text,'sku':'BOLD-ABC'}),[])
+    def test_repeat_does_not_duplicate_fields_and_exception_is_explicit(self):
+        p=self.product(); text=complete_description(p,'BOLD-ABC')
+        p['listing_fields'][0]['value']=text
+        self.assertEqual(complete_description(p,'BOLD-ABC'),text)
+        short=complete_description(p,'BOLD-ABC',3)
+        self.assertIn('Within 3 working days',short); self.assertNotIn('10 working',short)
+    def test_tiktok_has_no_external_contact_delivery_steering(self):
+        text=complete_description(self.product(),'BOLD-ABC',channel='tiktok')
+        self.assertIn('shown at checkout',text); self.assertNotIn('contact us',text)
+    def test_ebay_copy_matches_native_delivery_and_handling(self):
+        for days in (3, 10):
+            text=complete_description(self.product(),'BOLD-ABC',dispatch_days=days,channel='ebay')
+            self.assertIn(f'Within {days} working days',text)
+            self.assertIn('charge are shown in this eBay listing',text)
+            self.assertNotIn('contact us',text)
+    def test_water_feature_and_paver_not_mislabelled_wall_sculpture(self):
+        p=self.product('Moon II Fountain - White')
+        self.assertEqual(product_type(p),'Sculptural water-feature panel')
+        self.assertIn('Pump, basin, pipework and installation are not included.',complete_description(p,'BOLD-ABC'))
+        self.assertEqual(product_type(self.product('Paver II - Brown')),'Decorative paver panel')
+    def test_title_cap_and_html_escape(self):
+        title=marketplace_title(self.product('Extra long ' * 15+'White'),80)
+        self.assertLessEqual(len(title),80); self.assertTrue(title.startswith('Boldstone ')); self.assertTrue(title.endswith('Wall sculpture'))
+        self.assertIn('&lt;script&gt;',description_html('<script>'))
+    def test_missing_data_is_not_silently_fabricated(self):
+        p=self.product(); p['fields']=[]
+        self.assertIn('Missing Weight',validate(p,{'description_text':'Material: unknown','sku':''}))
+        p['listing_fields'][0]['value']=''
+        with self.assertRaises(ValueError): complete_description(p,'BOLD-ABC')
+    def test_chairish_prose_preserves_qualified_facts_and_excludes_public_sku(self):
+        record={'sku':'BOLD-ABC','product_type':'Wall sculpture','surface_effect':True,
+                'description_text':'A flowing relief.\n\nBrand: Boldstone\nModel: Moon (BOLD-ABC)\n'
+                'Material: Made from a gypsum-based material.\nSurface effect: A decorative surface effect is applied.\n'
+                'Dimensions: 100 × 22 cm; approximately 6 cm deep\nWeight: Approximately 8–10 kg\n'
+                'Use: Suitable for outdoor use and indoor display.\nFixings: Keyhole fixings are usually used.\n'
+                'Delivery: Please contact us for a quote.'}
+        text=chairish_description(record,10)
+        self.assertIn('approximately 6 cm deep',text); self.assertIn('approximately 8–10 kg',text)
+        self.assertIn('surface effect is applied',text); self.assertIn('10 working days',text)
+        self.assertNotIn('BOLD-ABC',text); self.assertNotIn('Dimensions:',text)
+        self.assertNotIn('contact us',text); self.assertNotIn('made in',text.lower())
+        record['description_text']=record['description_text'].replace('Surface effect: A decorative surface effect is applied.\n','')
+        with self.assertRaises(ValueError): chairish_description(record)
+
+    def test_saatchi_limit_preserves_facts_and_does_not_invent_year(self):
+        record={'sku':'BOLD-ABC','product_type':'Sculptural water-feature panel','surface_effect':True,
+                'colour':'Verdigris surface effect',
+                'description_text':'Lunar curves meet a shell-like wave.\n\n'+('Longer design inspiration. '*30)+
+                '\n\nBrand: Boldstone\nMaterial: Made from a gypsum-based material.\n'
+                'Surface effect: A decorative surface effect is applied.\n'
+                'Dimensions: 100 × 22 cm; approximately 6 cm deep\nWeight: Approximately 8–10 kg\n'
+                'Use: Suitable for outdoor use and indoor display.\nFixings: Keyhole fixings are usually used.\n'
+                'Supplied as one sculptural panel. Pump, basin, pipework and installation are not included.'}
+        text=saatchi_description(record)
+        self.assertLessEqual(len(text),1000)
+        for expected in ('Lunar curves', 'Verdigris', 'gypsum-based', 'surface effect is applied',
+                         'approximately 6 cm', 'approximately 8–10 kg', '3 working days',
+                         'Pump, basin, pipework and installation are not included.'):
+            self.assertIn(expected,text)
+        self.assertNotIn('2026',text); self.assertNotIn('original edition',text)
+        with self.assertRaises(ValueError): saatchi_description(record,limit=60)
+        record['colour']=''
+        with self.assertRaises(ValueError): saatchi_description(record)
+
+if __name__=='__main__': unittest.main()
