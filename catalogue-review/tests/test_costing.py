@@ -22,8 +22,17 @@ class CostModelTests(unittest.TestCase):
         c=calculate(self.inputs,self.config)
         self.assertEqual([c[k] for k in ('material_cost','finish_cost','fixing_cost','overhead_cost')],[5,5,5,5])
         self.assertEqual(c['subtotal_before_labour'],20)
+        self.assertEqual(c['manufacturing_cost'],20)
         self.assertEqual(c['labour_cost'],18.33)
         self.assertEqual(c['total_cost'],38.33)
+
+    def test_labour_override_changes_total_but_not_manufacturing(self):
+        for hours, total in [(0, 20), (2, 60), (3.25, 85)]:
+            cost = calculate({**self.inputs, 'labour_hours_override': hours}, self.config)
+            self.assertEqual(cost['manufacturing_cost'], 20)
+            self.assertEqual(cost['total_cost'], total)
+            self.assertEqual(pricing({**self.inputs, 'pricing_mode': 'markup'}, self.config,
+                                     cost['total_cost'])['marked_up_price'], total * 2)
 
     def test_large_ammonite_material_costs_and_markup_prices(self):
         inputs={**self.inputs,'width_cm':120,'height_cm':60,'depth_cm':6,

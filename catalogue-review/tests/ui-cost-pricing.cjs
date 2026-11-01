@@ -10,7 +10,7 @@ function harness(){
   const run=s=>vm.runInContext(s,context);
   run(fs.readFileSync(path.join(__dirname,'../static/costs.js'),'utf8'));
   const config={default_pricing_mode:'markup',default_markup_percent:100,materials:{gfrc:{label:'GFRC'}},finishes:{white:{label:'White'}},notes:''};
-  const cost={status:'calculated',total_cost:38.33,material_label:'GFRC',finish_lines:[],inputs:{fixing_count:1,pricing_mode:'default',markup_percent:null},labour_hours:1,pricing:{mode:'markup',markup_percent:100,listing_value:'£76.66',fixed_value:'£250'}};
+  const cost={status:'calculated',total_cost:38.33,manufacturing_cost:20,subtotal_before_labour:20,labour_cost:18.33,material_label:'GFRC',finish_lines:[],inputs:{fixing_count:1,pricing_mode:'default',markup_percent:null},labour_hours:1,pricing:{mode:'markup',markup_percent:100,listing_value:'£76.66',fixed_value:'£250'}};
   context.cost=cost;context.config=config;
   run("costEditor={pid:'A',rates:{settings:config,version:3},product:{costing:{version:4}},saving:false};");
   return {context,run,node,listeners,cost,config};
@@ -25,7 +25,7 @@ function materialEditor(h){
     form.values.material=material;
     return Promise.all(h.listeners.change.map(listener=>listener({type:'change',target:{name:'material',closest:()=>form}})));
   };
-  const result=material=>({...h.cost,total_cost:material==='jesmonite'?321.57:112.87,
+  const result=material=>({...h.cost,total_cost:material==='jesmonite'?321.57:112.87,manufacturing_cost:material==='jesmonite'?286.17:77.47,labour_cost:35.40,
     material_label:material==='jesmonite'?'Jesmonite AC730':'GFRC',inputs:{...h.cost.inputs,fixing_count:2},
     pricing:{...h.cost.pricing,listing_value:material==='jesmonite'?'£643.14':'£225.74'}});
   return {form,change,result};
@@ -35,11 +35,11 @@ test('switching Large Ammonite material updates cost and markup preview without 
   const h=harness(),e=materialEditor(h),calls=[];
   h.context.api=async(url,body)=>{calls.push({url,body});return e.result(body.data.material);};
   await e.change('jesmonite');
-  assert.match(h.node('#cost-result').innerHTML,/Manufacturing cost <strong>£321.57/);
+  assert.match(h.node('#cost-result').innerHTML,/Manufacturing cost \(excluding labour\) <strong>£286.17/);
   assert.match(h.node('#cost-result').innerHTML,/Selling price £643.14/);
   assert.match(h.node('#cost-result').innerHTML,/Jesmonite AC730/);
   await e.change('gfrc');
-  assert.match(h.node('#cost-result').innerHTML,/Manufacturing cost <strong>£112.87/);
+  assert.match(h.node('#cost-result').innerHTML,/Manufacturing cost \(excluding labour\) <strong>£77.47/);
   assert.match(h.node('#cost-result').innerHTML,/Selling price £225.74/);
   assert.deepEqual(calls.map(c=>c.body.data.material),['jesmonite','gfrc']);
   assert(calls.every(c=>c.url==='/api/costs/preview'&&c.body.product_id==='A'&&c.body.settings_version===3));
@@ -70,7 +70,7 @@ test('a preview cannot replace the result after its editor closes or starts savi
 
 test('pricing summary shows markup on total cost including labour',()=>{
   const h=harness(),html=h.run('costPricingSummary(cost)');
-  assert.match(html,/Selling price £76.66/);assert.match(html,/100% markup on £38.33, including labour/);
+  assert.match(html,/Selling price £76.66/);assert.match(html,/100% markup/);assert.match(html,/£20.00 manufacturing \+ £18.33 labour = £38.33 total cost/);
 });
 test('fixed pricing and omitted prices remain distinct',()=>{
   const h=harness();h.cost.pricing.mode='fixed';

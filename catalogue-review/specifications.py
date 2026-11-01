@@ -24,7 +24,7 @@ def specification_overview(catalogue, reviews, photos=None):
                            'notes': choice.get('notes', ''), 'updated_at': record.get('updated_at', '')})
             if field['key'] == 'Price' and choice.get('decision') != 'exclude' and cost['pricing']['mode'] == 'markup':
                 fields[-1].update(decision='calculated', certainty='estimate',
-                                  evidence=f"Total manufacturing cost including labour, with {cost['pricing']['markup_percent']}% markup; shared rates revision {cost['settings_version']}.")
+                                  evidence=f"Manufacturing cost plus separate labour, with {cost['pricing']['markup_percent']}% markup; shared rates revision {cost['settings_version']}.")
         specs = [f for f in fields if f['section'] != 'Listing copy']
         name = next((f['value'] for f in fields if f['key'] == 'Name'), None) or product['name']
         retail_name = next((f['value'] for f in fields if f['key'] == 'Retail name'), None) or ''

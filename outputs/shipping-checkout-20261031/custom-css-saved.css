@@ -1,0 +1,30 @@
+.product-price, .product-prices, #floatingCart {
+    display: none !important;
+}
+
+/* Squarespace 7.1 */
+.sqs-add-to-cart-button-wrapper,
+.sqs-add-to-cart-button {
+  display: none !important;
+}
+
+/* Also hide quantity selector + variant dropdowns (optional, they look odd alone) */
+.product-quantity-input,
+.variant-select-wrapper {
+  display: none !important;
+}
+
+
+
+
+/* Enable checkout for the current wall-sculpture catalogue only. */
+.tag-wall-sculptures.tag-catalogue-2026 .product-price,
+.tag-wall-sculptures.tag-catalogue-2026 .product-prices,
+.tag-wall-sculptures.tag-catalogue-2026 .sqs-add-to-cart-button-wrapper,
+.tag-wall-sculptures.tag-catalogue-2026 .product-quantity-input,
+.tag-wall-sculptures.tag-catalogue-2026 .variant-select-wrapper {
+  display: block !important;
+}
+.tag-wall-sculptures.tag-catalogue-2026 .sqs-add-to-cart-button {
+  display: inline-flex !important;
+}

@@ -1,0 +1,17 @@
+.product-price, .product-prices, #floatingCart {
+    display: none !important;
+}
+
+/* Squarespace 7.1 */
+.sqs-add-to-cart-button-wrapper,
+.sqs-add-to-cart-button {
+  display: none !important;
+}
+
+/* Also hide quantity selector + variant dropdowns (optional, they look odd alone) */
+.product-quantity-input,
+.variant-select-wrapper {
+  display: none !important;
+}
+
+

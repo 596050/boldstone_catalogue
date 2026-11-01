@@ -114,7 +114,7 @@ def create_export(catalogue, store, include_media=False):
     for cost in costs:
         cost.update(pricing_mode=cost['pricing']['mode'], markup_percent=cost['pricing']['markup_percent'],
                     marked_up_price=cost['pricing']['marked_up_price'], listing_price=cost['pricing']['listing_value'])
-    csv_write(root / 'manufacturing-costs.csv', ['product_id','name','status','material_label','material_cost','finish_cost','fixing_cost','overhead_cost','other_cost','labour_hours','labour_cost','subtotal_before_labour','total_cost','pricing_mode','markup_percent','marked_up_price','listing_price','inputs'], costs)
+    csv_write(root / 'manufacturing-costs.csv', ['product_id','name','status','material_label','material_cost','finish_cost','fixing_cost','overhead_cost','other_cost','manufacturing_cost','labour_hours','labour_cost','subtotal_before_labour','total_cost','pricing_mode','markup_percent','marked_up_price','listing_price','inputs'], costs)
     packages = [{'product_id': r['product_id'], 'name': catalogue.products[r['product_id']]['name'],
                  'saved_at': r['updated_at'], **r['data']} for r in reviews
                 if r['kind'] == 'delivery' and r['product_id'] in catalogue.products]
@@ -128,7 +128,8 @@ def create_export(catalogue, store, include_media=False):
         output = {'product_id': pid, 'name': product['name'], 'family': product['family'],
                   'listing_decision': p.get('decision', 'pending'), 'review_status': p.get('status', 'unreviewed'),
                   'notes': p.get('notes', ''), 'pricing_method': cost['pricing_mode'],
-                  'markup_percent': cost['markup_percent'], 'manufacturing_cost': cost.get('total_cost', '')}
+                  'markup_percent': cost['markup_percent'], 'manufacturing_cost': cost.get('manufacturing_cost', ''),
+                  'labour_cost': cost.get('labour_cost', ''), 'total_cost': cost.get('total_cost', '')}
         listing_images = []
         blockers = []
         if p.get('decision') != 'include':
@@ -149,7 +150,7 @@ def create_export(catalogue, store, include_media=False):
             field_rows.append({'product_id': pid, 'field': field['key'], 'decision': action,
                                'original': field['value'], 'listing_value': effective,
                                'certainty': certainty, 'original_qualification': field['qualification'],
-                               'source_basis': field['basis'], 'evidence': (f"Total manufacturing cost including labour, with {cost['markup_percent']}% markup; shared rates revision {config_version}." if calculated_price else f.get('evidence', '')), 'notes': f.get('notes', '')})
+                               'source_basis': field['basis'], 'evidence': (f"Manufacturing cost plus separate labour, with {cost['markup_percent']}% markup; shared rates revision {config_version}." if calculated_price else f.get('evidence', '')), 'notes': f.get('notes', '')})
             output[field['key']] = effective
             if field['key'] == 'Name':
                 output['name'] = effective
@@ -283,7 +284,7 @@ def create_export(catalogue, store, include_media=False):
         'BOLDSTONE REVIEW BUNDLE\n\nThis is a local review export, not a platform upload.\n'
         'listing-ready.csv includes only selected, completed product reviews with reviewed specification fields and a selected primary image.\n'
         'listing-drafts.csv retains included products with review blockers. Neither file is a certified platform-specific import schema.\n'
-        'Markup pricing uses total manufacturing cost including labour x (1 + markup / 100), rounded to pennies. Shared and component overrides are retained in manufacturing-costs.json. Fixed-price source values stay in the specification audit; omitted prices remain omitted.\n'
+        'Markup pricing uses (manufacturing cost + separate labour) x (1 + markup / 100), rounded to pennies. Shared and component overrides are retained in manufacturing-costs.json. Fixed-price source values stay in the specification audit; omitted prices remain omitted.\n'
         'delivery-packages.csv contains saved single-parcel outer box dimensions and gross weights. Recalculate postage against the current tariff when quoting; these are package inputs, not a booked delivery or fixed shipping charge.\n'
         'An unrelated catalogue publication preserves a field review only when its retained source snapshot is identical, and an image review only when original hashes prove unchanged bytes. Missing proof or changed content still needs review.\n'
         'Primary readiness uses the same eligibility check as the app. Missing cached files keep their source links and do not interrupt other exported media.\n'

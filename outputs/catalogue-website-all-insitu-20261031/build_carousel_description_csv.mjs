@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import {Workbook} from '@oai/artifact-tool';
+const out=new URL('.',import.meta.url), input=JSON.parse(await fs.readFile(new URL('carousel-description-manifest.json',out),'utf8'));
+const book=Workbook.create(),sheet=book.worksheets.add('Store update');
+const matrix=[input.headers,...input.rows.map(r=>input.headers.map(h=>r[h]))];
+sheet.getRangeByIndexes(0,0,matrix.length,input.headers.length).values=matrix;
+const read=sheet.getRangeByIndexes(0,0,matrix.length,input.headers.length).values;
+for(let r=0;r<read.length;r++)for(let c=0;c<input.headers.length;c++)if(String(read[r][c]??'')!==String(matrix[r][c]??''))throw Error('Cell mismatch');
+const quote=v=>'"'+String(v??'').replaceAll('"','""')+'"';
+await fs.writeFile(new URL('carousel-description-update.csv',out),read.map(r=>r.map(quote).join(',')).join('\r\n')+'\r\n');
+console.log(JSON.stringify({existingProducts:read.length-1,newProducts:0,changedFields:['Description']}));

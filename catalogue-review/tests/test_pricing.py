@@ -173,6 +173,10 @@ class PricingIntegrationTests(unittest.TestCase):
         p = rows('all-product-decisions.csv')[0]
         self.assertEqual(p['Price'], f['value'])
         self.assertEqual(p['pricing_method'], 'markup')
+        self.assertEqual(p['manufacturing_cost'], '20.0')
+        self.assertEqual(p['labour_cost'], '18.33')
+        self.assertEqual(p['total_cost'], '38.33')
+        self.assertEqual(rows('manufacturing-costs.csv')[0]['manufacturing_cost'], '20.0')
         self.assertEqual(rows('manufacturing-costs.csv')[0]['listing_price'], f['value'])
         audit = next(r for r in rows('specification-decisions.csv') if r['field'] == 'Price')
         self.assertEqual(audit['original'], f['source_value'])

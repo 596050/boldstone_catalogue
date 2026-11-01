@@ -196,7 +196,8 @@ def calculate(inputs, config):
     return {'area_cm2': area, 'face_scale': face, 'casting_scale': volume, 'material_label': material['label'],
             'material_cost': material_cost, 'finish_cost': finish_cost, 'finish_lines': finish_lines,
             'fixing_cost': fixings, 'overhead_cost': overhead, 'other_cost': inputs['other_cost'],
-            'labour_hours': hours, 'labour_cost': labour, 'subtotal_before_labour': subtotal,
+            'labour_hours': hours, 'labour_cost': labour, 'manufacturing_cost': subtotal,
+            'subtotal_before_labour': subtotal,
             'total_cost': money(subtotal + labour)}
 
 
