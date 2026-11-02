@@ -33,6 +33,8 @@ with zipfile.ZipFile(OUT/'previous-catalogue.xlsx') as original,zipfile.ZipFile(
   if patches:
    source=E.fromstring(authored.read(ap[sheet]));src={c.get('r'):c for c in source.findall('s:sheetData/s:row/s:c',NS)}
    for row in b.findall('s:sheetData/s:row',NS):
+    if sheet=='Website Copy' and any(c.get('r') in patches for c in row):
+     row.set('ht','409.5');row.set('customHeight','1')
     if sheet=='Wall Sculptures' and any(c.get('r') in patches for c in row):
      row.set('ht',str(max(float(row.get('ht','15')),90)))
      row.set('customHeight','1')

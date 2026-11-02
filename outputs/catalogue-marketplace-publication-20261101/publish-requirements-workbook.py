@@ -14,6 +14,8 @@ assert v['status']=='PASS' and v['sha256']==sha(body)
 old=read(OUT/'previous-dropbox-metadata.json');dest=old['path_display'];expected_hash=sha(b''.join(hashlib.sha256(body[i:i+4194304]).digest() for i in range(0,len(body),4194304)))
 info=lambda m:{k:str(getattr(m,k)) if k.endswith('modified') else getattr(m,k) for k in ('id','name','path_display','rev','size','content_hash','server_modified','client_modified')}
 scope=('Dispatch exceptions updated for all 181 components: three working days for applicable eBay Simple Delivery, Chairish parcel orders and Saatchi Art collection; ten working days elsewhere. Other workbook records preserved; same file ID.' if OUT.name=='dispatch-workbook' else 'Current descriptions and dispatch policy, plus channel details and US delivery estimates for all 181 components; same workbook file ID.')
+if OUT.name=='copy-disclosures-workbook':
+    scope='Current app descriptions for all 181 components: customisation and new commissions with Sally Price on every record, handmade variation on 73 surface-effect records, and companion-piece notes on 116 included listings. Existing prices, photographs, other specifications and workbook features preserved; same file ID.'
 receipt={'status':'PREPARED','started_utc':datetime.now(timezone.utc).isoformat(),'previous':old,'local_sha256':sha(body),'products':181,'scope':scope}
 save=lambda:receiptfile.write_text(json.dumps(receipt,indent=2)+'\n')
 with Path('/Users/tprice/Library/Application Support/BoldstoneReview/native-jobs/writer.lock').open('a') as lock:

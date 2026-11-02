@@ -2,7 +2,7 @@ from pathlib import Path
 import sys
 import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from channel_content import complete_description, marketplace_title, product_type, validate, description_html, chairish_description, saatchi_description
+from channel_content import complete_description, marketplace_title, product_type, validate, description_html, chairish_description, saatchi_description, surface_variation_copy, has_surface_effect, SURFACE_VARIATION, SURFACE, CUSTOMISATION
 
 class ChannelContentTests(unittest.TestCase):
     def product(self, name='Moon II - White'):
@@ -32,6 +32,22 @@ class ChannelContentTests(unittest.TestCase):
             self.assertIn(f'Within {days} working days',text)
             self.assertIn('charge are shown in this eBay listing',text)
             self.assertNotIn('contact us',text)
+    def test_surface_variation_follows_finishes_without_relabelling_white(self):
+        p=self.product()
+        p['costing']={'inputs':{'finishes':[{'id':'white'}]}}
+        self.assertFalse(has_surface_effect(p))
+        self.assertNotIn(SURFACE_VARIATION,complete_description(p,'BOLD-ABC'))
+        p['costing']['inputs']['finishes']=[{'id':'verdigris'}]
+        self.assertTrue(has_surface_effect(p))
+        for channel in ('catalogue','ebay','tiktok'):
+            text=complete_description(p,'BOLD-ABC',channel=channel)
+            self.assertEqual(text.count(SURFACE_VARIATION),1)
+            self.assertIn(SURFACE,text)
+            self.assertEqual(surface_variation_copy(text,True),text)
+            self.assertNotIn(SURFACE_VARIATION,surface_variation_copy(text,False))
+            self.assertEqual(validate(p,{'description_text':text,'sku':'BOLD-ABC','surface_effect':True}),[])
+            self.assertIn('Missing handmade surface-effect variation statement',validate(p,{
+                'description_text':text.replace(SURFACE_VARIATION,''),'sku':'BOLD-ABC','surface_effect':True}))
     def test_water_feature_and_paver_not_mislabelled_wall_sculpture(self):
         p=self.product('Moon II Fountain - White')
         self.assertEqual(product_type(p),'Sculptural water-feature panel')
@@ -56,6 +72,7 @@ class ChannelContentTests(unittest.TestCase):
         text=chairish_description(record,10)
         self.assertIn('approximately 6 cm deep',text); self.assertIn('approximately 8–10 kg',text)
         self.assertIn('surface effect is applied',text); self.assertIn('10 working days',text)
+        self.assertEqual(text.count(SURFACE_VARIATION),1)
         self.assertNotIn('BOLD-ABC',text); self.assertNotIn('Dimensions:',text)
         self.assertNotIn('contact us',text); self.assertNotIn('made in',text.lower())
         record['description_text']=record['description_text'].replace('Surface effect: A decorative surface effect is applied.\n','')
@@ -72,6 +89,7 @@ class ChannelContentTests(unittest.TestCase):
                 'Supplied as one sculptural panel. Pump, basin, pipework and installation are not included.'}
         text=saatchi_description(record)
         self.assertLessEqual(len(text),1000)
+        self.assertEqual(text.count(SURFACE_VARIATION),1)
         for expected in ('Lunar curves', 'Verdigris', 'gypsum-based', 'surface effect is applied',
                          'approximately 6 cm', 'approximately 8–10 kg', '3 working days',
                          'Pump, basin, pipework and installation are not included.'):
@@ -80,5 +98,28 @@ class ChannelContentTests(unittest.TestCase):
         with self.assertRaises(ValueError): saatchi_description(record,limit=60)
         record['colour']=''
         with self.assertRaises(ValueError): saatchi_description(record)
+
+    def test_compact_channel_copy_keeps_companions_commissions_and_exclusions(self):
+        p=self.product('Moon II Fountain - Verdigris')
+        p['costing']={'inputs':{'finishes':[{'id':'verdigris'}]}}
+        p['listing_fields'][0]['value'] += ('\nWeight: Approximately 8–10 kg'
+            '\nUse: Suitable for outdoor use and indoor display.'
+            '\nFixings: Keyhole fixings are usually used; French cleats are available.')
+        description=complete_description(p,'BOLD-ABC')
+        note=('Companion pieces: This is one piece of a coordinating pair with Moon I. '
+              'Companion sculptures are sold separately; this listing is for one sculpture only.')
+        description=description.replace('Material:',note+'\nMaterial:',1)
+        record={'sku':'BOLD-ABC','product_type':'Sculptural water-feature panel','surface_effect':True,
+                'colour':'Verdigris effect','description_text':description}
+        self.assertEqual(description.count(CUSTOMISATION),1)
+        prose=chairish_description(record)
+        self.assertIn('Moon I',prose)
+        self.assertIn(CUSTOMISATION,prose)
+        compact=saatchi_description(record)
+        self.assertLessEqual(len(compact),1000)
+        for text in ('Moon I','sold separately','One sculpture supplied','designer Sally Price','new commissions',
+                     'can be customised','will differ from the photographs','approximately 6 cm',
+                     'Pump, basin, pipework and installation are not included.'):
+            self.assertIn(text,compact)
 
 if __name__=='__main__': unittest.main()

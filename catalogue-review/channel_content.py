@@ -7,6 +7,10 @@ import re
 
 MATERIAL = 'Made from a gypsum-based material.'
 SURFACE = 'A decorative surface effect is applied to create the finish shown.'
+SURFACE_VARIATION = ('Each piece is handmade. The surface-effect pattern will vary '
+                     'and will differ from the photographs.')
+CUSTOMISATION = ('All designs can be customised. Completely new commissions can also '
+                 'be created in collaboration with designer Sally Price.')
 DISPATCH_EXCEPTIONS = (
     'Default: dispatch within 10 working days. Use 3 working days only where the '
     'platform requires it: applicable eBay Simple Delivery offers, Chairish parcel '
@@ -55,6 +59,43 @@ def appearance(product):
     return finish[:1].upper() + finish[1:]
 
 
+def has_surface_effect(product):
+    """Use recorded finishes, or an existing explicit effect statement.
+
+    A sculpted pattern alone is not evidence of an applied surface effect.
+    """
+    finishes = product.get('costing', {}).get('inputs', {}).get('finishes')
+    if finishes is not None:
+        return any(finish['id'] != 'white' for finish in finishes)
+    return bool(re.search(r'(?m)^Surface effect:', values(product).get('Description', '')))
+
+
+def surface_variation_copy(text, surface_effect):
+    """Idempotently maintain the owner-approved handmade finish disclosure."""
+    text = text.replace(SURFACE_VARIATION, '').rstrip()
+    text = re.sub(r'(?m)^Surface effect:[^\n]*',
+                  lambda match: match.group(0).rstrip(), text)
+    if not surface_effect:
+        return text
+    if re.search(r'(?m)^Surface effect:', text):
+        return re.sub(r'(?m)^Surface effect:[^\n]*',
+                      lambda match: match.group(0).rstrip() + ' ' + SURFACE_VARIATION,
+                      text, count=1)
+    point = 'Surface effect: ' + SURFACE + ' ' + SURFACE_VARIATION
+    if re.search(r'(?m)^Material:[^\n]*', text):
+        return re.sub(r'(?m)^Material:[^\n]*',
+                      lambda match: match.group(0) + '\n' + point, text, count=1)
+    return text + '\n' + point
+
+
+def customisation_copy(text):
+    text = re.sub(r'(?m)^Custom design:[^\n]*\n?', '', text).strip()
+    point = 'Custom design: ' + CUSTOMISATION
+    if re.search(r'(?m)^Dispatch time:', text):
+        return re.sub(r'(?m)^Dispatch time:', point + '\nDispatch time:', text, count=1)
+    return text + '\n' + point
+
+
 def complete_description(product, sku, dispatch_days=10, channel='catalogue'):
     f = values(product)
     text = str(f.get('Description', '')).strip()
@@ -88,6 +129,8 @@ def complete_description(product, sku, dispatch_days=10, channel='catalogue'):
         text = re.sub(r'(?m)^Delivery:.*$',
                       'Delivery: The available delivery service and charge are shown in this eBay listing. '
                       'Carrier transit time is additional to dispatch time.', text)
+    text = surface_variation_copy(text, has_surface_effect(product))
+    text = customisation_copy(text)
     return re.sub(r'\n{3,}', '\n\n', text).strip()
 
 
@@ -128,6 +171,11 @@ def chairish_description(record, dispatch_days=3):
     ]
     if fields.get('Surface effect'):
         facts.append(fields['Surface effect'])
+        if record.get('surface_effect') and SURFACE_VARIATION not in fields['Surface effect']:
+            facts.append(SURFACE_VARIATION)
+    if fields.get('Companion pieces'):
+        facts.append(fields['Companion pieces'])
+    facts.append(fields.get('Custom design') or CUSTOMISATION)
     facts.extend([
         'The dimensions are ' + fields['Dimensions'].rstrip('.') + '.',
         'The stated weight is ' + fields['Weight'][:1].lower() + fields['Weight'][1:].rstrip('.') + '.',
@@ -162,6 +210,35 @@ def saatchi_description(record, limit=1000):
         # Shorten design prose by complete paragraphs only, retaining at least
         # the first design paragraph and every specification and exclusion.
         paragraphs.pop()
+    # The native 1,000-character field cannot always hold the verbose catalogue
+    # specifications plus owner disclosures. Compact their wording, preserving
+    # dimensions, qualifications, finish variation, companions and commissions.
+    fields = dict(re.findall(r'(?m)^([^\n:]{1,35}):\s*([^\n]+)$', record['description_text']))
+    compact = ['Made from a gypsum-based material.', 'Colour: ' + colour.rstrip('.') + '.']
+    if record.get('surface_effect'):
+        compact.extend(['A decorative surface effect is applied.', SURFACE_VARIATION])
+    if fields.get('Companion pieces'):
+        companions = fields['Companion pieces'].partition(' with ')[2].partition('. Companion sculptures')[0]
+        if not companions:
+            raise ValueError('Unrecognised companion statement')
+        compact.append('Companion pieces: ' + companions + ' (sold separately).')
+    compact.extend(['Dimensions: ' + fields['Dimensions'].rstrip('.') + '.',
+                    'Weight: ' + fields['Weight'].rstrip('.') + '.',
+                    'Suitable for outdoor use and indoor display.',
+                    'Usually keyhole fixings; French cleats and other options are available.',
+                    'One sculpture supplied; other pieces and room props are not included.'])
+    if 'Pump, basin, pipework and installation are not included.' in record['description_text']:
+        compact.append('Pump, basin, pipework and installation are not included.')
+    compact.extend(['All designs can be customised; completely new commissions can be created with designer Sally Price.',
+                    'Dispatch within 3 working days; delivery transit time is additional.'])
+    brief = ' '.join(compact)
+    introduction = record['description_text'].partition('\nBrand:')[0].strip()
+    sentences = re.split(r'(?<=[.!?])\s+', introduction)
+    while sentences:
+        result = ' '.join(sentences) + '\n\n' + brief
+        if 50 <= len(result) <= limit:
+            return result
+        sentences.pop()
     raise ValueError('Required Saatchi copy exceeds the native character limit')
 
 
@@ -175,5 +252,7 @@ def validate(product, record):
         if label not in text: errors.append('Missing description field ' + label)
     if MATERIAL not in text: errors.append('Missing gypsum material statement')
     if record.get('surface_effect') and SURFACE not in text: errors.append('Missing surface-effect statement')
+    if record.get('surface_effect') and SURFACE_VARIATION not in text: errors.append('Missing handmade surface-effect variation statement')
+    if CUSTOMISATION not in text: errors.append('Missing Sally Price customisation statement')
     if not record.get('sku'): errors.append('Missing seller SKU')
     return errors

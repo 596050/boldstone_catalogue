@@ -338,6 +338,14 @@ export function chairishWorkflow({tab, native, directory}) {
         title: document.querySelector('#id_title')?.value,
         values: Object.fromEntries(['width', 'depth', 'height'].map(axis =>
           [axis, document.querySelector('#id_dimension_' + axis)?.value])),
+        protected: {
+          description: document.querySelector('#id_description')?.value,
+          photos: Array.from(document.querySelectorAll('img[id^="product-image-thumb-"]')).map(e => e.id),
+          commercialFields: Array.from(document.querySelectorAll('input,select,textarea'))
+            .filter(e => e.id && /price|quantity|inventory|discount|shipping|pieces|period|condition/.test(e.id))
+            .map(e => ({id: e.id, value: e.value,
+              checked: ['radio', 'checkbox'].includes(e.type) ? e.checked : undefined})),
+        },
       }));
       let before = await observe();
       if (before.sku !== record.sku) {
@@ -386,11 +394,16 @@ export function chairishWorkflow({tab, native, directory}) {
       }
       if (after.sku !== record.sku || Object.entries(plan.values).some(([axis, value]) =>
           Number(after.values[axis]) !== Number(value))) throw Error('Saved dimension mismatch: ' + record.sku);
+      if (before.title !== after.title || JSON.stringify(before.protected) !== JSON.stringify(after.protected)) {
+        await write(`${directory}/dimension-protection-mismatch-${record.sku}.json`, {before, after});
+        throw Error('Non-dimension fields changed; stop and inspect: ' + record.sku);
+      }
       receipt.structured_dimensions_source = JSON.stringify(plan);
       receipt.structured_dimensions_verified = plan.missing_axes.length === 0;
       receipt.structured_dimension_axes_pending = plan.missing_axes;
       await write(`${directory}/dimensions-readback-${record.sku}.json`, {
         at: new Date().toISOString(), native_id: receipt.id, plan, before, after, changed,
+        other_fields_unchanged: true,
       });
       await write(receiptsPath, rows);
       results.push({sku: record.sku, updated_axes: changed, verified_axes: Object.keys(plan.values),

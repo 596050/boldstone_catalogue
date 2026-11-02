@@ -57,7 +57,17 @@ def main():
     status['saatchi']['draft_scope'] = (
         f"97 title/primary-image drafts; {len(receipts)} galleries saved and read back. "
         'Descriptions, pricing and production facts remain incomplete; no new drafts published.')
-    status['validation']['saatchi_gallery_recovery_tests_passed'] = 14
+    if len(receipts) == len(records) and not in_flight:
+        status['saatchi'].setdefault('prior_gallery_save_blocker',
+            status['saatchi'].get('current_save_blocker'))
+        status['saatchi']['current_save_blocker'] = (
+            'None for the prepared galleries: all 97 saved and read back. '
+            'Required production facts still prevent completing the new artwork drafts.')
+        status['saatchi']['browser_recovery'] = (
+            'Existing artwork IDs reopened in a fresh Saatchi tab; all 97 galleries now verified. '
+            'No browser security settings changed and no site data cleared.')
+        status['saatchi']['gallery_proof'] = 'saatchi-current/all-97-galleries-final-proof.png'
+    status['validation']['saatchi_gallery_recovery_tests_passed'] = 15
     status['validation']['saatchi_gallery_preparation_tests_passed'] = 12
     status_path.write_text(json.dumps(status, indent=2) + '\n')
     print(json.dumps(result, indent=2))

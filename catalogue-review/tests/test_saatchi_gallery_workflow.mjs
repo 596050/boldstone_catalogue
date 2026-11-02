@@ -35,6 +35,7 @@ async function fixture(t, phase = 'SAVE_REQUESTED') {
   const tab = {url: async () => state.url,
     goto: async url => {state.mutations.push(['goto', url]); state.url = url;},
     playwright: {getByText: () => locator, getByRole: () => locator,
+      waitForURL: async url => {if (state.url !== url) throw new Error('Save navigation pending');},
       evaluate: async (_fn, arg) => arg === record.title ? state.titleLoaded : state.keys,
       domSnapshot: async () => state.snapshot}};
   const native = {getAXState: async () => state.ax,
@@ -104,6 +105,18 @@ test('a slow upload is resumed without another upload or submit', async t => {
   assert.deepEqual(saved.added_photo_ids, []);
 });
 
+test('an explicit processing message keeps the upload resumable without retrying bytes', async t => {
+  const f = await fixture(t, 'PHOTO_UPLOADING');
+  await f.write('gallery-edit-intent.json', {...f.intent, added_photo_ids: [], pending_photo_id: 'photo-2'});
+  f.state.waitError = new Error('dimensions not ready');
+  f.state.ax = '1 text Please wait while your image is uploaded...';
+  assert.equal((await f.ops.advance()).status, 'UPLOAD_PROCESSING_DO_NOT_REUPLOAD');
+  assert.deepEqual(f.state.mutations, []);
+  const saved = await f.read('gallery-edit-intent.json');
+  assert.equal(saved.phase, 'PHOTO_UPLOADING');
+  assert.equal(saved.pending_photo_id, 'photo-2');
+});
+
 test('an ambiguous photo submission requires inspection before any retry', async t => {
   const f = await fixture(t, 'PHOTO_SUBMITTING');
   await assert.rejects(f.ops.advance(), /phase needs inspection/);
@@ -160,9 +173,9 @@ test('a chooser deadline is handled even when the opening click is slower', asyn
   await f.write('prepared-galleries.json', {records: [f.record]});
   await f.write('gallery-edit-intent.json', {...f.intent, added_photo_ids: []});
   f.state.url = f.intent.image_url;
-  f.state.ax = '1 heading Upload Additional Image';
+  f.state.ax = '1 heading Upload Additional Image\n2 text Drag and drop image here or BROWSE IMAGE';
   f.tab.playwright.waitForEvent = () => Promise.reject(new Error('chooser deadline'));
-  f.tab.playwright.locator = () => ({click: () => new Promise(resolve => setTimeout(resolve, 20))});
+  f.native.click = () => new Promise(resolve => setTimeout(resolve, 20));
   await assert.rejects(f.ops.addOne(), /chooser deadline/);
   assert.equal((await f.read('gallery-edit-intent.json')).phase, 'ADDING');
   assert.deepEqual(f.state.mutations, []);

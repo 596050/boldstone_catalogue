@@ -27,6 +27,17 @@ export function saatchiGalleryWorkflow({tab, native, directory,
   }, id);
   const recordFor = async sku => (await read('prepared-galleries.json')).records.find(r => r.sku === sku);
 
+  async function awaitSavedOverview(intent, record) {
+    try {
+      await tab.playwright.waitForURL(intent.overview_url, {timeoutMs: 30000});
+      await tab.playwright.getByText(record.title, {exact: true})
+        .waitFor({state: 'visible', timeoutMs: 10000});
+    } catch {
+      return {sku: intent.sku, status: 'SAVE_UNCONFIRMED_DO_NOT_REPEAT'};
+    }
+    return capture();
+  }
+
   async function capture() {
     const intent = await read(intentFile);
     const record = await recordFor(intent.sku);
@@ -110,11 +121,17 @@ export function saatchiGalleryWorkflow({tab, native, directory,
     }
     if (!ax.includes('heading Upload Additional Image')) throw Error('Upload dialog did not open');
     await tab.playwright.domSnapshot();
+    // Saatchi re-renders the browse span while clicking it. Use the visible
+    // native upload region, which opens the same file chooser reliably.
+    ax = await native.getAXState({emit: false, disableDiffing: true});
+    const browseLine = ax.split('\n').find(line => /text Drag and drop image here or\s+BROWSE IMAGE/.test(line));
+    const browseIndex = Number(browseLine?.trim().match(/^\d+/)?.[0]);
+    if (!browseIndex) throw Error('Visible browse-image control unavailable');
     // Attach rejection handling immediately: a slow click can outlast the chooser
     // deadline, and an unhandled rejection would otherwise reset the CUA session.
     const chooserPromise = tab.playwright.waitForEvent('filechooser', {timeoutMs: 10000})
       .then(chooser => ({chooser}), error => ({error}));
-    await tab.playwright.locator('[data-type="browse-text"]').click();
+    await native.click(browseIndex);
     const chooserResult = await chooserPromise;
     if (chooserResult.error) throw chooserResult.error;
     const chooser = chooserResult.chooser;
@@ -135,7 +152,14 @@ export function saatchiGalleryWorkflow({tab, native, directory,
     try { await tab.playwright.getByText(dimensions, {exact: true}).waitFor({state: 'visible', timeoutMs: 15000}); }
     catch (error) {
       ax = await native.getAXState({emit: false, disableDiffing: true});
-      if (!ax.replace(/\s+/g, ' ').includes(dimensions)) throw error;
+      const visible = ax.replace(/\s+/g, ' ');
+      if (!visible.includes(dimensions)) {
+        if (visible.includes('Please wait while your image is uploaded') ||
+            (visible.includes('heading Additional Image') && visible.includes(photo.path.split('/').pop()))) {
+          return {sku: record.sku, status: 'UPLOAD_PROCESSING_DO_NOT_REUPLOAD'};
+        }
+        throw error;
+      }
     }
     const snapshot = await tab.playwright.domSnapshot();
     if (!snapshot.includes(photo.path.split('/').pop())) throw Error('Uploaded filename does not match expected photo');
@@ -167,15 +191,13 @@ export function saatchiGalleryWorkflow({tab, native, directory,
     await write(intentFile, {...intent, phase: 'SAVE_REQUESTED'});
     await nativeClick('SAVE & EXIT');
     // Observe only. A slow response must never trigger a repeated save.
-    await native.getAXState({emit: false});
-    return capture();
+    return awaitSavedOverview(intent, record);
   }
   async function advance() {
     const intent = await optional(intentFile);
     if (!intent.phase || intent.phase === 'VERIFIED') return start();
     if (intent.phase === 'SAVE_REQUESTED') {
-      await native.getAXState({emit: false});
-      return capture();
+      return awaitSavedOverview(intent, await recordFor(intent.sku));
     }
     if (intent.phase === 'PHOTO_UPLOADING') return finishUpload();
     if (intent.phase === 'ADDING') {

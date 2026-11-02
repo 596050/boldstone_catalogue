@@ -37,6 +37,25 @@ def native_bindings(path):
     return result
 
 
+def chairish_fulfilment(availability, parcel):
+    """Use explicit catalogue availability, never infer stock from parcel size.
+
+    Chairish exposes a production lead time for Not Yet Made listings. Its
+    ordinary three-day parcel rule therefore does not override those records.
+    Fourteen days is the native two-week option for the owner's ten-working-day
+    allowance; this is a draft setting, not a new physical-stock assertion.
+    """
+    made_to_order = bool(re.match(r'^made to order(?:;|$)',
+                                 str(availability or '').strip(), re.I))
+    return {
+        'dispatch_working_days': 10 if made_to_order or parcel is False else 3,
+        'source_availability': availability or '',
+        'period_made': 'NOT_MADE' if made_to_order else None,
+        'lead_time': 'W2' if made_to_order else None,
+        'lead_time_label': '14 days' if made_to_order else None,
+    }
+
+
 def download_photo(task):
     from PIL import Image
     index, photo, directory = task
@@ -133,6 +152,48 @@ def chairish_dimensions(text):
             'basis': 'Catalogue dimensions; upper endpoint where a range is given. Not a new physical measurement.'}
 
 
+def reviewed_orientation_dimensions(record, plan, review, assets):
+    """Assign existing face measurements using an explicitly reviewed photo.
+
+    This is not image measurement or a general portrait/landscape heuristic.
+    Each decision is bound to the exact component, source text and photo bytes.
+    """
+    if not review or review.get('status') != 'ORIENTATION_REVIEWED':
+        return plan
+    if (review.get('sku') != record['sku'] or
+            review.get('catalogue_id') != record['catalogue_id'] or
+            review.get('dimensions') != plan['source']):
+        raise ValueError('Stale orientation source: ' + record['sku'])
+    current_ids = {p.get('id') for p in record['photos']}
+    photo = next((p for p in assets if p.get('id') == review.get('photo_id')), None)
+    if (review.get('photo_id') not in current_ids or not photo or
+            not review.get('photo_sha256') or
+            (photo.get('upload_sha256') or photo.get('sha256')) != review['photo_sha256']):
+        raise ValueError('Stale orientation photo: ' + record['sku'])
+    local = photo.get('upload_path') or photo.get('path')
+    if local and (not Path(local).is_file() or
+                  hashlib.sha256(Path(local).read_bytes()).hexdigest() != review['photo_sha256']):
+        raise ValueError('Changed orientation photo bytes: ' + record['sku'])
+    number = r'(\d+(?:\.\d+)?)'
+    pair = re.search(number + r'\s*[×x]\s*' + number, plan['source'])
+    cm = {axis: Decimal(str(value)) for axis, value in review.get('face_cm', {}).items()}
+    if (not pair or set(cm) != {'width', 'height'} or
+            any(not n.is_finite() or n <= 0 for n in cm.values()) or
+            sorted(cm.values()) != sorted(Decimal(n) for n in pair.groups())):
+        raise ValueError('Orientation must preserve catalogue face measurements: ' + record['sku'])
+    values = dict(plan['values'])
+    for axis, value in cm.items():
+        inches = str((value / Decimal('2.54')).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
+        if axis in values and values[axis] != inches:
+            raise ValueError('Orientation conflicts with a labelled axis: ' + record['sku'])
+        values[axis] = inches
+    return {**plan, 'values': values,
+            'missing_axes': [axis for axis in ('width', 'depth', 'height') if axis not in values],
+            'orientation_review': {k: review[k] for k in
+                                   ('photo_id', 'photo_sha256', 'face_cm', 'observation', 'reviewed_utc')},
+            'basis': plan['basis'] + ' Width and height assigned in the visually reviewed photograph orientation.'}
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('source', type=Path)
@@ -142,12 +203,19 @@ def main():
     parser.add_argument('--photos-for-sku', action='append', default=[])
     parser.add_argument('--photos-for-missing-drafts', action='store_true',
                         help='Prepare selected photos for source SKUs with no saved native ID')
+    parser.add_argument('--orientation-review', type=Path,
+                        default=Path(__file__).resolve().parents[2] / 'channel-update-playbook' / 'chairish-orientation-review.json')
     args = parser.parse_args()
     if not args.draft_usd_per_gbp.is_finite() or args.draft_usd_per_gbp <= 0:
         raise ValueError('A positive explicit draft conversion is required')
     args.output.mkdir(parents=True, exist_ok=True)
     source = json.loads(args.source.read_text())
     records = source['records']
+    orientation_rows = (json.loads(args.orientation_review.read_text())['records']
+                        if args.orientation_review.exists() else [])
+    if len({r['sku'] for r in orientation_rows}) != len(orientation_rows):
+        raise ValueError('Duplicate orientation review SKUs')
+    orientations = {r['sku']: r for r in orientation_rows}
     if len({r['sku'] for r in records}) != len(records):
         raise ValueError('Duplicate source SKUs')
     native = native_bindings(args.output / 'draft-receipts.json')
@@ -189,7 +257,8 @@ def main():
             length, width, height = sorted(dims, reverse=True)
             parcel = (weight <= 68.0388555 and length <= 274.32 and
                       length + 2 * (width + height) <= 419.1)
-        days = 10 if parcel is False else 3
+        fulfilment = chairish_fulfilment(record.get('availability'), parcel)
+        days = fulfilment['dispatch_working_days']
         photos = record['photos']
         row = {'catalogue_id': record['catalogue_id'], 'sku': record['sku'],
                'title': record['marketplace_title'].replace('Wall sculpture', 'Wall Sculpture'),
@@ -198,6 +267,7 @@ def main():
                'draft_price_usd': str((Decimal(record['price_gbp']) * args.draft_usd_per_gbp)
                                       .quantize(Decimal('1'), rounding=ROUND_HALF_UP)),
                'dispatch_working_days': days,
+               'fulfilment': fulfilment,
                'parcel_from_packing_estimate': parcel,
                'structured_dimensions': chairish_dimensions(shipping.get('source', {}).get('dimensions', '')),
                'photos': photos[:18],
@@ -238,6 +308,7 @@ def main():
             (directory / 'manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
             row['upload_assets_status'] = manifest['status']
             print(f"Prepared {record['sku']}: {len(assets)}/{len(photos)} images; {len(errors)} errors", flush=True)
+        assets = []
         manifest_path = args.output / 'photos' / record['sku'] / 'manifest.json'
         if manifest_path.exists():
             manifest = json.loads(manifest_path.read_text())
@@ -260,6 +331,8 @@ def main():
                     p for p in photos if (p.get('id') or p['url']) not in accounted_ids]
                 row['primary_photo_requires_review'] = manifest['primary_photo_requires_review']
                 row['upload_assets_status'] = manifest['status']
+        row['structured_dimensions'] = reviewed_orientation_dimensions(
+            record, row['structured_dimensions'], orientations.get(record['sku']), assets)
         prepared.append(row)
     result = {'prepared_utc': datetime.now(timezone.utc).isoformat(),
               'source': str(args.source), 'count': len(prepared),
