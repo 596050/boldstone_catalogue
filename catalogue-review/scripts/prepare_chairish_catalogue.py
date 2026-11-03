@@ -147,6 +147,7 @@ def chairish_dimensions(text):
     inches = {axis: str((value / Decimal('2.54')).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
               for axis, value in cm.items()}
     return {'source': text, 'unit': 'inches', 'values': inches,
+            'values_cm': {axis: float(value) for axis, value in cm.items()},
             'uses_catalogue_upper_range': bool(re.search(r'\d\s*[–—-]\s*\d', text)),
             'missing_axes': [axis for axis in ('width', 'depth', 'height') if axis not in inches],
             'basis': 'Catalogue dimensions; upper endpoint where a range is given. Not a new physical measurement.'}
@@ -188,6 +189,7 @@ def reviewed_orientation_dimensions(record, plan, review, assets):
             raise ValueError('Orientation conflicts with a labelled axis: ' + record['sku'])
         values[axis] = inches
     return {**plan, 'values': values,
+            'values_cm': {**plan.get('values_cm', {}), **{axis: float(value) for axis, value in cm.items()}},
             'missing_axes': [axis for axis in ('width', 'depth', 'height') if axis not in values],
             'orientation_review': {k: review[k] for k in
                                    ('photo_id', 'photo_sha256', 'face_cm', 'observation', 'reviewed_utc')},

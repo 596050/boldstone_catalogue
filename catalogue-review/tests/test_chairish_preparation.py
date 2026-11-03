@@ -47,6 +47,7 @@ class ChairishPreparationTests(unittest.TestCase):
     def test_explicit_axes_do_not_follow_text_order(self):
         d = module.chairish_dimensions('80 cm wide × 60 cm high × 5–8 cm deep')
         self.assertEqual(d['values'], {'width': '31.50', 'height': '23.62', 'depth': '3.15'})
+        self.assertEqual(d['values_cm'], {'width': 80, 'height': 60, 'depth': 8})
         self.assertEqual(d['missing_axes'], [])
         self.assertTrue(d['uses_catalogue_upper_range'])
 
@@ -72,6 +73,7 @@ class ChairishPreparationTests(unittest.TestCase):
         record, plan, review, assets = self.orientation_fixture()
         result = module.reviewed_orientation_dimensions(record, plan, review, assets)
         self.assertEqual(result['values'], {'width': '19.69', 'height': '11.81', 'depth': '2.36'})
+        self.assertEqual(result['values_cm'], {'width': 50, 'height': 30, 'depth': 6})
         self.assertEqual(result['missing_axes'], [])
         self.assertEqual(plan['values'], {'depth': '2.36'})
         self.assertEqual(result['orientation_review']['photo_id'], 'photo:A')

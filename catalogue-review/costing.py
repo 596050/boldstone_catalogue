@@ -92,6 +92,14 @@ def values(product, reviews):
 def dimensions(text):
     # Only the first three dimensions describe the individual. Later framework
     # and arrangement dimensions never replace the panel's own size.
+    number = r'(\d+(?:\.\d+)?)(?:\s*[–−-]\s*(\d+(?:\.\d+)?))?'
+    labelled = []
+    for labels in ('wide|width', 'high|height', 'deep|(?:side |panel |body )?depth'):
+        match = re.search(number + r'\s*cm\s*(?:' + labels + r')\b', text, re.I)
+        if match:
+            labelled.append((float(match.group(1)) + float(match.group(2) or match.group(1))) / 2)
+    if len(labelled) == 3 and not re.search(r'\b(?:diameter|square)\b', text, re.I):
+        return *labelled, 1
     nums = [sum(float(x) for x in m if x)/len([x for x in m if x]) for m in
             re.findall(r'(\d+(?:\.\d+)?)(?:\s*[–−-]\s*(\d+(?:\.\d+)?))?', text)]
     if 'diameter' in text.lower() and len(nums) >= 2:

@@ -57,7 +57,8 @@ class CostModelTests(unittest.TestCase):
 
     def test_dimensions_circle_ranges_and_individual_not_arrangement(self):
         self.assertEqual(dimensions('35 x 35 cm per panel; approximately 6 cm deep; arrangement 70 x 70 cm'),(35,35,6,1))
-        self.assertEqual(dimensions('55 cm high x 30 cm wide x 5–7 cm deep'),(55,30,6,1))
+        self.assertEqual(dimensions('55 cm high x 30 cm wide x 5–7 cm deep'),(30,55,6,1))
+        self.assertEqual(dimensions('6 cm deep × 40 cm wide × 45 cm high'),(40,45,6,1))
         self.assertEqual(dimensions('45–60 cm square; 10–18 cm overall height'),(52.5,52.5,14,1))
         circle=dimensions('50 cm diameter x 2.5 cm deep');self.assertEqual(circle[:3],(50,50,2.5));self.assertAlmostEqual(circle[3],.7853981633974483)
         with self.assertRaises(ValueError): dimensions('Unknown')

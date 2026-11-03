@@ -36,9 +36,17 @@ def product_type(product):
     return 'Wall sculpture'
 
 
-def marketplace_title(product, limit=None):
+def finish_retail_name(product):
+    """Keep an applied colour/effect visibly distinct from the base material."""
     f = values(product)
     name = f.get('Retail name') or product.get('retail_name') or product['name']
+    if has_surface_effect(product) and not re.search(r'\bfinish\b', name, re.I):
+        name = name.rstrip() + ' Finish'
+    return name
+
+
+def marketplace_title(product, limit=None):
+    name = finish_retail_name(product)
     kind = product_type(product)
     title = 'Boldstone ' + name + ' ' + kind
     title = re.sub(r'\s+', ' ', title).strip()
@@ -46,7 +54,16 @@ def marketplace_title(product, limit=None):
         # Retain the brand and product type. Full model/finish remains in the
         # description and item specifics if the channel has a short title cap.
         room = limit - len('Boldstone ') - len(' ' + kind)
-        short = name[:room].rsplit(' ', 1)[0].rstrip(' -')
+        if has_surface_effect(product):
+            # A channel's title cap must not remove the material clarification.
+            design, separator, finish = name.rpartition(' - ')
+            suffix = separator + finish if separator else ' Finish'
+            if len(suffix) >= room:
+                raise ValueError('Title cap cannot retain the finish description')
+            stem = design if separator else re.sub(r'\s+Finish$', '', name, flags=re.I)
+            short = stem[:room - len(suffix)].rsplit(' ', 1)[0].rstrip(' -') + suffix
+        else:
+            short = name[:room].rsplit(' ', 1)[0].rstrip(' -')
         title = 'Boldstone ' + short + ' ' + kind
     return title
 
@@ -111,7 +128,7 @@ def complete_description(product, sku, dispatch_days=10, channel='catalogue'):
         text += '\nMaterial: ' + MATERIAL
     header = [
         'Brand: Boldstone', 'Product type: ' + product_type(product),
-        'Model: ' + (f.get('Retail name') or product['name']) + ' (' + sku + ')',
+        'Model: ' + finish_retail_name(product) + ' (' + sku + ')',
         'Colour / appearance: ' + appearance(product),
         'Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.',
     ]

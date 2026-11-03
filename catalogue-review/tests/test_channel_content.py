@@ -2,7 +2,7 @@ from pathlib import Path
 import sys
 import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from channel_content import complete_description, marketplace_title, product_type, validate, description_html, chairish_description, saatchi_description, surface_variation_copy, has_surface_effect, SURFACE_VARIATION, SURFACE, CUSTOMISATION
+from channel_content import complete_description, marketplace_title, finish_retail_name, product_type, validate, description_html, chairish_description, saatchi_description, surface_variation_copy, has_surface_effect, SURFACE_VARIATION, SURFACE, CUSTOMISATION
 
 class ChannelContentTests(unittest.TestCase):
     def product(self, name='Moon II - White'):
@@ -57,6 +57,26 @@ class ChannelContentTests(unittest.TestCase):
         title=marketplace_title(self.product('Extra long ' * 15+'White'),80)
         self.assertLessEqual(len(title),80); self.assertTrue(title.startswith('Boldstone ')); self.assertTrue(title.endswith('Wall sculpture'))
         self.assertIn('&lt;script&gt;',description_html('<script>'))
+
+    def test_effect_titles_and_models_say_finish_without_changing_white(self):
+        p=self.product('Spiralfish Wave and Tide I - Bronze')
+        p['costing']={'inputs':{'finishes':[{'id':'metallic'}]}}
+        expected='Spiralfish Wave and Tide I - Bronze Finish'
+        self.assertEqual(finish_retail_name(p),expected)
+        self.assertEqual(marketplace_title(p),'Boldstone '+expected+' Wall sculpture')
+        self.assertIn('Model: '+expected+' (BOLD-ABC)',complete_description(p,'BOLD-ABC'))
+        p['retail_name']=expected
+        self.assertEqual(finish_retail_name(p),expected)
+        p=self.product('Moon II - White')
+        p['costing']={'inputs':{'finishes':[{'id':'white'}]}}
+        self.assertEqual(finish_retail_name(p),'Moon II - White')
+
+    def test_title_cap_retains_effect_finish_and_distinguishing_colour(self):
+        p=self.product('An unusually long botanical relief name repeated several times - Copper and Verdigris')
+        p['costing']={'inputs':{'finishes':[{'id':'verdigris'}]}}
+        title=marketplace_title(p,80)
+        self.assertLessEqual(len(title),80)
+        self.assertTrue(title.endswith(' - Copper and Verdigris Finish Wall sculpture'))
     def test_missing_data_is_not_silently_fabricated(self):
         p=self.product(); p['fields']=[]
         self.assertIn('Missing Weight',validate(p,{'description_text':'Material: unknown','sku':''}))
