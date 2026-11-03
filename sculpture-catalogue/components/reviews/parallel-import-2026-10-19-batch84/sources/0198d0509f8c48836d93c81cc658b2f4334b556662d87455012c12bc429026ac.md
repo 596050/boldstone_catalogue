@@ -1,0 +1,16 @@
+**Moon Crater Phase 2 — White (MCP2) — six working fields accepted under standing approval.**
+
+[Individual image](https://www.dropbox.com/scl/fi/31vqgcxtdhc5dvbpycxn8/moon-crater-phase__moon-crater-phase-2-white__004.png?rlkey=nlh0xckb1gziz6ye2y32mqntr&dl=0) · [Containing folder](https://www.dropbox.com/scl/fo/f3pt6msyigj3tt2mifcpp/h?rlkey=nog7trk2nq99eplbl27w2pq3a&dl=0)
+
+| Specification | Working detail; source labels retained |
+|---|---|
+| Individual dimensions and depth | 25×25cm face,4–6cm side depth — historical maker standard; actual cast unmeasured |
+| Individual dry weight | 2–4kg maker calculation; dated trade4kg and retail5kg — actual cast unweighed |
+| Material and finish | Jesmonite AC730 / White marble stone finish — historical maker specification; pictured cast composition unconfirmed |
+| Fixing | One small stainless-steel rear fixing centred in upper third — maker instruction; actual White hardware/load unknown |
+| Individual retail price | £150 per White panel — proposal rounded from dated£156.25White retail reference; no exact White offer confirmed |
+| Availability | Made to order / enquire — proposed current policy; stock, usable mould and lead time unknown |
+
+[White series027](https://www.dropbox.com/scl/fi/2ko9gh8obnfax8madekub/moon-crater-phase__four-moon-craters-white__027.JPG?rlkey=dpuprs3vida0pljjmhwybq4ag&dl=0): existing target position Top right in exact027photograph retained for this exact photograph.
+
+Stock, reproduction, lead time, actual measurements/materials, rear-hardware load and client provenance remain unverified. Phase4ownerweight/price/stock/leadtime are not transferred.

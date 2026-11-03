@@ -1,0 +1,31 @@
+# Green Marbled Moon Print
+**Platform:** Facebook  
+**Photos:** 6 (Album, 4:5 (1200x1500))  
+**Hashtags:** 5  
+**Characters:** 549 / 1200  
+**Product:** https://boldstonesculpture.com/buy/p/green-marbled-moon-print
+
+---
+
+## Caption
+
+```
+Green Marbled Moon Print — Natural history, closely observed.
+
+One of a series of Marbled Moons mounted on high quality round window cut mount board of single size of 40cm x 40cm on 100% cotton rag paper Limited Edition of 10 These would look beautiful on any interior wall The prints come with an acid-free card backing board leaving you the freedom to choose…
+
+40cm x 40cm · Limited Edition · £60
+
+Available now: https://boldstonesculpture.com/buy/p/green-marbled-moon-print
+
+#boldstone #boldstonesculpture #britishsculpture #handmadeart #artprint
+```
+
+## Images to attach
+
+  01. 01.jpg
+  02. 02.jpg
+  03. 03.jpg
+  04. 04.jpg
+  05. 05.jpg
+  06. 06.jpg

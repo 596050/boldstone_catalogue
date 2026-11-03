@@ -1,0 +1,121 @@
+﻿offer_ref,squarespace_product_id,squarespace_variant_id,source_sku,source_capture_utc,source_record_locator,existing_related_option_ids,new_exact_individual_configuration_verified,new_physical_verification
+O001,68dc0a35a7ac865209b39248,f8335bce-dfb2-472e-96af-a7cd988fd50b,SQ7273150,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 216, ""csv_record_including_header_1based"": 217, ""physical_line_start"": 927, ""physical_line_end"": 927}","BSI-1B20DCA291BB
+BSI-22DA74B2107E
+BSI-65520F070145
+BSI-67B24409A253
+BSI-C87B4CF945C7
+BSI-CCB6CA396E9C
+BSI-D5A939264C82",False,False
+O002,6a40cfc5870e0e6bc1e0bb1d,5ee52805-9618-44bf-87f6-3e8eb08137ae,SQ6244576,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 72, ""csv_record_including_header_1based"": 73, ""physical_line_start"": 317, ""physical_line_end"": 317}",BSI-0922347CC6AE,False,False
+O003,6a410d3d21dbe14148c0a367,733a1644-4674-482e-ac5b-5e42e5f7fbe1,SQ1605793,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 156, ""csv_record_including_header_1based"": 157, ""physical_line_start"": 665, ""physical_line_end"": 665}",BSI-1AF0A83FAA37,False,False
+O004,6a410e3f16d56f3a046ef1d7,462d3d37-f550-429b-a84c-cca579fb15b1,SQ0836319,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 215, ""csv_record_including_header_1based"": 216, ""physical_line_start"": 926, ""physical_line_end"": 926}",BSI-59530C6155C2,False,False
+O005,6a41390021dbe14148c0b933,acc5fd43-ef9a-428d-86d0-78e001d4bbac,SQ6211184,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 110, ""csv_record_including_header_1based"": 111, ""physical_line_start"": 476, ""physical_line_end"": 476}",BSI-BFEE06AB14A0,False,False
+O006,6a4139bbac41db618c4666bd,a55c8cc4-579d-4f2e-acf2-97030e7479d0,SQ2233720,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 108, ""csv_record_including_header_1based"": 109, ""physical_line_start"": 474, ""physical_line_end"": 474}","BSI-46F6DB226213
+BSI-8298E205204F",False,False
+O007,6a413a26870e0e6bc1e0e00c,6b36107f-f358-4a88-91a5-acec9ff0745c,SQ6715979,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 109, ""csv_record_including_header_1based"": 110, ""physical_line_start"": 475, ""physical_line_end"": 475}",BSI-EBD43DF0704F,False,False
+O008,6a4173a2870e0e6bc1e10bf2,11b2fdc8-e662-45ed-9292-b79b50dde5f5,SQ5572436,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 107, ""csv_record_including_header_1based"": 108, ""physical_line_start"": 473, ""physical_line_end"": 473}",BSI-2E097B70CD7F,False,False
+O009,6a4199ab16d56f3a046f502f,dd19e6d1-9e97-40e7-aec2-581bd7fac273,SQ0059342,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 368, ""csv_record_including_header_1based"": 369, ""physical_line_start"": 1091, ""physical_line_end"": 1091}",BSI-4536FDCA0DA9,False,False
+O010,6a420a3021dbe14148c151df,ff5e963d-b870-4101-89d3-2a710c2a1063,SQ3851947,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 48, ""csv_record_including_header_1based"": 49, ""physical_line_start"": 214, ""physical_line_end"": 214}","BSI-41E5370B1314
+BSI-8C0D9152DF73
+BSI-93FC0B4F78DA",False,False
+O011,6a53ee70e5ed822c37e0b7bd,99fc1ad0-d33d-4eba-81d8-9c7bcb096346,SQ4868573,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 162, ""csv_record_including_header_1based"": 163, ""physical_line_start"": 690, ""physical_line_end"": 690}",BSI-8298E205204F,False,False
+O012,6a5559c21b9743318cc70b33,ce6f8d57-84c8-4b00-9748-dded31d3343c,SSR-1-100.50,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 160, ""csv_record_including_header_1based"": 161, ""physical_line_start"": 675, ""physical_line_end"": 682}",BSI-0401496CA4E6,False,False
+O013,6a5559ca1b9743318cc70b42,f81c5cb7-d2b1-4a42-9a77-c59bb71a771c,DDR-2-100.44,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 40, ""csv_record_including_header_1based"": 41, ""physical_line_start"": 168, ""physical_line_end"": 176}","BSI-87B48040E454
+BSI-8CD6A48141ED",False,False
+O014,6a5559cf7b54f252fef70728,34bace7a-aeee-426c-a619-c1fc6f15eac4,DF-1-100.50,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 41, ""csv_record_including_header_1based"": 42, ""physical_line_start"": 177, ""physical_line_end"": 182}",BSI-BB6D7F02662A,False,False
+O015,6a5559d21b9743318cc70b4b,40624991-b17a-49e7-bd1d-22ffbc0b118f,CM-1-50.50,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 34, ""csv_record_including_header_1based"": 35, ""physical_line_start"": 145, ""physical_line_end"": 150}","BSI-70C7029C1DB1
+BSI-98376D9FF006",False,False
+O016,6a5559d47b54f252fef7072b,8515c677-46c7-47e5-997d-927b6c09bc37,MW-1-74.35,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 116, ""csv_record_including_header_1based"": 117, ""physical_line_start"": 506, ""physical_line_end"": 512}",BSI-E5B3990ECDDC,False,False
+O017,6a5559ded0719241db250eca,0bc48999-b36d-40bd-a050-cfef730b3a4a,JRWP-4P-30.120,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 87, ""csv_record_including_header_1based"": 88, ""physical_line_start"": 382, ""physical_line_end"": 389}","BSI-04C3A2CA2BE1
+BSI-2AFD94C9F459
+BSI-FE973AD4748E",False,False
+O018,6a5559e41b9743318cc70b5b,c4432c91-6513-4531-9743-d7237035bdc2,AMML-2P-120.120,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 5, ""csv_record_including_header_1based"": 6, ""physical_line_start"": 24, ""physical_line_end"": 30}","BSI-C3858B1FE67E
+BSI-DA27DD604F0B",False,False
+O019,6a5559ef1b9743318cc70b65,2e7f3653-e11c-4bbc-ac16-3e8b854afd53,ES-2P-30.60,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 54, ""csv_record_including_header_1based"": 55, ""physical_line_start"": 239, ""physical_line_end"": 246}","BSI-BF85B0E4D43E
+BSI-F8398FA248EE",False,False
+O020,6a5559f3b48e7b64b82e5480,09a1f54c-5bb7-4fde-8b3d-209b3e01e2c6,DPS-2P-30.60,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 42, ""csv_record_including_header_1based"": 43, ""physical_line_start"": 183, ""physical_line_end"": 189}","BSI-E7CDC2CFAC9D
+BSI-F61AE4921B6B",False,False
+O021,6a5559f57b54f252fef70745,cf686c50-cc14-459a-b8e7-f7d523f428da,MM-2P-100.44,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 104, ""csv_record_including_header_1based"": 105, ""physical_line_start"": 458, ""physical_line_end"": 464}",BSI-6FE9343F889E,False,False
+O022,6a5559f7b48e7b64b82e5483,5c57a412-8a6c-4436-a4e8-59d54e874ac9,FF-1-70.50,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 61, ""csv_record_including_header_1based"": 62, ""physical_line_start"": 265, ""physical_line_end"": 271}",BSI-E21193597976,False,False
+O023,6a5559f91b9743318cc70b71,d5f13cb9-b908-4897-97fb-b0689bbfea1f,CF-1-70.50,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 38, ""csv_record_including_header_1based"": 39, ""physical_line_start"": 154, ""physical_line_end"": 160}",BSI-987E02C8748D,False,False
+O024,6a5559fcb48e7b64b82e5485,fd5e9e90-8699-4432-91fb-ff108f1000fc,FDW-2P-90.30,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 208, ""csv_record_including_header_1based"": 209, ""physical_line_start"": 887, ""physical_line_end"": 893}","BSI-837E9B0B3B36
+BSI-8CC6C8AABCB7",False,False
+O025,6a555a01b48e7b64b82e5488,de43f9f8-d597-460d-9396-f851737f5797,FDW-3P-90.45,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 203, ""csv_record_including_header_1based"": 204, ""physical_line_start"": 866, ""physical_line_end"": 872}","BSI-837E9B0B3B36
+BSI-8CC6C8AABCB7",False,False
+O026,6a555a08b48e7b64b82e548a,f3a0a895-d6be-4f31-a5cc-2021e3d370fe,FSR-1-50.100,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 63, ""csv_record_including_header_1based"": 64, ""physical_line_start"": 279, ""physical_line_end"": 286}",BSI-DF3FF43C94C9,False,False
+O027,6a555a0c7b54f252fef70755,e228f3e3-bd23-4dad-b8d6-c95d5528a810,DSTP-3P-45.120,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 43, ""csv_record_including_header_1based"": 44, ""physical_line_start"": 190, ""physical_line_end"": 196}","BSI-CAB0D722062D
+BSI-EC5966EA0C7A
+BSI-F61AE4921B6B",False,False
+O028,6a555a0eb48e7b64b82e5493,f489c850-842c-46ca-bfde-c05787951a36,LF-2P-35.70,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 210, ""csv_record_including_header_1based"": 211, ""physical_line_start"": 895, ""physical_line_end"": 901}",BSI-6581D83760F1,False,False
+O029,6a555a13b48e7b64b82e5499,dbd1f2df-e37a-49b1-b4bb-c1b989a95b06,BM-2P-50.50,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 27, ""csv_record_including_header_1based"": 28, ""physical_line_start"": 114, ""physical_line_end"": 120}","BSI-923D5E50A898
+BSI-F7ADC5AEE4E0",False,False
+O030,6a555a1db48e7b64b82e54ac,5901e3c2-3c20-4c20-88b9-d7f9a95e7c45,MP-5P-30.150,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 112, ""csv_record_including_header_1based"": 113, ""physical_line_start"": 484, ""physical_line_end"": 490}","BSI-41E5370B1314
+BSI-818D745F1357
+BSI-8C0D9152DF73
+BSI-93FC0B4F78DA",False,False
+O031,6a555a1f1b9743318cc70b8f,eb95fe15-08dc-45aa-8a93-2e4d72116041,MP-3P-30.90,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 113, ""csv_record_including_header_1based"": 114, ""physical_line_start"": 491, ""physical_line_end"": 497}","BSI-41E5370B1314
+BSI-8C0D9152DF73
+BSI-93FC0B4F78DA",False,False
+O032,6a555a2a1b9743318cc70ba0,e888afcc-da65-40a8-b357-f4f122ab48c0,SWBTCM-3P-100.66,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 155, ""csv_record_including_header_1based"": 156, ""physical_line_start"": 658, ""physical_line_end"": 664}","BSI-6FE9343F889E
+BSI-B9E2B67965E2",False,False
+O033,6a555a34d0719241db250f1e,c5556680-247e-4330-b1f2-2a6e6ebe94ff,MOSW-2P-100.44,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 106, ""csv_record_including_header_1based"": 107, ""physical_line_start"": 466, ""physical_line_end"": 472}","BSI-6FE9343F889E
+BSI-B9E2B67965E2",False,False
+O034,6a555a387b54f252fef7078f,ccca574e-25a1-4de9-9b72-a6c148042ebb,BS-2P-55.85,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 23, ""csv_record_including_header_1based"": 24, ""physical_line_start"": 99, ""physical_line_end"": 105}","BSI-7CDE8362BB51
+BSI-9278986A1A89",False,False
+O035,6a555a3ed0719241db250f25,d7654193-283d-4155-a9bb-59ef5aa17fb1,SFWT-2P-55.110,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 165, ""csv_record_including_header_1based"": 166, ""physical_line_start"": 699, ""physical_line_end"": 705}","BSI-A272AC152172
+BSI-B19E0B8602C1",False,False
+O036,6a555a481b9743318cc70bbd,f4f0f0a8-39d8-47a0-af25-62d4482af888,SM-1-55.55,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 167, ""csv_record_including_header_1based"": 168, ""physical_line_start"": 713, ""physical_line_end"": 720}",BSI-10BFED6B265B,False,False
+O037,6a555a6eb48e7b64b82e550a,ca53ee9f-8ebb-43fa-98e8-c21bfcebb694,ML-1-100.30,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 98, ""csv_record_including_header_1based"": 99, ""physical_line_start"": 441, ""physical_line_end"": 446}",BSI-5181D32AA24F,False,False
+O038,6a555a757b54f252fef707d1,1d89ba22-d937-4064-a17c-0240bb153f90,VDR-1-35.20,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 214, ""csv_record_including_header_1based"": 215, ""physical_line_start"": 918, ""physical_line_end"": 925}",BSI-59530C6155C2,False,False
+O039,6a555a777b54f252fef707d4,2d5849b8-b8a6-4a4e-a02a-f165d60f3304,GDRS-1-35.20,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 74, ""csv_record_including_header_1based"": 75, ""physical_line_start"": 324, ""physical_line_end"": 331}",BSI-0922347CC6AE,False,False
+O040,6a555a79b48e7b64b82e551e,a6ee2a14-a3ee-43ce-8ca0-b8fa8d8f7d99,MS-1-70.50,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 114, ""csv_record_including_header_1based"": 115, ""physical_line_start"": 498, ""physical_line_end"": 504}",BSI-87945118EC61,False,False
+O041,6a555a85d0719241db250f85,e2538668-2f55-43af-bc5e-f3980b7d30a8,TP-2P-50.60,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 212, ""csv_record_including_header_1based"": 213, ""physical_line_start"": 903, ""physical_line_end"": 910}","BSI-3ABEAEE767E8
+BSI-F13E2BF8C6C8",False,False
+O042,6a555a881b9743318cc70c16,a9d15298-ff64-4246-93dc-7a2dc9215944,GP-1-50.30,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 75, ""csv_record_including_header_1based"": 76, ""physical_line_start"": 332, ""physical_line_end"": 338}",BSI-32D2F01AFCD1,False,False
+O043,6a555aaf7b54f252fef70812,eb76122d-2afb-4607-b9da-e43b3d2a28b5,MFW-2P-55.84,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 111, ""csv_record_including_header_1based"": 112, ""physical_line_start"": 477, ""physical_line_end"": 483}","BSI-8AC0376F7DEF
+BSI-992BA62AA818",False,False
+O044,6a555ab3b48e7b64b82e5555,4f97a708-0dde-45d2-8929-ddf5630973bb,WBMS-3-40.120,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 365, ""csv_record_including_header_1based"": 366, ""physical_line_start"": 1081, ""physical_line_end"": 1088}","BSI-A57A49000891
+BSI-B6EC1EDD319F",False,False
+O045,6a555ab71b9743318cc70c42,34b0e1ce-1464-4efe-a173-76c658ab927e,SWF-1-70.50,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 201, ""csv_record_including_header_1based"": 202, ""physical_line_start"": 856, ""physical_line_end"": 864}",BSI-96174B219ECA,False,False
+O046,6a555aba1b9743318cc70c44,7cca80be-1c9c-42dd-8e37-8e0e8d592ce7,GS-1-30.30,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 77, ""csv_record_including_header_1based"": 78, ""physical_line_start"": 346, ""physical_line_end"": 351}",BSI-DB7FBD3E1323,False,False
+O047,6a555ac01b9743318cc70c4f,8eb8e977-a92c-4df4-957f-2d0a0686b746,TS-1-45.40,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 205, ""csv_record_including_header_1based"": 206, ""physical_line_start"": 874, ""physical_line_end"": 879}",BSI-F61AE4921B6B,False,False
+O048,6a555ac3d0719241db250fcc,3ba8f075-73f6-4f41-9c35-7f6299621041,AMM-2P-52.50,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 4, ""csv_record_including_header_1based"": 5, ""physical_line_start"": 17, ""physical_line_end"": 23}","BSI-624D16148726
+BSI-EFBAEB31C2B1",False,False
+O049,6a5a6205b545114fe38356cb,6870ea2d-6d43-461b-85aa-8abf75bbcce9,EBAY-188654392024,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 66, ""csv_record_including_header_1based"": 67, ""physical_line_start"": 289, ""physical_line_end"": 289}",BSI-8DE87C63B013,False,False
+O050,6a5a620a7b54f252fefb118d,a89b7d7c-d7bc-4f8f-bcc9-74a85cb9517e,EBAY-188654562815,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 64, ""csv_record_including_header_1based"": 65, ""physical_line_start"": 287, ""physical_line_end"": 287}",BSI-BFB0D3D29852,False,False
+O051,6a5a621422d8fb7a65ba5a77,ea0b690f-a56b-4c92-9f71-89d093e47a56,EBAY-188654649217,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 367, ""csv_record_including_header_1based"": 368, ""physical_line_start"": 1090, ""physical_line_end"": 1090}",BSI-947F365275C5,False,False
+O052,6a5a62191b9743318ccb1a00,5cbc3171-abce-4c95-8f99-48c8d9f98c25,EBAY-188654831217,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 366, ""csv_record_including_header_1based"": 367, ""physical_line_start"": 1089, ""physical_line_end"": 1089}",BSI-C3573D23A4B7,False,False
+O053,6a610203b545114fe3886bb6,3f931b93-55bb-42f6-a4f3-7aedffe8218c,PF1-40.45,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 127, ""csv_record_including_header_1based"": 128, ""physical_line_start"": 566, ""physical_line_end"": 566}",BSI-EC5966EA0C7A,False,False
+O054,6a61020a1b9743318cd0247a,8799e317-ab5a-4429-b6b2-7cabc6e63ab6,PF2-40.45,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 128, ""csv_record_including_header_1based"": 129, ""physical_line_start"": 567, ""physical_line_end"": 567}",BSI-CAB0D722062D,False,False
+O055,6a61020d90af307b67cfe606,30c42dd7-de64-4ce7-a8ea-677d59a83610,TPFS-3P-40.45,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 211, ""csv_record_including_header_1based"": 212, ""physical_line_start"": 902, ""physical_line_end"": 902}","BSI-CAB0D722062D
+BSI-EC5966EA0C7A
+BSI-F61AE4921B6B",False,False
+O056,6a610214b545114fe3886bc8,47d94bf5-1056-428c-b15d-3b0738759c02,SPF-2P-40.45,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 163, ""csv_record_including_header_1based"": 164, ""physical_line_start"": 691, ""physical_line_end"": 691}","BSI-CAB0D722062D
+BSI-F61AE4921B6B",False,False
+O057,6a61021f90af307b67cfe621,67336a45-a266-49bb-a3ca-a51e61673957,EP-30.30,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 53, ""csv_record_including_header_1based"": 54, ""physical_line_start"": 238, ""physical_line_end"": 238}","BSI-BF85B0E4D43E
+BSI-F8398FA248EE",False,False
+O058,6a610229b545114fe3886be2,ce22aac4-578d-4586-9ec8-4937dcddaaf7,LF-1-40.20,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 91, ""csv_record_including_header_1based"": 92, ""physical_line_start"": 411, ""physical_line_end"": 411}",BSI-6581D83760F1,False,False
+O059,6a6102307b54f252fe00210b,9d8c0d63-87c6-400e-8a85-51e4208271b3,MWTR-1-50,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 115, ""csv_record_including_header_1based"": 116, ""physical_line_start"": 505, ""physical_line_end"": 505}",BSI-70C7029C1DB1,False,False
+O060,6a9ff9707f3077314dd70146,28a31a13-25ca-4b9a-ad0b-c3c8e935b32e,SQ2946502,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 209, ""csv_record_including_header_1based"": 210, ""physical_line_start"": 894, ""physical_line_end"": 894}","BSI-612EF4DBB555
+BSI-FE830AE502C3",False,False
+O061,6a9ffa254b08934e6b0d20bc,f4761dd9-0823-4d75-bcbf-8bd35c78e811,SQ0717348,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 83, ""csv_record_including_header_1based"": 84, ""physical_line_start"": 370, ""physical_line_end"": 370}",BSI-123AABD474C1,False,False
+O062,6a9ffe924190ef386f1d85bf,c91feec3-1f08-48af-bb45-ecd9f13e2449,SQ1851097,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 198, ""csv_record_including_header_1based"": 199, ""physical_line_start"": 852, ""physical_line_end"": 852}",BSI-A0FFC102A6F1,False,False
+O063,6aa00e645e7636290fa6dc5a,fad5aad5-01d3-4ce4-9610-7af96ae67671,SQ2145412,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 65, ""csv_record_including_header_1based"": 66, ""physical_line_start"": 288, ""physical_line_end"": 288}",BSI-0D80125C0E35,False,False
+O064,6aa018ab5e7636290fa6e74c,118590fc-f3fa-4cf0-897c-4229cd349073,EBAY-188568590316,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 157, ""csv_record_including_header_1based"": 158, ""physical_line_start"": 666, ""physical_line_end"": 666}",BSI-1AF0A83FAA37,False,False
+O065,6aa01a8f4190ef386f1d9f2c,8802b2af-6fb4-474f-9904-9d07e7029f2c,EBAY-188568605667,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 141, ""csv_record_including_header_1based"": 142, ""physical_line_start"": 617, ""physical_line_end"": 617}",BSI-8C0D9152DF73,False,False
+O066,6aa01aa74b08934e6b0d3d85,42cb8fc2-990e-4f25-961f-4281963cfac8,EBAY-188590547084,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 360, ""csv_record_including_header_1based"": 361, ""physical_line_start"": 1071, ""physical_line_end"": 1071}",BSI-83F1AACE15E9,False,False
+O067,6aa01aad7f3077314dd71e8c,ca0fa776-e58d-41a3-b11b-ce9a64f458e4,EBAY-188654649217,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 152, ""csv_record_including_header_1based"": 153, ""physical_line_start"": 655, ""physical_line_end"": 655}",BSI-947F365275C5,False,False
+O068,6aa01ab77f3077314dd71e8f,cbea9b07-365a-4dfa-bdfa-bee9f4595821,EBAY-188682535224,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 153, ""csv_record_including_header_1based"": 154, ""physical_line_start"": 656, ""physical_line_end"": 656}",BSI-8DDEA2FEC9DA,False,False
+O069,6aa01abf4b08934e6b0d3d93,0289c01d-4544-445e-9a55-6d1e9944ae5f,EBAY-188686814621,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 28, ""csv_record_including_header_1based"": 29, ""physical_line_start"": 121, ""physical_line_end"": 121}",BSI-A9FE7D79863A,False,False
+O070,6aa01ac84b08934e6b0d3d9a,a1ec4c1b-26ba-4dc8-95db-c961cf806389,EBAY-188687221372,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 158, ""csv_record_including_header_1based"": 159, ""physical_line_start"": 667, ""physical_line_end"": 667}",BSI-DF431D2D9F15,False,False
+O071,6aa01ad04190ef386f1d9f61,36cf939a-0447-4568-9b2d-6fb63349e797,EBAY-188698779320,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 71, ""csv_record_including_header_1based"": 72, ""physical_line_start"": 316, ""physical_line_end"": 316}",BSI-2CA935C1A57A,False,False
+O072,6aa01ae74b08934e6b0d3dbe,f39360d5-9a28-4997-af2b-c31eae8453c9,EBAY-188721196311,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 361, ""csv_record_including_header_1based"": 362, ""physical_line_start"": 1072, ""physical_line_end"": 1072}","BSI-0BE032939501
+BSI-EF421C1D2C92",False,False
+O073,6aa01af34b08934e6b0d3dc7,aadf3004-03fc-4bdf-8544-06c9b120176d,EBAY-188703253522,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 79, ""csv_record_including_header_1based"": 80, ""physical_line_start"": 359, ""physical_line_end"": 359}",BSI-3C849B547D50,False,False
+O074,6aa1b29215d5b718cc231116,6898d943-3e26-4973-8679-b2946a2e4ca2,SQ6247538,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 143, ""csv_record_including_header_1based"": 144, ""physical_line_start"": 619, ""physical_line_end"": 619}",BSI-41E5370B1314,False,False
+O075,6aa1b2d414ae8e75b77741ea,61a8af6e-6dea-4d4a-9e8d-5d63c5f14e55,SQ1357552,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 142, ""csv_record_including_header_1based"": 143, ""physical_line_start"": 618, ""physical_line_end"": 618}",BSI-93FC0B4F78DA,False,False
+O076,6aa567506a2bd34c0d1272cd,287330af-8c70-43aa-a7b2-013324aeea10,SQ7372116,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 371, ""csv_record_including_header_1based"": 372, ""physical_line_start"": 1094, ""physical_line_end"": 1094}",BSI-9C7406B46836,False,False
+O077,6aa57c795a77421307a3f036,426187d0-6092-45dd-881f-2bb5e1739437,SQ1068535,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 370, ""csv_record_including_header_1based"": 371, ""physical_line_start"": 1093, ""physical_line_end"": 1093}",BSI-C02D6DF365D3,False,False
+O078,6aa5c06a2be1b2711bb656ad,79b50fd2-9197-4ee6-9e76-d13e170ba3ba,SQ0484508,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 11, ""csv_record_including_header_1based"": 12, ""physical_line_start"": 48, ""physical_line_end"": 48}",BSI-A76B86DA7928,False,False
+O079,6aa67715c20cf7004257259d,b532bf3e-8a34-4310-b3ba-b1934b212521,BWS-1-55.55,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 24, ""csv_record_including_header_1based"": 25, ""physical_line_start"": 106, ""physical_line_end"": 106}",BSI-1E0C826D896E,False,False
+O080,6aa688c79129ac4f52dfcaee,606e9cf6-ab79-46fb-9947-dc94300881bf,BT-1-100.22,2026-10-24T00:56:45.467073+00:00,"{""data_record_1based"": 26, ""csv_record_including_header_1based"": 27, ""physical_line_start"": 113, ""physical_line_end"": 113}",BSI-489226D6FF87,False,False

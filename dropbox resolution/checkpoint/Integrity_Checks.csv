@@ -1,0 +1,13 @@
+﻿Check,Result,Count
+Exact first ten scopes preserved,PASS,10
+Unstarted register rows preserved,PASS,340
+Distinct metadata IDs reviewed,PASS,194
+Metadata byte sizes match baseline,PASS,194
+Current revisions recorded,PASS,194
+Metadata filename no-ops,PASS,193
+Held naming exception excluded from mutation,PASS,1
+All held candidates preserved,PASS,7
+JPG metadata matches recovered QA byte sizes,PASS - METADATA ONLY,13
+Current JPG binary verification,BLOCKED - NOT A PASS,0
+Complete historical identity register recovered,PARTIAL - SOURCE GAP,
+Dropbox mutations performed,NONE,0

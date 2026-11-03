@@ -1,0 +1,23 @@
+# Sprouting Onion Beauty Print
+**Platform:** X  
+**Photos:** 2 (Max 2 photos, 16:9 (1600x900))  
+**Hashtags:** 3  
+**Characters:** 155 / 280  
+**Product:** https://boldstonesculpture.com/buy/p/sprouting-onion-beauty-print
+
+---
+
+## Caption
+
+```
+Paper, pigment, patience.
+
+Sprouting Onion Beauty Print · A4 - 297mm x 210mm · £20
+https://boldstonesculpture.com/buy/p/sprouting-onion-beauty-print
+#boldstone #boldstonesculpture #britishsculpture
+```
+
+## Images to attach
+
+  01. 01.jpg
+  02. 02.jpg

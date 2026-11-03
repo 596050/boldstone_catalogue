@@ -16,6 +16,9 @@
 !*.toml
 !*.yaml
 !*.yml
+!*.md
+!*.xlsx
+!*.csv
 !requirements*.txt
 !requirements*.lock
 !uv.lock
@@ -25,6 +28,7 @@
 !.gitignore
 !**/static/*.html
 !/README.md
+!/PLATFORMS.md
 !/Boldstone_Relief_Layout_Lab (1).html
 !/catalogue-review/README.md
 !/application/README.md

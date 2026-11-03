@@ -1,0 +1,65 @@
+﻿Family code,Baseline family,Snapshot-associated current IDs,Present historical duplicate targets,Present baseline-BMP IDs,Metadata batches,Duplicate-review batches,BMP-review batches,Visual child prefix,Close-out child prefix,Scope boundary
+FAM01,Abstract Cave Paintings,13,0,0,M001,None,None,V-FAM01,T-FAM01,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM02,Acanthus,81,0,0,M002,None,None,V-FAM02,T-FAM02,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM03,Ammonite,256,6,18,M003 to M005,D001,B001 to B002,V-FAM03,T-FAM03,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM04,Barbados Wave,34,11,11,M006,D002,B003 to B004,V-FAM04,T-FAM04,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM05,Bone Spiral,162,22,18,M007 to M008,D003,B005 to B006,V-FAM05,T-FAM05,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM06,Bone Water Spiral,41,19,7,M009,D004,B007,V-FAM06,T-FAM06,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM07,Brancusi,392,145,31,M010 to M013,D005 to D010,B008 to B011,V-FAM07,T-FAM07,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM08,Brancusi Totem,17,0,2,M014,None,B012,V-FAM08,T-FAM08,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM09,Chelsea Moonwave,15,1,3,M015,D011,B013,V-FAM09,T-FAM09,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM10,Chiswick Moon,21,4,3,M016,D012,B014,V-FAM10,T-FAM10,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM11,Collection Together,188,37,4,M017 to M018,D013 to D014,B015,V-FAM11,T-FAM11,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM12,Concave Moon,24,0,0,M019,None,None,V-FAM12,T-FAM12,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM13,Coral Spiral,17,6,3,M020,D015,B016,V-FAM13,T-FAM13,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM14,Cup Ring and Spiral,30,0,0,M021,None,None,V-FAM14,T-FAM14,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM15,Deco Dune Ripple,225,43,0,M022 to M024,D016 to D017,None,V-FAM15,T-FAM15,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM16,Deco Palm and Spiral,978,348,0,M025 to M034,D018 to D031,None,V-FAM16,T-FAM16,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM17,Decowaves,153,22,37,M035 to M036,D032,B017 to B020,V-FAM17,T-FAM17,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM18,Dune Ripple,453,28,36,M037 to M041,D033 to D034,B021 to B024,V-FAM18,T-FAM18,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM19,Echo Sound,203,23,0,M042 to M044,D035,None,V-FAM19,T-FAM19,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM20,Egyptian Two Palms,378,117,0,M045 to M048,D036 to D040,None,V-FAM20,T-FAM20,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM21,Embedded Shells,11,1,4,M049,D041,B025,V-FAM21,T-FAM21,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM22,Faceted Mound,13,5,0,M050,D042,None,V-FAM22,T-FAM22,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM23,Fan Folds,840,172,0,M051 to M059,D043 to D049,None,V-FAM23,T-FAM23,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM24,Fingerprint,94,6,0,M060,D050,None,V-FAM24,T-FAM24,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM25,Fish and Wave,6,1,1,M061,D051,B026,V-FAM25,T-FAM25,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM26,Fountain Palm,295,8,0,M062 to M064,D052,None,V-FAM26,T-FAM26,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM27,Frozen Fish,94,21,36,M065,D053,B027 to B030,V-FAM27,T-FAM27,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM28,Gleneagles Vine and Tendril,12,3,0,M066,D054,None,V-FAM28,T-FAM28,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM29,Knightsbridge Fountain,20,5,0,M067,D055,None,V-FAM29,T-FAM29,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM30,Lava Moon,7,1,3,M068,D056,B031,V-FAM30,T-FAM30,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM31,Leaf curve,162,74,0,M069 to M070,D057 to D059,None,V-FAM31,T-FAM31,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM32,Leaf Form,217,97,29,M071 to M073,D060 to D063,B032 to B034,V-FAM32,T-FAM32,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM33,Leaf Growth,203,87,0,M074 to M076,D064 to D067,None,V-FAM33,T-FAM33,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM34,Moon & Shellwave,180,40,63,M077 to M078,D068 to D069,B035 to B041,V-FAM34,T-FAM34,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM35,Moon Crater Phase,195,48,14,M079 to M080,D070 to D071,B042 to B043,V-FAM35,T-FAM35,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM36,Moon Crater Wide Lip,9,0,0,M081,None,None,V-FAM36,T-FAM36,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM37,Moon Fishwave,187,63,10,M082 to M083,D072 to D074,B044,V-FAM37,T-FAM37,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM38,Moon Ring,8,2,4,M084,D075,B045,V-FAM38,T-FAM38,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM39,Moon Ripple,17,2,2,M085,D076,B046,V-FAM39,T-FAM39,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM40,Mooncrater,25,11,4,M086,D077,B047,V-FAM40,T-FAM40,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM41,Moonphases,350,84,75,M087 to M090,D078 to D081,B048 to B055,V-FAM41,T-FAM41,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM42,Moonshell Lava,15,5,4,M091,D082,B056,V-FAM42,T-FAM42,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM43,Moonshell Lava Corner Curve,7,3,2,M092,D083,B057,V-FAM43,T-FAM43,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM44,Moonspirals,175,57,71,M093 to M094,D084 to D086,B058 to B065,V-FAM44,T-FAM44,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM45,Moonwater catcher,106,49,0,M095 to M096,D087 to D088,None,V-FAM45,T-FAM45,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM46,Moonwave,185,86,0,M097 to M098,D089 to D092,None,V-FAM46,T-FAM46,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM47,Panel Curves,58,27,0,M099,D093 to D094,None,V-FAM47,T-FAM47,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM48,Plant Form,7,0,4,M100,None,B066,V-FAM48,T-FAM48,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM49,Raked Spiral,133,31,44,M101 to M102,D095 to D096,B067 to B071,V-FAM49,T-FAM49,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM50,Riyadh Shell Spiral and Wave,64,25,17,M103,D097,B072 to B073,V-FAM50,T-FAM50,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM51,Rust and Verdigris Panel,34,2,0,M104,D098,None,V-FAM51,T-FAM51,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM52,Sally With Sculptures,1,0,0,M105,None,None,V-FAM52,T-FAM52,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM53,Seaweed Ripple,185,14,0,M106 to M107,D099,None,V-FAM53,T-FAM53,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM54,Shellmoon,120,51,21,M108 to M109,D100 to D102,B074 to B076,V-FAM54,T-FAM54,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM55,Soundwave,9,1,3,M110,D103,B077,V-FAM55,T-FAM55,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM56,Spice Texture,3,0,1,M111,None,B078,V-FAM56,T-FAM56,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM57,Spiralfish Wave & Tide,76,21,17,M112,D104,B079 to B080,V-FAM57,T-FAM57,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM58,Spiralmoon,108,40,34,M113 to M114,D105 to D106,B081 to B084,V-FAM58,T-FAM58,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM59,Strata,20,0,0,M115,None,None,V-FAM59,T-FAM59,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM60,Textured panels,132,0,0,M116 to M117,None,None,V-FAM60,T-FAM60,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM61,Videos Of Sculpture Making,1,0,0,M118,None,None,V-FAM61,T-FAM61,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM62,Wall Circle,172,3,0,M119 to M120,D107,None,V-FAM62,T-FAM62,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM63,Wall Panel Azure Blue Marble,43,1,0,M121,D108,None,V-FAM63,T-FAM63,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
+FAM64,Wave and Moon Shadow,97,36,6,M122,D109 to D110,B085,V-FAM64,T-FAM64,Counts follow baseline family association. Resolve current paths before action. Zero candidates does not certify clean content.
