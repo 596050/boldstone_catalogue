@@ -1,0 +1,33 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {Workbook,SpreadsheetFile} from '@oai/artifact-tool';
+const out=path.resolve(process.argv[2]);
+const data=JSON.parse(await fs.readFile(path.join(out,'faire-upload.json'),'utf8'));
+const book=Workbook.create();
+const sheet=book.worksheets.add('Products');
+sheet.getRangeByIndexes(0,0,1,data.headers.length).values=[data.headers];
+sheet.getRangeByIndexes(1,0,data.rows.length,data.headers.length).values=data.rows;
+const region=sheet.getRangeByIndexes(0,0,data.rows.length+1,data.headers.length);
+region.format={font:{name:'Calibri',size:11},verticalAlignment:'top',rowHeight:34,columnWidth:24};
+sheet.getRangeByIndexes(0,0,1,data.headers.length).format={fill:'#586F50',font:{name:'Calibri',size:11,bold:true,color:'#FFFFFF'},rowHeight:40,wrapText:true};
+sheet.getRange('A:A').format.columnWidth=24;
+sheet.getRange('B:B').format.columnWidth=60;
+sheet.getRange('D:D').format.columnWidth=85;
+sheet.getRange('D2:D177').format.wrapText=false;
+sheet.getRange('F2:G177').format.numberFormat='"£"#,##0.00';
+sheet.getRange('H2:I177').format.numberFormat='0';
+sheet.freezePanes.freezeRows(1);
+sheet.freezePanes.freezeColumns(1);
+sheet.showGridLines=false;
+await book.recalculate();
+const got=region.values;
+if(got.length!==177||JSON.stringify(got)!==JSON.stringify([data.headers,...data.rows]))throw Error('Workbook data differs from upload packet');
+const scan=await book.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A|#NUM!|#NULL!',options:{useRegex:true,maxResults:5},summary:'Faire upload error scan'});
+await fs.writeFile(path.join(out,'artifact-verification.ndjson'),scan.ndjson);
+for(const [range,name] of [['A1:C5','products'],['E1:I6','prices']]){
+ const image=await book.render({sheetName:'Products',range,scale:1.3,format:'png'});
+ await fs.writeFile(path.join(out,name+'.png'),new Uint8Array(await image.arrayBuffer()));
+}
+const file=path.join(out,'boldstone_faire_products.xlsx');
+await(await SpreadsheetFile.exportXlsx(book)).save(file);
+console.log(JSON.stringify({status:'PASS',products:data.rows.length,file}));

@@ -26,8 +26,15 @@ snapshot = read('app-after.json')
 with urllib.request.urlopen('http://127.0.0.1:8767/api/specifications', timeout=120) as response:
     current_app = json.load(response)
 def relevant(app):
-    return {p['id']: {'fields': {f['key']: f['value'] for f in p['fields'] + p['listing_fields']},
-                     'costing': p['costing']} for p in app['products']}
+    result = {p['id']: {'fields': {f['key']: f['value'] for f in p['fields'] + p['listing_fields']},
+                       'costing': p['costing']} for p in app['products']}
+    if (OUT / 'completeness-plan.json').exists():
+        for p in app['products']:
+            result[p['id']].update(listing_decision=p['listing_decision'], photos=p['photos'],
+                shipping_inputs={k:p['us_shipping'][k] for k in ('source_fingerprint','packed_cm','packed_kg')},
+                shipping_quotes=[{k:q.get(k) for k in ('destination','status','charges','estimate_gbp','fuel_percent','valid_until','sources')}
+                                 for q in p['us_shipping']['quotes']])
+    return result
 assert relevant(current_app) == relevant(snapshot), 'Catalogue values changed during preparation; reconcile before upload.'
 receipt_path = OUT / 'dropbox-receipt.json'
 assert not receipt_path.exists(), 'Reconcile an existing receipt before retrying an upload.'
@@ -41,6 +48,10 @@ if (OUT / 'corrections-plan.json').exists():
     receipt['scope'] = read('corrections-plan.json')['scope']
 if (OUT / 'saatchi-import-plan.json').exists():
     receipt['scope'] = read('saatchi-import-plan.json')['scope']
+if (OUT / 'completeness-plan.json').exists():
+    receipt['scope'] = read('completeness-plan.json')['scope']
+if (OUT / 'editions-plan.json').exists():
+    receipt['scope'] = read('editions-plan.json')['scope']
 save = lambda: receipt_path.write_text(json.dumps(receipt, indent=2) + '\n')
 with Path('/Users/tprice/Library/Application Support/BoldstoneReview/native-jobs/writer.lock').open('a') as lock:
     fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
@@ -80,7 +91,19 @@ updated = dict(prior)
 updated.update(path=str(OUT / 'catalogue_wall_sculptures.xlsx'), sha256=sha(body), dropbox=receipt['current'],
     dropbox_receipt=str(receipt_path), dropbox_receipt_sha256=sha(receipt_path.read_bytes()),
     verification=str(OUT / 'verification.json'), verification_sha256=sha((OUT / 'verification.json').read_bytes()))
-if (OUT / 'saatchi-import-plan.json').exists():
+if (OUT / 'editions-plan.json').exists():
+    updated.update(saatchi_editions_updated_utc=receipt['verified_utc'],
+        saatchi_editions_scope=receipt['scope'],
+        saatchi_editions_plan=str(OUT / 'editions-plan.json'),
+        saatchi_editions_plan_sha256=sha((OUT / 'editions-plan.json').read_bytes()),
+        saatchi_editions_verified=str(OUT / 'independent-verification.json'))
+elif (OUT / 'completeness-plan.json').exists():
+    updated.update(completeness_updated_utc=receipt['verified_utc'],completeness_scope=receipt['scope'],
+        completeness_plan=str(OUT / 'completeness-plan.json'),
+        completeness_plan_sha256=sha((OUT / 'completeness-plan.json').read_bytes()),
+        completeness_verified=str(OUT / 'independent-verification.json'),
+        completeness_audit=str(OUT / 'data-audit.json'))
+elif (OUT / 'saatchi-import-plan.json').exists():
     updated.update(saatchi_import_utc=receipt['verified_utc'],saatchi_import_scope=receipt['scope'],
         saatchi_import=str(OUT / 'saatchi-import-plan.json'),
         saatchi_import_sha256=sha((OUT / 'saatchi-import-plan.json').read_bytes()),
@@ -90,7 +113,12 @@ else:
         platform_reconciliation=str(OUT / 'matched-platform-records.json'),
         platform_reconciliation_sha256=sha((OUT / 'matched-platform-records.json').read_bytes()))
 updated.update(sheets=verification.get('sheets', updated.get('sheets')),
-               app_snapshot_utc=snapshot['checked_at'], component_records=len(snapshot['products']))
+               component_records=len(snapshot['products']))
+if (OUT / 'editions-plan.json').exists():
+    # A platform-only metadata edit does not refresh the full app-derived workbook.
+    updated['saatchi_editions_app_snapshot_utc'] = snapshot['checked_at']
+else:
+    updated['app_snapshot_utc'] = snapshot['checked_at']
 if (OUT / 'corrections-plan.json').exists():
     updated.update(platform_corrections=str(OUT / 'corrections-plan.json'),
                    platform_corrections_sha256=sha((OUT / 'corrections-plan.json').read_bytes()),

@@ -94,12 +94,22 @@ with zipfile.ZipFile(OUT/'previous-catalogue.xlsx') as oz,zipfile.ZipFile(OUT/'a
                     assert not covering,'Existing column widths require explicit reconciliation'
                     E.SubElement(cols,q('col'),{'min':str(change['first']),'max':str(change['last']),'width':str(change['width']),'customWidth':'1'})
             if name=='Wall Sculptures':
-                last=plan['headers'][plan['added_master_columns'][-1]]
                 # Header allocation can precede writes, so use the actual final index.
                 last=max(plan['headers'].values(),key=ix)
                 dim=after.find('s:dimension',NS);dim.set('ref','A1:'+last+'188')
                 cols=after.find('s:cols',NS)
-                E.SubElement(cols,q('col'),{'min':str(plan.get('first_master_column',264)),'max':str(plan['last_master_column']),'width':'32','customWidth':'1'})
+                for number in range(plan.get('first_master_column',264),plan['last_master_column']+1):
+                    if not any(int(c.get('min'))<=number<=int(c.get('max')) for c in cols):
+                        E.SubElement(cols,q('col'),{'min':str(number),'max':str(number),'width':'32','customWidth':'1'})
+            else:
+                dim=after.find('s:dimension',NS)
+                if dim is not None:
+                    last=dim.get('ref').split(':')[-1]
+                    maxcol=max([ix(last)]+[ix(a) for a in patches])
+                    maxrow=max([int(re.search(r'\d+',last).group())]+[int(re.search(r'\d+',a).group()) for a in patches])
+                    label='';n=maxcol
+                    while n:n,d=divmod(n-1,26);label=chr(65+d)+label
+                    dim.set('ref','A1:'+label+str(maxrow))
             parts[path]=E.tostring(after,encoding='utf-8',xml_declaration=True);altered.add(path)
         nc={c.get('r'):c for c in after.findall('s:sheetData/s:row/s:c',NS)}
         for address,c in bc.items():
@@ -113,6 +123,10 @@ with zipfile.ZipFile(OUT/'previous-catalogue.xlsx') as oz,zipfile.ZipFile(OUT/'a
     t=rels[rid].lstrip('/');tablepath=t if t.startswith('xl/') else 'xl/'+t.removeprefix('../')
     table=E.fromstring(parts[tablepath]);columns=table.find('s:tableColumns',NS)
     byindex={ix(c):h for h,c in plan['headers'].items()}
+    for rename in plan.get('header_renames', []):
+        tablecolumn=columns[ix(rename['column'])-1]
+        assert tablecolumn.get('name')==rename['before'], rename
+        tablecolumn.set('name',rename['value'])
     for i in range(len(columns)+1,plan['last_master_column']+1):E.SubElement(columns,q('tableColumn'),{'id':str(i),'name':byindex[i]})
     columns.set('count',str(len(columns)));table.set('ref','A7:'+max(plan['headers'].values(),key=ix)+'188')
     auto=table.find('s:autoFilter',NS)

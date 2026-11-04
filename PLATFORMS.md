@@ -1,4 +1,8 @@
 **Added:**
+Apple Business
+Google Business Profile
+Bing Webmaster
+
 https://www.facebook.com/marketplace/you/selling?referral_surface=seller_hub
 Meta Commerce Manager Facebook
 
@@ -12,21 +16,21 @@ https://www.chairish.com/
 https://edit.wescover.com/creator/MSJZKJh9uMg?anchor=items
 https://www.saatchiart.com/en-gb/studio
 
-Apple Business
-Google Business Profile
-Bing Webmaster
-
 https://seller-uk.tiktok.com/university/essay?from=feature_guide&identity=1&is_new_connect=0&is_new_user=0&knowledge_id=7753849800820481&role=1&utm_source=chatgpt.com
 
 
-**In Progress and Applied:**
+https://www.faire.com/brand-portal/brand-onboarding/upload-products
+gumtree.com
+https://www.bonanza.com/booths/Boldstone/activate/item_import
 
-**In Progress:**
-https://www.notonthehighstreet.com/join/faqs?utm_source=chatgpt.com
+
+**In Progress and Applied:**
+https://www.notonthehighstreet.com/join/faqs
 The Range Marketplace
 Robert Dyas
 
-gumtree.com
+**In Progress:**
+
 Brighthelm-Stone
 Amazon.co.uk
 1stdibs.com
