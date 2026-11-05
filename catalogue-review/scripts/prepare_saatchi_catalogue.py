@@ -7,6 +7,7 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 import json
+import math
 from pathlib import Path
 import sys
 from urllib.parse import urlparse
@@ -28,9 +29,23 @@ def native_artwork_bindings(receipts_path):
     for receipt in receipts:
         sku = receipt.get('sku') if isinstance(receipt, dict) else None
         native_id = receipt.get('artwork_id') if isinstance(receipt, dict) else None
+        saved_draft = isinstance(receipt, dict) and receipt.get('status') == 'DRAFT_PRIMARY_ONLY_NOT_PUBLISHED'
+        published = isinstance(receipt, dict) and receipt.get('status') == 'PUBLISHED_NATIVE_READBACK_VERIFIED'
+        if published:
+            public_url_value = receipt.get('public_url')
+            public_url = urlparse(public_url_value if isinstance(public_url_value, str) else '')
+            published = (receipt.get('verified_visibility') == 'Published' and
+                         public_url.scheme == 'https' and
+                         public_url.hostname in ('saatchiart.com', 'www.saatchiart.com') and
+                         isinstance(native_id, str) and
+                         public_url.path.endswith('/' + native_id + '/view') and
+                         isinstance(receipt.get('publication_evidence'), str) and
+                         bool(receipt['publication_evidence'].strip()) and
+                         isinstance(receipt.get('verified_utc'), str) and
+                         bool(receipt['verified_utc'].strip()))
         if (not isinstance(sku, str) or not sku.strip() or
                 not isinstance(native_id, str) or not native_id.isdecimal() or
-                receipt.get('status') != 'DRAFT_PRIMARY_ONLY_NOT_PUBLISHED'):
+                not (saved_draft or published)):
             raise ValueError('Native artwork receipt is incomplete or unverified')
         if sku in bindings and bindings[sku] != native_id:
             raise ValueError('Conflicting native artwork IDs for ' + sku)
@@ -66,6 +81,20 @@ def channel_primary_selection(record, photo_checks, receipts, alternatives):
     return {'photo_id': photo_id, 'strategy': strategy,
             'status': 'READY_IMAGE' if eligible else 'NEEDS_IMAGE_REVIEW',
             'catalogue_primary_unchanged': True}
+
+
+def crate_required(dimensions_cm, weight_kg):
+    """Apply inclusive Saatchi thresholds; missing measurements stay unknown."""
+    dimensions = list(dimensions_cm or [])
+    for value in dimensions + ([weight_kg] if weight_kg is not None else []):
+        if (isinstance(value, bool) or not isinstance(value, (int, float)) or
+                not math.isfinite(value) or value <= 0):
+            raise ValueError('Artwork dimensions and weight must be positive finite numbers')
+    if any(value >= 30.48 for value in dimensions):
+        return True
+    if weight_kg is not None and weight_kg >= 2.26796185:
+        return True
+    return False if len(dimensions) == 3 and weight_kg is not None else None
 
 
 def image_header(url):
@@ -163,9 +192,7 @@ def main():
         shipping = r.get('us_shipping') or {}
         dims = shipping.get('artwork_upper_cm') or []
         weight = shipping.get('artwork_upper_kg')
-        crate = (max(dims) > 30.48 if dims else None)
-        if weight is not None:
-            crate = bool(crate or weight > 2.26796185)
+        crate = crate_required(dims, weight)
         prepared.append({
             'catalogue_id': r['catalogue_id'], 'sku': r['sku'], 'title': r['title'],
             'source_price_gbp': r['price_gbp'], 'description': description,

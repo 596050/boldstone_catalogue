@@ -46,10 +46,57 @@ class NativeBindingTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'unverified'):
             self.load([row])
 
+    def test_verified_published_record_survives_preparation_reruns(self):
+        row = self.receipt()
+        row.update(status='PUBLISHED_NATIVE_READBACK_VERIFIED',
+                   verified_visibility='Published',
+                   public_url='https://www.saatchiart.com/en-gb/art/Sculpture-Test/1/14379999/view',
+                   publication_evidence='evidence/published-overview.txt',
+                   verified_utc='2026-11-05T18:00:00+00:00')
+        first = self.load([row])
+        self.assertEqual(first['BOLD-TEST'], '14379999')
+        self.assertEqual(first, module.native_artwork_bindings(self.path))
+
+    def test_published_label_without_matching_readback_cannot_create_binding(self):
+        valid = dict(self.receipt(), status='PUBLISHED_NATIVE_READBACK_VERIFIED',
+                     verified_visibility='Published',
+                     public_url='https://www.saatchiart.com/en-gb/art/Sculpture-Test/1/14379999/view',
+                     publication_evidence='evidence/published-overview.txt',
+                     verified_utc='2026-11-05T18:00:00+00:00')
+        for patch in ({'verified_visibility': 'Draft'}, {'publication_evidence': ''},
+                      {'verified_utc': ''}, {'public_url': None}, {'public_url': []},
+                      {'public_url': 'https://example.com/14379999/view'},
+                      {'public_url': 'https://www.saatchiart.com/art/14378888/view'}):
+            with self.subTest(patch=patch), self.assertRaisesRegex(ValueError, 'unverified'):
+                self.load([{**valid, **patch}])
+
     def test_malformed_receipts_fail_closed(self):
         for rows in ({'sku': 'BOLD-TEST'}, [None], [{'sku': 'BOLD-TEST'}]):
             with self.subTest(rows=rows), self.assertRaises(ValueError):
                 self.load(rows)
+
+
+class CrateRequirementTests(unittest.TestCase):
+    def test_exact_twelve_inches_requires_crate(self):
+        self.assertIs(module.crate_required([30.48, 20, 5], 1), True)
+
+    def test_exact_five_pounds_requires_crate(self):
+        self.assertIs(module.crate_required([20, 20, 5], 2.26796185), True)
+
+    def test_known_trigger_does_not_need_other_measurements(self):
+        self.assertIs(module.crate_required([], 3), True)
+        self.assertIs(module.crate_required([40], None), True)
+
+    def test_missing_measurements_cannot_approve_box(self):
+        for dimensions, weight in [([], None), ([], 1), ([20, 20, 5], None), ([20], 1)]:
+            with self.subTest(dimensions=dimensions, weight=weight):
+                self.assertIsNone(module.crate_required(dimensions, weight))
+        self.assertIs(module.crate_required([20, 20, 5], 1), False)
+
+    def test_invalid_measurements_are_not_treated_as_small(self):
+        for value in [0, -1, float('nan'), float('inf'), True, '20']:
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                module.crate_required([value, 20, 5], 1)
 
 
 class ChannelPrimaryTests(unittest.TestCase):

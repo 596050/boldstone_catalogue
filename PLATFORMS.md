@@ -17,9 +17,9 @@ https://edit.wescover.com/creator/MSJZKJh9uMg?anchor=items
 https://www.saatchiart.com/en-gb/studio
 
 https://seller-uk.tiktok.com/university/essay?from=feature_guide&identity=1&is_new_connect=0&is_new_user=0&knowledge_id=7753849800820481&role=1&utm_source=chatgpt.com
-
-
 https://www.faire.com/brand-portal/brand-onboarding/upload-products
+https://adorno.design/
+
 
 
 **Added but has upfront fee:**
@@ -32,8 +32,9 @@ https://www.notonthehighstreet.com/join/faqs
 The Range Marketplace
 Robert Dyas
 
-**In Progress:**
 
+
+**In Progress:**
 Brighthelm-Stone
 Amazon.co.uk
 1stdibs.com
@@ -47,7 +48,6 @@ Pavilion Broadway
 ArtGallery.co.uk
 Artfinder
 
-
 **Requires payment:**
 Amazon handmade
 
@@ -57,3 +57,21 @@ Wayfair UK
 B&Q Marketplace
 Argos Marketplace
 Tesco Marketplace
+
+
+
+
+
+
+******Ideas:******
+
+Enhance cheap furniture
+Epoxy over verdigris sculpture and table top
+Concrete - burned effect
+
+MossCrete
+
+Polished white lampbase
+Black and white and taupe lampbase
+
+Corroded sand effect
