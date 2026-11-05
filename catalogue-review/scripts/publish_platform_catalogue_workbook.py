@@ -52,6 +52,8 @@ if (OUT / 'completeness-plan.json').exists():
     receipt['scope'] = read('completeness-plan.json')['scope']
 if (OUT / 'editions-plan.json').exists():
     receipt['scope'] = read('editions-plan.json')['scope']
+if (OUT / 'profit-pricing-plan.json').exists():
+    receipt['scope'] = read('profit-pricing-plan.json')['scope']
 save = lambda: receipt_path.write_text(json.dumps(receipt, indent=2) + '\n')
 with Path('/Users/tprice/Library/Application Support/BoldstoneReview/native-jobs/writer.lock').open('a') as lock:
     fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
@@ -91,7 +93,13 @@ updated = dict(prior)
 updated.update(path=str(OUT / 'catalogue_wall_sculptures.xlsx'), sha256=sha(body), dropbox=receipt['current'],
     dropbox_receipt=str(receipt_path), dropbox_receipt_sha256=sha(receipt_path.read_bytes()),
     verification=str(OUT / 'verification.json'), verification_sha256=sha((OUT / 'verification.json').read_bytes()))
-if (OUT / 'editions-plan.json').exists():
+if (OUT / 'profit-pricing-plan.json').exists():
+    updated.update(platform_profit_pricing_updated_utc=receipt['verified_utc'],
+        platform_profit_pricing_scope=receipt['scope'],
+        platform_profit_pricing_plan=str(OUT / 'profit-pricing-plan.json'),
+        platform_profit_pricing_plan_sha256=sha((OUT / 'profit-pricing-plan.json').read_bytes()),
+        platform_profit_pricing_verified=str(OUT / 'independent-verification.json'))
+elif (OUT / 'editions-plan.json').exists():
     updated.update(saatchi_editions_updated_utc=receipt['verified_utc'],
         saatchi_editions_scope=receipt['scope'],
         saatchi_editions_plan=str(OUT / 'editions-plan.json'),
@@ -114,7 +122,9 @@ else:
         platform_reconciliation_sha256=sha((OUT / 'matched-platform-records.json').read_bytes()))
 updated.update(sheets=verification.get('sheets', updated.get('sheets')),
                component_records=len(snapshot['products']))
-if (OUT / 'editions-plan.json').exists():
+if (OUT / 'profit-pricing-plan.json').exists():
+    updated['platform_profit_pricing_app_snapshot_utc'] = snapshot['checked_at']
+elif (OUT / 'editions-plan.json').exists():
     # A platform-only metadata edit does not refresh the full app-derived workbook.
     updated['saatchi_editions_app_snapshot_utc'] = snapshot['checked_at']
 else:

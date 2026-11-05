@@ -1,0 +1,1 @@
+../../catalogue-review/scripts/build_bonanza_csv.mjs

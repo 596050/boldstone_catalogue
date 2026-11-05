@@ -20,6 +20,9 @@ https://seller-uk.tiktok.com/university/essay?from=feature_guide&identity=1&is_n
 
 
 https://www.faire.com/brand-portal/brand-onboarding/upload-products
+
+
+**Added but has upfront fee:**
 gumtree.com
 https://www.bonanza.com/booths/Boldstone/activate/item_import
 
