@@ -1,0 +1,41 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {Workbook, FileBlob, SpreadsheetFile} from '@oai/artifact-tool';
+const out=path.dirname(new URL(import.meta.url).pathname);
+const source=JSON.parse(await fs.readFile(path.join(out,'../brandboom-import-20261105/upload-plan.json'),'utf8'));
+if(process.argv.includes('--preview')){
+ const wb=await SpreadsheetFile.importXlsx(await FileBlob.load(path.join(out,'previous-catalogue.xlsx')));
+ console.log((await wb.inspect({kind:'region',sheetId:'Wall Sculptures',range:'SW7:SX10',maxChars:1600,tableMaxRows:4,tableMaxCols:2})).ndjson);
+ const im=await wb.render({sheetName:'Wall Sculptures',range:'SW7:SX10',scale:1,format:'png'});
+ await fs.writeFile(path.join(out,'before.png'),new Uint8Array(await im.arrayBuffer()));
+} else if(process.argv.includes('--fields')) {
+ const wb=Workbook.create(),s=wb.worksheets.add('Products');
+ const headers=['SKU Number','Style ID','Option Code','Option Name','Size','Season','Vendor'];
+ const oldRows=new Map(source.rows.map(row=>[row[0],row]));
+ const rows=source.records.map(r=>[r.sku,r.sku,'STANDARD',oldRows.get(r.sku)[6],'One sculpture','Year-round','Boldstone']);
+ const range=s.getRangeByIndexes(0,0,rows.length+1,headers.length);
+ range.values=[headers,...rows];range.format={font:{name:'Arial',size:11},columnWidth:26,rowHeight:24,verticalAlignment:'center'};
+ s.getRange('A1:G1').format={fill:'#586F50',font:{name:'Arial',size:11,bold:true,color:'#FFFFFF'}};
+ s.freezePanes.freezeRows(1);s.showGridLines=false;
+ await wb.recalculate();
+ console.log((await wb.inspect({kind:'region',sheetId:'Products',range:'A1:G4',maxChars:1800,tableMaxRows:4,tableMaxCols:7})).ndjson);
+ await (await SpreadsheetFile.exportXlsx(wb)).save(path.join(out,'brandboom-field-update.xlsx'));
+ const im=await wb.render({sheetName:'Products',range:'A1:G6',scale:1.4,format:'png'});
+ await fs.writeFile(path.join(out,'fields-preview.png'),new Uint8Array(await im.arrayBuffer()));
+ console.log(JSON.stringify({status:'PREPARED_FIELDS_ONLY',records:rows.length,no_images:true,no_price_change:true}));
+} else if(process.argv.includes('--catalogue')) {
+ const plan=JSON.parse(await fs.readFile(path.join(out,'catalogue-plan.json'),'utf8'));
+ const wb=await SpreadsheetFile.importXlsx(await FileBlob.load(path.join(out,'previous-catalogue.xlsx')));
+ const s=wb.worksheets.getItem('Wall Sculptures');
+ s.getRangeByIndexes(6,plan.first_added_column-1,182,plan.added_headers.length).format={font:{name:'Calibri',size:11},wrapText:true,verticalAlignment:'top',columnWidth:32,numberFormat:'@'};
+ s.getRangeByIndexes(6,plan.first_added_column-1,1,plan.added_headers.length).format={fill:'#586F50',font:{name:'Calibri',size:11,bold:true,color:'#FFFFFF'},rowHeight:75};
+ for(const p of plan.patches)s.getRange(p.cell).values=[[p.value]];
+ for(const h of plan.numeric_headers||[])s.getRange(`${plan.headers[h]}8:${plan.headers[h]}188`).format.numberFormat='0.00';
+ await wb.recalculate();
+ for(const p of plan.patches)if(s.getRange(p.cell).values[0][0]!==p.value)throw Error('Authored value mismatch '+p.cell+' '+JSON.stringify({actual:s.getRange(p.cell).values[0][0],expected:p.value}));
+ await (await SpreadsheetFile.exportXlsx(wb)).save(path.join(out,'authored.xlsx'));
+ const rr=plan.preview_range;
+ const im=await wb.render({sheetName:'Wall Sculptures',range:rr,scale:1.1,format:'png'});
+ await fs.writeFile(path.join(out,'catalogue-preview.png'),new Uint8Array(await im.arrayBuffer()));
+ console.log(JSON.stringify({status:'CATALOGUE_AUTHORED',patches:plan.patches.length,fields:plan.added_headers.length}));
+} else throw Error('Choose --preview, --fields or --catalogue');
