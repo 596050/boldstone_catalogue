@@ -9,6 +9,7 @@ Verified account identifiers during setup on 31 October 2026; recheck identity b
 | Squarespace admin | https://caper-spinach-spcy.squarespace.com/config/commerce/selling-tools |
 | Dropbox workbook | `/BOLDSTONE MASTER/Products/01 Wall Sculptures/_Documents_Catalogue/catalogue_wall_sculptures.xlsx` |
 | Google Merchant Center | 5664655454 — Boldstone Sculpture; https://merchants.google.com/mc/taskhub?a=5664655454 |
+| Microsoft Merchant Center (verified 7 November 2026) | Boldstone Sculpture — store `50112622`, feed `1830841`, account `187335961`; [store](https://ui.ads.microsoft.com/campaign/vnext/merchantcenter/overview?aid=187335961&cid=255124527&storeId=50112622&uid=193182372). [Setup and refresh instructions](microsoft-merchant-center.md). |
 | GA4 property | 546648922 — Boldstone Sculpture; measurement ID G-DYE31M1PWM |
 | Meta business | 2380586078685156 |
 | Meta catalogue | 1638438493182970 |

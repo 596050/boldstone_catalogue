@@ -1,3 +1,21 @@
+**We offer three levels of service:**
+
+- **Made to Order:** Choose from our existing collections, handcrafted in your preferred size and finish where available.
+- **Customised Designs:** Adapt an existing sculpture with bespoke colours, dimensions, materials or finishes.
+- **Completely Bespoke:** Commission an original design created specifically for your home, garden, business or interior design project.
+
+We work with private collectors, homeowners, interior designers, architects, garden designers and commercial clients in the UK and internationally.
+
+
+
+
+
+
+
+
+
+
+
 Most of it is now done, but Google approval, Marketplace and complete conversion tracking remain unfinished.
 
 | Request | Verified status |

@@ -17,9 +17,15 @@ Test every changed product's data and media. Use representative products for the
 | TikTok images and content | Real product images meet 800-pixel minimum on both axes; correct main photo, maximum nine; no off-platform purchase steering | Native saved draft and original image dimensions |
 | US delivery planning | Physical and dimensional weight, destination zone, tariff/surcharge date and oversize rules checked; budget is not advertised as a guaranteed quote | Calculation tests, workbook and dated carrier source |
 | Cross-platform duplicate safety | One record for each intended account/component/sale unit; existing IDs, drafts and pending imports reconciled before creation | Platform ID and SKU ledger, before/after counts |
+| Saatchi pending shipping quote | A zero/pending shipping preview sends no Save; after the native quote arrives, save once and reopen the same artwork | Native quote, saved overview with price/edition/quantity/packed weight |
+| Saatchi primary image dimensions | Reject the observed 1200-by-1600 Strata source before any native creation. Require width at least 1500 and height at least 1200, preserving the intended orientation | Original-byte dimensions, exact upload hash and native rejection evidence |
+| Saatchi publication receipt | An incomplete Published receipt fails validation; retained native proof can supply missing tracking fields without changing SKU/ID or claiming a new publication | `native_artwork_bindings` and exact native evidence hashes |
 | Publication-state preservation | Copy-only edit retains live/draft/inactive status; import flags alone are insufficient | Before/after product state and native list counts; pilot one item first |
 | Interrupted update recovery | Reopen the exact existing ID/SKU; compare saved copy before another mutation; never recreate an uncertain item | Reopened editor/export and durable per-item receipt |
 | Main carousel | Primary first; all selected listing/in situ photos; no ads-only/excluded photos or duplicates | Ordered IDs/URLs + screenshot |
+| Complete photo source | A component with more than six Listing or In situ photos retains its full selection; preview-array length is never substituted for the stated full count | Coverage IDs, full component records and count assertions |
+| Photo-upload completion | Counted but still-processing uploads cannot trigger Save; after Save the exact existing draft reopens with every intended photo and the correct primary | Enabled photo controls, completed upload state and fresh native readback |
+| Imported-gallery preservation | Adding a current selected photo preserves every retained imported photo after save/reopen; otherwise rebuild and verify one complete original batch before continuing | Before/after source IDs, native count, primary and reopened screenshot |
 | Group photography | Correct components and finish; individual sale is unambiguous | Photo review + product copy |
 | Image delivery | Public HTTPS URLs load without login, expiry or local cache dependency | Fresh browser/HTTP readback |
 | Alt text | Describes the actual photo and component; no filename-only text | Public DOM |

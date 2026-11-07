@@ -22,6 +22,7 @@ Create one release record before starting. Record `PASS`, `FAIL`, `PENDING` or `
 - [ ] Resolve aliases and merged products while retaining historical mappings; do not create duplicate finishes.
 - [ ] Ensure removed/excluded components remain excluded after refresh.
 - [ ] Inspect previews and original dimensions; a cached thumbnail is not evidence of original resolution.
+- [ ] For Saatchi primary images, verify at least 1500 pixels wide and 1200 pixels high in the intended viewing orientation. A 1200-wide portrait fails even when its long edge exceeds 1500. Do not upscale, pad or turn the sculpture sideways to satisfy the check.
 - [ ] Verify group photographs are associated with the correct individual components.
 
 ## 3. Finalise catalogue choices
@@ -39,6 +40,7 @@ Create one release record before starting. Record `PASS`, `FAIL`, `PENDING` or `
 - [ ] Confirm primary belongs to the listing and is not excluded or in situ.
 - [ ] Review listing, in situ, advertising and associated-only purposes separately.
 - [ ] Include every selected listing and in situ image; record any photography gaps without inventing images.
+- [ ] Use complete photo ID lists from `/api/coverage` and full records from `/api/component-overview/{product_id}`. The `/api/specifications` photo `images` arrays are card previews capped at six per section; never treat them as complete galleries. Assert full ID totals match the stated section counts before generating a channel plan.
 - [ ] Put primary first and preserve intentional gallery order; remove duplicate placements.
 - [ ] Add accurate alt text and verify publishing rights for selected photographs.
 - [ ] Confirm packed shipping weight, outer package dimensions, delivery region/rate and any quote-only exception.
@@ -63,6 +65,8 @@ Create one release record before starting. Record `PASS`, `FAIL`, `PENDING` or `
 - [ ] Verify public visibility, canonical product URL, image order/count and structured product data.
 - [ ] Check every changed product, then representative unchanged products for regressions.
 - [ ] Reconcile any ambiguous save by reading it back before retrying.
+- [ ] For eBay photo uploads, wait until every expected photo has an enabled edit/view control and Select is enabled. The upload counter can include unfinished files. Save once, reopen the exact draft ID/SKU, and verify the complete gallery persisted before proceeding.
+- [ ] Pilot appending to an imported eBay gallery before using that method broadly. A mixed imported/local gallery saved only its newly uploaded photo on 7 November. If readback loses retained photos, stop appending and replace the complete gallery from verified current originals, primary first; reopen and reconcile the full set before publication.
 
 ## 6. Refresh the Dropbox catalogue document
 
@@ -120,6 +124,8 @@ Create one release record before starting. Record `PASS`, `FAIL`, `PENDING` or `
 ## 10. Test, observe and close
 
 - [ ] Update existing eBay, TikTok Shop, Chairish, Wescover and Saatchi Art records by account plus platform ID/SKU. Reconcile drafts, pending reviews and live records before creating anything; preserve distinct pair/set offers.
+- [ ] In Saatchi's sale form, wait for a positive native shipping quote and a complete price preview before Save. A visible Save link and populated inputs do not prove the quote or save is ready. Reopen the same artwork's overview to verify the actual price, edition, quantity and packed weight; reconcile a failed save before retrying.
+- [ ] Validate Saatchi publication receipts through `native_artwork_bindings`: native ID, exact SKU, Published visibility, public URL ending in the same ID, native evidence and original verification time are all required. Repair incomplete tracking fields only from retained native evidence; never recreate an existing artwork to repair a local receipt.
 - [ ] Verify material and surface-effect wording on every changed channel, including any structured material field and supplementary feed that can override native copy. Do not treat an accepted upload as a verified live change.
 - [ ] Pilot any bulk editor on one existing record and verify its publication state. In TikTok, `draft_tab=true` did not prevent `Live(1)` from publishing drafts in the 1 November template; do not reuse that upload for draft-preserving edits.
 - [ ] Preserve eBay draft upload receipts and reconcile the account's current drafts before any further import. The 1 November requests were `12356778479` for 157 sapr_2972 offers and `13338436334` for 176 in6192 drafts; accepted imports are not proof that offers are live.

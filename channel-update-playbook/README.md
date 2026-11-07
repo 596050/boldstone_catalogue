@@ -8,6 +8,8 @@ Start with [the release checklist](release-checklist.md), then complete [the tes
 
 [Platform field requirements](platform-requirements.md) and the [reusable product-field template](templates/product-fields.json) cover complete product information, truthful missing fields, photographs, dispatch exceptions and notifications. The default dispatch allowance is now **10 working days**, with **three working days where required**. TikTok's shorter standard dispatch rule must be resolved before activating made-to-order stock.
 
+[Microsoft Merchant Center](microsoft-merchant-center.md) records the 7 November setup, the 176-product feed, free Bing Shopping listing settings, approval status and refresh procedure. Meta Ads campaign import is separate from importing products.
+
 [Marketplace: the 30 additional listings and one blocked draft](marketplace-listings-2026-10-31.md).
 
 [Setup status on 31 October 2026](status-2026-10-31.md) separates verified changes from platform review, missing evidence and owner-dependent work.
@@ -30,11 +32,13 @@ flowchart TD
   S --> X[Refresh Google and Meta supplementary fields]
   X --> G
   X --> M
+  S --> B[Refresh Microsoft Merchant Center product feed]
   M --> C[Shop collections and exact product tags]
   Q --> P[Marketplace listing updates: separate manual publication]
   Q --> T[Instagram, Facebook and Threads links and content]
   H --> V[Public, mobile, checkout and analytics verification]
   G --> V
+  B --> V
   C --> V
   P --> V
   T --> V
@@ -48,6 +52,7 @@ flowchart TD
 | App edits → public website | Saving specifications, prices or image uses does not publish the website. | Capture and publish an explicit update. |
 | Squarespace → main Google/Meta feeds | Native integrations refresh their feeds. | Verify the last processing time, exact variant IDs and changed fields. |
 | Supplementary Google/Meta fields | Existing supplementary uploads are separate from the native feed. | Regenerate and refresh them after relevant changes; verify their precedence. |
+| Microsoft Merchant Center | The 176-product feed was uploaded on 7 November. Free product listings and automatic price/availability checks are enabled; approval is pending. Full catalogue updates are manual. | Regenerate from the current app and verified website, update existing feed `1830841`, and reconcile the downloaded product report. Refresh before the feed expires; automatic item updates do not replace feed uploads. |
 | Marketplace | Independent listings; no established automatic catalogue sync. | Update each existing listing by its saved listing ID; create only missing listings. |
 | Posts, Stories, highlights and profile links | Existing content does not automatically adopt every product change. | Review affected content and links. Instagram web currently restricts bio-link editing to the mobile app. |
 
