@@ -3,10 +3,12 @@ Apple Business
 Google Business Profile
 Bing Webmaster
 
+Correct Google source | Account 5664655454, actively supplied by Squarespace. All 176 sculpture URLs and GBP prices match the catalogue. |
 https://merchants.google.com/mc/overview?a=5664655454&authuser=0&hl=en
 [Google Manufacturer Center](https://manufacturers.google.com/mc/overview?a=5898308482)
 
 [Microsoft Merchant Center](https://ui.ads.microsoft.com/campaign/vnext/merchantcenter/products?aid=187335961&cid=255124527&storeId=50112622&uid=193182372)
+Microsoft Merchant Center | Correct Google account selected; daily import saved for 06:00 London. Its first completed import remains unverified: Microsoft still shows 0 imported products.
 
 https://www.facebook.com/marketplace/you/selling?referral_surface=seller_hub
 

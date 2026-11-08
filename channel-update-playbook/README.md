@@ -8,7 +8,9 @@ Start with [the release checklist](release-checklist.md), then complete [the tes
 
 [Platform field requirements](platform-requirements.md) and the [reusable product-field template](templates/product-fields.json) cover complete product information, truthful missing fields, photographs, dispatch exceptions and notifications. The default dispatch allowance is now **10 working days**, with **three working days where required**. TikTok's shorter standard dispatch rule must be resolved before activating made-to-order stock.
 
-[Microsoft Merchant Center](microsoft-merchant-center.md) records the 7 November setup, the 176-product feed, free Bing Shopping listing settings, approval status and refresh procedure. Meta Ads campaign import is separate from importing products.
+[Microsoft Merchant Center](microsoft-merchant-center.md) records the correct Google account and daily import, the earlier manual feed now kept test-only, and the outstanding first-run verification. Meta Ads campaign import is separate from importing products.
+
+[Google Sheets, Manufacturer Center and Pinterest](google-pinterest-catalogues.md) records the 7 November native master and retail feed, Dropbox backups, Pinterest approval barrier, GTIN requirement and verified Faire/Furnitures/Brandboom publication status. The Sheets snapshots need refreshing after app/website changes; Pinterest's saved schedule alone does not update a disabled source.
 
 [Marketplace: the 30 additional listings and one blocked draft](marketplace-listings-2026-10-31.md).
 

@@ -2,7 +2,30 @@
 
 Native setup verified on 7 November 2026. This is the product-catalogue route for Bing Shopping. The onboarding option **Import from Meta Ads** imports advertising campaigns; it does not create the sculpture product catalogue.
 
-## Account and current result
+## Current Google import — 7 November 2026, evening
+
+The production source is now **Google Merchant Center 5664655454, Boldstone Sculpture**, signed in as `info@boldstone.co.uk`. Do not select the older account `550093983` offered first by the Microsoft wizard.
+
+- Google primary source `Squarespace-1469f13b`, Merchant API data-source ID `10788949980`, has 325 website products. The native export matches all 176 established wall-sculpture URLs and current GBP catalogue prices. Its Google item IDs are variant UUIDs, not the Seller SKUs in the earlier manual feed. The native Google feed label is `US`; do not infer currency from that label. The checked wall-sculpture prices are explicitly GBP.
+- Microsoft import **Website sync - GMC 5664655454** is saved for every day at **06:00, GMT Standard Time (London)**. Its Google-import feed is `1830968`, native name `GoogleImport_5664655454_20261107211433`.
+- The first import was requested once and queued. At the last recorded check, the imported product count was still zero and no completed run was shown. A saved schedule is not evidence of a completed import, approval or Bing visibility.
+- Old manual feed `1830841` was reversibly changed to **Use feed for testing only** and read back as **Test feed**. Keep that setting while the Google import is the production source. Its original 176 SellerSKU IDs do not overlap the Google UUIDs; allowing both feeds to serve would risk duplicate offers.
+- No paid campaign, payment method or new advertising spend was added.
+
+Evidence is in `outputs/catalogue-channel-imports-20261107/`, including `google-source-reconciliation.json`, `microsoft-google-daily-schedule.txt`, `microsoft-two-feed-identities.txt`, and `microsoft-manual-feed-test-only.txt`.
+
+## Refresh after a catalogue update
+
+1. Complete the app-to-website release first. The app owns specifications, catalogue inclusion, prices and image choices. Keep website product and variant identities stable.
+2. Verify the current Squarespace Merchant API source in Google account **5664655454** has the intended website records, GBP prices, product URLs and primary images. Its total currently includes 149 non-wall-sculpture products as well as the 176 sculptures; a whole-account Microsoft import is broader than a wall-only file.
+3. Let the existing daily Microsoft Google import run, or request **Import now once**. Never submit a second manual production feed as an unexplained workaround for a queued import.
+4. Inspect the native import result, feed and product report. Match all 176 sculpture URLs and Google UUIDs, inspect other imported products separately, then reconcile GBP prices and images. Record pending, rejected and approved counts separately. If the count remains zero, record that no completed import was established rather than claiming successful publication.
+5. Keep the old manual feed test-only. If a deliberate rollback is needed, first stop the Google import from serving and reconcile its current offers; then restore the reviewed manual payload. Do not serve both identity schemes together.
+6. Check free Product Listings, diagnostics, price/availability safeguards and subsequent visibility. Do not add payment or advertising campaigns to solve a free-catalogue setup issue.
+
+The daily import refreshes Google's current website catalogue. It does not publish unsaved app changes to Squarespace or refresh separate Pinterest/Google Sheets snapshots.
+
+## Earlier manual upload — retained history
 
 - Signed-in business account: `info@boldstone.co.uk`, Boldstone (`G1459Y2Q`).
 - Advertising account `187335961`, customer `255124527`, user `193182372`.
@@ -17,7 +40,7 @@ Native setup verified on 7 November 2026. This is the product-catalogue route fo
 
 [Open the store](https://ui.ads.microsoft.com/campaign/vnext/merchantcenter/overview?aid=187335961&cid=255124527&storeId=50112622&uid=193182372).
 
-## Refresh after a catalogue update
+## Historical manual-feed procedure — rollback reference only
 
 1. Complete the normal app-to-website release first. Freeze current specifications, complete image coverage and the image library. Keep the established publication scope and stable Seller SKU identifiers.
 2. Generate one tab-delimited UTF-8 `.txt` feed from the current app. Every product must have a matching live website SKU, GBP selling price and current primary photograph. Stop if a check fails.
@@ -28,7 +51,7 @@ Native setup verified on 7 November 2026. This is the product-catalogue route fo
 7. Download the native Products CSV. Check the full SKU set, product count, GBP prices, titles and URLs against the submitted file. Inspect Diagnostics for product, feed and store issues. Distinguish pending, approved and rejected records.
 8. Confirm free product listings remain on. Approval makes products eligible to display; it does not guarantee impressions or sales. Check subsequent product-listing performance separately from paid advertising.
 
-The current feed is a manual upload. Refresh after relevant product changes and before Microsoft's 30-day feed expiry; daily refresh is Microsoft's recommendation. No unattended Microsoft publisher was installed by this setup. Automatic item updates are a useful price/stock safeguard, not a substitute for that refresh.
+This was the initial manual feed procedure. It is superseded for production by the Google import above. Its source files remain available for a deliberate, reconciled rollback. Automatic item updates are a useful price/stock safeguard, not a substitute for a complete catalogue refresh.
 
 ## Evidence and implementation
 

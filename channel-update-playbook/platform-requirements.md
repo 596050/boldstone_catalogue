@@ -1,5 +1,7 @@
 # Product information and channel checks
 
+The latest Google/Microsoft/Manufacturer/Pinterest setup and Faire/Furnitures/Brandboom observations are recorded in [the 7 November catalogue handoff](google-pinterest-catalogues.md). Use that dated verification and the current-master receipt for these channels; older publication counts below remain historical observations.
+
 Checked 1 November 2026. Read the current category template and account controls before each release; these requirements are not a promise of approval. The app is the source of truth. Complete known facts there first, then refresh the existing Dropbox workbook and update matched offers in place.
 
 ## Shared record
