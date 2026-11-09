@@ -9,7 +9,7 @@ from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from xml.sax.saxutils import escape
 
-from .core import ToolkitError, private_json
+from .core import ToolkitError, csv_safe, private_json
 
 
 def campaign_url(url, source, campaign, medium="organic_social"):
@@ -47,12 +47,19 @@ def generate(profile, output):
         writer = csv.writer(f)
         writer.writerow(["platform", "profile_url", "website_campaign_link"])
         for platform, url in profile.data.get("social_profiles", {}).items():
-            writer.writerow([platform, url, campaign_url(profile.url, platform, "profile_link")])
+            writer.writerow(
+                [csv_safe(platform), url, campaign_url(profile.url, platform, "profile_link")]
+            )
     state = profile.state()
     measurement = state.get("ga4_measurement_id") or profile.data.get("ga4", {}).get(
         "measurement_id"
     )
-    if profile.data.get("ga4", {}).get("native_installation"):
+    native = profile.data.get("ga4", {}).get("native_installation")
+    if native or not measurement:
+        (root / "ga4-consent-loader.html").unlink(missing_ok=True)
+    if not native:
+        (root / "analytics-installation.txt").unlink(missing_ok=True)
+    if native:
         (root / "analytics-installation.txt").write_text(
             "Use the CMS's existing native GA4 integration. Do not add a second Google configuration.\n"
             + "Expected measurement ID: "
@@ -140,9 +147,9 @@ gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user
             ):
                 writer.writerow(
                     [
-                        prompt["id"],
-                        prompt["text"],
-                        platform,
+                        csv_safe(prompt["id"]),
+                        csv_safe(prompt["text"]),
+                        csv_safe(platform),
                         "",
                         "",
                         "",

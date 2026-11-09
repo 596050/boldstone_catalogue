@@ -4,6 +4,15 @@ Run `python3 launch.py`, or double-click **Open Boldstone Review.command**. The 
 
 The app reads the published sculpture catalogue and its saved image database. It presents all active sculpture options, their retained Dropbox associations and related Squarespace/Shopify galleries. Every source keeps its qualification: a related gallery, context photograph or design reference is not silently promoted to an exact variant photograph. The image library includes unassigned and historical references as labelled records.
 
+Source workbooks now live in [`../data/inputs/`](../data/README.md), with relative
+links at their old paths for existing tools. They do not replace the private
+`sculpture-catalogue/current-master.json`, register or gallery database. Restore
+that publication before launching on a new checkout. The optional saved US
+shipping table belongs at `catalogue-review/tariffs/us-ups-2026.json`; if missing
+or invalid, specifications stay usable and shipping is explicitly unavailable.
+No replacement carrier prices are inferred. Similarity sorting uses the included
+`similarity_worker.swift`, compiled locally with Apple Vision on macOS 14 or later.
+
 ## On-demand images (v2.17.0)
 
 Gallery cards use JPEG thumbnails no larger than 1024 x 768. The private `image-thumbnails/` cache under the review runtime has a 256 MiB LRU limit and is pruned on startup and after writes. Existing retained previews can generate thumbnails without a network read. Concurrent requests for the same thumbnail share one fetch; a failed fetch has a short cooldown.

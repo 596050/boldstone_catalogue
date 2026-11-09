@@ -137,17 +137,19 @@ class ImageDelivery:
                 return cached
             if self.failures.get(key, 0) > time.monotonic():
                 raise ImageUnavailable('This image is temporarily unavailable. Try again shortly.')
-            event = self.pending.get(key)
-            owner = event is None
+            pending = self.pending.get(key)
+            owner = pending is None
             if owner:
-                event = self.pending[key] = threading.Event()
+                pending = self.pending[key] = {'event': threading.Event(), 'data': None}
         if not owner:
-            if not event.wait(105):
+            if not pending['event'].wait(105):
                 raise ImageUnavailable('This image is still loading. Try again shortly.')
-            cached = self.cache.get(key)
-            if cached is None:
+            # The bounded cache may reject or evict this image immediately.
+            # Joined requests still share the successful in-flight result.
+            data = pending['data']
+            if data is None:
                 raise ImageUnavailable('This image could not be loaded. Try again shortly.')
-            return cached
+            return data
         try:
             with self.worker(spec, 'thumbnail') as (header, stream):
                 if header['mime'] != 'image/jpeg' or header['bytes'] > 4_000_000:
@@ -156,6 +158,7 @@ class ImageDelivery:
                 if len(data) != header['bytes']:
                     raise ImageUnavailable('The thumbnail download was incomplete.')
             self.cache.put(key, data)
+            pending['data'] = data
             return data
         except Exception:
             with self.lock:
@@ -166,4 +169,4 @@ class ImageDelivery:
         finally:
             with self.lock:
                 self.pending.pop(key, None)
-                event.set()
+                pending['event'].set()

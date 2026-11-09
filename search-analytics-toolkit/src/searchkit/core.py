@@ -22,7 +22,7 @@ def now():
     return dt.datetime.now(dt.timezone.utc).isoformat()
 
 
-def private_json(path: Path, data):
+def private_json(path: Path, data, *, exclusive=False):
     path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
     fd, name = tempfile.mkstemp(prefix=".tmp-", dir=path.parent)
     try:
@@ -30,7 +30,17 @@ def private_json(path: Path, data):
         with os.fdopen(fd, "w") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
             f.write("\n")
-        os.replace(name, path)
+            f.flush()
+            os.fsync(f.fileno())
+        if exclusive:
+            os.link(name, path)
+        else:
+            os.replace(name, path)
+        directory_fd = os.open(path.parent, os.O_RDONLY)
+        try:
+            os.fsync(directory_fd)
+        finally:
+            os.close(directory_fd)
     finally:
         if os.path.exists(name):
             os.unlink(name)
@@ -72,13 +82,19 @@ def csv_safe(value):
 
 
 def canonical_url(value, *, root=False):
-    p = urlsplit(value)
+    if not isinstance(value, str) or not value or any(c.isspace() for c in value):
+        raise ToolkitError("Use a nonempty HTTPS URL without whitespace.")
+    try:
+        p = urlsplit(value)
+        port = p.port
+    except ValueError:
+        raise ToolkitError("Use a valid HTTPS URL and port.") from None
     if (
         p.scheme != "https"
         or not p.hostname
         or p.username
         or p.password
-        or p.port not in (None, 443)
+        or port not in (None, 443)
         or p.fragment
         or (root and p.query)
     ):
@@ -98,6 +114,11 @@ class Profile:
         self.path = Path(path).expanduser().resolve()
         try:
             self.data = json.loads(self.path.read_text())
+        except FileNotFoundError:
+            raise ToolkitError(
+                f"Profile is missing: {self.path}. Restore your private profile or select "
+                "--profile PATH. Use 'searchctl init' to create a new site profile."
+            ) from None
         except (OSError, ValueError) as e:
             raise ToolkitError(f"Cannot read profile: {e}") from None
         self.validate()
@@ -105,11 +126,23 @@ class Profile:
         self.url = canonical_url(self.data["website"]["url"], root=True)
         self.host = urlsplit(self.url).hostname
         base = os.environ.get("SEARCHKIT_STATE_DIR")
-        self.state_dir = Path(base).expanduser() if base else Path.home() / ".local/state/searchkit"
+        self.state_dir = (
+            Path(base).expanduser().absolute() if base else Path.home() / ".local/state/searchkit"
+        )
         self.state_path = self.state_dir / self.id / "state.json"
 
     def validate(self):
-        d = self.data
+        self.validate_data(self.data)
+
+    @staticmethod
+    def validate_data(data):
+        try:
+            Profile._validate_data(data)
+        except (TypeError, ValueError, AttributeError):
+            raise ToolkitError("Malformed profile: check the configured field types.") from None
+
+    @staticmethod
+    def _validate_data(d):
         if not isinstance(d, dict):
             raise ToolkitError("Profile must be a JSON object.")
         for section in [
@@ -234,7 +267,12 @@ class Profile:
             canonical_url(d["organization"]["logo_url"])
 
     def state(self):
-        state = json.loads(self.state_path.read_text()) if self.state_path.exists() else {}
+        try:
+            state = json.loads(self.state_path.read_text()) if self.state_path.exists() else {}
+        except (OSError, ValueError) as exc:
+            raise ToolkitError("Cannot read remembered profile state; inspect private state.") from exc
+        if not isinstance(state, dict):
+            raise ToolkitError("Remembered profile state must be a JSON object; inspect private state.")
         if state.get("website_url", self.url) != self.url:
             raise ToolkitError(
                 "Profile ID belongs to a different website. Choose a new profile ID."

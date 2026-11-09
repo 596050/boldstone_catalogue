@@ -88,6 +88,41 @@ class CacheTests(unittest.TestCase):
         with self.assertRaisesRegex(ImageUnavailable, 'temporarily'): service.thumbnail({'id':'id:x'})
         self.assertFalse(list(service.cache.root.glob('*.jpg')))
 
+    def test_concurrent_thumbnails_share_bytes_even_when_cache_cannot_retain_them(self):
+        service = ImageDelivery(self.root, self.root, cache_limit=1)
+        entered, release, joined = threading.Event(), threading.Event(), threading.Event()
+        calls = []
+        data = b'\xff\xd8\xffvalid-thumbnail'
+
+        @contextmanager
+        def worker(spec, action):
+            calls.append(action)
+            entered.set()
+            release.wait(2)
+            yield {'mime': 'image/jpeg', 'bytes': len(data)}, BytesIO(data)
+
+        service.worker = worker
+        spec = {'id': 'id:uncached'}
+        with ThreadPoolExecutor(max_workers=2) as pool:
+            first = pool.submit(service.thumbnail, spec)
+            self.assertTrue(entered.wait(1))
+            event = service.pending[service.key(spec)]['event']
+            wait = event.wait
+
+            def observed_wait(timeout):
+                joined.set()
+                return wait(timeout)
+
+            with patch.object(event, 'wait', side_effect=observed_wait):
+                second = pool.submit(service.thumbnail, spec)
+                self.assertTrue(joined.wait(1))
+                release.set()
+                self.assertEqual(first.result(timeout=2), data)
+                self.assertEqual(second.result(timeout=2), data)
+        self.assertEqual(calls, ['thumbnail'])
+        self.assertIsNone(service.cache.get(service.key(spec)))
+        self.assertEqual(service.pending, {})
+
     def test_thumbnail_has_bounded_dimensions_and_transparency_background(self):
         from PIL import Image
         source = BytesIO()

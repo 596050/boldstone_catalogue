@@ -11,11 +11,50 @@ import hashlib
 import json
 import math
 import re
+from measurement_text import dimensions as catalogue_dimensions, NUMBER
+
+
+class TariffUnavailable(ValueError):
+    """The saved rate data cannot support a planning estimate."""
 
 
 @lru_cache(maxsize=1)
 def tariff():
-    return json.loads((Path(__file__).parent/'tariffs/us-ups-2026.json').read_text())
+    path = Path(__file__).parent / 'tariffs/us-ups-2026.json'
+    try:
+        saved = json.loads(path.read_text())
+        # Check all fields used by the calculator before caching a snapshot.
+        for key in ('carrier', 'service', 'origin_postcode', 'verified_at', 'rate_basis', 'sources'):
+            saved[key]
+        if not isinstance(saved['sources'], (dict, list)) or not saved['destinations'] or not saved['rates']:
+            raise ValueError('Incomplete saved rate table')
+        destinations = [d['id'] for d in saved['destinations']]
+        previous = 0
+        for band in saved['rates']:
+            if not positive(band['max_kg']) or band['max_kg'] <= previous:
+                raise ValueError('Unordered rate bands')
+            previous = band['max_kg']
+            for destination in destinations:
+                if not positive(band[destination + '_gbp']):
+                    raise ValueError('Invalid transport rate')
+        for fuel in saved['fuel_history']:
+            date.fromisoformat(fuel['effective_date'])
+            if type(fuel['percent']) not in (int, float) or not math.isfinite(fuel['percent']) or fuel['percent'] < 0:
+                raise ValueError('Invalid fuel rate')
+        surcharges = saved['surcharges']
+        for key in ('surge_start', 'surge_end'):
+            date.fromisoformat(surcharges[key])
+        for key in ('residential_gbp', 'additional_handling_gbp', 'large_package_gbp',
+                    'demand_large_gbp', 'demand_handling_gbp', 'surge_per_kg_gbp',
+                    'us_processing_gbp', 'future_collection_gbp'):
+            value = surcharges[key]
+            if type(value) not in (int, float) or not math.isfinite(value) or value < 0:
+                raise ValueError('Invalid surcharge')
+        return saved
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        raise TariffUnavailable(
+            f'US shipping rates are unavailable. Restore the verified saved tariff at {path} '
+            'before calculating an estimate.') from exc
 
 
 def money(value):
@@ -28,30 +67,17 @@ def positive(value):
 
 def upper_weight(text):
     """Keep upper endpoints, including a later parenthesised weight range."""
-    matches = re.findall(r'(\d+(?:\.\d+)?)(?:\s*[–−-]\s*(\d+(?:\.\d+)?))?\s*kg\b', str(text), re.I)
+    matches = re.findall(r'(?<![\w.])(' + NUMBER + r')(?:\s*[–−-]\s*(' + NUMBER + r'))?\s*kg\b', str(text), re.I)
     if not matches:
         raise ValueError('A catalogue weight in kilograms is needed.')
-    result = max(float(b or a) for a, b in matches)
-    if not positive(result):
+    endpoints = [float(x) for a, b in matches for x in (a, b or a)]
+    if not all(positive(x) for x in endpoints):
         raise ValueError('The catalogue weight must be positive.')
-    return result
+    return max(endpoints)
 
 
 def upper_dimensions(text):
-    # Same supported dimension syntax as costing, but use upper range endpoints
-    # for shipping rather than the manufacturing midpoint.
-    text = str(text)
-    if re.search(r'\b(mm|inches|inch|in\.)\b', text, re.I) and 'cm' not in text:
-        raise ValueError('Catalogue dimensions in centimetres are needed.')
-    # A semicolon commonly separates face dimensions from depth. Keep it;
-    # stop after the first complete triplet so later arrangement/framework
-    # dimensions cannot replace the dimensions of the sold component.
-    nums = [float(b or a) for a, b in re.findall(r'(\d+(?:\.\d+)?)(?:\s*[–−-]\s*(\d+(?:\.\d+)?))?', text)]
-    if ('diameter' in text.lower() or 'square' in text.lower()) and len(nums) >= 2:
-        nums = [nums[0], nums[0], nums[1]]
-    if len(nums) < 3 or any(not positive(x) for x in nums[:3]):
-        raise ValueError('Three catalogue dimensions are needed.')
-    return sorted(nums[:3], reverse=True)
+    return sorted(catalogue_dimensions(text, upper=True)[:3], reverse=True)
 
 
 def parcel_estimate(dimensions, weight, destination, today=None):
@@ -116,12 +142,15 @@ def parcel_estimate(dimensions, weight, destination, today=None):
 
 
 def product_estimate(product, fields=None, measured=None, today=None):
-    values = fields or {f['key']:f['value'] for f in product['fields']+product.get('listing_fields',[])}
+    values = fields if fields is not None else {f['key']:f['value'] for f in product['fields']+product.get('listing_fields',[])}
     basis = {'dimensions':values.get('Dimensions / depth',''),'weight':values.get('Weight','')}
     base = {'product_id':product['id'],'source':basis,
             'source_fingerprint':hashlib.sha256(json.dumps(basis,sort_keys=True).encode()).hexdigest(),
             'status':'available','currency':'GBP'}
     try:
+        if measured and (not isinstance(measured, dict) or
+                         not all(positive(measured.get(k)) for k in ('length_cm','width_cm','depth_cm','weight_kg'))):
+            raise ValueError('Saved package measurements are incomplete or invalid; correct them before estimating delivery.')
         estimated = not (measured and all(positive(measured.get(k)) for k in ('length_cm','width_cm','depth_cm','weight_kg')))
         upper, art_dims, allowance = None, None, None
         if not estimated:
@@ -138,5 +167,7 @@ def product_estimate(product, fields=None, measured=None, today=None):
                 'artwork_upper_cm':art_dims,'packed_cm':sorted(dims,reverse=True),'packed_kg':weight,
                 'packing_basis':('Catalogue upper weight plus max(10%, 1 kg); provisional 5 cm protection on each side. Box dimensions are estimates, not measured packaging.' if estimated else 'Saved packed measurements from the delivery checker.'),
                 'quotes':[parcel_estimate(dims,weight,d['id'],today=today) for d in tariff()['destinations']]}
+    except TariffUnavailable as exc:
+        return {**base,'status':'rate_unavailable','message':str(exc),'quotes':[]}
     except (ValueError, TypeError, KeyError) as exc:
         return {**base,'status':'needs_measurements','message':str(exc),'quotes':[]}

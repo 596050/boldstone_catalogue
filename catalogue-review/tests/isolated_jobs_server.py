@@ -20,6 +20,7 @@ from deletion_reviews import DeletionReviews
 from deletions import NativeUnavailable
 
 parser=argparse.ArgumentParser()
+parser.add_argument('--port',type=int,default=8768)
 parser.add_argument('--cost-model',action='store_true')
 parser.add_argument('--seed-busy-delete',action='store_true')
 parser.add_argument('--seed-rename-rejection',action='store_true')
@@ -40,6 +41,7 @@ parser.add_argument('--slow-original-download',action='store_true')
 parser.add_argument('--organisation-recovery',action='store_true')
 parser.add_argument('--overview-save-recovery',action='store_true')
 parser.add_argument('--external-reference',action='store_true')
+parser.add_argument('--browser-smoke',action='store_true',help='Serve synthetic images and a local-only tariff for real browser QA.')
 args=parser.parse_args()
 fixture=BackgroundJobTests();fixture.setUp();fixture.organisation_fixture()
 fixture.client=fixture.native
@@ -86,6 +88,25 @@ if args.image_editor_context:
     app.refresh_source=refresh_fixture_content
 app.sync=NS(request=lambda:{'enabled':False},snapshot=lambda:{'enabled':False,'state':'disabled','generation':0})
 app.similarity=Similarity(app.store.root)
+if args.browser_smoke:
+    # Never invoke the authenticated image worker or tariff fetcher in browser
+    # tests. Originals are the tiny local fixture file; thumbnails are synthetic.
+    from contextlib import contextmanager
+    import io
+    from PIL import Image
+    from delivery import Tariffs
+    from test_delivery import PAGE
+    thumbnail = io.BytesIO()
+    Image.new('RGB', (64, 48), '#bba77a').save(thumbnail, 'JPEG')
+    class BrowserImages:
+        def thumbnail(self, spec):
+            return thumbnail.getvalue()
+        @contextmanager
+        def worker(self, spec, action):
+            raw = cat.paths[spec['id']][0].read_bytes()
+            yield {'mime': 'image/png', 'bytes': len(raw)}, io.BytesIO(raw)
+    app.images = BrowserImages()
+    app.tariffs = Tariffs(app.store.root, fetch=lambda: PAGE)
 original=fixture.manager.runner
 read_attempts={}
 if args.large_deletion_review or args.gallery_layout:
@@ -242,9 +263,9 @@ if args.cost_model:
         product['fields'] = [{'key': k, 'label': k, 'value': v, 'section': 'Listing copy' if k in ('Name','Description') else 'Specifications', 'basis': 'Isolated fixture', 'qualification': ''} for k,v in [('Name',product['name']),('Dimensions / depth','35 x 20 x 6 cm'),('Weight','4 kg'),('Material / finish','GFRC with verdigris'),('Fixing','Keyhole or French cleat'),('Price','£120'),('Availability','Made to order'),('Lead time','1-2 weeks'),('Description','Test relief')]]
         product['name'] = 'Test Dune Ripple - Verdigris'
         product['fields'][0]['value'] = product['name']
-server=ThreadingHTTPServer(('127.0.0.1',8768),Handler);server.app=app;server.daemon_threads=True
+server=ThreadingHTTPServer(('127.0.0.1',args.port),Handler);server.app=app;server.daemon_threads=True
 app.jobs.start()
 app.deletion_reviews.start()
-print(json.dumps({'url':'http://127.0.0.1:8768/#L1','data_dir':str(app.store.root),'native':'in-memory fake only'}),flush=True)
+print(json.dumps({'url':f'http://127.0.0.1:{server.server_port}/#L1','data_dir':str(app.store.root),'native':'in-memory fake only'}),flush=True)
 try:server.serve_forever()
 finally:app.jobs.stop();app.deletion_reviews.stop();server.server_close();fixture.tearDown()

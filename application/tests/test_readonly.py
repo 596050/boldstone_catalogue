@@ -494,6 +494,8 @@ def test_shipped_pack_import_is_idempotent_and_preserves_controls(tmp_path):
     from boldstone.config import initialize_config
 
     pack = Path(__file__).resolve().parents[2] / "dropbox resolution"
+    if not (pack / "PACKAGE_SHA256.json").is_file():
+        pytest.skip("Requires the separately retained private handover package")
     config = initialize_config(pack, tmp_path.resolve() / "runtime")
     first = import_pack(config)
     second = import_pack(config)

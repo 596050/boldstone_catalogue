@@ -332,7 +332,7 @@ function closeImage(discard=false) {
 }
 function setImagePreset(use) {const form=$('#image-form');form.elements.decision.value=use==='exclude'?'exclude':'reviewed';$$('input[name=use]',form).forEach(x=>x.checked=x.value===use);if(form.elements.primary&&use!=='listing')form.elements.primary.checked=false;markDirty(form);}
 function markDirty(form) {
-  if(!form||['cost-form','transfer-form','delete-choice-form','delete-confirm-form','bulk-delete-choice-form','bulk-delete-confirm-form'].includes(form.id))return;
+  if(!form||['cost-form','delivery-form','transfer-form','delete-choice-form','delete-confirm-form','bulk-delete-choice-form','bulk-delete-confirm-form'].includes(form.id))return;
   const changed=!['image-form','asset-form'].includes(form.id)||imageFormChanged(form);
   if(changed)state.dirty.add(form.id);else state.dirty.delete(form.id);
   const el=$('.save-state',form);if(el)el.textContent=changed?'Unsaved changes':'No unsaved changes';
@@ -425,7 +425,13 @@ document.addEventListener('click',async e=>{
   if(target.dataset.openImage){openImage(target.dataset.openImage);return;}
   if(target.dataset.close){target.dataset.close==='image-dialog'?closeImage():target.dataset.close==='transfer-dialog'?closeTransfer():$('#'+target.dataset.close).close();return;}
   if(target.dataset.preset){setImagePreset(target.dataset.preset);return;}
-  if(target.dataset.imageNav){const list=filteredImages(),index=list.findIndex(x=>x.id===state.image.id);openImage(list[(index+Number(target.dataset.imageNav)+list.length)%list.length].id);return;}
+  if(target.dataset.imageNav){
+    const list=filteredImages();
+    if(!list.length){toast('No images match the current filters. Close this photo and change the filters to continue.');return;}
+    const index=list.findIndex(x=>x.id===state.image?.id),direction=Number(target.dataset.imageNav);
+    const next=index<0?(direction<0?list.length-1:0):(index+direction+list.length)%list.length;
+    openImage(list[next].id);return;
+  }
   if(target.id==='load-more'){state.limit+=24;renderGrid();return;}
   if(target.id==='clear-selection'){state.selected.clear();renderGrid();return;}
   if(target.dataset.quick||target.dataset.bulk){

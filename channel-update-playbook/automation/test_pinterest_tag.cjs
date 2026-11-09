@@ -4,10 +4,10 @@ const vm=require('node:vm');
 const path=require('node:path');
 const tag=fs.readFileSync(path.join(__dirname,'pinterest_tag.js'),'utf8').replace('__BOLDSTONE_PINTEREST_CONFIG__',JSON.stringify({tagId:'2612823030261',products:{TEST:{id:'variant-1',path:'/buy/p/test'}}}));
 const funnel=fs.readFileSync(process.argv[2]||path.join(__dirname,'shopping_funnel.js'),'utf8');
-function setup(performance='rejected',marketing='rejected',pathname='/buy/p/test'){
+function setup(performance='rejected',marketing='rejected',pathname='/buy/p/test',productName='Test sculpture — boldstone'){
   const choices={performance,marketing},requests=[],ga=[],timers=[],events={},winEvents={};let count=0,observer;
   const button={disabled:false,isConnected:true,classList:{contains:()=>false}};
-  const product={textContent:JSON.stringify({'@type':'Product',name:'Test sculpture — boldstone',offers:{'@type':'Offer',sku:'TEST',price:'40.20',priceCurrency:'GBP',url:'https://boldstonesculpture.com/buy/p/test'}})};
+  const product={textContent:JSON.stringify({'@type':'Product',name:productName,offers:{'@type':'Offer',sku:'TEST',price:'40.20',priceCurrency:'GBP',url:'https://boldstonesculpture.com/buy/p/test'}})};
   const document={readyState:'complete',body:{},head:{appendChild:s=>requests.push(s.src)},
     createElement:()=>({}),addEventListener:(k,fn)=>events[k]=fn,
     querySelector:selector=>selector==='.sqs-add-to-cart-button'?button:null,
@@ -36,4 +36,36 @@ test('Generic pages send one page visit and no made-up line items',()=>{const s=
 test('No email, unconsented noscript pixel or customer fields are added',()=>{assert(!/customerEmailAddress|hashed_email|<noscript>|pd\[em\]|\{\s*em\s*:/.test(tag));});
 test('Granting marketing after an analytics-only view delivers the matched Pinterest view once',()=>{const s=setup('accepted','rejected');assert.equal(s.ga.length,1);assert.equal(s.tracks().length,0);s.change('accepted','accepted');assert.equal(s.ga.length,1);assert.equal(s.tracks().length,1);assert.equal(s.tracks()[0][1],'pagevisit');assert.equal(s.tracks()[0][2].line_items[0].product_id,'variant-1');s.change('accepted','accepted');assert.equal(s.ga.length,1);assert.equal(s.tracks().length,1);});
 test('Granting analytics after a marketing-only view delivers GA4 once without duplicating Pinterest',()=>{const s=setup('rejected','accepted');assert.equal(s.ga.length,0);assert.equal(s.tracks().length,1);s.change('accepted','accepted');assert.equal(s.ga.length,1);assert.equal(s.tracks().length,1);s.change('accepted','accepted');assert.equal(s.ga.length,1);assert.equal(s.tracks().length,1);});
+test('Object prototype names cannot impersonate reviewed merchant SKUs',()=>{
+  const s=setup('accepted','accepted');
+  for(const item_id of ['toString','constructor','__proto__'])assert.equal(s.window.BoldstonePinterest.commerce('add_to_cart',[{item_id,item_name:'Unknown',price:10,quantity:1}],'GBP'),false);
+  assert.equal(s.tracks().length,1);
+});
+test('A known SKU cannot claim a product view on another product path',()=>{
+  const s=setup('accepted','accepted','/buy/p/other');const before=s.tracks().length;
+  assert.equal(s.window.BoldstonePinterest.commerce('view_item',[{item_id:'TEST',item_name:'Test',price:10,quantity:1}],'GBP'),false);
+  assert.equal(s.tracks().length,before);
+});
+test('Malformed product names do not become literal null or empty analytics items',()=>{
+  for(const name of [null,'','   ']){
+    const s=setup('accepted','accepted','/buy/p/test',name);
+    assert.equal(s.ga.length,0);assert.equal(s.tracks().length,0);
+  }
+});
+test('An external checkout-looking link cannot count as the store checkout',()=>{
+  const ga=[],events={};
+  const source={storeCurrency:'GBP',cart:{items:[{productUrl:'/buy/p/test',sku:'TEST',productName:'Test sculpture',unitPrice:{decimalValue:'40.20',currencyCode:'GBP'}}]}};
+  const row={querySelector:s=>s==='.cart-row-title'?{href:'https://boldstonesculpture.com/buy/p/test'}:s==='.cart-row-qty-input'?{value:'1'}:s==='.cart-row-price'?{textContent:'£40.20'}:null};
+  const document={readyState:'complete',body:{},addEventListener:(k,fn)=>events[k]=fn,
+    querySelector:s=>s==='#sqs-cart-root > script[type="application/json"]'?{textContent:JSON.stringify(source)}:null,
+    querySelectorAll:s=>s==='[data-testid="cart-table-row"]'?[row]:[]};
+  const window={getSquarespaceCookies:()=>({performance:'accepted',marketing:'rejected'}),gtag:(...args)=>ga.push(args),addEventListener:()=>{}};
+  const context={window,document,location:{pathname:'/cart',href:'https://boldstonesculpture.com/cart'},URL,Date,console,setTimeout:()=>{},MutationObserver:class{observe(){}}};
+  vm.createContext(context);vm.runInContext(funnel,context);
+  const click=href=>events.click({isTrusted:true,target:{closest:s=>s==='a.cart-checkout-button[href]'?{href}:null}});
+  click('https://example.com/commerce/goto-checkout');
+  assert.equal(ga.filter(call=>call[1]==='begin_checkout').length,0);
+  click('https://boldstonesculpture.com/commerce/goto-checkout');
+  assert.equal(ga.filter(call=>call[1]==='begin_checkout').length,1);
+});
 console.log(checks+' tracking checks passed');

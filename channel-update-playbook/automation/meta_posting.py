@@ -58,12 +58,18 @@ def check_url(url, composer=False):
         raise Blocked('Wrong Meta business or Page')
     if composer and u.path!='/latest/composer/': raise Blocked('Expected the Meta composer')
 
+def required_script(name):
+    path = HERE / name
+    if not path.is_file():
+        raise Blocked('Required posting helper is missing: '+str(path)+'. Restore the reviewed AppleScript source before using the standalone runner. No browser action attempted.')
+    return path
+
 def bridge(url, operation, arguments=None, run=subprocess.run):
     check_url(url)
     request=dict(operation=operation,arguments=arguments or {})
     # This source uses only visible DOM and ordinary controls.
     js='('+DOM_DRIVER+')('+json.dumps(request,ensure_ascii=True)+')'
-    result=bounded(['/usr/bin/osascript',str(HERE/'meta_browser.applescript'),url,js],run=run)
+    result=bounded(['/usr/bin/osascript',str(required_script('meta_browser.applescript')),url,js],run=run)
     value=json.loads(result)
     if not value.get('ok'): raise Blocked(value.get('error','No browser receipt'))
     return value
@@ -191,7 +197,7 @@ def main():
                 item=matches[0];validate_item(item)
                 if args.operation=='caption':check_url(args.url,True);result=bridge(args.url,'caption',dict(caption=item['caption']))
                 elif args.operation=='click':result=bridge(args.url,'click',dict(name=args.name))
-                elif args.operation=='choose-file':result=dict(status=bounded(['/usr/bin/osascript',str(HERE/'meta_choose_file.applescript'),item['media_path']]))
+                elif args.operation=='choose-file':result=dict(status=bounded(['/usr/bin/osascript',str(required_script('meta_choose_file.applescript')),item['media_path']]))
                 elif args.operation=='reconcile':
                     if not args.journal:raise Blocked('Durable journal required')
                     result=reconcile(item,args.url,args.permalink,Journal(args.journal))

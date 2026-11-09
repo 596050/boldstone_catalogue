@@ -4,8 +4,9 @@ import subprocess
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
-from meta_posting import Blocked,Journal,bounded,check_url,preflight,publish_once,reconcile
+from meta_posting import Blocked,Journal,bounded,check_url,preflight,publish_once,reconcile,bridge,required_script
 
 URL='https://business.facebook.com/latest/composer/?business_id=2380586078685156&asset_id=103781478537396'
 
@@ -57,5 +58,13 @@ class PostingSafetyTests(unittest.TestCase):
     def test_changed_media_blocks(self):
         Path(self.item['media_path']).write_bytes(b'changed')
         with self.assertRaises(Blocked):publish_once(self.item,URL,self.profile,self.journal,permission_check=lambda:None)
+
+    def test_missing_helpers_block_before_attempting_osascript(self):
+        with patch('meta_posting.HERE', self.root):
+            for name in ('meta_browser.applescript', 'meta_choose_file.applescript'):
+                with self.subTest(name=name), self.assertRaisesRegex(Blocked, name):
+                    required_script(name)
+            with self.assertRaisesRegex(Blocked, 'No browser action attempted'):
+                bridge(URL, 'snapshot', run=lambda *a, **k: self.fail('No AppleScript should run'))
 
 if __name__=='__main__':unittest.main()

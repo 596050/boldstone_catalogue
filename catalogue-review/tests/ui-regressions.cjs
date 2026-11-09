@@ -129,3 +129,32 @@ test('returning a primary image to Not reviewed clears its primary choice', asyn
   await h.listeners.change[0]({target:el});
   assert.equal(form.elements.primary.checked,false);
 });
+
+test('image arrows stay usable after saving the current photo out of the filtered gallery',async()=>{
+  for(const direction of [-1,1]){
+    const h=harness(),opened=[];
+    h.context.openImage=id=>opened.push(id);
+    h.run("state.image={id:'removed'};filteredImages=()=>[{id:'first'},{id:'middle'},{id:'last'}]");
+    const target={dataset:{imageNav:String(direction)}};
+    await h.listeners.click[0]({target:{closest:s=>s==='.select-box'?null:target}});
+    assert.deepEqual(opened,[direction<0?'last':'first']);
+  }
+});
+
+test('image arrows handle an empty filtered gallery without losing the open photo',async()=>{
+  const h=harness(),opened=[],messages=[];
+  h.context.openImage=id=>opened.push(id);h.context.toast=m=>messages.push(m);
+  h.run("state.image={id:'removed'};filteredImages=()=>[]");
+  const target={dataset:{imageNav:'1'}};
+  await h.listeners.click[0]({target:{closest:s=>s==='.select-box'?null:target}});
+  assert.deepEqual(opened,[]);assert.equal(h.run('state.image.id'),'removed');
+  assert.match(messages.join(' '),/no images|no other images/i);
+});
+
+test('delivery editor owns its dirty state so saving or closing cannot leave a phantom form edit',()=>{
+  const h=harness();
+  h.run("markDirty({id:'delivery-form'});");
+  assert.equal(h.run("state.dirty.has('delivery-form')"),false);
+  h.run("state.dirty.add('delivery-editor');markDirty({id:'delivery-form'});state.dirty.delete('delivery-editor');");
+  assert.equal(h.run('state.dirty.size'),0);
+});

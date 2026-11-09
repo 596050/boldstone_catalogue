@@ -13,6 +13,7 @@
 !*.sh
 !*.command
 !*.sql
+!*.swift
 !*.toml
 !*.yaml
 !*.yml
@@ -37,6 +38,8 @@
 !/search-analytics-toolkit/README.md
 !/search-analytics-toolkit/docs/*.md
 !/search-analytics-toolkit/profiles/example.json
+!/search-analytics-toolkit/bin/searchctl
+!/channel-update-playbook/automation/*.applescript
 !/dropbox resolution/blueprint/config.example.json
 !/boldstone_flat_migration_local_2026-10-15/spec/CONFIG.example.json
 !/dropbox resolution/instructions/*.md

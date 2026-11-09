@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import math
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -23,7 +24,7 @@ def sync_roots():
             for v in json.loads(info.read_text()).values()
             if isinstance(v, dict) and v.get("path")
         ]
-    except (ValueError, KeyError, OSError) as exc:
+    except (ValueError, KeyError, TypeError, AttributeError, OSError) as exc:
         raise Blocked("Cannot establish configured Dropbox desktop sync paths") from exc
 
 
@@ -60,6 +61,11 @@ class Config:
         json_write(self.path, self.data, exclusive=exclusive)
 
     def validate(self):
+        if not isinstance(self.data, dict):
+            raise BoldstoneError("Local configuration must be a JSON object")
+        for section in ("local_paths", "dropbox", "read_policy"):
+            if not isinstance(self.data.get(section), dict):
+                raise BoldstoneError(f"Configuration section {section} must be an object")
         if self.data.get("schema_version") != 1 or self.data.get("mode") != "read_only":
             raise BoldstoneError("Only schema version 1 and read_only mode are supported")
         if self.data.get("execute_enabled") is not False:
@@ -70,8 +76,17 @@ class Config:
             raise Blocked("Only the four specified audit scopes may be requested")
         if any(key in self.dropbox for key in ("access_token", "refresh_token", "app_secret")):
             raise IntegrityError("Credentials must be stored in the OS credential store")
+        policy = self.data["read_policy"]
+        for key in ("max_attempts", "max_download_bytes", "max_frames"):
+            if type(policy.get(key)) is not int or policy[key] < 1:
+                raise BoldstoneError(f"read_policy.{key} must be a positive integer")
+        wait = policy.get("max_retry_wait_seconds")
+        if type(wait) not in (int, float) or not math.isfinite(wait) or wait < 0:
+            raise BoldstoneError("read_policy.max_retry_wait_seconds must be finite and nonnegative")
         check_no_symlinks(self.path)
         pack = check_no_symlinks(self.pack)
+        if not pack.is_dir():
+            raise BoldstoneError("The historical pack directory is missing or is not a directory")
         locations = [
             self.database,
             self.path,
@@ -100,7 +115,7 @@ def load_config(path=DEFAULT_CONFIG):
         raise Blocked("Local configuration is missing; run 'boldstone config init' first")
     try:
         return Config(path, json.loads(path.read_text(encoding="utf-8"))).validate()
-    except (KeyError, TypeError, ValueError) as exc:
+    except (KeyError, TypeError, ValueError, AttributeError) as exc:
         raise BoldstoneError("Malformed local configuration") from exc
 
 

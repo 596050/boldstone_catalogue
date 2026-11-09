@@ -24,8 +24,15 @@ def short_id(value):
 class Catalogue:
     def __init__(self, project, cache_root=None):
         self.project = Path(project).resolve()
+        self.cache_root = Path(cache_root or Path.home() / 'Library/Application Support/BoldstoneReview').resolve()
         base = self.project / 'sculpture-catalogue'
-        pointer = json.loads((base / 'current-master.json').read_text())
+        pointer_path = base / 'current-master.json'
+        if not pointer_path.is_file():
+            raise FileNotFoundError(
+                f'The private catalogue publication is missing: {pointer_path}. '
+                'Restore current-master.json and its referenced register and gallery database '
+                'from your retained catalogue; source workbooks alone are not a publication.')
+        pointer = json.loads(pointer_path.read_text())
         register_path = base / pointer['register']
         register = json.loads(register_path.read_text())
         if digest(register_path) != pointer['register_sha256']:
@@ -49,13 +56,13 @@ class Catalogue:
         # Owner-designated context folders remain in the image library. They
         # do not automatically supply component associations or group defaults.
         self.family_library_only_folder_ids = set(register.get('family_library_only_folder_ids', []))
-        with closing(sqlite3.connect('file:' + str(database) + '?mode=ro', uri=True)) as db:
+        with closing(sqlite3.connect(database.resolve().as_uri() + '?mode=ro', uri=True)) as db:
             for pid, name, family, raw in db.execute('SELECT * FROM products'):
                 if pid not in active:
                     continue
                 p = json.loads(raw)
                 fields = []
-                for key, v in p.get('master_fields', p['specifications']).items():
+                for key, v in p.get('master_fields', p.get('specifications', {})).items():
                     if key in ('Individual price', 'Availability'):
                         continue
                     fields.append({'key': key, 'label': key, 'value': v.get('display', ''),
@@ -199,7 +206,7 @@ class Catalogue:
             for aid, edge in edges.items():
                 selected = any(x.startswith('selected_') for x in edge['uses'])
                 edge['tier'] = 'accepted' if selected else 'folder' if self.assets[aid]['source'] == 'Dropbox' and self.assets[aid]['folder_id'] in folders else 'related'
-        cache_root = Path(cache_root or Path.home() / 'Library/Application Support/BoldstoneReview')
+        cache_root = self.cache_root
         for aid, asset in self.assets.items():
             h = asset.get('original', {}).get('dropbox_content_hash')
             if h and asset['source'] == 'Dropbox':
@@ -224,7 +231,8 @@ class Catalogue:
                 if not path:
                     continue
                 p = Path(path).resolve()
-                allowed = (p.is_relative_to(self.project) or p.is_relative_to(Path.home() / 'Library/Application Support'))
+                allowed = (p.is_relative_to(self.project) or p.is_relative_to(getattr(self, 'cache_root', self.project))
+                           or p.is_relative_to(Path.home() / 'Library/Application Support'))
                 if allowed and p.is_file() and p.stat().st_size < 150_000_000:
                     selected = (p, representation)
                     self.paths[aid] = selected
@@ -234,7 +242,8 @@ class Catalogue:
         for path, representation in [*candidates, *fallback_candidates]:
             if path and ('preview' in representation.lower() or 'thumbnail' in representation.lower()):
                 p = Path(path).resolve()
-                if (p.is_relative_to(self.project) or p.is_relative_to(Path.home() / 'Library/Application Support')) and p.is_file():
+                if (p.is_relative_to(self.project) or p.is_relative_to(getattr(self, 'cache_root', self.project))
+                    or p.is_relative_to(Path.home() / 'Library/Application Support')) and p.is_file():
                     self.preview_paths[aid] = p
                     break
         external = urlparse(url).hostname or ''

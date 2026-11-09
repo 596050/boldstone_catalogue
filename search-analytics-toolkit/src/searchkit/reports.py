@@ -193,8 +193,11 @@ def run_report(profile, google, bing, receipt, current, previous):
             summary["ga4_time_zone"] = resource.get("timeZone")
             summary["ga4_currency"] = resource.get("currencyCode")
             receipt.export("ga4-property-settings", resource)
+            summary["availability"]["ga4_settings"] = "available"
         except ToolkitError as e:
             summary["ga4_settings"] = str(e)
+            summary["availability"]["ga4_settings"] = str(e)
+            receipt.add("report.ga4_settings", "unavailable", str(e))
     if profile.data.get("search_console", {}).get("enabled"):
         try:
             receipt.export(
@@ -220,8 +223,11 @@ def run_report(profile, google, bing, receipt, current, previous):
                         {"type": "priority_url_no_longer_pass", "url": url, "verdict": verdict}
                     )
             profile.save_state(priority_index_verdicts={**previous_index, **current_index})
+            summary["availability"]["indexing"] = "available"
         except ToolkitError as e:
             summary["indexing_status"] = str(e)
+            summary["availability"]["indexing"] = str(e)
+            receipt.add("report.indexing", "unavailable", str(e))
     if profile.data.get("bing", {}).get("enabled"):
         try:
             result = bing.report()

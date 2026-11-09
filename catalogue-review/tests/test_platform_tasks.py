@@ -70,6 +70,25 @@ class PlatformTaskTests(unittest.TestCase):
         p=next(p for p in result['platforms'] if p['id']=='pinterest')
         self.assertEqual(p['state'],'action')
 
+    def test_secondary_image_bytes_and_carousel_order_invalidate_platform_check(self):
+        self.photos['content_hashes'] = {'id:one': 'primary', 'id:two': 'secondary'}
+        self.write(self.snapshot())
+        self.photos['content_hashes']['id:two'] = 'replaced-secondary'
+        result = self.tasks.product(self.product, self.photos, self.now)
+        self.assertTrue(result['catalogue_changed_since_check'])
+        self.assertEqual(next(p for p in result['platforms'] if p['id'] == 'pinterest')['state'], 'action')
+        self.write(self.snapshot())
+        self.photos['listing']['image_ids'].reverse()
+        result = self.tasks.product(self.product, self.photos, self.now)
+        self.assertTrue(result['catalogue_changed_since_check'])
+        self.assertEqual(next(p for p in result['platforms'] if p['id'] == 'pinterest')['state'], 'action')
+
+    def test_unselected_image_hash_does_not_invalidate_platform_check(self):
+        self.photos['content_hashes'] = {'id:one': 'primary', 'id:two': 'secondary', 'id:unused': 'old'}
+        self.write(self.snapshot())
+        self.photos['content_hashes']['id:unused'] = 'new'
+        self.assertFalse(self.tasks.product(self.product, self.photos, self.now)['catalogue_changed_since_check'])
+
     def test_field_edit_does_not_erase_still_valid_photo_problem(self):
         problem=dict(id='image_size',state='action',title='Review photo',detail='2048 x 1360',scope='photos')
         self.write(self.snapshot('action',[problem]))
@@ -103,6 +122,18 @@ class PlatformTaskTests(unittest.TestCase):
             elif change=='fingerprint':data['products']['A']['fingerprints']={}
             else:data['products']['A']['platforms']['pinterest']['tasks']=[dict(id='x',state='action',title='x',detail='x')]*2
             with self.subTest(change=change),self.assertRaises(ValueError):validate_snapshot(data)
+
+    def test_malformed_dates_fail_visibly_without_breaking_catalogue_projection(self):
+        for checked in [None, 123, [], {}]:
+            with self.subTest(checked=checked):
+                data = self.snapshot()
+                data['products']['A']['platforms']['pinterest']['checked_at'] = checked
+                with self.assertRaises(ValueError):
+                    validate_snapshot(data)
+                self.write(data)
+                result = self.tasks.product(self.product, self.photos, self.now)
+                self.assertIn('could not be read', result['source_error'])
+                self.assertTrue(all(p['state'] == 'unknown' for p in result['platforms']))
 
     def test_status_projection_is_read_only(self):
         data=self.snapshot();before=deepcopy((data,self.product,self.photos))

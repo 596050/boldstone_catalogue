@@ -1,4 +1,7 @@
 from pathlib import Path
+import sys
+
+import pytest
 
 import connector_worker as connector
 import convert_bmps as worker
@@ -72,3 +75,32 @@ def test_connected_existing_jpeg_is_held(fixture, monkeypatch):
     api.output_data = b"existing"
     assert worker.process(connector.ConnectorAPI(), row) == "HELD"
     assert api.uploads == 0
+
+
+@pytest.mark.parametrize("limit", ["0", "-1"])
+def test_nonpositive_limits_fail_before_reading_plan_or_contacting_dispatcher(monkeypatch, limit):
+    monkeypatch.setattr(sys, "argv", ["connector_worker.py", "--run", "--limit", limit])
+    monkeypatch.setattr(connector.w, "validate_plan", lambda _: pytest.fail("Plan must not be read"))
+    with pytest.raises(SystemExit) as error:
+        connector.main()
+    assert error.value.code == 2
+
+
+def test_new_connector_runtime_creates_conversion_directory_before_locking(tmp_path, monkeypatch):
+    monkeypatch.setattr(sys, "argv", ["connector_worker.py", "--run", "--limit", "1"])
+    plan = tmp_path / "plan.json"
+    plan.write_text('{}')
+    run = tmp_path / "new-runtime/conversion"
+    monkeypatch.setattr(connector.w, "PLAN_PATH", plan)
+    monkeypatch.setattr(connector.w, "RUN_PATH", run)
+    monkeypatch.setattr(connector, "RPC", tmp_path / "new-runtime/connector-rpc")
+    monkeypatch.setattr(connector.w, "validate_plan", lambda _: None)
+
+    def lock(path, *_args):
+        assert path == run / "worker.lock"
+        assert run.is_dir()
+        raise RuntimeError("lock reached; no dispatcher contacted")
+
+    monkeypatch.setattr(connector.os, "open", lock)
+    with pytest.raises(RuntimeError, match="lock reached"):
+        connector.main()

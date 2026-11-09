@@ -161,7 +161,9 @@ def parser():
         description="Website search and analytics setup through supported APIs."
     )
     ap.add_argument("--version", action="version", version=__version__)
-    ap.add_argument("--profile", default="profiles/boldstone.json")
+    ap.add_argument(
+        "--profile", default=str(Path(__file__).resolve().parents[2] / "profiles/boldstone.json")
+    )
     ap.add_argument("--credential-store", choices=["keychain", "file"], default="keychain")
     ap.add_argument("--reports-dir", default="reports")
     ap.add_argument("--generated-dir", default="generated")
@@ -232,7 +234,7 @@ def schedule(profile, args):
         "--credential-store",
         args.credential_store,
         "--reports-dir",
-        str(Path(args.reports_dir).resolve()),
+        str(Path(args.reports_dir).expanduser().resolve()),
         "report",
         "--period",
         args.period,
@@ -242,19 +244,20 @@ def schedule(profile, args):
         if args.period == "weekly"
         else {"Day": 5, "Hour": 10, "Minute": 0}
     )
-    dest = Path(args.generated_dir) / profile.id
+    dest = Path(args.generated_dir).expanduser() / profile.id
     dest.mkdir(parents=True, exist_ok=True)
+    environment = {"PYTHONPATH": str(Path(__file__).resolve().parents[1])}
+    if os.environ.get("SEARCHKIT_STATE_DIR"):
+        environment["SEARCHKIT_STATE_DIR"] = str(profile.state_dir)
     payload = {
         "Label": "local.searchkit." + profile.id + "." + args.period,
         "ProgramArguments": base,
         "WorkingDirectory": project,
         "StartCalendarInterval": interval,
-        "EnvironmentVariables": {"PYTHONPATH": str(Path(__file__).resolve().parents[1])},
+        "EnvironmentVariables": environment,
         "StandardOutPath": str((dest / (args.period + ".stdout.log")).resolve()),
         "StandardErrorPath": str((dest / (args.period + ".stderr.log")).resolve()),
     }
-    if os.environ.get("SEARCHKIT_STATE_DIR"):
-        payload["EnvironmentVariables"]["SEARCHKIT_STATE_DIR"] = os.environ["SEARCHKIT_STATE_DIR"]
     path = dest / (payload["Label"] + ".plist")
     path.write_bytes(plistlib.dumps(payload))
     (dest / (args.period + "-cron-command.txt")).write_text(
@@ -262,7 +265,7 @@ def schedule(profile, args):
         + "cd "
         + shlex.quote(project)
         + " && "
-        + shlex.join(base)
+        + shlex.join(["env", *(f"{key}={value}" for key, value in environment.items()), *base])
         + "\n"
     )
     return {
@@ -279,10 +282,11 @@ def main(argv=None):
     try:
         if args.command == "init":
             path = Path(args.output).expanduser()
-            if path.exists():
+            if path.exists() or path.is_symlink():
                 raise ToolkitError("Refusing to overwrite an existing profile.")
-            private_json(path, template(args.url, args.name, args.id))
-            Profile(path)
+            data = template(args.url, args.name, args.id)
+            Profile.validate_data(data)
+            private_json(path, data, exclusive=True)
             print(
                 json.dumps(
                     {"profile": str(path.resolve()), "configure_account_and_auth_next": True},

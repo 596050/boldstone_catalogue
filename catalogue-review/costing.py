@@ -1,17 +1,23 @@
 """Editable manufacturing costs and optional markup-driven listing prices."""
 from copy import deepcopy
-from decimal import Decimal, ROUND_HALF_UP
+from decimal import Decimal, ROUND_HALF_UP, localcontext
 import math
 import re
 from presentation import listing_value
+from measurement_text import dimensions
 
 
 def money(value):
     # Area/volume calculations can leave a half-penny just below its true value
     # (for example 93.55499999999999). Remove sub-nanopound arithmetic noise
     # before applying the same half-up penny rounding as the workbook.
-    value = Decimal(str(value)).quantize(Decimal('0.000000001'), rounding=ROUND_HALF_UP)
-    return float(value.quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
+    value = Decimal(str(value))
+    # Valid input bounds can produce large totals; the default Decimal context
+    # otherwise raises InvalidOperation while quantizing them to pennies.
+    with localcontext() as context:
+        context.prec = max(28, value.adjusted() + 12)
+        value = value.quantize(Decimal('0.000000001'), rounding=ROUND_HALF_UP)
+        return float(value.quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
 
 
 def rate(label, amount, basis, source='', minutes=0):
@@ -87,29 +93,6 @@ def validate_settings(data):
 def values(product, reviews):
     choices = {r['item_id']: r['data'] for r in reviews if r['kind'] == 'field' and r['product_id'] == product['id']}
     return {f['key']: listing_value(f, choices.get(f['key'], {})) or '' for f in product['fields']}
-
-
-def dimensions(text):
-    # Only the first three dimensions describe the individual. Later framework
-    # and arrangement dimensions never replace the panel's own size.
-    number = r'(\d+(?:\.\d+)?)(?:\s*[–−-]\s*(\d+(?:\.\d+)?))?'
-    labelled = []
-    for labels in ('wide|width', 'high|height', 'deep|(?:side |panel |body )?depth'):
-        match = re.search(number + r'\s*cm\s*(?:' + labels + r')\b', text, re.I)
-        if match:
-            labelled.append((float(match.group(1)) + float(match.group(2) or match.group(1))) / 2)
-    if len(labelled) == 3 and not re.search(r'\b(?:diameter|square)\b', text, re.I):
-        return *labelled, 1
-    nums = [sum(float(x) for x in m if x)/len([x for x in m if x]) for m in
-            re.findall(r'(\d+(?:\.\d+)?)(?:\s*[–−-]\s*(\d+(?:\.\d+)?))?', text)]
-    if 'diameter' in text.lower() and len(nums) >= 2:
-        return nums[0], nums[0], nums[1], math.pi / 4
-    if 'square' in text.lower() and len(nums) >= 2:
-        return nums[0], nums[0], nums[1], 1
-    if len(nums) >= 3:
-        # Axis order does not affect area/volume. Retain the source order.
-        return *nums[:3], 1
-    raise ValueError('Three dimensions are needed to calculate a cost.')
 
 
 def finish_defaults(name, material):

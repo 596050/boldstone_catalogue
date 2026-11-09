@@ -145,11 +145,14 @@ def main():
     args = parser.parse_args()
     if not args.run:
         parser.error("Use --run only with the connected dispatcher active.")
+    if args.limit is not None and args.limit < 1:
+        parser.error("--limit must be positive.")
     os.umask(0o077)
     plan = json.loads(w.PLAN_PATH.read_text())
     w.validate_plan(plan)
     for directory in ("requests", "responses", "inflight", "receipts"):
         (RPC / directory).mkdir(mode=0o700, parents=True, exist_ok=True)
+    w.RUN_PATH.mkdir(mode=0o700, parents=True, exist_ok=True)
     lock_fd = os.open(w.RUN_PATH / "worker.lock", os.O_CREAT | os.O_RDWR, 0o600)
     fcntl.flock(lock_fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
     w.API, w.record, w.update_status = ConnectorAPI, record, status

@@ -2,10 +2,26 @@
 
 A reusable local project for setting up a website's search and analytics accounts through supported APIs. Each website has its own JSON profile, credential namespace, state and dated evidence archive. The supplied Boldstone profile targets the existing property; it does not create a replacement.
 
-The CLI and virtual environment are installed in this directory. Start here:
+From a source checkout, install the local environment first:
 
 ```sh
-cd /Users/tprice/Documents/boldstone/search-analytics-toolkit
+cd search-analytics-toolkit
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -e '.[keychain,dev]'
+```
+
+The source repository includes `profiles/example.json`. The private
+`profiles/boldstone.json` is retained separately; restore it before running
+commands against Boldstone. The launcher works from any directory and uses
+this project's `.venv` when installed. To check the example offline:
+
+```sh
+bin/searchctl --profile profiles/example.json plan
+```
+
+After restoring your private Boldstone profile:
+
+```sh
 bin/searchctl doctor
 bin/searchctl plan
 bin/searchctl capabilities

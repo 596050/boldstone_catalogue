@@ -32,7 +32,9 @@
     if (!event || !consent() || currency !== 'GBP' || !Array.isArray(items) || !items.length) return false;
     // Do not guess another product, selected variant or a mixed-cart total.
     if (items.some(function (item) {
-      return !config.products[item.item_id] || !Number.isFinite(item.price) || item.price < 0 ||
+      return !Object.prototype.hasOwnProperty.call(config.products,item.item_id) ||
+        (name === 'view_item' && config.products[item.item_id].path !== location.pathname) ||
+        !Number.isFinite(item.price) || item.price < 0 ||
         !Number.isInteger(item.quantity) || item.quantity < 1;
     })) return false;
     if (!start()) return false;

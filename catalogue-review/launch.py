@@ -18,9 +18,11 @@ def running():
     try:
         with urllib.request.urlopen(URL + '/api/health', timeout=1) as response:
             data = json.load(response)
-        if data.get('application') != 'boldstone-review':
+        if not isinstance(data, dict) or data.get('application') != 'boldstone-review':
             raise RuntimeError('Another application is using port 8767.')
         return True
+    except (urllib.error.HTTPError, ValueError) as exc:
+        raise RuntimeError('Another application is using port 8767; its health response is not Boldstone Review.') from exc
     except (urllib.error.URLError, TimeoutError, ConnectionError):
         return False
 

@@ -22,8 +22,13 @@ def main():
     w.validate_plan(plan)
     rows = [row for row in plan["rows"] if row["status"] == "ELIGIBLE"]
     records = []
+    source_formats = {}
     for row in rows:
         state = w.saved_state(row)
+        source_format = state["local_jpeg"].get("source_format", "BMP")
+        if source_format not in ("BMP", "JPEG"):
+            raise w.SetupError("Unsupported original format in conversion evidence")
+        source_formats[row["source_id"]] = source_format
         original = Path(state["work_directory"]) / "original.bmp"
         if w.fingerprint(original) != state["backup"]:
             raise w.SetupError("Source backup differs before archiving")
@@ -40,7 +45,7 @@ def main():
         temporary = ARCHIVE.with_suffix(".zip.partial")
         with zipfile.ZipFile(temporary, "w", compression=zipfile.ZIP_STORED, allowZip64=True) as archive:
             archive.writestr("MANIFEST.json", json.dumps(manifest, indent=2, sort_keys=True) + "\n")
-            archive.writestr("README.txt", "These are the exact original BMP files for 410 full-resolution JPEG conversions.\n"
+            archive.writestr("README.txt", f"These are the exact original files for {len(records)} full-resolution JPEG conversions.\n"
                              "JPEG uses quality 100 and 4:4:4 but is still lossy; keep this lossless source archive.\n"
                              "Each manifest entry binds a BMP to its Dropbox ID, revision, hashes and JPEG replacement.\n"
                              "This archive is not a backup of Dropbox sharing permissions or native revision history.\n")
@@ -55,7 +60,9 @@ def main():
         archived_manifest = json.loads(archive.read("MANIFEST.json"))
         if archived_manifest["records"] != records:
             raise w.SetupError("Existing archive manifest differs")
-        if set(archive.namelist()) != {"MANIFEST.json", "README.txt", *(r["archive_member"] for r in records)}:
+        members = archive.namelist()
+        if (len(members) != len(records) + 2 or
+                set(members) != {"MANIFEST.json", "README.txt", *(r["archive_member"] for r in records)}):
             raise w.SetupError("Archive member list differs")
         for index, record in enumerate(records, 1):
             restored = Path(temp) / "original.bmp"
@@ -69,7 +76,11 @@ def main():
                 raise w.SetupError("Archive restoration fingerprint failed")
             with Image.open(restored) as image:
                 image.load()
-                if image.format != "BMP" or list(image.size) != record["jpeg_dimensions"]:
+                # Conversion also accepts a JPEG stored under a .bmp extension
+                # and copies its bytes without recompression. Restoration must
+                # verify that recorded source format rather than its suffix.
+                if (image.format != source_formats[record["source_id"]]
+                        or list(image.size) != record["jpeg_dimensions"]):
                     raise w.SetupError("Archive restoration decode failed")
             verified.append({"source_id": record["source_id"], "archive_member": record["archive_member"],
                              **fingerprint, "restore_and_decode_passed": True})

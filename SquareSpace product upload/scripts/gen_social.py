@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 """Generate platform-native social posts for every Boldstone product."""
 import json, re
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
+from content_paths import product_folders, slugify, write_text_atomically
 
 ROOT = Path(__file__).resolve().parent.parent
-P = json.loads((ROOT / "_data" / "products_master.json").read_text())
 SITE = "https://boldstonesculpture.com"
-
-def slugify(s):
-    return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", s.lower())).strip("-")
 
 RULES = {
  "instagram": dict(imgs=20, tags=(20, 28), limit=2200, ratio="4:5 (1080x1350)", how="Carousel"),
@@ -128,8 +126,12 @@ def hook(p):
 
 def price(p):
     try:
-        return f"£{float(p['price']):.0f}"
-    except Exception:
+        amount = Decimal(str(p['price']))
+        if not amount.is_finite():
+            return ""
+        value = f"{amount:,.2f}"
+        return "£" + (value[:-3] if value.endswith('.00') else value)
+    except (InvalidOperation, KeyError, ValueError, TypeError):
         return ""
 
 def link(p):
@@ -162,8 +164,8 @@ def build(p, plat):
     elif plat == "threads":
         core = f"{t}. {s}"
         if sp: core += f"\n{sp}"
-        core += f"\n{u}"
-        body = clip(core, r["limit"] - len(" ".join(ht)) - 2) + "\n" + " ".join(ht)
+        tags = " ".join(ht)
+        body = clip(core, r["limit"] - len(u) - len(tags) - 2) + f"\n{u}\n{tags}"
 
     elif plat == "x":
         # X rewards brevity. A truncated run-on description reads badly, so lead
@@ -174,7 +176,7 @@ def build(p, plat):
         body = f"{hook(p)}\n\n{line2}\n{u}\n{tags}"
         eff = len(body) - (len(u) - 23)
         if eff > r["limit"]:                       # fall back: drop the hook
-            body = f"{line2}\n{u}\n{tags}"
+            body = f"{clip(line2, r['limit'] - 23 - len(tags) - 2)}\n{u}\n{tags}"
 
     else:  # linkedin
         s3 = sentence(p, 3, cap=420)
@@ -185,12 +187,16 @@ def build(p, plat):
 
     return body.strip(), ht
 
-def write():
+def write(products=None):
+    if products is None:
+        products = json.loads((ROOT / "_data" / "products_master.json").read_text())
     counts = {k: 0 for k in RULES}
-    for p in P:
-        slug = slugify(p["title"])
+    for p, slug in product_folders(products, lambda p: slugify(p["title"])):
         for plat, r in RULES.items():
             body, ht = build(p, plat)
+            eff = len(body) - (len(link(p)) - 23 if plat == "x" else 0)
+            if eff > r["limit"]:
+                raise ValueError(f"{slug}/{plat} over limit: {eff}; caption was not written.")
             n_img = min(p["n_img"], r["imgs"])
             imgs = "\n".join(f"  {i:02d}. {i:02d}.jpg" for i in range(1, n_img + 1)) or "  (none)"
             md = (
@@ -203,11 +209,8 @@ def write():
                 f"---\n\n## Caption\n\n```\n{body}\n```\n\n## Images to attach\n\n{imgs}\n"
             )
             out = ROOT / "social" / plat / slug / "caption.md"
-            out.parent.mkdir(parents=True, exist_ok=True)
-            out.write_text(md, encoding="utf-8")
+            write_text_atomically(out, md)
             counts[plat] += 1
-            eff = len(body) - (len(link(p)) - 23 if plat == "x" else 0)
-            assert eff <= r["limit"], f"{slug}/{plat} over limit: {eff}"
     return counts
 
 if __name__ == "__main__":

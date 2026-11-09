@@ -168,6 +168,7 @@ def read_folder(client, parent):
     if (native.sharing_info is not None) != parent.get('sharing_info_present', False):
         raise ValueError('Parent sharing has changed')
     found = {}
+    cursors = set()
     page = client.files_list_folder(parent['id'], limit=2000, include_has_explicit_shared_members=True)
     while True:
         for item in page.entries:
@@ -177,6 +178,9 @@ def read_folder(client, parent):
             found[row['id']] = row
         if not page.has_more:
             return found
+        if not isinstance(page.cursor, str) or not page.cursor or page.cursor in cursors:
+            raise ValueError('Incomplete parent-folder pagination')
+        cursors.add(page.cursor)
         page = client.files_list_folder_continue(page.cursor)
 
 

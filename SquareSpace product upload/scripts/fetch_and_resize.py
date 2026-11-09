@@ -20,8 +20,9 @@ Usage:
 
 Safe to re-run: images already present are skipped.
 """
-import io, json, re, sys, time
+import io, json, sys, time, tempfile
 from pathlib import Path
+from content_paths import product_folders, slugify, write_text_atomically
 
 try:
     import requests
@@ -45,43 +46,49 @@ TARGETS = {
 BG = (255, 255, 255)
 
 
-def slugify(s):
-    return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", s.lower())).strip("-")
-
-
 def discover():
     """Pull every product and its full image list from the live store's JSON API."""
     master = json.loads((DATA / "products_master.json").read_text())
-    out = []
-    for i, p in enumerate(master, 1):
-        slug = slugify(p["title"])
+    out, failures = [], []
+    for i, (p, slug) in enumerate(product_folders(master, lambda p: slugify(p["title"])), 1):
         try:
             r = requests.get(f"{SITE}/buy/p/{slug}", params={"format": "json"}, timeout=30)
             if r.status_code != 200:
-                print(f"  ! {slug}: HTTP {r.status_code}")
-                continue
+                raise RuntimeError(f"HTTP {r.status_code}")
             item = r.json().get("item", {})
             imgs = [x["assetUrl"] for x in item.get("items", []) if x.get("assetUrl")]
             out.append({"slug": slug, "title": p["title"], "images": imgs})
             print(f"  [{i}/{len(master)}] {slug}: {len(imgs)} images")
         except Exception as e:
             print(f"  ! {slug}: {e}")
+            failures.append(slug)
         time.sleep(0.12)
+    if failures:
+        raise RuntimeError(f"Could not scan {len(failures)} product(s); the existing catalogue cache was preserved.")
     return out
 
 
 def render(img, spec, dest):
-    im = ImageOps.exif_transpose(img).convert("RGB")
+    # Composite transparency onto white before JPEG discards the alpha channel,
+    # including palette PNG/GIF transparency and partially transparent edges.
+    im = ImageOps.exif_transpose(img).convert("RGBA")
+    im.thumbnail(spec["size"], Image.LANCZOS)
     if spec["pad"]:
         canvas = Image.new("RGB", spec["size"], BG)
-        im.thumbnail(spec["size"], Image.LANCZOS)
         canvas.paste(im, ((spec["size"][0] - im.width) // 2,
-                          (spec["size"][1] - im.height) // 2))
+                          (spec["size"][1] - im.height) // 2), im)
     else:
-        im.thumbnail(spec["size"], Image.LANCZOS)
-        canvas = im
+        canvas = Image.new("RGB", im.size, BG)
+        canvas.paste(im, (0, 0), im)
     dest.parent.mkdir(parents=True, exist_ok=True)
-    canvas.save(dest, "JPEG", quality=spec["q"], optimize=True, progressive=True)
+    # A failed write must not leave a broken JPEG that the next run skips.
+    with tempfile.NamedTemporaryFile(dir=dest.parent, prefix="." + dest.name, suffix=".tmp", delete=False) as handle:
+        temporary = Path(handle.name)
+    try:
+        canvas.save(temporary, "JPEG", quality=spec["q"], optimize=True, progressive=True)
+        temporary.replace(dest)
+    finally:
+        temporary.unlink(missing_ok=True)
     return dest.stat().st_size
 
 
@@ -93,19 +100,19 @@ def main():
     else:
         print("Scanning boldstonesculpture.com for image URLs ...")
         products = discover()
-        cache.write_text(json.dumps(products, indent=1))
+        write_text_atomically(cache, json.dumps(products, indent=1))
         print(f"\nCatalogue cached: {len(products)} products.\n")
 
     made = skipped = failed = 0
     total = 0
-    for n, p in enumerate(products, 1):
+    for n, (p, slug) in enumerate(product_folders(products, lambda p: p["slug"]), 1):
         srcs = p.get("images") or []
         if not srcs:
             continue
         print(f"[{n}/{len(products)}] {p['title']} ({len(srcs)} photos)")
         originals = {}
         for folder, spec in TARGETS.items():
-            postdir = ROOT / folder / p["slug"]
+            postdir = ROOT / folder / slug
             if not postdir.exists():          # no markdown there -> nothing to illustrate
                 continue
             for idx, url in enumerate(srcs[: spec["max_imgs"]], 1):
@@ -133,7 +140,8 @@ def main():
     print(f"created {made} · skipped {skipped} · failed {failed}")
     if made:
         print(f"average file size: {total / made / 1024:.0f} KB  (all well under platform limits)")
+    return 1 if failed else 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

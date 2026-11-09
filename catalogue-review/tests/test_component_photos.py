@@ -46,6 +46,15 @@ class ComponentPhotoTests(unittest.TestCase):
         self.assertEqual(len(result['photos']['in_situ']['images']), 6)
         self.assertEqual(result['photos']['in_situ']['count'], result['in_situ']['count'])
 
+    def test_platform_hashes_cover_images_beyond_bounded_previews(self):
+        for index in range(8):
+            self.choice('photo' + str(index), primary=index == 0)
+        result = coverage(self.view(), include_photos=True)['products']['A']
+        self.assertNotIn('photo8', [a['id'] for a in result['photos']['in_situ']['images']])
+        self.assertEqual(result['content_hashes']['photo8'], 'hash8')
+        self.cat.assets['photo8']['original']['dropbox_content_hash'] = 'newbytes'
+        self.assertEqual(coverage(self.view())['products']['A']['content_hashes']['photo8'], 'newbytes')
+
     def test_shared_scene_can_be_listing_and_situ_but_choices_stay_per_component(self):
         self.choice('photo0', primary=True, uses=['listing', 'advertising'])
         result = coverage(self.view(), include_photos=True)['products']

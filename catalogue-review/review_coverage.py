@@ -60,6 +60,7 @@ def product_coverage(view, product, include_photos=False):
     excluded = view.decision('product', pid).get('decision') == 'exclude'
     name = display_name(view, product)
     group = getattr(view.cat, 'working_design_groups', {}).get(pid, {})
+    selected_ids = set(photos['listing_ids']) | set(situ)
     result = {'id': pid, 'name': name, 'family': product['family'], 'component_id': product.get('component_id'),
             'design_group_id': group.get('working_design_group_id', product.get('component_id')),
             'grouping_basis': group.get('grouping_basis', 'Existing component ID; no new design identity inferred'),
@@ -68,6 +69,10 @@ def product_coverage(view, product, include_photos=False):
                         'image_ids': situ, 'listing_count': len(listing_situ)},
             'individual': {'count': len(individual), 'image_ids': individual},
             'listing': {'count': len(photos['listing_ids']), 'image_ids': photos['listing_ids']},
+            'content_hashes': {a['id']: (a.get('original', {}).get('dropbox_content_hash')
+                                       or a.get('original', {}).get('sha256'))
+                               for a in photos['images']
+                               if a['id'] in selected_ids},
             'white_evidence': plain_white_evidence(product, name), 'image_ids': sorted(family_images),
             'primary_listing': photos['primary_listing'],
             'primary_content_hash': next((a.get('original', {}).get('dropbox_content_hash')

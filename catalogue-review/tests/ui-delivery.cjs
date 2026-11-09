@@ -45,6 +45,17 @@ test('typing immediately invalidates a pending quote before debounce fires',asyn
   const html=h.node('#delivery-result').innerHTML;resolve(h.result);await old;
   assert.equal(h.node('#delivery-result').innerHTML,html);assert.equal(h.run('deliveryEditor.dirty'),true);
 });
+test('blur change after the same input does not replace a quote or move Save during its click',()=>{
+  const h=harness();h.node('#delivery-form').values.packaging_gbp='3.5';
+  const event={target:{closest:()=>h.node('#delivery-form')}};
+  for(const listener of h.listeners.input)listener(event);
+  const request=h.run('deliveryEditor.quoteRequest'),timers=h.timers.length;
+  h.node('#delivery-result').textContent='£7.25 current quote';
+  for(const listener of h.listeners.change)listener(event);
+  assert.equal(h.run('deliveryEditor.quoteRequest'),request);
+  assert.equal(h.timers.length,timers);
+  assert.equal(h.node('#delivery-result').textContent,'£7.25 current quote');
+});
 test('older errors and closed dialogs cannot receive a stale response',async()=>{
   for(const action of ['deliveryEditor.quoteRequest++','deliveryEditor=null']){
     const h=harness();let reject;h.context.api=()=>new Promise((_r,j)=>reject=j);
@@ -81,4 +92,23 @@ test('rapid opens bind only the latest sculpture and retain no previous pending 
   h.context.api=url=>url.endsWith('=A')?new Promise(r=>resolve=r):Promise.resolve({...h.context.payload,product_id:'B'});
   const old=h.run("openDelivery('A')");await h.run("openDelivery('B')");resolve(h.context.payload);await old;
   assert.deepEqual(renders,['B']);assert.equal(h.run('deliveryEditor.pid'),'B');
+});
+test('edited package measurements hide the previous USA estimate until saved',()=>{
+  const h=harness();h.context.payload.us_shipping={status:'available',packing_basis:'Saved packed measurements',packed_cm:[45,35,16],packed_kg:2,quotes:[]};
+  h.run('renderUSDelivery()');assert.match(h.node('#us-delivery-estimates').innerHTML,/2 kg packed/);
+  h.node('#delivery-form').values.weight_kg='8';
+  for(const listener of h.listeners.input)listener({target:{closest:()=>h.node('#delivery-form')}});
+  assert(!h.node('#us-delivery-estimates').innerHTML.includes('2 kg packed'));
+  assert.match(h.node('#us-delivery-estimates').innerHTML,/Save.*refresh/i);
+  h.node('#delivery-form').values.weight_kg='2';
+  for(const listener of h.listeners.input)listener({target:{closest:()=>h.node('#delivery-form')}});
+  assert.match(h.node('#us-delivery-estimates').innerHTML,/2 kg packed/);
+});
+test('failed USA refresh after saving does not retain a quote for the previous package',async()=>{
+  const h=harness();h.context.payload.us_shipping={status:'available',packing_basis:'Saved packed measurements',packed_cm:[45,35,16],packed_kg:2,quotes:[]};
+  h.run('renderUSDelivery()');h.node('#delivery-form').values.weight_kg='8';
+  h.context.api=async(url,body)=>{if(url==='/api/reviews')return {version:1,data:body.data,updated_at:'2026-11-09T09:00:00Z'};throw Error('Refresh unavailable');};
+  await h.run('saveDelivery()');
+  assert(!h.node('#us-delivery-estimates').innerHTML.includes('2 kg packed'));
+  assert.match(h.node('#delivery-save-status').textContent,/saved.*could not refresh/i);
 });

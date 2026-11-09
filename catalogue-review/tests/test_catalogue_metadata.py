@@ -80,6 +80,42 @@ class RetainedMetadataTests(unittest.TestCase):
         self.assertEqual(asset['types'], [])
         self.assertFalse(cat.edges)
 
+    def test_master_fields_do_not_require_a_second_specifications_record(self):
+        register = self.base / 'register.json'
+        register.write_text(json.dumps({'components': [], 'active_option_ids': ['A']}))
+        pointer_path = self.base / 'current-master.json'
+        pointer = json.loads(pointer_path.read_text())
+        pointer['register_sha256'] = hashlib.sha256(register.read_bytes()).hexdigest()
+        pointer_path.write_text(json.dumps(pointer))
+        with sqlite3.connect(self.database) as db:
+            db.execute('INSERT INTO products VALUES(?,?,?,?)', ('A', 'Panel', 'Panels', json.dumps({
+                'master_fields': {'Weight': {'display': '6 kg'}}, 'selling_details': {}})))
+        self.assertEqual(self.load().fields('A')['Weight']['value'], '6 kg')
+
+    def test_gallery_path_with_uri_characters_still_loads_read_only(self):
+        old = self.database.parent
+        renamed = old.with_name('gallery #1? saved')
+        old.rename(renamed)
+        self.database = renamed / self.database.name
+        pointer_path = self.base / 'current-master.json'
+        pointer = json.loads(pointer_path.read_text())
+        pointer['current_published_gallery_projection']['path'] = renamed.name + '/index.html'
+        pointer_path.write_text(json.dumps(pointer))
+        self.assertIn('id:photo', self.load().assets)
+
+    def test_explicit_private_cache_outside_project_can_supply_original_and_preview(self):
+        cache = self.root / 'app-state'
+        cache.mkdir()
+        full = cache / 'retained.png'
+        thumb = cache / 'retained-thumb.png'
+        full.write_bytes(self.full.read_bytes())
+        thumb.write_bytes(self.thumb.read_bytes())
+        row = deepcopy(self.row)
+        row['metadata'].update(full=str(full), thumb=str(thumb))
+        cat = self.load(row)
+        self.assertEqual(cat.paths['id:photo'][0], full)
+        self.assertEqual(cat.preview_paths['id:photo'], thumb)
+
     def test_thumbnail_recovers_preview_without_claiming_original_dimensions(self):
         self.full.unlink()
         cat = self.load()

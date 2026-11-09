@@ -130,6 +130,16 @@ class ExportConsistencyTests(unittest.TestCase):
         self.assertEqual(images[0]['product_name'], product['name'])
         self.assertEqual(images[0]['product_name'], 'Panel - White')
 
+    def test_tied_photo_orders_match_the_component_carousel(self):
+        for aid, name in [('id:a', 'Zebra photo'), ('id:z', 'Apple photo')]:
+            self.cat.assets[aid] = {**deepcopy(self.cat.assets['image']), 'id': aid, 'name': name}
+            self.cat.edges['A'][aid] = {'tier': 'accepted'}
+            self.save('image', aid, {'decision': 'reviewed', 'uses': ['listing'], 'order': 0})
+        expected = component_photos(Projection(self.cat, self.store.all()), 'A')['listing_ids']
+        self.assertEqual(expected, ['image', 'id:z', 'id:a'])
+        _, product, _ = self.export()
+        self.assertEqual(json.loads(product['listing_image_ids']), expected)
+
     def test_sha256_identity_preserves_platform_original_review(self):
         self.cat.assets['image']['source'] = 'Shopify'
         self.cat.assets['image']['original'] = {'sha256': 'c' * 64}

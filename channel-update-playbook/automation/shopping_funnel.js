@@ -50,7 +50,8 @@
         // Single-offer products only: never guess the chosen multi-variant SKU.
         if (p['@type'] !== 'Product' || !p.offers || Array.isArray(p.offers) || p.offers['@type'] !== 'Offer') return;
         var o = p.offers;
-        if (!o.sku || o.price == null || o.price === '') return;
+        if (!o.sku || typeof p.name !== 'string' || !p.name.trim() ||
+            o.price == null || String(o.price).trim() === '') return;
         if (new URL(o.url, location.href).pathname !== location.pathname) return;
         results.push({currency: o.priceCurrency, item: {
           item_id: String(o.sku), item_name: String(p.name).replace(/\s+[—–]\s+boldstone$/i, ''),
@@ -126,7 +127,8 @@
       if (p && before !== null && !pending) pending = {product:p, before:before, at:Date.now(), path:location.pathname, button:button};
     }
     var checkout = e.target.closest('a.cart-checkout-button[href]');
-    if (checkout && new URL(checkout.href).pathname === '/commerce/goto-checkout' && Date.now() - checkoutAt > 3000) {
+    if (checkout && new URL(checkout.href, location.href).origin === new URL(location.href).origin
+        && new URL(checkout.href, location.href).pathname === '/commerce/goto-checkout' && Date.now() - checkoutAt > 3000) {
       var c = cart();
       if (c && emit('begin_checkout', c.items, c.currency)) checkoutAt = Date.now();
     }

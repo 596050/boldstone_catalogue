@@ -115,6 +115,7 @@ def normalize_paths(entries):
 
 def live_census(api):
     entries, pages = {}, 0
+    cursors = set()
     page = api.read("files_list_folder", worker.ROOT_ID, recursive=True, limit=2000,
                     include_deleted=False)
     while True:
@@ -133,6 +134,9 @@ def live_census(api):
         print(f"Final census: {len(entries)} entries across {pages} pages", flush=True)
         if not page.has_more:
             break
+        if not isinstance(page.cursor, str) or not page.cursor or page.cursor in cursors:
+            raise worker.SetupError("Incomplete final census pagination")
+        cursors.add(page.cursor)
         page = api.read("files_list_folder_continue", page.cursor)
     if worker.ROOT_ID not in entries:
         root = api.metadata(worker.ROOT_ID)

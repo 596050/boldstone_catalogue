@@ -1,5 +1,1 @@
-eBay Item ID,Title,Price (GBP),Best Offer,Listing URL,eBay Image (full-size),Status,Views,Watchers
-188654392024,Frozen Fish wall sculpture terracotta effect gypsum composite,44.44,Yes,https://www.ebay.co.uk/itm/188654392024,https://i.ebayimg.com/images/g/MS8AAeSw65BqWe98/s-l1600.png,Active,3,0
-188654562815,Frozen Deco wall sculpture Terracotta effect gypsum composite,48.44,Yes,https://www.ebay.co.uk/itm/188654562815,https://i.ebayimg.com/images/g/GH4AAeSw0VtqWg3~/s-l1600.jpg,Active,2,0
-188654649217,Wall sculpture with a wave relief and hand-painted faux rust-on-iron,35.33,Yes,https://www.ebay.co.uk/itm/188654649217,https://i.ebayimg.com/images/g/GBIAAeSwB-dqWhvI/s-l1600.jpg,Active (Promoted),3,0
-188654831217,Wall sculpture with a wave relief and hand-laid copper surface effect,40.33,Yes,https://www.ebay.co.uk/itm/188654831217,https://i.ebayimg.com/images/g/hBwAAeSwJM5qWide/s-l1600.png,Active,1,0
+../data/inputs/marketplaces/ebay/ebay_active_listings.csv

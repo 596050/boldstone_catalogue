@@ -201,7 +201,10 @@ class Application:
                 raise ValueError('The image is no longer attached to the source sculpture. Reload it.')
             ends = [(target, 'attached')] if mode == 'copy' else [(source, 'removed'), (target, 'attached')] if mode == 'move' else [(source, 'removed' if mode == 'remove' else 'attached')]
             for pid, state in ends:
-                version = versions.get(pid, {}).get(aid)
+                product_versions = versions.get(pid)
+                if not isinstance(product_versions, dict):
+                    raise ValueError('Assignment versions are invalid; reload the page.')
+                version = product_versions.get(aid)
                 if type(version) is not int or version < 0:
                     raise ValueError('An assignment version is missing.')
                 changes.append({'product_id': pid, 'asset_id': aid, 'version': version,
@@ -357,7 +360,10 @@ class Application:
             data['reviewed_content_hash'] = cat.assets[item].get('original', {}).get('dropbox_content_hash')
         versions = None
         if kind in ('image', 'asset'):
-            versions = body.get('member_versions') or {aid: 0 for aid in view.member_ids(item)}
+            versions = body.get('member_versions')
+            if versions is not None and not isinstance(versions, dict):
+                raise ValueError('Duplicate review versions are invalid; reload this image.')
+            versions = dict(versions) if versions else {aid: 0 for aid in view.member_ids(item)}
             if set(versions) != set(view.member_ids(item)) or any(type(v) is not int or v < 0 for v in versions.values()):
                 raise ValueError('Duplicate review versions are invalid; reload this image.')
             versions[item] = body['version']
@@ -368,6 +374,7 @@ class Application:
 
 class Handler(BaseHTTPRequestHandler):
     server_version = 'BoldstoneReview/' + VERSION
+    request_body_timeout = 10
 
     @property
     def app(self):
@@ -398,7 +405,8 @@ class Handler(BaseHTTPRequestHandler):
             origin = self.headers.get('Origin')
             if origin and origin not in {'http://' + x for x in allowed}:
                 return False
-            if not secrets.compare_digest(self.headers.get('X-Review-Token', ''), self.app.token):
+            token = self.headers.get('X-Review-Token', '')
+            if not token.isascii() or not secrets.compare_digest(token, self.app.token):
                 return False
         return True
 
@@ -578,25 +586,46 @@ class Handler(BaseHTTPRequestHandler):
                        'retryable': True}, 503)
 
     def do_POST(self):
+        if not self.headers_ok(write=True):
+            return self.send({'error': 'Invalid local review session. Reload the page.'}, 403)
+        # A disconnected tab or slow client may send headers before its body.
+        # Do not hold the catalogue lock while waiting for those bytes.
+        try:
+            body = self.read_request_body()
+        except TimeoutError:
+            self.close_connection = True
+            return self.send({'error': 'The request body did not finish. Reload the current item before retrying.'}, 408)
+        except (ValueError, TypeError) as exc:
+            self.close_connection = True
+            return self.send({'error': str(exc)}, 400)
         # Native inspections and explicit recovery may wait on Dropbox. They
         # must not freeze gallery reads or unrelated saved review choices.
         if self.path in ('/api/deletions/prepare', '/api/deletions/check', '/api/jobs/check', '/api/jobs/resume-rename', '/api/original', '/api/delivery/refresh', '/api/delivery/quote'):
-            return self.post_response()
+            return self.post_response(body)
         with self.app.catalogue_lock:
-            self.post_response()
+            self.post_response(body)
 
-    def post_response(self):
-        if not self.headers_ok(write=True):
-            return self.send({'error': 'Invalid local review session. Reload the page.'}, 403)
+    def read_request_body(self):
+        if self.headers.get('Content-Type', '').split(';')[0] != 'application/json':
+            raise ValueError('JSON is required')
+        length = int(self.headers.get('Content-Length', '0'))
+        if not 0 < length < 512_000:
+            raise ValueError('Invalid request size')
+        previous_timeout = self.connection.gettimeout()
+        self.connection.settimeout(self.request_body_timeout)
         try:
-            if self.headers.get('Content-Type', '').split(';')[0] != 'application/json':
-                raise ValueError('JSON is required')
-            length = int(self.headers.get('Content-Length', '0'))
-            if not 0 < length < 512_000:
-                raise ValueError('Invalid request size')
-            body = json.loads(self.rfile.read(length))
-            if not isinstance(body, dict):
-                raise ValueError('Invalid request')
+            raw = self.rfile.read(length)
+        finally:
+            self.connection.settimeout(previous_timeout)
+        if len(raw) != length:
+            raise ValueError('The request body was incomplete; no changes were saved.')
+        body = json.loads(raw)
+        if not isinstance(body, dict):
+            raise ValueError('Invalid request')
+        return body
+
+    def post_response(self, body):
+        try:
             if self.path not in ('/api/deletions/check', '/api/jobs/check', '/api/jobs/cancel', '/api/jobs/dismiss', '/api/jobs/restore', '/api/jobs/clear-finished', '/api/original', '/api/delivery/refresh', '/api/delivery/quote') and hasattr(self.app, 'refresh_source'):
                 self.app.refresh_source()
             if self.path == '/api/delivery/refresh':

@@ -70,6 +70,7 @@ def sharing_flags(item):
 
 def census(api):
     entries, pages = {}, 0
+    cursors = set()
     result = api.read("files_list_folder", w.ROOT_ID, recursive=True, limit=2000,
                       include_has_explicit_shared_members=True, include_deleted=False)
     while True:
@@ -89,6 +90,9 @@ def census(api):
         print(f"Retirement census: {len(entries)} entries / {pages} pages", flush=True)
         if not result.has_more:
             break
+        if not isinstance(result.cursor, str) or not result.cursor or result.cursor in cursors:
+            raise w.SetupError("Incomplete retirement census pagination")
+        cursors.add(result.cursor)
         result = api.read("files_list_folder_continue", result.cursor)
     root = api.metadata(w.ROOT_ID)
     if not isinstance(root, FolderMetadata):

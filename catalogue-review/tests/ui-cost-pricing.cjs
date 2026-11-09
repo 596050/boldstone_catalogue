@@ -98,6 +98,23 @@ test('populated markup and labour overrides can be cleared',()=>{
   assert(!h.run("costNumber('Labour','labour_hours_override',2,0,'any',true)").includes(' required'));
   assert(h.run("costNumber('Width','width_cm',20,.01)").includes(' required'));
 });
+test('missing dimensions offer component inputs without displaying or overwriting shared rates',()=>{
+  const h=harness();h.context.missing={status:'needs_inputs',message:'Three dimensions are needed.',version:0,pricing:h.cost.pricing};
+  assert.match(h.run("costSummary(missing,'A')"),/data-cost-product="A"/);
+  h.run("costEditor.product={id:'A',name:'Unmeasured sculpture',costing:missing};renderCostEditor()");
+  const html=h.node('#cost-dialog').innerHTML;
+  assert.match(html,/name="width_cm" value=""[^>]* required/);
+  assert.match(html,/name="material"/);assert.match(html,/value="gfrc" selected/);
+  assert.match(html,/name="finish" value="white" checked/);
+  assert.match(html,/Three dimensions are needed/);assert(!html.includes('id="cost-materials"'));
+});
+test('an active cost save cannot be replaced by opening another component or shared rates',async()=>{
+  const h=harness();h.run('costEditor.saving=true');let reads=0;
+  h.context.api=async()=>{reads++;throw new Error('Must not reload');};
+  const html=h.node('#cost-dialog').innerHTML;
+  await h.run("openCosts('B')");await h.run('openCosts()');
+  assert.equal(reads,0);assert.equal(h.run('costEditor.pid'),'A');assert.equal(h.node('#cost-dialog').innerHTML,html);
+});
 test('a stale preview cannot replace inputs edited while it was calculating',async()=>{
   const h=harness();let resolve;
   h.run("costFormData=()=>({markup_percent:100});");h.context.api=()=>new Promise(r=>resolve=r);

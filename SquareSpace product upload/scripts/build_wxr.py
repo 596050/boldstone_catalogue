@@ -3,6 +3,8 @@
 import re, sys, html
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
+from urllib.parse import quote
+from content_paths import write_text_atomically
 import markdown
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -43,6 +45,9 @@ for p in arts:
     fm["slug"] = slug
     posts.append(fm)
 
+if not posts:
+    sys.exit("No articles matched; no import file was written.")
+
 # Stagger publication dates backwards, 2 days apart, so the blog reads as an
 # archive rather than 135 posts dumped on one day (which reads as spam to search).
 start = datetime.now(timezone.utc) - timedelta(days=1)
@@ -73,7 +78,7 @@ for i, fm in enumerate(posts, 1):
     cats += f'<category domain="category" nicename="{html.escape(nick(_ty), quote=True)}">{cdata(_ty)}</category>'
     items.append(f"""<item>
 <title>{cdata(fm.get('title',fm['slug']))}</title>
-<link>{SITE}/blog/{fm['slug']}</link>
+<link>{SITE}/blog/{quote(fm['slug'], safe='')}</link>
 <pubDate>{d.strftime('%a, %d %b %Y %H:%M:%S +0000')}</pubDate>
 <dc:creator>{cdata('Boldstone')}</dc:creator>
 <guid isPermaLink="false">{SITE}/?p={1000+i}</guid>
@@ -85,7 +90,7 @@ for i, fm in enumerate(posts, 1):
 <wp:post_date_gmt>{d.strftime('%Y-%m-%d %H:%M:%S')}</wp:post_date_gmt>
 <wp:comment_status>closed</wp:comment_status>
 <wp:ping_status>closed</wp:ping_status>
-<wp:post_name>{fm['slug']}</wp:post_name>
+<wp:post_name>{html.escape(fm['slug'])}</wp:post_name>
 <wp:status>publish</wp:status>
 <wp:post_parent>0</wp:post_parent>
 <wp:menu_order>0</wp:menu_order>
@@ -118,10 +123,9 @@ xml = f"""<?xml version="1.0" encoding="UTF-8" ?>
 
 name = "boldstone_blog_TEST.xml" if only else "boldstone_blog_ALL.xml"
 dest = OUT / name
-dest.write_text(xml, encoding="utf-8")
-
-# validate it parses as XML
+# Validate before replacing a previously usable import file.
 import xml.etree.ElementTree as ET
-ET.parse(dest)
+ET.fromstring(xml)
+write_text_atomically(dest, xml)
 print(f"WROTE {dest.name}: {len(posts)} posts, {dest.stat().st_size/1024:.0f} KB — XML valid")
 print("date range:", posts[-1]['date'].date(), "→", posts[0]['date'].date())

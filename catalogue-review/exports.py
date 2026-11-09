@@ -190,7 +190,9 @@ def create_export(catalogue, store, include_media=False):
             if primary['status'] != 'set':
                 blockers.append('Resolve the primary listing image selection' if primary['status'] == 'needs_review'
                                 else 'Choose the primary listing image')
-        output['listing_image_ids'] = [x[2] for x in sorted(listing_images)]
+        # Keep carousel ordering identical to component cards/coverage, including
+        # their stable name/ID tie breakers when several photos have order zero.
+        output['listing_image_ids'] = component_photos(view, pid)['listing_ids']
         output['ready_for_listing'] = not blockers
         output['review_blockers'] = blockers
         product_rows.append(output)

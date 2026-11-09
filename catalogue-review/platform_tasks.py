@@ -35,10 +35,15 @@ def fingerprints(product, photos):
     primary = photos.get('primary_listing', {}).get('image_id')
     previews = photos.get('photos', product.get('photos', {})).get('listing', {}).get('images', [])
     original = next((a.get('original', {}) for a in previews if a['id'] == primary), {})
-    # Coverage is the complete selection set; specification previews contain only six.
+    # Coverage is the complete ordered selection; specification previews contain
+    # only six. Keep every selected file's hash so replacing a secondary image
+    # or changing the carousel order also invalidates a recorded platform check.
     media = {'primary': primary, 'primary_hash': photos.get('primary_content_hash') or original.get('dropbox_content_hash') or original.get('sha256'),
-             'listing': sorted(photos.get('listing', {}).get('image_ids', [])),
+             'listing': photos.get('listing', {}).get('image_ids', []),
              'in_situ': sorted(photos.get('in_situ', {}).get('image_ids', []))}
+    if 'content_hashes' in photos:
+        selected = set(media['listing']) | set(media['in_situ'])
+        media['content_hashes'] = {aid: photos['content_hashes'].get(aid) for aid in selected}
     return {'fields': digest({'fields': fields, 'listing_decision': product.get('listing_decision')}),
             'photos': digest(media)}
 
@@ -60,10 +65,14 @@ def validate_snapshot(data):
         if not isinstance(fp, dict) or set(fp) != {'fields', 'photos'} or any(not isinstance(v, str) or len(v) != 64 for v in fp.values()):
             raise ValueError('Invalid catalogue fingerprint')
         for code, entry in platforms.items():
-            if not isinstance(entry, dict) or entry.get('state') not in STATES:
+            if (not isinstance(entry, dict) or not isinstance(entry.get('state'), str)
+                    or entry['state'] not in STATES):
                 raise ValueError('Invalid platform state')
+            checked = entry.get('checked_at', '')
+            if not isinstance(checked, str):
+                raise ValueError('Invalid platform check date')
             if entry['state'] != 'unknown':
-                at = datetime.fromisoformat(entry.get('checked_at', '').replace('Z', '+00:00'))
+                at = datetime.fromisoformat(checked.replace('Z', '+00:00'))
                 if at.tzinfo is None:
                     raise ValueError('A platform check needs a dated observation')
             tasks = entry.get('tasks', [])
@@ -71,7 +80,8 @@ def validate_snapshot(data):
                 raise ValueError('Invalid platform tasks')
             ids = set()
             for task in tasks:
-                if not isinstance(task, dict) or task.get('state') not in STATES:
+                if (not isinstance(task, dict) or not isinstance(task.get('state'), str)
+                        or task['state'] not in STATES):
                     raise ValueError('Invalid task state')
                 for key in ['id', 'title', 'detail']:
                     if not isinstance(task.get(key), str) or len(task[key]) > 6000:

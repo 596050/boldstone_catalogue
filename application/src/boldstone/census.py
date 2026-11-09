@@ -104,8 +104,8 @@ def _ingest(state, run, scan_id, metadata, *, incremental):
             )
             if folder_moved:
                 for child in conn.execute(
-                    "SELECT asset_id,path_lower FROM current_assets WHERE namespace_id=?",
-                    (run.namespace_id,),
+                    "SELECT asset_id,path_lower FROM current_assets WHERE namespace_id=? AND account_id=? AND root_folder_id=?",
+                    (run.namespace_id, run.account_id, run.root_id),
                 ).fetchall():
                     if child["asset_id"] != asset_id and within_path(
                         child["path_lower"], old["path_lower"]
@@ -204,12 +204,20 @@ def census(state, run, scope, *, resume=None, incremental=False, max_pages=None)
         ).fetchone()[0]
     )
     this_call = 0
+    seen_cursors = {
+        row[0]
+        for row in conn.execute(
+            "SELECT returned_cursor FROM cursor_pages WHERE scan_id=?", (scan_id,)
+        )
+    }
+    if cursor:
+        seen_cursors.add(cursor)
     try:
         while True:
             page = scope.adapter.list_folder(run.root_id, recursive=True, cursor=cursor)
             if not isinstance(page.cursor, str) or not page.cursor:
                 raise IntegrityError("API returned an empty inventory cursor")
-            if page.has_more and page.cursor == cursor:
+            if page.has_more and page.cursor in seen_cursors:
                 raise IntegrityError("Inventory pagination made no progress")
             for entry in page.entries:
                 if not within_path(entry.get("path_lower"), scope.path):
@@ -263,6 +271,7 @@ def census(state, run, scope, *, resume=None, incremental=False, max_pages=None)
                     },
                     run.id,
                 )
+            seen_cursors.add(page.cursor)
             cursor, this_call = page.cursor, this_call + 1
             if not page.has_more:
                 break

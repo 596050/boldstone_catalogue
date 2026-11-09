@@ -8,8 +8,10 @@ from collections import defaultdict
 from pathlib import Path
 import hashlib
 import json
+import os
 import re
 import struct
+import tempfile
 
 
 TYPES = {'product': 'Product / individual', 'in_situ': 'In situ / installation',
@@ -25,23 +27,45 @@ def is_preview(representation):
     return any(x in representation.lower() for x in ('preview', 'thumbnail'))
 
 
+def valid_dimensions(value):
+    return (isinstance(value, (list, tuple)) and len(value) == 2
+            and all(type(number) is int and number > 0 for number in value))
+
+
 def dimensions(path):
     """Read encoded pixel width/height, never substitute preview dimensions."""
+    def positive_pair(width, height):
+        return [width, height] if width > 0 and height > 0 else None
+
     try:
         with Path(path).open('rb') as f:
             h = f.read(32)
             if h.startswith(b'\x89PNG\r\n\x1a\n'):
-                return list(struct.unpack('>II', h[16:24]))
+                if h[12:16] == b'IHDR':
+                    return positive_pair(*struct.unpack('>II', h[16:24]))
+                return None
             if h[:6] in (b'GIF87a', b'GIF89a'):
-                return list(struct.unpack('<HH', h[6:10]))
+                return positive_pair(*struct.unpack('<HH', h[6:10]))
             if h[:2] == b'BM':
-                return [abs(x) for x in struct.unpack('<ii', h[18:26])]
+                header_size = int.from_bytes(h[14:18], 'little')
+                # BITMAPCOREHEADER has two WORD dimensions; later DIB headers
+                # use signed DWORD dimensions with a negative top-down height.
+                # https://learn.microsoft.com/en-us/windows/win32/api/wingdi/ns-wingdi-bitmapcoreheader
+                if header_size == 12:
+                    return positive_pair(*struct.unpack('<HH', h[18:22]))
+                if header_size >= 40:
+                    width, height = struct.unpack('<ii', h[18:26])
+                    return positive_pair(width, abs(height))
+                return None
             if h[:4] == b'RIFF' and h[8:12] == b'WEBP':
-                if h[12:16] == b'VP8X':
+                # Every required field must be present. int.from_bytes accepts
+                # missing bytes as zero, which used to fabricate a 1x1 image.
+                # https://developers.google.com/speed/webp/docs/riff_container
+                if h[12:16] == b'VP8X' and len(h) >= 30:
                     return [1 + int.from_bytes(h[24:27], 'little'), 1 + int.from_bytes(h[27:30], 'little')]
-                if h[12:16] == b'VP8 ' and h[23:26] == b'\x9d\x01\x2a':
-                    return [int.from_bytes(h[26:28], 'little') & 0x3fff, int.from_bytes(h[28:30], 'little') & 0x3fff]
-                if h[12:16] == b'VP8L' and h[20] == 0x2f:
+                if h[12:16] == b'VP8 ' and len(h) >= 30 and h[23:26] == b'\x9d\x01\x2a':
+                    return positive_pair(int.from_bytes(h[26:28], 'little') & 0x3fff, int.from_bytes(h[28:30], 'little') & 0x3fff)
+                if h[12:16] == b'VP8L' and len(h) >= 25 and h[20] == 0x2f:
                     bits = int.from_bytes(h[21:25], 'little')
                     return [(bits & 0x3fff) + 1, ((bits >> 14) & 0x3fff) + 1]
             if h[:2] == b'\xff\xd8':
@@ -61,9 +85,11 @@ def dimensions(path):
                     length = int.from_bytes(f.read(2), 'big')
                     if length < 2:
                         break
-                    if b[0] in (0xc0, 0xc1, 0xc2, 0xc3, 0xc5, 0xc6, 0xc7, 0xc9, 0xca, 0xcb, 0xcd, 0xce, 0xcf):
+                    if b[0] in (0xc0, 0xc1, 0xc2, 0xc3, 0xc5, 0xc6, 0xc7, 0xc9, 0xca, 0xcb, 0xcd, 0xce, 0xcf) and length >= 8:
                         d = f.read(5)
-                        return [int.from_bytes(d[3:5], 'big'), int.from_bytes(d[1:3], 'big')]
+                        if len(d) == 5:
+                            return positive_pair(int.from_bytes(d[3:5], 'big'), int.from_bytes(d[1:3], 'big'))
+                        break
                     f.seek(length - 2, 1)
             if h[:4] in (b'II*\x00', b'MM\x00*'):
                 endian = 'little' if h[:2] == b'II' else 'big'
@@ -72,22 +98,27 @@ def dimensions(path):
                 found = {}
                 for _ in range(min(count, 4096)):
                     entry = f.read(12)
+                    if len(entry) != 12:
+                        break
                     tag = int.from_bytes(entry[:2], endian)
                     typ = int.from_bytes(entry[2:4], endian)
                     if tag in (256, 257) and typ in (3, 4) and int.from_bytes(entry[4:8], endian) == 1:
                         found[tag] = int.from_bytes(entry[8:10 if typ == 3 else 12], endian)
                 if len(found) == 2:
-                    return [found[256], found[257]]
+                    return positive_pair(found[256], found[257])
     except (OSError, ValueError, struct.error, IndexError):
         pass
     return None
 
 
 class MediaCache:
+    HEADER_VERSION = 2
+
     def __init__(self, root):
         self.path = Path(root) / 'media-metadata-v1.json'
         try:
-            self.entries = json.loads(self.path.read_text())
+            saved = json.loads(self.path.read_text())
+            self.entries = {key: value for key, value in saved.items() if isinstance(value, dict)} if isinstance(saved, dict) else {}
         except (OSError, ValueError):
             self.entries = {}
 
@@ -96,24 +127,40 @@ class MediaCache:
         st = p.stat()
         stamp = [st.st_size, st.st_mtime_ns, st.st_ctime_ns]
         old = self.entries.get(str(p), {})
-        if old.get('stamp') == stamp and (not hashes or old.get('sha256')):
+        matches = old.get('stamp') == stamp and type(old.get('bytes')) is int and old['bytes'] == st.st_size
+        known_hashes = matches and all(isinstance(old.get(key), str) and re.fullmatch('[a-f0-9]{64}', old[key])
+                                      for key in ('sha256', 'dropbox_content_hash'))
+        if (matches and old.get('header_version') == self.HEADER_VERSION
+                and (old.get('dimensions') is None or valid_dimensions(old['dimensions']))
+                and (not any(key in old for key in ('sha256', 'dropbox_content_hash')) or known_hashes)
+                and (not hashes or known_hashes)):
             return old
-        value = {'stamp': stamp, 'bytes': st.st_size, 'dimensions': dimensions(p)}
-        if hashes:
+        value = {'stamp': stamp, 'bytes': st.st_size, 'dimensions': dimensions(p), 'header_version': self.HEADER_VERSION}
+        if known_hashes:
+            value.update({key: old[key] for key in ('sha256', 'dropbox_content_hash')})
+        elif hashes:
             sha, blocks = hashlib.sha256(), hashlib.sha256()
             with p.open('rb') as f:
                 for b in iter(lambda: f.read(4 * 1024 * 1024), b''):
                     sha.update(b)
                     blocks.update(hashlib.sha256(b).digest())
             value.update(sha256=sha.hexdigest(), dropbox_content_hash=blocks.hexdigest())
+        after = p.stat()
+        if (st.st_dev, st.st_ino, st.st_size, st.st_mtime_ns, st.st_ctime_ns) != (
+                after.st_dev, after.st_ino, after.st_size, after.st_mtime_ns, after.st_ctime_ns):
+            raise OSError('The cached image changed during metadata inspection; retry with current bytes.')
         self.entries[str(p)] = value
         return value
 
     def flush(self):
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        tmp = self.path.with_suffix('.tmp')
-        tmp.write_text(json.dumps(self.entries))
-        tmp.replace(self.path)
+        fd, temporary = tempfile.mkstemp(dir=self.path.parent, prefix='.media-metadata-', suffix='.tmp')
+        try:
+            with os.fdopen(fd, 'w') as stream:
+                json.dump(self.entries, stream)
+            os.replace(temporary, self.path)
+        finally:
+            Path(temporary).unlink(missing_ok=True)
 
 
 def verified_original_metadata(root, content_hash, expected_bytes):
@@ -151,9 +198,19 @@ def enrich(catalogue, root):
             path, representation = catalogue.paths[aid]
             # Also hash platform thumbnails: they can match a known Dropbox original,
             # but two thumbnails alone are not proof of equal originals.
-            info = cache.inspect(path, hashes=not is_preview(representation) or asset['source'] != 'Dropbox')
-            asset['cached_file'] = info
-            if asset['source'] == 'Dropbox':
+            try:
+                info = cache.inspect(path, hashes=not is_preview(representation) or asset['source'] != 'Dropbox')
+            except OSError:
+                # Cached files can be evicted between catalogue selection and
+                # inspection. Keep the source record without certifying bytes
+                # or failing the whole catalogue load.
+                info = None
+                catalogue.paths.pop(aid, None)
+                asset.pop('cached_file', None)
+                asset.update(local_preview=False, representation='Preview unavailable')
+            if info is not None:
+                asset['cached_file'] = info
+            if info is not None and asset['source'] == 'Dropbox':
                 verified = bool(content_hash and info.get('dropbox_content_hash') == content_hash)
                 if verified:
                     original.update(dimensions=info['dimensions'], bytes=info['bytes'], sha256=info['sha256'],
@@ -162,7 +219,7 @@ def enrich(catalogue, root):
                     # A full-looking path is not proof. Mark it as reference-only.
                     asset['representation'] = 'cached preview / original bytes not verified'
                     catalogue.paths[aid] = (path, asset['representation'])
-            else:
+            elif info is not None:
                 if not is_preview(representation):
                     original.update(dimensions=info['dimensions'], bytes=info['bytes'], sha256=info['sha256'],
                                     dropbox_content_hash=info['dropbox_content_hash'],
@@ -170,7 +227,7 @@ def enrich(catalogue, root):
                     content_hash = info['dropbox_content_hash']
                 else:
                     platform_previews.append((aid, info.get('dropbox_content_hash')))
-        if not original['dimensions'] and native.get('recorded_dimensions') and native.get('dimensions_hash') == content_hash and content_hash:
+        if not original['dimensions'] and valid_dimensions(native.get('recorded_dimensions')) and native.get('dimensions_hash') == content_hash and content_hash:
             original.update(dimensions=native['recorded_dimensions'], dimension_basis='Retained original metadata bound to the Dropbox content hash')
         if not original['dimensions'] and asset['source'] == 'Dropbox':
             receipt = verified_original_metadata(root, content_hash, native.get('bytes'))

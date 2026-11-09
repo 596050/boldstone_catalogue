@@ -47,6 +47,28 @@ or click Publish again to recover. Inspect Meta content and reconcile first.
 Concurrent runs cannot publish the same reviewed item. Script execution alone is
 not evidence that a product tag or post is live.
 
+This source checkout does not contain `meta_browser.applescript` or
+`meta_choose_file.applescript`, and no retained copy was found in the workspace.
+The standalone runner reports the exact missing helper and stops before calling
+it. Restore the reviewed sources separately; the offline tests do not supply or
+certify replacement publishing automation. Existing account and macOS permission
+checks still apply.
+
+Local artifact checks run without browser or account access:
+
+```sh
+python -m unittest discover -s channel-update-playbook/automation -p 'test_*.py'
+node channel-update-playbook/automation/test_pinterest_tag.cjs
+```
+
+The tracking builder validates the complete 176-product mapping even under
+optimized Python, refuses any existing prepared artifact, safely embeds JSON
+inside HTML, and removes new partial files if a write fails. Its receipt describes
+only the prepared files, with no live website changes. The workbook preflight
+follows actual worksheet relationships (including custom filenames and strict
+SpreadsheetML), hashes the inspected snapshot and holds incomplete packages.
+An optional report cannot overwrite its source workbook or a hardlink to it.
+
 Verification on 8 November: seven supervisor/journal tests pass. Both AppleScripts
 compile. The actual Mac preflight stops on the protected permission prompt and
 missing Accessibility permission. A successful live end-to-end posting test is
