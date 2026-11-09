@@ -1,0 +1,89 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fleet-offload-orchestration"
+version = "0.6.12"
+description = "Cross-platform authenticated queued jobs with isolated Docker workers and SSH tools"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Tom Price"}]
+
+# Core runtime is stdlib-only. The optional tunnel and zstd formats have extras.
+# Tests need pytest only.
+dependencies = []
+
+[project.optional-dependencies]
+cloudflare = ["aiohttp>=3.14.3,<4"]
+zstd = ["zstandard>=0.23,<1"]
+s3 = ["boto3>=1.34,<2"]
+test = ["pytest>=8.0", "pytest-cov>=4.1"]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.1",
+    "mypy>=1.8",
+    "ruff>=0.1.15",
+]
+
+[project.scripts]
+offload-worker = "offload_service.cli:main"
+offload-client = "offload_service.client:main"
+research-offload = "research_workflows.cli:main"
+# After `pip install -e .`, these console-scripts become available on $PATH
+# so callers can drop `python3 fleet.py X` for plain `fleet X`.
+# 'fleet' uses the package __main__ which delegates to the legacy fleet.py
+# entrypoint until the per-command split (REFACTOR_PLAN.md P1) lands.
+fleet              = "fleet.__main__:main"
+remote-state-audit = "remote_state_audit:main"
+processing-report  = "processing_report:main"
+audit-external     = "audit_external_gaps:main"
+clean-chunks       = "clean_kenne_chunks:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+namespaces = false
+include = ["fleet*", "lib*", "v2*", "trading_common*", "offload_service*", "external_machine_connect*", "research_workflows*"]
+exclude = ["tests*", "v2.tests*", "offload_service.tests*", "host_bootstrap*", "archive*"]
+# v1/ was archived to archive/v1_2026-06-07.tar.gz on 2026-06-07 and removed
+# from the active codebase. v2/ is the sealed-bundle orchestration.
+
+# Top-level entry-point modules (alongside the fleet/ + lib/ + v2/ packages).
+# IMPORTANT: this is a flat array under [tool.setuptools], NOT a sub-table.
+[tool.setuptools]
+py-modules = [
+    "fleet",
+    "audit_external_gaps",
+    "clean_kenne_chunks",
+    "processing_report",
+    "remote_state_audit",
+    "remote_ps",
+    "remote_process_count",
+    "cluster_status",
+    "simulator",
+    "run_simulation",
+]
+
+[tool.setuptools.package-data]
+v2 = ["templates/*.json", "templates/*.md", "example_manifest.json"]
+fleet = ["hosts.example.json"]
+research_workflows = ["execution/*.py", "examples/*.json", "examples/*.py", "examples/batch/*", "examples/Dockerfile*", "*.md", "project.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "v2/tests"]
+addopts = "-ra -q"
+
+[tool.mypy]
+python_version = "3.9"
+strict = false
+# Per-package strictness: tighten on fleet/ + lib/ first
+[[tool.mypy.overrides]]
+module = ["fleet.*", "lib.*"]
+strict = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = ["E501"]    # line-length handled separately; some legacy lines are wide

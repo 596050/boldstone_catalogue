@@ -1,0 +1,68 @@
+gui/501/com.marketmaker.worker-guard.math-loop-20260911-v1 = {
+	active count = 0
+	path = /Users/tprice/Library/LaunchAgents/com.marketmaker.worker-guard.math-loop-20260911-v1.plist
+	type = LaunchAgent
+	state = not running
+
+	program = /opt/homebrew/bin/python3
+	arguments = {
+		/opt/homebrew/bin/python3
+		-B
+		/Users/tprice/Developer/marketmaker_v2/utils/offload_network/.source-state/math-loop-20260911-v1/orchestrator-runtimes/20260913T133203Z/worker_guard.py
+		--config
+		/Users/tprice/Developer/marketmaker_v2/utils/offload_network/.source-state/testing-reliability-20260913-v1/worker-guard.json
+	}
+
+	working directory = /Users/tprice/Developer/marketmaker_v2
+
+	stdout path = /Users/tprice/Developer/marketmaker_v2/utils/offload_network/.source-state/testing-reliability-20260913-v1/guard.log
+	stderr path = /Users/tprice/Developer/marketmaker_v2/utils/offload_network/.source-state/testing-reliability-20260913-v1/guard.stderr.log
+	inherited environment = {
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.VidvMMJOEm/Listeners
+	}
+
+	default environment = {
+		PATH => /usr/bin:/bin:/usr/sbin:/sbin
+	}
+
+	environment = {
+		OSLogRateLimit => 64
+		PYTHONDONTWRITEBYTECODE => 1
+		PATH => /opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+		XPC_SERVICE_NAME => com.marketmaker.worker-guard.math-loop-20260911-v1
+	}
+
+	domain = gui/501 [100023]
+	asid = 100023
+	minimum runtime = 10
+	exit timeout = 5
+	runs = 5536
+	last exit code = 0
+
+	resource coalition = {
+		ID = 138100
+		type = resource
+		state = active
+		active count = 1
+		name = com.marketmaker.worker-guard.math-loop-20260911-v1
+	}
+
+	jetsam coalition = {
+		ID = 138101
+		type = jetsam
+		state = active
+		active count = 1
+		name = com.marketmaker.worker-guard.math-loop-20260911-v1
+	}
+
+	spawn type = daemon (3)
+	jetsam priority = 40
+	jetsam memory limit (active) = (unlimited)
+	jetsam memory limit (inactive) = (unlimited)
+	jetsamproperties category = daemon
+	jetsam thread limit = 32
+	cpumon = default
+	run interval = 30 seconds
+
+	properties = runatload | inferred program
+}

@@ -1,0 +1,6 @@
+# Runtime dependencies for the copied integration utilities.
+# Versions verified present in the original workspace environment on 2026-09-07.
+ib-insync==0.9.86
+requests==2.32.5
+PyYAML==6.0.3
+

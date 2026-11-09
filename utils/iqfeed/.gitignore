@@ -1,0 +1,5 @@
+.env
+.env.local
+wineprefix/
+iqfeed_data/
+

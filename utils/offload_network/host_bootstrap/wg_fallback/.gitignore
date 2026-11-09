@@ -1,0 +1,8 @@
+# Belt-and-braces. wg-mesh-bootstrap.sh writes to ~/.fleet/wg/ (outside the repo),
+# so this is mostly a no-op — but if anyone ever lands a key here by accident,
+# git won't pick it up.
+*.priv
+*.pub
+*.conf
+keys/
+conf/
