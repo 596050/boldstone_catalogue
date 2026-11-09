@@ -1,0 +1,190 @@
+Window: "Data sources - Merchant Center", App: Google Chrome.
+0 standard window Data sources - Merchant Center - Google Chrome – Tom, URL: merchants.google.com/mc/products/sources?a=5664655454&authuser=0, Secondary Actions: Raise
+	1 container Data sources - Merchant Center - Google Chrome – Tom, URL: merchants.google.com/mc/products/sources?a=5664655454&authuser=0
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: merchants.google.com/mc/products/sources?a=5664655454&authuser=0, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Data sources - Merchant Center, URL: merchants.google.com/mc/products/sources?a=5664655454&authuser=0
+						27 container
+							28 container
+								29 button Skip to main content
+								30 button Navigation menu
+								31 link Merchant Center home, Value: merchants.google.com/mc/overview?a=5664655454&authuser=0
+								32 container Search
+									33 container
+										34 text field (settable) Search Merchant Center
+								35 pop-up button Help
+								36 button Merchant Center account: Boldstone Sculpture, 5664655454
+								37 container
+									38 button Google apps
+									39 button Google Account: Sally Price (info@boldstone.co.uk)
+							40 outline Navigation
+								41 row Overview
+									42 text Overview
+								43 row Notifications
+									44 text Notifications
+								45 row Products & store
+									46 text Products & store
+									47 container
+										48 row Products
+											49 text Products
+										50 row Shipping and returns
+											51 text Shipping and returns
+										52 row Store quality
+											53 text Store quality
+										54 row Reviews
+											55 text Reviews
+								56 row Creative content
+									57 text Creative content
+								58 row Marketing
+									59 text Marketing
+								60 row Analytics
+									61 text Analytics
+									62 container
+										63 row Summary
+											64 text Summary
+										65 row Products
+											66 text Products
+										67 row Pricing
+											68 text Pricing
+										69 row Online store
+											70 text Online store
+								71 row Settings
+									72 text Settings
+									73 container
+										74 row General
+											75 text General
+										76 row Business info
+											77 text Business info
+										78 row (selected) Data sources
+											79 container
+												80 text Data sources
+										81 row Add-ons
+											82 text Add-ons
+										83 row Access and services
+											84 text Access and services
+							85 container
+								86 heading Data sources, Value: 1
+									87 text Data sources
+								88 tab group
+									89 tab (selected) Product sources, Value: 1
+									90 tab (settable, integer) Promotion sources, Value: 0
+									91 tab (settable, integer) SFTP and Google Cloud Storage, Value: 0
+								92 container
+									93 heading Found by Google, Value: 2
+										94 text Found by Google
+									95 container
+										96 button More information about automatically found products or inventory
+									97 container
+										98 heading Google found additional products on your online store., Value: 3
+											99 text Google found additional products on your online store.
+										100 text Add these products to Merchant Center to control which products to show or advertise on Google. They won't be included in ads automatically.
+										101 button Add all products found
+									102 heading Provided by you, Value: 2
+										103 text Provided by you
+									104 container
+										105 text Your primary sources are used to add products to Merchant Center while your supplemental sources are used to add missing product details or update existing ones. 
+										106 link Learn more about data sources, Opens in a new tab, Value: support.google.com/merchants/answer/11586438?hl=en-US
+									107 tab group
+										108 tab (selected) Primary sources, Value: 1
+										109 tab (settable, integer) Supplemental sources, Value: 0
+									110 container Primary sources
+										111 button Add product source
+										112 table Data sources provided by you
+											113 row Name Source Products Last updated Countries Language Actions
+												114 column header Name
+													115 text Name
+												116 column header
+													117 text Source
+												118 column header
+													119 text Products
+												120 column header Last updated
+													121 text Last updated
+												122 column header
+													123 text Countries
+												124 column header
+													125 text Language
+												126 column header
+													127 text Actions
+											128 row Squarespace-1469f13b Feed label: US Merchant API 325 - Automatic English Actions
+												129 cell
+													130 link Squarespace-1469f13b, Value: merchants.google.com/mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=0
+													131 text Feed label: US
+												132 cell
+													133 text Merchant API
+												134 cell
+													135 button 325
+												136 cell
+													137 text -
+												138 cell
+													139 text Automatic
+												140 cell
+													141 text English
+												142 cell
+													143 container Actions
+														144 pop-up button Actions
+									145 container Supplemental sources
+									146 link Privacy Policy, Value: google.com/policies/privacy/
+									147 link Terms of Service, Value: support.google.com/merchants/answer/160173?hl=en-US
+									148 link Program Policies, Value: support.google.com/merchants/topic/7286989?hl=en-US
+			149 pop-up button Tab search
+			150 container
+				151 tab group
+					152 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					153 tab group  group ✅Claude – 1 Tab, •  Import steps | Microsoft Advertising – Expanded
+					154 tab (settable, boolean) Import steps | Microsoft Advertising – Part of group ✅Claude, Value: off
+					155 tab (settable, boolean) Overview - Manufacturer Center, Value: off
+					156 tab (settable, boolean) Brandboom | Home, Value: off
+					157 tab (settable, boolean) Portela Nova | A slower kind of stay, Value: off
+					158 tab (settable, boolean) Pinterest, Value: off
+					159 tab (settable, boolean) Get started with retail catalogs | Pinterest Business help, Value: off
+					160 tab (settable, boolean) [TEMPLATE - COPY] Pinterest Catalog Data source Google Sheet Template - Google Sheets, Value: off
+					161 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					162 tab (selected, settable, boolean) Data sources - Merchant Center, Value: on
+						163 button Close
+			164 button New tab
+	165 close button
+	166 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	167 minimise button
+168 menu bar
+	169 Chrome
+	170 File
+	171 Edit
+	172 View
+	173 History
+	174 Bookmarks
+	175 Profiles
+	176 Tab
+	177 Window
+	178 Help
+
+The focused UI element is 78 row (selected) Data sources

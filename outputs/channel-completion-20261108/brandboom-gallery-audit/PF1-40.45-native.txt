@@ -1,0 +1,390 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: Boldstone Deco Palm I - White Wall sculpture, Placeholder: Search Products
+									48 link
+								49 button All
+									50 container
+										51 Tick box 0
+									52 text All
+								53 container
+									54 text 10  /  10
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container
+										64 Unlabelled image /0003470591882D7A_M.avif
+										65 text Boldstone Mediterranean Fountain Palm - White Sculptural water-feature panel
+										66 text BOLD-DDD53E46FB3F WHITE/CREAM STONE FINISH
+										67 container
+											68 text 222.50  GBP
+									69 container
+										70 Unlabelled image /0003470591058F5E_M.avif
+										71 text Boldstone Egyptian Fountain Palm - White Sculptural water-feature panel
+										72 text DF-1-100.50 WHITE MARBLE STONE FINISH
+										73 container
+											74 text 222.50  GBP
+									75 container
+										76 Unlabelled image /00034705858BBCCB_M.avif
+										77 text Boldstone Egyptian Palm II - White Wall sculpture
+										78 text BOLD-F13E2BF8C6C8 WHITE STONE-EFFECT FINISH
+										79 container
+											80 text 112.38  GBP
+									81 container
+										82 Unlabelled image /000347058500A443_M.avif
+										83 text Boldstone Egyptian Palm III (Three Leaves) - White Wall sculpture
+										84 text BOLD-E0FAA8F7CB6D WHITE STONE-EFFECT FINISH
+										85 container
+											86 text 112.38  GBP
+									87 container
+										88 Unlabelled image /00034705841F8B68_M.avif
+										89 text Boldstone Egyptian Palm I - White Wall sculpture
+										90 text BOLD-3ABEAEE767E8 WHITE STONE-EFFECT FINISH
+										91 container
+											92 text 112.38  GBP
+									93 container
+										94 Unlabelled image /000347058369CC71_M.avif
+										95 text Boldstone Egyptian Palm I - Black and White Marble Effect Finish Wall sculpture
+										96 text BOLD-5819104A663F BLACK AND WHITE MARBLING
+										97 container
+											98 text 144.64  GBP
+									99 container
+										100 Unlabelled image /000347058216751B_M.avif
+										101 text Boldstone Egyptian Palm IV (Extended) - White Wall sculpture
+										102 text BOLD-5020FF47923F WHITE STONE-EFFECT FINISH
+										103 container
+											104 text 157.40  GBP
+									105 container
+										106 Unlabelled image /00034705702E1CC3_M.avif
+										107 text Boldstone Deco Timeless Spiral - White Wall sculpture
+										108 text TS-1-45.40 WHITE MARBLE STONE FINISH
+										109 container
+											110 text 108.28  GBP
+									111 container
+										112 Unlabelled image /000347056983EBFA_M.avif
+										113 text Boldstone Deco Palm II - White Wall sculpture
+										114 text PF2-40.45 WHITE STONE FINISH
+										115 container
+											116 text 116.37  GBP
+									117 container
+										118 Unlabelled image /000347056925AD57_M.avif
+										119 text Boldstone Deco Palm I - White Wall sculpture
+										120 text PF1-40.45 WHITE STONE FINISH
+										121 container
+											122 text 116.37  GBP
+							123 container
+								124 content list
+									125 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								126 container
+									127 heading Presentations, Value: 5
+										128 text Presentations
+									129 button New
+									130 content list
+										131 link ALL, Value: manage.brandboom.com/products/s/111089#
+										132 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									133 container
+										134 link
+											135 image
+										136 search text field (settable) Search Presentations
+										137 link
+											138 image
+									139 container
+										140 text Wall Sculptures - 50 Preview
+										141 link Edit Name
+											142 image
+										143 link Duplicate
+											144 image
+										145 text GBP
+								146 heading Ship Windows, Value: 5
+									147 text Ship Windows
+								148 content list
+									149 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									150 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								151 text No active ship windows
+							152 link Reset
+								153 text Reset
+							154 button Apply
+							155 text PRODUCT STATUS
+							156 text Active
+							157 text Inactive
+							158 text Archived
+							159 text Corrupted
+							160 text No Images
+							161 text SORT BY
+							162 pop-up button Newest First
+								163 (selected) Newest First
+							164 text SHIP DATE RANGE
+							165 container
+								166 image
+								167 text field (settable) Click to select range
+							168 text No Date Range
+							169 text CREATE DATE RANGE
+							170 container
+								171 image
+								172 text field (settable) Click to select range
+							173 text SIZES
+							174 text field (settable) S, M, L
+							175 text VENDORS
+							176 text Boldstone
+							177 text TYPES
+							178 link
+								179 image
+							180 text No Types
+							181 text Home Decor
+							182 text Mens
+							183 text Womens
+							184 text CATEGORIES
+							185 link
+								186 image
+							187 link
+								188 image
+							189 text No Categories
+							190 text Sweater
+							191 text Wall Sculpture
+							192 text SEASONS
+							193 link
+								194 image
+							195 link
+								196 image
+							197 text No Seasons
+							198 text Year-round
+							199 container
+								200 container
+									201 Tick box Create another, Value: 0
+									202 text Create another
+								203 button Save
+								204 container
+									205 Unlabelled image /000347056925AD57_M.avif
+									206 container
+										207 image /000347056925AD57_S.avif
+										208 button STANDARD
+										209 image /0003470569313E42_S.avif
+										210 button STANDARD
+										211 image /000347056943A5E6_S.avif
+										212 button STANDARD
+										213 image /00034705695E2F64_S.avif
+										214 button STANDARD
+										215 Unlabelled image /00034705557F66B1_S.avif
+										216 button STANDARD
+										217 image /0003470569661B66_S.avif
+										218 button STANDARD
+										219 image /00034705697A6894_S.avif
+										220 button STANDARD
+										221 image
+										222 image
+									223 image
+									224 text 7 / Unlimited
+									225 image
+									226 text 0 / 1
+									227 text Drag to reorder
+									228 container
+										229 text Style ID *
+										230 text PF1-40.45
+									231 container
+										232 text Options
+										233 link White stone finish
+											234 text White stone finish
+									235 container
+										236 text Sizes
+										237 text One sculpture
+									238 text Barcode
+									239 container
+										240 button
+										241 text field (settable)
+									242 text Name
+									243 text field (settable) Boldstone Deco Palm I - White Wall sculpture
+									244 container Price
+										245 container
+											246 text Price
+											247 text field (settable) Value: 116.37, Placeholder: Enter
+									248 container Retail
+										249 container
+											250 text Retail
+											251 text field (settable) Value: 0.00, Placeholder: Enter
+									252 text Qty Min
+									253 text field (settable) 1
+									254 text Vendor
+									255 text field (settable) Boldstone
+									256 text Type
+									257 text field (settable) Home Decor
+									258 text Category
+									259 text field (settable) Wall Sculpture
+									260 text Taxonomy
+									261 text field (settable) Value: Home Decor / Wall Decor / Wall Art, Placeholder: Select
+									262 text Season
+									263 text field (settable) Year-round
+									264 text Ship Date
+									265 text field (settable)
+									266 container
+										267 text HS Code
+										268 text field (settable) HS Code
+									269 container Country Of Origin
+										270 container
+											271 text Country Of Origin
+											272 button -
+									273 container
+										274 text Description
+										275 container
+											276 text A stylised palm opens into a clean, decorative relief. The leaf-like lines create a confident botanical rhythm, with raised contours that catch the light.
+											277 text A nod to Art Deco interiors and sunlit garden rooms, with enough simplicity to sit comfortably in a contemporary setting.
+											278 text The white finish keeps the focus on the form and its changing shadows.
+											279 text Companion pieces: This is one piece of a coordinating group with Deco Palm II and Deco Timeless Spiral. Companion sculptures are sold separately; this listing is for one sculpture only.
+											280 text Brand: Boldstone
+											281 text Product type: Wall sculpture
+											282 text Model: Deco Palm I - White (PF1-40.45)
+											283 text Colour / appearance: White stone finish
+											284 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											285 text Material: Made from a gypsum-based material.
+											286 text Dimensions: 40 × 45 × 6 cm
+											287 text Weight: Approximately 8 kg (range 7–9 kg)
+											288 text Use: Suitable for outdoor use and indoor display.
+											289 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											290 text Availability: Ready to dispatch
+											291 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											292 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											293 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							294 link
+								295 image
+							296 container
+								297 content list
+									298 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									299 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								300 container
+									301 button Upload Images
+									302 button
+									303 button
+									304 button
+								305 container
+									306 Unlabelled image /000347368438D172_S.avif
+									307 text file.jpg
+									308 Unlabelled image /00011059388E43A7_S.avif
+									309 text toys-dinosaur
+									310 Unlabelled image /00011059387A69BA_S.avif
+									311 text baby-kidswear-t
+									312 Unlabelled image /000110593863557B_S.avif
+									313 text pet-sticks
+									314 Unlabelled image /00011059385C1D4E_S.avif
+									315 text apparel-t-shirt
+									316 Unlabelled image /00011059384494BB_S.avif
+									317 text footwear-shoes
+									318 Unlabelled image /000110593837D96A_S.avif
+									319 text beauty-cream
+									320 Unlabelled image /00011059382B4683_S.avif
+									321 text home-pitcher
+									322 Unlabelled image /00007087863E986B_S.avif
+									323 text BOOM1111
+									324 Unlabelled image /0000022409830BD3_S.avif
+									325 text BOOM1830
+									326 Unlabelled image /00000224097C30D6_S.avif
+									327 text BOOM1705
+									328 Unlabelled image /00000224096AD0BE_S.avif
+									329 text BOOM1100
+							330 button Close
+							331 text Search Products
+							332 button Scan barcodes
+							333 container
+								334 link
+									335 image
+								336 search text field (settable) Search for Products
+							337 text RESULTS
+							338 button Open Intercom Messenger
+			339 pop-up button Tab search
+			340 container
+				341 tab group
+					342 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					343 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					344 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					345 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					346 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					347 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					348 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					349 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					350 tab (settable, boolean) SEO opportunity audit, Value: off
+					351 tab group  group ✅Claude – 2 Tabs, •  Inbox (113) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					352 tab (settable, boolean) Value: off, Inbox (113) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1.1 GB
+					353 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					354 tab (settable, boolean) Drafts (1,333) - tppricet@gmail.com - Gmail, Value: off
+					355 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					356 tab (settable, boolean) Bookmarks, Value: off
+					357 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					358 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					359 tab (settable, boolean) Boldstone Sculpture | Wall Sculptures - 50 Preview, Value: off
+					360 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					361 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						362 button Close
+					363 tab (settable, boolean) 000347063570B5C6_M.avif (600×600), Value: off
+			364 button New tab
+	365 close button
+	366 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	367 minimise button
+368 menu bar
+	369 Chrome
+	370 File
+	371 Edit
+	372 View
+	373 History
+	374 Bookmarks
+	375 Profiles
+	376 Tab
+	377 Window
+	378 Help
+
+The focused UI element is 27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089

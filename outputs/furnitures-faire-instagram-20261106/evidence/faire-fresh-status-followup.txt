@@ -1,0 +1,285 @@
+Window: "Home – Faire", App: Google Chrome.
+0 standard window Home – Faire – Part of group ✅Claude - Google Chrome – Tom, URL: faire.com/brand-portal, Secondary Actions: Raise
+	1 container Home – Faire – Part of group ✅Claude - Google Chrome – Tom, URL: faire.com/brand-portal
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: faire.com/brand-portal, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+					21 button Close side panel
+				22 tickbox Downloads
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Home – Faire, URL: faire.com/brand-portal
+						28 container
+							29 link Skip to main content, Value: faire.com/brand-portal/my-shop/settings#main-content
+							30 text Action required:
+							31 container
+								32 text All UK brands will now be paid out in GBP! 
+								33 link Add a UK Bank Account, Value: faire.com/brand-portal/account?tab=payment
+								34 text  to continue being paid out for orders.
+							35 container
+								36 container Main
+									37 link Faire Logo, Value: faire.com/brand-portal
+									38 button Updates
+									39 button Collapse navigation
+									40 link Home, Value: faire.com/brand-portal
+									41 link Orders, Value: faire.com/brand-portal/orders
+									42 link Messages, Value: faire.com/brand-portal/messages
+									43 link Products, Value: faire.com/brand-portal/my-shop/products
+									44 link Customers, Value: faire.com/brand-portal/customers
+									45 link Marketing, Value: faire.com/brand-portal/marketing
+									46 link Analytics, Value: faire.com/brand-portal/analytics
+									47 link My shop, Value: faire.com/brand-portal/my-shop/story
+									48 link Faire Direct, Value: faire.com/brand-portal/direct
+									49 link Settings, Value: faire.com/brand-portal/my-shop/settings
+									50 link Faire Academy, Value: learn.faire.com/
+									51 link Help Centre, Value: faire.com/support/brands
+									52 button Account menu
+									53 link View shop, Value: faire.com/brand/b_dddpsekzv4
+								54 text Good evening, Sally!
+								55 link View my shop, Value: faire.com/brand/b_dddpsekzv4
+								56 container
+									57 heading Get featured on New Brands, Value: 5
+										58 text Get featured on New Brands
+									59 text 14 days left
+									60 text Click below to start using your benefits.
+									61 image Path 2
+									62 text Add your full product catalog Ensure your catalog has at least 75 products
+									63 image Path 2
+									64 text Write detailed product descriptions Make sure product listings have at least 50 characters
+									65 image Path 2
+									66 text Add clear and relevant product images Showcase products with high resolution photos Get featured on New Brands Free shipping for 3 weeks Boost your products in search
+									67 button Feature my shop
+									68 text Your shop will automatically be featured starting tomorrow
+									69 heading New arrivals, Value: 4
+										70 text New arrivals
+									71 text New
+									72 text Boldstone Sculpture
+									73 Unlabelled image To get missing image descriptions, open the context menu.
+									74 Unlabelled image /c484cc190807d453aefb8b6a25005d77de0ec7a1c4ea8d484212c511c2957eea.png?dpr=2&fit=bounds&format=jpg&height=120&width=74
+							75 container Notifications Alt+T
+							76 text Faire – Brand Portal
+			77 scroll area
+				78 HTML content Claude for Chrome, URL: chrome-extension://fcoeoabgfenejglbffodgkkbkcdhcgfn/sidepanel.html?tabId=961988809
+					79 container Claude Cowork
+						80 HTML content Products live on Faire - Claude, URL: claude.ai/cic/task/cse_01CDxSF2HVuYEH3Xv35vLJJZ
+							81 container
+								82 container
+									83 heading Claude, Value: 1
+										84 text Claude
+									85 container
+										86 button Recent tasks
+										87 button New task
+										88 pop-up button Menu
+									89 container
+										90 container
+											91 heading Products live on Faire, Value: 2
+												92 button Products live on Faire, rename session
+											93 pop-up button More options for Products live on Faire
+										94 container
+											95 container Chat messages
+												96 text Use the up and down arrow keys to move between messages.
+												97 container
+													98 container Message 1 of 4
+														99 heading You said: make the products live on faire, Value: 3
+															100 text You said: make the products live on faire
+														101 text make the products live on faire
+														102 toolbar Message actions
+															103 text 10 minutes ago
+															104 button Restart conversation from here
+															105 button Copy
+													106 container Message 2 of 4
+														107 container
+															108 heading Claude responded: Your Faire shop is now live., Value: 3
+																109 text Claude responded: Your Faire shop is now live.
+															110 container
+																111 button Used Claude in Chrome (11 actions), updated tasks, and 2 more tools
+																112 button Screenshot 8 of 8
+																113 text Captured page
+															114 text Used Claude in Chrome (11 actions), updated tasks, and 2 more tools
+															115 container
+																116 text Your Faire shop is now live. All 176 products were already published, so I just had to click “Go live on Faire”, and the Home page now says your shop is live and retailers on the marketplace can find it. Faire is also showing an “Action required” banner. You need to add a UK bank account (Faire now pays UK brands in GBP), or you won’t get paid for orders. I can’t enter bank details for you, so you’ll need to do that through the “Add a UK Bank Account” link at the top of the portal.
+															117 toolbar Message actions
+																118 button Copy
+																119 button Read aloud
+																120 toggle button Good response, Value: 0
+																121 toggle button Bad response, Value: 0
+																122 text 10 minutes ago
+													123 container Message 3 of 4
+														124 heading You said: make sure the minimum for other countries outside of UK are at least £500, Value: 3
+															125 text You said: make sure the minimum for other countries outside of UK are at least £500
+														126 text make sure the minimum for other countries outside of UK are at least £500
+														127 toolbar Message actions
+															128 text 7 minutes ago
+															129 button Restart conversation from here
+															130 button Edit
+															131 button Copy
+													132 container Message 4 of 4
+														133 container
+															134 heading Value: 3, Claude responded: The default minimums are greyed out and the "apply to all countries" toggle is off, so each region is set on its own.
+																135 text Claude responded: The default minimums are greyed out and the "apply to all countries" toggle is off, so each region is set on its own.
+															136 container
+																137 button Updated tasks, used Claude in Chrome (3 actions), and 3 more tools
+																138 button Screenshot 5 of 5
+																139 text Captured page
+															140 text Updated tasks, used Claude in Chrome (3 actions), and 3 more tools
+															141 text The default minimums are greyed out and the “apply to all countries” toggle is off, so each region is set on its own. I’ll start with the EU and Europe (other) fields.
+															142 container
+																143 button Used Claude in Chrome (14 actions), updated tasks
+																144 button Screenshot 13 of 13
+																145 text Captured page
+															146 text Used Claude in Chrome (14 actions), updated tasks
+															147 container
+																148 text I’ve saved the new order minimums, and they held after a reload. Every region outside the UK now has first-order and reorder minimums of at least £500. The UK is still £50 for first orders and £100 for reorders.
+																149 table
+																	150 row
+																		151 column header
+																			152 text Region
+																		153 column header
+																			154 text First order & reorder minimum
+																		155 column header
+																			156 text Roughly in £
+																	157 row
+																		158 cell
+																			159 text European Union
+																		160 cell
+																			161 text €625
+																		162 cell
+																			163 text £521
+																	164 row
+																		165 cell
+																			166 text Europe (other, 2 countries)
+																		167 cell
+																			168 text £500
+																		169 cell
+																			170 text £500
+																	171 row
+																		172 cell
+																			173 text United States
+																		174 cell
+																			175 text US$700
+																		176 cell
+																			177 text £520
+																	178 row
+																		179 cell
+																			180 text Canada
+																		181 cell
+																			182 text CA$1,000
+																		183 cell
+																			184 text £532
+																	185 row
+																		186 cell
+																			187 text Australia
+																		188 cell
+																			189 text A$1,000
+																		190 cell
+																			191 text £520
+																	192 row
+																		193 cell
+																			194 text New Zealand
+																		195 cell
+																			196 text NZ$1,250
+																		197 cell
+																			198 text £522
+																199 content list
+																	200 container
+																		201 AXListMarker • 
+																		202 text Rounding:  I set the non-pound regions about 4% above £500 so they stay above £500 if exchange rates move a little. They’re fixed amounts, so if the pound strengthens a lot they could drop below £500.
+																	203 container
+																		204 AXListMarker • 
+																		205 text Reorders included:  I raised the reorder minimums too, so no repeat order from abroad can come in under £500. If you only meant first orders, I can put the reorder minimums back down.
+																	206 container
+																		207 AXListMarker • 
+																		208 text Faire’s warning:  Faire shows a warning that these minimums will probably mean fewer orders from those regions. It doesn’t stop anything from saving.
+																209 text Sources: 
+																210 link ECB euro reference exchange rates, Value: ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html
+																211 text  (5 Nov 2026)
+															212 toolbar Message actions
+																213 button Copy
+																214 button Read aloud
+																215 toggle button Good response, Value: 0
+																216 toggle button Bad response, Value: 0
+																217 text 7 minutes ago
+											218 container
+												219 container
+													220 text Memory updated.
+													221 button View memory
+													222 button Dismiss
+												223 container
+													224 text entry area (settable) Write your prompt to Claude, Value: Write a message…
+
+														225 text Write a message…
+													226 pop-up button Add files, connectors, and more
+													227 pop-up button Automatically approve
+													228 pop-up button Model: Opus 5.5 Max 6× or more usage
+														229 text Opus 5.5
+														230 text Max
+														231 image 6× or more usage
+													232 pop-up button Settings
+													233 button Press and hold to record
+											234 text Claude is AI and can make mistakes. Please double-check responses.
+										235 text Claude finished the response
+								236 container
+									237 container Notifications
+			238 slider Side panel resize handle (draggable), Secondary Actions: Decrement, Increment
+			239 container
+				240 text Claude
+				241 tickbox Unpin from toolbar, Value: 1
+				242 button Close side panel
+			243 pop-up button Tab search
+			244 container
+				245 tab group
+					246 tab (settable, boolean) ttps://furnitures.co.uk/dashboard/products/50c6c62c-ed17-4830-9b39-3bc6539ecb17 - Google Search, Value: off
+						247 button Close
+					248 tab group  group ✅Claude – 1 Tab, •  Home – Faire – Expanded
+					249 tab (selected, settable, boolean) Home – Faire – Part of group ✅Claude, Value: on
+						250 button Close
+					251 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+						252 button Close
+					253 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+						254 button Close
+					255 tab (settable, boolean) Meta Business Suite - High memory usage - 1.0 GB, Value: off
+						256 button Close
+			257 button New tab
+		258 text https://www.faire.com/brand-portal
+	259 close button
+	260 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	261 minimise button
+262 menu bar
+	263 Chrome
+	264 File
+	265 Edit
+	266 View
+	267 History
+	268 Bookmarks
+	269 Profiles
+	270 Tab
+	271 Window
+	272 Help
+
+The focused UI element is 40 link Home, Value: faire.com/brand-portal

@@ -1,0 +1,218 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Navigation menu" [expanded]:
+    - img: menu
+  - link "Merchant Center home":
+    - /url: /mc/overview?a=550093983&authuser=2
+    - img "Merchant Center home"
+  - dialog "Search":
+    - img: search
+    - textbox "Search Merchant Center"
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone, 550093983"':
+    - generic: Boldstone
+    - generic: "550093983"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- navigation:
+  - tree "Navigation":
+    - treeitem "Overview" [level=1]:
+      - img: dashboard
+      - generic: Overview
+    - treeitem "Notifications 5" [level=1]:
+      - img: notifications
+      - generic: Notifications
+      - generic: "5"
+    - treeitem "Products & store" [level=1]:
+      - img: inventory_2
+      - generic: Products & store
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Products
+      - treeitem [disabled] [level=2]:
+        - generic: Shipping and returns
+      - treeitem [disabled] [level=2]:
+        - generic: Store quality
+    - treeitem "Creative content" [level=1]:
+      - img: brush_spark
+      - generic: Creative content
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Product Studio
+      - treeitem [disabled] [level=2]:
+        - generic: Video assets
+    - treeitem "Marketing" [level=1]:
+      - img: campaign
+      - generic: Marketing
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Ad campaigns
+      - treeitem [disabled] [level=2]:
+        - generic: Promotions
+      - treeitem [disabled] [level=2]:
+        - generic: Marketing methods
+    - treeitem "Analytics" [level=1]:
+      - img: timeline
+      - generic: Analytics
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Summary
+      - treeitem [disabled] [level=2]:
+        - generic: Products
+      - treeitem [disabled] [level=2]:
+        - generic: Pricing
+      - treeitem [disabled] [level=2]:
+        - generic: Online store
+      - treeitem [disabled] [level=2]:
+        - generic: Physical stores
+    - treeitem "Settings" [level=1]:
+      - img: settings
+      - generic: Settings
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: General
+      - treeitem [disabled] [level=2]:
+        - generic: Business info
+      - treeitem [disabled] [level=2]:
+        - generic: Data sources
+      - treeitem [disabled] [level=2]:
+        - generic: Add-ons
+      - treeitem [disabled] [level=2]:
+        - generic: Access and services
+- main:
+  - heading "Overview" [level=1]
+  - heading "Your performance on Google" [level=2]
+  - button "Last 28 days":
+    - generic: Last 28 days
+    - img: arrow_drop_down
+  - text: vs
+  - button "previous period":
+    - generic: previous period
+    - img: arrow_drop_down
+  - generic "Total clicks 0 Down from 1":
+    - generic: Total clicks
+    - button "More information about Total clicks metric":
+      - img "More information about Total clicks metric": help_outline
+    - note: "0"
+    - button "Down from 1 - change ratio of Total clicks from a value of 0":
+      - generic: Down from 1
+  - link "View more about product performance":
+    - /url: /mc/reporting/performance/summary?a=550093983&authuser=2
+    - text: View more
+  - button "Click trend":
+    - generic: Click trend
+    - img: arrow_drop_down
+  - generic "Your performance on Google":
+    - generic: Your performance on Google, Line chart. Use the arrow keys to navigate inside the chart.
+  - button "Total clicks, 7-day click average"
+  - button "Previous period"
+  - heading "Ad campaigns" [level=3]
+  - generic: Performance of your ad campaigns will appear here.
+  - link "Start advertising":
+    - /url: /mc/campaigns?a=550093983&authuser=2
+  - heading "Your business on Google" [level=2]
+  - generic: Today
+  - generic "Total products 549":
+    - generic: Total products
+    - button "More information about Total products metric":
+      - img "More information about Total products metric": help_outline
+    - generic: "549"
+  - link "View more about product status":
+    - /url: /mc/items?a=550093983&expandGraph=true&authuser=2
+    - text: View more
+  - 'button "Select marketing methods: All marketing methods"':
+    - generic: All marketing methods
+    - img: arrow_drop_down
+  - region "Your business on Google":
+    - generic: Approved
+    - text: "0"
+    - generic: Approved
+    - button "Approved products"
+    - generic: Limited
+    - text: "1"
+    - generic: Limited
+    - button "Limited products"
+    - generic: Not approved
+    - text: "2"
+    - generic: Not approved
+    - button "Not approved products"
+    - generic: Under review
+    - text: "546"
+    - generic: Under review
+    - button "Under review products"
+    - generic: Today
+  - heading "Store quality" [level=3]
+  - button "View more about Store quality":
+    - img "View more about Store quality": help_outline
+  - link "View more":
+    - /url: /mc/quality?a=550093983&authuser=2
+  - generic: Information about your store quality is not currently available
+  - heading "What to do next" [level=2]
+  - link "View all notifications":
+    - /url: /mc/taskhub?a=550093983&authuser=2
+    - generic: View all notifications
+  - img: trending_up
+  - generic: growth
+  - button "Useful":
+    - img: thumb_up
+  - button "Not useful":
+    - img: thumb_down
+  - button "Open menu with more options for Update descriptions for Greeting Cards":
+    - img: more_vert
+  - heading "Update descriptions for Greeting Cards" [level=3]
+  - generic: Add missing details to 58 products to help customers find exactly what they need. Better descriptions can increase your visibility in relevant searches.
+  - link "View products":
+    - generic: View products
+  - img: lightbulb_outline
+  - generic: tip
+  - button "Useful":
+    - img: thumb_up
+  - button "Not useful":
+    - img: thumb_down
+  - button "Open menu with more options for Add checkout to your listings":
+    - img: more_vert
+  - heading "Add checkout to your listings" [level=3]
+  - generic: Give ready-to-buy customers the option to land directly in your checkout via a link in your free listings. It makes purchasing easier and has helped increase conversions and sales for participating merchants.
+  - link "Get started":
+    - generic: Get started
+  - link "Learn more":
+    - generic: Learn more
+  - img: trending_up
+  - generic: growth
+  - button "Useful":
+    - img: thumb_up
+  - button "Not useful":
+    - img: thumb_down
+  - button "Open menu with more options for Show your products on Google":
+    - img: more_vert
+  - heading "Show your products on Google" [level=3]
+  - generic: Add products to Merchant Center so that they appear to customers on Google
+  - link "Add products":
+    - generic: Add products
+  - img: lightbulb_outline
+  - generic: tip
+  - button "Useful":
+    - img: thumb_up
+  - button "Not useful":
+    - img: thumb_down
+  - button "Open menu with more options for Turn on automatic image improvements":
+    - img: more_vert
+  - heading "Turn on automatic image improvements" [level=3]
+  - text: Google will automatically remove promotional overlays from product images and start showing these products to customers.
+  - link "Learn more about automatic image improvements":
+    - /url: https://support.google.com/merchants/answer/12724659
+  - button "Turn on now":
+    - generic: Turn on now
+- contentinfo:
+  - link "Privacy Policy":
+    - /url: http://www.google.com/policies/privacy/
+  - generic: ·
+  - link "Terms of Service":
+    - /url: https://support.google.com/merchants/answer/160173?hl=en-US
+  - generic: ·
+  - link "Program Policies":
+    - /url: https://support.google.com/merchants/topic/7286989?hl=en-US
+- status

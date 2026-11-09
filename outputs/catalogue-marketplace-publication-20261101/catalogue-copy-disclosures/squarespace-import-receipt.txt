@@ -1,0 +1,1575 @@
+- navigation "Website pages and features":
+  - link:
+    - /url: /config/
+  - button:
+  - button:
+  - link:
+    - /url: /config/home
+    - paragraph: Home
+  - link:
+    - /url: /config/
+    - paragraph: Website
+  - link:
+    - /url: /config/commerce
+    - paragraph: Products & Services
+  - link:
+    - /url: /config/commerce/products
+    - paragraph: Products
+  - link:
+    - /url: /config/commerce/orders
+    - paragraph: Orders
+  - link:
+    - /url: /config/commerce/discounts
+    - paragraph: Discounts
+  - link:
+    - /url: /config/commerce/selling-tools
+    - paragraph: Selling Tools
+  - checkbox [checked]
+  - link:
+    - /url: /config/content-and-memberships
+    - paragraph: Content & Memberships
+  - checkbox [checked]
+  - link:
+    - /url: https://secure.acuityscheduling.com/oauth2/squarespace-attached?website_id=66abcbd768fd043d92325d96&analytics_id=871ea609-7aad-4efb-9408-1d42d6316296
+    - paragraph: Scheduling
+  - checkbox [checked]
+  - link:
+    - /url: /config/donations
+    - paragraph: Donations
+  - checkbox [checked]
+  - link:
+    - /url: /config/invoicing
+    - paragraph: Invoicing & Pay Links
+  - checkbox [checked]
+  - status
+  - link:
+    - /url: /config/marketing/campaigns
+    - paragraph: Campaigns
+  - link:
+    - /url: /config/profiles
+    - paragraph: Contacts
+  - link:
+    - /url: /config/analytics
+    - paragraph: Analytics
+  - link:
+    - /url: /config/finance
+    - paragraph: Finance
+  - button
+  - list:
+    - button:
+    - button:
+    - button:
+- main:
+  - heading [level=1]: Products
+  - button:
+    - generic: Import
+  - button:
+    - generic: Add Product
+  - paragraph: Get more sales by driving traffic to your store
+  - paragraph: Promote your products or events with Email Campaigns.
+  - button:
+    - link:
+      - /url: /config/marketing/campaigns/templates/product
+      - text: Start Email campaign
+  - button:
+  - tablist:
+    - tab [selected]: Physical
+    - tab: Services
+    - tab: Downloads
+    - tab: Gift Cards
+  - textbox:
+    - /placeholder: Search by products, tags, categories
+  - separator
+  - button:
+    - generic: Export All
+  - button:
+    - generic: Fulfillment Profiles
+  - table:
+    - rowgroup:
+      - row:
+        - cell
+        - cell
+        - cell:
+          - generic: Product
+        - cell
+        - cell:
+          - generic: Fulfillment
+        - cell:
+          - generic: Visibility
+        - cell:
+          - generic: SKU
+        - cell:
+          - generic: Stock
+        - cell:
+          - generic: Price
+        - cell
+    - rowgroup:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Wave and Moonshadow II - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-B6EC1EDD319F
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £57.98
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Wave and Moonshadow I - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-A57A49000891
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £57.98
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Azure Marble-Effect Relief - Blue and White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: EBAY-188703253522
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £64.82
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Marbled Circle - Turquoise
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: SQ1000002
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £120.86
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Marbled Circle - Terracotta
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: SQ1000066
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £120.86
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Marbled Circle - Pale Blue
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-CCB6CA396E9C
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £120.86
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Marbled Circle - Green and White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: SQ1000026
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £120.86
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: World Colours Circle - Brass
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-1B20DCA291BB
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £120.86
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Marbled Circle - Azure Blue and White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-22DA74B2107E
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £120.86
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Textured Earth - Rust and Blue Patina
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-9AF26B8CF780
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £251.12
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Textured Earth - Blue, Brown and Rust
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-207102CFD25C
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £177.86
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Strata Relief - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-7B6291B7C7F9
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £34.20
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Strata Relief - Verdigris
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: SQ1851097
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £47.06
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Strata Relief - Blue Wash Verdigris
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-21E953F1D523
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £47.06
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Spiral Moon Relief - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: SM-1-55.55
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £91.20
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Quarter Moon Relief - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-8EA49F5DDB1C
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £87.60
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Spiralfish Wave and Tide II - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-A272AC152172
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £91.20
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Spiralfish Wave and Tide II - Bronze
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-54F871DCF4CA
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £118.58
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Spiralfish Wave and Tide I - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-B19E0B8602C1
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £91.20
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Spiralfish Wave and Tide I - Bronze
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-718DFFB7EC5D
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £118.58
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Spice Texture II - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-828E89E3B7DC
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £34.20
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Spice Texture I - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-199FCF3A2B42
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £34.20
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Soundwave Rhythm - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-21DCD11AD8C6
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £114.76
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Islington Shellmoon Fountain - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-22B6E4FB3DD8
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £92.36
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Islington Shellmoon Relief - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-406CAEC365A4
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £92.36
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Battersea Shellmoon II Fountain - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-1B70A9FB1B26
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £92.36
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Battersea Shellmoon I Fountain - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-22E4E4F99696
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £92.36
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Battersea Shellmoon I - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-C0F5BF012CFC
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £92.36
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Smooth Sand Ripple Relief - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: SSR-1-100.50
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £118.14
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Fossil Sand Ripple Relief - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: FSR-1-50.100
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £118.14
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Patina Panel - Rust and Verdigris
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: EBAY-188590547084
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £55.52
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Riyadh Shellmoon Relief
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-3EB5B16E33CC
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £535.54
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Riyadh Moon - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-1AD9185411D8
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £535.54
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Riyadh Dune Ripple - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-B9DA00108196
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £535.54
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Raked Spiral III - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-04C3A2CA2BE1
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £34.20
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Raked Spiral III - Beige
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-6AA659B1469F
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £39.34
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Raked Spiral II - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-2AFD94C9F459
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £34.20
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Raked Spiral I - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-FE973AD4748E
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £34.20
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Botanical Form - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-1CDB2BAE6105
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £34.20
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Sculpted Curves - Textured Gold Finish
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-2418C8B43415
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £36.06
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Sculpted Curves - Beige
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-E5A179105EA8
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £32.50
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Lunar Wave - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: MW-1-74.35
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £94.74
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Lunar Water Catcher - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: MWTR-1-50
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £73.68
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Lunar Spiral II - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: MS-1-70.50
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £100.70
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Lunar Spiral III - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-3EC38D9CD913
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £92.36
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Lunar Spiral I - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-1A7497B69626
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £92.36
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Lava Moonshell Corner Curve - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-75ACAD5A9841
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £35.26
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Lava Moonshell II - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-21E7F11ACAAA
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £87.60
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Lava Moonshell I - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-67EA9E9D261A
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £87.60
+        - cell:
+      - row:
+        - cell
+        - cell:
+          - checkbox
+        - cell
+        - cell:
+          - generic: Lunar Phase II (Bordered) - White
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Default
+        - cell:
+          - combobox:
+            - paragraph:
+              - generic: Public
+        - cell:
+          - generic: BOLD-4515726BBC18
+        - cell:
+          - generic: ∞
+        - cell:
+          - generic: £50.72
+        - cell:
+      - row:
+        - cell:
+          - paragraph: 1–50 of 306 products
+          - button [disabled]:
+          - paragraph: 1 of 7
+          - button:
+  - generic: Edit
+- button:
+  - generic: 0 updates
+- button:
+  - generic: 0 updates
+- dialog:
+  - button "Close" [active]:
+    - generic: Close
+  - heading [level=2]
+  - heading "Import Complete" [level=1]
+  - generic: Imported (176)
+  - paragraph: Icarus I - Abstract Cave Relief
+  - generic: Updated
+  - paragraph: Acanthus Moon - Gold Finish
+  - generic: Updated
+  - paragraph: Acanthus Bloom - White
+  - generic: Updated
+  - paragraph: Acanthus Moon - White
+  - generic: Updated
+  - paragraph: Acanthus Frond (Left) - Pewter
+  - generic: Updated
+  - paragraph: Acanthus Frond (Left) - White
+  - generic: Updated
+  - paragraph: Acanthus Twin Leaves - Bronze
+  - generic: Updated
+  - paragraph: Acanthus Twin Leaves - Pale Blue and White
+  - generic: Updated
+  - paragraph: Acanthus Twin Leaves - Pewter
+  - generic: Updated
+  - paragraph: Acanthus Twin Leaves - White
+  - generic: Updated
+  - paragraph: Ammonite Grande I (Left) - White
+  - generic: Updated
+  - paragraph: Ammonite Grande II (Right) - White
+  - generic: Updated
+  - paragraph: Ammonite Petite I (Left) - White
+  - generic: Updated
+  - paragraph: Ammonite Petite II (Right) - White
+  - generic: Updated
+  - paragraph: Barbados Wave Relief
+  - generic: Updated
+  - paragraph: Bone Spiral I (Narrow) - White
+  - generic: Updated
+  - paragraph: Bone Spiral II (Wide) - White
+  - generic: Updated
+  - paragraph: Bone Water Spiral Relief - White
+  - generic: Updated
+  - paragraph: Brancusi Meander I - Gold Finish
+  - generic: Updated
+  - paragraph: Brancusi Meander I - White
+  - generic: Updated
+  - paragraph: Brancusi Meander II - Gold Finish
+  - generic: Updated
+  - paragraph: Brancusi Meander II - White
+  - generic: Updated
+  - paragraph: Brancusi Totem Relief - White
+  - generic: Updated
+  - paragraph: Chelsea Moonwave Relief
+  - generic: Updated
+  - paragraph: Chiswick Moon Relief
+  - generic: Updated
+  - paragraph: Chiswick Moon Fountain
+  - generic: Updated
+  - paragraph: Coral Spiral Relief - White
+  - generic: Updated
+  - paragraph: Ancient Cup Ring - White
+  - generic: Updated
+  - paragraph: Cup Ring and Spiral Paver I - Brown
+  - generic: Updated
+  - paragraph: Cup Ring and Spiral Paver II - Brown
+  - generic: Updated
+  - paragraph: Ancient Spiral - White
+  - generic: Updated
+  - paragraph: Deco Dune Spiral - White
+  - generic: Updated
+  - paragraph: Deco Dune Spiral - Verdigris
+  - generic: Updated
+  - paragraph: Deco Dune Wave - Verdigris
+  - generic: Updated
+  - paragraph: Deco Dune Wave - White
+  - generic: Updated
+  - paragraph: Deco Golden Spiral - White and Gold
+  - generic: Updated
+  - paragraph: Deco Palm I - White
+  - generic: Updated
+  - paragraph: Deco Palm II - White
+  - generic: Updated
+  - paragraph: Deco Timeless Spiral - White
+  - generic: Updated
+  - paragraph: Deco Wave I - Terracotta
+  - generic: Updated
+  - paragraph: Deco Wave I - Verdigris
+  - generic: Updated
+  - paragraph: Deco Wave II - Terracotta
+  - generic: Updated
+  - paragraph: Deco Wave II - Verdigris
+  - generic: Updated
+  - paragraph: Frozen Deco Wave I - White
+  - generic: Updated
+  - paragraph: Frozen Deco Wave II - White
+  - generic: Updated
+  - paragraph: Dune Ripple I - Blue Verdigris and Bronze
+  - generic: Updated
+  - paragraph: Dune Ripple I - Rust
+  - generic: Updated
+  - paragraph: Dune Ripple I - Verdigris
+  - generic: Updated
+  - paragraph: Dune Ripple I - Verdigris and Rust
+  - generic: Updated
+  - paragraph: Dune Ripple I - White
+  - generic: Updated
+  - paragraph: Dune Ripple II - Bronze and Verdigris
+  - generic: Updated
+  - paragraph: Dune Ripple II - Copper
+  - generic: Updated
+  - paragraph: Dune Ripple II - Copper with Verdigris Accents
+  - generic: Updated
+  - paragraph: Dune Ripple II - Gold
+  - generic: Updated
+  - paragraph: Dune Ripple II - Rust
+  - generic: Updated
+  - paragraph: Dune Ripple II - Verdigris and Copper
+  - generic: Updated
+  - paragraph: Dune Ripple II - White
+  - generic: Updated
+  - paragraph: Echo Rhythm I - Verdigris
+  - generic: Updated
+  - paragraph: Echo Rhythm I - White
+  - generic: Updated
+  - paragraph: Echo Rhythm II - Verdigris
+  - generic: Updated
+  - paragraph: Echo Rhythm II - White
+  - generic: Updated
+  - paragraph: Egyptian Palm IV (Extended) - White
+  - generic: Updated
+  - paragraph: Egyptian Palm I - Gold Finish
+  - generic: Updated
+  - paragraph: Egyptian Palm I - Black and White Marble Effect
+  - generic: Updated
+  - paragraph: Egyptian Palm I - Pewter
+  - generic: Updated
+  - paragraph: Egyptian Palm I - White
+  - generic: Updated
+  - paragraph: Egyptian Palm III (Three Leaves) - White
+  - generic: Updated
+  - paragraph: Egyptian Palm II - White
+  - generic: Updated
+  - paragraph: Embedded Seashells - White
+  - generic: Updated
+  - paragraph: Golden Facets - Gold Finish
+  - generic: Updated
+  - paragraph: Cultivation Folds Relief - White
+  - generic: Updated
+  - paragraph: Folded Fan - White
+  - generic: Updated
+  - paragraph: Fold and Unfold IV - White
+  - generic: Updated
+  - paragraph: Folded Swan Wing - White
+  - generic: Updated
+  - paragraph: Fingerprint Rings I - Cream
+  - generic: Updated
+  - paragraph: Fingerprint Rings I - White
+  - generic: Updated
+  - paragraph: Fingerprint Rings II - Cream
+  - generic: Updated
+  - paragraph: Fingerprint Rings II - White
+  - generic: Updated
+  - paragraph: Fingerprint Rings III - Cream
+  - generic: Updated
+  - paragraph: Fingerprint Rings III - White
+  - generic: Updated
+  - paragraph: Egyptian Fountain Palm - Bronze and Verdigris
+  - generic: Updated
+  - paragraph: Egyptian Fountain Palm - White
+  - generic: Updated
+  - paragraph: Mediterranean Fountain Palm - White
+  - generic: Updated
+  - paragraph: Frozen Fish Relief - Terracotta
+  - generic: Updated
+  - paragraph: Frozen Fish Relief - Verdigris
+  - generic: Updated
+  - paragraph: Frozen Fish Relief - White
+  - generic: Updated
+  - paragraph: Gleneagles Vine I - White
+  - generic: Updated
+  - paragraph: Gleneagles Vine II - White
+  - generic: Updated
+  - paragraph: Gleneagles Vine III - White
+  - generic: Updated
+  - paragraph: Gleneagles Vine IV - White
+  - generic: Updated
+  - paragraph: Knightsbridge Fountain Relief - White
+  - generic: Updated
+  - paragraph: Lava Moon I - White
+  - generic: Updated
+  - paragraph: Lava Moon II - White
+  - generic: Updated
+  - paragraph: Lava Moon III - White
+  - generic: Updated
+  - paragraph: Curving Leaf - White and Gold Finish
+  - generic: Updated
+  - paragraph: Leaf Silhouette - White
+  - generic: Updated
+  - paragraph: Leaf Silhouette II - Gold
+  - generic: Updated
+  - paragraph: Magnolia Growth - White
+  - generic: Updated
+  - paragraph: Magnolia Growth - White and Gold Finish
+  - generic: Updated
+  - paragraph: Moon and Shell Wave I - White
+  - generic: Updated
+  - paragraph: Moon and Shell Wave II - Black and White
+  - generic: Updated
+  - paragraph: Moon and Shell Wave II - White
+  - generic: Updated
+  - paragraph: Crater Moon I - Verdigris and Rust
+  - generic: Updated
+  - paragraph: Crater Moon I - White
+  - generic: Updated
+  - paragraph: Crater Moon II - Blue Splash
+  - generic: Updated
+  - paragraph: Crater Moon II - Verdigris and Rust
+  - generic: Updated
+  - paragraph: Crater Moon II - White
+  - generic: Updated
+  - paragraph: Crater Moon III - Verdigris and Rust
+  - generic: Updated
+  - paragraph: Crater Moon III - White
+  - generic: Updated
+  - paragraph: Crater Moon IV - Silver and Bronze
+  - generic: Updated
+  - paragraph: Crater Moon IV - Verdigris
+  - generic: Updated
+  - paragraph: Crater Moon IV - Verdigris and Rust
+  - generic: Updated
+  - paragraph: Crater Moon IV - White
+  - generic: Updated
+  - paragraph: Wide-Lip Crater Moon - Rust Drip
+  - generic: Updated
+  - paragraph: Moon Fish Wave I - White
+  - generic: Updated
+  - paragraph: Moon Fish Wave II - White
+  - generic: Updated
+  - paragraph: Lunar Ring - White
+  - generic: Updated
+  - paragraph: Crater Moon Basin - White
+  - generic: Updated
+  - paragraph: Lunar Phase IV - Silver
+  - generic: Updated
+  - paragraph: Lunar Phase IV - White
+  - generic: Updated
+  - paragraph: Lunar Phase IV - White and Gold
+  - generic: Updated
+  - paragraph: Lunar Phase I - White
+  - generic: Updated
+  - paragraph: Lunar Phase I (Bordered) - White
+  - generic: Updated
+  - paragraph: Lunar Phase III - White
+  - generic: Updated
+  - paragraph: Lunar Phase II - White
+  - generic: Updated
+  - paragraph: Lunar Phase II - White and Gold
+  - generic: Updated
+  - paragraph: Lunar Phase II (Bordered) - White
+  - generic: Updated
+  - paragraph: Lava Moonshell I - White
+  - generic: Updated
+  - paragraph: Lava Moonshell II - White
+  - generic: Updated
+  - paragraph: Lava Moonshell Corner Curve - White
+  - generic: Updated
+  - paragraph: Lunar Spiral I - White
+  - generic: Updated
+  - paragraph: Lunar Spiral III - White
+  - generic: Updated
+  - paragraph: Lunar Spiral II - White
+  - generic: Updated
+  - paragraph: Lunar Water Catcher - White
+  - generic: Updated
+  - paragraph: Lunar Wave - White
+  - generic: Updated
+  - paragraph: Sculpted Curves - Beige
+  - generic: Updated
+  - paragraph: Sculpted Curves - Textured Gold Finish
+  - generic: Updated
+  - paragraph: Botanical Form - White
+  - generic: Updated
+  - paragraph: Raked Spiral I - White
+  - generic: Updated
+  - paragraph: Raked Spiral II - White
+  - generic: Updated
+  - paragraph: Raked Spiral III - Beige
+  - generic: Updated
+  - paragraph: Raked Spiral III - White
+  - generic: Updated
+  - paragraph: Riyadh Dune Ripple - White
+  - generic: Updated
+  - paragraph: Riyadh Moon - White
+  - generic: Updated
+  - paragraph: Riyadh Shellmoon Relief
+  - generic: Updated
+  - paragraph: Patina Panel - Rust and Verdigris
+  - generic: Updated
+  - paragraph: Fossil Sand Ripple Relief - White
+  - generic: Updated
+  - paragraph: Smooth Sand Ripple Relief - White
+  - generic: Updated
+  - paragraph: Battersea Shellmoon I - White
+  - generic: Updated
+  - paragraph: Battersea Shellmoon I Fountain - White
+  - generic: Updated
+  - paragraph: Battersea Shellmoon II Fountain - White
+  - generic: Updated
+  - paragraph: Islington Shellmoon Relief - White
+  - generic: Updated
+  - paragraph: Islington Shellmoon Fountain - White
+  - generic: Updated
+  - paragraph: Soundwave Rhythm - White
+  - generic: Updated
+  - paragraph: Spice Texture I - White
+  - generic: Updated
+  - paragraph: Spice Texture II - White
+  - generic: Updated
+  - paragraph: Spiralfish Wave and Tide I - Bronze
+  - generic: Updated
+  - paragraph: Spiralfish Wave and Tide I - White
+  - generic: Updated
+  - paragraph: Spiralfish Wave and Tide II - Bronze
+  - generic: Updated
+  - paragraph: Spiralfish Wave and Tide II - White
+  - generic: Updated
+  - paragraph: Quarter Moon Relief - White
+  - generic: Updated
+  - paragraph: Spiral Moon Relief - White
+  - generic: Updated
+  - paragraph: Strata Relief - Blue Wash Verdigris
+  - generic: Updated
+  - paragraph: Strata Relief - Verdigris
+  - generic: Updated
+  - paragraph: Strata Relief - White
+  - generic: Updated
+  - paragraph: Textured Earth - Blue, Brown and Rust
+  - generic: Updated
+  - paragraph: Textured Earth - Rust and Blue Patina
+  - generic: Updated
+  - paragraph: Marbled Circle - Azure Blue and White
+  - generic: Updated
+  - paragraph: World Colours Circle - Brass
+  - generic: Updated
+  - paragraph: Marbled Circle - Green and White
+  - generic: Updated
+  - paragraph: Marbled Circle - Pale Blue
+  - generic: Updated
+  - paragraph: Marbled Circle - Terracotta
+  - generic: Updated
+  - paragraph: Marbled Circle - Turquoise
+  - generic: Updated
+  - paragraph: Azure Marble-Effect Relief - Blue and White
+  - generic: Updated
+  - paragraph: Wave and Moonshadow I - White
+  - generic: Updated
+  - paragraph: Wave and Moonshadow II - White
+  - generic: Updated

@@ -1,0 +1,364 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - High memory usage - 897 MB - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - High memory usage - 897 MB - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: Boldstone Fossil Sand Ripple Relief - White Wall sculpture, Placeholder: Search Products
+									48 link
+								49 button 1
+									50 container
+										51 Tick box 1
+									52 text 1
+								53 container
+									54 text 2  /  2
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container Boldstone Smooth Sand Ripple Relief - White Wall sculpture SSR-1-100.50 WHITE MARBLE STONE FINISH AND SMOOTH RIPPLED RELIEF 222.50 GBP
+										64 container
+											65 Unlabelled image /000347062509A76F_M.avif
+											66 text Boldstone Smooth Sand Ripple Relief - White Wall sculpture
+											67 text SSR-1-100.50 WHITE MARBLE STONE FINISH AND SMOOTH RIPPLED RELIEF
+											68 container
+												69 text 222.50  GBP
+									70 container
+										71 Unlabelled image /0003470624631876_M.avif
+										72 text Boldstone Fossil Sand Ripple Relief - White Wall sculpture
+										73 text FSR-1-50.100 WHITE MARBLE STONE FINISH AND SAND-TEXTURED RELIEF
+										74 container
+											75 text 222.50  GBP
+							76 container
+								77 content list
+									78 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								79 container
+									80 heading Presentations, Value: 5
+										81 text Presentations
+									82 button New
+									83 content list
+										84 link ALL, Value: manage.brandboom.com/products/s/111089#
+										85 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									86 container
+										87 link
+											88 image
+										89 search text field (settable) Search Presentations
+										90 link
+											91 image
+									92 container
+										93 text Wall Sculptures - 50 Preview
+										94 link Edit Name
+											95 image
+										96 link Duplicate
+											97 image
+										98 text GBP
+										99 link
+											100 image
+								101 heading Ship Windows, Value: 5
+									102 text Ship Windows
+								103 content list
+									104 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									105 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								106 text No active ship windows
+							107 container
+								108 button Cancel
+								109 button Select All
+								110 text 1 Item
+								111 button Search Order
+							112 link Reset
+								113 text Reset
+							114 button Apply
+							115 text PRODUCT STATUS
+							116 text Active
+							117 text Inactive
+							118 text Archived
+							119 text Corrupted
+							120 text No Images
+							121 text SORT BY
+							122 pop-up button Newest First
+								123 (selected) Newest First
+							124 text SHIP DATE RANGE
+							125 container
+								126 image
+								127 text field (settable) Click to select range
+							128 text No Date Range
+							129 text CREATE DATE RANGE
+							130 container
+								131 image
+								132 text field (settable) Click to select range
+							133 text SIZES
+							134 text field (settable) S, M, L
+							135 text VENDORS
+							136 text Boldstone
+							137 text TYPES
+							138 link
+								139 image
+							140 text No Types
+							141 text Home Decor
+							142 text Mens
+							143 text Womens
+							144 text CATEGORIES
+							145 link
+								146 image
+							147 link
+								148 image
+							149 text No Categories
+							150 text Sweater
+							151 text Wall Sculpture
+							152 text SEASONS
+							153 link
+								154 image
+							155 link
+								156 image
+							157 text No Seasons
+							158 text Year-round
+							159 container
+								160 container
+									161 Tick box Create another, Value: 0
+									162 text Create another
+								163 button Save
+								164 container
+									165 Unlabelled image /000347062509A76F_M.avif
+									166 container
+										167 Unlabelled image /000347062509A76F_S.avif
+										168 button STANDARD
+										169 Unlabelled image /00034706251AF36D_S.avif
+										170 button STANDARD
+										171 Unlabelled image /00034706252560FE_S.avif
+										172 button STANDARD
+										173 Unlabelled image /000347062533DD26_S.avif
+										174 button STANDARD
+										175 Unlabelled image /00034706247D0708_S.avif
+										176 button STANDARD
+										177 Unlabelled image /000347062495B522_S.avif
+										178 button STANDARD
+										179 Unlabelled image /00034706254134D7_S.avif
+										180 button STANDARD
+										181 Unlabelled image /00034706255B46C6_S.avif
+										182 button STANDARD
+										183 Unlabelled image /000347062565EAB0_S.avif
+										184 button STANDARD
+										185 Unlabelled image /000347062571695A_S.avif
+										186 button STANDARD
+										187 image /0003473680852DF6_S.avif
+										188 button STANDARD
+										189 Unlabelled image /000347368097BB2D_S.avif
+										190 button STANDARD
+										191 Unlabelled image /000347368101FA28_S.avif
+										192 button STANDARD
+										193 Unlabelled image /0003473681116D8E_S.avif
+										194 button STANDARD
+										195 image
+										196 image
+									197 image
+									198 text 14 / Unlimited
+									199 image
+									200 text 0 / 1
+									201 text Drag to reorder
+									202 container
+										203 text Style ID *
+										204 text SSR-1-100.50
+									205 container
+										206 text Options
+										207 link White marble stone finish and smooth rippled relief
+											208 text White marble stone finish and smooth rippled relief
+									209 container
+										210 text Sizes
+										211 text One sculpture
+									212 text Barcode
+									213 container
+										214 button
+										215 text field (settable)
+									216 text Name
+									217 text field (settable) Boldstone Smooth Sand Ripple Relief - White Wall sculpture
+									218 container Price
+										219 container
+											220 text Price
+											221 text field (settable) Value: 222.50, Placeholder: Enter
+									222 container Retail
+										223 container
+											224 text Retail
+											225 text field (settable) Value: 0.00, Placeholder: Enter
+									226 text Qty Min
+									227 text field (settable) 1
+									228 text Vendor
+									229 text field (settable) Boldstone
+									230 text Type
+									231 text field (settable) Home Decor
+									232 text Category
+									233 text field (settable) Wall Sculpture
+									234 text Taxonomy
+									235 text field (settable) Value: Home Decor / Wall Decor / Wall Art, Placeholder: Select
+									236 text Season
+									237 text field (settable) Year-round
+									238 text Ship Date
+									239 text field (settable)
+									240 container
+										241 text HS Code
+										242 text field (settable) HS Code
+									243 container Country Of Origin
+										244 container
+											245 text Country Of Origin
+											246 button -
+									247 container
+										248 text Description
+										249 container
+											250 text Rippling lines suggest the marks left along a shoreline. The relief captures that natural movement in a surface whose contours become clearer as light falls across it.
+											251 text A quiet coastal reference for the wall, bringing the rhythm of sand, tide and organic growth into a considered space.
+											252 text The white finish keeps the focus on the form and its changing shadows.
+											253 text Companion pieces: This is one piece of a coordinating pair with Fossil Sand Ripple Relief. Companion sculptures are sold separately; this listing is for one sculpture only.
+											254 text Brand: Boldstone
+											255 text Product type: Wall sculpture
+											256 text Model: Smooth Sand Ripple Relief - White (SSR-1-100.50)
+											257 text Colour / appearance: White marble stone finish and smooth rippled relief
+											258 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											259 text Material: Made from a gypsum-based material.
+											260 text Dimensions: 100 cm wide × 50 cm high × 6 cm deep
+											261 text Weight: Approximately 18 kg
+											262 text Use: Suitable for outdoor use and indoor display.
+											263 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											264 text Availability: Ready to dispatch
+											265 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											266 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											267 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							268 link
+								269 image
+							270 container
+								271 content list
+									272 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									273 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								274 container
+									275 button Upload Images
+									276 button
+									277 button
+									278 button
+								279 container
+									280 Unlabelled image /000347368438D172_S.avif
+									281 text file.jpg
+									282 Unlabelled image /00011059388E43A7_S.avif
+									283 text toys-dinosaur
+									284 Unlabelled image /00011059387A69BA_S.avif
+									285 text baby-kidswear-t
+									286 Unlabelled image /000110593863557B_S.avif
+									287 text pet-sticks
+									288 Unlabelled image /00011059385C1D4E_S.avif
+									289 text apparel-t-shirt
+									290 Unlabelled image /00011059384494BB_S.avif
+									291 text footwear-shoes
+									292 Unlabelled image /000110593837D96A_S.avif
+									293 text beauty-cream
+									294 Unlabelled image /00011059382B4683_S.avif
+									295 text home-pitcher
+									296 Unlabelled image /00007087863E986B_S.avif
+									297 text BOOM1111
+									298 Unlabelled image /0000022409830BD3_S.avif
+									299 text BOOM1830
+									300 Unlabelled image /00000224097C30D6_S.avif
+									301 text BOOM1705
+									302 Unlabelled image /00000224096AD0BE_S.avif
+									303 text BOOM1100
+							304 button Close
+							305 text Search Products
+							306 button Scan barcodes
+							307 container
+								308 link
+									309 image
+								310 search text field (settable) Search for Products
+							311 text RESULTS
+							312 button Open Intercom Messenger
+			313 pop-up button Tab search
+			314 container
+				315 tab group
+					316 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					317 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					318 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					319 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					320 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					321 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					322 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					323 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					324 tab (settable, boolean) SEO opportunity audit, Value: off
+					325 tab group  group ✅Claude – 2 Tabs, •  Inbox (113) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					326 tab (settable, boolean) Value: off, Inbox (113) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1.1 GB
+					327 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					328 tab (settable, boolean) Drafts (1,333) - tppricet@gmail.com - Gmail, Value: off
+					329 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					330 tab (settable, boolean) Bookmarks, Value: off
+					331 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					332 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					333 tab (settable, boolean) Boldstone Sculpture | Wall Sculptures - 50 Preview, Value: off
+					334 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					335 tab (selected, settable, boolean) Boldstone Sculpture | Products - High memory usage - 897 MB, Value: on
+						336 button Close
+					337 tab (settable, boolean) 000347063570B5C6_M.avif (600×600), Value: off
+			338 button New tab
+	339 close button
+	340 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	341 minimise button
+342 menu bar
+	343 Chrome
+	344 File
+	345 Edit
+	346 View
+	347 History
+	348 Bookmarks
+	349 Profiles
+	350 Tab
+	351 Window
+	352 Help
+
+The focused UI element is 63 container Boldstone Smooth Sand Ripple Relief - White Wall sculpture SSR-1-100.50 WHITE MARBLE STONE FINISH AND SMOOTH RIPPLED RELIEF 222.50 GBP

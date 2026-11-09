@@ -1,0 +1,178 @@
+Window: "Shipping Cost Calculator | UPS - United Kingdom", App: Google Chrome.
+0 standard window URL: ups.com/gb/en/shipping/quote, Secondary Actions: Raise, Shipping Cost Calculator | UPS - United Kingdom – Part of group 📦 Marketplace completion - Google Chrome – Tom
+	1 container URL: ups.com/gb/en/shipping/quote, Shipping Cost Calculator | UPS - United Kingdom – Part of group 📦 Marketplace completion - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: ups.com/gb/en/shipping/quote, Placeholder: Ask Google or type a URL
+					10 button This site can access your location.
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Shipping Cost Calculator | UPS - United Kingdom, URL: ups.com/gb/en/shipping/quote
+						27 container
+							28 button Skip to Main Content
+							29 text IEEPA Tariff Refunds
+							30 link Global Alert Modal Link, Value: ups.com/gb/en/shipping/quote#
+							31 container
+								32 button Find Closest UPS Location
+								33 button 6 Alerts
+								34 button United Kingdom - English
+								35 link About UPS, opens in a new tab, Value: about.ups.com/be/en/home.html
+								36 link Home, Value: ups.com/gb/en/home
+								37 content list
+									38 pop-up button Shipping
+									39 pop-up button Tracking
+									40 pop-up button Business Solutions
+									41 pop-up button Support
+								42 content list
+									43 button Search
+									44 link Log In, Value: ups.com/lasso/login?loc=en_GB&returnto=https%3A%2F%2Fwww.ups.com%2Fgb%2Fen%2Fshipping%2Fquote
+							45 container
+								46 tab group
+									47 tab (selected) Quote, Value: 1
+										48 heading Quote, Value: 2
+											49 text Quote
+								50 container Quote
+									51 container
+										52 text Do you have a discount on your account? 
+										53 link Log in
+											54 text Log in
+										55 text . *Required Fields
+										56 text From Address or Zip Code*
+										57 text field (settable) From Address or Zip Code*, Value: Midford, Bath BA2 7BX, UK
+										58 text From Other Address Information*
+										59 text field (settable) From Other Address Information*, Value: Court Essington, Midford Road
+										60 text To Address or Zip Code*
+										61 text field (settable) To Address or Zip Code*, Value: New York, NY 10001, USA
+										62 container
+											63 text Length  *
+											64 text field (settable) Length *, Value: 40
+										65 container
+											66 text Width  *
+											67 text field (settable) Width *, Value: 40
+										68 container
+											69 text Height  *
+											70 text field (settable) Height *, Value: 16
+										71 container
+											72 text Weight  *
+											73 text field (settable) Weight *, Value: 6
+										74 button Get a Quote
+										75 container
+											76 Tick box  This is a residential address., Value: 1
+											77 text 
+											78 text This is a residential address.
+							79 heading Go Beyond a Shipping Quote, Value: 2
+								80 text Go Beyond a Shipping Quote
+							81 text Need more info to start shipping? We’re here to help.
+							82 container
+								83 heading Save Money on Shipping, Value: 3
+									84 text Save Money on Shipping
+								85 text Save on shipping by answering a few quick questions.
+								86 link Get a Shipping Discount, Value: ups.com/gb/en/business-solutions/open-an-account
+								87 heading Compare Shipping Options, Value: 3
+									88 text Compare Shipping Options
+								89 text View our shipping services to find the right option for your needs.
+								90 link View Shipping Services, Value: ups.com/gb/en/support/shipping-support/shipping-services
+							91 container
+								92 heading Ready to Start Shipping?, Value: 2
+									93 text Ready to Start Shipping?
+								94 text Whether you’re new to shipping or a pro, our simplified shipping experience makes it easier than ever.
+								95 link Create a Shipment, Value: ups.com/ship/basic?loc=en_GB
+							96 content list
+								97 container
+									98 button This Site
+									99 content list
+										100 link Tracking, Value: ups.com/track?loc=en_GB
+										101 link Shipping, Value: ups.com/ship?loc=en_GB
+										102 link Help and Support, Value: ups.com/gb/en/support/contact-us
+										103 link Communication Preferences, Value: ups.com/marketingpreferences/emailsubscription?loc=en_GB
+								104 container
+									105 button Other UPS Sites
+									106 content list
+										107 link About UPS, opens in a new tab, Value: about.ups.com/be/en/home.html
+										108 link UPS Healthcare, Value: ups.com/gb/en/ups-healthcare
+										109 link Supply Chain Solutions, opens in a new tab, Value: ups.com/us/en/supplychain/home
+										110 link UPS Jobs, opens in a new tab, Value: jobs-ups.com/location
+										111 link UPS Developer Portal, opens in a new tab, Value: developer.ups.com/?loc=en_GB
+								112 container
+									113 button Connect with Us
+									114 content list
+										115 link Facebook, opens in a new tab, Value: facebook.com/profile.php?id=100064754554232
+										116 link X, opens in a new tab, Value: twitter.com/UPS_UK
+										117 link LinkedIn, opens in a new tab, Value: linkedin.com/company/ups
+										118 link YouTube, opens in a new tab, Value: youtube.com/ups
+							119 content list
+								120 content list
+									121 link Global Home, Value: ups.com/gb/en/global
+									122 link Protect Against Fraud, Value: ups.com/gb/en/support/shipping-support/legal-terms-conditions/fight-fraud
+									123 link Terms and Conditions, Value: ups.com/gb/en/support/shipping-support/legal-terms-conditions
+									124 link Website Terms of Use, Value: ups.com/gb/en/support/shipping-support/legal-terms-conditions/website-terms-of-use
+									125 link Privacy Notice, Value: ups.com/gb/en/support/shipping-support/legal-terms-conditions/privacy-notice
+									126 link Cookie Settings, Value: ups.com/gb/en/shipping/quote#cookie-settings
+							127 container
+								128 text Copyright ©1994- 2026  United Parcel Service of America, Inc. All rights reserved.
+			129 pop-up button Tab search
+			130 container
+				131 tab group
+					132 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					133 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					134 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					135 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					136 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					137 tab (settable, boolean) Meta Business Suite, Value: off
+					138 tab group  group 📦 Marketplace completion – 4 Tabs, •  Studio | Saatchi Art United Kingdom, •  Revise your listing | Boldstone Patina Panel -…, •  Vintage & Used Furniture and Decor | Chairish, •  Shipping Cost Calculator | UPS - United Kingdom – Expanded
+					139 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion, Value: off
+					140 tab (settable, boolean) Value: off, Revise your listing | Boldstone Patina Panel - Rust and Verdigris Finish Wall sculpture | eBay – Part of group 📦 Marketplace completion
+					141 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish – Part of group 📦 Marketplace completion, Value: off
+					142 tab (selected, settable, boolean) Shipping Cost Calculator | UPS - United Kingdom – Part of group 📦 Marketplace completion, Value: on
+						143 button Close
+					144 tab (settable, boolean) Botanical Form - White Outdoor Sculpture by Sally Price | Saatchi Art United Kingdom, Value: off
+					145 tab (settable, boolean) Products – Faire, Value: off
+					146 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					147 tab (settable, boolean) Create listings, Value: off
+			148 button New tab
+	149 close button
+	150 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	151 minimise button
+152 menu bar
+	153 Chrome
+	154 File
+	155 Edit
+	156 View
+	157 History
+	158 Bookmarks
+	159 Profiles
+	160 Tab
+	161 Window
+	162 Help
+
+Selected text: ```
+40
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

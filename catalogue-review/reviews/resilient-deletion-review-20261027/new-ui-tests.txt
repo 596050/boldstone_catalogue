@@ -1,0 +1,18 @@
+✔ queue selected checks once without holding the dialog or issuing per-file HTTP requests (98.144791ms)
+✔ lost start response looks up the exact durable review without submitting again (2.014209ms)
+✔ failed checks are shown separately and never counted in the deletion confirmation (0.768209ms)
+✔ final confirmation includes the server checked subset and exact revisions only (1.037541ms)
+✔ late progress cannot overwrite a different review or reopen a closed dialog (2.615625ms)
+✔ progress polls use the compact job status while checks are running (0.530875ms)
+✔ large unwanted-image selections do not build a keeper menu for every file (6.299375ms)
+✔ failed progress refresh keeps the saved selection and an exit route (0.732917ms)
+✔ retry submits only the review ID and preserves the saved choices on the server (1.553292ms)
+✔ all failed checks offer retry without any deletion confirmation (0.785542ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 229.001291

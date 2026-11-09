@@ -1,0 +1,160 @@
+Window: "Seller Dashboard | Furnitures", App: Google Chrome.
+0 standard window Seller Dashboard | Furnitures - Google Chrome – Tom, URL: furnitures.co.uk/dashboard/products/425fcb71-9634-45dd-a8d2-718504f35680, Secondary Actions: Raise
+	1 container Seller Dashboard | Furnitures - Google Chrome – Tom, URL: furnitures.co.uk/dashboard/products/425fcb71-9634-45dd-a8d2-718504f35680
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: furnitures.co.uk/dashboard/products/425fcb71-9634-45dd-a8d2-718504f35680, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Seller Dashboard | Furnitures, URL: furnitures.co.uk/dashboard/products/425fcb71-9634-45dd-a8d2-718504f35680
+						27 container
+							28 text Free UK delivery on orders over £500  ·  30-day returns  · 
+							29 link Sell on Furnitures, Value: furnitures.co.uk/sell
+							30 link Furnitures., Value: furnitures.co.uk/
+							31 container
+								32 link Shop All, Value: furnitures.co.uk/shop
+								33 link Lighting, Value: furnitures.co.uk/shop?category=lighting
+								34 link Living Room, Value: furnitures.co.uk/shop?category=living-room
+								35 link Bedroom, Value: furnitures.co.uk/shop?category=bedroom
+								36 link Dining, Value: furnitures.co.uk/shop?category=dining
+								37 link Office, Value: furnitures.co.uk/shop?category=office
+								38 link Outdoor, Value: furnitures.co.uk/shop?category=outdoor
+								39 link Sellers, Value: furnitures.co.uk/vendors
+							40 button Search
+							41 link Sell, Value: furnitures.co.uk/sell
+							42 button Account menu
+							43 button Open cart
+							44 container
+								45 text SELLER DASHBOARD
+								46 link Overview, Value: furnitures.co.uk/dashboard
+								47 link Products, Value: furnitures.co.uk/dashboard/products
+								48 link Orders, Value: furnitures.co.uk/dashboard/orders
+								49 link Settings, Value: furnitures.co.uk/dashboard/settings
+							50 heading Edit product, Value: 1
+								51 text Edit product
+							52 text Boldstone Leaf Silhouette - White Wall sculpture
+							53 container
+								54 text Saved — changes are live.
+								55 text Product name
+								56 text field (settable) Product name, Value: Boldstone Leaf Silhouette - White Wall sculpture, Placeholder: Windermere Oak Bookcase
+								57 text Category
+								58 pop-up button Category, Value: Living Room
+									59 (selected) Living Room
+								60 text Status
+								61 pop-up button Status, Value: Active — visible in the marketplace
+									62 (selected) Active — visible in the marketplace
+								63 text Price (£)
+								64 text field (settable) Price (£), Value: 56.36, Placeholder: 499
+								65 container
+									66 text Compare-at price (£)  · optional
+								67 text field (settable) Compare-at price (£) · optional, Placeholder: 599 — shows a sale badge
+								68 text Stock
+								69 stepper (settable, float) Stock, Value: 1
+								70 text Description
+								71 text entry area (settable) Description, Placeholder: Tell buyers what makes this piece special — materials, craft, story…, Value: A simplified leaf silhouette becomes a sculptural study in line and form. The relief keeps the natural motif clear and expressive, allowing light to define its contours. A calm botanical accent for a space that favours thoughtful details and a connection to the garden. The white finish keeps the focus on the form and its changing shadows. Brand: Boldstone Product type: Wall sculpture Model: Leaf Silhouette - White (LF-1-40.20) Colour / appearance: White marble stone finish Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included. Material: Made from a gypsum-based material. Dimensions: 35 × 35 × 6 cm per panel Weight: Approximately 6–8 kg per panel Use: Suitable for outdoor use and indoor display. Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall. Availability: Ready to dispatch Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price. Dispatch time: Within 10 working days. Delivery transit time is additional. Delivery: The delivery charge for your order is shown at checkout. Carrier transit time is additional to dispatch time.
+								72 text Material
+								73 text field (settable) Material, Value: Gypsum-based material, Placeholder: Solid oak
+								74 text Dimensions
+								75 text field (settable) Dimensions, Value: 35 × 35 × 6 cm per panel, Placeholder: W120 × D40 × H180 cm
+								76 text Colour
+								77 text field (settable) Colour, Value: White marble stone finish, Placeholder: Natural Oak
+								78 text Images (one URL per line, up to 6)
+								79 button Choose from library
+								80 text entry area (settable) Images (one URL per line, up to 6), Placeholder: https://…jpg, Value: https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793399237207-G2OP47VRNEU0690QDI8A/file
+https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793399238577-YAMPVFCSUWAJGNB2FDPI/file
+https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793399241252-N3Q3MMMEGXWO8RTQXEXA/file
+https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/2e118a0a-ad49-4156-8a84-dd3f7e54f8fb/boldstone-situ-88634beaa94fc82c-web.jpg
+https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/f4fd8a49-8eef-41b7-bc86-6c68c8ebc307/boldstone-situ-f31e8a0776330014-web.jpg
+								81 text Upload files in 
+								82 text Admin → Media
+								83 text , then use “Choose from library”, or paste image URLs directly. Search engine optimisation (SEO) Optional — leave blank to use the product name and description.
+								84 container
+									85 text SEO title  · the Google headline
+								86 text field (settable) SEO title · the Google headline, Placeholder: e.g. Gold Crystal Wall Light | LED Lighting UK
+								87 container
+									88 text Meta description  · the grey text under the title
+								89 text entry area (settable) Meta description · the grey text under the title, Placeholder: A short, keyword-rich summary shown in Google results (max 160 chars).
+								90 button Save changes
+							91 container
+								92 text Furnitures .
+							93 text The UK marketplace for quality furniture from independent makers and trusted sellers.
+							94 text SHOP
+							95 content list
+								96 link Lighting, Value: furnitures.co.uk/shop?category=lighting
+								97 link Living Room, Value: furnitures.co.uk/shop?category=living-room
+								98 link Bedroom, Value: furnitures.co.uk/shop?category=bedroom
+								99 link Dining, Value: furnitures.co.uk/shop?category=dining
+								100 link Office, Value: furnitures.co.uk/shop?category=office
+								101 link Outdoor, Value: furnitures.co.uk/shop?category=outdoor
+							102 text MARKETPLACE
+							103 content list
+								104 link Our Sellers, Value: furnitures.co.uk/vendors
+								105 link Sell on Furnitures, Value: furnitures.co.uk/sell
+								106 link New Arrivals, Value: furnitures.co.uk/shop?sort=newest
+								107 link Sale, Value: furnitures.co.uk/shop?sale=1
+							108 text HELP
+							109 content list
+								110 text Free UK delivery over £500
+								111 text 30-day returns
+								112 text Secure checkout
+								113 text support@furnitures.co.uk
+							114 container
+								115 text ©  2026  Furnitures.co.uk — All rights reserved.
+							116 text Visa · Mastercard · Amex · Apple Pay · Google Pay
+			117 pop-up button Tab search
+			118 container
+				119 tab group
+					120 tab (selected, settable, boolean) Seller Dashboard | Furnitures, Value: on
+						121 button Close
+					122 tab (settable, boolean) Home – Faire, Value: off
+						123 button Close
+					124 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+						125 button Close
+					126 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+						127 button Close
+					128 tab (settable, boolean) Meta Business Suite - High memory usage - 1.0 GB, Value: off
+						129 button Close
+			130 button New tab
+	131 close button
+	132 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	133 minimise button
+134 menu bar
+	135 Chrome
+	136 File
+	137 Edit
+	138 View
+	139 History
+	140 Bookmarks
+	141 Profiles
+	142 Tab
+	143 Window
+	144 Help
+
+The focused UI element is 26 HTML content Seller Dashboard | Furnitures, URL: furnitures.co.uk/dashboard/products/425fcb71-9634-45dd-a8d2-718504f35680

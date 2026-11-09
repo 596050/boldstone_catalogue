@@ -1,0 +1,218 @@
+Window: "Meta Business Suite", App: Google Chrome.
+0 standard window Meta Business Suite - Google Chrome – Tom, Secondary Actions: Raise, URL: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&ir_qe_exposed=1&nav_ref=internal_nav&ref=biz_web_content_manager_published_posts&context_ref=POSTS
+	1 container Meta Business Suite - Google Chrome – Tom, URL: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&ir_qe_exposed=1&nav_ref=internal_nav&ref=biz_web_content_manager_published_posts&context_ref=POSTS
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&ir_qe_exposed=1&nav_ref=internal_nav&ref=biz_web_content_manager_published_posts&context_ref=POSTS
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Meta Business Suite, URL: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&ir_qe_exposed=1&nav_ref=internal_nav&ref=biz_web_content_manager_published_posts&context_ref=POSTS
+						27 container
+							28 container
+								29 container
+									30 heading Create post, Value: 1
+										31 text Create post
+									32 container
+										33 image
+										34 heading Want to create an ad post?, Value: 4
+											35 text Want to create an ad post?
+										36 button Close ​
+										37 button See more
+									38 container Post to
+										39 heading Post to, Value: 3
+											40 text Post to
+										41 container
+											42 text Post to
+											43 combo box (settable) Post to boldstonesculpture, Value: ​ Instagram boldstonesculpture ​
+												44 container
+													45 container
+														46 image Instagram
+													47 text boldstonesculpture
+													48 image
+									49 container Media
+										50 heading Media, Value: 3
+											51 text Media
+										52 text Share photos and videos on Instagram. Posts can't exceed 10 photos or videos.
+										53 container
+											54 content list
+												55 container
+													56 text 2048 x 2048
+													57 image
+													58 text 1
+													59 button Edit photo ​
+													60 button Edit ​
+													61 button Remove Photo ​
+											62 button Add photo/video
+									63 container Post details
+										64 heading Post details, Value: 3
+											65 text Post details
+										66 container
+											67 heading Text, Value: 4
+												68 text Text
+											69 text entry area (settable) Write in the dialogue box to include text with your post., Value: A small spiral with a rugged shoreline character.
+Coral Spiral Relief - White follows a curling ridge across a richly textured square panel. The raised lines catch the light while rougher recesses suggest coral, rock and the marks left by the sea. A pale wall keeps the focus on those small changes of depth.
+Handmade from a gypsum-based material, suitable for indoor or outdoor display. One sculpture is supplied. All designs can be customised, and completely new commissions can be created with designer Sally Price.
+Tap the product tag for dimensions, more photographs and current pricing.
+#BoldstoneSculpture #WallSculpture #CoastalInteriors #TexturedArt #GardenArt
+												70 text A small spiral with a rugged shoreline character.
+												71 text Coral Spiral Relief - White follows a curling ridge across a richly textured square panel. The raised lines catch the light while rougher recesses suggest coral, rock and the marks left by the sea. A pale wall keeps the focus on those small changes of depth.
+												72 text Handmade from a gypsum-based material, suitable for indoor or outdoor display. One sculpture is supplied. All designs can be customised, and completely new commissions can be created with designer Sally Price.
+												73 text Tap the product tag for dimensions, more photographs and current pricing.
+												74 container
+													75 text #BoldstoneSculpture #WallSculpture #CoastalInteriors #TexturedArt #GardenArt
+											76 button Click to open hashtag menu. ​
+											77 button Choose emoji ​
+											78 image
+											79 text Write with AI
+											80 link Fix grammar, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&ir_qe_exposed=1&nav_ref=internal_nav&ref=biz_web_content_manager_published_posts&context_ref=POSTS#
+											81 link Shorter, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&ir_qe_exposed=1&nav_ref=internal_nav&ref=biz_web_content_manager_published_posts&context_ref=POSTS#
+											82 link Longer, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&ir_qe_exposed=1&nav_ref=internal_nav&ref=biz_web_content_manager_published_posts&context_ref=POSTS#
+											83 link Funny, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&ir_qe_exposed=1&nav_ref=internal_nav&ref=biz_web_content_manager_published_posts&context_ref=POSTS#
+											84 link Professional, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&ir_qe_exposed=1&nav_ref=internal_nav&ref=biz_web_content_manager_published_posts&context_ref=POSTS#
+											85 link More, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&ir_qe_exposed=1&nav_ref=internal_nav&ref=biz_web_content_manager_published_posts&context_ref=POSTS#
+											86 button Location
+									87 container
+										88 heading Schedule, Value: 3
+											89 text Schedule
+										90 text Set date and time
+										91 switch Set date and time, Value: off
+									92 container
+										93 switch (disabled) Boost, Value: off
+										94 text Boost
+										95 button Cancel
+										96 button Finish later
+										97 button Publish
+									98 container
+										99 heading Instagram feed preview, Value: 3
+											100 text Instagram feed preview
+										101 container
+											102 text boldstonesculpture
+											103 image
+											104 button Like
+											105 button Comment
+											106 button Share
+											107 button Save
+											108 text boldstonesculpture
+											109 text A small spiral with a rugged shoreline character. ... 
+											110 button more
+								111 button Meta AI business assistant
+								112 container
+									113 button Meta Business Suite
+									114 button Pressable
+									115 container Links
+										116 text Links
+										117 content list
+											118 container
+												119 link Home, Value: business.facebook.com/latest/home?business_id=2380586078685156&asset_id=103781478537396
+												120 text Home
+											121 container
+												122 link Notifications
+													123 text Notifications
+												124 text Notifications
+											125 container
+												126 link Ads Manager
+													127 text Ads Manager
+												128 text Ads Manager
+											129 container
+												130 link Inbox, Value: business.facebook.com/latest/inbox?business_id=2380586078685156&asset_id=103781478537396
+												131 text Inbox
+											132 container
+												133 link Content, Value: business.facebook.com/latest/posts?business_id=2380586078685156&asset_id=103781478537396
+												134 text Content
+											135 container
+												136 link Creator Marketing, Value: business.facebook.com/creator_marketing_hub/overview/?business_id=2380586078685156&asset_id=103781478537396&nav_ref=mbs_all_tools&ad_account_id=878195225362673&selected_business_ig_user_id=17841407266349160&selected_business_page_id=103781478537396
+												137 text Creator Marketing
+											138 container
+												139 link Planner, Value: business.facebook.com/latest/content_calendar?business_id=2380586078685156&asset_id=103781478537396
+												140 text Planner
+											141 container
+												142 link Ads, Value: business.facebook.com/latest/ad_center/ads_summary?business_id=2380586078685156&asset_id=103781478537396
+												143 text Ads
+											144 container
+												145 link Insights, Value: business.facebook.com/latest/insights?business_id=2380586078685156&asset_id=103781478537396
+												146 text Insights
+											147 container
+												148 link Monetisation, Value: business.facebook.com/latest/monetization?business_id=2380586078685156&asset_id=103781478537396
+												149 text Monetisation
+											150 container
+												151 link All tools
+													152 text All tools
+												153 text All tools
+											154 button Edit sidebar navigation
+									155 container
+										156 link Search
+											157 text Search
+										158 text Search
+										159 image
+									160 container Links
+										161 text Links
+										162 content list
+											163 container
+												164 link Settings, Value: business.facebook.com/latest/settings/business_users?business_id=2380586078685156
+												165 text Settings
+									166 container
+										167 link Help
+											168 text Help
+										169 text Help
+										170 image
+			171 pop-up button Tab search
+			172 container
+				173 tab group
+					174 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					175 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					176 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					177 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					178 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					179 tab (selected, settable, boolean) Meta Business Suite, Value: on
+						180 button Close
+					181 tab group  group 🛍️ Catalogue and Instagram – 3 Tabs, •  Studio | Saatchi Art United Kingdom, •  Complete your listing | Boldstone Islington Sh…, •  Manage drafts - eBay Seller Hub – Expanded
+					182 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 🛍️ Catalogue and Instagram, Value: off
+					183 tab (settable, boolean) Value: off, Complete your listing | Boldstone Islington Shellmoon Relief - White Wall sculpture | eBay – Part of group 🛍️ Catalogue and Instagram
+					184 tab (settable, boolean) Manage drafts - eBay Seller Hub – Part of group 🛍️ Catalogue and Instagram, Value: off
+					185 tab (settable, boolean) Products – Faire, Value: off
+					186 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					187 tab (settable, boolean) Create listings, Value: off
+			188 button New tab
+	189 close button
+	190 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	191 minimise button
+192 menu bar
+	193 Chrome
+	194 File
+	195 Edit
+	196 View
+	197 History
+	198 Bookmarks
+	199 Profiles
+	200 Tab
+	201 Window
+	202 Help
+
+The focused UI element is 60 button Edit ​

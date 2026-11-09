@@ -1,0 +1,233 @@
+Window: "DevTools - boldstonesculpture.…paign=pinterest_consent_check", App: Google Chrome.
+0 standard window Secondary Actions: Raise, DevTools - boldstonesculpture.com/buy/p/brancusi-totem-white?utm_source=qa&utm_medium=test&utm_campaign=pinterest_consent_check (Incognito), URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true
+	1 container DevTools - boldstonesculpture.com/buy/p/brancusi-totem-white?utm_source=qa&utm_medium=test&utm_campaign=pinterest_consent_check (Incognito), URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true
+		2 container
+			3 container
+				4 scroll area
+					5 HTML content DevTools, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true
+						6 container
+							7 container
+								8 container
+									9 container Main toolbar
+										10 toolbar
+											11 container Select an element in the page to inspect it, Help: Select an element in the page to inspect it - ⌘ ⇧ C
+												12 toggle button Select an element in the page to inspect it - ⌘ ⇧ C, Value: 0
+											13 container Toggle device toolbar, Help: Toggle device toolbar - ⌘ ⇧ M
+												14 toggle button Toggle device toolbar - ⌘ ⇧ M, Value: 0
+										15 container
+											16 tab group Panels
+												17 tab (settable, integer) Console, Value: 0
+												18 tab (settable, integer) Elements, Value: 0
+												19 tab (settable, integer) Application, Value: 0
+												20 tab (selected) Network, Value: 1
+											21 pop-up button More tabs
+										22 toolbar
+											23 container
+												24 container Open Console to view 17 errors, 6 warnings
+													25 button Open Console to view 17 errors, 6 warnings
+												26 container Open Issues to view 1 issue: 1 possible improvement
+													27 button Open Issues to view 1 issue: 1 possible improvement
+											28 button  AI assistance, Help: Open AI assistance panel
+											29 container Settings, Help: Settings - F1 - ⇧ ?
+												30 button Settings - F1 - ⇧ ?
+											31 pop-up button Customize and control DevTools
+												32 button Customize and control DevTools
+									33 container Network panel
+										34 container network
+											35 container
+												36 toolbar
+													37 container Stop recording network log, Help: Stop recording network log - ⌘ E
+														38 toggle button Stop recording network log - ⌘ E, Value: 1
+													39 container Clear network log, Help: Clear network log - Ctrl L - ⌘ K
+														40 button Clear network log - Ctrl L - ⌘ K
+													41 container Filter
+														42 toggle button Filter, Value: 1
+													43 container Search
+														44 toggle button Search, Value: 0
+													45 container
+														46 Tick box Keep log, Value: 1
+														47 text Keep log
+													48 container
+														49 Tick box Disable cache, Value: 1
+														50 text Disable cache
+													51 pop-up button Throttling, Value: Disabled: No throttling
+														52 (selected) Disabled: No throttling
+													53 container More network conditions…
+														54 button More network conditions…
+													55 container Import HAR file…
+														56 button Import HAR file…
+													57 container Export HAR (sanitized)…
+														58 button Export HAR (sanitized)…
+													59 container Network settings
+														60 toggle button Network settings, Value: 0
+												61 toolbar
+													62 container
+														63 text entry area (settable) Filter, Value: domain:ct.pinterest.com
+															64 text domain:ct.pinterest.com
+														65 container Clear
+															66 button Clear
+												67 container Inverts the search filter
+													68 Tick box Invert, Value: 0
+													69 text Invert
+												70 container Show only/hide requests dropdown
+													71 pop-up button Show only/hide requests
+														72 text More filters
+												73 list box Request types to include, Help: ⌘ Click to select multiple types
+													74 text (selected) All Fetch/XHR Doc CSS JS Font Img Media Manifest Socket Wasm Other
+												75 container Overview grid window
+													76 container
+														77 container
+															78 text 0 ms
+															79 text 10,000 ms
+															80 text 20,000 ms
+															81 text 30,000 ms
+															82 text 40,000 ms
+															83 text 50,000 ms
+															84 text 60,000 ms
+															85 text 70,000 ms
+															86 text 80,000 ms
+															87 text 90,000 ms
+													88 slider Left resizer, Value: 0, Details: 0 ms, Secondary Actions: Increment, Decrement
+													89 slider Right resizer, Value: 100, Details: 87,581 ms, Secondary Actions: Increment, Decrement
+												90 container
+													91 container
+														92 table
+															93 row
+																94 column header Name - Sortable column. Press enter to sort.
+																	95 text Name
+																96 column header Status - Sortable column. Press enter to sort.
+																	97 text Status
+																98 column header Type - Sortable column. Press enter to sort.
+																	99 text Type
+																100 column header Initiator - Sortable column. Press enter to sort.
+																	101 text Initiator
+																102 column header Size - Sortable column. Press enter to sort.
+																	103 text Size
+																104 column header Time - Sortable column. Press enter to sort.
+																	105 text Time
+															106 row
+																107 cell https://ct.pinterest.com/user/?tid=2612823030261&cb=1794175453281&dep=2%2CPAGE_LOAD
+																	108 image XHR
+																	109 text user/?tid=2612823030261&cb=1794175453281&dep=2%2CPAGE_LOAD
+																110 cell 200 OK
+																	111 text 200
+																112 cell
+																	113 text xhr
+																114 cell
+																	115 link main.80c2b6ae.js:1, Help: https://s.pinimg.com/ct/lib/main.80c2b6ae.js:1
+																		116 text main.80c2b6ae.js:1
+																117 cell 0.3 kB transferred over network, resource size: 0.4 kB
+																	118 text 0.3 kB
+																119 cell
+																	120 text 44 ms
+															121 row
+																122 cell https://ct.pinterest.com/v3/?tid=2612823030261&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fboldstonesculpture.com%2Fbuy%2Fp%2Fbrancusi-totem-white%3Futm_source%3Dqa%26utm_medium%3Dtest%26utm_campaign%3Dpinterest_consent_check%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A982%2C%22sw%22%3A1512%2C%22mh%22%3A%2280c2b6ae%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22arm%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Not%3AA-Brand%22%2C%22version%22%3A%228%22%7D%2C%7B%22bra
+																	123 image Fetch
+																	124 text v3/?tid=2612823030261&event=init&ad=%7B%22loc%22%3…sion%22%3A%22156.0.8078.73%22%7D&cb=1794175453282
+																125 cell 200 OK
+																	126 text 200
+																127 cell
+																	128 text fetch
+																129 cell
+																	130 link main.80c2b6ae.js:1, Help: https://s.pinimg.com/ct/lib/main.80c2b6ae.js:1
+																		131 text main.80c2b6ae.js:1
+																132 cell 0.1 kB transferred over network, resource size: 0.0 kB
+																	133 text 0.1 kB
+																134 cell
+																	135 text 42 ms
+															136 row
+																137 cell https://ct.pinterest.com/static/ct/token_create.js
+																	138 text token_create.js
+																139 cell 200 OK
+																	140 text 200
+																141 cell
+																	142 text script
+																143 cell
+																	144 link main.80c2b6ae.js:1, Help: https://s.pinimg.com/ct/lib/main.80c2b6ae.js:1
+																		145 text main.80c2b6ae.js:1
+																146 cell 2.2 kB transferred over network, resource size: 4.2 kB
+																	147 text 2.2 kB
+																148 cell
+																	149 text 11 ms
+															150 row
+																151 cell https://ct.pinterest.com/ct.html
+																	152 text ct.html
+																153 cell 200 OK
+																	154 text 200
+																155 cell
+																	156 text document
+																157 cell
+																	158 link main.80c2b6ae.js:1
+																		159 text main.80c2b6ae.js:1
+																160 cell 0.4 kB transferred over network, resource size: 0.6 kB
+																	161 text 0.4 kB
+																162 cell
+																	163 text 42 ms
+													164 container 4 / 119 requests
+														165 text 4 / 119 requests
+													166 container 2853 B / 11994488 B transferred over network
+														167 text 2.9 kB / 11,994 kB transferred
+													168 container 5260 B / 23998335 B resources loaded by the page
+														169 text 5.3 kB / 23,998 kB resources
+													170 container Finish: 1.4 min
+														171 text Finish: 1.4 min
+													172 container DOMContentLoaded: 481 ms
+														173 text DOMContentLoaded: 481 ms
+													174 container Load: 1.18 s
+														175 text Load: 1.18 s
+								176 container Drawer
+									177 container
+										178 toolbar
+											179 pop-up button More tools
+												180 button More tools
+										181 tab group
+											182 tab (settable, integer) Console, Value: 0
+											183 tab (settable, integer) Issues, Value: 0
+											184 tab (selected) What’s new, Value: 1
+											185 tab (settable, integer) AI assistance, Value: 0
+										186 pop-up button More tabs
+										187 toolbar
+											188 container Toggle drawer orientation
+												189 button Toggle drawer orientation
+											190 container Minimize drawer
+												191 button Minimize drawer
+											192 container Close drawer
+												193 button Close drawer
+										194 container What’s new panel
+											195 container whats-new
+												196 container
+													197 text New in DevTools (November 2026)
+													198 button See all new features
+													199 heading DevTools for agents, Value: 3
+														200 link DevTools for agents, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#mcp
+															201 text DevTools for agents
+													202 container
+														203 text Inspect matched rules, inherited styles, pseudo-elements, and  @  rules with the  get_css_styles  tool in Chrome DevTools for agents. You can also manage server flags with a configuration file and parse large performance traces with chunked trace buffer parsing.
+													204 heading Visual position-area editor for CSS anchor positioning, Value: 3
+														205 link Visual position-area editor for CSS anchor positioning, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#sources
+															206 text Visual position-area editor for CSS anchor positioning
+													207 container
+														208 text Click the inline swatch next to a  position-area  declaration in the  Styles  tab to visually select anchor grid regions, configure axis modes, and toggle the  self  keyword. Right-click  popover  adorners in the DOM tree to disambiguate multiple implicit anchors.
+													209 heading Web Install manifest diagnostics and ad script provenance, Value: 3
+														210 link Web Install manifest diagnostics and ad script provenance, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#web-install-manifest-diagnosti
+															211 text Web Install manifest diagnostics and ad script provenance
+													212 container
+														213 text Diagnose Web Install ( navigator.install  and  <install> ) manifest errors in the  Issues  panel with direct links to affected manifests. In the  Application  panel's  Ads  section, use the new  Ad provenance  column to see whether script ancestry or a filter list rule tagged an ad script.
+							214 text Network data available
+	215 close button
+	216 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	217 minimise button
+	218 text DevTools - boldstonesculpture.…paign=pinterest_consent_check
+219 menu bar
+	220 Chrome
+	221 File
+	222 Edit
+	223 View
+	224 History
+	225 Bookmarks
+	226 Profiles
+	227 Tab
+	228 Window
+	229 Help
+
+The focused UI element is 63 text entry area (settable) Filter, Value: domain:ct.pinterest.com

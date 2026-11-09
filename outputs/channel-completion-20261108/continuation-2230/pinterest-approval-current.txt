@@ -1,0 +1,208 @@
+Window: "Pinterest", App: Google Chrome.
+0 standard window Pinterest - Google Chrome – Tom, Secondary Actions: Raise, URL: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES
+	1 container Pinterest - Google Chrome – Tom, URL: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES
+					10 button Install Pinterest
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Pinterest, URL: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES
+						28 container
+							29 container
+								30 link Skip to content, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES#
+								31 container Primary navigation header
+									32 button Pinterest Catalogues Dynamic badge drop-down menu button
+									33 button Boldstone Boldstone Account switcher arrow icon
+									34 link Notifications, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES
+									35 link Messages, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES
+									36 container Engagement. You have pending notifications.
+										37 link Manage comments and social activity, Value: uk.pinterest.com/engagement/
+									38 link Your profile, Value: uk.pinterest.com/boldstonepinterest/
+									39 pop-up button Accounts and more options
+							40 container Footer floating buttons
+							41 container
+								42 heading Catalogues, Value: 2
+									43 text Catalogues
+								44 container Navigate catalogues main item section
+									45 content list
+										46 link Overview, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES#
+										47 link Promotions, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES#
+										48 link Creative overlays, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES#
+										49 link Markets, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES#
+									50 content list
+										51 container
+											52 text Catalogues
+											53 content list
+												54 container
+													55 button Catalog_Retail
+													56 content list
+														57 link Diagnostics, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/
+														58 link Products , You have products in this catalogue, Value: uk.pinterest.com/business/catalogs/4814500935893/products/
+														59 link Product groups , You have product groups in this catalogue, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES
+														60 link Data sources , You have active feeds in this catalogue, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES
+									61 content list
+										62 container
+											63 text Support
+											64 content list
+												65 link Help Centre, Value: help.pinterest.com/business/article/before-you-get-started-with-catalogs
+												66 link Contact us, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES#
+								67 image Error
+								68 container
+									69 text To connect your catalogue, all merchants must meet the 
+									70 link Merchant Guidelines; Opens a new tab, Value: pinterest.com/_/_/policy/
+									71 text . Once issues have been resolved, you will be able to add your products to Pinterest.
+								72 button View issues
+								73 heading Diagnostics, Value: 1
+									74 text Diagnostics
+								75 container
+									76 text View issues impacting your  retail  catalogue and find out how to fix them. 
+									77 link Learn more; Opens a new tab, Value: help.pinterest.com/business/article/catalog-diagnostics
+								78 tab group
+									79 tab (settable, integer) Ingestion issues, Value: 0
+										80 text Ingestion issues
+									81 tab (selected) Distribution issues, Value: 1
+										82 container
+											83 text Distribution issues
+								84 container
+									85 text Overview Based on items from all data sources Approved
+									86 container approved tooltip
+										87 button Label
+									88 text 0 0%  of total  catalogue Not approved
+									89 container not approved tooltip
+										90 button Label
+									91 text 0 0%  of total  catalogue Limited (ads only)
+									92 container limited ads only tooltip
+										93 button Label
+									94 text 0 0%  of total  catalogue Details Violations to our 
+									95 link Merchant Guidelines, Value: policy.pinterest.com/merchant-guidelines
+									96 text  result in products not being distributed organically or in ads, or being limited to ads only
+									97 button (disabled) Export details
+									98 table Distribution issues for this catalogue
+										99 text Distribution issues for this catalogue
+										100 row
+											101 column header
+												102 button Issue
+											103 column header
+												104 text Impacting
+											105 column header
+												106 text What to do
+											107 column header
+												108 button Items
+									109 text There are no distribution issues for this catalogue
+							110 container Footer
+			111 pop-up button Tab search
+			112 container
+				113 tab group
+					114 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					115 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					116 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					117 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					118 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					119 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					120 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					121 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					122 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					123 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					124 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					125 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					126 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					127 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					128 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					129 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					130 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					131 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					132 tab (settable, boolean) Meta Business Suite, Value: off
+					133 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					134 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					135 tab group  group ✅Claude – 1 Tab, •  Brands - Manufacturer Center – Expanded
+					136 tab (settable, boolean) Brands - Manufacturer Center – Part of group ✅Claude, Value: off
+					137 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					138 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					139 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					140 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.0 GB, Value: off
+					141 tab (settable, boolean) Boldstone · Review room, Value: off
+					142 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					143 tab (settable, boolean) Overview - Merchant Center, Value: off
+					144 tab (selected, settable, boolean) Pinterest, Value: on
+			145 button New tab
+		146 container Recent download history
+			147 container
+				148 scroll area
+					149 container
+						150 button Boldstone Wall Sculptures — Master Catalogue (4).xlsx 4.5 MB • Done
+						151 text Boldstone Wall Sculptures — Master Catalogue (4).xlsx
+						152 text 4.5 MB • 5 minutes ago
+						153 button Boldstone Wall Sculptures — Master Catalogue (3).xlsx 3.7 MB • 3 minutes ago
+						154 text Boldstone Wall Sculptures — Master Catalogue (3).xlsx
+						155 text 3.7 MB • 8 minutes ago
+						156 button export-history_124656_111089_ProductsExport-111089-284312.xls 612 KB • 2 hours ago
+						157 text export-history_124656_111089_ProductsExport-111089-284312.xls
+						158 text 612 KB • 2 hours ago
+						159 button products_2026-11-08_20-34-44.zip 194 KB • 2 hours ago
+						160 text products_2026-11-08_20-34-44.zip
+						161 text 194 KB • 2 hours ago
+						162 button products_2026-11-08_20-20-48.zip 192 KB • 2 hours ago
+						163 text products_2026-11-08_20-20-48.zip
+						164 text 192 KB • 2 hours ago
+						165 button products_2026-11-08_20-08-06.zip 193 KB • 2 hours ago
+						166 text products_2026-11-08_20-08-06.zip
+						167 text 193 KB • 2 hours ago
+						168 button products_Nov-08_08-05-40PM.csv 768 KB • 2 hours ago
+						169 text products_Nov-08_08-05-40PM.csv
+						170 text 768 KB • 3 hours ago
+						171 button products_Nov-08_08-01-58PM.csv 768 KB • 3 hours ago
+						172 text products_Nov-08_08-01-58PM.csv
+						173 text 768 KB • 3 hours ago
+						174 button products_2026-11-08_19-17-46.zip 194 KB • 3 hours ago
+						175 text products_2026-11-08_19-17-46.zip
+						176 text 194 KB • 3 hours ago
+						177 button products_Nov-08_06-09-29PM.csv 765 KB • 4 hours ago
+						178 text products_Nov-08_06-09-29PM.csv
+						179 text 765 KB • 4 hours ago
+						180 button products_Nov-08_06-06-06PM.csv 764 KB • 4 hours ago
+						181 text products_Nov-08_06-06-06PM.csv
+						182 text 764 KB • 5 hours ago
+	183 close button
+	184 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	185 minimise button
+186 menu bar
+	187 Chrome
+	188 File
+	189 Edit
+	190 View
+	191 History
+	192 Bookmarks
+	193 Profiles
+	194 Tab
+	195 Window
+	196 Help
+
+The focused UI element is 27 HTML content Pinterest, URL: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES

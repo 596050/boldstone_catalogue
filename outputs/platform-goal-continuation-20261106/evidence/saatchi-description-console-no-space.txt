@@ -1,0 +1,391 @@
+Window: "Studio | Saatchi Art United Kingdom", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14397075/description, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14397075/description
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio/art/14397075/description, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content DevTools, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true&panel=console
+						26 container
+							27 container
+								28 container
+									29 container
+										30 container Main toolbar
+											31 toolbar
+												32 container Select an element in the page to inspect it, Help: Select an element in the page to inspect it - ⌘ ⇧ C
+													33 toggle button Select an element in the page to inspect it - ⌘ ⇧ C, Value: 0
+												34 container Toggle device toolbar, Help: Toggle device toolbar - ⌘ ⇧ M
+													35 toggle button Toggle device toolbar - ⌘ ⇧ M, Value: 0
+											36 container
+												37 tab group Panels
+													38 tab (selected) Console, Value: 1
+													39 tab (settable, integer) Elements, Value: 0
+													40 tab (settable, integer) Application, Value: 0
+													41 tab (settable, integer) Sources, Value: 0
+													42 tab (settable, integer) Network, Value: 0
+													43 tab (settable, integer) Performance, Value: 0
+													44 tab (settable, integer) Memory, Value: 0
+													45 tab (settable, integer) Lighthouse, Value: 0
+													46 tab (settable, integer) AdBlock, Value: 0
+													47 tab (settable, integer) ResourcesSaver, Value: 0
+													48 tab (settable, integer) Components ⚛, Value: 0
+													49 tab (settable, integer) Profiler ⚛, Value: 0
+													50 tab (settable, integer) Suspense ⚛, Value: 0
+											51 toolbar
+												52 container
+													53 container Open Console to view 47 errors, 3 warnings
+														54 button Open Console to view 47 errors, 3 warnings
+													55 container Open Issues to view 81 issues: 81 breaking changes
+														56 button Open Issues to view 81 issues: 81 breaking changes
+												57 button  AI assistance, Help: Open AI assistance panel
+												58 container Settings, Help: Settings - F1 - ⇧ ?
+													59 button Settings - F1 - ⇧ ?
+												60 pop-up button Customize and control DevTools
+													61 button Customize and control DevTools
+												62 container Close
+													63 button Close
+										64 container Console panel
+											65 container console
+												66 container
+													67 toolbar
+														68 container Show Console sidebar
+															69 button Show Console sidebar
+														70 container Clear console, Help: Clear console - Ctrl L - ⌘ K
+															71 button Clear console - Ctrl L - ⌘ K
+														72 container Collapse all
+															73 button Collapse all
+														74 button JavaScript context: top
+														75 container Create live expression
+															76 button Create live expression
+														77 text entry area (settable) Filter
+															78 text Filter
+														79 pop-up button Log level: Default levels
+															80 text Default levels
+														81 container Some problems no longer generate console messages, but are surfaced in the Issues tab Click to view 81 breaking changes
+															82 button Some problems no longer generate console messages, but are surfaced in the Issues tab Click to view 81 breaking changes
+														83 container Console settings
+															84 toggle button Console settings, Value: 0
+														85 container 51 messages in console
+													86 container
+														87 container
+															88 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+																89 container
+																	90 text 21:21:41.828
+																	91 container Error
+																	92 container description:1 Uncaught (in promise) Stack table collapsed
+																		93 container
+																			94 button description:1
+																			95 text Uncaught (in promise)
+															96 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+																97 container
+																	98 text 21:21:42.837
+																	99 container Error
+																	100 container description:1 Uncaught (in promise) Stack table collapsed
+																		101 container
+																			102 button description:1
+																			103 text Uncaught (in promise)
+															104 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+																105 container
+																	106 text 21:21:43.838
+																	107 container Error
+																	108 container description:1 Uncaught (in promise) Stack table collapsed
+																		109 container
+																			110 button description:1
+																			111 text Uncaught (in promise)
+															112 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+																113 container
+																	114 text 21:21:44.017
+																	115 container Error
+																	116 container description:1 Uncaught (in promise) Stack table collapsed
+																		117 container
+																			118 button description:1
+																			119 text Uncaught (in promise)
+															120 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+																121 container
+																	122 text 21:21:44.847
+																	123 container Error
+																	124 container description:1 Uncaught (in promise) Stack table collapsed
+																		125 container
+																			126 button description:1
+																			127 text Uncaught (in promise)
+															128 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+																129 container
+																	130 text 21:21:45.892
+																	131 container Error
+																	132 container description:1 Uncaught (in promise) Stack table collapsed
+																		133 container
+																			134 button description:1
+																			135 text Uncaught (in promise)
+														136 container
+															137 container
+																138 text entry area (settable) Console prompt, Value: Press cmd i to turn on code suggestions Press cmd x to disable code suggestions
+
+																	139 text Press cmd i to turn on code suggestions Press cmd x to disable code suggestions
+									140 container Drawer
+										141 container
+											142 toolbar
+												143 pop-up button More tools
+													144 button More tools
+											145 tab group
+												146 tab (settable, integer) Console, Value: 0
+												147 tab (settable, integer) Issues, Value: 0
+												148 tab (selected) What’s new, Value: 1
+												149 tab (settable, integer) AI assistance, Value: 0
+												150 tab (settable, integer) Network conditions, Value: 0
+												151 tab (settable, integer) Search, Value: 0
+											152 toolbar
+												153 container Toggle drawer orientation
+													154 button Toggle drawer orientation
+												155 container Minimize drawer
+													156 button Minimize drawer
+												157 container Close drawer
+													158 button Close drawer
+											159 container What’s new panel
+												160 container whats-new
+													161 container
+														162 text New in DevTools (November 2026)
+														163 button See all new features
+														164 heading DevTools for agents, Value: 3
+															165 link DevTools for agents, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#mcp
+																166 text DevTools for agents
+														167 container
+															168 text Inspect matched rules, inherited styles, pseudo-elements, and  @  rules with the  get_css_styles  tool in Chrome DevTools for agents. You can also manage server flags with a configuration file and parse large performance traces with chunked trace buffer parsing.
+														169 heading Visual position-area editor for CSS anchor positioning, Value: 3
+															170 link Visual position-area editor for CSS anchor positioning, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#sources
+																171 text Visual position-area editor for CSS anchor positioning
+														172 container
+															173 text Click the inline swatch next to a  position-area  declaration in the  Styles  tab to visually select anchor grid regions, configure axis modes, and toggle the  self  keyword. Right-click  popover  adorners in the DOM tree to disambiguate multiple implicit anchors.
+														174 heading Web Install manifest diagnostics and ad script provenance, Value: 3
+															175 link Web Install manifest diagnostics and ad script provenance, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#web-install-manifest-diagnosti
+																176 text Web Install manifest diagnostics and ad script provenance
+														177 container
+															178 text Diagnose Web Install ( navigator.install  and  <install> ) manifest errors in the  Issues  panel with direct links to affected manifests. In the  Application  panel's  Ads  section, use the new  Ad provenance  column to see whether script ancestry or a filter list rule tagged an ad script.
+							179 text DevTools is docked to bottom 
+				180 scroll area
+					181 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/art/14397075/description
+						182 container
+							183 container
+								184 text Fax
+								185 text field (settable) Fax
+							186 link fax, Value: saatchiart.com/facsimile-npc
+							187 link Skip to Main Content, Value: saatchiart.com/en-gb/studio/upload#skip-to-content
+							188 container
+								189 button Close Menu
+								190 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								191 text Studio
+								192 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								193 container
+									194 button Manage Artworks
+									195 content list
+										196 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										197 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									198 button Sales Dashboard
+									199 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									200 button Sponsored Listings
+									201 button Profile Information
+									202 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									203 button Account
+							204 container
+								205 text DRAFT
+								206 link 1 Image, Value: saatchiart.com/en-gb/studio/art/14397075/image
+								207 link 2 Description, Value: saatchiart.com/en-gb/studio/art/14397075/description
+								208 link 3 Price & Details, Value: saatchiart.com/en-gb/studio/art/14397075/price-details
+								209 link 4 Prints, Value: saatchiart.com/en-gb/studio/art/14397075/prints
+								210 button Back to Overview
+								211 Unlabelled image /13459027-RSCPPEXN-7.jpg
+								212 text Title Ammonite Grande I (Left) - White Subject Abstract Category Sculpture Dimensions 60  W x  120  H x  6  D  centimeters
+								213 button SHOW MORE
+								214 heading Description, Value: 1
+									215 text Description
+								216 container
+									217 button Category, Subject, Year, Help: Expand
+									218 container
+										219 text Category
+										220 container
+											221 text field (settable) Value: Sculpture, Placeholder: Search or select a category
+											222 text Search or select a category
+										223 text Subject
+										224 container
+											225 text field (settable) Value: Abstract, Placeholder: Search or select a subject
+											226 text Search or select a subject
+										227 text Year
+										228 text 2026
+										229 image
+										230 pop-up button 2026
+											231 (selected) 2026
+										232 button Next
+								233 container
+									234 button Method, Materials & Styles, Help: Expand
+									235 container
+										236 text Method Select 1 Method
+										237 container
+											238 text field (disabled) Max of 1 method
+											239 text Max of 1 method
+										240 content list
+											241 button Relief
+										242 text Materials Select 1-5 Materials
+										243 container
+											244 text field (settable) Search or select a material
+											245 text Search or select a material
+										246 content list
+											247 button Plaster
+										248 text Styles Select 1-5 Styles
+										249 container
+											250 text field (settable) Search or select a style
+											251 text Search or select a style
+										252 content list
+											253 button Abstract
+										254 button Next
+								255 container
+									256 button Dimensions, Help: Expand
+									257 container
+										258 text It's very important that you provide accurate dimensions as collectors and trade clients need to know the exact size of the artwork before purchasing it. For flat artworks, such as photographs and other works on paper, we suggest that you enter a depth of 0.1. Width ( cm )
+										259 text field (settable) 60
+										260 text Height ( cm )
+										261 text field (settable) 120
+										262 text Depth ( cm )
+										263 text field (settable) 6
+										264 button CENTIMETERS
+										265 text 60 cm 120 cm
+										266 button Next
+								267 container
+									268 button Keywords & Description, Help: Expand
+									269 container
+										270 text Keywords (optional) We recommend providing 5 to 12 keywords to help collectors discover your artwork. Use simple, descriptive words that capture the key visual elements of your work, such as color, subject matter, or artistic style. You may one keyword at a time by clicking the Add button or Enter on your keyboard or by providing a comma separated list of keywords.
+										271 content list
+											272 container
+												273 AXListMarker • 
+												274 text Each keyword should be 2–20 characters long.
+											275 container
+												276 AXListMarker • 
+												277 text Use English keywords for best visibility.
+											278 container
+												279 AXListMarker • 
+												280 text Spam, websites, social media, email addresses and inappropriate and harmful keywords are not allowed.
+										281 text field (settable) Enter Up To 12 Keywords
+										282 text Enter Up To 12 Keywords
+										283 button (disabled) Add
+										284 text 8  / 12
+										285 content list
+											286 button ammonite
+											287 button fossil
+											288 button spiral
+											289 button relief
+											290 button white
+											291 button gypsum
+											292 button handmade
+											293 button outdoor
+										294 text Description Collectors tend to appreciate works more if they know the “story” behind them, so be sure to write informative artwork descriptions. Great descriptions not only provide useful information (e.g. physical texture, whether hanging hardware is included, quality of materials), but they also answer questions like: What/who inspired the work? What do you hope its viewers will feel/think? Why did you choose the medium, subject matter, style?
+										295 text entry area (settable) Placeholder: Write Here..., Value: Only the left-hand panel is for sale. The photo shows the matching pair; its companion is sold separately. An ammonite spiral recalls fossil forms and the shoreline. Curved ridges catch light across the relief. Cast to order using a gypsum-based material. Colour: White. Companion: Ammonite Grande II (Right), sold separately. One panel supplied, 120 cm high × 60 cm wide × 6 cm deep. Approximate weight: 20–22 kg per panel. Suitable for outdoor use and indoor display. Keyhole fixings are usually used; French cleats and other options are available. All designs can be customised. Completely new commissions can be created with designer Sally Price. Dispatch within 3 working days; delivery transit time is additional.
+										296 text 281 characters left
+										297 button Refine With AI
+										298 button Next
+								299 button SAVE & EXIT
+								300 link Save & Continue, Value: saatchiart.com/en-gb/studio/art/14397075/price-details
+								301 container
+									302 text This site is protected by reCAPTCHA and the Google 
+									303 link Privacy Policy, Value: policies.google.com/privacy
+									304 text  and 
+									305 link Terms of Service, Value: policies.google.com/terms
+									306 text  apply.
+							307 container
+								308 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								309 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								310 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								311 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								312 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								313 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								314 text Support
+								315 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								316 link Help Center, Value: support.saatchiart.com/hc
+								317 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								318 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								319 pop-up button Request Support
+								320 text Resources
+								321 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								322 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								323 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								324 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								325 text Saatchi Art
+								326 link About, Value: saatchiart.com/en-gb/about-us
+								327 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								328 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								329 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								330 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								331 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								332 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								333 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								334 text Manage Preferences
+								335 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								336 container View Store Preferences Footer
+									337 image
+									338 text United Kingdom / GBP / Cm
+									339 image
+								340 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								341 link Privacy Policy, Value: policies.google.com/privacy
+								342 text  and 
+								343 link Terms of Service, Value: policies.google.com/terms
+								344 text  apply.
+							345 text Studio | Saatchi Art United Kingdom
+							346 container
+								347 button Manage Preferences
+								348 text Manage Preferences
+			349 pop-up button Tab search
+			350 container
+				351 tab group
+					352 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					353 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					354 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					355 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					356 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					357 tab (settable, boolean) Meta Business Suite - High memory usage - 1.0 GB, Value: off
+					358 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					359 tab group  group 🪑 Catalogue distribution – 1 Tab, •  about:blank – Expanded
+					360 tab (settable, boolean) about:blank – Part of group 🪑 Catalogue distribution, Value: off
+					361 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom, Value: on
+						362 button Close
+			363 button New tab
+		364 text https://www.saatchiart.com/en-gb/studio/art/14397075/price-details
+	365 close button
+	366 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	367 minimise button
+368 menu bar
+	369 Chrome
+	370 File
+	371 Edit
+	372 View
+	373 History
+	374 Bookmarks
+	375 Profiles
+	376 Tab
+	377 Window
+	378 Help
+
+The focused UI element is 138 text entry area (settable) Console prompt, Value: Press cmd i to turn on code suggestions Press cmd x to disable code suggestions

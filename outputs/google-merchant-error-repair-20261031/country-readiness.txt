@@ -1,0 +1,134 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Navigation menu" [expanded]:
+    - img: menu
+  - link "Merchant Center home":
+    - /url: /mc/overview?a=5664655454&authuser=1
+    - img "Merchant Center home"
+  - dialog "Search":
+    - img: search
+    - textbox "Search Merchant Center"
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone Sculpture, 5664655454"':
+    - generic: Boldstone Sculpture
+    - generic: "5664655454"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- navigation:
+  - tree "Navigation":
+    - treeitem "Overview" [level=1]:
+      - img: dashboard
+      - generic: Overview
+    - treeitem "Notifications 7" [level=1]:
+      - img: notifications
+      - generic: Notifications
+      - generic: "7"
+    - treeitem "Products & store" [expanded] [level=1]:
+      - img: inventory_2
+      - generic: Products & store
+      - img: arrow_drop_down
+      - treeitem "Products" [level=2]:
+        - generic: Products
+      - treeitem "Shipping and returns" [level=2]:
+        - generic: Shipping and returns
+      - treeitem "Store quality" [level=2]:
+        - generic: Store quality
+    - treeitem "Creative content" [level=1]:
+      - img: brush_spark
+      - generic: Creative content
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Product Studio
+      - treeitem [disabled] [level=2]:
+        - generic: Video assets
+    - treeitem "Marketing" [level=1]:
+      - img: campaign
+      - generic: Marketing
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Ad campaigns
+      - treeitem [disabled] [level=2]:
+        - generic: Marketing methods
+    - treeitem "Analytics" [level=1]:
+      - img: timeline
+      - generic: Analytics
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Summary
+      - treeitem [disabled] [level=2]:
+        - generic: Products
+      - treeitem [disabled] [level=2]:
+        - generic: Online store
+    - treeitem "Settings" [expanded] [level=1]:
+      - img: settings
+      - generic: Settings
+      - img: arrow_drop_down
+      - treeitem "General" [level=2]:
+        - generic: General
+      - treeitem "Business info" [level=2]:
+        - generic: Business info
+      - treeitem "Data sources" [level=2]:
+        - generic: Data sources
+      - treeitem "Add-ons" [level=2]:
+        - generic: Add-ons
+      - treeitem "Access and services" [level=2]:
+        - generic: Access and services
+- heading "Business info" [level=1]
+- tablist:
+  - tab "Details":
+    - generic: Details
+  - tab "Stores":
+    - generic: Stores
+  - tab "Countries" [active] [selected]:
+    - generic: Countries
+- main:
+  - heading "Countries where your online store products appear" [level=2]
+  - button "Add countries":
+    - generic: Add countries
+  - grid "Countries where your online store products appear":
+    - row "Country Country setup Product readiness (approved/total) Actions Delete":
+      - columnheader "Country"
+      - columnheader "Country setup"
+      - columnheader "Product readiness (approved/total)"
+      - columnheader "Actions"
+      - columnheader "Delete"
+    - row "United Kingdom More information Complete 0 of 469 (0.0%) Fix product issues Learn more why this country can't be deleted":
+      - gridcell "United Kingdom More information":
+        - generic: United Kingdom
+        - button "More information":
+          - img "More information": domain
+      - gridcell "Complete":
+        - generic: Complete
+      - gridcell "0 of 469 (0.0%)":
+        - generic: 0 of 469 (0.0%)
+      - gridcell "Fix product issues":
+        - button "Fix product issues":
+          - generic: Fix product issues
+      - gridcell "Learn more why this country can't be deleted":
+        - button "Learn more why this country can't be deleted":
+          - img "Learn more why this country can't be deleted": info_outline
+    - row "United States Incomplete 0 of 6 (0.0%) 2 actions Learn more why this country can't be deleted":
+      - gridcell "United States":
+        - generic: United States
+      - gridcell "Incomplete":
+        - generic: Incomplete
+      - gridcell "0 of 6 (0.0%)":
+        - generic: 0 of 6 (0.0%)
+      - gridcell "2 actions":
+        - button "2 actions":
+          - generic: 2 actions
+      - gridcell "Learn more why this country can't be deleted":
+        - button "Learn more why this country can't be deleted":
+          - img "Learn more why this country can't be deleted": info_outline
+- contentinfo:
+  - link "Privacy Policy":
+    - /url: http://www.google.com/policies/privacy/
+  - generic: ·
+  - link "Terms of Service":
+    - /url: https://support.google.com/merchants/answer/160173?hl=en-US
+  - generic: ·
+  - link "Program Policies":
+    - /url: https://support.google.com/merchants/topic/7286989?hl=en-US

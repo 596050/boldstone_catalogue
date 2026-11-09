@@ -1,0 +1,189 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089/import, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089/import
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089/import, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089/import
+						28 container
+							29 link
+								30 image
+							31 text 2 / 3
+							32 heading Check Your Mappings, Value: 4
+								33 text Check Your Mappings
+							34 heading Review your fields to make sure they are mapped correctly, Value: 5
+								35 text Review your fields to make sure they are mapped correctly
+							36 heading YOUR FIELDS, Value: 5
+								37 text YOUR FIELDS
+							38 heading PREVIEW INFO, Value: 5
+								39 text PREVIEW INFO
+							40 heading BRANDBOOM FIELDS, Value: 5
+								41 text BRANDBOOM FIELDS
+							42 text field (disabled) SKU Number
+							43 container
+								44 text SQ0717348 →
+							45 pop-up button SKU NUMBER
+								46 (selected) SKU NUMBER
+							47 text field (disabled) Style ID
+							48 container
+								49 text SQ0717348 →
+							50 pop-up button STYLE ID
+								51 (selected) STYLE ID
+							52 text field (disabled) Option Code
+							53 container
+								54 text STANDARD →
+							55 pop-up button OPTION CODE
+								56 (selected) OPTION CODE
+							57 text field (disabled) Size
+							58 container
+								59 text One sculpture →
+							60 pop-up button SIZE
+								61 (selected) SIZE
+							62 container
+								63 Tick box Add new size options, Value: 0
+								64 text Add new size options
+							65 text field (disabled) Name
+							66 container
+								67 text Boldstone Icarus I - Abstract Cave Relief Wall sculpture →
+							68 pop-up button NAME
+								69 (selected) NAME
+							70 text field (disabled) Description
+							71 container
+								72 text Abstract marks and a textured surface give Icarus the feeling of an ancient story retold in a contemporary relief. The composition invites a closer look, with small details revealing themselves as light moves across it. A striking focal point for an open wall, bringing the atmosphere of a found fragment into an interior or outdoor setting. Brand: Boldstone Product type: Wall sculpture Model: Icarus I - Abstract Cave Relief (SQ0717348) Colour / appearance: Bath Stone finish Quantity supplied: 1 individually  →
+							73 pop-up button DESCRIPTION
+								74 (selected) DESCRIPTION
+							75 text field (disabled) Option Name
+							76 container
+								77 text Bath Stone finish →
+							78 pop-up button OPTION NAME
+								79 (selected) OPTION NAME
+							80 text field (disabled) Wholesale (GBP)
+							81 container
+								82 text 1226.69 →
+							83 pop-up button WHOLESALE (GBP)
+								84 (selected) WHOLESALE (GBP)
+							85 text field (disabled) Retail (GBP)
+							86 text →
+							87 pop-up button
+								88 (selected)
+							89 text field (disabled) Type
+							90 container
+								91 text Home Decor →
+							92 pop-up button TYPE
+								93 (selected) TYPE
+							94 text field (disabled) Category
+							95 container
+								96 text Wall Sculpture →
+							97 pop-up button CATEGORY
+								98 (selected) CATEGORY
+							99 text field (disabled) Season
+							100 container
+								101 text Year-round →
+							102 pop-up button SEASON
+								103 (selected) SEASON
+							104 text field (disabled) Delivery Date
+							105 text →
+							106 pop-up button
+								107 (selected)
+							108 text field (disabled) HS Code
+							109 text →
+							110 pop-up button HS CODE
+								111 (selected) HS CODE
+							112 text field (disabled) Country of Origin
+							113 text →
+							114 pop-up button COUNTRY OF ORIGIN
+								115 (selected) COUNTRY OF ORIGIN
+							116 text field (disabled) Minimum Quantity
+							117 container
+								118 text 1 →
+							119 pop-up button MINIMUM QUANTITY
+								120 (selected) MINIMUM QUANTITY
+							121 text field (disabled) Inventory Count
+							122 text →
+							123 pop-up button INVENTORY COUNT
+								124 (selected) INVENTORY COUNT
+							125 text field (disabled) Image URL
+							126 container
+								127 text https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793398707630-5G5G6VHSXGOI5F9QAAUN/file,https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793398714657-NY4QE0PTS8YUE1K5DP4B/file,https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793398711847-R64BDYHIOIQZ1QK84TP0/file,https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793398710492-R889G5VHKTBLAXNI5SZL/file,https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d →
+							128 pop-up button IMAGE URL
+								129 (selected) IMAGE URL
+							130 text field (disabled) Vendor
+							131 container
+								132 text Boldstone →
+							133 pop-up button VENDOR
+								134 (selected) VENDOR
+							135 link  back
+								136 image
+								137 text  back
+							138 Tick box Save mapping, Value: 1
+							139 text Save mapping
+							140 text field (settable) Value: Boldstone catalogue GBP, Placeholder: Template name
+							141 button Next
+			142 pop-up button Tab search
+			143 container
+				144 tab group
+					145 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					146 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					147 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					148 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					149 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					150 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					151 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					152 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					153 tab (settable, boolean) SEO opportunity audit, Value: off
+					154 tab group  group ✅Claude – 2 Tabs, •  Inbox (112) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					155 tab (settable, boolean) Value: off, Inbox (112) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1,001 MB
+					156 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					157 tab (settable, boolean) Drafts (1,332) - tppricet@gmail.com - Gmail, Value: off
+					158 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					159 tab (settable, boolean) Bookmarks, Value: off
+					160 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					161 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						162 button Close
+			163 button New tab
+	164 close button
+	165 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	166 minimise button
+167 menu bar
+	168 Chrome
+	169 File
+	170 Edit
+	171 View
+	172 History
+	173 Bookmarks
+	174 Profiles
+	175 Tab
+	176 Window
+	177 Help
+
+The focused UI element is 133 pop-up button VENDOR

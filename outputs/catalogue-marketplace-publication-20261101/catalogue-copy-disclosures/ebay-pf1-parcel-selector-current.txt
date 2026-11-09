@@ -1,0 +1,392 @@
+- banner:
+  - link:
+    - /url: "#mainContent"
+    - text: Skip to main content
+  - link:
+    - /url: https://www.ebay.co.uk
+- main:
+  - button:
+  - button:
+  - heading [level=1]: Complete your listing
+  - heading [level=2]: Photos & Video
+  - button:
+    - generic: See photo options
+  - generic: You can add up to 24 photos and a 1-minute video. Buyers want to see all details and angles.
+  - button: Tips for taking pro photos
+  - paragraph:
+    - text: 7/25
+    - generic: 7 out of 25 photos or videos uploaded
+  - button: Select
+  - button:
+    - generic: Main
+  - button
+  - button
+  - button
+  - button
+  - button
+  - button
+  - button:
+    - text: Add
+  - button
+  - button
+  - button
+  - button
+  - button
+  - button
+  - button
+  - button
+  - heading [level=2]: Title
+  - button:
+    - generic: See title options
+  - generic: Item title
+  - textbox: Boldstone Deco Palm I - White Wall sculpture
+  - generic: 44/80
+  - generic: 44 of 80 characters
+  - generic: Custom label (SKU)
+  - button:
+  - textbox: PF1-40.45
+  - generic: 9/50
+  - generic: 9 of 50 characters
+  - heading [level=2]: Item category
+  - button:
+    - text: Edit
+  - button: Art Sculptures
+  - generic: in Art
+  - heading [level=2]: Variations
+  - button:
+    - text: Edit
+  - generic: Save time and money by listing multiple variations of your item in one multi-quantity, fixed price listing.
+  - heading [level=2]: Item specifics
+  - heading [level=3]: Essential
+  - button: Material
+  - button:
+    - generic: Gypsum-based material
+  - button: Format
+  - button:
+  - button: Subject
+  - button:
+  - button: Style
+  - button:
+  - button: Artist
+  - button:
+    - generic: Sally Price
+  - button: Size
+  - button:
+  - button: Theme
+  - button:
+  - button: Original/Licensed Reproduction
+  - list:
+    - button: Original
+    - button: Licensed Reproduction
+  - button: Production Technique
+  - button:
+  - button: Features
+  - button:
+  - button: Culture
+  - button:
+  - button: Year of Production
+  - button:
+  - button: Time Period Produced
+  - button:
+  - button: Type
+  - button:
+  - button: Item Height
+  - button:
+    - generic: 45 cm
+  - button: Item Length
+  - button:
+  - button: Item Width
+  - button:
+    - generic: 40 cm
+  - button: Region of Origin
+  - button:
+  - heading [level=3]: Optional
+  - button: Signed
+  - list:
+    - button: "Yes"
+    - button: "No"
+  - button: Signed By
+  - textbox [disabled]
+  - generic: Signed is required before providing Signed By
+  - button: Country of Origin
+  - button:
+  - button: Unit of Sale
+  - button:
+    - generic: Single Piece
+  - button:
+    - generic: Show more
+  - heading [level=2]: Condition
+  - heading [level=3]: Item condition
+  - button: New
+  - heading [level=2]: Description
+  - list:
+    - button: B
+    - button:
+    - button:
+      - generic: Custom template
+    - button: Show all options
+  - iframe [id="se-rte-frame__summary"] [name="se-rte-frame__summary"]:
+    - textbox "Description":
+      - paragraph: A stylised palm opens into a clean, decorative relief. The leaf-like lines create a confident botanical rhythm, with raised contours that catch the light.
+      - paragraph: A nod to Art Deco interiors and sunlit garden rooms, with enough simplicity to sit comfortably in a contemporary setting.
+      - paragraph: The white finish keeps the focus on the form and its changing shadows.
+      - paragraph: "Brand: Boldstone"
+      - paragraph: "Product type: Wall sculpture"
+      - paragraph: "Model: Deco Palm I - White (PF1-40.45)"
+      - paragraph: "Colour / appearance: White stone finish"
+      - paragraph: "Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included."
+      - paragraph: "Material: Made from a gypsum-based material."
+      - paragraph: "Dimensions: 40 × 45 × 6 cm"
+      - paragraph: "Weight: Approximately 8 kg (range 7–9 kg)"
+      - paragraph: "Use: Suitable for outdoor use and indoor display."
+      - paragraph: "Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall."
+      - paragraph: "Availability: Ready to dispatch"
+      - paragraph: "Dispatch time: Within 3 working days. Delivery transit time is additional."
+      - paragraph: "Delivery: The available delivery service and charge are shown in this eBay listing. Carrier transit time is additional to dispatch time."
+      - paragraph: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+      - paragraph: "Companion pieces: This is one piece of a coordinating group with Deco Palm II and Deco Timeless Spiral. Companion sculptures are sold separately; this listing is for one sculpture only."
+  - button: Use AI description
+  - heading [level=2]: Pricing
+  - button:
+    - generic: See pricing options
+  - generic: Format
+  - button:
+    - generic: Buy It Now
+  - generic: Item price
+  - generic: £
+  - textbox: "61.76"
+  - generic: + £ 3.17 Buyer Protection fee
+  - generic: Buyer will pay
+  - generic: £
+  - textbox: "64.93"
+  - region:
+    - generic: You can edit the price buyers see in your listing. We recommend rounded prices, for example £6, £15 or £82.
+    - button:
+  - region:
+    - text: UK buyers will pay £64.93, which includes the
+    - button: Buyer Protection fee
+    - text: .
+  - checkbox
+  - generic: Require immediate payment when buyer uses Buy it now
+  - region:
+    - generic: Immediate payment is automatically applied to eligible listings. No action is required
+    - button:
+  - generic: Quantity
+  - textbox: "1"
+  - generic: Allow offers
+  - text: (optional)
+  - generic: Interested buyers can send an offer for this item. You can accept, counter or decline. Buyer offers may include a Buyer Protection fee, paid to eBay.
+  - switch
+  - generic: Schedule your listing
+  - generic: Your listing goes live immediately, unless you select a time and date you want it to start.
+  - switch
+  - heading [level=2]: Delivery details
+  - button:
+    - generic: See postage options
+  - list:
+    - button:
+      - generic: Postage or collection in person
+      - generic: Let buyers choose how they get their items.
+    - button [pressed]:
+      - generic: Postage only
+      - generic: Post items directly to buyers.
+    - button:
+      - generic: No postage. Collection in person only
+      - generic: Arrange collection in person without any postage costs.
+  - heading [level=3]: Package size
+  - button:
+    - generic: Small parcel
+    - generic: Up to 1 kg, 45 x 35 x 16 cm
+  - dialog "Package size Ensure the package is not heavier or larger than your size selection to avoid additional costs deducted from your account.":
+    - heading "Package size Ensure the package is not heavier or larger than your size selection to avoid additional costs deducted from your account." [level=2]:
+      - text: Package size
+      - generic: Ensure the package is not heavier or larger than your size selection to avoid additional costs deducted from your account.
+    - button "Close" [active]:
+    - list:
+      - generic "Large letter Up to 35 x 25 x 2.5 cm":
+        - heading "Large letter Up to 35 x 25 x 2.5 cm" [level=4]:
+          - generic: Large letter
+          - generic: Up to 35 x 25 x 2.5 cm
+      - generic "Small parcel Up to 45 x 35 x 16 cm":
+        - heading "Small parcel Up to 45 x 35 x 16 cm" [level=4]:
+          - generic: Small parcel
+          - generic: Up to 45 x 35 x 16 cm
+      - radio "Up to 1 kg Fits items like a tablet or sandals" [checked]
+      - text: Up to 1 kg
+      - generic: Fits items like a tablet or sandals
+      - radio "Up to 2 kg Fits items like a hand mixer or hiking boots"
+      - text: Up to 2 kg
+      - generic: Fits items like a hand mixer or hiking boots
+      - generic "Medium parcel Up to 61 x 46 x 46 cm":
+        - heading "Medium parcel Up to 61 x 46 x 46 cm" [level=4]:
+          - generic: Medium parcel
+          - generic: Up to 61 x 46 x 46 cm
+      - radio "Up to 1 kg Fits items like a cushion or picture frame"
+      - text: Up to 1 kg
+      - generic: Fits items like a cushion or picture frame
+      - radio "Up to 2 kg Fits items like a laptop or wall clock"
+      - generic: Recommended
+      - text: Up to 2 kg
+      - generic: Fits items like a laptop or wall clock
+      - radio "Up to 10 kg Fits items like a car stereo or food processor"
+      - text: Up to 10 kg
+      - generic: Fits items like a car stereo or food processor
+      - radio "Up to 20 kg Fits items like a dumbbell set or compact vacuum"
+      - text: Up to 20 kg
+      - generic: Fits items like a dumbbell set or compact vacuum
+    - button "Done"
+  - heading [level=3]: Domestic postage
+  - generic: Simple Delivery
+  - generic: Prepaid Royal Mail, Evri or InPost label provided
+  - generic: Full protection and tracking
+  - generic: 1–3 business days
+  - button: How it works
+  - link:
+    - /url: /ship/prf/simpledelivery?returnUrl=https%3A%2F%2Fwww.ebay.co.uk%2Flstng%3FdraftId%3D5454762093310%26mode%3DAddItem%26ReturnURL%3Dhttps%253A%252F%252Fwww.ebay.co.uk%252Fsh%252Flst%252Fdrafts%253Flimit%253D200
+    - text: Choose couriers
+  - heading [level=4]: Who pays?
+  - list:
+    - button: Buyer pays
+    - button: Seller pays
+  - generic: "The buyer will pay rates starting from:"
+  - generic: £2.94
+  - generic: Based on the service they select
+  - heading [level=3]: Preferences
+  - heading [level=4]: Your settings
+  - generic: 3 working days handling
+  - generic: Item location BA2 7BX (Bath, Somerset, United Kingdom)
+  - generic: Postcode not visible on listing
+  - generic: Domestic returns
+  - generic: Accepted within 30 days
+  - generic: Buyer pays return postage
+  - generic: International returns
+  - generic: Accepted within 30 days
+  - generic: Buyer pays return postage
+  - button:
+  - generic: Excluded locations
+  - text: (optional)
+  - button:
+    - generic: None
+  - heading [level=2]: Item disclosures
+  - generic: Add product information to meet regulatory requirements in your buyer's region.
+  - generic: Product documents
+  - text: Upload user guides, certificates, documents and accessibility information that are included with the item.
+  - link:
+    - /url: https://www.ebay.co.uk/help/selling/selling/hazardous-materials-labeling?id=5407
+    - text: Learn more
+    - generic: – opens in a new window or tab
+  - switch
+  - heading [level=2]: PROMOTE YOUR LISTING
+  - paragraph: Competitive category
+  - paragraph: 44% of items in Art Sculptures are promoted right now.
+  - generic: Sponsored
+  - heading [level=4]: General
+  - switch
+  - generic: 90%
+  - text: more visibility, on
+  - text: average.
+  - button:
+  - list:
+    - generic: Basic access to ad placements
+    - generic: Only pay when your item sells
+  - heading [level=4]: Priority
+  - switch
+  - generic: 170%
+  - text: more visibility, on
+  - text: average.
+  - button:
+  - list:
+    - generic: Exclusive access to the top of search
+    - generic: Advanced targeting and bid controls
+    - generic: Priority ranking in ad placements
+    - generic: Only pay for clicks on your ads
+  - button:
+    - text: Help me choose
+  - heading [level=2]: Charity
+  - button:
+    - text: Edit
+  - region:
+    - paragraph:
+      - text: Donate a portion of this sale to the charity of your choice.
+      - link:
+        - /url: http://www.ebay.co.uk/help/donating-ebay-charity/default/buying-selling-ebay-benefit-nonprofit-organizations?id=4668
+        - text: Learn more
+        - generic: Opens in a new window or tab
+  - heading [level=2]: Listing fee
+  - generic: £0.00
+  - text: "No"
+  - link:
+    - /url: http://www.ebay.co.uk/help/selling/fees-credits-invoices/fees-private-sellers?id=4822
+    - text: transaction fees
+  - text: will be applied. You accept that the duration of your listing may vary due to delayed appearance in search.
+  - link:
+    - /url: https://www.ebay.co.uk/help/selling/listings/listings-overview?id=4072
+    - text: Learn more
+  - text: By selecting List it for free, you agree to pay the above fees, accept the
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+    - text: eBay User Agreement
+    - generic: "- opens in new window or tab"
+  - text: ","
+  - link:
+    - /url: https://pages.ebay.co.uk/payment/2.0/terms.html
+    - text: Payments Terms of Use
+    - generic: "- opens in new window or tab"
+  - text: ","
+  - link:
+    - /url: https://pages.ebay.co.uk/sell/pl/termsofservice.html
+    - text: Marketing Program Terms
+    - generic: "- opens in new window or tab"
+  - text: and
+  - link:
+    - /url: https://pages.ebay.co.uk/managed-shipping-sellers/
+    - text: Delivery Terms and Conditions
+    - generic: "- opens in new window or tab"
+  - text: ; acknowledge reading the
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+    - text: User Privacy Notice
+    - generic: "- opens in new window or tab"
+  - text: ", agree to offer products and services that comply with all applicable laws, and assume full responsibility for the item offered and the content of your listing."
+  - text: By using Simple Delivery, you agree to the
+  - link:
+    - /url: https://pages.ebay.co.uk/shipping/delivery/seller-tnc.html
+    - text: eBay delivery Terms and Conditions
+  - text: .
+  - button: List it for free
+  - button: Save for later
+  - button: Preview
+  - paragraph:
+    - text: "'Buy It Now' listings will renew automatically every month based on the listing terms at that time, until the item sells or the listing is ended."
+    - link:
+      - /url: https://www.ebay.co.uk/help/selling/fees-credits-invoices/selling-fees?id=4822
+      - text: Fees may apply.
+      - generic: "- opens in new window or tab"
+  - paragraph: To improve your chances of selling, we may send you offers from buyers that you can choose to accept or decline.
+  - paragraph:
+    - text: Funds from your sales may be unavailable and show as pending for a period of time.
+    - link:
+      - /url: http://www.ebay.co.uk/help/selling/selling-getting-paid/pending-payments?id=4155
+      - text: Learn more
+      - generic: "- opens in new window or tab"
+- contentinfo:
+  - text: Copyright © 1995-2026 eBay Inc. All Rights Reserved.
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+    - text: User Agreement
+  - text: ","
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+    - text: Privacy
+  - text: ","
+  - link:
+    - /url: https://pages.ebay.co.uk/payment/2.0/terms.html
+    - text: Payments Terms of Use
+  - text: ","
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+    - text: Cookies
+  - text: and
+  - link:
+    - /url: https://www.ebay.co.uk/adchoice
+    - text: AdChoice

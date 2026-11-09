@@ -1,0 +1,126 @@
+Window: "Pinterest", App: Google Chrome.
+0 standard window Pinterest - Google Chrome – Tom, Secondary Actions: Raise, URL: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES
+	1 container Pinterest - Google Chrome – Tom, URL: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES
+					10 button Install Pinterest
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Pinterest, URL: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764&subjectBusinessId=846254723639262523&tab=DISTRIBUTION_ISSUES
+						28 container View appeal modal.
+							29 container Review merchant status issues After reviewing your business, we've found some issues that may not meet our Merchant Guidelines. Please take a moment to carefully review and correct the issues. Once you've made the necessary changes, please submit an appeal in the section below for further review. If your appeal is approved, you will be able to distribute your catalogue and run shopping ads. Loading table Submit an appeal to request review of your account Tell us what changes have been made for further revie
+								30 container
+									31 heading Review merchant status issues, Value: 1
+										32 text Review merchant status issues
+									33 text After reviewing your business, we've found some issues that may not meet our Merchant Guidelines. Please take a moment to carefully review and correct the issues. Once you've made the necessary changes, please submit an appeal in the section below for further review. If your appeal is approved, you will be able to distribute your catalogue and run shopping ads.
+									34 table Loading table
+										35 text Loading table
+										36 row
+											37 column header
+												38 text Reason
+											39 column header
+												40 text Recommendation
+										41 row
+											42 cell
+												43 text Merchant does not meet minimum product requirements
+											44 cell
+												45 container
+													46 text Review our 
+													47 link Merchant Guidelines, Value: policy.pinterest.com/merchant-guidelines
+													48 text  for more detailed information on how you can get your products on Pinterest
+										49 row
+											50 cell
+												51 text Merchant does not meet minimum website quality requirements
+											52 cell
+												53 container
+													54 text Review our 
+													55 link Merchant Guidelines, Value: policy.pinterest.com/merchant-guidelines
+													56 text  for more detailed information on how you can get your products on Pinterest
+									57 text Submit an appeal to request review of your account
+									58 text entry area (settable) Tell us what changes have been made for further review
+									59 text You have 2 appeals remaining
+									60 container
+										61 text For more details, view our 
+										62 link Merchant Guidelines, Value: policy.pinterest.com/merchant-guidelines
+										63 text .
+									64 button Close
+									65 button (disabled) Submit appeal
+			66 pop-up button Tab search
+			67 container
+				68 tab group
+					69 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					70 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					71 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					72 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					73 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					74 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					75 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					76 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					77 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					78 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					79 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					80 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					81 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					82 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					83 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					84 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					85 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					86 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					87 tab (settable, boolean) Meta Business Suite, Value: off
+					88 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					89 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					90 tab group  group ✅Claude – 1 Tab, •  Brands - Manufacturer Center – Expanded
+					91 tab (settable, boolean) Brands - Manufacturer Center – Part of group ✅Claude, Value: off
+					92 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					93 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					94 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					95 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.0 GB, Value: off
+					96 tab (settable, boolean) Boldstone · Review room, Value: off
+					97 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					98 tab (settable, boolean) Overview - Merchant Center, Value: off
+					99 tab (selected, settable, boolean) Pinterest, Value: on
+			100 button New tab
+	101 close button
+	102 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	103 minimise button
+104 menu bar
+	105 Chrome
+	106 File
+	107 Edit
+	108 View
+	109 History
+	110 Bookmarks
+	111 Profiles
+	112 Tab
+	113 Window
+	114 Help
+
+The focused UI element is 29 container Review merchant status issues After reviewing your business, we've found some issues that may not meet our Merchant Guidelines. Please take a moment to carefully review and correct the issues. Once you've made the necessary changes, please submit an appeal in the section below for further review. If your appeal is approved, you will be able to distribute your catalogue and run shopping ads. Loading table Submit an appeal to request review of your account Tell us what changes have been made for further revie

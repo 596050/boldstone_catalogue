@@ -1,0 +1,1164 @@
+Window: "Create listings", App: Google Chrome.
+0 standard window Create listings - Google Chrome – Tom, Secondary Actions: Raise, URL: ebay.co.uk/bulksell?workspaceId=4667207385110&ru=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts&rp=cws
+	1 container Create listings - Google Chrome – Tom, URL: ebay.co.uk/bulksell?workspaceId=4667207385110&ru=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts&rp=cws
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ebay.co.uk/bulksell?workspaceId=4667207385110&ru=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts&rp=cws
+					10 button Zoom: 80%
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Create listings, URL: ebay.co.uk/bulksell?workspaceId=4667207385110&ru=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts&rp=cws
+						27 container
+							28 image
+							29 image
+							30 heading Create listings, Value: 1
+								31 text Create listings
+							32 button Send feedback
+							33 button eBay assistant
+							34 container
+								35 text Buyers may pay a fee for Buyer Protection.
+								36 link Learn more, Value: ebay.co.uk/help/selling/selling/pricing-items/buyer-protection-information-sellers?id=5595
+								37 button Close
+							38 container
+								39 Tick box Item specifics suggested by eBay.ai (1), Value: 0
+								40 text Item specifics suggested by eBay.ai (1)
+								41 button Review recommendations
+								42 Tick box The item is posted with Simple Delivery. (14), Value: 0
+								43 text The item is posted with Simple Delivery. (14)
+							44 container
+								45 pop-up button Bulk edit
+									46 text Bulk edit
+								47 button Copy a listing
+								48 button Remove listings
+								49 button Preview
+							50 container
+								51 button Customise columns
+								52 pop-up button Filter: No filter
+									53 text Filter: 
+									54 text No filter
+							55 text 0 of 14 item(s) selected
+							56 table This grid shows the drafts you are currently editing.
+								57 text This grid shows the drafts you are currently editing.
+								58 row
+									59 column header
+										60 Tick box Select all items for bulk edit., Value: 0
+									61 column header
+										62 text Edit your listing
+									63 column header
+										64 text Status
+									65 column header
+										66 button Photos
+									67 column header
+										68 button Title
+									69 column header
+										70 text Item specifics: required + optional
+									71 column header
+										72 button All item specifics
+									73 column header
+										74 button Custom label (SKU)
+									75 column header
+										76 button Format
+									77 column header
+										78 button Duration
+									79 column header
+										80 button Available quantity
+									81 column header
+										82 button Buy It Now
+									83 column header
+										84 button Starting bid
+									85 column header
+										86 button Offers
+									87 column header
+										88 button Dispatch time
+									89 column header
+										90 button VAT
+									91 column header
+										92 button Start time
+									93 column header
+										94 button Item category 1
+									95 column header
+										96 button Condition
+									97 column header
+										98 text Postage details
+									99 column header
+										100 text Item description
+									101 column header
+										102 button Sell it faster
+									103 column header
+										104 button Last modified
+									105 column header
+										106 button Hazard information
+									107 column header
+										108 button Selling fees
+								109 row
+									110 cell
+										111 Tick box Select item to bulk edit - Boldstone Wave and Moonshadow I - White Wall sculpture, Value: 0
+									112 cell
+										113 button edit item - Boldstone Wave and Moonshadow I - White Wall sculpture
+									114 cell
+										115 button Show listing issues
+									116 cell
+										117 button Image
+									118 cell
+										119 text entry area (settable) Title, Value: Boldstone Wave and Moonshadow I - White Wall sculpture
+									120 cell
+										121 container
+											122 button Material Gypsum-based material
+											123 button Format
+											124 button Subject
+											125 button Style
+											126 button Artist Sally Price
+											127 button Size
+											128 button Theme
+											129 button Features
+											130 button Original/Licensed Reproduction
+											131 button Production Technique
+											132 button Culture
+											133 button Year of Production
+											134 button Time Period Produced
+									135 cell
+										136 button 6 completed
+									137 cell
+										138 text field (settable) Custom label (SKU), Value: BOLD-A57A49000891
+									139 cell
+										140 pop-up button Format, Value: Buy It Now
+											141 (selected) Buy It Now
+									142 cell
+										143 button Good 'Til Cancelled
+									144 cell
+										145 text field (settable) Available quantity, Value: 1
+									146 cell
+										147 text £
+										148 text field (settable) Buy It Now, Value: 57.98
+										149 button guidance
+									150 cell
+										151 button N/A
+									152 cell
+										153 button No
+									154 cell
+										155 pop-up button Dispatch time, Value: 3 working days
+											156 (selected) 3 working days
+										157 button guidance
+									158 cell
+										159 button N/A
+									160 cell
+										161 button Immediate
+									162 cell
+										163 button Art Sculptures
+										164 button in Art
+									165 cell
+										166 button New
+									167 cell
+										168 button Buyer pays rates from £7.19 (Simple Delivery)
+										169 button guidance
+									170 cell
+										171 button Edit description
+									172 cell
+										173 button Eligible
+									174 cell
+										175 button Today at 12:54am GMT
+									176 cell
+										177 button N/A
+									178 cell
+										179 button £0.00
+								180 row
+									181 cell
+										182 Tick box Select item to bulk edit - Boldstone Fingerprint Rings III - White Wall sculpture, Value: 0
+									183 cell
+										184 button edit item - Boldstone Fingerprint Rings III - White Wall sculpture
+									185 cell
+										186 button Show listing issues
+									187 cell
+										188 button Image
+									189 cell
+										190 text entry area (settable) Title, Value: Boldstone Fingerprint Rings III - White Wall sculpture
+									191 cell
+										192 container
+											193 button Material Gypsum-based material
+											194 button Format
+											195 button Subject
+											196 button Style
+											197 button Artist Sally Price
+											198 button Size
+											199 button Theme
+											200 button Features
+											201 button Original/Licensed Reproduction
+											202 button Production Technique
+											203 button Culture
+											204 button Year of Production
+											205 button Time Period Produced
+									206 cell
+										207 button 6 completed
+									208 cell
+										209 text field (settable) Custom label (SKU), Value: BOLD-C45EA7819042
+									210 cell
+										211 pop-up button Format, Value: Buy It Now
+											212 (selected) Buy It Now
+									213 cell
+										214 button Good 'Til Cancelled
+									215 cell
+										216 text field (settable) Available quantity, Value: 1
+									217 cell
+										218 text £
+										219 text field (settable) Buy It Now, Value: 46.54
+										220 button guidance
+									221 cell
+										222 button N/A
+									223 cell
+										224 button No
+									225 cell
+										226 pop-up button Dispatch time, Value: 3 working days
+											227 (selected) 3 working days
+										228 button guidance
+									229 cell
+										230 button N/A
+									231 cell
+										232 button Immediate
+									233 cell
+										234 button Art Sculptures
+										235 button in Art
+									236 cell
+										237 button New
+									238 cell
+										239 button Buyer pays rates from £7.19 (Simple Delivery)
+										240 button guidance
+									241 cell
+										242 button Edit description
+									243 cell
+										244 button Eligible
+									245 cell
+										246 button Today at 12:58am GMT
+									247 cell
+										248 button N/A
+									249 cell
+										250 button £0.00
+								251 row
+									252 cell
+										253 Tick box Select item to bulk edit - Boldstone Deco Timeless Spiral - White Wall sculpture, Value: 0
+									254 cell
+										255 button edit item - Boldstone Deco Timeless Spiral - White Wall sculpture
+									256 cell
+										257 button Show listing issues
+									258 cell
+										259 button Image
+									260 cell
+										261 text entry area (settable) Title, Value: Boldstone Deco Timeless Spiral - White Wall sculpture
+									262 cell
+										263 container
+											264 button Material Gypsum-based material
+											265 button Format
+											266 button Subject
+											267 button Style
+											268 button Artist Sally Price
+											269 button Size
+											270 button Theme
+											271 button Features
+											272 button Original/Licensed Reproduction
+											273 button Production Technique
+											274 button Culture
+											275 button Year of Production
+											276 button Time Period Produced
+									277 cell
+										278 button 6 completed
+									279 cell
+										280 text field (settable) Custom label (SKU), Value: TS-1-45.40
+									281 cell
+										282 pop-up button Format, Value: Buy It Now
+											283 (selected) Buy It Now
+									284 cell
+										285 button Good 'Til Cancelled
+									286 cell
+										287 text field (settable) Available quantity, Value: 1
+									288 cell
+										289 text £
+										290 text field (settable) Buy It Now, Value: 57.46
+										291 button guidance
+									292 cell
+										293 button N/A
+									294 cell
+										295 button No
+									296 cell
+										297 pop-up button Dispatch time, Value: 3 working days
+											298 (selected) 3 working days
+										299 button guidance
+									300 cell
+										301 button N/A
+									302 cell
+										303 button Immediate
+									304 cell
+										305 button Art Sculptures
+										306 button in Art
+									307 cell
+										308 button New
+									309 cell
+										310 button Buyer pays rates from £7.19 (Simple Delivery)
+										311 button guidance
+									312 cell
+										313 button Edit description
+									314 cell
+										315 button Eligible
+									316 cell
+										317 button Today at 12:58am GMT
+									318 cell
+										319 button N/A
+									320 cell
+										321 button £0.00
+								322 row
+									323 cell
+										324 Tick box Select item to bulk edit - Boldstone Fingerprint Rings II - Cream Finish Wall sculpture, Value: 0
+									325 cell
+										326 button edit item - Boldstone Fingerprint Rings II - Cream Finish Wall sculpture
+									327 cell
+										328 button Show listing issues
+									329 cell
+										330 button Image
+									331 cell
+										332 text entry area (settable) Title, Value: Boldstone Fingerprint Rings II - Cream Finish Wall sculpture
+									333 cell
+										334 container
+											335 button Material Gypsum-based material
+											336 button Format
+											337 button Subject
+											338 button Style
+											339 button Artist Sally Price
+											340 button Size
+											341 button Theme
+											342 button Features
+											343 button Original/Licensed Reproduction
+											344 button Production Technique
+											345 button Culture
+											346 button Year of Production
+											347 button Time Period Produced
+									348 cell
+										349 button 6 completed
+									350 cell
+										351 text field (settable) Custom label (SKU), Value: BOLD-061791F55EAD
+									352 cell
+										353 pop-up button Format, Value: Buy It Now
+											354 (selected) Buy It Now
+									355 cell
+										356 button Good 'Til Cancelled
+									357 cell
+										358 text field (settable) Available quantity, Value: 1
+									359 cell
+										360 text £
+										361 text field (settable) Buy It Now, Value: 55.68
+										362 button guidance
+									363 cell
+										364 button N/A
+									365 cell
+										366 button No
+									367 cell
+										368 pop-up button Dispatch time, Value: 3 working days
+											369 (selected) 3 working days
+										370 button guidance
+									371 cell
+										372 button N/A
+									373 cell
+										374 button Immediate
+									375 cell
+										376 button Art Sculptures
+										377 button in Art
+									378 cell
+										379 button New
+									380 cell
+										381 button Buyer pays rates from £7.19 (Simple Delivery)
+										382 button guidance
+									383 cell
+										384 button Edit description
+									385 cell
+										386 button Eligible
+									387 cell
+										388 button Today at 12:59am GMT
+									389 cell
+										390 button N/A
+									391 cell
+										392 button £0.00
+								393 row
+									394 cell
+										395 Tick box Select item to bulk edit - Boldstone Deco Golden Spiral - White and Gold Finish Wall sculpture, Value: 0
+									396 cell
+										397 button edit item - Boldstone Deco Golden Spiral - White and Gold Finish Wall sculpture
+									398 cell
+										399 button Show listing issues
+									400 cell
+										401 button Image
+									402 cell
+										403 text entry area (settable) Title, Value: Boldstone Deco Golden Spiral - White and Gold Finish Wall sculpture
+									404 cell
+										405 container
+											406 button Material Gypsum-based material
+											407 button Format
+											408 button Subject
+											409 button Style
+											410 button Artist Sally Price
+											411 button Size
+											412 button Theme
+											413 button Features
+											414 button Original/Licensed Reproduction
+											415 button Production Technique
+											416 button Culture
+											417 button Year of Production
+											418 button Time Period Produced
+									419 cell
+										420 button 6 completed
+									421 cell
+										422 text field (settable) Custom label (SKU), Value: GS-1-30.30
+									423 cell
+										424 pop-up button Format, Value: Buy It Now
+											425 (selected) Buy It Now
+									426 cell
+										427 button Good 'Til Cancelled
+									428 cell
+										429 text field (settable) Available quantity, Value: 1
+									430 cell
+										431 text £
+										432 text field (settable) Buy It Now, Value: 67.74
+										433 button guidance
+									434 cell
+										435 button N/A
+									436 cell
+										437 button No
+									438 cell
+										439 pop-up button Dispatch time, Value: 3 working days
+											440 (selected) 3 working days
+										441 button guidance
+									442 cell
+										443 button N/A
+									444 cell
+										445 button Immediate
+									446 cell
+										447 button Art Sculptures
+										448 button in Art
+									449 cell
+										450 button New
+									451 cell
+										452 button Buyer pays rates from £7.19 (Simple Delivery)
+										453 button guidance
+									454 cell
+										455 button Edit description
+									456 cell
+										457 button Eligible
+									458 cell
+										459 button Today at 1:00am GMT
+									460 cell
+										461 button N/A
+									462 cell
+										463 button £0.00
+								464 row
+									465 cell
+										466 Tick box Select item to bulk edit - Boldstone Ammonite Petite II (Right) - White Wall sculpture, Value: 0
+									467 cell
+										468 button edit item - Boldstone Ammonite Petite II (Right) - White Wall sculpture
+									469 cell
+										470 button Show listing issues
+									471 cell
+										472 button Image
+									473 cell
+										474 text entry area (settable) Title, Value: Boldstone Ammonite Petite II (Right) - White Wall sculpture
+									475 cell
+										476 container
+											477 button Material Gypsum-based material
+											478 button Format
+											479 button Subject
+											480 button Style
+											481 button Artist Sally Price
+											482 button Size
+											483 button Theme
+											484 button Features
+											485 button Original/Licensed Reproduction
+											486 button Production Technique
+											487 button Culture
+											488 button Year of Production
+											489 button Time Period Produced
+									490 cell
+										491 button 6 completed
+									492 cell
+										493 text field (settable) Custom label (SKU), Value: BOLD-EFBAEB31C2B1
+									494 cell
+										495 pop-up button Format, Value: Buy It Now
+											496 (selected) Buy It Now
+									497 cell
+										498 button Good 'Til Cancelled
+									499 cell
+										500 text field (settable) Available quantity, Value: 1
+									501 cell
+										502 text £
+										503 text field (settable) Buy It Now, Value: 49.10
+										504 button guidance
+									505 cell
+										506 button N/A
+									507 cell
+										508 button No
+									509 cell
+										510 pop-up button Dispatch time, Value: 3 working days
+											511 (selected) 3 working days
+										512 button guidance
+									513 cell
+										514 button N/A
+									515 cell
+										516 button Immediate
+									517 cell
+										518 button Art Sculptures
+										519 button in Art
+									520 cell
+										521 button New
+									522 cell
+										523 button Buyer pays rates from £7.19 (Simple Delivery)
+										524 button guidance
+									525 cell
+										526 button Edit description
+									527 cell
+										528 button Eligible
+									529 cell
+										530 button Today at 1:01am GMT
+									531 cell
+										532 button N/A
+									533 cell
+										534 button £0.00
+								535 row
+									536 cell
+										537 Tick box Select item to bulk edit - Boldstone Ammonite Petite I (Left) - White Wall sculpture, Value: 0
+									538 cell
+										539 button edit item - Boldstone Ammonite Petite I (Left) - White Wall sculpture
+									540 cell
+										541 button Show listing issues
+									542 cell
+										543 button Image
+									544 cell
+										545 text entry area (settable) Title, Value: Boldstone Ammonite Petite I (Left) - White Wall sculpture
+									546 cell
+										547 container
+											548 button Material Gypsum-based material
+											549 button Format
+											550 button Subject
+											551 button Style
+											552 button Artist Sally Price
+											553 button Size
+											554 button Theme
+											555 button Features
+											556 button Original/Licensed Reproduction
+											557 button Production Technique
+											558 button Culture
+											559 button Year of Production
+											560 button Time Period Produced
+									561 cell
+										562 button 6 completed
+									563 cell
+										564 text field (settable) Custom label (SKU), Value: BOLD-624D16148726
+									565 cell
+										566 pop-up button Format, Value: Buy It Now
+											567 (selected) Buy It Now
+									568 cell
+										569 button Good 'Til Cancelled
+									570 cell
+										571 text field (settable) Available quantity, Value: 1
+									572 cell
+										573 text £
+										574 text field (settable) Buy It Now, Value: 49.10
+										575 button guidance
+									576 cell
+										577 button N/A
+									578 cell
+										579 button No
+									580 cell
+										581 pop-up button Dispatch time, Value: 3 working days
+											582 (selected) 3 working days
+										583 button guidance
+									584 cell
+										585 button N/A
+									586 cell
+										587 button Immediate
+									588 cell
+										589 button Art Sculptures
+										590 button in Art
+									591 cell
+										592 button New
+									593 cell
+										594 button Buyer pays rates from £7.19 (Simple Delivery)
+										595 button guidance
+									596 cell
+										597 button Edit description
+									598 cell
+										599 button Eligible
+									600 cell
+										601 button Today at 1:01am GMT
+									602 cell
+										603 button N/A
+									604 cell
+										605 button £0.00
+								606 row
+									607 cell
+										608 Tick box Select item to bulk edit - Boldstone Deco Palm II - White Wall sculpture, Value: 0
+									609 cell
+										610 button edit item - Boldstone Deco Palm II - White Wall sculpture
+									611 cell
+										612 button Show listing issues
+									613 cell
+										614 button Image
+									615 cell
+										616 text entry area (settable) Title, Value: Boldstone Deco Palm II - White Wall sculpture
+									617 cell
+										618 container
+											619 button Material Gypsum-based material
+											620 button Format
+											621 button Subject
+											622 button Style
+											623 button Artist Sally Price
+											624 button Size
+											625 button Theme
+											626 button Features
+											627 button Original/Licensed Reproduction
+											628 button Production Technique
+											629 button Culture
+											630 button Year of Production
+											631 button Time Period Produced
+									632 cell
+										633 button 6 completed
+									634 cell
+										635 text field (settable) Custom label (SKU), Value: PF2-40.45
+									636 cell
+										637 pop-up button Format, Value: Buy It Now
+											638 (selected) Buy It Now
+									639 cell
+										640 button Good 'Til Cancelled
+									641 cell
+										642 text field (settable) Available quantity, Value: 1
+									643 cell
+										644 text £
+										645 text field (settable) Buy It Now, Value: 61.76
+										646 button guidance
+									647 cell
+										648 button N/A
+									649 cell
+										650 button No
+									651 cell
+										652 pop-up button Dispatch time, Value: 3 working days
+											653 (selected) 3 working days
+										654 button guidance
+									655 cell
+										656 button N/A
+									657 cell
+										658 button Immediate
+									659 cell
+										660 button Art Sculptures
+										661 button in Art
+									662 cell
+										663 button New
+									664 cell
+										665 button Buyer pays rates from £7.19 (Simple Delivery)
+										666 button guidance
+									667 cell
+										668 button Edit description
+									669 cell
+										670 button Eligible
+									671 cell
+										672 button Today at 1:02am GMT
+									673 cell
+										674 button N/A
+									675 cell
+										676 button £0.00
+								677 row
+									678 cell
+										679 Tick box Select item to bulk edit - Boldstone Fingerprint Rings III - Cream Finish Wall sculpture, Value: 0
+									680 cell
+										681 button edit item - Boldstone Fingerprint Rings III - Cream Finish Wall sculpture
+									682 cell
+										683 button Show listing issues
+									684 cell
+										685 button Image
+									686 cell
+										687 text entry area (settable) Title, Value: Boldstone Fingerprint Rings III - Cream Finish Wall sculpture
+									688 cell
+										689 container
+											690 button Material Gypsum-based material
+											691 button Format
+											692 button Subject
+											693 button Style
+											694 button Artist Sally Price
+											695 button Size
+											696 button Theme
+											697 button Features
+											698 button Original/Licensed Reproduction
+											699 button Production Technique
+											700 button Culture
+											701 button Year of Production
+											702 button Time Period Produced
+									703 cell
+										704 button 6 completed
+									705 cell
+										706 text field (settable) Custom label (SKU), Value: BOLD-A9C6379B224B
+									707 cell
+										708 pop-up button Format, Value: Buy It Now
+											709 (selected) Buy It Now
+									710 cell
+										711 button Good 'Til Cancelled
+									712 cell
+										713 text field (settable) Available quantity, Value: 1
+									714 cell
+										715 text £
+										716 text field (settable) Buy It Now, Value: 55.68
+										717 button guidance
+									718 cell
+										719 button N/A
+									720 cell
+										721 button No
+									722 cell
+										723 pop-up button Dispatch time, Value: 3 working days
+											724 (selected) 3 working days
+										725 button guidance
+									726 cell
+										727 button N/A
+									728 cell
+										729 button Immediate
+									730 cell
+										731 button Art Sculptures
+										732 button in Art
+									733 cell
+										734 button New
+									735 cell
+										736 button Buyer pays rates from £7.19 (Simple Delivery)
+										737 button guidance
+									738 cell
+										739 button Edit description
+									740 cell
+										741 button Eligible
+									742 cell
+										743 button Today at 1:03am GMT
+									744 cell
+										745 button N/A
+									746 cell
+										747 button £0.00
+								748 row
+									749 cell
+										750 Tick box Select item to bulk edit - Boldstone Wave and Moonshadow II - White Wall sculpture, Value: 0
+									751 cell
+										752 button edit item - Boldstone Wave and Moonshadow II - White Wall sculpture
+									753 cell
+										754 button Show listing issues
+									755 cell
+										756 button Image
+									757 cell
+										758 text entry area (settable) Title, Value: Boldstone Wave and Moonshadow II - White Wall sculpture
+									759 cell
+										760 container
+											761 button Material Gypsum-based material
+											762 button Format
+											763 button Subject
+											764 button Style
+											765 button Artist Sally Price
+											766 button Size
+											767 button Theme
+											768 button Features
+											769 button Original/Licensed Reproduction
+											770 button Production Technique
+											771 button Culture
+											772 button Year of Production
+											773 button Time Period Produced
+									774 cell
+										775 button 6 completed
+										776 button 1 recommendation
+									777 cell
+										778 text field (settable) Custom label (SKU), Value: BOLD-B6EC1EDD319F
+									779 cell
+										780 pop-up button Format, Value: Buy It Now
+											781 (selected) Buy It Now
+									782 cell
+										783 button Good 'Til Cancelled
+									784 cell
+										785 text field (settable) Available quantity, Value: 1
+									786 cell
+										787 text £
+										788 text field (settable) Buy It Now, Value: 57.98
+										789 button guidance
+									790 cell
+										791 button N/A
+									792 cell
+										793 button No
+									794 cell
+										795 pop-up button Dispatch time, Value: 3 working days
+											796 (selected) 3 working days
+										797 button guidance
+									798 cell
+										799 button N/A
+									800 cell
+										801 button Immediate
+									802 cell
+										803 button Art Sculptures
+										804 button in Art
+									805 cell
+										806 button New
+									807 cell
+										808 button Buyer pays rates from £7.19 (Simple Delivery)
+										809 button guidance
+									810 cell
+										811 button Edit description
+									812 cell
+										813 button Eligible
+									814 cell
+										815 button Today at 1:12am GMT
+									816 cell
+										817 button N/A
+									818 cell
+										819 button £0.00
+								820 row
+									821 cell
+										822 Tick box Select item to bulk edit - Boldstone Fingerprint Rings I - Cream Finish Wall sculpture, Value: 0
+									823 cell
+										824 button edit item - Boldstone Fingerprint Rings I - Cream Finish Wall sculpture
+									825 cell
+										826 button Show listing issues
+									827 cell
+										828 button Image
+									829 cell
+										830 text entry area (settable) Title, Value: Boldstone Fingerprint Rings I - Cream Finish Wall sculpture
+									831 cell
+										832 container
+											833 button Material Gypsum-based material
+											834 button Format
+											835 button Subject
+											836 button Style
+											837 button Artist Sally Price
+											838 button Size
+											839 button Theme
+											840 button Features
+											841 button Original/Licensed Reproduction
+											842 button Production Technique
+											843 button Culture
+											844 button Year of Production
+											845 button Time Period Produced
+									846 cell
+										847 button 6 completed
+									848 cell
+										849 text field (settable) Custom label (SKU), Value: BOLD-DDF9748D271D
+									850 cell
+										851 pop-up button Format, Value: Buy It Now
+											852 (selected) Buy It Now
+									853 cell
+										854 button Good 'Til Cancelled
+									855 cell
+										856 text field (settable) Available quantity, Value: 1
+									857 cell
+										858 text £
+										859 text field (settable) Buy It Now, Value: 55.68
+										860 button guidance
+									861 cell
+										862 button N/A
+									863 cell
+										864 button No
+									865 cell
+										866 pop-up button Dispatch time, Value: 3 working days
+											867 (selected) 3 working days
+										868 button guidance
+									869 cell
+										870 button N/A
+									871 cell
+										872 button Immediate
+									873 cell
+										874 button Art Sculptures
+										875 button in Art
+									876 cell
+										877 button New
+									878 cell
+										879 button Buyer pays rates from £7.19 (Simple Delivery)
+										880 button guidance
+									881 cell
+										882 button Edit description
+									883 cell
+										884 button Eligible
+									885 cell
+										886 button Today at 1:13am GMT
+									887 cell
+										888 button N/A
+									889 cell
+										890 button £0.00
+								891 row
+									892 cell
+										893 Tick box Select item to bulk edit - Boldstone Fingerprint Rings II - White Wall sculpture, Value: 0
+									894 cell
+										895 button edit item - Boldstone Fingerprint Rings II - White Wall sculpture
+									896 cell
+										897 button Show listing issues
+									898 cell
+										899 button Image
+									900 cell
+										901 text entry area (settable) Title, Value: Boldstone Fingerprint Rings II - White Wall sculpture
+									902 cell
+										903 container
+											904 button Material Gypsum-based material
+											905 button Format
+											906 button Subject
+											907 button Style
+											908 button Artist Sally Price
+											909 button Size
+											910 button Theme
+											911 button Features
+											912 button Original/Licensed Reproduction
+											913 button Production Technique
+											914 button Culture
+											915 button Year of Production
+											916 button Time Period Produced
+									917 cell
+										918 button 6 completed
+									919 cell
+										920 text field (settable) Custom label (SKU), Value: BOLD-8BB94D9D6C27
+									921 cell
+										922 pop-up button Format, Value: Buy It Now
+											923 (selected) Buy It Now
+									924 cell
+										925 button Good 'Til Cancelled
+									926 cell
+										927 text field (settable) Available quantity, Value: 1
+									928 cell
+										929 text £
+										930 text field (settable) Buy It Now, Value: 46.54
+										931 button guidance
+									932 cell
+										933 button N/A
+									934 cell
+										935 button No
+									936 cell
+										937 pop-up button Dispatch time, Value: 3 working days
+											938 (selected) 3 working days
+										939 button guidance
+									940 cell
+										941 button N/A
+									942 cell
+										943 button Immediate
+									944 cell
+										945 button Art Sculptures
+										946 button in Art
+									947 cell
+										948 button New
+									949 cell
+										950 button Buyer pays rates from £7.19 (Simple Delivery)
+										951 button guidance
+									952 cell
+										953 button Edit description
+									954 cell
+										955 button Eligible
+									956 cell
+										957 button Today at 1:14am GMT
+									958 cell
+										959 button N/A
+									960 cell
+										961 button £0.00
+								962 row
+									963 cell
+										964 Tick box Select item to bulk edit - Boldstone Fingerprint Rings I - White Wall sculpture, Value: 0
+									965 cell
+										966 button edit item - Boldstone Fingerprint Rings I - White Wall sculpture
+									967 cell
+										968 button Show listing issues
+									969 cell
+										970 button Image
+									971 cell
+										972 text entry area (settable) Title, Value: Boldstone Fingerprint Rings I - White Wall sculpture
+									973 cell
+										974 container
+											975 button Material Gypsum-based material
+											976 button Format
+											977 button Subject
+											978 button Style
+											979 button Artist Sally Price
+											980 button Size
+											981 button Theme
+											982 button Features
+											983 button Original/Licensed Reproduction
+											984 button Production Technique
+											985 button Culture
+											986 button Year of Production
+											987 button Time Period Produced
+									988 cell
+										989 button 6 completed
+									990 cell
+										991 text field (settable) Custom label (SKU), Value: BOLD-0D2FEACDB98D
+									992 cell
+										993 pop-up button Format, Value: Buy It Now
+											994 (selected) Buy It Now
+									995 cell
+										996 button Good 'Til Cancelled
+									997 cell
+										998 text field (settable) Available quantity, Value: 1
+									999 cell
+										1000 text £
+										1001 text field (settable) Buy It Now, Value: 46.54
+										1002 button guidance
+									1003 cell
+										1004 button N/A
+									1005 cell
+										1006 button No
+									1007 cell
+										1008 pop-up button Dispatch time, Value: 3 working days
+											1009 (selected) 3 working days
+										1010 button guidance
+									1011 cell
+										1012 button N/A
+									1013 cell
+										1014 button Immediate
+									1015 cell
+										1016 button Art Sculptures
+										1017 button in Art
+									1018 cell
+										1019 button New
+									1020 cell
+										1021 button Buyer pays rates from £7.19 (Simple Delivery)
+										1022 button guidance
+									1023 cell
+										1024 button Edit description
+									1025 cell
+										1026 button Eligible
+									1027 cell
+										1028 button Today at 1:15am GMT
+									1029 cell
+										1030 button N/A
+									1031 cell
+										1032 button £0.00
+								1033 row
+									1034 cell
+										1035 Tick box Select item to bulk edit - Boldstone Deco Palm I - White Wall sculpture, Value: 0
+									1036 cell
+										1037 button edit item - Boldstone Deco Palm I - White Wall sculpture
+									1038 cell
+										1039 button Show listing issues
+									1040 cell
+										1041 button Image
+									1042 cell
+										1043 text entry area (settable) Title, Value: Boldstone Deco Palm I - White Wall sculpture
+									1044 cell
+										1045 container
+											1046 button Material Gypsum-based material
+											1047 button Format
+											1048 button Subject
+											1049 button Style
+											1050 button Artist Sally Price
+											1051 button Size
+											1052 button Theme
+											1053 button Features
+											1054 button Original/Licensed Reproduction
+											1055 button Production Technique
+											1056 button Culture
+											1057 button Year of Production
+											1058 button Time Period Produced
+									1059 cell
+										1060 button 6 completed
+									1061 cell
+										1062 text field (settable) Custom label (SKU), Value: PF1-40.45
+									1063 cell
+										1064 pop-up button Format, Value: Buy It Now
+											1065 (selected) Buy It Now
+									1066 cell
+										1067 button Good 'Til Cancelled
+									1068 cell
+										1069 text field (settable) Available quantity, Value: 1
+									1070 cell
+										1071 text £
+										1072 text field (settable) Buy It Now, Value: 61.76
+										1073 button guidance
+									1074 cell
+										1075 button N/A
+									1076 cell
+										1077 button No
+									1078 cell
+										1079 pop-up button Dispatch time, Value: 3 working days
+											1080 (selected) 3 working days
+										1081 button guidance
+									1082 cell
+										1083 button N/A
+									1084 cell
+										1085 button Immediate
+									1086 cell
+										1087 button Art Sculptures
+										1088 button in Art
+									1089 cell
+										1090 button New
+									1091 cell
+										1092 button Buyer pays rates from £7.19 (Simple Delivery)
+										1093 button guidance
+									1094 cell
+										1095 button Edit description
+									1096 cell
+										1097 button Eligible
+									1098 cell
+										1099 button Today at 1:15am GMT
+									1100 cell
+										1101 button N/A
+									1102 cell
+										1103 button £0.00
+							1104 container
+								1105 text Estimated selling fees:
+								1106 text £0.00
+								1107 button Estimated selling fees
+								1108 button Save for later
+								1109 button Submit (14)
+							1110 container
+								1111 text Copyright © 1995-2026 eBay Inc. All Rights Reserved. 
+								1112 link User Agreement, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+								1113 text , 
+								1114 link Privacy, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+								1115 text , 
+								1116 link Payments Terms of Use, Value: pages.ebay.co.uk/payment/2.0/terms.html
+								1117 text , 
+								1118 link Cookies, Value: ebay.co.uk/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+								1119 text  and 
+								1120 link AdChoice , Value: ebay.co.uk/adchoice
+			1121 pop-up button Tab search
+			1122 container
+				1123 tab group
+					1124 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					1125 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					1126 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					1127 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					1128 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					1129 tab (settable, boolean) Meta Business Suite, Value: off
+					1130 tab group  group 📦 Marketplace completion – 3 Tabs, •  Studio | Saatchi Art United Kingdom, •  Revise your listing | Boldstone Patina Panel -…, •  Vintage & Used Furniture and Decor | Chairish – Expanded
+					1131 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion, Value: off
+					1132 tab (settable, boolean) Value: off, Revise your listing | Boldstone Patina Panel - Rust and Verdigris Finish Wall sculpture | eBay – Part of group 📦 Marketplace completion
+					1133 tab (settable, boolean) Value: off, Vintage & Used Furniture and Decor | Chairish – Part of group 📦 Marketplace completion - High memory usage - 957 MB
+					1134 tab (settable, boolean) Products – Faire, Value: off
+					1135 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					1136 tab (selected, settable, boolean) Create listings, Value: on
+						1137 button Close
+			1138 button New tab
+	1139 close button
+	1140 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	1141 minimise button
+1142 menu bar
+	1143 Chrome
+	1144 File
+	1145 Edit
+	1146 View
+	1147 History
+	1148 Bookmarks
+	1149 Profiles
+	1150 Tab
+	1151 Window
+	1152 Help
+
+The focused UI element is 115 button Show listing issues

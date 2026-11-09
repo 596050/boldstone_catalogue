@@ -1,0 +1,104 @@
+- banner:
+  - button [disabled]:
+  - link "Facebook":
+    - /url: /
+  - button:
+  - combobox "Search Facebook"
+  - navigation "Facebook":
+    - list:
+      - link "Home":
+        - /url: /
+      - link "Reels":
+        - /url: /reel/?s=tab
+      - link "Friends":
+        - /url: /friends/
+      - link "Groups":
+        - /url: /groups/
+      - link "Gaming":
+        - /url: /gaming/play/?store_visit_source=gaming_tab
+  - navigation "Account controls and settings":
+    - button "Facebook menu":
+    - button "Notifications, 27 unread":
+    - button:
+      - generic: Number of unread notifications
+      - generic: 20+
+    - button "Account, your profile":
+      - img "Your profile"
+- main:
+  - navigation "Breadcrumb":
+    - generic: Marketplace
+  - heading "List in more places" [level=1]
+  - form "Marketplace":
+    - generic: List publicly
+    - generic: Marketplace
+    - generic: Marketplace items are public and can be seen by anyone on or off Facebook.
+    - separator
+    - heading "List in your groups" [level=1]:
+      - generic: List in your groups
+    - generic: You can list in up to 20 groups.
+    - checkbox "Bath Bargain Furniture 7.7K members Public" [active]:
+      - generic: Bath Bargain Furniture
+      - text: 7.7K members
+      - generic: ·
+      - text: Public
+    - checkbox "Indiana Real Estate Investors 53.7K members Public":
+      - generic: Indiana Real Estate Investors
+      - text: 53.7K members
+      - generic: ·
+      - text: Public
+    - separator
+  - img "Progress, currently on step 2 of 2"
+  - button "Previous":
+    - generic: Previous
+  - button "Publish":
+    - generic: Publish
+- complementary "Marketplace composer":
+  - region:
+    - heading "Preview" [level=2]:
+      - generic: Preview
+    - region "Preview":
+      - button "View photo 1":
+        - img "Product photo of Moon and Shell Wave I - White | Wall Sculpture"
+      - button "View photo 2":
+        - img "Product photo of Moon and Shell Wave I - White | Wall Sculpture"
+      - button "View photo 3":
+        - img "Product photo of Moon and Shell Wave I - White | Wall Sculpture"
+      - button "View photo 4":
+        - img "Product photo of Moon and Shell Wave I - White | Wall Sculpture"
+      - button "View photo 5":
+        - img "Product photo of Moon and Shell Wave I - White | Wall Sculpture"
+      - button "View photo 6":
+        - img "Product photo of Moon and Shell Wave I - White | Wall Sculpture"
+      - button "View photo 7":
+        - img "Product photo of Moon and Shell Wave I - White | Wall Sculpture"
+      - button "View photo 8":
+        - img "Product photo of Moon and Shell Wave I - White | Wall Sculpture"
+      - button "View photo 9":
+        - img "Product photo of Moon and Shell Wave I - White | Wall Sculpture"
+      - button "View photo 10":
+        - img "Product photo of Moon and Shell Wave I - White | Wall Sculpture"
+      - button "View previous image":
+      - button "View next image":
+      - heading "Moon and Shell Wave I - White | Wall Sculpture" [level=3]:
+        - generic: Moon and Shell Wave I - White | Wall Sculpture
+      - generic: £69
+      - text: Listed
+      - generic "a few seconds ago"
+      - text: in
+      - button "Bath" [disabled]
+      - heading "Details" [level=2]:
+        - generic: Details
+      - generic: Condition
+      - generic: New
+      - generic: "Lunar curves meet a shell-like wave in this flowing relief. The composition moves between rounded forms and a softer ripple, giving light and shadow a clear path across the surface. An imagined meeting of moonlight and tide, bringing a sense of calm movement to the wall. The white finish keeps the focus on the form and its changing shadows. Dimensions: 100 × 22 cm; approximately 6 cm panel depth Weight: Approximately 8–10 kg Use: Suitable for outdoor use and indoor display. Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall. Availability: Made to order Production lead time: 1–2 weeks Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options. Room settings and group arrangements are illustrative; this listing is for the individual sculpture described above. Website price: £69.14. Full details, photographs and online ordering: https://boldstonesculpture.com/buy/p/moon-and-shellwave-1-white"
+      - heading [level=2]:
+        - generic: Seller information
+      - link:
+        - /url: /marketplace/profile/100064311860325/?product_id=client%3Alocal%3A4
+        - generic: Seller details
+      - list:
+        - link:
+          - /url: /marketplace/profile/100064311860325/?product_id=client%3Alocal%3A4&__tn__=%3C
+        - link:
+          - /url: /marketplace/profile/100064311860325/?product_id=client%3Alocal%3A4
+          - text: Boldstone Sculpture

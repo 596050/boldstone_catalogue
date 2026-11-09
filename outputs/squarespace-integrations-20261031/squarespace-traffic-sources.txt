@@ -1,0 +1,620 @@
+- navigation "Website pages and features":
+  - link "Home":
+    - /url: /config/
+    - img "Home"
+  - button "Search":
+  - button "Notifications - you have unread notifications":
+  - link "Home":
+    - /url: /config/home
+    - paragraph: Home
+  - link "Website":
+    - /url: /config/
+    - paragraph: Website
+  - link "Products & Services":
+    - /url: /config/commerce
+    - paragraph: Products & Services
+  - checkbox [checked]
+  - link "Content & Memberships":
+    - /url: /config/content-and-memberships
+    - paragraph: Content & Memberships
+  - checkbox [checked]
+  - link "Scheduling":
+    - /url: https://secure.acuityscheduling.com/oauth2/squarespace-attached?website_id=66abcbd768fd043d92325d96&analytics_id=871ea609-7aad-4efb-9408-1d42d6316296
+    - paragraph: Scheduling
+  - checkbox [checked]
+  - link "Donations":
+    - /url: /config/donations
+    - paragraph: Donations
+  - checkbox [checked]
+  - link "Invoicing & Pay Links":
+    - /url: /config/invoicing
+    - paragraph: Invoicing & Pay Links
+  - checkbox [checked]
+  - status
+  - link "Campaigns":
+    - /url: /config/marketing/campaigns
+    - paragraph: Campaigns
+  - link "Contacts":
+    - /url: /config/profiles
+    - paragraph: Contacts
+  - link "Analytics":
+    - /url: /config/analytics
+    - paragraph: Analytics
+  - link "Traffic":
+    - /url: /config/analytics#traffic-overview
+    - paragraph: Traffic
+  - link "Engagement":
+    - /url: /config/analytics#site-content
+    - paragraph: Engagement
+  - link "Sales":
+    - /url: /config/analytics#sales-overview
+    - paragraph: Sales
+  - link "Finance":
+    - /url: /config/finance
+    - paragraph: Finance
+  - button "Account"
+  - list:
+    - button "Help":
+    - button "Customize Sidebar":
+    - button "Settings":
+- main:
+  - heading "Traffic Cookie Banner Enabled" [level=1]:
+    - text: Traffic
+    - button "Cookie Banner Enabled":
+      - generic: Cookie Banner Enabled
+  - button "Last 30 Days":
+    - paragraph: Last 30 Days
+  - paragraph: October 2026
+  - button "Previous Month":
+  - button "Next Month" [disabled]:
+  - generic "Sunday":
+    - paragraph: S
+  - generic "Monday":
+    - paragraph: M
+  - generic "Tuesday":
+    - paragraph: T
+  - generic "Wednesday":
+    - paragraph: W
+  - generic "Thursday":
+    - paragraph: T
+  - generic "Friday":
+    - paragraph: F
+  - generic "Saturday":
+    - paragraph: S
+  - button "09/27/2026":
+    - paragraph: "27"
+  - button "09/28/2026":
+    - paragraph: "28"
+  - button "09/29/2026":
+    - paragraph: "29"
+  - button "09/30/2026":
+    - paragraph: "30"
+  - button "10/01/2026":
+    - paragraph: "1"
+  - button "10/02/2026" [pressed]:
+    - paragraph: "2"
+  - button "10/03/2026":
+    - paragraph: "3"
+  - button "10/04/2026":
+    - paragraph: "4"
+  - button "10/05/2026":
+    - paragraph: "5"
+  - button "10/06/2026":
+    - paragraph: "6"
+  - button "10/07/2026":
+    - paragraph: "7"
+  - button "10/08/2026":
+    - paragraph: "8"
+  - button "10/09/2026":
+    - paragraph: "9"
+  - button "10/10/2026":
+    - paragraph: "10"
+  - button "10/11/2026":
+    - paragraph: "11"
+  - button "10/12/2026":
+    - paragraph: "12"
+  - button "10/13/2026":
+    - paragraph: "13"
+  - button "10/14/2026":
+    - paragraph: "14"
+  - button "10/15/2026":
+    - paragraph: "15"
+  - button "10/16/2026":
+    - paragraph: "16"
+  - button "10/17/2026":
+    - paragraph: "17"
+  - button "10/18/2026":
+    - paragraph: "18"
+  - button "10/19/2026":
+    - paragraph: "19"
+  - button "10/20/2026":
+    - paragraph: "20"
+  - button "10/21/2026":
+    - paragraph: "21"
+  - button "10/22/2026":
+    - paragraph: "22"
+  - button "10/23/2026":
+    - paragraph: "23"
+  - button "10/24/2026":
+    - paragraph: "24"
+  - button "10/25/2026":
+    - paragraph: "25"
+  - button "10/26/2026":
+    - paragraph: "26"
+  - button "10/27/2026":
+    - paragraph: "27"
+  - button "10/28/2026":
+    - paragraph: "28"
+  - button "10/29/2026":
+    - paragraph: "29"
+  - button "10/30/2026":
+    - paragraph: "30"
+  - button "10/31/2026":
+    - paragraph: "31"
+  - paragraph: Start Date
+  - paragraph: Oct 2, 2026
+  - paragraph: October 2026
+  - button "Previous Month":
+  - button "Next Month" [disabled]:
+  - generic "Sunday":
+    - paragraph: S
+  - generic "Monday":
+    - paragraph: M
+  - generic "Tuesday":
+    - paragraph: T
+  - generic "Wednesday":
+    - paragraph: W
+  - generic "Thursday":
+    - paragraph: T
+  - generic "Friday":
+    - paragraph: F
+  - generic "Saturday":
+    - paragraph: S
+  - button "09/27/2026" [disabled]:
+    - paragraph: "27"
+  - button "09/28/2026" [disabled]:
+    - paragraph: "28"
+  - button "09/29/2026" [disabled]:
+    - paragraph: "29"
+  - button "09/30/2026" [disabled]:
+    - paragraph: "30"
+  - button "10/01/2026" [disabled]:
+    - paragraph: "1"
+  - button "10/02/2026":
+    - paragraph: "2"
+  - button "10/03/2026":
+    - paragraph: "3"
+  - button "10/04/2026":
+    - paragraph: "4"
+  - button "10/05/2026":
+    - paragraph: "5"
+  - button "10/06/2026":
+    - paragraph: "6"
+  - button "10/07/2026":
+    - paragraph: "7"
+  - button "10/08/2026":
+    - paragraph: "8"
+  - button "10/09/2026":
+    - paragraph: "9"
+  - button "10/10/2026":
+    - paragraph: "10"
+  - button "10/11/2026":
+    - paragraph: "11"
+  - button "10/12/2026":
+    - paragraph: "12"
+  - button "10/13/2026":
+    - paragraph: "13"
+  - button "10/14/2026":
+    - paragraph: "14"
+  - button "10/15/2026":
+    - paragraph: "15"
+  - button "10/16/2026":
+    - paragraph: "16"
+  - button "10/17/2026":
+    - paragraph: "17"
+  - button "10/18/2026":
+    - paragraph: "18"
+  - button "10/19/2026":
+    - paragraph: "19"
+  - button "10/20/2026":
+    - paragraph: "20"
+  - button "10/21/2026":
+    - paragraph: "21"
+  - button "10/22/2026":
+    - paragraph: "22"
+  - button "10/23/2026":
+    - paragraph: "23"
+  - button "10/24/2026":
+    - paragraph: "24"
+  - button "10/25/2026":
+    - paragraph: "25"
+  - button "10/26/2026":
+    - paragraph: "26"
+  - button "10/27/2026":
+    - paragraph: "27"
+  - button "10/28/2026":
+    - paragraph: "28"
+  - button "10/29/2026":
+    - paragraph: "29"
+  - button "10/30/2026":
+    - paragraph: "30"
+  - button "10/31/2026" [pressed]:
+    - paragraph: "31"
+  - paragraph: End Date
+  - paragraph: Oct 31, 2026
+  - option "Today":
+    - paragraph: Today
+  - option "Yesterday":
+    - paragraph: Yesterday
+  - option "Week To Date":
+    - paragraph: Week To Date
+  - option "Last Week":
+    - paragraph: Last Week
+  - option "Month To Date":
+    - paragraph: Month To Date
+  - option "Last Month":
+    - paragraph: Last Month
+  - option "Last 30 Days" [selected]:
+    - paragraph: Last 30 Days
+  - option "Year To Date":
+    - paragraph: Year To Date
+  - option "Last Year":
+    - paragraph: Last Year
+  - option "Custom":
+    - paragraph: Custom
+  - paragraph: £ GBP
+  - tablist:
+    - tab "Traffic"
+    - tab "Traffic Sources" [selected]
+    - tab "Search Keywords"
+    - tab "Geography"
+  - paragraph: Visits
+  - paragraph: "880"
+  - paragraph: Revenue
+  - paragraph: £0
+  - paragraph: Checkouts
+  - paragraph: "0"
+  - paragraph: Conv. Rate
+  - paragraph: 0%
+  - paragraph: AOV
+  - paragraph: £0
+  - paragraph: RPV
+  - paragraph: £0
+  - generic: Visits
+  - generic: Oct 2 – 31, 2026
+  - generic: •
+  - text: "880"
+  - generic: Total
+  - combobox:
+    - paragraph: Daily
+  - img "Line chart with 5 series and 30 data points.":
+    - generic: Visits
+    - generic: "0"
+    - generic: "0"
+    - generic: "20"
+    - generic: "20"
+    - generic: "40"
+    - generic: "40"
+    - generic: "60"
+    - generic: "60"
+    - generic: "80"
+    - generic: "80"
+    - generic: "100"
+    - generic: "100"
+    - generic: Fri
+    - generic: Sat
+    - generic: Sun
+    - generic: Mon
+    - generic: Tue
+    - generic: Wed
+    - generic: Thu
+    - generic: Fri
+    - generic: Sat
+    - generic: Sun
+    - generic: Mon
+    - generic: Tue
+    - generic: Wed
+    - generic: Thu
+    - generic: Fri
+    - generic: Sat
+    - generic: Sun
+    - generic: Mon
+    - generic: Tue
+    - generic: Wed
+    - generic: Thu
+    - generic: Fri
+    - generic: Sat
+    - generic: Sun
+    - generic: Mon
+    - generic: Tue
+    - generic: Wed
+    - generic: Thu
+    - generic: Fri
+    - generic: Sat
+  - table "Line chart with 5 series and 30 data points.":
+    - caption: Line chart with 5 series and 30 data points.
+    - rowgroup:
+      - row "Category All Sources Direct Social Search Referral":
+        - columnheader "Category"
+        - columnheader "All Sources"
+        - columnheader "Direct"
+        - columnheader "Social"
+        - columnheader "Search"
+        - columnheader "Referral"
+    - rowgroup:
+      - row "Oct 2, 2026 3 3 0 0 0":
+        - rowheader "Oct 2, 2026"
+        - cell "3"
+        - cell "3"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "Oct 3, 2026 4 2 0 2 0":
+        - rowheader "Oct 3, 2026"
+        - cell "4"
+        - cell "2"
+        - cell "0"
+        - cell "2"
+        - cell "0"
+      - row "Oct 4, 2026 10 8 1 1 0":
+        - rowheader "Oct 4, 2026"
+        - cell "10"
+        - cell "8"
+        - cell "1"
+        - cell "1"
+        - cell "0"
+      - row "Oct 5, 2026 7 5 0 2 0":
+        - rowheader "Oct 5, 2026"
+        - cell "7"
+        - cell "5"
+        - cell "0"
+        - cell "2"
+        - cell "0"
+      - row "Oct 6, 2026 10 7 0 3 0":
+        - rowheader "Oct 6, 2026"
+        - cell "10"
+        - cell "7"
+        - cell "0"
+        - cell "3"
+        - cell "0"
+      - row "Oct 7, 2026 7 7 0 0 0":
+        - rowheader "Oct 7, 2026"
+        - cell "7"
+        - cell "7"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "Oct 8, 2026 3 3 0 0 0":
+        - rowheader "Oct 8, 2026"
+        - cell "3"
+        - cell "3"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "Oct 9, 2026 7 4 1 2 0":
+        - rowheader "Oct 9, 2026"
+        - cell "7"
+        - cell "4"
+        - cell "1"
+        - cell "2"
+        - cell "0"
+      - row "Oct 10, 2026 7 7 0 0 0":
+        - rowheader "Oct 10, 2026"
+        - cell "7"
+        - cell "7"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "Oct 11, 2026 8 7 0 1 0":
+        - rowheader "Oct 11, 2026"
+        - cell "8"
+        - cell "7"
+        - cell "0"
+        - cell "1"
+        - cell "0"
+      - row "Oct 12, 2026 21 11 7 2 1":
+        - rowheader "Oct 12, 2026"
+        - cell "21"
+        - cell "11"
+        - cell "7"
+        - cell "2"
+        - cell "1"
+      - row "Oct 13, 2026 9 6 0 2 1":
+        - rowheader "Oct 13, 2026"
+        - cell "9"
+        - cell "6"
+        - cell "0"
+        - cell "2"
+        - cell "1"
+      - row "Oct 14, 2026 30 26 2 2 0":
+        - rowheader "Oct 14, 2026"
+        - cell "30"
+        - cell "26"
+        - cell "2"
+        - cell "2"
+        - cell "0"
+      - row "Oct 15, 2026 53 42 7 4 0":
+        - rowheader "Oct 15, 2026"
+        - cell "53"
+        - cell "42"
+        - cell "7"
+        - cell "4"
+        - cell "0"
+      - row "Oct 16, 2026 25 21 1 3 0":
+        - rowheader "Oct 16, 2026"
+        - cell "25"
+        - cell "21"
+        - cell "1"
+        - cell "3"
+        - cell "0"
+      - row "Oct 17, 2026 46 39 7 0 0":
+        - rowheader "Oct 17, 2026"
+        - cell "46"
+        - cell "39"
+        - cell "7"
+        - cell "0"
+        - cell "0"
+      - row "Oct 18, 2026 43 38 4 1 0":
+        - rowheader "Oct 18, 2026"
+        - cell "43"
+        - cell "38"
+        - cell "4"
+        - cell "1"
+        - cell "0"
+      - row "Oct 19, 2026 16 14 2 0 0":
+        - rowheader "Oct 19, 2026"
+        - cell "16"
+        - cell "14"
+        - cell "2"
+        - cell "0"
+        - cell "0"
+      - row "Oct 20, 2026 43 32 6 5 0":
+        - rowheader "Oct 20, 2026"
+        - cell "43"
+        - cell "32"
+        - cell "6"
+        - cell "5"
+        - cell "0"
+      - row "Oct 21, 2026 21 14 6 1 0":
+        - rowheader "Oct 21, 2026"
+        - cell "21"
+        - cell "14"
+        - cell "6"
+        - cell "1"
+        - cell "0"
+      - row "Oct 22, 2026 63 53 7 1 2":
+        - rowheader "Oct 22, 2026"
+        - cell "63"
+        - cell "53"
+        - cell "7"
+        - cell "1"
+        - cell "2"
+      - row "Oct 23, 2026 40 32 4 4 0":
+        - rowheader "Oct 23, 2026"
+        - cell "40"
+        - cell "32"
+        - cell "4"
+        - cell "4"
+        - cell "0"
+      - row "Oct 24, 2026 54 43 10 1 0":
+        - rowheader "Oct 24, 2026"
+        - cell "54"
+        - cell "43"
+        - cell "10"
+        - cell "1"
+        - cell "0"
+      - row "Oct 25, 2026 12 9 3 0 0":
+        - rowheader "Oct 25, 2026"
+        - cell "12"
+        - cell "9"
+        - cell "3"
+        - cell "0"
+        - cell "0"
+      - row "Oct 26, 2026 76 63 9 4 0":
+        - rowheader "Oct 26, 2026"
+        - cell "76"
+        - cell "63"
+        - cell "9"
+        - cell "4"
+        - cell "0"
+      - row "Oct 27, 2026 45 37 5 3 0":
+        - rowheader "Oct 27, 2026"
+        - cell "45"
+        - cell "37"
+        - cell "5"
+        - cell "3"
+        - cell "0"
+      - row "Oct 28, 2026 30 24 3 3 0":
+        - rowheader "Oct 28, 2026"
+        - cell "30"
+        - cell "24"
+        - cell "3"
+        - cell "3"
+        - cell "0"
+      - row "Oct 29, 2026 48 36 6 6 0":
+        - rowheader "Oct 29, 2026"
+        - cell "48"
+        - cell "36"
+        - cell "6"
+        - cell "6"
+        - cell "0"
+      - row "Oct 30, 2026 96 83 12 1 0":
+        - rowheader "Oct 30, 2026"
+        - cell "96"
+        - cell "83"
+        - cell "12"
+        - cell "1"
+        - cell "0"
+      - row "Oct 31, 2026 43 28 14 1 0":
+        - rowheader "Oct 31, 2026"
+        - cell "43"
+        - cell "28"
+        - cell "14"
+        - cell "1"
+        - cell "0"
+  - application "Chart data. Use arrow keys to explore.":
+  - button "All Sources" [pressed]:
+    - generic: All Sources
+  - button "Direct" [pressed]:
+    - generic: Direct
+  - button "Social" [pressed]:
+    - generic: Social
+  - button "Search" [pressed]:
+    - generic: Search
+  - button "Referral" [pressed]:
+    - generic: Referral
+  - button "Source":
+    - generic: Source
+  - button "Visits":
+    - generic: Visits
+  - button "Revenue":
+    - generic: Revenue
+  - button "Checkouts":
+    - generic: Checkouts
+  - button "Conv. Rate":
+    - generic: Conv. Rate
+  - button "AOV":
+    - generic: AOV
+  - button "RPV":
+    - generic: RPV
+  - button "Direct 704 (80.0%) £0.00 0 0.0% £0.00 £0.00":
+    - generic "Direct"
+    - generic: "704"
+    - generic: (80.0%)
+    - generic: £0.00
+    - generic: "0"
+    - generic: 0.0%
+    - generic: £0.00
+    - generic: £0.00
+  - button "Social 117 (13.3%) £0.00 0 0.0% £0.00 £0.00":
+    - generic "Social"
+    - generic: "117"
+    - generic: (13.3%)
+    - generic: £0.00
+    - generic: "0"
+    - generic: 0.0%
+    - generic: £0.00
+    - generic: £0.00
+  - button "Search 55 (6.25%) £0.00 0 0.0% £0.00 £0.00":
+    - generic "Search"
+    - generic: "55"
+    - generic: (6.25%)
+    - generic: £0.00
+    - generic: "0"
+    - generic: 0.0%
+    - generic: £0.00
+    - generic: £0.00
+  - button "Referral 4 (0.45%) £0.00 0 0.0% £0.00 £0.00":
+    - generic "Referral"
+    - generic: "4"
+    - generic: (0.45%)
+    - generic: £0.00
+    - generic: "0"
+    - generic: 0.0%
+    - generic: £0.00
+    - generic: £0.00
+  - generic: Edit
+- button:
+  - generic: 0 updates
+- button:
+  - generic: 0 updates

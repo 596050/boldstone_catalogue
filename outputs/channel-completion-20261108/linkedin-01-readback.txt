@@ -1,0 +1,214 @@
+Window: "Post | LinkedIn", App: Google Chrome.
+0 standard window Post | LinkedIn - High memory usage - 984 MB - Google Chrome – Tom, URL: linkedin.com/feed/update/urn:li:activity:7525273686849912832/, Secondary Actions: Raise
+	1 container Post | LinkedIn - High memory usage - 984 MB - Google Chrome – Tom, URL: linkedin.com/feed/update/urn:li:activity:7525273686849912832/
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: linkedin.com/feed/update/urn:li:activity:7525273686849912832/, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Post | LinkedIn, URL: linkedin.com/feed/update/urn:li:activity:7525273686849912832/
+						26 container
+							27 heading 1 notification, Value: 2
+								28 text 1 notification
+							29 container
+								30 text Post successful.
+								31 link View post, Value: linkedin.com/feed/update/urn:li:activity:7525273686849912832/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BEt8%2BFyigSxCHJ1%2BGgwZyjg%3D%3D
+								32 button Dismiss
+							33 container Skip navigation menu
+								34 container
+									35 button Skip to search
+									36 button Skip to main content
+									37 button Skip to primary content
+									38 button Skip to aside
+									39 button Skip to footer
+									40 button Close jump menu
+							41 button LinkedIn
+							42 container
+								43 container
+									44 text field (settable) Search
+							45 content list
+								46 button Home, 1 new notification
+								47 link Network, 2 new notifications, Value: linkedin.com/mynetwork
+								48 link Jobs, 0 new notifications, Value: linkedin.com/jobs/
+								49 link Messaging, 0 new notifications, Value: linkedin.com/messaging/
+								50 link Notifications, 5 new notifications, Value: linkedin.com/notifications/
+								51 button Me
+							52 content list
+								53 button For Business
+							54 button Try Premium for £0
+							55 container
+								56 container Sidebar
+									57 container
+										58 link linkedin.com/in/sally-price-1193858a/
+										59 link View Sally Price’s profile, Value: linkedin.com/in/sally-price-1193858a/
+										60 link Boldstone Sculpture, Value: linkedin.com/in/sally-price-1193858a/
+										61 link Achieve your career goals Don't miss: Premium for £0, Value: linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_homepage_identity_upsell%3ANav%3AIn-Product&referenceId=1%2FABkb3tRKmL4pf2LhWCYA%3D%3D&isSS=true&upsellSlotId=IDENTITY_MODULE
+										62 container Secondary Actions: Cancel
+											63 link Profile viewers 29, Value: linkedin.com/me/profile-views/
+											64 link Post impressions 230, Value: linkedin.com/analytics/creator/content/
+								65 container Primary content
+									66 container
+										67 heading Feed post, Value: 2
+											68 text Feed post
+										69 text Promote this post to reach people who matter to you.
+										70 link Boost, Value: linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberPostDetails&content=urn%3Ali%3Ashare%3A7525273685767913473&isNileReferrer=true
+										71 link linkedin.com/in/sally-price-1193858a/
+										72 container
+											73 link Sally Price You, Value: linkedin.com/in/sally-price-1193858a/
+											74 text Sculptor at Boldstone Sculpture | Bespoke wall sculpture, reliefs and water features for interiors, gardens and architecture | Working with designers and architects since 1998 now
+											75 link Sally Price You, Value: linkedin.com/in/sally-price-1193858a/
+										76 button Open control menu for post by Sally Price
+										77 container
+											78 text Brancusi Totem Relief - White
+											79 text A narrow wall can hold a strong sculptural rhythm.
+											80 text Brancusi Totem Relief brings a long, rippling line to the wall. The white surface lets the raised contours and their shadows do the work, changing quietly as the light moves.
+											81 text 100 × 22 × 8 cm. Made from a gypsum-based material. Suitable for outdoor use and indoor display.
+											82 text All designs can be customised, and completely new commissions can be developed with designer Sally Price.
+											83 text For homes, gardens and design projects. View the individual sculpture:
+											84 link Open https://lnkd.in/eSp39NWt, Value: linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FeSp39NWt&urlhash=230w&mt=0KRnYVoDrqUQmfe9377Nv4AGhMxAvvycA8C_s0HQMb1xwHTeyxI25QVQhYIFhNXrvMN084KEG7uQMw9T9lcVhCgCwgvLEjKDdWOjsz8iVAEM_l67DPkFeJUXOgtg4qgiphX8jSKIaeF5U-hVWMYj2Zwxl-jB6KM_tUJlNLoVL5jswHuC4U2ph1gwtjWH-DBNxw&isSdui=true
+											85 link View hashtag: #wallsculpture, Value: linkedin.com/search/results/all/?keywords=%23wallsculpture&origin=HASH_TAG_FROM_FEED
+											86 link View hashtag: #sallyprice, Value: linkedin.com/search/results/all/?keywords=%23sallyprice&origin=HASH_TAG_FROM_FEED
+											87 link View hashtag: #boldstone, Value: linkedin.com/search/results/all/?keywords=%23boldstone&origin=HASH_TAG_FROM_FEED
+											88 link View hashtag: #interiordesign, Value: linkedin.com/search/results/all/?keywords=%23interiordesign&origin=HASH_TAG_FROM_FEED
+											89 link View hashtag: #landscapedesign, Value: linkedin.com/search/results/all/?keywords=%23landscapedesign&origin=HASH_TAG_FROM_FEED
+										90 link linkedin.com/feed/update/urn:li:activity:7525273686849912832/
+										91 link Switch to different account, Value: linkedin.com/feed/update/urn:li:activity:7525273686849912832/
+										92 button Reaction button state: no reaction
+										93 button Open reactions menu
+										94 button Comment
+										95 button Repost
+										96 link Send, Value: linkedin.com/feed/update/urn:li:activity:7525273686849912832/
+										97 container
+											98 text entry area (settable) Text editor for creating comment, Value: Add a comment...
+
+												99 text Add a comment...
+											100 button Show Emoji Picker
+											101 pop-up button Open GIF picker
+											102 button Share photo
+										103 link linkedin.com/feed/update/urn:li:activity:7525273686849912832/
+								104 container Aside
+									105 container
+										106 link About, Value: about.linkedin.com/
+										107 link Accessibility, Value: linkedin.com/accessibility/
+										108 link Help Center, Value: linkedin.com/help/linkedin/
+										109 button Privacy & Terms
+										110 link Ad Choices, Value: linkedin.com/help/linkedin/answer/62931/
+										111 link Advertising, Value: linkedin.com/ad/start/?trk=n_nav_ads_rr
+										112 button Business Services
+										113 link Get the LinkedIn app, Value: linkedin.com/mobile/
+										114 link More, Value: linkedin.com/feed/update/urn:li:activity:7525273686849912832/
+										115 text LinkedIn Corporation © 2026
+							116 container
+								117 container
+									118 container
+										119 image Sally Price
+										120 text Status is online
+										121 button You are on the messaging overlay. Press enter to open the list of conversations.
+									122 container
+										123 button Open messenger dropdown menu
+										124 button Compose message
+										125 button You are on the messaging overlay. Press enter to open the list of conversations.
+									126 heading Page inboxes, Value: 3
+										127 text Page inboxes
+									128 text Click to see affiliated inboxes
+									129 button Page inboxes
+								130 container AI-powered assistant to get help with your career, jobs etc
+							131 HTML content (7) LinkedIn, URL: linkedin.com/preload/?_bprMode=vanilla
+								132 container
+									133 container Toast message
+										134 heading 0 notifications total, Value: 2
+											135 text 0 notifications total
+									136 container
+										137 button Skip to search
+										138 button Skip to main content
+										139 button Keyboard shortcuts
+										140 button Close jump menu
+									141 container Global Navigation
+										142 link LinkedIn, Value: linkedin.com/feed/foryou/
+										143 container
+											144 combo box (settable) Search
+										145 container Primary Navigation
+											146 content list
+												147 link new feed updates notifications Home, Value: linkedin.com/feed/foryou/
+												148 link 2 new network updates notifications Network, Value: linkedin.com/mynetwork/?
+												149 link Jobs, Value: linkedin.com/jobs/?
+												150 link Messaging, Value: linkedin.com/messaging/?
+												151 link 5 new notifications Notifications, Value: linkedin.com/notifications/?
+												152 button Sally Price Me
+												153 button For Business
+												154 link Try Premium for £0, Value: linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_nav_upsell_text%3ANav%3AIn-Product&referenceId=yto%2BR01kSO6b6i9KuJfVig%3D%3D&isSS=false&upsellSlotId=NAV_SPOTLIGHT&destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fupdate%2Furn%3Ali%3Aactivity%3A7525273686849912832%2F
+			155 pop-up button Tab search
+			156 container
+				157 tab group
+					158 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					159 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					160 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					161 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					162 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					163 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					164 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					165 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					166 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					167 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					168 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					169 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					170 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					171 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					172 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					173 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					174 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					175 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					176 tab (settable, boolean) Meta Business Suite, Value: off
+					177 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					178 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					179 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					180 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					181 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					182 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					183 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					184 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 999 MB, Value: off
+					185 tab (settable, boolean) Boldstone · Review room, Value: off
+					186 tab (selected, settable, boolean) Post | LinkedIn - High memory usage - 984 MB, Value: on
+			187 button New tab
+	188 close button
+	189 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	190 minimise button
+191 menu bar
+	192 Chrome
+	193 File
+	194 Edit
+	195 View
+	196 History
+	197 Bookmarks
+	198 Profiles
+	199 Tab
+	200 Window
+	201 Help
+
+The focused UI element is 31 link View post, Value: linkedin.com/feed/update/urn:li:activity:7525273686849912832/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BEt8%2BFyigSxCHJ1%2BGgwZyjg%3D%3D

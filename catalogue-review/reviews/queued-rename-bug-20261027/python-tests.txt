@@ -1,0 +1,41 @@
+127.0.0.1 - - [27/Oct/2026 12:30:09] "POST /api/deletions/execute-batch HTTP/1.1" 403 -
+127.0.0.1 - - [27/Oct/2026 12:30:09] "POST /api/deletions/execute-batch HTTP/1.1" 202 -
+127.0.0.1 - - [27/Oct/2026 12:30:09] "POST /api/deletions/execute-batch HTTP/1.1" 202 -
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 403: 'Forbidden'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+/Users/tprice/Documents/boldstone/catalogue-review/component_links.py:55: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106a75460>
+  aliases[name[:-len(suffix)]].update(pids)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/component_links.py:55: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106a74740>
+  aliases[name[:-len(suffix)]].update(pids)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/component_links.py:55: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106a74ac0>
+  aliases[name[:-len(suffix)]].update(pids)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/component_links.py:55: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106a75a80>
+  aliases[name[:-len(suffix)]].update(pids)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/component_links.py:55: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106a74900>
+  aliases[name[:-len(suffix)]].update(pids)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/component_links.py:55: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106a749e0>
+  aliases[name[:-len(suffix)]].update(pids)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/component_links.py:55: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106a742e0>
+  aliases[name[:-len(suffix)]].update(pids)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/component_links.py:55: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106a74820>
+  aliases[name[:-len(suffix)]].update(pids)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/component_links.py:55: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106a74040>
+  aliases[name[:-len(suffix)]].update(pids)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/component_links.py:55: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106a743c0>
+  aliases[name[:-len(suffix)]].update(pids)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+All filename work verified. App native jobs released.
+All filename work verified. App native jobs released.
+----------------------------------------------------------------------
+Ran 233 tests in 2.606s
+
+OK

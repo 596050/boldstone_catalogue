@@ -1,0 +1,374 @@
+Window: "Islington Shellmoon Fountain - White — boldstone", App: Google Chrome.
+0 standard window Islington Shellmoon Fountain - White — boldstone - High memory usage - 993 MB - Google Chrome – Tom, URL: caper-spinach-spcy.squarespace.com/config/, Secondary Actions: Raise
+	1 container Islington Shellmoon Fountain - White — boldstone - High memory usage - 993 MB - Google Chrome – Tom, URL: caper-spinach-spcy.squarespace.com/config/
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: caper-spinach-spcy.squarespace.com/config/, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 1
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Islington Shellmoon Fountain - White — boldstone, URL: caper-spinach-spcy.squarespace.com/config/
+						27 container
+							28 container Website pages and features
+							29 container
+								30 container
+									31 button CANCEL
+									32 heading Edit Islington Shellmoon Fountain - White, Value: 1
+										33 text Edit Islington Shellmoon Fountain - White
+									34 text Physical Product
+									35 content list
+										36 button Delete
+										37 button Duplicate
+										38 button (disabled) SAVE
+								39 container
+									40 container Product sections
+										41 button Details
+										42 button Forms
+										43 button Images
+										44 button Inventory
+										45 button Payment options
+										46 text New
+										47 button Fulfillment
+										48 button Organization
+										49 button Taxes
+										50 button Selling Tools
+										51 button Marketing
+									52 container
+										53 heading Details, Value: 2
+											54 text Details
+										55 text Product name
+										56 text field (settable) Product name, Value: Islington Shellmoon Fountain - White, Placeholder: Eucalyptus Face Scrub
+										57 text Description
+										58 text entry area (settable) A shell-inspired form meets a lunar curve in a relief with flowing, organic movement. The raised contours gather light, while recesses create a softer rhythm of shadows.
+Its mood sits between shoreline and night sky, making a restful focal point for a garden or interior. This is the water-feature version; please contact us to discuss the installation and water-system requirements.
+The white finish keeps the focus on the form and its changing shadows.
+•Brand: Boldstone
+•Product type: Sculptural water-feature panel
+•Model: Islington Shellmoon Fountain - White (BOLD-22B6E4FB3DD8)
+•Colour / appearance: White marble stone finish
+•Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+•Material: Made from a gypsum-based material.
+•Dimensions: 70 cm wide × 50 cm high × 5–7 cm panel depth
+•Weight: Approximately 12–15 kg dry panel; excludes basin, pump and water
+•Use: Suitable for outdoor use and indoor display.
+•Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+•Availability: Ready to dispatch
+•Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+•Dispatch time: Within 10 working days. Delivery transit time is additional.
+•Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+											59 text A shell-inspired form meets a lunar curve in a relief with flowing, organic movement. The raised contours gather light, while recesses create a softer rhythm of shadows.
+											60 text Its mood sits between shoreline and night sky, making a restful focal point for a garden or interior. This is the water-feature version; please contact us to discuss the installation and water-system requirements.
+											61 text The white finish keeps the focus on the form and its changing shadows.
+											62 content list
+												63 container
+													64 text • Brand:  Boldstone
+												65 container
+													66 text • Product type:  Sculptural water-feature panel
+												67 container
+													68 text • Model:  Islington Shellmoon Fountain - White (BOLD-22B6E4FB3DD8)
+												69 container
+													70 text • Colour / appearance:  White marble stone finish
+												71 container
+													72 text • Quantity supplied:  1 individually described sculpture or panel. Other pieces and room props shown are not included.
+												73 container
+													74 text • Material:  Made from a gypsum-based material.
+												75 container
+													76 text • Dimensions:  70 cm wide × 50 cm high × 5–7 cm panel depth
+												77 container
+													78 text • Weight:  Approximately 12–15 kg dry panel; excludes basin, pump and water
+												79 container
+													80 text • Use:  Suitable for outdoor use and indoor display.
+												81 container
+													82 text • Fixings:  Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+												83 container
+													84 text • Availability:  Ready to dispatch
+												85 container
+													86 text • Custom design:  All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+												87 container
+													88 text • Dispatch time:  Within 10 working days. Delivery transit time is additional.
+												89 container
+													90 text • Delivery:  Delivery is quoted separately. Please contact us for UK and international delivery options.
+										91 text Button Text
+										92 text field (settable) Button Text, Placeholder: Add to Cart
+									93 container
+										94 heading Forms, Value: 2
+											95 text Forms
+										96 text Add to Cart Form
+										97 text Collect extra information from shoppers when they add this item to their cart. Form responses are displayed in your order details.
+										98 button ADD
+									99 container
+										100 heading Images, Value: 2
+											101 text Images
+										102 sortable Close view of the white Battersea Shellmoon 3 Water Feature relief, showing the coiled centre and texture. 50% from left, 50% from top Featured image pin open image action menu
+											103 image Close view of the white Battersea Shellmoon 3 Water Feature relief, showing the coiled centre and texture.
+											104 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											105 button Featured image pin
+											106 button open image action menu
+										107 sortable White Battersea Shellmoon 3 Water Feature relief with a textured horizontal spiral and curved lower band. 50% from left, 50% from top Featured image pin open image action menu
+											108 image White Battersea Shellmoon 3 Water Feature relief with a textured horizontal spiral and curved lower band.
+											109 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											110 button Featured image pin
+											111 button open image action menu
+										112 sortable Islington Shellmoon Fountain - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											113 image Islington Shellmoon Fountain - White - in situ
+											114 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											115 button Featured image pin
+											116 button open image action menu
+										117 sortable Islington Shellmoon Fountain - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											118 image Islington Shellmoon Fountain - White - in situ
+											119 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											120 button Featured image pin
+											121 button open image action menu
+										122 sortable Islington Shellmoon Fountain - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											123 image Islington Shellmoon Fountain - White - in situ
+											124 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											125 button Featured image pin
+											126 button open image action menu
+										127 sortable Islington Shellmoon Fountain - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											128 image Islington Shellmoon Fountain - White - in situ
+											129 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											130 button Featured image pin
+											131 button open image action menu
+										132 sortable Islington Shellmoon Fountain - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											133 image Islington Shellmoon Fountain - White - in situ
+											134 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											135 button Featured image pin
+											136 button open image action menu
+										137 sortable Islington Shellmoon Fountain - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											138 image Islington Shellmoon Fountain - White - in situ
+											139 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											140 button Featured image pin
+											141 button open image action menu
+										142 sortable Islington Shellmoon Fountain - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											143 image Islington Shellmoon Fountain - White - in situ
+											144 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											145 button Featured image pin
+											146 button open image action menu
+										147 sortable Islington Shellmoon Fountain - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											148 image Islington Shellmoon Fountain - White - in situ
+											149 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											150 button Featured image pin
+											151 button open image action menu
+										152 sortable Islington Shellmoon Fountain - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											153 image Islington Shellmoon Fountain - White - in situ
+											154 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											155 button Featured image pin
+											156 button open image action menu
+										157 sortable Islington Shellmoon Fountain - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											158 image Islington Shellmoon Fountain - White - in situ
+											159 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											160 button Featured image pin
+											161 button open image action menu
+										162 sortable Islington Shellmoon Fountain - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											163 image Islington Shellmoon Fountain - White - in situ
+											164 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											165 button Featured image pin
+											166 button open image action menu
+										167 sortable Islington Shellmoon Fountain - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											168 image Islington Shellmoon Fountain - White - in situ
+											169 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											170 button Featured image pin
+											171 button open image action menu
+										172 button
+										173 button Change featured image
+										174 text Featured image
+										175 button open image action menu
+									176 container
+										177 heading Inventory, Value: 2
+											178 text Inventory
+										179 content list
+											180 container
+												181 text Price
+												182 text On sale
+												183 Tick box On sale, Value: 0
+												184 text £
+												185 stepper (settable, float) Price, Value: 92.36, Placeholder: 0.00
+												186 button increment
+												187 button decrement
+										188 text Stock
+										189 container
+											190 text Unlimited
+											191 Tick box Unlimited, Value: 1
+										192 text ∞
+										193 stepper (disabled) Stock, Value: 0, Secondary Actions: Increment, Decrement
+										194 button (disabled) increment
+										195 button (disabled) decrement
+										196 text SKU
+										197 container More info
+											198 image
+										199 text field (settable) SKU, Value: BOLD-22B6E4FB3DD8, Placeholder: Add SKU
+										200 text GTIN
+										201 container More info
+											202 image
+										203 text field (settable) GTIN, Placeholder: Add GTIN, UPC, EAN, JAN, ISBN
+										204 text MPN
+										205 container More info
+											206 image
+										207 text field (settable) MPN, Placeholder: Add MPN
+										208 text Variants
+										209 text Sell different versions of the same product. For example, a shirt that comes in multiple colors or sizes.
+										210 button ADD
+										211 text Quantity limits New
+										212 Tick box enable or disable the showing of the Number input for Quantity limits, Value: 0
+										213 text Set the maximum quantity a customer can buy in a single order.
+									214 container
+										215 heading Payment options, Value: 2
+											216 text Payment options
+										217 container Subscriptions
+											218 text Subscriptions
+											219 text Charge customers on a recurring basis and offer discounts on repeat purchases. Subscriptions aren't available for products with add-ons.
+											220 button ADD
+									221 container
+										222 heading Fulfillment, Value: 2
+											223 text Fulfillment
+										224 text Fulfillment profiles
+										225 text Allow buyers to select how they'd like to receive this product. For example, Local Pickup or Ground Shipping.
+										226 combo box (settable) Fulfillment profiles, Value: Default
+											227 text Default
+											228 image
+										229 button SET UP
+										230 text Weight and dimensions
+										231 text Enabled
+										232 text Supports automated or weight-based shipping rates.
+										233 text 0 × 0 × 0 in · 36.38 lb
+										234 button Edit weight and dimensions
+										235 button Delete weight and dimensions
+									236 container
+										237 heading Organization, Value: 2
+											238 text Organization
+										239 text Visibility
+										240 combo box (settable) Visibility, Value: Public
+											241 text Public
+											242 image
+										243 text Tags
+										244 container
+											245 text Add keywords to connect related products. Tags can be used to create filters on your store page.
+											246 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/articles/231746347-Styling-store-pages#h_01JGPPMPYWYDKVHP17DKR1HA4F
+										247 combo box (settable) Tags, Placeholder: Add
+										248 text Wall Sculptures
+										249 button Remove Wall Sculptures
+										250 text Shellmoon
+										251 button Remove Shellmoon
+										252 text Catalogue 2026
+										253 button Remove Catalogue 2026
+										254 text BSI-22B6E4FB3DD8
+										255 button Remove BSI-22B6E4FB3DD8
+										256 container Categories
+											257 text Categories
+											258 text Create categories to bucket products. Categories will appear in the store's navigation.
+											259 container
+												260 text Sculpture
+												261 button Edit categories
+												262 button Remove all categories
+									263 container
+										264 heading Taxes, Value: 2
+											265 text Taxes
+										266 container Product Specific Tax Code
+											267 text Product Specific Tax Code
+											268 container
+												269 text Product specific tax codes are used to calculate correct tax rates during checkout. 
+												270 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/sections/200825098
+											271 container
+												272 container stripe-connect-ui-layer-stripe-connect-product-tax-code-selector
+									273 container
+										274 heading Selling Tools, Value: 2
+											275 text Selling Tools
+										276 text Add-ons
+										277 container
+											278 text Upsell customers with product add-ons directly on the product page. Products with subscriptions or more than one variant option are not available as add-ons. 
+											279 link Learn more, Value: support.squarespace.com/hc/articles/21149527560205
+										280 button ADD
+										281 text Featured Product
+										282 text Featured Products can be displayed in Summary Blocks on your page.
+										283 container
+											284 Tick box Featured Product, Value: 0
+										285 text Related Products
+										286 text Showcase similar items on your Product Pages.
+										287 button Set up Related Products
+										288 text Product Reviews
+										289 container
+											290 text Show customer reviews directly on all product pages. Manage this feature in 
+											291 button Selling
+											292 text .
+										293 button Set up product reviews
+									294 container
+										295 heading Marketing, Value: 2
+											296 text Marketing
+										297 text SEO and URL Islington Shellmoon Fountain - White — boldstone https://boldstonesculpture.com/buy/p/islington-shellmoon-white-water-feature This description will automatically be generated by search engines. You can add your own description by editing.
+										298 button EDIT
+			299 pop-up button Tab search
+			300 container
+				301 tab group
+					302 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					303 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					304 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					305 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					306 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					307 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					308 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					309 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					310 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					311 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					312 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					313 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					314 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					315 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					316 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					317 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					318 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					319 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					320 tab (settable, boolean) Meta Business Suite, Value: off
+					321 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					322 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					323 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					324 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					325 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					326 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					327 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					328 tab (selected, settable, boolean) Islington Shellmoon Fountain - White — boldstone - High memory usage - 993 MB, Value: on
+					329 tab (settable, boolean) Boldstone · Review room, Value: off
+					330 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					331 tab (settable, boolean) google-wall-sculptures-supplement.tsv details - Merchant Center, Value: off
+			332 button New tab
+	333 close button
+	334 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	335 minimise button
+336 menu bar
+	337 Chrome
+	338 File
+	339 Edit
+	340 View
+	341 History
+	342 Bookmarks
+	343 Profiles
+	344 Tab
+	345 Window
+	346 Help
+
+The focused UI element is 347 container

@@ -1,0 +1,370 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: Boldstone Fingerprint Rings I - Cream Finish Wall sculpture, Placeholder: Search Products
+									48 link
+								49 button 1
+									50 container
+										51 Tick box 1
+									52 text 1
+								53 container
+									54 text 3  /  3
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container
+										64 Unlabelled image /00034705901849CA_M.avif
+										65 text Boldstone Fingerprint Rings III - Cream Finish Wall sculpture
+										66 text BOLD-A9C6379B224B CREAM FINISH
+										67 container
+											68 text 104.93  GBP
+									69 container
+										70 Unlabelled image /00034705896CD7F2_M.avif
+										71 text Boldstone Fingerprint Rings II - Cream Finish Wall sculpture
+										72 text BOLD-061791F55EAD CREAM FINISH
+										73 container
+											74 text 104.93  GBP
+									75 container
+										76 Unlabelled image /0003470588357998_M.avif
+										77 text Boldstone Fingerprint Rings I - Cream Finish Wall sculpture
+										78 text BOLD-DDF9748D271D CREAM FINISH
+										79 container
+											80 text 104.93  GBP
+							81 container
+								82 content list
+									83 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								84 container
+									85 heading Presentations, Value: 5
+										86 text Presentations
+									87 button New
+									88 content list
+										89 link ALL, Value: manage.brandboom.com/products/s/111089#
+										90 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									91 container
+										92 link
+											93 image
+										94 search text field (settable) Search Presentations
+										95 link
+											96 image
+									97 container
+										98 text Wall Sculptures - 50 Preview
+										99 link Edit Name
+											100 image
+										101 link Duplicate
+											102 image
+										103 text GBP
+										104 link
+											105 image
+								106 heading Ship Windows, Value: 5
+									107 text Ship Windows
+								108 content list
+									109 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									110 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								111 text No active ship windows
+							112 container
+								113 button Cancel
+								114 button Select All
+								115 text 1 Item
+								116 button Search Order
+							117 link Reset
+								118 text Reset
+							119 button Apply
+							120 text PRODUCT STATUS
+							121 text Active
+							122 text Inactive
+							123 text Archived
+							124 text Corrupted
+							125 text No Images
+							126 text SORT BY
+							127 pop-up button Newest First
+								128 (selected) Newest First
+							129 text SHIP DATE RANGE
+							130 container
+								131 image
+								132 text field (settable) Click to select range
+							133 text No Date Range
+							134 text CREATE DATE RANGE
+							135 container
+								136 image
+								137 text field (settable) Click to select range
+							138 text SIZES
+							139 text field (settable) S, M, L
+							140 text VENDORS
+							141 text Boldstone
+							142 text TYPES
+							143 link
+								144 image
+							145 text No Types
+							146 text Home Decor
+							147 text Mens
+							148 text Womens
+							149 text CATEGORIES
+							150 link
+								151 image
+							152 link
+								153 image
+							154 text No Categories
+							155 text Sweater
+							156 text Wall Sculpture
+							157 text SEASONS
+							158 link
+								159 image
+							160 link
+								161 image
+							162 text No Seasons
+							163 text Year-round
+							164 container
+								165 container
+									166 Tick box Create another, Value: 0
+									167 text Create another
+								168 button Save
+								169 container
+									170 Unlabelled image /0003470588357998_M.avif
+									171 container
+										172 image /0003470588357998_S.avif
+										173 button STANDARD
+										174 image /000347058840992B_S.avif
+										175 button STANDARD
+										176 image /0003470588548A6E_S.avif
+										177 button STANDARD
+										178 image /000347058862E4A1_S.avif
+										179 button STANDARD
+										180 image /000347058872C052_S.avif
+										181 button STANDARD
+										182 image /00034705888E07B0_S.avif
+										183 button STANDARD
+										184 image /00034736688D8649_S.avif
+										185 button STANDARD
+										186 image /0003473668934BCC_S.avif
+										187 button STANDARD
+										188 image /0003473669028FD9_S.avif
+										189 button STANDARD
+										190 image /00034736691BED59_S.avif
+										191 button STANDARD
+										192 image /0003473669243A6F_S.avif
+										193 button STANDARD
+										194 image /00034736693060C7_S.avif
+										195 button STANDARD
+										196 image /000347366942C817_S.avif
+										197 button STANDARD
+										198 image /0003473669518E38_S.avif
+										199 button STANDARD
+										200 image
+										201 image
+									202 image
+									203 text 14 / Unlimited
+									204 image
+									205 text 0 / 1
+									206 text Drag to reorder
+									207 container
+										208 text Style ID *
+										209 text BOLD-DDF9748D271D
+									210 container
+										211 text Options
+										212 link Cream finish
+											213 text Cream finish
+									214 container
+										215 text Sizes
+										216 text One sculpture
+									217 text Barcode
+									218 container
+										219 button
+										220 text field (settable)
+									221 text Name
+									222 text field (settable) Boldstone Fingerprint Rings I - Cream Finish Wall sculpture
+									223 container Price
+										224 container
+											225 text Price
+											226 text field (settable) Value: 104.93, Placeholder: Enter
+									227 container Retail
+										228 container
+											229 text Retail
+											230 text field (settable) Value: 0.00, Placeholder: Enter
+									231 text Qty Min
+									232 text field (settable) 1
+									233 text Vendor
+									234 text field (settable) Boldstone
+									235 text Type
+									236 text field (settable) Home Decor
+									237 text Category
+									238 text field (settable) Wall Sculpture
+									239 text Taxonomy
+									240 text field (settable) Value: Home Decor / Wall Decor / Wall Art, Placeholder: Select
+									241 text Season
+									242 text field (settable) Year-round
+									243 text Ship Date
+									244 text field (settable)
+									245 container
+										246 text HS Code
+										247 text field (settable) HS Code
+									248 container Country Of Origin
+										249 container
+											250 text Country Of Origin
+											251 button -
+									252 container
+										253 text Description
+										254 container
+											255 text Concentric lines ripple across the surface in a pattern reminiscent of a fingerprint. The familiar becomes abstract, with repeated ridges giving the relief a gentle, absorbing rhythm.
+											256 text It is an invitation to slow down and notice small details: the trace of a line, the space between rings and the way light moves across them.
+											257 text The cream finish brings a soft, warm tone to the design.
+											258 text Companion pieces: This is one piece of a coordinating group with Fingerprint Rings II and Fingerprint Rings III. Companion sculptures are sold separately; this listing is for one sculpture only.
+											259 text Brand: Boldstone
+											260 text Product type: Wall sculpture
+											261 text Model: Fingerprint Rings I - Cream Finish (BOLD-DDF9748D271D)
+											262 text Colour / appearance: Cream finish
+											263 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											264 text Material: Made from a gypsum-based material.
+											265 text Surface effect: A decorative surface effect is applied to create the finish shown. Each piece is handmade. The surface-effect pattern will vary and will differ from the photographs.
+											266 text Dimensions: 40 × 40 cm; approximately 3 cm deep
+											267 text Weight: Approximately 6 kg (range 4–9 kg) per panel
+											268 text Use: Suitable for outdoor use and indoor display.
+											269 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											270 text Availability: Ready to dispatch
+											271 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											272 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											273 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							274 link
+								275 image
+							276 container
+								277 content list
+									278 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									279 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								280 container
+									281 button Upload Images
+									282 button
+									283 button
+									284 button
+								285 container
+									286 Unlabelled image /000347368438D172_S.avif
+									287 text file.jpg
+									288 Unlabelled image /00011059388E43A7_S.avif
+									289 text toys-dinosaur
+									290 Unlabelled image /00011059387A69BA_S.avif
+									291 text baby-kidswear-t
+									292 Unlabelled image /000110593863557B_S.avif
+									293 text pet-sticks
+									294 Unlabelled image /00011059385C1D4E_S.avif
+									295 text apparel-t-shirt
+									296 Unlabelled image /00011059384494BB_S.avif
+									297 text footwear-shoes
+									298 Unlabelled image /000110593837D96A_S.avif
+									299 text beauty-cream
+									300 Unlabelled image /00011059382B4683_S.avif
+									301 text home-pitcher
+									302 Unlabelled image /00007087863E986B_S.avif
+									303 text BOOM1111
+									304 Unlabelled image /0000022409830BD3_S.avif
+									305 text BOOM1830
+									306 Unlabelled image /00000224097C30D6_S.avif
+									307 text BOOM1705
+									308 Unlabelled image /00000224096AD0BE_S.avif
+									309 text BOOM1100
+							310 button Close
+							311 text Search Products
+							312 button Scan barcodes
+							313 container
+								314 link
+									315 image
+								316 search text field (settable) Search for Products
+							317 text RESULTS
+							318 button Open Intercom Messenger
+			319 pop-up button Tab search
+			320 container
+				321 tab group
+					322 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					323 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					324 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					325 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					326 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					327 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					328 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					329 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					330 tab (settable, boolean) SEO opportunity audit, Value: off
+					331 tab group  group ✅Claude – 2 Tabs, •  Inbox (113) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					332 tab (settable, boolean) Value: off, Inbox (113) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1.1 GB
+					333 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					334 tab (settable, boolean) Drafts (1,333) - tppricet@gmail.com - Gmail, Value: off
+					335 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					336 tab (settable, boolean) Bookmarks, Value: off
+					337 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					338 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					339 tab (settable, boolean) Boldstone Sculpture | Wall Sculptures - 50 Preview, Value: off
+					340 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					341 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						342 button Close
+					343 tab (settable, boolean) 000347063570B5C6_M.avif (600×600), Value: off
+			344 button New tab
+	345 close button
+	346 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	347 minimise button
+348 menu bar
+	349 Chrome
+	350 File
+	351 Edit
+	352 View
+	353 History
+	354 Bookmarks
+	355 Profiles
+	356 Tab
+	357 Window
+	358 Help
+
+The focused UI element is 27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089

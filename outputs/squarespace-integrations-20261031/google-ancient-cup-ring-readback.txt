@@ -1,0 +1,238 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Navigation menu" [expanded]:
+    - img: menu
+  - link "Merchant Center home":
+    - /url: /mc/overview?a=5664655454&authuser=1
+    - img "Merchant Center home"
+  - button "Search":
+    - img: search
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone Sculpture, 5664655454"':
+    - generic: Boldstone Sculpture
+    - generic: "5664655454"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- navigation:
+  - tree "Navigation":
+    - treeitem "Overview" [level=1]:
+      - img: dashboard
+      - generic: Overview
+    - treeitem "Notifications 8" [level=1]:
+      - img: notifications
+      - generic: Notifications
+      - generic: "8"
+    - treeitem "Products & store" [expanded] [level=1]:
+      - img: inventory_2
+      - generic: Products & store
+      - img: arrow_drop_down
+      - treeitem "Products" [level=2]:
+        - generic: Products
+      - treeitem "Shipping and returns" [level=2]:
+        - generic: Shipping and returns
+      - treeitem "Store quality" [level=2]:
+        - generic: Store quality
+    - treeitem "Creative content" [level=1]:
+      - img: brush_spark
+      - generic: Creative content
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Product Studio
+      - treeitem [disabled] [level=2]:
+        - generic: Video assets
+    - treeitem "Marketing" [level=1]:
+      - img: campaign
+      - generic: Marketing
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Ad campaigns
+      - treeitem [disabled] [level=2]:
+        - generic: Marketing methods
+    - treeitem "Analytics" [level=1]:
+      - img: timeline
+      - generic: Analytics
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Summary
+      - treeitem [disabled] [level=2]:
+        - generic: Products
+      - treeitem [disabled] [level=2]:
+        - generic: Online store
+    - treeitem "Settings" [expanded] [level=1]:
+      - img: settings
+      - generic: Settings
+      - img: arrow_drop_down
+      - treeitem "General" [level=2]:
+        - generic: General
+      - treeitem "Business info" [level=2]:
+        - generic: Business info
+      - treeitem "Data sources" [level=2]:
+        - generic: Data sources
+      - treeitem "Add-ons" [level=2]:
+        - generic: Add-ons
+      - treeitem "Access and services" [level=2]:
+        - generic: Access and services
+- heading "Products" [level=1]
+- tablist:
+  - tab "All products" [selected]:
+    - generic: All products
+  - tab "Needs attention":
+    - generic: Needs attention
+  - tab "Automations":
+    - generic: Automations
+- main:
+  - button "Understand your product status changes" [expanded]:
+    - generic: Understand your product status changes
+    - img: expand_less
+  - region "Understand your product status changes":
+    - generic: This shows the status history for your products across various marketing methods. You can change the filters to view the product status for a specific marketing method.
+    - img: filter_alt
+    - generic: "Filters Applied:"
+    - grid "Filters Applied:":
+      - 'row "Time period: Last 28 days"':
+        - 'gridcell "Time period: Last 28 days"':
+          - 'button "Time period: Last 28 days"': "Time period: Last 28 days"
+      - 'row "Countries: All"':
+        - 'gridcell "Countries: All"':
+          - 'button "Countries: All"': "Countries: All"
+      - 'row "Marketing methods: Free listings"':
+        - 'gridcell "Marketing methods: Free listings"':
+          - 'button "Marketing methods: Free listings"': "Marketing methods: Free listings"
+      - 'row "Data sources: All"':
+        - 'gridcell "Data sources: All"':
+          - 'button "Data sources: All"': "Data sources: All"
+    - generic "Product status history":
+      - table:
+        - rowgroup:
+          - row "Approved Limited Not approved Under review":
+            - checkbox "Approved" [checked]:
+              - checkbox [checked]
+              - generic: Approved
+            - checkbox "Limited" [checked]:
+              - checkbox [checked]
+              - generic: Limited
+            - checkbox "Not approved" [checked]:
+              - checkbox [checked]
+              - generic: Not approved
+            - checkbox "Under review" [checked]:
+              - checkbox [checked]
+              - generic: Under review
+      - generic: Product status history, Stacked area chart. Use the arrow keys to navigate inside the chart.
+  - heading "Your products have been reviewed" [level=2]
+  - generic: Some of your products might need attention. Start fixing them to show your products to customers.
+  - button "Got it. Close welcome message":
+    - generic: Got it
+  - button "View what needs attention":
+    - generic: View what needs attention
+  - tablist:
+    - generic "Total products 495":
+      - generic: Total products
+      - button "More information about Total products metric":
+        - img "More information about Total products metric": help_outline
+      - 'tab "495 value. Update reports to show: Total products" [selected]': "495"
+    - generic "Provided by you 325":
+      - generic: Provided by you
+      - button "More information about Provided by you metric":
+        - img "More information about Provided by you metric": help_outline
+      - 'tab "325 value. Update reports to show: Provided by you"': "325"
+    - generic "More found by Google 170":
+      - generic: More found by Google
+      - button "More information about More found by Google metric":
+        - img "More information about More found by Google metric": help_outline
+      - 'tab "170 value. Update reports to show: More found by Google"': "170"
+    - generic "Not showing on Google 495":
+      - generic: Not showing on Google
+      - button "More information about Not showing on Google metric":
+        - img "More information about Not showing on Google metric": help_outline
+      - 'tab "495 value. Update reports to show: Not showing on Google"': "495"
+  - button "Add products from a dropdown options, menu popup button":
+    - generic: Add products
+    - img: arrow_drop_down
+  - generic: Last updated at 11:52 AM Oct 31, 2026
+  - dialog "Search":
+    - img: search
+    - textbox "Search products" [active]: ProductID:"8b2082c8-ed12-43a1-935a-778b69a7f224"
+    - generic: Product ID contains '8b2082c8-ed12-43a1-935a-778b69a7f224'
+    - listbox "Search results"
+    - button "Cancel search":
+      - img: close
+  - button "Show filtering options":
+    - img: filter_alt
+  - button "'Columns' lets you modify the columns you see in your table. Click the icon and select 'Modify columns.'":
+    - img: view_column
+  - button "Download products":
+    - img: file_download
+  - button "More actions":
+    - img: more_vert
+  - grid "Product list":
+    - row "Select all rows Visibility Status Image Title Product ID Price Suggested sale price Availability Data source Last update Clicks Click potential Edit":
+      - gridcell "Select all rows":
+        - checkbox "Select all rows" [disabled]:
+      - columnheader "Visibility"
+      - columnheader "Status"
+      - columnheader "Image"
+      - columnheader "Title"
+      - columnheader "Product ID"
+      - columnheader "Price"
+      - columnheader "Suggested sale price":
+        - text: Suggested sale price
+        - img: help_outline
+      - columnheader "Availability"
+      - columnheader "Data source"
+      - columnheader "Last update"
+      - columnheader "Clicks":
+        - text: Clicks
+        - img: help_outline
+      - columnheader "Click potential":
+        - text: Click potential
+        - img: help_outline
+      - columnheader "Edit"
+    - 'row "Select row Under review Edit this Visibility, currently UNDER_REVIEW Under review Thumbnail image for: Ancient Cup Ring - White Ancient Cup Ring - White Edit this Title, currently Ancient Cup Ring - White 8b2082c8-ed12-43a1-935a-778b69a7f224 Price: £60.22 - In stock Squarespace-1469f13b Oct 31, 2026 11:52:45 AM 0 Available soon Edit product: Ancient Cup Ring - White"':
+      - gridcell "Select row":
+        - checkbox "Select row":
+      - gridcell "Under review Edit this Visibility, currently UNDER_REVIEW":
+        - img "Under review": watch_later
+        - button "Edit this Visibility, currently UNDER_REVIEW"
+      - gridcell "Under review":
+        - generic: Under review
+      - 'gridcell "Thumbnail image for: Ancient Cup Ring - White"':
+        - 'img "Thumbnail image for: Ancient Cup Ring - White"'
+      - gridcell "Ancient Cup Ring - White Edit this Title, currently Ancient Cup Ring - White":
+        - link "Ancient Cup Ring - White":
+          - /url: /mc/items/details?a=5664655454&offerId=8b2082c8-ed12-43a1-935a-778b69a7f224&language=en&channel=0&feedLabel=US&authuser=1
+        - button "Edit this Title, currently Ancient Cup Ring - White"
+      - gridcell "8b2082c8-ed12-43a1-935a-778b69a7f224":
+        - generic: 8b2082c8-ed12-43a1-935a-778b69a7f224
+      - 'gridcell "Price: £60.22"':
+        - 'group "Price: £60.22"':
+          - generic: £60.22
+      - gridcell "-":
+        - generic: "-"
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "Squarespace-1469f13b":
+        - link "Squarespace-1469f13b":
+          - /url: /mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=1
+      - gridcell "Oct 31, 2026 11:52:45 AM":
+        - generic: Oct 31, 2026 11:52:45 AM
+      - gridcell "0":
+        - generic: "0"
+      - gridcell "Available soon":
+        - generic: Available soon
+      - 'gridcell "Edit product: Ancient Cup Ring - White"':
+        - 'link "Edit product: Ancient Cup Ring - White"':
+          - /url: /mc/directoffers/edit?a=5664655454&language=en&offerId=8b2082c8-ed12-43a1-935a-778b69a7f224&channel=0&feedLabel=US&authuser=1
+          - img: edit
+- contentinfo:
+  - link "Privacy Policy":
+    - /url: http://www.google.com/policies/privacy/
+  - generic: ·
+  - link "Terms of Service":
+    - /url: https://support.google.com/merchants/answer/160173?hl=en-US
+  - generic: ·
+  - link "Program Policies":
+    - /url: https://support.google.com/merchants/topic/7286989?hl=en-US
+- status

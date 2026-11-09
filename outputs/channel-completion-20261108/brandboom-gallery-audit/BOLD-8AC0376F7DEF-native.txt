@@ -1,0 +1,352 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - High memory usage - 907 MB - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - High memory usage - 907 MB - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: Boldstone Moon Fish Wave II - White Wall sculpture, Placeholder: Search Products
+									48 link
+								49 button All
+									50 container
+										51 Tick box 0
+									52 text All
+								53 container
+									54 text 2  /  2
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container
+										64 Unlabelled image /0003470609198559_M.avif
+										65 text Boldstone Moon Fish Wave II - White Wall sculpture
+										66 text BOLD-8AC0376F7DEF WHITE MARBLE STONE FINISH
+										67 container
+											68 text 144.42  GBP
+									69 container
+										70 Unlabelled image /00034706083C8DB2_M.avif
+										71 text Boldstone Moon Fish Wave I - White Wall sculpture
+										72 text BOLD-992BA62AA818 WHITE MARBLE STONE FINISH
+										73 container
+											74 text 144.42  GBP
+							75 container
+								76 content list
+									77 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								78 container
+									79 heading Presentations, Value: 5
+										80 text Presentations
+									81 button New
+									82 content list
+										83 link ALL, Value: manage.brandboom.com/products/s/111089#
+										84 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									85 container
+										86 link
+											87 image
+										88 search text field (settable) Search Presentations
+										89 link
+											90 image
+									91 container
+										92 text Wall Sculptures - 50 Preview
+										93 link Edit Name
+											94 image
+										95 link Duplicate
+											96 image
+										97 text GBP
+								98 heading Ship Windows, Value: 5
+									99 text Ship Windows
+								100 content list
+									101 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									102 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								103 text No active ship windows
+							104 link Reset
+								105 text Reset
+							106 button Apply
+							107 text PRODUCT STATUS
+							108 text Active
+							109 text Inactive
+							110 text Archived
+							111 text Corrupted
+							112 text No Images
+							113 text SORT BY
+							114 pop-up button Newest First
+								115 (selected) Newest First
+							116 text SHIP DATE RANGE
+							117 container
+								118 image
+								119 text field (settable) Click to select range
+							120 text No Date Range
+							121 text CREATE DATE RANGE
+							122 container
+								123 image
+								124 text field (settable) Click to select range
+							125 text SIZES
+							126 text field (settable) S, M, L
+							127 text VENDORS
+							128 text Boldstone
+							129 text TYPES
+							130 link
+								131 image
+							132 text No Types
+							133 text Home Decor
+							134 text Mens
+							135 text Womens
+							136 text CATEGORIES
+							137 link
+								138 image
+							139 link
+								140 image
+							141 text No Categories
+							142 text Sweater
+							143 text Wall Sculpture
+							144 text SEASONS
+							145 link
+								146 image
+							147 link
+								148 image
+							149 text No Seasons
+							150 text Year-round
+							151 container
+								152 container
+									153 Tick box Create another, Value: 0
+									154 text Create another
+								155 button Save
+								156 container
+									157 Unlabelled image /0003470609198559_M.avif
+									158 container
+										159 image /0003470609198559_S.avif
+										160 button STANDARD
+										161 Unlabelled image /0003470608446D48_S.avif
+										162 button STANDARD
+										163 Unlabelled image /000347060854ED56_S.avif
+										164 button STANDARD
+										165 Unlabelled image /000347060861D8A6_S.avif
+										166 button STANDARD
+										167 Unlabelled image /00034706087B8FC0_S.avif
+										168 button STANDARD
+										169 Unlabelled image /0003470608826DB5_S.avif
+										170 button STANDARD
+										171 Unlabelled image /00034706089621C1_S.avif
+										172 button STANDARD
+										173 Unlabelled image /000347060903EDD3_S.avif
+										174 button STANDARD
+										175 Unlabelled image /00034736720145F8_S.avif
+										176 button STANDARD
+										177 Unlabelled image /00034736721EC078_S.avif
+										178 button STANDARD
+										179 Unlabelled image /0003473672278FC8_S.avif
+										180 button STANDARD
+										181 Unlabelled image /00034736723CB9FC_S.avif
+										182 button STANDARD
+										183 image
+										184 image
+									185 image
+									186 text 12 / Unlimited
+									187 image
+									188 text 0 / 1
+									189 text Drag to reorder
+									190 container
+										191 text Style ID *
+										192 text BOLD-8AC0376F7DEF
+									193 container
+										194 text Options
+										195 link White marble stone finish
+											196 text White marble stone finish
+									197 container
+										198 text Sizes
+										199 text One sculpture
+									200 text Barcode
+									201 container
+										202 button
+										203 text field (settable)
+									204 text Name
+									205 text field (settable) Boldstone Moon Fish Wave II - White Wall sculpture
+									206 container Price
+										207 container
+											208 text Price
+											209 text field (settable) Value: 144.42, Placeholder: Enter
+									210 container Retail
+										211 container
+											212 text Retail
+											213 text field (settable) Value: 0.00, Placeholder: Enter
+									214 text Qty Min
+									215 text field (settable) 1
+									216 text Vendor
+									217 text field (settable) Boldstone
+									218 text Type
+									219 text field (settable) Home Decor
+									220 text Category
+									221 text field (settable) Wall Sculpture
+									222 text Taxonomy
+									223 text field (settable) Value: Home Decor / Wall Decor / Wall Art, Placeholder: Select
+									224 text Season
+									225 text field (settable) Year-round
+									226 text Ship Date
+									227 text field (settable)
+									228 container
+										229 text HS Code
+										230 text field (settable) HS Code
+									231 container Country Of Origin
+										232 container
+											233 text Country Of Origin
+											234 button -
+									235 container
+										236 text Description
+										237 container
+											238 text Moon-like curves and a flowing fishwave motif bring a sense of movement to this relief. The surface draws the eye through a sequence of raised forms and quiet recesses.
+											239 text A sculptural daydream of water and night sky, suited to a restful interior or an outdoor wall with room to breathe.
+											240 text The white finish keeps the focus on the form and its changing shadows.
+											241 text Companion pieces: This is one piece of a coordinating pair with Moon Fish Wave I. Companion sculptures are sold separately; this listing is for one sculpture only.
+											242 text Brand: Boldstone
+											243 text Product type: Wall sculpture
+											244 text Model: Moon Fish Wave II - White (BOLD-8AC0376F7DEF)
+											245 text Colour / appearance: White marble stone finish
+											246 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											247 text Material: Made from a gypsum-based material.
+											248 text Dimensions: 55 × 42 cm; approximately 7 cm deep
+											249 text Weight: Approximately 8–10 kg
+											250 text Use: Suitable for outdoor use and indoor display.
+											251 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											252 text Availability: Ready to dispatch
+											253 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											254 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											255 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							256 link
+								257 image
+							258 container
+								259 content list
+									260 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									261 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								262 container
+									263 button Upload Images
+									264 button
+									265 button
+									266 button
+								267 container
+									268 Unlabelled image /000347368438D172_S.avif
+									269 text file.jpg
+									270 Unlabelled image /00011059388E43A7_S.avif
+									271 text toys-dinosaur
+									272 Unlabelled image /00011059387A69BA_S.avif
+									273 text baby-kidswear-t
+									274 Unlabelled image /000110593863557B_S.avif
+									275 text pet-sticks
+									276 Unlabelled image /00011059385C1D4E_S.avif
+									277 text apparel-t-shirt
+									278 Unlabelled image /00011059384494BB_S.avif
+									279 text footwear-shoes
+									280 Unlabelled image /000110593837D96A_S.avif
+									281 text beauty-cream
+									282 Unlabelled image /00011059382B4683_S.avif
+									283 text home-pitcher
+									284 Unlabelled image /00007087863E986B_S.avif
+									285 text BOOM1111
+									286 Unlabelled image /0000022409830BD3_S.avif
+									287 text BOOM1830
+									288 Unlabelled image /00000224097C30D6_S.avif
+									289 text BOOM1705
+									290 Unlabelled image /00000224096AD0BE_S.avif
+									291 text BOOM1100
+							292 button Close
+							293 text Search Products
+							294 button Scan barcodes
+							295 container
+								296 link
+									297 image
+								298 search text field (settable) Search for Products
+							299 text RESULTS
+							300 button Open Intercom Messenger
+			301 pop-up button Tab search
+			302 container
+				303 tab group
+					304 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					305 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					306 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					307 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					308 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					309 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					310 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					311 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					312 tab (settable, boolean) SEO opportunity audit, Value: off
+					313 tab group  group ✅Claude – 2 Tabs, •  Inbox (113) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					314 tab (settable, boolean) Value: off, Inbox (113) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1.1 GB
+					315 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					316 tab (settable, boolean) Drafts (1,333) - tppricet@gmail.com - Gmail, Value: off
+					317 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					318 tab (settable, boolean) Bookmarks, Value: off
+					319 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					320 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					321 tab (settable, boolean) Boldstone Sculpture | Wall Sculptures - 50 Preview, Value: off
+					322 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					323 tab (selected, settable, boolean) Boldstone Sculpture | Products - High memory usage - 907 MB, Value: on
+						324 button Close
+					325 tab (settable, boolean) 000347063570B5C6_M.avif (600×600), Value: off
+			326 button New tab
+	327 close button
+	328 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	329 minimise button
+330 menu bar
+	331 Chrome
+	332 File
+	333 Edit
+	334 View
+	335 History
+	336 Bookmarks
+	337 Profiles
+	338 Tab
+	339 Window
+	340 Help
+
+The focused UI element is 27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089

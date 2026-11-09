@@ -1,0 +1,66 @@
+Window: "Open", App: Google Chrome.
+0 sheet Description: open, ID: open-panel, Secondary Actions: Raise
+	1 split group
+		2 scroll area
+			3 outline sidebar
+				4 row (selectable) Description: clock, Value: Recents
+				5 row (selectable) Description: Shared Folder, Value: Shared
+				6 row (selectable, expanded) Value: Favourites, Secondary Actions: Collapse
+				7 row (selectable) Applications
+				8 row (selectable) Desktop
+				9 row (selectable) Description: document, Value: Documents
+				10 row (selectable) Description: Arrow Down Circle, Value: Downloads
+				11 row (selectable, expanded) Value: Locations, Secondary Actions: Collapse
+				12 row (selectable) Description: iCloud, Value: iCloud Drive
+				13 row (selectable) Description: home, Value: tprice
+				14 row (selectable, expanded) Value: Tags, Secondary Actions: Collapse
+				15 row (selectable) Red
+				16 row (selectable) Orange
+				17 row (selectable) Yellow
+				18 row (selectable) Blue
+				19 row (selectable) Green
+				20 row (selectable) Purple
+				21 row (selectable) Grey
+				22 row (selectable) Work
+				23 row (selectable) All Tags…
+				24 row (selectable, expanded) Value: Media, Secondary Actions: Collapse
+				25 row (selectable) Description: photo, Value: Photos
+		26 splitter (disabled, settable, float) 164
+		27 scroll area
+			28 collection Description: icon view, ID: IconView
+				29 section (disabled) Images
+					30 container
+						31 text Images
+						32 button Show Less, ID: groupDisclosureButton
+					33 image raked-spiral__raked-spiral-1-and-raked-spiral-2-and-raked-spiral-3-white-in-situ__004.jpg, Secondary Actions: open
+					34 image moonphases__moonphase-2-white-and-gold-in-situ__001.jpg, Secondary Actions: open
+					35 image moon-crater-phase__moon-crater-phase-3-verdigris-rust-in-situ__002.jpeg, Secondary Actions: open
+					36 image (selected) egyptian-palm__egyptian-palm-1-and-deco-palm-right-pewter-in-situ__001.JPG, Secondary Actions: open
+					37 image Islington Shellmoon 1.jpg, Secondary Actions: open
+					38 image moonphases__moonphase-1-and-moonphase-4-white__002.jpg, Secondary Actions: open
+					39 image moon-fishwave__moon-fishwave-1-and-moon-fishwave-2-white__003.JPG, Secondary Actions: open
+					40 image ammonite__ammonite-large-1-and-ammonite-large-2-white__010.jpg, Secondary Actions: open
+		41 container
+			42 button back
+			43 button (disabled) forward
+		44 menu button Description: Grid view, Help: Show as Icons, List or Columns, and hide/show the sidebar, ID: View Options
+		45 menu button Help: Change the item grouping (hold down Option to change the sort), ID: Group or Sort By
+		46 pop-up button Where:, Value: qualified-originals, ID: where popup
+		47 search text field Search
+			48 button search
+		49 button Show Options, ID: OptionsButton
+		50 button Cancel, ID: CancelButton
+		51 button Open, ID: OKButton
+52 menu bar
+	53 Chrome
+	54 File
+	55 Edit
+	56 View
+	57 History
+	58 Bookmarks
+	59 Profiles
+	60 Tab
+	61 Window
+	62 Help
+
+The focused UI element is 28 collection Description: icon view, ID: IconView

@@ -1,0 +1,422 @@
+- link "Business Home":
+  - /url: https://business.facebook.com/home/?business_id=2380586078685156
+  - img "Meta logo"
+- generic: Commerce Manager
+- combobox "Boldstone Sculpture":
+  - generic: Boldstone Sculpture
+- navigation "Navigation":
+  - list:
+    - link "Overview":
+      - /url: https://business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+    - generic: Overview
+    - button "Catalogue"
+    - generic: Catalogue
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Products":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/products/?business_id=2380586078685156
+      - generic: Products
+      - link "Sets":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/sets/?business_id=2380586078685156
+      - generic: Sets
+      - link "Data sources":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/data_sources/?business_id=2380586078685156
+      - generic: Data sources
+      - link "Events":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/events/?business_id=2380586078685156
+      - generic: Events
+    - link "Image templates":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/templates/?business_id=2380586078685156
+    - generic: Image templates
+    - link "Product video creator":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/video_template_hub/?business_id=2380586078685156
+    - generic: Product video creator
+    - link "Shops":
+      - /url: https://business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+    - generic: Shops
+    - button "Promotions"
+    - generic: Promotions
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Offers":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/offers/?business_id=2380586078685156
+      - generic: Offers
+      - link "Marketing settings":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/mailing_list/?business_id=2380586078685156
+      - generic: Marketing settings
+    - button "Insights"
+    - generic: Insights
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Overview":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/overview/?business_id=2380586078685156
+      - generic: Overview
+      - link "Catalogue":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/products/?business_id=2380586078685156
+      - generic: Catalogue
+      - link "Performance":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/perf/?business_id=2380586078685156
+      - generic: Performance
+      - link "Audience":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/audience/?business_id=2380586078685156
+      - generic: Audience
+      - link "Tagged content":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/product_tagged_content/?business_id=2380586078685156
+      - generic: Tagged content
+      - link "Awareness":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/entry_points/?business_id=2380586078685156
+      - generic: Awareness
+    - link "To-do list":
+      - /url: https://business.facebook.com/commerce/326960679342026/to_do_list/?business_id=2380586078685156
+    - generic: To-do list
+    - link "Settings":
+      - /url: https://business.facebook.com/commerce/326960679342026/settings/general/?business_id=2380586078685156
+    - generic: Settings
+- navigation "all tools":
+  - list:
+    - button "All tools":
+    - generic: All tools
+- separator
+- list:
+  - button "Meta AI business assistant"
+  - generic: Meta AI business assistant
+- button "Help":
+  - generic: Help
+- link "Business settings":
+  - /url: https://business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+  - generic: Business settings
+- button "Business notifications":
+  - generic: Business notifications
+- button:
+  - generic: "6"
+- button "Search":
+  - generic: Search
+- button "Collapse":
+  - generic: Collapse
+- tablist:
+  - tab "Layout":
+    - button "Layout":
+      - generic: Layout
+  - tab "Settings":
+    - button "Settings":
+      - generic: Settings
+- generic: Shop pages
+- combobox "Shop pages Home page":
+  - generic: Home page
+- heading "Shop's home page" [level=2]
+- button "Add new":
+  - generic: Add new
+- generic: Optimise layout
+- switch "Label" [checked]
+- generic: Automatically order the layout of your shop for each person, based on their interests and shopping activity.
+- button "Offers Main image, banner Expand group":
+  - generic: Offers
+  - generic: Main image, banner
+  - button "Expand group":
+    - generic: Expand group
+- button "Carousel 1 collections Collapse group":
+  - generic: Carousel
+  - generic: 1 collections
+  - button "Collapse group":
+    - generic: Collapse group
+- button "Most sold exclusives! Collection":
+  - generic: Most sold exclusives!
+  - generic: Collection
+- button "Add collection":
+  - generic: Add collection
+- button "Wall Sculptures Collection":
+  - generic: Wall Sculptures
+  - generic: Collection
+- button "Facebook":
+  - generic: Facebook
+- button "Preview by location":
+- dialog
+- button
+- generic: Boldstone Sculpture
+- button
+- generic: Estimated delivery times as fast as 8 working days
+- heading "Wall Sculptures":
+  - generic: Wall Sculptures
+- button "Crater Moon IV - Verdigris and Rust. £37.84,,0 colours,":
+  - generic: Crater Moon IV - Verdigris and Rust
+  - generic: £37.84
+- button "Deco Palm I - White. £61.76,,0 colours,":
+  - generic: Deco Palm I - White
+  - generic: £61.76
+- button "View the product Gleneagles Vine III - White":
+  - button "Cover media for featured product tile Gleneagles Vine III - White £50.72":
+    - generic "Cover media for featured product tile":
+    - generic: Gleneagles Vine III - White
+    - generic: £50.72
+- button "View the product Spiralfish Wave and Tide I - Bronze":
+  - button "Cover media for featured product tile Spiralfish Wave and Tide I - Bronze £118.58":
+    - generic "Cover media for featured product tile":
+    - generic: Spiralfish Wave and Tide I - Bronze
+    - generic: £118.58
+- button "View the product Dune Ripple I - Verdigris":
+  - button "Cover media for featured product tile Dune Ripple I - Verdigris £41.24":
+    - generic "Cover media for featured product tile":
+    - generic: Dune Ripple I - Verdigris
+    - generic: £41.24
+- button "Deco Wave II - Terracotta. £70.52,,0 colours,":
+  - generic: Deco Wave II - Terracotta
+  - generic: £70.52
+- button "Gleneagles Vine IV - White. £50.72,,0 colours,":
+  - generic: Gleneagles Vine IV - White
+  - generic: £50.72
+- button "View the product Egyptian Palm I - Pewter":
+  - button "Cover media for featured product tile Egyptian Palm I - Pewter £76.78":
+    - generic "Cover media for featured product tile":
+    - generic: Egyptian Palm I - Pewter
+    - generic: £76.78
+- button "View the product Lunar Phase II (Bordered) - White":
+  - button "Cover media for featured product tile Lunar Phase II (Bordered) - White £50.72":
+    - generic "Cover media for featured product tile":
+    - generic: Lunar Phase II (Bordered) - White
+    - generic: £50.72
+- button "Fossil Sand Ripple Relief - White. £118.14,,0 colours,":
+  - generic: Fossil Sand Ripple Relief - White
+  - generic: £118.14
+- button "Dune Ripple II - Copper with Verdigris Accents. £41.24,,0 colours,":
+  - generic: Dune Ripple II - Copper with Verdigris Accents
+  - generic: £41.24
+- button "View the product Acanthus Moon - Gold Finish":
+  - button "Cover media for featured product tile Acanthus Moon - Gold Finish £73.20":
+    - generic "Cover media for featured product tile":
+    - generic: Acanthus Moon - Gold Finish
+    - generic: £73.20
+- button "View the product Echo Rhythm II - Verdigris":
+  - button "Cover media for featured product tile Echo Rhythm II - Verdigris £49.20":
+    - generic "Cover media for featured product tile":
+    - generic: Echo Rhythm II - Verdigris
+    - generic: £49.20
+- button "Dune Ripple II - Copper. £39.14,,0 colours,":
+  - generic: Dune Ripple II - Copper
+  - generic: £39.14
+- button "Dune Ripple II - White. £30,,0 colours,":
+  - generic: Dune Ripple II - White
+  - generic: £30
+- button "Acanthus Twin Leaves - White. £34.20,,0 colours,":
+  - generic: Acanthus Twin Leaves - White
+  - generic: £34.20
+- button "Wide-Lip Crater Moon - Rust Drip. £37.10,,0 colours,":
+  - generic: Wide-Lip Crater Moon - Rust Drip
+  - generic: £37.10
+- button "Barbados Wave Relief. £268.28,,0 colours,":
+  - generic: Barbados Wave Relief
+  - generic: £268.28
+- button "Marbled Circle - Pale Blue. £120.86,,0 colours,":
+  - generic: Marbled Circle - Pale Blue
+  - generic: £120.86
+- button "View the product Cup Ring and Spiral Paver I - Brown":
+  - button "Cover media for featured product tile Cup Ring and Spiral Paver I - Brown £39.34":
+    - generic "Cover media for featured product tile":
+    - generic: Cup Ring and Spiral Paver I - Brown
+    - generic: £39.34
+- button "Textured Earth - Rust and Blue Patina. £251.12,,0 colours,":
+  - generic: Textured Earth - Rust and Blue Patina
+  - generic: £251.12
+- button "Egyptian Fountain Palm - Bronze and Verdigris. £182.44,,0 colours,":
+  - generic: Egyptian Fountain Palm - Bronze and Verdigris
+  - generic: £182.44
+- button "Lava Moon II - White. £478.10,,0 colours,":
+  - generic: Lava Moon II - White
+  - generic: £478.10
+- button "Dune Ripple I - Blue Verdigris and Bronze. £39,,0 colours,":
+  - generic: Dune Ripple I - Blue Verdigris and Bronze
+  - generic: £39
+- button "Deco Dune Wave - White. £69.14,,0 colours,":
+  - generic: Deco Dune Wave - White
+  - generic: £69.14
+- button "World Colours Circle - Brass. £120.86,,0 colours,":
+  - generic: World Colours Circle - Brass
+  - generic: £120.86
+- button "View the product Lava Moon III - White":
+  - button "Cover media for featured product tile Lava Moon III - White £478.10":
+    - generic "Cover media for featured product tile":
+    - generic: Lava Moon III - White
+    - generic: £478.10
+- button "Egyptian Palm I - Gold Finish. £76.78,,0 colours,":
+  - generic: Egyptian Palm I - Gold Finish
+  - generic: £76.78
+- button "Brancusi Meander II - Gold Finish. £66.98,,0 colours,":
+  - generic: Brancusi Meander II - Gold Finish
+  - generic: £66.98
+- button "Crater Moon II - Verdigris and Rust. £37.84,,0 colours,":
+  - generic: Crater Moon II - Verdigris and Rust
+  - generic: £37.84
+- button "Acanthus Bloom - White. £34.20,,0 colours,":
+  - generic: Acanthus Bloom - White
+  - generic: £34.20
+- button "Spice Texture II - White. £34.20,,0 colours,":
+  - generic: Spice Texture II - White
+  - generic: £34.20
+- button "Cup Ring and Spiral Paver II - Brown. £39.34,,0 colours,":
+  - generic: Cup Ring and Spiral Paver II - Brown
+  - generic: £39.34
+- button "View the product Marbled Circle - Green and White":
+  - button "Cover media for featured product tile Marbled Circle - Green and White £120.86":
+    - generic "Cover media for featured product tile":
+    - generic: Marbled Circle - Green and White
+    - generic: £120.86
+- button "Crater Moon I - Verdigris and Rust. £37.84,,0 colours,":
+  - generic: Crater Moon I - Verdigris and Rust
+  - generic: £37.84
+- button "Lava Moonshell Corner Curve - White. £35.26,,0 colours,":
+  - generic: Lava Moonshell Corner Curve - White
+  - generic: £35.26
+- button "Lunar Ring - White. £34.20,,0 colours,":
+  - generic: Lunar Ring - White
+  - generic: £34.20
+- button "Crater Moon II - Blue Splash. £32.50,,0 colours,":
+  - generic: Crater Moon II - Blue Splash
+  - generic: £32.50
+- button "Golden Facets - Gold Finish. £103.82,,0 colours,":
+  - generic: Golden Facets - Gold Finish
+  - generic: £103.82
+- button "Acanthus Twin Leaves - Bronze. £44.48,,0 colours,":
+  - generic: Acanthus Twin Leaves - Bronze
+  - generic: £44.48
+- button "View the product Riyadh Dune Ripple - White":
+  - button "Cover media for featured product tile Riyadh Dune Ripple - White £535.54":
+    - generic "Cover media for featured product tile":
+    - generic: Riyadh Dune Ripple - White
+    - generic: £535.54
+- button "Spiralfish Wave and Tide II - Bronze. £118.58,,0 colours,":
+  - generic: Spiralfish Wave and Tide II - Bronze
+  - generic: £118.58
+- button "Gleneagles Vine I - White. £50.72,,0 colours,":
+  - generic: Gleneagles Vine I - White
+  - generic: £50.72
+- button "Raked Spiral III - Beige. £39.34,,0 colours,":
+  - generic: Raked Spiral III - Beige
+  - generic: £39.34
+- button "Dune Ripple I - White. £30,,0 colours,":
+  - generic: Dune Ripple I - White
+  - generic: £30
+- button "Botanical Form - White. £34.20,,0 colours,":
+  - generic: Botanical Form - White
+  - generic: £34.20
+- button "Deco Wave I - Verdigris. £78.88,,0 colours,":
+  - generic: Deco Wave I - Verdigris
+  - generic: £78.88
+- button "View the product Marbled Circle - Turquoise":
+  - button "Cover media for featured product tile Marbled Circle - Turquoise £120.86":
+    - generic "Cover media for featured product tile":
+    - generic: Marbled Circle - Turquoise
+    - generic: £120.86
+- button "Textured Earth - Blue, Brown and Rust. £177.86,,0 colours,":
+  - generic: Textured Earth - Blue, Brown and Rust
+  - generic: £177.86
+- button "Deco Dune Spiral - White. £69.14,,0 colours,":
+  - generic: Deco Dune Spiral - White
+  - generic: £69.14
+- button "Dune Ripple II - Gold. £39.14,,0 colours,":
+  - generic: Dune Ripple II - Gold
+  - generic: £39.14
+- button "Strata Relief - White. £34.20,,0 colours,":
+  - generic: Strata Relief - White
+  - generic: £34.20
+- button "Marbled Circle - Azure Blue and White. £120.86,,0 colours,":
+  - generic: Marbled Circle - Azure Blue and White
+  - generic: £120.86
+- button "Gleneagles Vine II - White. £50.72,,0 colours,":
+  - generic: Gleneagles Vine II - White
+  - generic: £50.72
+- button "View the product Lava Moon I - White":
+  - button "Cover media for featured product tile Lava Moon I - White £478.10":
+    - generic "Cover media for featured product tile":
+    - generic: Lava Moon I - White
+    - generic: £478.10
+- button "Acanthus Twin Leaves - Pewter. £44.48,,0 colours,":
+  - generic: Acanthus Twin Leaves - Pewter
+  - generic: £44.48
+- button "Deco Wave I - Terracotta. £70.52,,0 colours,":
+  - generic: Deco Wave I - Terracotta
+  - generic: £70.52
+- button "Egyptian Palm I - Black and White Marble Effect. £76.78,,0 colours,":
+  - generic: Egyptian Palm I - Black and White Marble Effect
+  - generic: £76.78
+- button "Leaf Silhouette II - Gold. £64.72,,0 colours,":
+  - generic: Leaf Silhouette II - Gold
+  - generic: £64.72
+- button "Riyadh Shellmoon Relief. £535.54,,0 colours,":
+  - generic: Riyadh Shellmoon Relief
+  - generic: £535.54
+- button "Marbled Circle - Terracotta. £120.86,,0 colours,":
+  - generic: Marbled Circle - Terracotta
+  - generic: £120.86
+- button "View the product Chiswick Moon Relief":
+  - button "Cover media for featured product tile Chiswick Moon Relief £209.16":
+    - generic "Cover media for featured product tile":
+    - generic: Chiswick Moon Relief
+    - generic: £209.16
+- button "Sculpted Curves - Beige. £32.50,,0 colours,":
+  - generic: Sculpted Curves - Beige
+  - generic: £32.50
+- button "Chelsea Moonwave Relief. £735,,0 colours,":
+  - generic: Chelsea Moonwave Relief
+  - generic: £735
+- button "Moon and Shell Wave II - Black and White. £94.28,,0 colours,":
+  - generic: Moon and Shell Wave II - Black and White
+  - generic: £94.28
+- button "Acanthus Frond (Left) - White. £34.20,,0 colours,":
+  - generic: Acanthus Frond (Left) - White
+  - generic: £34.20
+- button "Lava Moonshell I - White. £87.60,,0 colours,":
+  - generic: Lava Moonshell I - White
+  - generic: £87.60
+- button "Egyptian Palm II - White. £59.64,,0 colours,":
+  - generic: Egyptian Palm II - White
+  - generic: £59.64
+- button "View the product Riyadh Moon - White":
+  - button "Cover media for featured product tile Riyadh Moon - White £535.54":
+    - generic "Cover media for featured product tile":
+    - generic: Riyadh Moon - White
+    - generic: £535.54
+- button "Embedded Seashells - White. £47.24,,0 colours,":
+  - generic: Embedded Seashells - White
+  - generic: £47.24
+- button "Spice Texture I - White. £34.20,,0 colours,":
+  - generic: Spice Texture I - White
+  - generic: £34.20
+- button "Acanthus Twin Leaves - Pale Blue and White. £39.34,,0 colours,":
+  - generic: Acanthus Twin Leaves - Pale Blue and White
+  - generic: £39.34
+- button "Acanthus Moon - White. £56.06,,0 colours,":
+  - generic: Acanthus Moon - White
+  - generic: £56.06
+- button "Lunar Phase II - White and Gold. £39.34,,0 colours,":
+  - generic: Lunar Phase II - White and Gold
+  - generic: £39.34
+- button "Deco Palm II - White. £61.76,,0 colours,":
+  - generic: Deco Palm II - White
+  - generic: £61.76
+- button "View the product Soundwave Rhythm - White":
+  - button "Cover media for featured product tile Soundwave Rhythm - White £114.76":
+    - generic "Cover media for featured product tile":
+    - generic: Soundwave Rhythm - White
+    - generic: £114.76
+- button "Lava Moonshell II - White. £87.60,,0 colours,":
+  - generic: Lava Moonshell II - White
+  - generic: £87.60
+- button "Bone Water Spiral Relief - White. £120.46,,0 colours,":
+  - generic: Bone Water Spiral Relief - White
+  - generic: £120.46
+- button "Ammonite Grande I (Left) - White. £154.94,,0 colours,":
+  - generic: Ammonite Grande I (Left) - White
+  - generic: £154.94
+- button "Egyptian Fountain Palm - White. £118.14,,0 colours,":
+  - generic: Egyptian Fountain Palm - White
+  - generic: £118.14
+- button "Crater Moon III - Verdigris and Rust. £37.84,,0 colours,":
+  - generic: Crater Moon III - Verdigris and Rust
+  - generic: £37.84
+- button "Acanthus Frond (Left) - Pewter. £44.48,,0 colours,":
+  - generic: Acanthus Frond (Left) - Pewter
+  - generic: £44.48
+- alert
+- generic: This is a preview of what your customers will see. Some features may vary or may be unavailable to test.

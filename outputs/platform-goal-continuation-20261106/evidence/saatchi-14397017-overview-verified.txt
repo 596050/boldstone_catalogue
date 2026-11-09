@@ -1,0 +1,168 @@
+Window: "Studio | Saatchi Art United Kingdom", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14397017/overview, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14397017/overview
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio/art/14397017/overview, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/art/14397017/overview
+						26 container
+							27 container
+								28 text Fax
+								29 text field (settable) Fax
+							30 link fax, Value: saatchiart.com/facsimile-npc
+							31 link Skip to Main Content, Value: saatchiart.com/en-gb/studio/art/14397017/overview#skip-to-content
+							32 container
+								33 button Close Menu
+								34 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								35 text Studio
+								36 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								37 container
+									38 button Manage Artworks
+									39 content list
+										40 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										41 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									42 button Sales Dashboard
+									43 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									44 button Sponsored Listings
+									45 button Profile Information
+									46 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									47 button Account
+							48 container
+								49 button Back to Artworks
+								50 Unlabelled image To get missing image descriptions, open the context menu.
+								51 text Raked Spiral I - White Visibility:  Draft
+								52 button Publish
+								53 button DELETE ARTWORK
+								54 heading Images, Value: 2
+									55 text Images
+								56 button Edit
+								57 Unlabelled image /13458969-SRKGTEZJ-22.jpg
+								58 heading Description, Value: 2
+									59 text Description
+								60 button Edit
+								61 text Subject, Category, Year Subject Abstract Category Sculpture Year 2026
+								62 text Method, Materials & Styles Method Relief Materials Plaster Styles Abstract
+								63 text Dimensions 30 W x 30 H x 7 D centimeters
+								64 text Keywords spiral, raked texture, relief, white, wall sculpture, gypsum, handmade, outdoor
+								65 text Description Only the centre panel in this group photograph is supplied. The other panels are sold separately. Raked lines follow a spiral, creating a surface with a measured, flowing rhythm. The repeated marks catch the light and give the relief a quiet sense of movement. It recalls the calm of a carefully tended garden, where a simple pattern can invite a moment of stillness. Made from a gypsum-based material. Colour: White marble stone finish. Companion pieces: Raked Spiral II and Raked Spiral III (sold separately). Dimensions: 30 × 30 cm; approximately 5–7 cm deep. Weight: Approximately 3–5 kg. Suitable for outdoor use and indoor display. Usually keyhole fixings; French cleats and other options are available. One sculpture supplied; other pieces and room props are not included. All designs can be customised; completely new commissions can be created with designer Sally Price. 
+								66 button READ LESS
+								67 heading 30 x 30 cm Limited Edition - Price & Details, Value: 2
+									68 text 30 x 30 cm Limited Edition - Price & Details
+								69 button Edit
+								70 text Status For Sale
+								71 text Quantity Total Run 50 Sold on Saatchi Art 0 For Sale 1
+								72 text Price Artwork Price $209 (£155) Your Commission $125.40 (£93)
+								73 text Weight & Packaging Packaging Type Crate Shipping Weight 16 kg
+								74 text Additional Details Number of Pieces 1 Ready to Hang No Installation Type Wall-Mounted Ready to Hang No Outdoor Safe Yes
+								75 text Shipping Address Court Essington, Midford Road Midford Bath, Somerset BA2 7BX GB Make Prints Available for Sale
+								76 button Add Prints for Sale
+							77 container
+								78 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								79 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								80 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								81 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								82 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								83 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								84 text Support
+								85 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								86 link Help Center, Value: support.saatchiart.com/hc
+								87 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								88 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								89 pop-up button Request Support
+								90 text Resources
+								91 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								92 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								93 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								94 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								95 text Saatchi Art
+								96 link About, Value: saatchiart.com/en-gb/about-us
+								97 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								98 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								99 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								100 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								101 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								102 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								103 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								104 text Do Not Sell or Share My Personal Information
+								105 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								106 container View Store Preferences Footer
+									107 image
+									108 text United Kingdom / GBP / Cm
+									109 image
+								110 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								111 link Privacy Policy, Value: policies.google.com/privacy
+								112 text  and 
+								113 link Terms of Service, Value: policies.google.com/terms
+								114 text  apply.
+							115 container
+								116 button Manage Preferences
+								117 text Manage Preferences
+			118 pop-up button Tab search
+			119 container
+				120 tab group
+					121 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+						122 button Close
+					123 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					124 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+						125 button Close
+					126 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+						127 button Close
+					128 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+						129 button Close
+					130 tab (settable, boolean) Meta Business Suite - High memory usage - 1.0 GB, Value: off
+						131 button Close
+					132 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom, Value: on
+						133 button Close
+			134 button New tab
+	135 close button
+	136 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	137 minimise button
+138 menu bar
+	139 Chrome
+	140 File
+	141 Edit
+	142 View
+	143 History
+	144 Bookmarks
+	145 Profiles
+	146 Tab
+	147 Window
+	148 Help
+
+Selected text: ```
+Fax￼faxSkip to Main Content￼￼StudioSALLY PRICEManage Artworks￼My PortfolioArtwork UploaderSales Dashboard￼Offers Dashboard￼Sponsored Listings￼Profile Information￼AddressesAccount￼￼Back to Artworks￼Raked Spiral I - WhiteVisibility: DraftPublishDELETE ARTWORKImages￼Edit￼￼Description￼Edit￼Subject, Category, YearSubjectAbstractCategorySculptureYear2026￼Method, Materials & StylesMethodReliefMaterialsPlasterStylesAbstract￼Dimensions30 W x 30 H x 7 D centimeters￼Keywordsspiral, raked texture, relief, white, wall sculpture, gypsum, handmade, outdoor￼DescriptionOnly the centre panel in this group photograph is supplied. The other panels are sold separately.
+
+Raked lines follow a spiral, creating a surface with a measured, flowing rhythm. The repeated marks catch the light and give the relief a quiet sense of movement. It recalls the calm of a carefully tended garden, where a simple pattern can invite a moment of stillness.
+
+Made from a gypsum-based material. Colour: White marble stone finish. Companion pieces: Raked Spiral II and Raked Spiral III (sold separately). Dimensions: 30 × 30 cm; approximately 5–7 cm deep. Weight: Approximately 3–5 kg. Suitable for outdoor use and indoor display. Usually keyhole fixings; French cleats and other options are available. One sculpture supplied; other pieces and room props are not included. All designs can be customised; completely new commissions can be created with designer Sally Price. Dispatch within 3 working days; delivery transit time is additional.READ LESS30 x 30 cm Limited Edition - Price & Details￼Edit￼StatusFor Sale￼QuantityTotal Run50Sold on Saatchi Art0For Sale1￼PriceArtwork Price$209 (£155)Your Commission$125.40 (£93)￼Weight & PackagingPackaging TypeCrateShipping Weight16 kg￼Additional DetailsNumber of Pieces1Ready to HangNoInstallation TypeWall-MountedReady to HangNoOutdoor SafeYes￼Shipping AddressCourt Essington, Midford RoadMidfordBath, Somerset BA2 7BXGBMake Prints Available for SaleAdd Prints for Sale￼￼￼￼￼￼SupportCommunity ForumHelp CenterGet StartedPaymentsRequest SupportResourcesArtist HandbookPackaging GuideHow to PhotographArtist TipsSaatchi ArtAboutSell on Saatchi ArtAffiliate ProgramTerms of ServicePrivacy NoticeCookie NoticeCopyright PolicyCalifornia Notice of CollectionDo Not Sell or Share My Personal InformationAccessibility￼United Kingdom/GBP/Cm￼© 2010-2026 Saatchi Art. All Rights Reserved.This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.￼￼￼￼￼￼￼Manage Preferences￼
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

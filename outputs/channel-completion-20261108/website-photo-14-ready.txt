@@ -1,0 +1,434 @@
+Window: "Wall Sculpture & Sculptural Furnishings | Boldstone, UK", App: Google Chrome.
+0 standard window URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Secondary Actions: Raise, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.8 GB - Google Chrome – Tom
+	1 container URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.8 GB - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 1
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Wall Sculpture & Sculptural Furnishings | Boldstone, UK, URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical
+						27 container
+							28 container
+								29 button CANCEL
+								30 heading Edit Lunar Phase II - White, Value: 1
+									31 text Edit Lunar Phase II - White
+								32 text Physical Product
+								33 content list
+									34 button Delete
+									35 button Duplicate
+									36 button SAVE
+							37 container Product sections
+								38 button Details
+								39 button Forms
+								40 button Images
+								41 button Inventory
+								42 button Payment options
+								43 text New
+								44 button Fulfillment
+								45 button Organization
+								46 button Taxes
+								47 button Selling Tools
+								48 button Marketing
+							49 container
+								50 heading Details, Value: 2
+									51 text Details
+								52 container
+									53 text Product name
+									54 text field (settable) Product name, Value: Lunar Phase II - White, Placeholder: Eucalyptus Face Scrub
+								55 container
+									56 text Description
+									57 text entry area (settable) A moon-inspired relief explores the relationship between a rounded form, its edges and the shadows it creates. The composition feels measured and calm, with details changing as the light moves.
+A small reference to the rhythm of the night sky, translated into a tactile presence for an interior or garden wall.
+The white finish keeps the focus on the form and its changing shadows.
+•Brand: Boldstone
+•Product type: Wall sculpture
+•Model: Lunar Phase II - White (SQ6247538)
+•Colour / appearance: White stone finish
+•Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+•Companion pieces: This is one piece of a coordinating group with Lunar Phase I, Lunar Phase III and Lunar Phase IV. Companion sculptures are sold separately; this listing is for one sculpture only.
+•Material: Made from a gypsum-based material.
+•Dimensions: 30 × 30 cm; approximately 5–7 cm deep
+•Weight: Approximately 3–5 kg per panel
+•Use: Suitable for outdoor use and indoor display.
+•Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+•Availability: Made to order
+•Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+•Dispatch time: Within 10 working days. Delivery transit time is additional.
+•Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+										58 text A moon-inspired relief explores the relationship between a rounded form, its edges and the shadows it creates. The composition feels measured and calm, with details changing as the light moves.
+										59 text A small reference to the rhythm of the night sky, translated into a tactile presence for an interior or garden wall.
+										60 text The white finish keeps the focus on the form and its changing shadows.
+										61 content list
+											62 container
+												63 text • Brand:  Boldstone
+											64 container
+												65 text • Product type:  Wall sculpture
+											66 container
+												67 text • Model:  Lunar Phase II - White (SQ6247538)
+											68 container
+												69 text • Colour / appearance:  White stone finish
+											70 container
+												71 text • Quantity supplied:  1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											72 container
+												73 text • Companion pieces:  This is one piece of a coordinating group with Lunar Phase I, Lunar Phase III and Lunar Phase IV. Companion sculptures are sold separately; this listing is for one sculpture only.
+											74 container
+												75 text • Material:  Made from a gypsum-based material.
+											76 container
+												77 text • Dimensions:  30 × 30 cm; approximately 5–7 cm deep
+											78 container
+												79 text • Weight:  Approximately 3–5 kg per panel
+											80 container
+												81 text • Use:  Suitable for outdoor use and indoor display.
+											82 container
+												83 text • Fixings:  Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											84 container
+												85 text • Availability:  Made to order
+											86 container
+												87 text • Custom design:  All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											88 container
+												89 text • Dispatch time:  Within 10 working days. Delivery transit time is additional.
+											90 container
+												91 text • Delivery:  Delivery is quoted separately. Please contact us for UK and international delivery options.
+								92 container
+									93 text Button Text
+									94 text field (settable) Button Text, Placeholder: Add to Cart
+								95 heading Forms, Value: 2
+									96 text Forms
+								97 container
+									98 text Add to Cart Form Collect extra information from shoppers when they add this item to their cart. Form responses are displayed in your order details.
+								99 button ADD
+								100 heading Images, Value: 2
+									101 text Images
+								102 sortable White Moonphase 2 panel with a spiral below a broad curved upper band. 50% from left, 50% from top Featured image pin open image action menu
+									103 image White Moonphase 2 panel with a spiral below a broad curved upper band.
+									104 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									105 button Featured image pin
+									106 button open image action menu
+								107 sortable White Moonphase 2 spiral relief photographed outdoors against a dark background. 50% from left, 50% from top Featured image pin open image action menu
+									108 image White Moonphase 2 spiral relief photographed outdoors against a dark background.
+									109 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									110 button Featured image pin
+									111 button open image action menu
+								112 sortable Close view of the softly textured white Moonphase 2 spiral and sweeping curved band. 50% from left, 50% from top Featured image pin open image action menu
+									113 image Close view of the softly textured white Moonphase 2 spiral and sweeping curved band.
+									114 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									115 button Featured image pin
+									116 button open image action menu
+								117 sortable Front view of the white Moonphase 2 spiral and crescent relief against a pale background. 50% from left, 50% from top Featured image pin open image action menu
+									118 image Front view of the white Moonphase 2 spiral and crescent relief against a pale background.
+									119 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									120 button Featured image pin
+									121 button open image action menu
+								122 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									123 image Lunar Phase II - White - in situ
+									124 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									125 button Featured image pin
+									126 button open image action menu
+								127 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									128 image Lunar Phase II - White - in situ
+									129 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									130 button Featured image pin
+									131 button open image action menu
+								132 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									133 image Lunar Phase II - White - in situ
+									134 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									135 button Featured image pin
+									136 button open image action menu
+								137 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									138 image Lunar Phase II - White - in situ
+									139 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									140 button Featured image pin
+									141 button open image action menu
+								142 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									143 image Lunar Phase II - White - in situ
+									144 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									145 button Featured image pin
+									146 button open image action menu
+								147 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									148 image Lunar Phase II - White - in situ
+									149 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									150 button Featured image pin
+									151 button open image action menu
+								152 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									153 image Lunar Phase II - White - in situ
+									154 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									155 button Featured image pin
+									156 button open image action menu
+								157 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									158 image Lunar Phase II - White - in situ
+									159 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									160 button Featured image pin
+									161 button open image action menu
+								162 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									163 image Lunar Phase II - White - in situ
+									164 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									165 button Featured image pin
+									166 button open image action menu
+								167 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									168 image Lunar Phase II - White - in situ
+									169 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									170 button Featured image pin
+									171 button open image action menu
+								172 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									173 image Lunar Phase II - White - in situ
+									174 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									175 button Featured image pin
+									176 button open image action menu
+								177 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									178 image Lunar Phase II - White - in situ
+									179 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									180 button Featured image pin
+									181 button open image action menu
+								182 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									183 image Lunar Phase II - White - in situ
+									184 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									185 button Featured image pin
+									186 button open image action menu
+								187 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									188 image Lunar Phase II - White - in situ
+									189 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									190 button Featured image pin
+									191 button open image action menu
+								192 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									193 image Lunar Phase II - White - in situ
+									194 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									195 button Featured image pin
+									196 button open image action menu
+								197 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									198 image Lunar Phase II - White - in situ
+									199 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									200 button Featured image pin
+									201 button open image action menu
+								202 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									203 image Lunar Phase II - White - in situ
+									204 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									205 button Featured image pin
+									206 button open image action menu
+								207 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									208 image Lunar Phase II - White - in situ
+									209 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									210 button Featured image pin
+									211 button open image action menu
+								212 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									213 image Lunar Phase II - White - in situ
+									214 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									215 button Featured image pin
+									216 button open image action menu
+								217 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									218 image Lunar Phase II - White - in situ
+									219 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									220 button Featured image pin
+									221 button open image action menu
+								222 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									223 image Lunar Phase II - White - in situ
+									224 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									225 button Featured image pin
+									226 button open image action menu
+								227 sortable Lunar Phase II - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									228 image Lunar Phase II - White - in situ
+									229 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									230 button Featured image pin
+									231 button open image action menu
+								232 sortable A white Lunar Phase II panel resting on a timber surface, showing its raised central spiral within a deep circular recess. 50% from left, 50% from top Featured image pin open image action menu
+									233 image A white Lunar Phase II panel resting on a timber surface, showing its raised central spiral within a deep circular recess.
+									234 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									235 button Featured image pin
+									236 button open image action menu
+								237 button
+								238 container
+									239 button Change featured image
+									240 text Featured image
+									241 button open image action menu
+								242 heading Inventory, Value: 2
+									243 text Inventory
+								244 content list
+									245 container
+										246 text Price
+										247 text On sale
+										248 Tick box On sale, Value: 0
+										249 text £
+										250 stepper (settable, float) Price, Value: 34.2, Placeholder: 0.00
+										251 button increment
+										252 button decrement
+								253 container
+									254 text Stock
+									255 text Unlimited
+									256 Tick box Unlimited, Value: 1
+									257 text ∞
+									258 stepper (disabled) Stock, Value: 0, Secondary Actions: Increment, Decrement
+									259 button (disabled) increment
+									260 button (disabled) decrement
+								261 container
+									262 text SKU
+									263 container More info
+										264 image
+									265 text field (settable) SKU, Value: SQ6247538, Placeholder: Add SKU
+								266 container
+									267 text GTIN
+									268 container More info
+										269 image
+									270 text field (settable) GTIN, Placeholder: Add GTIN, UPC, EAN, JAN, ISBN
+								271 container
+									272 text MPN
+									273 container More info
+										274 image
+									275 text field (settable) MPN, Placeholder: Add MPN
+								276 container
+									277 text Variants Sell different versions of the same product. For example, a shirt that comes in multiple colors or sizes.
+									278 button ADD
+								279 text Quantity limits New
+								280 container
+									281 Tick box enable or disable the showing of the Number input for Quantity limits, Value: 0
+								282 text Set the maximum quantity a customer can buy in a single order.
+								283 heading Payment options, Value: 2
+									284 text Payment options
+								285 container Subscriptions
+									286 text Subscriptions
+									287 text Charge customers on a recurring basis and offer discounts on repeat purchases. Subscriptions aren't available for products with add-ons.
+									288 button ADD
+								289 heading Fulfillment, Value: 2
+									290 text Fulfillment
+								291 container
+									292 text Fulfillment profiles Allow buyers to select how they'd like to receive this product. For example, Local Pickup or Ground Shipping.
+									293 combo box (settable) Fulfillment profiles, Value: Default
+										294 text Default
+										295 image
+									296 button SET UP
+								297 container
+									298 text Weight and dimensions Enabled Supports automated or weight-based shipping rates. 0 × 0 × 0 in · 13.23 lb
+									299 button Edit weight and dimensions
+									300 button Delete weight and dimensions
+								301 heading Organization, Value: 2
+									302 text Organization
+								303 container
+									304 text Visibility
+									305 combo box (settable) Visibility, Value: Public
+										306 text Public
+										307 image
+								308 container
+									309 text Tags Add keywords to connect related products. Tags can be used to create filters on your store page.
+									310 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/articles/231746347-Styling-store-pages#h_01JGPPMPYWYDKVHP17DKR1HA4F
+									311 combo box (settable) Tags, Placeholder: Add
+									312 text Wall Sculptures
+									313 button Remove Wall Sculptures
+									314 text Moonphases
+									315 button Remove Moonphases
+									316 text Catalogue 2026
+									317 button Remove Catalogue 2026
+									318 text BSI-41E5370B1314
+									319 button Remove BSI-41E5370B1314
+								320 container Categories
+									321 text Categories
+									322 text Create categories to bucket products. Categories will appear in the store's navigation.
+									323 container
+										324 text Sculpture
+										325 button Edit categories
+										326 button Remove all categories
+								327 heading Taxes, Value: 2
+									328 text Taxes
+								329 container Product Specific Tax Code
+									330 text Product Specific Tax Code
+									331 container
+										332 text Product specific tax codes are used to calculate correct tax rates during checkout. 
+										333 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/sections/200825098
+									334 container
+										335 container stripe-connect-ui-layer-stripe-connect-product-tax-code-selector
+								336 heading Selling Tools, Value: 2
+									337 text Selling Tools
+								338 container
+									339 text Add-ons Upsell customers with product add-ons directly on the product page. Products with subscriptions or more than one variant option are not available as add-ons. 
+									340 link Learn more, Value: support.squarespace.com/hc/articles/21149527560205
+									341 button ADD
+								342 container
+									343 text Featured Product Featured Products can be displayed in Summary Blocks on your page.
+									344 Tick box Featured Product, Value: 0
+								345 container
+									346 text Related Products Showcase similar items on your Product Pages.
+									347 button Set up Related Products
+								348 container
+									349 text Product Reviews Show customer reviews directly on all product pages. Manage this feature in 
+									350 button Selling
+									351 text .
+									352 button Set up product reviews
+								353 heading Marketing, Value: 2
+									354 text Marketing
+								355 text SEO and URL
+								356 text Lunar Phase II - White — boldstone https://boldstonesculpture.com/buy/p/moonphase-two-white-mp2 This description will automatically be generated by search engines. You can add your own description by editing.
+								357 button EDIT
+			358 pop-up button Tab search
+			359 container
+				360 tab group
+					361 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					362 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					363 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					364 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					365 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					366 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					367 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					368 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					369 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					370 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					371 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					372 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					373 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					374 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					375 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					376 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					377 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					378 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					379 tab (settable, boolean) Meta Business Suite, Value: off
+					380 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					381 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					382 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					383 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					384 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					385 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					386 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					387 tab (selected, settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.8 GB, Value: on
+					388 tab (settable, boolean) Boldstone · Review room, Value: off
+					389 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					390 tab (settable, boolean) google-wall-sculptures-supplement.tsv details - Merchant Center, Value: off
+			391 button New tab
+	392 close button
+	393 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	394 minimise button
+395 menu bar
+	396 Chrome
+	397 File
+	398 Edit
+	399 View
+	400 History
+	401 Bookmarks
+	402 Profiles
+	403 Tab
+	404 Window
+	405 Help
+
+The focused UI element is 29 button CANCEL

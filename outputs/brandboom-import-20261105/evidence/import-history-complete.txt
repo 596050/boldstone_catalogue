@@ -1,0 +1,325 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089/import/history, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089/import/history
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089/import/history, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089/import/history
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Search Products
+									48 link
+								49 button All
+									50 container
+										51 Tick box 0
+									52 text All
+								53 container
+									54 text 0  /  0
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 heading Add products to your showroom, Value: 2
+									63 text Add  products  to your showroom
+								64 container
+									65 text Create an individual product or upload an Excel spreadsheet with your product information to import multiple products.
+								66 container
+									67 button Create Manually
+									68 pop-up button Import Products
+										69 text Import Products
+								70 container
+									71 text To learn more about showrooms, visit 
+									72 link support.brandboom.com, Value: support.brandboom.com/
+							73 container
+								74 content list
+									75 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089/import#
+								76 container
+									77 heading Presentations, Value: 5
+										78 text Presentations
+									79 button New
+									80 content list
+										81 link ALL, Value: manage.brandboom.com/products/s/111089/import#
+										82 link RECENT, Value: manage.brandboom.com/products/s/111089/import#
+									83 container
+										84 link
+											85 image
+										86 search text field (settable) Search Presentations
+										87 link
+											88 image
+								89 heading Ship Windows, Value: 5
+									90 text Ship Windows
+								91 content list
+									92 link ACTIVE, Value: manage.brandboom.com/products/s/111089/import#
+									93 link ARCHIVED, Value: manage.brandboom.com/products/s/111089/import#
+								94 text No active ship windows
+							95 link Reset
+								96 text Reset
+							97 button Apply
+							98 text PRODUCT STATUS
+							99 text Active
+							100 text Inactive
+							101 text Archived
+							102 text Corrupted
+							103 text No Images
+							104 text SORT BY
+							105 pop-up button Newest First
+								106 (selected) Newest First
+							107 text SHIP DATE RANGE
+							108 container
+								109 image
+								110 text field (settable) Click to select range
+							111 text No Date Range
+							112 text CREATE DATE RANGE
+							113 container
+								114 image
+								115 text field (settable) Click to select range
+							116 text SIZES
+							117 text field (settable) S, M, L
+							118 text VENDORS TYPES
+							119 link
+								120 image
+							121 text No Types
+							122 text Mens
+							123 text Womens
+							124 text CATEGORIES
+							125 link
+								126 image
+							127 link
+								128 image
+							129 text No Categories
+							130 text Sweater
+							131 text SEASONS
+							132 link
+								133 image
+							134 link
+								135 image
+							136 text No Seasons
+							137 link
+								138 image
+							139 container
+								140 content list
+									141 link MEDIA, Value: manage.brandboom.com/products/s/111089/import#
+									142 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089/import#
+								143 container
+									144 button Upload Images
+									145 button
+									146 button
+									147 button
+							148 button Close
+							149 text Search Products
+							150 button Scan barcodes
+							151 container
+								152 link
+									153 image
+								154 search text field (settable) Search for Products
+							155 text RESULTS
+							156 button Open Intercom Messenger
+							157 container
+								158 link  back, Value: javascript:void(0)
+								159 text Import History
+								160 pop-up button Import Products
+									161 text Import Products
+								162 Tick box System Imports, Value: 0
+								163 container
+									164 text System Imports
+									165 image
+							166 table
+								167 row
+									168 column header
+										169 text FILE
+									170 column header
+										171 text TEMPLATE USED
+									172 column header
+										173 text REP
+									174 column header
+										175 text PRODS UPDATED
+									176 column header
+										177 text PRODS ADDED
+									178 column header
+										179 text SKUS UPDATED
+									180 column header
+										181 text SKUS ADDED
+									182 column header
+										183 text DATE
+									184 column header
+										185 text MODE
+									186 column header
+										187 text STATUS
+								188 row
+									189 cell
+										190 link boldstone_brandboom_products.xlsx, Value: javascript:void(0)
+									191 cell
+										192 text Boldstone catalogue GBP
+									193 cell
+										194 text —
+									195 cell
+										196 text 176
+									197 cell
+										198 text —
+									199 cell
+										200 text 176
+									201 cell
+										202 text 05/11/2026
+									203 cell
+										204 text combine
+									205 cell
+										206 link Complete
+											207 text Complete
+								208 row
+									209 cell
+										210 text —
+									211 cell
+										212 text JSON Template
+									213 cell
+										214 text API
+									215 cell
+										216 text —
+									217 cell
+										218 text 3
+									219 cell
+										220 text —
+									221 cell
+										222 text 12
+									223 cell
+										224 text 05/11/2026
+									225 cell
+										226 text combine
+									227 cell
+										228 link Complete
+											229 text Complete
+							230 link Dismiss
+								231 text Dismiss
+							232 link Product Import Complete
+								233 text Product Import Complete
+							234 button Refresh
+			235 pop-up button Tab search
+			236 container
+				237 tab group
+					238 tab (settable, boolean) Products – Faire, Value: off
+					239 tab (settable, boolean) Gumtree | Free classified ads from the #1 classifieds site in the UK, Value: off
+					240 tab (settable, boolean) Sign in to your Supplier account | AppScenic, Value: off
+					241 tab (settable, boolean) Shoppe Object, Value: off
+					242 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					243 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					244 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					245 tab (settable, boolean) sell on wholesale central - Google Search, Value: off
+					246 tab (settable, boolean) Display Your Products to Millions of Buyers Worldwide., Value: off
+					247 tab (settable, boolean) become-a-seller-new | Wholesale Prices | Tradeling, Value: off
+					248 tab (settable, boolean) Marketplace FAQ for Sellers | Brandboom Help Center, Value: off
+					249 tab (settable, boolean) Online Sales FAQ - TICA, Value: off
+					250 tab (settable, boolean) Carro Migration FAQ, Value: off
+					251 tab (settable, boolean) Join Us | CREOATE, Value: off
+					252 tab (settable, boolean) MOM - Sell your products, Value: off
+					253 tab (settable, boolean) Ankorstore | Wholesale Marketplace Home to Europe's Best Brands, Value: off
+					254 tab (settable, boolean) Find the right wholesale fit, Value: off
+					255 tab (settable, boolean) Wholesale Marketplace: Get Discovered by Retailers | NuORDER by Lightspeed, Value: off
+					256 tab (settable, boolean) Sell on Syncee, Value: off
+					257 tab (settable, boolean) Become a Spocket Supplier - Sell to 100,000+ Retailers Free, Value: off
+					258 tab (settable, boolean) Become a verified Avasam supplier, Value: off
+					259 tab (settable, boolean) Advertise Your Wholesale Business - Would you like to expand your business?, Value: off
+					260 tab (settable, boolean) eSources UK Help | Managing Your Supplier Profile, Value: off
+					261 tab (settable, boolean) Gift Wholesalers - Gift Shop Wholesalers, Value: off
+					262 tab (settable, boolean) Sell on Tesco Marketplace | Reach millions of UK shoppers, Value: off
+					263 tab (settable, boolean) RangeMe, Value: off
+					264 tab (settable, boolean) Art Gallery | Buy Original British Art Online, Value: off
+					265 tab (settable, boolean) Original art for sale, Value: off
+					266 tab (settable, boolean) 25+ Handmade Marketplaces for Artisans to Sell Crafts, Art, Gifts Online - MultiMerch, Value: off
+					267 tab (settable, boolean) 250+ Websites Directory for Artists to Sell Art Online, Value: off
+					268 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish, Value: off
+					269 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					270 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					271 tab (settable, boolean) Wholesale Central | Leading Source for Wholesale Products & Suppliers, Value: off
+					272 tab (settable, boolean) New York City Show Exhibitor Application, Value: off
+					273 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					274 tab (settable, boolean) Booth activation - Booth customization, Value: off
+					275 tab (settable, boolean) Romans Surviving Rome’s Collapse, Value: off
+					276 tab (settable, boolean) PayPal, Value: off
+					277 tab (settable, boolean) Verification code to reset your PayPal password - info@boldstone.co.uk - Thomas Price Mail, Value: off
+					278 tab (settable, boolean) ChatGPT, Value: off
+					279 tab (settable, boolean) _20261105_125118_b5c8aa3a-e88c-489b-bb71-04f4e23ce0ea.png (2048×2048), Value: off
+					280 tab (settable, boolean) _20261105_124942_a2ea11ea-9588-4814-921b-1b8119944376.png (2048×2048), Value: off
+					281 tab (settable, boolean) 888309629_1523348299846656_5333981695044073670_n.jpg (947×2048), Value: off
+					282 tab (settable, boolean) 880004104_1873677580468638_5195249294559980998_n.jpg (947×2048), Value: off
+					283 tab (settable, boolean) Photo 31-03-2025, 12 41 58.jpg, Value: off
+					284 tab (settable, boolean) Value: off, Elegant Swan Marble Side Table with Artistic White Base – 50cm — boldstone - High memory usage - 955 MB
+					285 tab (settable, boolean) Marbled Circle - Turquoise — boldstone, Value: off
+					286 tab (settable, boolean) (1) Home / X, Value: off
+					287 tab (settable, boolean) SEO opportunity audit, Value: off
+					288 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					289 tab (settable, boolean) Contact us - Glassette, Value: off
+					290 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					291 tab (settable, boolean) Sell on Artsper, Value: off
+					292 tab (settable, boolean) ChatGPT, Value: off
+					293 tab (settable, boolean) (5) Boldstone Sculpture | Commerce Manager, Value: off
+					294 tab group  group ✅Claude – 1 Tab, •  Boldstone Sculpture | Products – Expanded
+					295 tab (settable, boolean) Boldstone Sculpture | Products – Part of group ✅Claude, Value: off
+					296 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+					297 tab group  group 🗿 Product completion – 1 Tab, •  about:blank – Expanded
+					298 tab (settable, boolean) about:blank – Part of group 🗿 Product completion, Value: off
+			299 button New tab
+	300 close button
+	301 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	302 minimise button
+303 menu bar
+	304 Chrome
+	305 File
+	306 Edit
+	307 View
+	308 History
+	309 Bookmarks
+	310 Profiles
+	311 Tab
+	312 Window
+	313 Help
+
+The focused UI element is 27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089/import/history

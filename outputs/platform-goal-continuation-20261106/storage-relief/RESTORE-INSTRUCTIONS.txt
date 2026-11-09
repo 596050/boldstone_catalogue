@@ -1,0 +1,18 @@
+Historical spreadsheet inspection archives
+
+Original XLSX workbooks remain in place. Each gzip archive restores the exact inspection bytes and original Mac metadata. No browser profile, app state, original photograph or Dropbox file is removed by this operation.
+
+List archived paths:
+python3 outputs/platform-goal-continuation-20261106/storage-relief/archive_reader.py list
+
+Search without restoring all files:
+python3 outputs/platform-goal-continuation-20261106/storage-relief/archive_reader.py search "Wall Sculptures"
+
+Export exact uncompressed bytes to a new path:
+python3 outputs/platform-goal-continuation-20261106/storage-relief/archive_reader.py export "ORIGINAL_PATH_FROM_LIST" --to "NEW_EXPORT_PATH"
+
+Preview a restoration to its original path:
+python3 outputs/platform-goal-continuation-20261106/storage-relief/archive_reader.py restore "ORIGINAL_PATH_FROM_LIST"
+Add --apply to perform that restoration. Existing paths are never overwritten. Archives remain after restoration.
+
+manifest.json is the fixed reviewed file set; journal.jsonl records compression, full restoration checks and retirement; complete.json records the completed operation. Gzip and decompressed SHA-256 values are verified before use. Mac provenance attributes are stored in restore sidecars and recreated before source retirement.

@@ -1,0 +1,147 @@
+- heading [level=1]: Create listings
+- button: Send feedback
+- button:
+- region:
+  - paragraph: Buyers may pay a fee for Buyer Protection.
+  - link:
+    - /url: https://www.ebay.co.uk/help/selling/selling/pricing-items/buyer-protection-information-sellers?id=5595
+    - text: Learn more
+  - button:
+- button:
+  - text: Bulk edit
+- button: Copy a listing
+- button [disabled]: Remove listings
+- button: Preview
+- button: Customise columns
+- button:
+  - text: "Filter: No filter"
+- generic: 0 of 0 item(s) selected
+- table:
+  - caption: This grid shows the drafts you are currently editing.
+  - rowgroup:
+    - row:
+      - columnheader:
+        - checkbox
+      - columnheader:
+        - generic: Edit your listing
+      - columnheader:
+        - generic: Status
+      - columnheader:
+        - button:
+          - generic: Photos
+      - columnheader:
+        - button:
+          - generic: Title
+        - separator
+      - columnheader:
+        - generic: "Item specifics: required + optional"
+      - columnheader:
+        - button:
+          - generic: All item specifics
+        - separator
+      - columnheader:
+        - button:
+          - generic: Custom label (SKU)
+        - separator
+      - columnheader:
+        - button:
+          - generic: Format
+        - separator
+      - columnheader:
+        - button:
+          - generic: Duration
+        - separator
+      - columnheader:
+        - button:
+          - generic: Available quantity
+        - separator
+      - columnheader:
+        - button:
+          - generic: Buy It Now
+        - separator
+      - columnheader:
+        - button:
+          - generic: Starting bid
+        - separator
+      - columnheader:
+        - button:
+          - generic: Offers
+        - separator
+      - columnheader:
+        - button:
+          - generic: Dispatch time
+        - separator
+      - columnheader:
+        - button:
+          - generic: VAT
+        - separator
+      - columnheader:
+        - button:
+          - generic: Start time
+        - separator
+      - columnheader:
+        - button:
+          - generic: Item category 1
+        - separator
+      - columnheader:
+        - button:
+          - generic: Condition
+        - separator
+      - columnheader:
+        - generic: Postage details
+        - separator
+      - columnheader:
+        - generic: Item description
+        - separator
+      - columnheader:
+        - button:
+          - generic: Sell it faster
+        - separator
+      - columnheader:
+        - button:
+          - generic: Last modified
+        - separator
+      - columnheader:
+        - button:
+          - generic: Hazard information
+        - separator
+      - columnheader:
+        - button:
+          - generic: Selling fees
+        - separator
+      - columnheader
+- generic: "Estimated selling fees:"
+- generic: £0.00
+- button:
+- button: Save for later
+- button: Submit (0)
+- dialog "Confirmation":
+  - heading "Confirmation" [level=2]
+  - button "Close" [active]:
+  - img "Confirmation"
+  - paragraph: 3 listings are now live
+  - paragraph: "Total estimated fees: £0.00"
+  - generic: Total estimated fees may vary due to special offers and listing start times.
+  - link "Done":
+    - /url: https://www.ebay.co.uk/sh/lst/drafts
+- contentinfo:
+  - text: Copyright © 1995-2026 eBay Inc. All Rights Reserved.
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+    - text: User Agreement
+  - text: ","
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+    - text: Privacy
+  - text: ","
+  - link:
+    - /url: https://pages.ebay.co.uk/payment/2.0/terms.html
+    - text: Payments Terms of Use
+  - text: ","
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+    - text: Cookies
+  - text: and
+  - link:
+    - /url: https://www.ebay.co.uk/adchoice
+    - text: AdChoice

@@ -1,0 +1,104 @@
+Window: "Home – Faire", App: Google Chrome.
+0 standard window Home – Faire - Google Chrome – Tom, URL: faire.com/brand-portal, Secondary Actions: Raise
+	1 container Home – Faire - Google Chrome – Tom, URL: faire.com/brand-portal
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: faire.com/brand-portal, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Home – Faire, URL: faire.com/brand-portal
+						27 container
+							28 link Skip to main content, Value: faire.com/brand-portal#main-content
+							29 text Action required:
+							30 container
+								31 text All UK brands will now be paid out in GBP! 
+								32 link Add a UK Bank Account, Value: faire.com/brand-portal/account?tab=payment
+								33 text  to continue being paid out for orders.
+							34 container
+								35 container Main
+									36 link Faire Logo, Value: faire.com/brand-portal
+									37 button Collapse navigation
+									38 link Home, Value: faire.com/brand-portal
+									39 text Orders
+									40 text Messages
+									41 text Products
+									42 text Customers
+									43 text Marketing
+									44 text Analytics
+									45 text My shop
+									46 text Faire Direct
+									47 text Settings
+									48 link Faire Academy, Value: learn.faire.com/
+									49 link Help Centre, Value: faire.com/support/brands
+									50 button Account menu
+									51 link View shop, Value: faire.com/brand/b_dddpsekzv4
+								52 container
+									53 heading You’re all set - we are reviewing your shop, Value: 1
+										54 text You’re all set - we are reviewing your shop
+									55 text We’re reviewing your catalog, you won’t be able to update your products in the meantime
+									56 link Preview shop, Value: faire.com/brand/b_dddpsekzv4
+								57 container
+									58 heading Verification progress, Value: 2
+										59 text Verification progress
+									60 content list
+										61 container
+											62 text Submitted for review We’ve received your shop for review.
+										63 container
+											64 text Verifying your shop You can still edit your products while we confirm your identity. 2–3 days
+										65 container
+											66 text Reviewing your catalog You won’t be able to update your products during this step. 1–3 hours
+										67 container
+											68 text Live on Faire Retailers can now discover and purchase your products.
+							69 container Notifications Alt+T
+							70 text Faire – Brand Portal
+			71 pop-up button Tab search
+			72 container
+				73 tab group
+					74 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+						75 button Close
+					76 tab (selected, settable, boolean) Home – Faire, Value: on
+						77 button Close
+			78 button New tab
+	79 close button
+	80 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	81 minimise button
+82 menu bar
+	83 Chrome
+	84 File
+	85 Edit
+	86 View
+	87 History
+	88 Bookmarks
+	89 Profiles
+	90 Tab
+	91 Window
+	92 Help
+
+The focused UI element is 26 HTML content Home – Faire, URL: faire.com/brand-portal

@@ -1,0 +1,379 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: ML-1-100.30, Placeholder: Search Products
+									48 link
+								49 button 1
+									50 container
+										51 Tick box 1
+									52 text 1
+								53 container
+									54 text 1  /  1
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container Boldstone Magnolia Growth - White Wall sculpture ML-1-100.30 WHITE STONE-EFFECT FINISH 157.40 GBP
+										64 container
+											65 Unlabelled image /00034705992AECA4_M.jpg
+											66 text Boldstone Magnolia Growth - White Wall sculpture
+											67 text ML-1-100.30 WHITE STONE-EFFECT FINISH
+											68 container
+												69 text 157.40  GBP
+							70 container
+								71 content list
+									72 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								73 container
+									74 heading Presentations, Value: 5
+										75 text Presentations
+									76 button New
+									77 content list
+										78 link ALL, Value: manage.brandboom.com/products/s/111089#
+										79 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									80 container
+										81 link
+											82 image
+										83 search text field (settable) Search Presentations
+										84 link
+											85 image
+								86 heading Ship Windows, Value: 5
+									87 text Ship Windows
+								88 content list
+									89 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									90 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								91 text No active ship windows
+							92 container
+								93 button Cancel
+								94 button Select All
+								95 text 1 Item
+								96 button Search Order
+							97 link Reset
+								98 text Reset
+							99 button Apply
+							100 text PRODUCT STATUS
+							101 text Active
+							102 text Inactive
+							103 text Archived
+							104 text Corrupted
+							105 text No Images
+							106 text SORT BY
+							107 pop-up button Newest First
+								108 (selected) Newest First
+							109 text SHIP DATE RANGE
+							110 container
+								111 image
+								112 text field (settable) Click to select range
+							113 text No Date Range
+							114 text CREATE DATE RANGE
+							115 container
+								116 image
+								117 text field (settable) Click to select range
+							118 text SIZES
+							119 text field (settable) S, M, L
+							120 text VENDORS TYPES
+							121 link
+								122 image
+							123 text No Types
+							124 text Mens
+							125 text Womens
+							126 text CATEGORIES
+							127 link
+								128 image
+							129 link
+								130 image
+							131 text No Categories
+							132 text Sweater
+							133 text SEASONS
+							134 link
+								135 image
+							136 link
+								137 image
+							138 text No Seasons
+							139 container
+								140 container
+									141 Tick box Create another, Value: 0
+									142 text Create another
+								143 button Save
+								144 container
+									145 Unlabelled image /00034705992AECA4_M.jpg
+									146 container
+										147 image /00034705992AECA4_S.jpg
+										148 button STANDARD
+										149 image /00034705993AC428_S.avif
+										150 button STANDARD
+										151 image /00034705994A0369_S.avif
+										152 button STANDARD
+										153 image /000347059959B1E3_S.avif
+										154 button STANDARD
+										155 image /00034705996DBA80_S.avif
+										156 button STANDARD
+										157 image /00034705997C4DCA_S.jpg
+										158 button STANDARD
+										159 image /00034705998CACB0_S.jpg
+										160 button STANDARD
+										161 image /00034705999B7FAF_S.avif
+										162 button STANDARD
+										163 image /000347060009D24A_S.avif
+										164 button STANDARD
+										165 image /00034706001BCCC3_S.avif
+										166 button STANDARD
+										167 image
+										168 image
+									169 image
+									170 text 10 / Unlimited
+									171 image
+									172 text 0 / 1
+									173 text Drag to reorder
+									174 container
+										175 text Style ID *
+										176 text ML-1-100.30
+									177 container
+										178 text Options
+										179 link White stone-effect finish
+											180 text White stone-effect finish
+									181 container
+										182 text Sizes
+										183 text One sculpture
+									184 text Barcode
+									185 container
+										186 button
+										187 text field (settable)
+									188 text Name
+									189 text field (settable) Boldstone Magnolia Growth - White Wall sculpture
+									190 container Price
+										191 container
+											192 text Price
+											193 text field (settable) Value: 157.40, Placeholder: Enter
+									194 container Retail
+										195 container
+											196 text Retail
+											197 text field (settable) Value: 0.00, Placeholder: Enter
+									198 text Qty Min
+									199 text field (settable) 1
+									200 text Vendor
+									201 text field (settable)
+									202 text Type
+									203 text field (settable) Home Decor
+									204 text Category
+									205 text field (settable) Wall Sculpture
+									206 text Taxonomy
+									207 text field (settable) Select
+									208 text Season
+									209 text field (settable)
+									210 text Ship Date
+									211 text field (settable)
+									212 container
+										213 text HS Code
+										214 text field (settable) HS Code
+									215 container Country Of Origin
+										216 container
+											217 text Country Of Origin
+											218 button -
+									219 container
+										220 text Description
+										221 container
+											222 text Magnolia-inspired leaves gather into a relief that celebrates the movement of growing forms. Curves overlap and open out, giving the surface a gentle botanical rhythm.
+											223 text It brings to mind the quiet optimism of new foliage and the beauty of a garden seen at close range.
+											224 text The white finish keeps the focus on the form and its changing shadows.
+											225 text Brand: Boldstone
+											226 text Product type: Wall sculpture
+											227 text Model: Magnolia Growth - White (ML-1-100.30)
+											228 text Colour / appearance: White stone-effect finish
+											229 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											230 text Material: Made from a gypsum-based material.
+											231 text Dimensions: 100 × 30 × 6 cm
+											232 text Weight: Approximately 18 kg
+											233 text Use: Suitable for outdoor use and indoor display.
+											234 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											235 text Availability: Ready to dispatch
+											236 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											237 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											238 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							239 link
+								240 image
+							241 container
+								242 content list
+									243 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									244 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								245 container
+									246 button Upload Images
+									247 button
+									248 button
+									249 button
+								250 container
+									251 Unlabelled image /00011059390A4080_S.avif
+									252 text jewelry-watch
+									253 Unlabelled image /00011059388E43A7_S.avif
+									254 text toys-dinosaur
+									255 Unlabelled image /00011059387A69BA_S.avif
+									256 text baby-kidswear-t
+									257 Unlabelled image /000110593863557B_S.avif
+									258 text pet-sticks
+									259 Unlabelled image /00011059385C1D4E_S.avif
+									260 text apparel-t-shirt
+									261 Unlabelled image /00011059384494BB_S.avif
+									262 text footwear-shoes
+									263 Unlabelled image /000110593837D96A_S.avif
+									264 text beauty-cream
+									265 Unlabelled image /00011059382B4683_S.avif
+									266 text home-pitcher
+									267 Unlabelled image /00007087863E986B_S.avif
+									268 text BOOM1111
+									269 Unlabelled image /0000022409830BD3_S.avif
+									270 text BOOM1830
+									271 Unlabelled image /00000224097C30D6_S.avif
+									272 text BOOM1705
+									273 Unlabelled image /00000224096AD0BE_S.avif
+									274 text BOOM1100
+							275 button Close
+							276 text Search Products
+							277 button Scan barcodes
+							278 container
+								279 link
+									280 image
+								281 search text field (settable) Search for Products
+							282 text RESULTS
+							283 button Open Intercom Messenger
+							284 link Dismiss
+								285 text Dismiss
+							286 link Product Import Complete
+								287 text Product Import Complete
+							288 button Refresh
+			289 pop-up button Tab search
+			290 container
+				291 tab group
+					292 tab (settable, boolean) Products – Faire, Value: off
+					293 tab (settable, boolean) Gumtree | Free classified ads from the #1 classifieds site in the UK, Value: off
+					294 tab (settable, boolean) Sign in to your Supplier account | AppScenic, Value: off
+					295 tab (settable, boolean) Shoppe Object, Value: off
+					296 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					297 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					298 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					299 tab (settable, boolean) sell on wholesale central - Google Search, Value: off
+					300 tab (settable, boolean) Display Your Products to Millions of Buyers Worldwide., Value: off
+					301 tab (settable, boolean) become-a-seller-new | Wholesale Prices | Tradeling, Value: off
+					302 tab (settable, boolean) Marketplace FAQ for Sellers | Brandboom Help Center, Value: off
+					303 tab (settable, boolean) Online Sales FAQ - TICA, Value: off
+					304 tab (settable, boolean) Carro Migration FAQ, Value: off
+					305 tab (settable, boolean) Join Us | CREOATE, Value: off
+					306 tab (settable, boolean) MOM - Sell your products, Value: off
+					307 tab (settable, boolean) Ankorstore | Wholesale Marketplace Home to Europe's Best Brands, Value: off
+					308 tab (settable, boolean) See how virtual showrooms sell, Value: off
+					309 tab (settable, boolean) Wholesale Marketplace: Get Discovered by Retailers | NuORDER by Lightspeed, Value: off
+					310 tab (settable, boolean) Sell on Syncee, Value: off
+					311 tab (settable, boolean) Become a Spocket Supplier - Sell to 100,000+ Retailers Free, Value: off
+					312 tab (settable, boolean) Become a verified Avasam supplier, Value: off
+					313 tab (settable, boolean) Advertise Your Wholesale Business - Would you like to expand your business?, Value: off
+					314 tab (settable, boolean) eSources UK Help | Managing Your Supplier Profile, Value: off
+					315 tab (settable, boolean) Gift Wholesalers - Gift Shop Wholesalers, Value: off
+					316 tab (settable, boolean) Sell on Tesco Marketplace | Reach millions of UK shoppers, Value: off
+					317 tab (settable, boolean) RangeMe, Value: off
+					318 tab (settable, boolean) Art Gallery | Buy Original British Art Online, Value: off
+					319 tab (settable, boolean) Original art for sale, Value: off
+					320 tab (settable, boolean) 25+ Handmade Marketplaces for Artisans to Sell Crafts, Art, Gifts Online - MultiMerch, Value: off
+					321 tab (settable, boolean) 250+ Websites Directory for Artists to Sell Art Online, Value: off
+					322 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish, Value: off
+					323 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					324 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					325 tab (settable, boolean) Wholesale Central | Leading Source for Wholesale Products & Suppliers, Value: off
+					326 tab (settable, boolean) New York City Show Exhibitor Application, Value: off
+					327 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					328 tab (settable, boolean) Booth activation - Booth customization, Value: off
+					329 tab (settable, boolean) Romans Surviving Rome’s Collapse, Value: off
+					330 tab (settable, boolean) PayPal, Value: off
+					331 tab (settable, boolean) Verification code to reset your PayPal password - info@boldstone.co.uk - Thomas Price Mail, Value: off
+					332 tab (settable, boolean) ChatGPT, Value: off
+					333 tab (settable, boolean) _20261105_125118_b5c8aa3a-e88c-489b-bb71-04f4e23ce0ea.png (2048×2048), Value: off
+					334 tab (settable, boolean) _20261105_124942_a2ea11ea-9588-4814-921b-1b8119944376.png (2048×2048), Value: off
+					335 tab (settable, boolean) 888309629_1523348299846656_5333981695044073670_n.jpg (947×2048), Value: off
+					336 tab (settable, boolean) 880004104_1873677580468638_5195249294559980998_n.jpg (947×2048), Value: off
+					337 tab (settable, boolean) Photo 31-03-2025, 12 41 58.jpg, Value: off
+					338 tab (settable, boolean) Value: off, Elegant Swan Marble Side Table with Artistic White Base – 50cm — boldstone - High memory usage - 955 MB
+					339 tab (settable, boolean) Marbled Circle - Turquoise — boldstone, Value: off
+					340 tab (settable, boolean) (1) Home / X, Value: off
+					341 tab (settable, boolean) SEO opportunity audit, Value: off
+					342 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					343 tab (settable, boolean) Contact us - Glassette, Value: off
+					344 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					345 tab (settable, boolean) Sell on Artsper, Value: off
+					346 tab (settable, boolean) ChatGPT, Value: off
+					347 tab (settable, boolean) (5) Boldstone Sculpture | Commerce Manager, Value: off
+					348 tab group  group ✅Claude – 1 Tab, •  Boldstone Sculpture | Products – Expanded
+					349 tab (settable, boolean) Boldstone Sculpture | Products – Part of group ✅Claude, Value: off
+					350 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+					351 tab group  group 🗿 Product completion – 1 Tab, •  about:blank – Expanded
+					352 tab (settable, boolean) about:blank – Part of group 🗿 Product completion, Value: off
+			353 button New tab
+	354 close button
+	355 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	356 minimise button
+357 menu bar
+	358 Chrome
+	359 File
+	360 Edit
+	361 View
+	362 History
+	363 Bookmarks
+	364 Profiles
+	365 Tab
+	366 Window
+	367 Help
+
+The focused UI element is 63 container Boldstone Magnolia Growth - White Wall sculpture ML-1-100.30 WHITE STONE-EFFECT FINISH 157.40 GBP

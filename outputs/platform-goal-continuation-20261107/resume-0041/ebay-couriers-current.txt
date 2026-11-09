@@ -1,0 +1,158 @@
+Window: "Simple delivery", App: Google Chrome.
+0 standard window Simple delivery – Part of group 📦 Marketplace completion - Google Chrome – Tom, Secondary Actions: Raise, URL: ebay.co.uk/ship/prf/simpledelivery?returnUrl=https%3A%2F%2Fwww.ebay.co.uk%2Flstng%3FdraftId%3D5456511583611%26mode%3DAddItem%26ReturnURL%3Dhttps%253A%252F%252Fwww.ebay.co.uk%252Fsh%252Flst%252Fdrafts
+	1 container Simple delivery – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: ebay.co.uk/ship/prf/simpledelivery?returnUrl=https%3A%2F%2Fwww.ebay.co.uk%2Flstng%3FdraftId%3D5456511583611%26mode%3DAddItem%26ReturnURL%3Dhttps%253A%252F%252Fwww.ebay.co.uk%252Fsh%252Flst%252Fdrafts
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ebay.co.uk/ship/prf/simpledelivery?returnUrl=https%3A%2F%2Fwww.ebay.co.uk%2Flstng%3FdraftId%3D5456511583611%26mode%3DAddItem%26ReturnURL%3Dhttps%253A%252F%252Fwww.ebay.co.uk%252Fsh%252Flst%252Fdrafts
+					10 button Zoom: 80%
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Simple delivery, URL: ebay.co.uk/ship/prf/simpledelivery?returnUrl=https%3A%2F%2Fwww.ebay.co.uk%2Flstng%3FdraftId%3D5456511583611%26mode%3DAddItem%26ReturnURL%3Dhttps%253A%252F%252Fwww.ebay.co.uk%252Fsh%252Flst%252Fdrafts
+						27 container
+							28 image
+							29 image
+							30 container
+								31 link Skip to main content, Value: ebay.co.uk/ship/prf/simpledelivery?returnUrl=https%3A%2F%2Fwww.ebay.co.uk%2Flstng%3FdraftId%3D5456511583611%26mode%3DAddItem%26ReturnURL%3Dhttps%253A%252F%252Fwww.ebay.co.uk%252Fsh%252Flst%252Fdrafts#mainContent
+								32 pop-up button Hi Sally!
+								33 link Collection, Value: ebay.co.uk/localcollection
+								34 link Deals, Value: ebay.co.uk/deals
+								35 link Fashion, Value: ebay.co.uk/b/bn_7000259675
+								36 link Help & Contact, Value: ebay.co.uk/help/home
+								37 link Sell, Value: ebay.co.uk/sl/sell
+								38 container
+									39 link Watchlist, Value: ebay.co.uk/mye/myebay/watchlist
+									40 button Expand Watchlist
+								41 container
+									42 link My eBay, Value: ebay.co.uk/mys/home?source=GBH
+									43 button Expand My eBay
+								44 pop-up button Notifications
+								45 container
+									46 link Your shopping basket contains 10 items, Value: cart.ebay.co.uk/
+									47 button Expand Basket
+								48 link eBay Home, Value: ebay.co.uk/
+								49 pop-up button Shop by category
+								50 container
+									51 container
+										52 combo box (settable) Search for anything, Help: Search
+										53 button Camera icon
+									54 pop-up button Select a category for search, Value: All Categories
+										55 (selected) All Categories
+									56 button Search
+									57 link Advanced, Value: ebay.co.uk/sch/ebayadvsearch
+							58 container
+								59 heading 2
+								60 content list
+									61 link Postage preferences, Value: ebay.co.uk/ship/prf
+									62 text Simple delivery
+								63 text Simple delivery
+								64 text Courier preferences
+								65 container
+									66 text Choose your preferred couriers for Simple Delivery. We'll do our best to use them, but exceptions may apply based on the package size or destination. 
+									67 link Learn more, Value: ebay.co.uk/sellercentre/postage/simple-delivery
+								68 image Royal Mail
+								69 text Royal Mail
+								70 text No printer required • Collection or drop-off • Click & Collect for buyers
+								71 button Find a drop-off location
+								72 switch Royal Mail, Value: on
+								73 image Evri
+								74 text Evri
+								75 text No printer required • Drop-off only • Click & Collect for buyers
+								76 button Find a drop-off location
+								77 switch Evri, Value: on
+								78 image InPost
+								79 text InPost
+								80 text Includes Yodel drop off
+								81 text No printer required • Drop-off only • Click & Collect for buyers
+								82 link Find a drop-off location, Value: inpost.co.uk/lockers
+								83 switch InPost, Value: on
+								84 image DHL
+								85 text DHL
+								86 text For bulky parcels only • No printer required • Collection only
+								87 switch DHL, Value: on
+								88 container education Want packages collected from your address?
+									89 container
+										90 image education
+										91 heading Want packages collected from your address?, Value: 2
+											92 text Want packages collected from your address?
+									93 text Only Royal Mail offers collection from your address. Exclude other couriers to ensure access to this service.
+							94 container
+								95 content list
+									96 link About eBay, Value: ebayinc.com/our-company/
+									97 link Announcements, Value: community.ebay.co.uk/t5/Announcements/bg-p/Announcements
+									98 link Community, Value: community.ebay.co.uk/
+									99 link Safety Centre, Value: pages.ebay.co.uk/safetycentre/index.html
+									100 link Seller Centre, Value: ebay.co.uk/sellercentre
+									101 link VeRO: Protecting Intellectual Property, Value: pages.ebay.co.uk/vero/
+									102 link Policies, Value: ebay.co.uk/help/policies/az-index/az-index-policies?id=4649
+									103 link Product Safety Tips, Value: pages.ebay.co.uk/safetytips
+									104 link Help & Contact, Value: ebay.co.uk/help/home
+									105 link Site Map, Value: pages.ebay.co.uk/sitemap.html
+								106 text Copyright © 1995-2026 eBay Inc. All Rights Reserved. 
+								107 link User Agreement, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+								108 text , 
+								109 link Privacy, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+								110 text , 
+								111 link Payments Terms of Use, Value: pages.ebay.co.uk/payment/2.0/terms.html
+								112 text , 
+								113 link Cookies, Value: ebay.co.uk/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+								114 text  and 
+								115 link AdChoice , Value: ebay.co.uk/adchoice
+							116 image
+			117 pop-up button Tab search
+			118 container
+				119 tab group
+					120 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					121 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					122 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					123 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					124 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					125 tab (settable, boolean) Meta Business Suite - High memory usage - 1.0 GB, Value: off
+					126 tab group  group 📦 Marketplace completion – 3 Tabs, •  Studio | Saatchi Art United Kingdom, •  Manage active listings - eBay Seller Hub, •  Simple delivery – Expanded
+					127 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion, Value: off
+					128 tab (settable, boolean) Manage active listings - eBay Seller Hub – Part of group 📦 Marketplace completion, Value: off
+					129 tab (selected, settable, boolean) Simple delivery – Part of group 📦 Marketplace completion, Value: on
+						130 button Close
+					131 tab (settable, boolean) Create listings, Value: off
+			132 button New tab
+	133 close button
+	134 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	135 minimise button
+136 menu bar
+	137 Chrome
+	138 File
+	139 Edit
+	140 View
+	141 History
+	142 Bookmarks
+	143 Profiles
+	144 Tab
+	145 Window
+	146 Help
+
+The focused UI element is 26 HTML content Simple delivery, URL: ebay.co.uk/ship/prf/simpledelivery?returnUrl=https%3A%2F%2Fwww.ebay.co.uk%2Flstng%3FdraftId%3D5456511583611%26mode%3DAddItem%26ReturnURL%3Dhttps%253A%252F%252Fwww.ebay.co.uk%252Fsh%252Flst%252Fdrafts

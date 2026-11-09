@@ -1,0 +1,100 @@
+- navigation "Website pages and features":
+  - link "Home":
+    - /url: /config/
+    - img "Home"
+  - button "Search":
+  - button "Notifications - you have unread notifications":
+  - link "Home":
+    - /url: /config/home
+    - paragraph: Home
+  - link "Website":
+    - /url: /config/
+    - paragraph: Website
+  - link "Products & Services":
+    - /url: /config/commerce
+    - paragraph: Products & Services
+  - link "Products":
+    - /url: /config/commerce/products
+    - paragraph: Products
+  - link "Orders":
+    - /url: /config/commerce/orders
+    - paragraph: Orders
+  - link "Discounts":
+    - /url: /config/commerce/discounts
+    - paragraph: Discounts
+  - link "Selling Tools":
+    - /url: /config/commerce/selling-tools
+    - paragraph: Selling Tools
+  - checkbox [checked]
+  - link "Content & Memberships":
+    - /url: /config/content-and-memberships
+    - paragraph: Content & Memberships
+  - checkbox [checked]
+  - link "Scheduling":
+    - /url: https://secure.acuityscheduling.com/oauth2/squarespace-attached?website_id=66abcbd768fd043d92325d96&analytics_id=871ea609-7aad-4efb-9408-1d42d6316296
+    - paragraph: Scheduling
+  - checkbox [checked]
+  - link "Donations":
+    - /url: /config/donations
+    - paragraph: Donations
+  - checkbox [checked]
+  - link "Invoicing & Pay Links":
+    - /url: /config/invoicing
+    - paragraph: Invoicing & Pay Links
+  - checkbox [checked]
+  - status
+  - link "Campaigns":
+    - /url: /config/marketing/campaigns
+    - paragraph: Campaigns
+  - link "Contacts":
+    - /url: /config/profiles
+    - paragraph: Contacts
+  - link "Analytics":
+    - /url: /config/analytics
+    - paragraph: Analytics
+  - link "Finance":
+    - /url: /config/finance
+    - paragraph: Finance
+  - button "Account"
+  - list:
+    - button "Help":
+    - button "Customize Sidebar":
+    - button "Settings":
+- main:
+  - navigation "Breadcrumbs":
+    - list:
+      - generic: Products & Services
+      - listitem: /
+      - generic: Selling Tools
+      - listitem: /
+      - paragraph: Products on Facebook & Instagram
+  - heading "Products on Facebook & Instagram" [level=1]
+  - paragraph:
+    - text: Sync your Squarespace catalog to Facebook and Instagram to promote your products in posts and stories.
+    - link "Learn more":
+      - /url: /api/auth/sso/help?path=/hc/articles/360001257067
+  - button "Promote products 1":
+    - paragraph: Promote products
+    - generic: "1"
+  - separator
+  - button "Create an ad to increase sales 1":
+    - paragraph: Create an ad to increase sales
+    - generic: "1"
+  - separator
+  - generic: Account
+  - paragraph: Meta Business Account
+  - paragraph: "2380586078685156"
+  - generic: Catalog synced hourly
+  - separator
+  - button "View Products on Meta":
+    - generic: View Products on Meta
+  - separator
+  - button "Disconnect":
+    - generic: Disconnect
+  - img "Start Selling on Facebook and Instagram"
+  - paragraph: Learn how to start selling on Facebook and Instagram
+  - generic: Edit
+- button:
+  - generic: 0 updates
+- button:
+  - generic: 0 updates

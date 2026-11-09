@@ -1,0 +1,122 @@
+Window: "Sally Price | LinkedIn", App: Google Chrome.
+0 standard window Sally Price | LinkedIn - High memory usage - 984 MB - Google Chrome – Tom, URL: linkedin.com/sharing/compose, Secondary Actions: Raise
+	1 container Sally Price | LinkedIn - High memory usage - 984 MB - Google Chrome – Tom, URL: linkedin.com/sharing/compose
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: linkedin.com/sharing/compose, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Sally Price | LinkedIn, URL: linkedin.com/sharing/compose
+						26 container Ad Options
+							27 button Dismiss
+							28 container
+								29 button Sally Price
+								30 button Post to Anyone
+								31 button Comments: Anyone
+								32 button Add collaborators
+								33 container
+									34 text entry area (settable) Brancusi Totem Relief - White
+A narrow wall can hold a strong sculptural rhythm.
+Brancusi Totem Relief brings a long, rippling line to the wall. The white surface lets the raised contours and their shadows do the work, changing quietly as the light moves.
+100 × 22 × 8 cm. Made from a gypsum-based material. Suitable for outdoor use and indoor display.
+All designs can be customised, and completely new commissions can be developed with designer Sally Price.
+For homes, gardens and design projects. View the individual sculpture: https://boldstonesculpture.com/buy/p/brancusi-totem-white?utm_source=linkedin&utm_medium=social&utm_campaign=wall_sculptures_20261108_evening&utm_content=BT-1-100.22
+#WallSculpture #SallyPrice #Boldstone #InteriorDesign #LandscapeDesign
+										35 text Brancusi Totem Relief - White
+										36 text A narrow wall can hold a strong sculptural rhythm.
+										37 text Brancusi Totem Relief brings a long, rippling line to the wall. The white surface lets the raised contours and their shadows do the work, changing quietly as the light moves.
+										38 text 100 × 22 × 8 cm. Made from a gypsum-based material. Suitable for outdoor use and indoor display.
+										39 text All designs can be customised, and completely new commissions can be developed with designer Sally Price.
+										40 text For homes, gardens and design projects. View the individual sculpture: https://boldstonesculpture.com/buy/p/brancusi-totem-white?utm_source=linkedin&utm_medium=social&utm_campaign=wall_sculptures_20261108_evening&utm_content=BT-1-100.22
+										41 container
+											42 text #WallSculpture #SallyPrice #Boldstone #InteriorDesign #LandscapeDesign
+								43 container
+									44 button
+									45 button Edit
+									46 button Close
+								47 pop-up button Show Emoji Picker
+								48 link Scheduled, Value: linkedin.com/sharing/compose
+								49 button Post
+							50 heading 0 notifications, Value: 2
+								51 text 0 notifications
+			52 pop-up button Tab search
+			53 container
+				54 tab group
+					55 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					56 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					57 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					58 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					59 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					60 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					61 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					62 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					63 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					64 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					65 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					66 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					67 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					68 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					69 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					70 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					71 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					72 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					73 tab (settable, boolean) Meta Business Suite, Value: off
+					74 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					75 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					76 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					77 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					78 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					79 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					80 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					81 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 999 MB, Value: off
+					82 tab (settable, boolean) Boldstone · Review room, Value: off
+					83 tab (selected, settable, boolean) Sally Price | LinkedIn - High memory usage - 984 MB, Value: on
+			84 button New tab
+	85 close button
+	86 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	87 minimise button
+88 menu bar
+	89 Chrome
+	90 File
+	91 Edit
+	92 View
+	93 History
+	94 Bookmarks
+	95 Profiles
+	96 Tab
+	97 Window
+	98 Help
+
+The focused UI element is 34 text entry area (settable) Brancusi Totem Relief - White
+A narrow wall can hold a strong sculptural rhythm.
+Brancusi Totem Relief brings a long, rippling line to the wall. The white surface lets the raised contours and their shadows do the work, changing quietly as the light moves.
+100 × 22 × 8 cm. Made from a gypsum-based material. Suitable for outdoor use and indoor display.
+All designs can be customised, and completely new commissions can be developed with designer Sally Price.
+For homes, gardens and design projects. View the individual sculpture: https://boldstonesculpture.com/buy/p/brancusi-totem-white?utm_source=linkedin&utm_medium=social&utm_campaign=wall_sculptures_20261108_evening&utm_content=BT-1-100.22
+#WallSculpture #SallyPrice #Boldstone #InteriorDesign #LandscapeDesign

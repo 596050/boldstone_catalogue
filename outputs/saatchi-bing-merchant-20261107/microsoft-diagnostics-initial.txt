@@ -1,0 +1,129 @@
+Window: "Product issues | Microsoft Advertising", App: Google Chrome.
+0 standard window Product issues | Microsoft Advertising - Google Chrome – Tom, Secondary Actions: Raise, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/productissues?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+	1 container Product issues | Microsoft Advertising - Google Chrome – Tom, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/productissues?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/productissues?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Product issues | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/productissues?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+						26 container
+							27 container Skip to main content
+								28 link Skip to main content, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&uid=193182372#main
+							29 container global menu
+								30 button Microsoft Advertising
+								31 button Switch user accounts. Current selection: Boldstone (G1459Y2Q)
+								32 container
+									33 combo box (settable) Search Microsoft Advertising
+									34 button clear
+								35 button Copilot
+								36 button Notifications
+								37 button   Notifications
+								38 pop-up button Help
+								39 button New features
+								40 button Open account panel
+							41 container Banner message
+								42 text You need a primary payment method before your ads will run.
+								43 link Add a payment method now, Value: ads.microsoft.com/cc/PaymentMethods?aid=187335961&cid=255124527&uid=193182372&showTaxForm=False
+							44 tab group
+								45 tab (settable, integer) Campaigns, Value: 0
+								46 tab (settable, integer) Conversions, Value: 0
+								47 tab (settable, integer) Ads Studio, Value: 0
+								48 tab (settable, integer) Import, Value: 0
+								49 tab (settable, integer) Reporting, Value: 0
+								50 tab (selected) Merchant Center, Value: 1
+								51 tab (settable, integer) Billing, Value: 0
+								52 tab (settable, integer) Settings, Value: 0
+								53 tab (settable, integer) Tools, Value: 0
+							54 container breadcrumb
+								55 content list
+									56 button All stores
+									57 button (disabled) Boldstone Sculpture
+							58 container
+								59 button Overview
+								60 button Collapse menu
+								61 button Diagnostics
+								62 button Products
+								63 button Feeds
+								64 button Import
+								65 button Promotions
+								66 button Settings
+							67 container
+								68 container
+									69 heading Diagnostics, Value: 1
+										70 text Diagnostics
+									71 tab group Sub page menu
+										72 tab (selected) Product issues 0, Value: 1
+										73 tab (settable, integer) Feed issues 0, Value: 0
+										74 tab (settable, integer) Store issues 0, Value: 0
+								75 container
+									76 link Learn more about product issues, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/productissues?aid=187335961&cid=255124527&storeId=50112622&uid=193182372#
+									77 toolbar Product issues report actions
+										78 button Run report
+										79 button (disabled) Download report
+									80 image
+									81 text There are currently no issues.
+									82 text © 2026 Microsoft
+									83 content list
+										84 link Legal, Value: ads.microsoft.com/tc.aspx
+										85 link Privacy & Cookies, Value: go.microsoft.com/fwlink/?LinkId=248681
+										86 link Advertise, Value: go.microsoft.com/fwlink/?LinkId=258668
+										87 link Developers, Value: go.microsoft.com/fwlink/?linkid=2333449
+										88 link Support, Value: go.microsoft.com/fwlink/?LinkId=258669
+										89 link Blog, Value: go.microsoft.com/fwlink/?LinkId=395064
+										90 link Community, Value: go.microsoft.com/fwlink/?linkid=2325500&clcid=0x409
+										91 link Consumer Health Privacy, Value: go.microsoft.com/fwlink/?linkid=2259814
+										92 button Help
+							93 container
+								94 text  Store Boldstone Sculpture created. Your store is now being processed for approval. This can take up to 3 business days.
+								95 button Dismiss the message
+			96 pop-up button Tab search
+			97 container
+				98 tab group
+					99 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+						100 button Close
+					101 tab (selected, settable, boolean) Product issues | Microsoft Advertising, Value: on
+						102 button Close
+			103 button New tab
+	104 close button
+	105 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	106 minimise button
+107 menu bar
+	108 Chrome
+	109 File
+	110 Edit
+	111 View
+	112 History
+	113 Bookmarks
+	114 Profiles
+	115 Tab
+	116 Window
+	117 Help
+
+The focused UI element is 61 button Diagnostics

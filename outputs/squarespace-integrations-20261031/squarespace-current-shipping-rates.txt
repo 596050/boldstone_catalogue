@@ -1,0 +1,259 @@
+- navigation "Website pages and features":
+  - link:
+    - /url: /config/
+  - button:
+  - button:
+  - link:
+    - /url: /config/home
+    - paragraph: Home
+  - link:
+    - /url: /config/
+    - paragraph: Website
+  - link:
+    - /url: /config/commerce
+    - paragraph: Products & Services
+  - link:
+    - /url: /config/commerce/products
+    - paragraph: Products
+  - link:
+    - /url: /config/commerce/orders
+    - paragraph: Orders
+  - link:
+    - /url: /config/commerce/discounts
+    - paragraph: Discounts
+  - link:
+    - /url: /config/commerce/selling-tools
+    - paragraph: Selling Tools
+  - checkbox [checked]
+  - link:
+    - /url: /config/content-and-memberships
+    - paragraph: Content & Memberships
+  - checkbox [checked]
+  - link:
+    - /url: https://secure.acuityscheduling.com/oauth2/squarespace-attached?website_id=66abcbd768fd043d92325d96&analytics_id=871ea609-7aad-4efb-9408-1d42d6316296
+    - paragraph: Scheduling
+  - checkbox [checked]
+  - link:
+    - /url: /config/donations
+    - paragraph: Donations
+  - checkbox [checked]
+  - link:
+    - /url: /config/invoicing
+    - paragraph: Invoicing & Pay Links
+  - checkbox [checked]
+  - status
+  - link:
+    - /url: /config/marketing/campaigns
+    - paragraph: Campaigns
+  - link:
+    - /url: /config/profiles
+    - paragraph: Contacts
+  - link:
+    - /url: /config/analytics
+    - paragraph: Analytics
+  - link:
+    - /url: /config/finance
+    - paragraph: Finance
+  - button
+  - list:
+    - button:
+    - button:
+    - button:
+- main:
+  - heading [level=1]: Selling Tools
+  - paragraph: Explore more ways to sell
+  - link:
+    - /url: /config/commerce/selling-tools/custom-merch
+    - paragraph: Custom Merch
+    - text: Design and sell custom products with print on demand services powered by Printful.
+  - link:
+    - /url: /config/commerce/selling-tools/facebook-and-instagram
+    - paragraph: Products on Facebook & Instagram
+    - text: Sell products from your Squarespace catalog on Facebook and Instagram.
+  - link:
+    - /url: /config/commerce/selling-tools/google-retail
+    - paragraph: Google Shopping
+    - text: Display your products as listings on Google services.
+  - link:
+    - /url: /config/commerce/selling-tools/point-of-sale
+    - paragraph: Point of Sale
+    - text: Collect payments in person with Square and the Squarespace app.
+  - paragraph: Manage your storefront
+  - link:
+    - /url: /config/commerce/selling-tools/product-reviews-dashboard
+    - paragraph: Product Reviews
+    - text: Collect and display reviews for physical, digital and service products.
+  - link:
+    - /url: /config/commerce/selling-tools/product-status
+    - paragraph: Product Status
+    - text: Add stock and availability badges to your physical, service, and download products.
+  - link:
+    - /url: /config/commerce/selling-tools/related-products
+    - paragraph: Related Products
+    - text: Encourage customers to explore by suggesting related physical, service, or download products.
+  - link:
+    - /url: /config/commerce/selling-tools/waitlists
+    - paragraph: Waitlists
+    - text: Create and manage waitlists for out of stock products in your online store.
+  - link:
+    - /url: /config/settings/customer-notifications
+    - paragraph: Customer Notifications
+    - text: Customize the emails you automatically send to customers.
+  - paragraph: Track your sales
+  - link:
+    - /url: /config/commerce/selling-tools/accounting
+    - paragraph: Accounting
+    - text: Download sales data as an Excel file.
+  - link:
+    - /url: /config/commerce/selling-tools/url-builder
+    - paragraph: URL Builder
+    - text: Create unique, trackable links for ad campaigns on third-party platforms.
+  - heading [level=1]: Find more in Settings
+  - paragraph: Set up payments, checkout, shipping, and more in Settings.
+  - list:
+    - button:
+      - generic: Go to Settings
+    - button:
+      - generic: Dismiss
+  - generic: Edit
+- button:
+  - generic: 0 updates
+- button:
+  - generic: 0 updates
+- dialog "Settings":
+  - list:
+    - list:
+      - generic: Settings
+    - button:
+    - list:
+      - button "Search":
+      - button "Close":
+  - link "Website Website":
+    - /url: /settings/website
+    - paragraph: Website
+    - button "Website"
+  - link "Domains & Email Domains & Email":
+    - /url: /settings/domains-email
+    - paragraph: Domains & Email
+    - button "Domains & Email"
+  - link "Customer Notifications Customer Notifications":
+    - /url: /settings/customer-notifications
+    - paragraph: Customer Notifications
+    - button "Customer Notifications"
+  - link "Selling Selling":
+    - /url: /settings/selling
+    - paragraph: Selling
+    - button "Selling"
+  - link "Brand Brand":
+    - /url: /settings/brand
+    - paragraph: Brand
+    - button "Brand"
+  - link "Marketing Marketing":
+    - /url: /settings/marketing
+    - paragraph: Marketing
+    - button "Marketing"
+  - link "Extensions Extensions":
+    - /url: /settings/extensions
+    - paragraph: Extensions
+    - button "Extensions"
+  - link "Third Party Tools Third Party Tools":
+    - /url: /settings/third-party-tools
+    - paragraph: Third Party Tools
+    - button "Third Party Tools"
+  - link "Permissions & Ownership Permissions & Ownership":
+    - /url: /settings/permissions-ownership
+    - paragraph: Permissions & Ownership
+    - button "Permissions & Ownership"
+  - link "Billing Billing":
+    - /url: /settings/billing
+    - paragraph: Billing
+    - button "Billing"
+  - link "Developer Tools Developer Tools":
+    - /url: /settings/developer-tools
+    - paragraph: Developer Tools
+    - button "Developer Tools"
+  - navigation "Breadcrumbs":
+    - list:
+      - link "Selling" [active]:
+        - /url: /config/settings/selling
+        - generic: Selling
+      - listitem: /
+      - link "Shipping":
+        - /url: /config/settings/selling/shipping
+        - generic: Shipping
+      - listitem: /
+      - paragraph: Edit Weight Based Rate
+  - heading "Edit Weight-Based Rate" [level=1]
+  - paragraph: Name your shipping option
+  - generic: Shipping option name
+  - textbox:
+    - /placeholder: Enter a name
+    - text: United Kingdom
+  - paragraph: This name will show at checkout for customers
+  - paragraph: Set weight ranges
+  - generic: Define shipping rates based on the total order weight.
+  - generic: Orders up to
+  - generic: Cost
+  - separator
+  - textbox: "2"
+  - generic: lb
+  - textbox: £5.95
+  - button "Delete":
+    - button "Delete"
+  - textbox: "7"
+  - generic: lb
+  - textbox: £8.95
+  - button "Delete":
+    - button "Delete"
+  - textbox: "22"
+  - generic: lb
+  - textbox: £14.95
+  - button "Delete":
+    - button "Delete"
+  - textbox: "50"
+  - generic: lb
+  - textbox: £24.95
+  - button "Delete":
+    - button "Delete"
+  - textbox: "110"
+  - generic: lb
+  - textbox: £49.95
+  - button "Delete":
+    - button "Delete"
+  - textbox: "160"
+  - generic: lb
+  - textbox: £69.95
+  - button "Delete":
+    - button "Delete"
+  - textbox: "220"
+  - generic: lb
+  - textbox: £89.95
+  - button "Delete":
+    - button "Delete"
+  - button "ADD":
+    - generic: ADD
+  - generic: Orders over
+  - generic: Cost
+  - separator
+  - spinbutton [disabled]: "220"
+  - generic: lb
+  - textbox: £120.00
+  - button "Delete" [disabled]:
+    - button
+  - paragraph: Add handling fee
+  - generic: new
+  - text: Collect additional fees at checkout for each product with this shipping option.
+  - link "Learn more":
+    - /url: /api/auth/sso/help?path=/hc/articles/40934091675405
+  - generic: Markup per item
+  - textbox: 0%
+  - paragraph: Select regions you will ship to
+  - generic: Define countries, states, provinces, and postal codes for this shipping option
+  - text: United Kingdom
+  - searchbox "United Kingdom"
+  - separator
+  - list:
+    - paragraph: United Kingdom
+    - generic: 4 of 4 regions selected
+    - button "Edit regional settings":
+    - button "Delete":

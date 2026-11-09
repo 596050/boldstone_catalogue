@@ -1,0 +1,89 @@
+Window: "Pinterest", App: Google Chrome.
+0 standard window Pinterest – Part of group ✅Claude - Google Chrome – Tom, URL: uk.pinterest.com/settings/bulk-create-pins/, Secondary Actions: Raise
+	1 container Pinterest – Part of group ✅Claude - Google Chrome – Tom, URL: uk.pinterest.com/settings/bulk-create-pins/
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: uk.pinterest.com/settings/bulk-create-pins/, Placeholder: Ask Google or type a URL
+					10 button Install Pinterest
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+					22 button Close side panel
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Pinterest, URL: uk.pinterest.com/settings/bulk-create-pins/
+						28 container
+							29 container
+								30 link Skip to content, Value: uk.pinterest.com/settings/bulk-create-pins/#
+								31 container Primary navigation header
+									32 button Pinterest Settings Dynamic badge drop-down menu button
+									33 button Boldstone Boldstone Account switcher arrow icon
+									34 button Search icon
+									35 link Notifications, Value: uk.pinterest.com/settings/bulk-create-pins/
+									36 link Messages, Value: uk.pinterest.com/settings/bulk-create-pins/
+									37 container Engagement. You have pending notifications.
+										38 link Manage comments and social activity, Value: uk.pinterest.com/engagement/
+									39 link Your profile, Value: uk.pinterest.com/boldstonepinterest/
+									40 pop-up button Accounts and more options
+							41 container Footer floating buttons
+								42 container More
+									43 pop-up button More
+							44 container
+								45 container User settings menu
+									46 link Edit profile, Value: uk.pinterest.com/settings/edit-profile/
+									47 link Account management, Value: uk.pinterest.com/settings/account-settings/
+									48 link Profile visibility, Value: uk.pinterest.com/settings/profile-visibility/
+									49 link Refine your recommendations, Value: uk.pinterest.com/edit/
+									50 link Display settings, Value: uk.pinterest.com/settings/edit/display-settings/
+									51 link Import content, Value: uk.pinterest.com/settings/import/
+									52 link Link to Pinterest, Value: uk.pinterest.com/settings/claim/
+									53 link Social permissions, Value: uk.pinterest.com/settings/permissions/
+									54 link Notifications, Value: uk.pinterest.com/settings/notifications/
+									55 link Privacy and data, Value: uk.pinterest.com/settings/privacy/
+									56 link Security, Value: uk.pinterest.com/settings/security/
+									57 link Branded Content, Value: uk.pinterest.com/settings/branded-content/
+									58 link Labs, Value: uk.pinterest.com/settings/labs/
+								59 heading Create Pins in bulk, Value: 1
+									60 text Create Pins in bulk
+								61 text Auto-publish Pins by connecting an RSS feed, or use a .csv file to bulk-create videos and image Pins
+								62 heading Upload .csv file, Value: 2
+									63 text Upload .csv file
+								64 image Upload a .csv file
+								65 text Drop your .csv file here or click to upload a file
+								66 button Drop your .csv file here or click to upload a file: No file chosen
+								67 text Use a .csv file to create multiple Video Pins in one go. To see formatting requirements for your .csv file or to download a sample CSV file, visit the 
+								68 link Pinterest Help Centre , Opens a new tab, Value: pinterest.com/_/_/help/business/article/bulk-upload-video-pins
+								69 text .
+								70 text Auto-publish
+								71 button Auto-publish help
+								72 text Connect an RSS feed to auto-publish from this domain. 
+								73 link Learn more, Value: pinterest.com/_/_/help/business/article/auto-publish-pins-from-your-rss-feed
+								74 text RSS feed URL https://boldstonesculpture.com/buy?format=rss Saved Pins to Wall Sculpture
+								75 button Edit
+								76 button Add another one
+							77 container Footer
+			78 scroll area
+				79 

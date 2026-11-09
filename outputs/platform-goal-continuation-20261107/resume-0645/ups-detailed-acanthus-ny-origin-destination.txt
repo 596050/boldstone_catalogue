@@ -1,0 +1,312 @@
+Window: "Calculate Time and Cost | UPS - United States", App: Google Chrome.
+0 standard window URL: wwwapps.ups.com/ctc/request?destCountry=US&loc=en_US&origCountry=GB&requestor=LAN, Secondary Actions: Raise, Calculate Time and Cost | UPS - United States – Part of group 📦 Marketplace completion - Google Chrome – Tom
+	1 container URL: wwwapps.ups.com/ctc/request?destCountry=US&loc=en_US&origCountry=GB&requestor=LAN, Calculate Time and Cost | UPS - United States – Part of group 📦 Marketplace completion - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: wwwapps.ups.com/ctc/request?destCountry=US&loc=en_US&origCountry=GB&requestor=LAN, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Calculate Time and Cost | UPS - United States, URL: wwwapps.ups.com/ctc/request?destCountry=US&loc=en_US&origCountry=GB&requestor=LAN
+						26 container
+							27 button Skip to Main Content
+							28 text IEEPA Tariff Refunds
+							29 link Global Alert Modal Link, Value: wwwapps.ups.com/ctc/request?destCountry=US&loc=en_US&origCountry=GB&requestor=LAN#
+							30 container
+								31 button Find Closest UPS Location
+								32 button 1 Service Alerts
+								33 button United States - English
+								34 link Support, Value: wwwapps.ups.com/us/en/support/contact-us
+								35 link Home, Value: wwwapps.ups.com/us/en/home
+								36 content list
+									37 pop-up button Shipping
+									38 pop-up button Tracking
+									39 pop-up button Products & Services
+									40 pop-up button The UPS Store
+								41 content list
+									42 button Search
+									43 container
+										44 pop-up button Log In
+										45 container
+											46 link Log In, Value: ups.com/lasso/login?loc=en_US&returnto=http%3A%2F%2Fwwwapps.ups.com%2Fctc%2Frequest%3Floc%3Den_US%26st%3D1794034717015%26appid%3Dctc
+											47 link Sign Up, Value: wwwapps.ups.com/doapp/SignUp?loc=en_US&ClientId=13&returnto=https://www.ups.com/us/en/home
+											48 heading Hello there! Create a profile and receive access to:, Value: 2
+												49 text Hello there! Create a profile and receive access to:
+											50 container
+												51 container
+													52 text Personalized discounts up to 83% off
+												53 container
+													54 text Tracking notifications
+												55 container
+													56 text Saved addresses for faster shipping
+							57 container
+								58 container
+									59 heading Calculate Time and Cost, Value: 1
+										60 text Calculate Time and Cost
+									61 text Quickly get estimated shipping quotes for our global package delivery services. Provide the origin, destination, and weight of your shipment to compare service details then sort your results by time or cost to find the most cost-effective shipping service.
+							62 container
+								63 container
+									64 text Log in  and select a UPS account to receive the most accurate rate and delivery time information.
+								65 button Log In 
+								66 content list
+									67 text Package
+									68 link Freight, Value: javascript:ctcJavaScript.submitFreight(this.form)
+								69 content list
+									70 link Print, Value: javascript:window.print()
+								71 text Please provide information about your shipment including destination, origin, shipment date, and weight. Required fields are indicated with 
+								72 image Required
+								73 text  .
+								74 container
+									75 text 1
+									76 heading Where and When?, Value: 3
+										77 text Where and When?
+									78 container
+										79 heading Ship From:, Value: 4
+											80 text Ship From:
+										81 definition list
+											82 container
+												83 text Country or Territory
+												84 text United Kingdom
+												85 container
+													86 text Post Town
+													87 text field (settable) Post Town, Value: Bath
+													88 link , Value: javascript:void(0);
+												89 container
+													90 text Postcode *
+													91 text field (settable) Postcode*, Value: BA2 7BX
+													92 link , Value: javascript:void(0);
+										93 container
+											94 Tick box Residential AddressResidential Address Help, Value: 0
+											95 text Residential Address
+											96 text Residential Address Help
+									97 container
+										98 heading Ship To:, Value: 4
+											99 text Ship To:
+										100 definition list
+											101 container
+												102 text Country or Territory
+												103 text United States
+												104 container
+													105 text City
+													106 text field (settable) City, Value: New York
+													107 link , Value: javascript:void(0);
+												108 container
+													109 text ZIP Code *
+													110 text field (settable) ZIP Code*, Value: 10001
+													111 link , Value: javascript:void(0);
+											112 container
+												113 Tick box Ship to a UPS Access Point™, Value: 0
+												114 text Ship to a UPS Access Point™
+											115 container Destination Type: Destination Type: Help
+												116 container
+													117 text Destination Type:  Destination Type: Help
+												118 container
+													119 radio button Residential Address, Value: 1
+													120 text Residential Address
+												121 container
+													122 radio button Have UPS Determine My Destination Type, Value: 0
+													123 text Have UPS Determine My Destination Type
+											124 container
+												125 text When are you shipping?  Required  Saturday,&nbsp;November&nbsp;7,&nbsp;2026&nbsp;
+											126 container
+												127 text Customs Value: *
+												128 text field (settable) Customs Value:*
+												129 pop-up button USD
+													130 (selected) USD
+											131 container
+												132 Tick box I'm shipping pallets, Value: 0
+												133 text I'm shipping pallets
+									134 container
+										135 button (disabled) Clear
+										136 button Update 
+								137 container
+									138 text 2
+									139 heading Enter Detail to Show Cost, Value: 3
+										140 text Enter Detail to Show Cost
+									141 text Please complete and Update the section above to continue.
+								142 button Back to Estimate Landed Cost
+								143 heading Additional Resources / Tools, Value: 3
+									144 text Additional Resources / Tools
+								145 content list
+									146 container
+										147 AXListMarker • 
+										148 link Zones and Rates, Value: ups.com/content/us/en/shipping/cost/zones/index.html
+									149 container
+										150 AXListMarker • 
+										151 link U.S. Ground Maps, Value: ups.com/maps?loc=en_US&WT
+								152 container
+									153 heading Showing Results For: United Kingdom    to United States   , Value: 3
+										154 text Showing Results For:
+										155 text United Kingdom   
+										156 text  to 
+										157 text United States   
+									158 table
+										159 row
+											160 column header
+												161 text Service
+											162 column header
+												163 text Time
+											164 column header
+												165 text Cost
+										166 row
+											167 cell
+												168 text UPS Worldwide Express Freight
+												169 text Latest Pickup Time:
+												170 text Schedule by :
+											171 cell
+												172 text Days In Transit :
+												173 text Delivered By:
+										174 row
+											175 cell
+												176 container
+													177 text UPS Worldwide Express Plus SM
+												178 text Latest Pickup Time:
+												179 text Schedule by :
+											180 cell
+												181 text Days In Transit :
+												182 text Delivered By:
+										183 row
+											184 cell
+												185 container
+													186 text UPS Worldwide Express SM
+												187 text Latest Pickup Time:
+												188 text Schedule by :
+											189 cell
+												190 text Days In Transit :
+												191 text Delivered By:
+										192 row
+											193 cell
+												194 text UPS Express Saver
+												195 text Latest Pickup Time:
+												196 text Schedule by :
+											197 cell
+												198 text Days In Transit :
+												199 text Delivered By:
+										200 row
+											201 cell
+												202 container
+													203 text UPS Worldwide Expedited SM
+												204 text Latest Pickup Time:
+												205 text Schedule by :
+											206 cell
+												207 text Days In Transit :
+												208 text Delivered By:
+										209 row
+											210 cell
+												211 text UPS Worldwide Standard
+												212 text Latest Pickup Time:
+												213 text Schedule by :
+											214 cell
+												215 text Days In Transit :
+												216 text Delivered By:
+								217 text Result estimates calculated by UPS:  Saturday, November 7, 2026 1:58 A.M.   Eastern Time (USA)
+								218 link Guarantees and Notices , Value: javascript:void(0)
+							219 content list
+								220 container
+									221 button Support
+									222 content list
+										223 link Help and Support Center, Value: ups.com/us/en/support/contact-us
+										224 link Tracking Support, Value: ups.com/us/en/support/tracking-support
+										225 link Where’s My Package, Value: ups.com/us/en/support/tracking-support/where-is-my-package
+										226 link Shipping Guides and Resources, Value: ups.com/us/en/support/shipping-support
+										227 link International Shipping Guides, Value: ups.com/us/en/shipping/international-shipping
+										228 link Communication Preferences, Value: ups.com/marketingpreferences?loc=en_US&id=#/enteremail
+								229 container
+									230 button UPS Sites
+									231 content list
+										232 link About UPS, opens in a new tab, Value: about.ups.com/us/en/home.html
+										233 link UPS Jobs, opens in a new tab, Value: jobs-ups.com/
+										234 link UPS Insights & Resources, Value: ups.com/us/en/insights-resources
+										235 link UPS Healthcare, Value: wwwapps.ups.com/us/en/ups-healthcare
+										236 link UPS Supply Chain Solutions, Value: wwwapps.ups.com/us/en/ups-supplychain
+										237 link The UPS Store, opens in a new tab, Value: theupsstore.com/
+										238 link UPS Developer Portal, opens in a new tab, Value: developer.ups.com/
+								239 container
+									240 button UPS Companies
+									241 content list
+										242 link Happy Returns, Value: ups.com/us/en/ups-happyreturns
+										243 link Roadie, Value: ups.com/us/en/ups-roadie
+										244 link UPS Secure Commerce, Value: ups.com/us/en/ups-securecommerce
+										245 link Delivery Solutions, opens in a new tab, Value: deliverysolutions.co/
+								246 container
+									247 button Connect with Us
+									248 content list
+										249 link Facebook, opens in a new tab, Value: facebook.com/ups
+										250 link X, opens in a new tab, Value: twitter.com/UPS
+										251 link Instagram, opens in a new tab, Value: instagram.com/ups/
+										252 link LinkedIn, opens in a new tab, Value: linkedin.com/company/ups
+										253 link YouTube, opens in a new tab, Value: youtube.com/c/UPS
+							254 content list
+								255 content list
+									256 link Global Home, Value: ups.com/global.html
+									257 link Protect Against Fraud, Value: wwwapps.ups.com/us/en/support/shipping-support/legal-terms-conditions/fight-fraud
+									258 link Terms and Conditions, Value: wwwapps.ups.com/us/en/support/shipping-support/legal-terms-conditions
+									259 link Website Terms of Use, Value: wwwapps.ups.com/us/en/support/shipping-support/legal-terms-conditions/website-terms-of-use
+									260 link Your California Privacy Rights, Value: wwwapps.ups.com/us/en/support/shipping-support/legal-terms-conditions/california-privacy-rights
+									261 link Privacy Notice, Value: wwwapps.ups.com/us/en/support/shipping-support/legal-terms-conditions/privacy-notice
+									262 link Cookie Settings, Value: wwwapps.ups.com/ctc/request?destCountry=US&loc=en_US&origCountry=GB&requestor=LAN#cookie-settings
+									263 link Do Not Sell or Share My Personal Information, Value: ups.com/ppwa/doWork?loc=en_US
+							264 container
+								265 text Copyright ©1994- 2026  United Parcel Service of America, Inc. All rights reserved.
+							266 button Open chat, Help: Open Chat
+			267 pop-up button Tab search
+			268 container
+				269 tab group
+					270 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					271 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					272 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					273 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					274 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					275 tab (settable, boolean) Meta Business Suite, Value: off
+					276 tab group  group 📦 Marketplace completion – 4 Tabs, •  Studio | Saatchi Art United Kingdom, •  Revise your listing | Boldstone Patina Panel -…, •  Vintage & Used Furniture and Decor | Chairish, •  Calculate Time and Cost | UPS - United States – Expanded
+					277 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion, Value: off
+					278 tab (settable, boolean) Value: off, Revise your listing | Boldstone Patina Panel - Rust and Verdigris Finish Wall sculpture | eBay – Part of group 📦 Marketplace completion
+					279 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish – Part of group 📦 Marketplace completion, Value: off
+					280 tab (selected, settable, boolean) Calculate Time and Cost | UPS - United States – Part of group 📦 Marketplace completion, Value: on
+						281 button Close
+					282 tab (settable, boolean) Botanical Form - White Outdoor Sculpture by Sally Price | Saatchi Art United Kingdom, Value: off
+					283 tab (settable, boolean) Products – Faire, Value: off
+					284 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					285 tab (settable, boolean) Create listings, Value: off
+			286 button New tab
+	287 close button
+	288 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	289 minimise button
+290 menu bar
+	291 Chrome
+	292 File
+	293 Edit
+	294 View
+	295 History
+	296 Bookmarks
+	297 Profiles
+	298 Tab
+	299 Window
+	300 Help
+
+The focused UI element is 119 radio button Residential Address, Value: 1

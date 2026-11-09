@@ -1,0 +1,108 @@
+- grid "Product fields lineage":
+  - rowgroup:
+    - row "Attribute Details":
+      - columnheader "Attribute":
+        - heading "Attribute" [level=4]
+      - columnheader "Details":
+        - heading "Details" [level=4]
+  - rowgroup:
+    - row "Partner content Missing":
+      - gridcell "Partner content":
+        - generic: Partner content
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Title Dune Ripple I - Blue Verdigris and Bronze":
+      - gridcell "Title":
+        - generic: Title
+      - gridcell "Dune Ripple I - Blue Verdigris and Bronze":
+        - generic: Dune Ripple I - Blue Verdigris and Bronze
+    - row "Price £75.66":
+      - gridcell "Price":
+        - generic: Price
+      - gridcell "£75.66":
+        - generic: £75.66
+    - row "Sale price Missing":
+      - gridcell "Sale price":
+        - generic: Sale price
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Product link https://boldstonesculpture.com/buy/p/dune-ripple-1-blue-verdigris-and-bronze":
+      - gridcell "Product link":
+        - generic: Product link
+      - gridcell "https://boldstonesculpture.com/buy/p/dune-ripple-1-blue-verdigris-and-bronze":
+        - link "https://boldstonesculpture.com/buy/p/dune-ripple-1-blue-verdigris-and-bronze":
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fboldstonesculpture.com%2Fbuy%2Fp%2Fdune-ripple-1-blue-verdigris-and-bronze%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgNicmlkETBqbWVvU1Bhb2N1eEpZYmowc3J0YwZhcHBfaWQPNDM2NzYxNzc5NzQ0NjIwAAEfTttyikxb-B6eD_7EIRvKrsAh-8NNURoxOmBHy-H-qWwOFKuKLwn7aVrkLvk_aem_lD3SHz9xRgjbJ1tjXw_WwA&h=AUDtYrBmuocthS668PcKRSswCZaZkw1Nj_5PgvzxaULHTXqbVJjO8Rk9AVlPPYF9QgJMP284q0CWQVmczKYczNn9UFdeXw0em3OydeKLPt1JTl9Tz07kA4TNja8G21rkmDmmRRMnQBI1MK09Zd6X4c9Mjg8
+    - row:
+      - gridcell "Description":
+        - generic: Description
+      - gridcell:
+        - generic: "Rippling contours recall the patterns left by wind and water across sand. The relief turns that fleeting natural rhythm into a sculptural composition, with highlights and shadows following every change of direction.Think of a shoreline at low tide, when the smallest ridges become a landscape of their own.This version is offered in the blue verdigris and bronze colourway.Dimensions: 35 cm high × 20 cm wide × 6 cm deepWeight: Approximately 4 kg (range 3–5 kg)Use: Suitable for outdoor use and indoor display.Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.Availability: Made to orderProduction lead time: 1-2 weeksDelivery: Delivery is quoted separately. Please contact us for UK and international delivery options.In a settingStyling inspiration showing the sculpture in context. Room settings and group arrangements are illustrative; this listing is for the individual sculpture described above."
+    - row "Availability In stock":
+      - gridcell "Availability":
+        - generic: Availability
+      - gridcell "In stock":
+        - generic: In stock
+    - row "Product group ID 6ae518e17afbe4486b5ef57f":
+      - gridcell "Product group ID":
+        - generic: Product group ID
+      - gridcell "6ae518e17afbe4486b5ef57f":
+        - generic: 6ae518e17afbe4486b5ef57f
+    - row "Google product category Missing":
+      - gridcell "Google product category":
+        - generic: Google product category
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Size chart Missing":
+      - gridcell "Size chart":
+        - generic: Size chart
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Live special price Missing":
+      - gridcell "Live special price":
+        - generic: Live special price
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Condition new":
+      - gridcell "Condition":
+        - generic: Condition
+      - gridcell "new":
+        - generic: new
+    - row "Brand boldstone":
+      - gridcell "Brand":
+        - generic: Brand
+      - gridcell "boldstone":
+        - generic: boldstone
+    - row "Size Missing":
+      - gridcell "Size":
+        - generic: Size
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Images Image URL 960 × 960":
+      - gridcell "Images":
+        - generic: Images
+      - gridcell "Image URL 960 × 960":
+        - link "Image URL":
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lhr11-1.xx.fbcdn.net%2Fv%2Ft45.5328-4%2F868337463_1081431854873020_3826475974020779002_n.jpg%3Fstp%3Ddst-jpg_p960x960_tt6%26_nc_cat%3D101%26ccb%3D1-7%26_nc_sid%3D247b10%26_nc_ohc%3DhixIB4a-ofEQ7kNvwFyBwAe%26_nc_oc%3DAdpCtaohZ9cuAVH7Ze5W8w8dujoj1Y5iIa7pIr8usMRI-K65uyD5nksY3ToKzjIM9PkJOtJhSxo-mV8oVgbn9thd%26_nc_zt%3D23%26_nc_ht%3Dscontent-lhr11-1.xx%26_nc_gid%3D1bkytH9lgblq23zl1owjGQ%26_nc_ss%3D7b2a8%26oh%3D00_AQTj6X1zgSBr7KSX5y1U2IdQoJh2NNfxpV6nreLGpMwGAw%26oe%3D6AEB954E&h=AUDtYrBmuocthS668PcKRSswCZaZkw1Nj_5PgvzxaULHTXqbVJjO8Rk9AVlPPYF9QgJMP284q0CWQVmczKYczNn9UFdeXw0em3OydeKLPt1JTl9Tz07kA4TNja8G21rkmDmmRRMnQBI1MK09Zd6X4c9Mjg8
+        - generic: 960 × 960
+    - row "Videos Missing":
+      - gridcell "Videos":
+        - generic: Videos
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Backgrounds Missing":
+      - gridcell "Backgrounds":
+        - generic: Backgrounds
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Models Missing":
+      - gridcell "Models":
+        - generic: Models
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Shop Shown in Boldstone Sculpture":
+      - gridcell "Shop":
+        - generic: Shop
+      - gridcell "Shown in Boldstone Sculpture":
+        - generic: Shown in Boldstone Sculpture
+- button "Show more attributes":
+  - generic: Show more attributes

@@ -1,0 +1,1301 @@
+Window: "Meta Business Suite", App: Google Chrome.
+0 standard window Meta Business Suite - Google Chrome – Tom, Secondary Actions: Raise, URL: business.facebook.com/latest/posts/published_posts/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav
+	1 container Meta Business Suite - Google Chrome – Tom, URL: business.facebook.com/latest/posts/published_posts/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: business.facebook.com/latest/posts/published_posts/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Meta Business Suite, URL: business.facebook.com/latest/posts/published_posts/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav
+						26 container
+							27 container
+								28 container
+									29 heading Content, Value: 1
+										30 text Content
+									31 text Schedule, publish and manage posts, reels and stories, and more.
+									32 toolbar
+										33 container
+											34 button Export Data
+											35 pop-up button Open export options ​
+												36 text Open export options
+												37 image
+										38 button Create reel
+										39 container
+											40 button Create post
+											41 pop-up button Create post ​
+												42 text Create post
+												43 image
+										44 button Your profiles
+									45 container
+										46 container
+											47 container Content
+												48 container
+													49 image
+													50 text Content
+												51 content list
+													52 container
+														53 link Posts and reels, Value: business.facebook.com/latest/posts/published_posts
+														54 text Posts and reels
+													55 container
+														56 link Stories, Value: business.facebook.com/latest/posts/active_stories
+														57 text Stories
+													58 container
+														59 link A/B tests, Value: business.facebook.com/latest/posts/ab_testing
+														60 text A/B tests
+													61 container
+														62 link Feed and grid, Value: business.facebook.com/latest/posts/feed_and_grid
+														63 text Feed and grid
+													64 container
+														65 link Mentions and tags, Value: business.facebook.com/latest/posts/tagged_content
+														66 text Mentions and tags
+													67 container
+														68 link Clips, Value: business.facebook.com/latest/posts/all_clips
+														69 text Clips
+											70 container Collections
+												71 container
+													72 image
+													73 text Collections
+												74 content list
+													75 container
+														76 link Playlists, Value: business.facebook.com/latest/posts/playlists
+														77 text Playlists
+											78 container Creative assets
+												79 container
+													80 image
+													81 text Creative assets
+												82 content list
+													83 container
+														84 link Videos you can crosspost, Value: business.facebook.com/latest/posts/videos_you_can_crosspost
+														85 text Videos you can crosspost
+										86 button Collapse ​
+									87 image
+									88 heading Facebook reach will no longer be available starting on 31 October 2026, Value: 4
+										89 text Facebook reach will no longer be available starting on 31 October 2026
+									90 button Close ​
+									91 text Viewers is the primary metric for understanding how many accounts viewed your Facebook content.
+									92 container
+										93 tab group
+											94 tab (selected) Published, Value: 1
+											95 tab (settable, integer) Scheduled, Value: 0
+											96 tab (settable, integer) Drafts, Value: 0
+											97 tab (settable, integer) Expiring, Value: 0
+											98 tab (settable, integer) Expired, Value: 0
+											99 tab (settable, integer) Ad posts, Value: 0
+										100 text Filter
+										101 combo box (settable) Filter Filter, Value: Filter ​
+											102 container
+												103 text Filter
+												104 image
+										105 container
+											106 text Search by ID or caption
+											107 image
+										108 container
+											109 text field (settable) Search by ID or caption
+										110 image
+										111 button Last 90 days
+										112 button Columns ​
+										113 table Published posts
+											114 row Select all Title Date published Status Reach ​ Views ​
+												115 column header
+													116 container
+														117 Tick box Select all, Value: 0
+														118 image
+												119 column header
+													120 heading Title, Value: 4
+														121 text Title
+												122 column header
+													123 button Date published
+												124 column header
+													125 button Status
+												126 column header
+													127 button Reach ​
+												128 column header
+													129 button Views ​
+												130 column header
+													131 button Viewers ​
+												132 column header
+													133 button Follows ​
+												134 column header
+													135 button Interactions ​
+												136 column header
+													137 button Likes and reactions ​
+												138 column header
+													139 button Comments ​
+												140 column header
+													141 button Shares ​
+												142 column header
+													143 button Saves ​
+												144 column header
+													145 button Link clicks ​
+												146 column header
+													147 button Watch time ​
+												148 column header
+													149 button Video average play time ​
+												150 column header
+													151 button 3-second views ​
+												152 column header
+													153 button Approximate in-stream ad earnings ​
+											154 row Select item with ID 17939408163127052 Instagram Warm light, sculpted into folds. Sculpted Curves - Textured Gold Finish brings flowing ridges and a richly textured surface together. Gold-coloured highlights and warm copper tones move across the curves, with the garden green giving the finish a vivid backdrop. Handmade from a gypsum-based material with an applied decorative finish. The surface-effect pattern will vary and differ from the photographs. This listing is for one sculpture, suitable for indoor or 
+												155 cell
+													156 container
+														157 Tick box Select item with ID 17939408163127052, Value: 0
+														158 image
+												159 cell
+													160 container
+														161 container
+															162 image Instagram
+														163 text Warm light, sculpted into folds. Sculpted Curves - Textured Gold Finish brings flowing ridges and a richly textured surface together. Gold-coloured highlights and warm copper tones move across the curves, with the garden green giving the finish a vivid backdrop. Handmade from a gypsum-based material with an applied decorative finish. The surface-effect pattern will vary and differ from the photographs. This listing is for one sculpture, suitable for indoor or outdoor display. All designs can be customised, 
+														164 image
+														165 text Photo
+														166 image
+														167 text boldstonesculpture
+														168 button Boost
+														169 pop-up button Open Drop-down ​
+															170 text Open Drop-down
+															171 image
+												172 cell
+													173 toggle button 6 November 16:23, Value: 0
+												174 cell
+													175 toggle button Not currently boosted, Value: 0
+														176 container Not currently boosted
+												177 cell
+													178 toggle button ‑‑, Value: 0
+												179 cell
+													180 toggle button 0
+												181 cell
+													182 toggle button ‑‑, Value: 0
+												183 cell
+													184 toggle button 0
+												185 cell
+													186 toggle button 0
+												187 cell
+													188 toggle button 0
+												189 cell
+													190 toggle button 0
+												191 cell
+													192 toggle button 0
+												193 cell
+													194 toggle button 0
+												195 cell
+													196 toggle button ‑‑, Value: 0
+												197 cell
+													198 toggle button ‑‑, Value: 0
+												199 cell
+													200 toggle button ‑‑, Value: 0
+												201 cell
+													202 toggle button ‑‑, Value: 0
+												203 cell
+													204 toggle button ‑‑, Value: 0
+											205 row Select item with ID 17991960441078338 Instagram A little moonlight for the wall. Lunar Phase IV - Silver Finish pairs a broad, curved surface with a raised crescent. The applied silver-coloured finish catches the light against the warm stone backdrop, bringing the changing character of the moon into a tactile relief. Made from a gypsum-based material with a decorative surface-effect finish. Each piece is handmade: the finish pattern will vary and differ from the photographs. One sculpture is supplied; other
+												206 cell
+													207 container
+														208 Tick box Select item with ID 17991960441078338, Value: 0
+														209 image
+												210 cell
+													211 container
+														212 container
+															213 image Instagram
+														214 text A little moonlight for the wall. Lunar Phase IV - Silver Finish pairs a broad, curved surface with a raised crescent. The applied silver-coloured finish catches the light against the warm stone backdrop, bringing the changing character of the moon into a tactile relief. Made from a gypsum-based material with a decorative surface-effect finish. Each piece is handmade: the finish pattern will vary and differ from the photographs. One sculpture is supplied; other Lunar Phase designs are available separately. S
+														215 image
+														216 text Photo
+														217 image
+														218 text boldstonesculpture
+														219 button Boost
+														220 pop-up button Open Drop-down ​
+															221 text Open Drop-down
+															222 image
+												223 cell
+													224 toggle button 6 November 16:20, Value: 0
+												225 cell
+													226 toggle button Not currently boosted, Value: 0
+														227 container Not currently boosted
+												228 cell
+													229 toggle button ‑‑, Value: 0
+												230 cell
+													231 toggle button 0
+												232 cell
+													233 toggle button ‑‑, Value: 0
+												234 cell
+													235 toggle button 0
+												236 cell
+													237 toggle button 0
+												238 cell
+													239 toggle button 0
+												240 cell
+													241 toggle button 0
+												242 cell
+													243 toggle button 0
+												244 cell
+													245 toggle button 0
+												246 cell
+													247 toggle button ‑‑, Value: 0
+												248 cell
+													249 toggle button ‑‑, Value: 0
+												250 cell
+													251 toggle button ‑‑, Value: 0
+												252 cell
+													253 toggle button ‑‑, Value: 0
+												254 cell
+													255 toggle button ‑‑, Value: 0
+											256 row Select item with ID 18241578331320474 Instagram A spiral shaped by light. Bone Spiral II (Wide) - White follows the expanding curve of a shell across a softly textured relief. A dark wall brings the pale contours into focus, while changing light reveals the depth of each sweep. Display it on its own or alongside Bone Spiral I (Narrow); each sculpture is sold separately. Handmade from a gypsum-based material, suitable for indoor or outdoor display. All designs can be customised, and new commissions can be de
+												257 cell
+													258 container
+														259 Tick box Select item with ID 18241578331320474, Value: 0
+														260 image
+												261 cell
+													262 container
+														263 container
+															264 image Instagram
+														265 text A spiral shaped by light. Bone Spiral II (Wide) - White follows the expanding curve of a shell across a softly textured relief. A dark wall brings the pale contours into focus, while changing light reveals the depth of each sweep. Display it on its own or alongside Bone Spiral I (Narrow); each sculpture is sold separately. Handmade from a gypsum-based material, suitable for indoor or outdoor display. All designs can be customised, and new commissions can be developed with designer Sally Price. Tap the produ
+														266 image
+														267 text Photo
+														268 image
+														269 text boldstonesculpture
+														270 button Boost
+														271 pop-up button Open Drop-down ​
+															272 text Open Drop-down
+															273 image
+												274 cell
+													275 toggle button 6 November 16:17, Value: 0
+												276 cell
+													277 toggle button Not currently boosted, Value: 0
+														278 container Not currently boosted
+												279 cell
+													280 toggle button ‑‑, Value: 0
+												281 cell
+													282 toggle button 0
+												283 cell
+													284 toggle button ‑‑, Value: 0
+												285 cell
+													286 toggle button 0
+												287 cell
+													288 toggle button 0
+												289 cell
+													290 toggle button 0
+												291 cell
+													292 toggle button 0
+												293 cell
+													294 toggle button 0
+												295 cell
+													296 toggle button 0
+												297 cell
+													298 toggle button ‑‑, Value: 0
+												299 cell
+													300 toggle button ‑‑, Value: 0
+												301 cell
+													302 toggle button ‑‑, Value: 0
+												303 cell
+													304 toggle button ‑‑, Value: 0
+												305 cell
+													306 toggle button ‑‑, Value: 0
+											307 row Select item with ID 1453695150233851 Instagram Facebook A closer look at Magnolia Growth. Raised leaf forms emerge through a white and gold finish, with fine surface texture catching the light. This detail photograph explores the applied gold-leaf-effect finish rather than the complete panel. The full sculpture brings the movement of growing leaves to an indoor or outdoor wall. Made from a gypsum-based material with an imitation gold leaf surface finish. Each piece is handmade, so the finish pattern will va
+												308 cell
+													309 container
+														310 Tick box Select item with ID 1453695150233851, Value: 0
+														311 image
+												312 cell
+													313 container
+														314 container
+															315 image Instagram
+															316 image Facebook
+														317 text A closer look at Magnolia Growth. Raised leaf forms emerge through a white and gold finish, with fine surface texture catching the light. This detail photograph explores the applied gold-leaf-effect finish rather than the complete panel. The full sculpture brings the movement of growing leaves to an indoor or outdoor wall. Made from a gypsum-based material with an imitation gold leaf surface finish. Each piece is handmade, so the finish pattern will vary and differ from the photographs. One sculpture is sup
+														318 image
+														319 text Photo
+														320 image
+														321 text Crossposted
+														322 image
+														323 text Boldstone Sculpture, boldstonesculpture
+														324 button Boost
+														325 pop-up button Open Drop-down ​
+															326 text Open Drop-down
+															327 image
+														328 pop-up button Open Drop-down ​
+															329 text Open Drop-down
+															330 image
+												331 cell
+													332 toggle button 5 November 20:32, Value: 0
+												333 cell
+													334 toggle button Not currently boosted, Value: 0
+														335 container Not currently boosted
+												336 cell
+													337 toggle button ‑‑, Value: 0
+												338 cell
+													339 toggle button 49, Value: 0
+												340 cell
+													341 toggle button 3, Value: 0
+												342 cell
+													343 toggle button 0
+												344 cell
+													345 toggle button 2, Value: 0
+												346 cell
+													347 toggle button 2, Value: 0
+												348 cell
+													349 toggle button 0
+												350 cell
+													351 toggle button 0
+												352 cell
+													353 toggle button 0
+												354 cell
+													355 toggle button 0
+												356 cell
+													357 toggle button ‑‑, Value: 0
+												358 cell
+													359 toggle button ‑‑, Value: 0
+												360 cell
+													361 toggle button 0
+												362 cell
+													363 toggle button ‑‑, Value: 0
+											364 row Select item with ID 1453695096900523 Instagram Facebook Half a spiral, a whole story. Ammonite Petite I (Left) - White traces the outer sweep of a fossil-inspired shell through curved ridges and changing shadows. This is the left-hand panel: display it alone, or pair it with Ammonite Petite II to complete the composition. Each panel is sold separately. Handmade from a gypsum-based material and suitable for indoor or outdoor display. All designs can be customised, and completely new commissions can be develo
+												365 cell
+													366 container
+														367 Tick box Select item with ID 1453695096900523, Value: 0
+														368 image
+												369 cell
+													370 container
+														371 container
+															372 image Instagram
+															373 image Facebook
+														374 text Half a spiral, a whole story. Ammonite Petite I (Left) - White traces the outer sweep of a fossil-inspired shell through curved ridges and changing shadows. This is the left-hand panel: display it alone, or pair it with Ammonite Petite II to complete the composition. Each panel is sold separately. Handmade from a gypsum-based material and suitable for indoor or outdoor display. All designs can be customised, and completely new commissions can be developed with designer Sally Price. Tap the tagged product fo
+														375 image
+														376 text Photo
+														377 image
+														378 text Crossposted
+														379 image
+														380 text Boldstone Sculpture, boldstonesculpture
+														381 button Boost
+														382 pop-up button Open Drop-down ​
+															383 text Open Drop-down
+															384 image
+														385 pop-up button Open Drop-down ​
+															386 text Open Drop-down
+															387 image
+												388 cell
+													389 toggle button 5 November 20:32, Value: 0
+												390 cell
+													391 toggle button Not currently boosted, Value: 0
+														392 container Not currently boosted
+												393 cell
+													394 toggle button ‑‑, Value: 0
+												395 cell
+													396 toggle button 61, Value: 0
+												397 cell
+													398 toggle button 4, Value: 0
+												399 cell
+													400 toggle button 0
+												401 cell
+													402 toggle button 6, Value: 0
+												403 cell
+													404 toggle button 6, Value: 0
+												405 cell
+													406 toggle button 0
+												407 cell
+													408 toggle button 0
+												409 cell
+													410 toggle button 0
+												411 cell
+													412 toggle button 0
+												413 cell
+													414 toggle button ‑‑, Value: 0
+												415 cell
+													416 toggle button ‑‑, Value: 0
+												417 cell
+													418 toggle button 0
+												419 cell
+													420 toggle button ‑‑, Value: 0
+											421 row Select item with ID 1453694920233874 Instagram Facebook Ancient marks, a contemporary relief. Cup Ring and Spiral Paver I draws on the quiet rhythm of cup-and-ring markings. Raised circles and a central hollow create a simple, tactile composition, shown here in a warm brown finish against the garden green. Handmade from a gypsum-based material with an applied surface-effect finish, suitable for indoor or outdoor decorative display. The finish pattern will vary and differ from the photographs. Pair it with P
+												422 cell
+													423 container
+														424 Tick box Select item with ID 1453694920233874, Value: 0
+														425 image
+												426 cell
+													427 container
+														428 container
+															429 image Instagram
+															430 image Facebook
+														431 text Ancient marks, a contemporary relief. Cup Ring and Spiral Paver I draws on the quiet rhythm of cup-and-ring markings. Raised circles and a central hollow create a simple, tactile composition, shown here in a warm brown finish against the garden green. Handmade from a gypsum-based material with an applied surface-effect finish, suitable for indoor or outdoor decorative display. The finish pattern will vary and differ from the photographs. Pair it with Paver II for a coordinating arrangement; each panel is so
+														432 image
+														433 text Photo
+														434 image
+														435 text Crossposted
+														436 image
+														437 text Boldstone Sculpture, boldstonesculpture
+														438 button Boost
+														439 pop-up button Open Drop-down ​
+															440 text Open Drop-down
+															441 image
+														442 pop-up button Open Drop-down ​
+															443 text Open Drop-down
+															444 image
+												445 cell
+													446 toggle button 5 November 20:31, Value: 0
+												447 cell
+													448 toggle button Not currently boosted, Value: 0
+														449 container Not currently boosted
+												450 cell
+													451 toggle button ‑‑, Value: 0
+												452 cell
+													453 toggle button 75, Value: 0
+												454 cell
+													455 toggle button 3, Value: 0
+												456 cell
+													457 toggle button 0
+												458 cell
+													459 toggle button 1, Value: 0
+												460 cell
+													461 toggle button 1, Value: 0
+												462 cell
+													463 toggle button 0
+												464 cell
+													465 toggle button 0
+												466 cell
+													467 toggle button 0
+												468 cell
+													469 toggle button 0
+												470 cell
+													471 toggle button ‑‑, Value: 0
+												472 cell
+													473 toggle button ‑‑, Value: 0
+												474 cell
+													475 toggle button 0
+												476 cell
+													477 toggle button ‑‑, Value: 0
+											478 row Select item with ID 18166360219522898 Instagram The shoreline, in close-up. This detail of Dune Ripple II reveals flowing ridges with a copper and verdigris surface-effect finish. Warm copper-coloured highlights meet cool turquoise, following the relief like water tracing patterns in sand. The finish is applied to a handmade gypsum-based sculpture; its pattern will vary and differ from the photographs. Suitable for indoor or outdoor display. Dune Ripple II can be shown with its companion Dune Ripple I; each
+												479 cell
+													480 container
+														481 Tick box Select item with ID 18166360219522898, Value: 0
+														482 image
+												483 cell
+													484 container
+														485 container
+															486 image Instagram
+														487 text The shoreline, in close-up. This detail of Dune Ripple II reveals flowing ridges with a copper and verdigris surface-effect finish. Warm copper-coloured highlights meet cool turquoise, following the relief like water tracing patterns in sand. The finish is applied to a handmade gypsum-based sculpture; its pattern will vary and differ from the photographs. Suitable for indoor or outdoor display. Dune Ripple II can be shown with its companion Dune Ripple I; each sculpture is sold separately. All designs can b
+														488 image
+														489 text Photo
+														490 image
+														491 text boldstonesculpture
+														492 button Boost
+														493 pop-up button Open Drop-down ​
+															494 text Open Drop-down
+															495 image
+												496 cell
+													497 toggle button 5 November 17:03, Value: 0
+												498 cell
+													499 toggle button Not currently boosted, Value: 0
+														500 container Not currently boosted
+												501 cell
+													502 toggle button 83, Value: 0
+												503 cell
+													504 toggle button 128, Value: 0
+												505 cell
+													506 toggle button ‑‑, Value: 0
+												507 cell
+													508 toggle button 0
+												509 cell
+													510 toggle button 2, Value: 0
+												511 cell
+													512 toggle button 2, Value: 0
+												513 cell
+													514 toggle button 0
+												515 cell
+													516 toggle button 0
+												517 cell
+													518 toggle button 0
+												519 cell
+													520 toggle button ‑‑, Value: 0
+												521 cell
+													522 toggle button ‑‑, Value: 0
+												523 cell
+													524 toggle button ‑‑, Value: 0
+												525 cell
+													526 toggle button ‑‑, Value: 0
+												527 cell
+													528 toggle button ‑‑, Value: 0
+											529 row Select item with ID 1448891384047561 Instagram Facebook A fragment of a fossil, a moment of stillness. Ammonite Petite II (Right) - White follows the shell’s spiral through soft curves and deep, changing shadows. Display this right-hand panel on its own, or pair it with Ammonite Petite I to reveal the full spiral. Each panel is sold separately. Made to order for indoor or outdoor display. Tap the product tag to explore photographs, dimensions and current pricing. https://boldstonesculpture.com/buy/p/ammonit
+												530 cell
+													531 container
+														532 Tick box Select item with ID 1448891384047561, Value: 0
+														533 image
+												534 cell
+													535 container
+														536 container
+															537 image Instagram
+															538 image Facebook
+														539 text A fragment of a fossil, a moment of stillness. Ammonite Petite II (Right) - White follows the shell’s spiral through soft curves and deep, changing shadows. Display this right-hand panel on its own, or pair it with Ammonite Petite I to reveal the full spiral. Each panel is sold separately. Made to order for indoor or outdoor display. Tap the product tag to explore photographs, dimensions and current pricing. https://boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white?utm_source=meta&utm_medium=o
+														540 image
+														541 text Photo
+														542 image
+														543 text Crossposted
+														544 image
+														545 text Boldstone Sculpture, boldstonesculpture
+														546 button Boost
+														547 pop-up button Open Drop-down ​
+															548 text Open Drop-down
+															549 image
+														550 pop-up button Open Drop-down ​
+															551 text Open Drop-down
+															552 image
+												553 cell
+													554 toggle button 31 October 21:46, Value: 0
+												555 cell
+													556 toggle button Not currently boosted, Value: 0
+														557 container Not currently boosted
+												558 cell
+													559 toggle button ‑‑, Value: 0
+												560 cell
+													561 toggle button 118, Value: 0
+												562 cell
+													563 toggle button 6, Value: 0
+												564 cell
+													565 toggle button 0
+												566 cell
+													567 toggle button 7, Value: 0
+												568 cell
+													569 toggle button 7, Value: 0
+												570 cell
+													571 toggle button 0
+												572 cell
+													573 toggle button 0
+												574 cell
+													575 toggle button 0
+												576 cell
+													577 toggle button 0
+												578 cell
+													579 toggle button ‑‑, Value: 0
+												580 cell
+													581 toggle button ‑‑, Value: 0
+												582 cell
+													583 toggle button 0
+												584 cell
+													585 toggle button ‑‑, Value: 0
+											586 row Select item with ID 1448888307381202 Facebook Bring the textures of the natural world to your walls. Explore our wall sculptures: fossil-inspired Ammonites, flowing Dune Ripples, botanical forms and sculpted waves, made to order for gardens and interiors. The updated collection includes photographs, dimensions, finishes and current prices for each sculpture. Browse the designs and choose a piece for your space: https://boldstonesculpture.com/?utm_source=facebook&utm_medium=organic_social&utm_campaign=wall_s
+												587 cell
+													588 container
+														589 Tick box Select item with ID 1448888307381202, Value: 0
+														590 image
+												591 cell
+													592 container
+														593 container
+															594 image Facebook
+														595 text Bring the textures of the natural world to your walls. Explore our wall sculptures: fossil-inspired Ammonites, flowing Dune Ripples, botanical forms and sculpted waves, made to order for gardens and interiors. The updated collection includes photographs, dimensions, finishes and current prices for each sculpture. Browse the designs and choose a piece for your space: https://boldstonesculpture.com/?utm_source=facebook&utm_medium=organic_social&utm_campaign=wall_sculptures&utm_content=featured_shop_intro Suit
+														596 text Boldstone Sculpture
+														597 button Boost
+														598 pop-up button Open Drop-down ​
+															599 text Open Drop-down
+															600 image
+												601 cell
+													602 toggle button 31 October 21:41, Value: 0
+												603 cell
+													604 toggle button Not currently boosted, Value: 0
+														605 container Not currently boosted
+												606 cell
+													607 toggle button ‑‑, Value: 0
+												608 cell
+													609 toggle button 12, Value: 0
+												610 cell
+													611 toggle button 7, Value: 0
+												612 cell
+													613 toggle button 0
+												614 cell
+													615 toggle button 0
+												616 cell
+													617 toggle button 0
+												618 cell
+													619 toggle button 0
+												620 cell
+													621 toggle button 0
+												622 cell
+													623 toggle button 0
+												624 cell
+													625 toggle button ‑‑, Value: 0
+												626 cell
+													627 toggle button ‑‑, Value: 0
+												628 cell
+													629 toggle button ‑‑, Value: 0
+												630 cell
+													631 toggle button 0
+												632 cell
+													633 toggle button ‑‑, Value: 0
+											634 row Select item with ID 1443638304572869 Instagram Facebook A lamp that looks sculptural even before the light comes on. This flowing table lamp base rises from a broad, rounded foot into a slender neck, finished in a striking verdigris-inspired surface of turquoise, copper and warm earthy accents. The elongated form gives the piece an elegant sense of movement, while the textured finish catches the light differently across every curve. Paired with a simple neutral shade, the base remains the focal point and br
+												635 cell
+													636 container
+														637 Tick box Select item with ID 1443638304572869, Value: 0
+														638 image
+												639 cell
+													640 container
+														641 container
+															642 image Instagram
+															643 image Facebook
+														644 text A lamp that looks sculptural even before the light comes on. This flowing table lamp base rises from a broad, rounded foot into a slender neck, finished in a striking verdigris-inspired surface of turquoise, copper and warm earthy accents. The elongated form gives the piece an elegant sense of movement, while the textured finish catches the light differently across every curve. Paired with a simple neutral shade, the base remains the focal point and brings colour, character and a slightly weathered metallic
+														645 image
+														646 text Photo
+														647 image
+														648 text Crossposted
+														649 image
+														650 text Boldstone Sculpture, boldstonesculpture
+														651 button Boost
+														652 pop-up button Open Drop-down ​
+															653 text Open Drop-down
+															654 image
+														655 pop-up button Open Drop-down ​
+															656 text Open Drop-down
+															657 image
+												658 cell
+													659 toggle button 26 October 20:25, Value: 0
+												660 cell
+													661 toggle button Not currently boosted, Value: 0
+														662 container Not currently boosted
+												663 cell
+													664 toggle button ‑‑, Value: 0
+												665 cell
+													666 toggle button 193, Value: 0
+												667 cell
+													668 toggle button 7, Value: 0
+												669 cell
+													670 toggle button 0
+												671 cell
+													672 toggle button 10, Value: 0
+												673 cell
+													674 toggle button 10, Value: 0
+												675 cell
+													676 toggle button 0
+												677 cell
+													678 toggle button 0
+												679 cell
+													680 toggle button 0
+												681 cell
+													682 toggle button 0
+												683 cell
+													684 toggle button ‑‑, Value: 0
+												685 cell
+													686 toggle button ‑‑, Value: 0
+												687 cell
+													688 toggle button 0
+												689 cell
+													690 toggle button ‑‑, Value: 0
+											691 row Select item with ID 1413048527631847 Instagram Facebook You don’t need blue to bring a little coastal calm to a space. These three white reliefs explore the curves of a shell, from broad, open sweeps to tightly gathered centres. Each panel has its own character: the outer spirals unfold across their squares, while the centre pairs a rounded coil with a generous arch above. Against warm, textured stone, the pale surfaces let shape and shadow lead. Fine irregularities soften the curves, giving the simple pale
+												692 cell
+													693 container
+														694 Tick box Select item with ID 1413048527631847, Value: 0
+														695 image
+												696 cell
+													697 container
+														698 container
+															699 image Instagram
+															700 image Facebook
+														701 text You don’t need blue to bring a little coastal calm to a space. These three white reliefs explore the curves of a shell, from broad, open sweeps to tightly gathered centres. Each panel has its own character: the outer spirals unfold across their squares, while the centre pairs a rounded coil with a generous arch above. Against warm, textured stone, the pale surfaces let shape and shadow lead. Fine irregularities soften the curves, giving the simple palette plenty of detail. Swipe to see the side views. The r Multi media
+														702 image
+														703 text Crossposted
+														704 image
+														705 text Boldstone Sculpture, boldstonesculpture
+														706 button Boost
+														707 pop-up button Open Drop-down ​
+															708 text Open Drop-down
+															709 image
+														710 pop-up button Open Drop-down ​
+															711 text Open Drop-down
+															712 image
+												713 cell
+													714 toggle button 24 September 18:13, Value: 0
+												715 cell
+													716 toggle button Not currently boosted, Value: 0
+														717 container Not currently boosted
+												718 cell
+													719 toggle button ‑‑, Value: 0
+												720 cell
+													721 toggle button 302, Value: 0
+												722 cell
+													723 toggle button 10, Value: 0
+												724 cell
+													725 toggle button 0
+												726 cell
+													727 toggle button 18, Value: 0
+												728 cell
+													729 toggle button 13, Value: 0
+												730 cell
+													731 toggle button 1, Value: 0
+												732 cell
+													733 toggle button 0
+												734 cell
+													735 toggle button 4, Value: 0
+												736 cell
+													737 toggle button 1, Value: 0
+												738 cell
+													739 toggle button ‑‑, Value: 0
+												740 cell
+													741 toggle button ‑‑, Value: 0
+												742 cell
+													743 toggle button 0
+												744 cell
+													745 toggle button ‑‑, Value: 0
+											746 row Select item with ID 1413048094298557 Instagram Facebook An entrance with a story to tell. For Ivory House, we created a 6 × 5 metre sculptural installation that connects the building’s trading heritage with contemporary design. Original London stock bricks remain the backdrop. Against them, pale cast panels reveal impressions of ostrich feathers, spices and scallop shells, referencing the building’s past through intricate surface detail. Repainted wooden patterns introduce bold circular forms, sweeping curv
+												747 cell
+													748 container
+														749 Tick box Select item with ID 1413048094298557, Value: 0
+														750 image
+												751 cell
+													752 container
+														753 container
+															754 image Instagram
+															755 image Facebook
+														756 text An entrance with a story to tell. For Ivory House, we created a 6 × 5 metre sculptural installation that connects the building’s trading heritage with contemporary design. Original London stock bricks remain the backdrop. Against them, pale cast panels reveal impressions of ostrich feathers, spices and scallop shells, referencing the building’s past through intricate surface detail. Repainted wooden patterns introduce bold circular forms, sweeping curves and flashes of red. Their industrial character contra
+														757 image
+														758 text Photo
+														759 image
+														760 text Crossposted
+														761 image
+														762 text Boldstone Sculpture, boldstonesculpture
+														763 button Boost
+														764 pop-up button Open Drop-down ​
+															765 text Open Drop-down
+															766 image
+														767 pop-up button Open Drop-down ​
+															768 text Open Drop-down
+															769 image
+												770 cell
+													771 toggle button 24 September 18:13, Value: 0
+												772 cell
+													773 toggle button Not currently boosted, Value: 0
+														774 container Not currently boosted
+												775 cell
+													776 toggle button ‑‑, Value: 0
+												777 cell
+													778 toggle button 1,746, Value: 0
+												779 cell
+													780 toggle button 11, Value: 0
+												781 cell
+													782 toggle button 12, Value: 0
+												783 cell
+													784 toggle button 10, Value: 0
+												785 cell
+													786 toggle button 10, Value: 0
+												787 cell
+													788 toggle button 0
+												789 cell
+													790 toggle button 0
+												791 cell
+													792 toggle button 0
+												793 cell
+													794 toggle button 0
+												795 cell
+													796 toggle button ‑‑, Value: 0
+												797 cell
+													798 toggle button ‑‑, Value: 0
+												799 cell
+													800 toggle button 0
+												801 cell
+													802 toggle button ‑‑, Value: 0
+											803 row Select item with ID 1413047840965249 Instagram Facebook Nature’s rhythms, translated into relief. Curling waves, shell-like spirals and sweeping leaf forms come together in this selection from Boldstone. Each explores a different balance of movement and texture, from crisp, flowing contours to rugged surfaces that invite a closer look. Light becomes part of the composition. Smooth white curves create broad bands of brightness and shade, while grainy textures reveal countless smaller highlights. Golden finis
+												804 cell
+													805 container
+														806 Tick box Select item with ID 1413047840965249, Value: 0
+														807 image
+												808 cell
+													809 container
+														810 container
+															811 image Instagram
+															812 image Facebook
+														813 text Nature’s rhythms, translated into relief. Curling waves, shell-like spirals and sweeping leaf forms come together in this selection from Boldstone. Each explores a different balance of movement and texture, from crisp, flowing contours to rugged surfaces that invite a closer look. Light becomes part of the composition. Smooth white curves create broad bands of brightness and shade, while grainy textures reveal countless smaller highlights. Golden finishes bring warmth to the same flowing forms, giving them 
+														814 image
+														815 text Photo
+														816 image
+														817 text Crossposted
+														818 image
+														819 text Boldstone Sculpture, boldstonesculpture
+														820 button Boost
+														821 pop-up button Open Drop-down ​
+															822 text Open Drop-down
+															823 image
+														824 pop-up button Open Drop-down ​
+															825 text Open Drop-down
+															826 image
+												827 cell
+													828 toggle button 24 September 18:13, Value: 0
+												829 cell
+													830 toggle button Not currently boosted, Value: 0
+														831 container Not currently boosted
+												832 cell
+													833 toggle button ‑‑, Value: 0
+												834 cell
+													835 toggle button 277, Value: 0
+												836 cell
+													837 toggle button 3, Value: 0
+												838 cell
+													839 toggle button 0
+												840 cell
+													841 toggle button 7, Value: 0
+												842 cell
+													843 toggle button 5, Value: 0
+												844 cell
+													845 toggle button 0
+												846 cell
+													847 toggle button 0
+												848 cell
+													849 toggle button 2, Value: 0
+												850 cell
+													851 toggle button 1, Value: 0
+												852 cell
+													853 toggle button ‑‑, Value: 0
+												854 cell
+													855 toggle button ‑‑, Value: 0
+												856 cell
+													857 toggle button 0
+												858 cell
+													859 toggle button ‑‑, Value: 0
+											860 row Select item with ID 1413047747631925 Instagram Facebook A chair with the presence of a sculpture. The Throne Chair brings together a tall, bold silhouette and intricate ribbons of forest green, ivory and charcoal, with warm, earthy tones woven between them. The marbling flows across the backrest, seat and flared base, giving each angle a different pattern to explore. A wooden frame supports the marbled plaster finish, whose layered lines recall the banding of malachite. Broad surfaces let the colour unfold,
+												861 cell
+													862 container
+														863 Tick box Select item with ID 1413047747631925, Value: 0
+														864 image
+												865 cell
+													866 container
+														867 container
+															868 image Instagram
+															869 image Facebook
+														870 text A chair with the presence of a sculpture. The Throne Chair brings together a tall, bold silhouette and intricate ribbons of forest green, ivory and charcoal, with warm, earthy tones woven between them. The marbling flows across the backrest, seat and flared base, giving each angle a different pattern to explore. A wooden frame supports the marbled plaster finish, whose layered lines recall the banding of malachite. Broad surfaces let the colour unfold, while the curved seat and narrowing waist give the subs
+														871 image
+														872 text Photo
+														873 image
+														874 text Crossposted
+														875 image
+														876 text Boldstone Sculpture, boldstonesculpture
+														877 button Boost
+														878 pop-up button Open Drop-down ​
+															879 text Open Drop-down
+															880 image
+														881 pop-up button Open Drop-down ​
+															882 text Open Drop-down
+															883 image
+												884 cell
+													885 toggle button 24 September 18:13, Value: 0
+												886 cell
+													887 toggle button Not currently boosted, Value: 0
+														888 container Not currently boosted
+												889 cell
+													890 toggle button ‑‑, Value: 0
+												891 cell
+													892 toggle button 258, Value: 0
+												893 cell
+													894 toggle button 3, Value: 0
+												895 cell
+													896 toggle button 0
+												897 cell
+													898 toggle button 6, Value: 0
+												899 cell
+													900 toggle button 5, Value: 0
+												901 cell
+													902 toggle button 0
+												903 cell
+													904 toggle button 0
+												905 cell
+													906 toggle button 1, Value: 0
+												907 cell
+													908 toggle button 0
+												909 cell
+													910 toggle button ‑‑, Value: 0
+												911 cell
+													912 toggle button ‑‑, Value: 0
+												913 cell
+													914 toggle button 0
+												915 cell
+													916 toggle button ‑‑, Value: 0
+											917 row Select item with ID 1413047620965271 Instagram Facebook Grey doesn’t have to fade into the background. The Drum Side Table pairs a substantial marbled plaster top with the warmth of a brass frame. Ivory, soft grey and charcoal create an intricate, stone-like pattern, with dark veins tracing their way between the paler patches. The marbling wraps around the curved sides, giving the simple cylindrical form plenty to explore. Beneath, slender brass legs and crossed supports bring a crisp, geometric contrast. T
+												918 cell
+													919 container
+														920 Tick box Select item with ID 1413047620965271, Value: 0
+														921 image
+												922 cell
+													923 container
+														924 container
+															925 image Instagram
+															926 image Facebook
+														927 text Grey doesn’t have to fade into the background. The Drum Side Table pairs a substantial marbled plaster top with the warmth of a brass frame. Ivory, soft grey and charcoal create an intricate, stone-like pattern, with dark veins tracing their way between the paler patches. The marbling wraps around the curved sides, giving the simple cylindrical form plenty to explore. Beneath, slender brass legs and crossed supports bring a crisp, geometric contrast. The open frame balances the visual weight of the top, whi
+														928 image
+														929 text Photo
+														930 image
+														931 text Crossposted
+														932 image
+														933 text Boldstone Sculpture, boldstonesculpture
+														934 button Boost
+														935 pop-up button Open Drop-down ​
+															936 text Open Drop-down
+															937 image
+														938 pop-up button Open Drop-down ​
+															939 text Open Drop-down
+															940 image
+												941 cell
+													942 toggle button 24 September 18:13, Value: 0
+												943 cell
+													944 toggle button Not currently boosted, Value: 0
+														945 container Not currently boosted
+												946 cell
+													947 toggle button ‑‑, Value: 0
+												948 cell
+													949 toggle button 478, Value: 0
+												950 cell
+													951 toggle button 2, Value: 0
+												952 cell
+													953 toggle button 1, Value: 0
+												954 cell
+													955 toggle button 7, Value: 0
+												956 cell
+													957 toggle button 5, Value: 0
+												958 cell
+													959 toggle button 0
+												960 cell
+													961 toggle button 0
+												962 cell
+													963 toggle button 1, Value: 0
+												964 cell
+													965 toggle button 0
+												966 cell
+													967 toggle button ‑‑, Value: 0
+												968 cell
+													969 toggle button ‑‑, Value: 0
+												970 cell
+													971 toggle button 0
+												972 cell
+													973 toggle button ‑‑, Value: 0
+											974 row Select item with ID 1413047540965279 Instagram Facebook Meet Egg Retro, a coffee table that brings its own golden glow. Honey yellow, warm ochre and creamy ivory mingle across the egg-shaped marbled plaster top. Fine, dark veins weave between the larger patches of colour, creating a surface that feels like a landscape viewed from above. The rounded brass body offers a different kind of movement. Light follows its generous curves, shifting from bright highlights around the rim to softer reflections below. Th
+												975 cell
+													976 container
+														977 Tick box Select item with ID 1413047540965279, Value: 0
+														978 image
+												979 cell
+													980 container
+														981 container
+															982 image Instagram
+															983 image Facebook
+														984 text Meet Egg Retro, a coffee table that brings its own golden glow. Honey yellow, warm ochre and creamy ivory mingle across the egg-shaped marbled plaster top. Fine, dark veins weave between the larger patches of colour, creating a surface that feels like a landscape viewed from above. The rounded brass body offers a different kind of movement. Light follows its generous curves, shifting from bright highlights around the rim to softer reflections below. The intricate top and understated metallic surround give t
+														985 image
+														986 text Photo
+														987 image
+														988 text Crossposted
+														989 image
+														990 text Boldstone Sculpture, boldstonesculpture
+														991 button Boost
+														992 pop-up button Open Drop-down ​
+															993 text Open Drop-down
+															994 image
+														995 pop-up button Open Drop-down ​
+															996 text Open Drop-down
+															997 image
+												998 cell
+													999 toggle button 24 September 18:13, Value: 0
+												1000 cell
+													1001 toggle button Not currently boosted, Value: 0
+														1002 container Not currently boosted
+												1003 cell
+													1004 toggle button ‑‑, Value: 0
+												1005 cell
+													1006 toggle button 223, Value: 0
+												1007 cell
+													1008 toggle button 2, Value: 0
+												1009 cell
+													1010 toggle button 0
+												1011 cell
+													1012 toggle button 4, Value: 0
+												1013 cell
+													1014 toggle button 4, Value: 0
+												1015 cell
+													1016 toggle button 0
+												1017 cell
+													1018 toggle button 0
+												1019 cell
+													1020 toggle button 0
+												1021 cell
+													1022 toggle button 0
+												1023 cell
+													1024 toggle button ‑‑, Value: 0
+												1025 cell
+													1026 toggle button ‑‑, Value: 0
+												1027 cell
+													1028 toggle button 0
+												1029 cell
+													1030 toggle button ‑‑, Value: 0
+											1031 row Select item with ID 1413047440965289 Instagram Facebook A low profile doesn’t have to mean a quiet presence. The Low Cone Leg Table brings dramatic marbling to a simple, sculptural shape. Creamy ivory and warm beige fragments stand out against deep charcoal, with fine veins connecting the larger patches of colour. The marbled plaster finish extends across the rectangular top and down the tapered legs, giving the piece visual continuity from every angle. A wooden frame supports the form, while the contrast b
+												1032 cell
+													1033 container
+														1034 Tick box Select item with ID 1413047440965289, Value: 0
+														1035 image
+												1036 cell
+													1037 container
+														1038 container
+															1039 image Instagram
+															1040 image Facebook
+														1041 text A low profile doesn’t have to mean a quiet presence. The Low Cone Leg Table brings dramatic marbling to a simple, sculptural shape. Creamy ivory and warm beige fragments stand out against deep charcoal, with fine veins connecting the larger patches of colour. The marbled plaster finish extends across the rectangular top and down the tapered legs, giving the piece visual continuity from every angle. A wooden frame supports the form, while the contrast between straight edges and rounded cones gives it a disti
+														1042 image
+														1043 text Photo
+														1044 image
+														1045 text Crossposted
+														1046 image
+														1047 text Boldstone Sculpture, boldstonesculpture
+														1048 button Boost
+														1049 pop-up button Open Drop-down ​
+															1050 text Open Drop-down
+															1051 image
+														1052 pop-up button Open Drop-down ​
+															1053 text Open Drop-down
+															1054 image
+												1055 cell
+													1056 toggle button 24 September 18:13, Value: 0
+												1057 cell
+													1058 toggle button Not currently boosted, Value: 0
+														1059 container Not currently boosted
+												1060 cell
+													1061 toggle button ‑‑, Value: 0
+												1062 cell
+													1063 toggle button 264, Value: 0
+												1064 cell
+													1065 toggle button 2, Value: 0
+												1066 cell
+													1067 toggle button 0
+												1068 cell
+													1069 toggle button 2, Value: 0
+												1070 cell
+													1071 toggle button 2, Value: 0
+												1072 cell
+													1073 toggle button 0
+												1074 cell
+													1075 toggle button 0
+												1076 cell
+													1077 toggle button 0
+												1078 cell
+													1079 toggle button 0
+												1080 cell
+													1081 toggle button ‑‑, Value: 0
+												1082 cell
+													1083 toggle button ‑‑, Value: 0
+												1084 cell
+													1085 toggle button 0
+												1086 cell
+													1087 toggle button ‑‑, Value: 0
+											1088 row Select item with ID 1413047310965302 Instagram Facebook The reflection is only half the story. Our Circular Mirror Frame brings expressive marbling to a clean, rounded silhouette. Cobalt and sky blue create a vivid border, threaded with pale markings and darker veins. In the grey version, charcoal and ivory offer an equally striking contrast in a more restrained palette. The marbled plaster finish continues around the edges, so the frame rewards a sideways glance as much as a front-on view. Its substantial 
+												1089 cell
+													1090 container
+														1091 Tick box Select item with ID 1413047310965302, Value: 0
+														1092 image
+												1093 cell
+													1094 container
+														1095 container
+															1096 image Instagram
+															1097 image Facebook
+														1098 text The reflection is only half the story. Our Circular Mirror Frame brings expressive marbling to a clean, rounded silhouette. Cobalt and sky blue create a vivid border, threaded with pale markings and darker veins. In the grey version, charcoal and ivory offer an equally striking contrast in a more restrained palette. The marbled plaster finish continues around the edges, so the frame rewards a sideways glance as much as a front-on view. Its substantial profile gives the familiar circle a sculptural presence,
+														1099 image
+														1100 text Photo
+														1101 image
+														1102 text Crossposted
+														1103 image
+														1104 text Boldstone Sculpture, boldstonesculpture
+														1105 button Boost
+														1106 pop-up button Open Drop-down ​
+															1107 text Open Drop-down
+															1108 image
+														1109 pop-up button Open Drop-down ​
+															1110 text Open Drop-down
+															1111 image
+												1112 cell
+													1113 toggle button 24 September 18:13, Value: 0
+												1114 cell
+													1115 toggle button Not currently boosted, Value: 0
+														1116 container Not currently boosted
+												1117 cell
+													1118 toggle button ‑‑, Value: 0
+												1119 cell
+													1120 toggle button 288, Value: 0
+												1121 cell
+													1122 toggle button 2, Value: 0
+												1123 cell
+													1124 toggle button 0
+												1125 cell
+													1126 toggle button 4, Value: 0
+												1127 cell
+													1128 toggle button 2, Value: 0
+												1129 cell
+													1130 toggle button 0
+												1131 cell
+													1132 toggle button 0
+												1133 cell
+													1134 toggle button 2, Value: 0
+												1135 cell
+													1136 toggle button 0
+												1137 cell
+													1138 toggle button ‑‑, Value: 0
+												1139 cell
+													1140 toggle button ‑‑, Value: 0
+												1141 cell
+													1142 toggle button 0
+												1143 cell
+													1144 toggle button ‑‑, Value: 0
+											1145 row Select item with ID 1413047187631981 Instagram Facebook This lamp catches the light before you switch it on. The Brancusi table lamp base brings flowing, wave-like contours to a bold architectural shape. Straight edges frame undulating folds, while the softly textured white surface reveals a different balance of highlights and shadows from every angle. Warm brass fittings add a golden accent beneath the simple white drum shade. The restrained palette lets the sculptural details lead, from the deep vertical 
+												1146 cell
+													1147 container
+														1148 Tick box Select item with ID 1413047187631981, Value: 0
+														1149 image
+												1150 cell
+													1151 container
+														1152 container
+															1153 image Instagram
+															1154 image Facebook
+														1155 text This lamp catches the light before you switch it on. The Brancusi table lamp base brings flowing, wave-like contours to a bold architectural shape. Straight edges frame undulating folds, while the softly textured white surface reveals a different balance of highlights and shadows from every angle. Warm brass fittings add a golden accent beneath the simple white drum shade. The restrained palette lets the sculptural details lead, from the deep vertical channels to the gentle curves that soften the base’s sub
+														1156 image
+														1157 text Photo
+														1158 image
+														1159 text Crossposted
+														1160 image
+														1161 text Boldstone Sculpture, boldstonesculpture
+														1162 button Boost
+														1163 pop-up button Open Drop-down ​
+															1164 text Open Drop-down
+															1165 image
+														1166 pop-up button Open Drop-down ​
+															1167 text Open Drop-down
+															1168 image
+												1169 cell
+													1170 toggle button 24 September 18:13, Value: 0
+												1171 cell
+													1172 toggle button Not currently boosted, Value: 0
+														1173 container Not currently boosted
+												1174 cell
+													1175 toggle button ‑‑, Value: 0
+												1176 cell
+													1177 toggle button 330, Value: 0
+												1178 cell
+													1179 toggle button 3, Value: 0
+												1180 cell
+													1181 toggle button 0
+												1182 cell
+													1183 toggle button 2, Value: 0
+												1184 cell
+													1185 toggle button 2, Value: 0
+												1186 cell
+													1187 toggle button 0
+												1188 cell
+													1189 toggle button 0
+												1190 cell
+													1191 toggle button 0
+												1192 cell
+													1193 toggle button 0
+												1194 cell
+													1195 toggle button ‑‑, Value: 0
+												1196 cell
+													1197 toggle button ‑‑, Value: 0
+												1198 cell
+													1199 toggle button 0
+												1200 cell
+													1201 toggle button ‑‑, Value: 0
+								1202 button Meta AI business assistant
+								1203 container
+									1204 button Meta Business Suite
+									1205 button Pressable
+									1206 container Links
+										1207 text Links
+										1208 content list
+											1209 container
+												1210 link Home, Value: business.facebook.com/latest/home?business_id=2380586078685156&asset_id=103781478537396
+												1211 text Home
+											1212 container
+												1213 link Notifications
+													1214 text Notifications
+												1215 text Notifications
+											1216 container
+												1217 link Ads Manager
+													1218 text Ads Manager
+												1219 text Ads Manager
+											1220 container
+												1221 link Inbox, Value: business.facebook.com/latest/inbox?business_id=2380586078685156&asset_id=103781478537396
+												1222 text Inbox
+											1223 container
+												1224 link Content, Value: business.facebook.com/latest/posts?business_id=2380586078685156&asset_id=103781478537396
+												1225 text Content
+											1226 container
+												1227 link Creator Marketing, Value: business.facebook.com/creator_marketing_hub/overview/?business_id=2380586078685156&asset_id=103781478537396&nav_ref=mbs_all_tools&ad_account_id=878195225362673&selected_business_ig_user_id=17841407266349160&selected_business_page_id=103781478537396
+												1228 text Creator Marketing
+											1229 container
+												1230 link Planner, Value: business.facebook.com/latest/content_calendar?business_id=2380586078685156&asset_id=103781478537396
+												1231 text Planner
+											1232 container
+												1233 link Ads, Value: business.facebook.com/latest/ad_center/ads_summary?business_id=2380586078685156&asset_id=103781478537396
+												1234 text Ads
+											1235 container
+												1236 link Insights, Value: business.facebook.com/latest/insights?business_id=2380586078685156&asset_id=103781478537396
+												1237 text Insights
+											1238 container
+												1239 link Monetisation, Value: business.facebook.com/latest/monetization?business_id=2380586078685156&asset_id=103781478537396
+												1240 text Monetisation
+											1241 container
+												1242 link All tools
+													1243 text All tools
+												1244 text All tools
+											1245 button Edit sidebar navigation
+									1246 container
+										1247 link Search
+											1248 text Search
+										1249 text Search
+										1250 image
+									1251 container Links
+										1252 text Links
+										1253 content list
+											1254 container
+												1255 link Settings, Value: business.facebook.com/latest/settings/business_users?business_id=2380586078685156
+												1256 text Settings
+									1257 container
+										1258 link Help
+											1259 text Help
+										1260 text Help
+										1261 image
+			1262 pop-up button Tab search
+			1263 container
+				1264 tab group
+					1265 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+						1266 button Close
+					1267 tab (settable, boolean) Home – Faire, Value: off
+						1268 button Close
+					1269 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+						1270 button Close
+					1271 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+						1272 button Close
+					1273 tab (selected, settable, boolean) Meta Business Suite, Value: on
+						1274 button Close
+			1275 button New tab
+	1276 close button
+	1277 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	1278 minimise button
+1279 menu bar
+	1280 Chrome
+	1281 File
+	1282 Edit
+	1283 View
+	1284 History
+	1285 Bookmarks
+	1286 Profiles
+	1287 Tab
+	1288 Window
+	1289 Help
+
+The focused UI element is 25 HTML content Meta Business Suite, URL: business.facebook.com/latest/posts/published_posts/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav

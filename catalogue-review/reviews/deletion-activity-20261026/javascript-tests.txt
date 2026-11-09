@@ -1,0 +1,30 @@
+✔ similarity includes all filtered images before pagination, keeps every image, and invalidates on filter change (33.652583ms)
+✔ multi sort groups before similarity; later criteria order anchors and ties (1.488084ms)
+✔ close confirmed bulk dialog while queue response is pending; background job is retained and new dialog is not replaced (1.07975ms)
+✔ single deletion response cannot close a subsequently opened bulk dialog (0.666916ms)
+✔ lost queue response discovers committed job without retrying deletion (0.617292ms)
+✔ late background gallery refresh never overwrites a different product or unsaved edits (1.461458ms)
+✔ closing bulk deletion uses no navigation/unload blocker (0.810792ms)
+✔ mixed selection shows queued original and reviews only the free file (1.119792ms)
+✔ single busy original shows existing job instead of another delete form (0.682375ms)
+✔ selection containing only busy files cannot offer a zero-file confirmation (0.765042ms)
+✔ closed deletion preflight cannot overwrite a new dialog (1.006834ms)
+✔ uncertain job becoming completed refreshes again and clears deleted selection (0.607459ms)
+✔ jobs loading state does not briefly claim no jobs exist and concurrent polls await one request (0.793958ms)
+✔ lost queue response checks fresh status when a prior poll predates the commit (0.500875ms)
+✔ failed preflight offers retry and never presents a deletion confirmation (0.697708ms)
+✔ bulk saves keep their original sculpture even if the user navigates (6.554625ms)
+✔ a partial bulk failure keeps only unsuccessful items selected (0.984167ms)
+✔ finishing a specification save after navigation leaves the new page untouched (0.681542ms)
+✔ removed and unreviewed choices do not inflate listing totals (0.648708ms)
+✔ No component chosen filter includes related-only family candidates (0.601ms)
+✔ unchecking Listing also unchecks Primary while retaining Ads (0.51275ms)
+✔ returning a primary image to Not reviewed clears its primary choice (0.441791ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 115.923625

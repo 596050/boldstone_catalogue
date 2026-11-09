@@ -1,0 +1,237 @@
+Window: "Boldstone Wall Sculptures — Master Catalogue - Google Sheets", App: Google Chrome.
+0 standard window Boldstone Wall Sculptures — Master Catalogue - Google Sheets - Google Chrome – Tom, Secondary Actions: Raise, URL: docs.google.com/spreadsheets/d/1T-t6Mgy_TiMKzV8P45o1hvH2tpndicPO8Pq05KG8ZAs/edit?gid=1802717604#gid=1802717604
+	1 container Boldstone Wall Sculptures — Master Catalogue - Google Sheets - Google Chrome – Tom, URL: docs.google.com/spreadsheets/d/1T-t6Mgy_TiMKzV8P45o1hvH2tpndicPO8Pq05KG8ZAs/edit?gid=1802717604#gid=1802717604
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: docs.google.com/spreadsheets/d/1T-t6Mgy_TiMKzV8P45o1hvH2tpndicPO8Pq05KG8ZAs/edit?gid=1802717604#gid=1802717604
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Boldstone Wall Sculptures — Master Catalogue - Google Sheets, URL: docs.google.com/spreadsheets/d/1T-t6Mgy_TiMKzV8P45o1hvH2tpndicPO8Pq05KG8ZAs/edit?gid=1802717604#gid=1802717604
+						27 container
+							28 container Menu bar
+								29 container
+									30 link Sheets home, Value: docs.google.com/spreadsheets/u/0/?authuser=0&usp=sheets_web
+									31 container Boldstone Wall Sculptures — Master Catalogue
+										32 container
+											33 text Boldstone Wall Sculptures — Master Catalogue
+											34 text field (settable) Rename, Value: Boldstone Wall Sculptures — Master Catalogue
+										35 Tick box Star, Value: 0
+										36 button Move
+										37 button Document status: Saving….
+									38 container
+										39 button Last edit was seconds ago
+										40 toggle button Show all comments, Value: 0
+										41 pop-up button Join a call here or present this tab to the call
+										42 button Share. Private to only me. 
+										43 pop-up button Quick sharing actions
+										44 pop-up button Google Account: Sally Price (info@boldstone.co.uk)
+								45 container
+									46 menu bar
+										47 File
+										48 Edit
+										49 View
+										50 Insert
+										51 Format
+										52 Data
+										53 Tools
+										54 Extensions
+										55 Help
+									56 container
+										57 toolbar Search the menus (Option+/)
+											58 container
+												59 combo box (settable) Menus
+										60 toolbar Main
+											61 button Undo (⌘Z)
+											62 button Redo (⌘Y)
+											63 button Print (⌘P)
+											64 toggle button Paint format, Value: 0
+											65 combo box (settable) Zoom
+												66 container
+													67 container Zoom list. 100% selected.
+														68 text field (settable) Zoom, Value: 100%
+											69 button Format as currency
+											70 button Format as percent
+											71 button Decrease decimal places
+											72 button Increase decimal places
+											73 pop-up button More formats
+												74 text 123
+											75 list box Font
+												76 container
+													77 text (selected) Font list. Arial selected.
+											78 button Decrease font size (⌘+Shift+comma)
+											79 combo box (settable) Font size
+												80 container Font size list. 10 selected.
+													81 text field (settable) Font size, Value: 10
+											82 button Increase font size (⌘+Shift+period)
+											83 toggle button Bold (⌘B), Value: 0
+											84 toggle button Italic (⌘I), Value: 0
+											85 toggle button Strikethrough (⌘+Shift+X), Value: 0
+											86 pop-up button Text color
+											87 pop-up button Fill color
+											88 pop-up button Borders
+											89 button Merge cells
+											90 button Select merge type
+											91 pop-up button Horizontal align
+											92 pop-up button Vertical align
+											93 pop-up button Text wrapping
+											94 pop-up button Text rotation
+											95 button Insert link (⌘K)
+											96 button Insert comment (⌘+Option+M)
+											97 button Insert chart
+											98 toggle button Create a filter, Value: 0
+											99 pop-up button Filter views
+											100 pop-up button Functions
+									101 toolbar Mode and view
+										102 button Hide the menus (Ctrl+Shift+F)
+								103 button Show side panel
+								104 container
+									105 container
+										106 container Name box (⌘ + J)
+											107 text field (settable) N8:N2179
+											108 pop-up button Name box menu button. Select one of the menu items to navigate to its corresponding named range.
+										109 text entry area (settable) 2026-10-26T15:32:29.926Z
+
+											110 text 2026-10-26T15:32:29.926Z
+							111 container
+								112 container
+									113 container
+										114 container
+											115 toolbar
+												116 text field (settable) Table Name, Value: SpecificationSourcesTable
+													117 text SpecificationSourcesTable
+												118 pop-up button Table menu
+												119 pop-up button Views
+									120 container
+										121 container
+											122 container
+									123 image
+									124 toggle button 0
+								125 container Sheet tab bar
+									126 toolbar
+										127 button Add Sheet
+										128 pop-up button All Sheets
+									129 container
+										130 toolbar
+											131 pop-up button Wall Sculptures
+												132 container
+													133 text Wall Sculptures
+											134 pop-up button Images
+												135 container
+													136 text Images
+											137 pop-up button Specification Sources
+												138 container
+													139 text Specification Sources
+											140 pop-up button Manufacturing Costs
+												141 container
+													142 text Manufacturing Costs
+											143 pop-up button Cost Rates
+												144 container
+													145 text Cost Rates
+											146 pop-up button Cost Finishes
+												147 container
+													148 text Cost Finishes
+											149 pop-up button Upload Plan
+												150 container
+													151 text Upload Plan
+											152 pop-up button Website Copy
+												153 container
+													154 text Website Copy
+											155 pop-up button Channel Details
+												156 container
+													157 text Channel Details
+											158 pop-up button US Delivery Estimates
+												159 container
+													160 text US Delivery Estimates
+											161 pop-up button Platform Review
+												162 container
+													163 text Platform Review
+											164 pop-up button eBay Photo Links
+												165 container
+													166 text eBay Photo Links
+									167 toolbar
+										168 button (disabled) Scroll left
+										169 button Scroll right
+									170 text Count: 1,803
+							171 text entry area (settable) 
+
+
+							172 link Turn on screen reader support, Value: docs.google.com/spreadsheets/d/1T-t6Mgy_TiMKzV8P45o1hvH2tpndicPO8Pq05KG8ZAs/edit?gid=1802717604#
+							173 container
+								174 text Table column type updated to text
+								175 button Learn More
+								176 button Close
+							177 container
+								178 text Table column type updated to text
+								179 button Learn More
+								180 button Close
+							181 text entry area (settable)  
+							182 text Banner hidden To enable screen reader support, press ⌘+Option+Z To learn about keyboard shortcuts, press ⌘slash Name box. ⌘ + J. A1 selected. Type a cell range or named range and hit the Enter key to navigate to the specified range.
+			183 pop-up button Tab search
+			184 container
+				185 tab group
+					186 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					187 tab group  group ✅Claude – 1 Tab, •  Import | Microsoft Advertising – Expanded
+					188 tab (settable, boolean) Import | Microsoft Advertising – Part of group ✅Claude, Value: off
+					189 tab (settable, boolean) Variants - Manufacturer Center, Value: off
+					190 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					191 tab (settable, boolean) Boldstone Sculpture | Boldstone Wall Sculptures, Value: off
+					192 tab (settable, boolean) Portela Nova | A slower kind of stay, Value: off
+					193 tab (settable, boolean) Pinterest, Value: off
+					194 tab (settable, boolean) Get started with retail catalogs | Pinterest Business help, Value: off
+					195 tab (settable, boolean) [TEMPLATE - COPY] Pinterest Catalog Data source Google Sheet Template - Google Sheets, Value: off
+					196 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					197 tab (settable, boolean) All products - Merchant Center, Value: off
+					198 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					199 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					200 tab (selected, settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: on
+						201 button Close
+			202 button New tab
+	203 close button
+	204 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	205 minimise button
+206 menu bar
+	207 Chrome
+	208 File
+	209 Edit
+	210 View
+	211 History
+	212 Bookmarks
+	213 Profiles
+	214 Tab
+	215 Window
+	216 Help
+
+Selected text: ```
+
+
+
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

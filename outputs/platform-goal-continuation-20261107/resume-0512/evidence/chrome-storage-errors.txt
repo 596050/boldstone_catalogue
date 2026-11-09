@@ -1,0 +1,418 @@
+Window: "Studio | Saatchi Art United Kingdom", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14397795/description, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14397795/description
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio/art/14397795/description, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content DevTools, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true&panel=console
+						26 container
+							27 container
+								28 container
+									29 container Main toolbar
+										30 toolbar
+											31 container Select an element in the page to inspect it, Help: Select an element in the page to inspect it - ⌘ ⇧ C
+												32 toggle button Select an element in the page to inspect it - ⌘ ⇧ C, Value: 0
+											33 container Toggle device toolbar, Help: Toggle device toolbar - ⌘ ⇧ M
+												34 toggle button Toggle device toolbar - ⌘ ⇧ M, Value: 0
+										35 container
+											36 tab group Panels
+												37 tab (selected) Console, Value: 1
+												38 tab (settable, integer) Elements, Value: 0
+												39 tab (settable, integer) Application, Value: 0
+												40 tab (settable, integer) Sources, Value: 0
+												41 tab (settable, integer) Network, Value: 0
+												42 tab (settable, integer) Performance, Value: 0
+												43 tab (settable, integer) Memory, Value: 0
+												44 tab (settable, integer) Lighthouse, Value: 0
+												45 tab (settable, integer) AdBlock, Value: 0
+												46 tab (settable, integer) ResourcesSaver, Value: 0
+												47 tab (settable, integer) Components ⚛, Value: 0
+												48 tab (settable, integer) Profiler ⚛, Value: 0
+												49 tab (settable, integer) Suspense ⚛, Value: 0
+										50 toolbar
+											51 container
+												52 container Open Console to view 40 errors, 3 warnings
+													53 button Open Console to view 40 errors, 3 warnings
+												54 container Open Issues to view 81 issues: 81 breaking changes
+													55 button Open Issues to view 81 issues: 81 breaking changes
+											56 button  AI assistance, Help: Open AI assistance panel
+											57 container Settings, Help: Settings - F1 - ⇧ ?
+												58 button Settings - F1 - ⇧ ?
+											59 pop-up button Customize and control DevTools
+												60 button Customize and control DevTools
+											61 container Close
+												62 button Close
+									63 container Console panel
+										64 container console
+											65 container
+												66 toolbar
+													67 container Show Console sidebar
+														68 button Show Console sidebar
+													69 container Clear console, Help: Clear console - Ctrl L - ⌘ K
+														70 button Clear console - Ctrl L - ⌘ K
+													71 container Collapse all
+														72 button Collapse all
+													73 button JavaScript context: top
+													74 container Create live expression
+														75 button Create live expression
+													76 text entry area (settable) Filter
+														77 text Filter
+													78 pop-up button Log level: Default levels
+														79 text Default levels
+													80 container Some problems no longer generate console messages, but are surfaced in the Issues tab Click to view 81 breaking changes
+														81 button Some problems no longer generate console messages, but are surfaced in the Issues tab Click to view 81 breaking changes
+													82 container Console settings
+														83 toggle button Console settings, Value: 0
+													84 container 44 messages in console
+												85 container
+													86 container
+														87 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															88 container
+																89 text 05:33:00.931
+																90 container Error
+																91 container description:1 Uncaught (in promise) Stack table collapsed
+																	92 container
+																		93 button description:1
+																		94 text Uncaught (in promise)
+														95 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															96 container
+																97 text 05:33:01.941
+																98 container Error
+																99 container description:1 Uncaught (in promise) Stack table collapsed
+																	100 container
+																		101 button description:1
+																		102 text Uncaught (in promise)
+														103 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															104 container
+																105 text 05:33:02.945
+																106 container Error
+																107 container description:1 Uncaught (in promise) Stack table collapsed
+																	108 container
+																		109 button description:1
+																		110 text Uncaught (in promise)
+														111 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															112 container
+																113 text 05:33:03.951
+																114 container Error
+																115 container description:1 Uncaught (in promise) Stack table collapsed
+																	116 container
+																		117 button description:1
+																		118 text Uncaught (in promise)
+														119 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															120 container
+																121 text 05:33:04.955
+																122 container Error
+																123 container description:1 Uncaught (in promise) Stack table collapsed
+																	124 container
+																		125 button description:1
+																		126 text Uncaught (in promise)
+														127 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															128 container
+																129 text 05:33:05.960
+																130 container Error
+																131 container description:1 Uncaught (in promise) Stack table collapsed
+																	132 container
+																		133 button description:1
+																		134 text Uncaught (in promise)
+														135 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															136 container
+																137 text 05:33:06.980
+																138 container Error
+																139 container description:1 Uncaught (in promise) Stack table collapsed
+																	140 container
+																		141 button description:1
+																		142 text Uncaught (in promise)
+														143 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															144 container
+																145 text 05:33:07.971
+																146 container Error
+																147 container description:1 Uncaught (in promise) Stack table collapsed
+																	148 container
+																		149 button description:1
+																		150 text Uncaught (in promise)
+														151 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															152 container
+																153 text 05:33:08.975
+																154 container Error
+																155 container description:1 Uncaught (in promise) Stack table collapsed
+																	156 container
+																		157 button description:1
+																		158 text Uncaught (in promise)
+														159 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															160 container
+																161 text 05:33:09.980
+																162 container Error
+																163 container description:1 Uncaught (in promise) Stack table collapsed
+																	164 container
+																		165 button description:1
+																		166 text Uncaught (in promise)
+														167 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															168 container
+																169 text 05:33:10.985
+																170 container Error
+																171 container description:1 Uncaught (in promise) Stack table collapsed
+																	172 container
+																		173 button description:1
+																		174 text Uncaught (in promise)
+														175 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															176 container
+																177 text 05:33:11.991
+																178 container Error
+																179 container description:1 Uncaught (in promise) Stack table collapsed
+																	180 container
+																		181 button description:1
+																		182 text Uncaught (in promise)
+														183 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															184 container
+																185 text 05:33:12.996
+																186 container Error
+																187 container description:1 Uncaught (in promise) Stack table collapsed
+																	188 container
+																		189 button description:1
+																		190 text Uncaught (in promise)
+														191 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															192 container
+																193 text 05:34:28.478
+																194 container Error
+																195 container description:1 Uncaught (in promise) Stack table collapsed
+																	196 container
+																		197 button description:1
+																		198 text Uncaught (in promise)
+													199 container
+														200 container
+															201 text entry area (settable) Console prompt, Value: Press cmd i to turn on code suggestions Press cmd x to disable code suggestions
+
+																202 text Press cmd i to turn on code suggestions Press cmd x to disable code suggestions
+							203 text DevTools is docked to bottom 
+				204 scroll area
+					205 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/art/14397795/description
+						206 container
+							207 container
+								208 text Fax
+								209 text field (settable) Fax
+							210 link fax, Value: saatchiart.com/facsimile-npc
+							211 link Skip to Main Content, Value: saatchiart.com/en-gb/studio/art/14397795/description#skip-to-content
+							212 container
+								213 button Close Menu
+								214 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								215 text Studio
+								216 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								217 container
+									218 button Manage Artworks
+									219 content list
+										220 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										221 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									222 button Sales Dashboard
+									223 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									224 button Sponsored Listings
+									225 button Profile Information
+									226 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									227 button Account
+							228 container
+								229 text DRAFT
+								230 link 1 Image, Value: saatchiart.com/en-gb/studio/art/14397795/image
+								231 link 2 Description, Value: saatchiart.com/en-gb/studio/art/14397795/description
+								232 link 3 Price & Details, Value: saatchiart.com/en-gb/studio/art/14397795/price-details
+								233 link 4 Prints, Value: saatchiart.com/en-gb/studio/art/14397795/prints
+								234 button Back to Overview
+								235 Unlabelled image To get missing image descriptions, open the context menu.
+								236 text Title Gleneagles Vine I - White Subject Abstract Category Sculpture Dimensions 35  W x  35  H x  6  D  centimeters
+								237 button SHOW MORE
+								238 heading Description, Value: 1
+									239 text Description
+								240 container
+									241 button Category, Subject, Year, Help: Expand
+									242 container
+										243 text Category
+										244 container
+											245 text field (settable) Value: Sculpture, Placeholder: Search or select a category
+											246 text Search or select a category
+										247 text Subject
+										248 container
+											249 text field (settable) Value: Abstract, Placeholder: Search or select a subject
+											250 text Search or select a subject
+										251 text Year
+										252 text 2026
+										253 image
+										254 pop-up button 2026
+											255 (selected) 2026
+										256 button Next
+								257 container
+									258 button Method, Materials & Styles, Help: Expand
+									259 container
+										260 text Method Select 1 Method
+										261 container
+											262 text field (disabled) Max of 1 method
+											263 text Max of 1 method
+										264 content list
+											265 button Relief
+										266 text Materials Select 1-5 Materials
+										267 container
+											268 text field (settable) Search or select a material
+											269 text Search or select a material
+										270 content list
+											271 button Plaster
+										272 text Styles Select 1-5 Styles
+										273 container
+											274 text field (settable) Search or select a style
+											275 text Search or select a style
+										276 content list
+											277 button Abstract
+										278 button Next
+								279 container
+									280 button Dimensions, Help: Expand
+									281 container
+										282 text It's very important that you provide accurate dimensions as collectors and trade clients need to know the exact size of the artwork before purchasing it. For flat artworks, such as photographs and other works on paper, we suggest that you enter a depth of 0.1. Width ( cm )
+										283 text field (settable) 35
+										284 text Height ( cm )
+										285 text field (settable) 35
+										286 text Depth ( cm )
+										287 text field (settable) 6
+										288 button CENTIMETERS
+										289 text 35 cm 35 cm
+										290 button Next
+								291 container
+									292 button Keywords & Description, Help: Expand
+									293 container
+										294 text Keywords (optional) We recommend providing 5 to 12 keywords to help collectors discover your artwork. Use simple, descriptive words that capture the key visual elements of your work, such as color, subject matter, or artistic style. You may one keyword at a time by clicking the Add button or Enter on your keyboard or by providing a comma separated list of keywords.
+										295 content list
+											296 container
+												297 AXListMarker • 
+												298 text Each keyword should be 2–20 characters long.
+											299 container
+												300 AXListMarker • 
+												301 text Use English keywords for best visibility.
+											302 container
+												303 AXListMarker • 
+												304 text Spam, websites, social media, email addresses and inappropriate and harmful keywords are not allowed.
+										305 text field (settable) Enter Up To 12 Keywords
+										306 text Enter Up To 12 Keywords
+										307 button (disabled) Add
+										308 text 6  / 12
+										309 content list
+											310 button Gleneagles Vine
+											311 button botanical relief
+											312 button grapes
+											313 button white
+											314 button Sally Price
+											315 button Boldstone
+										316 text Description Collectors tend to appreciate works more if they know the “story” behind them, so be sure to write informative artwork descriptions. Great descriptions not only provide useful information (e.g. physical texture, whether hanging hardware is included, quality of materials), but they also answer questions like: What/who inspired the work? What do you hope its viewers will feel/think? Why did you choose the medium, subject matter, style?
+										317 text entry area (settable) Placeholder: Write Here..., Value: Only the upper-left panel in this photograph is supplied. The other three panels are sold separately. The photograph has warm workshop lighting; the offered finish is White.
+
+Vine and tendril motifs trace a graceful path across the relief.
+
+Made from a gypsum-based material. Colour: White/cream stone-effect finish. Companion pieces: Gleneagles Vine II, Gleneagles Vine III and Gleneagles Vine IV (sold separately). Dimensions: 35 × 35 cm per panel; approximately 6 cm deep; four-panel arrangement 70 × 70 cm. Weight: Approximately 5 kg (range 3–8 kg) per panel. Suitable for outdoor use and indoor display. Usually keyhole fixings; French cleats and other options are available. One sculpture supplied; other pieces and room props are not included. All designs can be customised; completely new commissions can be created with designer Sally Price. Dispatch within 3 working days; delivery transit time is additional.
+										318 text 81 characters left
+										319 button Refine With AI
+										320 button Next
+								321 button SAVE & EXIT
+								322 link Save & Continue, Value: saatchiart.com/en-gb/studio/art/14397795/price-details
+								323 container
+									324 text This site is protected by reCAPTCHA and the Google 
+									325 link Privacy Policy, Value: policies.google.com/privacy
+									326 text  and 
+									327 link Terms of Service, Value: policies.google.com/terms
+									328 text  apply.
+							329 container
+								330 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								331 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								332 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								333 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								334 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								335 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								336 text Support
+								337 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								338 link Help Center, Value: support.saatchiart.com/hc
+								339 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								340 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								341 pop-up button Request Support
+								342 text Resources
+								343 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								344 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								345 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								346 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								347 text Saatchi Art
+								348 link About, Value: saatchiart.com/en-gb/about-us
+								349 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								350 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								351 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								352 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								353 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								354 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								355 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								356 text Manage Preferences
+								357 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								358 container View Store Preferences Footer
+									359 image
+									360 text United Kingdom / GBP / Cm
+									361 image
+								362 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								363 link Privacy Policy, Value: policies.google.com/privacy
+								364 text  and 
+								365 link Terms of Service, Value: policies.google.com/terms
+								366 text  apply.
+							367 container
+								368 button Manage Preferences
+								369 text Manage Preferences
+			370 pop-up button Tab search
+			371 container
+				372 tab group
+					373 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					374 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					375 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					376 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					377 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					378 tab (settable, boolean) Meta Business Suite, Value: off
+					379 tab group  group 📦 Marketplace completion – 2 Tabs, •  Studio | Saatchi Art United Kingdom, •  Complete your listing | Boldstone Islington Sh… – Expanded
+					380 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion, Value: on
+						381 button Close
+					382 tab (settable, boolean) Value: off, Complete your listing | Boldstone Islington Shellmoon Relief - White Wall sculpture | eBay – Part of group 📦 Marketplace completion
+					383 tab (settable, boolean) Products – Faire, Value: off
+					384 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					385 tab (settable, boolean) Create listings, Value: off
+			386 button New tab
+		387 text https://www.saatchiart.com/en-gb/studio/art/14397795/price-details
+	388 close button
+	389 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	390 minimise button
+391 menu bar
+	392 Chrome
+	393 File
+	394 Edit
+	395 View
+	396 History
+	397 Bookmarks
+	398 Profiles
+	399 Tab
+	400 Window
+	401 Help
+
+The focused UI element is 201 text entry area (settable) Console prompt, Value: Press cmd i to turn on code suggestions Press cmd x to disable code suggestions

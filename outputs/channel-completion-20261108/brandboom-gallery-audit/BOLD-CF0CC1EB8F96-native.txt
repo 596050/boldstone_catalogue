@@ -1,0 +1,349 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: Boldstone Curving Leaf - White and Gold Finish Wall sculpture, Placeholder: Search Products
+									48 link
+								49 button 1
+									50 container
+										51 Tick box 1
+									52 text 1
+								53 container
+									54 text 1  /  1
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container
+										64 Unlabelled image /00034705970A8240_M.avif
+										65 text Boldstone Curving Leaf - White and Gold Finish Wall sculpture
+										66 text BOLD-CF0CC1EB8F96 WHITE GROUND AND IMITATION GOLD LEAF-EFFECT FINISH
+										67 container
+											68 text 58.50  GBP
+							69 container
+								70 content list
+									71 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								72 container
+									73 heading Presentations, Value: 5
+										74 text Presentations
+									75 button New
+									76 content list
+										77 link ALL, Value: manage.brandboom.com/products/s/111089#
+										78 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									79 container
+										80 link
+											81 image
+										82 search text field (settable) Search Presentations
+										83 link
+											84 image
+									85 container
+										86 text Wall Sculptures - 50 Preview
+										87 link Edit Name
+											88 image
+										89 link Duplicate
+											90 image
+										91 text GBP
+										92 link
+											93 image
+								94 heading Ship Windows, Value: 5
+									95 text Ship Windows
+								96 content list
+									97 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									98 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								99 text No active ship windows
+							100 container
+								101 button Cancel
+								102 button Select All
+								103 text 1 Item
+								104 button Search Order
+							105 link Reset
+								106 text Reset
+							107 button Apply
+							108 text PRODUCT STATUS
+							109 text Active
+							110 text Inactive
+							111 text Archived
+							112 text Corrupted
+							113 text No Images
+							114 text SORT BY
+							115 pop-up button Newest First
+								116 (selected) Newest First
+							117 text SHIP DATE RANGE
+							118 container
+								119 image
+								120 text field (settable) Click to select range
+							121 text No Date Range
+							122 text CREATE DATE RANGE
+							123 container
+								124 image
+								125 text field (settable) Click to select range
+							126 text SIZES
+							127 text field (settable) S, M, L
+							128 text VENDORS
+							129 text Boldstone
+							130 text TYPES
+							131 link
+								132 image
+							133 text No Types
+							134 text Home Decor
+							135 text Mens
+							136 text Womens
+							137 text CATEGORIES
+							138 link
+								139 image
+							140 link
+								141 image
+							142 text No Categories
+							143 text Sweater
+							144 text Wall Sculpture
+							145 text SEASONS
+							146 link
+								147 image
+							148 link
+								149 image
+							150 text No Seasons
+							151 text Year-round
+							152 container
+								153 container
+									154 Tick box Create another, Value: 0
+									155 text Create another
+								156 button Save
+								157 container
+									158 Unlabelled image /00034705970A8240_M.avif
+									159 container
+										160 image /00034705970A8240_S.avif
+										161 button STANDARD
+										162 image /000347059716F112_S.avif
+										163 button STANDARD
+										164 image /00034705972B35B5_S.avif
+										165 button STANDARD
+										166 image /00034705973C98C2_S.avif
+										167 button STANDARD
+										168 image /00034705974E95D7_S.avif
+										169 button STANDARD
+										170 image /0003470597587A5C_S.avif
+										171 button STANDARD
+										172 image /00034705976D8EA4_S.avif
+										173 button STANDARD
+										174 image /00034705977C4095_S.avif
+										175 button STANDARD
+										176 image /00034705978CF264_S.avif
+										177 button STANDARD
+										178 image /00034736708C7DB5_S.avif
+										179 button STANDARD
+										180 image
+										181 image
+									182 image
+									183 text 10 / Unlimited
+									184 image
+									185 text 0 / 1
+									186 text Drag to reorder
+									187 container
+										188 text Style ID *
+										189 text BOLD-CF0CC1EB8F96
+									190 container
+										191 text Options
+										192 link White ground and imitation gold leaf-effect finish
+											193 text White ground and imitation gold leaf-effect finish
+									194 container
+										195 text Sizes
+										196 text One sculpture
+									197 text Barcode
+									198 container
+										199 button
+										200 text field (settable)
+									201 text Name
+									202 text field (settable) Boldstone Curving Leaf - White and Gold Finish Wall sculpture
+									203 container Price
+										204 container
+											205 text Price
+											206 text field (settable) Value: 58.50, Placeholder: Enter
+									207 container Retail
+										208 container
+											209 text Retail
+											210 text field (settable) Value: 0.00, Placeholder: Enter
+									211 text Qty Min
+									212 text field (settable) 1
+									213 text Vendor
+									214 text field (settable) Boldstone
+									215 text Type
+									216 text field (settable) Home Decor
+									217 text Category
+									218 text field (settable) Wall Sculpture
+									219 text Taxonomy
+									220 text field (settable) Value: Home Decor / Wall Decor / Wall Art, Placeholder: Select
+									221 text Season
+									222 text field (settable) Year-round
+									223 text Ship Date
+									224 text field (settable)
+									225 container
+										226 text HS Code
+										227 text field (settable) HS Code
+									228 container Country Of Origin
+										229 container
+											230 text Country Of Origin
+											231 button -
+									232 container
+										233 text Description
+										234 container
+											235 text A curving leaf form gives this relief its soft, flowing outline. Raised contours draw attention to the movement of the design, while the spaces between them create quiet shadows.
+											236 text A botanical gesture for the wall, recalling the moment a leaf turns towards the light.
+											237 text This version is offered in the white and gold finish colourway.
+											238 text Brand: Boldstone
+											239 text Product type: Wall sculpture
+											240 text Model: Curving Leaf - White and Gold Finish (BOLD-CF0CC1EB8F96)
+											241 text Colour / appearance: White ground and imitation gold leaf-effect finish
+											242 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											243 text Material: Made from a gypsum-based material.
+											244 text Surface effect: A decorative surface effect is applied to create the finish shown. Each piece is handmade. The surface-effect pattern will vary and will differ from the photographs.
+											245 text Dimensions: 25 cm high × 25 cm wide × 5 cm deep
+											246 text Weight: Approximately 3 kg
+											247 text Use: Suitable for outdoor use and indoor display.
+											248 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											249 text Availability: Ready to dispatch
+											250 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											251 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											252 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							253 link
+								254 image
+							255 container
+								256 content list
+									257 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									258 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								259 container
+									260 button Upload Images
+									261 button
+									262 button
+									263 button
+								264 container
+									265 Unlabelled image /000347368438D172_S.avif
+									266 text file.jpg
+									267 Unlabelled image /00011059388E43A7_S.avif
+									268 text toys-dinosaur
+									269 Unlabelled image /00011059387A69BA_S.avif
+									270 text baby-kidswear-t
+									271 Unlabelled image /000110593863557B_S.avif
+									272 text pet-sticks
+									273 Unlabelled image /00011059385C1D4E_S.avif
+									274 text apparel-t-shirt
+									275 Unlabelled image /00011059384494BB_S.avif
+									276 text footwear-shoes
+									277 Unlabelled image /000110593837D96A_S.avif
+									278 text beauty-cream
+									279 Unlabelled image /00011059382B4683_S.avif
+									280 text home-pitcher
+									281 Unlabelled image /00007087863E986B_S.avif
+									282 text BOOM1111
+									283 Unlabelled image /0000022409830BD3_S.avif
+									284 text BOOM1830
+									285 Unlabelled image /00000224097C30D6_S.avif
+									286 text BOOM1705
+									287 Unlabelled image /00000224096AD0BE_S.avif
+									288 text BOOM1100
+							289 button Close
+							290 text Search Products
+							291 button Scan barcodes
+							292 container
+								293 link
+									294 image
+								295 search text field (settable) Search for Products
+							296 text RESULTS
+							297 button Open Intercom Messenger
+			298 pop-up button Tab search
+			299 container
+				300 tab group
+					301 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					302 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					303 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					304 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					305 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					306 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					307 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					308 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					309 tab (settable, boolean) SEO opportunity audit, Value: off
+					310 tab group  group ✅Claude – 2 Tabs, •  Inbox (113) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					311 tab (settable, boolean) Value: off, Inbox (113) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1.1 GB
+					312 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					313 tab (settable, boolean) Drafts (1,333) - tppricet@gmail.com - Gmail, Value: off
+					314 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					315 tab (settable, boolean) Bookmarks, Value: off
+					316 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					317 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					318 tab (settable, boolean) Boldstone Sculpture | Wall Sculptures - 50 Preview, Value: off
+					319 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					320 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						321 button Close
+					322 tab (settable, boolean) 000347063570B5C6_M.avif (600×600), Value: off
+			323 button New tab
+	324 close button
+	325 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	326 minimise button
+327 menu bar
+	328 Chrome
+	329 File
+	330 Edit
+	331 View
+	332 History
+	333 Bookmarks
+	334 Profiles
+	335 Tab
+	336 Window
+	337 Help
+
+The focused UI element is 27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089

@@ -1,0 +1,59 @@
+Browser tab: 961982145, Title: "boldstone | Secure Checkout", URL: "https://boldstonesculpture.com/checkout?cartToken=ceevbMxCcF7NtFuJILHiDAjMeSsvSTX1-8dySgRR".
+1 AXWebArea boldstone | Secure Checkout, URL: boldstonesculpture.com/checkout?cartToken=ceevbMxCcF7NtFuJILHiDAjMeSsvSTX1-8dySgRR
+	2 container checkout
+		3 heading boldstone, Value: 1
+			4 link Description: boldstone, Value: boldstonesculpture.com/
+		5 container
+			6 container Secure payment input frame
+				7 AXWebArea about:blank
+			8 container Your Email
+				9 heading Your Email, Value: 1, ID: customer-info-section
+					10 text Your Email
+				11 container
+					12 text EMAIL
+					13 text field (settable) EMAIL
+					14 text You'll receive receipts and notifications at this email Already have an account?
+					15 link Description: Sign in, Value: boldstonesculpture.com/checkout?cartToken=ceevbMxCcF7NtFuJILHiDAjMeSsvSTX1-8dySgRR#
+					16 container
+						17 checkbox (settable, integer) Description: Sign up to receive news and updates, Value: 0
+					18 text Sign up to receive news and updates
+					19 button CONTINUE
+						20 text CONTINUE
+			21 container Delivery
+				22 heading Delivery, Value: 1, ID: fulfillment-section
+					23 text Delivery
+			24 heading Payment, Value: 1, ID: billing-info-section
+				25 text Payment
+			26 container Review & Purchase
+				27 heading Review & Purchase, Value: 1, ID: review-section
+					28 text Review & Purchase
+			29 container
+				30 text Order summary
+				31 text 1
+				32 text Dune Ripple I - Verdigris
+				33 container Dune Ripple I - Verdigris total price
+					34 text £41.24
+				35 button Remove
+					36 text Remove
+				37 button Discount or gift card
+					38 image
+					39 text Discount or gift card
+				40 container Subtotal label
+					41 text Subtotal
+				42 container Subtotal price
+					43 text £41.24
+				44 container Tax label
+					45 text Tax
+				46 container Tax price
+					47 text £9.37
+				48 container Shipping label
+					49 text Shipping
+				50 container Shipping price
+					51 text £14.95
+				52 container Total label
+					53 text Total
+				54 container Total price
+					55 text £56.19
+				56 text SECURE SSL CHECKOUT
+
+The focused UI element is 1 AXWebArea boldstone | Secure Checkout, URL: boldstonesculpture.com/checkout?cartToken=ceevbMxCcF7NtFuJILHiDAjMeSsvSTX1-8dySgRR

@@ -1,0 +1,336 @@
+Window: "Studio | Saatchi Art United Kingdom", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio
+						26 container
+							27 container
+								28 text Fax
+								29 text field (settable) Fax
+							30 link fax, Value: saatchiart.com/facsimile-npc
+							31 link Skip to Main Content, Value: saatchiart.com/en-gb/studio#skip-to-content
+							32 container
+								33 button Close Menu
+								34 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								35 text Studio
+								36 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								37 container
+									38 button Manage Artworks
+									39 button Sales Dashboard
+									40 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									41 button Sponsored Listings
+									42 button Profile Information
+									43 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									44 button Account
+							45 container
+								46 heading My Original Artworks, Value: 4
+									47 text My Original Artworks
+								48 heading Vacation Status, Value: 6
+									49 text Vacation Status
+								50 button Add New Artwork
+								51 container (showing 0-100 of 182 items)
+									52 Tick box 0
+									53 text ARTWORKS VISIBILITY DATE UPLOADED PRICE AVAILABILITY PRINTS
+									54 Tick box 0
+									55 Unlabelled image /13455317-LXYAWFQO-6.jpg
+									56 text Bone Spiral I (Narrow) - White
+									57 text Sculpture
+									58 text 30 W x 55 H x 7 D centimeters
+									59 text Published
+									60 text Nov 5, 2026
+									61 container
+										62 text $168
+										63 image
+									64 container
+										65 text For Sale
+										66 image
+									67 text Not Available
+									68 Tick box 0
+									69 Unlabelled image /13455305-AMDQMXGL-6.jpg
+									70 text Ammonite Petite II (Right) - White
+									71 text Sculpture
+									72 text 25 W x 52 H x 5 D centimeters
+									73 text Published
+									74 text Nov 5, 2026
+									75 container
+										76 text $138
+										77 image
+									78 container
+										79 text For Sale
+										80 image
+									81 text Not Available
+									82 Tick box 0
+									83 Unlabelled image /13455287-TMDQJLJW-6.jpg
+									84 text Ammonite Petite I (Left) - White
+									85 text Sculpture
+									86 text 25 W x 52 H x 5 D centimeters
+									87 text Published
+									88 text Nov 5, 2026
+									89 container
+										90 text $138
+										91 image
+									92 container
+										93 text For Sale
+										94 image
+									95 text Not Available
+									96 Tick box 0
+									97 Unlabelled image /13455249-IEYHXSTP-6.jpg
+									98 text Wave and Moonshadow II - White
+									99 text Sculpture
+									100 text 40 W x 40 H x 6 D centimeters
+									101 text Published
+									102 text Nov 5, 2026
+									103 container
+										104 text $163
+										105 image
+									106 container
+										107 text For Sale
+										108 image
+									109 text Not Available
+									110 Tick box 0
+									111 Unlabelled image /13455239-CIEVOXWU-6.jpg
+									112 text Spiral Moon Relief - White
+									113 text Sculpture
+									114 text 55 W x 55 H x 7 D centimeters
+									115 text Published
+									116 text Nov 5, 2026
+									117 container
+										118 text $257
+										119 image
+									120 container
+										121 text For Sale
+										122 image
+									123 text Not Available
+									124 Tick box 0
+									125 Unlabelled image /13455231-TKNTNYAE-6.jpg
+									126 text Islington Shellmoon Fountain - White
+									127 text Sculpture
+									128 text 70 W x 50 H x 7 D centimeters
+									129 text Published
+									130 text Nov 5, 2026
+									131 container
+										132 text $259
+										133 image
+									134 container
+										135 text For Sale
+										136 image
+									137 text Not Available
+									138 Tick box 0
+									139 Unlabelled image /13455211-GRPKSBHZ-6.jpg
+									140 text Sculpted Curves - Textured Gold Finish
+									141 text Sculpture
+									142 text 25 W x 25 H x 7 D centimeters
+									143 text Published
+									144 text Nov 5, 2026
+									145 container
+										146 text $103
+										147 image
+									148 container
+										149 text For Sale
+										150 image
+									151 text Not Available
+									152 Tick box 0
+									153 Unlabelled image /13455191-BBHFFLRG-6.jpg
+									154 text Lunar Water Catcher - White
+									155 text Sculpture
+									156 text 48 W x 51 H x 7 D centimeters
+									157 text Published
+									158 text Nov 5, 2026
+									159 container
+										160 text $207
+										161 image
+									162 container
+										163 text For Sale
+										164 image
+									165 text Not Available
+									166 Tick box 0
+									167 Unlabelled image /13455179-TBJMWWQT-6.jpg
+									168 text Lunar Phase II - White
+									169 text Sculpture
+									170 text 30 W x 30 H x 7 D centimeters
+									171 text Published
+									172 text Nov 5, 2026
+									173 container
+										174 text $100
+										175 image
+									176 container
+										177 text For Sale
+										178 image
+									179 text Not Available
+									180 Tick box 0
+									181 Unlabelled image /13455173-NXJLHRHF-6.jpg
+									182 text Lunar Phase IV - Silver Finish
+									183 text Sculpture
+									184 text 30 W x 30 H x 7 D centimeters
+									185 text Published
+									186 text Nov 5, 2026
+									187 container
+										188 text $132
+										189 image
+									190 container
+										191 text For Sale
+										192 image
+									193 text Not Available
+									194 Tick box 0
+									195 Unlabelled image /13455163-ZLYTNIXQ-6.jpg
+									196 text Magnolia Growth - White
+									197 text Sculpture
+									198 text 30 W x 100 H x 6 D centimeters
+									199 text Published
+									200 text Nov 5, 2026
+									201 container
+										202 text $237
+										203 image
+									204 container
+										205 text For Sale
+										206 image
+									207 text Not Available
+									208 Tick box 0
+									209 Unlabelled image /13455139-QJOIZVGE-6.jpg
+									210 text Bone Spiral II (Wide) - White
+									211 text Sculpture
+									212 text 55 W x 55 H x 7 D centimeters
+									213 text Published
+									214 text Nov 5, 2026
+									215 container
+										216 text $237
+										217 image
+									218 container
+										219 text For Sale
+										220 image
+									221 text Not Available
+									222 Tick box 0
+									223 Unlabelled image /13455109-FGPASBUH-6.jpg
+									224 text Patina Panel - Rust and Verdigris Finish
+									225 text Sculpture
+									226 text 31.5 W x 31.5 H x 4 D centimeters
+									227 text Published
+									228 text Nov 5, 2026
+									229 container
+										230 text $157
+										231 image
+									232 container
+										233 text For Sale
+										234 image
+									235 text Not Available
+									236 Tick box 0
+									237 Unlabelled image To get missing image descriptions, open the context menu.
+									238 text Wave and Moonshadow I - White
+									239 text Sculpture
+									240 text 40 W x 40 H x 6 D centimeters
+								241 button Go to page 1, Help: Page 1
+								242 button Go to page 2, Help: Page 2
+								243 button Go to page 3, Help: Page 3
+								244 button Go to page 4, Help: Page 4
+								245 button Go to page 5, Help: Page 5
+								246 button Go to next page
+									247 link Go to next page, Help: Next, Value: saatchiart.com/en-gb/studio?sub=artworks&page=2&hitsPerPage=25
+								248 container
+									249 text 1  - 25 of 112 Artworks
+								250 container
+									251 text 25 Results Per Page
+									252 image
+							253 container
+								254 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								255 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								256 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								257 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								258 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								259 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								260 text Support
+								261 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								262 link Help Center, Value: support.saatchiart.com/hc
+								263 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								264 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								265 pop-up button Request Support
+								266 text Resources
+								267 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								268 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								269 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								270 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								271 text Saatchi Art
+								272 link About, Value: saatchiart.com/en-gb/about-us
+								273 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								274 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								275 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								276 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								277 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								278 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								279 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								280 text Manage Preferences
+								281 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								282 container View Store Preferences Footer
+									283 image
+									284 text United Kingdom / GBP / Cm
+									285 image
+								286 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								287 link Privacy Policy, Value: policies.google.com/privacy
+								288 text  and 
+								289 link Terms of Service, Value: policies.google.com/terms
+								290 text  apply.
+							291 container
+								292 button Manage Preferences
+								293 text Manage Preferences
+			294 pop-up button Tab search
+			295 container
+				296 tab group
+					297 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+						298 button Close
+					299 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					300 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+						301 button Close
+					302 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+						303 button Close
+					304 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+						305 button Close
+					306 tab (settable, boolean) Meta Business Suite - High memory usage - 1.0 GB, Value: off
+						307 button Close
+					308 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom, Value: on
+						309 button Close
+			310 button New tab
+	311 close button
+	312 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	313 minimise button
+314 menu bar
+	315 Chrome
+	316 File
+	317 Edit
+	318 View
+	319 History
+	320 Bookmarks
+	321 Profiles
+	322 Tab
+	323 Window
+	324 Help
+
+The focused UI element is 38 button Manage Artworks

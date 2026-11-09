@@ -1,0 +1,241 @@
+Window: "Meta Business Suite", App: Google Chrome.
+0 standard window Meta Business Suite - High memory usage - 1,010 MB - Google Chrome – Tom, Secondary Actions: Raise, URL: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+	1 container Meta Business Suite - High memory usage - 1,010 MB - Google Chrome – Tom, URL: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Meta Business Suite, URL: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+						27 container
+							28 container
+								29 container
+									30 heading Create post, Value: 1
+										31 text Create post
+									32 container
+										33 image
+										34 heading Want to create an ad post?, Value: 4
+											35 text Want to create an ad post?
+										36 button Close ​
+										37 button See more
+									38 container Post to
+										39 heading Post to, Value: 3
+											40 text Post to
+										41 container
+											42 text Post to
+											43 combo box (settable) Post to boldstonesculpture, Value: ​ Instagram boldstonesculpture ​
+												44 container
+													45 container
+														46 image Instagram
+													47 text boldstonesculpture
+													48 image
+									49 container Media
+										50 heading Media, Value: 3
+											51 text Media
+										52 text Share photos and videos on Instagram. Posts can't exceed 10 photos or videos.
+										53 container
+											54 content list
+												55 container
+													56 image
+													57 heading Photo(s) will be auto-cropped, Value: 4
+														58 text Photo(s) will be auto-cropped
+													59 button See more
+											60 content list
+												61 container
+													62 text 1086 x 1448
+													63 image
+													64 text Photo will be auto-cropped
+													65 button Edit photo ​
+													66 button Edit ​
+													67 button Remove Photo ​
+											68 button Add photo/video
+									69 container Post details
+										70 heading Post details, Value: 3
+											71 text Post details
+										72 container
+											73 heading Text, Value: 4
+												74 text Text
+											75 text entry area (settable) Write in the dialogue box to include text with your post., Value: 
+
+											76 button Click to open hashtag menu. ​
+											77 button Choose emoji ​
+											78 button Location
+									79 container
+										80 heading Schedule, Value: 3
+											81 text Schedule
+										82 text Set date and time
+										83 switch Set date and time, Value: off
+									84 container
+										85 switch Boost, Value: off
+										86 text Boost
+										87 button Cancel
+										88 button Finish later
+										89 button Publish
+									90 container
+										91 heading Instagram feed preview, Value: 3
+											92 text Instagram feed preview
+										93 container
+											94 text boldstonesculpture
+											95 button Like
+											96 button Comment
+											97 button Share
+											98 button Save
+								99 button Meta AI business assistant
+								100 container
+									101 button Meta Business Suite
+									102 button Pressable
+									103 container Links
+										104 text Links
+										105 content list
+											106 container
+												107 link Home, Value: business.facebook.com/latest/home?business_id=2380586078685156&asset_id=103781478537396
+												108 text Home
+											109 container
+												110 link Notifications
+													111 text Notifications
+												112 text Notifications
+											113 container
+												114 link Ads Manager
+													115 text Ads Manager
+												116 text Ads Manager
+											117 container
+												118 link Inbox, Value: business.facebook.com/latest/inbox?business_id=2380586078685156&asset_id=103781478537396
+												119 text Inbox
+											120 container
+												121 link Content, Value: business.facebook.com/latest/posts?business_id=2380586078685156&asset_id=103781478537396
+												122 text Content
+											123 container
+												124 link Creator Marketing, Value: business.facebook.com/creator_marketing_hub/overview/?business_id=2380586078685156&asset_id=103781478537396&nav_ref=mbs_all_tools&ad_account_id=878195225362673&selected_business_ig_user_id=17841407266349160&selected_business_page_id=103781478537396
+												125 text Creator Marketing
+											126 container
+												127 link Planner, Value: business.facebook.com/latest/content_calendar?business_id=2380586078685156&asset_id=103781478537396
+												128 text Planner
+											129 container
+												130 link Ads, Value: business.facebook.com/latest/ad_center/ads_summary?business_id=2380586078685156&asset_id=103781478537396
+												131 text Ads
+											132 container
+												133 link Insights, Value: business.facebook.com/latest/insights?business_id=2380586078685156&asset_id=103781478537396
+												134 text Insights
+											135 container
+												136 link Monetisation, Value: business.facebook.com/latest/monetization?business_id=2380586078685156&asset_id=103781478537396
+												137 text Monetisation
+											138 container
+												139 link All tools
+													140 text All tools
+												141 text All tools
+											142 button Edit sidebar navigation
+									143 container
+										144 link Search
+											145 text Search
+										146 text Search
+										147 image
+									148 container Links
+										149 text Links
+										150 content list
+											151 container
+												152 link Settings, Value: business.facebook.com/latest/settings/business_users?business_id=2380586078685156
+												153 text Settings
+									154 container
+										155 link Help
+											156 text Help
+										157 text Help
+										158 image
+							159 container
+								160 link New post, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+								161 image
+								162 heading Edit, Value: 3
+									163 text Edit
+								164 container
+									165 heading Tags, Value: 3
+										166 text Tags
+									167 button Tag people
+									168 button Tag products
+									169 heading Tag products, Value: 3
+										170 text Tag products
+									171 switch Automatically detect and tag products, Value: off
+									172 text Automatically detect and tag products Click on a product in the photo to tag it. This allows people to shop directly on your post.
+									173 heading Lunar Spiral I - White, Value: 3
+										174 text Lunar Spiral I - White
+									175 text £92.36
+									176 container
+										177 container
+											178 button
+											179 text Lunar Spiral I - White £92.36
+									180 text Product tags that you add will appear in the placements you have selected.
+								181 button Cancel
+								182 button Save
+			183 pop-up button Tab search
+			184 container
+				185 tab group
+					186 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					187 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					188 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					189 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					190 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					191 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					192 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					193 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					194 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					195 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					196 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					197 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					198 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					199 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					200 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					201 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					202 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					203 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					204 tab (settable, boolean) Meta Business Suite, Value: off
+					205 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					206 tab (selected, settable, boolean) Meta Business Suite - High memory usage - 1,010 MB, Value: on
+					207 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					208 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					209 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					210 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					211 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					212 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 999 MB, Value: off
+					213 tab (settable, boolean) Boldstone · Review room, Value: off
+			214 button New tab
+	215 close button
+	216 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	217 minimise button
+218 menu bar
+	219 Chrome
+	220 File
+	221 Edit
+	222 View
+	223 History
+	224 Bookmarks
+	225 Profiles
+	226 Tab
+	227 Window
+	228 Help
+
+The focused UI element is 178 button

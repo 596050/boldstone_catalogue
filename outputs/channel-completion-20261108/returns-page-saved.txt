@@ -1,0 +1,188 @@
+Window: "Return and Refund Policy | Sho… – Learn More Now — boldstone", App: Google Chrome.
+0 standard window Return and Refund Policy | Shop with Confidence – Learn More Now — boldstone - Google Chrome – Tom, URL: caper-spinach-spcy.squarespace.com/config/pages, Secondary Actions: Raise
+	1 container Return and Refund Policy | Shop with Confidence – Learn More Now — boldstone - Google Chrome – Tom, URL: caper-spinach-spcy.squarespace.com/config/pages
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: caper-spinach-spcy.squarespace.com/config/pages, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Return and Refund Policy | Shop with Confidence – Learn More Now — boldstone, URL: caper-spinach-spcy.squarespace.com/config/pages
+						27 container
+							28 container
+								29 container Site preview and editing tools
+									30 button (disabled) Save
+									31 button Exit
+									32 button Undo
+									33 button (disabled) Redo
+									34 container
+										35 text Return and Refund Policy Page  ·  Published
+									36 content list
+										37 container
+											38 radio button Desktop View, Value: 1
+											39 radio button Mobile View, Value: 0
+										40 button Toggle Site Styles editing
+										41 button Toggle preview mode
+								42 container boldstone
+									43 HTML content Return and Refund Policy | Shop with Confidence – Learn More Now — boldstone, URL: caper-spinach-spcy.squarespace.com/return-and-refund-policy
+										44 container
+											45 container
+												46 button EDIT SITE HEADER
+												47 link Skip to Content, Value: caper-spinach-spcy.squarespace.com/return-and-refund-policy#page
+												48 container
+													49 link boldstone, Value: caper-spinach-spcy.squarespace.com/
+													50 container
+														51 link Commissions, Value: caper-spinach-spcy.squarespace.com/commission
+														52 link Sculpture, Value: caper-spinach-spcy.squarespace.com/
+														53 link Furnishings, Value: caper-spinach-spcy.squarespace.com/furnishings
+														54 link Gallery, Value: caper-spinach-spcy.squarespace.com/gallery
+														55 link Buy, Value: caper-spinach-spcy.squarespace.com/buy
+														56 link Blog, Value: caper-spinach-spcy.squarespace.com/blog
+														57 link Contact, Value: caper-spinach-spcy.squarespace.com/consultation-and-contact
+													58 link Instagram, Value: instagram.com/boldstonesculpture/
+													59 link LinkedIn, Value: linkedin.com/in/sally-price-1193858a
+													60 link Facebook, Value: facebook.com/BoldstoneSculpture/
+													61 link Pinterest, Value: pinterest.co.uk/boldstonepinterest
+													62 link X, Value: x.com/SallyPr65718327
+													63 link Houzz, Value: houzz.co.uk/pro/sally-price2
+													64 link URL, Value: linktr.ee/boldstone
+													65 link TikTok, Value: tiktok.com/@boldstonesculpture
+													66 link YouTube, Value: youtube.com/@BoldstoneSculpture
+													67 link Threads, Value: threads.com/@boldstonesculpture
+													68 link One item in cart, Value: caper-spinach-spcy.squarespace.com/cart
+												69 text EDIT HEADER
+											70 container
+												71 container
+													72 container
+														73 table
+															74 text TEXT
+															75 cell
+																76 container Text
+																	77 text entry area (settable) RETURN AND REFUND POLICY
+																		78 heading RETURN AND REFUND POLICY, Value: 2
+																			79 text RETURN AND REFUND POLICY
+																	80 toolbar
+															81 image Adjust row count
+												82 container
+													83 container
+														84 table
+															85 text TEXT
+															86 cell
+																87 container Text
+																	88 text entry area (settable) RETURNS AND REFUNDS
+For standard catalogue sculptures bought online, you may contact us within 30 days of delivery to request a change-of-mind return. Email info@boldstone.co.uk with your order number. We will provide the return address and packing instructions. Please send the sculpture back within 14 days of telling us you wish to return it, carefully protected against damage.
+For change-of-mind returns, you pay the actual return postage. You may inspect the sculpture as you would in a shop; please avoid installing, altering or using it before deciding to keep it. A deduction may apply for handling beyond what is needed to inspect it, where permitted by law.
+We will refund the original payment method within 14 days of receiving the returned sculpture or evidence that it has been sent back, whichever comes first. For a qualifying cancellation, the refund includes the standard outbound delivery charge. Extra charges for a premium delivery option are not refundable. Your bank may take additional time to display the credit.
+Contact us promptly if a sculpture arrives damaged, faulty or incorrect. Include your order number and photographs where possible. We will arrange the appropriate remedy and necessary return postage; your statutory rights are unaffected.
+Personalised or bespoke commissions made to your specifications may be excluded from change-of-mind returns. We will identify this before the order is agreed. A standard catalogue design is not automatically excluded just because it is cast after ordering. Sale items retain the same statutory consumer rights.
+																		89 heading RETURNS AND REFUNDS, Value: 3
+																			90 text RETURNS AND REFUNDS
+																		91 container
+																			92 text For standard catalogue sculptures bought online, you may contact us within 30 days of delivery to request a change-of-mind return. Email 
+																			93 link info@boldstone.co.uk, Value: mailto:info@boldstone.co.uk
+																			94 text  with your order number. We will provide the return address and packing instructions. Please send the sculpture back within 14 days of telling us you wish to return it, carefully protected against damage.
+																		95 text For change-of-mind returns, you pay the actual return postage. You may inspect the sculpture as you would in a shop; please avoid installing, altering or using it before deciding to keep it. A deduction may apply for handling beyond what is needed to inspect it, where permitted by law.
+																		96 text We will refund the original payment method within 14 days of receiving the returned sculpture or evidence that it has been sent back, whichever comes first. For a qualifying cancellation, the refund includes the standard outbound delivery charge. Extra charges for a premium delivery option are not refundable. Your bank may take additional time to display the credit.
+																		97 text Contact us promptly if a sculpture arrives damaged, faulty or incorrect. Include your order number and photographs where possible. We will arrange the appropriate remedy and necessary return postage; your statutory rights are unaffected.
+																		98 text Personalised or bespoke commissions made to your specifications may be excluded from change-of-mind returns. We will identify this before the order is agreed. A standard catalogue design is not automatically excluded just because it is cast after ordering. Sale items retain the same statutory consumer rights.
+																	99 toolbar
+															100 image Adjust row count
+												101 text EDIT PAGE
+											102 container
+												103 button EDIT SITE FOOTER
+												104 container
+													105 container
+														106 link Privacy Policy, Value: caper-spinach-spcy.squarespace.com/privacy-policy
+														107 link Terms of Service, Value: caper-spinach-spcy.squarespace.com/terms-of-service
+														108 link Terms and Conditions, Value: caper-spinach-spcy.squarespace.com/terms-and-conditions
+														109 link Partnership Terms, Value: caper-spinach-spcy.squarespace.com/partnership-terms
+													110 container
+														111 link Copyright and Design Right, Value: caper-spinach-spcy.squarespace.com/copyright-and-design-right
+														112 link Shipping Policy , Value: caper-spinach-spcy.squarespace.com/shipping-policy
+														113 link Return and Refund Policy, Value: caper-spinach-spcy.squarespace.com/return-and-refund-policy
+													114 container
+														115 text Contact Us Directly:
+														116 link info@, Value: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+														117 link boldstonesculpture, Value: mailto:info@boldstonesculpture.com?cc=info%40boldstone.co.uk&subject=Inquiry%3A%20Boldstone%20Sculpture
+														118 link .com, Value: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+														119 link Frequently Asked Questions, Value: caper-spinach-spcy.squarespace.com/faqs
+														120 link About Sally Price, Value: caper-spinach-spcy.squarespace.com/about
+														121 link Garden Sculpture, Value: caper-spinach-spcy.squarespace.com/garden-sculpture
+														122 link Bespoke Commissions, Value: caper-spinach-spcy.squarespace.com/commission
+												123 text EDIT FOOTER
+											124 container Manage previously selected cookie options
+												125 button Cookie Preferences
+											126 image
+			127 pop-up button Tab search
+			128 container
+				129 tab group
+					130 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					131 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					132 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					133 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					134 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					135 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					136 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					137 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					138 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					139 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					140 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					141 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					142 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					143 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					144 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					145 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					146 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					147 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					148 tab (settable, boolean) Meta Business Suite, Value: off
+					149 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					150 tab (settable, boolean) Meta Business Suite, Value: off
+					151 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					152 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					153 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					154 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					155 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					156 tab (selected, settable, boolean) Return and Refund Policy | Shop with Confidence – Learn More Now — boldstone, Value: on
+			157 button New tab
+	158 close button
+	159 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	160 minimise button
+161 menu bar
+	162 Chrome
+	163 File
+	164 Edit
+	165 View
+	166 History
+	167 Bookmarks
+	168 Profiles
+	169 Tab
+	170 Window
+	171 Help
+
+The focused UI element is 26 HTML content Return and Refund Policy | Shop with Confidence – Learn More Now — boldstone, URL: caper-spinach-spcy.squarespace.com/config/pages

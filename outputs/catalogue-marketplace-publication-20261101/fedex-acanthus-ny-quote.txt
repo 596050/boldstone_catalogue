@@ -1,0 +1,71 @@
+- banner:
+  - link "FedEx":
+    - /url: /
+    - img "FedEx"
+- generic: Choose a delivery service
+- text: 
+- generic: "View services by:"
+- combobox "sortBy":
+  - option "Price Low-High" [selected]
+  - option "Price High-Low"
+  - option "Speed of Delivery"
+- generic: FedEx International Economy® DropOff
+- button "":
+  - link "":
+    - /url: "#/4"
+    - generic: 
+- text: Est. Delivery
+- strong: Thu 5 Nov
+- generic: £73.89
+- link "BUY":
+  - /url: /order/parcel/new?col=219&dest=217&mdd=0&p=1~9%7C60%7C40%7C16&slug=fedex-world-economy-dropoff
+- generic: £50 protection included
+- generic: FedEx International Economy® Collection
+- button "":
+  - link "":
+    - /url: "#/126"
+    - generic: 
+- generic: Collection tomorrow
+- text: if you book in the next 14 hours
+- text: Est. Delivery
+- strong: Thu 5 Nov
+- generic: £76.46
+- link "BUY":
+  - /url: /order/parcel/new?col=219&dest=217&mdd=0&p=1~9%7C60%7C40%7C16&slug=fedex-world-economy-collection
+- generic: £50 protection included
+- generic: FedEx International Priority® DropOff
+- button "":
+  - link "":
+    - /url: "#/3"
+    - generic: 
+- text: Est. Delivery
+- strong: Tue 3 Nov
+- generic: £80.68
+- link "BUY":
+  - /url: /order/parcel/new?col=219&dest=217&mdd=0&p=1~9%7C60%7C40%7C16&slug=fedex-world-express-dropoff
+- generic: £50 protection included
+- generic: FedEx International Priority® Collection
+- button "":
+  - link "":
+    - /url: "#/125"
+    - generic: 
+- generic: Collection tomorrow
+- text: if you book in the next 14 hours
+- text: Est. Delivery
+- strong: Tue 3 Nov
+- generic: £83.23
+- link "BUY":
+  - /url: /order/parcel/new?col=219&dest=217&mdd=0&p=1~9%7C60%7C40%7C16&slug=fedex-world-express-collection
+- generic: £50 protection included
+- contentinfo:
+  - text: © Parcel2Go.com Ltd 1995-2026 All Rights Reserved.
+  - generic: "|"
+  - text: "Company Number: 02591405"
+  - generic: "|"
+  - text: "VAT Number: 597849161"
+  - link "Terms of use |":
+    - /url: /content/about-terms
+  - link "Privacy policy |":
+    - /url: /content/privacy-policy
+  - link "Cookie policy":
+    - /url: /content/cookie-policy

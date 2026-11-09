@@ -1,0 +1,326 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - heading "Edit product" [level=1]
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone Sculpture, 5664655454"':
+    - generic: Boldstone Sculpture
+    - generic: "5664655454"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- main:
+  - status:
+    - img: error_outline
+    - paragraph: Your product has 1 missing or invalid field. You can save your progress and fix these errors later. Customers won't see this product until you fix the errors.
+    - button "Dismiss":
+      - generic: Dismiss
+  - img: info
+  - paragraph:
+    - text: Any edits to these product attributes will be permanent. Edited fields are marked with
+    - img: edit_note
+    - text: .
+  - button "Dismiss":
+    - generic: Dismiss
+  - heading "Product details" [level=2]
+  - generic: Make sure to add high quality product details that match your online store, if you have one. Add more details to help your products appear in more places on Google.
+  - group "Product details":
+    - generic: Product page on your online store*
+    - textbox "Product page on your online store*": https://boldstonesculpture.com/buy/p/catch-all-keyring-bowl-with-a-spherical-relief-multicoloured-stone-pattern
+    - generic: "Example: https://www.mystore.com/product1"
+    - generic: 111 / 2000
+    - generic: Text is 111 characters out of 2000
+    - generic: Title
+    - textbox "Title": Catch all keyring bowl with a spherical relief Multicoloured Stone Pattern
+    - generic: 74 / 150
+    - generic: Text is 74 characters out of 150
+    - generic: Brand
+    - textbox "Brand": boldstone
+    - generic: 9 / 70
+    - generic: Text is 9 characters out of 70
+    - generic: Description*
+    - textbox "Description*": <p style="white-space:pre-wrap;" data-rte-preserve-empty="true">This catch all keyring bowl features a spherical relief dish set into a solid square block, hand-painted in a multicoloured stone pattern of blue, rust orange, cream, grey and black, so every side and every angle looks different and no two pieces are ever the same. Measuring 25 cm x 25 cm x 6 cm and weighing approximately 6 kg, it is crafted from sand, plaster, water-resistant finish.The spherical recess is the ideal landing spot for keys and keyrings, and works just as well for coins, rings, jewelry, cufflinks, a watch or loose change. Its substantial weight keeps it firmly in place in everyday use, whether by the front door, on a hall table, sideboard, desk or dressing table.The modern style and abstract, nature-inspired pattern make it a striking piece in its own right, and the water-resistant finish means it is equally at home in a conservatory, porch or outdoor space. A practical, one-off piece and a thoughtful gift for a new home.</p>
+    - generic: 1018 / 5000
+    - generic: Text is 1018 characters out of 5000
+    - generic: This is the page on your website where people land when they click this product on Google
+  - heading "Product images" [level=2]
+  - generic: Additional images are often critical for users to understand what the product looks like from different angles and in different contexts
+  - group "Product images":
+    - img: temp_preferences_custom
+    - paragraph: Transform your product images into lifestyle images with AI-generated backgrounds to attract customers
+    - button "Get started":
+      - generic: Get started
+    - 'button "Selected image: 20260908_123619.jpg"':
+      - 'img "Selected image: 20260908_123619.jpg"'
+    - img: image
+    - text: Main image
+    - button "Remove 20260908_123619.jpg":
+      - img: delete
+    - list:
+      - button "Edit image 20260908_123625.jpg":
+        - 'img "Thumbnail: 20260908_123625.jpg"'
+      - button "Edit image 20260724_225244.jpg":
+        - 'img "Thumbnail: 20260724_225244.jpg"'
+      - button "Edit image 20260724_225216.jpg":
+        - generic: "+8"
+    - text: "Image guidelines and best practices:"
+    - list:
+      - listitem: No image less than 500x500 pixels
+      - listitem: No image larger than 64 megapixels
+      - listitem: No image file larger than 16MB
+    - link "Learn more about images":
+      - /url: https://support.google.com/merchants/answer/12472547?hl=en-US
+      - text: Learn more about images
+      - text: ⁠
+      - img: open_in_new
+      - text: ‎
+  - heading "Product videos" [level=2]
+  - generic: Product videos offer a more engaging and immersive experience to customers. They allow shoppers to see products from every angle, demonstrate fit, show texture, and feature rich details that static images can't fully capture
+  - group "Product videos":
+    - button "Add videos":
+      - img: video_call
+      - generic: Add videos
+    - generic: "Tip: Product videos offer a more engaging and immersive experience to customers. They allow shoppers to see products from every angle, demonstrate fit, show texture, and feature rich details that static images can't fully capture."
+    - list:
+      - button "Add product video 1":
+        - img: video_call
+      - button "Add product video 2":
+        - img: video_call
+      - button "Add product video 3":
+        - img: video_call
+    - text: "Video guidelines and best practices:"
+    - list:
+      - listitem: "Minimum video length: 6 seconds"
+      - listitem: "Maximum video length: 240 seconds"
+      - listitem: "Minimum video resolution: 720p"
+      - listitem: Videos should not be low resolution, blurry, or out of focus
+      - listitem: "Aspect ratio: 9:16, 16:9, or 1:1"
+      - listitem: No video file larger than 500MB
+    - link "Learn more about videos, Opens in a new tab":
+      - /url: https://support.google.com/merchants/answer/15216925?hl=en-US
+      - text: Learn more about videos
+      - text: ⁠
+      - img: open_in_new
+      - text: ‎
+  - heading "Price, condition & availability" [level=2]
+  - generic: Set category, condition, price and availability here. If you have multiple stores selling this product, you can set the availability and price per location by choosing multiple stores here.
+  - group "Price, condition & availability":
+    - generic: Product type
+    - textbox "Product type"
+    - generic: "Example: Garden furniture"
+    - generic: 0 / 750
+    - generic: Text is 0 characters out of 750
+    - button "Add product type":
+      - img: add
+      - generic: Add product type
+    - generic: Use the product type attribute to include your own product categorization system in your product data
+    - link "Learn more about product type":
+      - /url: https://support.google.com/merchants/answer/12472548?hl=en-US
+      - text: Learn more about product type
+      - text: ⁠
+      - img: open_in_new
+      - text: ‎
+    - button "Select a category":
+      - generic: Select a category
+      - img: arrow_drop_down
+    - paragraph: Leave empty to have a category auto-assigned
+    - generic: All products are automatically assigned a product category from Google's continuously evolving product taxonomy.
+    - link "Learn more about category":
+      - /url: https://support.google.com/merchants/answer/6324436?hl=en-US
+      - text: Learn more about category
+      - text: ⁠
+      - img: open_in_new
+      - text: ‎
+    - button "Condition New":
+      - generic: Condition
+      - generic: New
+      - img: arrow_drop_down
+    - generic: £
+    - generic: Price*
+    - textbox "Price £95.00": "95"
+    - button "Currency GBP":
+      - generic: GBP
+      - img: arrow_drop_down
+    - generic: Currency
+    - button "Availability In stock":
+      - generic: Availability
+      - generic: In stock
+      - img: arrow_drop_down
+    - generic: £
+    - generic: Sale price
+    - textbox "Sale price"
+    - generic: Sale date range
+    - textbox "Sale date range" [disabled]
+  - heading "Product identifiers" [level=2]
+  - generic: To make your products easier to find for customers, tell Google more about your product
+  - group "Product identifiers":
+    - generic: ID or SKU
+    - textbox "ID or SKU" [disabled]: 75b82662-b646-460f-9ce3-f5874c51119f
+    - generic: Leave empty to have an ID auto-assigned
+    - generic: ID or SKU is the unique alphanumeric label you use to track inventory for this product, for example "tddy123uk"
+    - generic: GTIN, UPC, EAN, JAN or ISBN
+    - textbox "GTIN, UPC, EAN, JAN or ISBN" [disabled]
+    - generic: Appears next to the barcode on this product, for example 012345678905
+    - button "Add another identifier" [disabled]:
+      - img: add
+      - generic: Add another identifier
+    - generic: This unique and internationally recognized ID helps us make your ad or unpaid listing richer and easier for your customers to find
+    - link "Learn how to find product identifiers":
+      - /url: https://support.google.com/merchants/answer/6324461?hl=en-US
+      - text: Learn how to find product identifiers
+      - text: ⁠
+      - img: open_in_new
+      - text: ‎
+    - checkbox "I don't have a GTIN, UPC, EAN, JAN or ISBN" [checked]
+    - generic: I don't have a GTIN, UPC, EAN, JAN or ISBN
+  - radiogroup:
+    - radio "This product has an MPN Manufacturer part number (MPN) is a series of numbers and letters that the manufacturer assigned to this product.":
+      - img: radio_button_unchecked
+      - paragraph: This product has an MPN
+      - paragraph: Manufacturer part number (MPN) is a series of numbers and letters that the manufacturer assigned to this product.
+    - link "Learn more about MPN":
+      - /url: https://support.google.com/merchants/answer/12474954?hl=en-US
+      - text: Learn more about MPN
+      - text: ⁠
+      - img: open_in_new
+      - text: ‎
+    - radio "This is a one-of-a kind or vintage product with no identifier One-of-a-kind means custom apparel, handmade goods or any custom-made products. If this product has an identifier and you don't add it, this product may not show on Google." [checked]:
+      - img: radio_button_checked
+      - paragraph: This is a one-of-a kind or vintage product with no identifier
+      - paragraph: One-of-a-kind means custom apparel, handmade goods or any custom-made products. If this product has an identifier and you don't add it, this product may not show on Google.
+    - link "Learn more about products without an identifier":
+      - /url: https://support.google.com/merchants/answer/14899834?hl=en-US
+      - text: Learn more about products without an identifier
+      - text: ⁠
+      - img: open_in_new
+      - text: ‎
+  - heading "Language" [level=2]
+  - generic: Select the language of your product details, such as title and description
+  - group "Language":
+    - button "Language English" [disabled]:
+      - generic: English
+      - img: arrow_drop_down
+    - generic: Language*
+    - generic: Your product will show in this language
+  - heading "Countries" [level=2]
+  - generic: Select countries where you want your online store products to appear
+  - group "Countries":
+    - generic: Countries
+    - grid "Countries":
+      - row:
+        - gridcell:
+          - combobox "Search countries" [disabled]
+    - generic: You can only edit this in your data source
+  - heading "Marketing methods" [level=2]
+  - generic: Select how you want Google to show your product by selecting marketing methods
+  - group "Marketing methods":
+    - generic: Free listings
+    - generic: Some marketing methods - e.g. Shopping ads - require you to set up campaigns so that your products show on Google. Products inherit marketing methods from the data source that creates them.
+  - heading "Labels" [level=2]
+  - generic: Labels are not visible to customers on Google
+  - group "Labels":
+    - generic: Custom label 0
+    - button "Add value for Custom label 0":
+      - generic: Add value
+      - img: arrow_drop_down
+    - generic: Custom label 1
+    - button "Add value for Custom label 1":
+      - generic: Add value
+      - img: arrow_drop_down
+    - generic: Custom label 2
+    - button "Add value for Custom label 2":
+      - generic: Add value
+      - img: arrow_drop_down
+    - generic: Custom label 3
+    - button "Add value for Custom label 3":
+      - generic: Add value
+      - img: arrow_drop_down
+    - generic: Custom label 4
+    - button "Add value for Custom label 4":
+      - generic: Add value
+      - img: arrow_drop_down
+  - button "Apparel product details" [expanded]:
+    - img: expand_less
+  - heading "Apparel product details" [level=2]
+  - generic: If this product is apparel, additional fields are required
+  - group "Apparel product details":
+    - generic: Color
+    - textbox "Color"
+    - alert "Missing color. Add the color of your product so customers can easily find a specific product"
+    - generic: 0 / 100
+    - generic: Text is 0 characters out of 100
+    - generic: "If your product is made up of several colors, you can specify one primary color followed by up to two secondary colors that are each separated by a slash ( / ). For example: Red/Green/Black."
+    - link "Learn more about apparel color":
+      - /url: https://support.google.com/merchants/answer/12471922?hl=en-US
+      - text: Learn more about apparel color
+      - text: ⁠
+      - img: open_in_new
+      - text: ‎
+    - generic: Size
+    - textbox "Size"
+    - generic: "Required for Clothing & Shoes. Example: S"
+    - generic: 0 / 100
+    - generic: Text is 0 characters out of 100
+    - generic: Size type
+    - grid "Size type":
+      - row:
+        - gridcell:
+          - combobox "Search size type"
+    - generic: Size type is the cut of this product. Field accepts up to 2 values. If you don't include a size type, the default is regular.
+    - link "Learn more about apparel size type":
+      - /url: https://support.google.com/merchants/answer/12471628?hl=en-US
+      - text: Learn more about apparel size type
+      - text: ⁠
+      - img: open_in_new
+      - text: ‎
+    - button "Size system":
+      - generic: Size system
+      - img: arrow_drop_down
+    - generic: If you add a size, also add a "Size system" for this product to explain which system you're using
+    - link "Learn more about apparel size system":
+      - /url: https://support.google.com/merchants/answer/12472828?hl=en-US
+      - text: Learn more about apparel size system
+      - text: ⁠
+      - img: open_in_new
+      - text: ‎
+    - button "Gender":
+      - generic: Gender
+      - img: arrow_drop_down
+    - generic: Material
+    - textbox "Material"
+    - generic: 0 / 200
+    - generic: Text is 0 characters out of 200
+    - generic: Pattern
+    - textbox "Pattern"
+    - generic: 0 / 100
+    - generic: Text is 0 characters out of 100
+    - button "Age group":
+      - generic: Age group
+      - img: arrow_drop_down
+    - generic: Use age group to set the demographic that your product is designed for
+    - link "Learn more about apparel age group":
+      - /url: https://support.google.com/merchants/answer/12472028?hl=en-US
+      - text: Learn more about apparel age group
+      - text: ⁠
+      - img: open_in_new
+      - text: ‎
+  - button "Additional details":
+    - img: expand_less
+  - heading "Additional details" [level=2]
+  - text: open_in_new open_in_new open_in_new open_in_new open_in_new open_in_new open_in_new
+  - button "Shipping & returns":
+    - img: expand_less
+  - heading "Shipping & returns" [level=2]
+  - text: open_in_new launch open_in_new open_in_new open_in_new open_in_new open_in_new open_in_new open_in_new
+  - button "Additional product attributes":
+    - img: expand_less
+  - heading "Additional product attributes" [level=2]
+  - text: open_in_new
+  - generic: "* Required field"
+  - button "Cancel":
+    - generic: Cancel
+  - button "Save":
+    - generic: Save
+- text: edit edit edit edit
+- status

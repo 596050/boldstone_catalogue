@@ -1,0 +1,149 @@
+Window: "Studio | Saatchi Art United Kingdom | Page 1", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom | Page 1 - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio?sub=artworks&page=1&hitsPerPage=100, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom | Page 1 - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio?sub=artworks&page=1&hitsPerPage=100
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio?sub=artworks&page=1&hitsPerPage=100, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads
+				22 button Control your music, videos and more
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Studio | Saatchi Art United Kingdom | Page 1, URL: saatchiart.com/en-gb/studio?sub=artworks&page=1&hitsPerPage=100
+						28 container
+							29 container
+								30 text Fax
+								31 text field (settable) Fax
+							32 link fax, Value: saatchiart.com/facsimile-npc
+							33 link Skip to Main Content, Value: saatchiart.com/en-gb/studio/upload#skip-to-content
+							34 container
+								35 button Close Menu
+								36 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								37 text Studio
+								38 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								39 container
+									40 button Manage Artworks
+									41 content list
+										42 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										43 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									44 button Sales Dashboard
+									45 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									46 button Sponsored Listings
+									47 button Profile Information
+									48 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									49 button Account
+							50 container
+								51 heading My Original Artworks, Value: 4
+									52 text My Original Artworks
+								53 heading Vacation Status, Value: 6
+									54 text Vacation Status
+								55 button Add New Artwork
+								56 text 1 - 98 Artworks
+								57 container
+									58 text 100 Results Per Page
+									59 image
+							60 container
+								61 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								62 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								63 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								64 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								65 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								66 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								67 text Support
+								68 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								69 link Help Center, Value: support.saatchiart.com/hc
+								70 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								71 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								72 pop-up button Request Support
+								73 text Resources
+								74 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								75 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								76 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								77 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								78 text Saatchi Art
+								79 link About, Value: saatchiart.com/en-gb/about-us
+								80 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								81 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								82 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								83 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								84 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								85 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								86 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								87 text Manage Preferences
+								88 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								89 container View Store Preferences Footer
+									90 image
+									91 text United Kingdom / GBP / In
+									92 image
+								93 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								94 link Privacy Policy, Value: policies.google.com/privacy
+								95 text  and 
+								96 link Terms of Service, Value: policies.google.com/terms
+								97 text  apply.
+							98 text Studio | Saatchi Art United Kingdom | Page 1
+							99 container
+								100 button Manage Preferences
+								101 text Manage Preferences
+			102 pop-up button Tab search
+			103 container
+				104 tab group
+					105 tab group  group Claude – 11 Tabs, •  Become a host for gay travelers, join the mist…, •  Sign up, •  Frequently Asked Questions about Renting Out Y…, •  What is the commission rate? - FAQ Landlords |…, •  Ecobnb - General Terms of Use, + 6 more – Expanded
+					106 tab (settable, boolean) Become a host for gay travelers, join the misterb&b community! – Part of group Claude, Value: off
+					107 tab (settable, boolean) Sign up – Part of group Claude, Value: off
+					108 tab (settable, boolean) Frequently Asked Questions about Renting Out Your Holiday Home | Micazu – Part of group Claude, Value: off
+					109 tab (settable, boolean) What is the commission rate? - FAQ Landlords | HelpSite – Part of group Claude, Value: off
+					110 tab (settable, boolean) Ecobnb - General Terms of Use – Part of group Claude, Value: off
+					111 tab (settable, boolean) How much does it cost to list my rental property on Flatio? - Flatio – Part of group Claude, Value: off
+					112 tab (settable, boolean) Pricing - Vacation rentals management made easy – Part of group Claude, Value: off
+					113 tab (settable, boolean) Dtravel for Hosts - Flexible Pricing to Grow Your Direct Booking Business – Part of group Claude, Value: off
+					114 tab (settable, boolean) Direct Booking Lite: Free Property Management Software – Part of group Claude, Value: off
+					115 tab (settable, boolean) Holiday Cottages & Holiday Homes, Booked Direct | BookNoFees – Part of group Claude, Value: off
+					116 tab (settable, boolean) Your home for hosting - Travelnest – Part of group Claude, Value: off
+					117 tab (settable, boolean) Google Docs, Value: off
+					118 tab (settable, boolean) Inbox (91) - info@boldstone.co.uk - Thomas Price Mail, Value: off
+					119 tab (settable, boolean) Document shared with you: "Untitled document" - tppricet@gmail.com - Gmail, Value: off
+					120 tab (settable, boolean) Untitled document - Google Docs, Value: off
+					121 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom | Page 1, Value: on
+						122 button Close
+			123 button New tab
+	124 close button
+	125 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	126 minimise button
+127 menu bar
+	128 Chrome
+	129 File
+	130 Edit
+	131 View
+	132 History
+	133 Bookmarks
+	134 Profiles
+	135 Tab
+	136 Window
+	137 Help
+
+The focused UI element is 27 HTML content Studio | Saatchi Art United Kingdom | Page 1, URL: saatchiart.com/en-gb/studio?sub=artworks&page=1&hitsPerPage=100

@@ -1,0 +1,149 @@
+- link "Business Home":
+  - /url: https://business.facebook.com/home/?business_id=2380586078685156
+  - img "Meta logo"
+- generic: Commerce Manager
+- combobox "Products for Boldstone Sculpture (103781478537396)":
+  - generic: Products for Boldstone Sculpture (103781478537396)
+- navigation "Navigation":
+  - list:
+    - link "Overview":
+      - /url: https://business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+    - generic: Overview
+    - button "Catalogue" [expanded]
+    - generic: Catalogue
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Products":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/products/?business_id=2380586078685156
+      - generic: Products
+      - link "Sets":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/sets/?business_id=2380586078685156
+      - generic: Sets
+      - link "Data sources":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/data_sources/?business_id=2380586078685156
+      - generic: Data sources
+      - link "Events":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/events/?business_id=2380586078685156
+      - generic: Events
+    - link "Image templates":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/templates/?business_id=2380586078685156
+    - generic: Image templates
+    - link "Product video creator":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/video_template_hub/?business_id=2380586078685156
+    - generic: Product video creator
+    - link "Shops":
+      - /url: https://business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+    - generic: Shops
+    - button "Promotions"
+    - generic: Promotions
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Offers":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/offers/?business_id=2380586078685156
+      - generic: Offers
+      - link "Marketing settings":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/mailing_list/?business_id=2380586078685156
+      - generic: Marketing settings
+    - button "Insights"
+    - generic: Insights
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Overview":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/overview/?business_id=2380586078685156
+      - generic: Overview
+      - link "Catalogue":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/products/?business_id=2380586078685156
+      - generic: Catalogue
+      - link "Performance":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/perf/?business_id=2380586078685156
+      - generic: Performance
+      - link "Audience":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/audience/?business_id=2380586078685156
+      - generic: Audience
+      - link "Tagged content":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/product_tagged_content/?business_id=2380586078685156
+      - generic: Tagged content
+      - link "Awareness":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/entry_points/?business_id=2380586078685156
+      - generic: Awareness
+    - link "To-do list":
+      - /url: https://business.facebook.com/commerce/326960679342026/to_do_list/?business_id=2380586078685156
+    - generic: To-do list
+    - link "Settings":
+      - /url: https://business.facebook.com/commerce/326960679342026/settings/general/?business_id=2380586078685156
+    - generic: Settings
+- navigation "all tools":
+  - list:
+    - button "All tools":
+    - generic: All tools
+- separator
+- list:
+  - button "Meta AI business assistant"
+  - generic: Meta AI business assistant
+- button "Help":
+- generic: Help
+- link "Business settings":
+  - /url: https://business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+  - generic: Business settings
+- button "Business notifications":
+  - generic: Business notifications
+- button:
+  - generic: "6"
+- button "Search":
+  - generic: Search
+- button "Collapse":
+  - generic: Collapse
+- navigation "Breadcrumb":
+  - link "Data sources":
+    - /url: "#"
+    - heading "Data sources" [level=1]
+  - heading "Data sources Wall Sculptures - catalogue gallery images" [level=1]:
+    - generic: Data sources
+    - combobox "Data sources Wall Sculptures - catalogue gallery images":
+      - generic: Wall Sculptures - catalogue gallery images
+- heading "Wall Sculptures - catalogue gallery images" [level=1]
+- generic: Last updated at 1 Nov at 04:05
+- button "Re-upload data file" [active]:
+  - generic: Re-upload data file
+- button "Open Drop-down":
+  - generic: Open Drop-down
+- heading "Type" [level=3]
+- generic: Supplementary data (Manual)
+- heading "Products" [level=3]
+- link "View 176 products":
+  - /url: /commerce/catalogs/1638438493182970/products/?dataSourceIds[0]=1699005968459486
+- heading "Data file" [level=3]
+- link "meta-description-supplement-176.csv":
+  - /url: /commerce/catalogs/1638438493182970/data_sources/1699005968459486/
+- separator
+- tablist:
+  - tab "Overview" [selected]:
+    - generic: Overview
+  - tab "Settings":
+    - generic: Settings
+- heading "Data file uploaded" [level=4]
+- button "Close":
+  - generic: Close
+- generic: You can review a summary of this upload session below.
+- separator
+- button "Got it":
+  - generic: Got it
+- heading "Summary of product upload" [level=2]
+- generic: Upload session selector
+- combobox "Upload session selector 1 Nov at 16:39 GMT+00:00":
+  - generic: 1 Nov at 16:39 GMT+00:00
+- heading "Improve ad delivery with internal labels" [level=4]
+- button "Close":
+  - generic: Close
+- generic: Custom labels slow delivery because each change needs policy review. Use internal labels to update without affecting delivery.
+- button "Add internal labels":
+  - generic: Add internal labels
+- generic: Updated or added
+- generic: "176"
+- generic: Upload failed
+- generic: "0"
+- generic: Issues
+- generic: "0"

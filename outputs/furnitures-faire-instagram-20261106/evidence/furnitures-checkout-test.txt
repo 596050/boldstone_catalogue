@@ -1,0 +1,139 @@
+Window: "Furnitures — The UK Furniture Marketplace", App: Google Chrome.
+0 standard window Furnitures — The UK Furniture Marketplace - Google Chrome – Tom, URL: furnitures.co.uk/checkout, Secondary Actions: Raise
+	1 container Furnitures — The UK Furniture Marketplace - Google Chrome – Tom, URL: furnitures.co.uk/checkout
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: furnitures.co.uk/checkout, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Furnitures — The UK Furniture Marketplace, URL: furnitures.co.uk/checkout
+						27 container
+							28 text Free UK delivery on orders over £500  ·  30-day returns  · 
+							29 link Sell on Furnitures, Value: furnitures.co.uk/sell
+							30 link Furnitures., Value: furnitures.co.uk/
+							31 container
+								32 link Shop All, Value: furnitures.co.uk/shop
+								33 link Lighting, Value: furnitures.co.uk/shop?category=lighting
+								34 link Living Room, Value: furnitures.co.uk/shop?category=living-room
+								35 link Bedroom, Value: furnitures.co.uk/shop?category=bedroom
+								36 link Dining, Value: furnitures.co.uk/shop?category=dining
+								37 link Office, Value: furnitures.co.uk/shop?category=office
+								38 link Outdoor, Value: furnitures.co.uk/shop?category=outdoor
+								39 link Sellers, Value: furnitures.co.uk/vendors
+							40 button Search
+							41 link Sell, Value: furnitures.co.uk/sell
+							42 button Account menu
+							43 button Open cart
+							44 heading Checkout, Value: 1
+								45 text Checkout
+							46 container
+								47 text Contact & delivery
+								48 text Email
+								49 email (settable) Email, Placeholder: you@example.com
+								50 text Full name
+								51 text field (settable) Full name, Placeholder: Jane Smith
+								52 text Address
+								53 text field (settable) Address, Placeholder: 12 Oak Lane
+								54 text City
+								55 text field (settable) City, Placeholder: Leeds
+								56 text Postcode
+								57 text field (settable) Postcode, Placeholder: LS1 1AA
+								58 button Pay £87
+								59 text Payments are processed securely by Stripe. You’ll enter card details on Stripe’s page — we never see them.
+							60 container
+								61 text Order summary
+								62 content list
+									63 container
+										64 text Boldstone Acanthus Bloom - White Wall sculpture Boldstone Sculpture  · × 1 £38
+								65 definition list
+									66 container Subtotal
+										67 text Subtotal
+									68 text £38
+									69 container Delivery
+										70 text Delivery
+									71 text £49
+									72 container Total
+										73 text Total
+									74 text £87
+							75 container
+								76 text Furnitures .
+							77 text The UK marketplace for quality furniture from independent makers and trusted sellers.
+							78 text SHOP
+							79 content list
+								80 link Lighting, Value: furnitures.co.uk/shop?category=lighting
+								81 link Living Room, Value: furnitures.co.uk/shop?category=living-room
+								82 link Bedroom, Value: furnitures.co.uk/shop?category=bedroom
+								83 link Dining, Value: furnitures.co.uk/shop?category=dining
+								84 link Office, Value: furnitures.co.uk/shop?category=office
+								85 link Outdoor, Value: furnitures.co.uk/shop?category=outdoor
+							86 text MARKETPLACE
+							87 content list
+								88 link Our Sellers, Value: furnitures.co.uk/vendors
+								89 link Sell on Furnitures, Value: furnitures.co.uk/sell
+								90 link New Arrivals, Value: furnitures.co.uk/shop?sort=newest
+								91 link Sale, Value: furnitures.co.uk/shop?sale=1
+							92 text HELP
+							93 content list
+								94 text Free UK delivery over £500
+								95 text 30-day returns
+								96 text Secure checkout
+								97 text support@furnitures.co.uk
+							98 container
+								99 text ©  2026  Furnitures.co.uk — All rights reserved.
+							100 text Visa · Mastercard · Amex · Apple Pay · Google Pay
+							101 text Furnitures — The UK Furniture Marketplace
+			102 pop-up button Tab search
+			103 container
+				104 tab group
+					105 tab (selected, settable, boolean) Furnitures — The UK Furniture Marketplace, Value: on
+						106 button Close
+					107 tab (settable, boolean) Home – Faire, Value: off
+						108 button Close
+					109 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+						110 button Close
+					111 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+						112 button Close
+			113 button New tab
+	114 close button
+	115 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	116 minimise button
+117 menu bar
+	118 Chrome
+	119 File
+	120 Edit
+	121 View
+	122 History
+	123 Bookmarks
+	124 Profiles
+	125 Tab
+	126 Window
+	127 Help
+
+The focused UI element is 26 HTML content Furnitures — The UK Furniture Marketplace, URL: furnitures.co.uk/checkout

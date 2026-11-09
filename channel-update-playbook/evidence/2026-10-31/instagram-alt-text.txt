@@ -1,0 +1,219 @@
+- link "Instagram":
+  - /url: /
+  - img "Instagram"
+- link "Home":
+  - /url: /
+  - img "Home"
+- link "Reels":
+  - /url: /reels/
+  - img "Reels"
+- link "Messages":
+  - /url: /direct/inbox/
+  - img "Messages"
+- link "Search":
+  - /url: /explore/
+  - img "Search"
+- link "Notifications":
+  - /url: "#"
+  - img "Notifications"
+- link "New post":
+  - /url: "#"
+  - img "New post"
+- link "Professional dashboard":
+  - /url: "#"
+  - img "Professional dashboard"
+- link "boldstonesculpture's profile picture":
+  - /url: /boldstonesculpture/
+  - link "boldstonesculpture's profile picture":
+    - img "boldstonesculpture's profile picture"
+- link "Settings":
+  - /url: "#"
+  - img "Settings"
+- link "Also from Meta":
+  - /url: "#"
+  - img "Also from Meta"
+- main:
+  - 'img "Ammonite Petite II (Right) - White: the right-hand relief panel, with the shell centre and sweeping outer curve against a white background."'
+  - button "boldstonesculpture's profile picture" [disabled]:
+    - link "boldstonesculpture's profile picture" [disabled]:
+      - img "boldstonesculpture's profile picture"
+  - link "boldstonesculpture":
+    - /url: /boldstonesculpture/
+    - generic: boldstonesculpture
+  - img "Verified"
+  - button "More options":
+    - img "More options"
+  - separator
+  - link "boldstonesculpture's profile picture":
+    - /url: /boldstonesculpture/
+    - img "boldstonesculpture's profile picture"
+  - link "boldstonesculpture Verified":
+    - /url: /boldstonesculpture/
+    - generic: boldstonesculpture
+    - img "Verified"
+  - time: 25m
+  - text: A fragment of a fossil, a moment of stillness. Ammonite Petite II (Right) - White follows the shell’s spiral through soft curves and deep, changing shadows.
+  - text: Display this right-hand panel on its own, or pair it with Ammonite Petite I to reveal the full spiral. Each panel is sold separately. Made to order for indoor or outdoor display.
+  - text: Tap the product tag to explore photographs, dimensions and current pricing.
+  - text: https://boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white?utm_source=meta&utm_medium=organic_social&utm_campaign=wall_sculptures&utm_content=ammonite_petite_ii
+  - link "#BoldstoneSculpture":
+    - /url: /explore/tags/boldstonesculpture/
+  - link "#WallSculpture":
+    - /url: /explore/tags/wallsculpture/
+  - link "#Ammonite":
+    - /url: /explore/tags/ammonite/
+  - link "#GardenSculpture":
+    - /url: /explore/tags/gardensculpture/
+  - link "#NatureInspiredArt":
+    - /url: /explore/tags/natureinspiredart/
+  - heading "No comments yet." [level=2]
+  - generic: Start the conversation.
+  - button "View insights"
+  - button "Boost post"
+  - button "Like":
+    - img "Like"
+  - button "Comment":
+    - img "Comment"
+  - button "Repost":
+    - img "Repost"
+  - button "Share":
+    - img "Share"
+  - button "Save":
+    - button "Save":
+      - img "Save"
+  - link "25 minutes ago":
+    - /url: /boldstonesculpture/p/DfLJ6kVFxt2/
+    - time: 25 minutes ago
+  - link
+  - button "Emoji":
+    - img "Emoji"
+  - textbox "Add a comment…"
+  - separator
+  - text: More posts from
+  - link "boldstonesculpture":
+    - /url: /boldstonesculpture/
+  - 'link "A lamp that looks sculptural even before the light comes on. This flowing table lamp base rises from a broad, rounded foot into a slender neck, finished in a striking verdigris-inspired surface of turquoise, copper and warm earthy accents. The elongated form gives the piece an elegant sense of movement, while the textured finish catches the light differently across every curve. Paired with a simple neutral shade, the base remains the focal point and brings colour, character and a slightly weathered metallic feel to the room. Beautiful switched on. Just as distinctive switched off. Would you style it with warm neutrals, dark woods or more colour? Discover more at boldstonesculpture.com #BoldstoneSculpture #SculpturalLighting #TableLamp #Verdigris #StatementLighting #InteriorDesign #DecorativeLighting #SculpturalInteriors"':
+    - /url: /boldstonesculpture/p/De9Ui1GDfl0/
+    - 'img "A lamp that looks sculptural even before the light comes on. This flowing table lamp base rises from a broad, rounded foot into a slender neck, finished in a striking verdigris-inspired surface of turquoise, copper and warm earthy accents. The elongated form gives the piece an elegant sense of movement, while the textured finish catches the light differently across every curve. Paired with a simple neutral shade, the base remains the focal point and brings colour, character and a slightly weathered metallic feel to the room. Beautiful switched on. Just as distinctive switched off. Would you style it with warm neutrals, dark woods or more colour? Discover more at boldstonesculpture.com #BoldstoneSculpture #SculpturalLighting #TableLamp #Verdigris #StatementLighting #InteriorDesign #DecorativeLighting #SculpturalInteriors"'
+  - link:
+    - /url: /boldstonesculpture/reel/DdRTHUlu53L/
+    - img "Clip"
+  - link:
+    - /url: /boldstonesculpture/p/DdMndE8ANfe/
+    - img "Carousel"
+  - link "Clip":
+    - /url: /boldstonesculpture/reel/DdL9Jx_ApkK/
+    - img "Clip"
+  - link:
+    - /url: /boldstonesculpture/p/DdGpdefHF3L/
+  - link:
+    - /url: /boldstonesculpture/p/DdGo8B4HJAL/
+- contentinfo:
+  - link "Meta":
+    - /url: https://about.meta.com/
+    - generic: Meta
+  - link "About":
+    - /url: https://about.instagram.com/
+    - generic: About
+  - link "Blog":
+    - /url: https://about.instagram.com/blog/
+    - generic: Blog
+  - link "Jobs":
+    - /url: https://about.instagram.com/about-us/careers
+    - generic: Jobs
+  - link "Help":
+    - /url: https://help.instagram.com/
+    - generic: Help
+  - link "API":
+    - /url: https://developers.facebook.com/docs/instagram
+    - generic: API
+  - link "Privacy":
+    - /url: /legal/privacy/
+    - generic: Privacy
+  - link "Terms":
+    - /url: /legal/terms/
+    - generic: Terms
+  - link "Locations":
+    - /url: /explore/locations/
+    - generic: Locations
+  - link "Popular":
+    - /url: /popular/
+    - generic: Popular
+  - link "Instagram Lite":
+    - /url: /web/lite/
+    - generic: Instagram Lite
+  - link "Meta AI":
+    - /url: https://www.meta.ai/?utm_source=foa_web_footer
+    - generic: Meta AI
+  - link "Muse":
+    - /url: https://muse.ai/
+    - generic: Muse
+  - link "Threads":
+    - /url: https://www.threads.com/
+    - generic: Threads
+  - link "Contact Uploading & Non-Users":
+    - /url: https://www.facebook.com/help/instagram/261704639352628
+    - generic: Contact Uploading & Non-Users
+  - link "Meta Verified":
+    - /url: /accounts/meta_verified/?entrypoint=web_footer
+    - generic: Meta Verified
+  - generic: English
+  - img "Down chevron icon"
+  - combobox "Switch Display Language":
+    - option "Afrikaans"
+    - option "العربية"
+    - option "Čeština"
+    - option "Dansk"
+    - option "Deutsch"
+    - option "Ελληνικά"
+    - option "English" [selected]
+    - option "English (UK)"
+    - option "Español (España)"
+    - option "Español"
+    - option "فارسی"
+    - option "Suomi"
+    - option "Français"
+    - option "עברית"
+    - option "Bahasa Indonesia"
+    - option "Italiano"
+    - option "日本語"
+    - option "한국어"
+    - option "Bahasa Melayu"
+    - option "Norsk"
+    - option "Nederlands"
+    - option "Polski"
+    - option "Português (Brasil)"
+    - option "Português (Portugal)"
+    - option "Русский"
+    - option "Svenska"
+    - option "ภาษาไทย"
+    - option "Filipino"
+    - option "Türkçe"
+    - option "中文(简体)"
+    - option "中文(台灣)"
+    - option "বাংলা"
+    - option "ગુજરાતી"
+    - option "हिन्दी"
+    - option "Hrvatski"
+    - option "Magyar"
+    - option "ಕನ್ನಡ"
+    - option "മലയാളം"
+    - option "मराठी"
+    - option "नेपाली"
+    - option "ਪੰਜਾਬੀ"
+    - option "සිංහල"
+    - option "Slovenčina"
+    - option "தமிழ்"
+    - option "తెలుగు"
+    - option "اردو"
+    - option "Tiếng Việt"
+    - option "中文(香港)"
+    - option "Български"
+    - option "Français (Canada)"
+    - option "Română"
+    - option "Српски"
+    - option "Українська"
+  - generic: © 2026 Instagram from Meta
+- button "Messages Messages":
+  - img "Messages"
+  - generic: Messages

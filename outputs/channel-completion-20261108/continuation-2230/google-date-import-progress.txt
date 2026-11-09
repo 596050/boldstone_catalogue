@@ -1,0 +1,235 @@
+Window: "Boldstone Wall Sculptures — Master Catalogue - Google Sheets", App: Google Chrome.
+0 standard window Secondary Actions: Raise, Boldstone Wall Sculptures — Master Catalogue - Google Sheets - High memory usage - 801 MB - Google Chrome – Tom, URL: docs.google.com/spreadsheets/d/1T-t6Mgy_TiMKzV8P45o1hvH2tpndicPO8Pq05KG8ZAs/edit?gid=550779529#gid=550779529
+	1 container Boldstone Wall Sculptures — Master Catalogue - Google Sheets - High memory usage - 801 MB - Google Chrome – Tom, URL: docs.google.com/spreadsheets/d/1T-t6Mgy_TiMKzV8P45o1hvH2tpndicPO8Pq05KG8ZAs/edit?gid=550779529#gid=550779529
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: docs.google.com/spreadsheets/d/1T-t6Mgy_TiMKzV8P45o1hvH2tpndicPO8Pq05KG8ZAs/edit?gid=550779529#gid=550779529
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Boldstone Wall Sculptures — Master Catalogue - Google Sheets, URL: docs.google.com/spreadsheets/d/1T-t6Mgy_TiMKzV8P45o1hvH2tpndicPO8Pq05KG8ZAs/edit?gid=550779529#gid=550779529
+						27 container
+							28 container Menu bar
+								29 container
+									30 link Sheets home, Value: docs.google.com/spreadsheets/u/0/?authuser=0&usp=sheets_web
+									31 container Boldstone Wall Sculptures — Master Catalogue
+										32 container
+											33 text Boldstone Wall Sculptures — Master Catalogue
+											34 text field (settable) Rename, Value: Boldstone Wall Sculptures — Master Catalogue
+										35 Tick box Star, Value: 0
+										36 button Move
+										37 button Document status: Saved to Drive.
+									38 container
+										39 button Last edit was seconds ago
+										40 toggle button Show all comments, Value: 0
+										41 pop-up button Join a call here or present this tab to the call
+										42 button Share. Private to only me. 
+										43 pop-up button Quick sharing actions
+										44 pop-up button Google Account: Sally Price (info@boldstone.co.uk)
+								45 container
+									46 menu bar
+										47 File
+										48 Edit
+										49 View
+										50 Insert
+										51 Format
+										52 Data
+										53 Tools
+										54 Extensions
+										55 Help
+									56 container
+										57 toolbar Search the menus (Option+/)
+											58 container
+												59 combo box (settable) Menus
+										60 toolbar Main
+											61 button Undo (⌘Z)
+											62 button Redo (⌘Y)
+											63 button Print (⌘P)
+											64 toggle button Paint format, Value: 0
+											65 combo box (settable) Zoom
+												66 container
+													67 container Zoom list. 100% selected.
+														68 text field (settable) Zoom, Value: 100%
+											69 button Format as currency
+											70 button Format as percent
+											71 button Decrease decimal places
+											72 button Increase decimal places
+											73 button More formats
+											74 list box Font
+												75 container
+													76 text (selected) Font list. Arial selected.
+											77 button Decrease font size (⌘+Shift+comma)
+											78 combo box (settable) Font size
+												79 container Font size list. 10 selected.
+													80 text field (settable) Font size, Value: 10
+											81 button Increase font size (⌘+Shift+period)
+											82 toggle button Bold (⌘B), Value: 0
+											83 toggle button Italic (⌘I), Value: 0
+											84 toggle button Strikethrough (⌘+Shift+X), Value: 0
+											85 pop-up button Text color
+											86 pop-up button Fill color
+											87 pop-up button Borders
+											88 button (disabled) Merge cells
+											89 button (disabled) Select merge type
+											90 pop-up button Horizontal align
+											91 pop-up button Vertical align
+											92 pop-up button Text wrapping
+											93 pop-up button Text rotation
+											94 toggle button More, Value: 0
+									95 toolbar Mode and view
+										96 button Hide the menus (Ctrl+Shift+F)
+								97 button Show side panel
+								98 container
+									99 container
+										100 container Name box (⌘ + J)
+											101 text field (settable) A1
+											102 pop-up button Name box menu button. Select one of the menu items to navigate to its corresponding named range.
+										103 text entry area (settable) 
+
+							104 container
+								105 container
+									106 container
+										107 container
+											108 container
+											109 container
+											110 toolbar
+												111 text field (settable) Table Name, Value: WallSculpturesTable
+													112 text WallSculpturesTable
+												113 pop-up button Table menu
+												114 pop-up button Views
+									115 container
+									116 image
+								117 container Sheet tab bar
+									118 toolbar
+										119 button Add Sheet
+										120 pop-up button All Sheets
+									121 container
+										122 toolbar
+											123 pop-up button Wall Sculptures
+												124 container
+													125 text Wall Sculptures
+											126 pop-up button Images
+												127 container
+													128 text Images
+											129 pop-up button Specification Sources
+												130 container
+													131 text Specification Sources
+											132 pop-up button Manufacturing Costs
+												133 container
+													134 text Manufacturing Costs
+											135 pop-up button Cost Rates
+												136 container
+													137 text Cost Rates
+											138 pop-up button Cost Finishes
+												139 container
+													140 text Cost Finishes
+											141 pop-up button Upload Plan
+												142 container
+													143 text Upload Plan
+											144 pop-up button Website Copy
+												145 container
+													146 text Website Copy
+											147 pop-up button Channel Details
+												148 container
+													149 text Channel Details
+											150 pop-up button US Delivery Estimates
+												151 container
+													152 text US Delivery Estimates
+											153 pop-up button Platform Review
+												154 container
+													155 text Platform Review
+											156 pop-up button eBay Photo Links
+												157 container
+													158 text eBay Photo Links
+									159 toolbar
+										160 button (disabled) Scroll left
+										161 button Scroll right
+							162 text entry area (settable) 
+
+
+							163 link Turn on screen reader support, Value: docs.google.com/spreadsheets/d/1T-t6Mgy_TiMKzV8P45o1hvH2tpndicPO8Pq05KG8ZAs/edit?gid=550779529#
+							164 text entry area (settable)
+							165 text Banner hidden To enable screen reader support, press ⌘+Option+Z To learn about keyboard shortcuts, press ⌘slash
+			166 pop-up button Tab search
+			167 container
+				168 tab group
+					169 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					170 tab group  group ✅Claude – 1 Tab, •  Import | Microsoft Advertising – Expanded
+					171 tab (settable, boolean) Import | Microsoft Advertising – Part of group ✅Claude, Value: off
+					172 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					173 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					174 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					175 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					176 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					177 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					178 tab (selected, settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets - High memory usage - 801 MB, Value: on
+					179 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					180 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					181 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					182 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					183 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					184 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					185 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					186 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					187 tab (settable, boolean) Meta Business Suite, Value: off
+					188 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					189 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					190 tab group  group ✅Claude – 1 Tab, •  Brands - Manufacturer Center – Expanded
+					191 tab (settable, boolean) Brands - Manufacturer Center – Part of group ✅Claude, Value: off
+					192 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					193 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					194 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					195 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.0 GB, Value: off
+					196 tab (settable, boolean) Boldstone · Review room, Value: off
+					197 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					198 tab (settable, boolean) Overview - Merchant Center, Value: off
+					199 tab (settable, boolean) Pinterest, Value: off
+			200 button New tab
+	201 close button
+	202 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	203 minimise button
+204 menu bar
+	205 Chrome
+	206 File
+	207 Edit
+	208 View
+	209 History
+	210 Bookmarks
+	211 Profiles
+	212 Tab
+	213 Window
+	214 Help
+
+Selected text: ```
+
+
+
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

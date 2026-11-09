@@ -1,0 +1,112 @@
+- banner:
+  - button [disabled]:
+  - link "Facebook":
+    - /url: /
+  - button:
+  - combobox "Search Facebook"
+  - navigation "Facebook":
+    - list:
+      - link "Home":
+        - /url: /
+      - link "Reels":
+        - /url: /reel/?s=tab
+      - link "Friends":
+        - /url: /friends/
+      - link "Groups":
+        - /url: /groups/
+      - link "Gaming":
+        - /url: /gaming/play/?store_visit_source=gaming_tab
+  - navigation "Account controls and settings":
+    - button "Facebook menu":
+    - button "Messenger":
+    - button "Notifications, 27 unread":
+    - button:
+      - generic: Number of unread notifications
+      - generic: 20+
+    - button "Account, your profile":
+      - img "Your profile"
+- navigation "Marketplace sidebar":
+  - heading "Marketplace" [level=1]
+  - button "Edit Marketplace settings":
+  - link "Create new listing":
+    - /url: /marketplace/create/?__tn__=!%3AA
+    - generic: Create new listing
+  - list:
+    - link "Seller dashboard":
+      - /url: /marketplace/you/dashboard/
+      - generic: Seller dashboard
+    - link "Your listings":
+      - /url: /marketplace/you/selling/
+      - generic: Your listings
+    - link "Announcements":
+      - /url: /marketplace/you/seller_announcement_center/
+      - generic: Announcements
+    - link "Insights":
+      - /url: /marketplace/you/insights/
+      - generic: Insights
+    - link "Marketplace profile":
+      - /url: /marketplace/profile/100064311860325/?product_id=
+      - generic: Marketplace profile
+    - link "Browse Marketplace":
+      - /url: /marketplace/
+      - generic: Browse Marketplace
+  - button "Manage Listings":
+    - generic: Manage Listings
+  - heading "Filters" [level=2]:
+    - generic: Filters
+  - button "Clear filters":
+    - generic: Clear
+  - button "Sort by":
+    - generic: Sort by
+  - button "Status":
+    - generic: Status
+- main "Collection of your Marketplace items":
+  - heading "Keep your listings up to date" [level=2]:
+    - generic: Keep your listings up to date
+  - generic: Marking items as sold reduces unwanted messages and ensures transparency for potential buyers.
+  - button "Dismiss Keep your listings up to date card"
+  - link "Learn more":
+    - /url: https://www.facebook.com/help/1156544111079919?helpref=about_content
+    - generic: Learn more
+  - heading "Your listings" [level=1]
+  - textbox "Search your listings" [active]: Deco Dune Wave
+  - button "List view" [pressed]:
+  - button "Grid view":
+  - button "Deco Dune Wave - Verdigris | Wall Sculpture"
+  - button "Deco Dune Wave - Verdigris | Wall Sculpture, £101, In stock":
+    - generic: Deco Dune Wave - Verdigris | Wall Sculpture
+    - generic: £101
+    - generic: In stock
+  - link "Continue":
+    - /url: /marketplace/edit/?listing_id=1649682580160808
+    - generic: Continue
+  - button "Delete draft Deco Dune Wave - Verdigris | Wall Sculpture":
+    - generic: Delete draft
+  - button "More options for Deco Dune Wave - Verdigris | Wall Sculpture"
+  - generic: Marketplace profile
+  - generic: Boldstone Sculpture
+  - generic: 20+ active listings
+  - link "Create new listing":
+    - /url: /marketplace/create/?__tn__=!%3AC
+    - generic: Create new listing
+  - link "See Marketplace profile":
+    - /url: /marketplace/profile/100064311860325/?product_id=
+    - generic: See Marketplace profile
+  - generic: Need help?
+  - list "Seller support options":
+    - link "See All Help Topics":
+      - /url: https://www.facebook.com/help/1713241952104830/
+      - generic: See All Help Topics
+  - generic: Promote your listings to reach more buyers
+  - generic: Promoting your listings turns them into ads that may appear in Feed, on Marketplace and more places.
+  - generic: "This is a preview of how your ad may appear:"
+  - article:
+    - status "Loading..."
+  - link "Promote listings for Deco Dune Spiral - Verdigris | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /marketplace/boost/?entrypoint=LISTINGS_BULK_PROMOTE_PREVIEW
+    - generic: Promote listings
+  - link "Learn more about boosting Marketplace listings":
+    - /url: https://www.facebook.com/business/help/800378530343391
+    - generic: Learn more
+- button "New message":
+- list

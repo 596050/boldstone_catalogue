@@ -1,0 +1,13 @@
+Historical review images were archived on 30 October 2026.
+
+Browse historical reports with images: http://127.0.0.1:8778/
+Index and restoration instructions:
+/Users/tprice/Documents/boldstone/outputs/historical-image-archive-20261030/index.html
+/Users/tprice/Documents/boldstone/outputs/historical-image-archive-20261030/RESTORE-INSTRUCTIONS.txt
+
+Open "Open historical reviews.command" in that archive folder to start the viewer.
+The original report text remains here. Images are retrieved from verified archived
+bytes, protected local copies or the recorded Dropbox revision. Opening older HTML
+files directly as file:// may omit archived images; use the viewer or restore them.
+Current app image dependencies and source records were protected.
+See the archive's verification.json for final applied counts and checks.

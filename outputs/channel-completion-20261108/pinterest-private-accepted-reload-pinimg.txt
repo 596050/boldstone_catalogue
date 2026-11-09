@@ -1,0 +1,91 @@
+The following is a diff from the previous accessibility tree for Window: "DevTools - boldstonesculpture.…paign=pinterest_consent_check" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 21, 34-210, 216-221, 227-246, 252-264, 270-358, 364-1750, 1789, 1805-1835
+~												19 tab (settable, integer) Elements, Value: 0
++												1805 tab (selected) Network, Value: 1
++									1806 container Network panel
++										1807 container network
++											1808 container
++												1809 toolbar
++													1810 container Stop recording network log, Help: Stop recording network log - ⌘ E
++														1811 toggle button Stop recording network log - ⌘ E, Value: 1
++													1812 container Clear network log, Help: Clear network log - Ctrl L - ⌘ K
++														1813 button Clear network log - Ctrl L - ⌘ K
++													1814 container Filter
++														1815 toggle button Filter, Value: 1
++													1816 container Search
++														1817 toggle button Search, Value: 0
++													1818 container
++														1819 Tick box Keep log, Value: 1
++														1820 text Keep log
++													1821 container
++														1822 Tick box Disable cache, Value: 1
++														1823 text Disable cache
++													1824 pop-up button Throttling, Value: Disabled: No throttling
++														1825 (selected) Disabled: No throttling
++													1826 container More network conditions…
++														1827 button More network conditions…
++													1828 container Import HAR file…
++														1829 button Import HAR file…
++													1830 container Export HAR (sanitized)…
++														1831 button Export HAR (sanitized)…
++													1832 container Network settings
++														1833 toggle button Network settings, Value: 0
++												1834 toolbar
++													1835 container
++														1836 text entry area (settable) Filter, Value: pinimg
++															1837 text pinimg
++														1838 container Clear
++															1839 button Clear
++												1840 container Inverts the search filter
++													1841 Tick box Invert, Value: 0
++													1842 text Invert
++												1843 container Show only/hide requests dropdown
++													1844 pop-up button Show only/hide requests
++														1845 text More filters
++												1846 list box Request types to include, Help: ⌘ Click to select multiple types
++													1847 text (selected) All Fetch/XHR Doc CSS JS Font Img Media Manifest Socket Wasm Other
++												1848 container Overview grid window
++													1849 container
++														1850 container
++															1851 text 0 ms
++															1852 text 50,000 ms
++															1853 text 100,000 ms
++															1854 text 150,000 ms
++															1855 text 200,000 ms
++															1856 text 250,000 ms
++															1857 text 300,000 ms
++															1858 text 350,000 ms
++															1859 text 400,000 ms
++															1860 text 450,000 ms
++													1861 slider Left resizer, Value: 0, Details: 0 ms, Secondary Actions: Increment, Decrement
++													1862 slider Right resizer, Value: 100, Details: 417,619 ms, Secondary Actions: Increment, Decrement
++												1863 container
++													1864 container
++														1865 table
++															1866 row
++																1867 column header Name - Sortable column. Press enter to sort.
++																	1868 text Name
++																1869 column header Status - Sortable column. Press enter to sort.
++																	1870 text Status
++																1871 column header Type - Sortable column. Press enter to sort.
++																	1872 text Type
++																1873 column header Initiator - Sortable column. Press enter to sort.
++																	1874 text Initiator
++																1875 column header Size - Sortable column. Press enter to sort.
++																	1876 text Size
++																1877 column header Time - Sortable column. Press enter to sort.
++																	1878 text Time
++													1879 container 0 / 234 requests
++														1880 text 0 / 234 requests
++													1881 container 0 B / 23515564 B transferred over network
++														1882 text 0.0 kB / 23,516 kB transferred
++													1883 container 0 B / 47091956 B resources loaded by the page
++														1884 text 0.0 kB / 47,092 kB resources
++													1885 container Finish: 6.1 min
++														1886 text Finish: 6.1 min
++													1887 container DOMContentLoaded: 5.6 min
++														1888 text DOMContentLoaded: 5.6 min
++													1889 container Load: 5.6 min
++														1890 text Load: 5.6 min
++							1891 text Network data available
+The focused UI element is 1836 text entry area (settable) Filter, Value: pinimg

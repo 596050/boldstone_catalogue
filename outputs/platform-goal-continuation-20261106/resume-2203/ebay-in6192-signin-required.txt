@@ -1,0 +1,82 @@
+Window: "Sign in or Register | eBay", App: Google Chrome.
+0 standard window Sign in or Register | eBay - Google Chrome (Incognito), Secondary Actions: Raise, URL: signin.ebay.co.uk/[authentication query omitted]
+	1 container Sign in or Register | eBay - Google Chrome (Incognito), URL: signin.ebay.co.uk/[authentication query omitted]
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: signin.ebay.co.uk/[authentication query omitted]
+					10 button Manage your passwords
+					11 button Third-party cookies blocked
+					12 button Bookmark this tab
+				13 container
+					14 pop-up button AdBlock — block ads across the web
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button Open Claude
+Has access to this site
+					17 pop-up button ChatGPT
+Has access to this site
+					18 pop-up button Extensions
+				19 button Incognito
+				20 pop-up button Relaunch to update
+			21 container
+				22 scroll area
+					23 HTML content Sign in or Register | eBay, URL: signin.ebay.co.uk/[authentication query omitted]
+						24 container
+							25 image
+							26 image
+							27 image
+							28 container
+								29 link Skip to main content, Value: signin.ebay.co.uk/[authentication query omitted]
+								30 link eBay Home, Value: ebay.co.uk/
+							31 container
+								32 heading Welcome back., Value: 1
+									33 text Welcome back.
+								34 text in6192
+								35 button Current user is in6192. Switch account
+								36 button Text me a code
+								37 container
+									38 link Continue with Google, Value: signin.ebay.co.uk/[authentication query omitted]
+									39 text or
+								40 link Reset your password
+									41 text Reset your password
+								42 image
+								43 button Help, opens dialogues
+							44 container
+								45 text Copyright © 1995-2026 eBay Inc. All Rights Reserved. 
+								46 link User Agreement, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+								47 text , 
+								48 link Privacy, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+								49 text , 
+								50 link Payments Terms of Use, Value: pages.ebay.co.uk/payment/2.0/terms.html
+								51 text , 
+								52 link Cookies, Value: ebay.co.uk/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+								53 text  and 
+								54 link AdChoice , Value: ebay.co.uk/adchoice
+			55 pop-up button Tab search
+			56 container
+				57 tab group
+					58 tab (selected, settable, boolean) Sign in or Register | eBay, Value: on
+						59 button Close
+			60 button New tab
+	61 close button
+	62 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	63 minimise button
+64 menu bar
+	65 Chrome
+	66 File
+	67 Edit
+	68 View
+	69 History
+	70 Bookmarks
+	71 Profiles
+	72 Tab
+	73 Window
+	74 Help
+
+The focused UI element is 23 HTML content Sign in or Register | eBay, URL: signin.ebay.co.uk/[authentication query omitted]

@@ -1,0 +1,70 @@
+The following is a diff from the previous accessibility tree for Window: "DevTools - boldstonesculpture.…paign=pinterest_consent_check" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 106-117, 156
++															172 row
++																173 cell https://s.pinimg.com/ct/core.js
++																	174 text core.js
++																175 cell 200 OK
++																	176 text 200
++																177 cell
++																	178 text script
++																179 cell
++																	180 button
++																181 cell 2.3 kB transferred over network, resource size: 5.1 kB
++																	182 text 2.3 kB
++																183 cell
++																	184 text 30 ms
++															185 row
++																186 cell https://s.pinimg.com/ct/lib/main.80c2b6ae.js
++																	187 text main.80c2b6ae.js
++																188 cell 200 OK
++																	189 text 200
++																190 cell
++																	191 text script
++																192 cell
++																	193 button
++																194 cell 38.6 kB transferred over network, resource size: 164 kB
++																	195 text 38.6 kB
++																196 cell
++																	197 text 13 ms
++															198 row
++																199 cell https://s.pinimg.com/ct/core.js
++																	200 text core.js
++																201 cell 200 OK
++																	202 text 200
++																203 cell
++																	204 text script
++																205 cell
++																	206 link brancusi-totem-white?utm_source=qa&utm_medium=test&utm_campaign=pinterest_consent_check:210, Help: https://boldstonesculpture.com/buy/p/brancusi-totem-white?utm_source=qa&utm_medium=test&utm_campaign=pinterest_consent_check:210
++																		207 text brancusi-totem-white?utm_source=qa&utm_medium=test&utm_campaign=pinterest_consent_check:210
++																208 cell 2.0 kB transferred over network, resource size: 5.1 kB
++																	209 text 2.0 kB
++																210 cell
++																	211 text 206 ms
++															212 row
++																213 cell https://s.pinimg.com/ct/lib/main.80c2b6ae.js
++																	214 text main.80c2b6ae.js
++																215 cell 200 OK
++																	216 text 200
++																217 cell
++																	218 text script
++																219 cell
++																	220 link core.js:1, Help: https://s.pinimg.com/ct/core.js:1
++																		221 text core.js:1
++																222 cell 38.8 kB transferred over network, resource size: 164 kB
++																	223 text 38.8 kB
++																224 cell
++																	225 text 23 ms
++													226 container 4 / 234 requests
++														227 text 4 / 234 requests
++													228 container 81793 B / 23515564 B transferred over network
++														229 text 81.8 kB / 23,516 kB transferred
++													230 container 338206 B / 47091956 B resources loaded by the page
++														231 text 338 kB / 47,092 kB resources
++													232 container Finish: 6.1 min
++														233 text Finish: 6.1 min
++													234 container DOMContentLoaded: 5.6 min
++														235 text DOMContentLoaded: 5.6 min
++													236 container Load: 5.6 min
++														237 text Load: 5.6 min
++							238 text Network data available 
+The focused UI element is 63 text entry area (settable) Filter, Value: pinimg

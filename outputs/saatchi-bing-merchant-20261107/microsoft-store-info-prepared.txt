@@ -1,0 +1,127 @@
+Window: "Create store | Microsoft Advertising", App: Google Chrome.
+0 standard window Create store | Microsoft Advertising - Google Chrome – Tom, Secondary Actions: Raise, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/create-store?uid=193182372&cid=255124527&aid=187335961
+	1 container Create store | Microsoft Advertising - Google Chrome – Tom, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/create-store?uid=193182372&cid=255124527&aid=187335961
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/create-store?uid=193182372&cid=255124527&aid=187335961
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Create store | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/create-store?uid=193182372&cid=255124527&aid=187335961
+						26 container
+							27 container Skip to main content
+								28 link Skip to main content, Value: ui.ads.microsoft.com/campaign/vnext/createcampaign/objective?aid=187335961&cid=255124527&uid=193182372#main
+							29 container global menu
+								30 button Microsoft Advertising
+								31 button Switch user accounts. Current selection: Boldstone (G1459Y2Q)
+								32 container
+									33 combo box (settable) Search Microsoft Advertising
+									34 button clear
+								35 button Copilot
+								36 button Notifications
+								37 button   Notifications
+								38 pop-up button Help
+								39 button New features
+								40 button Open account panel
+							41 container Banner message
+								42 text You need a primary payment method before your ads will run.
+								43 link Add a payment method now, Value: ads.microsoft.com/cc/PaymentMethods?aid=187335961&cid=255124527&uid=193182372&showTaxForm=False
+							44 container Summary bar
+								45 link Back to Campaigns, Value: ui.ads.microsoft.com/campaign/vnext/?uid=193182372&cid=255124527&aid=187335961
+								46 text Create store
+							47 container
+								48 container
+									49 content list
+										50 container Previous step
+											51 text 
+											52 text Choose how to create
+										53 container Current step
+											54 text 
+											55 text Store info
+										56 container Next step
+											57 text 
+											58 text Contact details
+									59 text Store info Tell us about your store and where you want your products to display on Bing.
+									60 container
+										61 text Store name
+										62 button Learn more about store name
+									63 text field (settable) Store name Learn more about store name, Value: Boldstone Sculpture
+									64 container
+										65 text Domain validation
+										66 button Learn more about domain validation
+									67 pop-up button Domain validation Learn more about domain validation, Value: Validated via Bing Webmaster Tools
+										68 (selected) Validated via Bing Webmaster Tools
+									69 container
+										70 text Destination URL
+										71 button Learn more about destination URL
+									72 pop-up button Destination URL Learn more about destination URL, Value: https://boldstonesculpture.com/
+										73 (selected) https://boldstonesculpture.com/
+									74 container
+										75 text Store description
+										76 button Learn more about store description
+									77 container
+										78 text entry area (settable) Store description Learn more about store description, Placeholder: Add a description, Value: Handmade wall sculptures designed by Sally Price, inspired by natural forms, waves, shells and botanical patterns. Discover individual pieces and complementary designs for indoor and outdoor spaces, with a choice of finishes and bespoke commissions.
+										79 text 101 characters remaining
+									80 button Back
+									81 button Next
+									82 button Cancel
+								83 text © 2026 Microsoft
+								84 content list
+									85 link Legal, Value: ads.microsoft.com/tc.aspx
+									86 link Privacy & Cookies, Value: go.microsoft.com/fwlink/?LinkId=248681
+									87 link Advertise, Value: go.microsoft.com/fwlink/?LinkId=258668
+									88 link Developers, Value: go.microsoft.com/fwlink/?linkid=2333449
+									89 link Support, Value: go.microsoft.com/fwlink/?LinkId=258669
+									90 link Blog, Value: go.microsoft.com/fwlink/?LinkId=395064
+									91 link Community, Value: go.microsoft.com/fwlink/?linkid=2325500&clcid=0x409
+									92 link Consumer Health Privacy, Value: go.microsoft.com/fwlink/?linkid=2259814
+									93 button Help
+			94 pop-up button Tab search
+			95 container
+				96 tab group
+					97 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+						98 button Close
+					99 tab (selected, settable, boolean) Create store | Microsoft Advertising, Value: on
+						100 button Close
+			101 button New tab
+	102 close button
+	103 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	104 minimise button
+105 menu bar
+	106 Chrome
+	107 File
+	108 Edit
+	109 View
+	110 History
+	111 Bookmarks
+	112 Profiles
+	113 Tab
+	114 Window
+	115 Help
+
+The focused UI element is 78 text entry area (settable) Store description Learn more about store description, Placeholder: Add a description, Value: Handmade wall sculptures designed by Sally Price, inspired by natural forms, waves, shells and botanical patterns. Discover individual pieces and complementary designs for indoor and outdoor spaces, with a choice of finishes and bespoke commissions.

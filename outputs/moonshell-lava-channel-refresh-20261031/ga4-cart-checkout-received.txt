@@ -1,0 +1,360 @@
+Browser tab: 961982131, Title: "Analytics | Realtime overview", URL: "https://analytics.google.com/analytics/web/#/a234700920p546648922/realtime/overview".
+1 AXWebArea Analytics | Realtime overview, URL: analytics.google.com/analytics/web/#/a234700920p546648922/realtime/overview
+	2 container
+		3 container suite-top-nav
+			4 container
+				5 text  Analytics
+			6 text field (settable) Description: Search, ID: searchInput
+			7 button Switch products
+			8 button Ask Advisor
+			9 pop up button (collapsed) Description: Help entry menu, Secondary Actions: Expand
+			10 pop up button (collapsed) Description: Open the user account switcher panel., Secondary Actions: Expand
+		11 container
+			12 container Main pages
+				13 link Home
+					14 text Home
+				15 link Reports
+					16 text Reports
+				17 link Explore
+					18 text Explore
+				19 link Advertising
+					20 text Advertising
+			21 container Settings pages
+				22 link Tasks
+					23 text Tasks
+				24 link Admin
+					25 text Admin
+			26 container Secondary navigation
+				27 container Secondary pages
+					28 pop up button (collapsed) Create, Secondary Actions: Expand
+						29 text Create
+				30 outline
+					31 row (selectable) Reports snapshot
+						32 button Reports snapshot
+					33 row (selectable) Realtime overview
+						34 button Realtime overview
+					35 row (selectable) Realtime pages
+						36 button Realtime pages
+					37 row (selectable, expanded) Business objectives, Secondary Actions: Collapse
+						38 container
+							39 button Business objectives
+					40 row (selectable, collapsed) Generate leads, Secondary Actions: Expand
+						41 button Generate leads
+					42 row (selectable, collapsed) Drive sales, Secondary Actions: Expand
+						43 button Drive sales
+					44 row (selectable, collapsed) Understand web and/or app traffic, Secondary Actions: Expand
+						45 button Understand web and/or app traffic
+					46 row (selectable, collapsed) View user engagement & retention, Secondary Actions: Expand
+						47 button View user engagement & retention
+					48 row (selectable, expanded) Data import, Secondary Actions: Collapse
+						49 container
+							50 button Data import
+					51 row (selectable) Campaign data import validation
+						52 button Campaign data import validation
+					53 row (selectable, expanded) Search Console, Secondary Actions: Collapse
+						54 container
+							55 button Search Console
+					56 row (selectable, expanded) Search Console, Secondary Actions: Collapse
+						57 button Search Console
+					58 row (selectable) Queries
+						59 button Queries
+					60 row (selectable) Google organic search traffic
+						61 button Google organic search traffic
+					62 row (selectable, expanded) User, Secondary Actions: Collapse
+						63 container
+							64 button User
+					65 row (selectable, collapsed) User attributes, Secondary Actions: Expand
+						66 button User attributes
+					67 row (selectable, collapsed) Tech, Secondary Actions: Expand
+						68 button Tech
+				69 container Other pages
+					70 button Library
+						71 text Library
+			72 button (expanded) Description: Nav toggle, Secondary Actions: Collapse
+		73 container
+			348 container
+				349 button Description: All Users, ID: mat-mdc-chip-1
+					350 text All Users
+				351 button Add comparison
+				352 heading Realtime overview, Value: 1
+					353 pop up button Realtime overview
+				354 pop up button This report uses 100% of available data. Click to view more information.
+				355 button View user snapshot
+				356 container Full screen
+					357 button Full screen
+				358 container Edit comparisons
+					359 button Edit comparisons
+				360 container Share this report
+					361 button Share this report
+			88 container
+				89 container
+					90 pop up button ACTIVE USERS IN LAST 30 MINUTES
+					91 text 2
+				92 container
+					93 pop up button ACTIVE USERS IN LAST 5 MINUTES
+					94 text 1
+				95 text ACTIVE USERS PER MINUTE
+				96 container
+					97 image
+						466 text 1
+						467 text 2
+						468 text -30 min
+						469 text -25 min
+						470 text -20 min
+						471 text -15 min
+						472 text -10 min
+						473 text -5 min
+						474 text -1 min
+						107 list 1 2 -30 min -25 min -20 min -15 min -10 min -5 min -1 min Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 2 Active users Active users 1 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 1 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 1 Active users Active users 1 Active users Active users 0 Active users
+							109 container Active users 0 Active users
+							110 container Active users 0 Active users
+							111 container Active users 0 Active users
+							112 container Active users 0 Active users
+							113 container Active users 0 Active users
+							114 container Active users 0 Active users
+							115 container Active users 0 Active users
+							116 container Active users 0 Active users
+							117 container Active users 0 Active users
+							118 container Active users 0 Active users
+							119 container Active users 0 Active users
+							120 container Active users 0 Active users
+							121 container Active users 0 Active users
+							122 container Active users 0 Active users
+							123 container Active users 0 Active users
+							124 container Active users 2 Active users
+							125 container Active users 1 Active users
+							126 container Active users 0 Active users
+							127 container Active users 0 Active users
+							128 container Active users 0 Active users
+							129 container Active users 0 Active users
+							130 container Active users 0 Active users
+							131 container Active users 1 Active users
+							132 container Active users 0 Active users
+							133 container Active users 0 Active users
+							134 container Active users 0 Active users
+							135 container Active users 0 Active users
+							136 container Active users 1 Active users
+							137 container Active users 1 Active users
+							382 container Active users 0 Active users
+			138 container
+				139 image
+				140 container
+					141 button Keyboard shortcuts
+					142 container Map
+					143 container
+						144 container
+					145 container
+						146 button (disabled) Zoom in
+						147 button Zoom out
+					148 container
+						149 button Keyboard shortcuts
+						150 text Map data ©2026 Google
+						151 link Description: Terms (opens in new tab), Value: google.com/intl/en-US_US/help/terms_maps.html
+						152 link Description: Report a map error (opens in new tab), Help: Report errors in the road map or imagery to Google, Value: google.com/maps/@42.3879663,-71.2350278,10z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+			153 container
+				154 container
+					155 container Active users
+						156 pop up button Active users
+					157 text  by 
+					158 container First user source
+						159 combo box (collapsed) Description: Dimensions, Value: First user source, ID: mat-select-1, Secondary Actions: Expand
+							160 container
+								161 text First user source
+				162 container
+					163 text #1
+					164 container No value available
+						165 text -
+					166 text -
+					167 image
+						168 list No data available
+						169 text No data available
+					170 table
+						171 row
+							172 cell
+								173 pop up button FIRST USER SOURCE
+							174 cell
+								175 pop up button ACTIVE USERS
+					176 text No data available
+			177 container
+				178 container
+					179 container Active users
+						180 combo box (collapsed) Description: Metrics, Value: Active users, ID: mat-select-2, Secondary Actions: Expand
+							181 container
+								182 text Active users
+					183 text  by 
+					184 container Audience
+						185 pop up button Audience
+				186 container
+					187 text #1 All Users 2 100%
+					188 image
+					189 table
+						190 row
+							191 cell
+								192 pop up button AUDIENCE
+							193 cell
+								194 pop up button ACTIVE USERS
+						195 row
+							196 cell
+								197 text All Users
+							198 cell
+								199 text 2
+					200 container
+						201 text 1 – 1 of 1
+						202 button (disabled) Previous page
+						203 button (disabled) Next page
+			204 container
+				205 container
+					206 container Views
+						207 pop up button Views
+					208 text  by 
+					209 container Page title and screen name
+						210 pop up button Page title and screen name
+				211 container
+					212 text #1 Lava Moonshell I - White — boldstone 4 36.36%
+					213 image
+					214 table
+						215 row
+							216 cell
+								217 pop up button PAGE TITLE AND SCREEN NAME
+							218 cell
+								219 pop up button VIEWS
+						220 row
+							221 cell
+								222 text Lava Moonshell I - White — boldstone
+							223 cell
+								224 text 4
+						225 row
+							226 cell
+								227 text boldstone
+							228 cell
+								229 text 4
+						230 row
+							231 cell
+								232 text boldstone | Secure Checkout
+							233 cell
+								234 text 2
+						235 row
+							236 cell
+								237 text Azure - Blue and White Marbled Panel — boldstone
+							238 cell
+								239 text 1
+					240 container
+						241 text 1 – 4 of 4
+						242 button (disabled) Previous page
+						243 button (disabled) Next page
+			244 container
+				245 container
+					246 container Event count
+						247 pop up button Event count
+					248 text  by 
+					249 container Event name
+						250 pop up button Event name
+				251 container
+					393 text #1 page_view 11 26.83%
+					394 image
+						395 list
+							396 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472060000000
+							397 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472120000000
+							398 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472180000000
+							399 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472240000000
+							400 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472300000000
+							401 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472360000000
+							402 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472420000000
+							403 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472480000000
+							404 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472540000000
+							405 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472600000000
+							406 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472660000000
+							407 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472720000000
+							408 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472780000000
+							409 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472840000000
+							410 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472900000000
+							411 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793472960000000
+							412 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793473020000000
+							413 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793473080000000
+							414 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793473140000000
+							415 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793473200000000
+							416 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793473260000000
+							417 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793473320000000
+							418 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793473380000000
+							419 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793473440000000
+							420 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793473500000000
+							421 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793473560000000
+							422 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793473620000000
+							423 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793473680000000
+							424 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793473740000000
+							425 B2D898B6-B9C9-4E01-9872-D9AB0F4C56E3.1793473800000000
+					426 table
+						427 row
+							428 cell
+								429 pop up button EVENT NAME
+							430 cell
+								431 pop up button EVENT COUNT
+						432 row Press enter to drill down
+							433 cell
+								434 text add_to_cart
+							435 cell
+								436 text 1
+						437 row Press enter to drill down
+							438 cell
+								439 text begin_checkout
+							440 cell
+								441 text 1
+					462 container
+						463 text 7 – 8 of 8
+						464 button Previous page
+						465 button (disabled) Next page
+			294 container
+				295 container
+					296 container Key events
+						297 pop up button Key events
+					298 text  by 
+					299 container Event name
+						300 pop up button Event name
+				301 container
+					302 text #1
+					303 container No value available
+						304 text -
+					305 text -
+					306 image
+						307 list No data available
+						308 text No data available
+					309 table
+						310 row
+							311 cell
+								312 pop up button EVENT NAME
+							313 cell
+								314 pop up button KEY EVENTS
+					315 text No data available
+			316 container
+				317 container
+					318 container Active users
+						319 pop up button Active users
+					320 text  by 
+					321 container User property
+						322 pop up button User property
+				323 container
+					324 text #1
+					325 container No value available
+						326 text -
+					327 text -
+					328 image
+						329 list No data available
+						330 text No data available
+					331 table
+						332 row
+							333 cell
+								334 pop up button USER PROPERTY
+							335 cell
+								336 pop up button ACTIVE USERS
+					337 text No data available
+			338 text ©  2026 Google  | 
+			339 link Description: Analytics home , Value: google.com/analytics/?hl=en-US
+			340 text | 
+			341 link Description: Terms of Service , Value: google.com/analytics/tos.html?hl=en-US
+			342 text | 
+			343 link Description: Privacy Policy , Value: google.com/policies/privacy/?hl=en-US
+			344 text | 
+			345 button Send feedback
+		346 pop up button (collapsed) Description: Open context menu, Secondary Actions: Expand
+
+The focused UI element is 465 button (disabled) Next page

@@ -1,0 +1,168 @@
+- banner:
+  - button "Close":
+  - link "Facebook":
+    - /url: /
+  - navigation:
+    - list:
+      - link:
+        - /url: /
+      - link:
+        - /url: /reel/?s=tab
+      - link:
+        - /url: /friends/
+      - link:
+        - /url: /groups/
+      - link:
+        - /url: /gaming/play/?store_visit_source=gaming_tab
+  - navigation "Account controls and settings":
+    - button "Facebook menu":
+    - button "Notifications, 28 unread":
+    - button:
+      - generic: Number of unread notifications
+      - generic: 20+
+    - button "Account, your profile":
+      - img "Your profile"
+- dialog "Edit listing":
+  - button "Close":
+  - link "Facebook":
+    - /url: /
+  - main:
+    - navigation "Breadcrumb":
+      - generic: Marketplace
+    - heading "Edit listing" [active] [level=1]
+    - form "Marketplace":
+      - generic: Boldstone Sculpture
+      - generic: Listing to Marketplace
+      - generic: ·
+      - generic: Public
+      - text: Photos
+      - generic: ·
+      - text: 3/10 Videos
+      - generic: ·
+      - text: 0/1
+      - button
+      - button
+      - button "Remove photo 1 of 3":
+      - 'img "Listing photo: No photo description available."'
+      - button "Remove photo 2 of 3":
+      - 'img "Listing photo: No photo description available."'
+      - button "Remove photo 3 of 3":
+      - 'img "Listing photo: No photo description available."'
+      - button "Add photo":
+        - generic: Add photo
+      - button "Add video":
+        - generic: Add video
+        - generic: (1 minute max)
+      - status: 3 photos attached
+      - text: Upload photos directly from your phone.
+      - button "Learn more about uploading photos from your phone": Learn more
+      - button "Try It":
+        - generic: Try It
+      - heading "Required" [level=2]:
+        - generic: Required
+      - generic: Be as descriptive as possible.
+      - generic: Title
+      - textbox "Title": Deco Dune Wave - Verdigris | Wall Sculpture
+      - generic: Price
+      - textbox "Price": £101
+      - combobox "Category":
+        - generic: Category
+        - generic: Household
+      - combobox "Condition":
+        - generic: Condition
+        - generic: New
+      - button "More details Attract more interest by including more details." [expanded]:
+        - generic: More details
+        - generic: Attract more interest by including more details.
+      - generic: Material
+      - textbox "Material"
+      - combobox "Colour":
+        - generic: Colour
+      - generic: Description
+      - textbox "Description": "Flowing lines and a sculpted rhythm bring together the movement of dunes and an Art Deco sensibility. The relief catches light along its contours, giving a still wall a sense of motion. A design for spaces that balance clean lines with natural forms, from a bright interior to a planted courtyard. A verdigris-effect finish adds sea-green colour and a weathered visual character. Dimensions: 100 cm high × 22 cm wide × 6 cm deep Weight: Approximately 10 kg (range 8–12 kg) Use: Suitable for outdoor use and indoor display. Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall. Availability: Made to order Production lead time: 1–2 weeks Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options. Room settings and group arrangements are illustrative; this listing is for the individual sculpture described above. Website price: £100.56. Full details, photographs and online ordering: https://boldstonesculpture.com/buy/p/deco-dune-ripple-wave-verdigris"
+      - combobox "Availability" [disabled]:
+        - generic: Availability
+        - generic: List as in stock
+      - generic: Product tags
+      - list
+      - textbox "Product tags"
+      - generic: "Optional. Limit: 20"
+      - generic: SKU
+      - textbox "SKU": BOLD-B2D54C28FDA3
+      - generic: Optional. Only visible to you
+      - generic: Location
+      - combobox "Location": Bath
+      - heading "Meetup preferences" [level=2]:
+        - generic: Meetup preferences
+      - text: Buyers will be able to see your preferences on your listing.
+      - link "Learn more about meetup preferences":
+        - /url: https://www.facebook.com/help/329122794534612
+        - text: Learn more
+      - group "Meetup preferences":
+        - checkbox "Public meetup Meet in a public location. See Marketplace meetup safety tips":
+          - generic: Public meetup
+          - text: Meet in a public location.
+          - link "See Marketplace meetup safety tips":
+            - /url: https://www.facebook.com/help/1156544111079919
+            - text: See safety tips
+        - checkbox "Door pick-up Buyer picks up at your door.":
+          - generic: Door pick-up
+          - generic: Buyer picks up at your door.
+        - checkbox "Door drop-off You drop off at buyer's door.":
+          - generic: Door drop-off
+          - generic: You drop off at buyer's door.
+      - separator
+      - generic: Hide from friends
+      - text: This listing is still public. If you hide this listing from friends, they won't see it in most cases.
+      - link "Learn more about hiding listings from friends":
+        - /url: https://www.facebook.com/help/1096431074294038
+        - text: Learn more
+      - switch "Hide from friends"
+      - button "Turn off commenting Comments are automatically enabled. Disabling comments prevents interested buyers from asking questions and leaving feedback. Disabled":
+        - generic: Turn off commenting
+        - generic: Comments are automatically enabled. Disabling comments prevents interested buyers from asking questions and leaving feedback.
+        - switch "Disabled"
+      - text: Marketplace items are public and can be seen by anyone on or off Facebook. Items such as animals, drugs, weapons, counterfeits and other items that infringe intellectual property aren't allowed on Marketplace. See our
+      - link "Commerce Policies":
+        - /url: https://www.facebook.com/policies_center/commerce/
+      - text: .
+      - generic: Marketplace sellers are responsible for complying with applicable regional laws and regulations.
+    - button "Update":
+      - generic: Update
+  - complementary "Marketplace composer":
+    - region:
+      - heading "Preview" [level=2]:
+        - generic: Preview
+      - region "Preview":
+        - button "View photo 1":
+          - img "Product photo of Deco Dune Wave - Verdigris | Wall Sculpture"
+        - button "View photo 2":
+          - img "Product photo of Deco Dune Wave - Verdigris | Wall Sculpture"
+        - button "View photo 3":
+          - img "Product photo of Deco Dune Wave - Verdigris | Wall Sculpture"
+        - button "View previous image":
+        - button "View next image":
+        - heading "Deco Dune Wave - Verdigris | Wall Sculpture" [level=3]:
+          - generic: Deco Dune Wave - Verdigris | Wall Sculpture
+        - generic: £101
+        - text: Listed
+        - generic "a few seconds ago"
+        - text: in
+        - button "Bath" [disabled]
+        - heading "Details" [level=2]:
+          - generic: Details
+        - generic: Condition
+        - generic: New
+        - generic: "Flowing lines and a sculpted rhythm bring together the movement of dunes and an Art Deco sensibility. The relief catches light along its contours, giving a still wall a sense of motion. A design for spaces that balance clean lines with natural forms, from a bright interior to a planted courtyard. A verdigris-effect finish adds sea-green colour and a weathered visual character. Dimensions: 100 cm high × 22 cm wide × 6 cm deep Weight: Approximately 10 kg (range 8–12 kg) Use: Suitable for outdoor use and indoor display. Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall. Availability: Made to order Production lead time: 1–2 weeks Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options. Room settings and group arrangements are illustrative; this listing is for the individual sculpture described above. Website price: £100.56. Full details, photographs and online ordering: https://boldstonesculpture.com/buy/p/deco-dune-ripple-wave-verdigris"
+        - heading [level=2]:
+          - generic: Seller information
+        - link:
+          - /url: /marketplace/profile/100064311860325/?product_id=client%3Alocal%3A4
+          - generic: Seller details
+        - list:
+          - link:
+            - /url: /marketplace/profile/100064311860325/?product_id=client%3Alocal%3A4&__tn__=%3C
+          - link:
+            - /url: /marketplace/profile/100064311860325/?product_id=client%3Alocal%3A4
+            - text: Boldstone Sculpture
+- list

@@ -1,0 +1,209 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Search Products
+									48 link
+								49 button All
+									50 container
+										51 Tick box 0
+									52 text All
+								53 container
+									54 text 0  /  0
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 heading Add products to your showroom, Value: 2
+									63 text Add  products  to your showroom
+								64 container
+									65 text Create an individual product or upload an Excel spreadsheet with your product information to import multiple products.
+								66 container
+									67 button Create Manually
+									68 pop-up button Import Products
+										69 text Import Products
+								70 container
+									71 text To learn more about showrooms, visit 
+									72 link support.brandboom.com, Value: support.brandboom.com/
+							73 container
+								74 content list
+									75 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								76 container
+									77 heading Presentations, Value: 5
+										78 text Presentations
+									79 button New
+									80 content list
+										81 link ALL, Value: manage.brandboom.com/products/s/111089#
+										82 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									83 container
+										84 link
+											85 image
+										86 search text field (settable) Search Presentations
+										87 link
+											88 image
+								89 heading Ship Windows, Value: 5
+									90 text Ship Windows
+								91 content list
+									92 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									93 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								94 text No active ship windows
+							95 link Reset
+								96 text Reset
+							97 button Apply
+							98 text PRODUCT STATUS
+							99 text Active
+							100 text Inactive
+							101 text Archived
+							102 text Corrupted
+							103 text No Images
+							104 text SORT BY
+							105 pop-up button Newest First
+								106 (selected) Newest First
+							107 text SHIP DATE RANGE
+							108 container
+								109 image
+								110 text field (settable) Click to select range
+							111 text No Date Range
+							112 text CREATE DATE RANGE
+							113 container
+								114 image
+								115 text field (settable) Click to select range
+							116 text SIZES
+							117 text field (settable) S, M, L
+							118 text VENDORS
+							119 text Boldstone
+							120 text TYPES
+							121 link
+								122 image
+							123 text No Types
+							124 text Home Decor
+							125 text Mens
+							126 text Womens
+							127 text CATEGORIES
+							128 link
+								129 image
+							130 link
+								131 image
+							132 text No Categories
+							133 text Sweater
+							134 text Wall Sculpture
+							135 text SEASONS
+							136 link
+								137 image
+							138 link
+								139 image
+							140 text No Seasons
+							141 text Year-round
+							142 link
+								143 image
+							144 container
+								145 content list
+									146 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									147 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								148 container
+									149 button Upload Images
+									150 button
+									151 button
+									152 button
+							153 button Close
+							154 text Search Products
+							155 button Scan barcodes
+							156 container
+								157 link
+									158 image
+								159 search text field (settable) Search for Products
+							160 text RESULTS
+							161 button Open Intercom Messenger
+			162 pop-up button Tab search
+			163 container
+				164 tab group
+					165 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					166 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					167 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					168 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					169 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					170 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					171 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					172 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					173 tab (settable, boolean) SEO opportunity audit, Value: off
+					174 tab group  group ✅Claude – 2 Tabs, •  Inbox (113) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					175 tab (settable, boolean) Inbox (113) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude, Value: off
+					176 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					177 tab (settable, boolean) Drafts (1,332) - tppricet@gmail.com - Gmail, Value: off
+					178 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					179 tab (settable, boolean) Bookmarks, Value: off
+					180 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					181 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						182 button Close
+			183 button New tab
+	184 close button
+	185 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	186 minimise button
+187 menu bar
+	188 Chrome
+	189 File
+	190 Edit
+	191 View
+	192 History
+	193 Bookmarks
+	194 Profiles
+	195 Tab
+	196 Window
+	197 Help
+
+The focused UI element is 27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089

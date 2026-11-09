@@ -1,0 +1,295 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Navigation menu" [expanded]:
+    - img: menu
+  - link "Merchant Center home":
+    - /url: /mc/overview?a=550093983&authuser=2
+    - img "Merchant Center home"
+  - dialog "Search":
+    - img: search
+    - textbox "Search Merchant Center"
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone, 550093983"':
+    - generic: Boldstone
+    - generic: "550093983"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- navigation:
+  - tree "Navigation":
+    - treeitem "Overview" [level=1]:
+      - img: dashboard
+      - generic: Overview
+    - treeitem "Notifications 5" [level=1]:
+      - img: notifications
+      - generic: Notifications
+      - generic: "5"
+    - treeitem "Products & store" [expanded] [level=1]:
+      - img: inventory_2
+      - generic: Products & store
+      - img: arrow_drop_down
+      - treeitem "Products" [level=2]:
+        - generic: Products
+      - treeitem "Shipping and returns" [level=2]:
+        - generic: Shipping and returns
+      - treeitem "Store quality" [level=2]:
+        - generic: Store quality
+    - treeitem "Creative content" [level=1]:
+      - img: brush_spark
+      - generic: Creative content
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Product Studio
+      - treeitem [disabled] [level=2]:
+        - generic: Video assets
+    - treeitem "Marketing" [level=1]:
+      - img: campaign
+      - generic: Marketing
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Ad campaigns
+      - treeitem [disabled] [level=2]:
+        - generic: Promotions
+      - treeitem [disabled] [level=2]:
+        - generic: Marketing methods
+    - treeitem "Analytics" [level=1]:
+      - img: timeline
+      - generic: Analytics
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Summary
+      - treeitem [disabled] [level=2]:
+        - generic: Products
+      - treeitem [disabled] [level=2]:
+        - generic: Pricing
+      - treeitem [disabled] [level=2]:
+        - generic: Online store
+      - treeitem [disabled] [level=2]:
+        - generic: Physical stores
+    - treeitem "Settings" [level=1]:
+      - img: settings
+      - generic: Settings
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: General
+      - treeitem [disabled] [level=2]:
+        - generic: Business info
+      - treeitem [disabled] [level=2]:
+        - generic: Data sources
+      - treeitem [disabled] [level=2]:
+        - generic: Add-ons
+      - treeitem [disabled] [level=2]:
+        - generic: Access and services
+- heading "Products" [level=1]
+- tablist:
+  - tab "All products":
+    - generic: All products
+  - tab "Sales channels":
+    - generic: Sales channels
+  - tab "Needs attention" [active] [selected]:
+    - generic: Needs attention
+  - tab "Automations":
+    - generic: Automations
+- button "Prioritized fixes" [pressed]:
+  - img: check
+  - generic: Prioritized fixes
+- button "More information":
+  - img "More information": help_outline
+- group "All products that need attention filter bar":
+  - img: filter_alt
+  - generic: "Filters Applied:"
+  - grid "Filters Applied:":
+    - 'row "Countries: All"':
+      - 'gridcell "Countries: All"':
+        - 'button "Countries: All"': "Countries: All"
+    - 'row "Marketing methods: All"':
+      - 'gridcell "Marketing methods: All"':
+        - 'button "Marketing methods: All"': "Marketing methods: All"
+    - 'row "Data sources: All"':
+      - 'gridcell "Data sources: All"':
+        - 'button "Data sources: All"': "Data sources: All"
+    - row:
+      - gridcell:
+        - combobox "Add filter"
+        - status
+- heading "Improve your product discoverability" [level=2]
+- paragraph: Some of your products might have missing or inaccurate product details. You'll find all products that need to be fixed here.
+- paragraph: Start fixing them and make your products more discoverable on Google.
+- button "Got it. Close welcome message":
+  - generic: Got it
+- main:
+  - heading "Make these fixes to show products on Google" [level=2]
+  - link "View setup and policy issues":
+    - /url: /mc/products/diagnostics/accountissues?a=550093983&authuser=2
+  - link "View history":
+    - /url: /mc/products/diagnostics/history?a=550093983&marketingMethod=1&authuser=2
+  - button "Show all fixes (4)":
+    - img: list
+    - generic: Show all fixes (4)
+  - article:
+    - img: error_outline
+    - heading "Broken image link" [level=3]
+    - paragraph:
+      - text: Google couldn't retrieve the image from the URL provided in the image link [image_link] attribute in your product data
+      - link "Learn more about the Broken image link issue in Help Center. Opens in a new tab., Opens in a new tab":
+        - /url: https://support.google.com/merchants/answer/12159031?hl=en-US
+        - text: Learn more
+        - text: ⁠
+        - img: open_in_new
+        - text: ‎
+    - paragraph: 2 products (66.7%)
+    - button "View fix":
+      - generic: View fix
+    - button "View products":
+      - generic: View products
+  - article:
+    - img: error_outline
+    - heading "Mismatched online store URL" [level=3]
+    - paragraph:
+      - text: Your product page URLs don't match the verified online store domain registered in your Merchant Center account
+      - link "Learn more about the Mismatched online store URL issue in Help Center. Opens in a new tab., Opens in a new tab":
+        - /url: https://support.google.com/merchants/answer/12158934?hl=en-US
+        - text: Learn more
+        - text: ⁠
+        - img: open_in_new
+        - text: ‎
+    - paragraph: 2 products (66.7%)
+    - button "View fix":
+      - generic: View fix
+    - button "View products":
+      - generic: View products
+  - article:
+    - img: error_outline
+    - heading "Missing product page" [level=3]
+    - paragraph:
+      - text: One or more of your products are missing links to a product landing page
+      - link "Learn more about the Missing product page issue in Help Center. Opens in a new tab., Opens in a new tab":
+        - /url: https://support.google.com/merchants/answer/12158057?hl=en-US
+        - text: Learn more
+        - text: ⁠
+        - img: open_in_new
+        - text: ‎
+    - paragraph: 1 product (33.3%)
+    - button "View fix":
+      - generic: View fix
+    - button "View products":
+      - generic: View products
+  - heading "All products that need attention" [level=2]
+  - button "Manage product sources":
+    - generic: Manage product sources
+  - generic: Last updated at 12:04 AM Oct 31, 2026
+  - button "Show filtering options":
+    - img: filter_alt
+  - button "Download a file containing all the currently filtered product issues":
+    - img: file_download
+  - grid "All products that need attention":
+    - row "Product Click potential Status What needs attention":
+      - columnheader "Product"
+      - columnheader "Click potential":
+        - text: Click potential
+        - img: help_outline
+      - columnheader "Status"
+      - columnheader "What needs attention":
+        - button:
+          - img: expand_more
+        - text: What needs attention
+        - img: help_outline
+    - 'row "Thumbnail image for: Moonphases Five wall sculpture Moonphases Five wall sculpture, opens in a new tab Low Limited Product status details Fix Moonphases Five wall sculpture What needs attention"':
+      - 'gridcell "Thumbnail image for: Moonphases Five wall sculpture"':
+        - 'img "Thumbnail image for: Moonphases Five wall sculpture"'
+      - gridcell "Moonphases Five wall sculpture, opens in a new tab":
+        - link "Moonphases Five wall sculpture, opens in a new tab":
+          - /url: /mc/items/details?a=550093983&offerId=daedfaf2-4ffd-4a0c-84a7-b08913107042&language=en&channel=0&feedLabel=GB&authuser=2
+          - text: Moonphases Five wall sculpture
+      - gridcell "Low":
+        - generic: Low
+      - gridcell "Limited Product status details Fix Moonphases Five wall sculpture":
+        - generic: Limited
+        - button "Product status details":
+          - img "Product status details": help_outline
+        - button "Fix Moonphases Five wall sculpture":
+          - generic: Fix
+      - gridcell "What needs attention":
+        - grid "What needs attention":
+          - row "Missing product page":
+            - gridcell "Missing product page":
+              - button "Missing product page":
+                - img "Missing product page": expand_more
+              - img: error_outline
+              - generic: Missing product page
+          - row "Missing product price":
+            - gridcell "Missing product price":
+              - button "Missing product price":
+                - img "Missing product price": expand_more
+              - img: error_outline
+              - generic: Missing product price
+    - 'row "Thumbnail image for: Google Brand - 70\" Class 7 Series LED 4K UHD Smart Tizen TV Google Brand - 70\" Class 7 Series LED 4K UHD Smart Tizen TV, opens in a new tab Low Not approved Product status details Fix Google Brand - 70\" Class 7 Series LED 4K UHD Smart Tizen TV What needs attention"':
+      - 'gridcell "Thumbnail image for: Google Brand - 70\" Class 7 Series LED 4K UHD Smart Tizen TV"':
+        - 'img "Thumbnail image for: Google Brand - 70\" Class 7 Series LED 4K UHD Smart Tizen TV"'
+      - gridcell "Google Brand - 70\" Class 7 Series LED 4K UHD Smart Tizen TV, opens in a new tab":
+        - link "Google Brand - 70\" Class 7 Series LED 4K UHD Smart Tizen TV, opens in a new tab":
+          - /url: /mc/items/details?a=550093983&offerId=6429416&language=en&channel=0&feedLabel=GB&authuser=2
+          - text: Google Brand - 70" Class 7 Series LED 4K UHD Smart Tizen TV
+      - gridcell "Low":
+        - generic: Low
+      - gridcell "Not approved Product status details Fix Google Brand - 70\" Class 7 Series LED 4K UHD Smart Tizen TV":
+        - generic: Not approved
+        - button "Product status details":
+          - img "Product status details": help_outline
+        - button "Fix Google Brand - 70\" Class 7 Series LED 4K UHD Smart Tizen TV":
+          - generic: Fix
+      - gridcell "What needs attention":
+        - grid "What needs attention":
+          - row "Broken image link":
+            - gridcell "Broken image link":
+              - button "Broken image link":
+                - img "Broken image link": expand_more
+              - img: error_outline
+              - generic: Broken image link
+          - row "Mismatched online store URL":
+            - gridcell "Mismatched online store URL":
+              - button "Mismatched online store URL":
+                - img "Mismatched online store URL": expand_more
+              - img: error_outline
+              - generic: Mismatched online store URL
+    - 'row "Thumbnail image for: Toddler Girl''s Google Brand Organic Cotton Sweatshirt in Bright Blue Size 18 months Toddler Girl''s Google Brand Organic Cotton Sweatshirt in Bright Blue Size 18 months, opens in a new tab Low Not approved Product status details Fix Toddler Girl''s Google Brand Organic Cotton Sweatshirt in Bright Blue Size 18 months What needs attention"':
+      - 'gridcell "Thumbnail image for: Toddler Girl''s Google Brand Organic Cotton Sweatshirt in Bright Blue Size 18 months"':
+        - 'img "Thumbnail image for: Toddler Girl''s Google Brand Organic Cotton Sweatshirt in Bright Blue Size 18 months"'
+      - gridcell "Toddler Girl's Google Brand Organic Cotton Sweatshirt in Bright Blue Size 18 months, opens in a new tab":
+        - link "Toddler Girl's Google Brand Organic Cotton Sweatshirt in Bright Blue Size 18 months, opens in a new tab":
+          - /url: /mc/items/details?a=550093983&offerId=A3B5&language=en&channel=0&feedLabel=GB&authuser=2
+          - text: Toddler Girl's Google Brand Organic Cotton Sweatshirt in Bright Blue Size 18 months
+      - gridcell "Low":
+        - generic: Low
+      - gridcell "Not approved Product status details Fix Toddler Girl's Google Brand Organic Cotton Sweatshirt in Bright Blue Size 18 months":
+        - generic: Not approved
+        - button "Product status details":
+          - img "Product status details": help_outline
+        - button "Fix Toddler Girl's Google Brand Organic Cotton Sweatshirt in Bright Blue Size 18 months":
+          - generic: Fix
+      - gridcell "What needs attention":
+        - grid "What needs attention":
+          - row "Broken image link":
+            - gridcell "Broken image link":
+              - button "Broken image link":
+                - img "Broken image link": expand_more
+              - img: error_outline
+              - generic: Broken image link
+          - row "Mismatched online store URL":
+            - gridcell "Mismatched online store URL":
+              - button "Mismatched online store URL":
+                - img "Mismatched online store URL": expand_more
+              - img: error_outline
+              - generic: Mismatched online store URL
+- contentinfo:
+  - link "Privacy Policy":
+    - /url: http://www.google.com/policies/privacy/
+  - generic: ·
+  - link "Terms of Service":
+    - /url: https://support.google.com/merchants/answer/160173?hl=en-US
+  - generic: ·
+  - link "Program Policies":
+    - /url: https://support.google.com/merchants/topic/7286989?hl=en-US
+- status

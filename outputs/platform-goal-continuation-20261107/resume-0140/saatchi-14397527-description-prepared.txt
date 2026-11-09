@@ -1,0 +1,237 @@
+Window: "Studio | Saatchi Art United Kingdom", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14397527/description, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14397527/description
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio/art/14397527/description, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/art/14397527/description
+						26 container
+							27 container
+								28 text Fax
+								29 text field (settable) Fax
+							30 link fax, Value: saatchiart.com/facsimile-npc
+							31 link Skip to Main Content, Value: saatchiart.com/en-gb/studio/upload#skip-to-content
+							32 container
+								33 button Close Menu
+								34 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								35 text Studio
+								36 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								37 container
+									38 button Manage Artworks
+									39 content list
+										40 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										41 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									42 button Sales Dashboard
+									43 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									44 button Sponsored Listings
+									45 button Profile Information
+									46 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									47 button Account
+							48 container
+								49 text DRAFT
+								50 link 1 Image, Value: saatchiart.com/en-gb/studio/art/14397527/image
+								51 link 2 Description, Value: saatchiart.com/en-gb/studio/art/14397527/description
+								52 link 3 Price & Details, Value: saatchiart.com/en-gb/studio/art/14397527/price-details
+								53 link 4 Prints, Value: saatchiart.com/en-gb/studio/art/14397527/prints
+								54 button Back to Overview
+								55 Unlabelled image /13459479-DYMOEDNR-7.jpg
+								56 text Title Strata Relief - White Subject Abstract Category Sculpture Dimensions 30  W x  30  H x  7  D  centimeters
+								57 button SHOW MORE
+								58 heading Description, Value: 1
+									59 text Description
+								60 container
+									61 button Category, Subject, Year, Help: Expand
+									62 container
+										63 text Category
+										64 container
+											65 text field (settable) Value: Sculpture, Placeholder: Search or select a category
+											66 text Search or select a category
+										67 text Subject
+										68 container
+											69 text field (settable) Value: Abstract, Placeholder: Search or select a subject
+											70 text Search or select a subject
+										71 text Year
+										72 text 2026
+										73 image
+										74 pop-up button 2026
+											75 (selected) 2026
+										76 button Next
+								77 container
+									78 button Method, Materials & Styles, Help: Expand
+									79 container
+										80 text Method Select 1 Method
+										81 container
+											82 text field (disabled) Value: Relief, Placeholder: Max of 1 method
+											83 text Max of 1 method
+										84 content list
+											85 button Relief
+										86 text Materials Select 1-5 Materials
+										87 container
+											88 text field (settable) Search or select a material
+											89 text Search or select a material
+										90 content list
+											91 button Plaster
+										92 text Styles Select 1-5 Styles
+										93 container
+											94 text field (settable) Search or select a style
+											95 text Search or select a style
+										96 content list
+											97 button Abstract
+										98 button Next
+								99 container
+									100 button Dimensions, Help: Expand
+									101 container
+										102 text It's very important that you provide accurate dimensions as collectors and trade clients need to know the exact size of the artwork before purchasing it. For flat artworks, such as photographs and other works on paper, we suggest that you enter a depth of 0.1. Width ( cm )
+										103 text field (settable) 30
+										104 text Height ( cm )
+										105 text field (settable) 30
+										106 text Depth ( cm )
+										107 text field (settable) 7
+										108 button CENTIMETERS
+										109 text 30 cm 30 cm
+										110 button Next
+								111 container
+									112 button Keywords & Description, Help: Expand
+									113 container
+										114 text Keywords (optional) We recommend providing 5 to 12 keywords to help collectors discover your artwork. Use simple, descriptive words that capture the key visual elements of your work, such as color, subject matter, or artistic style. You may one keyword at a time by clicking the Add button or Enter on your keyboard or by providing a comma separated list of keywords.
+										115 content list
+											116 container
+												117 AXListMarker • 
+												118 text Each keyword should be 2–20 characters long.
+											119 container
+												120 AXListMarker • 
+												121 text Use English keywords for best visibility.
+											122 container
+												123 AXListMarker • 
+												124 text Spam, websites, social media, email addresses and inappropriate and harmful keywords are not allowed.
+										125 text field (settable) Enter Up To 12 Keywords
+										126 text Enter Up To 12 Keywords
+										127 button (disabled) Add
+										128 text 6  / 12
+										129 content list
+											130 button strata
+											131 button textured relief
+											132 button wall sculpture
+											133 button white
+											134 button Sally Price
+											135 button Boldstone
+										136 text Description Collectors tend to appreciate works more if they know the “story” behind them, so be sure to write informative artwork descriptions. Great descriptions not only provide useful information (e.g. physical texture, whether hanging hardware is included, quality of materials), but they also answer questions like: What/who inspired the work? What do you hope its viewers will feel/think? Why did you choose the medium, subject matter, style?
+										137 text entry area (settable) Placeholder: Write Here..., Value: The photograph shows this single wall sculpture installed on a wall. One sculpture is supplied; the setting is not included.
+
+Layered lines give this relief the character of a landscape shaped over time. The surface moves between ridges and recesses, with light revealing its changes in depth.
+
+Colour / appearance: White marble stone finish.
+This Boldstone wall sculpture is sold individually. Other sculptures and room props shown are not included. Made from a gypsum-based material. All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price. The dimensions are 30 × 30 cm; approximately 5–7 cm deep. The stated weight is approximately 3–5 kg. Suitable for outdoor use and indoor display. Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall. Dispatch is within 3 working days. Delivery transit time is additional.
+										138 text 25 characters left
+										139 button Next
+								140 button SAVE & EXIT
+								141 link Save & Continue, Value: saatchiart.com/en-gb/studio/art/14397527/price-details
+								142 container
+									143 text This site is protected by reCAPTCHA and the Google 
+									144 link Privacy Policy, Value: policies.google.com/privacy
+									145 text  and 
+									146 link Terms of Service, Value: policies.google.com/terms
+									147 text  apply.
+							148 container
+								149 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								150 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								151 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								152 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								153 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								154 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								155 text Support
+								156 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								157 link Help Center, Value: support.saatchiart.com/hc
+								158 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								159 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								160 pop-up button Request Support
+								161 text Resources
+								162 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								163 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								164 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								165 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								166 text Saatchi Art
+								167 link About, Value: saatchiart.com/en-gb/about-us
+								168 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								169 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								170 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								171 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								172 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								173 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								174 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								175 text Manage Preferences
+								176 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								177 container View Store Preferences Footer
+									178 image
+									179 text United Kingdom / GBP / Cm
+									180 image
+								181 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								182 link Privacy Policy, Value: policies.google.com/privacy
+								183 text  and 
+								184 link Terms of Service, Value: policies.google.com/terms
+								185 text  apply.
+							186 text Studio | Saatchi Art United Kingdom
+							187 container
+								188 button Manage Preferences
+								189 text Manage Preferences
+			190 pop-up button Tab search
+			191 container
+				192 tab group
+					193 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					194 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					195 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					196 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					197 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					198 tab (settable, boolean) Meta Business Suite, Value: off
+					199 tab group  group 📦 Marketplace completion – 2 Tabs, •  Studio | Saatchi Art United Kingdom, •  Complete your listing | Boldstone Islington Sh… – Expanded
+					200 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion, Value: on
+						201 button Close
+					202 tab (settable, boolean) Value: off, Complete your listing | Boldstone Islington Shellmoon Relief - White Wall sculpture | eBay – Part of group 📦 Marketplace completion
+					203 tab (settable, boolean) Products – Faire, Value: off
+					204 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					205 tab (settable, boolean) Create listings, Value: off
+			206 button New tab
+	207 close button
+	208 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	209 minimise button
+210 menu bar
+	211 Chrome
+	212 File
+	213 Edit
+	214 View
+	215 History
+	216 Bookmarks
+	217 Profiles
+	218 Tab
+	219 Window
+	220 Help
+
+The focused UI element is 139 button Next

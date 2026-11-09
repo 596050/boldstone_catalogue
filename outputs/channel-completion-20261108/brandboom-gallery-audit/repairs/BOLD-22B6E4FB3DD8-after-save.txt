@@ -1,0 +1,384 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - High memory usage - 1.3 GB - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - High memory usage - 1.3 GB - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: stone Islington Shellmoon Fountain - White Sculptural water-feature panel, Placeholder: Search Products
+									48 link
+								49 button 1
+									50 container
+										51 Tick box 1
+									52 text 1
+								53 container
+									54 text 1  /  1
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container
+										64 Unlabelled image /00034706281ED3E8_M.avif
+										65 text Boldstone Islington Shellmoon Fountain - White Sculptural water-feature panel
+										66 text BOLD-22B6E4FB3DD8 WHITE MARBLE STONE FINISH
+										67 container
+											68 text 173.98  GBP
+							69 container
+								70 content list
+									71 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								72 container
+									73 heading Presentations, Value: 5
+										74 text Presentations
+									75 button New
+									76 content list
+										77 link ALL, Value: manage.brandboom.com/products/s/111089#
+										78 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									79 container
+										80 link
+											81 image
+										82 search text field (settable) Search Presentations
+										83 link
+											84 image
+									85 container
+										86 text Wall Sculptures - 50 Preview
+										87 link Edit Name
+											88 image
+										89 link Duplicate
+											90 image
+										91 text GBP
+										92 link
+											93 image
+								94 heading Ship Windows, Value: 5
+									95 text Ship Windows
+								96 content list
+									97 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									98 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								99 text No active ship windows
+							100 container
+								101 button Cancel
+								102 button Select All
+								103 text 1 Item
+								104 button Search Order
+							105 link Reset
+								106 text Reset
+							107 button Apply
+							108 text PRODUCT STATUS
+							109 text Active
+							110 text Inactive
+							111 text Archived
+							112 text Corrupted
+							113 text No Images
+							114 text SORT BY
+							115 pop-up button Newest First
+								116 (selected) Newest First
+							117 text SHIP DATE RANGE
+							118 container
+								119 image
+								120 text field (settable) Click to select range
+							121 text No Date Range
+							122 text CREATE DATE RANGE
+							123 container
+								124 image
+								125 text field (settable) Click to select range
+							126 text SIZES
+							127 text field (settable) S, M, L
+							128 text VENDORS
+							129 text Boldstone
+							130 text TYPES
+							131 link
+								132 image
+							133 text No Types
+							134 text Home Decor
+							135 text Mens
+							136 text Womens
+							137 text CATEGORIES
+							138 link
+								139 image
+							140 link
+								141 image
+							142 text No Categories
+							143 text Sweater
+							144 text Wall Sculpture
+							145 text SEASONS
+							146 link
+								147 image
+							148 link
+								149 image
+							150 text No Seasons
+							151 text Year-round
+							152 container
+								153 container
+									154 Tick box Create another, Value: 0
+									155 text Create another
+								156 button Save
+								157 container
+									158 Unlabelled image /00034706281ED3E8_M.avif
+									159 container
+										160 Unlabelled image /00034706281ED3E8_S.avif
+										161 button STANDARD
+										162 Unlabelled image /0003470628267A4E_S.avif
+										163 button STANDARD
+										164 Unlabelled image /0003470628333DAB_S.avif
+										165 Unlabelled image /00034706279F61BC_S.avif
+										166 button STANDARD
+										167 Unlabelled image /0003470627587868_S.avif
+										168 button STANDARD
+										169 Unlabelled image /00034706276D96A5_S.avif
+										170 button STANDARD
+										171 Unlabelled image /00034706277F7634_S.avif
+										172 button STANDARD
+										173 Unlabelled image /000347062786DDB0_S.avif
+										174 button STANDARD
+										175 Unlabelled image /000347062800CE1B_S.avif
+										176 button STANDARD
+										177 Unlabelled image /000347368150E911_S.avif
+										178 link Move to media bin
+											179 image
+										180 button
+										181 Unlabelled image /00034736816407E2_S.avif
+										182 button STANDARD
+										183 Unlabelled image /0003473681783E9D_S.avif
+										184 button STANDARD
+										185 Unlabelled image /00034736818AF98A_S.avif
+										186 button STANDARD
+										187 Unlabelled image /00034736819DA52F_S.avif
+										188 button STANDARD
+										189 Unlabelled image /000347368204CD47_S.avif
+										190 button STANDARD
+										191 image
+										192 image
+									193 image
+									194 text 15 / Unlimited
+									195 image
+									196 text 0 / 1
+									197 text Drag to reorder
+									198 container
+										199 text Style ID *
+										200 text BOLD-22B6E4FB3DD8
+									201 container
+										202 text Options
+										203 link White marble stone finish
+											204 text White marble stone finish
+									205 container
+										206 text Sizes
+										207 text One sculpture
+									208 text Barcode
+									209 container
+										210 button
+										211 text field (settable)
+									212 text Name
+									213 text field (settable) Boldstone Islington Shellmoon Fountain - White Sculptural water-feature panel
+									214 container Price
+										215 container
+											216 text Price
+											217 text field (settable) Value: 173.98, Placeholder: Enter
+									218 container Retail
+										219 container
+											220 text Retail
+											221 text field (settable) Value: 0.00, Placeholder: Enter
+									222 text Qty Min
+									223 text field (settable) 1
+									224 text Vendor
+									225 text field (settable) Boldstone
+									226 text Type
+									227 text field (settable) Home Decor
+									228 text Category
+									229 text field (settable) Wall Sculpture
+									230 text Taxonomy
+									231 text field (settable) Value: Home Decor / Wall Decor / Wall Art, Placeholder: Select
+									232 text Season
+									233 text field (settable) Year-round
+									234 text Ship Date
+									235 text field (settable)
+									236 container
+										237 text HS Code
+										238 text field (settable) HS Code
+									239 container Country Of Origin
+										240 container
+											241 text Country Of Origin
+											242 button -
+									243 container
+										244 text Description
+										245 container
+											246 text A shell-inspired form meets a lunar curve in a relief with flowing, organic movement. The raised contours gather light, while recesses create a softer rhythm of shadows.
+											247 text Its mood sits between shoreline and night sky, making a restful focal point for a garden or interior. This is the water-feature version; please contact us to discuss the installation and water-system requirements.
+											248 text The white finish keeps the focus on the form and its changing shadows.
+											249 text Brand: Boldstone
+											250 text Product type: Sculptural water-feature panel
+											251 text Model: Islington Shellmoon Fountain - White (BOLD-22B6E4FB3DD8)
+											252 text Colour / appearance: White marble stone finish
+											253 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											254 text Material: Made from a gypsum-based material.
+											255 text Dimensions: 70 cm wide × 50 cm high × 5–7 cm panel depth
+											256 text Weight: Approximately 12–15 kg dry panel; excludes basin, pump and water
+											257 text Use: Suitable for outdoor use and indoor display.
+											258 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											259 text Availability: Ready to dispatch
+											260 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											261 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											262 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							263 link
+								264 image
+							265 container
+								266 content list
+									267 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									268 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								269 container
+									270 button Upload Images
+									271 button
+									272 button
+									273 button
+								274 container
+									275 Unlabelled image /00034736823BB8E5_S.avif
+									276 text file.jpg
+									277 Unlabelled image /000347367902FC62_S.avif
+									278 text file.jpg
+									279 Unlabelled image /000347367832E07B_S.avif
+									280 text file.jpg
+									281 Unlabelled image /00034706155B5336_S.avif
+									282 text file.jpg
+									283 Unlabelled image /00034706003DFC4D_S.avif
+									284 text file.jpg
+									285 Unlabelled image /000347057800BC44_S.avif
+									286 text file.jpg
+									287 Unlabelled image /0003470566983375_S.avif
+									288 text file.jpg
+									289 Unlabelled image /00034705667FEA69_S.avif
+									290 text file.jpg
+									291 Unlabelled image /00034705589C3AF0_S.avif
+									292 text file.jpg
+									293 Unlabelled image /000347367726F877_S.avif
+									294 text file.jpg
+									295 Unlabelled image /000347368438D172_S.avif
+									296 text file.jpg
+									297 Unlabelled image /00011059388E43A7_S.avif
+									298 text toys-dinosaur
+									299 Unlabelled image /00011059387A69BA_S.avif
+									300 text baby-kidswear-t
+									301 Unlabelled image /000110593863557B_S.avif
+									302 text pet-sticks
+									303 Unlabelled image /00011059385C1D4E_S.avif
+									304 text apparel-t-shirt
+									305 Unlabelled image /00011059384494BB_S.avif
+									306 text footwear-shoes
+									307 Unlabelled image /000110593837D96A_S.avif
+									308 text beauty-cream
+									309 Unlabelled image /00011059382B4683_S.avif
+									310 text home-pitcher
+									311 Unlabelled image /00007087863E986B_S.avif
+									312 text BOOM1111
+									313 Unlabelled image /0000022409830BD3_S.avif
+									314 text BOOM1830
+									315 Unlabelled image /00000224097C30D6_S.avif
+									316 text BOOM1705
+									317 Unlabelled image /00000224096AD0BE_S.avif
+									318 text BOOM1100
+							319 button Close
+							320 text Search Products
+							321 button Scan barcodes
+							322 container
+								323 link
+									324 image
+								325 search text field (settable) Search for Products
+							326 text RESULTS
+							327 button Open Intercom Messenger
+							328 container STANDARD
+								329 text STANDARD
+							330 button
+							331 text Product Changes Saved.
+							332 link manage.brandboom.com/products/s/111089#
+			333 pop-up button Tab search
+			334 container
+				335 tab group
+					336 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					337 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					338 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					339 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					340 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					341 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					342 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					343 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					344 tab (settable, boolean) SEO opportunity audit, Value: off
+					345 tab group  group ✅Claude – 2 Tabs, •  Inbox (113) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					346 tab (settable, boolean) Value: off, Inbox (113) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1.1 GB
+					347 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					348 tab (settable, boolean) Drafts (1,333) - tppricet@gmail.com - Gmail, Value: off
+					349 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					350 tab (settable, boolean) Bookmarks, Value: off
+					351 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					352 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					353 tab (settable, boolean) Boldstone Sculpture | Wall Sculptures - 50 Preview, Value: off
+					354 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					355 tab (selected, settable, boolean) Boldstone Sculpture | Products - High memory usage - 1.3 GB, Value: on
+						356 button Close
+					357 tab (settable, boolean) 000347063570B5C6_M.avif (600×600), Value: off
+			358 button New tab
+	359 close button
+	360 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	361 minimise button
+362 menu bar
+	363 Chrome
+	364 File
+	365 Edit
+	366 View
+	367 History
+	368 Bookmarks
+	369 Profiles
+	370 Tab
+	371 Window
+	372 Help
+
+The focused UI element is 156 button Save

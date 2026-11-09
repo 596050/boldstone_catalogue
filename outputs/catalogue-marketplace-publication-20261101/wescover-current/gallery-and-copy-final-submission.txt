@@ -1,0 +1,59 @@
+Browser tab: 961982414, Title: "Submission Received for Your Creator Page | Wescover Tools", URL: "https://edit.wescover.com/creator/MSJZKJh9uMg?anchor=items".
+1 AXWebArea Submission Received for Your Creator Page | Wescover Tools, URL: edit.wescover.com/creator/MSJZKJh9uMg?anchor=items
+	2 container
+		3 container app
+			4 container Page navigation
+				5 button Expand sidebar
+					6 image
+				7 link edit.wescover.com/creator/MSJZKJh9uMg/dashboard
+				8 button (collapsed) Secondary Actions: Expand
+				9 link edit.wescover.com/creator/MSJZKJh9uMg/pricing-manager
+				10 button (collapsed) Secondary Actions: Expand
+				11 link wescover.com/goto?creatorSid=MSJZKJh9uMg&gac=share
+				12 link edit.wescover.com/creator/inbox
+				13 button (collapsed) Secondary Actions: Expand
+				14 button (collapsed) Secondary Actions: Expand
+				15 link edit.wescover.com/logout?redirect=%2F
+			16 container
+				17 link Value: edit.wescover.com/, ID: dash-logo
+				18 text Sally
+				19 image Sally
+			324 heading WE'VE RECEIVED YOUR SUBMISSION, Value: 2
+				325 text WE'VE RECEIVED YOUR SUBMISSION
+			326 container
+				327 text Please allow up to 24h for us to review and upload this submission. You can continue to edit your page while we are reviewing. 
+				328 button Edit your page
+			329 container
+				330 image hero background
+				331 heading Increase traffic and get more inquiries from potential buyers., Value: 2
+					332 text Increase traffic and get more inquiries from potential buyers.
+				333 heading LIST A PRICE, Value: 3
+					334 text LIST A PRICE
+				335 text If you can’t provide an exact price, include a range or “starting at” price.
+				336 link Description: Add pricing, Value: edit.wescover.com/creator/MSJZKJh9uMg
+				337 heading SET TRADE DISCOUNTS, Value: 3
+					338 text SET TRADE DISCOUNTS
+				339 text Most trade members are looking for special pricing so they can pass on that benefit to their clients.
+				340 link Description: Add a Trade discount, Value: edit.wescover.com/creator/MSJZKJh9uMg/account?anchor=trade
+				341 heading TAG ITEMS, Value: 3
+					342 text TAG ITEMS
+				343 text Add search term tags to all your items so that they’re easy to find and properly categorized.
+				344 link Description: Add Tags, Value: edit.wescover.com/creator/MSJZKJh9uMg
+			308 container
+				309 link Value: edit.wescover.com/, ID: footer-logo
+				310 content list footer-navbar
+					311 link Description: FAQ, Value: wescover.com/faq
+					312 link Description: CONTACT US, Value: mailto:communication@wescover.com
+				313 container footer-social
+					314 link Description: , Value: facebook.com/wescoverapp/
+					315 link tiktok.com/@wescover.app
+					316 link Description: , Value: instagram.com/wescoverapp
+				317 container footer-bottom-bar
+					318 link Description: © 2026 Wescover, Inc., Value: wescover.com/about
+					319 link Description: Privacy, Value: wescover.com/static/privacy
+					320 link Description: Terms, Value: wescover.com/static/generalterms
+		321 button Description: Feedback - Show survey, ID: hj-survey-toggle-1
+			322 image
+			323 text Feedback
+
+The focused UI element is 1 AXWebArea Submission Received for Your Creator Page | Wescover Tools, URL: edit.wescover.com/creator/MSJZKJh9uMg?anchor=items

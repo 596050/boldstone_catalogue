@@ -1,0 +1,307 @@
+- banner:
+  - link "Skip to main content":
+    - /url: "#mainContent"
+  - link "eBay Home":
+    - /url: https://www.ebay.co.uk
+    - img "eBay Home"
+- main:
+  - button "Help":
+  - button "More options":
+  - heading "Complete your listing" [level=1]
+  - heading "Photos & Video" [level=2]
+  - button "See photo options":
+    - generic: See photo options
+  - generic: You can add up to 24 photos and a 1-minute video. Buyers want to see all details and angles.
+  - generic "Learn about the photo tips to attract more buyers":
+    - button "Tips for taking pro photos"
+    - region "Photo tips":
+      - generic: Photo tips
+      - paragraph: Learn how to take photos that attract buyers and help avoid returns.
+      - button "Dismiss photo infotip":
+  - paragraph:
+    - text: 0/25
+    - generic: 0 out of 25 photos or videos uploaded
+  - heading "Drag and drop files" [level=3]
+  - button "Upload from computer"
+  - heading "Title" [level=2]
+  - button "See title options":
+    - generic: See title options
+  - generic: Item title
+  - textbox "Item title": Boldstone handmade wall sculpture
+  - generic: 33/80
+  - generic: 33 of 80 characters
+  - heading "Item category" [level=2]
+  - button "Edit Item category":
+    - text: Edit
+  - button "Art Sculptures Item category First category": Art Sculptures
+  - generic: in Art
+  - heading "Variations" [level=2]
+  - button "Edit Variations":
+    - text: Edit
+  - generic: Save time and money by listing multiple variations of your item in one multi-quantity, fixed price listing.
+  - heading "Item specifics" [level=2]
+  - group "Essential":
+    - heading "Essential" [level=3]
+    - button "Material"
+    - button "Material":
+    - button "Artist"
+    - button "Artist":
+    - button "Size"
+    - button "Size":
+    - button "Item Length"
+    - button "Item Length":
+  - group "Optional":
+    - heading "Optional" [level=3]
+    - button "Style"
+    - button "Style":
+    - button "Format"
+    - button "Format":
+    - button "Theme"
+    - button "Theme":
+    - button "Original/Licensed Reproduction"
+    - list "Original/Licensed Reproduction":
+      - button "Original"
+      - button "Licensed Reproduction"
+    - button "Features"
+    - button "Features":
+    - button "Year of Production"
+    - button "Year of Production":
+    - button "Region of Origin"
+    - button "Region of Origin":
+    - button "Time Period Produced"
+    - button "Time Period Produced":
+    - button "Production Technique"
+    - button "Production Technique":
+    - button "Culture"
+    - button "Culture":
+    - button "Handmade"
+    - list "Handmade":
+      - button "Yes"
+      - button "No"
+    - generic: Period
+    - button "Period":
+    - button "Title"
+    - textbox "Title":
+      - /placeholder: Enter your own
+    - button "Subject"
+    - button "Subject":
+    - button "Type"
+    - button "Sculpture":
+      - generic: Sculpture
+  - button "Show more":
+    - generic: Show more
+  - heading "Condition" [level=2]
+  - heading "Item condition" [level=3]
+  - button "New Item condition": New
+  - heading "Description" [level=2]
+  - list:
+    - button "Bold": B
+    - button "Unordered list":
+    - button "Custom template":
+      - generic: Custom template
+    - button "Show all options"
+  - iframe [id="se-rte-frame__summary"] [name="se-rte-frame__summary"]:
+    - textbox "Description"
+  - button "Use AI description"
+  - heading "Pricing" [level=2]
+  - button "See pricing options":
+    - generic: See pricing options
+  - generic: Format
+  - button "Format Buy It Now":
+    - generic: Buy It Now
+  - generic: Item price
+  - generic: £
+  - textbox "Item price"
+  - checkbox "Require immediate payment when buyer uses Buy it now" [checked]
+  - generic: Require immediate payment when buyer uses Buy it now
+  - region:
+    - generic: Immediate payment is automatically applied to eligible listings. No action is required
+    - button "Close":
+  - generic: Quantity
+  - textbox "Quantity": "1"
+  - generic: Allow offers
+  - text: (optional)
+  - generic: Interested buyers can send an offer for this item. You can accept, counter or decline. Buyer offers may include a Buyer Protection fee, paid to eBay.
+  - switch "Allow offers" [checked]
+  - generic: Minimum offer
+  - generic: £
+  - textbox "Minimum offer"
+  - generic: Auto-accept
+  - generic: £
+  - textbox "Auto-accept"
+  - generic: Schedule your listing
+  - generic: Your listing goes live immediately, unless you select a time and date you want it to start.
+  - switch "Schedule your listing"
+  - heading "Delivery details" [level=2]
+  - button "See postage options":
+    - generic: See postage options
+  - list "Delivery method":
+    - button "Postage or collection in person Let buyers choose how they get their items." [pressed]:
+      - generic: Postage or collection in person
+      - generic: Let buyers choose how they get their items.
+    - button "Postage only Post items directly to buyers.":
+      - generic: Postage only
+      - generic: Post items directly to buyers.
+    - button "No postage. Collection in person only Arrange collection in person without any postage costs.":
+      - generic: No postage. Collection in person only
+      - generic: Arrange collection in person without any postage costs.
+  - heading "Package size" [level=3]
+  - button "Small parcel Up to 2 kg, 45 x 35 x 16 cm":
+    - generic: Small parcel
+    - generic: Up to 2 kg, 45 x 35 x 16 cm
+  - heading "Domestic postage" [level=3]
+  - generic: Simple Delivery
+  - generic: Prepaid Royal Mail, Evri or InPost label provided
+  - generic: Full protection and tracking
+  - generic: 1–3 business days
+  - button "How it works"
+  - link "Choose couriers":
+    - /url: /ship/prf/simpledelivery?returnUrl=https%3A%2F%2Fwww.ebay.co.uk%2Flstng%3FdraftId%3D5455995968411%26mode%3DAddItem
+  - region "Your item is posted with Simple Delivery":
+    - generic: Your item is posted with Simple Delivery
+    - text: You'll get a prepaid label that's tracked and fully protected by eBay in case of loss or damage in transit.
+    - button "Dismiss tourtip":
+    - button "Got it"
+  - heading "Who pays?" [level=4]
+  - list:
+    - button "Buyer pays"
+    - button "Seller pays"
+  - generic: "The buyer will pay rates starting from:"
+  - generic: £3.38
+  - generic: Based on the service they select
+  - heading "Collection in person" [level=3]
+  - generic: Reach local buyers and post fewer packages.
+  - generic: Postcode
+  - textbox "Postcode": BA2 7BX
+  - generic: City, area
+  - textbox "City, area": Bath
+  - generic: Postcode will not be visible on the listing.
+  - heading "Preferences" [level=3]
+  - heading "Your settings" [level=4]
+  - generic: 3 working days handling
+  - generic: Item location BA2 7BX (Bath, United Kingdom)
+  - generic: Postcode not visible on listing
+  - generic: No returns accepted
+  - generic: Unless item is not as described
+  - button "Your settings - edit":
+  - generic: Excluded locations
+  - text: (optional)
+  - button "Excluded locations":
+    - generic: None
+  - heading "Item disclosures" [level=2]
+  - generic: Add product information to meet regulatory requirements in your buyer's region.
+  - generic: Product documents
+  - text: Upload user guides, certificates, documents and accessibility information that are included with the item.
+  - link "Learn more – opens in a new window or tab":
+    - /url: https://www.ebay.co.uk/help/selling/selling/hazardous-materials-labeling?id=5407
+    - text: Learn more
+    - generic: – opens in a new window or tab
+  - switch "Product documents"
+  - heading "PROMOTE YOUR LISTING" [level=2]
+  - paragraph: Competitive category
+  - paragraph: 45% of items in Art Sculptures are promoted right now.
+  - generic: Sponsored
+  - heading "General" [level=4]
+  - switch "Toggle General"
+  - generic: 90%
+  - text: more visibility, on
+  - text: average.
+  - button "More visibility explanation":
+  - list:
+    - generic: Basic access to ad placements
+    - generic: Only pay when your item sells
+  - heading "Priority" [level=4]
+  - switch "Toggle Priority"
+  - generic: 170%
+  - text: more visibility, on
+  - text: average.
+  - button "More visibility explanation":
+  - list:
+    - generic: Exclusive access to the top of search
+    - generic: Advanced targeting and bid controls
+    - generic: Priority ranking in ad placements
+    - generic: Only pay for clicks on your ads
+  - button "Help me choose":
+    - text: Help me choose
+  - heading "Charity" [level=2]
+  - button "Edit Charity":
+    - text: Edit
+  - region "information":
+    - img "information"
+    - paragraph:
+      - text: Donate a portion of this sale to the charity of your choice.
+      - link "Learn more Opens in a new window or tab":
+        - /url: http://www.ebay.co.uk/help/donating-ebay-charity/default/buying-selling-ebay-benefit-nonprofit-organizations?id=4668
+        - text: Learn more
+        - generic: Opens in a new window or tab
+  - heading "Listing fee" [level=2]
+  - generic: £0.00
+  - text: "No"
+  - link "transaction fees":
+    - /url: http://www.ebay.co.uk/help/selling/fees-credits-invoices/fees-private-sellers?id=4822
+  - text: will be applied. You accept that the duration of your listing may vary due to delayed appearance in search.
+  - link "Learn more":
+    - /url: https://www.ebay.co.uk/help/selling/listings/listings-overview?id=4072
+  - text: By selecting List it for free, you agree to pay the above fees, accept the
+  - link "eBay User Agreement - opens in new window or tab":
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+    - text: eBay User Agreement
+    - generic: "- opens in new window or tab"
+  - text: ","
+  - link "Payments Terms of Use - opens in new window or tab":
+    - /url: https://pages.ebay.co.uk/payment/2.0/terms.html
+    - text: Payments Terms of Use
+    - generic: "- opens in new window or tab"
+  - text: ","
+  - link "Marketing Program Terms - opens in new window or tab":
+    - /url: https://pages.ebay.co.uk/sell/pl/termsofservice.html
+    - text: Marketing Program Terms
+    - generic: "- opens in new window or tab"
+  - text: and
+  - link "Delivery Terms and Conditions - opens in new window or tab":
+    - /url: https://pages.ebay.co.uk/managed-shipping-sellers/
+    - text: Delivery Terms and Conditions
+    - generic: "- opens in new window or tab"
+  - text: ; acknowledge reading the
+  - link "User Privacy Notice - opens in new window or tab":
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+    - text: User Privacy Notice
+    - generic: "- opens in new window or tab"
+  - text: ", agree to offer products and services that comply with all applicable laws, and assume full responsibility for the item offered and the content of your listing."
+  - text: By using Simple Delivery, you agree to the
+  - link "eBay delivery Terms and Conditions":
+    - /url: https://pages.ebay.co.uk/shipping/delivery/seller-tnc.html
+  - text: .
+  - button "List it for free"
+  - button "Save for later"
+  - button "Preview"
+  - paragraph:
+    - text: "'Buy It Now' listings will renew automatically every month based on the listing terms at that time, until the item sells or the listing is ended."
+    - link "Fees may apply. - opens in new window or tab":
+      - /url: https://www.ebay.co.uk/help/selling/fees-credits-invoices/selling-fees?id=4822
+      - text: Fees may apply.
+      - generic: "- opens in new window or tab"
+  - paragraph: To improve your chances of selling, we may send you offers from buyers that you can choose to accept or decline.
+  - paragraph:
+    - text: Funds from your sales may be unavailable and show as pending for a period of time.
+    - link "Learn more - opens in new window or tab":
+      - /url: http://www.ebay.co.uk/help/selling/selling-getting-paid/pending-payments?id=4155
+      - text: Learn more
+      - generic: "- opens in new window or tab"
+- contentinfo:
+  - text: Copyright © 1995-2026 eBay Inc. All Rights Reserved.
+  - link "User Agreement":
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+  - text: ","
+  - link "Privacy":
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+  - text: ","
+  - link "Payments Terms of Use":
+    - /url: https://pages.ebay.co.uk/payment/2.0/terms.html
+  - text: ","
+  - link "Cookies":
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+  - text: and
+  - link "AdChoice":
+    - /url: https://www.ebay.co.uk/adchoice
+    - text: AdChoice

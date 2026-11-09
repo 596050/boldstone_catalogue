@@ -1,0 +1,142 @@
+Window: "DevTools - manage.brandboom.com/products/s/111089", App: Google Chrome.
+0 standard window DevTools - manage.brandboom.com/products/s/111089 – Tom, Secondary Actions: Raise, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true&panel=console
+	1 container DevTools - manage.brandboom.com/products/s/111089 – Tom, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true&panel=console
+		2 container
+			3 container
+				4 scroll area
+					5 HTML content DevTools, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true&panel=console
+						6 container
+							7 container
+								8 container
+									9 container Main toolbar
+										10 toolbar
+											11 container Select an element in the page to inspect it, Help: Select an element in the page to inspect it - ⌘ ⇧ C
+												12 toggle button Select an element in the page to inspect it - ⌘ ⇧ C, Value: 0
+											13 container Toggle device toolbar, Help: Toggle device toolbar - ⌘ ⇧ M
+												14 toggle button Toggle device toolbar - ⌘ ⇧ M, Value: 0
+										15 container
+											16 tab group Panels
+												17 tab (selected) Console, Value: 1
+												18 tab (settable, integer) Elements, Value: 0
+												19 tab (settable, integer) Application, Value: 0
+												20 tab (settable, integer) Sources, Value: 0
+											21 pop-up button More tabs
+										22 toolbar
+											23 container
+												24 container Open Console to view 1,011 errors
+													25 button Open Console to view 1,011 errors
+												26 container Open Issues to view 324 issues: 4 page errors, 56 breaking changes, 264 possible improvements
+													27 button Open Issues to view 324 issues: 4 page errors, 56 breaking changes, 264 possible improvements
+											28 button  AI assistance, Help: Open AI assistance panel
+											29 container Settings, Help: Settings - F1 - ⇧ ?
+												30 button Settings - F1 - ⇧ ?
+											31 pop-up button Customize and control DevTools
+												32 button Customize and control DevTools
+									33 container Console panel
+										34 container console
+											35 container
+												36 toolbar
+													37 container Show Console sidebar
+														38 button Show Console sidebar
+													39 container Clear console, Help: Clear console - Ctrl L - ⌘ K
+														40 button Clear console - Ctrl L - ⌘ K
+													41 container Collapse all
+														42 button Collapse all
+													43 button JavaScript context: top
+													44 container Create live expression
+														45 button Create live expression
+													46 container
+														47 text entry area (settable) Filter, Value: upload
+															48 text upload
+														49 container Clear
+															50 button Clear
+													51 pop-up button Log level: Default levels
+														52 text Default levels
+													53 container Some problems no longer generate console messages, but are surfaced in the Issues tab Click to view 4 page errors, 56 breaking changes, 264 possible improvements
+														54 button Some problems no longer generate console messages, but are surfaced in the Issues tab Click to view 4 page errors, 56 breaking changes, 264 possible improvements
+													55 text 1,012 hidden
+													56 container Console settings
+														57 toggle button Console settings, Value: 0
+													58 container 1 messages in console
+												59 container
+													60 container Uncaught Error: Unexpected error: UploaderPublicApi is not initialized
+														61 container
+															62 text 00:01:25.355
+															63 container Error
+															64 container base.bundle.js:2 Uncaught Stack table collapsed
+																65 container
+																	66 button base.bundle.js?v=22.3.3:2, Help: https://manage.brandboom.com/static/js/base.bundle.js?v=22.3.3:2
+																	67 text Uncaught Error: Unexpected error: UploaderPublicApi is not initialized     at  get api  (
+																	68 link 6674.bundle.js:1:267537, Help: https://manage.brandboom.com/Framework/static/CMS/js/6674.bundle.js:1:267537
+																		69 text 6674.bundle.js:1:267537
+																	70 text )     at 
+																	71 link 6674.bundle.js:1:269170, Help: https://manage.brandboom.com/Framework/static/CMS/js/6674.bundle.js:1:269170
+																		72 text 6674.bundle.js:1:269170
+																	73 text     at 
+																	74 link 6674.bundle.js:1:179108, Help: https://manage.brandboom.com/Framework/static/CMS/js/6674.bundle.js:1:179108
+																		75 text 6674.bundle.js:1:179108
+																	76 text     at  n  (
+																	77 link base.bundle.js?v=22.3.3:2:205240, Help: https://manage.brandboom.com/static/js/base.bundle.js?v=22.3.3:2:205240
+																		78 text base.bundle.js?v=22.3.3:2:205240
+																	79 text )
+													80 container
+														81 container
+															82 text entry area (settable) Console prompt, Value: Press cmd i to turn on code suggestions Press cmd x to disable code suggestions
+
+																83 text Press cmd i to turn on code suggestions Press cmd x to disable code suggestions
+								84 container Drawer
+									85 container
+										86 toolbar
+											87 pop-up button More tools
+												88 button More tools
+										89 tab group
+											90 tab (settable, integer) Console, Value: 0
+											91 tab (settable, integer) Issues, Value: 0
+											92 tab (selected) What’s new, Value: 1
+											93 tab (settable, integer) AI assistance, Value: 0
+										94 pop-up button More tabs
+										95 toolbar
+											96 container Toggle drawer orientation
+												97 button Toggle drawer orientation
+											98 container Expand drawer
+												99 button Expand drawer
+											100 container Close drawer
+												101 button Close drawer
+										102 container What’s new panel
+											103 container whats-new
+												104 container
+													105 text New in DevTools (November 2026)
+													106 button See all new features
+													107 heading DevTools for agents, Value: 3
+														108 link DevTools for agents, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#mcp
+															109 text DevTools for agents
+													110 container
+														111 text Inspect matched rules, inherited styles, pseudo-elements, and  @  rules with the  get_css_styles  tool in Chrome DevTools for agents. You can also manage server flags with a configuration file and parse large performance traces with chunked trace buffer parsing.
+													112 heading Visual position-area editor for CSS anchor positioning, Value: 3
+														113 link Visual position-area editor for CSS anchor positioning, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#sources
+															114 text Visual position-area editor for CSS anchor positioning
+													115 container
+														116 text Click the inline swatch next to a  position-area  declaration in the  Styles  tab to visually select anchor grid regions, configure axis modes, and toggle the  self  keyword. Right-click  popover  adorners in the DOM tree to disambiguate multiple implicit anchors.
+													117 heading Web Install manifest diagnostics and ad script provenance, Value: 3
+														118 link Web Install manifest diagnostics and ad script provenance, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#web-install-manifest-diagnosti
+															119 text Web Install manifest diagnostics and ad script provenance
+													120 container
+														121 text Diagnose Web Install ( navigator.install  and  <install> ) manifest errors in the  Issues  panel with direct links to affected manifests. In the  Application  panel's  Ads  section, use the new  Ad provenance  column to see whether script ancestry or a filter list rule tagged an ad script.
+							122 text DevTools is undocked 
+	123 close button
+	124 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	125 minimise button
+	126 text DevTools - manage.brandboom.com/products/s/111089
+127 menu bar
+	128 Chrome
+	129 File
+	130 Edit
+	131 View
+	132 History
+	133 Bookmarks
+	134 Profiles
+	135 Tab
+	136 Window
+	137 Help
+
+The focused UI element is 47 text entry area (settable) Filter, Value: upload

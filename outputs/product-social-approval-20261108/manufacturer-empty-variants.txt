@@ -1,0 +1,166 @@
+Window: "Variants - Manufacturer Center", App: Google Chrome.
+0 standard window Variants - Manufacturer Center - Google Chrome – Tom, Secondary Actions: Raise, URL: manufacturers.google.com/mc/products/variants?a=5898308482&variantsState=%7B%222%22%3A%5B%7B%221%22%3A%22title%22%2C%222%22%3A1%7D%5D%7D
+	1 container Variants - Manufacturer Center - Google Chrome – Tom, URL: manufacturers.google.com/mc/products/variants?a=5898308482&variantsState=%7B%222%22%3A%5B%7B%221%22%3A%22title%22%2C%222%22%3A1%7D%5D%7D
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: manufacturers.google.com/mc/products/variants?a=5898308482&variantsState=%7B"2"%3A%5B%7B"1"%3A"title"%2C"2"%3A1%7D%5D%7D
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Variants - Manufacturer Center, URL: manufacturers.google.com/mc/products/variants?a=5898308482&variantsState=%7B%222%22%3A%5B%7B%221%22%3A%22title%22%2C%222%22%3A1%7D%5D%7D
+						26 container
+							27 container
+								28 button Open/close navigation menu
+								29 link Manufacturer Center home, Value: manufacturers.google.com/mc/overview?a=5898308482
+								30 link Products, Value: manufacturers.google.com/mc/products/variants?a=5898308482
+								31 heading Variants, within Products, in Manufacturer Center, Value: 1
+									32 text Variants
+								33 pop-up button Tools and settings
+								34 pop-up button Help menu
+								35 text 5898308482 (Boldstone)
+								36 text info@boldstone.co.uk
+								37 container
+									38 pop-up button Google account
+										39 image Google account (info@boldstone.co.uk)
+							40 outline
+								41 row Overview
+									42 text Overview
+								43 row Diagnostics
+									44 text Diagnostics
+								45 row Brands
+									46 text Brands
+								47 row Products
+									48 text Products
+									49 container
+										50 row (selected) Variants
+											51 text Variants
+										52 row Groups
+											53 text Groups
+										54 row Feeds
+											55 text Feeds
+							56 container
+								57 container
+									58 button Show filtering options
+									59 pop-up button 'Columns' lets you modify the columns you see in your table. Click the icon and select 'Modify columns.'
+									60 button Download .CSV file
+								61 table Variants table
+									62 row Select all rows Image Title ID Brand Feed label Language GTIN MPN Item group ID Impressions Clicks CTR Creator feed Destination Status
+										63 cell
+											64 Tick box (disabled) Select all rows, Value: 0
+										65 column header
+											66 text Image
+										67 column header
+											68 text Title
+										69 column header ID
+											70 text ID
+										71 column header Brand
+											72 text Brand
+										73 column header Feed label
+											74 text Feed label
+										75 column header Language
+											76 text Language
+										77 column header GTIN
+											78 text GTIN
+										79 column header MPN
+											80 text MPN
+										81 column header Item group ID
+											82 text Item group ID
+										83 column header Impressions
+											84 text Impressions
+										85 column header Clicks
+											86 text Clicks
+										87 column header CTR
+											88 text CTR
+										89 column header
+											90 text Creator feed
+										91 column header
+											92 text Destination
+										93 column header
+											94 text Status
+									95 row No results
+										96 cell
+											97 text No results
+								98 container
+									99 link Privacy Policy, Value: google.com/policies/privacy/
+									100 text •
+									101 link Terms of Service, Value: manufacturers.google.com/manufacturers/tos.html
+									102 text •
+									103 link Program Policies, Opens in a new tab, Value: support.google.com/manufacturers/answer/6371582?hl=en-US
+			104 pop-up button Tab search
+			105 container
+				106 tab group
+					107 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					108 tab group  group ✅Claude – 1 Tab, •  Overview | Microsoft Advertising – Expanded
+					109 tab (settable, boolean) Overview | Microsoft Advertising – Part of group ✅Claude, Value: off
+					110 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					111 tab (settable, boolean) Boldstone Sculpture | Boldstone Wall Sculptures, Value: off
+					112 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					113 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					114 tab group  group ✅Claude – 4 Tabs, •  Pinterest, •  Squarespace Domains — boldstonesculpture.com —…, •  Wall Sculpture & Sculptural Furnishings | Bold…, •  boldstonesculpture.com | boldstonesculpture.co… – Expanded
+					115 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					116 tab (settable, boolean) Squarespace Domains — boldstonesculpture.com — DNS Settings – Part of group ✅Claude, Value: off
+					117 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK – Part of group ✅Claude, Value: off
+					118 tab (settable, boolean) Value: off, boldstonesculpture.com | boldstonesculpture.com | Sally.v.price@gmail.com's Account | Cloudflare – Part of group ✅Claude
+					119 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					120 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					121 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					122 tab (selected, settable, boolean) Variants - Manufacturer Center, Value: on
+					123 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					124 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					125 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					126 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					127 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					128 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					129 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					130 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					131 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					132 tab (settable, boolean) Inbox (7,127) - tppricet@gmail.com - Gmail, Value: off
+					133 tab (settable, boolean) Portela Nova — open-source property manager for short-term rentals, Value: off
+					134 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					135 tab (settable, boolean) Meta Business Suite, Value: off
+					136 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					137 tab (settable, boolean) Search results - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 811 MB, Value: off
+					138 tab (settable, boolean) Meta Business Suite, Value: off
+					139 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+			140 button New tab
+	141 close button
+	142 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	143 minimise button
+144 menu bar
+	145 Chrome
+	146 File
+	147 Edit
+	148 View
+	149 History
+	150 Bookmarks
+	151 Profiles
+	152 Tab
+	153 Window
+	154 Help
+
+The focused UI element is 50 row (selected) Variants

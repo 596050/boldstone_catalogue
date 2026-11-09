@@ -1,0 +1,264 @@
+127.0.0.1 - - [27/Oct/2026 13:41:14] "POST /api/deletions/execute-batch HTTP/1.1" 403 -
+127.0.0.1 - - [27/Oct/2026 13:41:14] "POST /api/deletions/execute-batch HTTP/1.1" 202 -
+127.0.0.1 - - [27/Oct/2026 13:41:14] "POST /api/deletions/execute-batch HTTP/1.1" 202 -
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 403: 'Forbidden'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:35: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10af99700>
+  def update_wrapper(wrapper,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:35: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10af98900>
+  def update_wrapper(wrapper,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:35: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10af98740>
+  def update_wrapper(wrapper,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:35: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10af989e0>
+  def update_wrapper(wrapper,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:35: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10af983c0>
+  def update_wrapper(wrapper,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:35: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10af984a0>
+  def update_wrapper(wrapper,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:35: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10af98120>
+  def update_wrapper(wrapper,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:35: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10af98f20>
+  def update_wrapper(wrapper,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:35: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10af98200>
+  def update_wrapper(wrapper,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:35: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10af982e0>
+  def update_wrapper(wrapper,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+All filename work verified. App native jobs released.
+All filename work verified. App native jobs released.
+======================================================================
+ERROR: test_many_completed_jobs_cannot_hide_old_active_jobs (test_background_jobs.BackgroundJobTests.test_many_completed_jobs_cannot_hide_old_active_jobs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/catalogue-review/tests/test_background_jobs.py", line 195, in test_many_completed_jobs_cannot_hide_old_active_jobs
+    self.assertEqual(snapshot['reservation']['label'],'Check an interrupted Dropbox job')
+                     ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+======================================================================
+FAIL: test_native_changed_revision_after_queue_is_rejected_and_rest_not_attempted (test_background_jobs.BackgroundJobTests.test_native_changed_revision_after_queue_is_rejected_and_rest_not_attempted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/catalogue-review/tests/test_background_jobs.py", line 71, in test_native_changed_revision_after_queue_is_rejected_and_rest_not_attempted
+    self.assertEqual(result['state'],'needs_review');self.assertEqual(self.client.calls,[])
+                                                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [('id:keeper', 'a1')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+('id:keeper', 'a1')
+
+- [('id:keeper', 'a1')]
++ []
+
+======================================================================
+FAIL: test_failed_preconditions_release_unattempted_files_for_new_review (test_deletion_activity.DeletionActivityTests.test_failed_preconditions_release_unattempted_files_for_new_review)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/catalogue-review/tests/test_deletion_activity.py", line 68, in test_failed_preconditions_release_unattempted_files_for_new_review
+    self.assertNotIn(KEEPER, self.jobs.deletion_activity())
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'id:keeper' unexpectedly found in {'id:keeper': {'file_id': 'id:keeper', 'job_id': None, 'operation_id': 'db1WgxaEzd1YgYdDJ70VybLUOhRqcm_s', 'state': 'deleted', 'kind': 'delete', 'name': 'keeper.jpg'}}
+
+======================================================================
+FAIL: test_unknown_first_result_does_not_reserve_unattempted_batch_members (test_deletion_activity.DeletionActivityTests.test_unknown_first_result_does_not_reserve_unattempted_batch_members)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/catalogue-review/tests/test_deletion_activity.py", line 52, in test_unknown_first_result_does_not_reserve_unattempted_batch_members
+    self.assertEqual(states[TARGET]['state'], 'uncertain'); self.assertNotIn(KEEPER, states)
+                                                            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: 'id:keeper' unexpectedly found in {'id:target': {'file_id': 'id:target', 'job_id': 'delete-batch-o9RqSfGWM9guAstqR-DRw9zRGyw6cNb_', 'operation_id': 'cFrBQtDFy2bu0KmjoJSnWhuTOx8GiwNp', 'state': 'uncertain', 'kind': 'delete', 'name': 'target.jpg'}, 'id:keeper': {'file_id': 'id:keeper', 'job_id': 'delete-batch-o9RqSfGWM9guAstqR-DRw9zRGyw6cNb_', 'operation_id': 'RviRJcRr0zsk9cw_Nt6w-SZARfOO3pPx', 'state': 'uncertain', 'kind': 'delete', 'name': 'keeper.jpg'}}
+
+======================================================================
+FAIL: test_native_rejection_stops_remaining_files (test_deletions.DeletionBatchTests.test_native_rejection_stops_remaining_files)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/catalogue-review/tests/test_deletions.py", line 319, in test_native_rejection_stops_remaining_files
+    self.assertEqual([r['state'] for r in result['results']],['deleted','rejected','not_started'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: ['deleted', 'rejected', 'deleted'] != ['deleted', 'rejected', 'not_started']
+
+First differing element 2:
+'deleted'
+'not_started'
+
+- ['deleted', 'rejected', 'deleted']
+?                          ^^^^
+
++ ['deleted', 'rejected', 'not_started']
+?                          ^^^^^^^^
+
+
+======================================================================
+FAIL: test_uncertainty_stops_remaining_files_and_status_read_never_retries (test_deletions.DeletionBatchTests.test_uncertainty_stops_remaining_files_and_status_read_never_retries)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/catalogue-review/tests/test_deletions.py", line 307, in test_uncertainty_stops_remaining_files_and_status_read_never_retries
+    self.assertEqual([r['state'] for r in result['results']],['deleted','uncertain','not_started'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: ['deleted', 'uncertain', 'deleted'] != ['deleted', 'uncertain', 'not_started']
+
+First differing element 2:
+'deleted'
+'not_started'
+
+- ['deleted', 'uncertain', 'deleted']
+?                           ^^^^
+
++ ['deleted', 'uncertain', 'not_started']
+?                           ^^^^^^^^
+
+
+======================================================================
+FAIL: test_change_after_recovery_queue_is_checked_again_at_execution (test_rename_deletions.RenameRecoveryTests.test_change_after_recovery_queue_is_checked_again_at_execution)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/catalogue-review/tests/test_rename_deletions.py", line 216, in test_change_after_recovery_queue_is_checked_again_at_execution
+    self.assertEqual(self.client.calls, [])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [('id:keeper', 'a1')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+('id:keeper', 'a1')
+
+- [('id:keeper', 'a1')]
++ []
+
+======================================================================
+FAIL: test_changed_context_during_native_validation_rolls_back_recovery (test_rename_deletions.RenameRecoveryTests.test_changed_context_during_native_validation_rolls_back_recovery)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/catalogue-review/tests/test_rename_deletions.py", line 201, in test_changed_context_during_native_validation_rolls_back_recovery
+    self.assertEqual(self.client.calls, [])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [('id:keeper', 'a1')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+('id:keeper', 'a1')
+
+- [('id:keeper', 'a1')]
++ []
+
+======================================================================
+FAIL: test_check_retains_attempt_identity_and_rename_audit_after_lost_readback (test_rename_deletions.RenameRecoveryTests.test_check_retains_attempt_identity_and_rename_audit_after_lost_readback)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/catalogue-review/tests/test_rename_deletions.py", line 269, in test_check_retains_attempt_identity_and_rename_audit_after_lost_readback
+    self.assertEqual(self.client.calls, [(TARGET,'a2')])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [('id:target', 'a2'), ('id:keeper', 'a1')] != [('id:target', 'a2')]
+
+First list contains 1 additional elements.
+First extra element 1:
+('id:keeper', 'a1')
+
+- [('id:target', 'a2'), ('id:keeper', 'a1')]
++ [('id:target', 'a2')]
+
+======================================================================
+FAIL: test_failed_outbox_commit_rolls_back_replacement_operations_and_old_state (test_rename_deletions.RenameRecoveryTests.test_failed_outbox_commit_rolls_back_replacement_operations_and_old_state)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/catalogue-review/tests/test_rename_deletions.py", line 210, in test_failed_outbox_commit_rolls_back_replacement_operations_and_old_state
+    self.assertEqual(self.client.calls, [])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [('id:keeper', 'a1')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+('id:keeper', 'a1')
+
+- [('id:keeper', 'a1')]
++ []
+
+======================================================================
+FAIL: test_other_active_deletion_blocks_recovery_without_repeating_any_action (test_rename_deletions.RenameRecoveryTests.test_other_active_deletion_blocks_recovery_without_repeating_any_action)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/catalogue-review/tests/test_rename_deletions.py", line 276, in test_other_active_deletion_blocks_recovery_without_repeating_any_action
+    self.assertEqual(self.client.calls, [])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [('id:keeper', 'a1')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+('id:keeper', 'a1')
+
+- [('id:keeper', 'a1')]
++ []
+
+======================================================================
+FAIL: test_recovery_cannot_reset_an_uncertain_or_attempted_operation (test_rename_deletions.RenameRecoveryTests.test_recovery_cannot_reset_an_uncertain_or_attempted_operation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/catalogue-review/tests/test_rename_deletions.py", line 189, in test_recovery_cannot_reset_an_uncertain_or_attempted_operation
+    self.assertEqual(self.client.calls, [])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [('id:keeper', 'a1')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+('id:keeper', 'a1')
+
+- [('id:keeper', 'a1')]
++ []
+
+======================================================================
+FAIL: test_recovery_is_linked_atomic_and_idempotent_preserving_original_review (test_rename_deletions.RenameRecoveryTests.test_recovery_is_linked_atomic_and_idempotent_preserving_original_review)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/catalogue-review/tests/test_rename_deletions.py", line 164, in test_recovery_is_linked_atomic_and_idempotent_preserving_original_review
+    self.assertEqual(new['state'], 'queued'); self.assertEqual(self.client.calls, [])
+                                              ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [('id:keeper', 'a1')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+('id:keeper', 'a1')
+
+- [('id:keeper', 'a1')]
++ []
+
+======================================================================
+FAIL: test_unattempted_batch_member_failure_remains_visible_in_progress (test_rename_deletions.RenameRecoveryTests.test_unattempted_batch_member_failure_remains_visible_in_progress)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/catalogue-review/tests/test_rename_deletions.py", line 248, in test_unattempted_batch_member_failure_remains_visible_in_progress
+    self.assertEqual(result['state'], 'not_started')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'rejected' != 'not_started'
+- rejected
++ not_started
+
+
+======================================================================
+FAIL: test_unconfirmed_review_and_cancelled_job_cannot_be_resumed (test_rename_deletions.RenameRecoveryTests.test_unconfirmed_review_and_cancelled_job_cannot_be_resumed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/catalogue-review/tests/test_rename_deletions.py", line 226, in test_unconfirmed_review_and_cancelled_job_cannot_be_resumed
+    self.assertEqual(self.client.calls, [])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [('id:keeper', 'a1')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+('id:keeper', 'a1')
+
+- [('id:keeper', 'a1')]
++ []
+
+----------------------------------------------------------------------
+Ran 240 tests in 2.628s
+
+FAILED (failures=14, errors=1)

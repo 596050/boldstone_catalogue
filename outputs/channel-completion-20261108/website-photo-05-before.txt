@@ -1,0 +1,311 @@
+Window: "Wall Sculpture & Sculptural Furnishings | Boldstone, UK", App: Google Chrome.
+0 standard window URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Secondary Actions: Raise, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.2 GB - Google Chrome – Tom
+	1 container URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.2 GB - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 1
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Wall Sculpture & Sculptural Furnishings | Boldstone, UK, URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical
+						27 container
+							28 container Website pages and features
+							29 container
+								30 container
+									31 button CANCEL
+									32 heading Edit Cup Ring and Spiral Paver I - Brown Finish, Value: 1
+										33 text Edit Cup Ring and Spiral Paver I - Brown Finish
+									34 text Physical Product
+									35 content list
+										36 button Delete
+										37 button Duplicate
+										38 button (disabled) SAVE
+								39 container
+									40 container Product sections
+										41 button Details
+										42 button Forms
+										43 button Images
+										44 button Inventory
+										45 button Payment options
+										46 text New
+										47 button Fulfillment
+										48 button Organization
+										49 button Taxes
+										50 button Selling Tools
+										51 button Marketing
+									52 container
+										53 heading Details, Value: 2
+											54 text Details
+										55 text Product name
+										56 text field (settable) Product name, Value: Cup Ring and Spiral Paver I - Brown Finish, Placeholder: Eucalyptus Face Scrub
+										57 text Description
+										58 text entry area (settable) Simple circular marks and curling lines evoke the language of ancient rock art. The relief gives these elemental shapes a fresh setting, with texture and shadow adding depth to the design.
+A tactile accent for a contemporary wall, carrying the feeling of a discovered mark or a pattern worn into the landscape.
+This version is offered in the brown colourway.
+•Brand: Boldstone
+•Product type: Decorative paver panel
+•Model: Cup Ring and Spiral Paver I - Brown (BOLD-AAC2DC2CFEC2)
+•Colour / appearance: Textured brown surface
+•Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+•Material: Made from a gypsum-based material.
+•Surface effect: A decorative surface effect is applied to create the finish shown. Each piece is handmade. The surface-effect pattern will vary and will differ from the photographs.
+•Dimensions: Approximately 30 × 30 × 6 cm
+•Weight: Approximately 4 kg
+•Use: Suitable for outdoor use and indoor display.
+•Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+•Availability: Ready to dispatch
+•Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+•Dispatch time: Within 10 working days. Delivery transit time is additional.
+•Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+											59 text Simple circular marks and curling lines evoke the language of ancient rock art. The relief gives these elemental shapes a fresh setting, with texture and shadow adding depth to the design.
+											60 text A tactile accent for a contemporary wall, carrying the feeling of a discovered mark or a pattern worn into the landscape.
+											61 text This version is offered in the brown colourway.
+											62 content list
+												63 container
+													64 text • Brand:  Boldstone
+												65 container
+													66 text • Product type:  Decorative paver panel
+												67 container
+													68 text • Model:  Cup Ring and Spiral Paver I - Brown (BOLD-AAC2DC2CFEC2)
+												69 container
+													70 text • Colour / appearance:  Textured brown surface
+												71 container
+													72 text • Quantity supplied:  1 individually described sculpture or panel. Other pieces and room props shown are not included.
+												73 container
+													74 text • Material:  Made from a gypsum-based material.
+												75 container
+													76 text • Surface effect:  A decorative surface effect is applied to create the finish shown. Each piece is handmade. The surface-effect pattern will vary and will differ from the photographs.
+												77 container
+													78 text • Dimensions:  Approximately 30 × 30 × 6 cm
+												79 container
+													80 text • Weight:  Approximately 4 kg
+												81 container
+													82 text • Use:  Suitable for outdoor use and indoor display.
+												83 container
+													84 text • Fixings:  Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+												85 container
+													86 text • Availability:  Ready to dispatch
+												87 container
+													88 text • Custom design:  All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+												89 container
+													90 text • Dispatch time:  Within 10 working days. Delivery transit time is additional.
+												91 container
+													92 text • Delivery:  Delivery is quoted separately. Please contact us for UK and international delivery options.
+										93 text Button Text
+										94 text field (settable) Button Text, Placeholder: Add to Cart
+									95 container
+										96 heading Forms, Value: 2
+											97 text Forms
+										98 text Add to Cart Form
+										99 text Collect extra information from shoppers when they add this item to their cart. Form responses are displayed in your order details.
+										100 button ADD
+									101 container
+										102 heading Images, Value: 2
+											103 text Images
+										104 image Brown Cup Ring paver lying on grass, with a central cup and two raised circular rings.
+										105 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+										106 button Featured image pin
+										107 button open image action menu
+										108 button
+										109 button Change featured image
+										110 text Featured image
+										111 button open image action menu
+									112 container
+										113 heading Inventory, Value: 2
+											114 text Inventory
+										115 content list
+											116 container
+												117 text Price
+												118 text On sale
+												119 Tick box On sale, Value: 0
+												120 text £
+												121 stepper (settable, float) Price, Value: 39.34, Placeholder: 0.00
+												122 button increment
+												123 button decrement
+										124 text Stock
+										125 container
+											126 text Unlimited
+											127 Tick box Unlimited, Value: 1
+										128 text ∞
+										129 stepper (disabled) Stock, Value: 0, Secondary Actions: Increment, Decrement
+										130 button (disabled) increment
+										131 button (disabled) decrement
+										132 text SKU
+										133 container More info
+											134 image
+										135 text field (settable) SKU, Value: BOLD-AAC2DC2CFEC2, Placeholder: Add SKU
+										136 text GTIN
+										137 container More info
+											138 image
+										139 text field (settable) GTIN, Placeholder: Add GTIN, UPC, EAN, JAN, ISBN
+										140 text MPN
+										141 container More info
+											142 image
+										143 text field (settable) MPN, Placeholder: Add MPN
+										144 text Variants
+										145 text Sell different versions of the same product. For example, a shirt that comes in multiple colors or sizes.
+										146 button ADD
+										147 text Quantity limits New
+										148 Tick box enable or disable the showing of the Number input for Quantity limits, Value: 0
+										149 text Set the maximum quantity a customer can buy in a single order.
+									150 container
+										151 heading Payment options, Value: 2
+											152 text Payment options
+										153 container Subscriptions
+											154 text Subscriptions
+											155 text Charge customers on a recurring basis and offer discounts on repeat purchases. Subscriptions aren't available for products with add-ons.
+											156 button ADD
+									157 container
+										158 heading Fulfillment, Value: 2
+											159 text Fulfillment
+										160 text Fulfillment profiles
+										161 text Allow buyers to select how they'd like to receive this product. For example, Local Pickup or Ground Shipping.
+										162 combo box (settable) Fulfillment profiles, Value: Default
+											163 text Default
+											164 image
+										165 button SET UP
+										166 text Weight and dimensions
+										167 text Enabled
+										168 text Supports automated or weight-based shipping rates.
+										169 text 0 × 0 × 0 in · 11.03 lb
+										170 button Edit weight and dimensions
+										171 button Delete weight and dimensions
+									172 container
+										173 heading Organization, Value: 2
+											174 text Organization
+										175 text Visibility
+										176 combo box (settable) Visibility, Value: Public
+											177 text Public
+											178 image
+										179 text Tags
+										180 container
+											181 text Add keywords to connect related products. Tags can be used to create filters on your store page.
+											182 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/articles/231746347-Styling-store-pages#h_01JGPPMPYWYDKVHP17DKR1HA4F
+										183 combo box (settable) Tags, Placeholder: Add
+										184 text Wall Sculptures
+										185 button Remove Wall Sculptures
+										186 text Cup Ring and Spiral
+										187 button Remove Cup Ring and Spiral
+										188 text Catalogue 2026
+										189 button Remove Catalogue 2026
+										190 text BSI-AAC2DC2CFEC2
+										191 button Remove BSI-AAC2DC2CFEC2
+										192 container Categories
+											193 text Categories
+											194 text Create categories to bucket products. Categories will appear in the store's navigation.
+											195 container
+												196 text Sculpture
+												197 button Edit categories
+												198 button Remove all categories
+									199 container
+										200 heading Taxes, Value: 2
+											201 text Taxes
+										202 container Product Specific Tax Code
+											203 text Product Specific Tax Code
+											204 container
+												205 text Product specific tax codes are used to calculate correct tax rates during checkout. 
+												206 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/sections/200825098
+											207 container
+												208 container stripe-connect-ui-layer-stripe-connect-product-tax-code-selector
+									209 container
+										210 heading Selling Tools, Value: 2
+											211 text Selling Tools
+										212 text Add-ons
+										213 container
+											214 text Upsell customers with product add-ons directly on the product page. Products with subscriptions or more than one variant option are not available as add-ons. 
+											215 link Learn more, Value: support.squarespace.com/hc/articles/21149527560205
+										216 button ADD
+										217 text Featured Product
+										218 text Featured Products can be displayed in Summary Blocks on your page.
+										219 container
+											220 Tick box Featured Product, Value: 0
+										221 text Related Products
+										222 text Showcase similar items on your Product Pages.
+										223 button Set up Related Products
+										224 text Product Reviews
+										225 container
+											226 text Show customer reviews directly on all product pages. Manage this feature in 
+											227 button Selling
+											228 text .
+										229 button Set up product reviews
+									230 container
+										231 heading Marketing, Value: 2
+											232 text Marketing
+										233 text SEO and URL Cup Ring and Spiral Paver I - Brown Finish — boldstone https://boldstonesculpture.com/buy/p/cup-ring-and-spiral-paver-1-brown This description will automatically be generated by search engines. You can add your own description by editing.
+										234 button EDIT
+			235 pop-up button Tab search
+			236 container
+				237 tab group
+					238 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					239 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					240 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					241 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					242 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					243 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					244 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					245 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					246 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					247 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					248 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					249 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					250 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					251 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					252 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					253 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					254 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					255 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					256 tab (settable, boolean) Meta Business Suite, Value: off
+					257 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					258 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					259 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					260 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					261 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					262 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					263 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					264 tab (selected, settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.2 GB, Value: on
+					265 tab (settable, boolean) Boldstone · Review room, Value: off
+					266 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					267 tab (settable, boolean) google-wall-sculptures-supplement.tsv details - Merchant Center, Value: off
+			268 button New tab
+	269 close button
+	270 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	271 minimise button
+272 menu bar
+	273 Chrome
+	274 File
+	275 Edit
+	276 View
+	277 History
+	278 Bookmarks
+	279 Profiles
+	280 Tab
+	281 Window
+	282 Help
+
+The focused UI element is 283 container

@@ -1,0 +1,238 @@
+Window: "Meta Business Suite", App: Google Chrome.
+0 standard window Meta Business Suite - High memory usage - 908 MB - Google Chrome – Tom, Secondary Actions: Raise, URL: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+	1 container Meta Business Suite - High memory usage - 908 MB - Google Chrome – Tom, URL: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Meta Business Suite, URL: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+						26 container
+							27 container
+								28 container
+									29 heading Create post, Value: 1
+										30 text Create post
+									31 container
+										32 image
+										33 heading Want to create an ad post?, Value: 4
+											34 text Want to create an ad post?
+										35 button Close ​
+										36 button See more
+									37 container Post to
+										38 heading Post to, Value: 3
+											39 text Post to
+										40 container
+											41 text Post to
+											42 combo box (settable) Post to boldstonesculpture, Value: ​ Instagram boldstonesculpture ​
+												43 container
+													44 container
+														45 image Instagram
+													46 text boldstonesculpture
+													47 image
+									48 container Media
+										49 heading Media, Value: 3
+											50 text Media
+										51 text Share photos and videos on Instagram. Posts can't exceed 10 photos or videos.
+										52 container
+											53 content list
+												54 container
+													55 text 2048 x 1365
+													56 image
+													57 text 1
+													58 button Edit photo ​
+													59 button Edit ​
+													60 button Remove Photo ​
+											61 button Add photo/video
+									62 container Post details
+										63 heading Post details, Value: 3
+											64 text Post details
+										65 container
+											66 heading Text, Value: 4
+												67 text Text
+											68 text entry area (settable) Write in the dialogue box to include text with your post., Value: Follow the water inward.
+Bone Water Spiral Relief - White turns a broad curling form into a fluid, organic relief. The pale surface lets each raised edge and hollow gather its own changing light, recalling the movement of water and the quiet structure of a shell.
+Handmade from a gypsum-based material, suitable for indoor or outdoor display. One sculpture is supplied. Place it where the light changes through the day to enjoy the shifting shadows.
+All designs can be customised, and completely new commissions can be created with designer Sally Price. Tap the product tag for dimensions, more photographs and current pricing.
+#BoldstoneSculpture #SpiralArt #WallRelief #OrganicDesign #IndoorOutdoorLiving
+												69 text Follow the water inward.
+												70 text Bone Water Spiral Relief - White turns a broad curling form into a fluid, organic relief. The pale surface lets each raised edge and hollow gather its own changing light, recalling the movement of water and the quiet structure of a shell.
+												71 text Handmade from a gypsum-based material, suitable for indoor or outdoor display. One sculpture is supplied. Place it where the light changes through the day to enjoy the shifting shadows.
+												72 text All designs can be customised, and completely new commissions can be created with designer Sally Price. Tap the product tag for dimensions, more photographs and current pricing.
+												73 container
+													74 text #BoldstoneSculpture #SpiralArt #WallRelief #OrganicDesign #IndoorOutdoorLiving
+											75 button Click to open hashtag menu. ​
+											76 button Choose emoji ​
+											77 image
+											78 text Write with AI
+											79 link Fix grammar, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											80 link Shorter, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											81 link Longer, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											82 link Funny, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											83 link Professional, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											84 link More, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											85 button Location
+									86 container
+										87 heading Schedule, Value: 3
+											88 text Schedule
+										89 text Set date and time
+										90 switch Set date and time, Value: off
+									91 container
+										92 switch (disabled) Boost, Value: off
+										93 text Boost
+										94 button Cancel
+										95 button Finish later
+										96 button Publish
+									97 container
+										98 heading Instagram feed preview, Value: 3
+											99 text Instagram feed preview
+										100 container
+											101 text boldstonesculpture
+											102 image
+											103 button Like
+											104 button Comment
+											105 button Share
+											106 button Save
+											107 text boldstonesculpture
+											108 text Follow the water inward. ... 
+											109 button more
+								110 button Meta AI business assistant
+								111 container
+									112 button Meta Business Suite
+									113 button Pressable
+									114 container Links
+										115 text Links
+										116 content list
+											117 container
+												118 link Home, Value: business.facebook.com/latest/home?business_id=2380586078685156&asset_id=103781478537396
+												119 text Home
+											120 container
+												121 link Notifications
+													122 text Notifications
+												123 text Notifications
+											124 container
+												125 link Ads Manager
+													126 text Ads Manager
+												127 text Ads Manager
+											128 container
+												129 link Inbox, Value: business.facebook.com/latest/inbox?business_id=2380586078685156&asset_id=103781478537396
+												130 text Inbox
+											131 container
+												132 link Content, Value: business.facebook.com/latest/posts?business_id=2380586078685156&asset_id=103781478537396
+												133 text Content
+											134 container
+												135 link Creator Marketing, Value: business.facebook.com/creator_marketing_hub/overview/?business_id=2380586078685156&asset_id=103781478537396&nav_ref=mbs_all_tools&ad_account_id=878195225362673&selected_business_ig_user_id=17841407266349160&selected_business_page_id=103781478537396
+												136 text Creator Marketing
+											137 container
+												138 link Planner, Value: business.facebook.com/latest/content_calendar?business_id=2380586078685156&asset_id=103781478537396
+												139 text Planner
+											140 container
+												141 link Ads, Value: business.facebook.com/latest/ad_center/ads_summary?business_id=2380586078685156&asset_id=103781478537396
+												142 text Ads
+											143 container
+												144 link Insights, Value: business.facebook.com/latest/insights?business_id=2380586078685156&asset_id=103781478537396
+												145 text Insights
+											146 container
+												147 link Monetisation, Value: business.facebook.com/latest/monetization?business_id=2380586078685156&asset_id=103781478537396
+												148 text Monetisation
+											149 container
+												150 link All tools
+													151 text All tools
+												152 text All tools
+											153 button Edit sidebar navigation
+									154 container
+										155 link Search
+											156 text Search
+										157 text Search
+										158 image
+									159 container Links
+										160 text Links
+										161 content list
+											162 container
+												163 link Settings, Value: business.facebook.com/latest/settings/business_users?business_id=2380586078685156
+												164 text Settings
+									165 container
+										166 link Help
+											167 text Help
+										168 text Help
+										169 image
+							170 list box
+								171 text (selected) #indooroutdoorliving #indooroutdoorlivingspace #indooroutdoorlivingroom #indooroutdoorlivingspaces #indooroutdoorliving365 #indooroutdoorlivinggoals #indooroutdoorlivingisbest #indooroutdoorlivingdesign #indooroutdoorlivingi #indooroutdoorlivingsydney
+			172 pop-up button Tab search
+			173 container
+				174 tab group
+					175 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					176 tab group  group ✅Claude – 1 Tab, •  Overview | Microsoft Advertising – Expanded
+					177 tab (settable, boolean) Overview | Microsoft Advertising – Part of group ✅Claude, Value: off
+					178 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					179 tab (settable, boolean) Boldstone Sculpture | Boldstone Wall Sculptures, Value: off
+					180 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					181 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					182 tab group  group ✅Claude – 4 Tabs, •  Pinterest, •  Squarespace Domains — boldstonesculpture.com —…, •  Wall Sculpture & Sculptural Furnishings | Bold…, •  boldstonesculpture.com | boldstonesculpture.co… – Expanded
+					183 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					184 tab (settable, boolean) Squarespace Domains — boldstonesculpture.com — DNS Settings – Part of group ✅Claude, Value: off
+					185 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK – Part of group ✅Claude, Value: off
+					186 tab (settable, boolean) Value: off, boldstonesculpture.com | boldstonesculpture.com | Sally.v.price@gmail.com's Account | Cloudflare – Part of group ✅Claude
+					187 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					188 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					189 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					190 tab (settable, boolean) Overview - Manufacturer Center, Value: off
+					191 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					192 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					193 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					194 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					195 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					196 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					197 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					198 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					199 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					200 tab (settable, boolean) Inbox (7,127) - tppricet@gmail.com - Gmail, Value: off
+					201 tab (settable, boolean) Portela Nova — open-source property manager for short-term rentals, Value: off
+					202 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					203 tab (settable, boolean) Meta Business Suite, Value: off
+					204 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					205 tab (settable, boolean) Search results - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 811 MB, Value: off
+					206 tab (selected, settable, boolean) Meta Business Suite - High memory usage - 908 MB, Value: on
+					207 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+			208 button New tab
+	209 close button
+	210 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	211 minimise button
+212 menu bar
+	213 Chrome
+	214 File
+	215 Edit
+	216 View
+	217 History
+	218 Bookmarks
+	219 Profiles
+	220 Tab
+	221 Window
+	222 Help
+
+The focused UI element is 171 text (selected) #indooroutdoorliving

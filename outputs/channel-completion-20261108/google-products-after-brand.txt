@@ -1,0 +1,712 @@
+Window: "All products - Merchant Center", App: Google Chrome.
+0 standard window All products - Merchant Center - Google Chrome – Tom, URL: …, Secondary Actions: Raise
+	1 container All products - Merchant Center - Google Chrome – Tom, URL: …
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: merchants.google.com/mc/items?a=5664655454&timePeriod=2026-10-12%2C2026-11-08&marketingMethod=4&authuser=0&pli=1
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox New download available, Value: 1
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content All products - Merchant Center, URL: …
+						27 container
+							28 container
+								29 button Skip to main content
+								30 button Navigation menu
+								31 link Merchant Center home, Value: merchants.google.com/mc/overview?a=5664655454&authuser=0
+								32 container Search
+									33 container
+										34 text field (settable) Search Merchant Center
+								35 pop-up button Help
+								36 button Merchant Center account: Boldstone Sculpture, 5664655454
+								37 container
+									38 button Google apps
+									39 button Google Account: Sally Price (info@boldstone.co.uk)
+							40 outline Navigation
+								41 row Overview
+									42 text Overview
+								43 row Notifications
+									44 text Notifications
+								45 row Products & store
+									46 text Products & store
+									47 container
+										48 row Products
+											49 container
+												50 text Products
+										51 row Shipping and returns
+											52 text Shipping and returns
+										53 row Store quality
+											54 text Store quality
+										55 row Reviews
+											56 text Reviews
+								57 row Creative content
+									58 text Creative content
+								59 row Marketing
+									60 text Marketing
+								61 row Analytics
+									62 text Analytics
+									63 container
+										64 row Summary
+											65 text Summary
+										66 row Products
+											67 text Products
+										68 row Pricing
+											69 text Pricing
+										70 row Online store
+											71 text Online store
+								72 row Settings
+									73 text Settings
+									74 container
+										75 row General
+											76 text General
+										77 row Business info
+											78 text Business info
+										79 row Data sources
+											80 text Data sources
+										81 row Add-ons
+											82 text Add-ons
+										83 row Access and services
+											84 text Access and services
+							85 container
+								86 heading Products, Value: 1
+									87 text Products
+								88 tab group
+									89 tab (selected) All products, Value: 1
+										90 text All products
+									91 tab (settable, integer) Needs attention, Value: 0
+										92 text Needs attention
+									93 tab (settable, integer) Automations, Value: 0
+										94 text Automations
+								95 container
+									96 button Understand your product status changes
+									97 container Understand your product status changes
+										98 text This shows the status history for your products across various marketing methods. You can change the filters to view the product status for a specific marketing method.
+										99 container
+											100 text Filters Applied:
+											101 table Filters Applied:
+												102 row Time period: Last 28 days
+													103 cell
+														104 button Time period: Last 28 days
+												105 row Countries: All
+													106 cell
+														107 button Countries: All
+												108 row Marketing methods: Free listings
+													109 cell
+														110 button Marketing methods: Free listings
+										111 container Product status history
+											112 container
+												113 container
+													114 Tick box Approved, Value: 1
+														115 container
+															116 Tick box 1
+														117 text Approved
+													118 Tick box Limited, Value: 1
+														119 container
+															120 Tick box 1
+														121 text Limited
+													122 Tick box Not approved, Value: 1
+														123 container
+															124 Tick box 1
+														125 text Not approved
+													126 Tick box Under review, Value: 1
+														127 container
+															128 Tick box 1
+														129 text Under review
+												130 text Product status history, Stacked area chart. Use the arrow keys to navigate inside the chart.
+									131 container
+										132 heading What to do next, Value: 2
+											133 text What to do next
+										134 link View all notifications, Value: merchants.google.com/mc/taskhub?a=5664655454&authuser=0
+										135 text TIP
+										136 button Useful
+										137 button Not useful
+										138 pop-up button Open menu with more options for You’ve got your first click
+										139 heading You’ve got your first click, Value: 3
+											140 text You’ve got your first click
+										141 text Find out which of your products are attracting customers and how they’re trending over time
+										142 link View performance
+											143 text View performance
+										144 text GROWTH
+										145 button Useful
+										146 button Not useful
+										147 pop-up button Open menu with more options for Get more customers and sales with ads
+										148 heading Get more customers and sales with ads, Value: 3
+											149 text Get more customers and sales with ads
+										150 text Advertise your products on all Google Ads channels, including YouTube, Search and Discover. You only pay when people interact with your ads, and you can stop your campaign whenever you want. 
+										151 link Learn more about ads, Value: support.google.com/merchants/answer/12446595?hl=en
+										152 button Google Ads Intro to Shopping Ads
+										153 link Get started
+											154 text Get started
+									155 heading Your products have been reviewed, Value: 2
+										156 text Your products have been reviewed
+									157 text Some of your products might need attention. Start fixing them to show your products to customers.
+									158 container
+										159 button Got it. Close welcome message
+										160 button View what needs attention
+									161 tab group
+										162 container Total products 325
+											163 container
+												164 text Total products
+												165 button More information about Total products metric
+												166 tab (selected) 325 value. Update reports to show: Total products, Value: 1
+										167 container Edited products 4
+											168 container
+												169 text Edited products
+												170 tab (settable, integer) 4 value. Update reports to show: Edited products, Value: 0
+									171 container
+										172 pop-up button Add products from a dropdown options, menu popup button
+											173 text Add products
+										174 button Manage product sources
+									175 button Search products
+									176 container
+										177 button Show filtering options
+										178 pop-up button 'Columns' lets you modify the columns you see in your table. Click the icon and select 'Modify columns.'
+										179 button Download products
+									180 table Product list
+										181 row Select all rows Visibility Status Image Title Product ID Price Suggested sale price Availability Data source Last update Clicks Click potential Edit
+											182 cell
+												183 Tick box Select all rows, Value: 0
+											184 column header Visibility
+												185 text Visibility
+											186 column header Status
+												187 text Status
+											188 column header
+												189 text Image
+											190 column header Title
+												191 text Title
+											192 column header Product ID
+												193 text Product ID
+											194 column header Price
+												195 text Price
+											196 column header Suggested sale price
+												197 text Suggested sale price
+											198 column header
+												199 text Availability
+											200 column header Data source
+												201 text Data source
+											202 column header Last update
+												203 text Last update
+											204 column header Clicks
+												205 text Clicks
+											206 column header
+												207 text Click potential
+											208 column header
+												209 text Edit
+										210 row Select row Approved Edit this Visibility, currently VISIBLE Approved Thumbnail image for: Echo Rhythm II - Verdigris Finish Echo Rhythm II - Verdigris Finish Edit this Title, currently Echo Rhythm II - Verdigris Finish ff8c7fe3-b08a-47ec-9e68-122a16366041 Price: £49.20 - In stock Squarespace-1469f13b Nov 8, 2026 8:29:56 PM 0 Low Edit product: Echo Rhythm II - Verdigris Finish
+											211 cell
+												212 Tick box Select row, Value: 0
+											213 cell
+												214 image Approved
+												215 pop-up button Edit this Visibility, currently VISIBLE
+											216 cell
+												217 text Approved
+											218 cell
+												219 image Thumbnail image for: Echo Rhythm II - Verdigris Finish
+											220 cell
+												221 link Echo Rhythm II - Verdigris Finish, Value: merchants.google.com/mc/items/details?a=5664655454&offerId=ff8c7fe3-b08a-47ec-9e68-122a16366041&language=en&channel=0&feedLabel=US&authuser=0
+												222 pop-up button Edit this Title, currently Echo Rhythm II - Verdigris Finish
+											223 cell
+												224 text ff8c7fe3-b08a-47ec-9e68-122a16366041
+											225 cell
+												226 container Price: £49.20
+											227 cell
+												228 text -
+											229 cell
+												230 text In stock
+											231 cell
+												232 link Squarespace-1469f13b, Value: merchants.google.com/mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=0
+											233 cell
+												234 text Nov 8, 2026 8:29:56 PM
+											235 cell
+												236 text 0
+											237 cell
+												238 text Low
+											239 cell
+												240 link Edit product: Echo Rhythm II - Verdigris Finish, Value: merchants.google.com/mc/directoffers/edit?a=5664655454&language=en&offerId=ff8c7fe3-b08a-47ec-9e68-122a16366041&channel=0&feedLabel=US&authuser=0
+										241 row Select row Approved Edit this Visibility, currently VISIBLE Approved Thumbnail image for: Egyptian Palm I - White Egyptian Palm I - White Edit this Title, currently Egyptian Palm I - White ff4b0fcc-0efd-4af3-9b77-c6830b48ec38 Price: £59.64 - In stock Squarespace-1469f13b Nov 8, 2026 8:29:56 PM 0 Low Edit product: Egyptian Palm I - White
+											242 cell
+												243 Tick box Select row, Value: 0
+											244 cell
+												245 image Approved
+												246 pop-up button Edit this Visibility, currently VISIBLE
+											247 cell
+												248 text Approved
+											249 cell
+												250 image Thumbnail image for: Egyptian Palm I - White
+											251 cell
+												252 link Egyptian Palm I - White, Value: merchants.google.com/mc/items/details?a=5664655454&offerId=ff4b0fcc-0efd-4af3-9b77-c6830b48ec38&language=en&channel=0&feedLabel=US&authuser=0
+												253 pop-up button Edit this Title, currently Egyptian Palm I - White
+											254 cell
+												255 text ff4b0fcc-0efd-4af3-9b77-c6830b48ec38
+											256 cell
+												257 container Price: £59.64
+											258 cell
+												259 text -
+											260 cell
+												261 text In stock
+											262 cell
+												263 link Squarespace-1469f13b, Value: merchants.google.com/mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=0
+											264 cell
+												265 text Nov 8, 2026 8:29:56 PM
+											266 cell
+												267 text 0
+											268 cell
+												269 text Low
+											270 cell
+												271 link Edit product: Egyptian Palm I - White, Value: merchants.google.com/mc/directoffers/edit?a=5664655454&language=en&offerId=ff4b0fcc-0efd-4af3-9b77-c6830b48ec38&channel=0&feedLabel=US&authuser=0
+										272 row Select row Approved Edit this Visibility, currently VISIBLE Approved Thumbnail image for: Soundwave Rhythm - White Soundwave Rhythm - White Edit this Title, currently Soundwave Rhythm - White fe870ce0-d5dd-446c-a98b-ce41d009416a Price: £114.76 - In stock Squarespace-1469f13b Nov 8, 2026 8:29:56 PM 0 Low Edit product: Soundwave Rhythm - White
+											273 cell
+												274 Tick box Select row, Value: 0
+											275 cell
+												276 image Approved
+												277 pop-up button Edit this Visibility, currently VISIBLE
+											278 cell
+												279 text Approved
+											280 cell
+												281 image Thumbnail image for: Soundwave Rhythm - White
+											282 cell
+												283 link Soundwave Rhythm - White, Value: merchants.google.com/mc/items/details?a=5664655454&offerId=fe870ce0-d5dd-446c-a98b-ce41d009416a&language=en&channel=0&feedLabel=US&authuser=0
+												284 pop-up button Edit this Title, currently Soundwave Rhythm - White
+											285 cell
+												286 text fe870ce0-d5dd-446c-a98b-ce41d009416a
+											287 cell
+												288 container Price: £114.76
+											289 cell
+												290 text -
+											291 cell
+												292 text In stock
+											293 cell
+												294 link Squarespace-1469f13b, Value: merchants.google.com/mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=0
+											295 cell
+												296 text Nov 8, 2026 8:29:56 PM
+											297 cell
+												298 text 0
+											299 cell
+												300 text Low
+											301 cell
+												302 link Edit product: Soundwave Rhythm - White, Value: merchants.google.com/mc/directoffers/edit?a=5664655454&language=en&offerId=fe870ce0-d5dd-446c-a98b-ce41d009416a&channel=0&feedLabel=US&authuser=0
+										303 row Select row Approved Edit this Visibility, currently VISIBLE Approved Thumbnail image for: Egyptian Palm I - Gold Finish Egyptian Palm I - Gold Finish Edit this Title, currently Egyptian Palm I - Gold Finish fd78790e-f464-45b7-abe1-9dd2f25a97bc Price: £76.78 - In stock Squarespace-1469f13b Nov 8, 2026 8:29:56 PM 0 Low Edit product: Egyptian Palm I - Gold Finish
+											304 cell
+												305 Tick box Select row, Value: 0
+											306 cell
+												307 image Approved
+												308 pop-up button Edit this Visibility, currently VISIBLE
+											309 cell
+												310 text Approved
+											311 cell
+												312 image Thumbnail image for: Egyptian Palm I - Gold Finish
+											313 cell
+												314 link Egyptian Palm I - Gold Finish, Value: merchants.google.com/mc/items/details?a=5664655454&offerId=fd78790e-f464-45b7-abe1-9dd2f25a97bc&language=en&channel=0&feedLabel=US&authuser=0
+												315 pop-up button Edit this Title, currently Egyptian Palm I - Gold Finish
+											316 cell
+												317 text fd78790e-f464-45b7-abe1-9dd2f25a97bc
+											318 cell
+												319 container Price: £76.78
+											320 cell
+												321 text -
+											322 cell
+												323 text In stock
+											324 cell
+												325 link Squarespace-1469f13b, Value: merchants.google.com/mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=0
+											326 cell
+												327 text Nov 8, 2026 8:29:56 PM
+											328 cell
+												329 text 0
+											330 cell
+												331 text Low
+											332 cell
+												333 link Edit product: Egyptian Palm I - Gold Finish, Value: merchants.google.com/mc/directoffers/edit?a=5664655454&language=en&offerId=fd78790e-f464-45b7-abe1-9dd2f25a97bc&channel=0&feedLabel=US&authuser=0
+										334 row Select row Approved Edit this Visibility, currently VISIBLE Approved Thumbnail image for: Egyptian Palm III (Three Leaves) - White Egyptian Palm III (Three Leaves) - White Edit this Title, currently Egyptian Palm III (Three Leaves) - White fd11217b-9dc6-4387-9f8f-45a7549ff616 Price: £59.64 - In stock Squarespace-1469f13b Nov 8, 2026 8:29:56 PM 0 Low Edit product: Egyptian Palm III (Three Leaves) - White
+											335 cell
+												336 Tick box Select row, Value: 0
+											337 cell
+												338 image Approved
+												339 pop-up button Edit this Visibility, currently VISIBLE
+											340 cell
+												341 text Approved
+											342 cell
+												343 image Thumbnail image for: Egyptian Palm III (Three Leaves) - White
+											344 cell
+												345 link Egyptian Palm III (Three Leaves) - White, Value: merchants.google.com/mc/items/details?a=5664655454&offerId=fd11217b-9dc6-4387-9f8f-45a7549ff616&language=en&channel=0&feedLabel=US&authuser=0
+												346 pop-up button Edit this Title, currently Egyptian Palm III (Three Leaves) - White
+											347 cell
+												348 text fd11217b-9dc6-4387-9f8f-45a7549ff616
+											349 cell
+												350 container Price: £59.64
+											351 cell
+												352 text -
+											353 cell
+												354 text In stock
+											355 cell
+												356 link Squarespace-1469f13b, Value: merchants.google.com/mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=0
+											357 cell
+												358 text Nov 8, 2026 8:29:56 PM
+											359 cell
+												360 text 0
+											361 cell
+												362 text Low
+											363 cell
+												364 link Edit product: Egyptian Palm III (Three Leaves) - White, Value: merchants.google.com/mc/directoffers/edit?a=5664655454&language=en&offerId=fd11217b-9dc6-4387-9f8f-45a7549ff616&channel=0&feedLabel=US&authuser=0
+										365 row Select row Approved Edit this Visibility, currently VISIBLE Approved Thumbnail image for: Gleneagles Vine II - White Gleneagles Vine II - White Edit this Title, currently Gleneagles Vine II - White fd001373-a8eb-4bf7-96dd-cb488da087da Price: £50.72 - In stock Squarespace-1469f13b Nov 8, 2026 8:29:56 PM 0 Low Edit product: Gleneagles Vine II - White
+											366 cell
+												367 Tick box Select row, Value: 0
+											368 cell
+												369 image Approved
+												370 pop-up button Edit this Visibility, currently VISIBLE
+											371 cell
+												372 text Approved
+											373 cell
+												374 image Thumbnail image for: Gleneagles Vine II - White
+											375 cell
+												376 link Gleneagles Vine II - White, Value: merchants.google.com/mc/items/details?a=5664655454&offerId=fd001373-a8eb-4bf7-96dd-cb488da087da&language=en&channel=0&feedLabel=US&authuser=0
+												377 pop-up button Edit this Title, currently Gleneagles Vine II - White
+											378 cell
+												379 text fd001373-a8eb-4bf7-96dd-cb488da087da
+											380 cell
+												381 container Price: £50.72
+											382 cell
+												383 text -
+											384 cell
+												385 text In stock
+											386 cell
+												387 link Squarespace-1469f13b, Value: merchants.google.com/mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=0
+											388 cell
+												389 text Nov 8, 2026 8:29:56 PM
+											390 cell
+												391 text 0
+											392 cell
+												393 text Low
+											394 cell
+												395 link Edit product: Gleneagles Vine II - White, Value: merchants.google.com/mc/directoffers/edit?a=5664655454&language=en&offerId=fd001373-a8eb-4bf7-96dd-cb488da087da&channel=0&feedLabel=US&authuser=0
+										396 row Select row Approved Edit this Visibility, currently VISIBLE Approved Thumbnail image for: Dune Ripple I - Verdigris and Rust Finish Dune Ripple I - Verdigris and Rust Finish Edit this Title, currently Dune Ripple I - Verdigris and Rust Finish fcf39a9c-eea7-4545-96cc-e5c83a2df742 Price: £40.00 - In stock Squarespace-1469f13b Nov 8, 2026 8:29:56 PM 0 Low Edit product: Dune Ripple I - Verdigris and Rust Finish
+											397 cell
+												398 Tick box Select row, Value: 0
+											399 cell
+												400 image Approved
+												401 pop-up button Edit this Visibility, currently VISIBLE
+											402 cell
+												403 text Approved
+											404 cell
+												405 image Thumbnail image for: Dune Ripple I - Verdigris and Rust Finish
+											406 cell
+												407 link Dune Ripple I - Verdigris and Rust Finish, Value: merchants.google.com/mc/items/details?a=5664655454&offerId=fcf39a9c-eea7-4545-96cc-e5c83a2df742&language=en&channel=0&feedLabel=US&authuser=0
+												408 pop-up button Edit this Title, currently Dune Ripple I - Verdigris and Rust Finish
+											409 cell
+												410 text fcf39a9c-eea7-4545-96cc-e5c83a2df742
+											411 cell
+												412 container Price: £40.00
+											413 cell
+												414 text -
+											415 cell
+												416 text In stock
+											417 cell
+												418 link Squarespace-1469f13b, Value: merchants.google.com/mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=0
+											419 cell
+												420 text Nov 8, 2026 8:29:56 PM
+											421 cell
+												422 text 0
+											423 cell
+												424 text Low
+											425 cell
+												426 link Edit product: Dune Ripple I - Verdigris and Rust Finish, Value: merchants.google.com/mc/directoffers/edit?a=5664655454&language=en&offerId=fcf39a9c-eea7-4545-96cc-e5c83a2df742&channel=0&feedLabel=US&authuser=0
+										427 row Select row Approved Edit this Visibility, currently VISIBLE Approved Thumbnail image for: Dune Ripple II - Gold Finish Dune Ripple II - Gold Finish Edit this Title, currently Dune Ripple II - Gold Finish fade7c19-c2ec-4689-b3bf-20defb1af737 Price: £39.14 - In stock Squarespace-1469f13b Nov 8, 2026 8:29:56 PM 0 Low Edit product: Dune Ripple II - Gold Finish
+											428 cell
+												429 Tick box Select row, Value: 0
+											430 cell
+												431 image Approved
+												432 pop-up button Edit this Visibility, currently VISIBLE
+											433 cell
+												434 text Approved
+											435 cell
+												436 image Thumbnail image for: Dune Ripple II - Gold Finish
+											437 cell
+												438 link Dune Ripple II - Gold Finish, Value: merchants.google.com/mc/items/details?a=5664655454&offerId=fade7c19-c2ec-4689-b3bf-20defb1af737&language=en&channel=0&feedLabel=US&authuser=0
+												439 pop-up button Edit this Title, currently Dune Ripple II - Gold Finish
+											440 cell
+												441 text fade7c19-c2ec-4689-b3bf-20defb1af737
+											442 cell
+												443 container Price: £39.14
+											444 cell
+												445 text -
+											446 cell
+												447 text In stock
+											448 cell
+												449 link Squarespace-1469f13b, Value: merchants.google.com/mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=0
+											450 cell
+												451 text Nov 8, 2026 8:29:56 PM
+											452 cell
+												453 text 0
+											454 cell
+												455 text Low
+											456 cell
+												457 link Edit product: Dune Ripple II - Gold Finish, Value: merchants.google.com/mc/directoffers/edit?a=5664655454&language=en&offerId=fade7c19-c2ec-4689-b3bf-20defb1af737&channel=0&feedLabel=US&authuser=0
+										458 row Select row Approved Edit this Visibility, currently VISIBLE Approved Thumbnail image for: Acanthus Frond (Left) - Pewter Finish Acanthus Frond (Left) - Pewter Finish Edit this Title, currently Acanthus Frond (Left) - Pewter Finish f97d3cfa-5363-4b38-8599-d28205711b18 Price: £44.48 - In stock Squarespace-1469f13b Nov 8, 2026 8:29:56 PM 0 Low Edit product: Acanthus Frond (Left) - Pewter Finish
+											459 cell
+												460 Tick box Select row, Value: 0
+											461 cell
+												462 image Approved
+												463 pop-up button Edit this Visibility, currently VISIBLE
+											464 cell
+												465 text Approved
+											466 cell
+												467 image Thumbnail image for: Acanthus Frond (Left) - Pewter Finish
+											468 cell
+												469 link Acanthus Frond (Left) - Pewter Finish, Value: merchants.google.com/mc/items/details?a=5664655454&offerId=f97d3cfa-5363-4b38-8599-d28205711b18&language=en&channel=0&feedLabel=US&authuser=0
+												470 pop-up button Edit this Title, currently Acanthus Frond (Left) - Pewter Finish
+											471 cell
+												472 text f97d3cfa-5363-4b38-8599-d28205711b18
+											473 cell
+												474 container Price: £44.48
+											475 cell
+												476 text -
+											477 cell
+												478 text In stock
+											479 cell
+												480 link Squarespace-1469f13b, Value: merchants.google.com/mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=0
+											481 cell
+												482 text Nov 8, 2026 8:29:56 PM
+											483 cell
+												484 text 0
+											485 cell
+												486 text Low
+											487 cell
+												488 link Edit product: Acanthus Frond (Left) - Pewter Finish, Value: merchants.google.com/mc/directoffers/edit?a=5664655454&language=en&offerId=f97d3cfa-5363-4b38-8599-d28205711b18&channel=0&feedLabel=US&authuser=0
+										489 row Select row Approved Edit this Visibility, currently VISIBLE Approved Thumbnail image for: Dune Ripple I - Verdigris Finish Dune Ripple I - Verdigris Finish Edit this Title, currently Dune Ripple I - Verdigris Finish f95ac00c-3709-4a6d-ae1a-09630559d1a9 Price: £41.24 - In stock Squarespace-1469f13b Nov 8, 2026 8:29:56 PM 0 Low Edit product: Dune Ripple I - Verdigris Finish
+											490 cell
+												491 Tick box Select row, Value: 0
+											492 cell
+												493 image Approved
+												494 pop-up button Edit this Visibility, currently VISIBLE
+											495 cell
+												496 text Approved
+											497 cell
+												498 image Thumbnail image for: Dune Ripple I - Verdigris Finish
+											499 cell
+												500 link Dune Ripple I - Verdigris Finish, Value: merchants.google.com/mc/items/details?a=5664655454&offerId=f95ac00c-3709-4a6d-ae1a-09630559d1a9&language=en&channel=0&feedLabel=US&authuser=0
+												501 pop-up button Edit this Title, currently Dune Ripple I - Verdigris Finish
+											502 cell
+												503 text f95ac00c-3709-4a6d-ae1a-09630559d1a9
+											504 cell
+												505 container Price: £41.24
+											506 cell
+												507 text -
+											508 cell
+												509 text In stock
+											510 cell
+												511 link Squarespace-1469f13b, Value: …
+											512 cell
+												513 text Nov 8, 2026 8:29:56 PM
+											514 cell
+												515 text 0
+											516 cell
+												517 text Low
+											518 cell
+												519 link Edit product: Dune Ripple I - Verdigris Finish, Value: …
+										520 row Select row Approved Edit this Visibility, currently VISIBLE Approved Thumbnail image for: Brancusi Meander I - White Brancusi Meander I - White Edit this Title, currently Brancusi Meander I - White f7cea7ee-e39f-412a-a564-7e0c73e0e5bb Price: £57.16 - In stock Squarespace-1469f13b Nov 8, 2026 8:29:56 PM 0 Low Edit product: Brancusi Meander I - White
+											521 cell
+												522 Tick box Select row, Value: 0
+											523 cell
+												524 image Approved
+												525 pop-up button Edit this Visibility, currently VISIBLE
+											526 cell
+												527 text Approved
+											528 cell
+												529 image Thumbnail image for: Brancusi Meander I - White
+											530 cell
+												531 link Brancusi Meander I - White, Value: …
+												532 pop-up button Edit this Title, currently Brancusi Meander I - White
+											533 cell
+												534 text f7cea7ee-e39f-412a-a564-7e0c73e0e5bb
+											535 cell
+												536 container Price: £57.16
+											537 cell
+												538 text -
+											539 cell
+												540 text In stock
+											541 cell
+												542 link Squarespace-1469f13b, Value: …
+											543 cell
+												544 text Nov 8, 2026 8:29:56 PM
+											545 cell
+												546 text 0
+											547 cell
+												548 text Low
+											549 cell
+												550 link Edit product: Brancusi Meander I - White, Value: …
+										551 row Select row Approved Edit this Visibility, currently VISIBLE Approved Thumbnail image for: Dune Ripple I - Rust Finish Dune Ripple I - Rust Finish Edit this Title, currently Dune Ripple I - Rust Finish f2e7f2c4-62d0-4467-9401-172498684b7f Price: £41.24 - In stock Squarespace-1469f13b Nov 8, 2026 8:29:56 PM 0 Low Edit product: Dune Ripple I - Rust Finish
+											552 cell
+												553 Tick box Select row, Value: 0
+											554 cell
+												555 image Approved
+												556 pop-up button Edit this Visibility, currently VISIBLE
+											557 cell
+												558 text Approved
+											559 cell
+												560 image Thumbnail image for: Dune Ripple I - Rust Finish
+											561 cell
+												562 link Dune Ripple I - Rust Finish, Value: …
+												563 pop-up button Edit this Title, currently Dune Ripple I - Rust Finish
+											564 cell
+												565 text f2e7f2c4-62d0-4467-9401-172498684b7f
+											566 cell
+												567 container Price: £41.24
+											568 cell
+												569 text -
+											570 cell
+												571 text In stock
+											572 cell
+												573 link Squarespace-1469f13b, Value: …
+											574 cell
+												575 text Nov 8, 2026 8:29:56 PM
+											576 cell
+												577 text 0
+											578 cell
+												579 text Low
+											580 cell
+												581 link Edit product: Dune Ripple I - Rust Finish, Value: …
+										582 row Select row Approved Edit this Visibility, currently VISIBLE Approved Thumbnail image for: Fingerprint Rings II - White Fingerprint Rings II - White Edit this Title, currently Fingerprint Rings II - White f09aa89c-a620-46d9-8a66-ff8e5fc3414d Price: £46.54 - In stock Squarespace-1469f13b Nov 8, 2026 8:29:56 PM 0 Low Edit product: Fingerprint Rings II - White
+											583 cell
+												584 Tick box Select row, Value: 0
+											585 cell
+												586 image Approved
+												587 pop-up button Edit this Visibility, currently VISIBLE
+											588 cell
+												589 text Approved
+											590 cell
+												591 image Thumbnail image for: Fingerprint Rings II - White
+											592 cell
+												593 link Fingerprint Rings II - White, Value: …
+												594 pop-up button Edit this Title, currently Fingerprint Rings II - White
+											595 cell
+												596 text f09aa89c-a620-46d9-8a66-ff8e5fc3414d
+											597 cell
+												598 container Price: £46.54
+											599 cell
+												600 text -
+											601 cell
+												602 text In stock
+											603 cell
+												604 link Squarespace-1469f13b, Value: …
+											605 cell
+												606 text Nov 8, 2026 8:29:56 PM
+											607 cell
+												608 text 0
+											609 cell
+												610 text Low
+											611 cell
+												612 link Edit product: Fingerprint Rings II - White, Value: …
+									613 button View archived products
+									614 container
+										615 text Show rows:
+										616 pop-up button Show rows: 50 selected.
+										617 text 1 - 50 of 325
+										618 button (disabled) Go to the first page
+										619 button (disabled) Go to the previous page
+										620 button Go to the next page
+										621 button Go to the last page
+									622 link Privacy Policy, Value: google.com/policies/privacy/
+									623 link Terms of Service, Value: support.google.com/merchants/answer/160173?hl=en-US
+									624 link Program Policies, Value: …
+			625 pop-up button Tab search
+			626 container
+				627 tab group
+					628 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					629 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					630 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					631 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					632 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					633 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					634 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					635 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					636 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					637 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					638 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					639 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					640 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					641 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					642 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					643 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					644 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					645 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					646 tab (settable, boolean) Meta Business Suite, Value: off
+					647 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					648 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					649 tab group  group ✅Claude – 1 Tab, •  Brands - Manufacturer Center – Expanded
+					650 tab (settable, boolean) Brands - Manufacturer Center – Part of group ✅Claude, Value: off
+					651 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					652 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					653 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					654 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.0 GB, Value: off
+					655 tab (settable, boolean) Boldstone · Review room, Value: off
+					656 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					657 tab (selected, settable, boolean) All products - Merchant Center, Value: on
+			658 button New tab
+		659 container Recent download history
+			660 container
+				661 scroll area
+					662 container
+						663 button products_2026-11-08_20-34-44.zip 194 KB • Done
+						664 text products_2026-11-08_20-34-44.zip
+						665 text 194 KB • Done
+						666 button products_2026-11-08_20-20-48.zip 192 KB • 14 minutes ago
+						667 text products_2026-11-08_20-20-48.zip
+						668 text 192 KB • 14 minutes ago
+						669 button products_2026-11-08_20-08-06.zip 193 KB • 26 minutes ago
+						670 text products_2026-11-08_20-08-06.zip
+						671 text 193 KB • 26 minutes ago
+						672 button products_Nov-08_08-05-40PM.csv 768 KB • 29 minutes ago
+						673 text products_Nov-08_08-05-40PM.csv
+						674 text 768 KB • 29 minutes ago
+						675 button products_Nov-08_08-01-58PM.csv 768 KB • 33 minutes ago
+						676 text products_Nov-08_08-01-58PM.csv
+						677 text 768 KB • 33 minutes ago
+						678 button products_2026-11-08_19-17-46.zip 194 KB • 1 hour ago
+						679 text products_2026-11-08_19-17-46.zip
+						680 text 194 KB • 1 hour ago
+						681 button products_Nov-08_06-09-29PM.csv 765 KB • 2 hours ago
+						682 text products_Nov-08_06-09-29PM.csv
+						683 text 765 KB • 2 hours ago
+						684 button products_Nov-08_06-06-06PM.csv 764 KB • 2 hours ago
+						685 text products_Nov-08_06-06-06PM.csv
+						686 text 764 KB • 2 hours ago
+	687 close button
+	688 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	689 minimise button
+690 menu bar
+	691 Chrome
+	692 File
+	693 Edit
+	694 View
+	695 History
+	696 Bookmarks
+	697 Profiles
+	698 Tab
+	699 Window
+	700 Help
+
+The focused UI element is 179 button Download products

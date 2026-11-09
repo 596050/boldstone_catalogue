@@ -1,0 +1,2546 @@
+The following is a diff from the previous accessibility tree for Window: "DevTools - boldstonesculpture.…paign=pinterest_consent_check" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 675-683, 688-694, 732-735, 746-749, 810-860, 863-886, 889-905, 908-924, 927-1287, 1290-1650, 1653-2013, 2016-2130, 2133-2151, 2154-2181, 2189, 2191
+~																674 row    <div id="siteWrapper" class="clearfix site-wrapper"> ​ Enable flex mode
++																	2250 container
++																		2251 container <div id="siteWrapper" class="clearfix site-wrapper">
++																			2252 text < div id =​" siteWrapper " class =​" clearfix site-wrapper " >
++																		2253 toggle button Enable flex mode, Value: 0
++																			2254 text flex
++																2255 container
++																	2256 row <div class="cookie-banner-mount-point"> ​ </div> ​
++																		2257 container <div class="cookie-banner-mount-point">
++																			2258 text < div class =​" cookie-banner-mount-point " >
++																		2259 container </div>
++																			2260 text < /div >
++																	2261 row    <header data-test="header" id="header" class=" header theme-col--primary " data-section-theme data-controller="Header" data-current-styles="{ "layout": "navLeft", "action": { "buttonText": "Get Started", "newWindow": false }, "showSocial": true, "socialOptions": { "socialBorderShape": "none", "socialBorderStyle": "outline", "socialBorderThickness": { "unit": "px", "value": 1.0 } }, "menuOverlayAnimation": "fade", "cartStyle": "cart", "cartText": "Cart", "showEmptyCartState": true, "cartOptions": { "iconT
++																		2262 container
++																			2263 container <header data-test="header" id="header" class=" header theme-col--primary " data-section-theme data-controller="Header" data-current-styles="{ "layout": "navLeft", "action": { "buttonText": "Get Started", "newWindow": false }, "showSocial": true, "socialOptions": { "socialBorderShape": "none", "socialBorderStyle": "outline", "socialBorderThickness": { "unit": "px", "value": 1.0 } }, "menuOverlayAnimation": "fade", "cartStyle": "cart", "cartText": "Cart", "showEmptyCartState": true, "cartOptions": { "iconType
++																				2264 text < header data-test =​" header " id =​" header " class =​" 
+      
+        
+      
+      header theme-col--primary
+     " data-section-theme data-controller =​" Header " data-current-styles =​" {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               " data-section-id =​" header " data-header-style =​" solid " data-language-picker =​" {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               " data-first-focusable-element tabindex =​" -1 " style =​" 
+      
+      
+        --headerBorderColor:​ hsla(var(--black-hsl)​, 1)​;​
+      
+      
+        --solidHeaderBackgroundColor:​ hsla(var(--white-hsl)​, 1)​;​
+      
+      
+        --solidHeaderNavigationColor:​ hsla(var(--black-hsl)​, 1)​;​
+      
+      
+        --gradientHeaderBackgroundColor:​ hsla(var(--white-hsl)​, 1)​;​
+      
+      
+        --gradientHeaderNavigationColor:​ hsla(var(--black-hsl)​, 1)​;​
+      
+     " data-controllers-bound =​" Header " >
++																	2265 row    <svg style="display:none" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"> ​ Expand …​ </svg> ​
++																		2266 container
++																			2267 container <svg style="display:none" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
++																				2268 text < svg style =​" display:​none " viewBox =​" 0 0 22 22 " xmlns =​" http:​/​/​www.w3.org/​2000/​svg " >
++																			2269 button Expand
++																			2270 text …
++																			2271 container </svg>
++																				2272 text < /svg >
++																	2273 row <div class="sqs-announcement-bar-dropzone"> ​ </div> ​
++																		2274 container <div class="sqs-announcement-bar-dropzone">
++																			2275 text < div class =​" sqs-announcement-bar-dropzone " >
++																		2276 container </div>
++																			2277 text < /div >
++																	2278 row    <div class="header-announcement-bar-wrapper"> ​
++																		2279 container
++																			2280 container <div class="header-announcement-bar-wrapper">
++																				2281 text < div class =​" header-announcement-bar-wrapper " >
++																	2282 container
++																		2283 row <a href="#page" class="header-skip-link sqs-button-element--primary"> ​ Skip to Content ​ </a> ​
++																			2284 container <a href="#page" class="header-skip-link sqs-button-element--primary">
++																				2285 text < a href =​"
++																				2286 link #page, Help: https://boldstonesculpture.com/buy/p/brancusi-totem-white?utm_source=qa&utm_medium=test&utm_campaign=pinterest_consent_check#page
++																					2287 text #page
++																				2288 text " class =​" header-skip-link sqs-button-element--primary " >
++																			2289 text  Skip to Content 
++																			2290 container </a>
++																				2291 text < /a >
++																		2292 row    <style> ​ Expand …​ </style> ​
++																			2293 container
++																				2294 container <style>
++																					2295 text < style >
++																				2296 button Expand
++																				2297 text …
++																				2298 container </style>
++																					2299 text < /style >
++																		2300 row <div class="header-border" data-header-style="solid" data-header-border="false" data-test="header-border" style=" "> ​ </div> ​
++																			2301 container <div class="header-border" data-header-style="solid" data-header-border="false" data-test="header-border" style=" ">
++																				2302 text < div class =​" header-border " data-header-style =​" solid " data-header-border =​" false " data-test =​" header-border " style =​" " >
++																			2303 container </div>
++																				2304 text < /div >
++																		2305 row <div class="header-dropshadow" data-header-style="solid" data-header-dropshadow="false" data-test="header-dropshadow" style> ​ </div> ​
++																			2306 container <div class="header-dropshadow" data-header-style="solid" data-header-dropshadow="false" data-test="header-dropshadow" style>
++																				2307 text < div class =​" header-dropshadow " data-header-style =​" solid " data-header-dropshadow =​" false " data-test =​" header-dropshadow " style >
++																			2308 container </div>
++																				2309 text < /div >
++																		2310 row    <div> ​ Expand …​ </div> ​
++																			2311 container
++																				2312 container <div>
++																					2313 text < div >
++																				2314 button Expand
++																				2315 text …
++																				2316 container </div>
++																					2317 text < /div >
++																		2318 row    <div class="header-inner container--fluid header-layout--with-commerce header-mobile-layout-logo-left-nav-right header-layout-nav-left " data-test="header-inner"> ​ Enable flex mode
++																			2319 container
++																				2320 container <div class="header-inner container--fluid header-layout--with-commerce header-mobile-layout-logo-left-nav-right header-layout-nav-left " data-test="header-inner">
++																					2321 text < div class =​" header-inner container--fluid
+        
+          header-layout--with-commerce
+        
+        
+        
+         header-mobile-layout-logo-left-nav-right
+        
+        
+        
+        
+        
+        
+        
+         header-layout-nav-left
+        
+        
+        
+        
+        
+        
+        
+         " data-test =​" header-inner " >
++																				2322 toggle button Enable flex mode, Value: 0
++																					2323 text flex
++																		2324 row <!-- Background -->
++																			2325 text <!--  Background  -->
++																		2326 row    <div class="header-background theme-bg--primary"> ​ Expand …​ </div> ​
++																			2327 container
++																				2328 container <div class="header-background theme-bg--primary">
++																					2329 text < div class =​" header-background theme-bg--primary " >
++																				2330 button Expand
++																				2331 text …
++																				2332 container </div>
++																					2333 text < /div >
++																		2334 row    <div class="header-display-desktop" data-content-field="site-title"> ​ Enable flex mode
++																			2335 container
++																				2336 container <div class="header-display-desktop" data-content-field="site-title">
++																					2337 text < div class =​" header-display-desktop " data-content-field =​" site-title " >
++																				2338 toggle button Enable flex mode, Value: 0
++																					2339 text flex
++																		2340 container
++																			2341 row <style> ​ .top-bun, .patty, .bottom-bun { height: 1px; } ​ </style> ​
++																				2342 container <style>
++																					2343 text < style >
++																				2344 text  .top-bun, .patty, .bottom-bun { height: 1px; } 
++																				2345 container </style>
++																					2346 text < /style >
++																			2347 row <!-- Burger -->
++																				2348 text <!--  Burger  -->
++																			2349 row    <div class="header-burger menu-overlay-has-visible-non-navigation-items " data-animation-role="header-element"> ​ Expand …​ </div> ​
++																				2350 container
++																					2351 container <div class="header-burger menu-overlay-has-visible-non-navigation-items " data-animation-role="header-element">
++																						2352 text < div class =​" header-burger
+
+  menu-overlay-has-visible-non-navigation-items
+
+ " data-animation-role =​" header-element " >
++																					2353 button Expand
++																					2354 text …
++																					2355 container </div>
++																						2356 text < /div >
++																			2357 row <!-- Social -->
++																				2358 text <!--  Social  -->
++																			2359 row <!-- Title and nav wrapper -->
++																				2360 text <!--  Title and nav wrapper  -->
++																			2361 row    <div class="header-title-nav-wrapper"> ​ Expand …​ </div> ​ Enable flex mode
++																				2362 container
++																					2363 container <div class="header-title-nav-wrapper">
++																						2364 text < div class =​" header-title-nav-wrapper " >
++																					2365 button Expand
++																					2366 text …
++																					2367 container </div>
++																						2368 text < /div >
++																					2369 toggle button Enable flex mode, Value: 0
++																						2370 text flex
++																			2371 row <!-- Actions -->
++																				2372 text <!--  Actions  -->
++																			2373 row    <div class="header-actions header-actions--right"> ​ Enable flex mode
++																				2374 container
++																					2375 container <div class="header-actions header-actions--right">
++																						2376 text < div class =​" header-actions header-actions--right " >
++																					2377 toggle button Enable flex mode, Value: 0
++																						2378 text flex
++																			2379 row    <div class="header-actions-action header-actions-action--social"> ​ Expand …​ </div> ​ Enable flex mode
++																				2380 container
++																					2381 container <div class="header-actions-action header-actions-action--social">
++																						2382 text < div class =​" header-actions-action header-actions-action--social " >
++																					2383 button Expand
++																					2384 text …
++																					2385 container </div>
++																						2386 text < /div >
++																					2387 toggle button Enable flex mode, Value: 0
++																						2388 text flex
++																			2389 row    <div class="showOnMobile"> ​ Expand …​ </div> ​
++																				2390 container
++																					2391 container <div class="showOnMobile">
++																						2392 text < div class =​" showOnMobile " >
++																					2393 button Expand
++																					2394 text …
++																					2395 container </div>
++																						2396 text < /div >
++																			2397 row    <div class="showOnDesktop"> ​
++																				2398 container
++																					2399 container <div class="showOnDesktop">
++																						2400 text < div class =​" showOnDesktop " >
++																			2401 container
++																				2402 row    <div class="header-actions-action header-actions-action--cart"> ​
++																					2403 container
++																						2404 container <div class="header-actions-action header-actions-action--cart">
++																							2405 text < div class =​" header-actions-action header-actions-action--cart " >
++																				2406 row    <a href="/cart" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart header-icon show-empty-cart-state header-icon-border-shape-none header-icon-border-style-outline sqs-template-integrated-shopping-cart sqs-cart-initialized" data-test="continue-to-cart" aria-label="One item in cart"> ​
++																					2407 container
++																						2408 container <a href="/cart" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart header-icon show-empty-cart-state header-icon-border-shape-none header-icon-border-style-outline sqs-template-integrated-shopping-cart sqs-cart-initialized" data-test="continue-to-cart" aria-label="One item in cart">
++																							2409 text < a href =​"
++																							2410 link /​cart, Help: https://boldstonesculpture.com/cart
++																								2411 text /​cart
++																							2412 text " class =​" cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart header-icon show-empty-cart-state header-icon-border-shape-none header-icon-border-style-outline sqs-template-integrated-shopping-cart sqs-cart-initialized " data-test =​" continue-to-cart " aria-label =​" One item in cart " >
++																				2413 container
++																					2414 row    <span class="Cart-inner"> ​ Enable flex mode
++																						2415 container
++																							2416 container <span class="Cart-inner">
++																								2417 text < span class =​" Cart-inner " >
++																							2418 toggle button Enable flex mode, Value: 0
++																								2419 text flex
++																					2420 row    <svg class="icon icon--cart" viewBox="0 0 31 24"> ​ Expand …​ </svg> ​
++																						2421 container
++																							2422 container <svg class="icon icon--cart" viewBox="0 0 31 24">
++																								2423 text < svg class =​" icon icon--cart " viewBox =​" 0 0 31 24 " >
++																							2424 button Expand
++																							2425 text …
++																							2426 container </svg>
++																								2427 text < /svg >
++																					2428 row    <div class="icon-cart-quantity"> ​
++																						2429 container
++																							2430 container <div class="icon-cart-quantity">
++																								2431 text < div class =​" icon-cart-quantity " >
++																					2432 container
++																						2433 row    <span class="cart-quantity-container"> ​
++																							2434 container
++																								2435 container <span class="cart-quantity-container">
++																									2436 text < span class =​" cart-quantity-container " >
++																						2437 row (selected) <span class="sqs-cart-quantity"> ​1​ </span> ​
++																							2438 container <span class="sqs-cart-quantity">
++																								2439 text < span class =​" sqs-cart-quantity " >
++																							2440 text 1
++																							2441 container </span>
++																								2442 text < /span >
++																						2443 row </span> ​
++																							2444 container </span>
++																								2445 text < /span >
++																						2446 row </div> ​
++																							2447 container </div>
++																								2448 text < /div >
++																					2449 row </span> ​
++																						2450 container </span>
++																							2451 text < /span >
++																					2452 row </a> ​
++																						2453 container </a>
++																							2454 text < /a >
++																				2455 row </div> ​
++																					2456 container </div>
++																						2457 text < /div >
++																				2458 row </div> ​
++																					2459 container </div>
++																						2460 text < /div >
++																			2461 row </div> ​
++																				2462 container </div>
++																					2463 text < /div >
++																			2464 row </div> ​
++																				2465 container </div>
++																					2466 text < /div >
++																		2467 row    <div class="header-display-mobile" data-content-field="site-title"> ​ Expand …​ </div> ​
++																			2468 container
++																				2469 container <div class="header-display-mobile" data-content-field="site-title">
++																					2470 text < div class =​" header-display-mobile " data-content-field =​" site-title " >
++																				2471 button Expand
++																				2472 text …
++																				2473 container </div>
++																					2474 text < /div >
++																		2475 row </div> ​
++																			2476 container </div>
++																				2477 text < /div >
++																		2478 row </div> ​
++																			2479 container </div>
++																				2480 text < /div >
++																	2481 row <!-- (Mobile) Menu Navigation -->
++																		2482 text <!--  (Mobile) Menu Navigation  -->
++																	2483 row    <div class="header-menu header-menu--folder-list " data-section-theme data-current-styles="{ "layout": "navLeft", "action": { "buttonText": "Get Started", "newWindow": false }, "showSocial": true, "socialOptions": { "socialBorderShape": "none", "socialBorderStyle": "outline", "socialBorderThickness": { "unit": "px", "value": 1.0 } }, "menuOverlayAnimation": "fade", "cartStyle": "cart", "cartText": "Cart", "showEmptyCartState": true, "cartOptions": { "iconType": "stroke-1", "cartBorderShape": "none", "car
++																		2484 container
++																			2485 container <div class="header-menu header-menu--folder-list " data-section-theme data-current-styles="{ "layout": "navLeft", "action": { "buttonText": "Get Started", "newWindow": false }, "showSocial": true, "socialOptions": { "socialBorderShape": "none", "socialBorderStyle": "outline", "socialBorderThickness": { "unit": "px", "value": 1.0 } }, "menuOverlayAnimation": "fade", "cartStyle": "cart", "cartText": "Cart", "showEmptyCartState": true, "cartOptions": { "iconType": "stroke-1", "cartBorderShape": "none", "cartBo
++																				2486 text < div class =​" header-menu header-menu--folder-list
+      
+      
+      
+      
+      
+       " data-section-theme data-current-styles =​" {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               " data-section-id =​" overlay-nav " data-show-account-login =​" false " data-test =​" header-menu " style =​" padding-top:​ 101.125px;​ " >
++																			2487 button Expand
++																			2488 text …
++																			2489 container </div>
++																				2490 text < /div >
++																			2491 toggle button Enable flex mode, Value: 0
++																				2492 text flex
++																	2493 row    <script> ​ Expand …​ </script> ​
++																		2494 container
++																			2495 container <script>
++																				2496 text < script >
++																			2497 button Expand
++																			2498 text …
++																			2499 container </script>
++																				2500 text < /script >
++																	2501 row </header> ​
++																		2502 container </header>
++																			2503 text < /header >
++																	2504 row    <main id="page" class="container" role="main"> ​ Expand …​ </main> ​
++																		2505 container
++																			2506 container <main id="page" class="container" role="main">
++																				2507 text < main id =​" page " class =​" container " role =​" main " >
++																			2508 button Expand
++																			2509 text …
++																			2510 container </main>
++																				2511 text < /main >
++																	2512 row    <footer class="sections" id="footer-sections" data-footer-sections> ​ Expand …​ </footer> ​
++																		2513 container
++																			2514 container <footer class="sections" id="footer-sections" data-footer-sections>
++																				2515 text < footer class =​" sections " id =​" footer-sections " data-footer-sections >
++																			2516 button Expand
++																			2517 text …
++																			2518 container </footer>
++																				2519 text < /footer >
++																	2520 row    <div class="cookie-banner-manager"> ​ Expand …​ </div> ​
++																		2521 container
++																			2522 container <div class="cookie-banner-manager">
++																				2523 text < div class =​" cookie-banner-manager " >
++																			2524 button Expand
++																			2525 text …
++																			2526 container </div>
++																				2527 text < /div >
++																	2528 row </div> ​
++																		2529 container </div>
++																			2530 text < /div >
++																			2531 text https:​/​/​static1.squarespace.com/​static/​vta/​
++																			2532 text 5c5a519
++																			2533 text …
++																			2534 text /​scripts/​site-bundle.
++																			2535 text 52c5e17
++																			2536 text …
++																			2537 text .js
++																				2538 text https:​/​/​js.stripe.com/​v3/​controller-with-preconnect-
++																				2539 text 4f2af64
++																				2540 text …
++																				2541 text .html#__shared_params__[version]​=v3&__shared_params__[light_experiment_assignments]​=%7B%22token%22%3A%22ff5c03fb-bb9e-46ad-8110-3d811ffd74d8%22%2C%22assignments%22%3A%7B%22ewcs_integration_error_fatal_reclassification%22%3A%7B%22variant%22%3A%22treatment%22%2C%22population%22%3A1%7D%7D%2C%22unqualifiedExperiments%22%3A%7B%22elements_google_pay_js_android_aa%22%3A0.01%2C%22v8_compile_hints_v1%22%3A0.01%7D%7D&apiKey=pk_test_51SDOJ3A9UyhIekm1RtF4TMijlCEXivkToNFxox3HRVx0yMU9HOW6zkUrTJ0UigiZ6H792bR83ae4XFLQnxU
++																				2542 text https:​/​/​js.stripe.com/​v3/​m-outer-
++																				2543 text 3437aad
++																				2544 text …
++																				2545 text .html#url=https%3A%2F%2Fboldstonesculpture.com%2Fbuy%2Fp%2Fbrancusi-totem-white%3Futm_source%3Dqa%26utm_medium%3Dtest%26utm_campaign%3Dpinterest_consent_check&title=Brancusi%20Totem%20Relief%20-%20White%20%E2%80%94%20boldstone&referrer=&muid=5e89a429-1a11-45f7-8c83-4b940cf2d88732a8b9&sid=f766c52e-d16d-420a-abee-31f016bd406eebd486&version=6&preview=false&__shared_params__[version]​=v3
+~															765 link body#item-6ae518707afbe4486b5ef488.primary-button-style-solid.primary-button-shape-square.secondary-button-style-outline.secondary-button-shape-square.tertiary-button-style-outline.tertiary-button-shape-underline.form-field-style-solid.form-field-shape-square.form-field-border-all.form-field-hover-focus-outline.form-field-checkbox-type-icon.form-field-checkbox-fill-solid.form-field-checkbox-color-inverted.form-field-checkbox-shape-square.form-field-checkbox-layout-stack.form-field-radio-type-icon.form-field, Value: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true#
+~															766 link div#siteWrapper.clearfix.site-wrapper, Value: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true#
++															2546 link header#header..header.theme-col--primary, Value: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true#
++															2547 link div.header-announcement-bar-wrapper, Value: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true#
++															2548 link div.header-inner.container--fluid.header-layout--with-commerce.header-mobile-layout-logo-left-nav-right.header-layout-nav-left., Value: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true#
++															2549 link div.header-display-desktop, Value: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true#
++															2550 link div.header-actions.header-actions--right, Value: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true#
++															2551 link div.showOnDesktop, Value: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true#
++															2552 link div.header-actions-action.header-actions-action--cart, Value: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true#
++															2553 link a.cart-style-icon.icon--stroke.icon--fill.icon--cart.sqs-custom-cart.header-icon.show-empty-cart-state.header-icon-border-shape-none.header-icon-border-style-outline.sqs-template-integrated-shopping-cart.sqs-cart-initialized, Value: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true#
++															2554 link span.Cart-inner, Value: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true#
++															2555 link div.icon-cart-quantity, Value: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true#
++															2556 link span.cart-quantity-container, Value: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true#
++															2557 link span.sqs-cart-quantity, Value: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true#
+~														776 container Shows result 2 of 5
++																		2558 container element.style, css selector
++																			2559 container
++																				2560 container CSS selector
++																					2561 text element.style
++																				2562 text  {
++																			2563 container
++																				2564 text }
++																		2565 container
++																			2566 text Inherited from 
++																			2567 button div.icon-cart-quantity, Help: div .icon-cart-quantity
++																		2568 container body:not(.header--menu-open) [data-header-style="solid"].header .sqs-custom-cart.header-icon-border-shape-none .icon-cart-quantity, css selector
++																			2569 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				2570 text site.css?no … tom=true:10
++																			2571 container
++																				2572 container CSS selector
++																					2573 text body:not(.header--menu-open) [data-header-style="solid"].header .sqs-custom-cart.header-icon-border-shape-none .icon-cart-quantity
++																				2574 text  {
++																			2575 outline
++																				2576 row  CSS property name: color : CSS property value: var(--solidHeaderNavigationColor) ;
++																					2577 container CSS property name: color
++																						2578 text color
++																					2579 text : 
++																					2580 container CSS property value: var(--solidHeaderNavigationColor)
++																						2581 container
++																							2582 text var (
++																							2583 link --solidHeaderNavigationColor
++																								2584 text --solidHeaderNavigationColor
++																							2585 text )
++																					2586 text ;
++																			2587 container
++																				2588 text }
++																		2589 container .header-actions-action .cart-style-icon .icon-cart-quantity:not(.legacy-cart), .header-menu-actions-action .cart-style-icon .icon-cart-quantity:not(.legacy-cart), css selector
++																			2590 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				2591 text site.css?no … tom=true:10
++																			2592 container
++																				2593 container CSS selector
++																					2594 text .header-actions-action .cart-style-icon .icon-cart-quantity:not(.legacy-cart)
++																					2595 text , 
++																					2596 text .header-menu-actions-action .cart-style-icon .icon-cart-quantity:not(.legacy-cart)
++																				2597 text  {
++																			2598 outline
++																				2599 row  CSS property name: line-height : CSS property value: 25px ;
++																					2600 container CSS property name: line-height
++																						2601 text line-height
++																					2602 text : 
++																					2603 container CSS property value: 25px
++																						2604 text 25px
++																					2605 text ;
++																			2606 container
++																				2607 text }
++																		2608 container .icon-cart-quantity:not(.legacy-cart), css selector
++																			2609 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				2610 text site.css?no … tom=true:10
++																			2611 container
++																				2612 container CSS selector
++																					2613 text .icon-cart-quantity:not(.legacy-cart)
++																				2614 text  {
++																			2615 outline
++																				2616 row  CSS property name: position : CSS property value: relative ;
++																					2617 container CSS property name: position
++																						2618 text position
++																					2619 text : 
++																					2620 container CSS property value: relative
++																						2621 text relative
++																					2622 text ;
++																				2623 row  CSS property name: text-align : CSS property value: center ;
++																					2624 container CSS property name: text-align
++																						2625 text text-align
++																					2626 text : 
++																					2627 container CSS property value: center
++																						2628 text center
++																					2629 text ;
++																			2630 container
++																				2631 text }
++																		2632 container .header-nav-item, .user-accounts-text-link, .cart-style-text, .icon-cart-quantity:not(.legacy-cart), .language-picker, css selector
++																			2633 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				2634 text site.css?no … tom=true:10
++																			2635 container
++																				2636 text @media  screen and (min-width: 768px), screen and (orientation: landscape) {
++																			2637 container
++																				2638 container CSS selector
++																					2639 text .header-nav-item
++																					2640 text , 
++																					2641 text .user-accounts-text-link
++																					2642 text , 
++																					2643 text .cart-style-text
++																					2644 text , 
++																					2645 text .icon-cart-quantity:not(.legacy-cart)
++																					2646 text , 
++																					2647 text .language-picker
++																				2648 text  {
++																			2649 outline
++																				2650 row  CSS property name: font-size : CSS property value: min(calc((var(--site-navigation-font-font-size-value) - 1) * 1.2vw + 1rem), max(calc((var(--site-navigation-font-font-size-value) - 1) * 0.012 * var(--maxPageWidth) + 1rem), calc(var(--site-navigation-font-font-size-value) * 1rem))) ;
++																					2651 container CSS property name: font-size
++																						2652 text font-size
++																					2653 text : 
++																					2654 container CSS property value: min(calc((var(--site-navigation-font-font-size-value) - 1) * 1.2vw + 1rem), max(calc((var(--site-navigation-font-font-size-value) - 1) * 0.012 * var(--maxPageWidth) + 1rem), calc(var(--site-navigation-font-font-size-value) * 1rem)))
++																						2655 text min
++																						2656 text (
++																						2657 text calc
++																						2658 text ( (
++																						2659 container
++																							2660 text var (
++																							2661 link --site-navigation-font-font-size-value
++																								2662 text --site-navigation-font-font-size-value
++																							2663 text )
++																						2664 text - 1 ) *
++																						2665 text 1.2vw
++																						2666 text +
++																						2667 text 1rem
++																						2668 text ) , 
++																						2669 text max
++																						2670 text (
++																						2671 text calc
++																						2672 text ( (
++																						2673 container
++																							2674 text var (
++																							2675 link --site-navigation-font-font-size-value
++																								2676 text --site-navigation-font-font-size-value
++																							2677 text )
++																						2678 text - 1 ) * 0.012 *
++																						2679 container
++																							2680 text var (
++																							2681 link --maxPageWidth
++																								2682 text --maxPageWidth
++																							2683 text )
++																						2684 text +
++																						2685 text 1rem
++																						2686 text ) , 
++																						2687 text calc
++																						2688 text (
++																						2689 container
++																							2690 text var (
++																							2691 link --site-navigation-font-font-size-value
++																								2692 text --site-navigation-font-font-size-value
++																							2693 text )
++																						2694 text *
++																						2695 text 1rem
++																						2696 text ) ) )
++																					2697 text ;
++																			2698 container
++																				2699 text }
++																			2700 text }
++																		2701 container .header-nav-item, .user-accounts-text-link, .cart-style-text, .icon-cart-quantity:not(.legacy-cart), .language-picker, css selector
++																			2702 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				2703 text site.css?no … tom=true:10
++																			2704 container
++																				2705 container CSS selector
++																					2706 text .header-nav-item
++																					2707 text , 
++																					2708 text .user-accounts-text-link
++																					2709 text , 
++																					2710 text .cart-style-text
++																					2711 text , 
++																					2712 text .icon-cart-quantity:not(.legacy-cart)
++																					2713 text , 
++																					2714 text .language-picker
++																				2715 text  {
++																			2716 outline
++																				2717 row  CSS property name: font-family : CSS property value: var(--site-navigation-font-font-family) ;
++																					2718 container CSS property name: font-family
++																						2719 text font-family
++																					2720 text : 
++																					2721 container CSS property value: var(--site-navigation-font-font-family)
++																						2722 container
++																							2723 text var (
++																							2724 link --site-navigation-font-font-family
++																								2725 text --site-navigation-font-font-family
++																							2726 text )
++																					2727 text ;
++																				2728 row  CSS property name: font-style : CSS property value: var(--site-navigation-font-font-style) ;
++																					2729 container CSS property name: font-style
++																						2730 text font-style
++																					2731 text : 
++																					2732 container CSS property value: var(--site-navigation-font-font-style)
++																						2733 container
++																							2734 text var (
++																							2735 link --site-navigation-font-font-style
++																								2736 text --site-navigation-font-font-style
++																							2737 text )
++																					2738 text ;
++																				2739 row  CSS property name: font-weight : CSS property value: var(--site-navigation-font-font-weight) ;
++																					2740 container CSS property name: font-weight
++																						2741 text font-weight
++																					2742 text : 
++																					2743 container CSS property value: var(--site-navigation-font-font-weight)
++																						2744 container
++																							2745 text var (
++																							2746 link --site-navigation-font-font-weight
++																								2747 text --site-navigation-font-font-weight
++																							2748 text )
++																					2749 text ;
++																				2750 row  CSS property name: line-height : CSS property value: var(--site-navigation-font-line-height) ;
++																					2751 container CSS property name: line-height
++																						2752 text line-height
++																					2753 text : 
++																					2754 container CSS property value: var(--site-navigation-font-line-height)
++																						2755 container
++																							2756 text var (
++																							2757 link --site-navigation-font-line-height
++																								2758 text --site-navigation-font-line-height
++																							2759 text )
++																					2760 text ;
++																				2761 row  CSS property name: letter-spacing : CSS property value: var(--site-navigation-font-letter-spacing) ;
++																					2762 container CSS property name: letter-spacing
++																						2763 text letter-spacing
++																					2764 text : 
++																					2765 container CSS property value: var(--site-navigation-font-letter-spacing)
++																						2766 container
++																							2767 text var (
++																							2768 link --site-navigation-font-letter-spacing
++																								2769 text --site-navigation-font-letter-spacing
++																							2770 text )
++																					2771 text ;
++																				2772 row  CSS property name: text-transform : CSS property value: var(--site-navigation-font-text-transform) ;
++																					2773 container CSS property name: text-transform
++																						2774 text text-transform
++																					2775 text : 
++																					2776 container CSS property value: var(--site-navigation-font-text-transform)
++																						2777 container
++																							2778 text var (
++																							2779 link --site-navigation-font-text-transform
++																								2780 text --site-navigation-font-text-transform
++																							2781 text )
++																					2782 text ;
++																			2783 container
++																				2784 text }
++																		2785 container .icon-cart-quantity, css selector
++																			2786 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				2787 text site.css?no … tom=true:10
++																			2788 container
++																				2789 container CSS selector
++																					2790 text .icon-cart-quantity
++																				2791 text  {
++																			2792 outline
++																				2793 row CSS property name: display : CSS property value: block ;
++																					2794 container CSS property name: display
++																						2795 text display
++																					2796 text : 
++																					2797 container CSS property value: block
++																						2798 text block
++																					2799 text ;
++																				2800 row CSS property name: font-family : CSS property value: inherit ;
++																					2801 container CSS property name: font-family
++																						2802 text font-family
++																					2803 text : 
++																					2804 container CSS property value: inherit
++																						2805 text inherit
++																					2806 text ;
++																			2807 container
++																				2808 text }
++																		2809 container
++																			2810 text Inherited from 
++																			2811 button a.cart-style-icon.icon--stroke.icon--fill.icon--cart.sqs-custom-cart.header-icon.show-empty-cart-state.header-icon-border-shape-none.header-icon-border-style-outline.sqs-template-integrated-shopping-cart.sqs-cart-initialized, Help: a .cart-style-icon .icon--stroke .icon--fill .icon--cart .sqs-custom-cart .header-icon .show-empty-cart-state .header-icon-border-shape-none .header-icon-border-style-outline .sqs-template-integrated-shopping-cart .sqs-cart-initialized
++																		2812 container a, css selector
++																			2813 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				2814 text site.css?no … tom=true:10
++																			2815 container
++																				2816 container CSS selector
++																					2817 text a
++																				2818 text  {
++																			2819 outline
++																				2820 row CSS property name: color : CSS property value: inherit ;
++																					2821 container CSS property name: color
++																						2822 text color
++																					2823 text : 
++																					2824 container CSS property value: inherit
++																						2825 text inherit
++																					2826 text ;
++																				2827 row CSS property name: text-decoration : CSS property value: none ;
++																					2828 container CSS property name: text-decoration
++																						2829 text text-decoration
++																					2830 text : 
++																					2831 container CSS property value: none
++																						2832 text none
++																					2833 text ;
++																			2834 container
++																				2835 text }
++																		2836 container a, css selector
++																			2837 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				2838 text site.css?no … tom=true:10
++																			2839 container
++																				2840 container CSS selector
++																					2841 text a
++																				2842 text  {
++																			2843 outline
++																				2844 row CSS property name: cursor : CSS property value: pointer ;
++																					2845 container CSS property name: cursor
++																						2846 text cursor
++																					2847 text : 
++																					2848 container CSS property value: pointer
++																						2849 text pointer
++																					2850 text ;
++																				2851 row CSS property name: color : CSS property value: inherit ;
++																					2852 container CSS property name: color
++																						2853 text color
++																					2854 text : 
++																					2855 container CSS property value: inherit
++																						2856 text inherit
++																					2857 text ;
++																				2858 row CSS property name: text-decoration : CSS property value: none ;
++																					2859 container CSS property name: text-decoration
++																						2860 text text-decoration
++																					2861 text : 
++																					2862 container CSS property value: none
++																						2863 text none
++																					2864 text ;
++																			2865 container
++																				2866 text }
++																		2867 container a:-webkit-any-link, css selector
++																			2868 text user agent stylesheet
++																			2869 container
++																				2870 container CSS selector
++																					2871 text a:-webkit-any-link
++																				2872 text  {
++																			2873 outline
++																				2874 row CSS property name: color : CSS property value: -webkit-link ;
++																					2875 container CSS property name: color
++																						2876 text color
++																					2877 text : 
++																					2878 container CSS property value: -webkit-link
++																						2879 text -webkit-link
++																					2880 text ;
++																				2881 row CSS property name: cursor : CSS property value: pointer ;
++																					2882 container CSS property name: cursor
++																						2883 text cursor
++																					2884 text : 
++																					2885 container CSS property value: pointer
++																						2886 text pointer
++																					2887 text ;
++																			2888 container
++																				2889 text }
++																		2890 container
++																			2891 text Inherited from 
++																			2892 button div.header-actions-action.header-actions-action--cart, Help: div .header-actions-action .header-actions-action--cart
++																		2893 container .header-actions-action, .header-menu-actions-action, css selector
++																			2894 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				2895 text site.css?no … tom=true:10
++																			2896 container
++																				2897 container CSS selector
++																					2898 text .header-actions-action
++																					2899 text , 
++																					2900 text .header-menu-actions-action
++																				2901 text  {
++																			2902 outline
++																				2903 row CSS property name: text-align : CSS property value: center ;
++																					2904 container CSS property name: text-align
++																						2905 text text-align
++																					2906 text : 
++																					2907 container CSS property value: center
++																						2908 text center
++																					2909 text ;
++																				2910 row CSS property name: line-height : CSS property value: 1 ;
++																					2911 container CSS property name: line-height
++																						2912 text line-height
++																					2913 text : 
++																					2914 container CSS property value: 1
++																						2915 text 1
++																					2916 text ;
++																			2917 container
++																				2918 text }
++																		2919 container
++																			2920 text Inherited from 
++																			2921 button div.header-actions.header-actions--right, Help: div .header-actions .header-actions--right
++																		2922 container :not(.header--menu-open) .header-actions, css selector
++																			2923 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				2924 text site.css?no … tom=true:10
++																			2925 container
++																				2926 container CSS selector
++																					2927 text :not(.header--menu-open) .header-actions
++																				2928 text  {
++																			2929 outline
++																				2930 row CSS property name: color : CSS property value: var(--navigationLinkColor) ;
++																					2931 container CSS property name: color
++																						2932 text color
++																					2933 text : 
++																					2934 container CSS property value: var(--navigationLinkColor)
++																						2935 text var(--navigationLinkColor)
++																					2936 text ;
++																			2937 container
++																				2938 text }
++																		2939 container
++																			2940 text Inherited from 
++																			2941 button div.header-announcement-bar-wrapper, Help: div .header-announcement-bar-wrapper
++																		2942 container .header .header-announcement-bar-wrapper, css selector
++																			2943 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				2944 text site.css?no … tom=true:10
++																			2945 container
++																				2946 container CSS selector
++																					2947 text .header .header-announcement-bar-wrapper
++																				2948 text  {
++																			2949 outline
++																				2950 row CSS property name: position : CSS property value: relative ;
++																					2951 container CSS property name: position
++																						2952 text position
++																					2953 text : 
++																					2954 container CSS property value: relative
++																						2955 text relative
++																					2956 text ;
++																				2957 row CSS property name: z-index : CSS property value: 2 ;
++																					2958 container CSS property name: z-index
++																						2959 text z-index
++																					2960 text : 
++																					2961 container CSS property value: 2
++																						2962 text 2
++																					2963 text ;
++																				2964 row CSS property name: width : CSS property value: 100% ;
++																					2965 container CSS property name: width
++																						2966 text width
++																					2967 text : 
++																					2968 container CSS property value: 100%
++																						2969 text 100%
++																					2970 text ;
++																				2971 row CSS property name: box-sizing : CSS property value: border-box ;
++																					2972 container CSS property name: box-sizing
++																						2973 text box-sizing
++																					2974 text : 
++																					2975 container CSS property value: border-box
++																						2976 text border-box
++																					2977 text ;
++																				2978 row CSS property name: padding-top : CSS property value: 1.5vw ;
++																					2979 container CSS property name: padding-top
++																						2980 text padding-top
++																					2981 text : 
++																					2982 container CSS property value: 1.5vw
++																						2983 text 1.5vw
++																					2984 text ;
++																				2985 row CSS property name: padding-bottom : CSS property value: 1.5vw ;
++																					2986 container CSS property name: padding-bottom
++																						2987 text padding-bottom
++																					2988 text : 
++																					2989 container CSS property value: 1.5vw
++																						2990 text 1.5vw
++																					2991 text ;
++																				2992 row CSS property name: padding-left : CSS property value: var(--pagePadding) ;
++																					2993 container CSS property name: padding-left
++																						2994 text padding-left
++																					2995 text : 
++																					2996 container CSS property value: var(--pagePadding)
++																						2997 text var(--pagePadding)
++																					2998 text ;
++																				2999 row CSS property name: padding-right : CSS property value: var(--pagePadding) ;
++																					3000 container CSS property name: padding-right
++																						3001 text padding-right
++																					3002 text : 
++																					3003 container CSS property value: var(--pagePadding)
++																						3004 text var(--pagePadding)
++																					3005 text ;
++																				3006 row CSS property name: pointer-events : CSS property value: auto ;
++																					3007 container CSS property name: pointer-events
++																						3008 text pointer-events
++																					3009 text : 
++																					3010 container CSS property value: auto
++																						3011 text auto
++																					3012 text ;
++																			3013 container
++																				3014 text }
++																		3015 container
++																			3016 text Inherited from 
++																			3017 button header#header.header.theme-col--primary, Help: header #header .header .theme-col--primary
++																		3018 container style attribute, css selector
++																			3019 container
++																				3020 container CSS selector
++																					3021 text style attribute
++																				3022 text  {
++																			3023 outline
++																				3024 row CSS property name: --headerBorderColor : CSS property value: hsla(var(--black-hsl), 1) ;
++																					3025 container CSS property name: --headerBorderColor
++																						3026 text --headerBorderColor
++																					3027 text : 
++																					3028 container CSS property value: hsla(var(--black-hsl), 1)
++																						3029 text hsla(var(--black-hsl), 1)
++																					3030 text ;
++																				3031 row CSS property name: --solidHeaderBackgroundColor : CSS property value: hsla(var(--white-hsl), 1) ;
++																					3032 container CSS property name: --solidHeaderBackgroundColor
++																						3033 text --solidHeaderBackgroundColor
++																					3034 text : 
++																					3035 container CSS property value: hsla(var(--white-hsl), 1)
++																						3036 text hsla(var(--white-hsl), 1)
++																					3037 text ;
++																				3038 row CSS property name: --solidHeaderNavigationColor : CSS property value: hsla(var(--black-hsl), 1) ;
++																					3039 container CSS property name: --solidHeaderNavigationColor
++																						3040 text --solidHeaderNavigationColor
++																					3041 text : 
++																					3042 container CSS property value: hsla(var(--black-hsl), 1)
++																						3043 text hsla(var(--black-hsl), 1)
++																					3044 text ;
++																				3045 row CSS property name: --gradientHeaderBackgroundColor : CSS property value: hsla(var(--white-hsl), 1) ;
++																					3046 container CSS property name: --gradientHeaderBackgroundColor
++																						3047 text --gradientHeaderBackgroundColor
++																					3048 text : 
++																					3049 container CSS property value: hsla(var(--white-hsl), 1)
++																						3050 text hsla(var(--white-hsl), 1)
++																					3051 text ;
++																				3052 row CSS property name: --gradientHeaderNavigationColor : CSS property value: hsla(var(--black-hsl), 1) ;
++																					3053 container CSS property name: --gradientHeaderNavigationColor
++																						3054 text --gradientHeaderNavigationColor
++																					3055 text : 
++																					3056 container CSS property value: hsla(var(--black-hsl), 1)
++																						3057 text hsla(var(--black-hsl), 1)
++																					3058 text ;
++																			3059 container
++																				3060 text }
++																		3061 container .header, css selector
++																			3062 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				3063 text site.css?no … tom=true:10
++																			3064 container
++																				3065 container CSS selector
++																					3066 text .header
++																				3067 text  {
++																			3068 outline
++																				3069 row CSS property name: z-index : CSS property value: 10 ;
++																					3070 container CSS property name: z-index
++																						3071 text z-index
++																					3072 text : 
++																					3073 container CSS property value: 10
++																						3074 text 10
++																					3075 text ;
++																				3076 row CSS property name: position : CSS property value: absolute ;
++																					3077 container CSS property name: position
++																						3078 text position
++																					3079 text : 
++																					3080 container CSS property value: absolute
++																						3081 text absolute
++																					3082 text ;
++																				3083 row CSS property name: top : CSS property value: 0 ;
++																					3084 container CSS property name: top
++																						3085 text top
++																					3086 text : 
++																					3087 container CSS property value: 0
++																						3088 text 0
++																					3089 text ;
++																				3090 row CSS property name: right : CSS property value: 0 ;
++																					3091 container CSS property name: right
++																						3092 text right
++																					3093 text : 
++																					3094 container CSS property value: 0
++																						3095 text 0
++																					3096 text ;
++																				3097 row CSS property name: left : CSS property value: 0 ;
++																					3098 container CSS property name: left
++																						3099 text left
++																					3100 text : 
++																					3101 container CSS property value: 0
++																						3102 text 0
++																					3103 text ;
++																				3104 row CSS property name: line-height : CSS property value: 1 ;
++																					3105 container CSS property name: line-height
++																						3106 text line-height
++																					3107 text : 
++																					3108 container CSS property value: 1
++																						3109 text 1
++																					3110 text ;
++																				3111 row CSS property name: -webkit-tap-highlight-color : CSS property value: rgba(0,0,0,0) ;
++																					3112 container CSS property name: -webkit-tap-highlight-color
++																						3113 text -webkit-tap-highlight-color
++																					3114 text : 
++																					3115 container CSS property value: rgba(0,0,0,0)
++																						3116 text rgba(0,0,0,0)
++																					3117 text ;
++																				3118 row CSS property name: pointer-events : CSS property value: none ;
++																					3119 container CSS property name: pointer-events
++																						3120 text pointer-events
++																					3121 text : 
++																					3122 container CSS property value: none
++																						3123 text none
++																					3124 text ;
++																				3125 row CSS property name: transition : CSS property value: transform 140ms ease-in-out ;
++																					3126 container CSS property name: transition
++																						3127 text transition
++																					3128 text : 
++																					3129 container CSS property value: transform 140ms ease-in-out
++																						3130 text transform 140ms ease-in-out
++																					3131 text ;
++																			3132 container
++																				3133 text }
++																		3134 container
++																			3135 text Inherited from 
++																			3136 button div#siteWrapper.clearfix.site-wrapper, Help: div #siteWrapper .clearfix .site-wrapper
++																		3137 container .site-wrapper, .sqs-catalog-item-list, css selector
++																			3138 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				3139 text site.css?no … tom=true:10
++																			3140 container
++																				3141 text @media  screen and (min-width: 768px), screen and (orientation: landscape) {
++																			3142 container
++																				3143 container CSS selector
++																					3144 text .site-wrapper
++																					3145 text , 
++																					3146 text .sqs-catalog-item-list
++																				3147 text  {
++																			3148 outline
++																				3149 row CSS property name: font-size : CSS property value: min(calc((var(--normal-text-size-value) - 1) * 1.2vw + 1rem), max(calc((var(--normal-text-size-value) - 1) * 0.012 * var(--maxPageWidth) + 1rem), calc(var(--normal-text-size-value) * 1rem))) ;
++																					3150 container CSS property name: font-size
++																						3151 text font-size
++																					3152 text : 
++																					3153 container CSS property value: min(calc((var(--normal-text-size-value) - 1) * 1.2vw + 1rem), max(calc((var(--normal-text-size-value) - 1) * 0.012 * var(--maxPageWidth) + 1rem), calc(var(--normal-text-size-value) * 1rem)))
++																						3154 text min(calc((var(--normal-text-size-value) - 1) * 1.2vw + 1rem), max(calc((var(--normal-text-size-value) - 1) * 0.012 * var(--maxPageWidth) + 1rem), calc(var(--normal-text-size-value) * 1rem)))
++																					3155 text ;
++																			3156 container
++																				3157 text }
++																			3158 text }
++																		3159 container .site-wrapper, .sqs-catalog-item-list, css selector
++																			3160 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				3161 text site.css?no … tom=true:10
++																			3162 container
++																				3163 container CSS selector
++																					3164 text .site-wrapper
++																					3165 text , 
++																					3166 text .sqs-catalog-item-list
++																				3167 text  {
++																			3168 outline
++																				3169 row CSS property name: font-family : CSS property value: var(--body-font-font-family) ;
++																					3170 container CSS property name: font-family
++																						3171 text font-family
++																					3172 text : 
++																					3173 container CSS property value: var(--body-font-font-family)
++																						3174 text var(--body-font-font-family)
++																					3175 text ;
++																				3176 row CSS property name: font-style : CSS property value: var(--body-font-font-style) ;
++																					3177 container CSS property name: font-style
++																						3178 text font-style
++																					3179 text : 
++																					3180 container CSS property value: var(--body-font-font-style)
++																						3181 text var(--body-font-font-style)
++																					3182 text ;
++																				3183 row CSS property name: font-weight : CSS property value: var(--body-font-font-weight) ;
++																					3184 container CSS property name: font-weight
++																						3185 text font-weight
++																					3186 text : 
++																					3187 container CSS property value: var(--body-font-font-weight)
++																						3188 text var(--body-font-font-weight)
++																					3189 text ;
++																				3190 row CSS property name: line-height : CSS property value: var(--body-font-line-height) ;
++																					3191 container CSS property name: line-height
++																						3192 text line-height
++																					3193 text : 
++																					3194 container CSS property value: var(--body-font-line-height)
++																						3195 text var(--body-font-line-height)
++																					3196 text ;
++																				3197 row CSS property name: letter-spacing : CSS property value: var(--body-font-letter-spacing) ;
++																					3198 container CSS property name: letter-spacing
++																						3199 text letter-spacing
++																					3200 text : 
++																					3201 container CSS property value: var(--body-font-letter-spacing)
++																						3202 text var(--body-font-letter-spacing)
++																					3203 text ;
++																				3204 row CSS property name: text-transform : CSS property value: var(--body-font-text-transform) ;
++																					3205 container CSS property name: text-transform
++																						3206 text text-transform
++																					3207 text : 
++																					3208 container CSS property value: var(--body-font-text-transform)
++																						3209 text var(--body-font-text-transform)
++																					3210 text ;
++																				3211 row CSS property name: -webkit-font-smoothing : CSS property value: antialiased ;
++																					3212 container CSS property name: -webkit-font-smoothing
++																						3213 text -webkit-font-smoothing
++																					3214 text : 
++																					3215 container CSS property value: antialiased
++																						3216 text antialiased
++																					3217 text ;
++																			3218 container
++																				3219 text }
++																		3220 container
++																			3221 text Inherited from 
++																			3222 button body#item-6ae518707afbe4486b5ef488.primary-button-style-solid.primary-button-shape-square.secondary-button-style-outline.secondary-button-shape-square.tertiary-button-style-outline.tertiary-button-shape-underline.form-field-style-solid.form-field-shape-square.form-field-border-all.form-field-hover-focus-outline.form-field-checkbox-type-icon.form-field-checkbox-fill-solid.form-field-checkbox-color-inverted.form-field-checkbox-shape-square.form-field-checkbox-layout-stack.form-field-radio-type-icon.form-field, Help: body #item-6ae518707afbe4486b5ef488 .primary-button-style-solid .primary-button-shape-square .secondary-button-style-outline .secondary-button-shape-square .tertiary-button-style-outline .tertiary-button-shape-underline .form-field-style-solid .form-field-shape-square .form-field-border-all .form-field-hover-focus-outline .form-field-checkbox-type-icon .form-field-checkbox-fill-solid .form-field-checkbox-color-inverted .form-field-checkbox-shape-square .form-field-checkbox-layout-stack .form-field-radio-typ
++																		3223 container body, css selector
++																			3224 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				3225 text site.css?no … tom=true:10
++																			3226 container
++																				3227 container CSS selector
++																					3228 text body
++																				3229 text  {
++																			3230 outline
++																				3231 row CSS property name: background-color : CSS property value: var(--siteBackgroundColor) ;
++																					3232 container CSS property name: background-color
++																						3233 text background-color
++																					3234 text : 
++																					3235 container CSS property value: var(--siteBackgroundColor)
++																						3236 text var(--siteBackgroundColor)
++																					3237 text ;
++																				3238 row CSS property name: color : CSS property value: var(--paragraphMediumColor) ;
++																					3239 container CSS property name: color
++																						3240 text color
++																					3241 text : 
++																					3242 container CSS property value: var(--paragraphMediumColor)
++																						3243 text var(--paragraphMediumColor)
++																					3244 text ;
++																			3245 container
++																				3246 text }
++																		3247 container body, css selector
++																			3248 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				3249 text site.css?no … tom=true:10
++																			3250 container
++																				3251 text @supports  (--test-custom-property: true) {
++																			3252 container
++																				3253 container CSS selector
++																					3254 text body
++																				3255 text  {
++																			3256 outline
++																				3257 row CSS property name: --sqs-site-gutter : CSS property value: var(--pagePadding) ;
++																					3258 container CSS property name: --sqs-site-gutter
++																						3259 text --sqs-site-gutter
++																					3260 text : 
++																					3261 container CSS property value: var(--pagePadding)
++																						3262 text var(--pagePadding)
++																					3263 text ;
++																				3264 row CSS property name: --sqs-mobile-site-gutter : CSS property value: 6vw ;
++																					3265 container CSS property name: --sqs-mobile-site-gutter
++																						3266 text --sqs-mobile-site-gutter
++																					3267 text : 
++																					3268 container CSS property value: 6vw
++																						3269 text 6vw
++																					3270 text ;
++																				3271 row CSS property name: --sqs-site-max-width : CSS property value: var(--maxPageWidth) ;
++																					3272 container CSS property name: --sqs-site-max-width
++																						3273 text --sqs-site-max-width
++																					3274 text : 
++																					3275 container CSS property value: var(--maxPageWidth)
++																						3276 text var(--maxPageWidth)
++																					3277 text ;
++																				3278 row CSS property name: --sqs-focus-outline-width : CSS property value: 2px ;
++																					3279 container CSS property name: --sqs-focus-outline-width
++																						3280 text --sqs-focus-outline-width
++																					3281 text : 
++																					3282 container CSS property value: 2px
++																						3283 text 2px
++																					3284 text ;
++																				3285 row CSS property name: --sqs-focus-outline-style : CSS property value: solid ;
++																					3286 container CSS property name: --sqs-focus-outline-style
++																						3287 text --sqs-focus-outline-style
++																					3288 text : 
++																					3289 container CSS property value: solid
++																						3290 text solid
++																					3291 text ;
++																				3292 row CSS property name: --sqs-focus-outline-offset-default : CSS property value: 4px ;
++																					3293 container CSS property name: --sqs-focus-outline-offset-default
++																						3294 text --sqs-focus-outline-offset-default
++																					3295 text : 
++																					3296 container CSS property value: 4px
++																						3297 text 4px
++																					3298 text ;
++																				3299 row CSS property name: --sqs-focus-outline-offset-zero : CSS property value: 0 ;
++																					3300 container CSS property name: --sqs-focus-outline-offset-zero
++																						3301 text --sqs-focus-outline-offset-zero
++																					3302 text : 
++																					3303 container CSS property value: 0
++																						3304 text 0
++																					3305 text ;
++																				3306 row CSS property name: --sqs-focus-outline-offset-flush : CSS property value: -2px ;
++																					3307 container CSS property name: --sqs-focus-outline-offset-flush
++																						3308 text --sqs-focus-outline-offset-flush
++																					3309 text : 
++																					3310 container CSS property value: -2px
++																						3311 text -2px
++																					3312 text ;
++																				3313 row CSS property name: --sqs-focus-outline-offset-inset : CSS property value: -4px ;
++																					3314 container CSS property name: --sqs-focus-outline-offset-inset
++																						3315 text --sqs-focus-outline-offset-inset
++																					3316 text : 
++																					3317 container CSS property value: -4px
++																						3318 text -4px
++																					3319 text ;
++																			3320 container
++																				3321 text }
++																			3322 text }
++																		3323 container body, css selector
++																			3324 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				3325 text site.css?no … tom=true:10
++																			3326 container
++																				3327 container CSS selector
++																					3328 text body
++																				3329 text  {
++																			3330 outline
++																				3331 row CSS property name: word-wrap : CSS property value: break-word ;
++																					3332 container CSS property name: word-wrap
++																						3333 text word-wrap
++																					3334 text : 
++																					3335 container CSS property value: break-word
++																						3336 text break-word
++																					3337 text ;
++																				3338 row CSS property name: overflow-wrap : CSS property value: break-word ;
++																					3339 container CSS property name: overflow-wrap
++																						3340 text overflow-wrap
++																					3341 text : 
++																					3342 container CSS property value: break-word
++																						3343 text break-word
++																					3344 text ;
++																			3345 container
++																				3346 text }
++																		3347 container html, body, css selector
++																			3348 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				3349 text site.css?no … tom=true:10
++																			3350 container
++																				3351 container CSS selector
++																					3352 text html
++																					3353 text , 
++																					3354 text body
++																				3355 text  {
++																			3356 outline
++																				3357 row CSS property name: font-size : CSS property value: var(--base-font-size) ;
++																					3358 container CSS property name: font-size
++																						3359 text font-size
++																					3360 text : 
++																					3361 container CSS property value: var(--base-font-size)
++																						3362 text var(--base-font-size)
++																					3363 text ;
++																			3364 container
++																				3365 text }
++																		3366 container
++																			3367 text Inherited from 
++																			3368 button html.yui3-js-enabled.js.flexbox.canvas.canvastext.webgl.no-touch.hashchange.history.draganddrop.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.no-csstransforms3d.csstransitions.video.audio.svg.inlinesvg.svgclippaths.wf-anziano-n4-active.wf-minervamodern-i7-active.wf-minervamodern-n7-active.wf-anziano-i4-active.wf-anziano-n7-active.wf-minervamodern-n4-active.wf-minervamodern-i4-active.wf-active, Help: html .yui3-js-enabled .js .flexbox .canvas .canvastext .webgl .no-touch .hashchange .history .draganddrop .rgba .hsla .multiplebgs .backgroundsize .borderimage .borderradius .boxshadow .textshadow .opacity .cssanimations .csscolumns .cssgradients .cssreflections .csstransforms .no-csstransforms3d .csstransitions .video .audio .svg .inlinesvg .svgclippaths .wf-anziano-n4-active .wf-minervamodern-i7-active .wf-minervamodern-n7-active .wf-anziano-i4-active .wf-anziano-n7-active .wf-minervamodern-n4-active .wf-
++																		3369 container style attribute, css selector
++																			3370 container
++																				3371 container CSS selector
++																					3372 text style attribute
++																				3373 text  {
++																			3374 outline
++																				3375 row CSS property name: --header-height : CSS property value: 101.125px ;
++																					3376 container CSS property name: --header-height
++																						3377 text --header-height
++																					3378 text : 
++																					3379 container CSS property value: 101.125px
++																						3380 text 101.125px
++																					3381 text ;
++																				3382 row CSS property name: scroll-behavior : CSS property value: smooth ;
++																					3383 container CSS property name: scroll-behavior
++																						3384 text scroll-behavior
++																					3385 text : 
++																					3386 container CSS property value: smooth
++																						3387 text smooth
++																					3388 text ;
++																			3389 container
++																				3390 text }
++																		3391 container :root, css selector
++																			3392 link 5b8f4cabb3f…en-US.css:1, Help: https://assets.squarespace.com/universal/styles-compressed/5b8f4cabb3fb1481-min.en-US.css:1
++																				3393 text 5b8f4cabb3f … en-US.css:1
++																			3394 container
++																				3395 container CSS selector
++																					3396 text :root
++																				3397 text  {
++																			3398 outline
++																				3399 row CSS property name: --commerce-mini-cart-image-size : CSS property value: 60px ;
++																					3400 container CSS property name: --commerce-mini-cart-image-size
++																						3401 text --commerce-mini-cart-image-size
++																					3402 text : 
++																					3403 container CSS property value: 60px
++																						3404 text 60px
++																					3405 text ;
++																				3406 row CSS property name: --commerce-mini-cart-image-placeholder-size : CSS property value: 22px ;
++																					3407 container CSS property name: --commerce-mini-cart-image-placeholder-size
++																						3408 text --commerce-mini-cart-image-placeholder-size
++																					3409 text : 
++																					3410 container CSS property value: 22px
++																						3411 text 22px
++																					3412 text ;
++																			3413 container
++																				3414 text }
++																		3415 container :root, css selector
++																			3416 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				3417 text site.css?no … tom=true:10
++																			3418 container
++																				3419 container CSS selector
++																					3420 text :root
++																				3421 text  {
++																			3422 outline
++																				3423 row CSS property name: --sqs-first-section-header-offset : CSS property value: 0px ;
++																					3424 container CSS property name: --sqs-first-section-header-offset
++																						3425 text --sqs-first-section-header-offset
++																					3426 text : 
++																					3427 container CSS property value: 0px
++																						3428 text 0px
++																					3429 text ;
++																			3430 container
++																				3431 text }
++																		3432 container :root, css selector
++																			3433 link site.css?no…tom=true:10, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:10
++																				3434 text site.css?no … tom=true:10
++																			3435 container
++																				3436 container CSS selector
++																					3437 text :root
++																				3438 text  {
++																			3439 outline
++																				3440 row CSS property name: --previous-section-divider-offset : CSS property value: 0px ;
++																					3441 container CSS property name: --previous-section-divider-offset
++																						3442 text --previous-section-divider-offset
++																					3443 text : 
++																					3444 container CSS property value: 0px
++																						3445 text 0px
++																					3446 text ;
++																			3447 container
++																				3448 text }
++																		3449 container :root, css selector
++																			3450 link site.css?no…stom=true:1, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:1
++																				3451 text site.css?no … stom=true:1
++																			3452 container
++																				3453 container CSS selector
++																					3454 text :root
++																				3455 text  {
++																			3456 outline
++																				3457 row CSS property name: --primary-button-rounded-border-top-left-radius : CSS property value: 15px ;
++																					3458 container CSS property name: --primary-button-rounded-border-top-left-radius
++																						3459 text --primary-button-rounded-border-top-left-radius
++																					3460 text : 
++																					3461 container CSS property value: 15px
++																						3462 text 15px
++																					3463 text ;
++																				3464 row CSS property name: --primary-button-rounded-border-top-right-radius : CSS property value: 15px ;
++																					3465 container CSS property name: --primary-button-rounded-border-top-right-radius
++																						3466 text --primary-button-rounded-border-top-right-radius
++																					3467 text : 
++																					3468 container CSS property value: 15px
++																						3469 text 15px
++																					3470 text ;
++																				3471 row CSS property name: --primary-button-rounded-border-bottom-left-radius : CSS property value: 15px ;
++																					3472 container CSS property name: --primary-button-rounded-border-bottom-left-radius
++																						3473 text --primary-button-rounded-border-bottom-left-radius
++																					3474 text : 
++																					3475 container CSS property value: 15px
++																						3476 text 15px
++																					3477 text ;
++																				3478 row CSS property name: --primary-button-rounded-border-bottom-right-radius : CSS property value: 15px ;
++																					3479 container CSS property name: --primary-button-rounded-border-bottom-right-radius
++																						3480 text --primary-button-rounded-border-bottom-right-radius
++																					3481 text : 
++																					3482 container CSS property value: 15px
++																						3483 text 15px
++																					3484 text ;
++																				3485 row CSS property name: --primary-button-padding-top : CSS property value: 1rem ;
++																					3486 container CSS property name: --primary-button-padding-top
++																						3487 text --primary-button-padding-top
++																					3488 text : 
++																					3489 container CSS property value: 1rem
++																						3490 text 1rem
++																					3491 text ;
++																				3492 row CSS property name: --primary-button-padding-bottom : CSS property value: 1rem ;
++																					3493 container CSS property name: --primary-button-padding-bottom
++																						3494 text --primary-button-padding-bottom
++																					3495 text : 
++																					3496 container CSS property value: 1rem
++																						3497 text 1rem
++																					3498 text ;
++																				3499 row CSS property name: --primary-button-padding-left : CSS property value: 1.3rem ;
++																					3500 container CSS property name: --primary-button-padding-left
++																						3501 text --primary-button-padding-left
++																					3502 text : 
++																					3503 container CSS property value: 1.3rem
++																						3504 text 1.3rem
++																					3505 text ;
++																				3506 row CSS property name: --primary-button-padding-right : CSS property value: 1.3rem ;
++																					3507 container CSS property name: --primary-button-padding-right
++																						3508 text --primary-button-padding-right
++																					3509 text : 
++																					3510 container CSS property value: 1.3rem
++																						3511 text 1.3rem
++																					3512 text ;
++																				3513 row CSS property name: --primary-button-stroke : CSS property value: 0px ;
++																					3514 container CSS property name: --primary-button-stroke
++																						3515 text --primary-button-stroke
++																					3516 text : 
++																					3517 container CSS property value: 0px
++																						3518 text 0px
++																					3519 text ;
++																				3520 row CSS property name: --secondary-button-rounded-border-top-left-radius : CSS property value: 15px ;
++																					3521 container CSS property name: --secondary-button-rounded-border-top-left-radius
++																						3522 text --secondary-button-rounded-border-top-left-radius
++																					3523 text : 
++																					3524 container CSS property value: 15px
++																						3525 text 15px
++																					3526 text ;
++																				3527 row CSS property name: --secondary-button-rounded-border-top-right-radius : CSS property value: 15px ;
++																					3528 container CSS property name: --secondary-button-rounded-border-top-right-radius
++																						3529 text --secondary-button-rounded-border-top-right-radius
++																					3530 text : 
++																					3531 container CSS property value: 15px
++																						3532 text 15px
++																					3533 text ;
++																				3534 row CSS property name: --secondary-button-rounded-border-bottom-left-radius : CSS property value: 15px ;
++																					3535 container CSS property name: --secondary-button-rounded-border-bottom-left-radius
++																						3536 text --secondary-button-rounded-border-bottom-left-radius
++																					3537 text : 
++																					3538 container CSS property value: 15px
++																						3539 text 15px
++																					3540 text ;
++																				3541 row CSS property name: --secondary-button-rounded-border-bottom-right-radius : CSS property value: 15px ;
++																					3542 container CSS property name: --secondary-button-rounded-border-bottom-right-radius
++																						3543 text --secondary-button-rounded-border-bottom-right-radius
++																					3544 text : 
++																					3545 container CSS property value: 15px
++																						3546 text 15px
++																					3547 text ;
++																				3548 row CSS property name: --secondary-button-padding-top : CSS property value: 1rem ;
++																					3549 container CSS property name: --secondary-button-padding-top
++																						3550 text --secondary-button-padding-top
++																					3551 text : 
++																					3552 container CSS property value: 1rem
++																						3553 text 1rem
++																					3554 text ;
++																				3555 row CSS property name: --secondary-button-padding-bottom : CSS property value: 1rem ;
++																					3556 container CSS property name: --secondary-button-padding-bottom
++																						3557 text --secondary-button-padding-bottom
++																					3558 text : 
++																					3559 container CSS property value: 1rem
++																						3560 text 1rem
++																					3561 text ;
++																				3562 row CSS property name: --secondary-button-padding-left : CSS property value: 1.3rem ;
++																					3563 container CSS property name: --secondary-button-padding-left
++																						3564 text --secondary-button-padding-left
++																					3565 text : 
++																					3566 container CSS property value: 1.3rem
++																						3567 text 1.3rem
++																					3568 text ;
++																				3569 row CSS property name: --secondary-button-padding-right : CSS property value: 1.3rem ;
++																					3570 container CSS property name: --secondary-button-padding-right
++																						3571 text --secondary-button-padding-right
++																					3572 text : 
++																					3573 container CSS property value: 1.3rem
++																						3574 text 1.3rem
++																					3575 text ;
++																				3576 row CSS property name: --secondary-button-stroke : CSS property value: 1px ;
++																					3577 container CSS property name: --secondary-button-stroke
++																						3578 text --secondary-button-stroke
++																					3579 text : 
++																					3580 container CSS property value: 1px
++																						3581 text 1px
++																					3582 text ;
++																				3583 row CSS property name: --tertiary-button-rounded-border-top-left-radius : CSS property value: 6.4px ;
++																					3584 container CSS property name: --tertiary-button-rounded-border-top-left-radius
++																						3585 text --tertiary-button-rounded-border-top-left-radius
++																					3586 text : 
++																					3587 container CSS property value: 6.4px
++																						3588 text 6.4px
++																					3589 text ;
++																				3590 row CSS property name: --tertiary-button-rounded-border-top-right-radius : CSS property value: 6.4px ;
++																					3591 container CSS property name: --tertiary-button-rounded-border-top-right-radius
++																						3592 text --tertiary-button-rounded-border-top-right-radius
++																					3593 text : 
++																					3594 container CSS property value: 6.4px
++																						3595 text 6.4px
++																					3596 text ;
++																				3597 row CSS property name: --tertiary-button-rounded-border-bottom-left-radius : CSS property value: 6.4px ;
++																					3598 container CSS property name: --tertiary-button-rounded-border-bottom-left-radius
++																						3599 text --tertiary-button-rounded-border-bottom-left-radius
++																					3600 text : 
++																					3601 container CSS property value: 6.4px
++																						3602 text 6.4px
++																					3603 text ;
++																				3604 row CSS property name: --tertiary-button-rounded-border-bottom-right-radius : CSS property value: 6.4px ;
++																					3605 container CSS property name: --tertiary-button-rounded-border-bottom-right-radius
++																						3606 text --tertiary-button-rounded-border-bottom-right-radius
++																					3607 text : 
++																					3608 container CSS property value: 6.4px
++																						3609 text 6.4px
++																					3610 text ;
++																				3611 row CSS property name: --tertiary-button-padding-top : CSS property value: 1rem ;
++																					3612 container CSS property name: --tertiary-button-padding-top
++																						3613 text --tertiary-button-padding-top
++																					3614 text : 
++																					3615 container CSS property value: 1rem
++																						3616 text 1rem
++																					3617 text ;
++																				3618 row CSS property name: --tertiary-button-padding-bottom : CSS property value: 1rem ;
++																					3619 container CSS property name: --tertiary-button-padding-bottom
++																						3620 text --tertiary-button-padding-bottom
++																					3621 text : 
++																					3622 container CSS property value: 1rem
++																						3623 text 1rem
++																					3624 text ;
++																				3625 row CSS property name: --tertiary-button-padding-left : CSS property value: 1.3rem ;
++																					3626 container CSS property name: --tertiary-button-padding-left
++																						3627 text --tertiary-button-padding-left
++																					3628 text : 
++																					3629 container CSS property value: 1.3rem
++																						3630 text 1.3rem
++																					3631 text ;
++																				3632 row CSS property name: --tertiary-button-padding-right : CSS property value: 1.3rem ;
++																					3633 container CSS property name: --tertiary-button-padding-right
++																						3634 text --tertiary-button-padding-right
++																					3635 text : 
++																					3636 container CSS property value: 1.3rem
++																						3637 text 1.3rem
++																					3638 text ;
++																				3639 row CSS property name: --tertiary-button-stroke : CSS property value: 2px ;
++																					3640 container CSS property name: --tertiary-button-stroke
++																						3641 text --tertiary-button-stroke
++																					3642 text : 
++																					3643 container CSS property value: 2px
++																						3644 text 2px
++																					3645 text ;
++																				3646 row CSS property name: --form-field-shape-border-top-left-radius : CSS property value: 5px ;
++																					3647 container CSS property name: --form-field-shape-border-top-left-radius
++																						3648 text --form-field-shape-border-top-left-radius
++																					3649 text : 
++																					3650 container CSS property value: 5px
++																						3651 text 5px
++																					3652 text ;
++																				3653 row CSS property name: --form-field-shape-border-top-right-radius : CSS property value: 5px ;
++																					3654 container CSS property name: --form-field-shape-border-top-right-radius
++																						3655 text --form-field-shape-border-top-right-radius
++																					3656 text : 
++																					3657 container CSS property value: 5px
++																						3658 text 5px
++																					3659 text ;
++																				3660 row CSS property name: --form-field-shape-border-bottom-left-radius : CSS property value: 5px ;
++																					3661 container CSS property name: --form-field-shape-border-bottom-left-radius
++																						3662 text --form-field-shape-border-bottom-left-radius
++																					3663 text : 
++																					3664 container CSS property value: 5px
++																						3665 text 5px
++																					3666 text ;
++																				3667 row CSS property name: --form-field-shape-border-bottom-right-radius : CSS property value: 5px ;
++																					3668 container CSS property name: --form-field-shape-border-bottom-right-radius
++																						3669 text --form-field-shape-border-bottom-right-radius
++																					3670 text : 
++																					3671 container CSS property value: 5px
++																						3672 text 5px
++																					3673 text ;
++																				3674 row CSS property name: --form-field-border-thickness : CSS property value: 1px ;
++																					3675 container CSS property name: --form-field-border-thickness
++																						3676 text --form-field-border-thickness
++																					3677 text : 
++																					3678 container CSS property value: 1px
++																						3679 text 1px
++																					3680 text ;
++																				3681 row CSS property name: --form-field-padding-top : CSS property value: 10px ;
++																					3682 container CSS property name: --form-field-padding-top
++																						3683 text --form-field-padding-top
++																					3684 text : 
++																					3685 container CSS property value: 10px
++																						3686 text 10px
++																					3687 text ;
++																				3688 row CSS property name: --form-field-padding-bottom : CSS property value: 10px ;
++																					3689 container CSS property name: --form-field-padding-bottom
++																						3690 text --form-field-padding-bottom
++																					3691 text : 
++																					3692 container CSS property value: 10px
++																						3693 text 10px
++																					3694 text ;
++																				3695 row CSS property name: --form-field-padding-left : CSS property value: 10px ;
++																					3696 container CSS property name: --form-field-padding-left
++																						3697 text --form-field-padding-left
++																					3698 text : 
++																					3699 container CSS property value: 10px
++																						3700 text 10px
++																					3701 text ;
++																				3702 row CSS property name: --form-field-padding-right : CSS property value: 10px ;
++																					3703 container CSS property name: --form-field-padding-right
++																						3704 text --form-field-padding-right
++																					3705 text : 
++																					3706 container CSS property value: 10px
++																						3707 text 10px
++																					3708 text ;
++																				3709 row CSS property name: --form-field-dropdown-icon-thickness : CSS property value: 1px ;
++																					3710 container CSS property name: --form-field-dropdown-icon-thickness
++																						3711 text --form-field-dropdown-icon-thickness
++																					3712 text : 
++																					3713 container CSS property value: 1px
++																						3714 text 1px
++																					3715 text ;
++																				3716 row CSS property name: --form-field-dropdown-icon-size : CSS property value: 18px ;
++																					3717 container CSS property name: --form-field-dropdown-icon-size
++																						3718 text --form-field-dropdown-icon-size
++																					3719 text : 
++																					3720 container CSS property value: 18px
++																						3721 text 18px
++																					3722 text ;
++																				3723 row CSS property name: --form-field-column-gap : CSS property value: 10px ;
++																					3724 container CSS property name: --form-field-column-gap
++																						3725 text --form-field-column-gap
++																					3726 text : 
++																					3727 container CSS property value: 10px
++																						3728 text 10px
++																					3729 text ;
++																				3730 row CSS property name: --form-field-spacing-bottom : CSS property value: 20px ;
++																					3731 container CSS property name: --form-field-spacing-bottom
++																						3732 text --form-field-spacing-bottom
++																					3733 text : 
++																					3734 container CSS property value: 20px
++																						3735 text 20px
++																					3736 text ;
++																				3737 row CSS property name: --form-field-checkbox-shape-border-top-left-radius : CSS property value: 5px ;
++																					3738 container CSS property name: --form-field-checkbox-shape-border-top-left-radius
++																						3739 text --form-field-checkbox-shape-border-top-left-radius
++																					3740 text : 
++																					3741 container CSS property value: 5px
++																						3742 text 5px
++																					3743 text ;
++																				3744 row CSS property name: --form-field-checkbox-shape-border-top-right-radius : CSS property value: 5px ;
++																					3745 container CSS property name: --form-field-checkbox-shape-border-top-right-radius
++																						3746 text --form-field-checkbox-shape-border-top-right-radius
++																					3747 text : 
++																					3748 container CSS property value: 5px
++																						3749 text 5px
++																					3750 text ;
++																				3751 row CSS property name: --form-field-checkbox-shape-border-bottom-left-radius : CSS property value: 5px ;
++																					3752 container CSS property name: --form-field-checkbox-shape-border-bottom-left-radius
++																						3753 text --form-field-checkbox-shape-border-bottom-left-radius
++																					3754 text : 
++																					3755 container CSS property value: 5px
++																						3756 text 5px
++																					3757 text ;
++																				3758 row CSS property name: --form-field-checkbox-shape-border-bottom-right-radius : CSS property value: 5px ;
++																					3759 container CSS property name: --form-field-checkbox-shape-border-bottom-right-radius
++																						3760 text --form-field-checkbox-shape-border-bottom-right-radius
++																					3761 text : 
++																					3762 container CSS property value: 5px
++																						3763 text 5px
++																					3764 text ;
++																				3765 row CSS property name: --form-field-checkbox-border-thickness : CSS property value: 1px ;
++																					3766 container CSS property name: --form-field-checkbox-border-thickness
++																						3767 text --form-field-checkbox-border-thickness
++																					3768 text : 
++																					3769 container CSS property value: 1px
++																						3770 text 1px
++																					3771 text ;
++																				3772 row CSS property name: --form-field-checkbox-size : CSS property value: 16px ;
++																					3773 container CSS property name: --form-field-checkbox-size
++																						3774 text --form-field-checkbox-size
++																					3775 text : 
++																					3776 container CSS property value: 16px
++																						3777 text 16px
++																					3778 text ;
++																				3779 row CSS property name: --form-field-checkbox-space-between-icon-and-text : CSS property value: 11px ;
++																					3780 container CSS property name: --form-field-checkbox-space-between-icon-and-text
++																						3781 text --form-field-checkbox-space-between-icon-and-text
++																					3782 text : 
++																					3783 container CSS property value: 11px
++																						3784 text 11px
++																					3785 text ;
++																				3786 row CSS property name: --form-field-checkbox-padding-top : CSS property value: 10px ;
++																					3787 container CSS property name: --form-field-checkbox-padding-top
++																						3788 text --form-field-checkbox-padding-top
++																					3789 text : 
++																					3790 container CSS property value: 10px
++																						3791 text 10px
++																					3792 text ;
++																				3793 row CSS property name: --form-field-checkbox-padding-bottom : CSS property value: 10px ;
++																					3794 container CSS property name: --form-field-checkbox-padding-bottom
++																						3795 text --form-field-checkbox-padding-bottom
++																					3796 text : 
++																					3797 container CSS property value: 10px
++																						3798 text 10px
++																					3799 text ;
++																				3800 row CSS property name: --form-field-checkbox-padding-left : CSS property value: 10px ;
++																					3801 container CSS property name: --form-field-checkbox-padding-left
++																						3802 text --form-field-checkbox-padding-left
++																					3803 text : 
++																					3804 container CSS property value: 10px
++																						3805 text 10px
++																					3806 text ;
++																			3807 button Show all properties (49 more)
++																			3808 container
++																				3809 text }
++																		3810 container :root, css selector
++																			3811 link site.css?no…stom=true:1, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:1
++																				3812 text site.css?no … stom=true:1
++																			3813 container
++																				3814 container CSS selector
++																					3815 text :root
++																				3816 text  {
++																			3817 outline
++																				3818 row CSS property name: --base-font-size : CSS property value: 16px ;
++																					3819 container CSS property name: --base-font-size
++																						3820 text --base-font-size
++																					3821 text : 
++																					3822 container CSS property value: 16px
++																						3823 text 16px
++																					3824 text ;
++																				3825 row CSS property name: --heading-font-font-family : CSS property value: "minerva-modern" ;
++																					3826 container CSS property name: --heading-font-font-family
++																						3827 text --heading-font-font-family
++																					3828 text : 
++																					3829 container CSS property value: "minerva-modern"
++																						3830 text "minerva-modern"
++																					3831 text ;
++																				3832 row CSS property name: --heading-font-font-style : CSS property value: normal ;
++																					3833 container CSS property name: --heading-font-font-style
++																						3834 text --heading-font-font-style
++																					3835 text : 
++																					3836 container CSS property value: normal
++																						3837 text normal
++																					3838 text ;
++																				3839 row CSS property name: --heading-font-font-weight : CSS property value: 400 ;
++																					3840 container CSS property name: --heading-font-font-weight
++																						3841 text --heading-font-font-weight
++																					3842 text : 
++																					3843 container CSS property value: 400
++																						3844 text 400
++																					3845 text ;
++																				3846 row CSS property name: --heading-font-text-transform : CSS property value: uppercase ;
++																					3847 container CSS property name: --heading-font-text-transform
++																						3848 text --heading-font-text-transform
++																					3849 text : 
++																					3850 container CSS property value: uppercase
++																						3851 text uppercase
++																					3852 text ;
++																				3853 row CSS property name: --heading-font-letter-spacing : CSS property value: 0em ;
++																					3854 container CSS property name: --heading-font-letter-spacing
++																						3855 text --heading-font-letter-spacing
++																					3856 text : 
++																					3857 container CSS property value: 0em
++																						3858 text 0em
++																					3859 text ;
++																				3860 row CSS property name: --heading-font-line-height : CSS property value: 1.4em ;
++																					3861 container CSS property name: --heading-font-line-height
++																						3862 text --heading-font-line-height
++																					3863 text : 
++																					3864 container CSS property value: 1.4em
++																						3865 text 1.4em
++																					3866 text ;
++																				3867 row CSS property name: --body-font-font-family : CSS property value: "anziano" ;
++																					3868 container CSS property name: --body-font-font-family
++																						3869 text --body-font-font-family
++																					3870 text : 
++																					3871 container CSS property value: "anziano"
++																						3872 text "anziano"
++																					3873 text ;
++																				3874 row CSS property name: --body-font-font-style : CSS property value: normal ;
++																					3875 container CSS property name: --body-font-font-style
++																						3876 text --body-font-font-style
++																					3877 text : 
++																					3878 container CSS property value: normal
++																						3879 text normal
++																					3880 text ;
++																				3881 row CSS property name: --body-font-font-weight : CSS property value: 400 ;
++																					3882 container CSS property name: --body-font-font-weight
++																						3883 text --body-font-font-weight
++																					3884 text : 
++																					3885 container CSS property value: 400
++																						3886 text 400
++																					3887 text ;
++																				3888 row CSS property name: --body-font-text-transform : CSS property value: none ;
++																					3889 container CSS property name: --body-font-text-transform
++																						3890 text --body-font-text-transform
++																					3891 text : 
++																					3892 container CSS property value: none
++																						3893 text none
++																					3894 text ;
++																				3895 row CSS property name: --body-font-letter-spacing : CSS property value: 0em ;
++																					3896 container CSS property name: --body-font-letter-spacing
++																						3897 text --body-font-letter-spacing
++																					3898 text : 
++																					3899 container CSS property value: 0em
++																						3900 text 0em
++																					3901 text ;
++																				3902 row CSS property name: --body-font-line-height : CSS property value: 1.6em ;
++																					3903 container CSS property name: --body-font-line-height
++																						3904 text --body-font-line-height
++																					3905 text : 
++																					3906 container CSS property value: 1.6em
++																						3907 text 1.6em
++																					3908 text ;
++																				3909 row CSS property name: --meta-font-font-family : CSS property value: "anziano" ;
++																					3910 container CSS property name: --meta-font-font-family
++																						3911 text --meta-font-font-family
++																					3912 text : 
++																					3913 container CSS property value: "anziano"
++																						3914 text "anziano"
++																					3915 text ;
++																				3916 row CSS property name: --meta-font-font-style : CSS property value: normal ;
++																					3917 container CSS property name: --meta-font-font-style
++																						3918 text --meta-font-font-style
++																					3919 text : 
++																					3920 container CSS property value: normal
++																						3921 text normal
++																					3922 text ;
++																				3923 row CSS property name: --meta-font-font-weight : CSS property value: 400 ;
++																					3924 container CSS property name: --meta-font-font-weight
++																						3925 text --meta-font-font-weight
++																					3926 text : 
++																					3927 container CSS property value: 400
++																						3928 text 400
++																					3929 text ;
++																				3930 row CSS property name: --meta-font-text-transform : CSS property value: none ;
++																					3931 container CSS property name: --meta-font-text-transform
++																						3932 text --meta-font-text-transform
++																					3933 text : 
++																					3934 container CSS property value: none
++																						3935 text none
++																					3936 text ;
++																				3937 row CSS property name: --meta-font-letter-spacing : CSS property value: 0em ;
++																					3938 container CSS property name: --meta-font-letter-spacing
++																						3939 text --meta-font-letter-spacing
++																					3940 text : 
++																					3941 container CSS property value: 0em
++																						3942 text 0em
++																					3943 text ;
++																				3944 row CSS property name: --meta-font-line-height : CSS property value: 1em ;
++																					3945 container CSS property name: --meta-font-line-height
++																						3946 text --meta-font-line-height
++																					3947 text : 
++																					3948 container CSS property value: 1em
++																						3949 text 1em
++																					3950 text ;
++																				3951 row CSS property name: --heading-1-size : CSS property value: 4.9rem ;
++																					3952 container CSS property name: --heading-1-size
++																						3953 text --heading-1-size
++																					3954 text : 
++																					3955 container CSS property value: 4.9rem
++																						3956 text 4.9rem
++																					3957 text ;
++																				3958 row CSS property name: --heading-1-size-value : CSS property value: 4.9 ;
++																					3959 container CSS property name: --heading-1-size-value
++																						3960 text --heading-1-size-value
++																					3961 text : 
++																					3962 container CSS property value: 4.9
++																						3963 text 4.9
++																					3964 text ;
++																				3965 row CSS property name: --heading-2-size : CSS property value: 3.9rem ;
++																					3966 container CSS property name: --heading-2-size
++																						3967 text --heading-2-size
++																					3968 text : 
++																					3969 container CSS property value: 3.9rem
++																						3970 text 3.9rem
++																					3971 text ;
++																				3972 row CSS property name: --heading-2-size-value : CSS property value: 3.9 ;
++																					3973 container CSS property name: --heading-2-size-value
++																						3974 text --heading-2-size-value
++																					3975 text : 
++																					3976 container CSS property value: 3.9
++																						3977 text 3.9
++																					3978 text ;
++																				3979 row CSS property name: --heading-3-size : CSS property value: 2.9rem ;
++																					3980 container CSS property name: --heading-3-size
++																						3981 text --heading-3-size
++																					3982 text : 
++																					3983 container CSS property value: 2.9rem
++																						3984 text 2.9rem
++																					3985 text ;
++																				3986 row CSS property name: --heading-3-size-value : CSS property value: 2.9 ;
++																					3987 container CSS property name: --heading-3-size-value
++																						3988 text --heading-3-size-value
++																					3989 text : 
++																					3990 container CSS property value: 2.9
++																						3991 text 2.9
++																					3992 text ;
++																				3993 row CSS property name: --heading-4-size : CSS property value: 1.7rem ;
++																					3994 container CSS property name: --heading-4-size
++																						3995 text --heading-4-size
++																					3996 text : 
++																					3997 container CSS property value: 1.7rem
++																						3998 text 1.7rem
++																					3999 text ;
++																				4000 row CSS property name: --heading-4-size-value : CSS property value: 1.7 ;
++																					4001 container CSS property name: --heading-4-size-value
++																						4002 text --heading-4-size-value
++																					4003 text : 
++																					4004 container CSS property value: 1.7
++																						4005 text 1.7
++																					4006 text ;
++																				4007 row CSS property name: --large-text-size : CSS property value: 1.5rem ;
++																					4008 container CSS property name: --large-text-size
++																						4009 text --large-text-size
++																					4010 text : 
++																					4011 container CSS property value: 1.5rem
++																						4012 text 1.5rem
++																					4013 text ;
++																				4014 row CSS property name: --large-text-size-value : CSS property value: 1.5 ;
++																					4015 container CSS property name: --large-text-size-value
++																						4016 text --large-text-size-value
++																					4017 text : 
++																					4018 container CSS property value: 1.5
++																						4019 text 1.5
++																					4020 text ;
++																				4021 row CSS property name: --normal-text-size : CSS property value: 1.1rem ;
++																					4022 container CSS property name: --normal-text-size
++																						4023 text --normal-text-size
++																					4024 text : 
++																					4025 container CSS property value: 1.1rem
++																						4026 text 1.1rem
++																					4027 text ;
++																				4028 row CSS property name: --normal-text-size-value : CSS property value: 1.1 ;
++																					4029 container CSS property name: --normal-text-size-value
++																						4030 text --normal-text-size-value
++																					4031 text : 
++																					4032 container CSS property value: 1.1
++																						4033 text 1.1
++																					4034 text ;
++																				4035 row CSS property name: --small-text-size : CSS property value: .9rem ;
++																					4036 container CSS property name: --small-text-size
++																						4037 text --small-text-size
++																					4038 text : 
++																					4039 container CSS property value: .9rem
++																						4040 text .9rem
++																					4041 text ;
++																				4042 row CSS property name: --small-text-size-value : CSS property value: .9 ;
++																					4043 container CSS property name: --small-text-size-value
++																						4044 text --small-text-size-value
++																					4045 text : 
++																					4046 container CSS property value: .9
++																						4047 text .9
++																					4048 text ;
++																				4049 row CSS property name: --normal-meta-size : CSS property value: 1.1rem ;
++																					4050 container CSS property name: --normal-meta-size
++																						4051 text --normal-meta-size
++																					4052 text : 
++																					4053 container CSS property value: 1.1rem
++																						4054 text 1.1rem
++																					4055 text ;
++																				4056 row CSS property name: --normal-meta-size-value : CSS property value: 1.1 ;
++																					4057 container CSS property name: --normal-meta-size-value
++																						4058 text --normal-meta-size-value
++																					4059 text : 
++																					4060 container CSS property value: 1.1
++																						4061 text 1.1
++																					4062 text ;
++																				4063 row CSS property name: --course-list-chapter-item-chapter-name-font-font-family : CSS property value: var(--heading-font-font-family) ;
++																					4064 container CSS property name: --course-list-chapter-item-chapter-name-font-font-family
++																						4065 text --course-list-chapter-item-chapter-name-font-font-family
++																					4066 text : 
++																					4067 container CSS property value: var(--heading-font-font-family)
++																						4068 text var(--heading-font-font-family)
++																					4069 text ;
++																				4070 row CSS property name: --course-list-chapter-item-chapter-name-font-font-style : CSS property value: var(--heading-font-font-style) ;
++																					4071 container CSS property name: --course-list-chapter-item-chapter-name-font-font-style
++																						4072 text --course-list-chapter-item-chapter-name-font-font-style
++																					4073 text : 
++																					4074 container CSS property value: var(--heading-font-font-style)
++																						4075 text var(--heading-font-font-style)
++																					4076 text ;
++																				4077 row CSS property name: --course-list-chapter-item-chapter-name-font-font-weight : CSS property value: var(--heading-font-font-weight) ;
++																					4078 container CSS property name: --course-list-chapter-item-chapter-name-font-font-weight
++																						4079 text --course-list-chapter-item-chapter-name-font-font-weight
++																					4080 text : 
++																					4081 container CSS property value: var(--heading-font-font-weight)
++																						4082 text var(--heading-font-font-weight)
++																					4083 text ;
++																				4084 row CSS property name: --course-list-chapter-item-chapter-name-font-text-transform : CSS property value: var(--heading-font-text-transform) ;
++																					4085 container CSS property name: --course-list-chapter-item-chapter-name-font-text-transform
++																						4086 text --course-list-chapter-item-chapter-name-font-text-transform
++																					4087 text : 
++																					4088 container CSS property value: var(--heading-font-text-transform)
++																						4089 text var(--heading-font-text-transform)
++																					4090 text ;
++																				4091 row CSS property name: --course-list-chapter-item-chapter-name-font-letter-spacing : CSS property value: var(--heading-font-letter-spacing) ;
++																					4092 container CSS property name: --course-list-chapter-item-chapter-name-font-letter-spacing
++																						4093 text --course-list-chapter-item-chapter-name-font-letter-spacing
++																					4094 text : 
++																					4095 container CSS property value: var(--heading-font-letter-spacing)
++																						4096 text var(--heading-font-letter-spacing)
++																					4097 text ;
++																				4098 row CSS property name: --course-list-chapter-item-chapter-name-font-line-height : CSS property value: var(--heading-font-line-height) ;
++																					4099 container CSS property name: --course-list-chapter-item-chapter-name-font-line-height
++																						4100 text --course-list-chapter-item-chapter-name-font-line-height
++																					4101 text : 
++																					4102 container CSS property value: var(--heading-font-line-height)
++																						4103 text var(--heading-font-line-height)
++																					4104 text ;
++																				4105 row CSS property name: --course-list-chapter-item-chapter-name-font-font-size : CSS property value: 2rem ;
++																					4106 container CSS property name: --course-list-chapter-item-chapter-name-font-font-size
++																						4107 text --course-list-chapter-item-chapter-name-font-font-size
++																					4108 text : 
++																					4109 container CSS property value: 2rem
++																						4110 text 2rem
++																					4111 text ;
++																				4112 row CSS property name: --course-list-chapter-item-chapter-name-font-font-size-value : CSS property value: 2 ;
++																					4113 container CSS property name: --course-list-chapter-item-chapter-name-font-font-size-value
++																						4114 text --course-list-chapter-item-chapter-name-font-font-size-value
++																					4115 text : 
++																					4116 container CSS property value: 2
++																						4117 text 2
++																					4118 text ;
++																				4119 row CSS property name: --course-item-name-font-font-family : CSS property value: var(--heading-font-font-family) ;
++																					4120 container CSS property name: --course-item-name-font-font-family
++																						4121 text --course-item-name-font-font-family
++																					4122 text : 
++																					4123 container CSS property value: var(--heading-font-font-family)
++																						4124 text var(--heading-font-font-family)
++																					4125 text ;
++																				4126 row CSS property name: --course-item-name-font-font-style : CSS property value: var(--heading-font-font-style) ;
++																					4127 container CSS property name: --course-item-name-font-font-style
++																						4128 text --course-item-name-font-font-style
++																					4129 text : 
++																					4130 container CSS property value: var(--heading-font-font-style)
++																						4131 text var(--heading-font-font-style)
++																					4132 text ;
++																				4133 row CSS property name: --course-item-name-font-font-weight : CSS property value: var(--heading-font-font-weight) ;
++																					4134 container CSS property name: --course-item-name-font-font-weight
++																						4135 text --course-item-name-font-font-weight
++																					4136 text : 
++																					4137 container CSS property value: var(--heading-font-font-weight)
++																						4138 text var(--heading-font-font-weight)
++																					4139 text ;
++																				4140 row CSS property name: --course-item-name-font-text-transform : CSS property value: var(--heading-font-text-transform) ;
++																					4141 container CSS property name: --course-item-name-font-text-transform
++																						4142 text --course-item-name-font-text-transform
++																					4143 text : 
++																					4144 container CSS property value: var(--heading-font-text-transform)
++																						4145 text var(--heading-font-text-transform)
++																					4146 text ;
++																				4147 row CSS property name: --course-item-name-font-letter-spacing : CSS property value: var(--heading-font-letter-spacing) ;
++																					4148 container CSS property name: --course-item-name-font-letter-spacing
++																						4149 text --course-item-name-font-letter-spacing
++																					4150 text : 
++																					4151 container CSS property value: var(--heading-font-letter-spacing)
++																						4152 text var(--heading-font-letter-spacing)
++																					4153 text ;
++																				4154 row CSS property name: --course-item-name-font-line-height : CSS property value: var(--heading-font-line-height) ;
++																					4155 container CSS property name: --course-item-name-font-line-height
++																						4156 text --course-item-name-font-line-height
++																					4157 text : 
++																					4158 container CSS property value: var(--heading-font-line-height)
++																						4159 text var(--heading-font-line-height)
++																					4160 text ;
++																				4161 row CSS property name: --course-item-name-font-font-size : CSS property value: 2rem ;
++																					4162 container CSS property name: --course-item-name-font-font-size
++																						4163 text --course-item-name-font-font-size
++																					4164 text : 
++																					4165 container CSS property value: 2rem
++																						4166 text 2rem
++																					4167 text ;
++																			4168 button Show all properties (985 more)
++																			4169 container
++																				4170 text }
++																		4171 container :root, css selector
++																			4172 link site.css?no…stom=true:1, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:1
++																				4173 text site.css?no … stom=true:1
++																			4174 container
++																				4175 container CSS selector
++																					4176 text :root
++																				4177 text  {
++																			4178 outline
++																				4179 row CSS property name: --course-item-nav-text-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4180 container CSS property name: --course-item-nav-text-color
++																						4181 text --course-item-nav-text-color
++																					4182 text : 
++																					4183 container CSS property value: hsla(var(--black-hsl),1)
++																						4184 text hsla(var(--black-hsl),1)
++																					4185 text ;
++																				4186 row CSS property name: --tweak-blog-item-pagination-icon-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4187 container CSS property name: --tweak-blog-item-pagination-icon-color
++																						4188 text --tweak-blog-item-pagination-icon-color
++																					4189 text : 
++																					4190 container CSS property value: hsla(var(--black-hsl),1)
++																						4191 text hsla(var(--black-hsl),1)
++																					4192 text ;
++																				4193 row CSS property name: --tweak-summary-block-read-more-color-on-background : CSS property value: hsla(var(--black-hsl),1) ;
++																					4194 container CSS property name: --tweak-summary-block-read-more-color-on-background
++																						4195 text --tweak-summary-block-read-more-color-on-background
++																					4196 text : 
++																					4197 container CSS property value: hsla(var(--black-hsl),1)
++																						4198 text hsla(var(--black-hsl),1)
++																					4199 text ;
++																				4200 row CSS property name: --product-basic-item-add-ons-title-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4201 container CSS property name: --product-basic-item-add-ons-title-color
++																						4202 text --product-basic-item-add-ons-title-color
++																					4203 text : 
++																					4204 container CSS property value: hsla(var(--black-hsl),1)
++																						4205 text hsla(var(--black-hsl),1)
++																					4206 text ;
++																				4207 row CSS property name: --tweak-quote-block-source-color-on-background : CSS property value: hsla(var(--black-hsl),1) ;
++																					4208 container CSS property name: --tweak-quote-block-source-color-on-background
++																						4209 text --tweak-quote-block-source-color-on-background
++																					4210 text : 
++																					4211 container CSS property value: hsla(var(--black-hsl),1)
++																						4212 text hsla(var(--black-hsl),1)
++																					4213 text ;
++																				4214 row CSS property name: --product-block-text-color-on-background : CSS property value: hsla(var(--black-hsl),1) ;
++																					4215 container CSS property name: --product-block-text-color-on-background
++																						4216 text --product-block-text-color-on-background
++																					4217 text : 
++																					4218 container CSS property value: hsla(var(--black-hsl),1)
++																						4219 text hsla(var(--black-hsl),1)
++																					4220 text ;
++																				4221 row CSS property name: --paragraphSmallColor : CSS property value: hsla(var(--black-hsl),1) ;
++																					4222 container CSS property name: --paragraphSmallColor
++																						4223 text --paragraphSmallColor
++																					4224 text : 
++																					4225 container CSS property value: hsla(var(--black-hsl),1)
++																						4226 text hsla(var(--black-hsl),1)
++																					4227 text ;
++																				4228 row CSS property name: --sqsp-paragraph-3-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4229 container CSS property name: --sqsp-paragraph-3-color
++																						4230 text --sqsp-paragraph-3-color
++																					4231 text : 
++																					4232 container CSS property value: hsla(var(--black-hsl),1)
++																						4233 text hsla(var(--black-hsl),1)
++																					4234 text ;
++																				4235 row CSS property name: --list-section-simple-button-background-color : CSS property value: hsla(var(--safeDarkAccent-hsl),1) ;
++																					4236 container CSS property name: --list-section-simple-button-background-color
++																						4237 text --list-section-simple-button-background-color
++																					4238 text : 
++																					4239 container CSS property value: hsla(var(--safeDarkAccent-hsl),1)
++																						4240 text hsla(var(--safeDarkAccent-hsl),1)
++																					4241 text ;
++																				4242 row CSS property name: --gradientHeaderBorderColor : CSS property value: hsla(var(--black-hsl),1) ;
++																					4243 container CSS property name: --gradientHeaderBorderColor
++																						4244 text --gradientHeaderBorderColor
++																					4245 text : 
++																					4246 container CSS property value: hsla(var(--black-hsl),1)
++																						4247 text hsla(var(--black-hsl),1)
++																					4248 text ;
++																				4249 row CSS property name: --tweak-summary-block-header-text-color-on-background : CSS property value: hsla(var(--black-hsl),1) ;
++																					4250 container CSS property name: --tweak-summary-block-header-text-color-on-background
++																						4251 text --tweak-summary-block-header-text-color-on-background
++																					4252 text : 
++																					4253 container CSS property value: hsla(var(--black-hsl),1)
++																						4254 text hsla(var(--black-hsl),1)
++																					4255 text ;
++																				4256 row CSS property name: --solidHeaderDropShadowColor : CSS property value: hsla(var(--black-hsl),1) ;
++																					4257 container CSS property name: --solidHeaderDropShadowColor
++																						4258 text --solidHeaderDropShadowColor
++																					4259 text : 
++																					4260 container CSS property value: hsla(var(--black-hsl),1)
++																						4261 text hsla(var(--black-hsl),1)
++																					4262 text ;
++																				4263 row CSS property name: --tweak-blog-alternating-side-by-side-list-read-more-color : CSS property value: hsla(var(--safeDarkAccent-hsl),1) ;
++																					4264 container CSS property name: --tweak-blog-alternating-side-by-side-list-read-more-color
++																						4265 text --tweak-blog-alternating-side-by-side-list-read-more-color
++																					4266 text : 
++																					4267 container CSS property value: hsla(var(--safeDarkAccent-hsl),1)
++																						4268 text hsla(var(--safeDarkAccent-hsl),1)
++																					4269 text ;
++																				4270 row CSS property name: --tweak-summary-block-background-color : CSS property value: hsla(var(--lightAccent-hsl),1) ;
++																					4271 container CSS property name: --tweak-summary-block-background-color
++																						4272 text --tweak-summary-block-background-color
++																					4273 text : 
++																					4274 container CSS property value: hsla(var(--lightAccent-hsl),1)
++																						4275 text hsla(var(--lightAccent-hsl),1)
++																					4276 text ;
++																				4277 row CSS property name: --tweak-form-block-survey-title-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4278 container CSS property name: --tweak-form-block-survey-title-color
++																						4279 text --tweak-form-block-survey-title-color
++																					4280 text : 
++																					4281 container CSS property value: hsla(var(--black-hsl),1)
++																						4282 text hsla(var(--black-hsl),1)
++																					4283 text ;
++																				4284 row CSS property name: --list-section-carousel-card-description-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4285 container CSS property name: --list-section-carousel-card-description-color
++																						4286 text --list-section-carousel-card-description-color
++																					4287 text : 
++																					4288 container CSS property value: hsla(var(--black-hsl),1)
++																						4289 text hsla(var(--black-hsl),1)
++																					4290 text ;
++																				4291 row CSS property name: --scheduling-block-scheduler-background-color : CSS property value: hsla(var(--white-hsl),1) ;
++																					4292 container CSS property name: --scheduling-block-scheduler-background-color
++																						4293 text --scheduling-block-scheduler-background-color
++																					4294 text : 
++																					4295 container CSS property value: hsla(var(--white-hsl),1)
++																						4296 text hsla(var(--white-hsl),1)
++																					4297 text ;
++																				4298 row CSS property name: --image-block-card-inline-link-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4299 container CSS property name: --image-block-card-inline-link-color
++																						4300 text --image-block-card-inline-link-color
++																					4301 text : 
++																					4302 container CSS property value: hsla(var(--black-hsl),1)
++																						4303 text hsla(var(--black-hsl),1)
++																					4304 text ;
++																				4305 row CSS property name: --paragraphLargeColor : CSS property value: hsla(var(--black-hsl),1) ;
++																					4306 container CSS property name: --paragraphLargeColor
++																						4307 text --paragraphLargeColor
++																					4308 text : 
++																					4309 container CSS property value: hsla(var(--black-hsl),1)
++																						4310 text hsla(var(--black-hsl),1)
++																					4311 text ;
++																				4312 row CSS property name: --sqsp-paragraph-1-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4313 container CSS property name: --sqsp-paragraph-1-color
++																						4314 text --sqsp-paragraph-1-color
++																					4315 text : 
++																					4316 container CSS property value: hsla(var(--black-hsl),1)
++																						4317 text hsla(var(--black-hsl),1)
++																					4318 text ;
++																				4319 row CSS property name: --tweak-summary-block-primary-metadata-color-on-background : CSS property value: hsla(var(--black-hsl),1) ;
++																					4320 container CSS property name: --tweak-summary-block-primary-metadata-color-on-background
++																						4321 text --tweak-summary-block-primary-metadata-color-on-background
++																					4322 text : 
++																					4323 container CSS property value: hsla(var(--black-hsl),1)
++																						4324 text hsla(var(--black-hsl),1)
++																					4325 text ;
++																				4326 row CSS property name: --tweak-blog-item-comment-text-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4327 container CSS property name: --tweak-blog-item-comment-text-color
++																						4328 text --tweak-blog-item-comment-text-color
++																					4329 text : 
++																					4330 container CSS property value: hsla(var(--black-hsl),1)
++																						4331 text hsla(var(--black-hsl),1)
++																					4332 text ;
++																				4333 row CSS property name: --tweak-summary-block-read-more-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4334 container CSS property name: --tweak-summary-block-read-more-color
++																						4335 text --tweak-summary-block-read-more-color
++																					4336 text : 
++																					4337 container CSS property value: hsla(var(--black-hsl),1)
++																						4338 text hsla(var(--black-hsl),1)
++																					4339 text ;
++																				4340 row CSS property name: --list-section-banner-slideshow-card-description-link-color : CSS property value: hsla(var(--safeDarkAccent-hsl),1) ;
++																					4341 container CSS property name: --list-section-banner-slideshow-card-description-link-color
++																						4342 text --list-section-banner-slideshow-card-description-link-color
++																					4343 text : 
++																					4344 container CSS property value: hsla(var(--safeDarkAccent-hsl),1)
++																						4345 text hsla(var(--safeDarkAccent-hsl),1)
++																					4346 text ;
++																				4347 row CSS property name: --image-block-stack-inline-link-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4348 container CSS property name: --image-block-stack-inline-link-color
++																						4349 text --image-block-stack-inline-link-color
++																					4350 text : 
++																					4351 container CSS property value: hsla(var(--black-hsl),1)
++																						4352 text hsla(var(--black-hsl),1)
++																					4353 text ;
++																				4354 row CSS property name: --tweak-menu-block-title-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4355 container CSS property name: --tweak-menu-block-title-color
++																						4356 text --tweak-menu-block-title-color
++																					4357 text : 
++																					4358 container CSS property value: hsla(var(--black-hsl),1)
++																						4359 text hsla(var(--black-hsl),1)
++																					4360 text ;
++																				4361 row CSS property name: --product-basic-item-discount-chip-text-color : CSS property value: hsla(var(--safeInverseDarkAccent-hsl),1) ;
++																					4362 container CSS property name: --product-basic-item-discount-chip-text-color
++																						4363 text --product-basic-item-discount-chip-text-color
++																					4364 text : 
++																					4365 container CSS property value: hsla(var(--safeInverseDarkAccent-hsl),1)
++																						4366 text hsla(var(--safeInverseDarkAccent-hsl),1)
++																					4367 text ;
++																				4368 row CSS property name: --list-section-carousel-card-button-text-color : CSS property value: hsla(var(--safeInverseDarkAccent-hsl),1) ;
++																					4369 container CSS property name: --list-section-carousel-card-button-text-color
++																						4370 text --list-section-carousel-card-button-text-color
++																					4371 text : 
++																					4372 container CSS property value: hsla(var(--safeInverseDarkAccent-hsl),1)
++																						4373 text hsla(var(--safeInverseDarkAccent-hsl),1)
++																					4374 text ;
++																				4375 row CSS property name: --tweak-paragraph-medium-color-on-background : CSS property value: hsla(var(--black-hsl),1) ;
++																					4376 container CSS property name: --tweak-paragraph-medium-color-on-background
++																						4377 text --tweak-paragraph-medium-color-on-background
++																					4378 text : 
++																					4379 container CSS property value: hsla(var(--black-hsl),1)
++																						4380 text hsla(var(--black-hsl),1)
++																					4381 text ;
++																				4382 row CSS property name: --portfolio-grid-overlay-title-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4383 container CSS property name: --portfolio-grid-overlay-title-color
++																						4384 text --portfolio-grid-overlay-title-color
++																					4385 text : 
++																					4386 container CSS property value: hsla(var(--black-hsl),1)
++																						4387 text hsla(var(--black-hsl),1)
++																					4388 text ;
++																				4389 row CSS property name: --tweak-accordion-block-icon-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4390 container CSS property name: --tweak-accordion-block-icon-color
++																						4391 text --tweak-accordion-block-icon-color
++																					4392 text : 
++																					4393 container CSS property value: hsla(var(--black-hsl),1)
++																						4394 text hsla(var(--black-hsl),1)
++																					4395 text ;
++																				4396 row CSS property name: --tweak-marquee-block-paragraph-color-on-background : CSS property value: hsla(var(--black-hsl),1) ;
++																					4397 container CSS property name: --tweak-marquee-block-paragraph-color-on-background
++																						4398 text --tweak-marquee-block-paragraph-color-on-background
++																					4399 text : 
++																					4400 container CSS property value: hsla(var(--black-hsl),1)
++																						4401 text hsla(var(--black-hsl),1)
++																					4402 text ;
++																				4403 row CSS property name: --tweak-product-quick-view-button-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4404 container CSS property name: --tweak-product-quick-view-button-color
++																						4405 text --tweak-product-quick-view-button-color
++																					4406 text : 
++																					4407 container CSS property value: hsla(var(--black-hsl),1)
++																						4408 text hsla(var(--black-hsl),1)
++																					4409 text ;
++																				4410 row CSS property name: --product-detail-subscription-price-text-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4411 container CSS property name: --product-detail-subscription-price-text-color
++																						4412 text --product-detail-subscription-price-text-color
++																					4413 text : 
++																					4414 container CSS property value: hsla(var(--black-hsl),1)
++																						4415 text hsla(var(--black-hsl),1)
++																					4416 text ;
++																				4417 row CSS property name: --paragraphMediumColor : CSS property value: hsla(var(--black-hsl),1) ;
++																					4418 container CSS property name: --paragraphMediumColor
++																						4419 text --paragraphMediumColor
++																					4420 text : 
++																					4421 container CSS property value: hsla(var(--black-hsl),1)
++																						4422 text hsla(var(--black-hsl),1)
++																					4423 text ;
++																				4424 row CSS property name: --sqsp-paragraph-2-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4425 container CSS property name: --sqsp-paragraph-2-color
++																						4426 text --sqsp-paragraph-2-color
++																					4427 text : 
++																					4428 container CSS property value: hsla(var(--black-hsl),1)
++																						4429 text hsla(var(--black-hsl),1)
++																					4430 text ;
++																				4431 row CSS property name: --siteTitleColor : CSS property value: hsla(var(--black-hsl),1) ;
++																					4432 container CSS property name: --siteTitleColor
++																						4433 text --siteTitleColor
++																					4434 text : 
++																					4435 container CSS property value: hsla(var(--black-hsl),1)
++																						4436 text hsla(var(--black-hsl),1)
++																					4437 text ;
++																				4438 row CSS property name: --tweak-product-basic-item-title-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4439 container CSS property name: --tweak-product-basic-item-title-color
++																						4440 text --tweak-product-basic-item-title-color
++																					4441 text : 
++																					4442 container CSS property value: hsla(var(--black-hsl),1)
++																						4443 text hsla(var(--black-hsl),1)
++																					4444 text ;
++																				4445 row CSS property name: --tweak-quote-block-text-color-on-background : CSS property value: hsla(var(--black-hsl),1) ;
++																					4446 container CSS property name: --tweak-quote-block-text-color-on-background
++																						4447 text --tweak-quote-block-text-color-on-background
++																					4448 text : 
++																					4449 container CSS property value: hsla(var(--black-hsl),1)
++																						4450 text hsla(var(--black-hsl),1)
++																					4451 text ;
++																				4452 row CSS property name: --list-section-carousel-card-title-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4453 container CSS property name: --list-section-carousel-card-title-color
++																						4454 text --list-section-carousel-card-title-color
++																					4455 text : 
++																					4456 container CSS property value: hsla(var(--black-hsl),1)
++																						4457 text hsla(var(--black-hsl),1)
++																					4458 text ;
++																				4459 row CSS property name: --tweak-gallery-icon-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4460 container CSS property name: --tweak-gallery-icon-color
++																						4461 text --tweak-gallery-icon-color
++																					4462 text : 
++																					4463 container CSS property value: hsla(var(--black-hsl),1)
++																						4464 text hsla(var(--black-hsl),1)
++																					4465 text ;
++																				4466 row CSS property name: --stack-stroke-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4467 container CSS property name: --stack-stroke-color
++																						4468 text --stack-stroke-color
++																					4469 text : 
++																					4470 container CSS property value: hsla(var(--black-hsl),1)
++																						4471 text hsla(var(--black-hsl),1)
++																					4472 text ;
++																				4473 row CSS property name: --image-block-overlap-image-title-bg-color : CSS property value: hsla(var(--white-hsl),1) ;
++																					4474 container CSS property name: --image-block-overlap-image-title-bg-color
++																						4475 text --image-block-overlap-image-title-bg-color
++																					4476 text : 
++																					4477 container CSS property value: hsla(var(--white-hsl),1)
++																						4478 text hsla(var(--white-hsl),1)
++																					4479 text ;
++																				4480 row CSS property name: --tweak-newsletter-block-title-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4481 container CSS property name: --tweak-newsletter-block-title-color
++																						4482 text --tweak-newsletter-block-title-color
++																					4483 text : 
++																					4484 container CSS property value: hsla(var(--black-hsl),1)
++																						4485 text hsla(var(--black-hsl),1)
++																					4486 text ;
++																				4487 row CSS property name: --image-block-collage-inline-link-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4488 container CSS property name: --image-block-collage-inline-link-color
++																						4489 text --image-block-collage-inline-link-color
++																					4490 text : 
++																					4491 container CSS property value: hsla(var(--black-hsl),1)
++																						4492 text hsla(var(--black-hsl),1)
++																					4493 text ;
++																				4494 row CSS property name: --tweak-newsletter-block-button-background-color-on-background : CSS property value: hsla(var(--black-hsl),1) ;
++																					4495 container CSS property name: --tweak-newsletter-block-button-background-color-on-background
++																						4496 text --tweak-newsletter-block-button-background-color-on-background
++																					4497 text : 
++																					4498 container CSS property value: hsla(var(--black-hsl),1)
++																						4499 text hsla(var(--black-hsl),1)
++																					4500 text ;
++																				4501 row CSS property name: --tweak-product-basic-item-breadcumb-nav-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4502 container CSS property name: --tweak-product-basic-item-breadcumb-nav-color
++																						4503 text --tweak-product-basic-item-breadcumb-nav-color
++																					4504 text : 
++																					4505 container CSS property value: hsla(var(--black-hsl),1)
++																						4506 text hsla(var(--black-hsl),1)
++																					4507 text ;
++																				4508 row CSS property name: --tweak-product-basic-item-description-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4509 container CSS property name: --tweak-product-basic-item-description-color
++																						4510 text --tweak-product-basic-item-description-color
++																					4511 text : 
++																					4512 container CSS property value: hsla(var(--black-hsl),1)
++																						4513 text hsla(var(--black-hsl),1)
++																					4514 text ;
++																				4515 row CSS property name: --tertiaryButtonBackgroundColor : CSS property value: hsla(var(--safeDarkAccent-hsl),1) ;
++																					4516 container CSS property name: --tertiaryButtonBackgroundColor
++																						4517 text --tertiaryButtonBackgroundColor
++																					4518 text : 
++																					4519 container CSS property value: hsla(var(--safeDarkAccent-hsl),1)
++																						4520 text hsla(var(--safeDarkAccent-hsl),1)
++																					4521 text ;
++																				4522 row CSS property name: --tweak-video-item-pagination-title-color : CSS property value: hsla(var(--black-hsl),1) ;
++																					4523 container CSS property name: --tweak-video-item-pagination-title-color
++																						4524 text --tweak-video-item-pagination-title-color
++																					4525 text : 
++																					4526 container CSS property value: hsla(var(--black-hsl),1)
++																						4527 text hsla(var(--black-hsl),1)
++																					4528 text ;
++																			4529 button Show all properties (301 more)
++																			4530 container
++																				4531 text }
++																		4532 container :root, css selector
++																			4533 link site.css?no…stom=true:1, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:1
++																				4534 text site.css?no … stom=true:1
++																			4535 container
++																				4536 container CSS selector
++																					4537 text :root
++																				4538 text  {
++																			4539 outline
++																				4540 row CSS property name: --white-hsl : CSS property value: 0,0%,100% ;
++																					4541 container CSS property name: --white-hsl
++																						4542 text --white-hsl
++																					4543 text : 
++																					4544 container CSS property value: 0,0%,100%
++																						4545 text 0,0%,100%
++																					4546 text ;
++																				4547 row CSS property name: --sqsp-palette-lightest-color : CSS property value: hsla(0,0%,100%,1) ;
++																					4548 container CSS property name: --sqsp-palette-lightest-color
++																						4549 text --sqsp-palette-lightest-color
++																					4550 text : 
++																					4551 container CSS property value: hsla(0,0%,100%,1)
++																						4552 text hsla(0,0%,100%,1)
++																					4553 text ;
++																				4554 row CSS property name: --lightAccent-hsl : CSS property value: 0,0%,96.08% ;
++																					4555 container CSS property name: --lightAccent-hsl
++																						4556 text --lightAccent-hsl
++																					4557 text : 
++																					4558 container CSS property value: 0,0%,96.08%
++																						4559 text 0,0%,96.08%
++																					4560 text ;
++																				4561 row CSS property name: --sqsp-palette-light-color : CSS property value: hsla(0,0%,96.08%,1) ;
++																					4562 container CSS property name: --sqsp-palette-light-color
++																						4563 text --sqsp-palette-light-color
++																					4564 text : 
++																					4565 container CSS property value: hsla(0,0%,96.08%,1)
++																						4566 text hsla(0,0%,96.08%,1)
++																					4567 text ;
++																				4568 row CSS property name: --accent-hsl : CSS property value: 0,0%,85.1% ;
++																					4569 container CSS property name: --accent-hsl
++																						4570 text --accent-hsl
++																					4571 text : 
++																					4572 container CSS property value: 0,0%,85.1%
++																						4573 text 0,0%,85.1%
++																					4574 text ;
++																				4575 row CSS property name: --sqsp-palette-accent-color : CSS property value: hsla(0,0%,85.1%,1) ;
++																					4576 container CSS property name: --sqsp-palette-accent-color
++																						4577 text --sqsp-palette-accent-color
++																					4578 text : 
++																					4579 container CSS property value: hsla(0,0%,85.1%,1)
++																						4580 text hsla(0,0%,85.1%,1)
++																					4581 text ;
++																				4582 row CSS property name: --darkAccent-hsl : CSS property value: 0,0%,47.45% ;
++																					4583 container CSS property name: --darkAccent-hsl
++																						4584 text --darkAccent-hsl
++																					4585 text : 
++																					4586 container CSS property value: 0,0%,47.45%
++																						4587 text 0,0%,47.45%
++																					4588 text ;
++																				4589 row CSS property name: --sqsp-palette-dark-color : CSS property value: hsla(0,0%,47.45%,1) ;
++																					4590 container CSS property name: --sqsp-palette-dark-color
++																						4591 text --sqsp-palette-dark-color
++																					4592 text : 
++																					4593 container CSS property value: hsla(0,0%,47.45%,1)
++																						4594 text hsla(0,0%,47.45%,1)
++																					4595 text ;
++																				4596 row CSS property name: --black-hsl : CSS property value: 0,0%,0% ;
++																					4597 container CSS property name: --black-hsl
++																						4598 text --black-hsl
++																					4599 text : 
++																					4600 container CSS property value: 0,0%,0%
++																						4601 text 0,0%,0%
++																					4602 text ;
++																				4603 row CSS property name: --sqsp-palette-darkest-color : CSS property value: hsla(0,0%,0%,1) ;
++																					4604 container CSS property name: --sqsp-palette-darkest-color
++																						4605 text --sqsp-palette-darkest-color
++																					4606 text : 
++																					4607 container CSS property value: hsla(0,0%,0%,1)
++																						4608 text hsla(0,0%,0%,1)
++																					4609 text ;
++																				4610 row CSS property name: --safeLightAccent-hsl : CSS property value: 0,0%,85.1% ;
++																					4611 container CSS property name: --safeLightAccent-hsl
++																						4612 text --safeLightAccent-hsl
++																					4613 text : 
++																					4614 container CSS property value: 0,0%,85.1%
++																						4615 text 0,0%,85.1%
++																					4616 text ;
++																				4617 row CSS property name: --safeDarkAccent-hsl : CSS property value: 0,0%,0% ;
++																					4618 container CSS property name: --safeDarkAccent-hsl
++																						4619 text --safeDarkAccent-hsl
++																					4620 text : 
++																					4621 container CSS property value: 0,0%,0%
++																						4622 text 0,0%,0%
++																					4623 text ;
++																				4624 row CSS property name: --safeInverseAccent-hsl : CSS property value: 0,0%,0% ;
++																					4625 container CSS property name: --safeInverseAccent-hsl
++																						4626 text --safeInverseAccent-hsl
++																					4627 text : 
++																					4628 container CSS property value: 0,0%,0%
++																						4629 text 0,0%,0%
++																					4630 text ;
++																				4631 row CSS property name: --safeInverseLightAccent-hsl : CSS property value: 0,0%,0% ;
++																					4632 container CSS property name: --safeInverseLightAccent-hsl
++																						4633 text --safeInverseLightAccent-hsl
++																					4634 text : 
++																					4635 container CSS property value: 0,0%,0%
++																						4636 text 0,0%,0%
++																					4637 text ;
++																				4638 row CSS property name: --safeInverseDarkAccent-hsl : CSS property value: 0,0%,100% ;
++																					4639 container CSS property name: --safeInverseDarkAccent-hsl
++																						4640 text --safeInverseDarkAccent-hsl
++																					4641 text : 
++																					4642 container CSS property value: 0,0%,100%
++																						4643 text 0,0%,100%
++																					4644 text ;
++																			4645 container
++																				4646 text }
++																		4647 container html, css selector
++																			4648 link site.css?no…stom=true:4, Help: https://static1.squarespace.com/static/versioned-site-css/66abcbd768fd043d92325d96/62/5c5a519771c10ba3470d8101/66abcbd768fd043d92325d9f/1850/site.css?nocustom=true:4
++																				4649 text site.css?no … stom=true:4
++																			4650 container
++																				4651 container CSS selector
++																					4652 text html
++																				4653 text  {
++																			4654 outline
++																				4655 row CSS property name: font-family : CSS property value: sans-serif ;
++																					4656 container CSS property name: font-family
++																						4657 text font-family
++																					4658 text : 
++																					4659 container CSS property value: sans-serif
++																						4660 text sans-serif
++																					4661 text ;
++																				4662 row CSS property name: -ms-text-size-adjust : CSS property value: 100% ;
++																					4663 container CSS property name: -ms-text-size-adjust
++																						4664 text -ms-text-size-adjust
++																					4665 text : 
++																					4666 container CSS property value: 100%
++																						4667 text 100%
++																					4668 text ;
++																				4669 row CSS property name: -webkit-text-size-adjust : CSS property value: 100% ;
++																					4670 container CSS property name: -webkit-text-size-adjust
++																						4671 text -webkit-text-size-adjust
++																					4672 text : 
++																					4673 container CSS property value: 100%
++																						4674 text 100%
++																					4675 text ;
++																			4676 container
++																				4677 text }
++																		4678 text Other @rules
++																		4679 container @font-face, css selector
++																			4680 button <style>
++																			4681 container
++																				4682 container CSS selector
++																					4683 text @font-face
++																				4684 text  {
++																			4685 outline
++																				4686 row CSS property name: font-family : CSS property value: anziano ;
++																					4687 container CSS property name: font-family
++																						4688 text font-family
++																					4689 text : 
++																					4690 container CSS property value: anziano
++																						4691 text anziano
++																					4692 text ;
++																				4693 row CSS property name: src : CSS property value: url(https://use.typekit.net/af/aba838/00000000000000007735cfe8/31/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/aba838/00000000000000007735cfe8/31/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/aba838/00000000000000007735cfe8/31/a?subset_id=2&fvd=n4&v=3) format("opentype") ;
++																					4694 container CSS property name: src
++																						4695 text src
++																					4696 text : 
++																					4697 container CSS property value: url(https://use.typekit.net/af/aba838/00000000000000007735cfe8/31/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/aba838/00000000000000007735cfe8/31/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/aba838/00000000000000007735cfe8/31/a?subset_id=2&fvd=n4&v=3) format("opentype")
++																						4698 text url(https://use.typekit.net/af/aba838/00000000000000007735cfe8/31/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/aba838/00000000000000007735cfe8/31/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/aba838/00000000000000007735cfe8/31/a?subset_id=2&fvd=n4&v=3) format("opentype")
++																					4699 text ;
++																				4700 row CSS property name: font-weight : CSS property value: 400 ;
++																					4701 container CSS property name: font-weight
++																						4702 text font-weight
++																					4703 text : 
++																					4704 container CSS property value: 400
++																						4705 text 400
++																					4706 text ;
++																				4707 row CSS property name: font-style : CSS property value: normal ;
++																					4708 container CSS property name: font-style
++																						4709 text font-style
++																					4710 text : 
++																					4711 container CSS property value: normal
++																						4712 text normal
++																					4713 text ;
++																				4714 row CSS property name: font-stretch : CSS property value: normal ;
++																					4715 container CSS property name: font-stretch
++																						4716 text font-stretch
++																					4717 text : 
++																					4718 container CSS property value: normal
++																						4719 text normal
++																					4720 text ;
++																				4721 row CSS property name: font-display : CSS property value: auto ;
++																					4722 container CSS property name: font-display
++																						4723 text font-display
++																					4724 text : 
++																					4725 container CSS property value: auto
++																						4726 text auto
++																					4727 text ;
++																			4728 container
++																				4729 text }
++																		4730 text 5.117
++																		4731 text 22.500
+The focused UI element is 768 search text field (settable) Value: .sqs-cart-initialized .sqs-cart-quantity, Placeholder: Find by string, selector, or XPath

@@ -1,0 +1,631 @@
+Window: "Products – Faire", App: Google Chrome.
+0 standard window Products – Faire – Part of group ✅Claude - Google Chrome – Tom, URL: faire.com/brand-portal/my-shop/products, Secondary Actions: Raise
+	1 container Products – Faire – Part of group ✅Claude - Google Chrome – Tom, URL: faire.com/brand-portal/my-shop/products
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: faire.com/brand-portal/my-shop/products, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+					21 button Close side panel
+				22 tickbox Downloads
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Products – Faire, URL: faire.com/brand-portal/my-shop/products
+						28 container
+							29 link Skip to main content, Value: faire.com/brand-portal/my-shop/settings#main-content
+							30 text Action required:
+							31 container
+								32 text All UK brands will now be paid out in GBP! 
+								33 link Add a UK Bank Account, Value: faire.com/brand-portal/account?tab=payment
+								34 text  to continue being paid out for orders.
+							35 container
+								36 container Main
+									37 container
+										38 link Faire Logo, Value: faire.com/brand-portal
+										39 button Updates
+										40 button Collapse navigation
+										41 link Home, Value: faire.com/brand-portal
+										42 link Orders, Value: faire.com/brand-portal/orders
+										43 link Messages, Value: faire.com/brand-portal/messages
+										44 link Products, Value: faire.com/brand-portal/my-shop/products
+										45 link Bulk upload & export, Value: faire.com/brand-portal/my-shop/products/bulk-uploader
+										46 link Inventory, Value: faire.com/brand-portal/inventory
+										47 link Collections, Value: faire.com/brand-portal/my-shop/collections
+										48 link Performance, Value: faire.com/brand-portal/my-shop/products/performance
+										49 link Customers, Value: faire.com/brand-portal/customers
+										50 link Marketing, Value: faire.com/brand-portal/marketing
+										51 link Analytics, Value: faire.com/brand-portal/analytics
+										52 link My shop, Value: faire.com/brand-portal/my-shop/story
+										53 link Faire Direct, Value: faire.com/brand-portal/direct
+										54 link Settings, Value: faire.com/brand-portal/my-shop/settings
+										55 link Faire Academy, Value: learn.faire.com/
+										56 link Help Centre, Value: faire.com/support/brands
+									57 button Account menu
+									58 link View shop, Value: faire.com/brand/b_dddpsekzv4
+								59 heading Products, Value: 1
+									60 text Products
+								61 button Guide
+								62 pop-up button Add Products
+								63 container
+									64 button Keep your prices consistent everywhere you sell. You increased some prices, so we wanted to remind you of our pricing policy. Upload new spreadsheet
+									65 button Dismiss banner
+								66 container
+									67 button Set lead times on customizable products. Each customizable product can have its own lead time. Try it out
+									68 button Dismiss banner
+								69 container
+									70 button Add team members so they can help keep your catalog up-to-date with their own secure logins. Manage team
+									71 button Dismiss banner
+								72 button All 176
+								73 button Published 176
+								74 button Unpublished 0
+								75 button Drafts 0
+								76 container
+									77 image Search
+									78 text field (settable) Search products
+								79 pop-up button Last modified
+								80 switch Filter, Value: off
+								81 button Selling fast
+								82 text Select products to take an action
+								83 button Bulk edit-button
+								84 button Export-button
+								85 button (disabled) Publish-button
+								86 button (disabled) Unpublish-button
+								87 button Duplicate-button
+								88 button Delete-button
+								89 table
+									90 row
+										91 column header
+											92 text Row selection
+											93 Tick box Select all rows, Value: 0
+										94 column header
+											95 text Image
+										96 column header
+											97 text Product name
+										98 column header
+											99 text Options
+										100 column header
+											101 text WS price
+										102 column header
+											103 text Status
+										104 column header
+											105 text Availability
+											106 button Open availability guide
+										107 column header
+											108 text Recent sales
+										109 column header
+											110 text Improvement areas
+									111 row
+										112 cell
+											113 Tick box 0
+										114 cell
+											115 link Boldstone Acanthus Bloom - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_ax8wxbary5
+										116 cell
+											117 text 1 option
+										118 cell
+											119 text £35.57
+										120 cell
+											121 text Published
+										122 cell
+											123 text Available
+										124 cell
+											125 pop-up button More actions
+									126 row
+										127 cell
+											128 Tick box 0
+										129 cell
+											130 link Boldstone Acanthus Frond (Left) - Pewter Finish Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_7mt5susb9m
+										131 cell
+											132 text 1 option
+										133 cell
+											134 text £46.27
+										135 cell
+											136 text Published
+										137 cell
+											138 text Available
+										139 cell
+											140 pop-up button More actions
+									141 row
+										142 cell
+											143 Tick box 0
+										144 cell
+											145 link Boldstone Acanthus Frond (Left) - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_z7w2pwanxy
+										146 cell
+											147 text 1 option
+										148 cell
+											149 text £35.57
+										150 cell
+											151 text Published
+										152 cell
+											153 text Available
+										154 cell
+											155 pop-up button More actions
+									156 row
+										157 cell
+											158 Tick box 0
+										159 cell
+											160 link Boldstone Acanthus Moon - Gold Finish Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_urhxzanthg
+										161 cell
+											162 text 1 option
+										163 cell
+											164 text £76.13
+										165 cell
+											166 text Published
+										167 cell
+											168 text Available
+										169 cell
+											170 pop-up button More actions
+									171 row
+										172 cell
+											173 Tick box 0
+										174 cell
+											175 link Boldstone Acanthus Moon - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_gav945wsga
+										176 cell
+											177 text 1 option
+										178 cell
+											179 text £58.31
+										180 cell
+											181 text Published
+										182 cell
+											183 text Available
+										184 cell
+											185 pop-up button More actions
+									186 row
+										187 cell
+											188 Tick box 0
+										189 cell
+											190 link Boldstone Acanthus Twin Leaves - Bronze Finish Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_d8878r6sqp
+										191 cell
+											192 text 1 option
+										193 cell
+											194 text £46.27
+										195 cell
+											196 text Published
+										197 cell
+											198 text Available
+										199 cell
+											200 pop-up button More actions
+									201 row
+										202 cell
+											203 Tick box 0
+										204 cell
+											205 link Boldstone Acanthus Twin Leaves - Pale Blue And White Finish Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_z33rjrr8we
+										206 cell
+											207 text 1 option
+										208 cell
+											209 text £40.92
+										210 cell
+											211 text Published
+										212 cell
+											213 text Available
+										214 cell
+											215 pop-up button More actions
+									216 row
+										217 cell
+											218 Tick box 0
+										219 cell
+											220 link Boldstone Acanthus Twin Leaves - Pewter Finish Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_frj6khjjc2
+										221 cell
+											222 text 1 option
+										223 cell
+											224 text £46.27
+										225 cell
+											226 text Published
+										227 cell
+											228 text Available
+										229 cell
+											230 pop-up button More actions
+									231 row
+										232 cell
+											233 Tick box 0
+										234 cell
+											235 link Boldstone Acanthus Twin Leaves - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_7q8myh5fxv
+										236 cell
+											237 text 1 option
+										238 cell
+											239 text £35.57
+										240 cell
+											241 text Published
+										242 cell
+											243 text Available
+										244 cell
+											245 pop-up button More actions
+									246 row
+										247 cell
+											248 Tick box 0
+										249 cell
+											250 link Boldstone Ammonite Grande I (Left) - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_hwdnd4ffjt
+										251 cell
+											252 text 1 option
+										253 cell
+											254 text £161.15
+										255 cell
+											256 text Published
+										257 cell
+											258 text Available
+										259 cell
+											260 pop-up button More actions
+									261 row
+										262 cell
+											263 Tick box 0
+										264 cell
+											265 link Boldstone Ammonite Grande II (Right) - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_53kwqfqcmn
+										266 cell
+											267 text 1 option
+										268 cell
+											269 text £161.15
+										270 cell
+											271 text Published
+										272 cell
+											273 text Available
+										274 cell
+											275 pop-up button More actions
+									276 row
+										277 cell
+											278 Tick box 0
+										279 cell
+											280 link Boldstone Ammonite Petite I (Left) - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_evxqat3jux
+										281 cell
+											282 text 1 option
+										283 cell
+											284 text £51.06
+										285 cell
+											286 text Published
+										287 cell
+											288 text Available
+										289 cell
+											290 pop-up button More actions
+									291 row
+										292 cell
+											293 Tick box 0
+										294 cell
+											295 link Boldstone Ammonite Petite II (Right) - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_pqu2cnertt
+										296 cell
+											297 text 1 option
+										298 cell
+											299 text £51.06
+										300 cell
+											301 text Published
+										302 cell
+											303 text Available
+										304 cell
+											305 pop-up button More actions
+									306 row
+										307 cell
+											308 Tick box 0
+										309 cell
+											310 link Boldstone Ancient Cup Ring - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_vkspktm92u
+										311 cell
+											312 text 1 option
+										313 cell
+											314 text £35.57
+										315 cell
+											316 text Published
+										317 cell
+											318 text Available
+										319 cell
+											320 pop-up button More actions
+									321 row
+										322 cell
+											323 Tick box 0
+										324 cell
+											325 link Boldstone Ancient Spiral - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_j5n9pdm7t5
+										326 cell
+											327 text 1 option
+										328 cell
+											329 text £35.57
+										330 cell
+											331 text Published
+										332 cell
+											333 text Available
+										334 cell
+											335 pop-up button More actions
+									336 row
+										337 cell
+											338 Tick box 0
+										339 cell
+											340 link Boldstone Azure Marble-Effect Relief - Blue And White Finish Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_rz7dnwedcy
+										341 cell
+											342 text 1 option
+										343 cell
+											344 text £67.42
+										345 cell
+											346 text Published
+										347 cell
+											348 text Available
+										349 cell
+											350 pop-up button More actions
+									351 row
+										352 cell
+											353 Tick box 0
+										354 cell
+											355 link Boldstone Barbados Wave Relief Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_fmn2d7mghx
+										356 cell
+											357 text 1 option
+										358 cell
+											359 text £279.02
+										360 cell
+											361 text Published
+										362 cell
+											363 text Available
+										364 cell
+											365 pop-up button More actions
+									366 row
+										367 cell
+											368 Tick box 0
+										369 cell
+											370 link Boldstone Battersea Shellmoon I - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_wpertszshn
+										371 cell
+											372 text 1 option
+										373 cell
+											374 text £96.06
+										375 cell
+											376 text Published
+										377 cell
+											378 text Available
+										379 cell
+											380 pop-up button More actions
+									381 row
+										382 cell
+											383 Tick box 0
+										384 cell
+											385 link Boldstone Battersea Shellmoon I Fountain - White Sculptural Water-Feature Panel, Value: faire.com/brand-portal/my-shop/products/p_5mfdrz7f5y
+										386 cell
+											387 text 1 option
+										388 cell
+											389 text £96.06
+										390 cell
+											391 text Published
+										392 cell
+											393 text Available
+										394 cell
+											395 pop-up button More actions
+									396 row
+										397 cell
+											398 Tick box 0
+										399 cell
+											400 link Boldstone Battersea Shellmoon II Fountain - White Sculptural Water-Feature Panel, Value: faire.com/brand-portal/my-shop/products/p_dts8tdqbje
+										401 cell
+											402 text 1 option
+										403 cell
+											404 text £96.06
+										405 cell
+											406 text Published
+										407 cell
+											408 text Available
+										409 cell
+											410 pop-up button More actions
+								411 container Pagination
+									412 content list
+										413 link Previous page, Value: faire.com/brand-portal/my-shop/products?page=1&productType=ALL
+										414 link Current page, page 1, Value: faire.com/brand-portal/my-shop/products?page=1&productType=ALL
+										415 link Go to page 2, Value: faire.com/brand-portal/my-shop/products?page=2&productType=ALL
+										416 link Go to page 3, Value: faire.com/brand-portal/my-shop/products?page=3&productType=ALL
+										417 link Go to page 4, Value: faire.com/brand-portal/my-shop/products?page=4&productType=ALL
+										418 link Go to page 5, Value: faire.com/brand-portal/my-shop/products?page=5&productType=ALL
+										419 link Go to page 9, Value: faire.com/brand-portal/my-shop/products?page=9&productType=ALL
+										420 link Next page, Value: faire.com/brand-portal/my-shop/products?page=2&productType=ALL
+							421 container Notifications Alt+T
+							422 text Home – Faire
+			423 scroll area
+				424 HTML content Claude for Chrome, URL: chrome-extension://fcoeoabgfenejglbffodgkkbkcdhcgfn/sidepanel.html?tabId=961988809
+					425 container Claude Cowork
+						426 HTML content Products live on Faire - Claude, URL: claude.ai/cic/task/cse_01CDxSF2HVuYEH3Xv35vLJJZ
+							427 container
+								428 container
+									429 heading Claude, Value: 1
+										430 text Claude
+									431 container
+										432 button Recent tasks
+										433 button New task
+										434 pop-up button Menu
+									435 container
+										436 container
+											437 heading Products live on Faire, Value: 2
+												438 button Products live on Faire, rename session
+											439 pop-up button More options for Products live on Faire
+										440 container
+											441 container Chat messages
+												442 text Use the up and down arrow keys to move between messages.
+												443 container
+													444 container Message 1 of 4
+														445 heading You said: make the products live on faire, Value: 3
+															446 text You said: make the products live on faire
+														447 text make the products live on faire
+														448 toolbar Message actions
+															449 text 10 minutes ago
+															450 button Restart conversation from here
+															451 button Copy
+													452 container Message 2 of 4
+														453 container
+															454 heading Claude responded: Your Faire shop is now live., Value: 3
+																455 text Claude responded: Your Faire shop is now live.
+															456 container
+																457 button Used Claude in Chrome (11 actions), updated tasks, and 2 more tools
+																458 button Screenshot 8 of 8
+																459 text Captured page
+															460 text Used Claude in Chrome (11 actions), updated tasks, and 2 more tools
+															461 container
+																462 text Your Faire shop is now live. All 176 products were already published, so I just had to click “Go live on Faire”, and the Home page now says your shop is live and retailers on the marketplace can find it. Faire is also showing an “Action required” banner. You need to add a UK bank account (Faire now pays UK brands in GBP), or you won’t get paid for orders. I can’t enter bank details for you, so you’ll need to do that through the “Add a UK Bank Account” link at the top of the portal.
+															463 toolbar Message actions
+																464 button Copy
+																465 button Read aloud
+																466 toggle button Good response, Value: 0
+																467 toggle button Bad response, Value: 0
+																468 text 10 minutes ago
+													469 container Message 3 of 4
+														470 heading You said: make sure the minimum for other countries outside of UK are at least £500, Value: 3
+															471 text You said: make sure the minimum for other countries outside of UK are at least £500
+														472 text make sure the minimum for other countries outside of UK are at least £500
+														473 toolbar Message actions
+															474 text 7 minutes ago
+															475 button Restart conversation from here
+															476 button Edit
+															477 button Copy
+													478 container Message 4 of 4
+														479 container
+															480 heading Value: 3, Claude responded: The default minimums are greyed out and the "apply to all countries" toggle is off, so each region is set on its own.
+																481 text Claude responded: The default minimums are greyed out and the "apply to all countries" toggle is off, so each region is set on its own.
+															482 container
+																483 button Updated tasks, used Claude in Chrome (3 actions), and 3 more tools
+																484 button Screenshot 5 of 5
+																485 text Captured page
+															486 text Updated tasks, used Claude in Chrome (3 actions), and 3 more tools
+															487 text The default minimums are greyed out and the “apply to all countries” toggle is off, so each region is set on its own. I’ll start with the EU and Europe (other) fields.
+															488 container
+																489 button Used Claude in Chrome (14 actions), updated tasks
+																490 button Screenshot 13 of 13
+																491 text Captured page
+															492 text Used Claude in Chrome (14 actions), updated tasks
+															493 container
+																494 text I’ve saved the new order minimums, and they held after a reload. Every region outside the UK now has first-order and reorder minimums of at least £500. The UK is still £50 for first orders and £100 for reorders.
+																495 table
+																	496 row
+																		497 column header
+																			498 text Region
+																		499 column header
+																			500 text First order & reorder minimum
+																		501 column header
+																			502 text Roughly in £
+																	503 row
+																		504 cell
+																			505 text European Union
+																		506 cell
+																			507 text €625
+																		508 cell
+																			509 text £521
+																	510 row
+																		511 cell
+																			512 text Europe (other, 2 countries)
+																		513 cell
+																			514 text £500
+																		515 cell
+																			516 text £500
+																	517 row
+																		518 cell
+																			519 text United States
+																		520 cell
+																			521 text US$700
+																		522 cell
+																			523 text £520
+																	524 row
+																		525 cell
+																			526 text Canada
+																		527 cell
+																			528 text CA$1,000
+																		529 cell
+																			530 text £532
+																	531 row
+																		532 cell
+																			533 text Australia
+																		534 cell
+																			535 text A$1,000
+																		536 cell
+																			537 text £520
+																	538 row
+																		539 cell
+																			540 text New Zealand
+																		541 cell
+																			542 text NZ$1,250
+																		543 cell
+																			544 text £522
+																545 content list
+																	546 container
+																		547 AXListMarker • 
+																		548 text Rounding:  I set the non-pound regions about 4% above £500 so they stay above £500 if exchange rates move a little. They’re fixed amounts, so if the pound strengthens a lot they could drop below £500.
+																	549 container
+																		550 AXListMarker • 
+																		551 text Reorders included:  I raised the reorder minimums too, so no repeat order from abroad can come in under £500. If you only meant first orders, I can put the reorder minimums back down.
+																	552 container
+																		553 AXListMarker • 
+																		554 text Faire’s warning:  Faire shows a warning that these minimums will probably mean fewer orders from those regions. It doesn’t stop anything from saving.
+																555 text Sources: 
+																556 link ECB euro reference exchange rates, Value: ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html
+																557 text  (5 Nov 2026)
+															558 toolbar Message actions
+																559 button Copy
+																560 button Read aloud
+																561 toggle button Good response, Value: 0
+																562 toggle button Bad response, Value: 0
+																563 text 7 minutes ago
+											564 container
+												565 container
+													566 text Memory updated.
+													567 button View memory
+													568 button Dismiss
+												569 container
+													570 text entry area (settable) Write your prompt to Claude, Value: Write a message…
+
+														571 text Write a message…
+													572 pop-up button Add files, connectors, and more
+													573 pop-up button Automatically approve
+													574 pop-up button Model: Opus 5.5 Max 6× or more usage
+														575 text Opus 5.5
+														576 text Max
+														577 image 6× or more usage
+													578 pop-up button Settings
+													579 button Press and hold to record
+											580 text Claude is AI and can make mistakes. Please double-check responses.
+										581 text Claude finished the response
+								582 container
+									583 container Notifications
+			584 slider Side panel resize handle (draggable), Secondary Actions: Decrement, Increment
+			585 container
+				586 text Claude
+				587 tickbox Unpin from toolbar, Value: 1
+				588 button Close side panel
+			589 pop-up button Tab search
+			590 container
+				591 tab group
+					592 tab (settable, boolean) ttps://furnitures.co.uk/dashboard/products/50c6c62c-ed17-4830-9b39-3bc6539ecb17 - Google Search, Value: off
+						593 button Close
+					594 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					595 tab (selected, settable, boolean) Products – Faire – Part of group ✅Claude, Value: on
+						596 button Close
+					597 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+						598 button Close
+					599 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+						600 button Close
+					601 tab (settable, boolean) Meta Business Suite - High memory usage - 1.0 GB, Value: off
+						602 button Close
+			603 button New tab
+		604 text https://www.faire.com/brand-portal/my-shop/products
+	605 close button
+	606 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	607 minimise button
+608 menu bar
+	609 Chrome
+	610 File
+	611 Edit
+	612 View
+	613 History
+	614 Bookmarks
+	615 Profiles
+	616 Tab
+	617 Window
+	618 Help
+
+The focused UI element is 44 link Products, Value: faire.com/brand-portal/my-shop/products

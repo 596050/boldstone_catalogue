@@ -1,0 +1,155 @@
+Window: "DevTools - www.saatchiart.com/…dio/art/14393353/price-details", App: Google Chrome.
+0 standard window DevTools - www.saatchiart.com/en-gb/studio/art/14393353/price-details – Tom, Secondary Actions: Raise, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true&panel=console
+	1 container DevTools - www.saatchiart.com/en-gb/studio/art/14393353/price-details – Tom, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true&panel=console
+		2 container
+			3 container
+				4 scroll area
+					5 HTML content DevTools, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true&panel=console
+						6 container
+							7 container
+								8 container Main toolbar
+									9 toolbar
+										10 container Select an element in the page to inspect it, Help: Select an element in the page to inspect it - ⌘ ⇧ C
+											11 toggle button Select an element in the page to inspect it - ⌘ ⇧ C, Value: 0
+										12 container Toggle device toolbar, Help: Toggle device toolbar - ⌘ ⇧ M
+											13 toggle button Toggle device toolbar - ⌘ ⇧ M, Value: 0
+									14 container
+										15 tab group Panels
+											16 tab (settable, integer) Console, Value: 0
+											17 tab (settable, integer) Elements, Value: 0
+											18 tab (settable, integer) Application, Value: 0
+											19 tab (selected) Network, Value: 1
+										20 pop-up button More tabs
+									21 toolbar
+										22 container
+											23 container Open Console to view 43 errors, 5 warnings
+												24 button Open Console to view 43 errors, 5 warnings
+											25 container Open Issues to view 90 issues: 8 page errors, 81 breaking changes, 1 possible improvement
+												26 button Open Issues to view 90 issues: 8 page errors, 81 breaking changes, 1 possible improvement
+										27 button  AI assistance, Help: Open AI assistance panel
+										28 container Settings, Help: Settings - F1 - ⇧ ?
+											29 button Settings - F1 - ⇧ ?
+										30 pop-up button Customize and control DevTools
+											31 button Customize and control DevTools
+								32 container Network panel
+									33 container network
+										34 container
+											35 toolbar
+												36 container Stop recording network log, Help: Stop recording network log - ⌘ E
+													37 toggle button Stop recording network log - ⌘ E, Value: 1
+												38 container Clear network log, Help: Clear network log - Ctrl L - ⌘ K
+													39 button Clear network log - Ctrl L - ⌘ K
+												40 container Filter
+													41 toggle button Filter, Value: 1
+												42 container Search
+													43 toggle button Search, Value: 0
+												44 container
+													45 Tick box Keep log, Value: 1
+													46 text Keep log
+												47 container
+													48 Tick box Disable cache, Value: 1
+													49 text Disable cache
+												50 pop-up button Throttling, Value: Disabled: No throttling
+													51 (selected) Disabled: No throttling
+												52 container More network conditions…
+													53 button More network conditions…
+												54 container Import HAR file…
+													55 button Import HAR file…
+												56 container Export HAR (sanitized)…
+													57 button Export HAR (sanitized)…
+												58 container Network settings
+													59 toggle button Network settings, Value: 0
+											60 toolbar
+												61 container
+													62 text entry area (settable) Filter, Value: 14393353/original
+														63 text 14393353/original
+													64 container Clear
+														65 button Clear
+											66 container Inverts the search filter
+												67 Tick box Invert, Value: 0
+												68 text Invert
+											69 container Show only/hide requests dropdown
+												70 pop-up button Show only/hide requests
+													71 text More filters
+											72 list box Request types to include, Help: ⌘ Click to select multiple types
+												73 text (selected) All Fetch/XHR Doc CSS JS Font Img Media Manifest Socket Wasm Other
+											74 container Overview grid window
+												75 container
+													76 container
+														77 text 0 ms
+														78 text 500 ms
+														79 text 1,000 ms
+														80 text 1,500 ms
+														81 text 2,000 ms
+												82 slider Left resizer, Value: 0, Details: 0 ms, Secondary Actions: Increment, Decrement
+												83 slider Right resizer, Value: 100, Details: 1,972 ms, Secondary Actions: Increment, Decrement
+											84 container
+												85 container
+													86 container
+														87 table
+															88 row
+																89 column header Name - Sortable column. Press enter to sort.
+																	90 text Name
+															91 row
+																92 cell https://www.saatchiart.com/easel_api/my-product/14393353/original
+																	93 image Fetch request failed
+																	94 button
+																	95 text original
+													96 container 1 / 5 requests
+														97 text 1 / 5 requests
+													98 container 153 B / 3197 B transferred over network
+														99 text 0.2 kB / 3.2 kB transferred
+													100 container 117 B / 3829 B resources loaded by the page
+														101 text 0.1 kB / 3.8 kB resources
+												102 container
+													103 toolbar
+														104 container Close
+															105 button Close
+													106 tab group
+														107 tab (selected) Response, Value: 1
+															108 text Response
+													109 pop-up button More tabs
+													110 container
+														111 container
+															112 text entry area (settable) Code editor, Value: {    
+"payload": {},    
+"captchaFailure": true,    
+"success": false,    
+"messages": [        
+"Please try again later or contact us for support."
+    ]
+}
+																113 text {
+																114 container
+																	115 text "payload" : {},
+																116 container
+																	117 text "captchaFailure" :  true ,
+																118 container
+																	119 text "success" :  false ,
+																120 container
+																	121 text "messages" : [
+																122 container
+																	123 text "Please try again later or contact us for support."
+																124 text     ]
+																125 text }
+														126 toolbar
+															127 container Pretty print
+																128 toggle button Pretty print, Value: 1
+							129 text Network Log row Name: original/easel_api/my-product/14393353, Status: 401Unauthorized, Type: fetch, Initiator: Script, Size: 0.2 kB0.1 kB, Time: 931 ms929 ms
+	130 close button
+	131 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	132 minimise button
+	133 text DevTools - www.saatchiart.com/…dio/art/14393353/price-details
+134 menu bar
+	135 Chrome
+	136 File
+	137 Edit
+	138 View
+	139 History
+	140 Bookmarks
+	141 Profiles
+	142 Tab
+	143 Window
+	144 Help
+
+The focused UI element is 86 container

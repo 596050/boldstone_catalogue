@@ -1,0 +1,154 @@
+- banner:
+  - link "Skip to main content":
+    - /url: "#mainContent"
+  - navigation:
+    - button "Hi Sally!":
+      - generic: Hi Sally!
+    - link "Collection":
+      - /url: https://www.ebay.co.uk/localcollection
+    - link "Deals":
+      - /url: https://www.ebay.co.uk/deals
+    - link "Fashion":
+      - /url: https://www.ebay.co.uk/b/bn_7000259675
+    - link "Help & Contact":
+      - /url: https://www.ebay.co.uk/help/home
+    - link "Sell":
+      - /url: https://www.ebay.co.uk/sl/sell
+    - link "Watchlist":
+      - /url: https://www.ebay.co.uk/mye/myebay/watchlist
+      - generic: Watchlist
+    - button "Expand Watchlist"
+    - link "My eBay":
+      - /url: https://www.ebay.co.uk/mys/home?source=GBH
+      - generic: My eBay
+    - button "Expand My eBay"
+    - button "Notifications":
+      - generic: Notifications
+    - link "Your shopping basket contains 0 items":
+      - /url: https://cart.ebay.co.uk
+    - button "Expand Basket"
+  - link "eBay Home":
+    - /url: https://www.ebay.co.uk
+    - img "eBay Home"
+  - button "Shop by category":
+    - generic: Shop by category
+  - combobox "Search for anything"
+  - button "Camera icon":
+  - combobox "Select a category for search":
+    - option "All Categories" [selected]
+    - option "Antiques"
+    - option "Art"
+    - option "Baby"
+    - option "Books, Comics & Magazines"
+    - option "Business, Office & Industrial"
+    - option "Cameras & Photography"
+    - option "Cars, Motorcycles & Vehicles"
+    - option "Clothes, Shoes & Accessories"
+    - option "Coins"
+    - option "Collectables"
+    - option "Computers/Tablets & Networking"
+    - option "Crafts"
+    - option "Dolls & Bears"
+    - option "DVDs, Films & TV"
+    - option "Events Tickets"
+    - option "Garden & Patio"
+    - option "Health & Beauty"
+    - option "Holidays & Travel"
+    - option "Home, Furniture & DIY"
+    - option "Jewellery & Watches"
+    - option "Mobile Phones & Communication"
+    - option "Music"
+    - option "Musical Instruments"
+    - option "Pet Supplies"
+    - option "Pottery, Porcelain & Glass"
+    - option "Property"
+    - option "Sound & Vision"
+    - option "Sporting Goods"
+    - option "Sports Memorabilia"
+    - option "Stamps"
+    - option "Toys & Games"
+    - option "Vehicle Parts & Accessories"
+    - option "Video Games & Consoles"
+    - option "Wholesale & Job Lots"
+    - option "Everything Else"
+  - button "Search":
+    - generic: Search
+  - link "Advanced":
+    - /url: https://www.ebay.co.uk/sch/ebayadvsearch
+- main:
+  - navigation:
+    - heading [level=2]
+    - list:
+      - link "Postage preferences":
+        - /url: https://www.ebay.co.uk/ship/prf
+      - generic: Simple delivery
+  - generic: Simple delivery
+  - generic: Courier preferences
+  - text: Choose your preferred couriers for Simple Delivery. We'll do our best to use them, but exceptions may apply based on the package size or destination.
+  - link "Learn more":
+    - /url: https://www.ebay.co.uk/sellercentre/postage/simple-delivery
+  - img "Royal Mail"
+  - generic: Royal Mail
+  - generic: No printer required • Collection or drop-off • Click & Collect for buyers
+  - link "Find a drop-off location":
+    - /url: https://www.royalmail.com/services-near-you#/
+  - switch [checked]
+  - img "Evri"
+  - generic: Evri
+  - generic: No printer required • Drop-off only • Click & Collect for buyers
+  - link "Find a drop-off location":
+    - /url: https://www.evri.com/find-a-parcelshop
+  - switch [checked]
+  - img "InPost"
+  - generic: InPost
+  - generic: Includes Yodel drop off
+  - generic: No printer required • Drop-off only • Click & Collect for buyers
+  - link "Find a drop-off location":
+    - /url: https://inpost.co.uk/lockers
+  - switch [checked]
+  - img "DHL"
+  - generic: DHL
+  - generic: For bulky parcels only • No printer required • Collection only
+  - switch [checked]
+  - region "education Want packages collected from your address?":
+    - img "education"
+    - heading "Want packages collected from your address?" [level=2]
+    - paragraph: Only Royal Mail offers collection from your address. Exclude other couriers to ensure access to this service.
+- contentinfo:
+  - list:
+    - link "About eBay":
+      - /url: https://www.ebayinc.com/our-company/
+    - link "Announcements":
+      - /url: https://community.ebay.co.uk/t5/Announcements/bg-p/Announcements
+    - link "Community":
+      - /url: https://community.ebay.co.uk
+    - link "Safety Centre":
+      - /url: https://pages.ebay.co.uk/safetycentre/index.html
+    - link "Seller Centre":
+      - /url: https://www.ebay.co.uk/sellercentre
+    - 'link "VeRO: Protecting Intellectual Property"':
+      - /url: https://pages.ebay.co.uk/vero/
+    - link "Policies":
+      - /url: https://www.ebay.co.uk/help/policies/az-index/az-index-policies?id=4649
+    - link "Product Safety Tips":
+      - /url: https://pages.ebay.co.uk/safetytips
+    - link "Help & Contact":
+      - /url: https://www.ebay.co.uk/help/home
+    - link "Site Map":
+      - /url: https://pages.ebay.co.uk/sitemap.html
+  - text: Copyright © 1995-2026 eBay Inc. All Rights Reserved.
+  - link "User Agreement":
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+  - text: ","
+  - link "Privacy":
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+  - text: ","
+  - link "Payments Terms of Use":
+    - /url: https://pages.ebay.co.uk/payment/2.0/terms.html
+  - text: ","
+  - link "Cookies":
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+  - text: and
+  - link "AdChoice":
+    - /url: https://www.ebay.co.uk/adchoice
+    - text: AdChoice

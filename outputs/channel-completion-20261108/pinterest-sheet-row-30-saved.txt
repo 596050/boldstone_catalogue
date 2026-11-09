@@ -1,0 +1,207 @@
+Window: "Boldstone Wall Sculptures — Pin…st Retail Feed - Google Sheets", App: Google Chrome.
+0 standard window Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets - Google Chrome – Tom, Secondary Actions: Raise, URL: docs.google.com/spreadsheets/d/1PVhR1H-GFaojV_G7Khh0Vt3IwFL1RBHyLLzvXGIT-BQ/edit?gid=150703720#gid=150703720
+	1 container Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets - Google Chrome – Tom, URL: docs.google.com/spreadsheets/d/1PVhR1H-GFaojV_G7Khh0Vt3IwFL1RBHyLLzvXGIT-BQ/edit?gid=150703720#gid=150703720
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: docs.google.com/spreadsheets/d/1PVhR1H-GFaojV_G7Khh0Vt3IwFL1RBHyLLzvXGIT-BQ/edit?gid=150703720#gid=150703720
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox New download available, Value: 1
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, URL: docs.google.com/spreadsheets/d/1PVhR1H-GFaojV_G7Khh0Vt3IwFL1RBHyLLzvXGIT-BQ/edit?gid=150703720#gid=150703720
+						27 container
+							28 container Menu bar
+								29 container
+									30 link Sheets home, Value: docs.google.com/spreadsheets/u/0/?authuser=0&usp=sheets_web
+									31 container Boldstone Wall Sculptures — Pinterest Retail Feed
+										32 container
+											33 text Boldstone Wall Sculptures — Pinterest Retail Feed
+											34 text field (settable) Rename, Value: Boldstone Wall Sculptures — Pinterest Retail Feed
+										35 button Shared externally
+										36 Tick box Star, Value: 0
+										37 button Move
+										38 button Document status: Saving….
+									39 container
+										40 button Last edit was seconds ago
+										41 toggle button Show all comments, Value: 0
+										42 pop-up button Join a call here or present this tab to the call
+										43 button Share. Public on the web. Anyone on the internet with the link can open
+										44 pop-up button Quick sharing actions
+										45 pop-up button Google Account: Sally Price (info@boldstone.co.uk)
+								46 container
+									47 menu bar
+										48 File
+										49 Edit
+										50 View
+										51 Insert
+										52 Format
+										53 Data
+										54 Tools
+										55 Extensions
+										56 Help
+									57 container
+										58 toolbar Search the menus (Option+/)
+											59 container
+												60 combo box (settable) Menus
+										61 toolbar Main
+											62 button Undo (⌘Z)
+											63 button Redo (⌘Y)
+											64 button Print (⌘P)
+											65 toggle button Paint format, Value: 0
+											66 combo box (settable) Zoom
+												67 container
+													68 container Zoom list. 100% selected.
+														69 text field (settable) Zoom, Value: 100%
+											70 button Format as currency
+											71 button Format as percent
+											72 button Decrease decimal places
+											73 button Increase decimal places
+											74 button More formats
+											75 list box Font
+												76 container
+													77 text (selected) Font list. Calibri selected.
+											78 button Decrease font size (⌘+Shift+comma)
+											79 combo box (settable) Font size
+												80 container Font size list. 11 selected.
+													81 text field (settable) Font size, Value: 11
+											82 button Increase font size (⌘+Shift+period)
+											83 toggle button Bold (⌘B), Value: 0
+											84 toggle button Italic (⌘I), Value: 0
+											85 toggle button Strikethrough (⌘+Shift+X), Value: 0
+											86 pop-up button Text color
+											87 pop-up button Fill color
+											88 pop-up button Borders
+											89 button (disabled) Merge cells
+											90 button (disabled) Select merge type
+											91 pop-up button Horizontal align
+											92 pop-up button Vertical align
+											93 pop-up button Text wrapping
+											94 pop-up button Text rotation
+											95 button Insert link (⌘K)
+											96 button Insert comment (⌘+Option+M)
+											97 button Insert chart
+											98 toggle button Create a filter, Value: 0
+											99 pop-up button Filter views
+											100 pop-up button Functions
+									101 toolbar Mode and view
+										102 button Hide the menus (Ctrl+Shift+F)
+								103 button Show side panel
+								104 container
+									105 container
+										106 container Name box (⌘ + J)
+											107 text field (settable) K30
+											108 pop-up button Name box menu button. Select one of the menu items to navigate to its corresponding named range.
+										109 text entry area (settable) https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/5cffa31c-d47b-4c6d-a13b-fd4db114fc96/boldstone-8cdafa5fdaf97409.jpg
+
+											110 text https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/5cffa31c-d47b-4c6d-a13b-fd4db114fc96/boldstone-8cdafa5fdaf97409.jpg
+							111 container
+								112 container
+									113 container
+										114 container
+											115 toolbar
+												116 text field (settable) Table Name, Value: PinterestProducts
+													117 text PinterestProducts
+												118 pop-up button Table menu
+												119 pop-up button Views
+									120 container
+										121 container
+											122 container
+											123 container
+									124 image
+									125 pop-up button Paste formatting
+								126 container Sheet tab bar
+									127 toolbar
+										128 button Add Sheet
+										129 pop-up button All Sheets
+									130 toolbar
+										131 pop-up button Products
+											132 container
+												133 text Products
+									134 toolbar
+							135 text entry area (settable) 
+
+
+							136 link Turn on screen reader support, Value: docs.google.com/spreadsheets/d/1PVhR1H-GFaojV_G7Khh0Vt3IwFL1RBHyLLzvXGIT-BQ/edit?gid=150703720#
+							137 text entry area (settable)  
+							138 text Banner hidden To enable screen reader support, press ⌘+Option+Z To learn about keyboard shortcuts, press ⌘slash Name box. ⌘ + J. K18 selected. Type a cell range or named range and hit the Enter key to navigate to the specified range.
+			139 pop-up button Tab search
+			140 container
+				141 tab group
+					142 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					143 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					144 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					145 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					146 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					147 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					148 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					149 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					150 tab (selected, settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: on
+					151 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					152 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					153 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					154 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					155 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					156 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					157 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					158 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					159 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					160 tab (settable, boolean) Meta Business Suite, Value: off
+					161 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					162 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					163 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					164 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					165 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					166 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					167 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					168 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.0 GB, Value: off
+					169 tab (settable, boolean) Boldstone · Review room, Value: off
+					170 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					171 tab (settable, boolean) All products - Merchant Center, Value: off
+			172 button New tab
+	173 close button
+	174 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	175 minimise button
+176 menu bar
+	177 Chrome
+	178 File
+	179 Edit
+	180 View
+	181 History
+	182 Bookmarks
+	183 Profiles
+	184 Tab
+	185 Window
+	186 Help
+
+Selected text: ```
+
+
+
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

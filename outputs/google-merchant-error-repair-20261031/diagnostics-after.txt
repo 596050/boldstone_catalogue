@@ -1,0 +1,304 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Navigation menu" [expanded]:
+    - img: menu
+  - link "Merchant Center home":
+    - /url: /mc/overview?a=5664655454&authuser=1
+    - img "Merchant Center home"
+  - dialog "Search":
+    - img: search
+    - textbox "Search Merchant Center"
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone Sculpture, 5664655454"':
+    - generic: Boldstone Sculpture
+    - generic: "5664655454"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- navigation:
+  - tree "Navigation":
+    - treeitem "Overview" [level=1]:
+      - img: dashboard
+      - generic: Overview
+    - treeitem "Notifications 7" [level=1]:
+      - img: notifications
+      - generic: Notifications
+      - generic: "7"
+    - treeitem "Products & store" [expanded] [level=1]:
+      - img: inventory_2
+      - generic: Products & store
+      - img: arrow_drop_down
+      - treeitem "Products" [level=2]:
+        - generic: Products
+      - treeitem "Shipping and returns" [level=2]:
+        - generic: Shipping and returns
+      - treeitem "Store quality" [level=2]:
+        - generic: Store quality
+    - treeitem "Creative content" [level=1]:
+      - img: brush_spark
+      - generic: Creative content
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Product Studio
+      - treeitem [disabled] [level=2]:
+        - generic: Video assets
+    - treeitem "Marketing" [level=1]:
+      - img: campaign
+      - generic: Marketing
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Ad campaigns
+      - treeitem [disabled] [level=2]:
+        - generic: Marketing methods
+    - treeitem "Analytics" [level=1]:
+      - img: timeline
+      - generic: Analytics
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Summary
+      - treeitem [disabled] [level=2]:
+        - generic: Products
+      - treeitem [disabled] [level=2]:
+        - generic: Online store
+    - treeitem "Settings" [expanded] [level=1]:
+      - img: settings
+      - generic: Settings
+      - img: arrow_drop_down
+      - treeitem "General" [level=2]:
+        - generic: General
+      - treeitem "Business info" [level=2]:
+        - generic: Business info
+      - treeitem "Data sources" [level=2]:
+        - generic: Data sources
+      - treeitem "Add-ons" [level=2]:
+        - generic: Add-ons
+      - treeitem "Access and services" [level=2]:
+        - generic: Access and services
+- heading "Products" [level=1]
+- tablist:
+  - tab "All products":
+    - generic: All products
+  - tab "Needs attention" [selected]:
+    - generic: Needs attention
+  - tab "Automations":
+    - generic: Automations
+- button "Prioritized fixes":
+  - generic: Prioritized fixes
+- button "More information":
+  - img "More information": help_outline
+- group "All products that need attention filter bar":
+  - img: filter_alt
+  - generic: "Filters Applied:"
+  - grid "Filters Applied:":
+    - 'row "Countries: All"':
+      - 'gridcell "Countries: All"':
+        - 'button "Countries: All"': "Countries: All"
+    - 'row "Marketing methods: All"':
+      - 'gridcell "Marketing methods: All"':
+        - 'button "Marketing methods: All"': "Marketing methods: All"
+    - row:
+      - gridcell:
+        - combobox "Add filter"
+        - status
+- heading "Improve performance with prioritized fixes" [level=2]
+- paragraph: Prioritizing your fixes helps you get the biggest return on your effort. It displays all issues that impact more than 10% of your products and organizes products with issues based on their potential to drive more clicks.
+- paragraph: In this view, you can change the filters to narrow your search.
+- button "Got it. Close welcome message":
+  - generic: Got it
+- main:
+  - heading "Make these fixes to show products on Google" [level=2]
+  - link "View setup and policy issues":
+    - /url: /mc/products/diagnostics/accountissues?a=5664655454&authuser=1
+  - link "View history":
+    - /url: /mc/products/diagnostics/history?a=5664655454&marketingMethod=4&authuser=1
+  - article:
+    - img: error_outline
+    - heading "Missing shipping weight [shipping_weight]" [level=3]
+    - paragraph:
+      - text: Submit the [shipping_weight] attribute for all affected products
+      - link "Learn more about the Missing shipping weight [shipping_weight] issue in Help Center. Opens in a new tab., Opens in a new tab":
+        - /url: https://support.google.com/merchants/answer/12468179?hl=en-US
+        - text: Learn more
+        - text: ⁠
+        - img: open_in_new
+        - text: ‎
+    - paragraph: 144 products (30.3%)
+    - button "View fix":
+      - generic: View fix
+    - button "View products":
+      - generic: View products
+  - article:
+    - img: error_outline
+    - heading "Missing shipping info in some countries" [level=3]
+    - paragraph:
+      - text: Your products are set to show in countries that lack shipping information
+      - link "Learn more about the Missing shipping info in some countries issue in Help Center. Opens in a new tab., Opens in a new tab":
+        - /url: https://support.google.com/merchants/answer/12157544?hl=en-US
+        - text: Learn more
+        - text: ⁠
+        - img: open_in_new
+        - text: ‎
+    - paragraph: 6 products (1.3%)
+    - button "View fix":
+      - generic: View fix
+    - button "View products":
+      - generic: View products
+  - heading "All products that need attention" [level=2]
+  - button "Manage product sources":
+    - generic: Manage product sources
+  - button "Show filtering options":
+    - img: filter_alt
+  - button "Download a file containing all the currently filtered product issues" [active]:
+    - img: file_download
+  - grid "All products that need attention":
+    - row "Product Click potential Status What needs attention":
+      - columnheader "Product"
+      - columnheader "Click potential":
+        - text: Click potential
+        - img: help_outline
+      - columnheader "Status"
+      - columnheader "What needs attention":
+        - button:
+          - img: expand_more
+        - text: What needs attention
+        - img: help_outline
+    - 'row "Thumbnail image for: Buy 20cm Black and Yellow Marble Bookends - Modern Elegance for Your Shelf — boldstone Buy 20cm Black and Yellow Marble Bookends - Modern Elegance for Your Shelf — boldstone, opens in a new tab Low Not approved Product status details Fix Buy 20cm Black and Yellow Marble Bookends - Modern Elegance for Your Shelf — boldstone What needs attention"':
+      - 'gridcell "Thumbnail image for: Buy 20cm Black and Yellow Marble Bookends - Modern Elegance for Your Shelf — boldstone"':
+        - 'img "Thumbnail image for: Buy 20cm Black and Yellow Marble Bookends - Modern Elegance for Your Shelf — boldstone"'
+      - gridcell "Buy 20cm Black and Yellow Marble Bookends - Modern Elegance for Your Shelf — boldstone, opens in a new tab":
+        - link "Buy 20cm Black and Yellow Marble Bookends - Modern Elegance for Your Shelf — boldstone, opens in a new tab":
+          - /url: /mc/items/details?a=5664655454&offerId=sq1995225&language=en&channel=0&feedLabel=GB&authuser=1
+          - text: Buy 20cm Black and Yellow Marble Bookends - Modern Elegance for Your Shelf — boldstone
+      - gridcell "Low":
+        - generic: Low
+      - gridcell "Not approved Product status details Fix Buy 20cm Black and Yellow Marble Bookends - Modern Elegance for Your Shelf — boldstone":
+        - generic: Not approved
+        - button "Product status details":
+          - img "Product status details": help_outline
+        - button "Fix Buy 20cm Black and Yellow Marble Bookends - Modern Elegance for Your Shelf — boldstone":
+          - generic: Fix
+      - gridcell "What needs attention":
+        - grid "What needs attention":
+          - row "Missing shipping weight [shipping_weight]":
+            - gridcell "Missing shipping weight [shipping_weight]":
+              - button "Missing shipping weight [shipping_weight]":
+                - img "Missing shipping weight [shipping_weight]": expand_more
+              - img: error_outline
+              - generic: Missing shipping weight [shipping_weight]
+    - 'row "Thumbnail image for: Moon Fishwave wall sculpture — boldstone Moon Fishwave wall sculpture — boldstone, opens in a new tab Low Not approved Product status details Fix Moon Fishwave wall sculpture — boldstone What needs attention"':
+      - 'gridcell "Thumbnail image for: Moon Fishwave wall sculpture — boldstone"':
+        - 'img "Thumbnail image for: Moon Fishwave wall sculpture — boldstone"'
+      - gridcell "Moon Fishwave wall sculpture — boldstone, opens in a new tab":
+        - link "Moon Fishwave wall sculpture — boldstone, opens in a new tab":
+          - /url: /mc/items/details?a=5664655454&offerId=mfw-2p-55&language=en&channel=0&feedLabel=GB&authuser=1
+          - text: Moon Fishwave wall sculpture — boldstone
+      - gridcell "Low":
+        - generic: Low
+      - gridcell "Not approved Product status details Fix Moon Fishwave wall sculpture — boldstone":
+        - generic: Not approved
+        - button "Product status details":
+          - img "Product status details": help_outline
+        - button "Fix Moon Fishwave wall sculpture — boldstone":
+          - generic: Fix
+      - gridcell "What needs attention":
+        - grid "What needs attention":
+          - row "Missing shipping weight [shipping_weight]":
+            - gridcell "Missing shipping weight [shipping_weight]":
+              - button "Missing shipping weight [shipping_weight]":
+                - img "Missing shipping weight [shipping_weight]": expand_more
+              - img: error_outline
+              - generic: Missing shipping weight [shipping_weight]
+    - 'row "Thumbnail image for: Wild Iris photographic print — boldstone Wild Iris photographic print — boldstone, opens in a new tab Low Not approved Product status details Fix Wild Iris photographic print — boldstone What needs attention"':
+      - 'gridcell "Thumbnail image for: Wild Iris photographic print — boldstone"':
+        - 'img "Thumbnail image for: Wild Iris photographic print — boldstone"'
+      - gridcell "Wild Iris photographic print — boldstone, opens in a new tab":
+        - link "Wild Iris photographic print — boldstone, opens in a new tab":
+          - /url: /mc/items/details?a=5664655454&offerId=pwi-1-40&language=en&channel=0&feedLabel=GB&authuser=1
+          - text: Wild Iris photographic print — boldstone
+      - gridcell "Low":
+        - generic: Low
+      - gridcell "Not approved Product status details Fix Wild Iris photographic print — boldstone":
+        - generic: Not approved
+        - button "Product status details":
+          - img "Product status details": help_outline
+        - button "Fix Wild Iris photographic print — boldstone":
+          - generic: Fix
+      - gridcell "What needs attention":
+        - grid "What needs attention":
+          - row "Missing shipping weight [shipping_weight]":
+            - gridcell "Missing shipping weight [shipping_weight]":
+              - button "Missing shipping weight [shipping_weight]":
+                - img "Missing shipping weight [shipping_weight]": expand_more
+              - img: error_outline
+              - generic: Missing shipping weight [shipping_weight]
+    - 'row "Thumbnail image for: Untitled Mask Greetings Card — boldstone Untitled Mask Greetings Card — boldstone, opens in a new tab Low Not approved Product status details Fix Untitled Mask Greetings Card — boldstone What needs attention"':
+      - 'gridcell "Thumbnail image for: Untitled Mask Greetings Card — boldstone"':
+        - 'img "Thumbnail image for: Untitled Mask Greetings Card — boldstone"'
+      - gridcell "Untitled Mask Greetings Card — boldstone, opens in a new tab":
+        - link "Untitled Mask Greetings Card — boldstone, opens in a new tab":
+          - /url: /mc/items/details?a=5664655454&offerId=gc-um-sq-15&language=en&channel=0&feedLabel=GB&authuser=1
+          - text: Untitled Mask Greetings Card — boldstone
+      - gridcell "Low":
+        - generic: Low
+      - gridcell "Not approved Product status details Fix Untitled Mask Greetings Card — boldstone":
+        - generic: Not approved
+        - button "Product status details":
+          - img "Product status details": help_outline
+        - button "Fix Untitled Mask Greetings Card — boldstone":
+          - generic: Fix
+      - gridcell "What needs attention":
+        - grid "What needs attention":
+          - row "Missing shipping weight [shipping_weight]":
+            - gridcell "Missing shipping weight [shipping_weight]":
+              - button "Missing shipping weight [shipping_weight]":
+                - img "Missing shipping weight [shipping_weight]": expand_more
+              - img: error_outline
+              - generic: Missing shipping weight [shipping_weight]
+    - 'row "Thumbnail image for: Blue and Red Swirl Artistic Lamp Base - Modern Decor Lighting — boldstone Blue and Red Swirl Artistic Lamp Base - Modern Decor Lighting — boldstone, opens in a new tab Low Not approved Product status details Fix Blue and Red Swirl Artistic Lamp Base - Modern Decor Lighting — boldstone What needs attention"':
+      - 'gridcell "Thumbnail image for: Blue and Red Swirl Artistic Lamp Base - Modern Decor Lighting — boldstone"':
+        - 'img "Thumbnail image for: Blue and Red Swirl Artistic Lamp Base - Modern Decor Lighting — boldstone"'
+      - gridcell "Blue and Red Swirl Artistic Lamp Base - Modern Decor Lighting — boldstone, opens in a new tab":
+        - link "Blue and Red Swirl Artistic Lamp Base - Modern Decor Lighting — boldstone, opens in a new tab":
+          - /url: /mc/items/details?a=5664655454&offerId=sq9276631&language=en&channel=0&feedLabel=GB&authuser=1
+          - text: Blue and Red Swirl Artistic Lamp Base - Modern Decor Lighting — boldstone
+      - gridcell "Low":
+        - generic: Low
+      - gridcell "Not approved Product status details Fix Blue and Red Swirl Artistic Lamp Base - Modern Decor Lighting — boldstone":
+        - generic: Not approved
+        - button "Product status details":
+          - img "Product status details": help_outline
+        - button "Fix Blue and Red Swirl Artistic Lamp Base - Modern Decor Lighting — boldstone":
+          - generic: Fix
+      - gridcell "What needs attention":
+        - grid "What needs attention":
+          - row "Missing shipping weight [shipping_weight]":
+            - gridcell "Missing shipping weight [shipping_weight]":
+              - button "Missing shipping weight [shipping_weight]":
+                - img "Missing shipping weight [shipping_weight]": expand_more
+              - img: error_outline
+              - generic: Missing shipping weight [shipping_weight]
+  - generic: "Show rows:"
+  - 'button "Show rows: 5 selected."':
+    - generic: "5"
+    - img: arrow_drop_down
+  - generic: 1 - 5 of 150
+  - button "Go to the first page" [disabled]:
+    - img: first_page
+  - button "Go to the previous page" [disabled]:
+    - img: chevron_left
+  - button "Go to the next page":
+    - img: chevron_right
+  - button "Go to the last page":
+    - img: last_page
+- contentinfo:
+  - link "Privacy Policy":
+    - /url: http://www.google.com/policies/privacy/
+  - generic: ·
+  - link "Terms of Service":
+    - /url: https://support.google.com/merchants/answer/160173?hl=en-US
+  - generic: ·
+  - link "Program Policies":
+    - /url: https://support.google.com/merchants/topic/7286989?hl=en-US
+- status

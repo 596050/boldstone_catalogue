@@ -1,0 +1,136 @@
+Window: "Feed details | Microsoft Advertising", App: Google Chrome.
+0 standard window Feed details | Microsoft Advertising - Google Chrome – Tom, Secondary Actions: Raise, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&uid=193182372
+	1 container Feed details | Microsoft Advertising - Google Chrome – Tom, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&uid=193182372
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&uid=193182372
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Feed details | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&uid=193182372
+						26 container
+							27 container Skip to main content
+								28 link Skip to main content, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&uid=193182372#main
+							29 container global menu
+								30 button Microsoft Advertising
+								31 button Switch user accounts. Current selection: Boldstone (G1459Y2Q)
+								32 container
+									33 combo box (settable) Search Microsoft Advertising
+									34 button clear
+								35 button Copilot
+								36 button Notifications
+								37 button   Notifications
+								38 pop-up button Help
+								39 button New features
+								40 button Open account panel
+							41 container Banner message
+								42 text You need a primary payment method before your ads will run.
+								43 link Add a payment method now, Value: ads.microsoft.com/cc/PaymentMethods?aid=187335961&cid=255124527&uid=193182372&showTaxForm=False
+							44 tab group
+								45 tab (settable, integer) Campaigns, Value: 0
+								46 tab (settable, integer) Conversions, Value: 0
+								47 tab (settable, integer) Ads Studio, Value: 0
+								48 tab (settable, integer) Import, Value: 0
+								49 tab (settable, integer) Reporting, Value: 0
+								50 tab (selected) Merchant Center, Value: 1
+								51 tab (settable, integer) Billing, Value: 0
+								52 tab (settable, integer) Settings, Value: 0
+								53 tab (settable, integer) Tools, Value: 0
+							54 container breadcrumb
+								55 content list
+									56 button All stores
+									57 button Boldstone Sculpture
+									58 button Feeds
+									59 button (disabled) Default Catalog
+							60 container
+								61 container
+									62 heading Feeds, Value: 1
+										63 text Feeds
+									64 button Import from Google Ads
+									65 button Create feed
+								66 heading Default Catalog, Value: 1
+									67 text Default Catalog
+								68 text Feed uploaded on:
+								69 combo box (settable) Feed uploaded on, Value: 7 November 2026 at 17:41:41 GMT
+									70 text 7 November 2026 at 17:41:41 GMT
+								71 button (disabled) Download feed
+								72 button Update feed
+								73 heading Feed details, Value: 2
+									74 text Feed details
+								75 text Feed ID:
+								76 text 1830841
+								77 text Feed Status:
+								78 text Pending
+								79 text Feed file name:
+								80 text boldstone_wall_sculptures_microsoft.txt
+								81 text Destinations:
+								82 text Online product ads
+								83 button More details
+								84 image
+								85 heading Your feed is pending., Value: 3
+									86 text Your feed is pending.
+								87 text Your feed is currently pending editorial review. Please check back later.
+								88 container
+									89 text © 2026 Microsoft
+									90 content list
+										91 link Legal, Value: ads.microsoft.com/tc.aspx
+										92 link Privacy & Cookies, Value: go.microsoft.com/fwlink/?LinkId=248681
+										93 link Advertise, Value: go.microsoft.com/fwlink/?LinkId=258668
+										94 link Developers, Value: go.microsoft.com/fwlink/?linkid=2333449
+										95 link Support, Value: go.microsoft.com/fwlink/?LinkId=258669
+										96 link Blog, Value: go.microsoft.com/fwlink/?LinkId=395064
+										97 link Community, Value: go.microsoft.com/fwlink/?linkid=2325500&clcid=0x409
+										98 link Consumer Health Privacy, Value: go.microsoft.com/fwlink/?linkid=2259814
+										99 button Help
+							100 container
+								101 text  Store Boldstone Sculpture created. Your store is now being processed for approval. This can take up to 3 business days.
+								102 button Dismiss the message
+			103 pop-up button Tab search
+			104 container
+				105 tab group
+					106 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+						107 button Close
+					108 tab (selected, settable, boolean) Feed details | Microsoft Advertising, Value: on
+						109 button Close
+			110 button New tab
+	111 close button
+	112 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	113 minimise button
+114 menu bar
+	115 Chrome
+	116 File
+	117 Edit
+	118 View
+	119 History
+	120 Bookmarks
+	121 Profiles
+	122 Tab
+	123 Window
+	124 Help
+
+The focused UI element is 25 HTML content Feed details | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&uid=193182372

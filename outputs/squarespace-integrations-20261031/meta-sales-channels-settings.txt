@@ -1,0 +1,239 @@
+- link "Business Home":
+  - /url: https://business.facebook.com/home/?business_id=2380586078685156
+  - img "Meta logo"
+- generic: Commerce Manager
+- combobox "Boldstone Sculpture":
+  - generic: Boldstone Sculpture
+- navigation "Navigation":
+  - list:
+    - link "Overview":
+      - /url: https://business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+    - generic: Overview
+    - button "Catalogue"
+    - generic: Catalogue
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Products":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/products/?business_id=2380586078685156
+      - generic: Products
+      - link "Sets":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/sets/?business_id=2380586078685156
+      - generic: Sets
+      - link "Data sources":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/data_sources/?business_id=2380586078685156
+      - generic: Data sources
+      - link "Events":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/events/?business_id=2380586078685156
+      - generic: Events
+    - link "Image templates":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/templates/?business_id=2380586078685156
+    - generic: Image templates
+    - link "Product video creator":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/video_template_hub/?business_id=2380586078685156
+    - generic: Product video creator
+    - link "Shops":
+      - /url: https://business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+    - generic: Shops
+    - button "Promotions"
+    - generic: Promotions
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Offers":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/offers/?business_id=2380586078685156
+      - generic: Offers
+      - link "Marketing settings":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/mailing_list/?business_id=2380586078685156
+      - generic: Marketing settings
+    - button "Insights"
+    - generic: Insights
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Overview":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/overview/?business_id=2380586078685156
+      - generic: Overview
+      - link "Catalogue":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/products/?business_id=2380586078685156
+      - generic: Catalogue
+      - link "Performance":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/perf/?business_id=2380586078685156
+      - generic: Performance
+      - link "Audience":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/audience/?business_id=2380586078685156
+      - generic: Audience
+      - link "Tagged content":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/product_tagged_content/?business_id=2380586078685156
+      - generic: Tagged content
+      - link "Awareness":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/entry_points/?business_id=2380586078685156
+      - generic: Awareness
+    - link "To-do list":
+      - /url: https://business.facebook.com/commerce/326960679342026/to_do_list/?business_id=2380586078685156
+    - generic: To-do list
+    - link "Settings":
+      - /url: https://business.facebook.com/commerce/326960679342026/settings/general/?business_id=2380586078685156
+    - generic: Settings
+- navigation "all tools":
+  - list:
+    - button "All tools":
+    - generic: All tools
+- separator
+- list:
+  - button "Meta AI business assistant"
+  - generic: Meta AI business assistant
+- button "Help":
+  - generic: Help
+- link "Business settings":
+  - /url: https://business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+  - generic: Business settings
+- button "Business notifications":
+  - generic: Business notifications
+- button:
+  - generic: "6"
+- button "Search":
+  - generic: Search
+- button "Collapse":
+  - generic: Collapse
+- heading "Settings" [active] [level=1]
+- grid:
+  - row "General":
+    - gridcell "General":
+      - heading "General" [level=3]
+  - row "Localisation":
+    - gridcell "Localisation":
+      - heading "Localisation" [level=3]
+  - row "Catalogue":
+    - gridcell "Catalogue":
+      - heading "Catalogue" [level=3]
+- generic "Shop details":
+  - heading "Shop details" [level=3]
+  - link "Edit":
+    - /url: /commerce/326960679342026/settings/shop_details/?business_id=2380586078685156
+    - generic: Edit
+  - generic: Business details
+  - heading "Boldstone Sculpture" [level=4]
+  - generic: info@boldstone.co.uk
+  - generic: Customer support
+  - heading "Email and chat" [level=4]
+  - generic: Checkout
+  - heading "Not configured" [level=4]
+- generic "Marketing":
+  - heading "Marketing" [level=3]
+  - generic: Collect customer email addresses with an email sign-up offer.
+  - link "Edit":
+    - /url: "#"
+    - generic: Edit
+  - generic: Offer destination
+  - heading "Website" [level=3]
+  - generic: "Off"
+  - status: "Off"
+  - text: Show your offer with ads that lead to your website.
+- generic "Offer merchandising":
+  - heading "Offer merchandising" [level=3]
+  - generic: Let Meta automatically display detected offers when people browse your products on Facebook and Instagram.
+  - link "Edit":
+    - /url: /commerce/326960679342026/settings/offer_merchandising/?business_id=2380586078685156
+    - generic: Edit
+  - heading "Detected offers" [level=4]
+  - generic: "On"
+  - status: Detected offers are on
+  - generic: Display offers detected from your website and ads.
+  - heading "Sale events" [level=4]
+  - generic: "On"
+  - status: Sale events are on
+  - generic: Display sale events detected from your ad creative text.
+  - heading "Seasonal event names" [level=4]
+  - generic: "On"
+  - status: Seasonal event names are on
+  - generic: Display seasonal event names alongside related offers. For instance, "New Year's offer! Save 20% with NY20"
+- generic "Delivery and returns":
+  - heading "Delivery and returns" [level=3]
+  - link "Edit":
+    - /url: /commerce/326960679342026/settings/shipping/?business_id=2380586078685156
+    - generic: Edit
+  - generic: Delivery
+  - heading "Standard delivery" [level=4]
+  - generic: Returns
+  - heading "30 days" [level=4]
+- generic "Event sources":
+  - heading "Event sources" [level=3]
+  - link "Edit":
+    - /url: "#"
+    - generic: Edit
+  - generic: This catalogue is connected to 1 pixel.
+  - generic: Boldstone Sculpture Pixel
+  - generic: "Pixel ID: 4566349726935061"
+- generic "Integrations":
+  - heading "Integrations" [level=3]
+  - heading "Ratings and reviews" [level=4]
+  - generic: "On"
+  - status: Active
+  - generic: Automatically sync customer feedback, then display on product pages.
+  - link "Manage":
+    - /url: "#"
+  - heading "Send customer questions to your email address" [level=4]
+  - generic: "Off"
+  - status: Inactive
+  - generic: Get an email whenever a customer asks a question on your shop.
+  - link "Add":
+    - /url: "#"
+  - heading "Google reporting" [level=4]
+  - generic: "Off"
+  - status: Inactive
+  - generic: Connect your account to measure actions on ads that send people to your website and shop, including Meta purchases in your Google reporting.
+  - link "Connect":
+    - /url: /commerce/326960679342026/settings/google_reporting/?business_id=2380586078685156
+- heading "Sales channels" [level=3]
+- text: Review and edit the accounts that you've connected to sell your products.
+- heading "Boldstone Sculpture" [level=4]
+- img "Facebook"
+- generic: Boldstone Sculpture
+- generic: "Facebook Page: 103781478537396"
+- generic: Visibility label value
+- combobox "Visibility label value Visible":
+  - generic: Visible
+- button "Disconnect":
+  - generic: Disconnect
+- img "Instagram"
+- generic: boldstonesculpture
+- generic: "Instagram profile: @boldstonesculpture"
+- generic: Visibility label value
+- combobox "Visibility label value Visible":
+  - generic: Visible
+- button "Disconnect":
+  - generic: Disconnect
+- generic: Connect additional Facebook Pages or Instagram profiles to your shop.
+- link "Connect":
+  - /url: "#"
+- generic "Permissions":
+  - heading "Permissions" [level=3]
+  - generic: Manage who has access to your commerce account.
+  - heading "2 people have access to your shop" [level=4]
+  - generic: Automatic permissions turned on for your shop
+  - link "Manage":
+    - /url: /latest/settings/commerce_accounts/?business_id=2380586078685156&nav_ref=commerce_manager_settings_permissions_manage_link&selected_asset_id=326960679342026&selected_asset_type=seller-profile
+  - heading "4 people have access to your catalogue" [level=4]
+  - generic: Automatic permissions turned off for your catalogue
+  - link "Manage":
+    - /url: /latest/settings/product_catalogs/?business_id=2380586078685156&detail_view_tab=ASSET_ACCESS&nav_ref=commerce_manager_settings_permissions_manage_link&selected_asset_id=1638438493182970&selected_asset_type=product-catalog
+- generic "Creator product tags":
+  - heading "Creator product tags" [level=3]
+  - generic: Choose which products appear in creators' product searches. Products can still be tagged using a direct link.
+  - generic: Products available for tagging
+  - generic: All products · 325 products
+  - link "Manage":
+    - /url: "#"
+  - generic: Accounts blocked from tagging products
+  - generic: 0 Instagram accounts · 0 Facebook accounts
+  - link "Manage":
+    - /url: "#"
+- generic "Terms and conditions":
+  - heading "Terms and conditions" [level=3]
+  - text: You have accepted Meta's
+  - link "Seller agreement":
+    - /url: https://www.facebook.com/legal/commerce_product_merchant_agreement/?_rdr
+  - text: .
+- button "Deactivate all shops":
+  - generic: Deactivate all shops

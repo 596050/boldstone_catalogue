@@ -1,0 +1,160 @@
+- banner:
+  - navigation:
+    - heading "boldstone" [level=1]:
+      - link "boldstone":
+        - /url: https://boldstonesculpture.com
+- main:
+  - iframe [name="__privateStripeFrame3048"]
+  - region "Your Email":
+    - heading "Your Email" [level=1]
+    - generic: Email
+    - textbox "Email":
+      - /placeholder: Email address
+    - generic: You'll receive receipts and notifications at this email
+    - text: Already have an account?
+    - link "Sign in":
+      - /url: "#"
+    - checkbox "Sign up to receive news and updates"
+    - text: Sign up to receive news and updates
+    - alert
+    - button "continue"
+  - region "Delivery":
+    - heading "Delivery" [level=1]
+  - region:
+    - heading "Payment" [level=1]
+  - region "Review & Purchase":
+    - heading "Review & Purchase" [level=1]
+  - paragraph: Order summary
+  - generic: "1"
+  - paragraph: Ammonite Petite II (Right) - White
+  - generic "Ammonite Petite II (Right) - White total price": £49.10
+  - button "Remove"
+  - button "Discount or gift card":
+    - generic: Discount or gift card
+  - paragraph: Subtotal
+  - generic "Subtotal price": £49.10
+  - paragraph: Tax
+  - generic "Tax price": £10.68
+  - paragraph: Shipping
+  - generic "Shipping price": £14.95
+  - paragraph: Total
+  - generic "Total price": £64.05
+  - button "Total label Total price":
+    - paragraph: Total
+    - generic "Total price": £64.05
+  - generic: Secure SSL Checkout
+- separator
+- button "close":
+- heading "Return Policy" [level=1]
+- paragraph:
+  - paragraph:
+    - strong: No refunds.
+    - text: We only offer
+    - strong: replacements for transport breakages
+    - text: ", up to a"
+    - strong: maximum of three (3) replacements per order
+    - text: . After the third replacement, we will not issue further replacements for the same order.
+  - paragraph:
+    - text: If your piece arrives damaged in transit,
+    - strong: contact us immediately
+    - text: with your
+    - strong: order number and clear photos
+    - text: "so we can arrange a replacement. Email:"
+    - strong: info@boldstonesculpture.com
+    - text: . Items must be
+    - strong: pre‑authorised
+    - text: before sending anything back.
+  - paragraph:
+    - strong: "Non‑returnable items:"
+    - text: custom/commissioned pieces and other items identified as non‑returnable on our site (e.g., sale items and gift cards).
+    - link "boldstone":
+      - /url: https://boldstonesculpture.com/return-and-refund-policy
+  - paragraph:
+    - text: This policy applies in addition to your
+    - strong: statutory rights
+    - text: (e.g., rights relating to faulty/not‑as‑described goods under UK law).
+    - link "GOV.UK":
+      - /url: https://www.gov.uk/accepting-returns-and-giving-refunds?utm_source=chatgpt.com
+  - paragraph:
+    - text: For shipping timelines, order tracking and general delivery information, please see our
+    - strong: Shipping Policy
+    - text: .
+- separator
+- button "close":
+- heading "Terms of Service" [level=1]
+- paragraph:
+  - paragraph:
+    - text: By using our site or purchasing from us, you
+    - strong: agree to our Terms of Service
+    - text: ". Key points:"
+  - paragraph:
+    - text: Our store is
+    - strong: hosted on Squarespace
+    - text: ", which provides the e‑commerce platform we use."
+    - link "boldstone":
+      - /url: https://boldstonesculpture.com/terms-of-service
+  - paragraph:
+    - text: You must be the
+    - strong: age of majority
+    - text: in your location to use the site.
+    - link "boldstone":
+      - /url: https://boldstonesculpture.com/terms-of-service
+  - paragraph:
+    - text: Do not use the site for unlawful purposes; prohibited uses may result in termination.
+    - link "boldstone":
+      - /url: https://boldstonesculpture.com/terms-of-service
+  - paragraph:
+    - text: We may
+    - strong: update
+    - text: these terms; continued site use means you accept the changes.
+    - link "boldstone":
+      - /url: https://boldstonesculpture.com/terms-of-service
+  - paragraph:
+    - strong: "Governing law:"
+    - text: United Kingdom.
+    - link "boldstone":
+      - /url: https://boldstonesculpture.com/terms-of-service
+  - paragraph:
+    - text: Questions about the Terms? Email
+    - strong: info@boldstonesculpture.com
+    - text: . For the full text, see
+    - strong: /terms-of-service
+    - text: on our site.
+    - link "boldstone":
+      - /url: https://boldstonesculpture.com/terms-of-service
+- separator
+- button "close":
+- heading "Privacy Policy" [level=1]
+- paragraph:
+  - paragraph:
+    - text: We collect and use personal information to
+    - strong: process orders, ship and fulfil purchases, and keep you informed
+    - text: about products and offers.
+  - paragraph:
+    - text: We share data with service providers to run our store, including
+    - strong: Squarespace
+    - text: (store platform) and
+    - strong: Google Analytics
+    - text: (site analytics/usage). We may use targeted/behavioural advertising tools (e.g., Meta).
+    - link "boldstone":
+      - /url: https://boldstonesculpture.com/privacy-policy
+  - paragraph:
+    - text: If you are in the EEA/UK, we process data under GDPR lawful bases such as
+    - strong: consent, contract performance, legal obligation and legitimate interests
+    - text: . We
+    - strong: retain
+    - text: order information unless you ask us to erase it and we do
+    - strong: not
+    - text: engage in fully automated decision‑making that has a legal or similarly significant effect on you.
+    - link "boldstone":
+      - /url: https://boldstonesculpture.com/privacy-policy
+  - paragraph:
+    - text: The site is
+    - strong: not intended for individuals under 21
+    - text: . To exercise privacy rights or make a request, contact us at
+    - strong: info@boldstonesculpture.com
+    - text: . For the full policy, see
+    - strong: /privacy-policy
+    - text: .
+    - link "boldstone":
+      - /url: https://boldstonesculpture.com/privacy-policy

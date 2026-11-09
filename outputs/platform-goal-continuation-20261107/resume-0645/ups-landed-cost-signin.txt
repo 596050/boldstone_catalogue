@@ -1,0 +1,101 @@
+Window: "Login | UPS - United States", App: Google Chrome.
+0 standard window Login | UPS - United States – Part of group 📦 Marketplace completion - Google Chrome – Tom, Secondary Actions: Raise, URL: id.ups.com/u/login/identifier?state=hKFo2SBuSzRvS2RvQVdvYTkxX3lMeUw1ekRZc3pkamY4NzM3caFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIG52Y2dtdWthVmVtMThQQ21kNzlSeGtWbXBuc01lX25oo2NpZNkgaHdMRVROQnNxTWNzemtmRVA5RVNHaEZZMjI1YTlvZmM&ui_locales=en
+	1 container Login | UPS - United States – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: id.ups.com/u/login/identifier?state=hKFo2SBuSzRvS2RvQVdvYTkxX3lMeUw1ekRZc3pkamY4NzM3caFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIG52Y2dtdWthVmVtMThQQ21kNzlSeGtWbXBuc01lX25oo2NpZNkgaHdMRVROQnNxTWNzemtmRVA5RVNHaEZZMjI1YTlvZmM&ui_locales=en
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: id.ups.com/u/login/identifier?state=hKFo2SBuSzRvS2RvQVdvYTkxX3lMeUw1ekRZc3pkamY4NzM3caFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIG52Y2dtdWthVmVtMThQQ21kNzlSeGtWbXBuc01lX25oo2NpZNkgaHdMRVROQnNxTWNzemtmRVA5RVNHaEZZMjI1YTlvZmM&ui_locales=en
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Login | UPS - United States, URL: id.ups.com/u/login/identifier?state=hKFo2SBuSzRvS2RvQVdvYTkxX3lMeUw1ekRZc3pkamY4NzM3caFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIG52Y2dtdWthVmVtMThQQ21kNzlSeGtWbXBuc01lX25oo2NpZNkgaHdMRVROQnNxTWNzemtmRVA5RVNHaEZZMjI1YTlvZmM&ui_locales=en
+						26 container
+							27 container
+								28 image UPS
+								29 heading Welcome, Value: 1
+									30 text Welcome
+								31 container
+									32 text Username or Email address 
+									33 text field (settable) Username or Email address 
+								34 container
+									35 link Forgot Username/Password?, Value: ups.com/lasso/forgot?loc=en_US
+									36 container
+										37 text By Continuing, I agree to the
+										38 link UPS Tariff/Terms and Conditions of Service, Value: assets.ups.com/adobe/assets/urn:aaid:aem:c6bf8a2f-018f-4aa0-838b-ffc1a75eb1d9/original/as/terms-carriage-us-en.pdf
+										39 text and the
+										40 link UPS Technology Agreement, Value: assets.ups.com/adobe/assets/urn:aaid:aem:c271a615-2207-4626-8507-521abe266d37/original/as/uta-en-GLOBAL.pdf
+										41 text in effect at the time of shipping.
+								42 button Continue
+								43 container
+									44 text Don't have a  profile? 
+									45 link Sign Up, Value: wwwapps.ups.com/doapp/SignUp?loc=en_US&ClientId=13&returnto=https%3A%2F%2Fwww.ups.com
+								46 text OR CONTINUE BY USING ONE OF THESE SITES
+								47 button
+								48 button
+								49 button
+								50 button
+								51 button
+								52 content list
+									53 link Privacy Notice, Value: ups.com/us/en/support/shipping-support/legal-terms-conditions/privacy-notice.page
+									54 text |
+									55 link Terms and Conditions, Value: ups.com/us/en/support/shipping-support/legal-terms-conditions.page
+			56 pop-up button Tab search
+			57 container
+				58 tab group
+					59 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					60 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					61 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					62 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					63 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					64 tab (settable, boolean) Meta Business Suite, Value: off
+					65 tab group  group 📦 Marketplace completion – 4 Tabs, •  Studio | Saatchi Art United Kingdom, •  Revise your listing | Boldstone Patina Panel -…, •  Vintage & Used Furniture and Decor | Chairish, •  Login | UPS - United States – Expanded
+					66 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion, Value: off
+					67 tab (settable, boolean) Value: off, Revise your listing | Boldstone Patina Panel - Rust and Verdigris Finish Wall sculpture | eBay – Part of group 📦 Marketplace completion
+					68 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish – Part of group 📦 Marketplace completion, Value: off
+					69 tab (selected, settable, boolean) Login | UPS - United States – Part of group 📦 Marketplace completion, Value: on
+						70 button Close
+					71 tab (settable, boolean) Botanical Form - White Outdoor Sculpture by Sally Price | Saatchi Art United Kingdom, Value: off
+					72 tab (settable, boolean) Products – Faire, Value: off
+					73 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					74 tab (settable, boolean) Create listings, Value: off
+			75 button New tab
+	76 close button
+	77 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	78 minimise button
+79 menu bar
+	80 Chrome
+	81 File
+	82 Edit
+	83 View
+	84 History
+	85 Bookmarks
+	86 Profiles
+	87 Tab
+	88 Window
+	89 Help
+
+The focused UI element is 33 text field (settable) Username or Email address 

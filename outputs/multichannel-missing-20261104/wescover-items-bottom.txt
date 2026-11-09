@@ -1,0 +1,1100 @@
+Window: "Manage Your Creator Page | Wescover Tools", App: Google Chrome.
+0 standard window Manage Your Creator Page | Wescover Tools - Google Chrome – Tom, URL: edit.wescover.com/creator/MSJ…, Secondary Actions: Raise
+	1 container Manage Your Creator Page | Wescover Tools - Google Chrome – Tom, URL: edit.wescover.com/creator/MSJ…
+		2 container
+			3 toolbar
+				4 button Back
+				5 button Reload
+				6 container
+					7 pop-up button View site information
+					8 text field (settable) Address and search bar, Value: edit.wescover.com/creator/MSJZKJh9uMg?anchor=items, Placeholder: Ask Google or type a URL
+					9 button Bookmark this tab
+				10 pop-up button Extensions
+				11 pop-up button Hidden toolbar buttons
+				12 pop-up button Relaunch to update
+			13 container
+				14 scroll area
+					15 HTML content Manage Your Creator Page | Wescover Tools, URL: edit.wescover.com/creator/MSJ…
+						16 container
+							17 container
+								18 button Menu
+								19 link edit.wescover.com/
+							20 container
+								21 container
+									22 text 100 %
+								23 text Progress Bar
+								24 text Changes Saved. Click Submit to apply updates.
+								25 button  New Item
+								26 button Submit
+							27 heading Your Page, Value: 2
+								28 text Your Page
+							29 container
+								30 heading Creator Profile, Value: 3
+									31 text Creator Profile
+								32 text Welcome to Wescover! Here's where you'll build your page. Include your photo and information about you as a creator. You'll need to list at least one item in order to submit your page, but you can always come back to add more.
+								33 container
+									34 text Cover Photo 1500x500 px
+								35 container
+									36 Unlabelled image To get missing image descriptions, open the context menu.
+									37 text 
+									38 button Cover photo is locked
+								39 container
+									40 text Creator Photo 400x400 px
+								41 container
+									42 Unlabelled image /ceurhqumaw7wxrdctteu.jpg
+									43 text 
+									44 button Creator photo is locked
+								45 container
+									46 text field (disabled) Boldstone
+									47 container
+										48 text Brand Name/ Creator Name/ Studio Name *
+								49 button Brand name is locked
+								50 container
+									51 text field (disabled) Sally
+									52 container
+										53 text First Name *
+								54 button First name is locked
+								55 container
+									56 text field (disabled) Price
+									57 container
+										58 text Last Name *
+								59 button Last name is locked
+								60 combo box (settable)
+									61 container
+										62 search text field (settable) Bath, England, United Kingdom
+										63 container
+											64 text City *
+								65 url (settable) Value: https://boldstonesculpture.com, Placeholder: https://www.mysite.com
+								66 text Website
+								67 text field (settable) Value: Pattern in nature, pared back to texture, light and shadow., Placeholder: Any style method, idea or element that connects your pieces or work?
+								68 text Headline Quote
+								69 container
+									70 text entry area (disabled) Placeholder: Share your story to connect a new fan- don’t list your resume., Value: I started Boldstone in 1998 out of a simple obsession with the patterns that turn up everywhere in nature - ripples left in rock, the curve of a wave just before it breaks, the shadow across a half moon, the spiral inside a shell. I pare those down to their boldest form and carve or cast each piece by hand, finishing them in marble stone patterns, gold leaf, verdigris on copper or hand-painted metallics so the surface reads differently as the light moves across it. Everything is handmade in studio: wall reliefs, sculptural furnishings, and commissions built for one particular wall, courtyard or room. Some of my favourite work has come out of those conversations - a piece for a Knightsbridge apartment, a garden at Chelsea, a 2.75m sculpture for a palace courtyard in Riyadh.
+									71 text Bio
+								72 button Bio is locked
+								73 text Business Value Tags  (optional) Select up to 6 values that best match your business. These will appear on your item and Creator pages and shoppers will be able to find you when looking for values that match your business.
+								74 container
+									75 text Sustainable Natural Materials Upcycled Product Handmade Made To Order
+									76 text field (settable)
+								77 text Style  (optional) Select up to  5  styles that generally apply to all your items to help shoppers find your pieces. You can also add styles at the individual item-level when editing selling details.
+								78 container
+									79 text Art Deco Coastal Contemporary Minimalism Modern
+									80 text field (settable)
+								81 text How to Work With Me:
+								82 text Check options so buyers understand how to work with you. These will appear on your Creator page.
+								83 container
+									84 text ✓ I do commission/custom work
+								85 container
+									86 text ✓ I offer samples upon request
+							87 container
+								88 text Update Items on your Page
+								89 text Each item you submit should be a completed work, designed or created by you. You'll be able to add photos and information about materials, customization options, shipping and pricing. You can also include one-of-a-kind, sold works as inspiration for commissions / custom projects.
+								90 container
+									91 image
+									92 text Add New Product Create a new product by adding your completed work, along with photos, customization options, shipping, and pricing details.
+									93 button New Item
+									94 button Prefer the old way? Use the classic form
+								95 image
+								96 text Easy Upload Products
+								97 text Upload new products easily from Etsy, Squarespace, or other platforms using the CSV upload option. Quickly import multiple product listings at once.
+								98 button Upload
+								99 image
+								100 text Connect your online store
+								101 text Connect your store on Shopify and more seamlessly sync and manage everything in one place from pricing, stock to shipping.
+								102 link Know More, Value: docs.wescover.com/en/articles…
+								103 container Running a sale? Discount your whole catalog at once
+									104 button NEW · PRICING TOOLS Running a sale? Discount your whole catalog at once
+									105 container
+										106 heading Running a sale? Discount your whole catalog at once, Value: 3
+											107 text Running a sale? Discount your whole catalog at once
+										108 text Set a percentage or fixed markdown across every product — or just the ones you pick — and let buyers see the compare-at price. No spreadsheets, no editing one product at a time.
+										109 content list
+											110 container
+												111 image
+												112 text % or fixed amount
+											113 container
+												114 image
+												115 text Apply to all or selected
+											116 container
+												117 image
+												118 text Preview before you save
+										119 link Set up a bulk discount, Value: edit.wescover.com/creator/MSJ…
+										120 text Nothing changes until you press Save.
+								121 text Show items by popularity based on shopper’s Click Rate (recommended). Changes visible on your live page only
+								122 text Manually edit order of items on your page. Hold & drag item cards below to change their order as per your preference
+								123 image
+								124 text field (settable) Search your items, Placeholder: Search your items by name
+								125 pop-up button Category All
+									126 image
+									127 text Category
+									128 text All
+									129 image
+								130 container Items view
+									131 toggle button Grid view, Value: 0
+										132 image
+									133 toggle button List view, Value: 1
+										134 image
+								135 container (showing 78-178 of 178 items)
+									136 container
+										137 Unlabelled image /n9nvcp0l6zgt574ge534
+										138 button Edit item
+										139 button Duplicate item
+										140 image
+										141 text Drag to reorder
+										142 heading Fingerprint Rings I - White, Value: 3
+											143 text Fingerprint Rings I - White
+										144 text Wall Sculpture
+									145 container
+										146 Unlabelled image /2ytnpec7y89zf3alkl2y
+										147 button Edit item
+										148 button Duplicate item
+										149 image
+										150 text Drag to reorder
+										151 heading Frozen Fish Relief - Verdigris, Value: 3
+											152 text Frozen Fish Relief - Verdigris
+										153 text Wall Sculpture
+									154 container
+										155 Unlabelled image /fy3q5s11m1hetmdh287g
+										156 button Edit item
+										157 button Duplicate item
+										158 image
+										159 text Drag to reorder
+										160 heading Echo Rhythm II - White, Value: 3
+											161 text Echo Rhythm II - White
+										162 text Wall Sculpture
+									163 container
+										164 Unlabelled image /pil8nvnu4xxv4gnsp90j
+										165 button Edit item
+										166 button Duplicate item
+										167 image
+										168 text Drag to reorder
+										169 heading Dune Ripple II - Rust, Value: 3
+											170 text Dune Ripple II - Rust
+										171 text Wall Sculpture
+									172 container
+										173 Unlabelled image /nf3zx3o1ronl3vvfnutx
+										174 button Edit item
+										175 button Duplicate item
+										176 image
+										177 text Drag to reorder
+										178 heading Fingerprint Rings I - Cream, Value: 3
+											179 text Fingerprint Rings I - Cream
+										180 text Wall Sculpture
+									181 container
+										182 Unlabelled image /oatnhp0y80jm1mlc2edz
+										183 button Edit item
+										184 button Duplicate item
+										185 image
+										186 text Drag to reorder
+										187 heading Deco Wave II - Verdigris, Value: 3
+											188 text Deco Wave II - Verdigris
+										189 text Wall Sculpture
+									190 container
+										191 Unlabelled image /6v6pfcwoe12jd3lk126a
+										192 button Edit item
+										193 button Duplicate item
+										194 image
+										195 text Drag to reorder
+										196 heading Egyptian Palm I - White, Value: 3
+											197 text Egyptian Palm I - White
+										198 text Wall Sculpture
+									199 container
+										200 Unlabelled image /xyjkncne0ibxpd4u6t4x
+										201 button Edit item
+										202 button Duplicate item
+										203 image
+										204 text Drag to reorder
+										205 heading Egyptian Fountain Palm - Bronze and Verdigris, Value: 3
+											206 text Egyptian Fountain Palm - Bronze and Verdigris
+										207 text Wall Sculpture
+									208 container
+										209 Unlabelled image /r3bv9ce4q8au8kvo1tl4
+										210 button Edit item
+										211 button Duplicate item
+										212 image
+										213 text Drag to reorder
+										214 heading Dune Ripple I - Rust, Value: 3
+											215 text Dune Ripple I - Rust
+										216 text Wall Sculpture
+									217 container
+										218 Unlabelled image /hwx3zcfoqq86cwiprhy4
+										219 button Edit item
+										220 button Duplicate item
+										221 image
+										222 text Drag to reorder
+										223 heading Deco Palm II - White, Value: 3
+											224 text Deco Palm II - White
+										225 text Wall Sculpture
+									226 container
+										227 Unlabelled image /qsa5qr58sju3frczl5h3
+										228 button Edit item
+										229 button Duplicate item
+										230 image
+										231 text Drag to reorder
+										232 heading Frozen Fish Relief - Terracotta, Value: 3
+											233 text Frozen Fish Relief - Terracotta
+										234 text Wall Sculpture
+									235 container
+										236 Unlabelled image /na9xrl5b3um94kaa75sg
+										237 button Edit item
+										238 button Duplicate item
+										239 image
+										240 text Drag to reorder
+										241 heading Deco Timeless Spiral - White, Value: 3
+											242 text Deco Timeless Spiral - White
+										243 text Wall Sculpture
+									244 container
+										245 Unlabelled image /av7hgrxei1xqiurzrcco
+										246 button Edit item
+										247 button Duplicate item
+										248 image
+										249 text Drag to reorder
+										250 heading Dune Ripple II - Bronze and Verdigris, Value: 3
+											251 text Dune Ripple II - Bronze and Verdigris
+										252 text Wall Sculpture
+									253 container
+										254 Unlabelled image /07athfig3xdcukvkpenu
+										255 button Edit item
+										256 button Duplicate item
+										257 image
+										258 text Drag to reorder
+										259 heading Dune Ripple II - Copper with Verdigris Accents, Value: 3
+											260 text Dune Ripple II - Copper with Verdigris Accents
+										261 text Wall Sculpture
+									262 container
+										263 Unlabelled image /pdo5s68v94zofq0r9hez
+										264 button Edit item
+										265 button Duplicate item
+										266 image
+										267 text Drag to reorder
+										268 heading Egyptian Fountain Palm - White, Value: 3
+											269 text Egyptian Fountain Palm - White
+										270 text Wall Sculpture
+									271 container
+										272 Unlabelled image /5n5sr7vibvn73ajdhlh2
+										273 button Edit item
+										274 button Duplicate item
+										275 image
+										276 text Drag to reorder
+										277 heading Deco Palm I - White, Value: 3
+											278 text Deco Palm I - White
+										279 text Wall Sculpture
+									280 container
+										281 Unlabelled image /3amhig4bn1yh77lshpwg
+										282 button Edit item
+										283 button Duplicate item
+										284 image
+										285 text Drag to reorder
+										286 heading Dune Ripple II - Copper, Value: 3
+											287 text Dune Ripple II - Copper
+										288 text Wall Sculpture
+									289 container
+										290 Unlabelled image /cdxqpmwyeas127pwqqhv
+										291 button Edit item
+										292 button Duplicate item
+										293 image
+										294 text Drag to reorder
+										295 heading Deco Golden Spiral - White and Gold, Value: 3
+											296 text Deco Golden Spiral - White and Gold
+										297 text Wall Sculpture
+									298 container
+										299 Unlabelled image /q446z4cs8vqjsewqa5c7
+										300 button Edit item
+										301 button Duplicate item
+										302 image
+										303 text Drag to reorder
+										304 heading Egyptian Palm IV (Extended) - White, Value: 3
+											305 text Egyptian Palm IV (Extended) - White
+										306 text Wall Sculpture
+									307 container
+										308 Unlabelled image /ip987k0z30500k03fvjt
+										309 button Edit item
+										310 button Duplicate item
+										311 image
+										312 text Drag to reorder
+										313 heading Dune Ripple II - Verdigris and Copper, Value: 3
+											314 text Dune Ripple II - Verdigris and Copper
+										315 text Wall Sculpture
+									316 container
+										317 Unlabelled image /qzfhww4svmhh7bdkp92b
+										318 button Edit item
+										319 button Duplicate item
+										320 image
+										321 text Drag to reorder
+										322 heading Dune Ripple I - Blue Verdigris and Bronze, Value: 3
+											323 text Dune Ripple I - Blue Verdigris and Bronze
+										324 text Wall Sculpture
+									325 container
+										326 Unlabelled image /qortzknwuexcji21f8nz
+										327 button Edit item
+										328 button Duplicate item
+										329 image
+										330 text Drag to reorder
+										331 heading Dune Ripple II - White, Value: 3
+											332 text Dune Ripple II - White
+										333 text Wall Sculpture
+									334 container
+										335 Unlabelled image /xmx48m483wwropc50jwu
+										336 button Edit item
+										337 button Duplicate item
+										338 image
+										339 text Drag to reorder
+										340 heading Echo Rhythm I - Verdigris, Value: 3
+											341 text Echo Rhythm I - Verdigris
+										342 text Wall Sculpture
+									343 container
+										344 Unlabelled image /rae47v77y6x36ic1ak70
+										345 button Edit item
+										346 button Duplicate item
+										347 image
+										348 text Drag to reorder
+										349 heading Egyptian Palm I - Pewter, Value: 3
+											350 text Egyptian Palm I - Pewter
+										351 text Wall Sculpture
+									352 container
+										353 Unlabelled image /ec8b1hr553vfjuf2xwm8
+										354 button Edit item
+										355 button Duplicate item
+										356 image
+										357 text Drag to reorder
+										358 heading Fingerprint Rings II - White, Value: 3
+											359 text Fingerprint Rings II - White
+										360 text Wall Sculpture
+									361 container
+										362 Unlabelled image /ui741nhg70n9e5fvc5rh
+										363 button Edit item
+										364 button Duplicate item
+										365 image
+										366 text Drag to reorder
+										367 heading Fingerprint Rings III - Cream, Value: 3
+											368 text Fingerprint Rings III - Cream
+										369 text Wall Sculpture
+									370 container
+										371 Unlabelled image /u3dusxiovs043ym8fiqi
+										372 button Edit item
+										373 button Duplicate item
+										374 image
+										375 text Drag to reorder
+										376 heading Folded Fan - White, Value: 3
+											377 text Folded Fan - White
+										378 text Wall Sculpture
+									379 container
+										380 Unlabelled image /dr39g147e8epjtn3mxab
+										381 button Edit item
+										382 button Duplicate item
+										383 image
+										384 text Drag to reorder
+										385 heading Marbled Circle - Pale Blue, Value: 3
+											386 text Marbled Circle - Pale Blue
+										387 text Wall Sculpture
+									388 container
+										389 Unlabelled image /8pvjoqk654e436hkyx4h
+										390 button Edit item
+										391 button Duplicate item
+										392 image
+										393 text Drag to reorder
+										394 heading Lunar Phase IV - White, Value: 3
+											395 text Lunar Phase IV - White
+										396 text Wall Sculpture
+									397 container
+										398 Unlabelled image /5oqth8bjiazu3v1itcqs
+										399 button Edit item
+										400 button Duplicate item
+										401 image
+										402 text Drag to reorder
+										403 heading Gleneagles Vine III - White, Value: 3
+											404 text Gleneagles Vine III - White
+										405 text Wall Sculpture
+									406 container
+										407 Unlabelled image /ia3t69ourk3v9v4fgpqx
+										408 button Edit item
+										409 button Duplicate item
+										410 image
+										411 text Drag to reorder
+										412 heading Marbled Circle - Terracotta, Value: 3
+											413 text Marbled Circle - Terracotta
+										414 text Wall Sculpture
+									415 container
+										416 Unlabelled image /voetyvlezcx19uld3p2v
+										417 button Edit item
+										418 button Duplicate item
+										419 image
+										420 text Drag to reorder
+										421 heading Islington Shellmoon Fountain - White, Value: 3
+											422 text Islington Shellmoon Fountain - White
+										423 text Wall Sculpture
+									424 container
+										425 Unlabelled image /bavqjq4gemm0wp0lijmq
+										426 button Edit item
+										427 button Duplicate item
+										428 image
+										429 text Drag to reorder
+										430 heading Magnolia Growth - White, Value: 3
+											431 text Magnolia Growth - White
+										432 text Wall Sculpture
+									433 container
+										434 Unlabelled image /ij9ycvxaf0au79hbhno6
+										435 button Edit item
+										436 button Duplicate item
+										437 image
+										438 text Drag to reorder
+										439 heading Moon Fish Wave II - White, Value: 3
+											440 text Moon Fish Wave II - White
+										441 text Wall Sculpture
+									442 container
+										443 Unlabelled image /hi9qj8lgds5ncililoqs
+										444 button Edit item
+										445 button Duplicate item
+										446 image
+										447 text Drag to reorder
+										448 heading Golden Facets - Gold Finish, Value: 3
+											449 text Golden Facets - Gold Finish
+										450 text Wall Sculpture
+									451 container
+										452 Unlabelled image /stpyz9g9ulmsy8rrx8vt
+										453 button Edit item
+										454 button Duplicate item
+										455 image
+										456 text Drag to reorder
+										457 heading Lunar Spiral II - White, Value: 3
+											458 text Lunar Spiral II - White
+										459 text Wall Sculpture
+									460 container
+										461 Unlabelled image /gprdjj5xaizal8wo4bai
+										462 button Edit item
+										463 button Duplicate item
+										464 image
+										465 text Drag to reorder
+										466 heading Patina Panel - Rust and Verdigris, Value: 3
+											467 text Patina Panel - Rust and Verdigris
+										468 text Wall Sculpture
+									469 container
+										470 Unlabelled image /lnu2rcij78547rpnjnow
+										471 button Edit item
+										472 button Duplicate item
+										473 image
+										474 text Drag to reorder
+										475 heading Lava Moonshell I - White, Value: 3
+											476 text Lava Moonshell I - White
+										477 text Wall Sculpture
+									478 container
+										479 Unlabelled image /zxgjy2bjpymkdcao1ila
+										480 button Edit item
+										481 button Duplicate item
+										482 image
+										483 text Drag to reorder
+										484 heading Marbled Circle - Azure Blue and White, Value: 3
+											485 text Marbled Circle - Azure Blue and White
+										486 text Wall Sculpture
+									487 container
+										488 Unlabelled image /lhptbag2qjdkutaktzpb
+										489 button Edit item
+										490 button Duplicate item
+										491 image
+										492 text Drag to reorder
+										493 heading Gleneagles Vine II - White, Value: 3
+											494 text Gleneagles Vine II - White
+										495 text Wall Sculpture
+									496 container
+										497 Unlabelled image /or8uugdjpxxzvfqoqrwp
+										498 button Edit item
+										499 button Duplicate item
+										500 image
+										501 text Drag to reorder
+										502 heading Lunar Phase II - White, Value: 3
+											503 text Lunar Phase II - White
+										504 text Wall Sculpture
+									505 container
+										506 Unlabelled image /zp6d9cq5f3osnmjumz8a
+										507 button Edit item
+										508 button Duplicate item
+										509 image
+										510 text Drag to reorder
+										511 heading Lunar Phase III - White, Value: 3
+											512 text Lunar Phase III - White
+										513 text Wall Sculpture
+									514 container
+										515 Unlabelled image /bo4fm9t7wge4m0xw4l9b
+										516 button Edit item
+										517 button Duplicate item
+										518 image
+										519 text Drag to reorder
+										520 heading Raked Spiral II - White, Value: 3
+											521 text Raked Spiral II - White
+										522 text Wall Sculpture
+									523 container
+										524 Unlabelled image /gqkuoyfqg793h6s3jd6v
+										525 button Edit item
+										526 button Duplicate item
+										527 image
+										528 text Drag to reorder
+										529 heading Raked Spiral III - Beige, Value: 3
+											530 text Raked Spiral III - Beige
+										531 text Wall Sculpture
+									532 container
+										533 Unlabelled image /8ybfya0ghkaprcemck7o
+										534 button Edit item
+										535 button Duplicate item
+										536 image
+										537 text Drag to reorder
+										538 heading Raked Spiral III - White, Value: 3
+											539 text Raked Spiral III - White
+										540 text Wall Sculpture
+									541 container
+										542 Unlabelled image /697y96d6dm94zg1nvjsn
+										543 button Edit item
+										544 button Duplicate item
+										545 image
+										546 text Drag to reorder
+										547 heading Gleneagles Vine IV - White, Value: 3
+											548 text Gleneagles Vine IV - White
+										549 text Wall Sculpture
+									550 container
+										551 Unlabelled image /hc4eh4znv2f23espy2d4
+										552 button Edit item
+										553 button Duplicate item
+										554 image
+										555 text Drag to reorder
+										556 heading Leaf Silhouette II - Gold, Value: 3
+											557 text Leaf Silhouette II - Gold
+										558 text Wall Sculpture
+									559 container
+										560 Unlabelled image /nd75z7pev0o5a3ijvb8z
+										561 button Edit item
+										562 button Duplicate item
+										563 image
+										564 text Drag to reorder
+										565 heading Lunar Spiral I - White, Value: 3
+											566 text Lunar Spiral I - White
+										567 text Wall Sculpture
+									568 container
+										569 Unlabelled image /ntfsv64gqhg2lpa3pjqs
+										570 button Edit item
+										571 button Duplicate item
+										572 image
+										573 text Drag to reorder
+										574 heading Lunar Phase I (Bordered) - White, Value: 3
+											575 text Lunar Phase I (Bordered) - White
+										576 text Wall Sculpture
+									577 container
+										578 Unlabelled image /3w5sfl9n5rr01ffk1vpf
+										579 button Edit item
+										580 button Duplicate item
+										581 image
+										582 text Drag to reorder
+										583 heading Sculpted Curves - Beige, Value: 3
+											584 text Sculpted Curves - Beige
+										585 text Wall Sculpture
+									586 container
+										587 Unlabelled image /s9djaxa5ul45aq4wtzy3
+										588 button Edit item
+										589 button Duplicate item
+										590 image
+										591 text Drag to reorder
+										592 heading Moon Fish Wave I - White, Value: 3
+											593 text Moon Fish Wave I - White
+										594 text Wall Sculpture
+									595 container
+										596 Unlabelled image /l03l4i2tllpc03oh1ppa
+										597 button Edit item
+										598 button Duplicate item
+										599 image
+										600 text Drag to reorder
+										601 heading Moon and Shell Wave II - Black and White, Value: 3
+											602 text Moon and Shell Wave II - Black and White
+										603 text Wall Sculpture
+									604 container
+										605 Unlabelled image /aht6oj1oemb0rk1f18yj
+										606 button Edit item
+										607 button Duplicate item
+										608 image
+										609 text Drag to reorder
+										610 heading Sculpted Curves - Textured Gold Finish, Value: 3
+											611 text Sculpted Curves - Textured Gold Finish
+										612 text Wall Sculpture
+									613 container
+										614 Unlabelled image /4q4c2auk93v5mlj01nm3
+										615 button Edit item
+										616 button Duplicate item
+										617 image
+										618 text Drag to reorder
+										619 heading Soundwave Rhythm - White, Value: 3
+											620 text Soundwave Rhythm - White
+										621 text Wall Sculpture
+									622 container
+										623 Unlabelled image /og0cm7iod0a6ik9igpse
+										624 button Edit item
+										625 button Duplicate item
+										626 image
+										627 text Drag to reorder
+										628 heading Spice Texture I - White, Value: 3
+											629 text Spice Texture I - White
+										630 text Wall Sculpture
+									631 container
+										632 Unlabelled image /nxgia3892s6on2l4ugdv
+										633 button Edit item
+										634 button Duplicate item
+										635 image
+										636 text Drag to reorder
+										637 heading Moon and Shell Wave II - White, Value: 3
+											638 text Moon and Shell Wave II - White
+										639 text Wall Sculpture
+									640 container
+										641 Unlabelled image /u5y5ho4jxz02w7w4v2yz
+										642 button Edit item
+										643 button Duplicate item
+										644 image
+										645 text Drag to reorder
+										646 heading Lunar Water Catcher - White, Value: 3
+											647 text Lunar Water Catcher - White
+										648 text Wall Sculpture
+									649 container
+										650 Unlabelled image /0s67mwriylchuzklh4mn
+										651 button Edit item
+										652 button Duplicate item
+										653 image
+										654 text Drag to reorder
+										655 heading Lunar Wave - White, Value: 3
+											656 text Lunar Wave - White
+										657 text Wall Sculpture
+									658 container
+										659 Unlabelled image /w5gezsryay14wvv8joav
+										660 button Edit item
+										661 button Duplicate item
+										662 image
+										663 text Drag to reorder
+										664 heading Marbled Circle - Turquoise, Value: 3
+											665 text Marbled Circle - Turquoise
+										666 text Wall Sculpture
+									667 container
+										668 Unlabelled image /d9wwwq2ym2eksh31plpt
+										669 button Edit item
+										670 button Duplicate item
+										671 image
+										672 text Drag to reorder
+										673 heading Lunar Phase I - White, Value: 3
+											674 text Lunar Phase I - White
+										675 text Wall Sculpture
+									676 container
+										677 Unlabelled image /mfdssq0w6jikjs5lx90n
+										678 button Edit item
+										679 button Duplicate item
+										680 image
+										681 text Drag to reorder
+										682 heading Lunar Phase II (Bordered) - White, Value: 3
+											683 text Lunar Phase II (Bordered) - White
+										684 text Wall Sculpture
+									685 container
+										686 Unlabelled image /ma3o1s57o5gypxyn56xc
+										687 button Edit item
+										688 button Duplicate item
+										689 image
+										690 text Drag to reorder
+										691 heading Mediterranean Fountain Palm - White, Value: 3
+											692 text Mediterranean Fountain Palm - White
+										693 text Wall Sculpture
+									694 container
+										695 Unlabelled image /dbjr5bpyz0g1c0i5zf9i
+										696 button Edit item
+										697 button Duplicate item
+										698 image
+										699 text Drag to reorder
+										700 heading Magnolia Growth - White and Gold Finish, Value: 3
+											701 text Magnolia Growth - White and Gold Finish
+										702 text Wall Sculpture
+									703 container
+										704 Unlabelled image /290l1uosaazt1but8rwr
+										705 button Edit item
+										706 button Duplicate item
+										707 image
+										708 text Drag to reorder
+										709 heading Quarter Moon Relief - White, Value: 3
+											710 text Quarter Moon Relief - White
+										711 text Wall Sculpture
+									712 container
+										713 Unlabelled image /cuh9w726ads11twizc1a
+										714 button Edit item
+										715 button Duplicate item
+										716 image
+										717 text Drag to reorder
+										718 heading Lunar Phase IV - Silver, Value: 3
+											719 text Lunar Phase IV - Silver
+										720 text Wall Sculpture
+									721 container
+										722 Unlabelled image /95cwbzyhp7igjdrhl1rb
+										723 button Edit item
+										724 button Duplicate item
+										725 image
+										726 text Drag to reorder
+										727 heading Lava Moonshell Corner Curve - White, Value: 3
+											728 text Lava Moonshell Corner Curve - White
+										729 text Wall Sculpture
+									730 container
+										731 Unlabelled image /lqsve1iv7gfi8wf8oyb1
+										732 button Edit item
+										733 button Duplicate item
+										734 image
+										735 text Drag to reorder
+										736 heading Islington Shellmoon Relief - White, Value: 3
+											737 text Islington Shellmoon Relief - White
+										738 text Wall Sculpture
+									739 container
+										740 Unlabelled image /xxxlcqvy9gknk0n5xx4r
+										741 button Edit item
+										742 button Duplicate item
+										743 image
+										744 text Drag to reorder
+										745 heading Lava Moonshell II - White, Value: 3
+											746 text Lava Moonshell II - White
+										747 text Wall Sculpture
+									748 container
+										749 Unlabelled image /csghshmj1sbs7cq7c2rx
+										750 button Edit item
+										751 button Duplicate item
+										752 image
+										753 text Drag to reorder
+										754 heading Smooth Sand Ripple Relief - White, Value: 3
+											755 text Smooth Sand Ripple Relief - White
+										756 text Wall Sculpture
+									757 container
+										758 Unlabelled image /1susernk8z47oyf53rxq
+										759 button Edit item
+										760 button Duplicate item
+										761 image
+										762 text Drag to reorder
+										763 heading Raked Spiral I - White, Value: 3
+											764 text Raked Spiral I - White
+										765 text Wall Sculpture
+									766 container
+										767 Unlabelled image /wquzrgs25vz8uxy3za0u
+										768 button Edit item
+										769 button Duplicate item
+										770 image
+										771 text Drag to reorder
+										772 heading Moon and Shell Wave I - White, Value: 3
+											773 text Moon and Shell Wave I - White
+										774 text Wall Sculpture
+									775 container
+										776 Unlabelled image /e0j9zm88xn1mgl05a2az
+										777 button Edit item
+										778 button Duplicate item
+										779 image
+										780 text Drag to reorder
+										781 heading Marbled Circle - Green and White, Value: 3
+											782 text Marbled Circle - Green and White
+										783 text Wall Sculpture
+									784 container
+										785 Unlabelled image /j7r0q098vwdh2qdwzphf
+										786 button Edit item
+										787 button Duplicate item
+										788 image
+										789 text Drag to reorder
+										790 heading Lunar Phase II - White and Gold, Value: 3
+											791 text Lunar Phase II - White and Gold
+										792 text Wall Sculpture
+									793 container
+										794 Unlabelled image /2keo7v9skc4kapv7t48t
+										795 button Edit item
+										796 button Duplicate item
+										797 image
+										798 text Drag to reorder
+										799 heading Lunar Phase IV - White and Gold, Value: 3
+											800 text Lunar Phase IV - White and Gold
+										801 text Wall Sculpture
+									802 container
+										803 Unlabelled image /7j7wc9a0ltisdl5z201u
+										804 button Edit item
+										805 button Duplicate item
+										806 image
+										807 text Drag to reorder
+										808 heading Lunar Spiral III - White, Value: 3
+											809 text Lunar Spiral III - White
+										810 text Wall Sculpture
+									811 container
+										812 Unlabelled image /ts7t284dwomns6yeruba
+										813 button Edit item
+										814 button Duplicate item
+										815 image
+										816 text Drag to reorder
+										817 heading Leaf Silhouette - White, Value: 3
+											818 text Leaf Silhouette - White
+										819 text Wall Sculpture
+									820 container
+										821 Unlabelled image /rys28um8h0p8rar74knx
+										822 button Edit item
+										823 button Duplicate item
+										824 image
+										825 text Drag to reorder
+										826 heading Lunar Ring - White, Value: 3
+											827 text Lunar Ring - White
+										828 text Wall Sculpture
+									829 container
+										830 Unlabelled image /cic61yswxm7vdrf6rhwt
+										831 button Edit item
+										832 button Duplicate item
+										833 image
+										834 text Drag to reorder
+										835 heading Spiralfish Wave and Tide II - White, Value: 3
+											836 text Spiralfish Wave and Tide II - White
+										837 text Wall Sculpture
+									838 container
+										839 Unlabelled image /d7zz0hygjlvl8grhdfr4
+										840 button Edit item
+										841 button Duplicate item
+										842 image
+										843 text Drag to reorder
+										844 heading Textured Earth - Blue, Brown and Rust, Value: 3
+											845 text Textured Earth - Blue, Brown and Rust
+										846 text Wall Sculpture
+									847 container
+										848 Unlabelled image /hqtpchq7uznggqar8hgy
+										849 button Edit item
+										850 button Duplicate item
+										851 image
+										852 text Drag to reorder
+										853 heading Spiralfish Wave and Tide II - Bronze, Value: 3
+											854 text Spiralfish Wave and Tide II - Bronze
+										855 text Wall Sculpture
+									856 container
+										857 Unlabelled image /lhor7jxn5m4u0c1880uu
+										858 button Edit item
+										859 button Duplicate item
+										860 image
+										861 text Drag to reorder
+										862 heading Spice Texture II - White, Value: 3
+											863 text Spice Texture II - White
+										864 text Wall Sculpture
+									865 container
+										866 Unlabelled image /i1sis6fd4pucf65kqwgy
+										867 button Edit item
+										868 button Duplicate item
+										869 image
+										870 text Drag to reorder
+										871 heading Spiralfish Wave and Tide I - Bronze, Value: 3
+											872 text Spiralfish Wave and Tide I - Bronze
+										873 text Wall Sculpture
+									874 container
+										875 Unlabelled image /zkpx1vot004dftlg5vwi
+										876 button Edit item
+										877 button Duplicate item
+										878 image
+										879 text Drag to reorder
+										880 heading Wave and Moonshadow I - White, Value: 3
+											881 text Wave and Moonshadow I - White
+										882 text Wall Sculpture
+									883 container
+										884 Unlabelled image /tnz59ure5nrvto39itfk
+										885 button Edit item
+										886 button Duplicate item
+										887 image
+										888 text Drag to reorder
+										889 heading Strata Relief - White, Value: 3
+											890 text Strata Relief - White
+										891 text Wall Sculpture
+									892 container
+										893 Unlabelled image /lswms7uo621s1kyxe5zg
+										894 button Edit item
+										895 button Duplicate item
+										896 image
+										897 text Drag to reorder
+										898 heading Wave and Moonshadow II - White, Value: 3
+											899 text Wave and Moonshadow II - White
+										900 text Wall Sculpture
+									901 container
+										902 Unlabelled image /8d6l543zi2hn8pdimeto
+										903 button Edit item
+										904 button Duplicate item
+										905 image
+										906 text Drag to reorder
+										907 heading Wide-Lip Crater Moon - Rust Drip, Value: 3
+											908 text Wide-Lip Crater Moon - Rust Drip
+										909 text Wall Sculpture
+									910 container
+										911 Unlabelled image /3630hy3a7t48n3ywd1wc
+										912 button Edit item
+										913 button Duplicate item
+										914 image
+										915 text Drag to reorder
+										916 heading World Colours Circle - Brass, Value: 3
+											917 text World Colours Circle - Brass
+										918 text Wall Sculpture
+									919 container
+										920 Unlabelled image /y0c8g242ftsmg280exdv
+										921 button Edit item
+										922 button Duplicate item
+										923 image
+										924 text Drag to reorder
+										925 heading Strata Relief - Blue Wash Verdigris, Value: 3
+											926 text Strata Relief - Blue Wash Verdigris
+										927 text Wall Sculpture
+									928 container
+										929 Unlabelled image /95fihdzbljg4rdo12r0g
+										930 button Edit item
+										931 button Duplicate item
+										932 image
+										933 text Drag to reorder
+										934 heading Spiralfish Wave and Tide I - White, Value: 3
+											935 text Spiralfish Wave and Tide I - White
+										936 text Wall Sculpture
+									937 container
+										938 Unlabelled image /vesqvv04s5zahcp24273
+										939 button Edit item
+										940 button Duplicate item
+										941 image
+										942 text Drag to reorder
+										943 heading Textured Earth - Rust and Blue Patina, Value: 3
+											944 text Textured Earth - Rust and Blue Patina
+										945 text Wall Sculpture
+									946 container
+										947 Unlabelled image /1hdxjzp7o9qmph3nu4e8
+										948 button Edit item
+										949 button Duplicate item
+										950 image
+										951 text Drag to reorder
+										952 heading Spiral Moon Relief - White, Value: 3
+											953 text Spiral Moon Relief - White
+										954 text Wall Sculpture
+									955 container
+										956 Unlabelled image /n0rvncxporylbaliebwi
+										957 button Edit item
+										958 button Duplicate item
+										959 image
+										960 text Drag to reorder
+										961 heading Barbados Wave Relief, Value: 3
+											962 text Barbados Wave Relief
+										963 text Wall Sculpture
+									964 container
+										965 Unlabelled image /n3sefqxwdasvg6vhlqyb
+										966 button Edit item
+										967 button Duplicate item
+										968 image
+										969 text Drag to reorder
+										970 heading Chelsea Moonwave Relief, Value: 3
+											971 text Chelsea Moonwave Relief
+										972 text Wall Sculpture
+									973 container
+										974 Unlabelled image /vonnqx6ywbar2gut06ny
+										975 button Edit item
+										976 button Duplicate item
+										977 image
+										978 text Drag to reorder
+										979 heading Knightsbridge Fountain Relief - White, Value: 3
+											980 text Knightsbridge Fountain Relief - White
+										981 text Wall Sculpture
+									982 container
+										983 Unlabelled image /nrjevqwflkofyijg38sx
+										984 button Edit item
+										985 button Duplicate item
+										986 image
+										987 text Drag to reorder
+										988 heading Lava Moon I - White, Value: 3
+											989 text Lava Moon I - White
+										990 text Wall Sculpture
+									991 container
+										992 Unlabelled image /qpcmi8nrmgxkzqaa103g
+										993 button Edit item
+										994 button Duplicate item
+										995 image
+										996 text Drag to reorder
+										997 heading Lava Moon II - White, Value: 3
+											998 text Lava Moon II - White
+										999 text Wall Sculpture
+									1000 container
+										1001 Unlabelled image /khlub6ehv9yk21fzdtjl
+										1002 button Edit item
+										1003 button Duplicate item
+										1004 image
+										1005 text Drag to reorder
+										1006 heading Lava Moon III - White, Value: 3
+											1007 text Lava Moon III - White
+										1008 text Wall Sculpture
+									1009 container
+										1010 Unlabelled image /ycjbxbaxjvrndnrqwvwm
+										1011 button Edit item
+										1012 button Duplicate item
+										1013 image
+										1014 text Drag to reorder
+										1015 heading Riyadh Dune Ripple - White, Value: 3
+											1016 text Riyadh Dune Ripple - White
+										1017 text Wall Sculpture
+									1018 container
+										1019 Unlabelled image /minkeoeidaky6wmtry4x
+										1020 button Edit item
+										1021 button Duplicate item
+										1022 image
+										1023 text Drag to reorder
+										1024 heading Riyadh Moon - White, Value: 3
+											1025 text Riyadh Moon - White
+										1026 text Wall Sculpture
+									1027 container
+										1028 Unlabelled image /gret0pdhzpx7voudiive
+										1029 button Edit item
+										1030 button Duplicate item
+										1031 image
+										1032 text Drag to reorder
+										1033 heading Riyadh Shellmoon Relief, Value: 3
+											1034 text Riyadh Shellmoon Relief
+										1035 text Wall Sculpture
+							1036 container
+								1037 text Resources to Share with Clients If you have documents you typically share with clients to facilitate conversations about custom work (Product Spec sheet, custom options, etc), you should upload them here. You can specify which items and types of buyers they relate to below. Potential buyers will be able to access and download these resources from your Wescover page via a chat window. When they do, we’ll set up a conversation in your inquiry inbox and notify you, so you can follow up with them. Giving potential buyers these resources up front can make your inquiries more efficient and shorten the time to sale!
+								1038 button Add File
+							1039 text Creator Video
+							1040 text Add a video about your business and creative process to be displayed directly on your creator page and also for all your items.
+							1041 image
+							1042 text A few quick tips:
+							1043 content list
+								1044 container
+									1045 AXListMarker • 
+									1046 text Share the story of your business and/or give a peek at the process of making your items.
+								1047 container
+									1048 AXListMarker • 
+									1049 text Introduce yourself to potential buyers and highlight what makes your items special.
+								1050 container
+									1051 AXListMarker • 
+									1052 text We recommend that videos be no longer than 90 seconds and have a resolution of at least 720px
+							1053 container
+								1054 heading Creator Video, Value: 3
+									1055 text Creator Video
+								1056 text field (settable) Paste a youtube / vimeo video link
+								1057 button Embed Video
+								1058 text Or
+								1059 button Upload Video
+							1060 text You can edit/add to your submission anytime. We’ll review, connect, and SEO optimize each post for you so please allow up to 24h to process each new submission.
+							1061 text Welcome to the Community!
+							1062 button Submit
+							1063 container
+								1064 link edit.wescover.com/
+								1065 content list
+									1066 link FAQ, Value: wescover.com/faq
+									1067 link CONTACT US, Value: mailto:communication@wescover…
+								1068 link , Value: facebook.com/wescoverapp/
+								1069 link tiktok.com/@wescover.app
+								1070 link , Value: instagram.com/wescoverapp
+								1071 link © 2026 Wescover, Inc., Value: wescover.com/about
+								1072 link Privacy, Value: wescover.com/static/privacy
+								1073 link Terms, Value: wescover.com/static/generalte…
+							1074 button Feedback - Show survey
+			1075 pop-up button Tab search
+			1076 container
+				1077 tab group
+					1078 tab (settable, boolean) (6557) Inside the Pentagon's Anomaly Office | Reality Check - YouTube, Value: off
+					1079 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish - High memory usage - 1.2 GB, Value: off
+					1080 tab (selected, settable, boolean) Manage Your Creator Page | Wescover Tools, Value: on
+						1081 button Close
+			1082 button New tab
+	1083 close button
+	1084 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	1085 minimise button
+1086 menu bar
+	1087 Chrome
+	1088 File
+	1089 Edit
+	1090 View
+	1091 History
+	1092 Bookmarks
+	1093 Profiles
+	1094 Tab
+	1095 Window
+	1096 Help
+
+The focused UI element is 133 toggle button List view, Value: 1

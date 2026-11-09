@@ -1,0 +1,125 @@
+- navigation:
+  - link:
+    - /url: /config/
+  - button:
+  - button:
+  - link:
+    - /url: /config/home
+    - paragraph: Home
+  - link:
+    - /url: /config/
+    - paragraph: Website
+  - link:
+    - /url: /config/commerce
+    - paragraph: Products & Services
+  - link:
+    - /url: /config/commerce/products
+    - paragraph: Products
+  - link:
+    - /url: /config/commerce/orders
+    - paragraph: Orders
+  - link:
+    - /url: /config/commerce/discounts
+    - paragraph: Discounts
+  - link:
+    - /url: /config/commerce/selling-tools
+    - paragraph: Selling Tools
+  - checkbox [checked]
+  - link:
+    - /url: /config/content-and-memberships
+    - paragraph: Content & Memberships
+  - checkbox [checked]
+  - link:
+    - /url: https://secure.acuityscheduling.com/oauth2/squarespace-attached?website_id=66abcbd768fd043d92325d96&analytics_id=871ea609-7aad-4efb-9408-1d42d6316296
+    - paragraph: Scheduling
+  - checkbox [checked]
+  - link:
+    - /url: /config/donations
+    - paragraph: Donations
+  - checkbox [checked]
+  - link:
+    - /url: /config/invoicing
+    - paragraph: Invoicing & Pay Links
+  - checkbox [checked]
+  - status
+  - link:
+    - /url: /config/marketing/campaigns
+    - paragraph: Campaigns
+  - link:
+    - /url: /config/profiles
+    - paragraph: Contacts
+  - link:
+    - /url: /config/analytics
+    - paragraph: Analytics
+  - link:
+    - /url: /config/finance
+    - paragraph: Finance
+  - button
+  - list:
+    - button:
+    - button:
+    - button:
+- main:
+  - navigation:
+    - list:
+      - generic: Products & Services
+      - listitem: /
+      - generic: Selling Tools
+      - listitem: /
+      - paragraph: Google Shopping
+  - heading [level=1]: Google Shopping
+  - paragraph:
+    - text: Sync your Squarespace catalog to
+    - link:
+      - /url: https://merchants.google.com/mc/overview?a=5664655454
+      - text: Google Merchant Center
+    - text: to show your products on free listings such as in the Shopping Tab, Google Search, Google Images, and YouTube.
+  - generic: Google Merchant Center Account
+  - generic: Connected
+  - generic: "ID: 5664655454"
+  - text: "Status:"
+  - generic: every 8 hrs
+  - paragraph:
+    - generic: 7 disapproved products
+  - separator
+  - generic: Errors
+  - paragraph: There are errors with your account or products that could affect checkout. Log in to Google Merchant Center to resolve.
+  - paragraph: Missing business address
+  - separator
+  - button:
+    - generic: Disconnect
+  - link:
+    - /url: https://merchants.google.com/mc/overview?a=5664655454
+    - generic: Google Merchant Center
+  - heading [level=2]: Website connection
+  - list:
+    - button:
+      - paragraph: Set up shipping
+      - paragraph: Shipping successfully setup.
+    - separator
+    - button:
+      - paragraph: Payment method
+      - paragraph: Payment method successfully setup.
+    - separator
+    - button:
+      - paragraph: Site status
+      - paragraph: Site is published and public.
+      - generic: Public
+  - paragraph:
+    - text: We recommend optimizing your Google Shopping experience by adding a
+    - link:
+      - /url: /config/settings/selling/checkout/store-policies
+      - generic: return policy
+    - text: ","
+    - link:
+      - /url: /config/settings/selling/checkout/store-policies
+      - generic: terms of service
+    - text: ", and"
+    - button:
+      - generic: confirming contact information
+    - text: is on your website for customers.
+  - generic: Edit
+- button:
+  - generic: 0 updates
+- button:
+  - generic: 0 updates

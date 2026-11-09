@@ -1,0 +1,125 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Navigation menu" [expanded]:
+    - img: menu
+  - link "Merchant Center home":
+    - /url: /mc/overview?a=5664655454&authuser=1
+    - img "Merchant Center home"
+  - dialog "Search":
+    - img: search
+    - textbox "Search Merchant Center"
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone Sculpture, 5664655454"':
+    - generic: Boldstone Sculpture
+    - generic: "5664655454"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- navigation:
+  - tree "Navigation":
+    - treeitem "Overview" [level=1]:
+      - img: dashboard
+      - generic: Overview
+    - treeitem "Notifications" [level=1]:
+      - img: notifications
+      - generic: Notifications
+    - treeitem "Products & store" [expanded] [level=1]:
+      - img: inventory_2
+      - generic: Products & store
+      - img: arrow_drop_down
+      - treeitem "Products" [level=2]:
+        - generic: Products
+      - treeitem "Shipping and returns" [level=2]:
+        - generic: Shipping and returns
+      - treeitem "Store quality" [level=2]:
+        - generic: Store quality
+      - treeitem "Reviews" [level=2]:
+        - generic: Reviews
+    - treeitem "Creative content" [level=1]:
+      - img: brush_spark
+      - generic: Creative content
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Product Studio
+      - treeitem [disabled] [level=2]:
+        - generic: Video assets
+    - treeitem "Marketing" [level=1]:
+      - img: campaign
+      - generic: Marketing
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Ad campaigns
+      - treeitem [disabled] [level=2]:
+        - generic: Promotions
+      - treeitem [disabled] [level=2]:
+        - generic: Marketing methods
+    - treeitem "Analytics" [level=1]:
+      - img: timeline
+      - generic: Analytics
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Summary
+      - treeitem [disabled] [level=2]:
+        - generic: Products
+      - treeitem [disabled] [level=2]:
+        - generic: Online store
+    - treeitem "Settings" [expanded] [level=1]:
+      - img: settings
+      - generic: Settings
+      - img: arrow_drop_down
+      - treeitem "General" [level=2]:
+        - generic: General
+      - treeitem "Business info" [level=2]:
+        - generic: Business info
+      - treeitem "Data sources" [level=2]:
+        - generic: Data sources
+      - treeitem "Add-ons" [level=2]:
+        - generic: Add-ons
+      - treeitem "Access and services" [level=2]:
+        - generic: Access and services
+- button "Back":
+  - img: arrow_back
+- heading "Product details" [level=1]
+- main:
+  - heading "Product sections" [level=2]
+  - tablist:
+    - tab "Product details":
+      - generic: Product details
+    - tab "Needs attention (1)" [active] [selected]:
+      - generic: Needs attention (1)
+    - tab "Shipping calculator":
+      - generic: Shipping calculator
+    - tab "Traffic":
+      - generic: Traffic
+  - heading "Fix Ancient Spiral - White" [level=3]
+  - generic: Google found some issues that need your attention.
+  - status
+  - heading "What needs attention" [level=4]
+  - heading "Setup and policy issue, Pending initial review" [level=5]:
+    - button "Setup and policy issue, Pending initial review" [expanded]:
+      - generic "Setup and policy issue, Pending initial review":
+        - generic: Setup and policy issue
+        - img "Disapproval": error_outline
+        - generic: Pending initial review
+        - generic "Issue impact is Prevents from showing in United Kingdom, Issue impact details for United Kingdom are Not showing in Free listings": Prevents from showing in United Kingdom
+        - paragraph
+      - img: expand_less
+  - paragraph: Please wait up to 3 business days for the review to be completed
+  - link "Learn more about Pending initial review Opens in a new tab":
+    - /url: https://support.google.com/merchants/answer/12153802?hl=en-US
+    - text: Learn more
+    - img: launch
+  - text: Other products may have the same issue.
+  - button "View issue details"
+  - contentinfo:
+    - link "Privacy Policy":
+      - /url: http://www.google.com/policies/privacy/
+    - generic: ·
+    - link "Terms of Service":
+      - /url: https://support.google.com/merchants/answer/160173?hl=en-US
+    - generic: ·
+    - link "Program Policies":
+      - /url: https://support.google.com/merchants/topic/7286989?hl=en-US
+- text: edit edit edit edit edit edit edit edit edit edit edit edit edit edit edit edit edit edit edit edit

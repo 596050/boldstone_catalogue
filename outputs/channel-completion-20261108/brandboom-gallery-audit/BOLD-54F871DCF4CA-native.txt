@@ -1,0 +1,333 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - High memory usage - 897 MB - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - High memory usage - 897 MB - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: Boldstone Spiralfish Wave and Tide II - Bronze Finish Wall sculpture, Placeholder: Search Products
+									48 link
+								49 button All
+									50 container
+										51 Tick box 0
+									52 text All
+								53 container
+									54 text 2  /  2
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container
+										64 Unlabelled image /0003470629922BDF_M.avif
+										65 text Boldstone Spiralfish Wave and Tide II - Bronze Finish Wall sculpture
+										66 text BOLD-54F871DCF4CA BRONZE-EFFECT FINISH
+										67 container
+											68 text 223.33  GBP
+									69 container
+										70 Unlabelled image /00034706290D5EB8_M.avif
+										71 text Boldstone Spiralfish Wave and Tide I - Bronze Finish Wall sculpture
+										72 text BOLD-718DFFB7EC5D BRONZE-EFFECT FINISH
+										73 container
+											74 text 223.33  GBP
+							75 container
+								76 content list
+									77 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								78 container
+									79 heading Presentations, Value: 5
+										80 text Presentations
+									81 button New
+									82 content list
+										83 link ALL, Value: manage.brandboom.com/products/s/111089#
+										84 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									85 container
+										86 link
+											87 image
+										88 search text field (settable) Search Presentations
+										89 link
+											90 image
+									91 container
+										92 text Wall Sculptures - 50 Preview
+										93 link Edit Name
+											94 image
+										95 link Duplicate
+											96 image
+										97 text GBP
+								98 heading Ship Windows, Value: 5
+									99 text Ship Windows
+								100 content list
+									101 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									102 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								103 text No active ship windows
+							104 link Reset
+								105 text Reset
+							106 button Apply
+							107 text PRODUCT STATUS
+							108 text Active
+							109 text Inactive
+							110 text Archived
+							111 text Corrupted
+							112 text No Images
+							113 text SORT BY
+							114 pop-up button Newest First
+								115 (selected) Newest First
+							116 text SHIP DATE RANGE
+							117 container
+								118 image
+								119 text field (settable) Click to select range
+							120 text No Date Range
+							121 text CREATE DATE RANGE
+							122 container
+								123 image
+								124 text field (settable) Click to select range
+							125 text SIZES
+							126 text field (settable) S, M, L
+							127 text VENDORS
+							128 text Boldstone
+							129 text TYPES
+							130 link
+								131 image
+							132 text No Types
+							133 text Home Decor
+							134 text Mens
+							135 text Womens
+							136 text CATEGORIES
+							137 link
+								138 image
+							139 link
+								140 image
+							141 text No Categories
+							142 text Sweater
+							143 text Wall Sculpture
+							144 text SEASONS
+							145 link
+								146 image
+							147 link
+								148 image
+							149 text No Seasons
+							150 text Year-round
+							151 container
+								152 container
+									153 Tick box Create another, Value: 0
+									154 text Create another
+								155 button Save
+								156 container
+									157 Unlabelled image /0003470629922BDF_M.avif
+									158 container
+										159 Unlabelled image /0003470629922BDF_S.avif
+										160 button STANDARD
+										161 Unlabelled image /000347062914ADBF_S.avif
+										162 button STANDARD
+										163 image
+										164 image
+									165 image
+									166 text 2 / Unlimited
+									167 image
+									168 text 0 / 1
+									169 text Drag to reorder
+									170 container
+										171 text Style ID *
+										172 text BOLD-54F871DCF4CA
+									173 container
+										174 text Options
+										175 link Bronze-effect finish
+											176 text Bronze-effect finish
+									177 container
+										178 text Sizes
+										179 text One sculpture
+									180 text Barcode
+									181 container
+										182 button
+										183 text field (settable)
+									184 text Name
+									185 text field (settable) Boldstone Spiralfish Wave and Tide II - Bronze Finish Wall sculpture
+									186 container Price
+										187 container
+											188 text Price
+											189 text field (settable) Value: 223.33, Placeholder: Enter
+									190 container Retail
+										191 container
+											192 text Retail
+											193 text field (settable) Value: 0.00, Placeholder: Enter
+									194 text Qty Min
+									195 text field (settable) 1
+									196 text Vendor
+									197 text field (settable) Boldstone
+									198 text Type
+									199 text field (settable) Home Decor
+									200 text Category
+									201 text field (settable) Wall Sculpture
+									202 text Taxonomy
+									203 text field (settable) Value: Home Decor / Wall Decor / Wall Art, Placeholder: Select
+									204 text Season
+									205 text field (settable) Year-round
+									206 text Ship Date
+									207 text field (settable)
+									208 container
+										209 text HS Code
+										210 text field (settable) HS Code
+									211 container Country Of Origin
+										212 container
+											213 text Country Of Origin
+											214 button -
+									215 container
+										216 text Description
+										217 container
+											218 text Spiral, fish and wave references meet in a fluid, decorative relief. The design follows the movement of a tide, with curved forms drawing the eye through the composition.
+											219 text A coastal-inspired piece that brings a sense of energy and playfulness to an interior or outdoor wall.
+											220 text A bronze-toned finish adds a different mood to the relief and its shadows.
+											221 text Companion pieces: This is one piece of a coordinating pair with Spiralfish Wave and Tide I. Companion sculptures are sold separately; this listing is for one sculpture only.
+											222 text Brand: Boldstone
+											223 text Product type: Wall sculpture
+											224 text Model: Spiralfish Wave and Tide II - Bronze Finish (BOLD-54F871DCF4CA)
+											225 text Colour / appearance: Bronze-effect finish
+											226 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											227 text Material: Made from a gypsum-based material.
+											228 text Surface effect: A decorative surface effect is applied to create the finish shown. Each piece is handmade. The surface-effect pattern will vary and will differ from the photographs.
+											229 text Dimensions: 55 × 55 cm; approximately 5–7 cm deep
+											230 text Weight: Approximately 10–12 kg
+											231 text Use: Suitable for outdoor use and indoor display.
+											232 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											233 text Availability: Ready to dispatch
+											234 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											235 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											236 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							237 link
+								238 image
+							239 container
+								240 content list
+									241 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									242 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								243 container
+									244 button Upload Images
+									245 button
+									246 button
+									247 button
+								248 container
+									249 Unlabelled image /000347368438D172_S.avif
+									250 text file.jpg
+									251 Unlabelled image /00011059388E43A7_S.avif
+									252 text toys-dinosaur
+									253 Unlabelled image /00011059387A69BA_S.avif
+									254 text baby-kidswear-t
+									255 Unlabelled image /000110593863557B_S.avif
+									256 text pet-sticks
+									257 Unlabelled image /00011059385C1D4E_S.avif
+									258 text apparel-t-shirt
+									259 Unlabelled image /00011059384494BB_S.avif
+									260 text footwear-shoes
+									261 Unlabelled image /000110593837D96A_S.avif
+									262 text beauty-cream
+									263 Unlabelled image /00011059382B4683_S.avif
+									264 text home-pitcher
+									265 Unlabelled image /00007087863E986B_S.avif
+									266 text BOOM1111
+									267 Unlabelled image /0000022409830BD3_S.avif
+									268 text BOOM1830
+									269 Unlabelled image /00000224097C30D6_S.avif
+									270 text BOOM1705
+									271 Unlabelled image /00000224096AD0BE_S.avif
+									272 text BOOM1100
+							273 button Close
+							274 text Search Products
+							275 button Scan barcodes
+							276 container
+								277 link
+									278 image
+								279 search text field (settable) Search for Products
+							280 text RESULTS
+							281 button Open Intercom Messenger
+			282 pop-up button Tab search
+			283 container
+				284 tab group
+					285 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					286 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					287 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					288 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					289 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					290 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					291 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					292 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					293 tab (settable, boolean) SEO opportunity audit, Value: off
+					294 tab group  group ✅Claude – 2 Tabs, •  Inbox (113) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					295 tab (settable, boolean) Value: off, Inbox (113) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1.1 GB
+					296 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					297 tab (settable, boolean) Drafts (1,333) - tppricet@gmail.com - Gmail, Value: off
+					298 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					299 tab (settable, boolean) Bookmarks, Value: off
+					300 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					301 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					302 tab (settable, boolean) Boldstone Sculpture | Wall Sculptures - 50 Preview, Value: off
+					303 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					304 tab (selected, settable, boolean) Boldstone Sculpture | Products - High memory usage - 897 MB, Value: on
+						305 button Close
+					306 tab (settable, boolean) 000347063570B5C6_M.avif (600×600), Value: off
+			307 button New tab
+	308 close button
+	309 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	310 minimise button
+311 menu bar
+	312 Chrome
+	313 File
+	314 Edit
+	315 View
+	316 History
+	317 Bookmarks
+	318 Profiles
+	319 Tab
+	320 Window
+	321 Help
+
+The focused UI element is 27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089

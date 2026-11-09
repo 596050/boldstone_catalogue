@@ -1,0 +1,182 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Navigation menu" [expanded]:
+    - img: menu
+  - link "Merchant Center home":
+    - /url: /mc/overview?a=5664655454&authuser=1
+    - img "Merchant Center home"
+  - button "Search":
+    - img: search
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone Sculpture, 5664655454"':
+    - generic: Boldstone Sculpture
+    - generic: "5664655454"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- navigation:
+  - tree "Navigation":
+    - treeitem "Overview" [level=1]:
+      - img: dashboard
+      - generic: Overview
+    - treeitem "Notifications" [level=1]:
+      - img: notifications
+      - generic: Notifications
+    - treeitem "Products & store" [expanded] [level=1]:
+      - img: inventory_2
+      - generic: Products & store
+      - img: arrow_drop_down
+      - treeitem "Products" [level=2]:
+        - generic: Products
+      - treeitem "Shipping and returns" [level=2]:
+        - generic: Shipping and returns
+      - treeitem "Store quality" [level=2]:
+        - generic: Store quality
+      - treeitem "Reviews" [level=2]:
+        - generic: Reviews
+    - treeitem "Creative content" [level=1]:
+      - img: brush_spark
+      - generic: Creative content
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Product Studio
+      - treeitem [disabled] [level=2]:
+        - generic: Video assets
+    - treeitem "Marketing" [level=1]:
+      - img: campaign
+      - generic: Marketing
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Ad campaigns
+      - treeitem [disabled] [level=2]:
+        - generic: Promotions
+      - treeitem [disabled] [level=2]:
+        - generic: Marketing methods
+    - treeitem "Analytics" [level=1]:
+      - img: timeline
+      - generic: Analytics
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Summary
+      - treeitem [disabled] [level=2]:
+        - generic: Products
+      - treeitem [disabled] [level=2]:
+        - generic: Online store
+    - treeitem "Settings" [expanded] [level=1]:
+      - img: settings
+      - generic: Settings
+      - img: arrow_drop_down
+      - treeitem "General" [level=2]:
+        - generic: General
+      - treeitem "Business info" [level=2]:
+        - generic: Business info
+      - treeitem "Data sources" [level=2]:
+        - generic: Data sources
+      - treeitem "Add-ons" [level=2]:
+        - generic: Add-ons
+      - treeitem "Access and services" [level=2]:
+        - generic: Access and services
+- heading "Notifications" [level=1]
+- main:
+  - heading "Section header for the regular notifications. You can filter them" [level=2]
+  - tablist:
+    - tab "All" [selected]:
+      - img: check
+      - generic: All
+    - tab "Growth":
+      - generic: Growth
+    - tab "Tips":
+      - generic: Tips
+  - img: trending_up
+  - generic: growth
+  - button "Useful":
+    - img: thumb_up
+  - button "Not useful":
+    - img: thumb_down
+  - button "Open menu with more options for Show your products on Google":
+    - img: more_vert
+  - heading "Show your products on Google" [level=3]
+  - generic: Add products to Merchant Center so that they appear to customers on Google
+  - link "Add products":
+    - generic: Add products
+  - img: lightbulb_outline
+  - generic: tip
+  - button "Useful":
+    - img: thumb_up
+  - button "Not useful":
+    - img: thumb_down
+  - button "Open menu with more options for Add the Google Pay button to increase checkout conversion":
+    - img: more_vert
+  - heading "Add the Google Pay button to increase checkout conversion" [level=3]
+  - text: The Google Pay button enables fast, simple checkout on your app or site - making checkout smooth for you and your customer at no cost.
+  - link "Learn more about how to easily integrate Google Pay":
+    - /url: https://developers.google.com/pay/api?utm_source=MC
+  - link "Add Google Pay button":
+    - img: open_in_new
+    - generic: Add Google Pay button
+  - img: trending_up
+  - generic: growth
+  - button "Useful":
+    - img: thumb_up
+  - button "Not useful":
+    - img: thumb_down
+  - button "Open menu with more options for Show your loyalty program benefits on your products":
+    - img: more_vert
+  - heading "Show your loyalty program benefits on your products" [level=3]
+  - text: Add your loyalty program and attract new and loyal customers with your exclusive member prices, shipping, and more on your products.
+  - link "Learn more about adding your loyalty program":
+    - /url: https://support.google.com/merchants/answer/12827255
+  - link "Add loyalty program":
+    - generic: Add loyalty program
+  - img: trending_up
+  - generic: growth
+  - button "Useful":
+    - img: thumb_up
+  - button "Not useful":
+    - img: thumb_down
+  - button "Open menu with more options for Update descriptions for Greeting Cards":
+    - img: more_vert
+  - heading "Update descriptions for Greeting Cards" [level=3]
+  - generic: Add missing details to 70 products to help customers find exactly what they need. Better descriptions can increase your visibility in relevant searches.
+  - link "View products":
+    - generic: View products
+  - img: trending_up
+  - generic: growth
+  - button "Useful":
+    - img: thumb_up
+  - button "Not useful":
+    - img: thumb_down
+  - button "Open menu with more options for Highlight your best deals and land more sales":
+    - img: more_vert
+  - heading "Highlight your best deals and land more sales" [level=3]
+  - text: Add promotions to your products and attract deal-seeking shoppers.
+  - link "Learn more about promotions":
+    - /url: https://support.google.com/merchants/answer/13422697
+  - link "Add promotions":
+    - generic: Add promotions
+  - img: lightbulb_outline
+  - generic: tip
+  - button "Useful":
+    - img: thumb_up
+  - button "Not useful":
+    - img: thumb_down
+  - button "Open menu with more options for Let your customers add loyalty cards, gift cards, and more to Google Wallet":
+    - img: more_vert
+  - heading "Let your customers add loyalty cards, gift cards, and more to Google Wallet" [level=3]
+  - text: Google Wallet loyalty passes increase your loyalty reach and allows you to engage your customers.
+  - link "Learn more about how to integrate Google Wallet":
+    - /url: https://developers.google.com/wallet/retail?utm_source=MC&utm_campaign=wallet_reco
+  - link "Get Started":
+    - img: open_in_new
+    - generic: Get Started
+- contentinfo:
+  - link "Privacy Policy":
+    - /url: http://www.google.com/policies/privacy/
+  - generic: ·
+  - link "Terms of Service":
+    - /url: https://support.google.com/merchants/answer/160173?hl=en-US
+  - generic: ·
+  - link "Program Policies":
+    - /url: https://support.google.com/merchants/topic/7286989?hl=en-US

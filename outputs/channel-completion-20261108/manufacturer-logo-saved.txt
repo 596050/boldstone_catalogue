@@ -1,0 +1,89 @@
+Window: "Boldstone - Manufacturer Center", App: Google Chrome.
+0 standard window Boldstone - Manufacturer Center – Part of group ✅Claude - Google Chrome – Tom, URL: manufacturers.google.com/mc/brands/details?a=5898308482&id=301096324, Secondary Actions: Raise
+	1 container Boldstone - Manufacturer Center – Part of group ✅Claude - Google Chrome – Tom, URL: manufacturers.google.com/mc/brands/details?a=5898308482&id=301096324
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manufacturers.google.com/mc/brands/details?a=5898308482&id=301096324, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+					21 button Close side panel
+				22 tickbox Downloads, Value: 1
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone - Manufacturer Center, URL: manufacturers.google.com/mc/brands/details?a=5898308482&id=301096324
+						28 container
+							29 container
+								30 button Open/close navigation menu
+								31 link Manufacturer Center home, Value: manufacturers.google.com/mc/overview?a=5898308482
+								32 link Brands, Value: manufacturers.google.com/mc/brands?a=5898308482
+								33 heading Boldstone, within Brands, in Manufacturer Center, Value: 1
+									34 text Boldstone
+								35 pop-up button Tools and settings
+								36 pop-up button Help menu
+								37 text 5898308482 (Boldstone)
+								38 text info@boldstone.co.uk
+								39 container
+									40 pop-up button Google account
+										41 image Google account (info@boldstone.co.uk)
+							42 outline
+								43 row Overview
+									44 text Overview
+								45 row Diagnostics
+									46 text Diagnostics
+								47 row (selected) Brands
+									48 text Brands
+								49 row Products
+									50 text Products
+									51 container
+										52 row Variants
+											53 text Variants
+										54 row Groups
+											55 text Groups
+										56 row Feeds
+											57 text Feeds
+							58 container
+								59 container
+									60 text Name
+									61 pop-up button Mouseover or press enter for more information about brand name
+									62 text Boldstone Owner
+									63 pop-up button Mouseover or press enter for more information about brand ownership
+									64 text Boldstone Website
+									65 pop-up button Mouseover or press enter for more information about brand website
+									66 link https://boldstonesculpture.com/, Value: boldstonesculpture.com/
+									67 text Logo
+									68 pop-up button Mouseover or press enter for more information about brand logo
+									69 image Image for preview
+									70 button Edit brand
+								71 container
+									72 link Privacy Policy, Value: google.com/policies/privacy/
+									73 text •
+									74 link Terms of Service, Value: manufacturers.google.com/manufacturers/tos.html
+									75 text •
+									76 link Program Policies, Opens in a new tab, Value: support.google.com/manufacturers/answer/6371582?hl=en-US
+							77 text Brand Boldstone has been saved
+			78 scroll area
+				79 

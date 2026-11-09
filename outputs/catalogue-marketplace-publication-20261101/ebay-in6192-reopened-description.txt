@@ -1,0 +1,69 @@
+Browser tab: 961982533, Title: "Create listings", URL: "https://www.ebay.co.uk/bulksell?workspaceId=4718633353241&ru=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts&rp=cws".
+0 AXWebArea Create listings, URL: ebay.co.uk/bulksell?workspaceId=4718633353241&ru=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts&rp=cws
+	1 container Item description Close
+		2 heading Item description Close, Value: 2, ID: s0-2-0-15-3-0-@gridViewContainer-0-11-1-0-@dialog-dialog-title
+			3 text Item description
+			4 button Close
+		5 container
+			6 text 1 of 176 listings
+			7 image
+			8 text Boldstone Coral Spiral Relief - White Wall sculpture Formatting best practices Buyers trust simple, consistent formatting. We recommend sticking with black 14pt font.
+			9 content list
+				10 button B
+					11 text B
+				12 button
+					13 image
+				14 button Show all options
+			15 AXWebArea about:srcdoc
+				16 text entry area (settable) Description: undefined, Value: A spiral motif gathers the eye into a textured, organic relief. The design suggests the shapes and rhythms of the coast, bringing a touch of the underwater world to the wall.
+
+Its changing shadows add depth without needing a busy setting; give the sculpture a little space and let the form speak.
+
+The white finish keeps the focus on the form and its changing shadows.
+
+Brand: Boldstone
+
+Product type: Wall sculpture
+
+Model: Coral Spiral Relief - White (BOLD-0C2CB099DDEB)
+
+Colour / appearance: White textured stone/aggregate finish
+
+Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+
+Material: Made from a gypsum-based material.
+
+Dimensions: 55 cm high × 55 cm wide; approximately 6 cm deep
+
+Weight: Approximately 14 kg (range 10–18 kg)
+
+Use: Suitable for outdoor use and indoor display.
+
+Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+
+Availability: Ready to dispatch
+
+Dispatch time: Within 3 working days. Delivery transit time is additional.
+
+Delivery: The available delivery service and charge are shown in this eBay listing. Carrier transit time is additional to dispatch time.
+					17 text A spiral motif gathers the eye into a textured, organic relief. The design suggests the shapes and rhythms of the coast, bringing a touch of the underwater world to the wall.
+					18 text Its changing shadows add depth without needing a busy setting; give the sculpture a little space and let the form speak.
+					19 text The white finish keeps the focus on the form and its changing shadows.
+					20 text Brand: Boldstone
+					21 text Product type: Wall sculpture
+					22 text Model: Coral Spiral Relief - White (BOLD-0C2CB099DDEB)
+					23 text Colour / appearance: White textured stone/aggregate finish
+					24 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+					25 text Material: Made from a gypsum-based material.
+					26 text Dimensions: 55 cm high × 55 cm wide; approximately 6 cm deep
+					27 text Weight: Approximately 14 kg (range 10–18 kg)
+					28 text Use: Suitable for outdoor use and indoor display.
+					29 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+					30 text Availability: Ready to dispatch
+					31 text Dispatch time: Within 3 working days. Delivery transit time is additional.
+					32 text Delivery: The available delivery service and charge are shown in this eBay listing. Carrier transit time is additional to dispatch time.
+		33 container
+			34 button (disabled) Save and previous
+			35 button Save and next
+
+The focused UI element is 4 button Close

@@ -1,0 +1,158 @@
+- text: Fax
+- textbox "Fax"
+- link "fax":
+  - /url: /facsimile-npc
+- link "Skip to Main Content":
+  - /url: "#skip-to-content"
+- banner:
+  - button "Close Menu" [expanded]:
+  - link "Saatchi Art logo":
+    - /url: https://www.saatchiart.com/en-gb
+  - paragraph: Studio
+  - link "Sally Price":
+    - /url: https://www.saatchiart.com/en-gb/account/profile/3090713
+- complementary:
+  - navigation:
+    - button "Manage Artworks":
+      - text: Manage Artworks
+    - list:
+      - link "My Portfolio":
+        - /url: https://www.saatchiart.com/en-gb/studio/artworks
+      - link "Artwork Uploader":
+        - /url: https://www.saatchiart.com/en-gb/studio/upload
+    - button "Sales Dashboard":
+      - text: Sales Dashboard
+    - link "Offers Dashboard":
+      - /url: https://www.saatchiart.com/en-gb/account/offers
+      - generic: Offers Dashboard
+    - button "Sponsored Listings":
+      - text: Sponsored Listings
+    - button "Profile Information":
+      - text: Profile Information
+    - link "Addresses":
+      - /url: https://www.saatchiart.com/en-gb/studio/address
+      - generic: Addresses
+    - button "Account":
+      - text: Account
+- heading "My Original Artworks" [level=4]
+- heading "Vacation Status" [level=6]
+- button "Add New Artwork"
+- checkbox
+- paragraph: Artworks
+- paragraph: Visibility
+- paragraph: Date Uploaded
+- paragraph: Price
+- paragraph: Availability
+- paragraph: Prints
+- checkbox
+- paragraph: Acanthus Moon - White
+- paragraph: (Incomplete Draft)
+- paragraph: Draft
+- paragraph: Nov 1, 2026
+- paragraph: "--"
+- paragraph: Not For Sale
+- paragraph: Not Available
+- checkbox
+- paragraph: Acanthus Moon - Gold Finish
+- paragraph: (Incomplete Draft)
+- paragraph: Draft
+- paragraph: Nov 1, 2026
+- paragraph: "--"
+- paragraph: Not For Sale
+- paragraph: Not Available
+- checkbox
+- paragraph: Acanthus Bloom - White
+- paragraph: (Incomplete Draft)
+- paragraph: Draft
+- paragraph: Nov 1, 2026
+- paragraph: "--"
+- paragraph: Not For Sale
+- paragraph: Not Available
+- checkbox
+- paragraph: Icarus I - Abstract Cave Relief
+- paragraph: Sculpture
+- paragraph: 39.4 W x 78.7 H x 2 D inches
+- paragraph: Published
+- paragraph: Sep 11, 2026
+- paragraph: $873
+- paragraph: For Sale
+- paragraph: Not Available
+- button "Go to previous page":
+  - link "Go to previous page":
+    - /url: https://www.saatchiart.com/en-gb/studio?sub=artworks&page=3&hitsPerPage=25
+- button "Go to page 1": "1"
+- button "Go to page 2": "2"
+- button "Go to page 3": "3"
+- button "Go to page 4" [active]: "4"
+- paragraph: 76 - 79 Artworks
+- generic: 25 Results Per Page
+- contentinfo:
+  - link "Saatchi Art logo footer":
+    - /url: https://www.saatchiart.com/en-gb
+  - link "Saatchi Art - Instagram":
+    - /url: http://instagram.com/saatchiart
+  - link "Saatchi Art - Tiktok":
+    - /url: https://www.tiktok.com/@saatchi_art
+  - link "Saatchi Art - Facebook":
+    - /url: http://www.facebook.com/saatchionline
+  - link "Saatchi Art - Pinterest":
+    - /url: http://pinterest.com/saatchiart
+  - link "Saatchi Art - Youtube":
+    - /url: https://www.youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+  - generic: Support
+  - link "Community Forum":
+    - /url: https://support.saatchiart.com/hc/en-us/community/topics
+  - link "Help Center":
+    - /url: https://support.saatchiart.com/hc
+  - link "Get Started":
+    - /url: https://support.saatchiart.com/hc/sections/14062766571419
+  - link "Payments":
+    - /url: https://support.saatchiart.com/hc/sections/14563986089883
+  - button "Request Support"
+  - generic: Resources
+  - link "Artist Handbook":
+    - /url: https://support.saatchiart.com/hc/categories/14062686015643
+  - link "Packaging Guide":
+    - /url: https://support.saatchiart.com/hc/articles/14709932602139
+  - link "How to Photograph":
+    - /url: https://support.saatchiart.com/hc/articles/17737130295963
+  - link "Artist Tips":
+    - /url: https://canvas.saatchiart.com/category/art/artist-tips
+  - generic: Saatchi Art
+  - link "About":
+    - /url: https://www.saatchiart.com/en-gb/about-us
+  - link "Sell on Saatchi Art":
+    - /url: https://www.saatchiart.com/en-gb/whysell
+  - link "Affiliate Program":
+    - /url: https://signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+  - link "Terms of Service":
+    - /url: https://www.saatchiart.com/en-gb/terms
+  - link "Privacy Notice":
+    - /url: https://www.saatchiart.com/en-gb/privacy
+  - link "Cookie Notice":
+    - /url: https://www.saatchiart.com/en-gb/cookie_notice
+  - link "Copyright Policy":
+    - /url: https://www.saatchiart.com/en-gb/copyright
+  - link "California Notice of Collection":
+    - /url: https://www.saatchiart.com/en-gb/privacy#12.2
+  - generic: Manage Preferences
+  - link "Accessibility":
+    - /url: https://www.saatchiart.com/en-gb/accessibility
+  - generic "View Store Preferences Footer":
+    - generic: United Kingdom
+    - text: /
+    - generic: GBP
+    - text: /
+    - generic: in
+  - generic: © 2010-2026 Saatchi Art. All Rights Reserved.
+  - paragraph:
+    - text: This site is protected by reCAPTCHA and the Google
+    - link "Privacy Policy":
+      - /url: https://policies.google.com/privacy
+    - text: and
+    - link "Terms of Service":
+      - /url: https://policies.google.com/terms
+    - text: apply.
+- alert: Studio | Saatchi Art United Kingdom | Page 4
+- button "Manage Preferences"
+- text: Manage Preferences

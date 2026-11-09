@@ -1,0 +1,678 @@
+- link "Ads Manager Meta":
+  - /url: /adsmanager/
+  - generic: Ads Manager
+  - img "Meta"
+- button "Pressable":
+- button:
+  - generic: "8"
+- separator
+- navigation "tools":
+  - list:
+    - link "Account overview":
+      - /url: /adsmanager/manage/accounts?business_id=2380586078685156&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager
+    - generic: Account overview
+    - link "Campaigns":
+      - /url: /adsmanager/manage/campaigns?business_id=2380586078685156&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager
+    - generic: Campaigns
+    - link "Ads Reporting":
+      - /url: /adsreporting/?business_id=2380586078685156&nav_entry_point=ads_ecosystem_navigation_menu
+    - generic: Ads Reporting
+    - link "Audiences":
+      - /url: /adsmanager/?business_id=2380586078685156&tool=AUDIENCES&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager
+    - generic: Audiences
+    - link "Advertising settings":
+      - /url: https://eventsmanager.facebook.com/adsmanager/manage/advertising_settings/?business_id=2380586078685156&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager
+    - generic: Advertising settings
+    - link "Billing and payments":
+      - /url: /billing_hub/payment_settings/?placement=ads_manager&business_id=2380586078685156&entrypoint=ads_ecosystem_navigation_ads_billing_tool_plugin
+    - generic: Billing and payments
+    - link "Events Manager":
+      - /url: /events_manager2/?business_id=2380586078685156&nav_source=ads_ecosystem_nav
+    - generic: Events Manager
+    - button "All tools":
+    - generic: All tools
+- separator
+- link "Business settings":
+  - /url: https://business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+  - generic: Business settings
+- button "Search":
+  - generic: Search
+- button "Help":
+  - generic: Help
+- button "Report a problem":
+  - generic: Report a problem
+- heading "Datasets" [level=1]
+- combobox "Sally Price":
+  - generic: Sally Price
+- button "Facebook":
+  - img "Facebook"
+- navigation "Tools":
+  - list:
+    - button "Connect data":
+    - generic: Connect data
+    - button "Overview":
+    - generic: Overview
+    - button "Datasets":
+    - generic: Datasets
+    - button "Custom conversions":
+    - generic: Custom conversions
+    - button "Integrations":
+    - generic: Integrations
+- button "Collapse":
+  - generic: Collapse
+- generic: Search
+- searchbox "Search"
+- grid:
+  - row "Boldstone Sculpture Pixel ID 4566349726935061":
+    - gridcell "Boldstone Sculpture Pixel ID 4566349726935061":
+      - generic: Boldstone Sculpture Pixel
+      - generic: ID
+      - generic: "4566349726935061"
+- generic: Found 1 data source(s)
+- heading "Boldstone Sculpture Pixel" [level=2]
+- link "Edit data source name":
+  - /url: "#"
+- 'button "Today: 31 Oct 2026"':
+  - generic: "Today: 31 Oct 2026"
+- button "Create":
+  - generic: Create
+- tablist:
+  - tab "Overview" [selected]:
+    - generic: Overview
+  - tab "Test events":
+    - generic: Test events
+  - tab "Diagnostics":
+    - generic: Diagnostics
+  - tab "History":
+    - generic: History
+  - tab "Settings":
+    - generic: Settings
+- heading "Finish setting up Meta pixel with web events" [level=3]
+- generic: Help improve insights and performance in just a few steps
+- progressbar
+- generic: 50% complete
+- button "Actions":
+  - generic: Actions
+- button "Unpressable" [disabled]:
+- generic: Set up Meta pixel
+- button "Unpressable" [disabled]:
+- heading "Set up events" [level=4]
+- generic: Set up events to gain a deeper understanding of your website's performance, optimise your ad campaigns and drive more conversions to grow your business. Page views are recorded by default.
+- button "Set up events":
+  - generic: Set up events
+- heading "Automatically measure conversions on customer devices" [level=4]
+- generic: On 12 November 2026, all eligible pixels will start measuring conversions on customer devices. No identifying customer information from this process is shared with Meta. You can opt out at any time in Events Manager.
+- link "Events Manager settings":
+  - /url: "#"
+- link "See other tasks":
+  - /url: "#"
+  - text: See other tasks
+- separator
+- tablist:
+  - tab "Event activities" [selected]:
+    - generic: Event activities
+  - tab "Integrations":
+    - generic: Integrations
+- generic: This chart displays any events from your business's website, CRM, mobile app or server that we've processed and received within the selected date range. Events may take up to 30 minutes to appear.
+- heading [level=2]
+- table:
+  - rowgroup:
+    - row "1793404800 1793408400 1793433600 1793458800 1793466000 1793469600 1793476800":
+      - columnheader
+      - columnheader "1793404800"
+      - columnheader "1793408400"
+      - columnheader "1793433600"
+      - columnheader "1793458800"
+      - columnheader "1793466000"
+      - columnheader "1793469600"
+      - columnheader "1793476800"
+    - row "stats 14 2 18 10 12 14 10":
+      - cell "stats"
+      - cell "14"
+      - cell "2"
+      - cell "18"
+      - cell "10"
+      - cell "12"
+      - cell "14"
+      - cell "10"
+- heading "Dataset ID" [level=4]
+- 'button "Copy dataset ID: 4566349726935061"':
+  - generic: "4566349726935061"
+- heading "Integrations" [level=4]
+- generic: Meta pixel
+- link "Manage Integrations":
+  - /url: "#"
+- heading "Websites" [level=4]
+- text: boldstonesculpture.com
+- link "+1 more":
+  - /url: "#"
+- heading "1 connected catalogue" [level=4]
+- link "Manage status":
+  - /url: "#"
+- toolbar:
+  - button "Add Events":
+    - generic: Add Events
+  - generic: Filter table type by
+  - 'combobox "Filter table type by Columns: Event usage metrics"':
+    - generic: "Columns: Event usage metrics"
+  - generic: Filter events by
+  - combobox "Filter events by All events":
+    - generic: All events
+  - generic: Search events
+  - textbox "Search events":
+    - /placeholder: Search by event
+  - generic: 0/50
+- grid:
+  - row "Sort events alphabetically Sort events by alert priority Used by The active ad sets using an event for optimisation or targeting. Sort events by integration type Sort total events by quantity":
+    - columnheader "Sort events alphabetically":
+      - columnheader "Events":
+        - generic: Events
+      - button "Sort events alphabetically"
+    - columnheader "Sort events by alert priority":
+      - columnheader "Status Shows additional conversions reported from using the Conversions API alongside the Meta pixel and any issues that may affect the event's measurement or performance.":
+        - generic: Status
+        - img "Shows additional conversions reported from using the Conversions API alongside the Meta pixel and any issues that may affect the event's measurement or performance."
+      - button "Sort events by alert priority"
+    - columnheader "Used by The active ad sets using an event for optimisation or targeting.":
+      - columnheader "Used by The active ad sets using an event for optimisation or targeting.":
+        - generic: Used by
+        - img "The active ad sets using an event for optimisation or targeting."
+    - columnheader "Sort events by integration type":
+      - columnheader "Integration The tool or method that you're using to connect your business with Facebook so you can share data.":
+        - generic: Integration
+        - img "The tool or method that you're using to connect your business with Facebook so you can share data."
+      - button "Sort events by integration type"
+    - columnheader "Sort total events by quantity":
+      - columnheader "Total events":
+        - heading "Total events" [level=4]
+      - button "Sort total events by quantity"
+  - list:
+    - button "PageView Active Meta pixel 58 Last received 29 minutes ago":
+      - generic: PageView
+      - generic: Active
+      - generic: Meta pixel
+      - generic: "58"
+      - generic: Last received 29 minutes ago
+    - button "View content Active Meta pixel 34 Last received 29 minutes ago" [expanded]:
+      - generic: View content
+      - generic: Active
+      - generic: Meta pixel
+      - generic: "34"
+      - generic: Last received 29 minutes ago
+    - region:
+      - heading "Advanced matching activity" [level=4]
+      - generic: for the pixel (browser)
+      - heading "Parameters" [level=4]
+      - generic: contents, content_ids and 1 other
+      - link "View all":
+        - /url: "#"
+      - heading [level=2]
+      - table:
+        - rowgroup:
+          - row "1793404800 1793408400 1793433600 1793458800 1793466000 1793469600 1793476800 1793480400":
+            - columnheader
+            - columnheader "1793404800"
+            - columnheader "1793408400"
+            - columnheader "1793433600"
+            - columnheader "1793458800"
+            - columnheader "1793466000"
+            - columnheader "1793469600"
+            - columnheader "1793476800"
+            - columnheader "1793480400"
+          - row "browserProcessedCount 6 1 4 2 5 5 5 6":
+            - cell "browserProcessedCount"
+            - cell "6"
+            - cell "1"
+            - cell "4"
+            - cell "2"
+            - cell "5"
+            - cell "5"
+            - cell "5"
+            - cell "6"
+      - button "Export Data":
+        - generic: Export Data
+      - button "Manage integrations":
+        - generic: Manage integrations
+      - button "View Details":
+        - generic: View Details
+- link "Translations":
+  - /url: https://www.facebook.com/translations/?ref=trans_nub
+- dialog:
+  - heading "View content" [level=1]
+  - generic: Active
+  - button "Close":
+    - generic: Close
+  - navigation "Event overview":
+    - list:
+      - button "Event overview"
+      - generic: Event overview
+      - button "Event deduplication"
+      - generic: Event deduplication
+      - button "Event parameters"
+      - generic: Event parameters
+      - button "Sampled activities"
+      - generic: Sampled activities
+      - button "Ad sets"
+      - generic: Ad sets
+      - button "Event source"
+      - generic: Event source
+  - heading "Sampled activities" [level=1]
+  - generic: This section displays a selection of event activity from the last 24 hours. Review the information shown below, such as parameters and URL, to ensure that you're sending accurate and valid data.
+  - heading "Custom data not being displayed" [level=4]
+  - generic: Your parameters and referring URL are displayed as _removed_. This data wasn't used to create Custom Audiences and custom conversions, so your ads shouldn't be affected.
+  - button "Export as CSV":
+    - generic: Export as CSV
+  - generic: Filter activities by action source
+  - combobox "Filter activities by action source 4 options selected":
+    - generic: 4 options selected
+  - grid "Recent activities":
+    - rowgroup:
+      - row "Source Integration Event parameters Page and product info URL":
+        - columnheader "Source":
+          - heading "Source" [level=4]
+        - columnheader "Integration":
+          - heading "Integration" [level=4]
+        - columnheader "Event parameters":
+          - heading "Event parameters" [level=4]
+        - columnheader "Page and product info":
+          - heading "Page and product info" [level=4]
+        - columnheader "URL":
+          - heading "URL" [level=4]
+    - rowgroup:
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/battersea-shellmoon-1-white-water-feature":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/battersea-shellmoon-1-white-water-feature":
+          - generic: https://boldstonesculpture.com/buy/p/battersea-shellmoon-1-white-water-feature
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/acanthus-one-leaf-left-pewter":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/acanthus-one-leaf-left-pewter":
+          - generic: https://boldstonesculpture.com/buy/p/acanthus-one-leaf-left-pewter
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/acanthus-one-leaf-left-pewter":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/acanthus-one-leaf-left-pewter":
+          - generic: https://boldstonesculpture.com/buy/p/acanthus-one-leaf-left-pewter
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/acanthus-one-leaf-left-pewter":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/acanthus-one-leaf-left-pewter":
+          - generic: https://boldstonesculpture.com/buy/p/acanthus-one-leaf-left-pewter
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/acanthus-one-leaf-left-pewter":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/acanthus-one-leaf-left-pewter":
+          - generic: https://boldstonesculpture.com/buy/p/acanthus-one-leaf-left-pewter
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/ammonite-small-1-left-panel-white":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/ammonite-small-1-left-panel-white":
+          - generic: https://boldstonesculpture.com/buy/p/ammonite-small-1-left-panel-white
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/coral-spiral-white":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/coral-spiral-white":
+          - generic: https://boldstonesculpture.com/buy/p/coral-spiral-white
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/ammonite-large-1-left-panel-white":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/ammonite-large-1-left-panel-white":
+          - generic: https://boldstonesculpture.com/buy/p/ammonite-large-1-left-panel-white
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/chiswick-moon":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/chiswick-moon":
+          - generic: https://boldstonesculpture.com/buy/p/chiswick-moon
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/acanthus-flower-white":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/acanthus-flower-white":
+          - generic: https://boldstonesculpture.com/buy/p/acanthus-flower-white
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/moonphases-three-wall-sculpture?utm_source=instagram&utm_medium=paid_social&utm_campaign=moonphases_three_uk&utm_content=buyer_boost":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/moonphases-three-wall-sculpture?utm_source=instagram&utm_medium=paid_social&utm_campaign=moonphases_three_uk&utm_content=buyer_boost":
+          - generic: https://boldstonesculpture.com/buy/p/moonphases-three-wall-sculpture?utm_source=instagram&utm_medium=paid_social&utm_campaign=moonphases_three_uk&utm_content=buyer_boost
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/wave-relief-wall-sculpture-with-verdigris-finish?utm_source=instagram&utm_medium=paid_social&utm_campaign=verdigris_scroll_uk&utm_content=buyer_boost":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/wave-relief-wall-sculpture-with-verdigris-finish?utm_source=instagram&utm_medium=paid_social&utm_campaign=verdigris_scroll_uk&utm_content=buyer_boost":
+          - generic: https://boldstonesculpture.com/buy/p/wave-relief-wall-sculpture-with-verdigris-finish?utm_source=instagram&utm_medium=paid_social&utm_campaign=verdigris_scroll_uk&utm_content=buyer_boost
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/wave-relief-wall-sculpture-with-verdigris-finish?utm_source=instagram&utm_medium=paid_social&utm_campaign=verdigris_scroll_uk&utm_content=buyer_boost":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/wave-relief-wall-sculpture-with-verdigris-finish?utm_source=instagram&utm_medium=paid_social&utm_campaign=verdigris_scroll_uk&utm_content=buyer_boost":
+          - generic: https://boldstonesculpture.com/buy/p/wave-relief-wall-sculpture-with-verdigris-finish?utm_source=instagram&utm_medium=paid_social&utm_campaign=verdigris_scroll_uk&utm_content=buyer_boost
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/verdigris-ripple-wave-wall-sculpture":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/verdigris-ripple-wave-wall-sculpture":
+          - generic: https://boldstonesculpture.com/buy/p/verdigris-ripple-wave-wall-sculpture
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/verdigris-ripple-wave-wall-sculpture":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/verdigris-ripple-wave-wall-sculpture":
+          - generic: https://boldstonesculpture.com/buy/p/verdigris-ripple-wave-wall-sculpture
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/chelsea-moonwave":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/chelsea-moonwave":
+          - generic: https://boldstonesculpture.com/buy/p/chelsea-moonwave
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/verdigris-ripple-wave-wall-sculpture":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/verdigris-ripple-wave-wall-sculpture":
+          - generic: https://boldstonesculpture.com/buy/p/verdigris-ripple-wave-wall-sculpture
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/ammonite-large-1-left-panel-white":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/ammonite-large-1-left-panel-white":
+          - generic: https://boldstonesculpture.com/buy/p/ammonite-large-1-left-panel-white
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/ammonite-large-2-right-panel-white":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/ammonite-large-2-right-panel-white":
+          - generic: https://boldstonesculpture.com/buy/p/ammonite-large-2-right-panel-white
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/bone-spiral-2-wide-panel-white-bs2":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/bone-spiral-2-wide-panel-white-bs2":
+          - generic: https://boldstonesculpture.com/buy/p/bone-spiral-2-wide-panel-white-bs2
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/barbados-wave":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/barbados-wave":
+          - generic: https://boldstonesculpture.com/buy/p/barbados-wave
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/battersea-shellmoon-2-white-water-feature":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/battersea-shellmoon-2-white-water-feature":
+          - generic: https://boldstonesculpture.com/buy/p/battersea-shellmoon-2-white-water-feature
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/barbados-wave":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/barbados-wave":
+          - generic: https://boldstonesculpture.com/buy/p/barbados-wave
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/battersea-shellmoon-1-white":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/battersea-shellmoon-1-white":
+          - generic: https://boldstonesculpture.com/buy/p/battersea-shellmoon-1-white
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/battersea-shellmoon-1-white":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/battersea-shellmoon-1-white":
+          - generic: https://boldstonesculpture.com/buy/p/battersea-shellmoon-1-white
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/ammonite-large-2-right-panel-white":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/ammonite-large-2-right-panel-white":
+          - generic: https://boldstonesculpture.com/buy/p/ammonite-large-2-right-panel-white
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/azure-blue-and-white-marbled-panel":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/azure-blue-and-white-marbled-panel":
+          - generic: https://boldstonesculpture.com/buy/p/azure-blue-and-white-marbled-panel
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white":
+          - generic: https://boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white":
+          - generic: https://boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/dune-ripple-1-verdigris":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/dune-ripple-1-verdigris":
+          - generic: https://boldstonesculpture.com/buy/p/dune-ripple-1-verdigris
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/dune-ripple-1-verdigris?utm_source=threads&utm_medium=organic_social&utm_campaign=wall_sculptures&utm_content=dune_ripple_1_verdigris":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters" [active]:
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/dune-ripple-1-verdigris?utm_source=threads&utm_medium=organic_social&utm_campaign=wall_sculptures&utm_content=dune_ripple_1_verdigris":
+          - generic: https://boldstonesculpture.com/buy/p/dune-ripple-1-verdigris?utm_source=threads&utm_medium=organic_social&utm_campaign=wall_sculptures&utm_content=dune_ripple_1_verdigris
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/ammonite-small-1-left-panel-white":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/ammonite-small-1-left-panel-white":
+          - generic: https://boldstonesculpture.com/buy/p/ammonite-small-1-left-panel-white
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/ammonite-small-1-left-panel-white":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/ammonite-small-1-left-panel-white":
+          - generic: https://boldstonesculpture.com/buy/p/ammonite-small-1-left-panel-white
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/azure-blue-and-white-marbled-panel":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/azure-blue-and-white-marbled-panel":
+          - generic: https://boldstonesculpture.com/buy/p/azure-blue-and-white-marbled-panel
+      - row "Web Meta pixel 3 parameters - https://boldstonesculpture.com/buy/p/verdigris-ripple-wave-wall-sculpture?utm_source=instagram&utm_medium=paid_social&utm_campaign=verdigris_wall_sculpture_uk&utm_content=buyer_boost":
+        - gridcell "Web":
+          - generic: Web
+        - gridcell "Meta pixel":
+          - generic: Meta pixel
+        - gridcell "3 parameters":
+          - generic: 3 parameters
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "https://boldstonesculpture.com/buy/p/verdigris-ripple-wave-wall-sculpture?utm_source=instagram&utm_medium=paid_social&utm_campaign=verdigris_wall_sculpture_uk&utm_content=buyer_boost":
+          - generic: https://boldstonesculpture.com/buy/p/verdigris-ripple-wave-wall-sculpture?utm_source=instagram&utm_medium=paid_social&utm_campaign=verdigris_wall_sculpture_uk&utm_content=buyer_boost
+  - link "Give feedback":
+    - /url: "#"
+  - button "Done":
+    - generic: Done
+- 'tooltip "Parameters (3) content_ids: [\"SQ0836319\"] content_type: product contents: [{\"id\":\"SQ0836319\",\"quantity\":null,\"item_price\":\"41.24\",\"attributes\":{}}]"':
+  - heading "Parameters (3)" [level=3]
+  - generic: "content_ids:"
+  - generic: "[\"SQ0836319\"]"
+  - generic: "content_type:"
+  - generic: product
+  - generic: "contents:"
+  - generic: "[{\"id\":\"SQ0836319\",\"quantity\":null,\"item_price\":\"41.24\",\"attributes\":{}}]"

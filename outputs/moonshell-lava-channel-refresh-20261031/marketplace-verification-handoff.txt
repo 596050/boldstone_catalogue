@@ -1,0 +1,12 @@
+Browser tab: 961982144, Title: "(20+) Facebook", URL: "https://www.facebook.com/marketplace/you/selling".
+1 AXWebArea (20+) Facebook, URL: facebook.com/marketplace/you/selling
+	2 container
+		3 image Verification hub header image
+		4 text We couldn't verify your identity We weren't able to verify your identity using the information you provided. Please try again.
+
+If you use an ID, the full name and personal details will need to match what's in your Facebook profile.
+
+You may not be able to sell items on Marketplace after multiple failed attempts.
+		5 link Description: Next: Continue to identity verification, Value: facebook.com/checkpoint/1501092823525282/1591884446298602/
+
+The focused UI element is 5 link Description: Next: Continue to identity verification, URL: facebook.com/checkpoint/1501092823525282/1591884446298602/

@@ -1,0 +1,441 @@
+Window: "Boldstone Sculpture – Faire", App: Google Chrome.
+0 standard window Boldstone Sculpture – Faire - Google Chrome – Tom, URL: …, Secondary Actions: Raise
+	1 container Boldstone Sculpture – Faire - Google Chrome – Tom, URL: …
+		2 container
+			3 toolbar
+				4 button (disabled) Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: faire.com/brand/b_dddpsekzv4, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Boldstone Sculpture – Faire, URL: …
+						27 container
+							28 container
+								29 text Previewing your shop.  Retailers will see a unique product arrangement based on their shop type and browsing behaviour. 
+								30 link See it in action, Value: loom.com/share/310d410c13514dbeab63c3c26fb69e41?sid=b1050cf2-1b83-4320-9e55-73bf63704f0a
+							31 container
+								32 link Faire Logo, Value: faire.com/brand-portal
+								33 container
+									34 text Shop status: Inactive
+							35 container
+								36 image Boldstone Sculpture
+								37 pop-up button Go to their story
+								38 heading Boldstone Sculpture, Value: 1
+									39 text Boldstone Sculpture
+								40 container
+									41 text Bath ,  United Kingdom
+								42 text ·
+								43 text £50 min
+								44 text Get it by Nov 24
+								45 text ·
+								46 button Shipping details
+								47 button Follow
+								48 pop-up button More actions
+								49 container
+									50 container
+										51 container
+											52 Unlabelled image Avatar. To get missing image descriptions, open the context menu.
+										53 tab group
+											54 tab (selected) All products, Value: 1
+												55 text All products
+											56 tab (settable, integer) About, Value: 0
+												57 text About
+										58 search text field (settable) Search Boldstone Sculpture
+									59 heading All products, Value: 4
+										60 text All products
+									61 switch All filters, Value: off
+									62 switch Wall decor, Value: off
+									63 switch Home accents, Value: off
+									64 switch Garden & outdoor, Value: off
+									65 pop-up button Sort by Featured
+									66 container
+										67 link Boldstone Chelsea Moonwave Relief Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_q55ptrhq98?refB=b_dddpsekzv4
+										68 button Save product to board
+										69 link £764.40 RRP £955.50 Boldstone Chelsea Moonwave Relief Wall Sculpture, Value: faire.com/product/p_q55ptrhq98?refB=b_dddpsekzv4
+										70 link Case of 1, Value: faire.com/product/p_q55ptrhq98?refB=b_dddpsekzv4
+									71 container
+										72 link Boldstone Icarus I - Abstract Cave Relief Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_hh9a2w3ces?refB=b_dddpsekzv4
+										73 button Save product to board
+										74 link £677.63 RRP £847.04 Boldstone Icarus I - Abstract Cave Relief Wall Sculpture, Value: faire.com/product/p_hh9a2w3ces?refB=b_dddpsekzv4
+										75 link Case of 1, Value: faire.com/product/p_hh9a2w3ces?refB=b_dddpsekzv4
+									76 container
+										77 link Boldstone Riyadh Moon - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_zapgm2zhw3?refB=b_dddpsekzv4
+										78 button Save product to board
+										79 link £556.97 RRP £696.22 Boldstone Riyadh Moon - White Wall Sculpture, Value: faire.com/product/p_zapgm2zhw3?refB=b_dddpsekzv4
+										80 link Case of 1, Value: faire.com/product/p_zapgm2zhw3?refB=b_dddpsekzv4
+									81 container
+										82 link Boldstone Riyadh Shellmoon Relief Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_6kf2zdr5zv?refB=b_dddpsekzv4
+										83 button Save product to board
+										84 link £556.97 RRP £696.22 Boldstone Riyadh Shellmoon Relief Wall Sculpture, Value: faire.com/product/p_6kf2zdr5zv?refB=b_dddpsekzv4
+										85 link Case of 1, Value: faire.com/product/p_6kf2zdr5zv?refB=b_dddpsekzv4
+									86 container
+										87 link Boldstone Riyadh Dune Ripple - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_zkctk9jjjh?refB=b_dddpsekzv4
+										88 button Save product to board
+										89 link £556.97 RRP £696.22 Boldstone Riyadh Dune Ripple - White Wall Sculpture, Value: faire.com/product/p_zkctk9jjjh?refB=b_dddpsekzv4
+										90 link Case of 1, Value: faire.com/product/p_zkctk9jjjh?refB=b_dddpsekzv4
+									91 container
+										92 link Boldstone Lava Moon II - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_gugh4ntnsu?refB=b_dddpsekzv4
+										93 button Save product to board
+										94 link £497.22 RRP £621.53 Boldstone Lava Moon II - White Wall Sculpture, Value: faire.com/product/p_gugh4ntnsu?refB=b_dddpsekzv4
+										95 link Case of 1, Value: faire.com/product/p_gugh4ntnsu?refB=b_dddpsekzv4
+									96 container
+										97 link Boldstone Lava Moon I - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_9k8u5mdjc6?refB=b_dddpsekzv4
+										98 button Save product to board
+										99 link £497.22 RRP £621.53 Boldstone Lava Moon I - White Wall Sculpture, Value: faire.com/product/p_9k8u5mdjc6?refB=b_dddpsekzv4
+										100 link Case of 1, Value: faire.com/product/p_9k8u5mdjc6?refB=b_dddpsekzv4
+									101 container
+										102 link Value: faire.com/product/p_9zyyya5g9x?refB=b_dddpsekzv4, Boldstone Knightsbridge Fountain Relief - White Sculptural Water-Feature Panel for wholesale by Boldstone Sculpture
+										103 button Save product to board
+										104 link £299.31 RRP £374.14 Boldstone Knightsbridge Fountain Relief - White Sculptural Water-Feature Panel, Value: faire.com/product/p_9zyyya5g9x?refB=b_dddpsekzv4
+										105 link Case of 1, Value: faire.com/product/p_9zyyya5g9x?refB=b_dddpsekzv4
+									106 container
+										107 link Boldstone Barbados Wave Relief Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_fmn2d7mghx?refB=b_dddpsekzv4
+										108 button Save product to board
+										109 link £279.02 RRP £348.78 Boldstone Barbados Wave Relief Wall Sculpture, Value: faire.com/product/p_fmn2d7mghx?refB=b_dddpsekzv4
+										110 link Case of 1, Value: faire.com/product/p_fmn2d7mghx?refB=b_dddpsekzv4
+									111 container
+										112 link Value: faire.com/product/p_xhrvf57qyv?refB=b_dddpsekzv4, Boldstone Textured Earth - Rust And Blue Patina Finish Wall Sculpture for wholesale by Boldstone Sculpture
+										113 button Save product to board
+										114 link £261.17 RRP £326.47 Boldstone Textured Earth - Rust And Blue Patina Finish Wall Sculpture, Value: faire.com/product/p_xhrvf57qyv?refB=b_dddpsekzv4
+										115 link Case of 1, Value: faire.com/product/p_xhrvf57qyv?refB=b_dddpsekzv4
+									116 container
+										117 link Boldstone Chiswick Moon Fountain Sculptural Water-Feature Panel for wholesale by Boldstone Sculpture, Value: faire.com/product/p_vcq2s8gvt7?refB=b_dddpsekzv4
+										118 button Save product to board
+										119 link £217.53 RRP £271.92 Boldstone Chiswick Moon Fountain Sculptural Water-Feature Panel, Value: faire.com/product/p_vcq2s8gvt7?refB=b_dddpsekzv4
+										120 link Case of 1, Value: faire.com/product/p_vcq2s8gvt7?refB=b_dddpsekzv4
+									121 container
+										122 link Boldstone Chiswick Moon Relief Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_72b8gwtj99?refB=b_dddpsekzv4
+										123 button Save product to board
+										124 link £217.53 RRP £271.92 Boldstone Chiswick Moon Relief Wall Sculpture, Value: faire.com/product/p_72b8gwtj99?refB=b_dddpsekzv4
+										125 link Case of 1, Value: faire.com/product/p_72b8gwtj99?refB=b_dddpsekzv4
+									126 container
+										127 link Value: faire.com/product/p_v994ysz64m?refB=b_dddpsekzv4, Boldstone Egyptian Fountain Palm - Bronze And Verdigris Finish Sculptural Water-Feature Panel for wholesale by Boldstone Sculpture
+										128 button Save product to board
+										129 link Value: faire.com/product/p_v994ysz64m?refB=b_dddpsekzv4, £189.75 RRP £237.19 Boldstone Egyptian Fountain Palm - Bronze And Verdigris Finish Sculptural Water-Feature Panel
+										130 link Case of 1, Value: faire.com/product/p_v994ysz64m?refB=b_dddpsekzv4
+									131 container
+										132 link Value: faire.com/product/p_w8garttus6?refB=b_dddpsekzv4, Boldstone Textured Earth - Blue, Brown And Rust Finish Wall Sculpture for wholesale by Boldstone Sculpture
+										133 button Save product to board
+										134 link £184.98 RRP £231.23 Boldstone Textured Earth - Blue, Brown And Rust Finish Wall Sculpture, Value: faire.com/product/p_w8garttus6?refB=b_dddpsekzv4
+										135 link Case of 1, Value: faire.com/product/p_w8garttus6?refB=b_dddpsekzv4
+									136 container
+										137 link Boldstone Ammonite Grande II (Right) - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_53kwqfqcmn?refB=b_dddpsekzv4
+										138 button Save product to board
+										139 link £161.15 RRP £201.44 Boldstone Ammonite Grande II (Right) - White Wall Sculpture, Value: faire.com/product/p_53kwqfqcmn?refB=b_dddpsekzv4
+										140 link Case of 1, Value: faire.com/product/p_53kwqfqcmn?refB=b_dddpsekzv4
+									141 container
+										142 link Boldstone Ammonite Grande I (Left) - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_hwdnd4ffjt?refB=b_dddpsekzv4
+										143 button Save product to board
+										144 link £161.15 RRP £201.44 Boldstone Ammonite Grande I (Left) - White Wall Sculpture, Value: faire.com/product/p_hwdnd4ffjt?refB=b_dddpsekzv4
+										145 link Case of 1, Value: faire.com/product/p_hwdnd4ffjt?refB=b_dddpsekzv4
+									146 container
+										147 link Boldstone Crater Moon Basin - White Sculptural Relief for wholesale by Boldstone Sculpture, Value: faire.com/product/p_rqy8489xjm?refB=b_dddpsekzv4
+										148 button Save product to board
+										149 link £136.99 RRP £171.24 Boldstone Crater Moon Basin - White Sculptural Relief, Value: faire.com/product/p_rqy8489xjm?refB=b_dddpsekzv4
+										150 link Case of 1, Value: faire.com/product/p_rqy8489xjm?refB=b_dddpsekzv4
+									151 container
+										152 link Value: faire.com/product/p_wh72h779gb?refB=b_dddpsekzv4, Boldstone Marbled Circle - Green And White Finish Wall Sculpture for wholesale by Boldstone Sculpture
+										153 button Save product to board
+										154 link £125.70 RRP £157.13 Boldstone Marbled Circle - Green And White Finish Wall Sculpture, Value: faire.com/product/p_wh72h779gb?refB=b_dddpsekzv4
+										155 link Case of 1, Value: faire.com/product/p_wh72h779gb?refB=b_dddpsekzv4
+									156 container
+										157 link Boldstone Marbled Circle - Pale Blue Finish Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_sna4my5tpp?refB=b_dddpsekzv4
+										158 button Save product to board
+										159 link £125.70 RRP £157.13 Boldstone Marbled Circle - Pale Blue Finish Wall Sculpture, Value: faire.com/product/p_sna4my5tpp?refB=b_dddpsekzv4
+										160 link Case of 1, Value: faire.com/product/p_sna4my5tpp?refB=b_dddpsekzv4
+									161 container
+										162 link Boldstone Marbled Circle - Terracotta Finish Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_wsyuq3x73c?refB=b_dddpsekzv4
+										163 button Save product to board
+										164 link £125.70 RRP £157.13 Boldstone Marbled Circle - Terracotta Finish Wall Sculpture, Value: faire.com/product/p_wsyuq3x73c?refB=b_dddpsekzv4
+										165 link Case of 1, Value: faire.com/product/p_wsyuq3x73c?refB=b_dddpsekzv4
+									166 container
+										167 link Boldstone World Colours Circle - Brass Finish Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_9cjxeba9zc?refB=b_dddpsekzv4
+										168 button Save product to board
+										169 link £125.70 RRP £157.13 Boldstone World Colours Circle - Brass Finish Wall Sculpture, Value: faire.com/product/p_9cjxeba9zc?refB=b_dddpsekzv4
+										170 link Case of 1, Value: faire.com/product/p_9cjxeba9zc?refB=b_dddpsekzv4
+									171 container
+										172 link Value: faire.com/product/p_qgep4h496g?refB=b_dddpsekzv4, Boldstone Marbled Circle - Azure Blue And White Finish Wall Sculpture for wholesale by Boldstone Sculpture
+										173 button Save product to board
+										174 link £125.70 RRP £157.13 Boldstone Marbled Circle - Azure Blue And White Finish Wall Sculpture, Value: faire.com/product/p_qgep4h496g?refB=b_dddpsekzv4
+										175 link Case of 1, Value: faire.com/product/p_qgep4h496g?refB=b_dddpsekzv4
+									176 container
+										177 link Boldstone Marbled Circle - Turquoise Finish Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_s5tww7ebqy?refB=b_dddpsekzv4
+										178 button Save product to board
+										179 link £125.70 RRP £157.13 Boldstone Marbled Circle - Turquoise Finish Wall Sculpture, Value: faire.com/product/p_s5tww7ebqy?refB=b_dddpsekzv4
+										180 link Case of 1, Value: faire.com/product/p_s5tww7ebqy?refB=b_dddpsekzv4
+									181 container
+										182 link Boldstone Bone Water Spiral Relief - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: faire.com/product/p_c3ww86csgm?refB=b_dddpsekzv4
+										183 button Save product to board
+										184 link £125.28 RRP £156.60 Boldstone Bone Water Spiral Relief - White Wall Sculpture, Value: faire.com/product/p_c3ww86csgm?refB=b_dddpsekzv4
+										185 link Case of 1, Value: faire.com/product/p_c3ww86csgm?refB=b_dddpsekzv4
+									186 container
+										187 link Value: faire.com/product/p_rsyhshacjk?refB=b_dddpsekzv4, Boldstone Spiralfish Wave And Tide I - Bronze Finish Wall Sculpture for wholesale by Boldstone Sculpture
+										188 button Save product to board
+										189 link £123.33 RRP £154.17 Boldstone Spiralfish Wave And Tide I - Bronze Finish Wall Sculpture, Value: faire.com/product/p_rsyhshacjk?refB=b_dddpsekzv4
+										190 link Case of 1, Value: faire.com/product/p_rsyhshacjk?refB=b_dddpsekzv4
+									191 container
+										192 link Value: faire.com/product/p_qsu4hwu5qf?refB=b_dddpsekzv4, Boldstone Spiralfish Wave And Tide II - Bronze Finish Wall Sculpture for wholesale by Boldstone Sculpture
+										193 button Save product to board
+										194 link £123.33 RRP £154.17 Boldstone Spiralfish Wave And Tide II - Bronze Finish Wall Sculpture, Value: faire.com/product/p_qsu4hwu5qf?refB=b_dddpsekzv4
+										195 link Case of 1, Value: faire.com/product/p_qsu4hwu5qf?refB=b_dddpsekzv4
+									196 container
+										197 link Value: faire.com/product/p_tq7nbq63kr?refB=b_dddpsekzv4, Boldstone Mediterranean Fountain Palm - White Sculptural Water-Feature Panel for wholesale by Boldstone Sculpture
+										198 button Save product to board
+										199 link £122.88 RRP £153.60 Boldstone Mediterranean Fountain Palm - White Sculptural Water-Feature Panel, Value: faire.com/product/p_tq7nbq63kr?refB=b_dddpsekzv4
+										200 link Case of 1, Value: faire.com/product/p_tq7nbq63kr?refB=b_dddpsekzv4
+									201 container
+										202 link Boldstone Fossil Sand Ripple Relief - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										203 button Save product to board
+										204 link £122.88 RRP £153.60 Boldstone Fossil Sand Ripple Relief - White Wall Sculpture, Value: …
+										205 link Case of 1, Value: …
+									206 container
+										207 link Value: …, Boldstone Egyptian Fountain Palm - White Sculptural Water-Feature Panel for wholesale by Boldstone Sculpture
+										208 button Save product to board
+										209 link £122.88 RRP £153.60 Boldstone Egyptian Fountain Palm - White Sculptural Water-Feature Panel, Value: …
+										210 link Case of 1, Value: …
+									211 container
+										212 link Boldstone Soundwave Rhythm - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										213 button Save product to board
+										214 link £119.35 RRP £149.19 Boldstone Soundwave Rhythm - White Wall Sculpture, Value: …
+										215 link Case of 1, Value: …
+									216 container
+										217 link Boldstone Golden Facets - Gold Finish Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										218 button Save product to board
+										219 link £107.98 RRP £134.98 Boldstone Golden Facets - Gold Finish Wall Sculpture, Value: …
+										220 link Case of 1, Value: …
+									221 container
+										222 link Boldstone Lunar Spiral II - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										223 button Save product to board
+										224 link £104.73 RRP £130.92 Boldstone Lunar Spiral II - White Wall Sculpture, Value: …
+										225 link Case of 1, Value: …
+									226 container
+										227 link Value: …, Boldstone Magnolia Growth - White And Gold Finish Wall Sculpture for wholesale by Boldstone Sculpture
+										228 button Save product to board
+										229 link £104.73 RRP £130.92 Boldstone Magnolia Growth - White And Gold Finish Wall Sculpture, Value: …
+										230 link Case of 1, Value: …
+									231 container
+										232 link Boldstone Deco Dune Wave - Verdigris Finish Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										233 button Save product to board
+										234 link £104.59 RRP £130.74 Boldstone Deco Dune Wave - Verdigris Finish Wall Sculpture, Value: …
+										235 link Case of 1, Value: …
+									236 container
+										237 link Boldstone Deco Dune Spiral - Verdigris Finish Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										238 button Save product to board
+										239 link £104.59 RRP £130.74 Boldstone Deco Dune Spiral - Verdigris Finish Wall Sculpture, Value: …
+										240 link Case of 1, Value: …
+									241 container
+										242 link Boldstone Fold And Unfold IV - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										243 button Save product to board
+										244 link £100.59 RRP £125.74 Boldstone Fold And Unfold IV - White Wall Sculpture, Value: …
+										245 link Case of 1, Value: …
+									246 container
+										247 link Boldstone Lunar Wave - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										248 button Save product to board
+										249 link £98.54 RRP £123.18 Boldstone Lunar Wave - White Wall Sculpture, Value: …
+										250 link Case of 1, Value: …
+									251 container
+										252 link Value: …, Boldstone Battersea Shellmoon II Fountain - White Sculptural Water-Feature Panel for wholesale by Boldstone Sculpture
+										253 button Save product to board
+										254 link £96.06 RRP £120.08 Boldstone Battersea Shellmoon II Fountain - White Sculptural Water-Feature Panel, Value: …
+										255 link Case of 1, Value: …
+									256 container
+										257 link Value: …, Boldstone Islington Shellmoon Fountain - White Sculptural Water-Feature Panel for wholesale by Boldstone Sculpture
+										258 button Save product to board
+										259 link £96.06 RRP £120.08 Boldstone Islington Shellmoon Fountain - White Sculptural Water-Feature Panel, Value: …
+										260 link Case of 1, Value: …
+									261 container
+										262 link Boldstone Folded Fan - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										263 button Save product to board
+										264 link £96.06 RRP £120.08 Boldstone Folded Fan - White Wall Sculpture, Value: …
+										265 link Case of 1, Value: …
+									266 container
+										267 link Boldstone Cultivation Folds Relief - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										268 button Save product to board
+										269 link £96.06 RRP £120.08 Boldstone Cultivation Folds Relief - White Wall Sculpture, Value: …
+										270 link Case of 1, Value: …
+									271 container
+										272 link Boldstone Folded Swan Wing - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										273 button Save product to board
+										274 link £96.06 RRP £120.08 Boldstone Folded Swan Wing - White Wall Sculpture, Value: …
+										275 link Case of 1, Value: …
+									276 container
+										277 link Boldstone Battersea Shellmoon I - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										278 button Save product to board
+										279 link £96.06 RRP £120.08 Boldstone Battersea Shellmoon I - White Wall Sculpture, Value: …
+										280 link Case of 1, Value: …
+									281 container
+										282 link Boldstone Lunar Spiral III - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										283 button Save product to board
+										284 link £96.06 RRP £120.08 Boldstone Lunar Spiral III - White Wall Sculpture, Value: …
+										285 link Case of 1, Value: …
+									286 container
+										287 link Value: …, Boldstone Battersea Shellmoon I Fountain - White Sculptural Water-Feature Panel for wholesale by Boldstone Sculpture
+										288 button Save product to board
+										289 link £96.06 RRP £120.08 Boldstone Battersea Shellmoon I Fountain - White Sculptural Water-Feature Panel, Value: …
+										290 link Case of 1, Value: …
+									291 container
+										292 link Boldstone Lunar Spiral I - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										293 button Save product to board
+										294 link £96.06 RRP £120.08 Boldstone Lunar Spiral I - White Wall Sculpture, Value: …
+										295 link Case of 1, Value: …
+									296 container
+										297 link Boldstone Spiralfish Wave And Tide II - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										298 button Save product to board
+										299 link £94.85 RRP £118.57 Boldstone Spiralfish Wave And Tide II - White Wall Sculpture, Value: …
+										300 link Case of 1, Value: …
+									301 container
+										302 link Boldstone Spiralfish Wave And Tide I - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										303 button Save product to board
+										304 link £94.85 RRP £118.57 Boldstone Spiralfish Wave And Tide I - White Wall Sculpture, Value: …
+										305 link Case of 1, Value: …
+									306 container
+										307 link Boldstone Spiral Moon Relief - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										308 button Save product to board
+										309 link £94.85 RRP £118.57 Boldstone Spiral Moon Relief - White Wall Sculpture, Value: …
+										310 link Case of 1, Value: …
+									311 container
+										312 link Boldstone Lava Moonshell I - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										313 button Save product to board
+										314 link £91.10 RRP £113.88 Boldstone Lava Moonshell I - White Wall Sculpture, Value: …
+										315 link Case of 1, Value: …
+									316 container
+										317 link Boldstone Lava Moonshell II - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										318 button Save product to board
+										319 link £91.10 RRP £113.88 Boldstone Lava Moonshell II - White Wall Sculpture, Value: …
+										320 link Case of 1, Value: …
+									321 container
+										322 link Boldstone Bone Spiral II (Wide) - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										323 button Save product to board
+										324 link £87.36 RRP £109.20 Boldstone Bone Spiral II (Wide) - White Wall Sculpture, Value: …
+										325 link Case of 1, Value: …
+									326 container
+										327 link Boldstone Coral Spiral Relief - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										328 button Save product to board
+										329 link £87.36 RRP £109.20 Boldstone Coral Spiral Relief - White Wall Sculpture, Value: …
+										330 link Case of 1, Value: …
+									331 container
+										332 link Boldstone Egyptian Palm IV (Extended) - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										333 button Save product to board
+										334 link £86.91 RRP £108.64 Boldstone Egyptian Palm IV (Extended) - White Wall Sculpture, Value: …
+										335 link Case of 1, Value: …
+									336 container
+										337 link Boldstone Magnolia Growth - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										338 button Save product to board
+										339 link £86.91 RRP £108.64 Boldstone Magnolia Growth - White Wall Sculpture, Value: …
+										340 link Case of 1, Value: …
+									341 container
+										342 link Boldstone Brancusi Totem Relief - White Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										343 button Save product to board
+										344 link £82.81 RRP £103.52 Boldstone Brancusi Totem Relief - White Wall Sculpture, Value: …
+										345 link Case of 1, Value: …
+									346 container
+										347 link Boldstone Deco Wave I - Verdigris Finish Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										348 button Save product to board
+										349 link £82.04 RRP £102.55 Boldstone Deco Wave I - Verdigris Finish Wall Sculpture, Value: …
+										350 link Case of 1, Value: …
+									351 container
+										352 link Boldstone Deco Wave Ii - Verdigris Finish Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										353 button Save product to board
+										354 link £82.04 RRP £102.55 Boldstone Deco Wave Ii - Verdigris Finish Wall Sculpture, Value: …
+										355 link Case of 1, Value: …
+									356 container
+										357 link Boldstone Egyptian Palm I - Pewter Finish Wall Sculpture for wholesale by Boldstone Sculpture, Value: …
+										358 button Save product to board
+										359 link £79.86 RRP £99.83 Boldstone Egyptian Palm I - Pewter Finish Wall Sculpture, Value: …
+										360 link Case of 1, Value: …
+									361 container
+										362 link Value: …, Boldstone Egyptian Palm I - Black And White Marble Effect Finish Wall Sculpture for wholesale by Boldstone Sculpture
+										363 button Save product to board
+										364 link £79.86 RRP £99.83 Boldstone Egyptian Palm I - Black And White Marble Effect Finish Wall Sculpture, Value: …
+										365 link Case of 1, Value: …
+									366 button Show more
+									367 progress indicator 34.09091
+									368 text Showing 60 out of 176 products
+								369 text The best selection of brands for your shop, all in one place
+								370 button Sign up to buy
+								371 link Sign up to sell, Value: …
+								372 container Company
+									373 text Company
+									374 content list
+										375 link About us, Value: …
+										376 link Newsroom, Value: …
+										377 link Careers, Value: …
+										378 link Affiliates, Value: …
+										379 link Blog, Value: …
+								380 container Explore
+									381 text Explore
+									382 content list
+										383 link Help centre, Value: …
+										384 link Open with Faire, Value: …
+										385 link Faire Markets, Value: …
+										386 link Sign up to sell, Value: …
+										387 link Point of sale integration, Value: …
+										388 link How Faire works, Value: …
+										389 link Large retailers, Value: …
+										390 link Refer a brand, Value: …
+								391 container Social media
+									392 content list
+										393 link Instagram, Value: …
+										394 link Facebook, Value: …
+										395 link Twitter, Value: …
+								396 container
+									397 text © 2026  Faire Wholesale, Inc.
+								398 content list
+									399 link Terms of Service, Value: …
+									400 link Privacy Policy, Value: …
+									401 link Cookie policy, Value: …
+									402 link IP policy, Value: …
+									403 link Accessibility Policy, Value: …
+									404 link Sitemap, Value: …
+									405 link Hub, Value: …
+			406 pop-up button Tab search
+			407 container
+				408 tab group
+					409 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+						410 button Close
+					411 tab (settable, boolean) Home – Faire, Value: off
+						412 button Close
+					413 tab (selected, settable, boolean) Boldstone Sculpture – Faire, Value: on
+						414 button Close
+			415 button New tab
+	416 close button
+	417 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	418 minimise button
+419 menu bar
+	420 Chrome
+	421 File
+	422 Edit
+	423 View
+	424 History
+	425 Bookmarks
+	426 Profiles
+	427 Tab
+	428 Window
+	429 Help
+
+The focused UI element is 26 HTML content Boldstone Sculpture – Faire, URL: …

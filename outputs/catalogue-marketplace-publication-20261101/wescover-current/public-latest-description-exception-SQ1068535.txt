@@ -1,0 +1,365 @@
+- link "Skip to main content":
+  - /url: "#main"
+- banner:
+  - link "homepage":
+    - /url: /
+  - combobox "Search for Items or Creators":
+    - generic: Search for Items or Creators
+    - searchbox "Search for Items or Creators"
+    - generic: 
+    - listbox "Search for Items or Creators"
+  - navigation:
+    - text: 
+    - list:
+      - button "Change region settings":
+        - img "United States"
+      - link "cart":
+        - /url: /cart
+        - generic: 
+      - link "inbox. Opens In New Tab.":
+        - /url: https://edit.wescover.com/creator/inbox
+        - generic: 
+      - link "saved":
+        - /url: /saved/items
+        - generic: 
+      - generic "toggle menu item":
+        - generic: Sally
+        - text: 
+  - link "New":
+    - /url: /items?%24orderBy=recent
+    - generic: New
+  - link "Furniture":
+    - /url: /items/Furniture
+    - generic: Furniture
+  - link "Lighting":
+    - /url: /items/Lighting
+    - generic: Lighting
+  - link "Art":
+    - /url: /items/Art & Wall Decor
+    - generic: Art
+  - link "Decor":
+    - /url: /items/Textiles
+    - generic: Decor
+  - link "Tableware":
+    - /url: /items/Tableware
+    - generic: Tableware
+  - generic: Outdoor
+  - link "Sale":
+    - /url: /sale
+    - generic: Sale
+  - link "Creators":
+    - /url: /creators
+    - generic: Creators
+  - link "Inspiration":
+    - /url: /inspiration
+    - generic: Inspiration
+  - button "Support"
+- main:
+  - list:
+    - link "Home":
+      - /url: /
+    - generic: 
+    - link "Items":
+      - /url: /items
+    - generic: 
+    - link "Art":
+      - /url: /items/Art & Wall Decor
+    - generic: 
+    - link "Wall Hangings":
+      - /url: /items/Art & Wall Decor/Wall Hangings
+    - generic: 
+    - link "wall sculpture":
+      - /url: /items/Art & Wall Decor/Wall Hangings/wall_sculpture
+  - generic: 
+  - text: Customizable
+  - button "Share":
+    - generic: 
+  - button "":
+    - generic: 
+  - generic: 
+  - img "Acanthus Bloom - White | Wall Sculpture in Wall Hangings by Boldstone"
+  - generic: 
+  - generic: 
+  - generic: Trade Member Offer Available
+  - link "Apply now":
+    - /url: /fortrade
+  - generic: 
+  - generic: Customize this piece
+  - button "Ask the Creator"
+  - img "Acanthus Bloom - White | Wall Sculpture in Wall Hangings by Boldstone"
+  - img "Acanthus Bloom - White | Wall Sculpture in Wall Hangings by Boldstone"
+  - img "Acanthus Bloom - White | Wall Sculpture in Wall Hangings by Boldstone"
+  - img "Acanthus Bloom - White | Wall Sculpture in Wall Hangings by Boldstone"
+  - img "Acanthus Bloom - White | Wall Sculpture in Wall Hangings by Boldstone"
+  - paragraph:
+    - text: Created and Sold by
+    - link "Boldstone":
+      - /url: /creator/boldstone
+      - img "Boldstone"
+  - heading "Acanthus Bloom - White - Wall Hangings" [level=1]
+  - paragraph:
+    - generic: Price $46
+    - generic: $46
+  - link " $ Unlock Trade Discount":
+    - /url: /fortrade
+    - generic: 
+    - text: $ Unlock Trade Discount
+  - generic: Quantity
+  - combobox "Quantity":
+    - option "1" [selected]
+    - option "2"
+    - option "3"
+    - option "4"
+    - option "5"
+    - option "6"
+    - option "7"
+    - option "8"
+    - option "9"
+    - option "10"
+    - option "11"
+    - option "12"
+    - option "13"
+    - option "14"
+    - option "15"
+    - option "16"
+    - option "17"
+    - option "18"
+    - option "19"
+    - option "20"
+    - option "21"
+    - option "22"
+    - option "23"
+    - option "24"
+    - option "25"
+    - option "26"
+    - option "27"
+    - option "28"
+    - option "29"
+    - option "30"
+    - option "31"
+    - option "32"
+    - option "33"
+    - option "34"
+    - option "35"
+    - option "36"
+    - option "37"
+    - option "38"
+    - option "39"
+    - option "40"
+    - option "41"
+    - option "42"
+    - option "43"
+    - option "44"
+    - option "45"
+  - button "Checkout"
+  - button "Add to Bag"
+  - generic: 
+  - text: Shipping rate finalized within 2 business days
+  - button " Request Custom piece":
+    - generic: 
+    - text: Request Custom piece
+  - button " Request Sample":
+    - generic: 
+    - text: Request Sample
+  - generic: Acanthus Bloom - White
+  - button "Checkout"
+  - button "Creation & Shipping ":
+    - generic: Creation & Shipping
+    - generic: 
+  - generic: 
+  - generic: "Creation: up to 2 weeks"
+  - generic: 
+  - generic: "Shipping: 2-5 days"
+  - generic: Shipping rates finalized within 2 business days of checkout. You will be asked to approve cost before payment
+  - generic: "Estimated Arrival: November 20, 2026"
+  - button "Impact ":
+    - generic: Impact
+    - generic: 
+  - generic: 
+  - paragraph: Handmade
+  - generic: 
+  - paragraph: Woman Owned
+  - generic: 
+  - paragraph: Sustainable
+  - generic: 
+  - paragraph: Upcycled Product
+  - generic: 
+  - paragraph: Made To Order
+  - generic: 
+  - paragraph: Natural Materials
+  - button "Dimensions & Weights ":
+    - generic: Dimensions & Weights
+    - generic: 
+  - button "Item details " [active]:
+    - generic: Item details
+    - generic: 
+  - button " Request more info":
+    - generic: 
+    - text: Request more info
+  - text: A single botanical form opens across this relief, with broad, flowing curves that give the flower its sculptural presence. The design keeps the details simple so that light and shadow can follow the contours.
+  - text: Think sunlit courtyard walls and the graceful lines of classical foliage, translated into a piece that feels at home in a modern space.
+  - text: The white finish keeps the focus on the form and its changing shadows.
+  - text: "Brand: Boldstone"
+  - text: "Product type: Wall sculpture"
+  - text: "Model: Acanthus Bloom - White (SQ1068535)"
+  - text: "Colour / appearance: Smooth, contoured white relief finish"
+  - text: "Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included."
+  - text: "Material: Made from a gypsum-based material."
+  - text: "Dimensions: 30 × 30 × 6 cm"
+  - text: "Weight: Approximately 4 kg per panel"
+  - text: "Use: Suitable for outdoor use and indoor display."
+  - text: "Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall."
+  - text: "Availability: Ready to dispatch"
+  - text: "Dispatch time: Within 10 working days. Delivery transit time is additional."
+  - text: "Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options."
+  - text: International shipping is quoted for your destination. Any displayed US shipping estimate is an indicative UPS list-rate budget based on provisional packaging; actual carrier quotes, packaging, artwork cover and import charges may differ. Estimated carrier transit is 2–5 working days after dispatch, subject to destination and customs.
+  - text: Read More
+  - generic: 
+  - paragraph:
+    - generic: "Category:"
+    - link "wall sculpture":
+      - /url: /items/Art & Wall Decor/Wall Hangings/wall_sculpture
+  - button "Creator policy ":
+    - generic: Creator policy
+    - generic: 
+  - button "Context & Credits ":
+    - generic: Context & Credits
+    - generic: 
+  - generic: Have more questions about this item?
+  - button "Ask the Creator"
+  - button "Request a phone call"
+- complementary:
+  - generic: You May Also Like
+  - searchbox "search"
+  - paragraph: Enter search term and tap the search icon to submit, or the cancel icon to clear the search box.
+  - button "Submit search":
+    - generic: 
+  - button "Natural Materials"
+  - button "Transitional"
+  - button "Flower"
+  - button "Handmade"
+  - heading [level=3]
+  - heading [level=3]
+  - heading [level=3]
+  - heading [level=3]
+- link "Boldstone":
+  - /url: /creator/boldstone
+  - img "Boldstone"
+- generic: Meet the Creator
+- heading "Boldstone" [level=2]:
+  - link "Boldstone":
+    - /url: /creator/boldstone
+- paragraph:
+  - link " Bath, United Kingdom":
+    - /url: /creator/boldstone
+    - generic: 
+    - text: Bath, United Kingdom
+- generic: Wescover creator since 2026
+- text: Pattern in nature, pared back to texture, light and shadow.
+- text: "I started Boldstone in 1998 out of a simple obsession with the patterns that turn up everywhere in nature - ripples left in rock, the curve of a wave just before it breaks, the shadow across a half moon, the spiral inside a shell. I pare those down to their boldest form and carve or cast each piece by hand, finishing them in marble stone patterns, gold leaf, verdigris on copper or hand-painted metallics so the surface reads differently as the light moves across it. Everything is handmade in studio: wall reliefs, sculptural furnishings, and commissions built for one particular wall, courtyard or room. Some of my favourite work has come out of those conversations - a piece for a Knightsbridge apartment, a garden at Chelsea, a 2.75m sculpture for a palace courtyard in Riyadh."
+- text: Read More
+- generic: 
+- button "Contact Me"
+- complementary:
+  - generic: More from this creator
+  - link "View All From This Creator":
+    - /url: /creator/boldstone
+    - generic: View All From This Creator
+- heading "Creator Reviews" [level=2]
+- heading "Share a review for Boldstone!" [level=2]
+- heading "Have you ordered from Boldstone before?" [level=3]
+- paragraph: Please take a few minutes to share your experience with other Wescover shoppers. Feedback is the best way to show appreciation for the great work that Creators do and really helps other buyers in the design community understand what to expect when working with them.
+- link "Review this Creator":
+  - /url: https://edit.wescover.com/reviews/new?maker=MSJZKJh9uMg
+- complementary:
+  - generic: Related Collections
+- complementary:
+  - generic: Related Categories
+- complementary:
+  - generic: Recently Viewed
+- contentinfo:
+  - generic: “
+  - paragraph
+  - paragraph: —————
+  - paragraph: Join 10K+ design pros and access unique, high-quality pieces by original creators, 100% risk-free. Discover the Wescover difference.
+  - generic: Our Company
+  - list:
+    - link "About Us":
+      - /url: /about
+    - link "The Wescover Promise":
+      - /url: /static/promise
+    - link "Returns & Refunds":
+      - /url: /static/returns-refunds
+    - link "Shipping Policy":
+      - /url: /static/shippolicy
+    - link "Contact Us":
+      - /url: mailto:communication@wescover.com
+    - link "FAQ":
+      - /url: /faq
+    - link "Sale":
+      - /url: /sale
+    - link "Blog":
+      - /url: /blog
+    - link "Wescover UK":
+      - /url: /uk
+    - link "Wescover IE":
+      - /url: /ie
+  - generic: Creators
+  - list:
+    - link "Creator Application":
+      - /url: /forcreators
+    - link "Creator Support":
+      - /url: mailto:communication@wescover.com
+  - generic: We accept
+  - img "visa"
+  - img "mastercard"
+  - img "amex"
+  - img "unionpay"
+  - img "jcb"
+  - img "discover"
+  - img "diners"
+  - generic: Trade
+  - list:
+    - link "Join the Trade Program":
+      - /url: /fortrade
+  - link "Gift Cards":
+    - /url: /p/s--PGIFTCRD1
+  - link "Accessibility Assistance":
+    - /url: /accessibility
+  - generic: Sign up for our newsletter.
+  - textbox "email":
+    - /placeholder: Enter your email
+  - button "Subscribe"
+  - button "Change region settings":
+    - img "United States"
+  - text: "| $ (USD)"
+  - link "© 2026 Wescover, Inc. (owned by Book An Artist Pty Ltd)":
+    - /url: https://bookanartist.co/?source=wescover
+  - link "Products Sitemap":
+    - /url: /products-sitemap
+  - link "Creators Sitemap":
+    - /url: /creators-sitemap
+  - link "Privacy Policy":
+    - /url: /static/privacy
+  - link "General Terms":
+    - /url: /static/generalterms
+  - paragraph: Regions
+  - link "instagram. Opens In New Tab.":
+    - /url: https://instagram.com/wescoverapp
+    - generic: 
+  - link "facebook. Opens In New Tab.":
+    - /url: https://www.facebook.com/wescoverapp/
+    - generic: 
+  - link "pinterest. Opens In New Tab.":
+    - /url: https://pinterest.com/wescoverapp
+    - generic: 
+  - link "linkedin. Opens In New Tab.":
+    - /url: https://linkedin.com/company/wescover
+    - generic: 
+  - link "angel. Opens In New Tab.":
+    - /url: https://angel.co/company/wescover
+    - generic: 
+  - link "tiktok. Opens In New Tab.":
+    - /url: https://www.tiktok.com/@wescover.app
+- iframe [id="intercom-frame"]
+- status

@@ -1,0 +1,361 @@
+- link "Business Home":
+  - /url: https://business.facebook.com/home/?business_id=2380586078685156
+  - img "Meta logo"
+- generic: Commerce Manager
+- combobox "Products for Boldstone Sculpture (103781478537396)":
+  - generic: Products for Boldstone Sculpture (103781478537396)
+- navigation "Navigation":
+  - list:
+    - link "Overview":
+      - /url: https://business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+    - generic: Overview
+    - button "Catalogue" [expanded]
+    - generic: Catalogue
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Products":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/products/?business_id=2380586078685156
+      - generic: Products
+      - link "Sets":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/sets/?business_id=2380586078685156
+      - generic: Sets
+      - link "Data sources":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/data_sources/?business_id=2380586078685156
+      - generic: Data sources
+      - link "Events":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/events/?business_id=2380586078685156
+      - generic: Events
+    - link "Image templates":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/templates/?business_id=2380586078685156
+    - generic: Image templates
+    - link "Product video creator":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/video_template_hub/?business_id=2380586078685156
+    - generic: Product video creator
+    - link "Shops":
+      - /url: https://business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+    - generic: Shops
+    - button "Promotions"
+    - generic: Promotions
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Offers":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/offers/?business_id=2380586078685156
+      - generic: Offers
+      - link "Marketing settings":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/mailing_list/?business_id=2380586078685156
+      - generic: Marketing settings
+    - button "Insights"
+    - generic: Insights
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Overview":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/overview/?business_id=2380586078685156
+      - generic: Overview
+      - link "Catalogue":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/products/?business_id=2380586078685156
+      - generic: Catalogue
+      - link "Performance":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/perf/?business_id=2380586078685156
+      - generic: Performance
+      - link "Audience":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/audience/?business_id=2380586078685156
+      - generic: Audience
+      - link "Tagged content":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/product_tagged_content/?business_id=2380586078685156
+      - generic: Tagged content
+      - link "Awareness":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/entry_points/?business_id=2380586078685156
+      - generic: Awareness
+    - link "To-do list":
+      - /url: https://business.facebook.com/commerce/326960679342026/to_do_list/?business_id=2380586078685156
+    - generic: To-do list
+    - link "Settings":
+      - /url: https://business.facebook.com/commerce/326960679342026/settings/general/?business_id=2380586078685156
+    - generic: Settings
+- navigation "all tools":
+  - list:
+    - button "All tools":
+    - generic: All tools
+- separator
+- list:
+  - button "Meta AI business assistant"
+  - generic: Meta AI business assistant
+- button "Help":
+- generic: Help
+- link "Business settings":
+  - /url: https://business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+  - generic: Business settings
+- button "Business notifications":
+  - generic: Business notifications
+- button:
+  - generic: "6"
+- button "Search":
+  - generic: Search
+- button "Collapse":
+  - generic: Collapse
+- heading "Products" [level=1]
+- text: View and manage products in your catalogue. Quickly find specific products using search or filters.
+- link "Learn how to view products in your catalogue":
+  - /url: https://www.facebook.com/business/help/1406482412767183
+- toolbar:
+  - button "Create campaign" [disabled]:
+    - generic: Create campaign
+  - button "Add":
+    - generic: Add
+- tablist:
+  - tab "All products" [selected]:
+    - generic: All products
+  - tab "Actions":
+    - generic: Actions
+    - generic: "1"
+    - status: Number of actions
+- generic: Describe what you're looking for
+- textbox "Describe what you're looking for": e491e0bb-37f8-48b7-8723-6866eed6dfb9
+- button "Clear":
+- button "Toggle filter details":
+  - generic: Filters applied
+- button "Edit" [disabled]:
+  - generic: Edit
+- button "Open Drop-down" [disabled]:
+  - generic: Open Drop-down
+- button "Create set" [disabled]:
+  - generic: Create set
+- button "Add filter":
+  - generic: Add filter
+- button "Product is any of these E491e0bb-37f8-48b7-8723-6866eed6dfb9":
+  - generic: Product is any of these E491e0bb-37f8-48b7-8723-6866eed6dfb9
+- button "Remove filter"
+- generic: Columns
+- combobox "Columns":
+  - generic: Columns
+- button "Analyse":
+  - generic: Analyse
+- treegrid "Commerce Manager products table":
+  - rowgroup:
+    - row "Select all Name Status Variants Availability Price Data sources Last updated":
+      - columnheader
+      - columnheader "Select all":
+        - checkbox "Select all"
+      - columnheader "Name":
+        - heading "Name" [level=4]
+      - columnheader "Status":
+        - heading "Status" [level=4]
+      - columnheader "Variants":
+        - heading "Variants" [level=4]
+      - columnheader "Availability":
+        - heading "Availability" [level=4]
+      - columnheader "Price":
+        - heading "Price" [level=4]
+      - columnheader "Data sources":
+        - heading "Data sources" [level=4]
+      - columnheader "Last updated":
+        - heading "Last updated" [level=4]
+      - columnheader:
+        - heading [level=4]
+  - rowgroup:
+    - 'row "Select Lava Moonshell II - White Lava Moonshell II - White Content ID: e491e0bb-37f8-48b7-8723-6866eed6dfb9 Eligible — In stock £87.60 Squarespace Integration Feed + Wall Sculptures - catalogue gallery images 31 Oct at 18:47 by Wall Sculptures - catalogue gallery images Actions" [level=1]':
+      - gridcell
+      - gridcell "Select Lava Moonshell II - White":
+        - checkbox "Select Lava Moonshell II - White"
+      - 'gridcell "Lava Moonshell II - White Content ID: e491e0bb-37f8-48b7-8723-6866eed6dfb9"':
+        - link "Lava Moonshell II - White" [active]:
+          - /url: "#"
+        - generic: "Content ID: e491e0bb-37f8-48b7-8723-6866eed6dfb9"
+      - gridcell "Eligible":
+        - generic: Eligible
+      - gridcell "—":
+        - generic: —
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "£87.60":
+        - generic: £87.60
+      - gridcell "Squarespace Integration Feed + Wall Sculptures - catalogue gallery images":
+        - link "Squarespace Integration Feed":
+          - /url: /commerce/catalogs/1638438493182970/data_sources/1008534278476350/
+        - text: +
+        - link "Wall Sculptures - catalogue gallery images":
+          - /url: /commerce/catalogs/1638438493182970/data_sources/1699005968459486/
+      - gridcell "31 Oct at 18:47 by Wall Sculptures - catalogue gallery images":
+        - generic: 31 Oct at 18:47
+        - text: by
+        - link "Wall Sculptures - catalogue gallery images":
+          - /url: /commerce/catalogs/1638438493182970/data_sources/1699005968459486/
+      - gridcell "Actions":
+        - button "Actions":
+          - generic: Actions
+- generic: 1 product matches your search or filters
+- generic: Page 1 of 1
+- generic: Rows per page
+- combobox "Rows per page 15":
+  - generic: "15"
+- button "Previous" [disabled]:
+  - generic: Previous
+- button "Next" [disabled]:
+  - generic: Next
+- button "Edit product":
+  - generic: Edit product
+- button "Open Drop-down":
+  - generic: Open Drop-down
+- button "Create Variant":
+  - generic: Create Variant
+- button "Close":
+  - generic: Close
+- separator
+- heading "Lava Moonshell II - White" [level=3]
+- generic: "Content ID: e491e0bb-37f8-48b7-8723-6866eed6dfb9"
+- generic: "Status:"
+- generic: Eligible
+- heading "Data sources" [level=4]
+- link "Squarespace Integration Feed":
+  - /url: /commerce/catalogs/1638438493182970/data_sources/1008534278476350/
+- tablist:
+  - tab "Detail" [selected]:
+    - generic: Detail
+  - tab "Media":
+    - generic: Media
+- separator
+- heading [level=3]: Lava Moonshell II - White
+- generic: "Content ID: e491e0bb-37f8-48b7-8723-6866eed6dfb9"
+- generic: "Status:"
+- generic: Eligible
+- button:
+  - generic: Edit product
+- button:
+  - generic: Open Drop-down
+- button:
+  - generic: Create Variant
+- button:
+  - generic: Close
+- tablist:
+  - tab [selected]:
+    - generic: Detail
+  - tab:
+    - generic: Media
+- separator
+- grid "Product fields lineage":
+  - rowgroup:
+    - row "Attribute Details":
+      - columnheader "Attribute":
+        - heading "Attribute" [level=4]
+      - columnheader "Details":
+        - heading "Details" [level=4]
+  - rowgroup:
+    - row "Partner content Missing":
+      - gridcell "Partner content":
+        - generic: Partner content
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Title Lava Moonshell II - White":
+      - gridcell "Title":
+        - generic: Title
+      - gridcell "Lava Moonshell II - White":
+        - generic: Lava Moonshell II - White
+    - row "Price £87.60":
+      - gridcell "Price":
+        - generic: Price
+      - gridcell "£87.60":
+        - generic: £87.60
+    - row "Sale price Missing":
+      - gridcell "Sale price":
+        - generic: Sale price
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Product link https://boldstonesculpture.com/buy/p/moonshell-lava-2-white":
+      - gridcell "Product link":
+        - generic: Product link
+      - gridcell "https://boldstonesculpture.com/buy/p/moonshell-lava-2-white":
+        - link "https://boldstonesculpture.com/buy/p/moonshell-lava-2-white":
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fboldstonesculpture.com%2Fbuy%2Fp%2Fmoonshell-lava-2-white%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgNicmlkETFBRno0UHJoNGplMmNDNlRZc3J0YwZhcHBfaWQPNDM2NzYxNzc5NzQ0NjIwAAEfxuFekGsrEd60nJXpAFLRa0ikPK5yKl_Jwk8aPXFby_X9QlopNgUA1fPG_ko_aem_ain-TByrrZ5FGMPuE32Fgg&h=AUCsBQGMiKH408K-k5CIVWLT8_TOku6k9QDOVz8p7TovcXd_KYizbWNQxH15I3LOJ6kXTxu15oZt5G5pziioHzBM9poVLVfXEyNEoapZTnk5zrWqcRl5tUP1GgHH-4Wv2C1QyGr8DzE
+    - row:
+      - gridcell "Description":
+        - generic: Description
+      - gridcell:
+        - generic: "Shell-like movement meets the expressive texture of a lunar landscape. The relief balances curling contours with surface detail, bringing both rhythm and a sense of depth to the wall.It suggests the meeting of shoreline and imagined volcanic terrain: familiar natural forms seen in a new way.The white finish keeps the focus on the form and its changing shadows.Dimensions: 55 × 55 cm; approximately 5–8 cm deepWeight: Approximately 8–16 kgUse: Suitable for outdoor use and indoor display.Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.Availability: Made to orderProduction lead time: 1–2 weeksDelivery: Delivery is quoted separately. Please contact us for UK and international delivery options.Room settings and group arrangements are illustrative; this listing is for the individual sculpture described above."
+    - row "Availability In stock":
+      - gridcell "Availability":
+        - generic: Availability
+      - gridcell "In stock":
+        - generic: In stock
+    - row "Product group ID 6ae51a727afbe4486b5ef7d7":
+      - gridcell "Product group ID":
+        - generic: Product group ID
+      - gridcell "6ae51a727afbe4486b5ef7d7":
+        - generic: 6ae51a727afbe4486b5ef7d7
+    - row "Google product category Missing":
+      - gridcell "Google product category":
+        - generic: Google product category
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Size chart Missing":
+      - gridcell "Size chart":
+        - generic: Size chart
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Live special price Missing":
+      - gridcell "Live special price":
+        - generic: Live special price
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Condition new":
+      - gridcell "Condition":
+        - generic: Condition
+      - gridcell "new":
+        - generic: new
+    - row "Brand boldstone":
+      - gridcell "Brand":
+        - generic: Brand
+      - gridcell "boldstone":
+        - generic: boldstone
+    - row "Size Missing":
+      - gridcell "Size":
+        - generic: Size
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Images Item 1 of 4 Item 2 of 4 Item 3 of 4 Item 4 of 4 Forwards arrow Go to page 1 of 2 Go to page 2 of 2":
+      - gridcell "Images":
+        - generic: Images
+      - gridcell "Item 1 of 4 Item 2 of 4 Item 3 of 4 Item 4 of 4 Forwards arrow Go to page 1 of 2 Go to page 2 of 2":
+        - group "Item 1 of 4":
+          - link "Image URL":
+            - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-bos5-1.xx.fbcdn.net%2Fv%2Ft45.5328-4%2F871280079_1137041549281711_3716862289020456234_n.jpg%3Fstp%3Ddst-jpg_p960x960_tt6%26_nc_cat%3D104%26ccb%3D1-7%26_nc_sid%3D247b10%26_nc_ohc%3Dj04kRTPOuiwQ7kNvwFOUFmk%26_nc_oc%3DAdrZRNfH0_YxYvsynNZwfrmxFL-oc9TcSs3dUVG-ucZxyfpwfNWD8pwWtGfhc8X6Tfg%26_nc_zt%3D23%26_nc_ht%3Dscontent-bos5-1.xx%26_nc_gid%3DfgeCuP9BDEPA4_ldXIPu2Q%26_nc_ss%3D7b2a8%26oh%3D00_AQQOETc2JXdzF0TT161NVPtOUh9cfPoFPS2qxkzlUTKO_Q%26oe%3D6AEC0A94&h=AUCsBQGMiKH408K-k5CIVWLT8_TOku6k9QDOVz8p7TovcXd_KYizbWNQxH15I3LOJ6kXTxu15oZt5G5pziioHzBM9poVLVfXEyNEoapZTnk5zrWqcRl5tUP1GgHH-4Wv2C1QyGr8DzE
+          - generic: 960 × 960
+        - group "Item 2 of 4":
+          - link "Image URL":
+            - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-bos5-1.xx.fbcdn.net%2Fv%2Ft45.5328-4%2F884293388_1761192925175463_7754817903162580387_n.jpg%3Fstp%3Ddst-jpg_s960x960_tt6%26_nc_cat%3D100%26ccb%3D1-7%26_nc_sid%3D247b10%26_nc_ohc%3D_08lW3PuIz0Q7kNvwFBccvt%26_nc_oc%3DAdrKq3y66lT9Sswt91Clk_oKTD5GBqkP9B47qL7KyVu9nvRabjhJUJPE-_HoqLlMgAo%26_nc_zt%3D23%26_nc_ht%3Dscontent-bos5-1.xx%26_nc_gid%3DfgeCuP9BDEPA4_ldXIPu2Q%26_nc_ss%3D7b2a8%26oh%3D00_AQSwnaPd3H-vWTmLhuE6DuLNRNKkcLQM_VzLTcap-6hywA%26oe%3D6AEC2897&h=AUCsBQGMiKH408K-k5CIVWLT8_TOku6k9QDOVz8p7TovcXd_KYizbWNQxH15I3LOJ6kXTxu15oZt5G5pziioHzBM9poVLVfXEyNEoapZTnk5zrWqcRl5tUP1GgHH-4Wv2C1QyGr8DzE
+          - generic: 960 × 618
+        - group "Item 3 of 4":
+          - link "Image URL":
+            - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-bos5-1.xx.fbcdn.net%2Fv%2Ft45.5328-4%2F874473334_1733556678160160_1392829608845006400_n.jpg%3Fstp%3Ddst-jpg_p640x640_tt6%26_nc_cat%3D102%26ccb%3D1-7%26_nc_sid%3D247b10%26_nc_ohc%3Dmhs5qYa7flMQ7kNvwHJJUeY%26_nc_oc%3DAdqTXiYUH8ylkUON3LAagc6y8Mm8WzOSFdMZzCrZYI3NWR5N00FlbGGt_bN2qkhWEYU%26_nc_zt%3D23%26_nc_ht%3Dscontent-bos5-1.xx%26_nc_gid%3DfgeCuP9BDEPA4_ldXIPu2Q%26_nc_ss%3D7b2a8%26oh%3D00_AQRmWtWU7tu8y5LMNVdDgEgNbiVheK14Hlhe7nG4RC_C_A%26oe%3D6AEBF4CB&h=AUCsBQGMiKH408K-k5CIVWLT8_TOku6k9QDOVz8p7TovcXd_KYizbWNQxH15I3LOJ6kXTxu15oZt5G5pziioHzBM9poVLVfXEyNEoapZTnk5zrWqcRl5tUP1GgHH-4Wv2C1QyGr8DzE
+          - generic: 960 × 640
+        - group "Item 4 of 4":
+          - link "Image URL":
+            - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-bos5-1.xx.fbcdn.net%2Fv%2Ft45.5328-4%2F881097607_2260469511571947_4637370849176139202_n.jpg%3Fstp%3Ddst-jpg_p640x640_tt6%26_nc_cat%3D107%26ccb%3D1-7%26_nc_sid%3D247b10%26_nc_ohc%3D8Q5II0jZl38Q7kNvwHWSo7p%26_nc_oc%3DAdq_XlxMMjWtlI7-GUnUXonp8RCIuuFoOw4adxi4kHPaigFi-MbkAGvsQRm9UAtdFJQ%26_nc_zt%3D23%26_nc_ht%3Dscontent-bos5-1.xx%26_nc_gid%3DfgeCuP9BDEPA4_ldXIPu2Q%26_nc_ss%3D7b2a8%26oh%3D00_AQQKvRgkVkQ33flWuvNhdClPVm7Y-c3MEoKjNOJxBArMiw%26oe%3D6AEC16E6&h=AUCsBQGMiKH408K-k5CIVWLT8_TOku6k9QDOVz8p7TovcXd_KYizbWNQxH15I3LOJ6kXTxu15oZt5G5pziioHzBM9poVLVfXEyNEoapZTnk5zrWqcRl5tUP1GgHH-4Wv2C1QyGr8DzE
+          - generic: 960 × 640
+        - button "Forwards arrow":
+        - button "Go to page 1 of 2"
+        - button "Go to page 2 of 2"
+    - row "Videos Missing":
+      - gridcell "Videos":
+        - generic: Videos
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Backgrounds Missing":
+      - gridcell "Backgrounds":
+        - generic: Backgrounds
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Models Missing":
+      - gridcell "Models":
+        - generic: Models
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Shop Shown in Boldstone Sculpture":
+      - gridcell "Shop":
+        - generic: Shop
+      - gridcell "Shown in Boldstone Sculpture":
+        - generic: Shown in Boldstone Sculpture
+- button "Show more attributes":
+  - generic: Show more attributes

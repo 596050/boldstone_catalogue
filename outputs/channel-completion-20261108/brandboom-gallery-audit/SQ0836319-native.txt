@@ -1,0 +1,377 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: Boldstone Dune Ripple I - Verdigris Finish Wall sculpture, Placeholder: Search Products
+									48 link
+								49 button 1
+									50 container
+										51 Tick box 1
+									52 text 1
+								53 container
+									54 text 6  /  6
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container
+										64 Unlabelled image /0003470579314E7C_M.avif
+										65 text Boldstone Dune Ripple II - Verdigris and Copper Finish Wall sculpture
+										66 text SQ0059342 VERDIGRIS/COPPER-EFFECT FINISH
+										67 container
+											68 text 77.74  GBP
+									69 container
+										70 Unlabelled image /00034705779C56A3_M.avif
+										71 text Boldstone Dune Ripple II - Copper with Verdigris Accents Finish Wall sculpture
+										72 text BOLD-6405184B86EB COPPER AND PARTIAL VERDIGRIS EFFECTS
+										73 container
+											74 text 77.74  GBP
+									75 container
+										76 Unlabelled image /0003470576908045_M.avif
+										77 text Boldstone Dune Ripple II - Bronze and Verdigris Finish Wall sculpture
+										78 text BOLD-6F3C6CD908A0 BRONZE AND VERDIGRIS EFFECTS
+										79 container
+											80 text 75.78  GBP
+									81 container
+										82 Unlabelled image /0003470575711ED5_M.avif
+										83 text Boldstone Dune Ripple I - Verdigris and Rust Finish Wall sculpture
+										84 text VDR-1-35.20 VERDIGRIS, COPPER AND RUST EFFECTS
+										85 container
+											86 text 75.40  GBP
+									87 container Boldstone Dune Ripple I - Verdigris Finish Wall sculpture SQ0836319 FAUX COPPER/VERDIGRIS FINISH 77.74 GBP
+										88 container
+											89 Unlabelled image /000347057499A90A_M.avif
+											90 text Boldstone Dune Ripple I - Verdigris Finish Wall sculpture
+											91 text SQ0836319 FAUX COPPER/VERDIGRIS FINISH
+											92 container
+												93 text 77.74  GBP
+									94 container
+										95 Unlabelled image /00034705739CA72B_M.avif
+										96 text Boldstone Dune Ripple I - Blue Verdigris and Bronze Finish Wall sculpture
+										97 text BOLD-AF88EAA8EBC0 BLUE-GREEN PATINA AND BRONZE-EFFECT RIDGES
+										98 container
+											99 text 73.53  GBP
+							100 container
+								101 content list
+									102 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								103 container
+									104 heading Presentations, Value: 5
+										105 text Presentations
+									106 button New
+									107 content list
+										108 link ALL, Value: manage.brandboom.com/products/s/111089#
+										109 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									110 container
+										111 link
+											112 image
+										113 search text field (settable) Search Presentations
+										114 link
+											115 image
+									116 container
+										117 text Wall Sculptures - 50 Preview
+										118 link Edit Name
+											119 image
+										120 link Duplicate
+											121 image
+										122 text GBP
+										123 link
+											124 image
+								125 heading Ship Windows, Value: 5
+									126 text Ship Windows
+								127 content list
+									128 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									129 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								130 text No active ship windows
+							131 container
+								132 button Cancel
+								133 button Select All
+								134 text 1 Item
+								135 button Search Order
+							136 link Reset
+								137 text Reset
+							138 button Apply
+							139 text PRODUCT STATUS
+							140 text Active
+							141 text Inactive
+							142 text Archived
+							143 text Corrupted
+							144 text No Images
+							145 text SORT BY
+							146 pop-up button Newest First
+								147 (selected) Newest First
+							148 text SHIP DATE RANGE
+							149 container
+								150 image
+								151 text field (settable) Click to select range
+							152 text No Date Range
+							153 text CREATE DATE RANGE
+							154 container
+								155 image
+								156 text field (settable) Click to select range
+							157 text SIZES
+							158 text field (settable) S, M, L
+							159 text VENDORS
+							160 text Boldstone
+							161 text TYPES
+							162 link
+								163 image
+							164 text No Types
+							165 text Home Decor
+							166 text Mens
+							167 text Womens
+							168 text CATEGORIES
+							169 link
+								170 image
+							171 link
+								172 image
+							173 text No Categories
+							174 text Sweater
+							175 text Wall Sculpture
+							176 text SEASONS
+							177 link
+								178 image
+							179 link
+								180 image
+							181 text No Seasons
+							182 text Year-round
+							183 container
+								184 container
+									185 Tick box Create another, Value: 0
+									186 text Create another
+								187 button Save
+								188 container
+									189 Unlabelled image /000347057499A90A_M.avif
+									190 container
+										191 image /000347057499A90A_S.avif
+										192 button STANDARD
+										193 image /000347057506F3F2_S.avif
+										194 button STANDARD
+										195 image /000347057514ED64_S.avif
+										196 button STANDARD
+										197 image /000347057523E918_S.avif
+										198 button STANDARD
+										199 image /00034705753971B0_S.avif
+										200 button STANDARD
+										201 image /000347057542364D_S.avif
+										202 button STANDARD
+										203 image /00034705755761CE_S.avif
+										204 button STANDARD
+										205 image /0003470575637F4F_S.avif
+										206 button STANDARD
+										207 image
+										208 image
+									209 image
+									210 text 8 / Unlimited
+									211 image
+									212 text 0 / 1
+									213 text Drag to reorder
+									214 container
+										215 text Style ID *
+										216 text SQ0836319
+									217 container
+										218 text Options
+										219 link Faux copper/verdigris finish
+											220 text Faux copper/verdigris finish
+									221 container
+										222 text Sizes
+										223 text One sculpture
+									224 text Barcode
+									225 container
+										226 button
+										227 text field (settable)
+									228 text Name
+									229 text field (settable) Boldstone Dune Ripple I - Verdigris Finish Wall sculpture
+									230 container Price
+										231 container
+											232 text Price
+											233 text field (settable) Value: 77.74, Placeholder: Enter
+									234 container Retail
+										235 container
+											236 text Retail
+											237 text field (settable) Value: 0.00, Placeholder: Enter
+									238 text Qty Min
+									239 text field (settable) 1
+									240 text Vendor
+									241 text field (settable) Boldstone
+									242 text Type
+									243 text field (settable) Home Decor
+									244 text Category
+									245 text field (settable) Wall Sculpture
+									246 text Taxonomy
+									247 text field (settable) Value: Home Decor / Wall Decor / Wall Art, Placeholder: Select
+									248 text Season
+									249 text field (settable) Year-round
+									250 text Ship Date
+									251 text field (settable)
+									252 container
+										253 text HS Code
+										254 text field (settable) HS Code
+									255 container Country Of Origin
+										256 container
+											257 text Country Of Origin
+											258 button -
+									259 container
+										260 text Description
+										261 container
+											262 text Rippling contours recall the patterns left by wind and water across sand. The relief turns that fleeting natural rhythm into a sculptural composition, with highlights and shadows following every change of direction.
+											263 text Think of a shoreline at low tide, when the smallest ridges become a landscape of their own.
+											264 text A verdigris-effect finish adds sea-green colour and a weathered visual character.
+											265 text Companion pieces: This is one piece of a coordinating pair with Dune Ripple II. Companion sculptures are sold separately; this listing is for one sculpture only.
+											266 text Brand: Boldstone
+											267 text Product type: Wall sculpture
+											268 text Model: Dune Ripple I - Verdigris Finish (SQ0836319)
+											269 text Colour / appearance: Faux copper/verdigris finish
+											270 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											271 text Material: Made from a gypsum-based material.
+											272 text Surface effect: A decorative surface effect is applied to create the finish shown. Each piece is handmade. The surface-effect pattern will vary and will differ from the photographs.
+											273 text Dimensions: 35 cm high × 21 cm wide × 6 cm deep
+											274 text Weight: Approximately 3–5 kg
+											275 text Use: Suitable for outdoor use and indoor display.
+											276 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											277 text Availability: Ready to dispatch
+											278 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											279 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											280 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							281 link
+								282 image
+							283 container
+								284 content list
+									285 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									286 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								287 container
+									288 button Upload Images
+									289 button
+									290 button
+									291 button
+								292 container
+									293 Unlabelled image /000347368438D172_S.avif
+									294 text file.jpg
+									295 Unlabelled image /00011059388E43A7_S.avif
+									296 text toys-dinosaur
+									297 Unlabelled image /00011059387A69BA_S.avif
+									298 text baby-kidswear-t
+									299 Unlabelled image /000110593863557B_S.avif
+									300 text pet-sticks
+									301 Unlabelled image /00011059385C1D4E_S.avif
+									302 text apparel-t-shirt
+									303 Unlabelled image /00011059384494BB_S.avif
+									304 text footwear-shoes
+									305 Unlabelled image /000110593837D96A_S.avif
+									306 text beauty-cream
+									307 Unlabelled image /00011059382B4683_S.avif
+									308 text home-pitcher
+									309 Unlabelled image /00007087863E986B_S.avif
+									310 text BOOM1111
+									311 Unlabelled image /0000022409830BD3_S.avif
+									312 text BOOM1830
+									313 Unlabelled image /00000224097C30D6_S.avif
+									314 text BOOM1705
+									315 Unlabelled image /00000224096AD0BE_S.avif
+									316 text BOOM1100
+							317 button Close
+							318 text Search Products
+							319 button Scan barcodes
+							320 container
+								321 link
+									322 image
+								323 search text field (settable) Search for Products
+							324 text RESULTS
+							325 button Open Intercom Messenger
+			326 pop-up button Tab search
+			327 container
+				328 tab group
+					329 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					330 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					331 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					332 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					333 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					334 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					335 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					336 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					337 tab (settable, boolean) SEO opportunity audit, Value: off
+					338 tab group  group ✅Claude – 2 Tabs, •  Inbox (113) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					339 tab (settable, boolean) Value: off, Inbox (113) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1.1 GB
+					340 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					341 tab (settable, boolean) Drafts (1,333) - tppricet@gmail.com - Gmail, Value: off
+					342 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					343 tab (settable, boolean) Bookmarks, Value: off
+					344 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					345 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					346 tab (settable, boolean) Boldstone Sculpture | Wall Sculptures - 50 Preview, Value: off
+					347 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					348 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						349 button Close
+					350 tab (settable, boolean) 000347063570B5C6_M.avif (600×600), Value: off
+			351 button New tab
+	352 close button
+	353 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	354 minimise button
+355 menu bar
+	356 Chrome
+	357 File
+	358 Edit
+	359 View
+	360 History
+	361 Bookmarks
+	362 Profiles
+	363 Tab
+	364 Window
+	365 Help
+
+The focused UI element is 87 container Boldstone Dune Ripple I - Verdigris Finish Wall sculpture SQ0836319 FAUX COPPER/VERDIGRIS FINISH 77.74 GBP

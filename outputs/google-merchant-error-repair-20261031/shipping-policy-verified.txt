@@ -1,0 +1,227 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Navigation menu" [expanded]:
+    - img: menu
+  - link "Merchant Center home":
+    - /url: /mc/overview?a=5664655454&authuser=1
+    - img "Merchant Center home"
+  - dialog "Search":
+    - img: search
+    - textbox "Search Merchant Center"
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone Sculpture, 5664655454"':
+    - generic: Boldstone Sculpture
+    - generic: "5664655454"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- navigation:
+  - tree "Navigation":
+    - treeitem "Overview" [level=1]:
+      - img: dashboard
+      - generic: Overview
+    - treeitem "Notifications 7" [level=1]:
+      - img: notifications
+      - generic: Notifications
+      - generic: "7"
+    - treeitem "Products & store" [expanded] [level=1]:
+      - img: inventory_2
+      - generic: Products & store
+      - img: arrow_drop_down
+      - treeitem "Products" [level=2]:
+        - generic: Products
+      - treeitem "Shipping and returns" [level=2]:
+        - generic: Shipping and returns
+      - treeitem "Store quality" [level=2]:
+        - generic: Store quality
+    - treeitem "Creative content" [level=1]:
+      - img: brush_spark
+      - generic: Creative content
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Product Studio
+      - treeitem [disabled] [level=2]:
+        - generic: Video assets
+    - treeitem "Marketing" [level=1]:
+      - img: campaign
+      - generic: Marketing
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Ad campaigns
+      - treeitem [disabled] [level=2]:
+        - generic: Marketing methods
+    - treeitem "Analytics" [level=1]:
+      - img: timeline
+      - generic: Analytics
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Summary
+      - treeitem [disabled] [level=2]:
+        - generic: Products
+      - treeitem [disabled] [level=2]:
+        - generic: Online store
+    - treeitem "Settings" [expanded] [level=1]:
+      - img: settings
+      - generic: Settings
+      - img: arrow_drop_down
+      - treeitem "General" [level=2]:
+        - generic: General
+      - treeitem "Business info" [level=2]:
+        - generic: Business info
+      - treeitem "Data sources" [level=2]:
+        - generic: Data sources
+      - treeitem "Add-ons" [level=2]:
+        - generic: Add-ons
+      - treeitem "Access and services" [level=2]:
+        - generic: Access and services
+- heading "Shipping and returns" [level=1]
+- tablist:
+  - tab "Shipping policies" [selected]:
+    - generic: Shipping policies
+  - tab "Return policies":
+    - generic: Return policies
+  - tab "Analytics":
+    - generic: Analytics
+- main:
+  - heading "Next steps, 1 out of 3 completed" [level=2]:
+    - button "Next steps, 1 out of 3 completed" [expanded]:
+      - generic "Next steps, 1 out of 3 completed":
+        - paragraph: Next steps
+        - paragraph: 1 out of 3 completed
+        - progressbar "active progress"
+      - paragraph
+      - img: expand_less
+  - 'article "Step 1 of 3. Completed step: Add default shipping policy for United Kingdom. Customers will see one default shipping speed and cost coverage for everything you sell"':
+    - img "Step complete": check_circle_filled
+    - heading "Add default shipping policy for United Kingdom" [level=3]
+    - paragraph: Customers will see one default shipping speed and cost coverage for everything you sell
+  - 'article "Step 2 of 3. Incomplete step: Add a default shipping policy for remaining countries. To show products to customers in all the countries you sell in, add your shipping information for the following countries: United States"':
+    - img "Step incomplete": radio_button_unchecked
+    - heading "Add a default shipping policy for remaining countries" [level=3]
+    - paragraph: "To show products to customers in all the countries you sell in, add your shipping information for the following countries: United States"
+    - button "Add more shipping":
+      - generic: Add more shipping
+    - button "More options for Add a default shipping policy for remaining countries":
+      - img: more_vert
+  - 'article "Step 3 of 3. Incomplete step: Add expedited shipping policy. Showing customers a faster shipping speed can help drive clicks, especially during the holidays"':
+    - img "Step incomplete": radio_button_unchecked
+    - heading "Add expedited shipping policy" [level=3]
+    - paragraph: Showing customers a faster shipping speed can help drive clicks, especially during the holidays
+    - button "Add expedited delivery":
+      - generic: Add expedited delivery
+    - button "More options for Add expedited shipping policy":
+      - img: more_vert
+  - button "Dismiss":
+    - generic: Dismiss
+  - heading "Shipping policies" [level=2]
+  - button "Add shipping policy":
+    - generic: Add shipping policy
+  - grid "Shipping Policies":
+    - row "Visibility Status Name Cost Delivery type Countries Products Actions":
+      - columnheader "Visibility":
+        - button:
+          - img: expand_more
+        - text: Visibility
+      - columnheader "Status"
+      - columnheader "Name"
+      - columnheader "Cost"
+      - columnheader "Delivery type"
+      - columnheader "Countries"
+      - columnheader "Products"
+      - columnheader "Actions"
+    - row "Collapse row Edit this Visibility, currently Show on Google Complete Shipping service name not available Weight 7 - 13 days United Kingdom All Edit shipping service Delete shipping service":
+      - gridcell "Collapse row Edit this Visibility, currently Show on Google":
+        - button "Collapse row" [expanded] [active]:
+          - img "Collapse row": expand_more
+        - img: check_circle_filled
+        - button "Edit this Visibility, currently Show on Google"
+      - gridcell "Complete":
+        - generic: Complete
+      - gridcell "Shipping service name not available":
+        - generic: Shipping service name not available
+      - gridcell "Weight":
+        - generic: Weight
+      - gridcell "7 - 13 days":
+        - generic: 7 - 13 days
+      - gridcell "United Kingdom":
+        - generic: United Kingdom
+      - gridcell "All":
+        - generic: All
+      - gridcell "Edit shipping service Delete shipping service":
+        - button "Edit shipping service":
+          - img: edit
+        - button "Delete shipping service":
+          - img: delete
+    - row "Shipping service details":
+      - gridcell "Shipping service details":
+        - table "Shipping service details":
+          - rowgroup:
+            - row "Countries Countries GB":
+              - rowheader "Countries"
+              - cell "Countries GB":
+                - generic: Countries
+                - generic: GB
+            - row "Products Applies to All products Product count 475 100.00%":
+              - rowheader "Products"
+              - cell "Applies to All products Product count 475 100.00%":
+                - generic: Applies to
+                - generic: All products
+                - generic: Product count
+                - generic: "475"
+                - generic: 100.00%
+            - row "Delivery Time Total delivery time 7 - 13 business days Source Manual Details about delivery time":
+              - rowheader "Delivery Time"
+              - cell "Total delivery time 7 - 13 business days Source Manual Details about delivery time":
+                - generic: Total delivery time
+                - generic: 7 - 13 business days
+                - generic: Source
+                - generic: Manual
+                - link "Details about delivery time":
+                  - /url: /mc/shipping/services/settings?a=5664655454&serviceId=1&shippingService=regular&step=delivery&authuser=1
+                  - text: Details
+            - row "Shipping Cost Cost Based on weight Free shipping over - Currency GBP(£) British Pound No shipping under - Details about shipping cost":
+              - rowheader "Shipping Cost"
+              - cell "Cost Based on weight Free shipping over - Currency GBP(£) British Pound No shipping under - Details about shipping cost":
+                - generic: Cost
+                - generic: Based on weight
+                - generic: Free shipping over
+                - generic: "-"
+                - generic: Currency
+                - generic: GBP(£)
+                - generic: British Pound
+                - generic: No shipping under
+                - generic: "-"
+                - link "Details about shipping cost":
+                  - /url: /mc/shipping/services/settings?a=5664655454&serviceId=1&shippingService=regular&step=cost&authuser=1
+                  - text: Details
+  - heading "Settings" [level=2]
+  - tablist:
+    - tab "Ship-from locations" [selected]:
+      - generic: Ship-from locations
+  - tabpanel "Ship-from locations":
+    - button "Add ship-from location":
+      - generic: Add ship-from location
+    - button "Tooltip icon for learning more about ship-from locations":
+      - img "Tooltip icon for learning more about ship-from locations": help_outline
+    - grid "Ship-from locations":
+      - row "Name Address Postal code Country Policies Actions":
+        - columnheader "Name":
+          - button:
+            - img: expand_more
+          - text: Name
+        - columnheader "Address"
+        - columnheader "Postal code"
+        - columnheader "Country"
+        - columnheader "Policies"
+        - columnheader "Actions"
+- contentinfo:
+  - link "Privacy Policy":
+    - /url: http://www.google.com/policies/privacy/
+  - generic: ·
+  - link "Terms of Service":
+    - /url: https://support.google.com/merchants/answer/160173?hl=en-US
+  - generic: ·
+  - link "Program Policies":
+    - /url: https://support.google.com/merchants/topic/7286989?hl=en-US

@@ -1,0 +1,290 @@
+Window: "My Listings — Dashboard | Chairish", App: Google Chrome.
+0 standard window My Listings — Dashboard | Chairish - Google Chrome – Tom, URL: …, Secondary Actions: Raise
+	1 container My Listings — Dashboard | Chairish - Google Chrome – Tom, URL: …
+		2 container
+			3 toolbar
+				4 button Back
+				5 button Reload
+				6 container
+					7 pop-up button View site information
+					8 text field (settable) Address and search bar, Value: chairish.com/product/list?state=DPL&state=DPR&page=4, Placeholder: Ask Google or type a URL
+					9 button Bookmark this tab
+				10 pop-up button Extensions
+				11 pop-up button Hidden toolbar buttons
+				12 pop-up button Relaunch to update
+			13 container
+				14 scroll area
+					15 HTML content My Listings — Dashboard | Chairish, URL: …
+						16 container
+							17 link Shop Our Newest Arrivals, Value: chairish.com/collection/new-arrivals
+							18 container
+								19 button Mobile Navigation
+								20 container SEARCH
+									21 text SEARCH
+									22 container
+										23 search text field (settable) search products, brands, and shops, Placeholder: Search products, brands, and shops
+										24 button Search
+											25 text 
+								26 link Chairish - The Art of Vintage. The Luxury of Home., Value: chairish.com/
+								27 link Account avatar for Sally P., Value: chairish.com/shop/me
+								28 link My To-dos, Value: chairish.com/home
+								29 link Consign With Us, Value: chairish.com/pages/consign-with-us
+								30 button My Favorites
+								31 link Cart, Value: chairish.com/cart
+							32 container
+								33 content list
+									34 link New Arrivals, Value: chairish.com/collection/new-arrivals
+									35 link Furniture , Value: chairish.com/collection/furniture
+									36 link Art , Value: chairish.com/collection/art
+									37 link Lighting , Value: chairish.com/collection/lighting
+									38 link Decor , Value: chairish.com/collection/decor
+									39 link Tabletop + Bar , Value: chairish.com/collection/tableware-and-barware
+									40 link Bed + Bath, Value: chairish.com/collection/bed-and-bath
+									41 link Rugs , Value: chairish.com/collection/rugs
+									42 link Outdoor , Value: chairish.com/collection/outdoor
+									43 link Jewelry , Value: chairish.com/collection/jewelry
+									44 link Auctions New!, Help: Auctions (opens in new window), Value: chairishauctions.com/
+									45 link new, vintage and antique on sale, Value: chairish.com/collection/markdowns
+									46 link Read the blog, Value: chairish.com/blog/
+									47 link  Consign With Us, Value: chairish.com/pages/consign-with-us
+							48 content list
+								49 link New Arrivals, Value: chairish.com/collection/new-arrivals
+								50 link Furniture, Value: chairish.com/collection/furniture
+								51 link Art, Value: chairish.com/collection/art
+								52 link Lighting, Value: chairish.com/collection/lighting
+								53 link Decor, Value: chairish.com/collection/decor
+								54 link Tabletop + Bar, Value: chairish.com/collection/tableware-and-barware
+								55 link Bed + Bath, Value: chairish.com/collection/bed-and-bath
+								56 link Rugs, Value: chairish.com/collection/rugs
+								57 link Outdoor, Value: chairish.com/collection/outdoor
+								58 link Jewelry, Value: chairish.com/collection/jewelry
+								59 link Auctions New!, Help: Auctions (opens in new window), Value: chairishauctions.com/
+								60 link new, vintage and antique on sale, Value: chairish.com/collection/markdowns
+								61 link Read the blog, Value: chairish.com/blog/
+							62 link Join our trade program, Value: chairish.com/trade
+							63 link View the Designer Directory, Value: chairish.com/pros
+							64 container
+								65 container
+									66 heading My Listings, Value: 1
+										67 text My Listings
+									68 button Vacation Settings
+									69 link CREATE LISTING, Value: chairish.com/product/create
+									70 container
+										71 text Search for listings
+										72 search text field (settable) Search for listings, Placeholder: Search Listings
+										73 button Search
+									74 text Search 
+									75 link The Pink Book, Value: chairish.com/pinkbook
+									76 text  for pricing guidance
+								77 container
+									78 content list
+										79 link Active Listings, Value: chairish.com/product/list?state=LFP
+										80 link Drafts (24), Value: chairish.com/product/list?state=DRA
+										81 container
+											82 link Pending (152), Value: chairish.com/product/list?state=DPL&state=DPR
+										83 link Incomplete, Value: chairish.com/product/list?state=DIN
+										84 link Inactive (1), Value: chairish.com/product/list?state=DBS&state=DBT&state=DDE&state=HID
+										85 link Sold Out, Value: chairish.com/product/list?state=SOL&state=SVO
+									86 content list
+										87 container
+											88 text All (152)
+										89 link Pending Listing, Value: chairish.com/product/list?state=DPL
+										90 link Pending Review (152), Value: chairish.com/product/list?state=DPR
+								91 pop-up button Bulk Actions
+								92 content list
+									93 link , Help: Previous Page, Value: chairish.com/product/list?state=DPL&state=DPR&page=3
+									94 link 2, Value: chairish.com/product/list?state=DPL&state=DPR&page=2
+									95 link 3, Value: chairish.com/product/list?state=DPL&state=DPR&page=3
+									96 link 4, Value: chairish.com/product/list?state=DPL&state=DPR&page=4
+								97 table
+									98 row
+										99 column header 0-1
+											100 container
+												101 text All (2)
+										102 column header
+											103 text Title
+										104 column header
+											105 text Price
+										106 column header
+											107 text Sale
+										108 column header
+											109 text Auction %  
+										110 column header
+											111 text Trade %
+										112 column header
+											113 text State
+									114 row
+										115 cell
+										116 cell
+											117 image Image of Boldstone Spiral Moon Relief - White Wall Sculpture
+										118 cell
+											119 link Boldstone Spiral Moon Relief - White Wall Sculpture, Value: chairish.com/product/id/37954770
+											120 text SKU: SM-1-55.55
+											121 container
+												122 content list
+													123 link Edit, Value: chairish.com/product/37954770/update
+													124 link Create Variant Group, Value: chairish.com/product/37954770/variant/create
+													125 link Delete, Value: chairish.com/product/list?state=DPL&state=DPR&page=4#
+												126 text Seller Delegated In-Home Delivery
+										127 cell
+											128 text $122 Net $107
+											129 link Reserve $98, Value: chairish.com/product/37954770/update#price
+										130 cell
+											131 text 40%
+										132 cell
+											133 text 12%
+										134 cell
+											135 text Pending Review
+									136 row
+										137 cell
+										138 cell
+											139 image Image of Boldstone Textured Earth - Blue, Brown and Rust Wall Sculpture
+										140 cell
+											141 link Boldstone Textured Earth - Blue, Brown and Rust Wall Sculpture, Value: chairish.com/product/id/37954774
+											142 text SKU: BOLD-207102CFD25C
+											143 container
+												144 content list
+													145 link Edit, Value: chairish.com/product/37954774/update
+													146 link Create Variant Group, Value: chairish.com/product/37954774/variant/create
+													147 link Delete, Value: chairish.com/product/list?state=DPL&state=DPR&page=4#
+												148 text Seller Delegated In-Home Delivery
+										149 cell
+											150 text $238 Net $209
+											151 link Reserve $190, Value: chairish.com/product/37954774/update#price
+										152 cell
+											153 text 40%
+										154 cell
+											155 text 12%
+										156 cell
+											157 text Pending Review
+								158 content list
+									159 link , Help: Previous Page, Value: chairish.com/product/list?state=DPL&state=DPR&page=3
+									160 link 2, Value: chairish.com/product/list?state=DPL&state=DPR&page=2
+									161 link 3, Value: chairish.com/product/list?state=DPL&state=DPR&page=3
+									162 link 4, Value: chairish.com/product/list?state=DPL&state=DPR&page=4
+								163 image Account avatar for Sally P.
+								164 text Sally Price
+								165 link View Shop, Value: chairish.com/shop/me
+								166 content list
+									167 text DASHBOARD
+									168 link To Do List (4), Value: chairish.com/home
+									169 link Messages, Value: chairish.com/account/channel/list
+								170 content list
+									171 text BUYING
+									172 link My Purchases, Value: chairish.com/order/list
+									173 link My Offers, Value: chairish.com/offer/list/buyer
+								174 content list
+									175 text SELLING
+									176 link Create Listing, Value: chairish.com/product/create
+									177 link My Listings, Value: chairish.com/product/list
+									178 link Offers, Value: chairish.com/offer/list/seller
+									179 link My Sales History, Value: chairish.com/product/list/sold
+									180 link Payment History, Value: chairish.com/payment/list
+									181 link Promoted Listings, Value: chairish.com/promoted-listings-setup
+									182 link Seller Badges, Value: chairish.com/account/badges
+								183 content list
+									184 text SETTINGS
+									185 link Account Settings, Value: chairish.com/account/update
+									186 link Email Settings, Value: chairish.com/account/messaging-preference
+									187 link Shop Settings, Value: chairish.com/profile/update
+									188 link Payment Settings, Value: chairish.com/account/payment-update
+									189 link Seller Plan, Value: chairish.com/account/subscription-update
+									190 link Tax Settings, Value: chairish.com/account/tax-update
+									191 link Vacation Settings, Value: chairish.com/product/list?state=DPL&state=DPR&page=4#
+								192 content list
+									193 button Log Out
+							194 link 4.41 out of 5 stars 4.41 avg. from 33168 Verified Reviews, Help: Verified Reviews (opens in new window), Value: chairish.com/pages/reviews
+							195 container
+								196 heading NEED HELP?, Value: 4
+									197 text NEED HELP?
+								198 content list
+									199 link Help Center, Help: Help Center (opens in new window), Value: support.chairish.com/hc/en-us
+									200 button Send Feedback
+									201 link Contact Us, Help: Contact Us (opens in new window), Value: support.chairish.com/hc/en-us/articles/115006515948-Contact-Chairish
+									202 link Return Policy, Help: Return Policy (opens in new window), Value: support.chairish.com/hc/en-us/sections/115001855147-Cancellations-Returns
+									203 link Shipping Policy, Help: Shipping Policy (opens in new window), Value: support.chairish.com/hc/en-us/sections/115003461428-Pickup-and-Delivery
+									204 link Pink Book Pricing Guide, Value: chairish.com/pinkbook
+									205 link Accessibility, Help: Accessibility (opens in new window), Value: support.chairish.com/hc/en-us/articles/360034477113
+							206 container
+								207 heading FOR BUYERS, Value: 4
+									208 text FOR BUYERS
+								209 content list
+									210 link Buyer FAQ, Help: Buyer FAQ (opens in new window), Value: support.chairish.com/hc/en-us/categories/115001048347-Buying
+									211 link Trade Program, Help: Trade Program (opens in new window), Value: chairish.com/trade
+								212 heading FOR SELLERS, Value: 4
+									213 text FOR SELLERS
+								214 content list
+									215 link Consign with Us, Value: chairish.com/pages/consign-with-us
+									216 link Seller FAQ, Value: support.chairish.com/hc/en-us/categories/115001052668-Selling-on-Chairish
+							217 container
+								218 heading SHOP, Value: 4
+									219 text SHOP
+								220 content list
+									221 link Shop by Style, Value: chairish.com/style/list
+									222 link Shop by Brand, Value: chairish.com/maker/list
+									223 link Categories by Region, Value: chairish.com/shop/list/by-region-and-category
+									224 link Sellers by Region, Value: chairish.com/shop/list/by-region
+									225 link Shop by Room, Value: chairish.com/room/list
+							226 container
+								227 heading OUR COMPANY, Value: 4
+									228 text OUR COMPANY
+								229 content list
+									230 link About Us, Value: chairish.com/pages/about-us
+									231 link Leadership, Help: Leadership (opens in new window), Value: auctiontechnologygroup.com/about-us/leadership-board/
+									232 link Careers, Help: Careers (opens in new window), Value: auctiontechnologygroup.com/careers/
+									233 link Press, Value: support.chairish.com/hc/en-us/articles/115006637368
+									234 link Scholarship, Value: chairish.com/pages/scholarship
+									235 link Chairish Resale Report, Value: chairish.com/resale-report
+							236 container
+								237 heading THE CHAIRISH BLOG, Value: 4
+									238 text THE CHAIRISH BLOG
+								239 content list
+									240 link Decorating guides, designer tips, home tours, and more!, Help: Decorating guides, designer tips, home tours, and more! (opens in new window), Value: chairish.com/blog/
+								241 heading THE CHAIRISH APP, Value: 4
+									242 text THE CHAIRISH APP
+								243 content list
+									244 link For iPhone, iPad, and Android, Help: For iPhone, iPad, and Android (opens in new window), Value: chairish.com/app
+								245 link Get The App, Help: Get the App (opens in new window), Value: chairish.com/get-the-app
+								246 text  Scan the QR code to download the app!
+							247 container
+								248 text  Newsweek Best Online Shops  USA Today Readers' Choice  Goldman Sachs Intriguing Entrepreneurs  Newsweek Best Trending Online Shops
+							249 container
+								250 content list
+									251 link , Help: Instagram (opens in new window), Value: instagram.com/chairishco
+									252 link , Help: Facebook (opens in new window), Value: facebook.com/chairishco
+									253 link , Help: Pinterest (opens in new window), Value: pinterest.com/chairishco
+									254 link , Help: Twitter (opens in new window), Value: twitter.com/chairishco
+								255 content list
+									256 container
+										257 text © 2026 Chairish, Inc. All rights reserved.
+										258 link Privacy Policy, Help: Privacy Policy (opens in new window), Value: support.chairish.com/hc/en-us/articles/115007232828
+										259 text  | 
+										260 link Terms of Service, Help: Terms of Service (opens in new window), Value: support.chairish.com/hc/en-us/articles/115007071507
+										261 text  | 
+										262 link Do Not Sell My Info, Help: Do Not Sell My Info (opens in new window), Value: chairish.com/pages/privacy-request
+										263 text  |  Manage Cookies
+									264 text 548 Market Street Suite 69473 San Francisco, CA 94104
+			265 pop-up button Tab search
+			266 container
+				267 tab group
+					268 tab (settable, boolean) (6557) Inside the Pentagon's Anomaly Office | Reality Check - YouTube, Value: off
+						269 button Close
+					270 tab (selected, settable, boolean) My Listings — Dashboard | Chairish, Value: on
+						271 button Close
+			272 button New tab
+	273 close button
+	274 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	275 minimise button
+276 menu bar
+	277 Chrome
+	278 File
+	279 Edit
+	280 View
+	281 History
+	282 Bookmarks
+	283 Profiles
+	284 Tab
+	285 Window
+	286 Help
+
+The focused UI element is 15 HTML content My Listings — Dashboard | Chairish, URL: …

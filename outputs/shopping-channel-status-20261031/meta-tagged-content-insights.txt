@@ -1,0 +1,138 @@
+- link "Business Home":
+  - /url: https://business.facebook.com/home/?business_id=2380586078685156
+  - img "Meta logo"
+- generic: Commerce Manager
+- combobox "Boldstone Sculpture":
+  - generic: Boldstone Sculpture
+- navigation "Navigation":
+  - list:
+    - link "Overview":
+      - /url: https://business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+    - generic: Overview
+    - button "Catalogue"
+    - generic: Catalogue
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Products":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/products/?business_id=2380586078685156
+      - generic: Products
+      - link "Sets":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/sets/?business_id=2380586078685156
+      - generic: Sets
+      - link "Data sources":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/data_sources/?business_id=2380586078685156
+      - generic: Data sources
+      - link "Events":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/events/?business_id=2380586078685156
+      - generic: Events
+    - link "Image templates":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/templates/?business_id=2380586078685156
+    - generic: Image templates
+    - link "Product video creator":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/video_template_hub/?business_id=2380586078685156
+    - generic: Product video creator
+    - link "Shops":
+      - /url: https://business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+    - generic: Shops
+    - button "Promotions"
+    - generic: Promotions
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Offers":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/offers/?business_id=2380586078685156
+      - generic: Offers
+      - link "Marketing settings":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/mailing_list/?business_id=2380586078685156
+      - generic: Marketing settings
+    - button "Insights" [expanded]
+    - generic: Insights
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Overview":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/overview/?business_id=2380586078685156
+      - generic: Overview
+      - link "Catalogue":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/products/?business_id=2380586078685156
+      - generic: Catalogue
+      - link "Performance":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/perf/?business_id=2380586078685156
+      - generic: Performance
+      - link "Audience":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/audience/?business_id=2380586078685156
+      - generic: Audience
+      - link "Tagged content":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/product_tagged_content/?business_id=2380586078685156
+      - generic: Tagged content
+      - link "Awareness":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/entry_points/?business_id=2380586078685156
+      - generic: Awareness
+    - link "To-do list":
+      - /url: https://business.facebook.com/commerce/326960679342026/to_do_list/?business_id=2380586078685156
+    - generic: To-do list
+    - link "Settings":
+      - /url: https://business.facebook.com/commerce/326960679342026/settings/general/?business_id=2380586078685156
+    - generic: Settings
+- navigation "all tools":
+  - list:
+    - button "All tools":
+    - generic: All tools
+- separator
+- list:
+  - button "Meta AI business assistant"
+  - generic: Meta AI business assistant
+- button "Help":
+  - generic: Help
+- link "Business settings":
+  - /url: https://business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+  - generic: Business settings
+- button "Business notifications":
+  - generic: Business notifications
+- button:
+  - generic: "6"
+- button "Search":
+  - generic: Search
+- button "Collapse":
+  - generic: Collapse
+- navigation "Breadcrumb":
+  - heading "Insights" [level=1]
+  - heading "Tagged content" [level=1]
+- text: Commerce Manager Insights contains metrics that may be
+- link "estimated":
+  - /url: https://business.facebook.com/business/help/metrics-labeling
+- text: .
+- toolbar:
+  - generic: hidden
+  - combobox "hidden" [disabled]:
+    - generic: Facebook and Instagram
+  - 'button "Last 28 days: 3 Oct 2026 - 30 Oct 2026 vs 5 Sep 2026-2 Oct 2026"':
+    - text: "Last 28 days: 3 Oct 2026 - 30 Oct 2026"
+    - generic: vs 5 Sep 2026-2 Oct 2026
+- heading "Messaging metrics reporting unavailable" [level=4]
+- button "Close":
+  - generic: Close
+- generic: Due to new privacy rules in Europe, the reporting of messaging metrics is unavailable at the moment. Businesses may see an impact to reporting on messaging and messaging-related metrics. Affected metrics will display a "0" in place of affected data from Europe.
+- link "Learn more":
+  - /url: /business/help/574941489951914
+- tablist:
+  - tab "Review" [selected]:
+    - generic: Review
+  - tab "Compare":
+    - generic: Compare
+- toolbar:
+  - generic: hidden
+  - combobox "hidden Organic":
+    - generic: Organic
+  - button "Export to CSV":
+    - generic: Export to CSV
+- separator
+- heading "Your shop doesn't have any insights that are attributed to tagged content during this date range. Add tags to content you share, such as posts or your story, or select a new date range to see insights." [level=2]
+- dialog "A new way to compare date ranges":
+  - heading "A new way to compare date ranges" [level=3]
+  - text: Compare data from a selected time period with data from a previous date range, such as month, quarter or year. Click the Compare checkbox below the calendar to use this feature.
+  - button "Close" [active]:
+    - generic: Close
+  - button "Done":
+    - generic: Done

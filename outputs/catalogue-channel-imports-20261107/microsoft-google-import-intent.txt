@@ -1,0 +1,126 @@
+Window: "Import steps | Microsoft Advertising", App: Google Chrome.
+0 standard window Import steps | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, Secondary Actions: Raise, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/import-steps?uid=193182372&cid=255124527&aid=187335961&storeId=50112622&editMode=false
+	1 container Import steps | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/import-steps?uid=193182372&cid=255124527&aid=187335961&storeId=50112622&editMode=false
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/import-steps?uid=193182372&cid=255124527&aid=187335961&storeId=50112622&editMode=false
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Import steps | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/import-steps?uid=193182372&cid=255124527&aid=187335961&storeId=50112622&editMode=false
+						27 container
+							28 container Skip to main content
+								29 link Skip to main content, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/reviewrejections?uid=193182372&cid=255124527&aid=187335961&storeId=50112622&issueCode=EVRejectedErr&flagAreaIdCode=EV_156#main
+							30 container global menu
+								31 button Microsoft Advertising
+								32 button Switch user accounts. Current selection: Boldstone (G1459Y2Q)
+								33 container
+									34 combo box (settable) Search Microsoft Advertising
+									35 button clear
+								36 button Copilot
+								37 button Notifications
+								38 button   Notifications
+								39 pop-up button Help
+								40 button New features
+								41 button Open account panel
+							42 container Banner message
+								43 text You need a primary payment method before your ads will run.
+								44 link Add a payment method now, Value: ads.microsoft.com/cc/PaymentMethods?aid=187335961&cid=255124527&uid=193182372&showTaxForm=False
+							45 container breadcrumb
+								46 content list
+									47 button Imports
+									48 button (disabled) Create new import
+							49 container
+								50 text 
+								51 text Accounts
+								52 text 
+								53 text Find and replace string
+								54 text 
+								55 text Import schedule
+								56 text Confirmation
+								57 container
+									58 container Confirm import
+										59 text Confirm import
+									60 text We'll import your Google Merchant Center products to Microsoft Merchant Center at the frequency you schedule. Learn more about 
+									61 button Learn more
+									62 text . Import source
+									63 button Click to learn more about Import source
+									64 text Google account: info@boldstone.co.uk Display name: Boldstone Sculpture  We'll import products to all supported markets. Import destination
+									65 button Click to learn more about Import destination
+									66 text Microsoft Ads account: info@boldstone.co.uk Store: Boldstone Sculpture Feed: Import Catalog When: Import Daily at 06 AM (UTC + 00:00) GMT Standard Time (London)
+									67 button Previous
+									68 button Start Import
+									69 button Cancel
+								70 text © 2026 Microsoft
+								71 content list
+									72 link Legal, Value: ads.microsoft.com/tc.aspx
+									73 link Privacy & Cookies, Value: go.microsoft.com/fwlink/?LinkId=248681
+									74 link Advertise, Value: go.microsoft.com/fwlink/?LinkId=258668
+									75 link Developers, Value: go.microsoft.com/fwlink/?linkid=2333449
+									76 link Support, Value: go.microsoft.com/fwlink/?LinkId=258669
+									77 link Blog, Value: go.microsoft.com/fwlink/?LinkId=395064
+									78 link Community, Value: go.microsoft.com/fwlink/?linkid=2325500&clcid=0x409
+									79 link Consumer Health Privacy, Value: go.microsoft.com/fwlink/?linkid=2259814
+									80 button Help
+			81 pop-up button Tab search
+			82 container
+				83 tab group
+					84 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					85 tab group  group ✅Claude – 1 Tab, •  Import steps | Microsoft Advertising – Expanded
+					86 tab (selected, settable, boolean) Import steps | Microsoft Advertising – Part of group ✅Claude, Value: on
+						87 button Close
+					88 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					89 tab (settable, boolean) Brandboom | Home, Value: off
+					90 tab (settable, boolean) Portela Nova | A slower kind of stay, Value: off
+					91 tab (settable, boolean) Pinterest, Value: off
+					92 tab (settable, boolean) Get started with retail catalogs | Pinterest Business help, Value: off
+					93 tab (settable, boolean) [TEMPLATE - COPY] Pinterest Catalog Data source Google Sheet Template - Google Sheets, Value: off
+					94 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					95 tab (settable, boolean) All products - Merchant Center, Value: off
+			96 button New tab
+	97 close button
+	98 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	99 minimise button
+100 menu bar
+	101 Chrome
+	102 File
+	103 Edit
+	104 View
+	105 History
+	106 Bookmarks
+	107 Profiles
+	108 Tab
+	109 Window
+	110 Help
+
+Selected text: ```
+￼
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

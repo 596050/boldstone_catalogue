@@ -1,0 +1,315 @@
+- banner:
+  - generic: Analytics
+  - search:
+    - img: search
+    - textbox "Search":
+      - /placeholder: Try searching "add web stream"
+  - button "Switch products":
+  - button "Ask Advisor":
+    - img: search_spark
+  - button "Help entry menu":
+    - img: help
+  - button "Open the user account switcher panel."
+- navigation "Main pages":
+  - link "Home":
+    - generic: Home
+  - link "Reports":
+    - img: insert_chart_filled
+    - generic: Reports
+  - link "Explore":
+    - img: data_exploration
+    - generic: Explore
+  - link "Advertising":
+    - img: ads_click
+    - generic: Advertising
+- navigation "Settings pages":
+  - link "Tasks":
+    - img: task_alt
+    - generic: Tasks
+  - link "Admin":
+    - img: settings_filled
+    - generic: Admin
+- navigation "Secondary navigation":
+  - navigation "Secondary pages":
+    - button "Create":
+      - text: Create
+      - img: arrow_drop_down
+  - tree:
+    - treeitem "Reports snapshot" [level=1]:
+      - button "Reports snapshot":
+        - generic: Reports snapshot
+    - treeitem "Realtime overview" [level=1]:
+      - button "Realtime overview":
+        - generic: Realtime overview
+    - treeitem "Realtime pages" [level=1]:
+      - button "Realtime pages":
+        - generic: Realtime pages
+    - treeitem "Business objectives" [expanded] [level=1]:
+      - separator
+      - button "Business objectives":
+        - generic: Business objectives
+        - img: keyboard_arrow_up
+    - treeitem "Generate leads" [level=2]:
+      - button "Generate leads":
+        - img: arrow_right
+        - generic: Generate leads
+    - treeitem "Drive sales" [level=2]:
+      - button "Drive sales":
+        - img: arrow_right
+        - generic: Drive sales
+    - treeitem "Understand web and/or app traffic" [level=2]:
+      - button "Understand web and/or app traffic":
+        - img: arrow_right
+        - generic: Understand web and/or app traffic
+    - treeitem "View user engagement & retention" [level=2]:
+      - button "View user engagement & retention":
+        - img: arrow_right
+        - generic: View user engagement & retention
+    - treeitem "Data import" [expanded] [level=1]:
+      - separator
+      - button "Data import":
+        - generic: Data import
+        - img: keyboard_arrow_up
+    - treeitem "Campaign data import validation" [level=2]:
+      - button "Campaign data import validation":
+        - generic: Campaign data import validation
+    - treeitem "Search Console" [expanded] [level=1]:
+      - separator
+      - button "Search Console":
+        - generic: Search Console
+        - img: keyboard_arrow_up
+    - treeitem "Search Console" [expanded] [level=2]:
+      - button "Search Console":
+        - img: arrow_drop_down
+        - generic: Search Console
+    - treeitem "Queries" [level=3]:
+      - button "Queries":
+        - generic: Queries
+    - treeitem "Google organic search traffic" [level=3]:
+      - button "Google organic search traffic":
+        - generic: Google organic search traffic
+    - treeitem "User" [expanded] [level=1]:
+      - separator
+      - button "User":
+        - generic: User
+        - img: keyboard_arrow_up
+    - treeitem "User attributes" [level=2]:
+      - button "User attributes":
+        - img: arrow_right
+        - generic: User attributes
+    - treeitem "Tech" [level=2]:
+      - button "Tech":
+        - img: arrow_right
+        - generic: Tech
+  - navigation "Other pages":
+    - button "Library":
+      - img: folder
+      - generic: Library
+  - separator
+- button "Nav toggle" [expanded]:
+  - img: keyboard_arrow_left
+- main:
+  - button "All Users":
+    - generic: A
+    - generic: All Users
+  - button "Add comparison":
+    - generic: Add comparison
+    - img: add
+  - separator
+  - heading "Realtime overview" [level=1]:
+    - button "Realtime overview"
+  - button "This report uses 100% of available data. Click to view more information.":
+    - img: check_circle
+    - generic: This report uses 100% of available data. Click to view more information.
+    - img: arrow_drop_down
+  - button "View user snapshot":
+    - generic: View user snapshot
+  - generic "Full screen":
+    - button "Full screen":
+      - img: fullscreen
+  - generic "Edit comparisons":
+    - button "Edit comparisons":
+  - generic "Share this report":
+    - button "Share this report":
+      - img: share
+  - button "Active users in last 30 minutes"
+  - generic: "2"
+  - button "Active users in last 5 minutes"
+  - generic: "1"
+  - generic: Active users per minute
+  - button "Keyboard shortcuts"
+  - region "Map"
+  - iframe
+  - button "Zoom in" [disabled]
+  - button "Zoom out"
+  - button "Keyboard shortcuts"
+  - generic: Map data ©2026 Google
+  - link "Terms (opens in new tab)":
+    - /url: https://www.google.com/intl/en-US_US/help/terms_maps.html
+    - text: Terms
+  - link "Report a map error (opens in new tab)":
+    - /url: https://www.google.com/maps/@42.3879663,-71.2350278,10z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+    - text: Report a map error
+  - generic "Active users":
+    - button "Active users"
+  - text: by
+  - generic "First user source":
+    - combobox "Dimensions":
+      - generic: First user source
+  - generic: "#1"
+  - generic: "-"
+  - generic: "-"
+  - table:
+    - row "First user source Active users":
+      - columnheader "First user source":
+        - button "First user source"
+      - columnheader "Active users":
+        - button "Active users"
+  - generic: No data available
+  - table:
+    - row
+  - generic "Active users":
+    - combobox "Metrics":
+      - generic: Active users
+  - text: by
+  - generic "Audience":
+    - button "Audience"
+  - generic: "#1"
+  - generic: All Users
+  - generic: All Users
+  - generic: "2"
+  - generic: 100%
+  - table:
+    - row "Audience Active users":
+      - columnheader "Audience":
+        - button "Audience"
+      - columnheader "Active users":
+        - button "Active users"
+    - row "All Users 2":
+      - cell "All Users"
+      - cell "2"
+  - status: 1 – 1 of 1
+  - button "Previous page" [disabled]:
+  - button "Next page" [disabled]:
+  - table:
+    - row:
+      - columnheader
+    - row:
+      - cell
+  - generic "Views":
+    - button "Views"
+  - text: by
+  - generic "Page title and screen name":
+    - button "Page title and screen name"
+  - generic: "#1"
+  - generic: boldstone
+  - generic: boldstone
+  - generic: "5"
+  - generic: 41.67%
+  - table:
+    - row "Page title and screen name Views":
+      - columnheader "Page title and screen name":
+        - button "Page title and screen name"
+      - columnheader "Views":
+        - button "Views"
+    - row "boldstone 5":
+      - cell "boldstone"
+      - cell "5"
+    - row "Lava Moonshell I - White — boldstone 4":
+      - cell "Lava Moonshell I - White — boldstone"
+      - cell "4"
+    - row "boldstone | Secure Checkout 2":
+      - cell "boldstone | Secure Checkout"
+      - cell "2"
+    - row "Azure - Blue and White Marbled Panel — boldstone 1":
+      - cell "Azure - Blue and White Marbled Panel — boldstone"
+      - cell "1"
+  - status: 1 – 4 of 4
+  - button "Previous page" [disabled]:
+  - button "Next page" [disabled]:
+  - table:
+    - row:
+      - columnheader
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+    - row:
+      - cell
+  - generic "Event count":
+    - button "Event count"
+  - text: by
+  - generic "Event name":
+    - button "Event name"
+  - button "Go back":
+    - img: keyboard_backspace
+  - generic: value
+  - generic: "1"
+  - table:
+    - row "Event parameter value Event count":
+      - columnheader "Event parameter value":
+        - generic: Event parameter value
+      - columnheader "Event count":
+        - button "Event count"
+    - row "87.6 1":
+      - cell "87.6"
+      - cell "1"
+  - status: 1 – 1 of 1
+  - button "Previous page" [disabled]:
+  - button "Next page" [disabled]:
+  - table:
+    - row:
+      - columnheader
+    - row:
+      - cell
+  - generic "Key events":
+    - button "Key events"
+  - text: by
+  - generic "Event name":
+    - button "Event name"
+  - generic: "#1"
+  - generic: "-"
+  - generic: "-"
+  - table:
+    - row "Event name Key events":
+      - columnheader "Event name":
+        - button "Event name"
+      - columnheader "Key events":
+        - button "Key events"
+  - generic: No data available
+  - table:
+    - row
+  - generic "Active users":
+    - button "Active users"
+  - text: by
+  - generic "User property":
+    - button "User property"
+  - generic: "#1"
+  - generic: "-"
+  - generic: "-"
+  - table:
+    - row "User property Active users":
+      - columnheader "User property":
+        - button "User property"
+      - columnheader "Active users":
+        - button "Active users"
+  - generic: No data available
+  - table:
+    - row
+  - text: © 2026 Google |
+  - link "Analytics home":
+    - /url: https://www.google.com/analytics/?hl=en-US
+  - text: "|"
+  - link "Terms of Service":
+    - /url: https://www.google.com/analytics/tos.html?hl=en-US
+  - text: "|"
+  - link "Privacy Policy":
+    - /url: https://www.google.com/policies/privacy/?hl=en-US
+  - text: "|"
+  - button "Send feedback":
+    - img: feedback
+    - generic: Send feedback
+- complementary
+- button "Open context menu"

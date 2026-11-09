@@ -1,0 +1,206 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Back":
+    - img: arrow_back
+  - heading "Shipping" [level=1]
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone Sculpture, 5664655454"':
+    - generic: Boldstone Sculpture
+    - generic: "5664655454"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- main:
+  - heading "How do you calculate shipping costs?" [level=1]
+  - region "Shipping costs":
+    - heading "Currency" [level=2]
+    - group "Currency":
+      - combobox "Currency*":
+        - generic: Currency*
+        - generic: GBP
+        - img: arrow_drop_down
+    - heading "Order value conditions" [level=2]
+    - generic: Select all that apply
+    - group "Order value conditions":
+      - checkbox "Free shipping over a specific order value"
+      - generic: Free shipping over a specific order value
+      - checkbox "No shipping below a specific order value"
+      - generic: No shipping below a specific order value
+    - heading "Shipping cost type" [level=2]
+    - group "Shipping cost type":
+      - radiogroup "Shipping cost type":
+        - radio "Free shipping All orders get free shipping":
+          - img: radio_button_unchecked
+          - generic: Free shipping
+          - generic: All orders get free shipping
+        - radio "Flat rate All orders have the same shipping fee":
+          - img: radio_button_unchecked
+          - generic: Flat rate
+          - generic: All orders have the same shipping fee
+        - radio "Price Shipping rate is dependent on product price":
+          - img: radio_button_unchecked
+          - generic: Price
+          - generic: Shipping rate is dependent on product price
+        - radio "Carrier Shipping rate is determined by your carrier":
+          - img: radio_button_unchecked
+          - generic: Carrier
+          - generic: Shipping rate is determined by your carrier
+        - radio "Weight Shipping rate is determined by package weight" [checked]:
+          - img: radio_button_checked
+          - generic: Weight
+          - generic: Shipping rate is determined by package weight
+        - radio "Destination Shipping rate depends on distance to customer":
+          - img: radio_button_unchecked
+          - generic: Destination
+          - generic: Shipping rate depends on distance to customer
+        - radio "Number of items Shipping rate depends on quantity":
+          - img: radio_button_unchecked
+          - generic: Number of items
+          - generic: Shipping rate depends on quantity
+        - radio "Advanced cost table (uncommon) Shipping rate depends on multiple factors":
+          - img: radio_button_unchecked
+          - generic: Advanced cost table (uncommon)
+          - generic: Shipping rate depends on multiple factors
+    - text: "* * * * * * * *"
+    - heading "Weight range" [level=2]
+    - generic: Enter the shipping cost for each customizable weight range
+    - group "Weight range":
+      - button "Metric pounds":
+        - generic: Metric
+        - generic: pounds
+        - img: arrow_drop_down
+      - table "Weight range configuration table":
+        - rowgroup:
+          - row "Ranges Costs":
+            - columnheader "Ranges"
+            - columnheader "Costs"
+        - rowgroup:
+          - row "0.0001 lb to Weight* 2 lb £ Cost* 5.95 Edit cost rate for range number 1":
+            - cell "0.0001 lb"
+            - cell "to"
+            - cell "Weight* 2 lb":
+              - generic: Weight*
+              - textbox "Weight for upper range number 1": "2"
+              - generic: lb
+            - cell "£ Cost* 5.95 Edit cost rate for range number 1":
+              - generic: £
+              - generic: Cost*
+              - textbox "Cost for range number 1": "5.95"
+              - button "Edit cost rate for range number 1":
+                - img: arrow_drop_down
+          - row "2.0001 lb to Weight* 7 lb £ Cost* 8.95 Edit cost rate for range number 2 Delete row for range number 2":
+            - cell "2.0001 lb"
+            - cell "to"
+            - cell "Weight* 7 lb":
+              - generic: Weight*
+              - textbox "Weight for upper range number 2": "7"
+              - generic: lb
+            - cell "£ Cost* 8.95 Edit cost rate for range number 2":
+              - generic: £
+              - generic: Cost*
+              - textbox "Cost of shipping for range number 2": "8.95"
+              - button "Edit cost rate for range number 2":
+                - img: arrow_drop_down
+            - cell "Delete row for range number 2":
+              - button "Delete row for range number 2":
+                - img: delete
+          - row "7.0001 lb to Weight* 22 lb £ Cost* 14.95 Edit cost rate for range number 3 Delete row for range number 3":
+            - cell "7.0001 lb"
+            - cell "to"
+            - cell "Weight* 22 lb":
+              - generic: Weight*
+              - textbox "Weight for upper range number 3": "22"
+              - generic: lb
+            - cell "£ Cost* 14.95 Edit cost rate for range number 3":
+              - generic: £
+              - generic: Cost*
+              - textbox "Cost of shipping for range number 3": "14.95"
+              - button "Edit cost rate for range number 3":
+                - img: arrow_drop_down
+            - cell "Delete row for range number 3":
+              - button "Delete row for range number 3":
+                - img: delete
+          - row "22.0001 lb to Weight* 50 lb £ Cost* 24.95 Edit cost rate for range number 4 Delete row for range number 4":
+            - cell "22.0001 lb"
+            - cell "to"
+            - cell "Weight* 50 lb":
+              - generic: Weight*
+              - textbox "Weight for upper range number 4": "50"
+              - generic: lb
+            - cell "£ Cost* 24.95 Edit cost rate for range number 4":
+              - generic: £
+              - generic: Cost*
+              - textbox "Cost of shipping for range number 4": "24.95"
+              - button "Edit cost rate for range number 4":
+                - img: arrow_drop_down
+            - cell "Delete row for range number 4":
+              - button "Delete row for range number 4":
+                - img: delete
+          - row "50.0001 lb to Weight* 110 lb £ Cost* 49.95 Edit cost rate for range number 5 Delete row for range number 5":
+            - cell "50.0001 lb"
+            - cell "to"
+            - cell "Weight* 110 lb":
+              - generic: Weight*
+              - textbox "Weight for upper range number 5": "110"
+              - generic: lb
+            - cell "£ Cost* 49.95 Edit cost rate for range number 5":
+              - generic: £
+              - generic: Cost*
+              - textbox "Cost of shipping for range number 5": "49.95"
+              - button "Edit cost rate for range number 5":
+                - img: arrow_drop_down
+            - cell "Delete row for range number 5":
+              - button "Delete row for range number 5":
+                - img: delete
+          - row "110.0001 lb to Weight* 160 lb £ Cost* 69.95 Edit cost rate for range number 6 Delete row for range number 6":
+            - cell "110.0001 lb"
+            - cell "to"
+            - cell "Weight* 160 lb":
+              - generic: Weight*
+              - textbox "Weight for upper range number 6": "160"
+              - generic: lb
+            - cell "£ Cost* 69.95 Edit cost rate for range number 6":
+              - generic: £
+              - generic: Cost*
+              - textbox "Cost of shipping for range number 6": "69.95"
+              - button "Edit cost rate for range number 6":
+                - img: arrow_drop_down
+            - cell "Delete row for range number 6":
+              - button "Delete row for range number 6":
+                - img: delete
+          - row "160.0001 lb to Weight* 220 lb £ Cost* 89.95 Edit cost rate for range number 7 Delete row for range number 7":
+            - cell "160.0001 lb"
+            - cell "to"
+            - cell "Weight* 220 lb":
+              - generic: Weight*
+              - textbox "Weight for upper range number 7": "220"
+              - generic: lb
+            - cell "£ Cost* 89.95 Edit cost rate for range number 7":
+              - generic: £
+              - generic: Cost*
+              - textbox "Cost of shipping for range number 7" [active]: "89.95"
+              - button "Edit cost rate for range number 7":
+                - img: arrow_drop_down
+            - cell "Delete row for range number 7":
+              - button "Delete row for range number 7":
+                - img: delete
+          - row "220.0001 lb and above £ Cost* 120.00 Edit cost rate for range number 8":
+            - cell "220.0001 lb"
+            - cell "and above"
+            - cell "£ Cost* 120.00 Edit cost rate for range number 8":
+              - generic: £
+              - generic: Cost*
+              - textbox "Cost of shipping the last range": "120.00"
+              - button "Edit cost rate for range number 8":
+                - img: arrow_drop_down
+      - button "Add weight range":
+        - generic: Add weight range
+    - text: "*"
+  - log
+  - button "Back":
+    - generic: Back
+  - button "Save":
+    - generic: Save
+- status

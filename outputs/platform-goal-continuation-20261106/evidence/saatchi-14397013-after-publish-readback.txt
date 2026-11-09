@@ -1,0 +1,171 @@
+Window: "Studio | Saatchi Art United Kingdom", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14397013/overview, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14397013/overview
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio/art/14397013/overview, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/art/14397013/overview
+						26 container
+							27 container
+								28 text Fax
+								29 text field (settable) Fax
+							30 link fax, Value: saatchiart.com/facsimile-npc
+							31 link Skip to Main Content, Value: saatchiart.com/en-gb/studio/art/14397013/overview#skip-to-content
+							32 container
+								33 button Close Menu
+								34 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								35 text Studio
+								36 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								37 container
+									38 button Manage Artworks
+									39 content list
+										40 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										41 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									42 button Sales Dashboard
+									43 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									44 button Sponsored Listings
+									45 button Profile Information
+									46 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									47 button Account
+							48 container
+								49 button Back to Artworks
+								50 link To get missing image descriptions, open the context menu., Value: saatchiart.com/en-gb/art/Sculpture-Lunar-Phase-II-White-and-Gold-Finish/3090713/14397013/view
+								51 text Lunar Phase II - White and Gold Finish Views 0 Favorites 0
+								52 button Share
+								53 button (disabled) Renew
+								54 button Duplicate
+								55 text Visibility:  Published
+								56 button DELETE ARTWORK
+								57 heading Images, Value: 2
+									58 text Images
+								59 button Edit
+								60 Unlabelled image /13458965-ZUCKPMNH-22.jpg
+								61 heading Description, Value: 2
+									62 text Description
+								63 button Edit
+								64 text Subject, Category, Year Subject Abstract Category Sculpture Year 2026
+								65 text Method, Materials & Styles Method Relief Materials Plaster Styles Abstract
+								66 text Dimensions 30 W x 30 H x 7 D centimeters
+								67 text Keywords moon, spiral, relief, gold finish, white, gypsum, handmade, outdoor
+								68 text Description One panel is supplied. The photograph shows the offered spiral design and finish in a garden setting. A moon-inspired relief explores the relationship between a rounded form, its edges and the shadows it creates. Made from a gypsum-based material. Colour: White and gold-coloured surface treatments. A decorative surface effect is applied. Each piece is handmade. The surface-effect pattern will vary and will differ from the photographs. Companion pieces: Lunar Phase I, Lunar Phase III and Lunar Phase IV (sold separately). Dimensions: 30 × 30 cm; approximately 5–7 cm deep. Weight: Approximately 3–5 kg. Suitable for outdoor use and indoor display. Usually keyhole fixings; French cleats and other options are available. O
+								69 button READ LESS
+								70 heading 30 x 30 cm Limited Edition - Price & Details, Value: 2
+									71 text 30 x 30 cm Limited Edition - Price & Details
+								72 button Edit
+								73 text Status For Sale
+								74 text Quantity Total Run 50 Sold on Saatchi Art 0 For Sale 1
+								75 text Price Artwork Price $224 (£166) Your Commission $134.40 (£99)
+								76 text Weight & Packaging Packaging Type Crate Shipping Weight 16 kg
+								77 text Additional Details Number of Pieces 1 Ready to Hang No Installation Type Wall-Mounted Ready to Hang No Outdoor Safe Yes
+								78 text Shipping Address Court Essington, Midford Road Midford Bath, Somerset BA2 7BX GB Make Prints Available for Sale
+								79 button Add Prints for Sale
+							80 container
+								81 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								82 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								83 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								84 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								85 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								86 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								87 text Support
+								88 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								89 link Help Center, Value: support.saatchiart.com/hc
+								90 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								91 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								92 pop-up button Request Support
+								93 text Resources
+								94 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								95 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								96 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								97 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								98 text Saatchi Art
+								99 link About, Value: saatchiart.com/en-gb/about-us
+								100 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								101 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								102 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								103 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								104 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								105 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								106 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								107 text Manage Preferences
+								108 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								109 container View Store Preferences Footer
+									110 image
+									111 text United Kingdom / GBP / Cm
+									112 image
+								113 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								114 link Privacy Policy, Value: policies.google.com/privacy
+								115 text  and 
+								116 link Terms of Service, Value: policies.google.com/terms
+								117 text  apply.
+							118 container
+								119 button Manage Preferences
+								120 text Manage Preferences
+			121 pop-up button Tab search
+			122 container
+				123 tab group
+					124 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+						125 button Close
+					126 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					127 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+						128 button Close
+					129 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+						130 button Close
+					131 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+						132 button Close
+					133 tab (settable, boolean) Meta Business Suite - High memory usage - 1.0 GB, Value: off
+						134 button Close
+					135 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom, Value: on
+						136 button Close
+			137 button New tab
+	138 close button
+	139 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	140 minimise button
+141 menu bar
+	142 Chrome
+	143 File
+	144 Edit
+	145 View
+	146 History
+	147 Bookmarks
+	148 Profiles
+	149 Tab
+	150 Window
+	151 Help
+
+Selected text: ```
+Fax￼faxSkip to Main Content￼￼StudioSALLY PRICEManage Artworks￼My PortfolioArtwork UploaderSales Dashboard￼Offers Dashboard￼Sponsored Listings￼Profile Information￼AddressesAccount￼￼Back to Artworks￼Lunar Phase II - White and Gold FinishViews0Favorites0￼Share￼Renew￼DuplicateVisibility: PublishedDELETE ARTWORKImages￼Edit￼￼Description￼Edit￼Subject, Category, YearSubjectAbstractCategorySculptureYear2026￼Method, Materials & StylesMethodReliefMaterialsPlasterStylesAbstract￼Dimensions30 W x 30 H x 7 D centimeters￼Keywordsmoon, spiral, relief, gold finish, white, gypsum, handmade, outdoor￼DescriptionOne panel is supplied. The photograph shows the offered spiral design and finish in a garden setting.
+
+A moon-inspired relief explores the relationship between a rounded form, its edges and the shadows it creates.
+
+Made from a gypsum-based material. Colour: White and gold-coloured surface treatments. A decorative surface effect is applied. Each piece is handmade. The surface-effect pattern will vary and will differ from the photographs. Companion pieces: Lunar Phase I, Lunar Phase III and Lunar Phase IV (sold separately). Dimensions: 30 × 30 cm; approximately 5–7 cm deep. Weight: Approximately 3–5 kg. Suitable for outdoor use and indoor display. Usually keyhole fixings; French cleats and other options are available. One sculpture supplied; other pieces and room props are not included. All designs can be customised; completely new commissions can be created with designer Sally Price. Dispatch within 3 working days; delivery transit time is additional.READ LESS30 x 30 cm Limited Edition - Price & Details￼Edit￼StatusFor Sale￼QuantityTotal Run50Sold on Saatchi Art0For Sale1￼PriceArtwork Price$224 (£166)Your Commission$134.40 (£99)￼Weight & PackagingPackaging TypeCrateShipping Weight16 kg￼Additional DetailsNumber of Pieces1Ready to HangNoInstallation TypeWall-MountedReady to HangNoOutdoor SafeYes￼Shipping AddressCourt Essington, Midford RoadMidfordBath, Somerset BA2 7BXGBMake Prints Available for SaleAdd Prints for Sale￼￼￼￼￼￼SupportCommunity ForumHelp CenterGet StartedPaymentsRequest SupportResourcesArtist HandbookPackaging GuideHow to PhotographArtist TipsSaatchi ArtAboutSell on Saatchi ArtAffiliate ProgramTerms of ServicePrivacy NoticeCookie NoticeCopyright PolicyCalifornia Notice of CollectionManage PreferencesAccessibility￼United Kingdom/GBP/Cm￼© 2010-2026 Saatchi Art. All Rights Reserved.This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.￼￼￼￼￼￼￼￼Manage Preferences
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

@@ -1,0 +1,260 @@
+The following is a diff from the previous accessibility tree for Window: "DevTools - boldstonesculpture.…paign=pinterest_consent_check" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 21, 34-115, 154
+~												18 tab (selected) Console, Value: 1
++												170 tab (settable, integer) Sources, Value: 0
++									171 container Console panel
++										172 container console
++											173 container
++												174 toolbar
++													175 container Show Console sidebar
++														176 button Show Console sidebar
++													177 container Clear console, Help: Clear console - Ctrl L - ⌘ K
++														178 button Clear console - Ctrl L - ⌘ K
++													179 container Expand all
++														180 button Expand all
++													181 button JavaScript context: top
++													182 container Create live expression
++														183 button Create live expression
++													184 text entry area (settable) Filter
++														185 text Filter
++													186 pop-up button Log level: Default levels
++														187 text Default levels
++													188 container Some problems no longer generate console messages, but are surfaced in the Issues tab Click to view 1 possible improvement
++														189 button Some problems no longer generate console messages, but are surfaced in the Issues tab Click to view 1 possible improvement
++													190 container Console settings
++														191 toggle button Console settings, Value: 0
++													192 container 23 messages in console
++												193 container
++													194 container
++														195 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++															196 container
++																197 text 21:37:02.590
++																198 container Error
++																199 container content.js:18 Uncaught (in promise) Stack table collapsed
++																	200 container
++																		201 link content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
++																			202 text content.js:18
++																		203 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++														204 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++															205 container
++																206 text 21:37:02.590
++																207 container Error
++																208 container brancusi-totem-white…est_consent_check:1 Uncaught (in promise) Stack table collapsed
++																	209 container
++																		210 button brancusi-totem-white…est_consent_check:1
++																		211 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++														212 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++															213 container
++																214 text 21:37:02.590
++																215 container Error
++																216 container globals-front.js:5935 Uncaught (in promise) Stack table collapsed
++																	217 container
++																		218 link globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
++																			219 text globals-front.js:5935
++																		220 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++														221 container Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
++															222 container
++																223 text 21:37:02.737
++																224 container Error
++																225 container  GET https://connect.facebook.net/en_US/fbevents.js net::ERR_BLOCKED_BY_CLIENT Stack table collapsed
++																	226 container
++																		227 link brancusi-totem-white…t_consent_check:271, Help: https://boldstonesculpture.com/buy/p/brancusi-totem-white?utm_source=qa&utm_medium=test&utm_campaign=pinterest_consent_check:271
++																			228 text brancusi-totem-white
++																			229 text …
++																			230 text t_consent_check:271
++																		231 button Click to open the Network panel and show request for URL: https://connect.facebook.net/en_US/fbevents.js
++																		232 text GET 
++																		233 link https://connect.facebook.net/en_US/fbevents.js
++																			234 text https://connect.facebook.net/en_US/fbevents.js
++																		235 text net::ERR_BLOCKED_BY_CLIENT
++														236 container yui: NOT loaded: squarespace-visitor_site_error_reporter
++															237 container
++																238 text 21:37:02.918
++																239 container Warning
++																240 container  yui: NOT loaded: squarespace-visitor_site_error_reporter Stack table collapsed
++																	241 container
++																		242 link common-vendors-stabl…e2b6-min.en-US.js:8, Help: https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-2e71e68f6532e2b6-min.en-US.js:8
++																			243 text common-vendors-stabl
++																			244 text …
++																			245 text e2b6-min.en-US.js:8
++																		246 text yui: NOT loaded: squarespace-visitor_site_error_reporter
++														247 container yui: NOT loaded: squarespace-cldr_resource_pack
++															248 container
++																249 text 21:37:02.918
++																250 container Warning
++																251 container  yui: NOT loaded: squarespace-cldr_resource_pack Stack table collapsed
++																	252 container
++																		253 link common-vendors-stabl…e2b6-min.en-US.js:8, Help: https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-2e71e68f6532e2b6-min.en-US.js:8
++																			254 text common-vendors-stabl
++																			255 text …
++																			256 text e2b6-min.en-US.js:8
++																		257 text yui: NOT loaded: squarespace-cldr_resource_pack
++														258 container yui: NOT loaded: squarespace-common_vendors_stable
++															259 container
++																260 text 21:37:02.918
++																261 container Warning
++																262 container  yui: NOT loaded: squarespace-common_vendors_stable Stack table collapsed
++																	263 container
++																		264 link common-vendors-stabl…e2b6-min.en-US.js:8, Help: https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-2e71e68f6532e2b6-min.en-US.js:8
++																			265 text common-vendors-stabl
++																			266 text …
++																			267 text e2b6-min.en-US.js:8
++																		268 text yui: NOT loaded: squarespace-common_vendors_stable
++														269 container yui: NOT loaded: squarespace-common_vendors
++															270 container
++																271 text 21:37:02.918
++																272 container Warning
++																273 container  yui: NOT loaded: squarespace-common_vendors Stack table collapsed
++																	274 container
++																		275 link common-vendors-stabl…e2b6-min.en-US.js:8, Help: https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-2e71e68f6532e2b6-min.en-US.js:8
++																			276 text common-vendors-stabl
++																			277 text …
++																			278 text e2b6-min.en-US.js:8
++																		279 text yui: NOT loaded: squarespace-common_vendors
++														280 container yui: NOT loaded: squarespace-user_account_core
++															281 container
++																282 text 21:37:02.921
++																283 container Warning
++																284 container  yui: NOT loaded: squarespace-user_account_core Stack table collapsed
++																	285 container
++																		286 link common-vendors-stabl…e2b6-min.en-US.js:8, Help: https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-2e71e68f6532e2b6-min.en-US.js:8
++																			287 text common-vendors-stabl
++																			288 text …
++																			289 text e2b6-min.en-US.js:8
++																		290 text yui: NOT loaded: squarespace-user_account_core
++														291 container yui: NOT loaded: squarespace-performance
++															292 container
++																293 text 21:37:02.921
++																294 container Warning
++																295 container  yui: NOT loaded: squarespace-performance Stack table collapsed
++																	296 container
++																		297 link common-vendors-stabl…e2b6-min.en-US.js:8, Help: https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-2e71e68f6532e2b6-min.en-US.js:8
++																			298 text common-vendors-stabl
++																			299 text …
++																			300 text e2b6-min.en-US.js:8
++																		301 text yui: NOT loaded: squarespace-performance
++														302 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++															303 container
++																304 text 21:37:03.325
++																305 container Error
++																306 container content.js:18 Uncaught (in promise) Stack table collapsed
++																	307 container
++																		308 link content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
++																			309 text content.js:18
++																		310 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++														311 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++															312 container
++																313 text 21:37:03.325
++																314 container Error
++																315 container js.stripe.com/v3/con…ipeController3141:1 Uncaught (in promise) Stack table collapsed
++																	316 container
++																		317 button js.stripe.com/v3/con…ipeController3141:1
++																		318 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++														319 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++															320 container
++																321 text 21:37:03.325
++																322 container Error
++																323 container globals-front.js:5935 Uncaught (in promise) Stack table collapsed
++																	324 container
++																		325 link globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
++																			326 text globals-front.js:5935
++																		327 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++														328 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++															329 container
++																330 text 21:37:03.325
++																331 container Error
++																332 container content.js:18 Uncaught (in promise) Stack table collapsed
++																	333 container
++																		334 link content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
++																			335 text content.js:18
++																		336 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++														337 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++															338 container
++																339 text 21:37:03.325
++																340 container Error
++																341 container js.stripe.com/v3/ele…ipeController3141:1 Uncaught (in promise) Stack table collapsed
++																	342 container
++																		343 button js.stripe.com/v3/ele…ipeController3141:1
++																		344 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++														345 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++															346 container
++																347 text 21:37:03.325
++																348 container Error
++																349 container globals-front.js:5935 Uncaught (in promise) Stack table collapsed
++																	350 container
++																		351 link globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
++																			352 text globals-front.js:5935
++																		353 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++														354 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++															355 container
++																356 text 21:37:04.173
++																357 container Error
++																358 container content.js:18 Uncaught (in promise) Stack table collapsed
++																	359 container
++																		360 link content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
++																			361 text content.js:18
++																		362 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++														363 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++															364 container
++																365 text 21:37:04.173
++																366 container Error
++																367 container js.stripe.com/v3/m-o…ams__[version]=v3:1 Uncaught (in promise) Stack table collapsed
++																	368 container
++																		369 button js.stripe.com/v3/m-o…ams__[version]=v3:1
++																		370 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++														371 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++															372 container
++																373 text 21:37:04.174
++																374 container Error
++																375 container globals-front.js:5935 Uncaught (in promise) Stack table collapsed
++																	376 container
++																		377 link globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
++																			378 text globals-front.js:5935
++																		379 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++														380 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++															381 container
++																382 text 21:37:04.295
++																383 container Error
++																384 container content.js:18 Uncaught (in promise) Stack table collapsed
++																	385 container
++																		386 link content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
++																			387 text content.js:18
++																		388 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++														389 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++															390 container
++																391 text 21:37:04.296
++																392 container Error
++																393 container m.stripe.network/inn…ams__[version]=v3:1 Uncaught (in promise) Stack table collapsed
++																	394 container
++																		395 button m.stripe.network/inn…ams__[version]=v3:1
++																		396 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++														397 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++															398 container
++																399 text 21:37:04.296
++																400 container Error
++																401 container globals-front.js:5935 Uncaught (in promise) Stack table collapsed
++																	402 container
++																		403 link globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
++																			404 text globals-front.js:5935
++																		405 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
++														406 container Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
++															407 container
++																408 text 21:37:21.364
++																409 container Error
++																410 container  GET https://bzrcdn.openai.com/sdk/oaiq.min.js net::ERR_BLOCKED_BY_CLIENT Stack table collapsed
++																	411 container
++																		412 link brancusi-totem-white…st_consent_check:96, Help: https://boldstonesculpture.com/buy/p/brancusi-totem-white?utm_source=qa&utm_medium=test&utm_campaign=pinterest_consent_check:96
++																			413 text brancusi-totem-white
++																			414 text …
++																			415 text st_consent_check:96
++																		416 button Click to open the Network panel and show request for URL: https://bzrcdn.openai.com/sdk/oaiq.min.js
++																		417 text GET 
++																		418 link https://bzrcdn.openai.com/sdk/oaiq.min.js
++																			419 text https://bzrcdn.openai.com/sdk/oaiq.min.js
++																		420 text net::ERR_BLOCKED_BY_CLIENT
++													421 container
++														422 container
++															423 text entry area (settable) Console prompt, Value: 
+
++							424 text Network data available
+The focused UI element is 423 text entry area (settable) Console prompt, Value: 

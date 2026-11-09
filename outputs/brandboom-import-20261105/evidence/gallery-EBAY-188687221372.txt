@@ -1,0 +1,380 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: EBAY-188687221372, Placeholder: Search Products
+									48 link
+								49 button 1
+									50 container
+										51 Tick box 1
+									52 text 1
+								53 container
+									54 text 1  /  1
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container
+										64 image /00034706102876B2_M.jpg
+										65 text Boldstone Lunar Phase IV - Silver Finish Wall sculpture
+										66 text EBAY-188687221372 SOFT SILVER METALLIC FINISH
+										67 container
+											68 text 87.87  GBP
+							69 container
+								70 content list
+									71 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								72 container
+									73 heading Presentations, Value: 5
+										74 text Presentations
+									75 button New
+									76 content list
+										77 link ALL, Value: manage.brandboom.com/products/s/111089#
+										78 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									79 container
+										80 link
+											81 image
+										82 search text field (settable) Search Presentations
+										83 link
+											84 image
+								85 heading Ship Windows, Value: 5
+									86 text Ship Windows
+								87 content list
+									88 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									89 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								90 text No active ship windows
+							91 container
+								92 button Cancel
+								93 button Select All
+								94 text 1 Item
+								95 button Search Order
+							96 link Reset
+								97 text Reset
+							98 button Apply
+							99 text PRODUCT STATUS
+							100 text Active
+							101 text Inactive
+							102 text Archived
+							103 text Corrupted
+							104 text No Images
+							105 text SORT BY
+							106 pop-up button Newest First
+								107 (selected) Newest First
+							108 text SHIP DATE RANGE
+							109 container
+								110 image
+								111 text field (settable) Click to select range
+							112 text No Date Range
+							113 text CREATE DATE RANGE
+							114 container
+								115 image
+								116 text field (settable) Click to select range
+							117 text SIZES
+							118 text field (settable) S, M, L
+							119 text VENDORS TYPES
+							120 link
+								121 image
+							122 text No Types
+							123 text Mens
+							124 text Womens
+							125 text CATEGORIES
+							126 link
+								127 image
+							128 link
+								129 image
+							130 text No Categories
+							131 text Sweater
+							132 text SEASONS
+							133 link
+								134 image
+							135 link
+								136 image
+							137 text No Seasons
+							138 container
+								139 container
+									140 Tick box Create another, Value: 0
+									141 text Create another
+								142 button Save
+								143 container
+									144 Unlabelled image /00034706102876B2_M.avif
+									145 container
+										146 image /00034706102876B2_S.jpg
+										147 button STANDARD
+										148 image /00034706103B1D8D_S.avif
+										149 button STANDARD
+										150 image /000347061040E240_S.avif
+										151 button STANDARD
+										152 image /00034706105CA038_S.avif
+										153 button STANDARD
+										154 image /00034706106F3672_S.avif
+										155 button STANDARD
+										156 image /0003470610755EC6_S.avif
+										157 button STANDARD
+										158 image /00034706108E2B1D_S.avif
+										159 button STANDARD
+										160 image /0003470610990DAB_S.avif
+										161 button STANDARD
+										162 image /000347061109DDFD_S.avif
+										163 button STANDARD
+										164 image /000347061119992D_S.avif
+										165 button STANDARD
+										166 image
+										167 image
+									168 image
+									169 text 10 / Unlimited
+									170 image
+									171 text 0 / 1
+									172 text Drag to reorder
+									173 container
+										174 text Style ID *
+										175 text EBAY-188687221372
+									176 container
+										177 text Options
+										178 link Soft silver metallic finish
+											179 text Soft silver metallic finish
+									180 container
+										181 text Sizes
+										182 text One sculpture
+									183 text Barcode
+									184 container
+										185 button
+										186 text field (settable)
+									187 text Name
+									188 text field (settable) Boldstone Lunar Phase IV - Silver Finish Wall sculpture
+									189 container Price
+										190 container
+											191 text Price
+											192 text field (settable) Value: 87.87, Placeholder: Enter
+									193 container Retail
+										194 container
+											195 text Retail
+											196 text field (settable) Value: 0.00, Placeholder: Enter
+									197 text Qty Min
+									198 text field (settable) 1
+									199 text Vendor
+									200 text field (settable)
+									201 text Type
+									202 text field (settable) Home Decor
+									203 text Category
+									204 text field (settable) Wall Sculpture
+									205 text Taxonomy
+									206 text field (settable) Select
+									207 text Season
+									208 text field (settable)
+									209 text Ship Date
+									210 text field (settable)
+									211 container
+										212 text HS Code
+										213 text field (settable) HS Code
+									214 container Country Of Origin
+										215 container
+											216 text Country Of Origin
+											217 button -
+									218 container
+										219 text Description
+										220 container
+											221 text A moon-inspired relief explores the relationship between a rounded form, its edges and the shadows it creates. The composition feels measured and calm, with details changing as the light moves.
+											222 text A small reference to the rhythm of the night sky, translated into a tactile presence for an interior or garden wall.
+											223 text A silver-toned finish adds a different mood to the relief and its shadows.
+											224 text Companion pieces: This is one piece of a coordinating group with Lunar Phase I, Lunar Phase II and Lunar Phase III. Companion sculptures are sold separately; this listing is for one sculpture only.
+											225 text Brand: Boldstone
+											226 text Product type: Wall sculpture
+											227 text Model: Lunar Phase IV - Silver Finish (EBAY-188687221372)
+											228 text Colour / appearance: Soft silver metallic finish
+											229 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											230 text Material: Made from a gypsum-based material.
+											231 text Surface effect: A decorative surface effect is applied to create the finish shown. Each piece is handmade. The surface-effect pattern will vary and will differ from the photographs.
+											232 text Dimensions: 30 × 30 × 7 cm
+											233 text Weight: Approximately 8 kg
+											234 text Use: Suitable for outdoor use and indoor display.
+											235 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											236 text Availability: Made to order
+											237 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											238 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											239 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							240 link
+								241 image
+							242 container
+								243 content list
+									244 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									245 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								246 container
+									247 button Upload Images
+									248 button
+									249 button
+									250 button
+								251 container
+									252 Unlabelled image /00011059390A4080_S.avif
+									253 text jewelry-watch
+									254 Unlabelled image /00011059388E43A7_S.avif
+									255 text toys-dinosaur
+									256 Unlabelled image /00011059387A69BA_S.avif
+									257 text baby-kidswear-t
+									258 Unlabelled image /000110593863557B_S.avif
+									259 text pet-sticks
+									260 Unlabelled image /00011059385C1D4E_S.avif
+									261 text apparel-t-shirt
+									262 Unlabelled image /00011059384494BB_S.avif
+									263 text footwear-shoes
+									264 Unlabelled image /000110593837D96A_S.avif
+									265 text beauty-cream
+									266 Unlabelled image /00011059382B4683_S.avif
+									267 text home-pitcher
+									268 Unlabelled image /00007087863E986B_S.avif
+									269 text BOOM1111
+									270 Unlabelled image /0000022409830BD3_S.avif
+									271 text BOOM1830
+									272 Unlabelled image /00000224097C30D6_S.avif
+									273 text BOOM1705
+									274 Unlabelled image /00000224096AD0BE_S.avif
+									275 text BOOM1100
+							276 button Close
+							277 text Search Products
+							278 button Scan barcodes
+							279 container
+								280 link
+									281 image
+								282 search text field (settable) Search for Products
+							283 text RESULTS
+							284 button Open Intercom Messenger
+							285 link Dismiss
+								286 text Dismiss
+							287 link Product Import Complete
+								288 text Product Import Complete
+							289 button Refresh
+			290 pop-up button Tab search
+			291 container
+				292 tab group
+					293 tab (settable, boolean) Products – Faire, Value: off
+					294 tab (settable, boolean) Gumtree | Free classified ads from the #1 classifieds site in the UK, Value: off
+					295 tab (settable, boolean) Sign in to your Supplier account | AppScenic, Value: off
+					296 tab (settable, boolean) Shoppe Object, Value: off
+					297 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					298 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					299 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					300 tab (settable, boolean) sell on wholesale central - Google Search, Value: off
+					301 tab (settable, boolean) Display Your Products to Millions of Buyers Worldwide., Value: off
+					302 tab (settable, boolean) become-a-seller-new | Wholesale Prices | Tradeling, Value: off
+					303 tab (settable, boolean) Marketplace FAQ for Sellers | Brandboom Help Center, Value: off
+					304 tab (settable, boolean) Online Sales FAQ - TICA, Value: off
+					305 tab (settable, boolean) Carro Migration FAQ, Value: off
+					306 tab (settable, boolean) Join Us | CREOATE, Value: off
+					307 tab (settable, boolean) MOM - Sell your products, Value: off
+					308 tab (settable, boolean) Ankorstore | Wholesale Marketplace Home to Europe's Best Brands, Value: off
+					309 tab (settable, boolean) Explore JOOR for home brands, Value: off
+					310 tab (settable, boolean) Wholesale Marketplace: Get Discovered by Retailers | NuORDER by Lightspeed, Value: off
+					311 tab (settable, boolean) Sell on Syncee, Value: off
+					312 tab (settable, boolean) Become a Spocket Supplier - Sell to 100,000+ Retailers Free, Value: off
+					313 tab (settable, boolean) Become a verified Avasam supplier, Value: off
+					314 tab (settable, boolean) Advertise Your Wholesale Business - Would you like to expand your business?, Value: off
+					315 tab (settable, boolean) eSources UK Help | Managing Your Supplier Profile, Value: off
+					316 tab (settable, boolean) Gift Wholesalers - Gift Shop Wholesalers, Value: off
+					317 tab (settable, boolean) Sell on Tesco Marketplace | Reach millions of UK shoppers, Value: off
+					318 tab (settable, boolean) RangeMe, Value: off
+					319 tab (settable, boolean) Art Gallery | Buy Original British Art Online, Value: off
+					320 tab (settable, boolean) Original art for sale, Value: off
+					321 tab (settable, boolean) 25+ Handmade Marketplaces for Artisans to Sell Crafts, Art, Gifts Online - MultiMerch, Value: off
+					322 tab (settable, boolean) 250+ Websites Directory for Artists to Sell Art Online, Value: off
+					323 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish, Value: off
+					324 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					325 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					326 tab (settable, boolean) Wholesale Central | Leading Source for Wholesale Products & Suppliers, Value: off
+					327 tab (settable, boolean) New York City Show Exhibitor Application, Value: off
+					328 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					329 tab (settable, boolean) Booth activation - Booth customization, Value: off
+					330 tab (settable, boolean) Romans Surviving Rome’s Collapse, Value: off
+					331 tab (settable, boolean) PayPal, Value: off
+					332 tab (settable, boolean) Verification code to reset your PayPal password - info@boldstone.co.uk - Thomas Price Mail, Value: off
+					333 tab (settable, boolean) ChatGPT, Value: off
+					334 tab (settable, boolean) _20261105_125118_b5c8aa3a-e88c-489b-bb71-04f4e23ce0ea.png (2048×2048), Value: off
+					335 tab (settable, boolean) _20261105_124942_a2ea11ea-9588-4814-921b-1b8119944376.png (2048×2048), Value: off
+					336 tab (settable, boolean) 888309629_1523348299846656_5333981695044073670_n.jpg (947×2048), Value: off
+					337 tab (settable, boolean) 880004104_1873677580468638_5195249294559980998_n.jpg (947×2048), Value: off
+					338 tab (settable, boolean) Photo 31-03-2025, 12 41 58.jpg, Value: off
+					339 tab (settable, boolean) Value: off, Elegant Swan Marble Side Table with Artistic White Base – 50cm — boldstone - High memory usage - 955 MB
+					340 tab (settable, boolean) Marbled Circle - Turquoise — boldstone, Value: off
+					341 tab (settable, boolean) (1) Home / X, Value: off
+					342 tab (settable, boolean) SEO opportunity audit, Value: off
+					343 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					344 tab (settable, boolean) Contact us - Glassette, Value: off
+					345 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					346 tab (settable, boolean) Sell on Artsper, Value: off
+					347 tab (settable, boolean) ChatGPT, Value: off
+					348 tab (settable, boolean) (5) Boldstone Sculpture | Commerce Manager, Value: off
+					349 tab group  group ✅Claude – 1 Tab, •  Boldstone Sculpture | Products – Expanded
+					350 tab (settable, boolean) Boldstone Sculpture | Products – Part of group ✅Claude, Value: off
+					351 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+					352 tab group  group 🗿 Product completion – 1 Tab, •  about:blank – Expanded
+					353 tab (settable, boolean) about:blank – Part of group 🗿 Product completion, Value: off
+			354 button New tab
+	355 close button
+	356 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	357 minimise button
+358 menu bar
+	359 Chrome
+	360 File
+	361 Edit
+	362 View
+	363 History
+	364 Bookmarks
+	365 Profiles
+	366 Tab
+	367 Window
+	368 Help
+
+The focused UI element is 27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089

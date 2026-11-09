@@ -1,0 +1,930 @@
+Window: "DevTools - manage.brandboom.com/products/s/111089", App: Google Chrome.
+0 standard window DevTools - manage.brandboom.com/products/s/111089 – Tom, Secondary Actions: Raise, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true&panel=console
+	1 container DevTools - manage.brandboom.com/products/s/111089 – Tom, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true&panel=console
+		2 container
+			3 container
+				4 scroll area
+					5 HTML content DevTools, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true&panel=console
+						6 container
+							7 container
+								8 container
+									9 container Main toolbar
+										10 toolbar
+											11 container Select an element in the page to inspect it, Help: Select an element in the page to inspect it - ⌘ ⇧ C
+												12 toggle button Select an element in the page to inspect it - ⌘ ⇧ C, Value: 0
+											13 container Toggle device toolbar, Help: Toggle device toolbar - ⌘ ⇧ M
+												14 toggle button Toggle device toolbar - ⌘ ⇧ M, Value: 0
+										15 container
+											16 tab group Panels
+												17 tab (selected) Console, Value: 1
+												18 tab (settable, integer) Elements, Value: 0
+												19 tab (settable, integer) Application, Value: 0
+												20 tab (settable, integer) Sources, Value: 0
+											21 pop-up button More tabs
+										22 toolbar
+											23 container
+												24 container Open Console to view 1,011 errors
+													25 button Open Console to view 1,011 errors
+												26 container Open Issues to view 324 issues: 4 page errors, 56 breaking changes, 264 possible improvements
+													27 button Open Issues to view 324 issues: 4 page errors, 56 breaking changes, 264 possible improvements
+											28 button  AI assistance, Help: Open AI assistance panel
+											29 container Settings, Help: Settings - F1 - ⇧ ?
+												30 button Settings - F1 - ⇧ ?
+											31 pop-up button Customize and control DevTools
+												32 button Customize and control DevTools
+									33 container Console panel
+										34 container console
+											35 container
+												36 toolbar
+													37 container Show Console sidebar
+														38 button Show Console sidebar
+													39 container Clear console, Help: Clear console - Ctrl L - ⌘ K
+														40 button Clear console - Ctrl L - ⌘ K
+													41 container Collapse all
+														42 button Collapse all
+													43 button JavaScript context: top
+													44 container Create live expression
+														45 button Create live expression
+													46 text entry area (settable) Filter
+														47 text Filter
+													48 pop-up button Log level: Default levels
+														49 text Default levels
+													50 container Some problems no longer generate console messages, but are surfaced in the Issues tab Click to view 4 page errors, 56 breaking changes, 264 possible improvements
+														51 button Some problems no longer generate console messages, but are surfaced in the Issues tab Click to view 4 page errors, 56 breaking changes, 264 possible improvements
+													52 container Console settings
+														53 toggle button Console settings, Value: 0
+													54 container 1013 messages in console
+												55 container
+													56 container (showing 28-128 of 128 items)
+														57 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															58 container
+																59 text 23:42:34.722
+																60 container Error
+																61 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	62 container
+																		63 button about:blank:1
+																		64 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														65 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															66 container
+																67 text 23:42:34.722
+																68 container Error
+																69 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	70 container
+																		71 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		72 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														73 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															74 container
+																75 text 23:42:37.871
+																76 container Error
+																77 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	78 container
+																		79 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		80 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														81 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															82 container
+																83 text 23:42:37.871
+																84 container Error
+																85 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	86 container
+																		87 button about:blank:1
+																		88 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														89 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															90 container
+																91 text 23:42:37.872
+																92 container Error
+																93 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	94 container
+																		95 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		96 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														97 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															98 container
+																99 text 23:42:37.979
+																100 container Error
+																101 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	102 container
+																		103 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		104 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														105 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															106 container
+																107 text 23:42:37.979
+																108 container Error
+																109 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	110 container
+																		111 button about:blank:1
+																		112 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														113 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															114 container
+																115 text 23:42:37.979
+																116 container Error
+																117 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	118 container
+																		119 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		120 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														121 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															122 container
+																123 text 23:42:41.003
+																124 container Error
+																125 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	126 container
+																		127 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		128 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														129 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															130 container
+																131 text 23:42:41.003
+																132 container Error
+																133 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	134 container
+																		135 button about:blank:1
+																		136 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														137 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															138 container
+																139 text 23:42:41.003
+																140 container Error
+																141 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	142 container
+																		143 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		144 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														145 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															146 container
+																147 text 23:42:41.003
+																148 container Error
+																149 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	150 container
+																		151 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		152 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														153 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															154 container
+																155 text 23:42:41.003
+																156 container Error
+																157 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	158 container
+																		159 button about:blank:1
+																		160 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														161 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															162 container
+																163 text 23:42:41.003
+																164 container Error
+																165 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	166 container
+																		167 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		168 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														169 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															170 container
+																171 text 23:42:44.197
+																172 container Error
+																173 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	174 container
+																		175 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		176 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														177 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															178 container
+																179 text 23:42:44.197
+																180 container Error
+																181 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	182 container
+																		183 button about:blank:1
+																		184 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														185 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															186 container
+																187 text 23:42:44.197
+																188 container Error
+																189 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	190 container
+																		191 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		192 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														193 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															194 container
+																195 text 23:42:44.199
+																196 container Error
+																197 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	198 container
+																		199 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		200 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														201 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															202 container
+																203 text 23:42:44.199
+																204 container Error
+																205 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	206 container
+																		207 button about:blank:1
+																		208 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														209 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															210 container
+																211 text 23:42:44.199
+																212 container Error
+																213 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	214 container
+																		215 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		216 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														217 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															218 container
+																219 text 23:42:47.305
+																220 container Error
+																221 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	222 container
+																		223 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		224 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														225 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															226 container
+																227 text 23:42:47.305
+																228 container Error
+																229 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	230 container
+																		231 button about:blank:1
+																		232 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														233 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															234 container
+																235 text 23:42:47.305
+																236 container Error
+																237 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	238 container
+																		239 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		240 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														241 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															242 container
+																243 text 23:42:47.306
+																244 container Error
+																245 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	246 container
+																		247 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		248 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														249 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															250 container
+																251 text 23:42:47.306
+																252 container Error
+																253 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	254 container
+																		255 button about:blank:1
+																		256 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														257 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															258 container
+																259 text 23:42:47.306
+																260 container Error
+																261 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	262 container
+																		263 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		264 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														265 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															266 container
+																267 text 23:42:50.562
+																268 container Error
+																269 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	270 container
+																		271 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		272 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														273 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															274 container
+																275 text 23:42:50.562
+																276 container Error
+																277 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	278 container
+																		279 button about:blank:1
+																		280 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														281 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															282 container
+																283 text 23:42:50.562
+																284 container Error
+																285 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	286 container
+																		287 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		288 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														289 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															290 container
+																291 text 23:42:50.562
+																292 container Error
+																293 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	294 container
+																		295 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		296 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														297 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															298 container
+																299 text 23:42:50.562
+																300 container Error
+																301 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	302 container
+																		303 button about:blank:1
+																		304 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														305 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															306 container
+																307 text 23:42:50.562
+																308 container Error
+																309 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	310 container
+																		311 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		312 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														313 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															314 container
+																315 text 23:50:23.775
+																316 container Error
+																317 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	318 container
+																		319 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		320 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														321 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															322 container
+																323 text 23:50:23.775
+																324 container Error
+																325 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	326 container
+																		327 button about:blank:1
+																		328 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														329 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															330 container
+																331 text 23:50:23.775
+																332 container Error
+																333 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	334 container
+																		335 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		336 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														337 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															338 container
+																339 text 23:50:23.775
+																340 container Error
+																341 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	342 container
+																		343 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		344 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														345 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															346 container
+																347 text 23:50:23.775
+																348 container Error
+																349 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	350 container
+																		351 button about:blank:1
+																		352 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														353 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															354 container
+																355 text 23:50:23.775
+																356 container Error
+																357 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	358 container
+																		359 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		360 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														361 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															362 container
+																363 text 23:53:38.745
+																364 container Error
+																365 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	366 container
+																		367 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		368 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														369 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															370 container
+																371 text 23:53:38.745
+																372 container Error
+																373 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	374 container
+																		375 button about:blank:1
+																		376 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														377 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															378 container
+																379 text 23:53:38.745
+																380 container Error
+																381 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	382 container
+																		383 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		384 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														385 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															386 container
+																387 text 23:53:38.745
+																388 container Error
+																389 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	390 container
+																		391 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		392 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														393 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															394 container
+																395 text 23:53:38.745
+																396 container Error
+																397 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	398 container
+																		399 button about:blank:1
+																		400 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														401 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															402 container
+																403 text 23:53:38.745
+																404 container Error
+																405 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	406 container
+																		407 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		408 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														409 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															410 container
+																411 text 23:53:52.122
+																412 container Error
+																413 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	414 container
+																		415 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		416 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														417 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															418 container
+																419 text 23:53:52.122
+																420 container Error
+																421 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	422 container
+																		423 button about:blank:1
+																		424 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														425 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															426 container
+																427 text 23:53:52.122
+																428 container Error
+																429 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	430 container
+																		431 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		432 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														433 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															434 container
+																435 text 23:53:52.122
+																436 container Error
+																437 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	438 container
+																		439 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		440 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														441 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															442 container
+																443 text 23:53:52.122
+																444 container Error
+																445 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	446 container
+																		447 button about:blank:1
+																		448 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														449 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															450 container
+																451 text 23:53:52.122
+																452 container Error
+																453 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	454 container
+																		455 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		456 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														457 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															458 container
+																459 text 23:53:58.081
+																460 container Error
+																461 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	462 container
+																		463 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		464 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														465 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															466 container
+																467 text 23:53:58.081
+																468 container Error
+																469 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	470 container
+																		471 button about:blank:1
+																		472 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														473 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															474 container
+																475 text 23:53:58.081
+																476 container Error
+																477 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	478 container
+																		479 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		480 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														481 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															482 container
+																483 text 23:53:58.081
+																484 container Error
+																485 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	486 container
+																		487 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		488 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														489 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															490 container
+																491 text 23:53:58.081
+																492 container Error
+																493 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	494 container
+																		495 button about:blank:1
+																		496 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														497 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															498 container
+																499 text 23:53:58.081
+																500 container Error
+																501 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	502 container
+																		503 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		504 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														505 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															506 container
+																507 text 23:54:04.956
+																508 container Error
+																509 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	510 container
+																		511 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		512 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														513 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															514 container
+																515 text 23:54:04.956
+																516 container Error
+																517 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	518 container
+																		519 button about:blank:1
+																		520 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														521 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															522 container
+																523 text 23:54:04.956
+																524 container Error
+																525 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	526 container
+																		527 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		528 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														529 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															530 container
+																531 text 23:54:04.956
+																532 container Error
+																533 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	534 container
+																		535 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		536 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														537 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															538 container
+																539 text 23:54:04.956
+																540 container Error
+																541 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	542 container
+																		543 button about:blank:1
+																		544 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														545 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															546 container
+																547 text 23:54:04.956
+																548 container Error
+																549 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	550 container
+																		551 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		552 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														553 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															554 container
+																555 text 23:54:13.877
+																556 container Error
+																557 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	558 container
+																		559 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		560 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														561 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															562 container
+																563 text 23:54:13.877
+																564 container Error
+																565 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	566 container
+																		567 button about:blank:1
+																		568 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														569 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															570 container
+																571 text 23:54:13.877
+																572 container Error
+																573 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	574 container
+																		575 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		576 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														577 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															578 container
+																579 text 23:54:13.877
+																580 container Error
+																581 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	582 container
+																		583 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		584 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														585 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															586 container
+																587 text 23:54:13.877
+																588 container Error
+																589 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	590 container
+																		591 button about:blank:1
+																		592 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														593 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															594 container
+																595 text 23:54:13.877
+																596 container Error
+																597 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	598 container
+																		599 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		600 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														601 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															602 container
+																603 text 23:54:19.869
+																604 container Error
+																605 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	606 container
+																		607 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		608 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														609 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															610 container
+																611 text 23:54:19.869
+																612 container Error
+																613 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	614 container
+																		615 button about:blank:1
+																		616 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														617 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															618 container
+																619 text 23:54:19.869
+																620 container Error
+																621 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	622 container
+																		623 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		624 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														625 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															626 container
+																627 text 23:54:19.869
+																628 container Error
+																629 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	630 container
+																		631 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		632 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														633 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															634 container
+																635 text 23:54:19.869
+																636 container Error
+																637 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	638 container
+																		639 button about:blank:1
+																		640 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														641 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															642 container
+																643 text 23:54:19.869
+																644 container Error
+																645 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	646 container
+																		647 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		648 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														649 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															650 container
+																651 text 23:54:26.374
+																652 container Error
+																653 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	654 container
+																		655 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		656 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														657 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															658 container
+																659 text 23:54:26.374
+																660 container Error
+																661 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	662 container
+																		663 button about:blank:1
+																		664 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														665 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															666 container
+																667 text 23:54:26.374
+																668 container Error
+																669 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	670 container
+																		671 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		672 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														673 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															674 container
+																675 text 23:54:26.374
+																676 container Error
+																677 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	678 container
+																		679 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		680 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														681 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															682 container
+																683 text 23:54:26.374
+																684 container Error
+																685 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	686 container
+																		687 button about:blank:1
+																		688 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														689 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															690 container
+																691 text 23:54:26.374
+																692 container Error
+																693 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	694 container
+																		695 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		696 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														697 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															698 container
+																699 text 23:54:33.386
+																700 container Error
+																701 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	702 container
+																		703 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		704 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														705 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															706 container
+																707 text 23:54:33.386
+																708 container Error
+																709 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	710 container
+																		711 button about:blank:1
+																		712 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														713 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															714 container
+																715 text 23:54:33.386
+																716 container Error
+																717 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	718 container
+																		719 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		720 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														721 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															722 container
+																723 text 23:54:33.386
+																724 container Error
+																725 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	726 container
+																		727 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		728 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														729 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															730 container
+																731 text 23:54:33.386
+																732 container Error
+																733 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	734 container
+																		735 button about:blank:1
+																		736 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														737 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															738 container
+																739 text 23:54:33.386
+																740 container Error
+																741 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	742 container
+																		743 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		744 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														745 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															746 container
+																747 text 23:57:26.041
+																748 container Error
+																749 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	750 container
+																		751 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		752 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														753 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															754 container
+																755 text 23:57:26.041
+																756 container Error
+																757 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	758 container
+																		759 button about:blank:1
+																		760 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														761 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															762 container
+																763 text 23:57:26.041
+																764 container Error
+																765 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	766 container
+																		767 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		768 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														769 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															770 container
+																771 text 23:57:26.041
+																772 container Error
+																773 container content.js:18 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	774 container
+																		775 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		776 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														777 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															778 container
+																779 text 23:57:26.041
+																780 container Error
+																781 container about:blank:1 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	782 container
+																		783 button about:blank:1
+																		784 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														785 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															786 container
+																787 text 23:57:26.041
+																788 container Error
+																789 container globals-front.js:5935 Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8) Stack table collapsed
+																	790 container
+																		791 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		792 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														793 container Locale en is already defined. Overwriting...
+															794 container
+																795 text 23:57:53.562
+																796 container  Locale en is already defined. Overwriting... Stack table collapsed
+																	797 container
+																		798 button base.bundle.js?v=22.3.3:2, Help: https://manage.brandboom.com/static/js/base.bundle.js?v=22.3.3:2
+																		799 text Locale en is already defined. Overwriting...
+														800 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															801 container
+																802 text 00:01:18.878
+																803 container Error
+																804 container content.js:18 Uncaught (in promise) Stack table collapsed
+																	805 container
+																		806 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		807 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														808 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															809 container
+																810 text 00:01:18.878
+																811 container Error
+																812 container about:blank:1 Uncaught (in promise) Stack table collapsed
+																	813 container
+																		814 button about:blank:1
+																		815 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														816 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															817 container
+																818 text 00:01:18.878
+																819 container Error
+																820 container globals-front.js:5935 Uncaught (in promise) Stack table collapsed
+																	821 container
+																		822 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		823 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														824 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															825 container
+																826 text 00:01:18.878
+																827 container Error
+																828 container content.js:18 Uncaught (in promise) Stack table collapsed
+																	829 container
+																		830 button content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																		831 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														832 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															833 container
+																834 text 00:01:18.878
+																835 container Error
+																836 container about:blank:1 Uncaught (in promise) Stack table collapsed
+																	837 container
+																		838 button about:blank:1
+																		839 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														840 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															841 container
+																842 text 00:01:18.878
+																843 container Error
+																844 container globals-front.js:5935 Uncaught (in promise) Stack table collapsed
+																	845 container
+																		846 button globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																		847 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														848 container Uncaught Error: Unexpected error: UploaderPublicApi is not initialized
+															849 container
+																850 text 00:01:25.355
+																851 container Error
+																852 container base.bundle.js:2 Uncaught Stack table collapsed
+																	853 container
+																		854 button base.bundle.js?v=22.3.3:2, Help: https://manage.brandboom.com/static/js/base.bundle.js?v=22.3.3:2
+																		855 text Uncaught Error: Unexpected error: UploaderPublicApi is not initialized     at  get api  (
+																		856 link 6674.bundle.js:1:267537, Help: https://manage.brandboom.com/Framework/static/CMS/js/6674.bundle.js:1:267537
+																			857 text 6674.bundle.js:1:267537
+																		858 text )     at 
+																		859 link 6674.bundle.js:1:269170, Help: https://manage.brandboom.com/Framework/static/CMS/js/6674.bundle.js:1:269170
+																			860 text 6674.bundle.js:1:269170
+																		861 text     at 
+																		862 link 6674.bundle.js:1:179108, Help: https://manage.brandboom.com/Framework/static/CMS/js/6674.bundle.js:1:179108
+																			863 text 6674.bundle.js:1:179108
+																		864 text     at  n  (
+																		865 link base.bundle.js?v=22.3.3:2:205240, Help: https://manage.brandboom.com/static/js/base.bundle.js?v=22.3.3:2:205240
+																			866 text base.bundle.js?v=22.3.3:2:205240
+																		867 text )
+													868 container
+														869 container
+															870 text entry area (settable) Console prompt, Value: Press cmd i to turn on code suggestions Press cmd x to disable code suggestions
+
+																871 text Press cmd i to turn on code suggestions Press cmd x to disable code suggestions
+								872 container Drawer
+									873 container
+										874 toolbar
+											875 pop-up button More tools
+												876 button More tools
+										877 tab group
+											878 tab (settable, integer) Console, Value: 0
+											879 tab (settable, integer) Issues, Value: 0
+											880 tab (selected) What’s new, Value: 1
+											881 tab (settable, integer) AI assistance, Value: 0
+										882 pop-up button More tabs
+										883 toolbar
+											884 container Toggle drawer orientation
+												885 button Toggle drawer orientation
+											886 container Expand drawer
+												887 button Expand drawer
+											888 container Close drawer
+												889 button Close drawer
+										890 container What’s new panel
+											891 container whats-new
+												892 container
+													893 text New in DevTools (November 2026)
+													894 button See all new features
+													895 heading DevTools for agents, Value: 3
+														896 link DevTools for agents, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#mcp
+															897 text DevTools for agents
+													898 container
+														899 text Inspect matched rules, inherited styles, pseudo-elements, and  @  rules with the  get_css_styles  tool in Chrome DevTools for agents. You can also manage server flags with a configuration file and parse large performance traces with chunked trace buffer parsing.
+													900 heading Visual position-area editor for CSS anchor positioning, Value: 3
+														901 link Visual position-area editor for CSS anchor positioning, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#sources
+															902 text Visual position-area editor for CSS anchor positioning
+													903 container
+														904 text Click the inline swatch next to a  position-area  declaration in the  Styles  tab to visually select anchor grid regions, configure axis modes, and toggle the  self  keyword. Right-click  popover  adorners in the DOM tree to disambiguate multiple implicit anchors.
+													905 heading Web Install manifest diagnostics and ad script provenance, Value: 3
+														906 link Web Install manifest diagnostics and ad script provenance, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#web-install-manifest-diagnosti
+															907 text Web Install manifest diagnostics and ad script provenance
+													908 container
+														909 text Diagnose Web Install ( navigator.install  and  <install> ) manifest errors in the  Issues  panel with direct links to affected manifests. In the  Application  panel's  Ads  section, use the new  Ad provenance  column to see whether script ancestry or a filter list rule tagged an ad script.
+							910 text DevTools is undocked 
+	911 close button
+	912 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	913 minimise button
+	914 text DevTools - manage.brandboom.com/products/s/111089
+915 menu bar
+	916 Chrome
+	917 File
+	918 Edit
+	919 View
+	920 History
+	921 Bookmarks
+	922 Profiles
+	923 Tab
+	924 Window
+	925 Help
+
+The focused UI element is 870 text entry area (settable) Console prompt, Value: Press cmd i to turn on code suggestions Press cmd x to disable code suggestions

@@ -1,0 +1,391 @@
+Window: "Feed | LinkedIn", App: Google Chrome.
+0 standard window Feed | LinkedIn - High memory usage - 1.4 GB - Google Chrome – Tom, URL: …, Secondary Actions: Raise
+	1 container Feed | LinkedIn - High memory usage - 1.4 GB - Google Chrome – Tom, URL: …
+		2 container
+			3 toolbar
+				4 button Back
+				5 button Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: linkedin.com/feed/foryou/, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Feed | LinkedIn, URL: …
+						26 container
+							27 heading 1 notification, Value: 2
+								28 text 1 notification
+							29 container
+								30 text Post successful.
+								31 link View post, Value: linkedin.com/feed/update/urn:li:activity:7525274075884072960/
+								32 button Dismiss
+							33 container Skip navigation menu
+								34 container
+									35 button Skip to search
+									36 button Skip to main content
+									37 button Skip to sidebar
+									38 button Skip to primary content
+									39 button Skip to aside
+									40 button Close jump menu
+							41 button LinkedIn
+							42 container
+								43 container
+									44 text field (settable) Search
+							45 content list
+								46 button Home, 1 new notification
+								47 link Network, 2 new notifications, Value: linkedin.com/mynetwork
+								48 link Jobs, 0 new notifications, Value: linkedin.com/jobs/
+								49 link Messaging, 0 new notifications, Value: linkedin.com/messaging/
+								50 link Notifications, 5 new notifications, Value: linkedin.com/notifications/
+								51 button Me
+							52 content list
+								53 button For Business
+							54 button Try Premium for £0
+							55 container
+								56 container Sidebar
+									57 container
+										58 link linkedin.com/in/sally-price-1193858a/
+										59 link View Sally Price’s profile, Value: linkedin.com/in/sally-price-1193858a/
+										60 link Boldstone Sculpture, Value: linkedin.com/in/sally-price-1193858a/
+										61 container Secondary Actions: Cancel
+											62 link Profile viewers 29, Value: linkedin.com/me/profile-views/
+											63 link Post impressions 230, Value: linkedin.com/analytics/creator/content/
+										64 container Secondary Actions: Cancel
+											65 text My pages (2)
+											66 link Boldstone Sculpture, Value: linkedin.com/company/70378664/admin/
+											67 link Activity 0, Value: linkedin.com/company/70378664/admin/notifications/
+											68 link Boldstone LLC, Value: linkedin.com/company/106497936/admin/
+											69 link Activity 0, Value: linkedin.com/company/106497936/admin/notifications/
+											70 text Grow your business faster
+											71 button Try Premium Page
+											72 link Advertise on LinkedIn, Value: linkedin.com/campaignmanager/accounts/
+										73 container Secondary Actions: Cancel
+											74 link Saved items, Value: linkedin.com/my-items/saved-posts/
+											75 link Groups, Value: linkedin.com/groups/
+											76 link Newsletters, Value: linkedin.com/mynetwork/network-manager/newsletters/
+											77 link Events, Value: linkedin.com/events/
+								78 container Primary content
+									79 container
+										80 button For you, 1 of 2, selected
+										81 button Network, 2 of 2
+									82 content list
+										83 container
+											84 link linkedin.com/in/sally-price-1193858a/
+											85 button Start a post
+											86 button Video
+											87 button Photo
+											88 link Write article, Value: linkedin.com/article/new/
+										89 button Sort by: Top
+										90 container
+											91 heading Feed post, Value: 2
+												92 text Feed post
+											93 link linkedin.com/in/sally-price-1193858a/
+											94 link Sally Price You, Value: linkedin.com/in/sally-price-1193858a/
+											95 text Sculptor at Boldstone Sculpture | Bespoke wall sculpture, reliefs and water features for interiors, gardens and architecture | Working with designers and architects since 1998
+											96 text now
+											97 link Sally Price You, Value: linkedin.com/in/sally-price-1193858a/
+											98 button Open control menu for post by Sally Price
+											99 text Embedded Seashells - White Small discoveries from the shoreline, gathered into one relief. Embedded Seashells sets shell spirals into a textured white panel. It brings the detail of beachcombing to a garden wall, courtyard or a quiet corner indoors. 70 cm high × 15 cm wide; approximately 5–7 cm deep. Made from a gypsum-based material. Suitable for outdoor use and indoor display. All designs can be customised, and completely new commissions can be developed with designer Sally Price. For homes, gardens and design projects. View the individual sculpture:
+											100 link Open https://lnkd.in/enVH4SVY, Value: linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FenVH4SVY&urlhash=pV7H&mt=mqNNSNZGp6iTAHvAo5EyxhLkDlnuAVr6iX5aAo8zCOlxa1rzOUNVuVPo4VUhZ2WQa5RGV4NwXVYpwZDEKUubB4xakorB4lfgzZK7zsFVANBoqXTOilWsdDCmYGFPkHo30lxOr1fmZe7zBPZgUxRdE-J7WDuRjomlj91nWxFqhLafDkNHgRSd-RgStlPIrOJNq8LcuBBe7suu2qslEqcJCZJyhabR9g&isSdui=true
+											101 link View hashtag: #wallsculpture, Value: linkedin.com/search/results/all/?keywords=%23wallsculpture&origin=HASH_TAG_FROM_FEED
+											102 link View hashtag: #sallyprice, Value: linkedin.com/search/results/all/?keywords=%23sallyprice&origin=HASH_TAG_FROM_FEED
+											103 link View hashtag: #boldstone, Value: linkedin.com/search/results/all/?keywords=%23boldstone&origin=HASH_TAG_FROM_FEED
+											104 link View hashtag: #interiordesign, Value: linkedin.com/search/results/all/?keywords=%23interiordesign&origin=HASH_TAG_FROM_FEED
+											105 link View hashtag: #landscapedesign, Value: linkedin.com/search/results/all/?keywords=%23landscapedesign&origin=HASH_TAG_FROM_FEED
+											106 link linkedin.com/feed/foryou/
+											107 link Switch to different account, Value: linkedin.com/feed/foryou/
+											108 button Reaction button state: no reaction
+											109 button Open reactions menu
+											110 button Comment
+											111 button Repost
+											112 link Send, Value: linkedin.com/feed/foryou/
+										113 container
+											114 heading Feed post, Value: 2
+												115 text Feed post
+											116 link linkedin.com/in/lucy-acton-3a1b92173/
+											117 link Lucy Acton 1st, Value: linkedin.com/in/lucy-acton-3a1b92173/
+											118 text Associate Director at AGC
+											119 text 4d
+											120 link Lucy Acton 1st, Value: linkedin.com/in/lucy-acton-3a1b92173/
+											121 button Open control menu for post by Lucy Acton
+											122 button Hide post by Lucy Acton
+											123 text I’m happy to share that I’m starting a new position as Associate Director at
+											124 link View company: AGC, Value: linkedin.com/company/agofc/
+											125 text !
+											126 link linkedin.com/
+											127 link Starting a new position, Value: linkedin.com/feed/update/urn:li:activity:7523692387282595841/
+											128 link Switch to different account, Value: linkedin.com/
+											129 button Reaction button state: no reaction
+											130 button Open reactions menu
+											131 button Comment
+											132 button Repost
+											133 link Send, Value: linkedin.com/
+											134 link 46 reactions, Value: linkedin.com/
+											135 container
+												136 content list
+													137 button Congratulations! 🎉
+														138 container
+															139 Tick box Congratulations! 🎉, Value: 0
+															140 text Congratulations! 🎉
+													141 button 🎉 Excited for you
+														142 container
+															143 Tick box 🎉 Excited for you, Value: 0
+															144 text 🎉 Excited for you
+													145 button Wishing you the best
+														146 container
+															147 Tick box Wishing you the best, Value: 0
+															148 text Wishing you the best
+													149 button 👏 Well deserved, Lucy
+														150 container
+															151 Tick box 👏 Well deserved, Lucy, Value: 0
+															152 text 👏 Well deserved, Lucy
+													153 button 🎉🎉🎉
+														154 container
+															155 Tick box 🎉🎉🎉, Value: 0
+															156 text 🎉🎉🎉
+												157 button Next
+										158 container
+											159 heading Feed post, Value: 2
+												160 text Feed post
+											161 link linkedin.com/in/maurizio-devona-a79557188/
+											162 text Followed by
+											163 link View Maurizio Devona’s profile, Value: linkedin.com/in/maurizio-devona-a79557188/
+											164 button Open control menu for post by Roisin McCann
+											165 button Hide post by Roisin McCann
+											166 link linkedin.com/in/roisinmccann/
+											167 link Roisin McCann Verified Profile 2nd, Value: linkedin.com/in/roisinmccann/
+											168 text RIAI & RIBA Award-winning architects | Director Marshall McCann Architects | Helping people design beautiful, healthy & thermally comfortable homes & buildings. 
+											169 text 2d
+											170 link Roisin McCann Verified Profile 2nd, Value: linkedin.com/in/roisinmccann/
+											171 button Follow Roisin McCann
+											172 text Will AI replace architects? In recent months we have had clients supply us with AI ideas of how they want their house to look. Take our plans and re-work them via AI – to create a ‘better’ solution. To the untrained eye. But here’s the thing. AI does not understand the nuances of shape, size, space, risk, construction, or people. The spaces were not large enough to accommodate the required fittings, people and furniture. The structure could not easily, or economically, be moulded in that way. The proportions, materials, scale were poor. The ideas were there – the execution did not work. Will it improve? Probably. Architects real value will be in the judgement. Understanding the clients needs.  The site and the building. Discerning good design from not so good. Reducing the risk to the client.  But AI is also helping.  Helping our clients understand our vision, better. AI is here, we need to embrace it - but to use it for what it is good at; not replace humans. And understanding the difference is important. *AI Generated image of one of our designs. PS - why does AI over-populate with people?
+											173 link View hashtag: #architecture, Value: linkedin.com/search/results/all/?keywords=%23architecture&origin=HASH_TAG_FROM_FEED
+											174 link View hashtag: #irisharchitecture, Value: linkedin.com/search/results/all/?keywords=%23irisharchitecture&origin=HASH_TAG_FROM_FEED
+											175 link linkedin.com/
+											176 link Switch to different account, Value: linkedin.com/
+											177 button Reaction button state: no reaction
+											178 button Open reactions menu
+											179 button Comment
+											180 button Repost
+											181 link Send, Value: linkedin.com/
+											182 link 129 reactions, Value: linkedin.com/
+											183 text Do you find this post valuable?
+											184 button Yes
+											185 button No
+										186 container
+											187 heading Feed post, Value: 2
+												188 text Feed post
+											189 link linkedin.com/in/oliver-gregson/
+											190 link Oliver Gregson Premium Profile 1st, Value: linkedin.com/in/oliver-gregson/
+											191 text Award Winning Founder and Director.
+											192 text 1w
+											193 link Oliver Gregson Premium Profile 1st, Value: linkedin.com/in/oliver-gregson/
+											194 button Open control menu for post by Oliver Gregson
+											195 button Hide post by Oliver Gregson
+											196 text Good evening Linkedin. As I reach a career crossroad I am looking for/open to potential partners to fill the role of operations manager/director to join me as my businesses continue to grow and evolve.  Ideal partners would be looking to move out of a larger, more established company with experience and networks beneficial to my companies. They would value the opportunity to have real influence in a younger, ambitious business.  Initially, you will oversee the operations in our landscape construction and maintenance business. Alongside this, we will work together to grow and develop these companies as well as others currently in and coming into the group.  Growth plans include acquisition opportunities I am currently exploring across the wider industry. Equity and dividends are available.  If you're the owner of a design practice or maintenance company operating in the South East looking for a merger or exit I would also love to hear from you. 'Collaboration at the top, competition at the bottom' - a quote that is absolutely true, particularly in our industry. I have worked long and hard to proudly create the brands and businesses I have today and feel the time is right to open the door for some fresh blood and ideas.  If you know anyone or feel your network could help, please do share or drop me a message in confidence.
+											197 link Switch to different account, Value: linkedin.com/sharing/compose
+											198 button Reaction button state: no reaction
+											199 button Open reactions menu
+											200 button Comment
+											201 button Repost
+											202 link Send, Value: linkedin.com/sharing/compose
+											203 link 44 reactions, Value: linkedin.com/sharing/compose
+										204 container
+											205 heading Feed post, Value: 2
+												206 text Feed post
+											207 text Try LinkedIn Ads Build your brand and drive quality leads. Spend €200 to get an extra €200 on us.
+											208 link Claim offer, Value: linkedin.com/campaignmanager/claim-promo/?incentiveId=7475992670872551424&mcid=7369886489926823937&src=li-gmp
+											209 button View more options
+											210 link linkedin.com/campaignmanager/claim-promo/?incentiveId=7475992670872551424&mcid=7369886489926823937&src=li-gmp
+										211 container
+											212 heading Feed post, Value: 2
+												213 text Feed post
+											214 link linkedin.com/in/ben-browning-mapl-68647918/
+											215 text Followed by
+											216 link View Ben Browning MAPL’s profile, Value: linkedin.com/in/ben-browning-mapl-68647918/
+											217 button Open control menu for post by Greg Davey
+											218 button Hide post by Greg Davey
+											219 link linkedin.com/in/greg-davey-1a4b8823/
+											220 link Greg Davey 3rd+, Value: linkedin.com/in/greg-davey-1a4b8823/
+											221 text Director @ Davey Studio Architects | Specialist in Residential Development
+											222 link Visit my website, Value: linkedin.com/safety/go/?url=http%3A%2F%2FWww%2Edavey-smith%2Ecom&urlhash=lOVj&mt=K5wI_s49WM4JI-3aVyyn00Vkpo5mi01_HdCVWyWcaqPpC7tOHP-7tROFT1XzaB4410G8cKpDZrUfBTXuu-fWn5zmgHzXWJFUQ9AeoirR4j9fddoJLW4vIdaSTiTscXuqRpTLVqLAPTGiZ8tuz0Q2wrcTOdxVCq52tXLl&isSdui=true
+											223 text 2d • Edited
+											224 link Greg Davey 3rd+, Value: linkedin.com/in/greg-davey-1a4b8823/
+											225 button Follow Greg Davey
+											226 text We have been fascinated by how AI is finding its way into how we work. After a year of trying things out, a few things have surprised me. First, how much the pen still matters. Our layouts still start as hand sketches, and our newest architect spent his first week sketching site plans from scratch. (This time-lapse is one of the rare times I remembered to hit record.) Second, like a lot of people I started with AI images. But the most useful AI has been far less visible: training AI agents to work with the software we already use, setting up sites, laying in house types and testing early massing, with clear checks on accuracy throughout. Third, how much it relies on what we already know. It works from years of lessons learned with our clients about what gets built and what people actually want to live in. That knowledge is gained experience and learning, not automation. Our development in working with AI tools has been shaped by our work in large-scale housing, where urban design and placemaking matter as much as the buildings. Other fields may find the value lies elsewhere. The upshot is clearer, better-tested proposals earlier, for clients, design teams and the communities and planners we present to. Plenty hasn't worked and we're still learning, but I'm genuinely impressed by the potential these tools bring to our work. They take on the drudgery, so more of our time goes into what matters most: the quality of the places we design. I'm curious how others are finding it, whether you design, engineer, cost, fund, sell or advise on the places we build. Where has AI helped, and where has it fallen short?
+											227 link View hashtag: #architecture, Value: linkedin.com/search/results/all/?keywords=%23architecture&origin=HASH_TAG_FROM_FEED
+											228 link View hashtag: #residentialdesign, Value: linkedin.com/search/results/all/?keywords=%23residentialdesign&origin=HASH_TAG_FROM_FEED
+											229 link View hashtag: #aiinarchitecture, Value: linkedin.com/search/results/all/?keywords=%23aiinarchitecture&origin=HASH_TAG_FROM_FEED
+											230 link View hashtag: #masterplanning, Value: linkedin.com/search/results/all/?keywords=%23masterplanning&origin=HASH_TAG_FROM_FEED
+											231 container Video Player
+												232 text 1.10
+											233 button Play video
+											234 link Switch to different account, Value: linkedin.com/sharing/compose
+											235 button Reaction button state: no reaction
+											236 button Open reactions menu
+											237 button Comment
+											238 button Repost
+											239 link Send, Value: linkedin.com/sharing/compose
+											240 link 48 reactions, Value: linkedin.com/sharing/compose
+										241 container
+											242 heading Feed post, Value: 2
+												243 text Feed post
+											244 link linkedin.com/in/james-hall-6a9a0a195/
+											245 link View James Hall’s profile, Value: linkedin.com/in/james-hall-6a9a0a195/
+											246 text likes this
+											247 button Open control menu for post by Isaki Kasahara
+											248 button Hide post by Isaki Kasahara
+											249 link linkedin.com/in/isakiarborist/
+											250 link Isaki Kasahara Verified Profile 2nd, Value: linkedin.com/in/isakiarborist/
+											251 text 🇯🇵Arborist, Toshi Landscape (Tokyo) | Speaker & Writer on Japanese Trees, Sacred Trees & Japanese Gardens | Tree Risk Assessment & Diagnostics | Workshops & Consulting Worldwide
+											252 text 6h
+											253 link Isaki Kasahara Verified Profile 2nd, Value: linkedin.com/in/isakiarborist/
+											254 button Invite Isaki Kasahara to connect
+											255 text A cedar platform in a forest. A miniature version in a pot. Are they really the same thing? The silhouette may be similar, but the purpose changes everything. A forestry daisugi produces trunks to harvest. A bonsai keeps its trunks and develops them over time. “Daisugi bonsai” is an informal description, rather than a recognised bonsai style. This issue separates the forestry method, the garden form and the container tree. When you borrow a shape from nature or forestry, which parts of the original method should stay behind?
+											256 link linkedin.com/pulse/daisugi-bonsai-look-style-kyotos-cedar-platform-pot-isaki-kasahara-mnggc/
+											257 link Value: linkedin.com/pulse/daisugi-bonsai-look-style-kyotos-cedar-platform-pot-isaki-kasahara-mnggc/, Japan Blue Arborist Journal Subscribe to Japan Blue Arborist Journal newsletter Daisugi Bonsai Is a Look, Not a Style — Kyoto's Cedar Platform in a Pot Isaki Kasahara
+											258 link Switch to different account, Value: linkedin.com/sharing/compose
+											259 button Reaction button state: no reaction
+											260 button Open reactions menu
+											261 button Comment
+											262 button Repost
+											263 link Send, Value: linkedin.com/sharing/compose
+											264 link 30 reactions, Value: linkedin.com/sharing/compose
+								265 container Aside
+									266 container
+										267 text LinkedIn News
+										268 button Info tooltip
+										269 text Top stories
+										270 link Canva's exit package sparks wider conversation on layoffs 2d ago • 9,124 readers, Value: …
+										271 link No more 'competitive salary': job ads to include pay 2d ago • 1,833 readers, Value: …
+										272 link Pineapple-on-pizza dispute reaches workplace tribunal 2d ago • 1,590 readers, Value: …
+										273 link London faces Tube strikes in Christmas period 2d ago • 1,183 readers, Value: …
+										274 link Dior's holiday ad faces questions over AI 2d ago • 1,114 readers, Value: …
+										275 button Show more news
+									276 container
+										277 text Today’s puzzles
+										278 link Play Zip, Value: …
+										279 link Play Wend, Value: …
+										280 link Play Patches, Value: …
+										281 link Play Mini Sudoku, Value: …
+										282 button Show more
+									283 container
+										284 link About, Value: …
+										285 link Accessibility, Value: …
+										286 link Help Center, Value: …
+										287 button Privacy & Terms
+										288 link Ad Choices, Value: …
+										289 link Advertising, Value: …
+										290 button Business Services
+										291 link Get the LinkedIn app, Value: …
+										292 link More, Value: …
+										293 text LinkedIn Corporation © 2026
+							294 container
+								295 container
+									296 container
+										297 image Sally Price
+										298 text Status is online
+										299 button You are on the messaging overlay. Press enter to open the list of conversations.
+									300 container
+										301 button Open messenger dropdown menu
+										302 button Compose message
+										303 button You are on the messaging overlay. Press enter to open the list of conversations.
+									304 heading Page inboxes, Value: 3
+										305 text Page inboxes
+									306 text Click to see affiliated inboxes
+									307 button Page inboxes
+								308 container AI-powered assistant to get help with your career, jobs etc
+							309 HTML content (7) LinkedIn, URL: …
+								310 container
+									311 container Toast message
+										312 heading 0 notifications total, Value: 2
+											313 text 0 notifications total
+									314 container
+										315 button Skip to search
+										316 button Skip to main content
+										317 button Keyboard shortcuts
+										318 button Close jump menu
+									319 container Global Navigation
+										320 link LinkedIn, Value: …
+										321 container
+											322 combo box (settable) Search
+										323 container Primary Navigation
+											324 content list
+												325 link Home, Value: …
+												326 link 2 new network updates notifications Network, Value: …
+												327 link Jobs, Value: …
+												328 link Messaging, Value: …
+												329 link 5 new notifications Notifications, Value: …
+												330 button Sally Price Me
+												331 button For Business
+												332 link Try Premium for £0, Value: …
+			333 pop-up button Tab search
+			334 container
+				335 tab group
+					336 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					337 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					338 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					339 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					340 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					341 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					342 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					343 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					344 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					345 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					346 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					347 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					348 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					349 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					350 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					351 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					352 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					353 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					354 tab (settable, boolean) Meta Business Suite, Value: off
+					355 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					356 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					357 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					358 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					359 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					360 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					361 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					362 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 999 MB, Value: off
+					363 tab (settable, boolean) Boldstone · Review room, Value: off
+					364 tab (selected, settable, boolean) Feed | LinkedIn - High memory usage - 1.4 GB, Value: on
+			365 button New tab
+	366 close button
+	367 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	368 minimise button
+369 menu bar
+	370 Chrome
+	371 File
+	372 Edit
+	373 View
+	374 History
+	375 Bookmarks
+	376 Profiles
+	377 Tab
+	378 Window
+	379 Help
+
+The focused UI element is 25 HTML content Feed | LinkedIn, URL: …

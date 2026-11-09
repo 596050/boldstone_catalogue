@@ -1,0 +1,372 @@
+Window: "Complete your listing | Boldston…tural water-feature panel | eBay", App: Google Chrome.
+0 standard window Secondary Actions: Raise, Complete your listing | Boldstone Islington Shellmoon Fountain - White Sculptural water-feature panel | eBay – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: ebay.co.uk/lstng?draftId=5454762106310&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+	1 container Complete your listing | Boldstone Islington Shellmoon Fountain - White Sculptural water-feature panel | eBay – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: ebay.co.uk/lstng?draftId=5454762106310&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ebay.co.uk/lstng?draftId=5454762106310&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+					10 button Zoom: 80%
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Complete your listing | Boldstone Islington Shellmoon Fountain - White Sculptural water-feature panel | eBay, URL: ebay.co.uk/lstng?draftId=5454762106310&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+						28 container
+							29 image
+							30 image
+							31 container
+								32 link Skip to main content, Value: ebay.co.uk/lstng?draftId=5454762106310&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts#mainContent
+								33 link eBay Home, Value: ebay.co.uk/
+							34 container
+								35 button Help
+								36 button More options
+								37 heading Complete your listing, Value: 1
+									38 text Complete your listing
+								39 heading PHOTOS & VIDEO, Value: 2
+									40 text PHOTOS & VIDEO
+								41 button See photo options
+								42 container
+									43 text You can add up to 24 photos and a 1-minute video. Buyers want to see all details and angles.
+									44 container Learn about the photo tips to attract more buyers
+										45 button Tips for taking pro photos
+								46 text 14 out of 25 photos or videos uploaded
+								47 button Select
+								48 button Edit or view photo 1
+								49 button Edit or view photo 2
+								50 button Edit or view photo 3
+								51 button Edit or view photo 4
+								52 button Edit or view photo 5
+								53 button Edit or view photo 6
+								54 button Edit or view photo 7
+								55 button Edit or view photo 8
+								56 button Edit or view photo 9
+								57 button Edit or view photo 10
+								58 button Edit or view photo 11
+								59 button Edit or view photo 12
+								60 button Edit or view photo 13
+								61 button Edit or view photo 14
+								62 button Add
+								63 button Empty slot. Upload photo
+								64 heading TITLE, Value: 2
+									65 text TITLE
+								66 button See title options
+								67 text Item title
+								68 text field (settable) Item title, Value: Boldstone Islington Shellmoon Fountain - White Sculptural water-feature panel
+								69 text 77 of 80 characters
+								70 text Custom label (SKU)
+								71 button Help tip for Custom label (SKU) field
+								72 text field (settable) Custom label (SKU), Value: BOLD-22B6E4FB3DD8
+								73 text 17 of 50 characters
+								74 heading ITEM CATEGORY, Value: 2
+									75 text ITEM CATEGORY
+								76 button Edit Item category
+								77 button Art Sculptures Item category First category
+								78 text in Art
+								79 heading VARIATIONS, Value: 2
+									80 text VARIATIONS
+								81 button Edit Variations
+								82 text Save time and money by listing multiple variations of your item in one multi-quantity, fixed price listing.
+								83 heading ITEM SPECIFICS, Value: 2
+									84 text ITEM SPECIFICS
+								85 container Essential
+									86 heading Essential, Value: 3
+										87 text Essential
+									88 button Material
+									89 button Gypsum-based material
+									90 button Format
+									91 button Format
+									92 button Subject
+									93 button Subject
+									94 button Style
+									95 button Style
+									96 button Artist
+									97 button Sally Price
+									98 button Size
+									99 button Size
+									100 button Theme
+									101 button Theme
+									102 button Features
+									103 button Features
+									104 button Original/Licensed Reproduction
+									105 content list Original/Licensed Reproduction
+										106 toggle button Original, Value: 0
+											107 text Original
+										108 toggle button Licensed Reproduction, Value: 0
+											109 text Licensed Reproduction
+									110 button Production Technique
+									111 button Production Technique
+									112 button Culture
+									113 button Culture
+									114 button Year of Production
+									115 button Year of Production
+									116 button Time Period Produced
+									117 button Time Period Produced
+									118 button Region of Origin
+									119 button Region of Origin
+									120 button Type
+									121 button Type
+									122 button Item Height
+									123 button 50 cm
+									124 button Item Length
+									125 button 7 cm
+									126 button Item Width
+									127 button 70 cm
+								128 container Optional
+									129 heading Optional, Value: 3
+										130 text Optional
+									131 button Signed
+									132 content list Signed
+										133 toggle button Yes, Value: 0
+											134 text Yes
+										135 toggle button No, Value: 0
+											136 text No
+									137 button Signed By
+									138 text field (disabled) Signed By
+									139 container
+										140 text Signed  is required before providing  Signed By
+									141 button Country of Origin
+									142 button Country of Origin
+									143 button Unit of Sale
+									144 button Single Piece
+								145 button Show more
+								146 heading CONDITION, Value: 2
+									147 text CONDITION
+								148 heading Item condition, Value: 3
+									149 text Item condition
+								150 button New Item condition
+								151 heading DESCRIPTION, Value: 2
+									152 text DESCRIPTION
+								153 content list
+									154 button Bold
+									155 button Unordered list
+									156 pop-up button Custom template
+										157 text Custom template
+									158 button Show all options
+								159 container Description
+									160 HTML content about:srcdoc
+										161 text entry area (settable) Description, Value: A shell-inspired form meets a lunar curve in a relief with flowing, organic movement. The raised contours gather light, while recesses create a softer rhythm of shadows.
+Its mood sits between shoreline and night sky, making a restful focal point for a garden or interior. This is the water-feature version; please contact us to discuss the installation and water-system requirements.
+The white finish keeps the focus on the form and its changing shadows.
+Brand: Boldstone
+Product type: Sculptural water-feature panel
+Model: Islington Shellmoon Fountain - White (BOLD-22B6E4FB3DD8)
+Colour / appearance: White marble stone finish
+Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+Material: Made from a gypsum-based material.
+Dimensions: 70 cm wide × 50 cm high × 5–7 cm panel depth
+Weight: Approximately 12–15 kg dry panel; excludes basin, pump and water
+Use: Suitable for outdoor use and indoor display.
+Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+Availability: Ready to dispatch
+Dispatch time: Within 3 working days. Delivery transit time is additional.
+Delivery: The available delivery service and charge are shown in this eBay listing. Carrier transit time is additional to dispatch time.
+All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											162 text A shell-inspired form meets a lunar curve in a relief with flowing, organic movement. The raised contours gather light, while recesses create a softer rhythm of shadows.
+											163 text Its mood sits between shoreline and night sky, making a restful focal point for a garden or interior. This is the water-feature version; please contact us to discuss the installation and water-system requirements.
+											164 text The white finish keeps the focus on the form and its changing shadows.
+											165 text Brand: Boldstone
+											166 text Product type: Sculptural water-feature panel
+											167 text Model: Islington Shellmoon Fountain - White (BOLD-22B6E4FB3DD8)
+											168 text Colour / appearance: White marble stone finish
+											169 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											170 text Material: Made from a gypsum-based material.
+											171 text Dimensions: 70 cm wide × 50 cm high × 5–7 cm panel depth
+											172 text Weight: Approximately 12–15 kg dry panel; excludes basin, pump and water
+											173 text Use: Suitable for outdoor use and indoor display.
+											174 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											175 text Availability: Ready to dispatch
+											176 text Dispatch time: Within 3 working days. Delivery transit time is additional.
+											177 text Delivery: The available delivery service and charge are shown in this eBay listing. Carrier transit time is additional to dispatch time.
+											178 text All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+								179 button Use AI description
+								180 heading PRICING, Value: 2
+									181 text PRICING
+								182 button See pricing options
+								183 text Format
+								184 pop-up button Format Buy It Now
+									185 text Buy It Now
+								186 container
+									187 text Item price
+									188 text £
+									189 text field (settable) Item price, Value: 92.36
+									190 text + £ 4.39 Buyer Protection fee
+								191 text Buyer will pay
+								192 text field (settable) Buyer will pay, Value: 96.75
+								193 container
+									194 text You can edit the price buyers see in your listing. We recommend rounded prices, for example £6, £15 or £82.
+									195 button Dismiss tourtip
+								196 container information
+									197 image information
+									198 text UK buyers will pay £96.75, which includes the 
+									199 button Buyer Protection fee
+									200 text .
+								201 Tick box Require immediate payment when buyer uses Buy it now, Value: 0
+								202 text Quantity
+								203 text field (settable) Quantity, Value: 1
+								204 text (optional) Interested buyers can send an offer for this item. You can accept, counter or decline. Buyer offers may include a Buyer Protection fee, paid to eBay.
+								205 switch Allow offers, Value: off
+								206 text Your listing goes live immediately, unless you select a time and date you want it to start.
+								207 switch Schedule your listing, Value: off
+								208 heading DELIVERY DETAILS, Value: 2
+									209 text DELIVERY DETAILS
+								210 button See postage options
+								211 content list Delivery method
+									212 button Postage or collection in person Let buyers choose how they get their items.
+									213 toggle button Postage only Post items directly to buyers., Value: 1
+									214 button No postage. Collection in person only Arrange collection in person without any postage costs.
+								215 heading Package size, Value: 3
+									216 text Package size
+								217 button Small parcel Up to 2 kg, 45 x 35 x 16 cm
+								218 heading Domestic postage, Value: 3
+									219 text Domestic postage
+								220 text Simple Delivery
+								221 text Prepaid Royal Mail, Evri or InPost label provided Full protection and tracking 1–3 business days
+								222 button How it works
+								223 link Choose couriers, Value: ebay.co.uk/ship/prf/simpledelivery?returnUrl=https%3A%2F%2Fwww.ebay.co.uk%2Flstng%3FdraftId%3D5454762106310%26mode%3DAddItem%26ReturnURL%3Dhttps%253A%252F%252Fwww.ebay.co.uk%252Fsh%252Flst%252Fdrafts
+								224 heading Who pays?, Value: 4
+									225 text Who pays?
+								226 content list
+									227 button Buyer pays
+									228 button Seller pays
+								229 text The buyer will pay rates starting from: £3.89 Based on the service they select
+								230 heading Preferences, Value: 3
+									231 text Preferences
+								232 heading Your settings, Value: 4
+									233 text Your settings
+								234 text 3 working days handling Item location BA2 7BX (Bath, Somerset, United Kingdom) Postcode not visible on listing Domestic returns Accepted within 30 days Buyer pays return postage International returns Accepted within 30 days Buyer pays return postage
+								235 button Your settings - edit
+								236 text Excluded locations (optional)
+								237 button Excluded locations
+								238 heading ITEM DISCLOSURES, Value: 2
+									239 text ITEM DISCLOSURES
+								240 text Add product information to meet regulatory requirements in your buyer's region. Upload user guides, certificates, documents and accessibility information that are included with the item. 
+								241 link Learn more – opens in a new window or tab, Value: ebay.co.uk/help/selling/selling/hazardous-materials-labeling?id=5407
+								242 switch Product documents, Value: off
+								243 heading PROMOTE YOUR LISTING, Value: 2
+									244 text PROMOTE YOUR LISTING
+								245 text COMPETITIVE CATEGORY
+								246 text 45% of items in Art Sculptures are promoted right now.
+								247 container
+									248 text Sponsored
+								249 heading General, Value: 4
+									250 text General
+								251 switch Toggle General, Value: off
+								252 text 90% more visibility, on average.
+								253 button More visibility explanation
+								254 content list
+									255 text Basic access to ad placements
+									256 text Only pay when your item sells
+								257 heading Priority, Value: 4
+									258 text Priority
+								259 switch Toggle Priority, Value: off
+								260 text 170% more visibility, on average.
+								261 button More visibility explanation
+								262 content list
+									263 text Exclusive access to the top of search
+									264 text Advanced targeting and bid controls
+									265 text Priority ranking in ad placements
+									266 text Only pay for clicks on your ads
+								267 button Help me choose
+								268 heading CHARITY, Value: 2
+									269 text CHARITY
+								270 button Edit Charity
+								271 container information
+									272 image information
+									273 container
+										274 text Donate a portion of this sale to the charity of your choice. 
+										275 link Learn more Opens in a new window or tab, Value: ebay.co.uk/help/donating-ebay-charity/default/buying-selling-ebay-benefit-nonprofit-organizations?id=4668
+								276 heading Listing fee, Value: 2
+									277 text Listing fee
+								278 text £0.00 No 
+								279 link transaction fees, Value: ebay.co.uk/help/selling/fees-credits-invoices/fees-private-sellers?id=4822
+								280 text  will be applied. You accept that the duration of your listing may vary due to delayed appearance in search. 
+								281 link Learn more, Value: ebay.co.uk/help/selling/listings/listings-overview?id=4072
+								282 text By selecting List it for free, you agree to pay the above fees, accept the 
+								283 link eBay User Agreement - opens in new window or tab, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+								284 text , 
+								285 link Payments Terms of Use - opens in new window or tab, Value: pages.ebay.co.uk/payment/2.0/terms.html
+								286 text , 
+								287 link Marketing Program Terms - opens in new window or tab, Value: pages.ebay.co.uk/sell/pl/termsofservice.html
+								288 text  and 
+								289 link Delivery Terms and Conditions - opens in new window or tab, Value: pages.ebay.co.uk/managed-shipping-sellers/
+								290 text ; acknowledge reading the 
+								291 link User Privacy Notice - opens in new window or tab, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+								292 text , agree to offer products and services that comply with all applicable laws, and assume full responsibility for the item offered and the content of your listing. By using Simple Delivery, you agree to the 
+								293 link eBay delivery Terms and Conditions, Value: pages.ebay.co.uk/shipping/delivery/seller-tnc.html
+								294 text .
+								295 button List it for free
+								296 button Save for later
+								297 button Preview
+								298 text 'Buy It Now' listings will renew automatically every month based on the listing terms at that time, until the item sells or the listing is ended. 
+								299 link Fees may apply. - opens in new window or tab, Value: ebay.co.uk/help/selling/fees-credits-invoices/selling-fees?id=4822
+								300 text To improve your chances of selling, we may send you offers from buyers that you can choose to accept or decline. Funds from your sales may be unavailable and show as pending for a period of time. 
+								301 link Learn more - opens in new window or tab, Value: ebay.co.uk/help/selling/selling-getting-paid/pending-payments?id=4155
+							302 container
+								303 text Copyright © 1995-2026 eBay Inc. All Rights Reserved. 
+								304 link User Agreement, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+								305 text , 
+								306 link Privacy, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+								307 text , 
+								308 link Payments Terms of Use, Value: pages.ebay.co.uk/payment/2.0/terms.html
+								309 text , 
+								310 link Cookies, Value: ebay.co.uk/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+								311 text  and 
+								312 link AdChoice , Value: ebay.co.uk/adchoice
+			313 pop-up button Tab search
+			314 container
+				315 tab group
+					316 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					317 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					318 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					319 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					320 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					321 tab (settable, boolean) Meta Business Suite, Value: off
+					322 tab group  group 📦 Marketplace completion – 3 Tabs, •  Studio | Saatchi Art United Kingdom, •  Complete your listing | Boldstone Islington Sh…, •  Complete your listing | Boldstone Islington Sh… – Expanded
+					323 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion, Value: off
+					324 tab (settable, boolean) Value: off, Complete your listing | Boldstone Islington Shellmoon Relief - White Wall sculpture | eBay – Part of group 📦 Marketplace completion
+					325 tab (selected, settable, boolean) Value: on, Complete your listing | Boldstone Islington Shellmoon Fountain - White Sculptural water-feature panel | eBay – Part of group 📦 Marketplace completion
+						326 button Close
+					327 tab (settable, boolean) Products – Faire, Value: off
+					328 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					329 tab (settable, boolean) Create listings, Value: off
+			330 button New tab
+	331 close button
+	332 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	333 minimise button
+334 menu bar
+	335 Chrome
+	336 File
+	337 Edit
+	338 View
+	339 History
+	340 Bookmarks
+	341 Profiles
+	342 Tab
+	343 Window
+	344 Help
+
+The focused UI element is 27 HTML content Complete your listing | Boldstone Islington Shellmoon Fountain - White Sculptural water-feature panel | eBay, URL: ebay.co.uk/lstng?draftId=5454762106310&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts

@@ -1,0 +1,142 @@
+- heading "Create listings" [level=1]
+- button "Send feedback"
+- button "eBay assistant":
+- region:
+  - paragraph: Buyers may pay a fee for Buyer Protection.
+  - link "Learn more":
+    - /url: https://www.ebay.co.uk/help/selling/selling/pricing-items/buyer-protection-information-sellers?id=5595
+  - button "Close":
+- alert
+- button "Bulk edit":
+  - text: Bulk edit
+- button "Copy a listing"
+- button "Remove listings" [disabled]
+- button "Preview"
+- button "Customise columns"
+- 'button "Filter: No filter"':
+  - text: "Filter: No filter"
+- generic: 0 of 0 item(s) selected
+- table "This grid shows the drafts you are currently editing.":
+  - caption: This grid shows the drafts you are currently editing.
+  - rowgroup:
+    - 'row "Select all items for bulk edit. Edit your listing Status Photos Title Item specifics: required + optional All item specifics Custom label (SKU) Format Duration Available quantity Buy It Now Starting bid Offers Dispatch time VAT Start time Item category 1 Condition Postage details Item description Sell it faster Last modified Hazard information Selling fees"':
+      - columnheader "Select all items for bulk edit.":
+        - checkbox "Select all items for bulk edit."
+      - columnheader "Edit your listing":
+        - generic: Edit your listing
+      - columnheader "Status":
+        - generic: Status
+      - columnheader "Photos":
+        - button "Photos":
+          - generic: Photos
+      - columnheader "Title":
+        - button "Title":
+          - generic: Title
+        - separator
+      - 'columnheader "Item specifics: required + optional"':
+        - generic: "Item specifics: required + optional"
+      - columnheader "All item specifics":
+        - button "All item specifics":
+          - generic: All item specifics
+        - separator
+      - columnheader "Custom label (SKU)":
+        - button "Custom label (SKU)":
+          - generic: Custom label (SKU)
+        - separator
+      - columnheader "Format":
+        - button "Format":
+          - generic: Format
+        - separator
+      - columnheader "Duration":
+        - button "Duration":
+          - generic: Duration
+        - separator
+      - columnheader "Available quantity":
+        - button "Available quantity":
+          - generic: Available quantity
+        - separator
+      - columnheader "Buy It Now":
+        - button "Buy It Now":
+          - generic: Buy It Now
+        - separator
+      - columnheader "Starting bid":
+        - button "Starting bid":
+          - generic: Starting bid
+        - separator
+      - columnheader "Offers":
+        - button "Offers":
+          - generic: Offers
+        - separator
+      - columnheader "Dispatch time":
+        - button "Dispatch time":
+          - generic: Dispatch time
+        - separator
+      - columnheader "VAT":
+        - button "VAT":
+          - generic: VAT
+        - separator
+      - columnheader "Start time":
+        - button "Start time":
+          - generic: Start time
+        - separator
+      - columnheader "Item category 1":
+        - button "Item category 1":
+          - generic: Item category 1
+        - separator
+      - columnheader "Condition":
+        - button "Condition":
+          - generic: Condition
+        - separator
+      - columnheader "Postage details":
+        - generic: Postage details
+        - separator
+      - columnheader "Item description":
+        - generic: Item description
+        - separator
+      - columnheader "Sell it faster":
+        - button "Sell it faster":
+          - generic: Sell it faster
+        - separator
+      - columnheader "Last modified":
+        - button "Last modified":
+          - generic: Last modified
+        - separator
+      - columnheader "Hazard information":
+        - button "Hazard information":
+          - generic: Hazard information
+        - separator
+      - columnheader "Selling fees":
+        - button "Selling fees":
+          - generic: Selling fees
+        - separator
+      - columnheader
+  - rowgroup
+- generic: "Estimated selling fees:"
+- generic: £0.00
+- button "Estimated selling fees":
+- button "Save for later"
+- button "Submit (176)": Submit (0)
+- dialog "Saved as drafts":
+  - heading "Saved as drafts" [level=2]
+  - button [active]:
+  - img "Confirmation"
+  - paragraph: 176 listings are saved as drafts
+  - link "Done":
+    - /url: https://www.ebay.co.uk/sh/lst/drafts?limit=200
+- contentinfo:
+  - text: Copyright © 1995-2026 eBay Inc. All Rights Reserved.
+  - link "User Agreement":
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+  - text: ","
+  - link "Privacy":
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+  - text: ","
+  - link "Payments Terms of Use":
+    - /url: https://pages.ebay.co.uk/payment/2.0/terms.html
+  - text: ","
+  - link "Cookies":
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+  - text: and
+  - link "AdChoice":
+    - /url: https://www.ebay.co.uk/adchoice
+    - text: AdChoice

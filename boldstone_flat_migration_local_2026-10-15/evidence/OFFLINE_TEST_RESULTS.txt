@@ -1,0 +1,33 @@
+test_all_targets_two_components (test_flat_plan.FlatPlanTests.test_all_targets_two_components) ... ok
+test_ancestry_validation (test_flat_plan.FlatPlanTests.test_ancestry_validation) ... ok
+test_case_insensitive_collision_rejected_in_snapshot (test_flat_plan.FlatPlanTests.test_case_insensitive_collision_rejected_in_snapshot) ... ok
+test_config_defaults_disable_mutations (test_flat_plan.FlatPlanTests.test_config_defaults_disable_mutations) ... ok
+test_decision_template_not_preapproved (test_flat_plan.FlatPlanTests.test_decision_template_not_preapproved) ... ok
+test_duplicate_snapshot_ids_rejected (test_flat_plan.FlatPlanTests.test_duplicate_snapshot_ids_rejected) ... ok
+test_exact_63_family_specs (test_flat_plan.FlatPlanTests.test_exact_63_family_specs) ... ok
+test_exact_74_review_leaves (test_flat_plan.FlatPlanTests.test_exact_74_review_leaves) ... ok
+test_exact_counts (test_flat_plan.FlatPlanTests.test_exact_counts) ... ok
+test_family_root_direct_file_rule (test_flat_plan.FlatPlanTests.test_family_root_direct_file_rule) ... ok
+test_historical_hold_scope_preserved_for_new_move (test_flat_plan.FlatPlanTests.test_historical_hold_scope_preserved_for_new_move) ... ok
+test_ids_not_case_folded (test_flat_plan.FlatPlanTests.test_ids_not_case_folded) ... ok
+test_missing_content_hash_held (test_flat_plan.FlatPlanTests.test_missing_content_hash_held) ... ok
+test_nested_fingerprint_uses_own_route (test_flat_plan.FlatPlanTests.test_nested_fingerprint_uses_own_route) ... ok
+test_no_daggers_in_actual_names (test_flat_plan.FlatPlanTests.test_no_daggers_in_actual_names) ... ok
+test_nonimage_held_not_discarded (test_flat_plan.FlatPlanTests.test_nonimage_held_not_discarded) ... ok
+test_pooling_collision_preserves_two_rows (test_flat_plan.FlatPlanTests.test_pooling_collision_preserves_two_rows) ... ok
+test_provisional_cannot_use_source_label_approval (test_flat_plan.FlatPlanTests.test_provisional_cannot_use_source_label_approval) ... ok
+test_provisional_storage_not_a_live_execution_approval (test_flat_plan.FlatPlanTests.test_provisional_storage_not_a_live_execution_approval) ... ok
+test_reject_traversal_and_nested_leaf (test_flat_plan.FlatPlanTests.test_reject_traversal_and_nested_leaf) ... ok
+test_same_id_at_target_not_a_move (test_flat_plan.FlatPlanTests.test_same_id_at_target_not_a_move) ... ok
+test_schema_compiles_and_events_are_immutable (test_flat_plan.FlatPlanTests.test_schema_compiles_and_events_are_immutable) ... ok
+test_snapshot_must_be_complete (test_flat_plan.FlatPlanTests.test_snapshot_must_be_complete) ... ok
+test_source_checksums (test_flat_plan.FlatPlanTests.test_source_checksums) ... ok
+test_three_family_ids_intentionally_have_direct_file_rules (test_flat_plan.FlatPlanTests.test_three_family_ids_intentionally_have_direct_file_rules) ... ok
+test_unmapped_new_child_does_not_inherit_family_rule (test_flat_plan.FlatPlanTests.test_unmapped_new_child_does_not_inherit_family_rule) ... ok
+test_video_needs_external_approval (test_flat_plan.FlatPlanTests.test_video_needs_external_approval) ... ok
+test_wrapper_direct_file_is_held (test_flat_plan.FlatPlanTests.test_wrapper_direct_file_is_held) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.065s
+
+OK

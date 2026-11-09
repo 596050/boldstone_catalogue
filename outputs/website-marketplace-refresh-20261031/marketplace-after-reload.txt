@@ -1,0 +1,254 @@
+- banner:
+  - button [disabled]:
+  - link "Facebook":
+    - /url: /
+  - button:
+  - combobox "Search Facebook"
+  - navigation "Facebook":
+    - list:
+      - link "Home":
+        - /url: /
+      - link "Reels":
+        - /url: /reel/?s=tab
+      - link "Friends":
+        - /url: /friends/
+      - link "Groups":
+        - /url: /groups/
+      - link "Gaming":
+        - /url: /gaming/play/?store_visit_source=gaming_tab
+  - navigation "Account controls and settings":
+    - button "Facebook menu":
+    - button "Messenger":
+    - button "Notifications, 27 unread":
+    - button:
+      - generic: Number of unread notifications
+      - generic: 20+
+    - button "Account, your profile":
+      - img "Your profile"
+- navigation "Marketplace sidebar":
+  - heading "Marketplace" [level=1]
+  - button "Edit Marketplace settings":
+  - link "Create new listing":
+    - /url: /marketplace/create/?__tn__=!%3AA
+    - generic: Create new listing
+  - list:
+    - link "Seller dashboard":
+      - /url: /marketplace/you/dashboard/
+      - generic: Seller dashboard
+    - link "Your listings":
+      - /url: /marketplace/you/selling/
+      - generic: Your listings
+    - link "Announcements":
+      - /url: /marketplace/you/seller_announcement_center/
+      - generic: Announcements
+    - link "Insights":
+      - /url: /marketplace/you/insights/
+      - generic: Insights
+    - link "Marketplace profile":
+      - /url: /marketplace/profile/100064311860325/?product_id=
+      - generic: Marketplace profile
+    - link "Browse Marketplace":
+      - /url: /marketplace/
+      - generic: Browse Marketplace
+  - button "Manage Listings":
+    - generic: Manage Listings
+  - heading "Filters" [level=2]:
+    - generic: Filters
+  - button "Clear filters":
+    - generic: Clear
+  - button "Sort by":
+    - generic: Sort by
+  - button "Status":
+    - generic: Status
+- main "Collection of your Marketplace items":
+  - heading "Keep your listings up to date" [level=2]:
+    - generic: Keep your listings up to date
+  - generic: Marking items as sold reduces unwanted messages and ensures transparency for potential buyers.
+  - button "Dismiss Keep your listings up to date card"
+  - link "Learn more":
+    - /url: https://www.facebook.com/help/1156544111079919?helpref=about_content
+    - generic: Learn more
+  - textbox "Search your listings"
+  - button "List view" [pressed]:
+  - button "Grid view":
+  - button "Ammonite Grande I (Left) - White | Wall Sculpture"
+  - button "Ammonite Grande I (Left) - White | Wall Sculpture, £155, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: This listing is being reviewed.
+    - generic: Ammonite Grande I (Left) - White | Wall Sculpture
+    - generic: £155
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Ammonite Grande I (Left) - White | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Ammonite Grande I (Left) - White | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28555747487435193
+    - generic: Promote now
+  - button "More options for Ammonite Grande I (Left) - White | Wall Sculpture"
+  - button "Acanthus Twin Leaves - White | Wall Sculpture"
+  - button "Acanthus Twin Leaves - White | Wall Sculpture, £34, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: This listing is being reviewed.
+    - generic: Acanthus Twin Leaves - White | Wall Sculpture
+    - generic: £34
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Acanthus Twin Leaves - White | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Acanthus Twin Leaves - White | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28842278498797711
+    - generic: Promote now
+  - button "More options for Acanthus Twin Leaves - White | Wall Sculpture"
+  - button "Acanthus Twin Leaves - Pewter | Wall Sculpture"
+  - button "Acanthus Twin Leaves - Pewter | Wall Sculpture, £44, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: This listing is being reviewed.
+    - generic: Acanthus Twin Leaves - Pewter | Wall Sculpture
+    - generic: £44
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Acanthus Twin Leaves - Pewter | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Acanthus Twin Leaves - Pewter | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28904613269166631
+    - generic: Promote now
+  - button "More options for Acanthus Twin Leaves - Pewter | Wall Sculpture"
+  - button "Acanthus Twin Leaves - Pale Blue and White | Wall Sculpture"
+  - button "Acanthus Twin Leaves - Pale Blue and White | Wall Sculpture, £39, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: This listing is being reviewed.
+    - generic: Acanthus Twin Leaves - Pale Blue and White | Wall Sculpture
+    - generic: £39
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Acanthus Twin Leaves - Pale Blue and White | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Acanthus Twin Leaves - Pale Blue and White | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=29206491675634551
+    - generic: Promote now
+  - button "More options for Acanthus Twin Leaves - Pale Blue and White | Wall Sculpture"
+  - button "Acanthus Twin Leaves - Bronze | Wall Sculpture"
+  - button "Acanthus Twin Leaves - Bronze | Wall Sculpture, £44, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: This listing is being reviewed.
+    - generic: Acanthus Twin Leaves - Bronze | Wall Sculpture
+    - generic: £44
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Acanthus Twin Leaves - Bronze | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Acanthus Twin Leaves - Bronze | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=29324458727185601
+    - generic: Promote now
+  - button "More options for Acanthus Twin Leaves - Bronze | Wall Sculpture"
+  - button "Acanthus Frond (Left) - White | Wall Sculpture"
+  - button "Acanthus Frond (Left) - White | Wall Sculpture, £34, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: This listing is being reviewed.
+    - generic: Acanthus Frond (Left) - White | Wall Sculpture
+    - generic: £34
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Acanthus Frond (Left) - White | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Acanthus Frond (Left) - White | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28598948709776452
+    - generic: Promote now
+  - button "More options for Acanthus Frond (Left) - White | Wall Sculpture"
+  - button "Acanthus Frond (Left) - Pewter | Wall Sculpture"
+  - button "Acanthus Frond (Left) - Pewter | Wall Sculpture, £44, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: This listing is being reviewed.
+    - generic: Acanthus Frond (Left) - Pewter | Wall Sculpture
+    - generic: £44
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Acanthus Frond (Left) - Pewter | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Acanthus Frond (Left) - Pewter | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28847671371598866
+    - generic: Promote now
+  - button "More options for Acanthus Frond (Left) - Pewter | Wall Sculpture"
+  - button "Acanthus Moon - White | Wall Sculpture"
+  - button "Acanthus Moon - White | Wall Sculpture, £56, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: This listing is being reviewed.
+    - generic: Acanthus Moon - White | Wall Sculpture
+    - generic: £56
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Acanthus Moon - White | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Acanthus Moon - White | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28572827819083461
+    - generic: Promote now
+  - button "More options for Acanthus Moon - White | Wall Sculpture"
+  - button "Acanthus Bloom - White | Wall Sculpture"
+  - button "Acanthus Bloom - White | Wall Sculpture, £34, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: This listing is being reviewed.
+    - generic: Acanthus Bloom - White | Wall Sculpture
+    - generic: £34
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Acanthus Bloom - White | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Acanthus Bloom - White | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28887719257564714
+    - generic: Promote now
+  - button "More options for Acanthus Bloom - White | Wall Sculpture"
+  - button "Acanthus Moon - Gold Finish | Wall Sculpture"
+  - button "Acanthus Moon - Gold Finish | Wall Sculpture, £73, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: This listing is being reviewed.
+    - generic: Acanthus Moon - Gold Finish | Wall Sculpture
+    - generic: £73
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Acanthus Moon - Gold Finish | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Acanthus Moon - Gold Finish | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=29060542926941208
+    - generic: Promote now
+  - button "More options for Acanthus Moon - Gold Finish | Wall Sculpture"
+- button "New message":

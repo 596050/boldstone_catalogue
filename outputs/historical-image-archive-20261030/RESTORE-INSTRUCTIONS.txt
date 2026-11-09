@@ -1,0 +1,22 @@
+Historical review images - access and restoration
+
+Open index.html or http://127.0.0.1:8778/ to browse historical reports.
+Start the viewer by opening "Open historical reviews.command" in this folder.
+The viewer only reads. It does not delete, move or upload Dropbox files.
+Image memory caching is limited to 64 MiB; it does not rebuild the disk cache.
+
+To restore one image to its original local path, without overwriting:
+  /Users/tprice/Documents/boldstone/application/.venv/bin/python /Users/tprice/Documents/boldstone/outputs/historical-image-archive-20261030/archive_images.py restore 'RELATIVE/PATH/FROM/CATALOGUE' --apply
+Omit --apply to preview. Add --destination /absolute/path to restore elsewhere.
+
+All paths, hashes, original permissions and timestamps are in manifest.json.
+historical-images.zip stores one copy of each image that lacked an existing
+verified retained source. Every ZIP member was restored and hash-checked before
+any local copy was removed. Matching Dropbox files retain their stable ID,
+revision and content hash in the manifest. Those restores require access to the
+recorded Dropbox revision; do not treat Dropbox history as unlimited retention.
+Active-local entries refer to protected byte-identical live app files.
+
+Opening an old HTML page directly as file:// may show missing pictures.
+Use the archive viewer link instead, or restore its image paths first.
+The original HTML, JSON, spreadsheets and canonical catalogue were not edited.

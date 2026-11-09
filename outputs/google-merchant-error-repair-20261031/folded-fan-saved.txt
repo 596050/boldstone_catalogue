@@ -1,0 +1,226 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Navigation menu" [expanded]:
+    - img: menu
+  - link "Merchant Center home":
+    - /url: /mc/overview?a=5664655454&authuser=1
+    - img "Merchant Center home"
+  - dialog "Search":
+    - img: search
+    - textbox "Search Merchant Center"
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone Sculpture, 5664655454"':
+    - generic: Boldstone Sculpture
+    - generic: "5664655454"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- navigation:
+  - tree "Navigation":
+    - treeitem "Overview" [level=1]:
+      - img: dashboard
+      - generic: Overview
+    - treeitem "Notifications 7" [level=1]:
+      - img: notifications
+      - generic: Notifications
+      - generic: "7"
+    - treeitem "Products & store" [expanded] [level=1]:
+      - img: inventory_2
+      - generic: Products & store
+      - img: arrow_drop_down
+      - treeitem "Products" [level=2]:
+        - generic: Products
+      - treeitem "Shipping and returns" [level=2]:
+        - generic: Shipping and returns
+      - treeitem "Store quality" [level=2]:
+        - generic: Store quality
+    - treeitem "Creative content" [level=1]:
+      - img: brush_spark
+      - generic: Creative content
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Product Studio
+      - treeitem [disabled] [level=2]:
+        - generic: Video assets
+    - treeitem "Marketing" [level=1]:
+      - img: campaign
+      - generic: Marketing
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Ad campaigns
+      - treeitem [disabled] [level=2]:
+        - generic: Marketing methods
+    - treeitem "Analytics" [level=1]:
+      - img: timeline
+      - generic: Analytics
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Summary
+      - treeitem [disabled] [level=2]:
+        - generic: Products
+      - treeitem [disabled] [level=2]:
+        - generic: Online store
+    - treeitem "Settings" [expanded] [level=1]:
+      - img: settings
+      - generic: Settings
+      - img: arrow_drop_down
+      - treeitem "General" [level=2]:
+        - generic: General
+      - treeitem "Business info" [level=2]:
+        - generic: Business info
+      - treeitem "Data sources" [level=2]:
+        - generic: Data sources
+      - treeitem "Add-ons" [level=2]:
+        - generic: Add-ons
+      - treeitem "Access and services" [level=2]:
+        - generic: Access and services
+- button "Back":
+  - img: arrow_back
+- heading "Product details" [level=1]
+- main:
+  - heading "Product sections" [level=2]
+  - tablist:
+    - tab "Product details" [selected]:
+      - generic: Product details
+    - tab "Needs attention (4)":
+      - generic: Needs attention (4)
+    - tab "Shipping calculator":
+      - generic: Shipping calculator
+    - tab "Traffic":
+      - generic: Traffic
+  - heading "Folded Fan - White" [level=2]
+  - button "Edit product":
+    - img: edit
+    - generic: Edit product
+  - 'button "Selected image: file"':
+    - 'img "Selected image: file"'
+  - list:
+    - button "Edit image boldstone-gallery-0de61783c6d2f0b2.png":
+      - 'img "Thumbnail: boldstone-gallery-0de61783c6d2f0b2.png"'
+    - button "Edit image boldstone-gallery-ec1c16692ef5a504.png":
+      - 'img "Thumbnail: boldstone-gallery-ec1c16692ef5a504.png"'
+    - button "Edit image boldstone-situ-4ad734766ad07c6e-web.jpg":
+      - generic: "+8"
+  - button "Manage images and videos":
+    - img: photo_library
+    - generic: Manage images and videos
+  - generic: Product page on your website
+  - link "https://boldstonesculpture.com/buy/p/fan-folds-white":
+    - /url: https://boldstonesculpture.com/buy/p/fan-folds-white
+    - generic: https://boldstonesculpture.com/buy/p/fan-folds-white
+  - generic: Price
+  - generic: £92.36
+  - generic: Availability
+  - generic: In stock
+  - generic: Brand
+  - generic: boldstone
+  - generic: Product ID
+  - generic: 1c1a2ba4-fea0-4706-99cc-10452b2fd71d
+  - generic: Condition
+  - generic: New
+  - generic: Color
+  - generic: White
+  - generic: Labels
+  - 'generic "Custom label 0: wall sculptures"': wall sculptures
+  - 'generic "Custom label 1: fan folds"': fan folds
+  - generic: Description
+  - generic: "Folded forms bring a sense of movement to the relief, with ridges and recesses creating a gentle visual rhythm. The design explores the meeting of a crisp edge and a flowing curve. A piece that changes with the light, recalling the quiet choreography of a fan opening or a wing unfolding. The white finish keeps the focus on the form and its changing shadows. Dimensions: 70 × 50 × 6 cm Weight: 18 kg Use: Suitable for outdoor use and indoor display. Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for you…"
+  - button "Show more"
+  - button "Additional details" [expanded] [active]:
+    - paragraph: Additional details
+    - img: expand_less
+  - region "Additional details":
+    - grid "Additional details":
+      - row "Attribute Value":
+        - columnheader "Attribute"
+        - columnheader "Value"
+      - row "adult False":
+        - gridcell "adult":
+          - generic: adult
+        - gridcell "False":
+          - generic: "False"
+      - row "custom_label_0 Wall Sculptures":
+        - gridcell "custom_label_0":
+          - generic: custom_label_0
+        - gridcell "Wall Sculptures":
+          - generic: Wall Sculptures
+      - row "custom_label_1 Fan Folds":
+        - gridcell "custom_label_1":
+          - generic: custom_label_1
+        - gridcell "Fan Folds":
+          - generic: Fan Folds
+      - row "google_product_category 11":
+        - gridcell "google_product_category":
+          - generic: google_product_category
+        - gridcell "11":
+          - generic: "11"
+      - row "is_bundle False":
+        - gridcell "is_bundle":
+          - generic: is_bundle
+        - gridcell "False":
+          - generic: "False"
+      - row "item_group_id 6ae51961a547927bdf0621da":
+        - gridcell "item_group_id":
+          - generic: item_group_id
+        - gridcell "6ae51961a547927bdf0621da":
+          - generic: 6ae51961a547927bdf0621da
+      - row "product_type Home & Garden > Decor > Wall Sculptures":
+        - gridcell "product_type":
+          - generic: product_type
+        - gridcell "Home & Garden > Decor > Wall Sculptures":
+          - generic: Home & Garden > Decor > Wall Sculptures
+      - row "shipping_weight 43.66 lb":
+        - gridcell "shipping_weight":
+          - generic: shipping_weight
+        - gridcell "43.66 lb":
+          - generic: 43.66 lb
+    - 'button "Raw data source attributes: Squarespace-1469f13b"':
+      - paragraph: "Raw data source attributes: Squarespace-1469f13b"
+      - img: expand_less
+    - 'button "Raw data source attributes: google-wall-sculptures-supplement.tsv"':
+      - paragraph: "Raw data source attributes: google-wall-sculptures-supplement.tsv"
+      - img: expand_less
+    - button "Information found on your site":
+      - paragraph: Information found on your site
+      - img: expand_less
+  - heading "Status" [level=2]
+  - generic: Processing
+  - img "Processing": watch_later
+  - generic: In progress, updating this product. Processing updates can take up to 15 minutes. Check again later.
+  - generic: Visibility preference
+  - checkbox "Show on Google" [checked]
+  - generic: Show on Google
+  - checkbox "Show in ads" [checked]
+  - generic: Show in ads
+  - img "Folded Fan - White product"
+  - generic: Folded Fan - White
+  - paragraph:
+    - generic: Boldstone Sculpture
+  - generic "Price £92.36":
+    - generic: £92.36
+  - generic: In stock
+  - generic: Last update
+  - generic: moments ago
+  - button "Edited icon":
+    - img: edit_note
+  - generic: Edited
+  - generic: Source
+  - generic: API
+  - button "Archive product":
+    - generic: Archive product
+  - text: You can't delete this product from Merchant Center
+  - generic "More info about product deletion":
+    - button "More information":
+      - img "More information": info
+  - contentinfo:
+    - link "Privacy Policy":
+      - /url: http://www.google.com/policies/privacy/
+    - generic: ·
+    - link "Terms of Service":
+      - /url: https://support.google.com/merchants/answer/160173?hl=en-US
+    - generic: ·
+    - link "Program Policies":
+      - /url: https://support.google.com/merchants/topic/7286989?hl=en-US
+- status

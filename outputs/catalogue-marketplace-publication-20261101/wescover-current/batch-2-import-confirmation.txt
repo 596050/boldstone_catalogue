@@ -1,0 +1,247 @@
+- navigation "Page navigation":
+  - button "Expand sidebar":
+  - link:
+    - /url: /creator/MSJZKJh9uMg/dashboard
+  - button:
+  - link:
+    - /url: /creator/MSJZKJh9uMg/pricing-manager
+  - button:
+  - link:
+    - /url: https://www.wescover.com/goto?creatorSid=MSJZKJh9uMg&gac=share
+  - link:
+    - /url: /creator/inbox
+  - button:
+  - button:
+  - link:
+    - /url: /logout?redirect=%2F
+- banner:
+  - link:
+    - /url: /
+  - navigation
+  - generic: Sally
+  - img "Sally"
+- paragraph: Progress Bar
+- generic: Changes Saved. Click Submit to apply updates.
+- button " New Item":
+  - generic: 
+  - text: New Item
+- button "Submit": Submit
+- heading "Your Page" [level=2]
+- heading "Creator Profile" [level=3]
+- generic: Welcome to Wescover! Here's where you'll build your page. Include your photo and information about you as a creator. You'll need to list at least one item in order to submit your page, but you can always come back to add more.
+- paragraph: Cover Photo1500x500 px
+- generic: 
+- button "Cover photo is locked"
+- paragraph: Creator Photo400x400 px
+- generic: 
+- button "Creator photo is locked"
+- textbox [disabled]: Boldstone
+- paragraph: Brand Name/ Creator Name/ Studio Name*
+- button "Brand name is locked"
+- textbox
+- paragraph: First Name*
+- textbox
+- paragraph: Last Name*
+- combobox:
+  - searchbox: Bath, England, United Kingdom
+  - paragraph: City*
+  - listbox
+- textbox "https://www.mysite.com": https://boldstonesculpture.com
+- generic: Website
+- textbox "Any style method, idea or element that connects your pieces or work?": Pattern in nature, pared back to texture, light and shadow.
+- generic: Headline Quote
+- textbox "Share your story to connect a new fan- don’t list your resume." [disabled]: "I started Boldstone in 1998 out of a simple obsession with the patterns that turn up everywhere in nature - ripples left in rock, the curve of a wave just before it breaks, the shadow across a half moon, the spiral inside a shell. I pare those down to their boldest form and carve or cast each piece by hand, finishing them in marble stone patterns, gold leaf, verdigris on copper or hand-painted metallics so the surface reads differently as the light moves across it. Everything is handmade in studio: wall reliefs, sculptural furnishings, and commissions built for one particular wall, courtyard or room. Some of my favourite work has come out of those conversations - a piece for a Knightsbridge apartment, a garden at Chelsea, a 2.75m sculpture for a palace courtyard in Riyadh."
+- paragraph: Bio
+- button "Bio is locked"
+- paragraph: Business Value Tags (optional)
+- paragraph: Select up to 6 values that best match your business. These will appear on your item and Creator pages and shoppers will be able to find you when looking for values that match your business.
+- generic: Sustainable
+- generic: Natural materials
+- generic: Upcycled product
+- generic: Handmade
+- generic: Made to order
+- generic: Women owned
+- textbox
+- paragraph: Style (optional)
+- paragraph: Select up to 5 styles that generally apply to all your items to help shoppers find your pieces. You can also add styles at the individual item-level when editing selling details.
+- generic: art deco
+- generic: coastal
+- generic: contemporary
+- generic: minimalism
+- generic: modern
+- textbox
+- paragraph: "How to Work With Me:"
+- paragraph: Check options so buyers understand how to work with you. These will appear on your Creator page.
+- generic: ✓ I do commission/custom work
+- generic: ✓ I offer samples upon request
+- generic: Update Items on your Page
+- paragraph: Each item you submit should be a completed work, designed or created by you. You'll be able to add photos and information about materials, customization options, shipping and pricing. You can also include one-of-a-kind, sold works as inspiration for commissions / custom projects.
+- article:
+  - paragraph: Add New Product
+  - paragraph: Create a new product by adding your completed work, along with photos, customization options, shipping, and pricing details.
+  - button " New Item":
+    - generic: 
+    - text: New Item
+  - button "Prefer the old way? Use the classic form":
+    - generic: Prefer the old way? Use the classic form
+- paragraph: Easy Upload Products
+- paragraph: Upload new products easily from Etsy, Squarespace, or other platforms using the CSV upload option. Quickly import multiple product listings at once.
+- button "Upload": Upload
+- generic: 
+- heading "Products imported!" [level=2]
+- paragraph: We’re currently uploading your products—just a little magic happening behind the scenes.
+- generic: "50"
+- generic: Imported
+- generic: "0"
+- generic: Skipped
+- generic: "50"
+- generic: Total rows
+- generic: Recently added
+- generic: Acanthus Frond (Left) - Pewter
+- generic: Acanthus Frond (Left) - White
+- generic: Acanthus Moon - Gold Finish
+- generic: +47 more
+- generic: Product Upload in Progress ✨ – What’s Next?
+- generic: "1"
+- text: You’ll receive an email as soon as your upload is complete.
+- generic: "2"
+- text: Take a moment to review your product details.
+- generic: "3"
+- text: Add any extra touches or information (optional).
+- generic: "4"
+- text: Your creations will be live on Wescover within the next 24 hours—ready to be discovered.
+- button "Okay": Okay
+- paragraph: Connect your online store
+- paragraph: Connect your store on Shopify and more seamlessly sync and manage everything in one place from pricing, stock to shipping.
+- link "Know More":
+  - /url: https://docs.wescover.com/en/articles/5374817-creators-shopify-integration
+  - button "Know More": Know More
+- region "Running a sale? Discount your whole catalog at once":
+  - button "New · Pricing tools Running a sale? Discount your whole catalog at once":
+    - generic: ⌄
+    - generic: New · Pricing tools
+    - generic: Running a sale? Discount your whole catalog at once
+  - heading "Running a sale? Discount your whole catalog at once" [level=3]
+  - paragraph: Set a percentage or fixed markdown across every product — or just the ones you pick — and let buyers see the compare-at price. No spreadsheets, no editing one product at a time.
+  - list:
+    - text: "% or fixed amount"
+    - text: Apply to all or selected
+    - text: Preview before you save
+  - generic: Stoneware mug
+  - generic: $48$36
+  - generic: Serving bowl
+  - generic: $120$90
+  - generic: Vase, tall
+  - generic: $95$71
+  - generic: −25% APPLIED TO YOUR CATALOG
+  - link "Set up a bulk discount":
+    - /url: /creator/MSJZKJh9uMg/pricing-manager
+    - text: Set up a bulk discount
+  - paragraph: Nothing changes until you press Save.
+- generic: Show items by popularity based on shopper’s Click Rate (recommended). Changes visible on your live page only
+- generic: Manually edit order of items on your page. Hold & drag item cards below to change their order as per your preference
+- textbox "Search your items":
+  - /placeholder: Search your items by name
+- button "Category All":
+  - generic: Category
+  - generic: All
+- group "Items view":
+  - button "Grid view" [pressed]:
+  - button "List view":
+- article:
+  - generic "Furniture/Furniture/Tables — side table, console table, floating table": Side Table
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Terracotta Top Accent Table with Metal Legs" [level=3]
+  - generic "Private Residence":
+    - generic: Private Residence
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Strata in Verdigris" [level=3]
+  - generic "Private Residence":
+    - generic: Private Residence
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Two Frozen Decowaves Wall Sculpture" [level=3]
+  - generic "Private Residence":
+    - generic: Private Residence
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Feather Fall — Icarus Wall Sculpture" [level=3]
+  - generic "Private Residence":
+    - generic: Private Residence
+- generic: Resources to Share with Clients
+- paragraph:
+  - text: If you have documents you typically share with clients to facilitate conversations about custom work (Product Spec sheet, custom options, etc), you should upload them here. You can specify which items and types of buyers they relate to below. Potential buyers will be able to access and download these resources from your Wescover page via a chat window. When they do, we’ll set up a conversation in your inquiry inbox and notify you, so you can follow up with them.
+  - text: Giving potential buyers these resources up front can make your inquiries more efficient and shorten the time to sale!
+- button "Add File"
+- generic: Creator Video
+- paragraph: Add a video about your business and creative process to be displayed directly on your creator page and also for all your items.
+- paragraph:
+  - text: "A few quick tips:"
+- list:
+  - listitem: Share the story of your business and/or give a peek at the process of making your items.
+  - listitem: Introduce yourself to potential buyers and highlight what makes your items special.
+  - listitem: We recommend that videos be no longer than 90 seconds and have a resolution of at least 720px
+- heading "Creator Video" [level=3]
+- textbox "Paste a youtube / vimeo video link"
+- button "Embed Video"
+- generic: Or
+- button "Upload Video"
+- paragraph: You can edit/add to your submission anytime. We’ll review, connect, and SEO optimize each post for you so please allow up to 24h to process each new submission.
+- paragraph: Welcome to the Community!
+- button "Submit": Submit
+- contentinfo:
+  - link:
+    - /url: /
+  - list:
+    - link "FAQ":
+      - /url: https://www.wescover.com/faq
+    - link "CONTACT US":
+      - /url: mailto:communication@wescover.com
+  - link "":
+    - /url: https://www.facebook.com/wescoverapp/
+    - generic: 
+  - link:
+    - /url: https://www.tiktok.com/@wescover.app
+  - link "":
+    - /url: https://instagram.com/wescoverapp
+    - generic: 
+  - link "© 2026 Wescover, Inc.":
+    - /url: https://www.wescover.com/about
+  - link "Privacy":
+    - /url: https://www.wescover.com/static/privacy
+  - link "Terms":
+    - /url: https://www.wescover.com/static/generalterms
+- button "Feedback - Show survey":
+  - generic: Feedback
+- region:
+  - heading: How would you rate your experience?
+  - generic: Select an option from 😠 to 😍, with 😠 being Hate and 😍 being Love
+  - radiogroup:
+    - radio
+    - radio
+    - radio
+    - radio
+    - radio
+    - generic: Hate
+    - generic: Love
+  - button [disabled]: Next

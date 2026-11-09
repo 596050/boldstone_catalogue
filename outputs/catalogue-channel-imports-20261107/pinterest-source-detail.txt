@@ -1,0 +1,162 @@
+Window: "Pinterest", App: Google Chrome.
+0 standard window Pinterest - Google Chrome – Tom, Secondary Actions: Raise, URL: uk.pinterest.com/business/catalogs/4814500935893/data-sources/1536497259764/detail?subjectBusinessId=846254723639262523
+	1 container Pinterest - Google Chrome – Tom, URL: uk.pinterest.com/business/catalogs/4814500935893/data-sources/1536497259764/detail?subjectBusinessId=846254723639262523
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/1536497259764/detail?subjectBusinessId=846254723639262523
+					10 button Install Pinterest
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Pinterest, URL: uk.pinterest.com/business/catalogs/4814500935893/data-sources/1536497259764/detail?subjectBusinessId=846254723639262523
+						28 container
+							29 container
+								30 link Skip to content, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523#
+								31 container Primary navigation header
+									32 button Pinterest Catalogues Dynamic badge drop-down menu button
+									33 button Boldstone Boldstone Account switcher arrow icon
+									34 link Notifications, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523
+									35 link Messages, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523
+									36 container Engagement. You have pending notifications.
+										37 link Manage comments and social activity, Value: uk.pinterest.com/engagement/
+									38 link Your profile, Value: uk.pinterest.com/boldstonepinterest/
+									39 pop-up button Accounts and more options
+							40 container Footer floating buttons
+							41 container
+								42 heading Catalogues, Value: 2
+									43 text Catalogues
+								44 container Navigate catalogues main item section
+									45 content list
+										46 link Overview, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/1536497259764/detail?subjectBusinessId=846254723639262523#
+										47 link Promotions, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/1536497259764/detail?subjectBusinessId=846254723639262523#
+										48 link Creative overlays, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/1536497259764/detail?subjectBusinessId=846254723639262523#
+									49 content list
+										50 container
+											51 text Catalogues
+											52 content list
+												53 container
+													54 button Catalog_Retail
+													55 content list
+														56 link Diagnostics, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/
+														57 link Products , You have products in this catalogue, Value: uk.pinterest.com/business/catalogs/4814500935893/products/
+														58 link Product groups , You have product groups in this catalogue, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/1536497259764/detail?subjectBusinessId=846254723639262523
+														59 link Data sources , You have active feeds in this catalogue, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/1536497259764/detail?subjectBusinessId=846254723639262523
+									60 content list
+										61 container
+											62 text Support
+											63 content list
+												64 link Help Centre, Value: help.pinterest.com/business/article/before-you-get-started-with-catalogs
+												65 link Contact us, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/1536497259764/detail?subjectBusinessId=846254723639262523#
+								66 container
+									67 link Go back Data sources, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?tab=PRIMARY_DATASOURCE
+									68 button Edit data source
+									69 heading Boldstone Wall Sculptures - website retail, Value: 3
+										70 text Boldstone Wall Sculptures - website retail
+									71 text Data source ID: 1536497259764
+									72 text Country: United Kingdom
+									73 text Language: English (UK)
+									74 text Source: Google Sheets
+									75 container
+										76 text Data source URL: 
+										77 link Value: docs.google.com/spreadsheets/d/1PVhR1H-GFaojV_G7Khh0Vt3IwFL1RBHyLLzvXGIT-BQ/export?format=csv, https://docs.google.com/spreadsheets/d/1PVhR1H-GFaojV_G7Khh0Vt3IwFL1RBHyLLzvXGIT-BQ/export?format=csv
+									78 text Current ingestion
+									79 pop-up button Manage ingestion
+										80 text Manage ingestion
+									81 text No upcoming ingestions. Schedule automatic ingestions or start a new one manually.
+									82 text Past ingestions
+									83 link View issues, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/?dataSourceId=1536497259764
+									84 table List of workflow history data
+										85 text List of workflow history data
+										86 row
+											87 column header
+												88 text Date
+											89 column header
+												90 text Status
+											91 column header
+												92 text Successful uploads
+											93 column header
+												94 text Failed to upload
+											95 column header
+												96 text Warnings
+											97 column header
+												98 text Videos
+											99 column header
+												100 text Data source file
+										101 row
+											102 cell
+												103 text -
+											104 cell
+												105 text Not approved
+											106 cell
+												107 text -
+											108 cell
+												109 text -
+											110 cell
+												111 text -
+											112 cell
+												113 text -
+											114 cell
+												115 button (disabled) Download data source file
+							116 container Footer
+			117 pop-up button Tab search
+			118 container
+				119 tab group
+					120 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					121 tab group  group ✅Claude – 1 Tab, •  Import | Microsoft Advertising – Expanded
+					122 tab (settable, boolean) Import | Microsoft Advertising – Part of group ✅Claude, Value: off
+					123 tab (settable, boolean) Variants - Manufacturer Center, Value: off
+					124 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					125 tab (settable, boolean) Boldstone Sculpture | Boldstone Wall Sculptures, Value: off
+					126 tab (settable, boolean) Portela Nova | A slower kind of stay, Value: off
+					127 tab (selected, settable, boolean) Pinterest, Value: on
+						128 button Close
+					129 tab (settable, boolean) Get started with retail catalogs | Pinterest Business help, Value: off
+					130 tab (settable, boolean) [TEMPLATE - COPY] Pinterest Catalog Data source Google Sheet Template - Google Sheets, Value: off
+					131 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					132 tab (settable, boolean) All products - Merchant Center, Value: off
+					133 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					134 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					135 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+			136 button New tab
+	137 close button
+	138 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	139 minimise button
+140 menu bar
+	141 Chrome
+	142 File
+	143 Edit
+	144 View
+	145 History
+	146 Bookmarks
+	147 Profiles
+	148 Tab
+	149 Window
+	150 Help
+
+The focused UI element is 27 HTML content Pinterest, URL: uk.pinterest.com/business/catalogs/4814500935893/data-sources/1536497259764/detail?subjectBusinessId=846254723639262523

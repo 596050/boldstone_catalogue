@@ -1,0 +1,216 @@
+Window: "Studio | Saatchi Art United Kingdom", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14393365/overview, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14393365/overview
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio/art/14393365/overview, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/art/14393365/overview
+						26 container
+							27 container
+								28 text Fax
+								29 text field (settable) Fax
+							30 link fax, Value: saatchiart.com/facsimile-npc
+							31 link Skip to Main Content, Value: saatchiart.com/en-gb/studio/art/14393365/overview#skip-to-content
+							32 container
+								33 button Close Menu
+								34 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								35 text Studio
+								36 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								37 container
+									38 button Manage Artworks
+									39 content list
+										40 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										41 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									42 button Sales Dashboard
+									43 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									44 button Sponsored Listings
+									45 button Profile Information
+									46 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									47 button Account
+							48 container
+								49 button Back to Artworks
+								50 Unlabelled image To get missing image descriptions, open the context menu.
+								51 text Bone Spiral I (Narrow) - White Visibility:  Draft
+								52 button Publish
+								53 button DELETE ARTWORK
+								54 heading Images, Value: 2
+									55 text Images
+								56 button Edit
+								57 Unlabelled image /13455317-LXYAWFQO-22.jpg
+								58 heading Description, Value: 2
+									59 text Description
+								60 button Edit
+								61 text Subject, Category, Year Subject Abstract Category Sculpture Year 2026
+								62 text Method, Materials & Styles Method Casting Materials Plaster Styles Abstract
+								63 text Dimensions 30 W x 55 H x 7 D centimeters
+								64 text Keywords wall sculpture, relief, handmade, nature, abstract, texture, outdoor art
+								65 text Description Only the narrow left-hand panel is for sale in this listing. The photograph shows it alongside its coordinating companion, which is sold separately. An organic curling line creates a relief of raised contours and deep, shifting shadows. Cast to order using a gypsum-based material. Colour: White marble stone finish. Com...
+								66 button READ MORE
+								67 heading 30 x 55 cm Limited Edition - Price & Details, Value: 2
+									68 text 30 x 55 cm Limited Edition - Price & Details
+								69 button Edit
+								70 text Status For Sale
+								71 text Quantity Total Run 50 Sold on Saatchi Art 0 For Sale 1
+								72 text Price Artwork Price $168 (£124) Your Commission $100.80 (£75)
+								73 text Weight & Packaging Packaging Type Crate Shipping Weight 28 kg
+								74 text Additional Details Number of Pieces 1 Ready to Hang No Installation Type Wall-Mounted Ready to Hang No Outdoor Safe Yes
+								75 text Shipping Address Court Essington, Midford Road Midford Bath, Somerset BA2 7BX GB Make Prints Available for Sale
+								76 button Add Prints for Sale
+							77 container
+								78 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								79 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								80 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								81 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								82 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								83 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								84 text Support
+								85 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								86 link Help Center, Value: support.saatchiart.com/hc
+								87 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								88 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								89 pop-up button Request Support
+								90 text Resources
+								91 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								92 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								93 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								94 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								95 text Saatchi Art
+								96 link About, Value: saatchiart.com/en-gb/about-us
+								97 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								98 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								99 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								100 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								101 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								102 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								103 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								104 text Manage Preferences
+								105 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								106 container View Store Preferences Footer
+									107 image
+									108 text United Kingdom / GBP / Cm
+									109 image
+								110 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								111 link Privacy Policy, Value: policies.google.com/privacy
+								112 text  and 
+								113 link Terms of Service, Value: policies.google.com/terms
+								114 text  apply.
+							115 container
+								116 button Manage Preferences
+								117 text Manage Preferences
+			118 pop-up button Tab search
+			119 container
+				120 tab group
+					121 tab (settable, boolean) Products – Faire, Value: off
+					122 tab (settable, boolean) Gumtree | Free classified ads from the #1 classifieds site in the UK, Value: off
+					123 tab (settable, boolean) Sign in to your Supplier account | AppScenic, Value: off
+					124 tab (settable, boolean) Shoppe Object, Value: off
+					125 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					126 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					127 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					128 tab (settable, boolean) sell on wholesale central - Google Search, Value: off
+					129 tab (settable, boolean) Display Your Products to Millions of Buyers Worldwide., Value: off
+					130 tab (settable, boolean) become-a-seller-new | Wholesale Prices | Tradeling, Value: off
+					131 tab (settable, boolean) Marketplace FAQ for Sellers | Brandboom Help Center, Value: off
+					132 tab (settable, boolean) Online Sales FAQ - TICA, Value: off
+					133 tab (settable, boolean) Carro Migration FAQ, Value: off
+					134 tab (settable, boolean) Join Us | CREOATE, Value: off
+					135 tab (settable, boolean) MOM - Sell your products, Value: off
+					136 tab (settable, boolean) Ankorstore | Wholesale Marketplace Home to Europe's Best Brands, Value: off
+					137 tab (settable, boolean) Find the right wholesale fit, Value: off
+					138 tab (settable, boolean) Wholesale Marketplace: Get Discovered by Retailers | NuORDER by Lightspeed, Value: off
+					139 tab (settable, boolean) Sell on Syncee, Value: off
+					140 tab (settable, boolean) Become a Spocket Supplier - Sell to 100,000+ Retailers Free, Value: off
+					141 tab (settable, boolean) Become a verified Avasam supplier, Value: off
+					142 tab (settable, boolean) Advertise Your Wholesale Business - Would you like to expand your business?, Value: off
+					143 tab (settable, boolean) eSources UK Help | Managing Your Supplier Profile, Value: off
+					144 tab (settable, boolean) Gift Wholesalers - Gift Shop Wholesalers, Value: off
+					145 tab (settable, boolean) Sell on Tesco Marketplace | Reach millions of UK shoppers, Value: off
+					146 tab (settable, boolean) RangeMe, Value: off
+					147 tab (settable, boolean) Art Gallery | Buy Original British Art Online, Value: off
+					148 tab (settable, boolean) Original art for sale, Value: off
+					149 tab (settable, boolean) 25+ Handmade Marketplaces for Artisans to Sell Crafts, Art, Gifts Online - MultiMerch, Value: off
+					150 tab (settable, boolean) 250+ Websites Directory for Artists to Sell Art Online, Value: off
+					151 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish, Value: off
+					152 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					153 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					154 tab (settable, boolean) Wholesale Central | Leading Source for Wholesale Products & Suppliers, Value: off
+					155 tab (settable, boolean) New York City Show Exhibitor Application, Value: off
+					156 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					157 tab (settable, boolean) Booth activation - Booth customization, Value: off
+					158 tab (settable, boolean) Romans Surviving Rome’s Collapse, Value: off
+					159 tab (settable, boolean) PayPal, Value: off
+					160 tab (settable, boolean) Verification code to reset your PayPal password - info@boldstone.co.uk - Thomas Price Mail, Value: off
+					161 tab group  group ✅Claude – 1 Tab, •  Boldstone Sculpture | Products – Expanded
+					162 tab (settable, boolean) Boldstone Sculpture | Products – Part of group ✅Claude, Value: off
+					163 tab (settable, boolean) ChatGPT, Value: off
+					164 tab (settable, boolean) _20261105_125118_b5c8aa3a-e88c-489b-bb71-04f4e23ce0ea.png (2048×2048), Value: off
+					165 tab (settable, boolean) _20261105_124942_a2ea11ea-9588-4814-921b-1b8119944376.png (2048×2048), Value: off
+					166 tab (settable, boolean) 888309629_1523348299846656_5333981695044073670_n.jpg (947×2048), Value: off
+					167 tab (settable, boolean) 880004104_1873677580468638_5195249294559980998_n.jpg (947×2048), Value: off
+					168 tab (settable, boolean) Photo 31-03-2025, 12 41 58.jpg, Value: off
+					169 tab (settable, boolean) Value: off, Elegant Swan Marble Side Table with Artistic White Base – 50cm — boldstone - High memory usage - 955 MB
+					170 tab (settable, boolean) Marbled Circle - Turquoise — boldstone, Value: off
+					171 tab (settable, boolean) (1) Home / X, Value: off
+					172 tab (settable, boolean) SEO opportunity audit, Value: off
+					173 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					174 tab (settable, boolean) Contact us - Glassette, Value: off
+					175 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					176 tab (settable, boolean) Sell on Artsper, Value: off
+					177 tab (settable, boolean) Inbox (94) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 814 MB, Value: off
+					178 tab (settable, boolean) Communist Takeovers And Killings, Value: off
+					179 tab (settable, boolean) ChatGPT, Value: off
+					180 tab (settable, boolean) (1) Instagram, Value: off
+					181 tab (settable, boolean) New tab, Value: off
+					182 tab (settable, boolean) Meta Business Suite, Value: off
+					183 tab (settable, boolean) (5) Boldstone Sculpture | Commerce Manager, Value: off
+					184 tab (settable, boolean) My Listings — Dashboard | Chairish - High memory usage - 983 MB, Value: off
+					185 tab (settable, boolean) (1) Instagram, Value: off
+					186 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom, Value: on
+					187 tab (settable, boolean) My Listings — Dashboard | Chairish - High memory usage - 1,002 MB, Value: off
+					188 tab (settable, boolean) Wave and Moonshadow I - White Outdoor Sculpture by Sally Price | Saatchi Art United Kingdom, Value: off
+					189 tab (settable, boolean) boldstone, Value: off
+			190 button New tab
+	191 close button
+	192 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	193 minimise button
+194 menu bar
+	195 Chrome
+	196 File
+	197 Edit
+	198 View
+	199 History
+	200 Bookmarks
+	201 Profiles
+	202 Tab
+	203 Window
+	204 Help
+
+The focused UI element is 25 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/art/14393365/overview

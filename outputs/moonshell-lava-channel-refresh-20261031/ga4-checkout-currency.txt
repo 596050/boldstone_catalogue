@@ -1,0 +1,28 @@
+Browser tab: 961982131, Title: "Analytics | Realtime overview", URL: "https://analytics.google.com/analytics/web/#/a234700920p546648922/realtime/overview".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 478-486, 488
++						488 text 1
++						489 text 2
++						490 text -30 min
++						491 text -25 min
++						492 text -20 min
++						493 text -15 min
++						494 text -10 min
++						495 text -5 min
++						496 text -1 min
++					497 table
++						498 row
++							499 cell
++								500 text EVENT PARAMETER VALUE
++							501 cell
++								502 pop up button EVENT COUNT
++						503 row
++							504 cell
++								505 text GBP
++							506 cell
++								507 text 1
++					508 container
++						509 text 1 – 1 of 1
++						510 button (disabled) Previous page
++						511 button (disabled) Next page
+The focused UI element is 1 AXWebArea Analytics | Realtime overview, URL: analytics.google.com/analytics/web/#/a234700920p546648922/realtime/overview

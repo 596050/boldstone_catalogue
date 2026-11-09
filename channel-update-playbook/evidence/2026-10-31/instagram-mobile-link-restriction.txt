@@ -1,0 +1,280 @@
+- link "Instagram":
+  - /url: /
+  - img "Instagram"
+- link "Home":
+  - /url: /
+  - img "Home"
+- link "Reels":
+  - /url: /reels/
+  - img "Reels"
+- link "Messages Direct messaging - 1 new notification link":
+  - /url: /direct/inbox/
+  - img "Messages"
+  - generic "Direct messaging - 1 new notification link":
+    - generic: "1"
+- link "Search":
+  - /url: /explore/
+  - img "Search"
+- link "Notifications":
+  - /url: "#"
+  - img "Notifications"
+- link "New post":
+  - /url: "#"
+  - img "New post"
+- link "Professional dashboard":
+  - /url: "#"
+  - img "Professional dashboard"
+- link "boldstonesculpture's profile picture":
+  - /url: /boldstonesculpture/
+  - link "boldstonesculpture's profile picture":
+    - img "boldstonesculpture's profile picture"
+- link "Settings":
+  - /url: "#"
+  - img "Settings"
+- link "Also from Meta":
+  - /url: "#"
+  - img "Also from Meta"
+- main:
+  - heading "Settings" [level=3]
+  - img "Search"
+  - textbox "Search"
+  - heading "Your account" [level=4]
+  - img "Meta logo"
+  - link "Accounts Center Password, security, personal details, connected experiences, ad preferences, including subscription for no ads":
+    - /url: https://accountscenter.instagram.com/?theme=dark&entry_point=app_settings
+    - generic: Accounts Center
+    - generic: Password, security, personal details, connected experiences, ad preferences, including subscription for no ads
+  - heading "How you use Instagram" [level=4]
+  - link "Edit profile":
+    - /url: /accounts/edit/
+    - generic: Edit profile
+  - link "Notifications":
+    - /url: /accounts/notifications/
+    - generic: Notifications
+  - heading "Your insights and tools" [level=4]
+  - link "Professional account":
+    - /url: /accounts/professional_account_settings/
+    - generic: Professional account
+  - link "Business tools and controls":
+    - /url: /accounts/professional_account_tools/
+    - generic: Business tools and controls
+  - link "Ads payments":
+    - /url: /accounts/ad_payments/
+    - generic: Ads payments
+  - heading "Who can see your content" [level=4]
+  - link "Account privacy":
+    - /url: /accounts/settings/v2/account_privacy/
+    - generic: Account privacy
+  - link "Close Friends":
+    - /url: /accounts/close_friends/
+    - generic: Close Friends
+  - link "Blocked":
+    - /url: /accounts/blocked_accounts/
+    - generic: Blocked
+  - link "Story, live and location":
+    - /url: /accounts/hide_story_and_live/
+    - generic: Story, live and location
+  - heading "How others can interact with you" [level=4]
+  - link "Messages and story replies":
+    - /url: /accounts/messages_and_story_replies/
+    - generic: Messages and story replies
+  - link "Tags and mentions":
+    - /url: /accounts/settings/v2/tags_and_mentions/
+    - generic: Tags and mentions
+  - link "Comments":
+    - /url: /accounts/comments/
+    - generic: Comments
+  - link "Sharing and reuse":
+    - /url: /accounts/settings/v2/sharing_and_reuse/
+    - generic: Sharing and reuse
+  - link "Restricted accounts":
+    - /url: /accounts/restricted_accounts/
+    - generic: Restricted accounts
+  - link "Hidden Words":
+    - /url: /accounts/settings/v2/hidden_words/
+    - generic: Hidden Words
+  - heading "What you see" [level=4]
+  - link "Muted accounts":
+    - /url: /accounts/muted_accounts/
+    - generic: Muted accounts
+  - link "Content preferences":
+    - /url: /accounts/settings/v2/content_preferences/
+    - generic: Content preferences
+  - link "Like and share counts":
+    - /url: /accounts/settings/v2/hidden_feedback/
+    - generic: Like and share counts
+  - link "Creator subscriptions":
+    - /url: /accounts/subscriptions/
+    - generic: Creator subscriptions
+  - heading "Your app and media" [level=4]
+  - link "Archiving and downloading":
+    - /url: /accounts/settings/v2/archiving_and_downloading/
+    - generic: Archiving and downloading
+  - link "Accessibility":
+    - /url: /accounts/accessibility/
+    - generic: Accessibility
+  - link "Language":
+    - /url: /language/preferences/
+    - generic: Language
+  - link "App website permissions":
+    - /url: /accounts/website_permissions/
+    - generic: App website permissions
+  - heading "Family Center" [level=4]
+  - link "Supervision for Teen Accounts":
+    - /url: /accounts/supervision/?supervision_entrypoint=main_settings_screen
+    - generic: Supervision for Teen Accounts
+  - heading "More info and support" [level=4]
+  - link "Help":
+    - /url: /settings/help/
+    - generic: Help
+  - link "Privacy Center Privacy Center":
+    - /url: https://privacycenter.instagram.com/?entry_point=instagram_settings_page
+    - generic: Privacy Center
+    - img "Privacy Center"
+  - link "Account Status":
+    - /url: /settings/help/account_status/
+    - generic: Account Status
+  - heading "Edit profile" [level=2]
+  - button "Profile photo":
+    - img "Profile photo"
+  - generic: boldstonesculpture
+  - textbox "Website" [disabled]: wescover.com/creator/boldstone + 2
+  - generic: Editing your links is only available on mobile. Visit the Instagram app and edit your profile to change the websites in your bio.
+  - textbox "Bio": "@boldstone.sculpture for our works in spaces Sculpture, Furnishings, Photography and Drawings inspired by nature"
+  - generic: 112 / 150
+  - generic: Show Threads badge
+  - switch "Show Threads badge" [checked]
+  - generic: AI-generated profile
+  - text: Add this label if your profile features an AI-generated person.
+  - link "Learn more":
+    - /url: https://www.meta.com/help/artificial-intelligence/1783222608822690/
+  - switch "AI-generated profile"
+  - generic: Gender
+  - button "Female Down chevron":
+    - generic: Female
+    - img "Down chevron"
+  - generic: This won’t be part of your public profile.
+  - generic: Show account suggestions on profiles
+  - generic: Choose whether people can see similar account suggestions on your profile, and whether your account can be suggested on other profiles.
+  - switch "Show account suggestions on profiles" [checked]
+  - text: Certain profile info, like your name, bio and links, is visible to everyone.
+  - link "See what profile info is visible":
+    - /url: https://help.instagram.com/347751748650214?ref=igweb
+  - button "Submit" [disabled]:
+    - generic: Submit
+  - contentinfo:
+    - link "Meta":
+      - /url: https://about.meta.com/
+      - generic: Meta
+    - link "About":
+      - /url: https://about.instagram.com/
+      - generic: About
+    - link "Blog":
+      - /url: https://about.instagram.com/blog/
+      - generic: Blog
+    - link "Jobs":
+      - /url: https://about.instagram.com/about-us/careers
+      - generic: Jobs
+    - link "Help":
+      - /url: https://help.instagram.com/
+      - generic: Help
+    - link "API":
+      - /url: https://developers.facebook.com/docs/instagram
+      - generic: API
+    - link "Privacy":
+      - /url: /legal/privacy/
+      - generic: Privacy
+    - link "Terms":
+      - /url: /legal/terms/
+      - generic: Terms
+    - link "Locations":
+      - /url: /explore/locations/
+      - generic: Locations
+    - link "Popular":
+      - /url: /popular/
+      - generic: Popular
+    - link "Instagram Lite":
+      - /url: /web/lite/
+      - generic: Instagram Lite
+    - link "Meta AI":
+      - /url: https://www.meta.ai/?utm_source=foa_web_footer
+      - generic: Meta AI
+    - link "Muse":
+      - /url: https://muse.ai/
+      - generic: Muse
+    - link "Threads":
+      - /url: https://www.threads.com/
+      - generic: Threads
+    - link "Contact Uploading & Non-Users":
+      - /url: https://www.facebook.com/help/instagram/261704639352628
+      - generic: Contact Uploading & Non-Users
+    - link "Meta Verified":
+      - /url: /accounts/meta_verified/?entrypoint=web_footer
+      - generic: Meta Verified
+    - generic: English
+    - img "Down chevron icon"
+    - combobox "Switch Display Language":
+      - option "Afrikaans"
+      - option "العربية"
+      - option "Čeština"
+      - option "Dansk"
+      - option "Deutsch"
+      - option "Ελληνικά"
+      - option "English" [selected]
+      - option "English (UK)"
+      - option "Español (España)"
+      - option "Español"
+      - option "فارسی"
+      - option "Suomi"
+      - option "Français"
+      - option "עברית"
+      - option "Bahasa Indonesia"
+      - option "Italiano"
+      - option "日本語"
+      - option "한국어"
+      - option "Bahasa Melayu"
+      - option "Norsk"
+      - option "Nederlands"
+      - option "Polski"
+      - option "Português (Brasil)"
+      - option "Português (Portugal)"
+      - option "Русский"
+      - option "Svenska"
+      - option "ภาษาไทย"
+      - option "Filipino"
+      - option "Türkçe"
+      - option "中文(简体)"
+      - option "中文(台灣)"
+      - option "বাংলা"
+      - option "ગુજરાતી"
+      - option "हिन्दी"
+      - option "Hrvatski"
+      - option "Magyar"
+      - option "ಕನ್ನಡ"
+      - option "മലയാളം"
+      - option "मराठी"
+      - option "नेपाली"
+      - option "ਪੰਜਾਬੀ"
+      - option "සිංහල"
+      - option "Slovenčina"
+      - option "தமிழ்"
+      - option "తెలుగు"
+      - option "اردو"
+      - option "Tiếng Việt"
+      - option "中文(香港)"
+      - option "Български"
+      - option "Français (Canada)"
+      - option "Română"
+      - option "Српски"
+      - option "Українська"
+    - generic: © 2026 Instagram from Meta
+- button "Messages - 1 new notification":
+  - generic "Messages - 1 new notification":
+    - img "Messages"
+    - generic "Direct messaging - 1 new notification link":
+      - generic: "1"
+    - generic: Messages
+    - button "User avatar Alec son of Hercules":
+      - img "User avatar"
+    - button "User avatar Friends of Jonathan":
+      - img "User avatar"

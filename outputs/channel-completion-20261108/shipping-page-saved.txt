@@ -1,0 +1,186 @@
+Window: "Shipping Policy | Explore Shipp… - Shop Confidently — boldstone", App: Google Chrome.
+0 standard window Shipping Policy | Explore Shipping Options - Shop Confidently — boldstone - Google Chrome – Tom, URL: caper-spinach-spcy.squarespace.com/config/pages, Secondary Actions: Raise
+	1 container Shipping Policy | Explore Shipping Options - Shop Confidently — boldstone - Google Chrome – Tom, URL: caper-spinach-spcy.squarespace.com/config/pages
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: caper-spinach-spcy.squarespace.com/config/pages, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Shipping Policy | Explore Shipping Options - Shop Confidently — boldstone, URL: caper-spinach-spcy.squarespace.com/config/pages
+						27 container
+							28 container
+								29 container Site preview and editing tools
+									30 button (disabled) Save
+									31 button Exit
+									32 button Undo
+									33 button (disabled) Redo
+									34 container
+										35 text Shipping Policy Page  ·  Published
+									36 content list
+										37 container
+											38 radio button Desktop View, Value: 1
+											39 radio button Mobile View, Value: 0
+										40 button Toggle Site Styles editing
+										41 button Toggle preview mode
+								42 container boldstone
+									43 HTML content Shipping Policy | Explore Shipping Options - Shop Confidently — boldstone, URL: caper-spinach-spcy.squarespace.com/shipping-policy
+										44 container
+											45 container
+												46 button EDIT SITE HEADER
+												47 link Skip to Content, Value: caper-spinach-spcy.squarespace.com/shipping-policy#page
+												48 container
+													49 link boldstone, Value: caper-spinach-spcy.squarespace.com/
+													50 container
+														51 link Commissions, Value: caper-spinach-spcy.squarespace.com/commission
+														52 link Sculpture, Value: caper-spinach-spcy.squarespace.com/
+														53 link Furnishings, Value: caper-spinach-spcy.squarespace.com/furnishings
+														54 link Gallery, Value: caper-spinach-spcy.squarespace.com/gallery
+														55 link Buy, Value: caper-spinach-spcy.squarespace.com/buy
+														56 link Blog, Value: caper-spinach-spcy.squarespace.com/blog
+														57 link Contact, Value: caper-spinach-spcy.squarespace.com/consultation-and-contact
+													58 link Instagram, Value: instagram.com/boldstonesculpture/
+													59 link LinkedIn, Value: linkedin.com/in/sally-price-1193858a
+													60 link Facebook, Value: facebook.com/BoldstoneSculpture/
+													61 link Pinterest, Value: pinterest.co.uk/boldstonepinterest
+													62 link X, Value: x.com/SallyPr65718327
+													63 link Houzz, Value: houzz.co.uk/pro/sally-price2
+													64 link URL, Value: linktr.ee/boldstone
+													65 link TikTok, Value: tiktok.com/@boldstonesculpture
+													66 link YouTube, Value: youtube.com/@BoldstoneSculpture
+													67 link Threads, Value: threads.com/@boldstonesculpture
+													68 link One item in cart, Value: caper-spinach-spcy.squarespace.com/cart
+												69 text EDIT HEADER
+											70 container
+												71 container
+													72 container
+														73 table
+															74 text TEXT
+															75 cell
+																76 container Text
+																	77 text entry area (settable) SHIPPING POLICY
+																		78 heading SHIPPING POLICY, Value: 2
+																			79 text SHIPPING POLICY
+																	80 toolbar
+															81 image Adjust row count
+												82 container
+													83 container
+														84 table
+															85 text TEXT
+															86 cell
+																87 container Text
+																	88 text entry area (settable) DISPATCH AND DELIVERY
+Standard wall sculptures are ready to dispatch within 10 working days of order confirmation, unless a different deadline is clearly agreed for your order. Working days exclude weekends and UK public holidays. Bespoke commissions and large projects have a separately agreed production and dispatch schedule.
+Dispatch is the date a parcel leaves the studio. Carrier transit time is additional. We will send shipment confirmation and tracking details when available. Contact info@boldstone.co.uk with your order number if you need an update.
+UK delivery charges for eligible orders are shown at checkout before payment. Large, unusually heavy or specially packed orders may require a separate quote. For international delivery, or a destination that is unavailable at checkout, contact us for a confirmed shipping quote before ordering. The quotation will specify the service, estimated transit time and any relevant packing charges. Applicable import duties and local taxes will be explained for the chosen service.
+Returns and refunds are governed by the Return and Refund Policy. Customers pay actual return postage for eligible change-of-mind returns. Faulty, damaged or incorrect items are handled separately; contact us before arranging shipment.
+																		89 heading DISPATCH AND DELIVERY, Value: 3
+																			90 text DISPATCH AND DELIVERY
+																		91 text Standard wall sculptures are ready to dispatch within 10 working days of order confirmation, unless a different deadline is clearly agreed for your order. Working days exclude weekends and UK public holidays. Bespoke commissions and large projects have a separately agreed production and dispatch schedule.
+																		92 container
+																			93 text Dispatch is the date a parcel leaves the studio. Carrier transit time is additional. We will send shipment confirmation and tracking details when available. Contact 
+																			94 link info@boldstone.co.uk, Value: mailto:info@boldstone.co.uk
+																			95 text  with your order number if you need an update.
+																		96 text UK delivery charges for eligible orders are shown at checkout before payment. Large, unusually heavy or specially packed orders may require a separate quote. For international delivery, or a destination that is unavailable at checkout, contact us for a confirmed shipping quote before ordering. The quotation will specify the service, estimated transit time and any relevant packing charges. Applicable import duties and local taxes will be explained for the chosen service.
+																		97 text Returns and refunds are governed by the Return and Refund Policy. Customers pay actual return postage for eligible change-of-mind returns. Faulty, damaged or incorrect items are handled separately; contact us before arranging shipment.
+																	98 toolbar
+															99 image Adjust row count
+												100 text EDIT PAGE
+											101 container
+												102 button EDIT SITE FOOTER
+												103 container
+													104 container
+														105 link Privacy Policy, Value: caper-spinach-spcy.squarespace.com/privacy-policy
+														106 link Terms of Service, Value: caper-spinach-spcy.squarespace.com/terms-of-service
+														107 link Terms and Conditions, Value: caper-spinach-spcy.squarespace.com/terms-and-conditions
+														108 link Partnership Terms, Value: caper-spinach-spcy.squarespace.com/partnership-terms
+													109 container
+														110 link Copyright and Design Right, Value: caper-spinach-spcy.squarespace.com/copyright-and-design-right
+														111 link Shipping Policy , Value: caper-spinach-spcy.squarespace.com/shipping-policy
+														112 link Return and Refund Policy, Value: caper-spinach-spcy.squarespace.com/return-and-refund-policy
+													113 container
+														114 text Contact Us Directly:
+														115 link info@, Value: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+														116 link boldstonesculpture, Value: mailto:info@boldstonesculpture.com?cc=info%40boldstone.co.uk&subject=Inquiry%3A%20Boldstone%20Sculpture
+														117 link .com, Value: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+														118 link Frequently Asked Questions, Value: caper-spinach-spcy.squarespace.com/faqs
+														119 link About Sally Price, Value: caper-spinach-spcy.squarespace.com/about
+														120 link Garden Sculpture, Value: caper-spinach-spcy.squarespace.com/garden-sculpture
+														121 link Bespoke Commissions, Value: caper-spinach-spcy.squarespace.com/commission
+												122 text EDIT FOOTER
+											123 container Manage previously selected cookie options
+												124 button Cookie Preferences
+											125 image
+			126 pop-up button Tab search
+			127 container
+				128 tab group
+					129 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					130 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					131 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					132 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					133 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					134 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					135 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					136 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					137 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					138 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					139 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					140 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					141 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					142 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					143 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					144 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					145 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					146 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					147 tab (settable, boolean) Meta Business Suite, Value: off
+					148 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					149 tab (settable, boolean) Meta Business Suite, Value: off
+					150 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					151 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					152 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					153 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					154 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					155 tab (selected, settable, boolean) Shipping Policy | Explore Shipping Options - Shop Confidently — boldstone, Value: on
+			156 button New tab
+	157 close button
+	158 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	159 minimise button
+160 menu bar
+	161 Chrome
+	162 File
+	163 Edit
+	164 View
+	165 History
+	166 Bookmarks
+	167 Profiles
+	168 Tab
+	169 Window
+	170 Help
+
+The focused UI element is 26 HTML content Shipping Policy | Explore Shipping Options - Shop Confidently — boldstone, URL: caper-spinach-spcy.squarespace.com/config/pages

@@ -1,0 +1,268 @@
+Window: "Overview - Merchant Center", App: Google Chrome.
+0 standard window Overview - Merchant Center - Google Chrome – Tom, URL: merchants.google.com/mc/overview?a=5664655454&authuser=0&pli=1, Secondary Actions: Raise
+	1 container Overview - Merchant Center - Google Chrome – Tom, URL: merchants.google.com/mc/overview?a=5664655454&authuser=0&pli=1
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: merchants.google.com/mc/overview?a=5664655454&authuser=0&pli=1, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Overview - Merchant Center, URL: merchants.google.com/mc/overview?a=5664655454&authuser=0&pli=1
+						26 container
+							27 container
+								28 button Skip to main content
+								29 button Navigation menu
+								30 link Merchant Center home, Value: merchants.google.com/mc/overview?a=5664655454&authuser=0
+								31 container Search
+									32 container
+										33 text field (settable) Search Merchant Center
+								34 pop-up button Help
+								35 button Merchant Center account: Boldstone Sculpture, 5664655454
+								36 container
+									37 button Google apps
+									38 button Google Account: Sally Price (info@boldstone.co.uk)
+							39 outline Navigation
+								40 row Overview
+									41 container
+										42 text Overview
+								43 row Notifications
+									44 text Notifications
+								45 row Products & store
+									46 text Products & store
+									47 container
+										48 row Products
+											49 text Products
+										50 row Shipping and returns
+											51 text Shipping and returns
+										52 row Store quality
+											53 text Store quality
+										54 row Reviews
+											55 text Reviews
+								56 row Creative content
+									57 text Creative content
+								58 row Marketing
+									59 text Marketing
+								60 row Analytics
+									61 text Analytics
+									62 container
+										63 row Summary
+											64 text Summary
+										65 row Products
+											66 text Products
+										67 row Pricing
+											68 text Pricing
+										69 row Online store
+											70 text Online store
+								71 row Settings
+									72 text Settings
+									73 container
+										74 row General
+											75 text General
+										76 row Business info
+											77 text Business info
+										78 row Data sources
+											79 text Data sources
+										80 row Add-ons
+											81 text Add-ons
+										82 row Access and services
+											83 text Access and services
+							84 container
+								85 container
+									86 container
+										87 heading Get more customers and sales with ads, Value: 1
+											88 text Get more customers and sales with ads
+										89 text Advertise your products on all Google Ads channels, including YouTube, Search and Discover. You only pay when people click on your ads, and you can stop your campaign whenever you want.
+										90 link Learn more about ads, Opens in a new tab, Value: support.google.com/merchants/answer/12500202?hl=en-US
+										91 button Get started. Begin the shopping ads onboarding process.
+										92 button Remind me later. Begin the shopping ads onboarding process later.
+										93 button Ads onboarding Intro video
+									94 heading Your performance on Google, Value: 2
+										95 text Your performance on Google
+									96 container
+										97 pop-up button Last 28 days
+											98 text Last 28 days
+										99 text vs
+										100 pop-up button previous period
+											101 text previous period
+									102 container Total clicks 40 +81.8%
+										103 container
+											104 text Total clicks
+											105 button More information about Total clicks metric
+											106 text 40
+											107 button +81.8% - change ratio of Total clicks from a value of 40
+									108 link View more about product performance, Value: merchants.google.com/mc/reporting/performance/summary?a=5664655454&authuser=0
+									109 pop-up button Click trend
+										110 text Click trend
+									111 container Your performance on Google
+										112 text Your performance on Google, Line chart. Use the arrow keys to navigate inside the chart.
+									113 button Total clicks, 7-day click average
+									114 button Previous period
+									115 heading Ad campaigns, Value: 3
+										116 text Ad campaigns
+									117 text Performance of your ad campaigns will appear here.
+									118 link Start advertising, Value: merchants.google.com/mc/campaigns?a=5664655454&authuser=0
+									119 heading Your business on Google, Value: 2
+										120 text Your business on Google
+									121 container
+										122 text Today vs
+										123 pop-up button Today vs 7 days ago
+											124 text 7 days ago
+									125 container Total products 325 +0
+										126 container
+											127 text Total products
+											128 button More information about Total products metric
+											129 text 325
+											130 button +0 - change ratio of Total products from a value of 325
+									131 link View more about product status, Value: merchants.google.com/mc/items?a=5664655454&expandGraph=true&authuser=0
+									132 container Your business on Google
+										133 text Approved
+										134 container
+											135 text 325 Approved
+										136 container
+											137 text +325 Approved from 7 days ago
+										138 button Approved products
+										139 text Limited
+										140 container
+											141 text 0 Limited
+										142 container
+											143 text +0 Limited from 7 days ago
+										144 button Limited products
+										145 text Not approved
+										146 container
+											147 text 0 Not approved
+										148 container
+											149 text +0 Not approved from 7 days ago
+										150 button Not approved products
+										151 text Under review
+										152 container
+											153 text 0 Under review
+										154 container
+											155 text -325 Under review from 7 days ago
+										156 button Under review products
+										157 text 7 days ago Today
+									158 container
+										159 heading Store quality, Value: 3
+											160 text Store quality
+										161 button View more about Store quality
+										162 link View more, Value: merchants.google.com/mc/quality?a=5664655454&authuser=0
+										163 text Information about your store quality is not currently available
+									164 container
+										165 heading What to do next, Value: 2
+											166 text What to do next
+										167 link View all notifications, Value: merchants.google.com/mc/taskhub?a=5664655454&authuser=0
+										168 text GROWTH
+										169 button Useful
+										170 button Not useful
+										171 pop-up button Open menu with more options for Update descriptions for Wall Sculptures
+										172 heading Update descriptions for Wall Sculptures, Value: 3
+											173 text Update descriptions for Wall Sculptures
+										174 text Add missing details to 36 products to help customers find exactly what they need. Better descriptions can increase your visibility in relevant searches.
+										175 link View products
+											176 text View products
+										177 text GROWTH
+										178 button Useful
+										179 button Not useful
+										180 pop-up button Open menu with more options for Add the products found on your online store
+										181 heading Add the products found on your online store, Value: 3
+											182 text Add the products found on your online store
+										183 text Add products to Merchant Center to improve their performance and control how they're shown and advertised on Google. They won't be included in ads automatically. 
+										184 link Learn more about adding products automatically, Value: support.google.com/merchants/answer/12158480
+										185 button Add all products found
+										186 text TIP
+										187 button Useful
+										188 button Not useful
+										189 pop-up button Open menu with more options for You’ve got your first click
+										190 heading You’ve got your first click, Value: 3
+											191 text You’ve got your first click
+										192 text Find out which of your products are attracting customers and how they’re trending over time
+										193 link View performance
+											194 text View performance
+										195 text TIP
+										196 button Useful
+										197 button Not useful
+										198 pop-up button Open menu with more options for Add checkout to your listings
+										199 heading Add checkout to your listings, Value: 3
+											200 text Add checkout to your listings
+										201 text Give ready-to-buy customers the option to land directly in your checkout via a link in your free listings. It makes purchasing easier and has helped increase conversions and sales for participating merchants.
+										202 link Get started
+											203 text Get started
+										204 link Learn more
+											205 text Learn more
+									206 link Privacy Policy, Value: google.com/policies/privacy/
+									207 link Terms of Service, Value: support.google.com/merchants/answer/160173?hl=en-US
+									208 link Program Policies, Value: support.google.com/merchants/topic/7286989?hl=en-US
+			209 pop-up button Tab search
+			210 container
+				211 tab group
+					212 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					213 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					214 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					215 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					216 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					217 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					218 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					219 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					220 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					221 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					222 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					223 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					224 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					225 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					226 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					227 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					228 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					229 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					230 tab (settable, boolean) Meta Business Suite, Value: off
+					231 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					232 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					233 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					234 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					235 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					236 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					237 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					238 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 999 MB, Value: off
+					239 tab (settable, boolean) Boldstone · Review room, Value: off
+					240 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					241 tab (selected, settable, boolean) Overview - Merchant Center, Value: on
+			242 button New tab
+	243 close button
+	244 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	245 minimise button
+246 menu bar
+	247 Chrome
+	248 File
+	249 Edit
+	250 View
+	251 History
+	252 Bookmarks
+	253 Profiles
+	254 Tab
+	255 Window
+	256 Help
+
+The focused UI element is 25 HTML content Overview - Merchant Center, URL: merchants.google.com/mc/overview?a=5664655454&authuser=0&pli=1

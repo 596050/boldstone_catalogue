@@ -1,0 +1,114 @@
+- link "Ads Manager Meta":
+  - /url: /adsmanager/
+  - generic: Ads Manager
+  - img "Meta"
+- button "Pressable":
+- button:
+  - generic: "8"
+- separator
+- navigation "tools":
+  - list:
+    - link "Account overview":
+      - /url: /adsmanager/manage/accounts?business_id=2380586078685156&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager
+    - generic: Account overview
+    - link "Campaigns":
+      - /url: /adsmanager/manage/campaigns?business_id=2380586078685156&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager
+    - generic: Campaigns
+    - link "Ads Reporting":
+      - /url: /adsreporting/?business_id=2380586078685156&nav_entry_point=ads_ecosystem_navigation_menu
+    - generic: Ads Reporting
+    - link "Audiences":
+      - /url: /adsmanager/?business_id=2380586078685156&tool=AUDIENCES&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager
+    - generic: Audiences
+    - link "Advertising settings":
+      - /url: https://eventsmanager.facebook.com/adsmanager/manage/advertising_settings/?business_id=2380586078685156&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager
+    - generic: Advertising settings
+    - link "Billing and payments":
+      - /url: /billing_hub/payment_settings/?placement=ads_manager&business_id=2380586078685156&entrypoint=ads_ecosystem_navigation_ads_billing_tool_plugin
+    - generic: Billing and payments
+    - link "Events Manager":
+      - /url: /events_manager2/?business_id=2380586078685156&nav_source=ads_ecosystem_nav
+    - generic: Events Manager
+    - button "All tools":
+    - generic: All tools
+- separator
+- link "Business settings":
+  - /url: https://business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+  - generic: Business settings
+- button "Search":
+  - generic: Search
+- button "Help":
+  - generic: Help
+- button "Report a problem":
+  - generic: Report a problem
+- heading "Datasets" [level=1]
+- combobox "Sally Price":
+  - generic: Sally Price
+- button "Facebook":
+  - img "Facebook"
+- navigation "Tools":
+  - list:
+    - button "Connect data":
+    - generic: Connect data
+    - button "Overview":
+    - generic: Overview
+    - button "Datasets":
+    - generic: Datasets
+    - button "Custom conversions":
+    - generic: Custom conversions
+    - button "Integrations":
+    - generic: Integrations
+- button "Collapse":
+  - generic: Collapse
+- generic: Search
+- searchbox "Search"
+- grid:
+  - row "Boldstone Sculpture Pixel ID 4566349726935061":
+    - gridcell "Boldstone Sculpture Pixel ID 4566349726935061":
+      - generic: Boldstone Sculpture Pixel
+      - generic: ID
+      - generic: "4566349726935061"
+- generic: Found 1 data source(s)
+- heading "Boldstone Sculpture Pixel" [level=2]
+- link "Edit data source name":
+  - /url: "#"
+- button "Create":
+  - generic: Create
+- tablist:
+  - tab "Overview":
+    - generic: Overview
+  - tab "Test events" [selected]:
+    - generic: Test events
+  - tab "Diagnostics":
+    - generic: Diagnostics
+  - tab "History":
+    - generic: History
+  - tab "Settings":
+    - generic: Settings
+- heading "Test your events" [level=3]
+- generic: Use test events to confirm your website, app, CRM and server events are set up correctly.
+- text: Note that test behaviour may differ from live environments and your personal ad settings won't affect test data.
+- link "Learn more":
+  - /url: /business/help/2040882565969969
+- text: "Select a marketing channel to receive its corresponding instructions:"
+- generic: Test events action source selector
+- combobox "Test events action source selector":
+  - generic: Website
+- heading "Confirm that your server's events are set up correctly" [level=4]
+- heading "Confirm that your website's events are set up correctly" [level=4]
+- generic: Make sure that the Test events page stays open in Events Manager during the test.
+- heading "To run the test:" [level=4]
+- generic: "1."
+- generic: Enter your website's URL and click Test events.
+- generic: "2."
+- generic: Take an action on a Page in the website.
+- text: For example, add an item to your basket or simulate a purchase transaction.
+- generic: The Test events page should display the events from the actions you took on the website.
+- generic: Enter website URL
+- combobox "Enter website URL": https://boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white?utm_source=facebook&utm_medium=organic_social&utm_campaign=wall_sculptures_verification
+- button "Test events" [active]:
+  - generic: Test events
+- link "Give feedback":
+  - /url: "#"
+- link "Translations":
+  - /url: https://www.facebook.com/translations/?ref=trans_nub

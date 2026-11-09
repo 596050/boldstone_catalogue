@@ -1,0 +1,389 @@
+Window: "Wall Sculpture & Sculptural Furnishings | Boldstone, UK", App: Google Chrome.
+0 standard window Wall Sculpture & Sculptural Furnishings | Boldstone, UK - Google Chrome – Tom, URL: boldstonesculpture.com/, Secondary Actions: Raise
+	1 container Wall Sculpture & Sculptural Furnishings | Boldstone, UK - Google Chrome – Tom, URL: boldstonesculpture.com/
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: boldstonesculpture.com, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content DevTools, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true
+						27 container
+							28 container
+								29 container
+									30 container Main toolbar
+										31 toolbar
+											32 container Select an element in the page to inspect it, Help: Select an element in the page to inspect it - ⌘ ⇧ C
+												33 toggle button Select an element in the page to inspect it - ⌘ ⇧ C, Value: 0
+											34 container Toggle device toolbar, Help: Toggle device toolbar - ⌘ ⇧ M
+												35 toggle button Toggle device toolbar - ⌘ ⇧ M, Value: 0
+										36 container
+											37 tab group Panels
+											38 pop-up button More tabs
+										39 toolbar
+											40 container
+												41 container Open Console to view 13 errors, 6 warnings
+													42 button Open Console to view 13 errors, 6 warnings
+												43 container Open Issues to view 3 issues: 1 breaking change, 2 possible improvements
+													44 button Open Issues to view 3 issues: 1 breaking change, 2 possible improvements
+											45 button  AI assistance, Help: Open AI assistance panel
+											46 container Settings, Help: Settings - F1 - ⇧ ?
+												47 button Settings - F1 - ⇧ ?
+											48 pop-up button Customize and control DevTools
+												49 button Customize and control DevTools
+											50 container Close
+												51 button Close
+									52 container Network panel
+										53 container network
+											54 container
+												55 toolbar
+													56 container Stop recording network log, Help: Stop recording network log - ⌘ E
+														57 toggle button Stop recording network log - ⌘ E, Value: 1
+													58 container Clear network log, Help: Clear network log - Ctrl L - ⌘ K
+														59 button Clear network log - Ctrl L - ⌘ K
+													60 container Filter
+														61 toggle button Filter, Value: 1
+													62 container Search
+														63 toggle button Search, Value: 0
+													64 container
+														65 Tick box Keep log, Value: 1
+														66 text Keep log
+													67 container
+														68 Tick box Disable cache, Value: 1
+														69 text Disable cache
+													70 pop-up button Throttling, Value: Disabled: No throttling
+														71 (selected) Disabled: No throttling
+													72 container More network conditions…
+														73 button More network conditions…
+													74 container Import HAR file…
+														75 button Import HAR file…
+													76 container Export HAR (sanitized)…
+														77 button Export HAR (sanitized)…
+													78 container Network settings
+														79 toggle button Network settings, Value: 0
+												80 toolbar
+													81 container
+														82 text entry area (settable) Filter, Value: domain:pinimg.com
+															83 text domain:pinimg.com
+														84 container Clear
+															85 button Clear
+												86 container Inverts the search filter
+													87 Tick box Invert, Value: 0
+													88 text Invert
+												89 container Show only/hide requests dropdown
+													90 pop-up button Show only/hide requests
+														91 text More filters
+												92 list box Request types to include, Help: ⌘ Click to select multiple types
+													93 text (selected) All Fetch/XHR Doc CSS JS Font Img Media Manifest Socket Wasm Other
+												94 container Overview grid window
+													95 container
+														96 container
+															97 text 0 ms
+															98 text 10,000 ms
+															99 text 20,000 ms
+															100 text 30,000 ms
+															101 text 40,000 ms
+															102 text 50,000 ms
+													103 slider Left resizer, Value: 0, Details: 0 ms, Secondary Actions: Increment, Decrement
+													104 slider Right resizer, Value: 100, Details: 44,842 ms, Secondary Actions: Increment, Decrement
+												105 container
+													106 container
+														107 table
+															108 row
+																109 column header Name - Sortable column. Press enter to sort.
+																	110 text Name
+																111 column header Status - Sortable column. Press enter to sort.
+																	112 text Status
+																113 column header Type - Sortable column. Press enter to sort.
+																	114 text Type
+																115 column header Initiator - Sortable column. Press enter to sort.
+																	116 text Initiator
+																117 column header Size - Sortable column. Press enter to sort.
+																	118 text Size
+																119 column header Time - Sortable column. Press enter to sort.
+																	120 text Time
+													121 container 0 / 116 requests
+														122 text 0 / 116 requests
+													123 container 0 B / 7458994 B transferred over network
+														124 text 0.0 kB / 7,459 kB transferred
+													125 container 0 B / 16312602 B resources loaded by the page
+														126 text 0.0 kB / 16,313 kB resources
+													127 container Finish: 44.17 s
+														128 text Finish: 44.17 s
+													129 container DOMContentLoaded: 594 ms
+														130 text DOMContentLoaded: 594 ms
+													131 container Load: 1.48 s
+														132 text Load: 1.48 s
+							133 text Network data available
+				134 scroll area
+					135 HTML content Wall Sculpture & Sculptural Furnishings | Boldstone, UK, URL: boldstonesculpture.com/
+						136 container
+							137 container
+								138 link Skip to Content, Value: boldstonesculpture.com/#page
+								139 container
+									140 link boldstone, Value: boldstonesculpture.com/
+									141 container
+										142 link Commissions, Value: boldstonesculpture.com/commission
+										143 link Sculpture, Value: boldstonesculpture.com/
+										144 link Furnishings, Value: boldstonesculpture.com/furnishings
+										145 link Gallery, Value: boldstonesculpture.com/gallery
+										146 link Buy, Value: boldstonesculpture.com/buy
+										147 link Blog, Value: boldstonesculpture.com/blog
+										148 link Contact, Value: boldstonesculpture.com/consultation-and-contact
+									149 link Instagram, Value: instagram.com/boldstonesculpture/
+									150 link LinkedIn, Value: linkedin.com/in/sally-price-1193858a
+									151 link Facebook, Value: facebook.com/BoldstoneSculpture/
+									152 link Pinterest, Value: pinterest.co.uk/boldstonepinterest
+									153 link X, Value: x.com/SallyPr65718327
+									154 link Houzz, Value: houzz.co.uk/pro/sally-price2
+									155 link URL, Value: linktr.ee/boldstone
+									156 link TikTok, Value: tiktok.com/@boldstonesculpture
+									157 link YouTube, Value: youtube.com/@BoldstoneSculpture
+									158 link Threads, Value: threads.com/@boldstonesculpture
+									159 link 0 items in cart, Value: boldstonesculpture.com/cart
+							160 container
+								161 container Wall sculpture catalogue
+									162 heading WALL SCULPTURE INSPIRED BY NATURE, Value: 1
+										163 text WALL SCULPTURE INSPIRED BY NATURE
+									164 text Handmade by Sally Price for homes, gardens and design projects.
+									165 container
+										166 text Search sculptures
+										167 search text field (settable) Search wall sculptures, Placeholder: Try ammonite, leaf or white
+									168 container
+										169 text Explore a collection
+										170 pop-up button Wall sculpture collection, Value: All collections
+											171 (selected) All collections
+									172 text Showing 24 of 176 sculptures
+									173 link Acanthus Bloom - White ACANTHUS BLOOM - WHITE Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-flower-white
+									174 link Acanthus Frond (Left) - Pewter Finish ACANTHUS FROND (LEFT) - PEWTER FINISH Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-one-leaf-left-pewter
+									175 link Acanthus Frond (Left) - White ACANTHUS FROND (LEFT) - WHITE Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-one-leaf-left-white
+									176 link Acanthus Moon - Gold Finish ACANTHUS MOON - GOLD FINISH Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-and-moon-gold-leaf
+									177 link Acanthus Moon - White ACANTHUS MOON - WHITE Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-full-acanthus-and-moon-white
+									178 link Acanthus Twin Leaves - Bronze Finish ACANTHUS TWIN LEAVES - BRONZE FINISH Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-two-leaves-bronze
+									179 link Value: boldstonesculpture.com/buy/p/acanthus-two-leaves-pale-blue-and-white, Acanthus Twin Leaves - Pale Blue and White Finish ACANTHUS TWIN LEAVES - PALE BLUE AND WHITE FINISH Acanthus
+									180 link Acanthus Twin Leaves - Pewter Finish ACANTHUS TWIN LEAVES - PEWTER FINISH Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-two-leaves-pewter
+									181 link Acanthus Twin Leaves - White ACANTHUS TWIN LEAVES - WHITE Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-two-leaves-white
+									182 link Ammonite Grande I (Left) - White AMMONITE GRANDE I (LEFT) - WHITE Ammonite, Value: boldstonesculpture.com/buy/p/ammonite-large-1-left-panel-white
+									183 link Ammonite Grande II (Right) - White AMMONITE GRANDE II (RIGHT) - WHITE Ammonite, Value: boldstonesculpture.com/buy/p/ammonite-large-2-right-panel-white
+									184 link Ammonite Petite I (Left) - White AMMONITE PETITE I (LEFT) - WHITE Ammonite, Value: boldstonesculpture.com/buy/p/ammonite-small-1-left-panel-white
+									185 link Ammonite Petite II (Right) - White AMMONITE PETITE II (RIGHT) - WHITE Ammonite, Value: boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white
+									186 link Ancient Cup Ring - White ANCIENT CUP RING - WHITE Cup Ring and Spiral, Value: boldstonesculpture.com/buy/p/cup-ring-crs2-white-standard
+									187 link Ancient Spiral - White ANCIENT SPIRAL - WHITE Cup Ring and Spiral, Value: boldstonesculpture.com/buy/p/spiral-white-crs1
+									188 link Value: boldstonesculpture.com/buy/p/azure-blue-and-white-marbled-panel, Azure Marble-Effect Relief - Blue and White Finish AZURE MARBLE-EFFECT RELIEF - BLUE AND WHITE FINISH Wall Panel Azure Blue Marble
+									189 link Barbados Wave Relief BARBADOS WAVE RELIEF Barbados Wave, Value: boldstonesculpture.com/buy/p/barbados-wave
+									190 link Battersea Shellmoon I - White BATTERSEA SHELLMOON I - WHITE Shellmoon, Value: boldstonesculpture.com/buy/p/battersea-shellmoon-1-white
+									191 link Battersea Shellmoon I Fountain - White BATTERSEA SHELLMOON I FOUNTAIN - WHITE Shellmoon, Value: boldstonesculpture.com/buy/p/battersea-shellmoon-1-white-water-feature
+									192 link Battersea Shellmoon II Fountain - White BATTERSEA SHELLMOON II FOUNTAIN - WHITE Shellmoon, Value: boldstonesculpture.com/buy/p/battersea-shellmoon-2-white-water-feature
+									193 link Bone Spiral I (Narrow) - White BONE SPIRAL I (NARROW) - WHITE Bone Spiral, Value: boldstonesculpture.com/buy/p/bone-spiral-1-narrow-panel-white-bs1
+									194 link Bone Spiral II (Wide) - White BONE SPIRAL II (WIDE) - WHITE Bone Spiral, Value: boldstonesculpture.com/buy/p/bone-spiral-2-wide-panel-white-bs2
+									195 link Bone Water Spiral Relief - White BONE WATER SPIRAL RELIEF - WHITE Bone Water Spiral, Value: boldstonesculpture.com/buy/p/bone-water-spiral-white
+									196 link Botanical Form - White BOTANICAL FORM - WHITE Plant Form, Value: boldstonesculpture.com/buy/p/plant-form-white
+									197 button Show more sculptures
+								198 container
+									199 heading HANDMADE WALL SCULPTURE BY SALLY PRICE, Value: 2
+										200 text HANDMADE WALL SCULPTURE BY SALLY PRICE
+									201 text Boldstone is the studio of British sculptor Sally Price, established in 1998 near Bath in South West England. Discover handmade relief panels, 
+									202 link garden wall sculpture, Value: boldstonesculpture.com/garden-sculpture
+									203 text  and 
+									204 link sculptural furnishings, Value: boldstonesculpture.com/furnishings
+									205 text  for homes, gardens, hotels and commercial interiors. Choose a made-to-order design from the collection or 
+									206 link commission a bespoke sculpture, Value: boldstonesculpture.com/commission
+									207 text . We work with private clients, 
+									208 link interior designers and architects, Value: boldstonesculpture.com/collaborate
+									209 text , with UK and international delivery. 
+									210 link Meet Sally Price, Value: boldstonesculpture.com/about
+									211 text  and explore our 
+									212 link materials, outdoor finishes and lead times, Value: boldstonesculpture.com/faqs
+									213 text . Botanical forms, fossil spirals and the movement of water, brought to life through texture, light and shadow. Explore individual wall sculptures for interiors, gardens and outdoor spaces.
+								214 container
+									215 container
+										216 container
+											217 image An abstract watercolor painting with red, beige, and light blue irregular shapes outlined in black.
+										218 image
+									219 container
+										220 container
+											221 image Abstract pattern with orange, cream, teal, and black cracked design.
+										222 image
+									223 container
+										224 heading NEWSLETTER, Value: 2
+											225 text NEWSLETTER
+										226 text Sign up with your email address to receive interviews of industry experts, market trends and our latest innovations
+										227 email (settable) Email Address
+										228 button Sign Up
+								229 container
+									230 button View fullsize Close-up of a fossilized ammonite shell showing spiral ridges and textured surface.
+									231 text If you would like more information or have a project in mind please make contact with us by the form below or via our email address directly, given in the footer. If you would like to book a consultation, please use the appointment form at the bottom of this page.
+									232 container
+										233 container Name
+											234 text Name
+											235 container
+												236 text First Name (required)
+												237 text field (settable) First Name (required)
+											238 container
+												239 text Last Name (required)
+												240 text field (settable) Last Name (required)
+										241 container
+											242 text Email (required)
+										243 email (settable) Email (required)
+										244 container
+											245 Tick box Sign up for news and updates, Value: 0
+											246 text Sign up for news and updates
+										247 container What Services Are You Interested In? Please indicate the types of services with which you're primarily interested
+											248 container
+												249 text What Services Are You Interested In? Please indicate the types of services with which you're primarily interested
+											250 container
+												251 Tick box Furnishings Details and Prices, Value: 0
+												252 text Furnishings Details and Prices
+											253 container
+												254 Tick box Sculptures Details and Prices, Value: 0
+												255 text Sculptures Details and Prices
+											256 container
+												257 Tick box Estimates for Projects and Bespoke Pieces, Value: 0
+												258 text Estimates for Projects and Bespoke Pieces
+											259 container
+												260 Tick box Materials and Surface Effects. Including: Stone, Metal and Resins, Value: 0
+												261 text Materials and Surface Effects. Including: Stone, Metal and Resins
+											262 container
+												263 Tick box Project Management, Sourcing and Creative Consulting, Value: 0
+												264 text Project Management, Sourcing and Creative Consulting
+										265 text What Is Your Estimated Budget For Our Services?
+										266 text Your estimated budget for our services will give us an indication of scale and how we can best provide advice
+										267 text field (settable) What Is Your Estimated Budget For Our Services?
+										268 container
+											269 text Message (required)
+										270 text Please describe the project and service/s required so we can give you the necessary details
+										271 text entry area (settable) Message (required)
+										272 text Date Of Consultation (Optional)
+										273 text If you have a preferred date for a consultation, please enter it here and we will try to accommodate
+										274 container
+											275 date picker Date Of Consultation (Optional)
+												276 container
+													277 stepper (settable, float) Day Date Of Consultation (Optional), Value: 0, Placeholder: dd
+													278 text /
+													279 stepper (settable, float) Month Date Of Consultation (Optional), Value: 0, Placeholder: mm
+													280 text /
+													281 stepper (settable, float) Year Date Of Consultation (Optional), Value: 0, Placeholder: yyyy
+												282 pop-up button Show date picker Date Of Consultation (Optional)
+											283 image
+										284 text Website Or Social (Optional)
+										285 text Providing your website or other social link/s can help us provide better advice
+										286 text field (settable) Website Or Social (Optional)
+										287 text http://
+										288 button Submit
+									289 heading GET IN TOUCH, Value: 2
+										290 text GET IN TOUCH
+									291 text If you're interested in working with us, complete the form with a few details about your project. We'll review your message and get back to you within 48 hours.
+							292 container
+								293 container
+									294 container
+										295 link Privacy Policy, Value: boldstonesculpture.com/privacy-policy
+										296 link Terms of Service, Value: boldstonesculpture.com/terms-of-service
+										297 link Terms and Conditions, Value: boldstonesculpture.com/terms-and-conditions
+										298 link Partnership Terms, Value: boldstonesculpture.com/partnership-terms
+									299 container
+										300 link Copyright and Design Right, Value: boldstonesculpture.com/copyright-and-design-right
+										301 link Shipping Policy , Value: boldstonesculpture.com/shipping-policy
+										302 link Return and Refund Policy, Value: boldstonesculpture.com/return-and-refund-policy
+									303 container
+										304 text Contact Us Directly:
+										305 link info@, Value: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+										306 link boldstonesculpture, Value: mailto:info@boldstonesculpture.com?cc=info%40boldstone.co.uk&subject=Inquiry%3A%20Boldstone%20Sculpture
+										307 link .com, Value: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+										308 link Frequently Asked Questions, Value: boldstonesculpture.com/faqs
+										309 link About Sally Price, Value: boldstonesculpture.com/about
+										310 link Garden Sculpture, Value: boldstonesculpture.com/garden-sculpture
+										311 link Bespoke Commissions, Value: boldstonesculpture.com/commission
+							312 container Manage previously selected cookie options
+								313 button Cookie Preferences
+							314 button MANAGE COOKIES
+								315 container MANAGE COOKIES
+									316 button Close
+									317 heading MANAGE COOKIES, Value: 3
+										318 text MANAGE COOKIES
+									319 heading NECESSARY, Value: 4
+										320 text NECESSARY
+									321 text Always on
+									322 text Required to enable core site functionality and to remember user preferences and choices, such as language preferences or customized settings.
+									323 heading PERFORMANCE AND ANALYTICS, Value: 4
+										324 text PERFORMANCE AND ANALYTICS
+									325 Tick box PERFORMANCE AND ANALYTICS, Value: 0
+									326 text These cookies provide quantitative measures of website visitors. With the usage of these cookies we are able to count visits and traffic sources to improve the performance of our site.
+									327 heading ADVERTISING, Value: 4
+										328 text ADVERTISING
+									329 Tick box ADVERTISING, Value: 0
+									330 text These cookies are used by advertising companies to serve ads that are relevant to your interests.
+									331 button Save Preferences
+			332 pop-up button Tab search
+			333 container
+				334 tab group
+					335 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					336 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					337 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					338 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					339 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					340 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					341 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					342 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					343 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					344 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					345 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					346 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					347 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					348 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					349 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					350 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					351 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					352 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					353 tab (settable, boolean) Meta Business Suite, Value: off
+					354 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					355 tab (settable, boolean) Meta Business Suite, Value: off
+					356 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					357 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					358 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					359 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					360 tab (selected, settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: on
+					361 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 999 MB, Value: off
+					362 tab (settable, boolean) Boldstone · Review room, Value: off
+			363 button New tab
+	364 close button
+	365 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	366 minimise button
+367 menu bar
+	368 Chrome
+	369 File
+	370 Edit
+	371 View
+	372 History
+	373 Bookmarks
+	374 Profiles
+	375 Tab
+	376 Window
+	377 Help
+
+The focused UI element is 316 button Close

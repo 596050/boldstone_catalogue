@@ -1,0 +1,208 @@
+Window: "Review rejections | Microsoft Advertising", App: Google Chrome.
+0 standard window Review rejections | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, Secondary Actions: Raise, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/reviewrejections?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372
+	1 container Review rejections | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/reviewrejections?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/reviewrejections?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Review rejections | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/reviewrejections?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372
+						27 container
+							28 container Skip to main content
+								29 link Skip to main content, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/reviewrejections?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372#main
+							30 container global menu
+								31 button Microsoft Advertising
+								32 button Switch user accounts. Current selection: Boldstone (G1459Y2Q)
+								33 container
+									34 combo box (settable) Search Microsoft Advertising
+									35 button clear
+								36 button Copilot
+								37 button Notifications
+								38 button   Notifications
+								39 pop-up button Help
+								40 button New features
+								41 button Open account panel
+							42 container Banner message
+								43 text You need a primary payment method before your ads will run.
+								44 link Add a payment method now, Value: ads.microsoft.com/cc/PaymentMethods?aid=187335961&cid=255124527&uid=193182372&showTaxForm=False
+							45 tab group
+								46 tab (settable, integer) Campaigns, Value: 0
+								47 tab (settable, integer) Conversions, Value: 0
+								48 tab (settable, integer) Ads Studio, Value: 0
+								49 tab (settable, integer) Import, Value: 0
+								50 tab (settable, integer) Reporting, Value: 0
+								51 tab (selected) Merchant Center, Value: 1
+								52 tab (settable, integer) Billing, Value: 0
+								53 tab (settable, integer) Settings, Value: 0
+								54 tab (settable, integer) Tools, Value: 0
+							55 container breadcrumb
+								56 content list
+									57 button All stores
+									58 button Boldstone Sculpture
+									59 button Diagnostics
+									60 button Policy violation details
+									61 button (disabled) Disallowed Supplements and Health Products
+							62 container
+								63 button Overview
+								64 button Collapse menu
+								65 button Diagnostics
+								66 button Products
+								67 button Feeds
+								68 button Import
+								69 button Promotions
+								70 button Settings
+							71 container
+								72 heading Disallowed Supplements and Health Products, Value: 2
+									73 text Disallowed Supplements and Health Products
+								74 button Request review for all
+								75 text 2 sample offers of 2 rejected offers
+								76 table Data
+									77 row Product title, sortable Resize column (current width: 220px, double-click to reset to 220px) Product ID, sortable Resize column (current width: 140px, double-click to reset to 140px) Policy details Resize column (current width: 200px, double-click to reset to 200px) Affected countries Resize column (current width: 160px, double-click to reset to 160px) Appealable, sortable Resize column (current width: 120px, double-click to reset to 120px) Feed name, sortable Resize column (current width: 160px, double-cli
+										78 column header
+											79 container
+												80 pop-up button Product title, sortable
+												81 button Resize column (current width: 220px, double-click to reset to 220px), Help: Resize column (double-click to reset)
+										82 column header
+											83 container
+												84 pop-up button Product ID, sortable
+												85 button Resize column (current width: 140px, double-click to reset to 140px), Help: Resize column (double-click to reset)
+										86 column header
+											87 container
+												88 text Policy details
+												89 button Resize column (current width: 200px, double-click to reset to 200px), Help: Resize column (double-click to reset)
+										90 column header
+											91 container
+												92 text Affected countries
+												93 button Resize column (current width: 160px, double-click to reset to 160px), Help: Resize column (double-click to reset)
+										94 column header
+											95 container
+												96 pop-up button Appealable, sortable
+												97 button Resize column (current width: 120px, double-click to reset to 120px), Help: Resize column (double-click to reset)
+										98 column header
+											99 container
+												100 pop-up button Feed name, sortable
+												101 button Resize column (current width: 160px, double-click to reset to 160px), Help: Resize column (double-click to reset)
+									102 container
+										103 row Lunar Wave - White online:en:US:76dc58c2-9754-4b21-a7f8-c6c844dc643c Disallowed Supplements and Health Products United States Yes Click to view details page of feed GoogleImport_5664655454_20261107211433
+											104 cell
+												105 text Lunar Wave - White
+											106 cell
+												107 text online:en:US:76dc58c2-9754-4b21-a7f8-c6c844dc643c
+											108 cell
+												109 text Disallowed Supplements and Health Products
+											110 cell
+												111 text United States
+											112 cell
+												113 text Yes
+											114 cell
+												115 button Click to view details page of feed GoogleImport_5664655454_20261107211433
+										116 row Amanita Muscaria Wales Greetings Card online:en:US:abf6c511-7524-4a79-b962-a1e8c4908a83 Disallowed Supplements and Health Products United States Yes Click to view details page of feed GoogleImport_5664655454_20261107211433
+											117 cell
+												118 text Amanita Muscaria Wales Greetings Card
+											119 cell
+												120 text online:en:US:abf6c511-7524-4a79-b962-a1e8c4908a83
+											121 cell
+												122 text Disallowed Supplements and Health Products
+											123 cell
+												124 text United States
+											125 cell
+												126 text Yes
+											127 cell
+												128 button Click to view details page of feed GoogleImport_5664655454_20261107211433
+								129 container Pagination
+									130 container
+										131 text Rows per page:
+										132 pop-up button Rows per page:, Value: 20
+											133 (selected) 20
+										134 text 1 of 1
+										135 button (disabled) previous page
+										136 button (disabled) next page
+								137 text © 2026 Microsoft
+								138 content list
+									139 link Legal, Value: ads.microsoft.com/tc.aspx
+									140 link Privacy & Cookies, Value: go.microsoft.com/fwlink/?LinkId=248681
+									141 link Advertise, Value: go.microsoft.com/fwlink/?LinkId=258668
+									142 link Developers, Value: go.microsoft.com/fwlink/?linkid=2333449
+									143 link Support, Value: go.microsoft.com/fwlink/?LinkId=258669
+									144 link Blog, Value: go.microsoft.com/fwlink/?LinkId=395064
+									145 link Community, Value: go.microsoft.com/fwlink/?linkid=2325500&clcid=0x409
+									146 link Consumer Health Privacy, Value: go.microsoft.com/fwlink/?linkid=2259814
+									147 button Help
+			148 pop-up button Tab search
+			149 container
+				150 tab group
+					151 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					152 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					153 tab (selected, settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: on
+					154 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					155 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					156 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					157 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					158 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					159 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					160 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					161 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					162 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					163 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					164 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					165 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					166 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					167 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					168 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					169 tab (settable, boolean) Meta Business Suite, Value: off
+					170 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					171 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					172 tab group  group ✅Claude – 1 Tab, •  Brands - Manufacturer Center – Expanded
+					173 tab (settable, boolean) Brands - Manufacturer Center – Part of group ✅Claude, Value: off
+					174 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					175 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					176 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					177 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.0 GB, Value: off
+					178 tab (settable, boolean) Boldstone · Review room, Value: off
+					179 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					180 tab (settable, boolean) Overview - Merchant Center, Value: off
+					181 tab (settable, boolean) Pinterest, Value: off
+			182 button New tab
+	183 close button
+	184 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	185 minimise button
+186 menu bar
+	187 Chrome
+	188 File
+	189 Edit
+	190 View
+	191 History
+	192 Bookmarks
+	193 Profiles
+	194 Tab
+	195 Window
+	196 Help
+
+The focused UI element is 26 HTML content Review rejections | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/reviewrejections?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372

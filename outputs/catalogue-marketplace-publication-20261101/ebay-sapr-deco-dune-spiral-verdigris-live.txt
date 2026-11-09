@@ -1,0 +1,378 @@
+- banner:
+  - link:
+    - /url: "#mainContent"
+    - text: Skip to main content
+  - link:
+    - /url: https://www.ebay.co.uk
+- main:
+  - button:
+  - button:
+  - dialog "Your listing is now live":
+    - heading "Your listing is now live" [level=2]
+    - generic: Boldstone Deco Dune Spiral - Verdigris Wall sculpture
+    - generic: ID-840080665892
+    - link "View listing":
+      - /url: http://www.ebay.co.uk/itm/840080665892
+    - text: "|"
+    - link "Create new listing":
+      - /url: http://www.ebay.co.uk/sl/prelist/suggest?sr=shstart
+    - text: "|"
+    - link "Create similar listing":
+      - /url: https://www.ebay.co.uk/lstng?mode=SellSimilarItem&itemId=840080665892
+    - text: "|"
+    - button "Share listing"
+    - button "Feedback"
+    - link "Done":
+      - /url: https://www.ebay.co.uk/sh/lst/drafts?limit=200
+  - heading [level=1]: Complete your listing
+  - heading [level=2]: Photos & Video
+  - button:
+    - generic: See photo options
+  - generic: You can add up to 24 photos and a 1-minute video. Buyers want to see all details and angles.
+  - button: Tips for taking pro photos
+  - paragraph:
+    - text: 3/25
+    - generic: 3 out of 25 photos or videos uploaded
+  - button: Select
+  - button:
+    - generic: Main
+  - button
+  - button
+  - button:
+    - text: Add
+  - button
+  - button
+  - button
+  - button
+  - button
+  - button
+  - button
+  - button
+  - button
+  - button
+  - button
+  - button
+  - heading [level=2]: Title
+  - button:
+    - generic: See title options
+  - generic: Item title
+  - textbox: Boldstone Deco Dune Spiral - Verdigris Wall sculpture
+  - generic: 53/80
+  - generic: 53 of 80 characters
+  - generic: Custom label (SKU)
+  - button:
+  - textbox: BOLD-7DE1AABB8B7A
+  - generic: 17/50
+  - generic: 17 of 50 characters
+  - heading [level=2]: Item category
+  - button:
+    - text: Edit
+  - button: Art Sculptures
+  - generic: in Art
+  - heading [level=2]: Variations
+  - button:
+    - text: Edit
+  - generic: Save time and money by listing multiple variations of your item in one multi-quantity, fixed price listing.
+  - heading [level=2]: Item specifics
+  - heading [level=3]: Essential
+  - button: Material
+  - button:
+    - generic: Gypsum-based material
+  - button: Format
+  - button:
+  - button: Subject
+  - button:
+  - button: Style
+  - button:
+  - button: Artist
+  - button:
+  - button: Size
+  - button:
+  - button: Theme
+  - button:
+  - button: Original/Licensed Reproduction
+  - list:
+    - button: Original
+    - button: Licensed Reproduction
+  - button: Production Technique
+  - button:
+  - button: Features
+  - button:
+  - button: Culture
+  - button:
+  - button: Year of Production
+  - button:
+  - button: Time Period Produced
+  - button:
+  - button: Type
+  - button:
+  - button: Item Height
+  - button:
+  - button: Item Length
+  - button:
+  - button: Item Width
+  - button:
+  - button: Region of Origin
+  - button:
+  - heading [level=3]: Optional
+  - button: Signed
+  - list:
+    - button: "Yes"
+    - button: "No"
+  - button: Signed By
+  - textbox [disabled]
+  - generic: Signed is required before providing Signed By
+  - button: Country of Origin
+  - button:
+  - button: Unit of Sale
+  - button:
+    - generic: Single Piece
+  - button:
+    - generic: Show more
+  - heading [level=2]: Condition
+  - heading [level=3]: Item condition
+  - button: New
+  - heading [level=2]: Description
+  - list:
+    - button: B
+    - button:
+    - button:
+      - generic: Custom template
+    - button: Show all options
+  - iframe [id="se-rte-frame__summary"] [name="se-rte-frame__summary"]:
+    - textbox "Description":
+      - paragraph: Flowing lines and a sculpted rhythm bring together the movement of dunes and an Art Deco sensibility. The relief catches light along its contours, giving a still wall a sense of motion.
+      - paragraph
+      - paragraph: A design for spaces that balance clean lines with natural forms, from a bright interior to a planted courtyard.
+      - paragraph
+      - paragraph: A verdigris-effect finish adds sea-green colour and a weathered visual character.
+      - paragraph
+      - paragraph: "Brand: Boldstone"
+      - paragraph
+      - paragraph: "Product type: Wall sculpture"
+      - paragraph
+      - paragraph: "Model: Deco Dune Spiral - Verdigris (BOLD-7DE1AABB8B7A)"
+      - paragraph
+      - paragraph: "Colour / appearance: Verdigris-effect patina"
+      - paragraph
+      - paragraph: "Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included."
+      - paragraph
+      - paragraph: "Material: Made from a gypsum-based material."
+      - paragraph
+      - paragraph: "Surface effect: A decorative surface effect is applied to create the finish shown."
+      - paragraph
+      - paragraph: "Dimensions: 100 cm high × 22 cm wide × 6 cm deep"
+      - paragraph
+      - paragraph: "Weight: Approximately 10 kg (range 8–12 kg)"
+      - paragraph
+      - paragraph: "Use: Suitable for outdoor use and indoor display."
+      - paragraph
+      - paragraph: "Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall."
+      - paragraph
+      - paragraph: "Availability: Ready to dispatch"
+      - paragraph
+      - paragraph: "Dispatch time: Within 10 working days. Delivery transit time is additional."
+      - paragraph
+      - paragraph: "Delivery: The available delivery service and charge are shown in this eBay listing. Carrier transit time is additional to dispatch time."
+  - button: Use AI description
+  - heading [level=2]: Pricing
+  - button:
+    - generic: See pricing options
+  - generic: Format
+  - button:
+    - generic: Buy It Now
+  - generic: Item price
+  - generic: £
+  - textbox: "100.56"
+  - generic: + £ 4.72 Buyer Protection fee
+  - generic: Buyer will pay
+  - generic: £
+  - textbox: "105.28"
+  - region:
+    - text: UK buyers will pay £105.28, which includes the
+    - button: Buyer Protection fee
+    - text: .
+  - checkbox
+  - generic: Require immediate payment when buyer uses Buy it now
+  - region:
+    - generic: Immediate payment is automatically applied to eligible listings. No action is required
+    - button:
+  - generic: Quantity
+  - textbox: "1"
+  - generic: Allow offers
+  - text: (optional)
+  - generic: Interested buyers can send an offer for this item. You can accept, counter or decline. Buyer offers may include a Buyer Protection fee, paid to eBay.
+  - switch
+  - generic: Schedule your listing
+  - generic: Your listing goes live immediately, unless you select a time and date you want it to start.
+  - switch
+  - heading [level=2]: Delivery details
+  - button:
+    - generic: See postage options
+  - list:
+    - button:
+      - generic: Postage or collection in person
+      - generic: Let buyers choose how they get their items.
+    - button [pressed]:
+      - generic: Postage only
+      - generic: Post items directly to buyers.
+    - button:
+      - generic: No postage. Collection in person only
+      - generic: Arrange collection in person without any postage costs.
+  - heading [level=3]: Package size
+  - button:
+    - generic: Oversized
+    - generic: Above 20 kg or 61 x 46 x 46 cm
+  - heading [level=3]: Domestic postage
+  - text: Simple Delivery is unavailable for this item.
+  - link:
+    - /url: https://www.ebay.co.uk/sellercentre/postage/simple-delivery?targetgroup=C2C
+    - text: Learn more
+    - generic: Not available - opens in a new window or tab
+  - heading [level=4]: Primary service
+  - generic: Parcelforce 48
+  - generic: 1 - 2 working days
+  - generic: 1 to 2 business days
+  - generic: "Compensation included: Yes"
+  - generic: "Tracking included: Yes"
+  - generic: "0 - 30 kg, Max. Length: 150 cm"
+  - generic: "0 to 30 kilogrammes, Max. Length: 150 centimetres"
+  - generic: £
+  - generic: Buyer pays
+  - textbox: "18.45"
+  - button:
+  - checkbox
+  - generic: Offer free postage
+  - generic: Entice buyers by offering free postage for your primary postage service.
+  - button:
+    - text: Add additional services
+  - generic: Rate table
+  - text: (optional)
+  - button:
+    - generic: None
+  - button:
+  - heading [level=3]: Preferences
+  - heading [level=4]: Your settings
+  - generic: 10 working days handling
+  - generic: Item location BA2 7BX (Bath, Somerset, United Kingdom)
+  - generic: Postcode not visible on listing
+  - generic: Domestic returns
+  - generic: Accepted within 30 days
+  - generic: Buyer pays return postage
+  - generic: International returns
+  - generic: Accepted within 30 days
+  - generic: Buyer pays return postage
+  - button:
+  - heading [level=2]: Item disclosures
+  - generic: Add product information to meet regulatory requirements in your buyer's region.
+  - generic: Product documents
+  - text: Upload user guides, certificates, documents and accessibility information that are included with the item.
+  - link:
+    - /url: https://www.ebay.co.uk/help/selling/selling/hazardous-materials-labeling?id=5407
+    - text: Learn more
+    - generic: – opens in a new window or tab
+  - switch
+  - heading [level=2]: PROMOTE YOUR LISTING
+  - paragraph: Competitive category
+  - paragraph: 41% of items in Art Sculptures are promoted right now.
+  - generic: Sponsored
+  - heading [level=4]: General
+  - switch
+  - generic: 90%
+  - text: more visibility, on
+  - text: average.
+  - button:
+  - list:
+    - generic: Basic access to ad placements
+    - generic: Only pay when your item sells
+  - heading [level=4]: Priority
+  - switch
+  - generic: 170%
+  - text: more visibility, on
+  - text: average.
+  - button:
+  - list:
+    - generic: Exclusive access to the top of search
+    - generic: Advanced targeting and bid controls
+    - generic: Priority ranking in ad placements
+    - generic: Only pay for clicks on your ads
+  - button:
+    - text: Help me choose
+  - heading [level=2]: Charity
+  - button:
+    - text: Edit
+  - region:
+    - paragraph:
+      - text: Donate a portion of this sale to the charity of your choice.
+      - link:
+        - /url: http://www.ebay.co.uk/help/donating-ebay-charity/default/buying-selling-ebay-benefit-nonprofit-organizations?id=4668
+        - text: Learn more
+        - generic: Opens in a new window or tab
+  - heading [level=2]: Listing fee
+  - generic: £0.00
+  - text: "No"
+  - link:
+    - /url: http://www.ebay.co.uk/help/selling/fees-credits-invoices/fees-private-sellers?id=4822
+    - text: transaction fees
+  - text: will be applied. You accept that the duration of your listing may vary due to delayed appearance in search.
+  - link:
+    - /url: https://www.ebay.co.uk/help/selling/listings/listings-overview?id=4072
+    - text: Learn more
+  - text: By selecting List it for free, you agree to pay the above fees, accept the
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+    - text: eBay User Agreement
+    - generic: "- opens in new window or tab"
+  - text: ","
+  - link:
+    - /url: https://pages.ebay.co.uk/payment/2.0/terms.html
+    - text: Payments Terms of Use
+    - generic: "- opens in new window or tab"
+  - text: and
+  - link:
+    - /url: https://pages.ebay.co.uk/promote-your-listings/terms/B2C/
+    - text: Marketing Program Terms
+    - generic: "- opens in new window or tab"
+  - text: ", acknowledge reading the"
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+    - text: User Privacy Notice
+    - generic: "- opens in new window or tab"
+  - text: ", agree to offer products and services that comply with all applicable laws, and assume full responsibility for the item offered and the content of your listing."
+  - button: List it for free
+  - button: Save for later
+  - button: Preview
+  - paragraph:
+    - text: "'Buy It Now' listings will renew automatically every month based on the listing terms at that time, until the item sells or the listing is ended."
+    - link:
+      - /url: https://www.ebay.co.uk/help/selling/fees-credits-invoices/selling-fees?id=4822
+      - text: Fees may apply.
+      - generic: "- opens in new window or tab"
+  - paragraph: To improve your chances of selling, we may send you offers from buyers that you can choose to accept or decline.
+  - paragraph:
+    - text: Funds from your sales may be unavailable and show as pending for a period of time.
+    - link:
+      - /url: http://www.ebay.co.uk/help/selling/selling-getting-paid/pending-payments?id=4155
+      - text: Learn more
+      - generic: "- opens in new window or tab"
+- contentinfo:
+  - text: Copyright © 1995-2026 eBay Inc. All Rights Reserved.
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+    - text: User Agreement
+  - text: ","
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+    - text: Privacy
+  - text: ","
+  - link:
+    - /url: https://pages.ebay.co.uk/payment/2.0/terms.html
+    - text: Payments Terms of Use
+  - text: ","
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+    - text: Cookies
+  - text: and
+  - link:
+    - /url: https://www.ebay.co.uk/adchoice
+    - text: AdChoice

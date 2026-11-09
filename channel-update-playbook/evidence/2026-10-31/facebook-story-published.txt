@@ -1,0 +1,162 @@
+- heading "Planner" [active] [level=1]
+- generic: Plan your marketing calendar by creating, scheduling and managing your content.
+- toolbar:
+  - button "Create ad":
+    - generic: Create ad
+  - button "Create post":
+    - generic: Create post
+  - button "Create":
+    - generic: Create
+  - button "Facebook":
+    - img "Facebook"
+- toolbar:
+  - button "Week"
+  - button "Month"
+  - button "Left":
+    - generic: Left
+  - button "Today":
+    - generic: Today
+  - button "Right":
+    - generic: Right
+- heading "Oct - Nov" [level=1]
+- heading "2026" [level=1]
+- 'button "Content type: All"':
+  - generic: "Content type: All"
+- 'button "Shared to: all"':
+  - generic: "Shared to: all"
+- generic: Sun 25
+- generic: Mon 26
+- generic: Tue 27
+- generic: Wed 28
+- generic: Thu 29
+- generic: Fri 30
+- generic: Sat 31
+- link "Boosted Instagram media • Completed":
+  - generic: Boosted Instagram media
+  - text: •
+  - generic: Completed
+  - status: Completed
+- link "Boosted Instagram media • Completed":
+  - generic: Boosted Instagram media
+  - text: •
+  - generic: Completed
+  - status: Completed
+- link "16 More":
+  - generic: 16 More
+- link
+- link:
+  - 'generic "A lamp that looks sculptural even before the light comes on. This flowing table lamp base rises from a broad, rounded foot into a slender neck, finished in a striking verdigris-inspired surface of turquoise, copper and warm earthy accents. The elongated form gives the piece an elegant sense of movement, while the textured finish catches the light differently across every curve. Paired with a simple neutral shade, the base remains the focal point and brings colour, character and a slightly weathered metallic feel to the room. Beautiful switched on. Just as distinctive switched off. Would you style it with warm neutrals, dark woods or more colour? Discover more at boldstonesculpture.com #BoldstoneSculpture #SculpturalLighting #TableLamp #Verdigris #StatementLighting #InteriorDesign #DecorativeLighting #SculpturalInteriors"':
+    - link "20:25 Instagram Facebook":
+      - /url: /latest/insights/object_insights/?content_id=1443638304572869&nav_ref=bizweb_planner_weekly_view
+      - link "20:25 Instagram Facebook":
+        - generic: 20:25
+        - img "Instagram"
+        - img "Facebook"
+  - heading "5 people reacted to your posts" [level=3]
+  - generic: Invite people who reacted to your posts last week to follow your Page.
+  - button "Send invitations":
+    - generic: Send invitations
+- link
+- link
+- link
+- link
+- link:
+  - 'generic "Bring the textures of the natural world to your walls. Explore our wall sculptures: fossil-inspired Ammonites, flowing Dune Ripples, botanical forms and sculpted waves, made to order for gardens and interiors. The updated collection includes photographs, dimensions, finishes and current prices for each sculpture. Browse the designs and choose a piece for your space: https://boldstonesculpture.com/?utm_source=facebook&utm_medium=organic_social&utm_campaign=wall_sculptures&utm_content=featured_shop_intro Suitable for outdoor use and indoor display. Keyhole fixings are usually used; other options, including French cleats, are available. Please contact us to discuss your wall and delivery."':
+    - link "21:41 Facebook":
+      - /url: /latest/insights/object_insights/?content_id=1448888307381202&nav_ref=bizweb_planner_weekly_view
+      - link "21:41 Facebook":
+        - generic: 21:41
+        - img "Facebook"
+  - 'generic "A fragment of a fossil, a moment of stillness. Ammonite Petite II (Right) - White follows the shell’s spiral through soft curves and deep, changing shadows. Display this right-hand panel on its own, or pair it with Ammonite Petite I to reveal the full spiral. Each panel is sold separately. Made to order for indoor or outdoor display. Tap the product tag to explore photographs, dimensions and current pricing. https://boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white?utm_source=meta&utm_medium=organic_social&utm_campaign=wall_sculptures&utm_content=ammonite_petite_ii #BoldstoneSculpture #WallSculpture #Ammonite #GardenSculpture #NatureInspiredArt"':
+    - link "21:46 Instagram Facebook":
+      - /url: /latest/insights/object_insights/?content_id=1448891384047561&nav_ref=bizweb_planner_weekly_view
+      - link "21:46 Instagram Facebook":
+        - generic: 21:46
+        - img "Instagram"
+        - img "Facebook"
+- tablist:
+  - tab "Goals" [selected]:
+    - generic: Goals
+  - tab "Moments":
+    - generic: Moments
+  - tab "Drafts":
+    - generic: Drafts
+- separator
+- heading "Goals" [level=3]
+- generic: Set a goal, track progress and learn helpful tips for your professional success.
+- button "Start new goal":
+  - generic: Start new goal
+- generic: Start sharing content more regularly to connect with your audience.
+- button "Create":
+  - generic: Create
+- button "Open Drop-down":
+  - generic: Open Drop-down
+- button "Meta AI business assistant"
+- button "Meta Business Suite":
+  - generic: Meta Business Suite
+- button "Pressable":
+  - img "Instagram"
+  - img "Facebook"
+- navigation "Links":
+  - generic: Links
+  - list:
+    - link "Home":
+      - /url: https://business.facebook.com/latest/home?business_id=2380586078685156&asset_id=103781478537396
+      - generic: Home
+    - generic: Home
+    - link "Notifications":
+      - generic: Notifications
+    - generic: Notifications
+    - link "Ads Manager":
+      - generic: Ads Manager
+    - generic: Ads Manager
+    - link "Inbox":
+      - /url: https://business.facebook.com/latest/inbox?business_id=2380586078685156&asset_id=103781478537396
+      - generic: Inbox
+    - generic: Inbox
+    - link "Content":
+      - /url: https://business.facebook.com/latest/posts?business_id=2380586078685156&asset_id=103781478537396
+      - generic: Content
+    - generic: Content
+    - link "Creator Marketing":
+      - /url: https://business.facebook.com/creator_marketing_hub/overview/?business_id=2380586078685156&asset_id=103781478537396&nav_ref=mbs_all_tools&ad_account_id=878195225362673&selected_business_ig_user_id=17841407266349160&selected_business_page_id=103781478537396
+      - generic: Creator Marketing
+    - generic: Creator Marketing
+    - link "Planner":
+      - /url: https://business.facebook.com/latest/content_calendar?business_id=2380586078685156&asset_id=103781478537396
+      - generic: Planner
+    - generic: Planner
+    - link "Ads":
+      - /url: https://business.facebook.com/latest/ad_center/ads_summary?business_id=2380586078685156&asset_id=103781478537396
+      - generic: Ads
+    - generic: Ads
+    - link "Insights":
+      - /url: https://business.facebook.com/latest/insights?business_id=2380586078685156&asset_id=103781478537396
+      - generic: Insights
+    - generic: Insights
+    - link "Monetisation":
+      - /url: https://business.facebook.com/latest/monetization?business_id=2380586078685156&asset_id=103781478537396
+      - generic: Monetisation
+    - generic: Monetisation
+    - link "All tools":
+      - generic: All tools
+    - generic: All tools
+    - button "Edit sidebar navigation":
+      - generic: Edit
+- link "Search":
+  - generic: Search
+- generic: Search
+- navigation "Links":
+  - generic: Links
+  - list:
+    - link "Settings":
+      - /url: https://business.facebook.com/latest/settings/business_users?business_id=2380586078685156
+      - generic: Settings
+    - generic: Settings
+- link "Help":
+  - generic: Help
+- generic: Help
+- alert:
+  - heading "Your story has been published." [level=4]
+  - button "Close":
+    - generic: Close

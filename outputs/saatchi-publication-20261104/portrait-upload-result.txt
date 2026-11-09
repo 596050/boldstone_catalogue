@@ -1,0 +1,187 @@
+Window: "Studio | Saatchi Art United Kingdom", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/upload, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/upload
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio/upload, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/upload
+						26 container
+							27 container
+								28 text Fax
+								29 text field (settable) Fax
+							30 link fax, Value: saatchiart.com/facsimile-npc
+							31 link Skip to Main Content, Value: saatchiart.com/en-gb/studio/upload#skip-to-content
+							32 container
+								33 button Close Menu
+								34 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								35 text Studio
+								36 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								37 container
+									38 button Manage Artworks
+									39 content list
+										40 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										41 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									42 button Sales Dashboard
+									43 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									44 button Sponsored Listings
+									45 button Profile Information
+									46 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									47 button Account
+							48 container
+								49 text DRAFT
+								50 link 1 Image, Value: saatchiart.com/en-gb/studio/upload
+								51 link 2 Description, Value: saatchiart.com/en-gb/studio/art/description
+								52 link 3 Price & Details, Value: saatchiart.com/en-gb/studio/art/price-details
+								53 link 4 Prints, Value: saatchiart.com/en-gb/studio/art/prints
+								54 button Back to Artworks
+								55 image
+								56 text Title Patina Panel - Rust and Verdigris Finish
+								57 heading Artwork, Value: 1
+									58 text Artwork
+								59 container
+									60 button Title, Help: Expand
+									61 container
+										62 text field (settable) Value: Patina Panel - Rust and Verdigris Finish, Placeholder: Enter title
+										63 text Enter title
+										64 button Next
+								65 container
+									66 button Images, Help: Collapse
+									67 button ADD PRIMARY IMAGE
+									68 button Next
+								69 button SAVE & EXIT
+								70 link Save & Continue, Value: saatchiart.com/en-gb/studio/art/description
+								71 container
+									72 text This site is protected by reCAPTCHA and the Google 
+									73 link Privacy Policy, Value: policies.google.com/privacy
+									74 text  and 
+									75 link Terms of Service, Value: policies.google.com/terms
+									76 text  apply.
+							77 container
+								78 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								79 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								80 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								81 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								82 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								83 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								84 text Support
+								85 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								86 link Help Center, Value: support.saatchiart.com/hc
+								87 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								88 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								89 pop-up button Request Support
+								90 text Resources
+								91 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								92 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								93 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								94 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								95 text Saatchi Art
+								96 link About, Value: saatchiart.com/en-gb/about-us
+								97 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								98 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								99 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								100 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								101 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								102 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								103 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								104 text Manage Preferences
+								105 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								106 container View Store Preferences Footer
+									107 image
+									108 text United Kingdom / GBP / In
+									109 image
+								110 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								111 link Privacy Policy, Value: policies.google.com/privacy
+								112 text  and 
+								113 link Terms of Service, Value: policies.google.com/terms
+								114 text  apply.
+							115 container
+								116 container
+									117 heading Upload Image, Value: 2
+										118 text Upload Image
+									119 container
+										120 image
+										121 text Drag and drop image here or  BROWSE IMAGE
+									122 container
+										123 text This site is protected by reCAPTCHA and the Google 
+										124 link Privacy Policy, Value: policies.google.com/privacy
+										125 text  and 
+										126 link Terms of Service, Value: policies.google.com/terms
+										127 text  apply.
+									128 text Your image file must be:
+									129 content list
+										130 text JPEG or PNG format
+										131 text At least 1500W x 1200H pixels
+										132 text Less than 50MB
+									133 button Cancel
+									134 button Submit
+									135 text By clicking "Submit", I confirm that I am the copyright owner of this image.
+							136 text Studio | Saatchi Art United Kingdom
+							137 container
+								138 button Manage Preferences
+								139 text Manage Preferences
+			140 pop-up button Tab search
+			141 container
+				142 tab group
+					143 tab group  group Claude – 11 Tabs, •  Become a host for gay travelers, join the mist…, •  Sign up, •  Frequently Asked Questions about Renting Out Y…, •  What is the commission rate? - FAQ Landlords |…, •  Ecobnb - General Terms of Use, + 6 more – Expanded
+					144 tab (settable, boolean) Become a host for gay travelers, join the misterb&b community! – Part of group Claude, Value: off
+					145 tab (settable, boolean) Sign up – Part of group Claude, Value: off
+					146 tab (settable, boolean) Frequently Asked Questions about Renting Out Your Holiday Home | Micazu – Part of group Claude, Value: off
+					147 tab (settable, boolean) What is the commission rate? - FAQ Landlords | HelpSite – Part of group Claude, Value: off
+					148 tab (settable, boolean) Ecobnb - General Terms of Use – Part of group Claude, Value: off
+					149 tab (settable, boolean) How much does it cost to list my rental property on Flatio? - Flatio – Part of group Claude, Value: off
+					150 tab (settable, boolean) Pricing - Vacation rentals management made easy – Part of group Claude, Value: off
+					151 tab (settable, boolean) Dtravel for Hosts - Flexible Pricing to Grow Your Direct Booking Business – Part of group Claude, Value: off
+					152 tab (settable, boolean) Direct Booking Lite: Free Property Management Software – Part of group Claude, Value: off
+					153 tab (settable, boolean) Holiday Cottages & Holiday Homes, Booked Direct | BookNoFees – Part of group Claude, Value: off
+					154 tab (settable, boolean) Your home for hosting - Travelnest – Part of group Claude, Value: off
+					155 tab (settable, boolean) Google Docs, Value: off
+					156 tab (settable, boolean) Manage active listings - eBay Seller Hub, Value: off
+					157 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom, Value: on
+						158 button Close
+					159 tab (settable, boolean) Portela Nova | A slower kind of stay, Value: off
+					160 tab (settable, boolean) Untitled document - Google Docs, Value: off
+			161 button New tab
+	162 close button
+	163 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	164 minimise button
+165 menu bar
+	166 Chrome
+	167 File
+	168 Edit
+	169 View
+	170 History
+	171 Bookmarks
+	172 Profiles
+	173 Tab
+	174 Window
+	175 Help
+
+The focused UI element is 115 container

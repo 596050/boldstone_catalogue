@@ -1,0 +1,114 @@
+Window: "Boldstone Sculpture | Boldstone Wall Sculptures", App: Google Chrome.
+0 standard window Boldstone Sculpture | Boldstone Wall Sculptures - Google Chrome – Tom, URL: brandboom.com/app/a/BCB1A491121, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Boldstone Wall Sculptures - Google Chrome – Tom, URL: brandboom.com/app/a/BCB1A491121
+		2 container
+			3 toolbar
+				4 button (disabled) Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: brandboom.com/app/a/BCB1A491121, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Boldstone Sculpture | Boldstone Wall Sculptures, URL: brandboom.com/app/a/BCB1A491121
+						27 container
+							28 container
+								29 link
+									30 image
+								31 link ORDERS
+									32 text ORDERS
+								33 link FAVORITES
+									34 text FAVORITES
+								35 link MESSAGES
+									36 text MESSAGES
+								37 link
+									38 image
+								39 link
+									40 image
+								41 link
+									42 image
+							43 link
+								44 image
+							45 text Only you can view this preview link.
+							46 container
+								47 link
+									48 image
+								49 content list
+									50 link BOLDSTONE WALL SCULPTURES, Value: brandboom.com/app/a/BCB1A491121#presentation-page
+									51 link ABOUT THE BRAND, Value: brandboom.com/app/a/BCB1A491121#brand-page
+							52 container
+								53 heading introducing Boldstone Sculpture, Value: 3
+									54 text introducing
+									55 text Boldstone Sculpture
+								56 button Follow
+								57 text Handmade wall sculpture and furnishings inspired by nature, from the studio of British sculptor Sally Price near Bath.
+
+Founded in 1998, Boldstone creates contemporary wall sculpture, relief panels, garden sculpture, water features and sculptural furnishings shaped by pattern in nature: botanical forms, fossil spirals and the movement of water, expressed through bold, pared-down forms with a strong emphasis on texture, light and shadow.
+
+Designs are made to order in a range of finishes, from pure white and 
+								58 link https://boldstonesculpture.com, Value: boldstonesculpture.com/
+			59 pop-up button Tab search
+			60 container
+				61 tab group
+					62 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 827 MB, Value: off
+					63 tab group  group ✅Claude – 1 Tab, •  Artworks | Artfinder – Expanded
+					64 tab (settable, boolean) Artworks | Artfinder – Part of group ✅Claude, Value: off
+					65 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					66 tab (settable, boolean) Contact us - Glassette, Value: off
+					67 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					68 tab (settable, boolean) Sell on Artsper, Value: off
+					69 tab (settable, boolean) Find the right wholesale fit, Value: off
+					70 tab (settable, boolean) Become a Supplier | House of Estila, Value: off
+					71 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					72 tab (settable, boolean) Vendeurs_new_form EN, Value: off
+					73 tab (settable, boolean) See how wholesale gets simpler, Value: off
+					74 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					75 tab (settable, boolean) Apply to sell with us - High memory usage - 930 MB, Value: off
+					76 tab group  group ✅Claude – 1 Tab, •  Inbox (97) - info@boldstone.co.uk - Thomas Pri… – Expanded
+					77 tab (settable, boolean) Value: off, Inbox (97) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1,022 MB
+					78 tab (settable, boolean) Value: off, Russell Brand trial live: Police release video of actor being interviewed after he is found guilty of one rape and three sexual assaults | Daily Mail Online
+					79 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 964 MB, Value: off
+					80 tab (settable, boolean) Overview of Marketplaces | Brandboom Help Center, Value: off
+					81 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					82 tab (selected, settable, boolean) Boldstone Sculpture | Boldstone Wall Sculptures, Value: on
+						83 button Close
+			84 button New tab
+	85 close button
+	86 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	87 minimise button
+88 menu bar
+	89 Chrome
+	90 File
+	91 Edit
+	92 View
+	93 History
+	94 Bookmarks
+	95 Profiles
+	96 Tab
+	97 Window
+	98 Help
+
+The focused UI element is 51 link ABOUT THE BRAND, Value: brandboom.com/app/a/BCB1A491121#brand-page

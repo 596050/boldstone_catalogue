@@ -1,0 +1,328 @@
+Window: "Pinterest", App: Google Chrome.
+0 standard window Pinterest - Google Chrome – Tom, URL: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523, Secondary Actions: Raise
+	1 container Pinterest - Google Chrome – Tom, URL: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523, Placeholder: Ask Google or type a URL
+					10 button Install Pinterest
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Pinterest, URL: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523
+						28 container New data source form
+							29 container
+								30 container
+									31 heading Provide a URL link, Value: 1
+										32 text Provide a URL link
+									33 button Close Provide a URL link sheet
+									34 text Provide a URL link that can be used to access your data source file. Pinterest will ingest your data source daily and alert you if there are any errors. Make sure your file is formatted correctly and uses fields and values that Pinterest supports. Data source files that contain video links may take up to a week to be processed. 
+									35 link Learn more, Value: help.pinterest.com/business/article/before-you-get-started-with-catalogs#section-9441
+								36 container
+									37 pop-up button Use template
+										38 text Use template
+									39 text Name
+									40 text field (settable) Name, Value: Boldstone Wall Sculptures - website retail, Placeholder: Name your data source
+									41 text The unique name to identify your data source
+									42 text URL or Google Sheets
+									43 text field (settable) URL or Google Sheets, Value: https://docs.google.com/spreadsheets/d/1PVhR1H-GFaojV_G7Khh0Vt3IwFL1RBHyLLzvXGIT-BQ/edit, Placeholder: Link to a .csv, .tsv, .xml file or Google Sheets
+									44 text File format
+									45 pop-up button (disabled) File format
+									46 text No file format selection required for Google Sheets
+									47 text Country/Region
+									48 pop-up button Country/Region, Value: United Kingdom
+										49 (selected) United Kingdom
+									50 text The country or region where your items are sold. This field can't be edited once the feed profile has been created.
+									51 text Language
+									52 pop-up button Language, Value: English (UK)
+										53 (selected) English (UK)
+									54 text The language of the content in your data source. This field can't be edited once the feed profile has been created.
+									55 text Feed login details (optional)
+									56 text field (settable) Feed login details (optional), Placeholder: Username
+									57 text Enter the username and password for password-protected URLs
+									58 text Feed login details (optional)
+									59 secure text field (settable) Feed login details (optional), Placeholder: Password
+									60 container Show password
+										61 switch Show password, Value: off
+									62 text Enter the username and password for password-protected URLs
+									63 text Default currency
+									64 pop-up button Default currency, Value: GBP - Great Britain Pound
+										65 (selected) GBP - Great Britain Pound
+									66 text Product currency in your data source without a value will default to this currency
+									67 text Default availability
+									68 pop-up button Default availability, Value: None
+										69 (selected) None
+									70 text Product availability in your data source without a value will default to this availability
+									71 text Ingestion schedule Choose how often you'd like Pinterest to update your feed
+									72 text Scheduled ingestions
+									73 Tick box Scheduled ingestions, Value: 1
+									74 text Use this option if you want to update this feed automatically at your specified times
+									75 text Schedule
+									76 pop-up button Schedule, Value: Every 24 hours
+										77 (selected) Every 24 hours
+									78 text Start time (optional)
+									79 pop-up button Start time (optional), Value: 07:00
+										80 menu Secondary Actions: Cancel
+											81 --:--
+											82 00:00
+											83 00:15
+											84 00:30
+											85 00:45
+											86 01:00
+											87 01:15
+											88 01:30
+											89 01:45
+											90 02:00
+											91 02:15
+											92 02:30
+											93 02:45
+											94 03:00
+											95 03:15
+											96 03:30
+											97 03:45
+											98 04:00
+											99 04:15
+											100 04:30
+											101 04:45
+											102 05:00
+											103 05:15
+											104 05:30
+											105 05:45
+											106 06:00
+											107 06:15
+											108 06:30
+											109 06:45
+											110 (selected) 07:00
+											111 07:15
+											112 07:30
+											113 07:45
+											114 08:00
+											115 08:15
+											116 08:30
+											117 08:45
+											118 09:00
+											119 09:15
+											120 09:30
+											121 09:45
+											122 10:00
+											123 10:15
+											124 10:30
+											125 10:45
+											126 11:00
+											127 11:15
+											128 11:30
+											129 11:45
+											130 12:00
+											131 12:15
+											132 12:30
+											133 12:45
+											134 13:00
+											135 13:15
+											136 13:30
+											137 13:45
+											138 14:00
+											139 14:15
+											140 14:30
+											141 14:45
+											142 15:00
+											143 15:15
+											144 15:30
+											145 15:45
+											146 16:00
+											147 16:15
+											148 16:30
+											149 16:45
+											150 17:00
+											151 17:15
+											152 17:30
+											153 17:45
+											154 18:00
+											155 18:15
+											156 18:30
+											157 18:45
+											158 19:00
+											159 19:15
+											160 19:30
+											161 19:45
+											162 20:00
+											163 20:15
+											164 20:30
+											165 20:45
+											166 21:00
+											167 21:15
+											168 21:30
+											169 21:45
+											170 22:00
+											171 22:15
+											172 22:30
+											173 22:45
+											174 23:00
+											175 23:15
+											176 23:30
+											177 23:45
+									178 text Time zone (optional)
+									179 pop-up button Time zone (optional), Value: GMT+00:00 Europe/London
+										180 (selected) GMT+00:00 Europe/London
+								181 container
+									182 button Cancel
+									183 link Test your data source, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/feed-debugger
+									184 button Upload
+					185 menu Secondary Actions: Cancel
+						186 --:--, ID: menuItemSelected:
+						187 00:00, ID: menuItemSelected:
+						188 00:15, ID: menuItemSelected:
+						189 00:30, ID: menuItemSelected:
+						190 00:45, ID: menuItemSelected:
+						191 01:00, ID: menuItemSelected:
+						192 01:15, ID: menuItemSelected:
+						193 01:30, ID: menuItemSelected:
+						194 01:45, ID: menuItemSelected:
+						195 02:00, ID: menuItemSelected:
+						196 02:15, ID: menuItemSelected:
+						197 02:30, ID: menuItemSelected:
+						198 02:45, ID: menuItemSelected:
+						199 03:00, ID: menuItemSelected:
+						200 03:15, ID: menuItemSelected:
+						201 03:30, ID: menuItemSelected:
+						202 03:45, ID: menuItemSelected:
+						203 04:00, ID: menuItemSelected:
+						204 04:15, ID: menuItemSelected:
+						205 04:30, ID: menuItemSelected:
+						206 04:45, ID: menuItemSelected:
+						207 05:00, ID: menuItemSelected:
+						208 05:15, ID: menuItemSelected:
+						209 05:30, ID: menuItemSelected:
+						210 05:45, ID: menuItemSelected:
+						211 06:00, ID: menuItemSelected:
+						212 06:15, ID: menuItemSelected:
+						213 06:30, ID: menuItemSelected:
+						214 06:45, ID: menuItemSelected:
+						215 07:00, ID: menuItemSelected:
+						216 07:15, ID: menuItemSelected:
+						217 07:30, ID: menuItemSelected:
+						218 07:45, ID: menuItemSelected:
+						219 08:00, ID: menuItemSelected:
+						220 08:15, ID: menuItemSelected:
+						221 08:30, ID: menuItemSelected:
+						222 08:45, ID: menuItemSelected:
+						223 09:00, ID: menuItemSelected:
+						224 09:15, ID: menuItemSelected:
+						225 09:30, ID: menuItemSelected:
+						226 09:45, ID: menuItemSelected:
+						227 10:00, ID: menuItemSelected:
+						228 10:15, ID: menuItemSelected:
+						229 10:30, ID: menuItemSelected:
+						230 10:45, ID: menuItemSelected:
+						231 11:00, ID: menuItemSelected:
+						232 11:15, ID: menuItemSelected:
+						233 11:30, ID: menuItemSelected:
+						234 11:45, ID: menuItemSelected:
+						235 12:00, ID: menuItemSelected:
+						236 12:15, ID: menuItemSelected:
+						237 12:30, ID: menuItemSelected:
+						238 12:45, ID: menuItemSelected:
+						239 13:00, ID: menuItemSelected:
+						240 13:15, ID: menuItemSelected:
+						241 13:30, ID: menuItemSelected:
+						242 13:45, ID: menuItemSelected:
+						243 14:00, ID: menuItemSelected:
+						244 14:15, ID: menuItemSelected:
+						245 14:30, ID: menuItemSelected:
+						246 14:45, ID: menuItemSelected:
+						247 15:00, ID: menuItemSelected:
+						248 15:15, ID: menuItemSelected:
+						249 15:30, ID: menuItemSelected:
+						250 15:45, ID: menuItemSelected:
+						251 16:00, ID: menuItemSelected:
+						252 16:15, ID: menuItemSelected:
+						253 16:30, ID: menuItemSelected:
+						254 16:45, ID: menuItemSelected:
+						255 17:00, ID: menuItemSelected:
+						256 17:15, ID: menuItemSelected:
+						257 17:30, ID: menuItemSelected:
+						258 17:45, ID: menuItemSelected:
+						259 18:00, ID: menuItemSelected:
+						260 18:15, ID: menuItemSelected:
+						261 18:30, ID: menuItemSelected:
+						262 18:45, ID: menuItemSelected:
+						263 19:00, ID: menuItemSelected:
+						264 19:15, ID: menuItemSelected:
+						265 19:30, ID: menuItemSelected:
+						266 19:45, ID: menuItemSelected:
+						267 20:00, ID: menuItemSelected:
+						268 20:15, ID: menuItemSelected:
+						269 20:30, ID: menuItemSelected:
+						270 20:45, ID: menuItemSelected:
+						271 21:00, ID: menuItemSelected:
+						272 21:15, ID: menuItemSelected:
+						273 21:30, ID: menuItemSelected:
+						274 21:45, ID: menuItemSelected:
+						275 22:00, ID: menuItemSelected:
+						276 22:15, ID: menuItemSelected:
+						277 22:30, ID: menuItemSelected:
+						278 22:45, ID: menuItemSelected:
+						279 23:00, ID: menuItemSelected:
+						280 23:15, ID: menuItemSelected:
+						281 23:30, ID: menuItemSelected:
+						282 23:45, ID: menuItemSelected:
+			283 pop-up button Tab search
+			284 container
+				285 tab group
+					286 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					287 tab group  group ✅Claude – 1 Tab, •  Import | Microsoft Advertising – Expanded
+					288 tab (settable, boolean) Import | Microsoft Advertising – Part of group ✅Claude, Value: off
+					289 tab (settable, boolean) Variants - Manufacturer Center, Value: off
+					290 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					291 tab (settable, boolean) Boldstone Sculpture | Boldstone Wall Sculptures, Value: off
+					292 tab (settable, boolean) Portela Nova | A slower kind of stay, Value: off
+					293 tab (selected, settable, boolean) Pinterest, Value: on
+						294 button Close
+					295 tab (settable, boolean) Get started with retail catalogs | Pinterest Business help, Value: off
+					296 tab (settable, boolean) [TEMPLATE - COPY] Pinterest Catalog Data source Google Sheet Template - Google Sheets, Value: off
+					297 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					298 tab (settable, boolean) All products - Merchant Center, Value: off
+					299 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					300 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					301 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+			302 button New tab
+	303 close button
+	304 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	305 minimise button
+306 menu bar
+	307 Chrome
+	308 File
+	309 Edit
+	310 View
+	311 History
+	312 Bookmarks
+	313 Profiles
+	314 Tab
+	315 Window
+	316 Help
+
+The focused UI element is 110 (selected) 07:00

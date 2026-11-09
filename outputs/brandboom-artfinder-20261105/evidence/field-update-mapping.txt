@@ -1,0 +1,133 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window URL: manage.brandboom.com/products/s/111089/import, Secondary Actions: Raise, Find in page
+    Boldstone Sculpture | Products
+	1 container URL: manage.brandboom.com/products/s/111089/import, Find in page
+    Boldstone Sculpture | Products
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089/import, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089/import
+						27 container
+							28 link
+								29 image
+							30 text 2 / 3
+							31 heading Check Your Mappings, Value: 4
+								32 text Check Your Mappings
+							33 heading Review your fields to make sure they are mapped correctly, Value: 5
+								34 text Review your fields to make sure they are mapped correctly
+							35 heading YOUR FIELDS, Value: 5
+								36 text YOUR FIELDS
+							37 heading PREVIEW INFO, Value: 5
+								38 text PREVIEW INFO
+							39 heading BRANDBOOM FIELDS, Value: 5
+								40 text BRANDBOOM FIELDS
+							41 text field (disabled) SKU Number
+							42 container
+								43 text SQ0717348 →
+							44 pop-up button SKU NUMBER
+								45 (selected) SKU NUMBER
+							46 text field (disabled) Style ID
+							47 container
+								48 text SQ0717348 →
+							49 pop-up button STYLE ID
+								50 (selected) STYLE ID
+							51 text field (disabled) Option Code
+							52 container
+								53 text STANDARD →
+							54 pop-up button OPTION CODE
+								55 (selected) OPTION CODE
+							56 text field (disabled) Size
+							57 container
+								58 text One sculpture →
+							59 pop-up button SIZE
+								60 (selected) SIZE
+							61 container
+								62 Tick box Add new size options, Value: 0
+								63 text Add new size options
+							64 text field (disabled) Season
+							65 container
+								66 text Year-round →
+							67 pop-up button SEASON
+								68 (selected) SEASON
+							69 text field (disabled) Vendor
+							70 container
+								71 text Boldstone →
+							72 pop-up button VENDOR
+								73 (selected) VENDOR
+							74 link  back
+								75 image
+								76 text  back
+							77 Tick box Save mapping, Value: 0
+							78 text Save mapping
+							79 text field (settable) Value: Copy of Default Brandboom Template, Placeholder: Template name
+							80 button Next
+			81 pop-up button Tab search
+			82 container
+				83 tab group
+					84 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 827 MB, Value: off
+					85 tab group  group ✅Claude – 1 Tab, •  Artworks | Artfinder – Expanded
+					86 tab (settable, boolean) Artworks | Artfinder – Part of group ✅Claude, Value: off
+					87 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					88 tab (settable, boolean) Contact us - Glassette, Value: off
+					89 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					90 tab (settable, boolean) Sell on Artsper, Value: off
+					91 tab (settable, boolean) See how virtual showrooms sell, Value: off
+					92 tab (settable, boolean) Become a Supplier | House of Estila, Value: off
+					93 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					94 tab (settable, boolean) Vendeurs_new_form EN, Value: off
+					95 tab (settable, boolean) A showroom buyers can shop 24/7, Value: off
+					96 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					97 tab (settable, boolean) Apply to sell with us - High memory usage - 930 MB, Value: off
+					98 tab group  group ✅Claude – 1 Tab, •  Inbox (97) - info@boldstone.co.uk - Thomas Pri… – Expanded
+					99 tab (settable, boolean) Value: off, Inbox (97) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1,022 MB
+					100 tab (settable, boolean) Value: off, Russell Brand trial live: Police release video of actor being interviewed after he is found guilty of one rape and three sexual assaults | Daily Mail Online
+					101 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 964 MB, Value: off
+					102 tab (settable, boolean) Overview of Marketplaces | Brandboom Help Center, Value: off
+					103 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						104 button Close
+			105 button New tab
+	106 close button
+	107 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	108 minimise button
+109 menu bar
+	110 Chrome
+	111 File
+	112 Edit
+	113 View
+	114 History
+	115 Bookmarks
+	116 Profiles
+	117 Tab
+	118 Window
+	119 Help
+
+The focused UI element is 26 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089/import

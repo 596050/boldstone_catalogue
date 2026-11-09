@@ -1,0 +1,147 @@
+- link "Business Home":
+  - /url: https://business.facebook.com/home/?business_id=2380586078685156
+  - img "Meta logo"
+- generic: Commerce Manager
+- combobox "Products for Boldstone Sculpture (103781478537396)":
+  - generic: Products for Boldstone Sculpture (103781478537396)
+- navigation "Navigation":
+  - list:
+    - link "Overview":
+      - /url: https://business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+    - generic: Overview
+    - button "Catalogue" [expanded]
+    - generic: Catalogue
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Products":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/products/?business_id=2380586078685156
+      - generic: Products
+      - link "Sets":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/sets/?business_id=2380586078685156
+      - generic: Sets
+      - link "Data sources":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/data_sources/?business_id=2380586078685156
+      - generic: Data sources
+      - link "Events":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/events/?business_id=2380586078685156
+      - generic: Events
+    - link "Image templates":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/templates/?business_id=2380586078685156
+    - generic: Image templates
+    - link "Product video creator":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/video_template_hub/?business_id=2380586078685156
+    - generic: Product video creator
+    - link "Shops":
+      - /url: https://business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+    - generic: Shops
+    - button "Promotions"
+    - generic: Promotions
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Offers":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/offers/?business_id=2380586078685156
+      - generic: Offers
+      - link "Marketing settings":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/mailing_list/?business_id=2380586078685156
+      - generic: Marketing settings
+    - button "Insights"
+    - generic: Insights
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Overview":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/overview/?business_id=2380586078685156
+      - generic: Overview
+      - link "Catalogue":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/products/?business_id=2380586078685156
+      - generic: Catalogue
+      - link "Performance":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/perf/?business_id=2380586078685156
+      - generic: Performance
+      - link "Audience":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/audience/?business_id=2380586078685156
+      - generic: Audience
+      - link "Tagged content":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/product_tagged_content/?business_id=2380586078685156
+      - generic: Tagged content
+      - link "Awareness":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/entry_points/?business_id=2380586078685156
+      - generic: Awareness
+    - link "To-do list":
+      - /url: https://business.facebook.com/commerce/326960679342026/to_do_list/?business_id=2380586078685156
+    - generic: To-do list
+    - link "Settings":
+      - /url: https://business.facebook.com/commerce/326960679342026/settings/general/?business_id=2380586078685156
+    - generic: Settings
+- navigation "all tools":
+  - list:
+    - button "All tools":
+    - generic: All tools
+- separator
+- list:
+  - button "Meta AI business assistant"
+  - generic: Meta AI business assistant
+- button "Help":
+  - generic: Help
+- link "Business settings":
+  - /url: https://business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+  - generic: Business settings
+- button "Business notifications":
+  - generic: Business notifications
+- button:
+  - generic: "6"
+- button "Search":
+  - generic: Search
+- button "Collapse":
+  - generic: Collapse
+- heading "Products" [active] [level=1]
+- text: View and manage products in your catalogue. Quickly find specific products using search or filters.
+- link "Learn how to view products in your catalogue":
+  - /url: https://www.facebook.com/business/help/1406482412767183
+- toolbar:
+  - button "Create campaign" [disabled]:
+    - generic: Create campaign
+  - button "Add":
+    - generic: Add
+- tablist:
+  - tab "All products" [selected]:
+    - generic: All products
+  - tab "Actions":
+    - generic: Actions
+    - generic: "1"
+    - status: Number of actions
+- generic: Describe what you're looking for
+- textbox "Describe what you're looking for"
+- button "Edit" [disabled]:
+  - generic: Edit
+- button "Open Drop-down" [disabled]:
+  - generic: Open Drop-down
+- button "Create set" [disabled]:
+  - generic: Create set
+- button "Add filter":
+  - generic: Add filter
+- button "Status is Hidden in Shops":
+  - generic: Status is Hidden in Shops
+- button "Remove filter"
+- button "Custom label 0 is any of these wall sculptures":
+  - generic: Custom label 0 is any of these wall sculptures
+- button "Remove filter"
+- button "Clear filters":
+  - generic: Clear filters
+- generic: Columns
+- combobox "Columns":
+  - generic: Columns
+- button "Analyse":
+  - generic: Analyse
+- heading "No products found" [level=3]
+- generic: 0 products match your search or filters
+- generic: Page 1 of 0
+- generic: Rows per page
+- combobox "Rows per page 15":
+  - generic: "15"
+- button "Previous" [disabled]:
+  - generic: Previous
+- button "Next" [disabled]:
+  - generic: Next

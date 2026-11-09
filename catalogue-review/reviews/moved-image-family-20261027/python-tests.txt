@@ -1,0 +1,42 @@
+...........127.0.0.1 - - [27/Oct/2026 22:23:50] "POST /api/deletions/execute-batch HTTP/1.1" 403 -
+127.0.0.1 - - [27/Oct/2026 22:23:50] "POST /api/deletions/execute-batch HTTP/1.1" 202 -
+127.0.0.1 - - [27/Oct/2026 22:23:50] "POST /api/deletions/execute-batch HTTP/1.1" 202 -
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 403: 'Forbidden'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+....................................................../opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:555: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108b3e180>
+  def lru_cache(maxsize=128, typed=False):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:555: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108b3e7a0>
+  def lru_cache(maxsize=128, typed=False):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:555: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108b3da80>
+  def lru_cache(maxsize=128, typed=False):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:555: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108b3e0a0>
+  def lru_cache(maxsize=128, typed=False):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:555: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108b3f4c0>
+  def lru_cache(maxsize=128, typed=False):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:555: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108b3eb20>
+  def lru_cache(maxsize=128, typed=False):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:555: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108b3eea0>
+  def lru_cache(maxsize=128, typed=False):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:555: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108b3ec00>
+  def lru_cache(maxsize=128, typed=False):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:555: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108b3f680>
+  def lru_cache(maxsize=128, typed=False):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:555: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108b3edc0>
+  def lru_cache(maxsize=128, typed=False):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+................................................................................................................................................................................................................All filename work verified. App native jobs released.
+...All filename work verified. App native jobs released.
+........................................................
+----------------------------------------------------------------------
+Ran 332 tests in 6.618s
+
+OK

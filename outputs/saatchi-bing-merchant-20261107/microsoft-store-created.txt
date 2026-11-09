@@ -1,0 +1,177 @@
+Window: "Overview | Microsoft Advertising", App: Google Chrome.
+0 standard window Overview | Microsoft Advertising - Google Chrome – Tom, Secondary Actions: Raise, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/overview?uid=193182372&cid=255124527&aid=187335961&storeId=50112622
+	1 container Overview | Microsoft Advertising - Google Chrome – Tom, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/overview?uid=193182372&cid=255124527&aid=187335961&storeId=50112622
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/overview?uid=193182372&cid=255124527&aid=187335961&storeId=50112622
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Overview | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/overview?uid=193182372&cid=255124527&aid=187335961&storeId=50112622
+						26 container
+							27 container Skip to main content
+								28 link Skip to main content, Value: ui.ads.microsoft.com/campaign/vnext/createcampaign/objective?aid=187335961&cid=255124527&uid=193182372#main
+							29 container global menu
+								30 button Microsoft Advertising
+								31 button Switch user accounts. Current selection: Boldstone (G1459Y2Q)
+								32 container
+									33 combo box (settable) Search Microsoft Advertising
+									34 button clear
+								35 button Copilot
+								36 button Notifications
+								37 button   Notifications
+								38 pop-up button Help
+								39 button New features
+								40 button Open account panel
+							41 container Banner message
+								42 text You need a primary payment method before your ads will run.
+								43 link Add a payment method now, Value: ads.microsoft.com/cc/PaymentMethods?aid=187335961&cid=255124527&uid=193182372&showTaxForm=False
+							44 tab group
+								45 tab (settable, integer) Campaigns, Value: 0
+								46 tab (settable, integer) Conversions, Value: 0
+								47 tab (settable, integer) Ads Studio, Value: 0
+								48 tab (settable, integer) Import, Value: 0
+								49 tab (settable, integer) Reporting, Value: 0
+								50 tab (selected) Merchant Center, Value: 1
+								51 tab (settable, integer) Billing, Value: 0
+								52 tab (settable, integer) Settings, Value: 0
+								53 tab (settable, integer) Tools, Value: 0
+							54 container breadcrumb
+								55 content list
+									56 button All stores
+									57 button (disabled) Boldstone Sculpture
+							58 container
+								59 button Overview
+								60 button Collapse menu
+								61 button Diagnostics
+								62 button Products
+								63 button Feeds
+								64 button Import
+								65 button Promotions
+								66 button Settings
+							67 container
+								68 heading Overview, Value: 1
+									69 text Overview
+								70 container
+									71 heading Understand your store health, Value: 2
+										72 text Understand your store health
+									73 heading Trends, Value: 2
+										74 text Trends
+									75 container
+										76 text Total unique products 0
+									77 container
+										78 toggle button Show or hide Active in the chart, Value: 1
+										79 text Active
+										80 button Click to learn more about Active
+										81 text 0
+									82 container
+										83 toggle button Show or hide Pending in the chart, Value: 1
+										84 text Pending
+										85 button Click to learn more about Pending
+										86 text 0
+									87 container
+										88 toggle button Show or hide Expiring in the chart, Value: 1
+										89 text Expiring
+										90 button Click to learn more about Expiring
+										91 text 0
+									92 container
+										93 toggle button Show or hide Rejected in the chart, Value: 1
+										94 text Rejected
+										95 button Click to learn more about Rejected
+										96 text 0
+									97 container Area chart with 4 data series. 
+										98 text Date
+										99 container Rejected, series 1 of 4 with 360 data points.
+										100 container Expiring, series 2 of 4 with 360 data points.
+										101 container Pending, series 3 of 4 with 360 data points.
+										102 container Active, series 4 of 4 with 360 data points.
+										103 text Number of products
+									104 text Last feed updated:  7 November 2026 at 17:40:28 GMT
+									105 heading Product performance, Value: 2
+										106 text Product performance
+									107 container
+										108 heading Clicks, Value: 3
+											109 text Clicks
+										110 toggle button Product ads: 0, Value: 1
+										111 toggle button Product listings: 0, Value: 1
+										112 container Product performance
+											113 container Product listings, line 2 of 2 with 360 data points.
+											114 container Product ads, line 1 of 2 with 360 data points.
+										115 heading Impressions, Value: 3
+											116 text Impressions
+										117 toggle button Product ads: 0, Value: 1
+										118 toggle button Product listings: 0, Value: 1
+										119 container Product performance
+											120 container Product listings, line 2 of 2 with 360 data points.
+											121 container Product ads, line 1 of 2 with 360 data points.
+									122 heading What's next, Value: 2
+										123 text What's next
+									124 text Fix store, product, and feed issues Identify and resolve Merchant Center errors to get your products approved and serving.
+									125 button Review diagnostics
+									126 text Optimize your product listings Follow best practices to improve data quality, boost visibility, and drive better results.
+									127 button View improvement items
+									128 text Get help from support Contact Microsoft Advertising support for help with your account or product issues.
+									129 button Contact Support
+									130 text © 2026 Microsoft
+									131 content list
+										132 link Legal, Value: ads.microsoft.com/tc.aspx
+										133 link Privacy & Cookies, Value: go.microsoft.com/fwlink/?LinkId=248681
+										134 link Advertise, Value: go.microsoft.com/fwlink/?LinkId=258668
+										135 link Developers, Value: go.microsoft.com/fwlink/?linkid=2333449
+										136 link Support, Value: go.microsoft.com/fwlink/?LinkId=258669
+										137 link Blog, Value: go.microsoft.com/fwlink/?LinkId=395064
+										138 link Community, Value: go.microsoft.com/fwlink/?linkid=2325500&clcid=0x409
+										139 link Consumer Health Privacy, Value: go.microsoft.com/fwlink/?linkid=2259814
+										140 button Help
+							141 container
+								142 text  Store Boldstone Sculpture created. Your store is now being processed for approval. This can take up to 3 business days.
+								143 button Dismiss the message
+			144 pop-up button Tab search
+			145 container
+				146 tab group
+					147 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+						148 button Close
+					149 tab (selected, settable, boolean) Overview | Microsoft Advertising, Value: on
+						150 button Close
+			151 button New tab
+	152 close button
+	153 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	154 minimise button
+155 menu bar
+	156 Chrome
+	157 File
+	158 Edit
+	159 View
+	160 History
+	161 Bookmarks
+	162 Profiles
+	163 Tab
+	164 Window
+	165 Help
+
+The focused UI element is 143 button Dismiss the message

@@ -1,0 +1,117 @@
+Window: "Complete your listing | Boldston…ef - White Wall sculpture | eBay", App: Google Chrome.
+0 standard window Secondary Actions: Raise, Complete your listing | Boldstone Islington Shellmoon Relief - White Wall sculpture | eBay – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: ebay.co.uk/lstng?draftId=5456511583611&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+	1 container Complete your listing | Boldstone Islington Shellmoon Relief - White Wall sculpture | eBay – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: ebay.co.uk/lstng?draftId=5456511583611&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ebay.co.uk/lstng?draftId=5456511583611&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+					10 button Zoom: 80%
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Complete your listing | Boldstone Islington Shellmoon Relief - White Wall sculpture | eBay, URL: ebay.co.uk/lstng?draftId=5456511583611&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+						27 container Package size Ensure the package is not heavier or larger than your size selection to avoid additional costs deducted from your account.
+							28 container
+								29 heading Value: 2, Package size Ensure the package is not heavier or larger than your size selection to avoid additional costs deducted from your account.
+									30 text Package size
+									31 text Ensure the package is not heavier or larger than your size selection to avoid additional costs deducted from your account.
+								32 button Close
+							33 accordion
+								34 container
+									35 AXListMarker • 
+									36 disclosure triangle Large letter Up to 35 x 25 x 2.5 cm
+										37 heading Large letter Up to 35 x 25 x 2.5 cm, Value: 4
+											38 text Large letter
+											39 container
+												40 text Up to 35 x 25 x 2.5 cm
+								41 container
+									42 AXListMarker • 
+									43 disclosure triangle Small parcel Up to 45 x 35 x 16 cm
+										44 heading Small parcel Up to 45 x 35 x 16 cm, Value: 4
+											45 text Small parcel
+											46 container
+												47 text Up to 45 x 35 x 16 cm
+									48 radio button Up to 1 kg Fits items like a tablet or sandals, Value: 0
+									49 container
+										50 text Up to 1 kg Fits items like a tablet or sandals
+									51 radio button Up to 2 kg Fits items like a hand mixer or hiking boots, Value: 1
+									52 container
+										53 text Up to 2 kg Fits items like a hand mixer or hiking boots
+								54 container
+									55 AXListMarker • 
+									56 disclosure triangle Medium parcel Up to 61 x 46 x 46 cm
+										57 heading Medium parcel Up to 61 x 46 x 46 cm, Value: 4
+											58 text Medium parcel
+											59 container
+												60 text Up to 61 x 46 x 46 cm
+									61 radio button Up to 1 kg Fits items like a cushion or picture frame, Value: 0
+									62 container
+										63 text Up to 1 kg Fits items like a cushion or picture frame
+									64 radio button Up to 2 kg Fits items like a laptop or wall clock, Value: 0
+									65 text RECOMMENDED
+									66 container
+										67 text Up to 2 kg Fits items like a laptop or wall clock
+									68 radio button Up to 10 kg Fits items like a car stereo or food processor, Value: 0
+									69 container
+										70 text Up to 10 kg Fits items like a car stereo or food processor
+									71 radio button Up to 20 kg Fits items like a dumbbell set or compact vacuum, Value: 0
+									72 container
+										73 text Up to 20 kg Fits items like a dumbbell set or compact vacuum
+							74 button Done
+			75 pop-up button Tab search
+			76 container
+				77 tab group
+					78 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					79 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					80 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					81 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					82 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					83 tab (settable, boolean) Meta Business Suite, Value: off
+					84 tab group  group 📦 Marketplace completion – 2 Tabs, •  Studio | Saatchi Art United Kingdom, •  Complete your listing | Boldstone Islington Sh… – Expanded
+					85 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion, Value: off
+					86 tab (selected, settable, boolean) Value: on, Complete your listing | Boldstone Islington Shellmoon Relief - White Wall sculpture | eBay – Part of group 📦 Marketplace completion
+						87 button Close
+					88 tab (settable, boolean) Products – Faire, Value: off
+					89 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					90 tab (settable, boolean) Create listings, Value: off
+			91 button New tab
+	92 close button
+	93 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	94 minimise button
+95 menu bar
+	96 Chrome
+	97 File
+	98 Edit
+	99 View
+	100 History
+	101 Bookmarks
+	102 Profiles
+	103 Tab
+	104 Window
+	105 Help
+
+The focused UI element is 32 button Close

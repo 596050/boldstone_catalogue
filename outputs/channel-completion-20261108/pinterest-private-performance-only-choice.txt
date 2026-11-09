@@ -1,0 +1,15 @@
+The following is a diff from the previous accessibility tree for Window: "boldstone" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 103-114
++									116 heading NECESSARY, Value: 4
++										117 text NECESSARY
++									118 text Always on
++									119 text Required to enable core site functionality and to remember user preferences and choices, such as language preferences or customized settings.
++									120 heading PERFORMANCE AND ANALYTICS, Value: 4
++										121 text PERFORMANCE AND ANALYTICS
++									122 Tick box PERFORMANCE AND ANALYTICS, Value: 1
++									123 text These cookies provide quantitative measures of website visitors. With the usage of these cookies we are able to count visits and traffic sources to improve the performance of our site.
++									124 heading ADVERTISING, Value: 4
++										125 text ADVERTISING
++									126 Tick box ADVERTISING, Value: 0
++									127 text These cookies are used by advertising companies to serve ads that are relevant to your interests.
+The focused UI element is 25 HTML content boldstone, URL: boldstonesculpture.com/cart

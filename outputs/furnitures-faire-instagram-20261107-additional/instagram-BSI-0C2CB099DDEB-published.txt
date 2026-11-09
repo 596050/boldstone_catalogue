@@ -1,0 +1,146 @@
+Window: "Meta Business Suite", App: Google Chrome.
+0 standard window Meta Business Suite - Google Chrome – Tom, Secondary Actions: Raise, URL: business.facebook.com/latest/insights/object_insights/?content_id=17913053181479024&nav_ref=bizweb_published_posts_table
+	1 container Meta Business Suite - Google Chrome – Tom, URL: business.facebook.com/latest/insights/object_insights/?content_id=17913053181479024&nav_ref=bizweb_published_posts_table
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: business.facebook.com/latest/insights/object_insights/?content_id=17913053181479024&nav_ref=bizweb_published_posts_table
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Meta Business Suite, URL: business.facebook.com/latest/insights/object_insights/?content_id=17913053181479024&nav_ref=bizweb_published_posts_table
+						27 container
+							28 container
+								29 button Close
+								30 container
+									31 button Previous ​
+									32 heading Value: 3, A small spiral with a rugged shoreline character. Coral Spiral Relief - White follows a curling ridge across a richly textured square panel. The raised lines catch the light while rougher recesses suggest coral, rock and the marks left by the sea. A pale wall keeps the focus on those small changes of depth. Handmade from a gypsum-based material, suitable for indoor or outdoor display. One sculpture is supplied. All designs can be customised, and completely new commissions can be created with designer Sally 
+										33 text A small spiral with a rugged shoreline character. Coral Spiral Relief - White follows a curling ridge across a richly textured square panel. The raised lines catch the light while rougher recesses suggest coral, rock and the marks left by the sea. A pale wall keeps the focus on those small changes of depth. Handmade from a gypsum-based material, suitable for indoor or outdoor display. One sculpture is supplied. All designs can be customised, and completely new commissions can be created with designer Sally 
+									34 image Instagram
+									35 text Post  · Published on: 7 November 03:14
+									36 toolbar
+										37 pop-up button Open Drop-down ​
+											38 text Open Drop-down
+											39 image
+										40 button Boost
+									41 container
+										42 heading Overview, Value: 2
+											43 text Overview
+										44 text Views
+										45 image
+										46 text Reach
+										47 image
+										48 text Interactions
+										49 image
+										50 text Follows
+										51 image
+										52 text 0 ‑‑ 0 0
+									53 container
+										54 text Views
+										55 image
+										56 text 0
+										57 tab group
+											58 tab (selected) Total, Value: 1
+											59 tab (settable, integer) Audience, Value: 0
+										60 heading No activity during selected date range, Value: 3
+											61 text No activity during selected date range
+										62 text Please select a different date range and try to load your report again.
+									63 container
+										64 text Reach
+										65 image
+										66 text ‑‑
+										67 heading Audience, Value: 3
+											68 text Audience
+										69 heading No activity during selected date range, Value: 3
+											70 text No activity during selected date range
+										71 text Please select a different date range and try to load your report again.
+									72 container
+										73 text Interactions
+										74 image
+										75 text 0 Likes and reactions
+										76 image
+										77 text 0 Comments
+										78 image
+										79 text 0 Shares
+										80 image
+										81 text 0 Saves
+										82 image
+										83 text 0
+									84 container
+										85 heading Feed preview, Value: 2
+											86 text Feed preview
+										87 container
+											88 image
+											89 text boldstonesculpture
+											90 image
+											91 button Like
+											92 button Comment
+											93 button Share
+											94 button Save
+											95 text boldstonesculpture
+											96 text A small spiral with a rugged shoreline character. ... 
+											97 button more
+										98 link View Post on Instagram, Value: l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDfbMNUUiHTu%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgNicmlkETFubk1SZWdCeVJIRFUzU1Fpc3J0YwZhcHBfaWQPNTE0NzcxNTY5MjI4MDYxAAEfp3lS9RraeeyDO46LWEFmMHB5BiJ2L0a_BQ3V089mM0lOQL5KVrBzA_h4eBk_aem_RLbfRy2or6E2xS5tOXPTJA&h=AUDm4z0009e85ycu6Gv4UJetMjAN6evVn6Xy1zly3Pdyag1bg3nnE3boaDL0LxtMG_SFG9WXj8Qvpbf-CFQMIOUsydu6DzT7kdw5XxUDklTNAtfxzm-Qyt0ApDICT6h3CTclZfzqZkZAYoTjNir98My1nkg
+										99 text entry area (settable) Add a comment…
+										100 button Insert saved reply
+								101 container
+									102 button Meta AI business assistant
+			103 pop-up button Tab search
+			104 container
+				105 tab group
+					106 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					107 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					108 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					109 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					110 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					111 tab (selected, settable, boolean) Meta Business Suite, Value: on
+						112 button Close
+					113 tab group  group 🛍️ Catalogue and Instagram – 3 Tabs, •  Studio | Saatchi Art United Kingdom, •  Complete your listing | Boldstone Islington Sh…, •  Manage drafts - eBay Seller Hub – Expanded
+					114 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 🛍️ Catalogue and Instagram, Value: off
+					115 tab (settable, boolean) Value: off, Complete your listing | Boldstone Islington Shellmoon Relief - White Wall sculpture | eBay – Part of group 🛍️ Catalogue and Instagram
+					116 tab (settable, boolean) Manage drafts - eBay Seller Hub – Part of group 🛍️ Catalogue and Instagram, Value: off
+					117 tab (settable, boolean) Products – Faire, Value: off
+					118 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					119 tab (settable, boolean) Create listings, Value: off
+			120 button New tab
+	121 close button
+	122 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	123 minimise button
+124 menu bar
+	125 Chrome
+	126 File
+	127 Edit
+	128 View
+	129 History
+	130 Bookmarks
+	131 Profiles
+	132 Tab
+	133 Window
+	134 Help
+
+The focused UI element is 99 text entry area (settable) Add a comment…

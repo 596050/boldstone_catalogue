@@ -1,0 +1,346 @@
+Window: "Wall Sculpture & Sculptural Furnishings | Boldstone, UK", App: Google Chrome.
+0 standard window URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Secondary Actions: Raise, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.3 GB - Google Chrome – Tom
+	1 container URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.3 GB - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 1
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Wall Sculpture & Sculptural Furnishings | Boldstone, UK, URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical
+						27 container
+							28 container
+								29 button CANCEL
+								30 heading Edit Magnolia Growth - White, Value: 1
+									31 text Edit Magnolia Growth - White
+								32 text Physical Product
+								33 content list
+									34 button Delete
+									35 button Duplicate
+									36 button SAVE
+							37 container Product sections
+								38 button Details
+								39 button Forms
+								40 button Images
+								41 button Inventory
+								42 button Payment options
+								43 text New
+								44 button Fulfillment
+								45 button Organization
+								46 button Taxes
+								47 button Selling Tools
+								48 button Marketing
+							49 container
+								50 heading Details, Value: 2
+									51 text Details
+								52 container
+									53 text Product name
+									54 text field (settable) Product name, Value: Magnolia Growth - White, Placeholder: Eucalyptus Face Scrub
+								55 container
+									56 text Description
+									57 text entry area (settable) Magnolia-inspired leaves gather into a relief that celebrates the movement of growing forms. Curves overlap and open out, giving the surface a gentle botanical rhythm.
+It brings to mind the quiet optimism of new foliage and the beauty of a garden seen at close range.
+The white finish keeps the focus on the form and its changing shadows.
+•Brand: Boldstone
+•Product type: Wall sculpture
+•Model: Magnolia Growth - White (ML-1-100.30)
+•Colour / appearance: White stone-effect finish
+•Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+•Material: Made from a gypsum-based material.
+•Dimensions: 100 × 30 × 6 cm
+•Weight: Approximately 18 kg
+•Use: Suitable for outdoor use and indoor display.
+•Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+•Availability: Ready to dispatch
+•Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+•Dispatch time: Within 10 working days. Delivery transit time is additional.
+•Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+										58 text Magnolia-inspired leaves gather into a relief that celebrates the movement of growing forms. Curves overlap and open out, giving the surface a gentle botanical rhythm.
+										59 text It brings to mind the quiet optimism of new foliage and the beauty of a garden seen at close range.
+										60 text The white finish keeps the focus on the form and its changing shadows.
+										61 content list
+											62 container
+												63 text • Brand:  Boldstone
+											64 container
+												65 text • Product type:  Wall sculpture
+											66 container
+												67 text • Model:  Magnolia Growth - White (ML-1-100.30)
+											68 container
+												69 text • Colour / appearance:  White stone-effect finish
+											70 container
+												71 text • Quantity supplied:  1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											72 container
+												73 text • Material:  Made from a gypsum-based material.
+											74 container
+												75 text • Dimensions:  100 × 30 × 6 cm
+											76 container
+												77 text • Weight:  Approximately 18 kg
+											78 container
+												79 text • Use:  Suitable for outdoor use and indoor display.
+											80 container
+												81 text • Fixings:  Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											82 container
+												83 text • Availability:  Ready to dispatch
+											84 container
+												85 text • Custom design:  All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											86 container
+												87 text • Dispatch time:  Within 10 working days. Delivery transit time is additional.
+											88 container
+												89 text • Delivery:  Delivery is quoted separately. Please contact us for UK and international delivery options.
+								90 container
+									91 text Button Text
+									92 text field (settable) Button Text, Placeholder: Add to Cart
+								93 heading Forms, Value: 2
+									94 text Forms
+								95 container
+									96 text Add to Cart Form Collect extra information from shoppers when they add this item to their cart. Form responses are displayed in your order details.
+								97 button ADD
+								98 heading Images, Value: 2
+									99 text Images
+								100 sortable White Leaf Growth relief with three pointed leaf forms against white. 50% from left, 50% from top Featured image pin open image action menu
+									101 image White Leaf Growth relief with three pointed leaf forms against white.
+									102 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									103 button Featured image pin
+									104 button open image action menu
+								105 sortable White Leaf Growth relief displayed vertically against a red background. 50% from left, 50% from top Featured image pin open image action menu
+									106 image White Leaf Growth relief displayed vertically against a red background.
+									107 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									108 button Featured image pin
+									109 button open image action menu
+								110 sortable White Leaf Growth relief with pointed leaves against a dark background. 50% from left, 50% from top Featured image pin open image action menu
+									111 image White Leaf Growth relief with pointed leaves against a dark background.
+									112 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									113 button Featured image pin
+									114 button open image action menu
+								115 sortable White Leaf Growth relief displayed horizontally, with three leaves along a curved stem. 50% from left, 50% from top Featured image pin open image action menu
+									116 image White Leaf Growth relief displayed horizontally, with three leaves along a curved stem.
+									117 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									118 button Featured image pin
+									119 button open image action menu
+								120 sortable Magnolia Growth - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									121 image Magnolia Growth - White - in situ
+									122 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									123 button Featured image pin
+									124 button open image action menu
+								125 sortable Magnolia Growth - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									126 image Magnolia Growth - White - in situ
+									127 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									128 button Featured image pin
+									129 button open image action menu
+								130 sortable Magnolia Growth - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									131 image Magnolia Growth - White - in situ
+									132 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									133 button Featured image pin
+									134 button open image action menu
+								135 sortable Magnolia Growth - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									136 image Magnolia Growth - White - in situ
+									137 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									138 button Featured image pin
+									139 button open image action menu
+								140 sortable Magnolia Growth - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									141 image Magnolia Growth - White - in situ
+									142 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									143 button Featured image pin
+									144 button open image action menu
+								145 sortable A tall white Magnolia Growth relief with pointed overlapping leaf forms, mounted on a red brick wall. 50% from left, 50% from top Featured image pin open image action menu
+									146 image A tall white Magnolia Growth relief with pointed overlapping leaf forms, mounted on a red brick wall.
+									147 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									148 button Featured image pin
+									149 button open image action menu
+								150 button
+								151 container
+									152 button Change featured image
+									153 text Featured image
+									154 button open image action menu
+								155 heading Inventory, Value: 2
+									156 text Inventory
+								157 content list
+									158 container
+										159 text Price
+										160 text On sale
+										161 Tick box On sale, Value: 0
+										162 text £
+										163 stepper (settable, float) Price, Value: 83.56, Placeholder: 0.00
+										164 button increment
+										165 button decrement
+								166 container
+									167 text Stock
+									168 text Unlimited
+									169 Tick box Unlimited, Value: 1
+									170 text ∞
+									171 stepper (disabled) Stock, Value: 0, Secondary Actions: Increment, Decrement
+									172 button (disabled) increment
+									173 button (disabled) decrement
+								174 container
+									175 text SKU
+									176 container More info
+										177 image
+									178 text field (settable) SKU, Value: ML-1-100.30, Placeholder: Add SKU
+								179 container
+									180 text GTIN
+									181 container More info
+										182 image
+									183 text field (settable) GTIN, Placeholder: Add GTIN, UPC, EAN, JAN, ISBN
+								184 container
+									185 text MPN
+									186 container More info
+										187 image
+									188 text field (settable) MPN, Placeholder: Add MPN
+								189 container
+									190 text Variants Sell different versions of the same product. For example, a shirt that comes in multiple colors or sizes.
+									191 button ADD
+								192 text Quantity limits New
+								193 container
+									194 Tick box enable or disable the showing of the Number input for Quantity limits, Value: 0
+								195 text Set the maximum quantity a customer can buy in a single order.
+								196 heading Payment options, Value: 2
+									197 text Payment options
+								198 container Subscriptions
+									199 text Subscriptions
+									200 text Charge customers on a recurring basis and offer discounts on repeat purchases. Subscriptions aren't available for products with add-ons.
+									201 button ADD
+								202 heading Fulfillment, Value: 2
+									203 text Fulfillment
+								204 container
+									205 text Fulfillment profiles Allow buyers to select how they'd like to receive this product. For example, Local Pickup or Ground Shipping.
+									206 combo box (settable) Fulfillment profiles, Value: Default
+										207 text Default
+										208 image
+									209 button SET UP
+								210 container
+									211 text Weight and dimensions Enabled Supports automated or weight-based shipping rates. 0 × 0 × 0 in · 43.66 lb
+									212 button Edit weight and dimensions
+									213 button Delete weight and dimensions
+								214 heading Organization, Value: 2
+									215 text Organization
+								216 container
+									217 text Visibility
+									218 combo box (settable) Visibility, Value: Public
+										219 text Public
+										220 image
+								221 container
+									222 text Tags Add keywords to connect related products. Tags can be used to create filters on your store page.
+									223 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/articles/231746347-Styling-store-pages#h_01JGPPMPYWYDKVHP17DKR1HA4F
+									224 combo box (settable) Tags, Placeholder: Add
+									225 text Wall Sculptures
+									226 button Remove Wall Sculptures
+									227 text Leaf Growth
+									228 button Remove Leaf Growth
+									229 text Catalogue 2026
+									230 button Remove Catalogue 2026
+									231 text BSI-5181D32AA24F
+									232 button Remove BSI-5181D32AA24F
+								233 container Categories
+									234 text Categories
+									235 text Create categories to bucket products. Categories will appear in the store's navigation.
+									236 container
+										237 text Sculpture
+										238 button Edit categories
+										239 button Remove all categories
+								240 heading Taxes, Value: 2
+									241 text Taxes
+								242 container Product Specific Tax Code
+									243 text Product Specific Tax Code
+									244 container
+										245 text Product specific tax codes are used to calculate correct tax rates during checkout. 
+										246 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/sections/200825098
+									247 container
+										248 container stripe-connect-ui-layer-stripe-connect-product-tax-code-selector
+								249 heading Selling Tools, Value: 2
+									250 text Selling Tools
+								251 container
+									252 text Add-ons Upsell customers with product add-ons directly on the product page. Products with subscriptions or more than one variant option are not available as add-ons. 
+									253 link Learn more, Value: support.squarespace.com/hc/articles/21149527560205
+									254 button ADD
+								255 container
+									256 text Featured Product Featured Products can be displayed in Summary Blocks on your page.
+									257 Tick box Featured Product, Value: 0
+								258 container
+									259 text Related Products Showcase similar items on your Product Pages.
+									260 button Set up Related Products
+								261 container
+									262 text Product Reviews Show customer reviews directly on all product pages. Manage this feature in 
+									263 button Selling
+									264 text .
+									265 button Set up product reviews
+								266 heading Marketing, Value: 2
+									267 text Marketing
+								268 text SEO and URL
+								269 text Magnolia Growth - White — boldstone https://boldstonesculpture.com/buy/p/leaf-growth-white-magnolia-leaves This description will automatically be generated by search engines. You can add your own description by editing.
+								270 button EDIT
+			271 pop-up button Tab search
+			272 container
+				273 tab group
+					274 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					275 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					276 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					277 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					278 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					279 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					280 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					281 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					282 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					283 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					284 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					285 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					286 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					287 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					288 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					289 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					290 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					291 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					292 tab (settable, boolean) Meta Business Suite, Value: off
+					293 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					294 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					295 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					296 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					297 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					298 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					299 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					300 tab (selected, settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.3 GB, Value: on
+					301 tab (settable, boolean) Boldstone · Review room, Value: off
+					302 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					303 tab (settable, boolean) google-wall-sculptures-supplement.tsv details - Merchant Center, Value: off
+			304 button New tab
+	305 close button
+	306 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	307 minimise button
+308 menu bar
+	309 Chrome
+	310 File
+	311 Edit
+	312 View
+	313 History
+	314 Bookmarks
+	315 Profiles
+	316 Tab
+	317 Window
+	318 Help
+
+The focused UI element is 29 button CANCEL

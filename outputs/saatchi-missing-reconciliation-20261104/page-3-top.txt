@@ -1,0 +1,348 @@
+Window: "Studio | Saatchi Art United Kingdom | Page 3", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom | Page 3 - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio?sub=artworks&page=3&hitsPerPage=25, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom | Page 3 - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio?sub=artworks&page=3&hitsPerPage=25
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio?sub=artworks&page=3&hitsPerPage=25, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads
+				22 button Control your music, videos and more
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Studio | Saatchi Art United Kingdom | Page 3, URL: saatchiart.com/en-gb/studio?sub=artworks&page=3&hitsPerPage=25
+						28 container
+							29 container
+								30 text Fax
+								31 text field (settable) Fax
+							32 link fax, Value: saatchiart.com/facsimile-npc
+							33 link Skip to Main Content, Value: saatchiart.com/en-gb/studio/upload#skip-to-content
+							34 container
+								35 button Close Menu
+								36 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								37 text Studio
+								38 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								39 container
+									40 button Manage Artworks
+									41 content list
+										42 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										43 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									44 button Sales Dashboard
+									45 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									46 button Sponsored Listings
+									47 button Profile Information
+									48 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									49 button Account
+							50 container
+								51 heading My Original Artworks, Value: 4
+									52 text My Original Artworks
+								53 heading Vacation Status, Value: 6
+									54 text Vacation Status
+								55 button Add New Artwork
+								56 container (showing 0-100 of 182 items)
+									57 Tick box 0
+									58 text ARTWORKS VISIBILITY DATE UPLOADED PRICE AVAILABILITY PRINTS
+									59 Tick box 0
+									60 Unlabelled image /13441137-NJDPSYPE-6.jpg
+									61 text Echo Rhythm II - Verdigris
+									62 text Sculpture
+									63 text 11.8 W x 11.8 H x 2.8 D inches
+									64 text Published
+									65 text Nov 1, 2026
+									66 container
+										67 text $100
+										68 image
+									69 container
+										70 text For Sale
+										71 image
+									72 text Not Available
+									73 Tick box 0
+									74 Unlabelled image /13441133-WKGNLKWR-6.jpg
+									75 text Echo Rhythm I - White
+									76 text Sculpture
+									77 text 11.8 W x 11.8 H x 2.4 D inches
+									78 text Published
+									79 text Nov 1, 2026
+									80 container
+										81 text $100
+										82 image
+									83 container
+										84 text For Sale
+										85 image
+									86 text Not Available
+									87 Tick box 0
+									88 Unlabelled image /13441129-GYKFNZKA-6.jpg
+									89 text Echo Rhythm I - Verdigris
+									90 text Sculpture
+									91 text 11.8 W x 11.8 H x 2.8 D inches
+									92 text Published
+									93 text Nov 1, 2026
+									94 container
+										95 text $100
+										96 image
+									97 container
+										98 text For Sale
+										99 image
+									100 text Not Available
+									101 Tick box 0
+									102 Unlabelled image /13441127-JLTFYBHA-6.jpg
+									103 text Dune Ripple II - White
+									104 text Sculpture
+									105 text 7.9 W x 13.8 H x 2.8 D inches
+									106 text Published
+									107 text Nov 1, 2026
+									108 container
+										109 text $100
+										110 image
+									111 container
+										112 text For Sale
+										113 image
+									114 text Not Available
+									115 Tick box 0
+									116 Unlabelled image /13441125-JDZVQOLR-6.jpg
+									117 text Dune Ripple II - Verdigris and Copper
+									118 text Sculpture
+									119 text 8.3 W x 13.8 H x 2.4 D inches
+									120 text Published
+									121 text Nov 1, 2026
+									122 container
+										123 text $100
+										124 image
+									125 container
+										126 text For Sale
+										127 image
+									128 text Not Available
+									129 Tick box 0
+									130 Unlabelled image /13441123-SFXOSYBK-6.jpg
+									131 text Dune Ripple II - Rust
+									132 text Sculpture
+									133 text 8.3 W x 13.8 H x 2.4 D inches
+									134 text Published
+									135 text Nov 1, 2026
+									136 container
+										137 text $100
+										138 image
+									139 container
+										140 text For Sale
+										141 image
+									142 text Not Available
+									143 Tick box 0
+									144 Unlabelled image /13441119-THKKLHFD-6.jpg
+									145 text Dune Ripple II - Gold
+									146 text Sculpture
+									147 text 8.3 W x 13.8 H x 2.4 D inches
+									148 text Published
+									149 text Nov 1, 2026
+									150 container
+										151 text $100
+										152 image
+									153 container
+										154 text For Sale
+										155 image
+									156 text Not Available
+									157 Tick box 0
+									158 Unlabelled image /13441115-VEEKDSYM-6.jpg
+									159 text Dune Ripple II - Copper with Verdigris Accents
+									160 text Sculpture
+									161 text 8.3 W x 13.8 H x 2.4 D inches
+									162 text Published
+									163 text Nov 1, 2026
+									164 container
+										165 text $100
+										166 image
+									167 container
+										168 text For Sale
+										169 image
+									170 text Not Available
+									171 Tick box 0
+									172 Unlabelled image /13441113-PJFBADWA-6.jpg
+									173 text Dune Ripple II - Copper
+									174 text Sculpture
+									175 text 8.3 W x 13.8 H x 2.4 D inches
+									176 text Published
+									177 text Nov 1, 2026
+									178 container
+										179 text $100
+										180 image
+									181 container
+										182 text For Sale
+										183 image
+									184 text Not Available
+									185 Tick box 0
+									186 Unlabelled image /13441111-YTVMNKHQ-6.jpg
+									187 text Dune Ripple II - Bronze and Verdigris
+									188 text Sculpture
+									189 text 8.3 W x 13.8 H x 2.4 D inches
+									190 text Published
+									191 text Nov 1, 2026
+									192 container
+										193 text $100
+										194 image
+									195 container
+										196 text For Sale
+										197 image
+									198 text Not Available
+									199 Tick box 0
+									200 Unlabelled image /13441109-AMDGQPUZ-6.jpg
+									201 text Dune Ripple I - White
+									202 text Sculpture
+									203 text 7.9 W x 13.8 H x 2.8 D inches
+									204 text Published
+									205 text Nov 1, 2026
+									206 container
+										207 text $100
+										208 image
+									209 container
+										210 text For Sale
+										211 image
+									212 text Not Available
+									213 Tick box 0
+									214 Unlabelled image /13441107-TAWWIDNJ-6.jpg
+									215 text Dune Ripple I - Verdigris and Rust
+									216 text Sculpture
+									217 text 7.9 W x 13.8 H x 2.4 D inches
+									218 text Published
+									219 text Nov 1, 2026
+									220 container
+										221 text $100
+										222 image
+									223 container
+										224 text For Sale
+										225 image
+									226 text Not Available
+									227 Tick box 0
+									228 Unlabelled image /13441105-JUSEQUWT-6.jpg
+									229 text Dune Ripple I - Verdigris
+									230 text Sculpture
+									231 text 8.3 W x 13.8 H x 2.4 D inches
+									232 text Published
+									233 text Nov 1, 2026
+									234 container
+										235 text $100
+										236 image
+									237 container
+										238 text For Sale
+										239 image
+									240 text Not Available
+									241 Tick box 0
+									242 Unlabelled image /13441103-SPODTORL-6.jpg
+									243 text Dune Ripple I - Rust
+									244 text Sculpture
+									245 text 8.3 W x 13.8 H x 2.4 D inches
+								246 button Go to previous page
+									247 link Go to previous page, Help: Previous, Value: saatchiart.com/en-gb/studio?sub=artworks&page=2&hitsPerPage=25
+								248 button Go to page 1, Help: Page 1
+								249 button Go to page 2, Help: Page 2
+								250 button Go to page 3, Help: Page 3
+								251 button Go to page 4, Help: Page 4
+								252 button Go to next page
+									253 link Go to next page, Help: Next, Value: saatchiart.com/en-gb/studio?sub=artworks&page=4&hitsPerPage=25
+								254 container
+									255 text 51  - 75 of 98 Artworks
+								256 container
+									257 text 25 Results Per Page
+									258 image
+							259 container
+								260 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								261 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								262 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								263 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								264 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								265 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								266 text Support
+								267 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								268 link Help Center, Value: support.saatchiart.com/hc
+								269 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								270 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								271 pop-up button Request Support
+								272 text Resources
+								273 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								274 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								275 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								276 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								277 text Saatchi Art
+								278 link About, Value: saatchiart.com/en-gb/about-us
+								279 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								280 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								281 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								282 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								283 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								284 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								285 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								286 text Manage Preferences
+								287 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								288 container View Store Preferences Footer
+									289 image
+									290 text United Kingdom / GBP / In
+									291 image
+								292 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								293 link Privacy Policy, Value: policies.google.com/privacy
+								294 text  and 
+								295 link Terms of Service, Value: policies.google.com/terms
+								296 text  apply.
+							297 text Studio | Saatchi Art United Kingdom | Page 3
+							298 container
+								299 button Manage Preferences
+								300 text Manage Preferences
+			301 pop-up button Tab search
+			302 container
+				303 tab group
+					304 tab group  group Claude – 11 Tabs, •  Become a host for gay travelers, join the mist…, •  Sign up, •  Frequently Asked Questions about Renting Out Y…, •  What is the commission rate? - FAQ Landlords |…, •  Ecobnb - General Terms of Use, + 6 more – Expanded
+					305 tab (settable, boolean) Become a host for gay travelers, join the misterb&b community! – Part of group Claude, Value: off
+					306 tab (settable, boolean) Sign up – Part of group Claude, Value: off
+					307 tab (settable, boolean) Frequently Asked Questions about Renting Out Your Holiday Home | Micazu – Part of group Claude, Value: off
+					308 tab (settable, boolean) What is the commission rate? - FAQ Landlords | HelpSite – Part of group Claude, Value: off
+					309 tab (settable, boolean) Ecobnb - General Terms of Use – Part of group Claude, Value: off
+					310 tab (settable, boolean) How much does it cost to list my rental property on Flatio? - Flatio – Part of group Claude, Value: off
+					311 tab (settable, boolean) Pricing - Vacation rentals management made easy – Part of group Claude, Value: off
+					312 tab (settable, boolean) Dtravel for Hosts - Flexible Pricing to Grow Your Direct Booking Business – Part of group Claude, Value: off
+					313 tab (settable, boolean) Direct Booking Lite: Free Property Management Software – Part of group Claude, Value: off
+					314 tab (settable, boolean) Holiday Cottages & Holiday Homes, Booked Direct | BookNoFees – Part of group Claude, Value: off
+					315 tab (settable, boolean) Your home for hosting - Travelnest – Part of group Claude, Value: off
+					316 tab (settable, boolean) Google Docs, Value: off
+					317 tab (settable, boolean) Inbox (91) - info@boldstone.co.uk - Thomas Price Mail, Value: off
+					318 tab (settable, boolean) Document shared with you: "Untitled document" - tppricet@gmail.com - Gmail, Value: off
+					319 tab (settable, boolean) Untitled document - Google Docs, Value: off
+					320 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom | Page 3, Value: on
+						321 button Close
+			322 button New tab
+	323 close button
+	324 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	325 minimise button
+326 menu bar
+	327 Chrome
+	328 File
+	329 Edit
+	330 View
+	331 History
+	332 Bookmarks
+	333 Profiles
+	334 Tab
+	335 Window
+	336 Help
+
+The focused UI element is 250 button Go to page 3, Help: Page 3

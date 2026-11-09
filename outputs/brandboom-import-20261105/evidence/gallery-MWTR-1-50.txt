@@ -1,0 +1,375 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: MWTR-1-50, Placeholder: Search Products
+									48 link
+								49 button 1
+									50 container
+										51 Tick box 1
+									52 text 1
+								53 container
+									54 text 1  /  1
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container Boldstone Lunar Water Catcher - White Sculptural relief MWTR-1-50 WHITE STONE FINISH 138.80 GBP
+										64 container
+											65 Unlabelled image /0003470618658F3A_M.jpg
+											66 text Boldstone Lunar Water Catcher - White Sculptural relief
+											67 text MWTR-1-50 WHITE STONE FINISH
+											68 container
+												69 text 138.80  GBP
+							70 container
+								71 content list
+									72 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								73 container
+									74 heading Presentations, Value: 5
+										75 text Presentations
+									76 button New
+									77 content list
+										78 link ALL, Value: manage.brandboom.com/products/s/111089#
+										79 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									80 container
+										81 link
+											82 image
+										83 search text field (settable) Search Presentations
+										84 link
+											85 image
+								86 heading Ship Windows, Value: 5
+									87 text Ship Windows
+								88 content list
+									89 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									90 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								91 text No active ship windows
+							92 container
+								93 button Cancel
+								94 button Select All
+								95 text 1 Item
+								96 button Search Order
+							97 link Reset
+								98 text Reset
+							99 button Apply
+							100 text PRODUCT STATUS
+							101 text Active
+							102 text Inactive
+							103 text Archived
+							104 text Corrupted
+							105 text No Images
+							106 text SORT BY
+							107 pop-up button Newest First
+								108 (selected) Newest First
+							109 text SHIP DATE RANGE
+							110 container
+								111 image
+								112 text field (settable) Click to select range
+							113 text No Date Range
+							114 text CREATE DATE RANGE
+							115 container
+								116 image
+								117 text field (settable) Click to select range
+							118 text SIZES
+							119 text field (settable) S, M, L
+							120 text VENDORS TYPES
+							121 link
+								122 image
+							123 text No Types
+							124 text Mens
+							125 text Womens
+							126 text CATEGORIES
+							127 link
+								128 image
+							129 link
+								130 image
+							131 text No Categories
+							132 text Sweater
+							133 text SEASONS
+							134 link
+								135 image
+							136 link
+								137 image
+							138 text No Seasons
+							139 container
+								140 container
+									141 Tick box Create another, Value: 0
+									142 text Create another
+								143 button Save
+								144 container
+									145 Unlabelled image /0003470618658F3A_M.avif
+									146 container
+										147 image /0003470618658F3A_S.jpg
+										148 button STANDARD
+										149 image /00034706187FD600_S.avif
+										150 button STANDARD
+										151 image /00034706188A6694_S.avif
+										152 button STANDARD
+										153 image /0003470618913DFE_S.avif
+										154 button STANDARD
+										155 image /000347061900ABDB_S.avif
+										156 button STANDARD
+										157 image /00034706191897D2_S.avif
+										158 button STANDARD
+										159 image /0003470619277DE1_S.avif
+										160 button STANDARD
+										161 image /0003470619354963_S.avif
+										162 button STANDARD
+										163 image
+										164 image
+									165 image
+									166 text 8 / Unlimited
+									167 image
+									168 text 0 / 1
+									169 text Drag to reorder
+									170 container
+										171 text Style ID *
+										172 text MWTR-1-50
+									173 container
+										174 text Options
+										175 link White stone finish
+											176 text White stone finish
+									177 container
+										178 text Sizes
+										179 text One sculpture
+									180 text Barcode
+									181 container
+										182 button
+										183 text field (settable)
+									184 text Name
+									185 text field (settable) Boldstone Lunar Water Catcher - White Sculptural relief
+									186 container Price
+										187 container
+											188 text Price
+											189 text field (settable) Value: 138.80, Placeholder: Enter
+									190 container Retail
+										191 container
+											192 text Retail
+											193 text field (settable) Value: 0.00, Placeholder: Enter
+									194 text Qty Min
+									195 text field (settable) 1
+									196 text Vendor
+									197 text field (settable)
+									198 text Type
+									199 text field (settable) Home Decor
+									200 text Category
+									201 text field (settable) Wall Sculpture
+									202 text Taxonomy
+									203 text field (settable) Select
+									204 text Season
+									205 text field (settable)
+									206 text Ship Date
+									207 text field (settable)
+									208 container
+										209 text HS Code
+										210 text field (settable) HS Code
+									211 container Country Of Origin
+										212 container
+											213 text Country Of Origin
+											214 button -
+									215 container
+										216 text Description
+										217 container
+											218 text A rounded lunar form suggests the idea of catching and holding water. The relief brings together a clear outline and a softer play of curves, highlights and shadows.
+											219 text A contemplative piece with the mood of a still pool under an open sky.
+											220 text The white finish keeps the focus on the form and its changing shadows.
+											221 text Brand: Boldstone
+											222 text Product type: Sculptural relief
+											223 text Model: Lunar Water Catcher - White (MWTR-1-50)
+											224 text Colour / appearance: White stone finish
+											225 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											226 text Material: Made from a gypsum-based material.
+											227 text Dimensions: 51 cm high × 48 cm wide; 5–7 cm side depth
+											228 text Weight: Approximately 10–12 kg
+											229 text Use: Suitable for outdoor use and indoor display.
+											230 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											231 text Availability: Ready to dispatch
+											232 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											233 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											234 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							235 link
+								236 image
+							237 container
+								238 content list
+									239 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									240 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								241 container
+									242 button Upload Images
+									243 button
+									244 button
+									245 button
+								246 container
+									247 Unlabelled image /00011059390A4080_S.avif
+									248 text jewelry-watch
+									249 Unlabelled image /00011059388E43A7_S.avif
+									250 text toys-dinosaur
+									251 Unlabelled image /00011059387A69BA_S.avif
+									252 text baby-kidswear-t
+									253 Unlabelled image /000110593863557B_S.avif
+									254 text pet-sticks
+									255 Unlabelled image /00011059385C1D4E_S.avif
+									256 text apparel-t-shirt
+									257 Unlabelled image /00011059384494BB_S.avif
+									258 text footwear-shoes
+									259 Unlabelled image /000110593837D96A_S.avif
+									260 text beauty-cream
+									261 Unlabelled image /00011059382B4683_S.avif
+									262 text home-pitcher
+									263 Unlabelled image /00007087863E986B_S.avif
+									264 text BOOM1111
+									265 Unlabelled image /0000022409830BD3_S.avif
+									266 text BOOM1830
+									267 Unlabelled image /00000224097C30D6_S.avif
+									268 text BOOM1705
+									269 Unlabelled image /00000224096AD0BE_S.avif
+									270 text BOOM1100
+							271 button Close
+							272 text Search Products
+							273 button Scan barcodes
+							274 container
+								275 link
+									276 image
+								277 search text field (settable) Search for Products
+							278 text RESULTS
+							279 button Open Intercom Messenger
+							280 link Dismiss
+								281 text Dismiss
+							282 link Product Import Complete
+								283 text Product Import Complete
+							284 button Refresh
+			285 pop-up button Tab search
+			286 container
+				287 tab group
+					288 tab (settable, boolean) Products – Faire, Value: off
+					289 tab (settable, boolean) Gumtree | Free classified ads from the #1 classifieds site in the UK, Value: off
+					290 tab (settable, boolean) Sign in to your Supplier account | AppScenic, Value: off
+					291 tab (settable, boolean) Shoppe Object, Value: off
+					292 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					293 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					294 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					295 tab (settable, boolean) sell on wholesale central - Google Search, Value: off
+					296 tab (settable, boolean) Display Your Products to Millions of Buyers Worldwide., Value: off
+					297 tab (settable, boolean) become-a-seller-new | Wholesale Prices | Tradeling, Value: off
+					298 tab (settable, boolean) Marketplace FAQ for Sellers | Brandboom Help Center, Value: off
+					299 tab (settable, boolean) Online Sales FAQ - TICA, Value: off
+					300 tab (settable, boolean) Carro Migration FAQ, Value: off
+					301 tab (settable, boolean) Join Us | CREOATE, Value: off
+					302 tab (settable, boolean) MOM - Sell your products, Value: off
+					303 tab (settable, boolean) Ankorstore | Wholesale Marketplace Home to Europe's Best Brands, Value: off
+					304 tab (settable, boolean) See how virtual showrooms sell, Value: off
+					305 tab (settable, boolean) Wholesale Marketplace: Get Discovered by Retailers | NuORDER by Lightspeed, Value: off
+					306 tab (settable, boolean) Sell on Syncee, Value: off
+					307 tab (settable, boolean) Become a Spocket Supplier - Sell to 100,000+ Retailers Free, Value: off
+					308 tab (settable, boolean) Become a verified Avasam supplier, Value: off
+					309 tab (settable, boolean) Advertise Your Wholesale Business - Would you like to expand your business?, Value: off
+					310 tab (settable, boolean) eSources UK Help | Managing Your Supplier Profile, Value: off
+					311 tab (settable, boolean) Gift Wholesalers - Gift Shop Wholesalers, Value: off
+					312 tab (settable, boolean) Sell on Tesco Marketplace | Reach millions of UK shoppers, Value: off
+					313 tab (settable, boolean) RangeMe, Value: off
+					314 tab (settable, boolean) Art Gallery | Buy Original British Art Online, Value: off
+					315 tab (settable, boolean) Original art for sale, Value: off
+					316 tab (settable, boolean) 25+ Handmade Marketplaces for Artisans to Sell Crafts, Art, Gifts Online - MultiMerch, Value: off
+					317 tab (settable, boolean) 250+ Websites Directory for Artists to Sell Art Online, Value: off
+					318 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish, Value: off
+					319 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					320 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					321 tab (settable, boolean) Wholesale Central | Leading Source for Wholesale Products & Suppliers, Value: off
+					322 tab (settable, boolean) New York City Show Exhibitor Application, Value: off
+					323 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					324 tab (settable, boolean) Booth activation - Booth customization, Value: off
+					325 tab (settable, boolean) Romans Surviving Rome’s Collapse, Value: off
+					326 tab (settable, boolean) PayPal, Value: off
+					327 tab (settable, boolean) Verification code to reset your PayPal password - info@boldstone.co.uk - Thomas Price Mail, Value: off
+					328 tab (settable, boolean) ChatGPT, Value: off
+					329 tab (settable, boolean) _20261105_125118_b5c8aa3a-e88c-489b-bb71-04f4e23ce0ea.png (2048×2048), Value: off
+					330 tab (settable, boolean) _20261105_124942_a2ea11ea-9588-4814-921b-1b8119944376.png (2048×2048), Value: off
+					331 tab (settable, boolean) 888309629_1523348299846656_5333981695044073670_n.jpg (947×2048), Value: off
+					332 tab (settable, boolean) 880004104_1873677580468638_5195249294559980998_n.jpg (947×2048), Value: off
+					333 tab (settable, boolean) Photo 31-03-2025, 12 41 58.jpg, Value: off
+					334 tab (settable, boolean) Value: off, Elegant Swan Marble Side Table with Artistic White Base – 50cm — boldstone - High memory usage - 955 MB
+					335 tab (settable, boolean) Marbled Circle - Turquoise — boldstone, Value: off
+					336 tab (settable, boolean) (1) Home / X, Value: off
+					337 tab (settable, boolean) SEO opportunity audit, Value: off
+					338 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					339 tab (settable, boolean) Contact us - Glassette, Value: off
+					340 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					341 tab (settable, boolean) Sell on Artsper, Value: off
+					342 tab (settable, boolean) ChatGPT, Value: off
+					343 tab (settable, boolean) (5) Boldstone Sculpture | Commerce Manager, Value: off
+					344 tab group  group ✅Claude – 1 Tab, •  Boldstone Sculpture | Products – Expanded
+					345 tab (settable, boolean) Boldstone Sculpture | Products – Part of group ✅Claude, Value: off
+					346 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+					347 tab group  group 🗿 Product completion – 1 Tab, •  about:blank – Expanded
+					348 tab (settable, boolean) about:blank – Part of group 🗿 Product completion, Value: off
+			349 button New tab
+	350 close button
+	351 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	352 minimise button
+353 menu bar
+	354 Chrome
+	355 File
+	356 Edit
+	357 View
+	358 History
+	359 Bookmarks
+	360 Profiles
+	361 Tab
+	362 Window
+	363 Help
+
+The focused UI element is 63 container Boldstone Lunar Water Catcher - White Sculptural relief MWTR-1-50 WHITE STONE FINISH 138.80 GBP

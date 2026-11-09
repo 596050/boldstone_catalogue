@@ -1,0 +1,7 @@
+The following is a diff from the previous accessibility tree for Window: "Boldstone Wall Sculptures — Master Catalogue - Google Sheets" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 313-314, 321-331
+~										319 text (selected) Import location
+~											320 text Import location
++										321 text Replace spreadsheet
++									322 text All data currently in this spreadsheet will be replaced.
+The focused UI element is 319 text (selected) Import location

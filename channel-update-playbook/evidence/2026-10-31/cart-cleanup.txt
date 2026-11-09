@@ -1,0 +1,65 @@
+- banner:
+  - link "Skip to Content":
+    - /url: "#page"
+  - link "boldstone":
+    - /url: /
+    - img "boldstone"
+  - link "0 items in cart":
+    - /url: /cart
+    - generic: "0"
+  - button "Open Menu":
+    - generic: Open Menu
+- main:
+  - heading "Shopping Cart" [level=2]
+  - paragraph: You have nothing in your shopping cart.
+  - link "Continue Shopping":
+    - /url: /
+- contentinfo:
+  - paragraph:
+    - link "Privacy Policy":
+      - /url: /privacy-policy
+  - paragraph:
+    - link "Terms of Service":
+      - /url: /terms-of-service
+  - paragraph:
+    - link "Terms and Conditions":
+      - /url: /terms-and-conditions
+  - paragraph:
+    - link "Partnership Terms":
+      - /url: /partnership-terms
+  - paragraph:
+    - link "Copyright and Design Right":
+      - /url: /copyright-and-design-right
+  - paragraph:
+    - link "Shipping Policy":
+      - /url: /shipping-policy
+      - text: Shipping Policy
+  - paragraph:
+    - link "Return and Refund Policy":
+      - /url: /return-and-refund-policy
+  - paragraph: "Contact Us Directly:"
+  - paragraph:
+    - link "info@":
+      - /url: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+      - strong: info@
+    - link "boldstonesculpture":
+      - /url: mailto:info@boldstonesculpture.com?cc=info%40boldstone.co.uk&subject=Inquiry%3A%20Boldstone%20Sculpture
+      - strong: boldstonesculpture
+    - link ".com":
+      - /url: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+      - strong: .com
+  - paragraph:
+    - link "Frequently Asked Questions":
+      - /url: /faqs
+      - strong: Frequently Asked Questions
+  - paragraph:
+    - link "About Sally Price":
+      - /url: /about
+  - paragraph:
+    - link "Garden Sculpture":
+      - /url: /garden-sculpture
+  - paragraph:
+    - link "Bespoke Commissions":
+      - /url: /commission
+- region "Manage previously selected cookie options":
+  - button "Cookie Preferences"

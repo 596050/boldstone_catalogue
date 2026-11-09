@@ -1,0 +1,148 @@
+✖ refreshDropboxView({generation:2}) does not overwrite a save that completed during its reads (6.620292ms)
+✖ refreshNativeView() does not overwrite a save that completed during its reads (1.279917ms)
+✖ transfer refresh cannot overwrite a different sculpture or clear its selection (1.087625ms)
+✖ transfer refresh defers when fresh unsaved edits are started (0.855667ms)
+✖ transfer refresh handles a family overview without requesting a product named __family__ (0.648125ms)
+✖ an old transfer response cannot close a newer transfer dialog (1.313ms)
+✖ specification edits made while saving remain unsaved (55.9885ms)
+✖ product notes edits made while saving remain unsaved (0.783125ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 0
+ℹ fail 8
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 141.824875
+
+✖ failing tests:
+
+test at tests/ui-refresh-races.cjs:24:3
+✖ refreshDropboxView({generation:2}) does not overwrite a save that completed during its reads (6.620292ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 2
+  
+      at TestContext.<anonymous> (/Users/tprice/Documents/boldstone/catalogue-review/tests/ui-refresh-races.cjs:34:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/ui-refresh-races.cjs:24:3
+✖ refreshNativeView() does not overwrite a save that completed during its reads (1.279917ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 2
+  
+      at TestContext.<anonymous> (/Users/tprice/Documents/boldstone/catalogue-review/tests/ui-refresh-races.cjs:34:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/ui-refresh-races.cjs:39:1
+✖ transfer refresh cannot overwrite a different sculpture or clear its selection (1.087625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'Wrong sculpture'
+  - 'B'
+  
+      at TestContext.<anonymous> (/Users/tprice/Documents/boldstone/catalogue-review/tests/ui-refresh-races.cjs:45:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Wrong sculpture',
+    expected: 'B',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/ui-refresh-races.cjs:48:1
+✖ transfer refresh defers when fresh unsaved edits are started (0.855667ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (/Users/tprice/Documents/boldstone/catalogue-review/tests/ui-refresh-races.cjs:54:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/ui-refresh-races.cjs:58:1
+✖ transfer refresh handles a family overview without requesting a product named __family__ (0.648125ms)
+  Error: Wrong endpoint
+      at h.context.api (/Users/tprice/Documents/boldstone/catalogue-review/tests/ui-refresh-races.cjs:60:85)
+      at refreshAfterTransfer (evalmachine.<anonymous>:138:23)
+      at async TestContext.<anonymous> (/Users/tprice/Documents/boldstone/catalogue-review/tests/ui-refresh-races.cjs:61:3)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/ui-refresh-races.cjs:64:1
+✖ an old transfer response cannot close a newer transfer dialog (1.313ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (/Users/tprice/Documents/boldstone/catalogue-review/tests/ui-refresh-races.cjs:72:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/ui-refresh-races.cjs:83:33
+✖ specification edits made while saving remain unsaved (55.9885ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (/Users/tprice/Documents/boldstone/catalogue-review/tests/ui-refresh-races.cjs:89:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/ui-refresh-races.cjs:83:33
+✖ product notes edits made while saving remain unsaved (0.783125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (/Users/tprice/Documents/boldstone/catalogue-review/tests/ui-refresh-races.cjs:89:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

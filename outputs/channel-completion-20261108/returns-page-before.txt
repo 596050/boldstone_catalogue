@@ -1,0 +1,433 @@
+Window: "Return and Refund Policy | Sho… – Learn More Now — boldstone", App: Google Chrome.
+0 standard window Return and Refund Policy | Shop with Confidence – Learn More Now — boldstone - Google Chrome – Tom, URL: caper-spinach-spcy.squarespace.com/config/pages, Secondary Actions: Raise
+	1 container Return and Refund Policy | Shop with Confidence – Learn More Now — boldstone - Google Chrome – Tom, URL: caper-spinach-spcy.squarespace.com/config/pages
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: caper-spinach-spcy.squarespace.com/config/pages, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Return and Refund Policy | Shop with Confidence – Learn More Now — boldstone, URL: caper-spinach-spcy.squarespace.com/config/pages
+						27 container
+							28 container
+								29 button Website
+								30 container
+									31 heading Pages, Value: 1
+										32 text Pages
+									33 button Open search
+									34 text field (settable) Search
+									35 container
+										36 container
+											37 heading Main Navigation, Value: 2
+												38 text Main Navigation
+											39 button Add a new page to the "Main Navigation" group
+											40 button Collapse the "Main Navigation" group
+										41 container
+											42 sortable Commissions Page settings Commissions Delete page Commissions
+												43 container
+													44 image
+													45 text Commissions
+													46 content list
+														47 button Page settings Commissions
+													48 button Delete page Commissions
+											49 sortable Sculpture Page settings Sculpture Delete page Sculpture
+												50 container
+													51 image
+													52 image
+													53 text Sculpture
+													54 content list
+														55 button Page settings Sculpture
+													56 button Delete page Sculpture
+											57 sortable Furnishings Page settings Furnishings Delete page Furnishings
+												58 container
+													59 image
+													60 text Furnishings
+													61 content list
+														62 button Page settings Furnishings
+													63 button Delete page Furnishings
+											64 sortable Gallery Page settings Gallery Delete page Gallery
+												65 container
+													66 image
+													67 text Gallery
+													68 content list
+														69 button Page settings Gallery
+													70 button Delete page Gallery
+											71 sortable Buy Page settings Buy Delete page Buy
+												72 container
+													73 image
+													74 text Buy
+													75 content list
+														76 button Page settings Buy
+													77 button Delete page Buy
+											78 sortable Blog Page settings Blog Delete page Blog
+												79 container
+													80 image
+													81 text Blog
+													82 content list
+														83 button Page settings Blog
+													84 button Delete page Blog
+											85 sortable Contact Page settings Contact Delete page Contact
+												86 container
+													87 image
+													88 text Contact
+													89 content list
+														90 button Page settings Contact
+													91 button Delete page Contact
+										92 container
+											93 heading Not Linked, Value: 2
+												94 text Not Linked
+											95 image
+											96 button Add a new page to the "Not Linked" navigation group
+											97 button Collapse the "Not Linked" navigation group
+										98 container
+											99 sortable Garden Sculpture Page settings Garden Sculpture Delete page Garden Sculpture
+												100 container
+													101 image
+													102 text Garden Sculpture
+													103 content list
+														104 button Page settings Garden Sculpture
+													105 button Delete page Garden Sculpture
+											106 sortable Commission Page settings Commission Delete page Commission
+												107 container
+													108 image
+													109 text Commission
+													110 content list
+														111 button Page settings Commission
+													112 button Delete page Commission
+											113 sortable Collaborate Page settings Collaborate Delete page Collaborate
+												114 container
+													115 image
+													116 text Collaborate
+													117 content list
+														118 button Page settings Collaborate
+													119 button Delete page Collaborate
+											120 sortable About Page settings About Delete page About
+												121 container
+													122 image
+													123 text About
+													124 content list
+														125 button Page settings About
+													126 button Delete page About
+											127 sortable Projects Page settings Projects Delete page Projects
+												128 container
+													129 image
+													130 text Projects
+													131 content list
+														132 button Page settings Projects
+													133 button Delete page Projects
+											134 sortable Services Page settings Services Delete page Services
+												135 container
+													136 image
+													137 text Services
+													138 content list
+														139 button Page settings Services
+													140 button Delete page Services
+											141 sortable Collection 2026 Page settings Collection 2026 Delete page Collection 2026
+												142 container
+													143 image
+													144 text Collection 2026
+													145 content list
+														146 button Page settings Collection 2026
+													147 button Delete page Collection 2026
+											148 sortable Digital Catalogue Page settings Digital Catalogue Delete page Digital Catalogue
+												149 container
+													150 image
+													151 text Digital Catalogue
+													152 content list
+														153 button Page settings Digital Catalogue
+													154 button Delete page Digital Catalogue
+											155 sortable Prints and Paintings Page settings Prints and Paintings Delete page Prints and Paintings
+												156 container
+													157 image
+													158 text Prints and Paintings
+													159 content list
+														160 button Page settings Prints and Paintings
+													161 button Delete page Prints and Paintings
+											162 sortable Collection Page settings Collection Delete page Collection
+												163 container
+													164 image
+													165 text Collection
+													166 content list
+														167 button Page settings Collection
+													168 button Delete page Collection
+											169 sortable FAQs Page settings FAQs Delete page FAQs
+												170 container
+													171 image
+													172 text FAQs
+													173 content list
+														174 button Page settings FAQs
+													175 button Delete page FAQs
+											176 sortable Partnership Terms Page settings Partnership Terms Delete page Partnership Terms
+												177 container
+													178 image
+													179 text Partnership Terms
+													180 content list
+														181 button Page settings Partnership Terms
+													182 button Delete page Partnership Terms
+											183 sortable Terms and Conditions Page settings Terms and Conditions Delete page Terms and Conditions
+												184 container
+													185 image
+													186 text Terms and Conditions
+													187 content list
+														188 button Page settings Terms and Conditions
+													189 button Delete page Terms and Conditions
+											190 sortable Shipping Policy Page settings Shipping Policy Delete page Shipping Policy
+												191 container
+													192 image
+													193 text Shipping Policy
+													194 content list
+														195 button Page settings Shipping Policy
+													196 button Delete page Shipping Policy
+											197 sortable Return and Refund Policy Page settings Return and Refund Policy Delete page Return and Refund Policy
+												198 container
+													199 container Return and Refund Policy
+														200 image
+														201 text Return and Refund Policy
+													202 content list
+														203 button Page settings Return and Refund Policy
+													204 button Delete page Return and Refund Policy
+											205 sortable Terms of Service Page settings Terms of Service Delete page Terms of Service
+												206 container
+													207 image
+													208 text Terms of Service
+													209 content list
+														210 button Page settings Terms of Service
+													211 button Delete page Terms of Service
+											212 sortable Privacy Policy Page settings Privacy Policy Delete page Privacy Policy
+												213 container
+													214 image
+													215 text Privacy Policy
+													216 content list
+														217 button Page settings Privacy Policy
+													218 button Delete page Privacy Policy
+											219 sortable Furnishings-archive Page settings Furnishings-archive Delete page Furnishings-archive
+												220 container
+													221 image
+													222 text Furnishings-archive
+													223 content list
+														224 button Page settings Furnishings-archive
+													225 button Delete page Furnishings-archive
+											226 sortable Sculpture-archive Page settings Sculpture-archive Delete page Sculpture-archive
+												227 container
+													228 image
+													229 text Sculpture-archive
+													230 content list
+														231 button Page settings Sculpture-archive
+													232 button Delete page Sculpture-archive
+											233 sortable Quinta Style Page settings Quinta Style Delete page Quinta Style
+												234 container
+													235 image
+													236 text Quinta Style
+													237 content list
+														238 button Page settings Quinta Style
+													239 button Delete page Quinta Style
+											240 sortable Home-archive Page settings Home-archive Delete page Home-archive
+												241 container
+													242 image
+													243 text Home-archive
+													244 content list
+														245 button Page settings Home-archive
+													246 button Delete page Home-archive
+											247 sortable Furnishings Prices Page settings Furnishings Prices Delete page Furnishings Prices
+												248 container
+													249 image
+													250 text Furnishings Prices
+													251 content list
+														252 button Page settings Furnishings Prices
+													253 button Delete page Furnishings Prices
+											254 sortable Sculpture Prices Page settings Sculpture Prices Delete page Sculpture Prices
+												255 container
+													256 image
+													257 text Sculpture Prices
+													258 content list
+														259 button Page settings Sculpture Prices
+													260 button Delete page Sculpture Prices
+											261 sortable Archived_Home Page settings Archived_Home Delete page Archived_Home
+												262 container
+													263 image
+													264 text Archived_Home
+													265 content list
+														266 button Page settings Archived_Home
+													267 button Delete page Archived_Home
+											268 sortable Home (Copy) Page settings Home (Copy) Delete page Home (Copy)
+												269 container
+													270 image
+													271 text Home (Copy)
+													272 content list
+														273 button Page settings Home (Copy)
+													274 button Delete page Home (Copy)
+											275 sortable Sculptor Page settings Sculptor Delete page Sculptor
+												276 container
+													277 image
+													278 text Sculptor
+													279 content list
+														280 button Page settings Sculptor
+													281 button Delete page Sculptor
+											282 sortable Digital Products 1 Page settings Digital Products 1 Delete page Digital Products 1
+												283 container
+													284 image
+													285 text Digital Products 1
+													286 content list
+														287 button Page settings Digital Products 1
+													288 button Delete page Digital Products 1
+											289 sortable Boldstone Sculpture Page settings Boldstone Sculpture Delete page Boldstone Sculpture
+												290 container
+													291 image
+													292 text Boldstone Sculpture
+													293 content list
+														294 button Page settings Boldstone Sculpture
+													295 button Delete page Boldstone Sculpture
+									296 button Deleted Pages
+									297 text Marketing Tools
+									298 image
+									299 text Custom Code
+									300 image
+									301 text System Pages
+									302 image
+									303 text Version 7.1
+								304 container Site preview and editing tools
+									305 button Edit
+									306 container
+										307 text Return and Refund Policy Page  ·  Published
+									308 content list
+										309 container
+											310 radio button Desktop View, Value: 1
+											311 radio button Mobile View, Value: 0
+										312 button Toggle Site Styles editing
+										313 button Preview
+								314 button Close full screen preview
+								315 container boldstone
+									316 HTML content Return and Refund Policy | Shop with Confidence – Learn More Now — boldstone, URL: caper-spinach-spcy.squarespace.com/return-and-refund-policy
+										317 container
+											318 container
+												319 button EDIT SITE HEADER
+												320 link Skip to Content, Value: caper-spinach-spcy.squarespace.com/return-and-refund-policy#page
+												321 container
+													322 link boldstone, Value: caper-spinach-spcy.squarespace.com/
+													323 container
+														324 link Commissions, Value: caper-spinach-spcy.squarespace.com/commission
+														325 link Sculpture, Value: caper-spinach-spcy.squarespace.com/
+														326 link Furnishings, Value: caper-spinach-spcy.squarespace.com/furnishings
+														327 link Gallery, Value: caper-spinach-spcy.squarespace.com/gallery
+														328 link Buy, Value: caper-spinach-spcy.squarespace.com/buy
+														329 link Blog, Value: caper-spinach-spcy.squarespace.com/blog
+														330 link Contact, Value: caper-spinach-spcy.squarespace.com/consultation-and-contact
+													331 link One item in cart, Value: caper-spinach-spcy.squarespace.com/cart
+												332 text EDIT HEADER
+											333 container
+												334 container
+													335 heading RETURN AND REFUND POLICY, Value: 2
+														336 text RETURN AND REFUND POLICY
+												337 container
+													338 container
+														339 text We have a 30-day return policy, which means you have 30 days after receiving your item to request a return.  To be eligible for a return, your item must be in the same condition that you received it, unworn or unused, with tags, and in its original packaging. You’ll also need the receipt or proof of purchase.  For change-of-mind returns, you are responsible for the actual return postage cost. If your item is damaged, faulty or incorrect, please contact us before returning it so we can arrange the return. To start a return, you can contact us at 
+														340 link info@boldstone.co.uk, Value: mailto:info@boldstone.co.uk
+														341 text . If your return is accepted, we’ll send you a return shipping label, as well as instructions on how and where to send your package. Items sent back to us without first requesting a return will not be accepted.  You can always contact us for any return question at 
+														342 link info@boldstone.co.uk, Value: mailto:info@boldstone.co.uk
+														343 text .
+														344 text Damages and issues
+														345 text Please inspect your order upon reception and contact us immediately if the item is defective, damaged or if you receive the wrong item, so that we can evaluate the issue and make it right.
+														346 text Exceptions / non-returnable items
+														347 text Certain types of items cannot be returned, like perishable goods (such as food, flowers, or plants), custom products (such as special orders or personalized items), and personal care goods (such as beauty products). We also do not accept returns for hazardous materials, flammable liquids, or gases. Please get in touch if you have questions or concerns about your specific item.  Unfortunately, we cannot accept returns on sale items or gift cards.
+														348 text Exchanges
+														349 text The fastest way to ensure you get what you want is to return the item you have, and once the return is accepted, make a separate purchase for the new item.
+														350 text Refunds
+														351 text We will notify you once we’ve received and inspected your return, and let you know if the refund was approved or not. If approved, you’ll be automatically refunded on your original payment method. Please remember it can take some time for your bank or credit card company to process and post the refund too.
+												352 text EDIT PAGE
+											353 container
+												354 button EDIT SITE FOOTER
+												355 container
+													356 container
+														357 link Privacy Policy, Value: caper-spinach-spcy.squarespace.com/privacy-policy
+														358 link Terms of Service, Value: caper-spinach-spcy.squarespace.com/terms-of-service
+														359 link Terms and Conditions, Value: caper-spinach-spcy.squarespace.com/terms-and-conditions
+														360 link Partnership Terms, Value: caper-spinach-spcy.squarespace.com/partnership-terms
+													361 container
+														362 link Copyright and Design Right, Value: caper-spinach-spcy.squarespace.com/copyright-and-design-right
+														363 link Shipping Policy , Value: caper-spinach-spcy.squarespace.com/shipping-policy
+														364 link Return and Refund Policy, Value: caper-spinach-spcy.squarespace.com/return-and-refund-policy
+													365 container
+														366 text Contact Us Directly:
+														367 link info@, Value: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+														368 link boldstonesculpture, Value: mailto:info@boldstonesculpture.com?cc=info%40boldstone.co.uk&subject=Inquiry%3A%20Boldstone%20Sculpture
+														369 link .com, Value: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+														370 link Frequently Asked Questions, Value: caper-spinach-spcy.squarespace.com/faqs
+														371 link About Sally Price, Value: caper-spinach-spcy.squarespace.com/about
+														372 link Garden Sculpture, Value: caper-spinach-spcy.squarespace.com/garden-sculpture
+														373 link Bespoke Commissions, Value: caper-spinach-spcy.squarespace.com/commission
+												374 text EDIT FOOTER
+											375 container Manage previously selected cookie options
+												376 button Cookie Preferences
+			377 pop-up button Tab search
+			378 container
+				379 tab group
+					380 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					381 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					382 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					383 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					384 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					385 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					386 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					387 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					388 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					389 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					390 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					391 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					392 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					393 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					394 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					395 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					396 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					397 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					398 tab (settable, boolean) Meta Business Suite, Value: off
+					399 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					400 tab (settable, boolean) Meta Business Suite, Value: off
+					401 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					402 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					403 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					404 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					405 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					406 tab (selected, settable, boolean) Return and Refund Policy | Shop with Confidence – Learn More Now — boldstone, Value: on
+			407 button New tab
+	408 close button
+	409 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	410 minimise button
+411 menu bar
+	412 Chrome
+	413 File
+	414 Edit
+	415 View
+	416 History
+	417 Bookmarks
+	418 Profiles
+	419 Tab
+	420 Window
+	421 Help
+
+The focused UI element is 199 container Return and Refund Policy

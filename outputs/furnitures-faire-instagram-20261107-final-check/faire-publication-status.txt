@@ -1,0 +1,463 @@
+Window: "Products – Faire", App: Google Chrome.
+0 standard window Products – Faire - Google Chrome – Tom, URL: faire.com/brand-portal/my-shop/products, Secondary Actions: Raise
+	1 container Products – Faire - Google Chrome – Tom, URL: faire.com/brand-portal/my-shop/products
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: faire.com/brand-portal/my-shop/products, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Products – Faire, URL: faire.com/brand-portal/my-shop/products
+						26 container
+							27 link Skip to main content, Value: faire.com/brand-portal/my-shop/products#main-content
+							28 text Action required:
+							29 container
+								30 text All UK brands will now be paid out in GBP! 
+								31 link Add a UK Bank Account, Value: faire.com/brand-portal/account?tab=payment
+								32 text  to continue being paid out for orders.
+							33 container
+								34 container Main
+									35 container
+										36 link Faire Logo, Value: faire.com/brand-portal
+										37 button Updates
+										38 button Collapse navigation
+										39 link Home, Value: faire.com/brand-portal
+										40 link Orders, Value: faire.com/brand-portal/orders
+										41 link Messages, Value: faire.com/brand-portal/messages
+										42 link Products, Value: faire.com/brand-portal/my-shop/products
+										43 link Bulk upload & export, Value: faire.com/brand-portal/my-shop/products/bulk-uploader
+										44 link Inventory, Value: faire.com/brand-portal/inventory
+										45 link Collections, Value: faire.com/brand-portal/my-shop/collections
+										46 link Performance, Value: faire.com/brand-portal/my-shop/products/performance
+										47 link Customers, Value: faire.com/brand-portal/customers
+										48 link Marketing, Value: faire.com/brand-portal/marketing
+										49 link Analytics, Value: faire.com/brand-portal/analytics
+										50 link My shop, Value: faire.com/brand-portal/my-shop/story
+										51 link Faire Direct, Value: faire.com/brand-portal/direct
+										52 link Settings, Value: faire.com/brand-portal/my-shop/settings
+										53 link Faire Academy, Value: learn.faire.com/
+										54 link Help Centre, Value: faire.com/support/brands
+									55 button Account menu
+									56 link View shop, Value: faire.com/brand/b_dddpsekzv4
+								57 heading Products, Value: 1
+									58 text Products
+								59 button Guide
+								60 pop-up button Add Products
+								61 container
+									62 button Keep your prices consistent everywhere you sell. You increased some prices, so we wanted to remind you of our pricing policy. Upload new spreadsheet
+									63 button Dismiss banner
+								64 container
+									65 button Set lead times on customizable products. Each customizable product can have its own lead time. Try it out
+									66 button Dismiss banner
+								67 container
+									68 button Add team members so they can help keep your catalog up-to-date with their own secure logins. Manage team
+									69 button Dismiss banner
+								70 button All 176
+								71 button Published 176
+								72 button Unpublished 0
+								73 button Drafts 0
+								74 container
+									75 image Search
+									76 text field (settable) Search products
+								77 pop-up button Last modified
+								78 switch Filter, Value: off
+								79 button Selling fast
+								80 text Select products to take an action
+								81 button Bulk edit-button
+								82 button Export-button
+								83 button (disabled) Publish-button
+								84 button (disabled) Unpublish-button
+								85 button Duplicate-button
+								86 button Delete-button
+								87 table
+									88 row
+										89 column header
+											90 text Row selection
+											91 Tick box Select all rows, Value: 0
+										92 column header
+											93 text Image
+										94 column header
+											95 text Product name
+										96 column header
+											97 text Options
+										98 column header
+											99 text WS price
+										100 column header
+											101 text Status
+										102 column header
+											103 text Availability
+											104 button Open availability guide
+										105 column header
+											106 text Recent sales
+										107 column header
+											108 text Improvement areas
+									109 row
+										110 cell
+											111 Tick box 0
+										112 cell
+											113 link Boldstone Acanthus Bloom - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_ax8wxbary5
+										114 cell
+											115 text 1 option
+										116 cell
+											117 text £35.57
+										118 cell
+											119 text Published
+										120 cell
+											121 text Available
+										122 cell
+											123 pop-up button More actions
+									124 row
+										125 cell
+											126 Tick box 0
+										127 cell
+											128 link Boldstone Acanthus Frond (Left) - Pewter Finish Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_7mt5susb9m
+										129 cell
+											130 text 1 option
+										131 cell
+											132 text £46.27
+										133 cell
+											134 text Published
+										135 cell
+											136 text Available
+										137 cell
+											138 pop-up button More actions
+									139 row
+										140 cell
+											141 Tick box 0
+										142 cell
+											143 link Boldstone Acanthus Frond (Left) - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_z7w2pwanxy
+										144 cell
+											145 text 1 option
+										146 cell
+											147 text £35.57
+										148 cell
+											149 text Published
+										150 cell
+											151 text Available
+										152 cell
+											153 pop-up button More actions
+									154 row
+										155 cell
+											156 Tick box 0
+										157 cell
+											158 link Boldstone Acanthus Moon - Gold Finish Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_urhxzanthg
+										159 cell
+											160 text 1 option
+										161 cell
+											162 text £76.13
+										163 cell
+											164 text Published
+										165 cell
+											166 text Available
+										167 cell
+											168 pop-up button More actions
+									169 row
+										170 cell
+											171 Tick box 0
+										172 cell
+											173 link Boldstone Acanthus Moon - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_gav945wsga
+										174 cell
+											175 text 1 option
+										176 cell
+											177 text £58.31
+										178 cell
+											179 text Published
+										180 cell
+											181 text Available
+										182 cell
+											183 pop-up button More actions
+									184 row
+										185 cell
+											186 Tick box 0
+										187 cell
+											188 link Boldstone Acanthus Twin Leaves - Bronze Finish Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_d8878r6sqp
+										189 cell
+											190 text 1 option
+										191 cell
+											192 text £46.27
+										193 cell
+											194 text Published
+										195 cell
+											196 text Available
+										197 cell
+											198 pop-up button More actions
+									199 row
+										200 cell
+											201 Tick box 0
+										202 cell
+											203 link Boldstone Acanthus Twin Leaves - Pale Blue And White Finish Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_z33rjrr8we
+										204 cell
+											205 text 1 option
+										206 cell
+											207 text £40.92
+										208 cell
+											209 text Published
+										210 cell
+											211 text Available
+										212 cell
+											213 pop-up button More actions
+									214 row
+										215 cell
+											216 Tick box 0
+										217 cell
+											218 link Boldstone Acanthus Twin Leaves - Pewter Finish Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_frj6khjjc2
+										219 cell
+											220 text 1 option
+										221 cell
+											222 text £46.27
+										223 cell
+											224 text Published
+										225 cell
+											226 text Available
+										227 cell
+											228 pop-up button More actions
+									229 row
+										230 cell
+											231 Tick box 0
+										232 cell
+											233 link Boldstone Acanthus Twin Leaves - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_7q8myh5fxv
+										234 cell
+											235 text 1 option
+										236 cell
+											237 text £35.57
+										238 cell
+											239 text Published
+										240 cell
+											241 text Available
+										242 cell
+											243 pop-up button More actions
+									244 row
+										245 cell
+											246 Tick box 0
+										247 cell
+											248 link Boldstone Ammonite Grande I (Left) - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_hwdnd4ffjt
+										249 cell
+											250 text 1 option
+										251 cell
+											252 text £161.15
+										253 cell
+											254 text Published
+										255 cell
+											256 text Available
+										257 cell
+											258 pop-up button More actions
+									259 row
+										260 cell
+											261 Tick box 0
+										262 cell
+											263 link Boldstone Ammonite Grande II (Right) - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_53kwqfqcmn
+										264 cell
+											265 text 1 option
+										266 cell
+											267 text £161.15
+										268 cell
+											269 text Published
+										270 cell
+											271 text Available
+										272 cell
+											273 pop-up button More actions
+									274 row
+										275 cell
+											276 Tick box 0
+										277 cell
+											278 link Boldstone Ammonite Petite I (Left) - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_evxqat3jux
+										279 cell
+											280 text 1 option
+										281 cell
+											282 text £51.06
+										283 cell
+											284 text Published
+										285 cell
+											286 text Available
+										287 cell
+											288 pop-up button More actions
+									289 row
+										290 cell
+											291 Tick box 0
+										292 cell
+											293 link Boldstone Ammonite Petite II (Right) - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_pqu2cnertt
+										294 cell
+											295 text 1 option
+										296 cell
+											297 text £51.06
+										298 cell
+											299 text Published
+										300 cell
+											301 text Available
+										302 cell
+											303 pop-up button More actions
+									304 row
+										305 cell
+											306 Tick box 0
+										307 cell
+											308 link Boldstone Ancient Cup Ring - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_vkspktm92u
+										309 cell
+											310 text 1 option
+										311 cell
+											312 text £35.57
+										313 cell
+											314 text Published
+										315 cell
+											316 text Available
+										317 cell
+											318 pop-up button More actions
+									319 row
+										320 cell
+											321 Tick box 0
+										322 cell
+											323 link Boldstone Ancient Spiral - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_j5n9pdm7t5
+										324 cell
+											325 text 1 option
+										326 cell
+											327 text £35.57
+										328 cell
+											329 text Published
+										330 cell
+											331 text Available
+										332 cell
+											333 pop-up button More actions
+									334 row
+										335 cell
+											336 Tick box 0
+										337 cell
+											338 link Boldstone Azure Marble-Effect Relief - Blue And White Finish Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_rz7dnwedcy
+										339 cell
+											340 text 1 option
+										341 cell
+											342 text £67.42
+										343 cell
+											344 text Published
+										345 cell
+											346 text Available
+										347 cell
+											348 pop-up button More actions
+									349 row
+										350 cell
+											351 Tick box 0
+										352 cell
+											353 link Boldstone Barbados Wave Relief Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_fmn2d7mghx
+										354 cell
+											355 text 1 option
+										356 cell
+											357 text £279.02
+										358 cell
+											359 text Published
+										360 cell
+											361 text Available
+										362 cell
+											363 pop-up button More actions
+									364 row
+										365 cell
+											366 Tick box 0
+										367 cell
+											368 link Boldstone Battersea Shellmoon I - White Wall Sculpture, Value: faire.com/brand-portal/my-shop/products/p_wpertszshn
+										369 cell
+											370 text 1 option
+										371 cell
+											372 text £96.06
+										373 cell
+											374 text Published
+										375 cell
+											376 text Available
+										377 cell
+											378 pop-up button More actions
+									379 row
+										380 cell
+											381 Tick box 0
+										382 cell
+											383 link Boldstone Battersea Shellmoon I Fountain - White Sculptural Water-Feature Panel, Value: faire.com/brand-portal/my-shop/products/p_5mfdrz7f5y
+										384 cell
+											385 text 1 option
+										386 cell
+											387 text £96.06
+										388 cell
+											389 text Published
+										390 cell
+											391 text Available
+										392 cell
+											393 pop-up button More actions
+									394 row
+										395 cell
+											396 Tick box 0
+										397 cell
+											398 link Boldstone Battersea Shellmoon II Fountain - White Sculptural Water-Feature Panel, Value: faire.com/brand-portal/my-shop/products/p_dts8tdqbje
+										399 cell
+											400 text 1 option
+										401 cell
+											402 text £96.06
+										403 cell
+											404 text Published
+										405 cell
+											406 text Available
+										407 cell
+											408 pop-up button More actions
+								409 container Pagination
+									410 content list
+										411 link Previous page, Value: faire.com/brand-portal/my-shop/products?page=1&productType=ALL
+										412 link Current page, page 1, Value: faire.com/brand-portal/my-shop/products?page=1&productType=ALL
+										413 link Go to page 2, Value: faire.com/brand-portal/my-shop/products?page=2&productType=ALL
+										414 link Go to page 3, Value: faire.com/brand-portal/my-shop/products?page=3&productType=ALL
+										415 link Go to page 4, Value: faire.com/brand-portal/my-shop/products?page=4&productType=ALL
+										416 link Go to page 5, Value: faire.com/brand-portal/my-shop/products?page=5&productType=ALL
+										417 link Go to page 9, Value: faire.com/brand-portal/my-shop/products?page=9&productType=ALL
+										418 link Next page, Value: faire.com/brand-portal/my-shop/products?page=2&productType=ALL
+							419 container Notifications Alt+T
+							420 text Products – Faire
+			421 pop-up button Tab search
+			422 container
+				423 tab group
+					424 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					425 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					426 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					427 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					428 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					429 tab (settable, boolean) Meta Business Suite, Value: off
+					430 tab group  group 🛍️ Catalogue and social updates – 2 Tabs, •  Studio | Saatchi Art United Kingdom, •  Complete your listing | Boldstone Islington Sh… – Expanded
+					431 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 🛍️ Catalogue and social updates, Value: off
+					432 tab (settable, boolean) Value: off, Complete your listing | Boldstone Islington Shellmoon Relief - White Wall sculpture | eBay – Part of group 🛍️ Catalogue and social updates
+					433 tab (selected, settable, boolean) Products – Faire, Value: on
+						434 button Close
+					435 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					436 tab (settable, boolean) Create listings, Value: off
+			437 button New tab
+	438 close button
+	439 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	440 minimise button
+441 menu bar
+	442 Chrome
+	443 File
+	444 Edit
+	445 View
+	446 History
+	447 Bookmarks
+	448 Profiles
+	449 Tab
+	450 Window
+	451 Help
+
+The focused UI element is 25 HTML content Products – Faire, URL: faire.com/brand-portal/my-shop/products

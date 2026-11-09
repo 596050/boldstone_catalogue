@@ -1,0 +1,19 @@
+heading Conversations, Value: 2
+											189 text Conversations
+										190 table
+											191 row
+												192 cell 0-2
+													193 text No messages matched your search. Try using 
+													194 link search options
+														195 text search options
+													196 text  such as sender, date, size and more.
+								197 container Side panel
+									198 tab group
+										199 tab (settable, integer) Calendar, Value: 0
+										200 tab (settable, integer) Keep, Value: 0
+										201 tab (settable, integer) Tasks, Value: 0
+										202 tab (settable, integer) Contacts, Value: 0
+										203 tab (settable, integer) Get Add-ons, Value: 0
+								204 button Hide side panel
+			205 scroll area
+				206 

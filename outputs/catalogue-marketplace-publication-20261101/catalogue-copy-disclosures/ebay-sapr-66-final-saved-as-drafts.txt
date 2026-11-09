@@ -1,0 +1,13 @@
+Browser tab: 961982982, Title: "Create listings", URL: "https://www.ebay.co.uk/bulksell?workspaceId=4839552253975&ru=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts&rp=sws".
+0 AXWebArea Create listings, URL: ebay.co.uk/bulksell?workspaceId=4839552253975&ru=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts&rp=sws
+	1 container Saved as drafts
+		2 container
+			3 heading Saved as drafts, Value: 2, ID: s0-2-0-15-3-0-@gridViewContainer-0-@app-footer-@call-to-actions-6-0-0-@dialog-dialog-title
+				4 text Saved as drafts
+			5 button
+		6 container
+			7 image Confirmation
+			8 text 66 listings are saved as drafts
+		9 link Description: Done, Value: ebay.co.uk/sh/lst/drafts
+
+The focused UI element is 5 button

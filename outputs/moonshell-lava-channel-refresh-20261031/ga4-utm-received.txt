@@ -1,0 +1,29 @@
+Browser tab: 961982131, Title: "Analytics | Realtime overview", URL: "https://analytics.google.com/analytics/web/#/a234700920p546648922/realtime/overview".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 108, 382
+~						107 list 1 2 -30 min -25 min -20 min -15 min -10 min -5 min -1 min Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 2 Active users Active users 1 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 1 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 0 Active users Active users 1 Active users Active users 1 Active users Active users 0 Active users
++							382 container Active users 0 Active users
+~					212 text #1 Lava Moonshell I - White — boldstone 4 36.36%
+~								229 text 4
+~								232 text boldstone | Secure Checkout
+~								234 text 2
+~								237 text Azure - Blue and White Marbled Panel — boldstone
++					383 table
++						384 row
++							385 cell
++								386 text EVENT PARAMETER VALUE
++							387 cell
++								388 pop up button EVENT COUNT
++						389 row
++							390 cell
++								391 text https://boldstonesculpture.com/buy/p/moonshell-lava-1-white?utm_source=facebook&utm_medium=social&utm_campaign=wall_sculptures_verification
++							392 cell
++								393 text 3
++					394 container
++						395 text 1 – 1 of 1
++						396 button (disabled) Previous page
++						397 button (disabled) Next page
++		398 container https://boldstonesculpture.com/buy/p/moonshell-lava-1-white?utm_source=facebook&utm_medium=social&utm_campaign=wall_sculptures_verification
++			399 container
++				400 text HTTPS://BOLDSTONESCULPTURE.COM/BUY/P/MOONSHELL-LAVA-1-WHITE?UTM_SOURCE=FACEBOOK&UTM_MEDIUM=SOCIAL&UTM_CAMPAIGN=WALL_SCULPTURES_VERIFICATION Event count 3 (100%)
+The focused UI element is 1 AXWebArea Analytics | Realtime overview, URL: analytics.google.com/analytics/web/#/a234700920p546648922/realtime/overview

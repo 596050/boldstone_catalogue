@@ -1,0 +1,243 @@
+Window: "Feeds | Microsoft Advertising", App: Google Chrome.
+0 standard window Feeds | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, Secondary Actions: Raise, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feeds?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372
+	1 container Feeds | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feeds?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feeds?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Feeds | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feeds?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372
+						27 container
+							28 container Skip to main content
+								29 link Skip to main content, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/import?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372#main
+							30 container global menu
+								31 button Microsoft Advertising
+								32 button Switch user accounts. Current selection: Boldstone (G1459Y2Q)
+								33 container
+									34 combo box (settable) Search Microsoft Advertising
+									35 button clear
+								36 button Copilot
+								37 button Notifications
+								38 button   Notifications
+								39 pop-up button Help
+								40 button New features
+								41 button Open account panel
+							42 container Banner message
+								43 text You need a primary payment method before your ads will run.
+								44 link Add a payment method now, Value: ads.microsoft.com/cc/PaymentMethods?aid=187335961&cid=255124527&uid=193182372&showTaxForm=False
+							45 tab group
+								46 tab (settable, integer) Campaigns, Value: 0
+								47 tab (settable, integer) Conversions, Value: 0
+								48 tab (settable, integer) Ads Studio, Value: 0
+								49 tab (settable, integer) Import, Value: 0
+								50 tab (settable, integer) Reporting, Value: 0
+								51 tab (selected) Merchant Center, Value: 1
+								52 tab (settable, integer) Billing, Value: 0
+								53 tab (settable, integer) Settings, Value: 0
+								54 tab (settable, integer) Tools, Value: 0
+							55 container breadcrumb
+								56 content list
+									57 button All stores
+									58 button Boldstone Sculpture
+									59 button (disabled) Feeds
+							60 container
+								61 button Overview
+								62 button Collapse menu
+								63 button Diagnostics
+								64 button Products
+								65 button Feeds
+								66 button Import
+								67 button Promotions
+								68 button Settings
+							69 container
+								70 container
+									71 heading Feeds, Value: 1
+										72 text Feeds
+									73 button Import from Google Ads
+									74 button Create feed
+								75 container
+									76 button Feed name
+									77 pop-up button Add filter
+										78 text Add filter
+									79 pop-up button Settings
+									80 table Data
+										81 row Select all rows Feed name, sortable Resize column (current width: 220px, double-click to reset to 220px) Input method Resize column (current width: 150px, double-click to reset to 150px) Type Resize column (current width: 140px, double-click to reset to 140px) Last updated, sortable Resize column (current width: 140px, double-click to reset to 140px) Status Resize column (current width: 130px, double-click to reset to 130px) Expiration Resize column (current width: 140px, double-click to reset to 140px) Lan
+											82 cell
+												83 Tick box Select all rows, Value: 0
+											84 column header
+												85 container
+													86 pop-up button Feed name, sortable
+													87 button Resize column (current width: 220px, double-click to reset to 220px), Help: Resize column (double-click to reset)
+											88 column header
+												89 container
+													90 text Input method
+													91 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											92 column header
+												93 container
+													94 text Type
+													95 button Resize column (current width: 140px, double-click to reset to 140px), Help: Resize column (double-click to reset)
+											96 column header
+												97 container
+													98 pop-up button Last updated, sortable
+													99 button Resize column (current width: 140px, double-click to reset to 140px), Help: Resize column (double-click to reset)
+											100 column header
+												101 container
+													102 text Status
+													103 button Resize column (current width: 130px, double-click to reset to 130px), Help: Resize column (double-click to reset)
+											104 column header
+												105 container
+													106 text Expiration
+													107 button Resize column (current width: 140px, double-click to reset to 140px), Help: Resize column (double-click to reset)
+											108 column header
+												109 container
+													110 text Language
+													111 button Resize column (current width: 130px, double-click to reset to 130px), Help: Resize column (double-click to reset)
+											112 column header
+												113 container
+													114 text Feed label
+													115 button Resize column (current width: 130px, double-click to reset to 130px), Help: Resize column (double-click to reset)
+											116 column header
+												117 container
+													118 text Target regions
+													119 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+										120 container
+											121 row Select row Click to view details page of feed Default Catalog Manual Upload Online Product 7 Nov 2026 Test feed Edit feed Default Catalog 7 Dec 2026 English GB United Kingdom
+												122 cell
+													123 Tick box Select row, Value: 0
+												124 cell
+													125 link Click to view details page of feed Default Catalog, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&uid=193182372
+												126 cell
+													127 text Manual Upload
+												128 cell
+													129 text Online Product
+												130 cell
+													131 text 7 Nov 2026
+												132 cell
+													133 text Test feed
+													134 button Edit feed Default Catalog
+												135 cell
+													136 text 7 Dec 2026
+												137 cell
+													138 text English
+												139 cell
+													140 text GB
+												141 cell
+													142 text United Kingdom
+											143 row Select row Click to view details page of feed GoogleImport_5664655454_20261107211433 Google Import Online Product 8 Nov 2026 Active 8 Dec 2026 English US United States
+												144 cell
+													145 Tick box Select row, Value: 0
+												146 cell
+													147 link Click to view details page of feed GoogleImport_5664655454_20261107211433, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830968&aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&uid=193182372
+												148 cell
+													149 text Google Import
+												150 cell
+													151 text Online Product
+												152 cell
+													153 text 8 Nov 2026
+												154 cell
+													155 text Active
+												156 cell
+													157 text 8 Dec 2026
+												158 cell
+													159 text English
+												160 cell
+													161 text US
+												162 cell
+													163 text United States
+									164 container Pagination
+										165 container
+											166 text Rows per page:
+											167 pop-up button Rows per page:, Value: 20
+												168 (selected) 20
+											169 text 1 of 1
+											170 button (disabled) previous page
+											171 button (disabled) next page
+									172 text © 2026 Microsoft
+									173 content list
+										174 link Legal, Value: ads.microsoft.com/tc.aspx
+										175 link Privacy & Cookies, Value: go.microsoft.com/fwlink/?LinkId=248681
+										176 link Advertise, Value: go.microsoft.com/fwlink/?LinkId=258668
+										177 link Developers, Value: go.microsoft.com/fwlink/?linkid=2333449
+										178 link Support, Value: go.microsoft.com/fwlink/?LinkId=258669
+										179 link Blog, Value: go.microsoft.com/fwlink/?LinkId=395064
+										180 link Community, Value: go.microsoft.com/fwlink/?linkid=2325500&clcid=0x409
+										181 link Consumer Health Privacy, Value: go.microsoft.com/fwlink/?linkid=2259814
+										182 button Help
+			183 pop-up button Tab search
+			184 container
+				185 tab group
+					186 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					187 tab group  group ✅Claude – 1 Tab, •  Feeds | Microsoft Advertising – Expanded
+					188 tab (selected, settable, boolean) Feeds | Microsoft Advertising – Part of group ✅Claude, Value: on
+					189 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					190 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					191 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					192 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					193 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					194 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					195 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					196 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					197 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					198 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					199 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					200 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					201 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					202 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					203 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					204 tab (settable, boolean) Meta Business Suite, Value: off
+					205 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					206 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					207 tab group  group ✅Claude – 1 Tab, •  Brands - Manufacturer Center – Expanded
+					208 tab (settable, boolean) Brands - Manufacturer Center – Part of group ✅Claude, Value: off
+					209 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					210 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					211 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					212 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.0 GB, Value: off
+					213 tab (settable, boolean) Boldstone · Review room, Value: off
+					214 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					215 tab (settable, boolean) Overview - Merchant Center, Value: off
+					216 tab (settable, boolean) Pinterest, Value: off
+			217 button New tab
+	218 close button
+	219 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	220 minimise button
+221 menu bar
+	222 Chrome
+	223 File
+	224 Edit
+	225 View
+	226 History
+	227 Bookmarks
+	228 Profiles
+	229 Tab
+	230 Window
+	231 Help
+
+The focused UI element is 65 button Feeds

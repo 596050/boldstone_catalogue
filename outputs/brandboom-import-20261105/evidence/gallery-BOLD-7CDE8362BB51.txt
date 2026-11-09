@@ -1,0 +1,377 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: BOLD-7CDE8362BB51, Placeholder: Search Products
+									48 link
+								49 button All
+									50 container
+										51 Tick box 0
+									52 text All
+								53 container
+									54 text 1  /  1
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container Boldstone Bone Spiral II (Wide) - White Wall sculpture BOLD-7CDE8362BB51 WHITE MARBLE STONE FINISH 158.24 GBP
+										64 container
+											65 Unlabelled image /000347055968C810_M.jpg
+											66 text Boldstone Bone Spiral II (Wide) - White Wall sculpture
+											67 text BOLD-7CDE8362BB51 WHITE MARBLE STONE FINISH
+											68 container
+												69 text 158.24  GBP
+							70 container
+								71 content list
+									72 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								73 container
+									74 heading Presentations, Value: 5
+										75 text Presentations
+									76 button New
+									77 content list
+										78 link ALL, Value: manage.brandboom.com/products/s/111089#
+										79 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									80 container
+										81 link
+											82 image
+										83 search text field (settable) Search Presentations
+										84 link
+											85 image
+								86 heading Ship Windows, Value: 5
+									87 text Ship Windows
+								88 content list
+									89 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									90 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								91 text No active ship windows
+							92 link Reset
+								93 text Reset
+							94 button Apply
+							95 text PRODUCT STATUS
+							96 text Active
+							97 text Inactive
+							98 text Archived
+							99 text Corrupted
+							100 text No Images
+							101 text SORT BY
+							102 pop-up button Newest First
+								103 (selected) Newest First
+							104 text SHIP DATE RANGE
+							105 container
+								106 image
+								107 text field (settable) Click to select range
+							108 text No Date Range
+							109 text CREATE DATE RANGE
+							110 container
+								111 image
+								112 text field (settable) Click to select range
+							113 text SIZES
+							114 text field (settable) S, M, L
+							115 text VENDORS TYPES
+							116 link
+								117 image
+							118 text No Types
+							119 text Mens
+							120 text Womens
+							121 text CATEGORIES
+							122 link
+								123 image
+							124 link
+								125 image
+							126 text No Categories
+							127 text Sweater
+							128 text SEASONS
+							129 link
+								130 image
+							131 link
+								132 image
+							133 text No Seasons
+							134 container
+								135 container
+									136 Tick box Create another, Value: 0
+									137 text Create another
+								138 button Save
+								139 container
+									140 Unlabelled image /000347055968C810_M.jpg
+									141 container
+										142 Unlabelled image /000347055968C810_S.jpg
+										143 button STANDARD
+										144 Unlabelled image /00034705595AD741_S.jpg
+										145 button STANDARD
+										146 Unlabelled image /00034705588FB0E7_S.jpg
+										147 button STANDARD
+										148 Unlabelled image /000347055973BF1A_S.jpg
+										149 button STANDARD
+										150 Unlabelled image /000347055908954C_S.jpg
+										151 button STANDARD
+										152 Unlabelled image /000347055910D082_S.jpg
+										153 button STANDARD
+										154 Unlabelled image /000347055921BE89_S.jpg
+										155 button STANDARD
+										156 Unlabelled image /000347055930DAE9_S.jpg
+										157 button STANDARD
+										158 Unlabelled image /00034705594C3EFB_S.jpg
+										159 button STANDARD
+										160 image
+										161 image
+									162 image
+									163 text 9 / Unlimited
+									164 image
+									165 text 0 / 1
+									166 text Drag to reorder
+									167 container
+										168 text Style ID *
+										169 text BOLD-7CDE8362BB51
+									170 container
+										171 text Options
+										172 link White marble stone finish
+											173 text White marble stone finish
+									174 container
+										175 text Sizes
+										176 text One sculpture
+									177 text Barcode
+									178 container
+										179 button
+										180 text field (settable)
+									181 text Name
+									182 text field (settable) Boldstone Bone Spiral II (Wide) - White Wall sculpture
+									183 container Price
+										184 container
+											185 text Price
+											186 text field (settable) Value: 158.24, Placeholder: Enter
+									187 container Retail
+										188 container
+											189 text Retail
+											190 text field (settable) Value: 0.00, Placeholder: Enter
+									191 text Qty Min
+									192 text field (settable) 1
+									193 text Vendor
+									194 text field (settable)
+									195 text Type
+									196 text field (settable) Home Decor
+									197 text Category
+									198 text field (settable) Wall Sculpture
+									199 text Taxonomy
+									200 text field (settable) Select
+									201 text Season
+									202 text field (settable)
+									203 text Ship Date
+									204 text field (settable)
+									205 container
+										206 text HS Code
+										207 text field (settable) HS Code
+									208 container Country Of Origin
+										209 container
+											210 text Country Of Origin
+											211 button -
+									212 container
+										213 text Description
+										214 container
+											215 text An organic spiral winds through this relief, bringing together the structure of natural forms and the movement of a curling line. Light settles along the raised contours and deepens the spaces between them.
+											216 text The result is quietly sculptural, with a rhythm that rewards both a distant view and a closer look.
+											217 text The white finish keeps the focus on the form and its changing shadows.
+											218 text Companion pieces: This is one piece of a coordinating pair with Bone Spiral I (Narrow). Companion sculptures are sold separately; this listing is for one sculpture only.
+											219 text Brand: Boldstone
+											220 text Product type: Wall sculpture
+											221 text Model: Bone Spiral II (Wide) - White (BOLD-7CDE8362BB51)
+											222 text Colour / appearance: White marble stone finish
+											223 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											224 text Material: Made from a gypsum-based material.
+											225 text Dimensions: 55 cm high × 55 cm wide × 5–7 cm deep
+											226 text Weight: Approximately 10–12 kg per panel
+											227 text Use: Suitable for outdoor use and indoor display.
+											228 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											229 text Availability: Ready to dispatch
+											230 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											231 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											232 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							233 link
+								234 image
+							235 container
+								236 content list
+									237 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									238 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								239 container
+									240 button Upload Images
+									241 button
+									242 button
+									243 button
+								244 container
+									245 Unlabelled image /00011059390A4080_S.avif
+									246 text jewelry-watch
+									247 Unlabelled image /00011059388E43A7_S.avif
+									248 text toys-dinosaur
+									249 Unlabelled image /00011059387A69BA_S.avif
+									250 text baby-kidswear-t
+									251 Unlabelled image /000110593863557B_S.avif
+									252 text pet-sticks
+									253 Unlabelled image /00011059385C1D4E_S.avif
+									254 text apparel-t-shirt
+									255 Unlabelled image /00011059384494BB_S.avif
+									256 text footwear-shoes
+									257 Unlabelled image /000110593837D96A_S.avif
+									258 text beauty-cream
+									259 Unlabelled image /00011059382B4683_S.avif
+									260 text home-pitcher
+									261 Unlabelled image /00007087863E986B_S.avif
+									262 text BOOM1111
+									263 Unlabelled image /0000022409830BD3_S.avif
+									264 text BOOM1830
+									265 Unlabelled image /00000224097C30D6_S.avif
+									266 text BOOM1705
+									267 Unlabelled image /00000224096AD0BE_S.avif
+									268 text BOOM1100
+							269 button Close
+							270 text Search Products
+							271 button Scan barcodes
+							272 container
+								273 link
+									274 image
+								275 search text field (settable) Search for Products
+							276 text RESULTS
+							277 button Open Intercom Messenger
+							278 link Dismiss
+								279 text Dismiss
+							280 link Product Import Complete
+								281 text Product Import Complete
+							282 button Refresh
+			283 pop-up button Tab search
+			284 container
+				285 tab group
+					286 tab (settable, boolean) Products – Faire, Value: off
+					287 tab (settable, boolean) Gumtree | Free classified ads from the #1 classifieds site in the UK, Value: off
+					288 tab (settable, boolean) Sign in to your Supplier account | AppScenic, Value: off
+					289 tab (settable, boolean) Shoppe Object, Value: off
+					290 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					291 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					292 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					293 tab (settable, boolean) sell on wholesale central - Google Search, Value: off
+					294 tab (settable, boolean) Display Your Products to Millions of Buyers Worldwide., Value: off
+					295 tab (settable, boolean) become-a-seller-new | Wholesale Prices | Tradeling, Value: off
+					296 tab (settable, boolean) Marketplace FAQ for Sellers | Brandboom Help Center, Value: off
+					297 tab (settable, boolean) Online Sales FAQ - TICA, Value: off
+					298 tab (settable, boolean) Carro Migration FAQ, Value: off
+					299 tab (settable, boolean) Join Us | CREOATE, Value: off
+					300 tab (settable, boolean) MOM - Sell your products, Value: off
+					301 tab (settable, boolean) Ankorstore | Wholesale Marketplace Home to Europe's Best Brands, Value: off
+					302 tab (settable, boolean) See how virtual showrooms sell, Value: off
+					303 tab (settable, boolean) Wholesale Marketplace: Get Discovered by Retailers | NuORDER by Lightspeed, Value: off
+					304 tab (settable, boolean) Sell on Syncee, Value: off
+					305 tab (settable, boolean) Become a Spocket Supplier - Sell to 100,000+ Retailers Free, Value: off
+					306 tab (settable, boolean) Become a verified Avasam supplier, Value: off
+					307 tab (settable, boolean) Advertise Your Wholesale Business - Would you like to expand your business?, Value: off
+					308 tab (settable, boolean) eSources UK Help | Managing Your Supplier Profile, Value: off
+					309 tab (settable, boolean) Gift Wholesalers - Gift Shop Wholesalers, Value: off
+					310 tab (settable, boolean) Sell on Tesco Marketplace | Reach millions of UK shoppers, Value: off
+					311 tab (settable, boolean) RangeMe, Value: off
+					312 tab (settable, boolean) Art Gallery | Buy Original British Art Online, Value: off
+					313 tab (settable, boolean) Original art for sale, Value: off
+					314 tab (settable, boolean) 25+ Handmade Marketplaces for Artisans to Sell Crafts, Art, Gifts Online - MultiMerch, Value: off
+					315 tab (settable, boolean) 250+ Websites Directory for Artists to Sell Art Online, Value: off
+					316 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish, Value: off
+					317 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					318 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					319 tab (settable, boolean) Wholesale Central | Leading Source for Wholesale Products & Suppliers, Value: off
+					320 tab (settable, boolean) New York City Show Exhibitor Application, Value: off
+					321 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					322 tab (settable, boolean) Booth activation - Booth customization, Value: off
+					323 tab (settable, boolean) Romans Surviving Rome’s Collapse, Value: off
+					324 tab (settable, boolean) PayPal, Value: off
+					325 tab (settable, boolean) Verification code to reset your PayPal password - info@boldstone.co.uk - Thomas Price Mail, Value: off
+					326 tab (settable, boolean) ChatGPT, Value: off
+					327 tab (settable, boolean) _20261105_125118_b5c8aa3a-e88c-489b-bb71-04f4e23ce0ea.png (2048×2048), Value: off
+					328 tab (settable, boolean) _20261105_124942_a2ea11ea-9588-4814-921b-1b8119944376.png (2048×2048), Value: off
+					329 tab (settable, boolean) 888309629_1523348299846656_5333981695044073670_n.jpg (947×2048), Value: off
+					330 tab (settable, boolean) 880004104_1873677580468638_5195249294559980998_n.jpg (947×2048), Value: off
+					331 tab (settable, boolean) Photo 31-03-2025, 12 41 58.jpg, Value: off
+					332 tab (settable, boolean) Value: off, Elegant Swan Marble Side Table with Artistic White Base – 50cm — boldstone - High memory usage - 955 MB
+					333 tab (settable, boolean) Marbled Circle - Turquoise — boldstone, Value: off
+					334 tab (settable, boolean) (1) Home / X, Value: off
+					335 tab (settable, boolean) SEO opportunity audit, Value: off
+					336 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					337 tab (settable, boolean) Contact us - Glassette, Value: off
+					338 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					339 tab (settable, boolean) Sell on Artsper, Value: off
+					340 tab (settable, boolean) ChatGPT, Value: off
+					341 tab (settable, boolean) (5) Boldstone Sculpture | Commerce Manager, Value: off
+					342 tab group  group ✅Claude – 1 Tab, •  Boldstone Sculpture | Products – Expanded
+					343 tab (settable, boolean) Boldstone Sculpture | Products – Part of group ✅Claude, Value: off
+					344 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+					345 tab group  group 🗿 Product completion – 1 Tab, •  about:blank – Expanded
+					346 tab (settable, boolean) about:blank – Part of group 🗿 Product completion, Value: off
+			347 button New tab
+	348 close button
+	349 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	350 minimise button
+351 menu bar
+	352 Chrome
+	353 File
+	354 Edit
+	355 View
+	356 History
+	357 Bookmarks
+	358 Profiles
+	359 Tab
+	360 Window
+	361 Help
+
+Selected text: ```
+￼￼￼￼
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

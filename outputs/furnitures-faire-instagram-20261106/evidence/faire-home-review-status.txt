@@ -1,0 +1,47 @@
+Window: "Home – Faire", App: Google Chrome.
+0 Window, Secondary Actions: Cancel, Pick
+	1 menu Secondary Actions: Cancel
+		2 Minimise, ID: performMiniaturize:
+		3 Minimise All, ID: miniaturizeAll:
+		4 Zoom, ID: performZoom:
+		5 Zoom All, ID: zoomAll:
+		6 Fill
+		7 Centre
+		8 Move & Resize
+			9 menu Secondary Actions: Cancel
+				10 (disabled) Halves
+				11 Left
+				12 Right
+				13 Top
+				14 Bottom
+				15 (disabled) Quarters
+				16 Top Left
+				17 Top Right
+				18 Bottom Left
+				19 Bottom Right
+				20 (disabled) Arrange
+				21 Left & Right
+				22 Left & Quarters
+				23 Right & Left
+				24 Right & Quarters
+				25 Top & Bottom
+				26 Top & Quarters
+				27 Bottom & Top
+				28 Bottom & Quarters
+				29 Quarters
+				30 (disabled) Return to Previous Size
+		31 Full-Screen Tile
+			32 menu Secondary Actions: Cancel
+				33 Left of Screen
+				34 Right of Screen
+		35 (disabled) Remove Window from Set
+		36 Move to Built-in Retina Display
+		37 Name window…, ID: commandDispatch:
+		38 Downloads, ID: commandDispatch:
+		39 Extensions, ID: commandDispatch:
+		40 Task manager, ID: commandDispatch:
+		41 Bring All to Front, ID: arrangeInFront:
+		42 Arrange in Front, ID: alternateArrangeInFront:
+		43 Home – Faire, ID: makeKeyAndOrderFront:
+		44 Sign in to manage your property | Booking.com, ID: makeKeyAndOrderFront:
+		45 Watch The Terminal List - S2 | Prime Video, ID: makeKeyAndOrderFront:

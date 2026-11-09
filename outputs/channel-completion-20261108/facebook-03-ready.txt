@@ -1,0 +1,257 @@
+Window: "Meta Business Suite", App: Google Chrome.
+0 standard window Meta Business Suite - Google Chrome – Tom, Secondary Actions: Raise, URL: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+	1 container Meta Business Suite - Google Chrome – Tom, URL: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Meta Business Suite, URL: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+						27 container
+							28 container
+								29 container
+									30 heading Create post, Value: 1
+										31 text Create post
+									32 container
+										33 image
+										34 heading Want to create an ad post?, Value: 4
+											35 text Want to create an ad post?
+										36 button Close ​
+										37 button See more
+									38 container Post to
+										39 heading Post to, Value: 3
+											40 text Post to
+										41 container
+											42 text Post to
+											43 combo box (settable) Post to Boldstone Sculpture, Value: ​ Facebook Boldstone Sculpture ​
+												44 container
+													45 container
+														46 image Facebook
+													47 text Boldstone Sculpture
+													48 image
+									49 container Media
+										50 heading Media, Value: 3
+											51 text Media
+										52 text Share photos and videos.
+										53 container
+											54 content list
+												55 container
+													56 text 2048 x 2048
+													57 image
+													58 text 1
+													59 button Edit photo ​
+													60 button Edit ​
+													61 button Remove Photo ​
+											62 button Add photo/video
+									63 container Post details
+										64 heading Post details, Value: 3
+											65 text Post details
+										66 container
+											67 switch Make this an ad post, Value: off
+											68 text Make this an ad post
+											69 heading Text, Value: 4
+												70 text Text
+											71 text entry area (settable) Write in the dialogue box to include text with your post., Value: 
+
+												72 text Cultivation Folds Relief - White
+												73 text A landscape of folds, made visible by the light.
+												74 text Cultivation Folds Relief combines broad, sweeping curves with a closely spaced fan of ridges. The meeting of the two gives the panel its shifting pattern of light and shadow.
+												75 text 70 × 50 × 6 cm. Made from a gypsum-based material. Suitable for outdoor use and indoor display.
+												76 text Part of the coordinating folds group with Folded Fan, Fold and Unfold IV and Folded Swan Wing. Each sculpture is sold separately.
+												77 text All designs can be customised, and completely new commissions can be developed with designer Sally Price.
+												78 text View this sculpture and order: https://boldstonesculpture.com/buy/p/cultivation-folds-white?utm_source=facebook&utm_medium=social&utm_campaign=wall_sculptures_20261108_evening&utm_content=CF-1-70.50
+											79 button Click to open hashtag menu. ​
+											80 button Choose emoji ​
+											81 button Write post in another language ​
+											82 image
+											83 text Write with AI
+											84 link Fix grammar, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											85 link Shorter, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											86 link Longer, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											87 link Funny, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											88 link Professional, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											89 link More, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											90 button Feeling/activity
+											91 button Location
+											92 button Get messages
+											93 button Get WhatsApp messages
+											94 button (disabled) A/B test
+											95 button More features
+									96 container
+										97 heading Schedule, Value: 3
+											98 text Schedule
+										99 text Set date and time
+										100 switch Set date and time, Value: off
+									101 container
+										102 heading Share to, Value: 3
+											103 text Share to
+										104 switch Share to Facebook story, Value: on
+										105 image Facebook
+										106 text Boldstone Sculpture Facebook story ・ Public
+									107 container Privacy settings
+										108 heading Privacy settings, Value: 3
+											109 text Privacy settings
+										110 text Adjust your privacy settings to control who can see your post in Feed, Watch, search results and on your profile.
+										111 container
+											112 table
+												113 row Public Anyone on or off Facebook will be able to see your post.
+													114 cell
+														115 container
+															116 container
+																117 radio button Public Anyone on or off Facebook will be able to see your post., Value: 1
+															118 text Public Anyone on or off Facebook will be able to see your post.
+												119 row Restricted Choose certain people on Facebook who can see your post.
+													120 cell
+														121 container
+															122 container
+																123 radio button Restricted Choose certain people on Facebook who can see your post., Value: 0
+															124 text Restricted Choose certain people on Facebook who can see your post.
+									125 container
+										126 switch (disabled) Boost, Value: off
+										127 text Boost
+										128 button Cancel
+										129 button Finish later
+										130 button Publish
+									131 container
+										132 heading Facebook Feed preview, Value: 3
+											133 text Facebook Feed preview
+										134 container
+											135 toggle button ​, Value: 1
+												136 image
+											137 toggle button ​, Value: 0
+												138 image
+								139 button Meta AI business assistant
+								140 container
+									141 button Meta Business Suite
+									142 button Pressable
+									143 container Links
+										144 text Links
+										145 content list
+											146 container
+												147 link Home, Value: business.facebook.com/latest/home?business_id=2380586078685156&asset_id=103781478537396
+												148 text Home
+											149 container
+												150 link Notifications
+													151 text Notifications
+												152 text Notifications
+											153 container
+												154 link Ads Manager
+													155 text Ads Manager
+												156 text Ads Manager
+											157 container
+												158 link Inbox, Value: business.facebook.com/latest/inbox?business_id=2380586078685156&asset_id=103781478537396
+												159 text Inbox
+											160 container
+												161 link Content, Value: business.facebook.com/latest/posts?business_id=2380586078685156&asset_id=103781478537396
+												162 text Content
+											163 container
+												164 link Creator Marketing, Value: business.facebook.com/creator_marketing_hub/overview/?business_id=2380586078685156&asset_id=103781478537396&nav_ref=mbs_all_tools&ad_account_id=878195225362673&selected_business_ig_user_id=17841407266349160&selected_business_page_id=103781478537396
+												165 text Creator Marketing
+											166 container
+												167 link Planner, Value: business.facebook.com/latest/content_calendar?business_id=2380586078685156&asset_id=103781478537396
+												168 text Planner
+											169 container
+												170 link Ads, Value: business.facebook.com/latest/ad_center/ads_summary?business_id=2380586078685156&asset_id=103781478537396
+												171 text Ads
+											172 container
+												173 link Insights, Value: business.facebook.com/latest/insights?business_id=2380586078685156&asset_id=103781478537396
+												174 text Insights
+											175 container
+												176 link Monetisation, Value: business.facebook.com/latest/monetization?business_id=2380586078685156&asset_id=103781478537396
+												177 text Monetisation
+											178 container
+												179 link All tools
+													180 text All tools
+												181 text All tools
+											182 button Edit sidebar navigation
+									183 container
+										184 link Search
+											185 text Search
+										186 text Search
+										187 image
+									188 container Links
+										189 text Links
+										190 content list
+											191 container
+												192 link Settings, Value: business.facebook.com/latest/settings/business_users?business_id=2380586078685156
+												193 text Settings
+									194 container
+										195 link Help
+											196 text Help
+										197 text Help
+										198 image
+			199 pop-up button Tab search
+			200 container
+				201 tab group
+					202 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					203 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					204 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					205 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					206 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					207 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					208 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					209 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					210 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					211 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					212 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					213 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					214 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					215 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					216 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					217 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					218 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					219 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					220 tab (settable, boolean) Meta Business Suite, Value: off
+					221 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					222 tab (selected, settable, boolean) Meta Business Suite, Value: on
+					223 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					224 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					225 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					226 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					227 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					228 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 999 MB, Value: off
+					229 tab (settable, boolean) Boldstone · Review room, Value: off
+			230 button New tab
+	231 close button
+	232 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	233 minimise button
+234 menu bar
+	235 Chrome
+	236 File
+	237 Edit
+	238 View
+	239 History
+	240 Bookmarks
+	241 Profiles
+	242 Tab
+	243 Window
+	244 Help
+
+The focused UI element is 71 text entry area (settable) Write in the dialogue box to include text with your post., Value: 

@@ -1,0 +1,109 @@
+Window: "Complete your listing | Boldston…ef - White Wall sculpture | eBay", App: Google Chrome.
+0 standard window Secondary Actions: Raise, Complete your listing | Boldstone Quarter Moon Relief - White Wall sculpture | eBay - Google Chrome – Tom, URL: ebay.co.uk/lstng?draftId=5456511587111&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+	1 container Complete your listing | Boldstone Quarter Moon Relief - White Wall sculpture | eBay - Google Chrome – Tom, URL: ebay.co.uk/lstng?draftId=5456511587111&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ebay.co.uk/lstng?draftId=5456511587111&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+					10 button Zoom: 80%
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Complete your listing | Boldstone Quarter Moon Relief - White Wall sculpture | eBay, URL: ebay.co.uk/lstng?draftId=5456511587111&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+						27 container Package size Ensure the package is not heavier or larger than your size selection to avoid additional costs deducted from your account.
+							28 container
+								29 heading Value: 2, Package size Ensure the package is not heavier or larger than your size selection to avoid additional costs deducted from your account.
+									30 text Package size
+									31 text Ensure the package is not heavier or larger than your size selection to avoid additional costs deducted from your account.
+								32 button Close
+							33 accordion
+								34 container
+									35 AXListMarker • 
+									36 disclosure triangle Large letter Up to 35 x 25 x 2.5 cm
+										37 heading Large letter Up to 35 x 25 x 2.5 cm, Value: 4
+											38 text Large letter
+											39 container
+												40 text Up to 35 x 25 x 2.5 cm
+								41 container
+									42 AXListMarker • 
+									43 disclosure triangle Small parcel Up to 45 x 35 x 16 cm
+										44 heading Small parcel Up to 45 x 35 x 16 cm, Value: 4
+											45 text Small parcel
+											46 container
+												47 text Up to 45 x 35 x 16 cm
+								48 container
+									49 AXListMarker • 
+									50 disclosure triangle Medium parcel Up to 61 x 46 x 46 cm
+										51 heading Medium parcel Up to 61 x 46 x 46 cm, Value: 4
+											52 text Medium parcel
+											53 container
+												54 text Up to 61 x 46 x 46 cm
+									55 radio button Up to 1 kg Fits items like a cushion or picture frame, Value: 0
+									56 container
+										57 text Up to 1 kg Fits items like a cushion or picture frame
+									58 radio button Up to 2 kg Fits items like a laptop or wall clock, Value: 0
+									59 container
+										60 text Up to 2 kg Fits items like a laptop or wall clock
+									61 radio button Up to 10 kg Fits items like a car stereo or food processor, Value: 1
+									62 text RECOMMENDED
+									63 container
+										64 text Up to 10 kg Fits items like a car stereo or food processor
+									65 radio button Up to 20 kg Fits items like a dumbbell set or compact vacuum, Value: 0
+									66 container
+										67 text Up to 20 kg Fits items like a dumbbell set or compact vacuum
+							68 button Done
+			69 pop-up button Tab search
+			70 container
+				71 tab group
+					72 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					73 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					74 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					75 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					76 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					77 tab (settable, boolean) Meta Business Suite, Value: off
+					78 tab group  group 📦 Marketplace completion – 4 Tabs, •  Studio | Saatchi Art United Kingdom, •  Revise your listing | Boldstone Patina Panel -…, •  Vintage & Used Furniture and Decor | Chairish, •  about:blank – Collapsed
+					79 tab (settable, boolean) Products – Faire, Value: off
+					80 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					81 tab (selected, settable, boolean) Complete your listing | Boldstone Quarter Moon Relief - White Wall sculpture | eBay, Value: on
+						82 button Close
+			83 button New tab
+	84 close button
+	85 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	86 minimise button
+87 menu bar
+	88 Chrome
+	89 File
+	90 Edit
+	91 View
+	92 History
+	93 Bookmarks
+	94 Profiles
+	95 Tab
+	96 Window
+	97 Help
+
+The focused UI element is 32 button Close

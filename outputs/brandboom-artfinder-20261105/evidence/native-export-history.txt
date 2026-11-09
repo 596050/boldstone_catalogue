@@ -1,0 +1,122 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						27 container
+							28 link
+								29 image
+							30 heading Export History, Value: 4
+								31 text Export History
+							32 image
+							33 container
+								34 table
+									35 row
+										36 column header
+											37 text PRESENTATION
+										38 column header
+											39 text REP
+										40 column header
+											41 text TOTAL PRODUCTS
+										42 column header
+											43 text DATE
+										44 column header
+											45 text STATUS
+									46 row
+										47 cell
+											48 text —
+										49 cell
+											50 text 176
+										51 cell
+											52 text 05/11/2026
+										53 cell
+											54 link Download, Value: javascript:void(0);
+									55 row
+										56 cell
+											57 text —
+										58 cell
+											59 text 176
+										60 cell
+											61 text 05/11/2026
+										62 cell
+											63 link Download, Value: javascript:void(0);
+								64 HTML content about:blank
+							65 link ⭠ Back
+								66 text ⭠ Back
+			67 pop-up button Tab search
+			68 container
+				69 tab group
+					70 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 827 MB, Value: off
+					71 tab group  group ✅Claude – 1 Tab, •  Artworks | Artfinder – Expanded
+					72 tab (settable, boolean) Artworks | Artfinder – Part of group ✅Claude, Value: off
+					73 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					74 tab (settable, boolean) Contact us - Glassette, Value: off
+					75 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					76 tab (settable, boolean) Sell on Artsper, Value: off
+					77 tab (settable, boolean) Find the right wholesale fit, Value: off
+					78 tab (settable, boolean) Become a Supplier | House of Estila, Value: off
+					79 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					80 tab (settable, boolean) Vendeurs_new_form EN, Value: off
+					81 tab (settable, boolean) See how wholesale gets simpler, Value: off
+					82 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					83 tab (settable, boolean) Apply to sell with us - High memory usage - 930 MB, Value: off
+					84 tab group  group ✅Claude – 1 Tab, •  Inbox (97) - info@boldstone.co.uk - Thomas Pri… – Expanded
+					85 tab (settable, boolean) Value: off, Inbox (97) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1,022 MB
+					86 tab (settable, boolean) Value: off, Russell Brand trial live: Police release video of actor being interviewed after he is found guilty of one rape and three sexual assaults | Daily Mail Online
+					87 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 964 MB, Value: off
+					88 tab (settable, boolean) Overview of Marketplaces | Brandboom Help Center, Value: off
+					89 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						90 button Close
+					91 tab (settable, boolean) Boldstone Sculpture | Boldstone Wall Sculptures, Value: off
+			92 button New tab
+	93 close button
+	94 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	95 minimise button
+96 menu bar
+	97 Chrome
+	98 File
+	99 Edit
+	100 View
+	101 History
+	102 Bookmarks
+	103 Profiles
+	104 Tab
+	105 Window
+	106 Help
+
+Selected text: ```
+￼
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

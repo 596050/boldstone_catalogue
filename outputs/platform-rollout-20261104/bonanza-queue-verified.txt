@@ -1,0 +1,217 @@
+Window: "Import from Inventory File - Bonanza", App: Google Chrome.
+0 standard window URL: bonanza.com/booths/csv_item_import/Boldstone?priority=true, Secondary Actions: Raise, Import from Inventory File - Bonanza – Part of group 🛍️ Catalogue platform updates - Google Chrome – Tom
+	1 container URL: bonanza.com/booths/csv_item_import/Boldstone?priority=true, Import from Inventory File - Bonanza – Part of group 🛍️ Catalogue platform updates - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: bonanza.com/booths/csv_item_import/Boldstone?priority=true, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Import from Inventory File - Bonanza, URL: bonanza.com/booths/csv_item_import/Boldstone?priority=true
+						27 container
+							28 content list
+								29 link Selling , Value: bonanza.com/selling_dashboard
+								30 link Account , Value: bonanza.com/account_dashboard
+								31 link Help , Value: support.bonanza.com/hc/en-us/requests/new
+							32 content list
+								33 link bCredits: $0.00, Value: bonanza.com/users/60595433/bcredits
+								34 link Boldstone's profile picture Boldstone , Value: bonanza.com/users/60595433/profile
+								35 link  Cart, Value: bonanza.com/offers/cart_summary
+							36 link Bonanza, Value: bonanza.com/, Help: Shop for everything but the ordinary. More than 25,000 sellers offering you a vibrant collection of fashion, collectibles, home decor, and more.
+							37 container
+								38 text field (settable) Search for items, Placeholder: Search...
+								39 button Submit search
+							40 content list
+								41 link Women's Fashion, Value: bonanza.com/fashion
+								42 link Men's Fashion, Value: bonanza.com/fashion
+								43 link Home & Garden, Value: bonanza.com/home___garden
+								44 link Health & Beauty, Value: bonanza.com/health___beauty
+								45 link Collectibles & Art, Value: bonanza.com/collectibles
+								46 link Handbags, Value: bonanza.com/items/search?q%5Bfilter_category_id%5D=169291
+								47 link Jewelry, Value: bonanza.com/jewelry___watches
+								48 link Coupons, Value: bonanza.com/coupons
+								49 link More Categories , Value: bonanza.com/categories
+								50 link Shop By , Value: bonanza.com/booths/csv_item_import/Boldstone?priority=true#
+							51 container
+								52 link Home, Value: bonanza.com/
+								53 text  » 
+								54 link Edit Booth, Value: bonanza.com/booths/Boldstone/edit
+								55 text  » 
+								56 text Import Items from an inventory file
+								57 container
+									58 text 
+									59 text 
+									60 heading Warning message, Value: 3
+										61 text Warning message
+									62 text Your booth has been not activated yet. Please finish the registration process before importing items. 
+									63 link Click here, Value: bonanza.com/booths/Boldstone/activate
+									64 text  to activate your booth.
+								65 container
+									66 text 
+									67 text Your import is queued.
+									68 text  We'll begin processing it soon. Created November 4 at 10:53am
+								69 heading  Import items from an inventory file, Value: 1
+									70 text 
+									71 text  Import items from an inventory file
+								72 text This process can take up to a few hours to complete, depending on the number of items being imported.
+Since we import items in batches, your booth will be updated with the new items as we finish each batch.
+								73 link Learn more about inventory file importing, Value: bonanza.com/site_help/item_imports/csv_import
+								74 container
+									75 heading Inventory File Import Settings, Value: 3
+										76 text Inventory File Import Settings
+									77 text Importing from:
+									78 text Custom column mappings:
+									79 link more info, Help: Custom column mappings, Value: bonanza.com/booths/csv_item_import/Boldstone?priority=true#
+									80 text None.
+									81 link Edit mappings, Value: bonanza.com/booths/custom_column_names/Boldstone
+									82 container Inventory File
+										83 text Inventory File
+										84 container
+											85 text Inventory File: 
+											86 button Inventory File:: No file chosen
+									87 container Delimiter
+										88 text Delimiter
+										89 container
+											90 text Fields are separated by:
+											91 pop-up button Fields are separated by:, Value: Comma
+												92 (selected) Comma
+									93 container Import As Text
+										94 text Import As Text
+										95 container
+											96 Tick box Import descriptions as text only (no HTML), Value: 0
+											97 text Import descriptions as text only (no HTML)
+									98 container Remove Non Imported Items
+										99 text Remove Non Imported Items
+										100 container
+											101 Tick box Remove non imported items, Value: 0
+											102 text Remove non imported items
+											103 link more info, Help: Remove non imported items, Value: bonanza.com/booths/csv_item_import/Boldstone?priority=true#
+									104 container Revise
+										105 text Revise
+										106 container
+											107 Tick box Revise previously imported items, Value: 0
+											108 text Revise previously imported items
+										109 link more info, Help: Revise items, Value: bonanza.com/booths/csv_item_import/Boldstone?priority=true#
+									110 button Import items
+								111 heading  Need help?, Value: 2
+									112 text 
+									113 text Need help?
+								114 container
+									115 text Learn everything there is to know about importing from an inventory file. Check out the importer guides in the help center.
+								116 link Visit the help center, Value: bonanza.com/site_help/item_imports/all_importers#csv
+							117 content list
+								118 link About, Value: bonanza.com/about_us
+								119 link Affiliates, Value: darwin.affiliatewindow.com/merchant-profile/6238
+								120 link API, Value: api.bonanza.com/
+								121 container
+									122 link Selling Blog, Value: bonanza.com/blog/selling
+									123 text  / 
+									124 link Shopping Blog, Value: bonanza.com/blog/shopping
+								125 link Contact, Value: support.bonanza.com/hc/en-us/requests/new
+								126 link Help, Value: support.bonanza.com/hc/en-us
+								127 link Legal, Value: bonanza.com/site_help/general/legal_content
+								128 link Partners, Value: bonanza.com/partners
+								129 link Press, Value: bonanza.com/press
+								130 link Webstores, Value: bonanza.com/webstores
+								131 link bCapital, Value: bcap.co/
+							132 content list
+								133 link Facebook, Value: facebook.com/shop.bmarketplace
+								134 link Twitter, Value: twitter.com/bonanzamarket
+								135 link Pinterest, Value: pinterest.com/bonanzamarket
+								136 link Instagram, Value: instagram.com/shop_bmarketplace
+							137 container
+								138 link United States / United States Dollar $, Value: bonanza.com/booths/csv_item_import/Boldstone?priority=true#set_local
+								139 text Click to activate accessibility preferences
+								140 text 
+								141 text Accessibility preferences
+							142 content list
+								143 text SSL Secure Connection
+								144 link Better Business Bureau Accredited Business, Help: Bonanza.com, Internet Shopping, Seattle, WA, Value: bbb.org/western-washington/business-reviews/internet-shopping/bonanzacom-in-seattle-wa-22476619#bbbseal
+								145 link PayPal Buyer Protection, Value: paypal.com/my/cgi-bin/webscr?cmd=xpt/Marketing/securitycenter/buy/Protection-outside
+							146 content list
+								147 text © 2026 Bonanza. All Rights Reserved
+								148 link Cookies and Tracking, Value: bonanza.com/site_help/cookies_and_tracking_policy
+								149 link Accessibility, Value: bonanza.com/site_help/accessibility
+								150 link Privacy Policy, Value: bonanza.com/site_help/privacy_policy
+								151 link Terms of Use, Value: bonanza.com/site_help/user_agreement
+			152 pop-up button Tab search
+			153 container
+				154 tab group
+					155 tab (settable, boolean) Brand Application | Join Procurist Platform | Procurist, Value: off
+					156 tab (settable, boolean) Booth activation - Import Items, Value: off
+					157 tab group  group 🛍️ Catalogue platform updates – 1 Tab, •  Import from Inventory File - Bonanza – Expanded
+					158 tab (selected, settable, boolean) Import from Inventory File - Bonanza – Part of group 🛍️ Catalogue platform updates, Value: on
+					159 tab (settable, boolean) Products – Faire, Value: off
+					160 tab (settable, boolean) Gumtree | Free classified ads from the #1 classifieds site in the UK, Value: off
+					161 tab (settable, boolean) Sign in to your Supplier account | AppScenic, Value: off
+					162 tab (settable, boolean) Shoppe Object, Value: off
+					163 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					164 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					165 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					166 tab (settable, boolean) sell on wholesale central - Google Search, Value: off
+					167 tab (settable, boolean) Display Your Products to Millions of Buyers Worldwide., Value: off
+					168 tab (settable, boolean) become-a-seller-new | Wholesale Prices | Tradeling, Value: off
+					169 tab (settable, boolean) Marketplace FAQ for Sellers | Brandboom Help Center, Value: off
+					170 tab (settable, boolean) Online Sales FAQ - TICA, Value: off
+					171 tab (settable, boolean) Carro Migration FAQ, Value: off
+					172 tab (settable, boolean) Join Us | CREOATE, Value: off
+					173 tab (settable, boolean) Ankorstore | Wholesale Marketplace Home to Europe's Best Brands, Value: off
+					174 tab (settable, boolean) MOM - Sell your products, Value: off
+					175 tab (settable, boolean) Explore JOOR for home brands, Value: off
+					176 tab (settable, boolean) Wholesale Marketplace: Get Discovered by Retailers | NuORDER by Lightspeed, Value: off
+					177 tab (settable, boolean) Sell on Syncee, Value: off
+					178 tab (settable, boolean) Become a Spocket Supplier - Sell to 100,000+ Retailers Free, Value: off
+					179 tab (settable, boolean) Become a verified Avasam supplier, Value: off
+					180 tab (settable, boolean) Advertise Your Wholesale Business - Would you like to expand your business?, Value: off
+					181 tab (settable, boolean) eSources UK Help | Managing Your Supplier Profile, Value: off
+					182 tab (settable, boolean) Gift Wholesalers - Gift Shop Wholesalers, Value: off
+					183 tab (settable, boolean) Sell on Tesco Marketplace | Reach millions of UK shoppers, Value: off
+					184 tab (settable, boolean) RangeMe, Value: off
+					185 tab (settable, boolean) Art Gallery | Buy Original British Art Online, Value: off
+					186 tab (settable, boolean) Original art for sale, Value: off
+					187 tab (settable, boolean) 25+ Handmade Marketplaces for Artisans to Sell Crafts, Art, Gifts Online - MultiMerch, Value: off
+					188 tab (settable, boolean) 250+ Websites Directory for Artists to Sell Art Online, Value: off
+					189 tab (settable, boolean) My Listings — Dashboard | Chairish - High memory usage - 1.7 GB, Value: off
+			190 button New tab
+	191 close button
+	192 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	193 minimise button
+194 menu bar
+	195 Chrome
+	196 File
+	197 Edit
+	198 View
+	199 History
+	200 Bookmarks
+	201 Profiles
+	202 Tab
+	203 Window
+	204 Help
+
+The focused UI element is 26 HTML content Import from Inventory File - Bonanza, URL: bonanza.com/booths/csv_item_import/Boldstone?priority=true

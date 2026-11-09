@@ -1,0 +1,39 @@
+127.0.0.1 - - [26/Oct/2026 21:39:21] "POST /api/deletions/execute-batch HTTP/1.1" 403 -
+127.0.0.1 - - [26/Oct/2026 21:39:21] "POST /api/deletions/execute-batch HTTP/1.1" 202 -
+127.0.0.1 - - [26/Oct/2026 21:39:21] "POST /api/deletions/execute-batch HTTP/1.1" 202 -
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 403: 'Forbidden'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:597: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x109670f20>
+  def decorating_function(user_function):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:597: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x109671d20>
+  def decorating_function(user_function):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:597: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x109670120>
+  def decorating_function(user_function):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:597: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1096717e0>
+  def decorating_function(user_function):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:597: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x109671a80>
+  def decorating_function(user_function):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:597: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1096710e0>
+  def decorating_function(user_function):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:597: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x109671b60>
+  def decorating_function(user_function):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:597: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x109671c40>
+  def decorating_function(user_function):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:597: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1096719a0>
+  def decorating_function(user_function):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/functools.py:597: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1096718c0>
+  def decorating_function(user_function):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+----------------------------------------------------------------------
+Ran 200 tests in 2.157s
+
+OK

@@ -1,0 +1,341 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: Boldstone Acanthus Twin Leaves - White Wall sculpture, Placeholder: Search Products
+									48 link
+								49 button All
+									50 container
+										51 Tick box 0
+									52 text All
+								53 container
+									54 text 2  /  2
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container
+										64 Unlabelled image /00034705554A102A_M.avif
+										65 text Boldstone Acanthus Twin Leaves - White Wall sculpture
+										66 text BOLD-93ADE7C4103D WHITE FINISH
+										67 container
+											68 text 64.49  GBP
+									69 container
+										70 Unlabelled image /00034705550669A9_M.avif
+										71 text Boldstone Acanthus Twin Leaves - Pale Blue and White Finish Wall sculpture
+										72 text BOLD-9B2B466B38BE PALE BLUE AND WHITE MARBLING
+										73 container
+											74 text 74.17  GBP
+							75 container
+								76 content list
+									77 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								78 container
+									79 heading Presentations, Value: 5
+										80 text Presentations
+									81 button New
+									82 content list
+										83 link ALL, Value: manage.brandboom.com/products/s/111089#
+										84 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									85 container
+										86 link
+											87 image
+										88 search text field (settable) Search Presentations
+										89 link
+											90 image
+									91 container
+										92 text Wall Sculptures - 50 Preview
+										93 link Edit Name
+											94 image
+										95 link Duplicate
+											96 image
+										97 text GBP
+								98 heading Ship Windows, Value: 5
+									99 text Ship Windows
+								100 content list
+									101 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									102 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								103 text No active ship windows
+							104 link Reset
+								105 text Reset
+							106 button Apply
+							107 text PRODUCT STATUS
+							108 text Active
+							109 text Inactive
+							110 text Archived
+							111 text Corrupted
+							112 text No Images
+							113 text SORT BY
+							114 pop-up button Newest First
+								115 (selected) Newest First
+							116 text SHIP DATE RANGE
+							117 container
+								118 image
+								119 text field (settable) Click to select range
+							120 text No Date Range
+							121 text CREATE DATE RANGE
+							122 container
+								123 image
+								124 text field (settable) Click to select range
+							125 text SIZES
+							126 text field (settable) S, M, L
+							127 text VENDORS
+							128 text Boldstone
+							129 text TYPES
+							130 link
+								131 image
+							132 text No Types
+							133 text Home Decor
+							134 text Mens
+							135 text Womens
+							136 text CATEGORIES
+							137 link
+								138 image
+							139 link
+								140 image
+							141 text No Categories
+							142 text Sweater
+							143 text Wall Sculpture
+							144 text SEASONS
+							145 link
+								146 image
+							147 link
+								148 image
+							149 text No Seasons
+							150 text Year-round
+							151 container
+								152 container
+									153 Tick box Create another, Value: 0
+									154 text Create another
+								155 button Save
+								156 container
+									157 Unlabelled image /00034705554A102A_M.avif
+									158 container
+										159 image /00034705554A102A_S.avif
+										160 button STANDARD
+										161 image /0003470555502471_S.avif
+										162 button STANDARD
+										163 image /0003470555657683_S.avif
+										164 button STANDARD
+										165 image /00034705557F66B1_S.avif
+										166 button STANDARD
+										167 image /000347055584015E_S.avif
+										168 button STANDARD
+										169 image /000347055593B2AA_S.avif
+										170 button STANDARD
+										171 image /00034705560D9A81_S.avif
+										172 button STANDARD
+										173 image
+										174 image
+									175 image
+									176 text 7 / Unlimited
+									177 image
+									178 text 0 / 1
+									179 text Drag to reorder
+									180 container
+										181 text Style ID *
+										182 text BOLD-93ADE7C4103D
+									183 container
+										184 text Options
+										185 link White finish
+											186 text White finish
+									187 container
+										188 text Sizes
+										189 text One sculpture
+									190 text Barcode
+									191 container
+										192 button
+										193 text field (settable)
+									194 text Name
+									195 text field (settable) Boldstone Acanthus Twin Leaves - White Wall sculpture
+									196 container Price
+										197 container
+											198 text Price
+											199 text field (settable) Value: 64.49, Placeholder: Enter
+									200 container Retail
+										201 container
+											202 text Retail
+											203 text field (settable) Value: 0.00, Placeholder: Enter
+									204 text Qty Min
+									205 text field (settable) 1
+									206 text Vendor
+									207 text field (settable) Boldstone
+									208 text Type
+									209 text field (settable) Home Decor
+									210 text Category
+									211 text field (settable) Wall Sculpture
+									212 text Taxonomy
+									213 text field (settable) Value: Home Decor / Wall Decor / Wall Art, Placeholder: Select
+									214 text Season
+									215 text field (settable) Year-round
+									216 text Ship Date
+									217 text field (settable)
+									218 container
+										219 text HS Code
+										220 text field (settable) HS Code
+									221 container Country Of Origin
+										222 container
+											223 text Country Of Origin
+											224 button -
+									225 container
+										226 text Description
+										227 container
+											228 text Two stylised leaves rise together in a balanced botanical relief. Their long curves create a gentle tension between symmetry and growth, with light tracing the edges of the design.
+											229 text Think sunlit courtyard walls and the graceful lines of classical foliage, translated into a piece that feels at home in a modern space.
+											230 text The white finish keeps the focus on the form and its changing shadows.
+											231 text Brand: Boldstone
+											232 text Product type: Wall sculpture
+											233 text Model: Acanthus Twin Leaves - White (BOLD-93ADE7C4103D)
+											234 text Colour / appearance: White finish
+											235 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											236 text Material: Made from a gypsum-based material.
+											237 text Dimensions: 30 × 30 × 6 cm
+											238 text Weight: Approximately 5 kg (range 4–6 kg)
+											239 text Use: Suitable for outdoor use and indoor display.
+											240 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											241 text Availability: Ready to dispatch
+											242 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											243 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											244 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							245 link
+								246 image
+							247 container
+								248 content list
+									249 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									250 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								251 container
+									252 button Upload Images
+									253 button
+									254 button
+									255 button
+								256 container
+									257 Unlabelled image /000347368438D172_S.avif
+									258 text file.jpg
+									259 Unlabelled image /00011059388E43A7_S.avif
+									260 text toys-dinosaur
+									261 Unlabelled image /00011059387A69BA_S.avif
+									262 text baby-kidswear-t
+									263 Unlabelled image /000110593863557B_S.avif
+									264 text pet-sticks
+									265 Unlabelled image /00011059385C1D4E_S.avif
+									266 text apparel-t-shirt
+									267 Unlabelled image /00011059384494BB_S.avif
+									268 text footwear-shoes
+									269 Unlabelled image /000110593837D96A_S.avif
+									270 text beauty-cream
+									271 Unlabelled image /00011059382B4683_S.avif
+									272 text home-pitcher
+									273 Unlabelled image /00007087863E986B_S.avif
+									274 text BOOM1111
+									275 Unlabelled image /0000022409830BD3_S.avif
+									276 text BOOM1830
+									277 Unlabelled image /00000224097C30D6_S.avif
+									278 text BOOM1705
+									279 Unlabelled image /00000224096AD0BE_S.avif
+									280 text BOOM1100
+							281 button Close
+							282 text Search Products
+							283 button Scan barcodes
+							284 container
+								285 link
+									286 image
+								287 search text field (settable) Search for Products
+							288 text RESULTS
+							289 button Open Intercom Messenger
+			290 pop-up button Tab search
+			291 container
+				292 tab group
+					293 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					294 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					295 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					296 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					297 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					298 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					299 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					300 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					301 tab (settable, boolean) SEO opportunity audit, Value: off
+					302 tab group  group ✅Claude – 2 Tabs, •  Inbox (113) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					303 tab (settable, boolean) Value: off, Inbox (113) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1.1 GB
+					304 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					305 tab (settable, boolean) Drafts (1,333) - tppricet@gmail.com - Gmail, Value: off
+					306 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					307 tab (settable, boolean) Bookmarks, Value: off
+					308 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					309 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					310 tab (settable, boolean) Boldstone Sculpture | Wall Sculptures - 50 Preview, Value: off
+					311 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					312 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						313 button Close
+					314 tab (settable, boolean) 000347063570B5C6_M.avif (600×600), Value: off
+			315 button New tab
+	316 close button
+	317 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	318 minimise button
+319 menu bar
+	320 Chrome
+	321 File
+	322 Edit
+	323 View
+	324 History
+	325 Bookmarks
+	326 Profiles
+	327 Tab
+	328 Window
+	329 Help
+
+The focused UI element is 27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089

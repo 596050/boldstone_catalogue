@@ -1,0 +1,432 @@
+- link "Business Home":
+  - /url: https://business.facebook.com/home/?business_id=2380586078685156
+  - img "Meta logo"
+- generic: Commerce Manager
+- combobox "Boldstone Sculpture":
+  - generic: Boldstone Sculpture
+- navigation "Navigation":
+  - list:
+    - link "Overview":
+      - /url: https://business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+    - generic: Overview
+    - button "Catalogue"
+    - generic: Catalogue
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Products":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/products/?business_id=2380586078685156
+      - generic: Products
+      - link "Sets":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/sets/?business_id=2380586078685156
+      - generic: Sets
+      - link "Data sources":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/data_sources/?business_id=2380586078685156
+      - generic: Data sources
+      - link "Events":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/events/?business_id=2380586078685156
+      - generic: Events
+    - link "Image templates":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/templates/?business_id=2380586078685156
+    - generic: Image templates
+    - link "Product video creator":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/video_template_hub/?business_id=2380586078685156
+    - generic: Product video creator
+    - link "Shops":
+      - /url: https://business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+    - generic: Shops
+    - button "Promotions"
+    - generic: Promotions
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Offers":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/offers/?business_id=2380586078685156
+      - generic: Offers
+      - link "Marketing settings":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/mailing_list/?business_id=2380586078685156
+      - generic: Marketing settings
+    - button "Insights"
+    - generic: Insights
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Overview":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/overview/?business_id=2380586078685156
+      - generic: Overview
+      - link "Catalogue":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/products/?business_id=2380586078685156
+      - generic: Catalogue
+      - link "Performance":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/perf/?business_id=2380586078685156
+      - generic: Performance
+      - link "Audience":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/audience/?business_id=2380586078685156
+      - generic: Audience
+      - link "Tagged content":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/product_tagged_content/?business_id=2380586078685156
+      - generic: Tagged content
+      - link "Awareness":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/entry_points/?business_id=2380586078685156
+      - generic: Awareness
+    - link "To-do list":
+      - /url: https://business.facebook.com/commerce/326960679342026/to_do_list/?business_id=2380586078685156
+    - generic: To-do list
+    - link "Settings":
+      - /url: https://business.facebook.com/commerce/326960679342026/settings/general/?business_id=2380586078685156
+    - generic: Settings
+- navigation "all tools":
+  - list:
+    - button "All tools":
+    - generic: All tools
+- separator
+- list:
+  - button "Meta AI business assistant"
+  - generic: Meta AI business assistant
+- button "Help":
+  - generic: Help
+- link "Business settings":
+  - /url: https://business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+  - generic: Business settings
+- button "Business notifications":
+  - generic: Business notifications
+- button:
+  - generic: "6"
+- button "Search":
+  - generic: Search
+- button "Collapse":
+  - generic: Collapse
+- tablist:
+  - tab "Layout":
+    - button "Layout":
+      - generic: Layout
+  - tab "Settings":
+    - button "Settings":
+      - generic: Settings
+- generic: Shop pages
+- combobox "Shop pages Home page":
+  - generic: Home page
+- heading "Shop's home page" [level=2]
+- button "Add new":
+  - generic: Add new
+- generic: Optimise layout
+- switch "Label" [checked]
+- generic: Automatically order the layout of your shop for each person, based on their interests and shopping activity.
+- button "Offers Main image, banner Expand group":
+  - generic: Offers
+  - generic: Main image, banner
+  - button "Expand group":
+    - generic: Expand group
+- button "Carousel 1 collections Collapse group":
+  - generic: Carousel
+  - generic: 1 collections
+  - button "Collapse group":
+    - generic: Collapse group
+- button "Most sold exclusives! Collection":
+  - generic: Most sold exclusives!
+  - generic: Collection
+- button "Add collection":
+  - generic: Add collection
+- button "Wall Sculptures Collection":
+  - generic: Wall Sculptures
+  - generic: Collection
+- button "Instagram":
+  - generic: Instagram
+- button "Preview by location":
+- dialog
+- button
+- generic: boldstonesculpture
+- button
+- generic: Estimated delivery times as fast as 8 working days
+- heading "Wall Sculptures":
+  - generic: Wall Sculptures
+- button "Crater Moon IV - Verdigris and Rust. £37.84,,":
+  - generic: Crater Moon IV - Verdigris and Rust
+  - generic: £37.84
+- button "Acanthus Twin Leaves - White. £34.20,,":
+  - generic: Acanthus Twin Leaves - White
+  - generic: £34.20
+- button "View the product Deco Wave II - Terracotta":
+  - generic: Deco Wave II - Terracotta
+  - generic: £70.52
+- button "View the product Spiralfish Wave and Tide I - Bronze":
+  - generic: Spiralfish Wave and Tide I - Bronze
+  - generic: £118.58
+- button "View the product Lunar Phase II (Bordered) - White":
+  - generic: Lunar Phase II (Bordered) - White
+  - generic: £50.72
+- button "Egyptian Palm I - Pewter. £76.78,,":
+  - generic: Egyptian Palm I - Pewter
+  - generic: £76.78
+- button "Gleneagles Vine IV - White. £50.72,,":
+  - generic: Gleneagles Vine IV - White
+  - generic: £50.72
+- button "View the product Fossil Sand Ripple Relief - White":
+  - generic: Fossil Sand Ripple Relief - White
+  - generic: £118.14
+- button "View the product Gleneagles Vine III - White":
+  - generic: Gleneagles Vine III - White
+  - generic: £50.72
+- button "Dune Ripple II - Copper with Verdigris Accents. £41.24,,":
+  - generic: Dune Ripple II - Copper with Verdigris Accents
+  - generic: £41.24
+- button "Deco Palm I - White. £61.76,,":
+  - generic: Deco Palm I - White
+  - generic: £61.76
+- button "View the product Cup Ring and Spiral Paver I - Brown":
+  - generic: Cup Ring and Spiral Paver I - Brown
+  - generic: £39.34
+- button "View the product Marbled Circle - Green and White":
+  - generic: Marbled Circle - Green and White
+  - generic: £120.86
+- button "Dune Ripple I - Verdigris. £41.24,,":
+  - generic: Dune Ripple I - Verdigris
+  - generic: £41.24
+- button "Brancusi Meander II - Gold Finish. £66.98,,":
+  - generic: Brancusi Meander II - Gold Finish
+  - generic: £66.98
+- button "Wide-Lip Crater Moon - Rust Drip. £37.10,,":
+  - generic: Wide-Lip Crater Moon - Rust Drip
+  - generic: £37.10
+- button "Dune Ripple II - White. £30,,":
+  - generic: Dune Ripple II - White
+  - generic: £30
+- button "Egyptian Fountain Palm - Bronze and Verdigris. £182.44,,":
+  - generic: Egyptian Fountain Palm - Bronze and Verdigris
+  - generic: £182.44
+- button "Gleneagles Vine I - White. £50.72,,":
+  - generic: Gleneagles Vine I - White
+  - generic: £50.72
+- button "View the product Egyptian Palm I - Gold Finish":
+  - generic: Egyptian Palm I - Gold Finish
+  - generic: £76.78
+- button "Raked Spiral III - Beige. £39.34,,":
+  - generic: Raked Spiral III - Beige
+  - generic: £39.34
+- button "Crater Moon I - Verdigris and Rust. £37.84,,":
+  - generic: Crater Moon I - Verdigris and Rust
+  - generic: £37.84
+- button "Deco Dune Wave - White. £69.14,,":
+  - generic: Deco Dune Wave - White
+  - generic: £69.14
+- button "Barbados Wave Relief. £268.28,,":
+  - generic: Barbados Wave Relief
+  - generic: £268.28
+- button "Marbled Circle - Pale Blue. £120.86,,":
+  - generic: Marbled Circle - Pale Blue
+  - generic: £120.86
+- button "Dune Ripple II - Gold. £39.14,,":
+  - generic: Dune Ripple II - Gold
+  - generic: £39.14
+- button "View the product Lava Moon II - White":
+  - generic: Lava Moon II - White
+  - generic: £478.10
+- button "Spice Texture II - White. £34.20,,":
+  - generic: Spice Texture II - White
+  - generic: £34.20
+- button "Lava Moonshell Corner Curve - White. £35.26,,":
+  - generic: Lava Moonshell Corner Curve - White
+  - generic: £35.26
+- button "Echo Rhythm II - Verdigris. £49.20,,":
+  - generic: Echo Rhythm II - Verdigris
+  - generic: £49.20
+- button "Crater Moon II - Verdigris and Rust. £37.84,,":
+  - generic: Crater Moon II - Verdigris and Rust
+  - generic: £37.84
+- button "Deco Dune Spiral - White. £69.14,,":
+  - generic: Deco Dune Spiral - White
+  - generic: £69.14
+- button "Textured Earth - Blue, Brown and Rust. £177.86,,":
+  - generic: Textured Earth - Blue, Brown and Rust
+  - generic: £177.86
+- button "View the product World Colours Circle - Brass":
+  - generic: World Colours Circle - Brass
+  - generic: £120.86
+- button "Golden Facets - Gold Finish. £103.82,,":
+  - generic: Golden Facets - Gold Finish
+  - generic: £103.82
+- button "Marbled Circle - Azure Blue and White. £120.86,,":
+  - generic: Marbled Circle - Azure Blue and White
+  - generic: £120.86
+- button "Acanthus Bloom - White. £34.20,,":
+  - generic: Acanthus Bloom - White
+  - generic: £34.20
+- button "Riyadh Dune Ripple - White. £535.54,,":
+  - generic: Riyadh Dune Ripple - White
+  - generic: £535.54
+- button "Ammonite Grande I (Left) - White. £154.94,,":
+  - generic: Ammonite Grande I (Left) - White
+  - generic: £154.94
+- button "Acanthus Moon - Gold Finish. £73.20,,":
+  - generic: Acanthus Moon - Gold Finish
+  - generic: £73.20
+- button "View the product Lava Moon III - White":
+  - generic: Lava Moon III - White
+  - generic: £478.10
+- button "Dune Ripple I - White. £30,,":
+  - generic: Dune Ripple I - White
+  - generic: £30
+- button "Strata Relief - White. £34.20,,":
+  - generic: Strata Relief - White
+  - generic: £34.20
+- button "Acanthus Twin Leaves - Bronze. £44.48,,":
+  - generic: Acanthus Twin Leaves - Bronze
+  - generic: £44.48
+- button "Leaf Silhouette II - Gold. £64.72,,":
+  - generic: Leaf Silhouette II - Gold
+  - generic: £64.72
+- button "Acanthus Moon - White. £56.06,,":
+  - generic: Acanthus Moon - White
+  - generic: £56.06
+- button "Bone Water Spiral Relief - White. £120.46,,":
+  - generic: Bone Water Spiral Relief - White
+  - generic: £120.46
+- button "View the product Textured Earth - Rust and Blue Patina":
+  - generic: Textured Earth - Rust and Blue Patina
+  - generic: £251.12
+- button "Moon and Shell Wave II - Black and White. £94.28,,":
+  - generic: Moon and Shell Wave II - Black and White
+  - generic: £94.28
+- button "Gleneagles Vine II - White. £50.72,,":
+  - generic: Gleneagles Vine II - White
+  - generic: £50.72
+- button "Spiralfish Wave and Tide II - Bronze. £118.58,,":
+  - generic: Spiralfish Wave and Tide II - Bronze
+  - generic: £118.58
+- button "Marbled Circle - Turquoise. £120.86,,":
+  - generic: Marbled Circle - Turquoise
+  - generic: £120.86
+- button "Cup Ring and Spiral Paver II - Brown. £39.34,,":
+  - generic: Cup Ring and Spiral Paver II - Brown
+  - generic: £39.34
+- button "Dune Ripple II - Copper. £39.14,,":
+  - generic: Dune Ripple II - Copper
+  - generic: £39.14
+- button "View the product Riyadh Shellmoon Relief":
+  - generic: Riyadh Shellmoon Relief
+  - generic: £535.54
+- button "Egyptian Fountain Palm - White. £118.14,,":
+  - generic: Egyptian Fountain Palm - White
+  - generic: £118.14
+- button "Lunar Ring - White. £34.20,,":
+  - generic: Lunar Ring - White
+  - generic: £34.20
+- button "Crater Moon II - Blue Splash. £32.50,,":
+  - generic: Crater Moon II - Blue Splash
+  - generic: £32.50
+- button "Egyptian Palm I - Black and White Marble Effect. £76.78,,":
+  - generic: Egyptian Palm I - Black and White Marble Effect
+  - generic: £76.78
+- button "Sculpted Curves - Beige. £32.50,,":
+  - generic: Sculpted Curves - Beige
+  - generic: £32.50
+- button "Chelsea Moonwave Relief. £735,,":
+  - generic: Chelsea Moonwave Relief
+  - generic: £735
+- button "View the product Marbled Circle - Terracotta":
+  - generic: Marbled Circle - Terracotta
+  - generic: £120.86
+- button "Acanthus Twin Leaves - Pewter. £44.48,,":
+  - generic: Acanthus Twin Leaves - Pewter
+  - generic: £44.48
+- button "Acanthus Frond (Left) - White. £34.20,,":
+  - generic: Acanthus Frond (Left) - White
+  - generic: £34.20
+- button "Lava Moonshell I - White. £87.60,,":
+  - generic: Lava Moonshell I - White
+  - generic: £87.60
+- button "Egyptian Palm II - White. £59.64,,":
+  - generic: Egyptian Palm II - White
+  - generic: £59.64
+- button "Chiswick Moon Relief. £209.16,,":
+  - generic: Chiswick Moon Relief
+  - generic: £209.16
+- button "Botanical Form - White. £34.20,,":
+  - generic: Botanical Form - White
+  - generic: £34.20
+- button "View the product Soundwave Rhythm - White":
+  - generic: Soundwave Rhythm - White
+  - generic: £114.76
+- button "Deco Wave I - Verdigris. £78.88,,":
+  - generic: Deco Wave I - Verdigris
+  - generic: £78.88
+- button "Spice Texture I - White. £34.20,,":
+  - generic: Spice Texture I - White
+  - generic: £34.20
+- button "Lunar Phase II - White and Gold. £39.34,,":
+  - generic: Lunar Phase II - White and Gold
+  - generic: £39.34
+- button "Deco Wave I - Terracotta. £70.52,,":
+  - generic: Deco Wave I - Terracotta
+  - generic: £70.52
+- button "Lava Moon I - White. £478.10,,":
+  - generic: Lava Moon I - White
+  - generic: £478.10
+- button "Deco Golden Spiral - White and Gold. £67.74,,":
+  - generic: Deco Golden Spiral - White and Gold
+  - generic: £67.74
+- button "View the product Lava Moonshell II - White":
+  - generic: Lava Moonshell II - White
+  - generic: £87.60
+- button "Acanthus Frond (Left) - Pewter. £44.48,,":
+  - generic: Acanthus Frond (Left) - Pewter
+  - generic: £44.48
+- button "Magnolia Growth - White and Gold Finish. £100.70,,":
+  - generic: Magnolia Growth - White and Gold Finish
+  - generic: £100.70
+- button "Sculpted Curves - Textured Gold Finish. £36.06,,":
+  - generic: Sculpted Curves - Textured Gold Finish
+  - generic: £36.06
+- button "Mediterranean Fountain Palm - White. £118.14,,":
+  - generic: Mediterranean Fountain Palm - White
+  - generic: £118.14
+- button "Deco Dune Spiral - Verdigris. £100.56,,":
+  - generic: Deco Dune Spiral - Verdigris
+  - generic: £100.56
+- button "Deco Dune Wave - Verdigris. £100.56,,":
+  - generic: Deco Dune Wave - Verdigris
+  - generic: £100.56
+- button "View the product Riyadh Moon - White":
+  - generic: Riyadh Moon - White
+  - generic: £535.54
+- button "Crater Moon III - Verdigris and Rust. £37.84,,":
+  - generic: Crater Moon III - Verdigris and Rust
+  - generic: £37.84
+- button "Embedded Seashells - White. £47.24,,":
+  - generic: Embedded Seashells - White
+  - generic: £47.24
+- button "Frozen Fish Relief - Terracotta. £55.74,,":
+  - generic: Frozen Fish Relief - Terracotta
+  - generic: £55.74
+- button "Acanthus Twin Leaves - Pale Blue and White. £39.34,,":
+  - generic: Acanthus Twin Leaves - Pale Blue and White
+  - generic: £39.34
+- button "Ancient Cup Ring - White. £34.20,,":
+  - generic: Ancient Cup Ring - White
+  - generic: £34.20
+- button "Ammonite Grande II (Right) - White. £154.94,,":
+  - generic: Ammonite Grande II (Right) - White
+  - generic: £154.94
+- button "View the product Quarter Moon Relief - White":
+  - generic: Quarter Moon Relief - White
+  - generic: £87.60
+- button "Lunar Phase I (Bordered) - White. £50.72,,":
+  - generic: Lunar Phase I (Bordered) - White
+  - generic: £50.72
+- button "Dune Ripple I - Blue Verdigris and Bronze. £39,,":
+  - generic: Dune Ripple I - Blue Verdigris and Bronze
+  - generic: £39
+- button "Crater Moon IV - Silver and Bronze. £36.06,,":
+  - generic: Crater Moon IV - Silver and Bronze
+  - generic: £36.06
+- button "Dune Ripple I - Verdigris and Rust. £40,,":
+  - generic: Dune Ripple I - Verdigris and Rust
+  - generic: £40
+- button "Frozen Fish Relief - Verdigris. £64.74,,":
+  - generic: Frozen Fish Relief - Verdigris
+  - generic: £64.74
+- button "Battersea Shellmoon II Fountain - White. £92.36,,":
+  - generic: Battersea Shellmoon II Fountain - White
+  - generic: £92.36
+- alert
+- generic: This is a preview of what your customers will see. Some features may vary or may be unavailable to test.

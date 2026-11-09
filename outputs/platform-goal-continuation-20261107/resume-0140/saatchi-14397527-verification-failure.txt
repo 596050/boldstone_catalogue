@@ -1,0 +1,3 @@
+"captchaFailure": true,    
+																		135 text "captchaFailure" :  true ,
+							147 text Network Log row Name: update/easel_api/my-art/14397527, Status: 401Unauthorized, Type: fetch, Initiator: Script, Size: 0.2 kB0.1 kB, Time: 412 ms411 ms

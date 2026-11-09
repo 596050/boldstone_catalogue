@@ -1,0 +1,2567 @@
+Window: "view-source:https://boldstonesculpture.com", App: Google Chrome.
+0 standard window view-source:https://boldstonesculpture.com - Google Chrome – Tom, URL: view-source:https://boldstonesculpture.com/, Secondary Actions: Raise
+	1 container view-source:https://boldstonesculpture.com - Google Chrome – Tom, URL: view-source:https://boldstonesculpture.com/
+		2 container
+			3 toolbar
+				4 button (disabled) Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: view-source:https://boldstonesculpture.com, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+					13 pop-up button ColorZilla
+					14 pop-up button Video Speed Controller
+					15 pop-up button React Developer Tools
+					16 pop-up button PayPal Honey
+					17 pop-up button JSONVue
+					18 pop-up button Open Claude
+					19 pop-up button ChatGPT
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content boldstonesculpture.com/
+						27 container
+							28 text Line wrap
+							29 Tick box Line wrap, Value: 0
+						30 table (showing 0-500 of 5128 items)
+							31 row
+								32 cell
+									33 text 1
+								34 cell
+									35 text <!doctype html>
+							36 row
+								37 cell
+									38 text 2
+								39 cell
+									40 text <html  xmlns:og =" http://opengraphprotocol.org/schema/ "  xmlns:fb =" http://www.facebook.com/2008/fbml "  lang =" en-GB "  >
+							41 row
+								42 cell
+									43 text 3
+								44 cell
+									45 text <head>
+							46 row
+								47 cell
+									48 text 4
+								49 cell
+									50 text <meta  http-equiv =" X-UA-Compatible "  content =" IE=edge,chrome=1 ">
+							51 row
+								52 cell
+									53 text 5
+								54 cell
+									55 text <meta  name =" viewport "  content =" width=device-width, initial-scale=1 ">
+							56 row
+								57 cell
+									58 text 6
+								59 cell
+									60 text <!-- This is Squarespace. --> <!-- caper-spinach-spcy -->
+							61 row
+								62 cell
+									63 text 7
+								64 cell
+									65 text <base  href =" ">
+							66 row
+								67 cell
+									68 text 8
+								69 cell
+									70 text <meta  charset =" utf-8 " />
+							71 row
+								72 cell
+									73 text 9
+								74 cell
+									75 text <title> Wall Sculpture &amp; Sculptural Furnishings | Boldstone, UK </title>
+							76 row
+								77 cell
+									78 text 10
+								79 cell
+									80 text <meta  http-equiv =" Accept-CH "  content =" Sec-CH-UA-Platform-Version, Sec-CH-UA-Model " /> <link  rel =" icon "  type =" image/x-icon "  media =" (prefers-color-scheme: light) "  href ="
+									81 link https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/3e3d2cde-02bb-4181-aa0f-71b2d4a17590/favicon.ico?format=100w, Value: images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/3e3d2cde-02bb-4181-aa0f-71b2d4a17590/favicon.ico?format=100w
+									82 text "/>
+							83 row
+								84 cell
+									85 text 11
+								86 cell
+									87 text <link  rel =" icon "  type =" image/x-icon "  media =" (prefers-color-scheme: dark) "  href ="
+									88 link https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/6c3b2e9c-1dfd-4094-8f22-af58050f6078/favicon.ico?format=100w, Value: images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/6c3b2e9c-1dfd-4094-8f22-af58050f6078/favicon.ico?format=100w
+									89 text "/>
+							90 row
+								91 cell
+									92 text 12
+								93 cell
+									94 text <link  rel =" canonical "  href ="
+									95 link https://boldstonesculpture.com, Value: boldstonesculpture.com/
+									96 text "/>
+							97 row
+								98 cell
+									99 text 13
+								100 cell
+									101 text <meta  property =" og:site_name "  content =" boldstone "/>
+							102 row
+								103 cell
+									104 text 14
+								105 cell
+									106 text <meta  property =" og:title "  content =" Wall Sculpture &amp; Sculptural Furnishings | Boldstone, UK "/>
+							107 row
+								108 cell
+									109 text 15
+								110 cell
+									111 text <meta  property =" og:url "  content =" https://boldstonesculpture.com "/>
+							112 row
+								113 cell
+									114 text 16
+								115 cell
+									116 text <meta  property =" og:type "  content =" website "/>
+							117 row
+								118 cell
+									119 text 17
+								120 cell
+									121 text <meta  property =" og:description "  content =" Handmade wall sculpture, garden reliefs and sculptural furnishings by Sally Price near Bath. Bespoke commissions for homes, hotels and commercial interiors. "/>
+							122 row
+								123 cell
+									124 text 18
+								125 cell
+									126 text <meta  property =" og:image "  content =" http://static1.squarespace.com/static/66abcbd768fd043d92325d96/t/6799f390e8fd693cfbbddc75/1738142608480/Riyadh+Shellmoon_edi+Boldstone+Middle+contrast.jpg?format=1500w "/>
+							127 row
+								128 cell
+									129 text 19
+								130 cell
+									131 text <meta  property =" og:image:width "  content =" 1500 "/>
+							132 row
+								133 cell
+									134 text 20
+								135 cell
+									136 text <meta  property =" og:image:height "  content =" 931 "/>
+							137 row
+								138 cell
+									139 text 21
+								140 cell
+									141 text <meta  itemprop =" name "  content =" Wall Sculpture &amp; Sculptural Furnishings &#124; Boldstone, UK "/>
+							142 row
+								143 cell
+									144 text 22
+								145 cell
+									146 text <meta  itemprop =" url "  content =" https://boldstonesculpture.com "/>
+							147 row
+								148 cell
+									149 text 23
+								150 cell
+									151 text <meta  itemprop =" description "  content =" Handmade wall sculpture, garden reliefs and sculptural furnishings by Sally Price near Bath. Bespoke commissions for homes, hotels and commercial interiors. "/>
+							152 row
+								153 cell
+									154 text 24
+								155 cell
+									156 text <meta  itemprop =" thumbnailUrl "  content =" http://static1.squarespace.com/static/66abcbd768fd043d92325d96/t/6799f390e8fd693cfbbddc75/1738142608480/Riyadh+Shellmoon_edi+Boldstone+Middle+contrast.jpg?format=1500w "/>
+							157 row
+								158 cell
+									159 text 25
+								160 cell
+									161 text <link  rel =" image_src "  href ="
+									162 link https://static1.squarespace.com/static/66abcbd768fd043d92325d96/t/6799f390e8fd693cfbbddc75/1738142608480/Riyadh+Shellmoon_edi+Boldstone+Middle+contrast.jpg?format=1500w, Value: static1.squarespace.com/static/66abcbd768fd043d92325d96/t/6799f390e8fd693cfbbddc75/1738142608480/Riyadh+Shellmoon_edi+Boldstone+Middle+contrast.jpg?format=1500w
+									163 text " />
+							164 row
+								165 cell
+									166 text 26
+								167 cell
+									168 text <meta  itemprop =" image "  content =" http://static1.squarespace.com/static/66abcbd768fd043d92325d96/t/6799f390e8fd693cfbbddc75/1738142608480/Riyadh+Shellmoon_edi+Boldstone+Middle+contrast.jpg?format=1500w "/>
+							169 row
+								170 cell
+									171 text 27
+								172 cell
+									173 text <meta  name =" twitter:title "  content =" Wall Sculpture &amp; Sculptural Furnishings &#124; Boldstone, UK "/>
+							174 row
+								175 cell
+									176 text 28
+								177 cell
+									178 text <meta  name =" twitter:image "  content =" http://static1.squarespace.com/static/66abcbd768fd043d92325d96/t/6799f390e8fd693cfbbddc75/1738142608480/Riyadh+Shellmoon_edi+Boldstone+Middle+contrast.jpg?format=1500w "/>
+							179 row
+								180 cell
+									181 text 29
+								182 cell
+									183 text <meta  name =" twitter:url "  content =" https://boldstonesculpture.com "/>
+							184 row
+								185 cell
+									186 text 30
+								187 cell
+									188 text <meta  name =" twitter:card "  content =" summary "/>
+							189 row
+								190 cell
+									191 text 31
+								192 cell
+									193 text <meta  name =" twitter:description "  content =" Handmade wall sculpture, garden reliefs and sculptural furnishings by Sally Price near Bath. Bespoke commissions for homes, hotels and commercial interiors. "/>
+							194 row
+								195 cell
+									196 text 32
+								197 cell
+									198 text <meta  name =" description "  content =" Handmade wall sculpture, garden reliefs and sculptural furnishings by Sally Price near Bath. Bespoke commissions for homes, hotels and commercial interiors. " />
+							199 row
+								200 cell
+									201 text 33
+								202 cell
+									203 text <link  rel =" preconnect "  href ="
+									204 link https://images.squarespace-cdn.com, Value: images.squarespace-cdn.com/
+									205 text ">
+							206 row
+								207 cell
+									208 text 34
+								209 cell
+									210 text <link  rel =" preconnect "  href ="
+									211 link https://use.typekit.net, Value: use.typekit.net/
+									212 text "  crossorigin >
+							213 row
+								214 cell
+									215 text 35
+								216 cell
+									217 text <link  rel =" preconnect "  href ="
+									218 link https://p.typekit.net, Value: p.typekit.net/
+									219 text "  crossorigin >
+							220 row
+								221 cell
+									222 text 36
+								223 cell
+									224 text <script  type =" text/javascript "  src ="
+									225 link //use.typekit.net/ik/isKlkZq2myQB096CK2uyfar0wOgNVIcoMuvAgfTdre3feTSgfFHN4UJLFRbh52jhWDjhjA4RjcbaFRycZ2MXwhbowRwkFAboFyGMJ6iyd1TTjAozJ6ol-Ao8S1ZyOAuzZemkdKGHfOEOMyMMeMb6MKGHfOrOMyMMeMS6MKGHfOhOMyMMeMt6MKG4fO9nIMIjgfMfH6qJCKCbMs6YJMJ7fbKXHUMgeMt6MKG4fOwnIMIjIPMfqMedrTQfg6.js, Value: use.typekit.net/ik/isKlkZq2myQB096CK2uyfar0wOgNVIcoMuvAgfTdre3feTSgfFHN4UJLFRbh52jhWDjhjA4RjcbaFRycZ2MXwhbowRwkFAboFyGMJ6iyd1TTjAozJ6ol-Ao8S1ZyOAuzZemkdKGHfOEOMyMMeMb6MKGHfOrOMyMMeMS6MKGHfOhOMyMMeMt6MKG4fO9nIMIjgfMfH6qJCKCbMs6YJMJ7fbKXHUMgeMt6MKG4fOwnIMIjIPMfqMedrTQfg6.js
+									226 text "  async fetchpriority =" high "  onload =" try{Typekit.load();}catch(e){} document.documentElement.classList.remove('wf-loading'); "> </script>
+							227 row
+								228 cell
+									229 text 37
+								230 cell
+									231 text <script> document.documentElement.classList.add('wf-loading') </script>
+							232 row
+								233 cell
+									234 text 38
+								235 cell
+									236 text <style> @keyframes fonts-loading { 0%, 99% { color: transparent; } } html.wf-loading * { animation: fonts-loading 3s; } </style>
+							237 row
+								238 cell
+									239 text 39
+								240 cell
+									241 text <script  type =" text/javascript "  crossorigin =" anonymous "  defer =" true "  src ="
+									242 link //assets.squarespace.com/@sqs/polyfiller/1.7.7/modern.js, Value: assets.squarespace.com/@sqs/polyfiller/1.7.7/modern.js
+									243 text "> </script>
+							244 row
+								245 cell
+									246 text 40
+								247 cell
+									248 text <script  data-name =" static-context "> Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = {"betaFeatureFlags":["website_styles_ui_enabled","sms-campaigns","supports_versioned_template_assets","campaigns_new_image_layout_picker","plp_filters_v2_expanded_frontend_filters","enable_form_submission_trigger","campaigns_discount_section_in_blasts","in-product-messaging-banners-oct-5","override_block_styles","cdk_website_components_video_container_styles_enabled","member_areas_feature","campaigns_table_v2","i18n_beta_website_locales","campaigns_ </script> <script  type =" text/javascript "> SQUARESPACE_ROLLUPS = {}; </script>
+							249 row
+								250 cell
+									251 text 41
+								252 cell
+									253 text <script> (function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/visitor-site-error-reporter-70c095566385eee0-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-visitor_site_error_reporter'); </script>
+							254 row
+								255 cell
+									256 text 42
+								257 cell
+									258 text <script  crossorigin =" anonymous "  src ="
+									259 link //assets.squarespace.com/universal/scripts-compressed/visitor-site-error-reporter-70c095566385eee0-min.en-US.js, Value: assets.squarespace.com/universal/scripts-compressed/visitor-site-error-reporter-70c095566385eee0-min.en-US.js
+									260 text "  defer  > </script> <script> (function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-30a43ba04c0f738d-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-extract_css_runtime'); </script>
+							261 row
+								262 cell
+									263 text 43
+								264 cell
+									265 text <script  crossorigin =" anonymous "  src ="
+									266 link //assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-30a43ba04c0f738d-min.en-US.js, Value: assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-30a43ba04c0f738d-min.en-US.js
+									267 text "  defer  > </script> <script> (function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-5b1fd9aed201e910-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-extract_css_moment_js_vendor'); </script>
+							268 row
+								269 cell
+									270 text 44
+								271 cell
+									272 text <script  crossorigin =" anonymous "  src ="
+									273 link //assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-5b1fd9aed201e910-min.en-US.js, Value: assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-5b1fd9aed201e910-min.en-US.js
+									274 text "  defer  > </script> <script> (function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-88f72d5f001c770b-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-cldr_resource_pack'); </script>
+							275 row
+								276 cell
+									277 text 45
+								278 cell
+									279 text <script  crossorigin =" anonymous "  src ="
+									280 link Value: assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-88f72d5f001c770b-min.en-US.js, //assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-88f72d5f001c770b-min.en-US.js
+									281 text "  defer  > </script> <script> (function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-2e71e68f6532e2b6-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common_vendors_stable'); </script>
+							282 row
+								283 cell
+									284 text 46
+								285 cell
+									286 text <script  crossorigin =" anonymous "  src ="
+									287 link //assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-2e71e68f6532e2b6-min.en-US.js, Value: assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-2e71e68f6532e2b6-min.en-US.js
+									288 text "  defer  > </script> <script> (function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/common-vendors-66418c0d4d3d1e3e-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common_vendors'); </script>
+							289 row
+								290 cell
+									291 text 47
+								292 cell
+									293 text <script  crossorigin =" anonymous "  src ="
+									294 link //assets.squarespace.com/universal/scripts-compressed/common-vendors-66418c0d4d3d1e3e-min.en-US.js, Value: assets.squarespace.com/universal/scripts-compressed/common-vendors-66418c0d4d3d1e3e-min.en-US.js
+									295 text "  defer  > </script> <script> (function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/common-8db6745c20f15f11-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common'); </script>
+							296 row
+								297 cell
+									298 text 48
+								299 cell
+									300 text <script  crossorigin =" anonymous "  src ="
+									301 link //assets.squarespace.com/universal/scripts-compressed/common-8db6745c20f15f11-min.en-US.js, Value: assets.squarespace.com/universal/scripts-compressed/common-8db6745c20f15f11-min.en-US.js
+									302 text "  defer  > </script> <script> (function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/commerce-1bacc7e5e308c177-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-commerce'); </script>
+							303 row
+								304 cell
+									305 text 49
+								306 cell
+									307 text <script  crossorigin =" anonymous "  src ="
+									308 link //assets.squarespace.com/universal/scripts-compressed/commerce-1bacc7e5e308c177-min.en-US.js, Value: assets.squarespace.com/universal/scripts-compressed/commerce-1bacc7e5e308c177-min.en-US.js
+									309 text "  defer  > </script> <script> (function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].css = ["//assets.squarespace.com/universal/styles-compressed/commerce-7cb74f0a2a4a5c9c-min.en-US.css"]; })(SQUARESPACE_ROLLUPS, 'squarespace-commerce'); </script>
+							310 row
+								311 cell
+									312 text 50
+								313 cell
+									314 text <link  rel =" stylesheet "  type =" text/css "  href ="
+									315 link //assets.squarespace.com/universal/styles-compressed/commerce-7cb74f0a2a4a5c9c-min.en-US.css, Value: assets.squarespace.com/universal/styles-compressed/commerce-7cb74f0a2a4a5c9c-min.en-US.css
+									316 text "> <script> (function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/user-account-core-e3272a3c1f9035bb-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-user_account_core'); </script>
+							317 row
+								318 cell
+									319 text 51
+								320 cell
+									321 text <script  crossorigin =" anonymous "  src ="
+									322 link Value: assets.squarespace.com/universal/scripts-compressed/user-account-core-e3272a3c1f9035bb-min.en-US.js, //assets.squarespace.com/universal/scripts-compressed/user-account-core-e3272a3c1f9035bb-min.en-US.js
+									323 text "  defer  > </script> <script> (function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].css = ["//assets.squarespace.com/universal/styles-compressed/user-account-core-838364693a506bdf-min.en-US.css"]; })(SQUARESPACE_ROLLUPS, 'squarespace-user_account_core'); </script>
+							324 row
+								325 cell
+									326 text 52
+								327 cell
+									328 text <link  rel =" stylesheet "  type =" text/css "  href ="
+									329 link Value: assets.squarespace.com/universal/styles-compressed/user-account-core-838364693a506bdf-min.en-US.css, //assets.squarespace.com/universal/styles-compressed/user-account-core-838364693a506bdf-min.en-US.css
+									330 text "> <script> (function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/performance-b3f4811a7dd0dc2f-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-performance'); </script>
+							331 row
+								332 cell
+									333 text 53
+							334 row
+								335 cell
+									336 text 54
+								337 cell
+									338 text <script>
+							339 row
+								340 cell
+									341 text 55
+								342 cell
+									343 text window.dataLayer = window.dataLayer || [];
+							344 row
+								345 cell
+									346 text 56
+								347 cell
+									348 text function gtag(){dataLayer.push(arguments);}
+							349 row
+								350 cell
+									351 text 57
+								352 cell
+									353 text gtag('consent', 'default', {
+							354 row
+								355 cell
+									356 text 58
+								357 cell
+									358 text   analytics_storage: 'denied', ad_storage: 'denied',
+							359 row
+								360 cell
+									361 text 59
+								362 cell
+									363 text   ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500
+							364 row
+								365 cell
+									366 text 60
+								367 cell
+									368 text });
+							369 row
+								370 cell
+									371 text 61
+								372 cell
+									373 text (function () {
+							374 row
+								375 cell
+									376 text 62
+								377 cell
+									378 text   var pixelStarted = false;
+							379 row
+								380 cell
+									381 text 63
+								382 cell
+									383 text   function clearTrackingCookies(pattern) {
+							384 row
+								385 cell
+									386 text 64
+								387 cell
+									388 text     var names = document.cookie.split(';').map(function (cookie) {
+							389 row
+								390 cell
+									391 text 65
+								392 cell
+									393 text       return cookie.trim().split('=')[0];
+							394 row
+								395 cell
+									396 text 66
+								397 cell
+									398 text     }).filter(function (name) { return pattern.test(name); });
+							399 row
+								400 cell
+									401 text 67
+								402 cell
+									403 text     var domains = ['', '; domain=' + location.hostname, '; domain=.boldstonesculpture.com'];
+							404 row
+								405 cell
+									406 text 68
+								407 cell
+									408 text     names.forEach(function (name) {
+							409 row
+								410 cell
+									411 text 69
+								412 cell
+									413 text       domains.forEach(function (domain) {
+							414 row
+								415 cell
+									416 text 70
+								417 cell
+									418 text         document.cookie = name + '=; Max-Age=0; path=/' + domain + '; SameSite=Lax; Secure';
+							419 row
+								420 cell
+									421 text 71
+								422 cell
+									423 text       });
+							424 row
+								425 cell
+									426 text 72
+								427 cell
+									428 text     });
+							429 row
+								430 cell
+									431 text 73
+								432 cell
+									433 text   }
+							434 row
+								435 cell
+									436 text 74
+								437 cell
+									438 text   function syncConsent() {
+							439 row
+								440 cell
+									441 text 75
+								442 cell
+									443 text     var choices = {};
+							444 row
+								445 cell
+									446 text 76
+								447 cell
+									448 text     if (typeof window.getSquarespaceCookies === 'function') choices = window.getSquarespaceCookies() || {};
+							449 row
+								450 cell
+									451 text 77
+								452 cell
+									453 text     var marketing = choices.marketing === 'accepted';
+							454 row
+								455 cell
+									456 text 78
+								457 cell
+									458 text     gtag('consent', 'update', {
+							459 row
+								460 cell
+									461 text 79
+								462 cell
+									463 text       analytics_storage: choices.performance === 'accepted' ? 'granted' : 'denied',
+							464 row
+								465 cell
+									466 text 80
+								467 cell
+									468 text       ad_storage: marketing ? 'granted' : 'denied',
+							469 row
+								470 cell
+									471 text 81
+								472 cell
+									473 text       ad_user_data: marketing ? 'granted' : 'denied',
+							474 row
+								475 cell
+									476 text 82
+								477 cell
+									478 text       ad_personalization: marketing ? 'granted' : 'denied'
+							479 row
+								480 cell
+									481 text 83
+								482 cell
+									483 text     });
+							484 row
+								485 cell
+									486 text 84
+								487 cell
+									488 text     if (marketing && !pixelStarted) {
+							489 row
+								490 cell
+									491 text 85
+								492 cell
+									493 text       pixelStarted = true;
+							494 row
+								495 cell
+									496 text 86
+								497 cell
+									498 text       if (!window.oaiq) {
+							499 row
+								500 cell
+									501 text 87
+								502 cell
+									503 text         var q = function () { q.q.push(arguments); };
+							504 row
+								505 cell
+									506 text 88
+								507 cell
+									508 text         q.q = [];
+							509 row
+								510 cell
+									511 text 89
+								512 cell
+									513 text         window.oaiq = q;
+							514 row
+								515 cell
+									516 text 90
+								517 cell
+									518 text         var script = document.createElement('script');
+							519 row
+								520 cell
+									521 text 91
+								522 cell
+									523 text         script.async = true;
+							524 row
+								525 cell
+									526 text 92
+								527 cell
+									528 text         script.src = 'https://bzrcdn.openai.com/sdk/oaiq.min.js';
+							529 row
+								530 cell
+									531 text 93
+								532 cell
+									533 text         document.head.appendChild(script);
+							534 row
+								535 cell
+									536 text 94
+								537 cell
+									538 text       }
+							539 row
+								540 cell
+									541 text 95
+								542 cell
+									543 text       window.oaiq('consent', false);
+							544 row
+								545 cell
+									546 text 96
+								547 cell
+									548 text       window.oaiq('init', {pixelId: '7h2BZq6n1ZWdWkD53Ekse7', debug: false});
+							549 row
+								550 cell
+									551 text 97
+								552 cell
+									553 text     }
+							554 row
+								555 cell
+									556 text 98
+								557 cell
+									558 text     if (typeof window.oaiq === 'function') window.oaiq('consent', marketing);
+							559 row
+								560 cell
+									561 text 99
+								562 cell
+									563 text     if (choices.performance !== 'accepted') clearTrackingCookies(/^_ga(?:_|$)|^_gid$|^_gat(?:_|$)|^ss_(?:cid|cpvisit|cvisit|cvr|cvt)$/);
+							564 row
+								565 cell
+									566 text 100
+								567 cell
+									568 text     if (!marketing) clearTrackingCookies(/^_fbp$|^_fbc$|^_gcl_|^_gac_|^__oppref$|^__obref$/);
+							569 row
+								570 cell
+									571 text 101
+								572 cell
+									573 text   }
+							574 row
+								575 cell
+									576 text 102
+								577 cell
+									578 text   var previous = window.onCookieBannerInteraction;
+							579 row
+								580 cell
+									581 text 103
+								582 cell
+									583 text   window.onCookieBannerInteraction = function () {
+							584 row
+								585 cell
+									586 text 104
+								587 cell
+									588 text     try {
+							589 row
+								590 cell
+									591 text 105
+								592 cell
+									593 text       if (typeof previous === 'function') previous.apply(this, arguments);
+							594 row
+								595 cell
+									596 text 106
+								597 cell
+									598 text     } finally {
+							599 row
+								600 cell
+									601 text 107
+								602 cell
+									603 text       syncConsent();
+							604 row
+								605 cell
+									606 text 108
+								607 cell
+									608 text     }
+							609 row
+								610 cell
+									611 text 109
+								612 cell
+									613 text   };
+							614 row
+								615 cell
+									616 text 110
+								617 cell
+									618 text   syncConsent();
+							619 row
+								620 cell
+									621 text 111
+								622 cell
+									623 text })();
+							624 row
+								625 cell
+									626 text 112
+								627 cell
+									628 text </script>
+							629 row
+								630 cell
+									631 text 113
+								632 cell
+									633 text <!-- Google Merchant Center destination MC-N7MG7EXNSE; retained separately from native GA4. -->
+							634 row
+								635 cell
+									636 text 114
+								637 cell
+									638 text <script  async src ="
+									639 link https://www.googletagmanager.com/gtag/js?id=GT-5TW3GF4B, Value: googletagmanager.com/gtag/js?id=GT-5TW3GF4B
+									640 text "> </script>
+							641 row
+								642 cell
+									643 text 115
+								644 cell
+									645 text <script>
+							646 row
+								647 cell
+									648 text 116
+								649 cell
+									650 text gtag('js', new Date());
+							651 row
+								652 cell
+									653 text 117
+								654 cell
+									655 text gtag('config', 'GT-5TW3GF4B');
+							656 row
+								657 cell
+									658 text 118
+								659 cell
+									660 text </script>
+							661 row
+								662 cell
+									663 text 119
+								664 cell
+									665 text <meta  name =" facebook-domain-verification "  content =" gxywc7luibucjshnf3mnbnt0vhmerd " />
+							666 row
+								667 cell
+									668 text 120
+								669 cell
+									670 text <meta  name =" p:domain_verify "  content =" a6a638613cb0d5bbeb6fad79af00d588 "/>
+							671 row
+								672 cell
+									673 text 121
+								674 cell
+									675 text <!-- Meta Pixel remains configured once through Squarespace's native integration. -->
+							676 row
+								677 cell
+									678 text 122
+								679 cell
+									680 text <!-- Count only a server-confirmed success from a genuine enquiry form. -->
+							681 row
+								682 cell
+									683 text 123
+								684 cell
+									685 text <script>
+							686 row
+								687 cell
+									688 text 124
+								689 cell
+									690 text (function () {
+							691 row
+								692 cell
+									693 text 125
+								694 cell
+									695 text   function trackContact(event) {
+							696 row
+								697 cell
+									698 text 126
+								699 cell
+									700 text     if (!event.isTrusted || !event.target.closest) return;
+							701 row
+								702 cell
+									703 text 127
+								704 cell
+									705 text     var link = event.target.closest('a[href]');
+							706 row
+								707 cell
+									708 text 128
+								709 cell
+									710 text     if (!link) return;
+							711 row
+								712 cell
+									713 text 129
+								714 cell
+									715 text     var method = link.protocol === 'mailto:' ? 'email' : link.protocol === 'tel:' ? 'phone' : '';
+							716 row
+								717 cell
+									718 text 130
+								719 cell
+									720 text     var choices = typeof window.getSquarespaceCookies === 'function' ? window.getSquarespaceCookies() : {};
+							721 row
+								722 cell
+									723 text 131
+								724 cell
+									725 text     if (!method || choices.performance !== 'accepted' || typeof window.gtag !== 'function') return;
+							726 row
+								727 cell
+									728 text 132
+								729 cell
+									730 text     window.gtag('event', 'click_' + method, {
+							731 row
+								732 cell
+									733 text 133
+								734 cell
+									735 text       send_to: 'G-DYE31M1PWM', contact_method: method, link_type: method === 'email' ? 'mailto' : 'tel'
+							736 row
+								737 cell
+									738 text 134
+								739 cell
+									740 text     });
+							741 row
+								742 cell
+									743 text 135
+								744 cell
+									745 text   }
+							746 row
+								747 cell
+									748 text 136
+								749 cell
+									750 text   var enquiries = {
+							751 row
+								752 cell
+									753 text 137
+								754 cell
+									755 text     '66ad0bcbd10c9508150d0c04': 'contact_enquiry',
+							756 row
+								757 cell
+									758 text 138
+								759 cell
+									760 text     '6a40e3e9a631a0287c38ca47': 'homepage_enquiry',
+							761 row
+								762 cell
+									763 text 139
+								764 cell
+									765 text     '6a0d721c1d29724366006daf': 'furnishings_enquiry'
+							766 row
+								767 cell
+									768 text 140
+								769 cell
+									770 text   };
+							771 row
+								772 cell
+									773 text 141
+								774 cell
+									775 text   var productEnquiries = ["6a131558e578c46cd0cf52c6","6a132f3987974039cbf79526","6a132f92deda452ffc2821f8","6a132fcaf7b04815480a3baf","6a132ff699592642010b33d1","6a1330290466a022dd09edf8","6a40df4002dbbf71649f56e6","6a40df50c4ad0b7e6b94b107","6a410e1f398d7f76f23a9a85","6a4436bf91a6bf3a0edb67ec","6a44401c0f076c231575337e","6a44405a1ec6544bcfabaef2","6a444089051d430e78c50d0b","6a4441c78131357bef2e14e2","6a4441f591a6bf3a0edfb608","6a4442212e29c63d4ae48729","6a444252979bab20e76d84bf","6a4444302ba6933c2835517e","6a4444e2de89f70a7e0f6c61","6a444528403eff765d606582","6a4445a1bfcf254515930c4c","6a4445e23948d17ac96890eb","6a44463297613b1b9a8f45ec","6a444724c4bd9157aaed5ecf","6a4447582e29c63d4ae6b87e","6a4447ac64e08c30b3ce1124","6a44cefba42c2a14dbac44d2","6a44cf3a9927185640d10da5","6a44cfa6148ba76329ea9dd6","6a44cfe04a7e03497d2f4826","6a44d0044fa8a62b86901905","6a44d02168e8482db86ef1b0","6a44d061c5585d11581dca65","6a540c2fb344bf6935f8e0ca","6a56753afccdff412e13f695","6a569aa7780e6210772fe703","6a569b68a5f2906ced1ba688","6a569c05df82cb318132256d","6a569caa856beb43fbfe5821","6a569d42f3c6220a0159ba65","6a569de0c70eaa5b0c155bc3","6a569e7621600240e7e022e2","6a569f1e9affd742a0d75476","6a569fbf88685d78581fa3d7","6a56a05aefd2ad380a06c6e9","6a56a0f915101b78ed6ff604","6a56a227ee266a0949bdf587","6a56a3ee8fc650249166e726","6a56a48903707d75ba506f69","6a56a542178cf638efe5425c","6a56a5fea64e4417a95ca033","6a56a6b761750f1ed175c9fe","6a56a756f17ff133f131bfc9","6a56a7f81d61906dbb1c637f","6a56a895e3a803172fdf9176","6a56a938fce5d4532de258b6","6a56a9d78e5bbe1dd11a3bfa","6a56aa7389931479d6733643","6a56ab1e3c3d510634480805","6a56abbb184a1647081233b2","6a56ad02e70f903430d321f4","6a56ae33da4aaa7c4e2e7148","6a56aec016ed7954b8e96a99","6a56af32431c52643ce71cd9","6a574ddbb80d077cca8eb2ff","6a574ffc18be4a7e3e592ef4","6a5750f90b0a806a28ce924e","6a575370a2c1a612731f3a69","6a5a6719d551291222fc7b9b","6a5a67d09b06540f443b4c6d","6a5a6975b1b00147acefbe80","6a5a6fceec0e676d7788cf6c","6a636a2d61429523107fd3c5","6aa5c06a2be1b2711bb656ab","6aa67715c20cf7004257259b","6aa688c79129ac4f52dfcaeb"];
+							776 row
+								777 cell
+									778 text 142
+								779 cell
+									780 text   productEnquiries.forEach(function (formId) { enquiries[formId] = 'product_enquiry'; });
+							781 row
+								782 cell
+									783 text 143
+								784 cell
+									785 text   var armed = {};
+							786 row
+								787 cell
+									788 text 144
+								789 cell
+									790 text   function arm(event) {
+							791 row
+								792 cell
+									793 text 145
+								794 cell
+									795 text     if (!event.isTrusted || !event.target.closest) return;
+							796 row
+								797 cell
+									798 text 146
+								799 cell
+									800 text     var form = event.target.closest('form');
+							801 row
+								802 cell
+									803 text 147
+								804 cell
+									805 text     if (!form || (event.type === 'click' && !event.target.closest('button[type="submit"], input[type="submit"]'))) return;
+							806 row
+								807 cell
+									808 text 148
+								809 cell
+									810 text     var block = form.closest('.sqs-block-form');
+							811 row
+								812 cell
+									813 text 149
+								814 cell
+									815 text     if (!block) return;
+							816 row
+								817 cell
+									818 text 150
+								819 cell
+									820 text     var context = block.querySelector('script.sqs-form-block-context');
+							821 row
+								822 cell
+									823 text 151
+								824 cell
+									825 text     if (!context) return;
+							826 row
+								827 cell
+									828 text 152
+								829 cell
+									830 text     var formId;
+							831 row
+								832 cell
+									833 text 153
+								834 cell
+									835 text     try { formId = JSON.parse(context.textContent).formId; } catch (error) { return; }
+							836 row
+								837 cell
+									838 text 154
+								839 cell
+									840 text     if (enquiries[formId]) armed[formId] = block;
+							841 row
+								842 cell
+									843 text 155
+								844 cell
+									845 text   }
+							846 row
+								847 cell
+									848 text 156
+								849 cell
+									850 text   function checkSuccess() {
+							851 row
+								852 cell
+									853 text 157
+								854 cell
+									855 text     Object.keys(armed).forEach(function (formId) {
+							856 row
+								857 cell
+									858 text 158
+								859 cell
+									860 text       var block = armed[formId];
+							861 row
+								862 cell
+									863 text 159
+								864 cell
+									865 text       var success = block.querySelector('.react-form-post-submit .form-submission-text');
+							866 row
+								867 cell
+									868 text 160
+								869 cell
+									870 text       if (!success || !success.textContent.trim() || !success.getClientRects().length) return;
+							871 row
+								872 cell
+									873 text 161
+								874 cell
+									875 text       delete armed[formId];
+							876 row
+								877 cell
+									878 text 162
+								879 cell
+									880 text       var choices = typeof window.getSquarespaceCookies === 'function' ? window.getSquarespaceCookies() : {};
+							881 row
+								882 cell
+									883 text 163
+								884 cell
+									885 text       if (choices.performance !== 'accepted' || typeof window.gtag !== 'function') return;
+							886 row
+								887 cell
+									888 text 164
+								889 cell
+									890 text       window.gtag('event', 'generate_lead', {
+							891 row
+								892 cell
+									893 text 165
+								894 cell
+									895 text         send_to: 'G-DYE31M1PWM',
+							896 row
+								897 cell
+									898 text 166
+								899 cell
+									900 text         form_id: formId,
+							901 row
+								902 cell
+									903 text 167
+								904 cell
+									905 text         form_name: enquiries[formId],
+							906 row
+								907 cell
+									908 text 168
+								909 cell
+									910 text         lead_type: 'website_enquiry'
+							911 row
+								912 cell
+									913 text 169
+								914 cell
+									915 text       });
+							916 row
+								917 cell
+									918 text 170
+								919 cell
+									920 text     });
+							921 row
+								922 cell
+									923 text 171
+								924 cell
+									925 text   }
+							926 row
+								927 cell
+									928 text 172
+								929 cell
+									930 text   function start() {
+							931 row
+								932 cell
+									933 text 173
+								934 cell
+									935 text     document.addEventListener('click', trackContact, true);
+							936 row
+								937 cell
+									938 text 174
+								939 cell
+									940 text     document.addEventListener('submit', arm, true);
+							941 row
+								942 cell
+									943 text 175
+								944 cell
+									945 text     document.addEventListener('click', arm, true);
+							946 row
+								947 cell
+									948 text 176
+								949 cell
+									950 text     new MutationObserver(checkSuccess).observe(document.body, {
+							951 row
+								952 cell
+									953 text 177
+								954 cell
+									955 text       childList: true, subtree: true, attributes: true, attributeFilter: ['class', 'style', 'hidden']
+							956 row
+								957 cell
+									958 text 178
+								959 cell
+									960 text     });
+							961 row
+								962 cell
+									963 text 179
+								964 cell
+									965 text   }
+							966 row
+								967 cell
+									968 text 180
+								969 cell
+									970 text   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once: true});
+							971 row
+								972 cell
+									973 text 181
+								974 cell
+									975 text   else start();
+							976 row
+								977 cell
+									978 text 182
+								979 cell
+									980 text })();
+							981 row
+								982 cell
+									983 text 183
+								984 cell
+									985 text </script>
+							986 row
+								987 cell
+									988 text 184
+							989 row
+								990 cell
+									991 text 185
+								992 cell
+									993 text <!-- Boldstone Pinterest consent bridge, 2026-11-08 -->
+							994 row
+								995 cell
+									996 text 186
+								997 cell
+									998 text <script>
+							999 row
+								1000 cell
+									1001 text 187
+								1002 cell
+									1003 text /* Consent-gated Pinterest tag. Config contains public SKU/variant identities only.
+							1004 row
+								1005 cell
+									1006 text 188
+								1007 cell
+									1008 text  * Called by the existing confirmed-cart shopping funnel for commerce events.
+							1009 row
+								1010 cell
+									1011 text 189
+								1012 cell
+									1013 text  * No enhanced matching, customer email, purchase simulation or noscript bypass.
+							1014 row
+								1015 cell
+									1016 text 190
+								1017 cell
+									1018 text  */
+							1019 row
+								1020 cell
+									1021 text 191
+								1022 cell
+									1023 text (function (config) {
+							1024 row
+								1025 cell
+									1026 text 192
+								1027 cell
+									1028 text   'use strict';
+							1029 row
+								1030 cell
+									1031 text 193
+								1032 cell
+									1033 text   if (window.BoldstonePinterest || !/^\d{13}$/.test(config.tagId)) return;
+							1034 row
+								1035 cell
+									1036 text 194
+								1037 cell
+									1038 text   var started = false, genericSent = false, views = {}, serial = 0;
+							1039 row
+								1040 cell
+									1041 text 195
+								1042 cell
+									1043 text   function consent() {
+							1044 row
+								1045 cell
+									1046 text 196
+								1047 cell
+									1048 text     try { return window.getSquarespaceCookies().marketing === 'accepted'; }
+							1049 row
+								1050 cell
+									1051 text 197
+								1052 cell
+									1053 text     catch (_) { return false; }
+							1054 row
+								1055 cell
+									1056 text 198
+								1057 cell
+									1058 text   }
+							1059 row
+								1060 cell
+									1061 text 199
+								1062 cell
+									1063 text   function start() {
+							1064 row
+								1065 cell
+									1066 text 200
+								1067 cell
+									1068 text     if (!consent()) return false;
+							1069 row
+								1070 cell
+									1071 text 201
+								1072 cell
+									1073 text     if (!started) {
+							1074 row
+								1075 cell
+									1076 text 202
+								1077 cell
+									1078 text       if (!window.pintrk) {
+							1079 row
+								1080 cell
+									1081 text 203
+								1082 cell
+									1083 text         var queue = function () { queue.queue.push(Array.prototype.slice.call(arguments)); };
+							1084 row
+								1085 cell
+									1086 text 204
+								1087 cell
+									1088 text         queue.queue = []; queue.version = '3.0'; window.pintrk = queue;
+							1089 row
+								1090 cell
+									1091 text 205
+								1092 cell
+									1093 text         var script = document.createElement('script');
+							1094 row
+								1095 cell
+									1096 text 206
+								1097 cell
+									1098 text         script.async = true; script.src = 'https://s.pinimg.com/ct/core.js';
+							1099 row
+								1100 cell
+									1101 text 207
+								1102 cell
+									1103 text         document.head.appendChild(script);
+							1104 row
+								1105 cell
+									1106 text 208
+								1107 cell
+									1108 text       }
+							1109 row
+								1110 cell
+									1111 text 209
+								1112 cell
+									1113 text       window.pintrk('setconsent', true);
+							1114 row
+								1115 cell
+									1116 text 210
+								1117 cell
+									1118 text       window.pintrk('load', config.tagId);
+							1119 row
+								1120 cell
+									1121 text 211
+								1122 cell
+									1123 text       window.pintrk('page');
+							1124 row
+								1125 cell
+									1126 text 212
+								1127 cell
+									1128 text       started = true;
+							1129 row
+								1130 cell
+									1131 text 213
+								1132 cell
+									1133 text     }
+							1134 row
+								1135 cell
+									1136 text 214
+								1137 cell
+									1138 text     return true;
+							1139 row
+								1140 cell
+									1141 text 215
+								1142 cell
+									1143 text   }
+							1144 row
+								1145 cell
+									1146 text 216
+								1147 cell
+									1148 text   function commerce(name, items, currency) {
+							1149 row
+								1150 cell
+									1151 text 217
+								1152 cell
+									1153 text     var event = {view_item:'pagevisit', add_to_cart:'addtocart', begin_checkout:'initiatecheckout'}[name];
+							1154 row
+								1155 cell
+									1156 text 218
+								1157 cell
+									1158 text     if (!event || !consent() || currency !== 'GBP' || !Array.isArray(items) || !items.length) return false;
+							1159 row
+								1160 cell
+									1161 text 219
+								1162 cell
+									1163 text     // Do not guess another product, selected variant or a mixed-cart total.
+							1164 row
+								1165 cell
+									1166 text 220
+								1167 cell
+									1168 text     if (items.some(function (item) {
+							1169 row
+								1170 cell
+									1171 text 221
+								1172 cell
+									1173 text       return !config.products[item.item_id] || !Number.isFinite(item.price) || item.price < 0 ||
+							1174 row
+								1175 cell
+									1176 text 222
+								1177 cell
+									1178 text         !Number.isInteger(item.quantity) || item.quantity < 1;
+							1179 row
+								1180 cell
+									1181 text 223
+								1182 cell
+									1183 text     })) return false;
+							1184 row
+								1185 cell
+									1186 text 224
+								1187 cell
+									1188 text     if (!start()) return false;
+							1189 row
+								1190 cell
+									1191 text 225
+								1192 cell
+									1193 text     var key = location.pathname + ':' + items.map(function (i) { return i.item_id; }).join(',');
+							1194 row
+								1195 cell
+									1196 text 226
+								1197 cell
+									1198 text     if (event === 'pagevisit' && views[key]) return true;
+							1199 row
+								1200 cell
+									1201 text 227
+								1202 cell
+									1203 text     var data = {currency:currency, value:Math.round(items.reduce(function (n,i) { return n+i.price*i.quantity; },0)*100)/100,
+							1204 row
+								1205 cell
+									1206 text 228
+								1207 cell
+									1208 text       order_quantity:items.reduce(function (n,i) { return n+i.quantity; },0),
+							1209 row
+								1210 cell
+									1211 text 229
+								1212 cell
+									1213 text       event_id:'boldstone-' + Date.now() + '-' + (++serial),
+							1214 row
+								1215 cell
+									1216 text 230
+								1217 cell
+									1218 text       line_items:items.map(function (i) { return {
+							1219 row
+								1220 cell
+									1221 text 231
+								1222 cell
+									1223 text         product_id:config.products[i.item_id].id, product_name:i.item_name,
+							1224 row
+								1225 cell
+									1226 text 232
+								1227 cell
+									1228 text         product_price:i.price, product_quantity:i.quantity,
+							1229 row
+								1230 cell
+									1231 text 233
+								1232 cell
+									1233 text         product_category:'Wall Sculptures', product_brand:'Boldstone'
+							1234 row
+								1235 cell
+									1236 text 234
+								1237 cell
+									1238 text       }; })};
+							1239 row
+								1240 cell
+									1241 text 235
+								1242 cell
+									1243 text     window.pintrk('track', event, data);
+							1244 row
+								1245 cell
+									1246 text 236
+								1247 cell
+									1248 text     if (event === 'pagevisit') views[key] = true;
+							1249 row
+								1250 cell
+									1251 text 237
+								1252 cell
+									1253 text     return true;
+							1254 row
+								1255 cell
+									1256 text 238
+								1257 cell
+									1258 text   }
+							1259 row
+								1260 cell
+									1261 text 239
+								1262 cell
+									1263 text   function sync() {
+							1264 row
+								1265 cell
+									1266 text 240
+								1267 cell
+									1268 text     if (consent()) {
+							1269 row
+								1270 cell
+									1271 text 241
+								1272 cell
+									1273 text       start();
+							1274 row
+								1275 cell
+									1276 text 242
+								1277 cell
+									1278 text       window.pintrk('setconsent', true);
+							1279 row
+								1280 cell
+									1281 text 243
+								1282 cell
+									1283 text       // Product PageVisit comes from the existing JSON-LD-verified funnel.
+							1284 row
+								1285 cell
+									1286 text 244
+								1287 cell
+									1288 text       var productPage = Object.keys(config.products).some(function (sku) {
+							1289 row
+								1290 cell
+									1291 text 245
+								1292 cell
+									1293 text         return config.products[sku].path === location.pathname;
+							1294 row
+								1295 cell
+									1296 text 246
+								1297 cell
+									1298 text       });
+							1299 row
+								1300 cell
+									1301 text 247
+								1302 cell
+									1303 text       if (!productPage && !genericSent && document.readyState !== 'loading') {
+							1304 row
+								1305 cell
+									1306 text 248
+								1307 cell
+									1308 text         window.pintrk('track','pagevisit',{event_id:'boldstone-page-'+Date.now()+'-'+(++serial)});
+							1309 row
+								1310 cell
+									1311 text 249
+								1312 cell
+									1313 text         genericSent = true;
+							1314 row
+								1315 cell
+									1316 text 250
+								1317 cell
+									1318 text       }
+							1319 row
+								1320 cell
+									1321 text 251
+								1322 cell
+									1323 text     } else if (started && typeof window.pintrk === 'function') {
+							1324 row
+								1325 cell
+									1326 text 252
+								1327 cell
+									1328 text       window.pintrk('setconsent', false);
+							1329 row
+								1330 cell
+									1331 text 253
+								1332 cell
+									1333 text     }
+							1334 row
+								1335 cell
+									1336 text 254
+								1337 cell
+									1338 text   }
+							1339 row
+								1340 cell
+									1341 text 255
+								1342 cell
+									1343 text   window.BoldstonePinterest = {commerce:commerce, syncConsent:sync};
+							1344 row
+								1345 cell
+									1346 text 256
+								1347 cell
+									1348 text   var previous = window.onCookieBannerInteraction;
+							1349 row
+								1350 cell
+									1351 text 257
+								1352 cell
+									1353 text   window.onCookieBannerInteraction = function () {
+							1354 row
+								1355 cell
+									1356 text 258
+								1357 cell
+									1358 text     var result;
+							1359 row
+								1360 cell
+									1361 text 259
+								1362 cell
+									1363 text     try { if (typeof previous === 'function') result = previous.apply(this,arguments); }
+							1364 row
+								1365 cell
+									1366 text 260
+								1367 cell
+									1368 text     finally { sync(); }
+							1369 row
+								1370 cell
+									1371 text 261
+								1372 cell
+									1373 text     return result;
+							1374 row
+								1375 cell
+									1376 text 262
+								1377 cell
+									1378 text   };
+							1379 row
+								1380 cell
+									1381 text 263
+								1382 cell
+									1383 text   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded',sync,{once:true});
+							1384 row
+								1385 cell
+									1386 text 264
+								1387 cell
+									1388 text   sync();
+							1389 row
+								1390 cell
+									1391 text 265
+								1392 cell
+									1393 text })({"tagId":"2612823030261","products":{"SQ0717348":{"id":"a8356f75-84b6-459f-9111-c16e5c070df9","path":"/buy/p/icarus-abstract-cave-paintings-1"},"EBAY-188698779320":{"id":"b697832a-5bd4-4d3c-94ef-0a89b377f035","path":"/buy/p/acanthus-and-moon-gold-leaf"},"SQ1068535":{"id":"03b32e3f-0ce3-4e3a-823c-76d88db6b243","path":"/buy/p/acanthus-flower-white"},"SQ7372116":{"id":"5deece99-2b2f-4975-a061-725c0e172061","path":"/buy/p/acanthus-full-acanthus-and-moon-white"},"BOLD-3635E3DC3434":{"id":"f97d3cfa-5363-4b38-8599-d28205711b18","path":"/buy/p/acanthus-one-leaf-left-pewter"},"BOLD-BCAB636141CC":{"id":"cfbbfa83-bed1-45bf-85d3-47c367041d0c","path":"/buy/p/acanthus-one-leaf-left-white"},"EBAY-188686814621":{"id":"2197bf9f-6fce-4304-bf84-6f382c1c9556","path":"/buy/p/acanthus-two-leaves-bronze"},"BOLD-9B2B466B38BE":{"id":"97a42a19-4b18-4732-aa92-76cff50369d5","path":"/buy/p/acanthus-two-leaves-pale-blue-and-white"},"BOLD-449C4421ABD0":{"id":"222a3946-baae-4d9d-a0f1-bcb3a5b281d3","path":"/buy/p/acanthus-two-leaves-pewter"},"BOLD-93ADE7C4103D":{"id":"f053ad9d-e2fc-4ed9-a3ce-a766a5c02add","path":"/buy/p/acanthus-two-leaves-white"},"BOLD-DA27DD604F0B":{"id":"7ea40d4e-fd6c-4ef8-bf81-54b632111f60","path":"/buy/p/ammonite-large-1-left-panel-white"},"BOLD-C3858B1FE67E":{"id":"406940ee-fc7e-491b-a52f-5c9a13736f3e","path":"/buy/p/ammonite-large-2-right-panel-white"},"BOLD-624D16148726":{"id":"14a1dd22-1d07-42e2-acc4-8c34420dbca5","path":"/buy/p/ammonite-small-1-left-panel-white"},"BOLD-EFBAEB31C2B1":{"id":"defc512b-61f5-427d-abca-6afe0a6bdec9","path":"/buy/p/ammonite-small-2-right-panel-white"},"SQ0484508":{"id":"032d4fdf-f194-472a-8179-a30a6df48a61","path":"/buy/p/barbados-wave"},"BOLD-9278986A1A89":{"id":"93296639-aaf3-45cf-8a82-dec89a40ceeb","path":"/buy/p/bone-spiral-1-narrow-panel-white-bs1"},"BOLD-7CDE8362BB51":{"id":"44b3bb66-1d49-4ae2-bc97-e2c9473963e4","path":"/buy/p/bone-spiral-2-wide-panel-white-bs2"},"BWS-1-55.55":{"id":"4c050c85-b9d3-4fa6-8c19-b445f7fd1e78","path":"/buy/p/bone-water-spiral-white"},"BOLD-A1EB68571F0F":{"id":"38eb3391-23d3-4760-aab3-4a92c93e1ec2","path":"/buy/p/brancusi-1-gold-leaf"},"BOLD-923D5E50A898":{"id":"f7cea7ee-e39f-412a-a564-7e0c73e0e5bb","path":"/buy/p/brancusi-1-meander-light-white-mld1"},"BOLD-8968D21D702D":{"id":"5ad8fc03-f35e-42d2-be48-9d73b6597c34","path":"/buy/p/brancusi-2-gold-leaf"},"BOLD-F7ADC5AEE4E0":{"id":"b47c2c03-9eb5-44f2-b714-64e7b432b937","path":"/buy/p/brancusi-2-meander-dark-white-mld2"},"BT-1-100.22":{"id":"467ac7b5-9295-450f-8f65-13d2fafdbc07","path":"/buy/p/brancusi-totem-white"},"BOLD-F95020D6821C":{"id":"482c00fa-5f8d-4ca8-aa75-b94dc2da44e6","path":"/buy/p/chelsea-moonwave"},"BOLD-830A4594D176":{"id":"6e49644a-4d35-416e-9f36-e6b06186002f","path":"/buy/p/chiswick-moon"},"BOLD-3DEA4D29C4A2":{"id":"e7c0e81e-f94b-4faa-bf47-580aa01cdb4a","path":"/buy/p/chiswick-moon-water-feature"},"BOLD-0C2CB099DDEB":{"id":"4bec2e3b-2b73-4302-9ee8-b31e71ddfa25","path":"/buy/p/coral-spiral-white"},"BOLD-ADD5F3BEFCF5":{"id":"8b2082c8-ed12-43a1-935a-778b69a7f224","path":"/buy/p/cup-ring-crs2-white-standard"},"BOLD-AAC2DC2CFEC2":{"id":"e62f497c-77f9-4cd5-b848-6dc93bb76f0b","path":"/buy/p/cup-ring-and-spiral-paver-1-brown"},"BOLD-4C08C8E484EE":{"id":"2ed8a2ab-78ad-4e00-84bd-58cb4a0dba9c","path":"/buy/p/cup-ring-and-spiral-paver-2-brown"},"BOLD-70BDE00F2855":{"id":"d00ee970-b8fb-478d-a203-f0b4e26f2b25","path":"/buy/p/spiral-white-crs1"},"BOLD-87B48040E454":{"id":"d800363d-b533-4423-8067-846009734296","path":"/buy/p/deco-dune-ripple-spiral-white"},"BOLD-7DE1AABB8B7A":{"id":"a909e9b5-bbec-434e-96ae-41302fa47920","path":"/buy/p/deco-dune-ripple-spiral-verdigris"},"BOLD-B2D54C28FDA3":{"id":"1d15a8ca-ff12-44b1-baa6-adcb2e48df65","path":"/buy/p/deco-dune-ripple-wave-verdigris"},"BOLD-8CD6A48141ED":{"id":"e0a90342-26b8-4025-85fe-b4f03f56def5","path":"/buy/p/deco-dune-ripple-wave-white"},"GS-1-30.30":{"id":"4209ae6b-d102-42bf-98f4-c2c578d8230f","path":"/buy/p/golden-spiral-white-and-gold"},"PF1-40.45":{"id":"e82e352d-ca2a-4ecb-b604-93bb0aed9a2e","path":"/buy/p/palm-form-one-white"},"PF2-40.45":{"id":"6adebe8b-8b57-49a0-ae6e-a23da4f675be","path":"/buy/p/palm-form-two-white"},"TS-1-45.40":{"id":"92bad825-9813-412b-9dbe-0b63efd53ffc","path":"/buy/p/timeless-spiral-white"},"EBAY-188654562815":{"id":"821a98ac-7685-4a0c-ab2c-e541b3221ab5","path":"/buy/p/decowaves-1-terracotta"},"BOLD-612EF4DBB555":{"id":"a79490ad-0a69-4a17-818d-07d7f63468d7","path":"/buy/p/decowaves-1-verdigris"},"BOLD-27967D2BD7B4":{"id":"281389a8-e6c7-47cb-bf83-b594dbf0aa72","path":"/buy/p/decowaves-2-terracotta"},"BOLD-FE830AE502C3":{"id":"39ec4792-6a00-4b33-9821-eaa2d96ab069","path":"/buy/p/decowaves-2-verdigris"},"BOLD-8CC6C8AABCB7":{"id":"5f74be04-f013-4ea8-933f-6f4f25dcffb3","path":"/buy/p/frozen-decowaves-1-white"},"BOLD-837E9B0B3B36":{"id":"0f448ce1-3508-4abc-8119-2550258f7df3","path":"/buy/p/frozen-decowaves-2-white"},"BOLD-AF88EAA8EBC0":{"id":"5343777c-86e2-4216-90bc-98a31067c4da","path":"/buy/p/dune-ripple-1-blue-verdigris-and-bronze"},"EBAY-188654649217":{"id":"f2e7f2c4-62d0-4467-9401-172498684b7f","path":"/buy/p/dune-ripple-1-rust"},"SQ0836319":{"id":"f95ac00c-3709-4a6d-ae1a-09630559d1a9","path":"/buy/p/dune-ripple-1-verdigris"},"VDR-1-35.20":{"id":"fcf39a9c-eea7-4545-96cc-e5c83a2df742","path":"/buy/p/dune-ripple-1-verdigris-and-rust"},"BOLD-98997871B7EC":{"id":"48065ef0-877c-44c1-bc1b-39488a038a90","path":"/buy/p/dune-ripple-1-white"},"BOLD-6F3C6CD908A0":{"id":"16a3e67b-8a7a-4810-9185-2862de822515","path":"/buy/p/dune-ripple-2-bronze-and-verdigris"},"EBAY-188654831217":{"id":"57636ef4-b996-4fd5-bc34-dcf1c0153fab","path":"/buy/p/dune-ripple-2-copper"},"BOLD-6405184B86EB":{"id":"1d36f08f-0f00-44cf-a907-46efd3f4bc2d","path":"/buy/p/dune-ripple-2-copper-and-partial-verdigris"},"SQ6244576":{"id":"fade7c19-c2ec-4689-b3bf-20defb1af737","path":"/buy/p/dune-ripple-2-gold"},"EBAY-188682535224":{"id":"639badbd-a307-48c5-ad3c-64696ffc3698","path":"/buy/p/dune-ripple-2-rust"},"SQ0059342":{"id":"6842698b-de80-4448-8bb0-910345c92a2c","path":"/buy/p/dune-ripple-2-verdigris-and-copper"},"BOLD-3FCC58C3B4BD":{"id":"d2c3365b-af67-40e4-acfb-b715e99e0192","path":"/buy/p/dune-ripple-2-white"},"BOLD-0BE032939501":{"id":"5eb24058-b2eb-40cf-b9be-c48509b3c9af","path":"/buy/p/echo-pattern-one-verdigris-ep1"},"BOLD-BF85B0E4D43E":{"id":"0202a6aa-ad12-498a-83d4-a047f0620bcc","path":"/buy/p/echo-pattern-one-white-ep1"},"BOLD-EF421C1D2C92":{"id":"ff8c7fe3-b08a-47ec-9e68-122a16366041","path":"/buy/p/echo-pattern-two-verdigris-ep2"},"BOLD-F8398FA248EE":{"id":"cb5e3795-80d4-43cb-b5e3-3bce0321239c","path":"/buy/p/echo-pattern-two-white-ep2"},"BOLD-5020FF47923F":{"id":"00d32a26-e26a-4914-89a3-5cea8bd76168","path":"/buy/p/egyptian-palm-four-white-extended"},"GP-1-50.30":{"id":"fd78790e-f464-45b7-abe1-9dd2f25a97bc","path":"/buy/p/egyptian-palm-one-gold-leaf"},"BOLD-5819104A663F":{"id":"350770d1-92d6-42db-b38e-9d8ce3deff2a","path":"/buy/p/egyptian-palm-one-marbled-black-and-white"},"BOLD-1774B82C6518":{"id":"ee967606-d5ad-484f-addd-2d79ae602054","path":"/buy/p/egyptian-palm-one-pewter"},"BOLD-3ABEAEE767E8":{"id":"ff4b0fcc-0efd-4af3-9b77-c6830b48ec38","path":"/buy/p/egyptian-palm-one-white"},"BOLD-E0FAA8F7CB6D":{"id":"fd11217b-9dc6-4387-9f8f-45a7549ff616","path":"/buy/p/egyptian-palm-three-white-three-leaves"},"BOLD-F13E2BF8C6C8":{"id":"a2e9aa28-829e-49cc-bc26-81523f2ddb16","path":"/buy/p/egyptian-palm-two-white"},"BOLD-3625008B0B78":{"id":"7e0f41d7-189b-4b77-ae82-1d99b27bc725","path":"/buy/p/embedded-shells-white"},"BOLD-FF5C988717F7":{"id":"2aaa4085-d873-4247-bdc5-f06c47c05777","path":"/buy/p/faceted-mound-gold-leaf"},"CF-1-70.50":{"id":"8cb4048f-59a7-407e-ae4b-652e7ca97556","path":"/buy/p/cultivation-folds-white"},"FF-1-70.50":{"id":"1c1a2ba4-fea0-4706-99cc-10452b2fd71d","path":"/buy/p/fan-folds-white"},"BOLD-272D625A3D41":{"id":"8113fdfe-7dad-4ede-a24a-d64e07fb9ec4","path":"/buy/p/fold-unfold-4-white"},"SWF-1-70.50":{"id":"b44725b0-74c2-4c95-8e73-4f749ac70ff4","path":"/buy/p/swan-wing-folds-white"},"BOLD-DDF9748D271D":{"id":"3c2c2481-0693-41fa-8920-1ba13c273de3","path":"/buy/p/fingerprint-concentric-1-cream"},"BOLD-0D2FEACDB98D":{"id":"4b6becc2-71b7-4e52-9993-3f619dd45124","path":"/buy/p/fingerprint-concentric-1-white"},"BOLD-061791F55EAD":{"id":"7bc588d9-964d-4e76-a713-87e092de723d","path":"/buy/p/fingerprint-concentric-2-cream"},"BOLD-8BB94D9D6C27":{"id":"f09aa89c-a620-46d9-8a66-ff8e5fc3414d","path":"/buy/p/fingerprint-concentric-2-white"},"BOLD-A9C6379B224B":{"id":"c27a66d2-6821-4591-8413-6c75f11ac9ed","path":"/buy/p/fingerprint-concentric-3-cream"},"BOLD-C45EA7819042":{"id":"ce04b898-5948-4366-a4ed-b240a36091ea","path":"/buy/p/fingerprint-concentric-3-white"},"BOLD-70ECBB049292":{"id":"1f9a9c98-967f-450d-bb82-9bcc59b4ab4d","path":"/buy/p/fountain-palm-egyptian-bronze-and-verdigris"},"DF-1-100.50":{"id":"2c1d41d1-bba4-4f40-8aee-e671a143a6a8","path":"/buy/p/fountain-palm-egyptian-white"},"BOLD-DDD53E46FB3F":{"id":"268abbb1-c398-4d13-bd6a-c877c0bd7b17","path":"/buy/p/fountain-palm-mediterranean-white"},"EBAY-188654392024":{"id":"48b2e1a0-6e15-44f2-bd9b-2be5643cc8cd","path":"/buy/p/frozen-fish-terracotta"},"SQ2145412":{"id":"805bd50e-9d15-4e6f-8d54-40abc3ccd06e","path":"/buy/p/frozen-fish-verdigris"},"BOLD-FE10273D3655":{"id":"5d24317f-cd61-44cb-bf15-f62a9063e850","path":"/buy/p/frozen-fish-white"},"BOLD-53239DE28BCA":{"id":"6f527184-e7bb-42a2-bd58-92c208358189","path":"/buy/p/gleneagles-vine-and-tendril-1-white"},"BOLD-49CB2EDD232C":{"id":"fd001373-a8eb-4bf7-96dd-cb488da087da","path":"/buy/p/gleneagles-vine-and-tendril-2-white"},"BOLD-48D13D8D7E67":{"id":"7c0162a1-83b9-44c2-ad24-335a75a17bff","path":"/buy/p/gleneagles-vine-and-tendril-3-white"},"BOLD-8957C5C51828":{"id":"5e446a2b-311e-4fb5-99be-aa692d828154","path":"/buy/p/gleneagles-vine-and-tendril-4-white"},"BOLD-3BFB1137D230":{"id":"058c6d62-1c65-4c4e-9c76-84934db8775f","path":"/buy/p/knightsbridge-fountain-white"},"BOLD-7357A558C9E8":{"id":"c1aa5ef9-15a2-4ea0-8cc2-6b5cf5aa3fdb","path":"/buy/p/lava-moon-1-white"},"BOLD-791ADD96D660":{"id":"aae85ad5-7c07-4f49-9de0-c15d5039f277","path":"/buy/p/lava-moon-2-white"},"BOLD-2246CBC9C94E":{"id":"9c87aafd-298e-48a1-86cb-e74eb620f075","path":"/buy/p/lava-moon-3-white"},"BOLD-CF0CC1EB8F96":{"id":"01b76a16-400a-4bb8-9f20-d2b08a9ef35b","path":"/buy/p/leaf-curve-white-and-gold-leaf"},"LF-1-40.20":{"id":"c372760b-3da8-4a76-b41c-7d7d4120404f","path":"/buy/p/leaf-form-white"},"BOLD-096BA2E00517":{"id":"7849b69f-462e-43e1-b8c7-5511653b0a7d","path":"/buy/p/leaf-form-2-gold-lf2"},"ML-1-100.30":{"id":"9523788e-e11b-4d57-9152-00c277417759","path":"/buy/p/leaf-growth-white-magnolia-leaves"},"BOLD-B42C439049D7":{"id":"c4ac0600-f6b8-4d20-b364-98500050c837","path":"/buy/p/leaf-growth-white-and-gold-leaf"},"BOLD-B9E2B67965E2":{"id":"06db94dd-1841-4a53-bd27-5e81e2ccbbf1","path":"/buy/p/moon-and-shellwave-1-white"},"BOLD-6E9202BEAD51":{"id":"5f5d490e-0ca2-4796-8aec-eaed82a472fb","path":"/buy/p/moon-and-shellwave-2-black-and-white"},"BOLD-6FE9343F889E":{"id":"b9601892-7312-43a7-b7ea-cdf744c87580","path":"/buy/p/moon-and-shellwave-2-white"},"SQ6715979":{"id":"91c9a540-7006-4fbc-aa50-dba46372148a","path":"/buy/p/moon-crater-phase-1-verdigris-and-rust-mcp1"},"BOLD-27B50C52ED10":{"id":"7d5c07ad-d717-478d-a848-4f84b37e9198","path":"/buy/p/moon-crater-phase-1-white-mcp1"},"BOLD-177C94BD0EFF":{"id":"47c05adf-042d-4af9-8184-a0a2ed99c78f","path":"/buy/p/moon-crater-phase-2-blue-splashes-mcp2"},"SQ5572436":{"id":"7f3aaeed-6376-45be-9a43-32660cf23140","path":"/buy/p/moon-crater-phase-2-verdigris-and-rust-mcp2"},"BOLD-8035F91E2A67":{"id":"4b3d4898-342b-403d-afd0-402671ed2d52","path":"/buy/p/moon-crater-phase-2-white-mcp2"},"SQ6211184":{"id":"4040c8a3-acbf-4fc6-a695-9ba36d8b8df8","path":"/buy/p/moon-crater-phase-3-verdigris-and-rust-mcp3"},"BOLD-89699A0F5BA9":{"id":"928fc098-d09a-4529-a387-f6afeeb4587d","path":"/buy/p/moon-crater-phase-3-white-mcp3"},"SQ1605793":{"id":"b7655368-dabd-46ca-aa35-5e46cfafe171","path":"/buy/p/moon-crater-phase-4-silver-and-bronze"},"SQ4868573":{"id":"ac08b9ce-e042-46a5-b05d-61d4ed1634bb","path":"/buy/p/moon-crater-phase-4-verdigris"},"SQ2233720":{"id":"bd0f35a9-6391-4a04-8a65-852b40aefe13","path":"/buy/p/moon-crater-phase-4-verdigris-and-rust"},"BOLD-98376D9FF006":{"id":"22e1d39d-8abe-4c8e-800f-383433df9ae7","path":"/buy/p/moon-crater-phase-4-white-mcp4"},"BOLD-0696BC44A7BC":{"id":"d207eb59-a5e3-40f4-8833-bb24b41acb3c","path":"/buy/p/moon-crater-wide-lip-drip-rust"},"BOLD-992BA62AA818":{"id":"ac842f33-f711-4c3e-bc17-d45bf901d90f","path":"/buy/p/moon-fishwave-1-white"},"BOLD-8AC0376F7DEF":{"id":"424587ad-9e86-4132-a152-6f6599e502e8","path":"/buy/p/moon-fishwave-2-white"},"BOLD-FBD125528AEC":{"id":"49fd4c8f-ff7c-4894-9e10-33961c51e75b","path":"/buy/p/moon-ring-white"},"BOLD-CBD8D0C8DE19":{"id":"c8ce1717-1fa5-42d7-a7a6-af0c217401bd","path":"/buy/p/moon-crater-white-basin"},"EBAY-188687221372":{"id":"90401a96-db13-4f42-a758-4b4b1c749a66","path":"/buy/p/moonphase-four-silver-mp4"},"BOLD-818D745F1357":{"id":"2089ace5-dedb-4c2c-89a0-210eba07e4a5","path":"/buy/p/moonphase-four-white-mp4"},"BOLD-B1DCB5B08396":{"id":"e46a65e3-0be9-49d5-bca4-a4f495e9b50b","path":"/buy/p/moonphase-four-white-and-gold-mp4"},"EBAY-188568605667":{"id":"b64cbba2-505e-426e-808b-804940ed73ad","path":"/buy/p/moonphase-one-white-mp1"},"BOLD-65A93033A200":{"id":"4d6a8c38-5efc-4744-942a-8cee6e49e9d9","path":"/buy/p/moonphase-one-white-with-border-mp1"},"SQ1357552":{"id":"0fc8ec5a-29f4-4342-a843-73a65b7747fa","path":"/buy/p/moonphase-three-white-mp3"},"SQ6247538":{"id":"1fed7cf0-4f50-4cff-9f76-810f72689c9f","path":"/buy/p/moonphase-two-white-mp2"},"BOLD-161DFE20DFB0":{"id":"c184e773-d87c-42cf-a639-4beb52770ae3","path":"/buy/p/moonphase-two-white-and-gold-mp2"},"BOLD-4515726BBC18":{"id":"5680fedd-80a0-4cb7-9638-224bc5f13506","path":"/buy/p/moonphase-two-white-with-border-mp2"},"BOLD-67EA9E9D261A":{"id":"bb21ff7e-c75b-4645-a5dd-5172dbe3a7cb","path":"/buy/p/moonshell-lava-1-white"},"BOLD-21E7F11ACAAA":{"id":"e491e0bb-37f8-48b7-8723-6866eed6dfb9","path":"/buy/p/moonshell-lava-2-white"},"BOLD-75ACAD5A9841":{"id":"61c76966-2e75-4a8d-aec4-ce45a24c1b1a","path":"/buy/p/moonshell-lava-corner-curve-white"},"BOLD-1A7497B69626":{"id":"51dbc7ad-f1a2-4fe6-94ef-ad95548f2bd5","path":"/buy/p/moonspiral-one-white-ms1"},"BOLD-3EC38D9CD913":{"id":"afc9f794-217a-416d-b9ea-ae09bc8e139b","path":"/buy/p/moonspiral-three-white-ms3"},"MS-1-70.50":{"id":"3f7dac2c-0b62-4c4c-beda-b3f6a6cbf16e","path":"/buy/p/moonspiral-two-white-ms2"},"MWTR-1-50":{"id":"b1ffd4de-496c-445c-a04c-33f1284b3632","path":"/buy/p/moon-water-catcher-white-mwc1"},"MW-1-74.35":{"id":"76dc58c2-9754-4b21-a7f8-c6c844dc643c","path":"/buy/p/moonwave-white"},"BOLD-E5A179105EA8":{"id":"81e95c4c-3316-4a70-8566-13f089160b8a","path":"/buy/p/panel-curves-beige"},"BOLD-2418C8B43415":{"id":"0b7aeb42-d439-4047-be02-5f24c15a25c1","path":"/buy/p/panel-curves-textured-gold-leaf"},"BOLD-1CDB2BAE6105":{"id":"cdff2112-da84-45ea-a4d2-2e6ff9aa9c92","path":"/buy/p/plant-form-white"},"BOLD-FE973AD4748E":{"id":"c54d4679-150c-4b22-9aab-dbf1af905c94","path":"/buy/p/raked-spiral-1-white"},"BOLD-2AFD94C9F459":{"id":"c4fe039c-f46a-443c-b759-35e722a587f9","path":"/buy/p/raked-spiral-2-white"},"BOLD-6AA659B1469F":{"id":"a3348f04-0907-46b4-a32e-9718af0369ea","path":"/buy/p/raked-spiral-3-beige"},"BOLD-04C3A2CA2BE1":{"id":"217f6eae-0ecb-4593-ae10-b7fcad9004cf","path":"/buy/p/raked-spiral-3-white"},"BOLD-B9DA00108196":{"id":"99361bfd-2151-4045-bc8d-b8df31d12251","path":"/buy/p/riyadh-dune-ripple-panel-white"},"BOLD-1AD9185411D8":{"id":"02f18af2-6af7-47d6-81a4-71267aff3d8f","path":"/buy/p/riyadh-plain-moon-panel-white"},"BOLD-3EB5B16E33CC":{"id":"2e230b51-db33-4d28-af76-eb1387f39e58","path":"/buy/p/riyadh-shellmoon-panel"},"EBAY-188590547084":{"id":"0e14d5b1-a026-4348-ad0c-b3ac1c90b181","path":"/buy/p/rust-and-verdigris-panel"},"FSR-1-50.100":{"id":"a876da2d-2ac9-43b7-8360-c96de3977f2b","path":"/buy/p/fossil-sand-ripple-white"},"SSR-1-100.50":{"id":"d57ac553-6c0f-4b8d-b47b-fd375b0be034","path":"/buy/p/smooth-sand-ripple-white"},"BOLD-C0F5BF012CFC":{"id":"4a1fcb44-1ec9-4705-8ff6-2f8ddf62abaf","path":"/buy/p/battersea-shellmoon-1-white"},"BOLD-22E4E4F99696":{"id":"69515c36-cd21-4d80-b8a9-b8b6a93fb6b5","path":"/buy/p/battersea-shellmoon-1-white-water-feature"},"BOLD-1B70A9FB1B26":{"id":"d2e59f04-604e-4cb2-b7d5-9a5a8ff8fdac","path":"/buy/p/battersea-shellmoon-2-white-water-feature"},"BOLD-406CAEC365A4":{"id":"b5e640c9-ca9b-4372-b491-1d75a08abf94","path":"/buy/p/islington-shellmoon-white"},"BOLD-22B6E4FB3DD8":{"id":"55307de1-80b4-428f-ac0d-8c03d4a13f08","path":"/buy/p/islington-shellmoon-white-water-feature"},"BOLD-21DCD11AD8C6":{"id":"fe870ce0-d5dd-446c-a98b-ce41d009416a","path":"/buy/p/soundwave-white"},"BOLD-199FCF3A2B42":{"id":"b64539ef-6634-4394-80af-0d94e38908d8","path":"/buy/p/spice-texture-1-white"},"BOLD-828E89E3B7DC":{"id":"8adcb8df-89d2-44ab-aa08-304ccde1d733","path":"/buy/p/spice-texture-2-white"},"BOLD-718DFFB7EC5D":{"id":"beade827-0bb3-455b-b645-a7c9e5c93d34","path":"/buy/p/spiralfish-wave-tide-1-bronze"},"BOLD-B19E0B8602C1":{"id":"5a0812f9-eb7a-4502-b0ed-cbaba39a2925","path":"/buy/p/spiralfish-wave-tide-1-white"},"BOLD-54F871DCF4CA":{"id":"ac785362-a54c-4a91-8e91-be5d17d2f8bd","path":"/buy/p/spiralfish-wave-tide-2-bronze"},"BOLD-A272AC152172":{"id":"9bcc7d91-366e-4e8b-a27b-d56f90957f66","path":"/buy/p/spiralfish-wave-tide-2-white"},"BOLD-8EA49F5DDB1C":{"id":"a904a61c-17c2-4da6-8868-36f76430a1e0","path":"/buy/p/quarter-moon-white"},"SM-1-55.55":{"id":"a5cc6823-4ee1-403b-94aa-c153dd3dad4d","path":"/buy/p/spiralmoon-white"},"BOLD-21E953F1D523":{"id":"96f18279-71b3-4ea7-bb10-e541c6c7c7c8","path":"/buy/p/strata-blue-wash-verdigris"},"SQ1851097":{"id":"6e725a7b-1bda-4b94-a49c-8805a6ea85fb","path":"/buy/p/strata-verdigris"},"BOLD-7B6291B7C7F9":{"id":"dd1446ab-5c89-46a5-a35d-632931bdf3b2","path":"/buy/p/strata-white"},"BOLD-207102CFD25C":{"id":"5ac1fd9d-cfdf-4269-9402-e6b843a515d1","path":"/buy/p/textured-panel-blue-brown-and-rust"},"BOLD-9AF26B8CF780":{"id":"489155bf-3f60-4aae-b1a0-549c757719b7","path":"/buy/p/textured-panel-rust-and-blue-patina"},"BOLD-22DA74B2107E":{"id":"d0d2ced0-f852-465c-8dd3-edcfe99f214c","path":"/buy/p/wall-circle-azure-blue-and-white-marbled"},"BOLD-1B20DCA291BB":{"id":"45009d4e-222f-462c-9caf-be70cdeb9cdb","path":"/buy/p/wall-circle-brass-with-world-colours"},"SQ1000026":{"id":"387f9e85-6712-4717-b1b8-3534efbbf9ad","path":"/buy/p/wall-circle-green-and-white-marbled"},"BOLD-CCB6CA396E9C":{"id":"cd494fe3-3b4d-4f24-a4c8-cef5f896b2cd","path":"/buy/p/wall-circle-pale-blue-marbled"},"SQ1000066":{"id":"6d269f30-8455-4d18-a7a2-84ce44b543be","path":"/buy/p/wall-circle-terracotta-marbled"},"SQ1000002":{"id":"4257191c-6e0e-4fd9-9e59-c784edacc3ab","path":"/buy/p/wall-circle-turquoise-marbled"},"EBAY-188703253522":{"id":"c9cd26c7-a9bd-4a60-9b1b-cc878ce497f8","path":"/buy/p/azure-blue-and-white-marbled-panel"},"BOLD-A57A49000891":{"id":"3eb083c0-4584-4e93-8e26-05483b55300b","path":"/buy/p/wave-and-moonshadow-1-white"},"BOLD-B6EC1EDD319F":{"id":"41348c3b-adf9-4bf0-98c7-6de54238b295","path":"/buy/p/wave-and-moonshadow-2-white"}}});
+							1394 row
+								1395 cell
+									1396 text 266
+							1397 row
+								1398 cell
+									1399 text 267
+								1400 cell
+									1401 text </script> <script> Static.COOKIE_BANNER_CAPABLE = true; </script>
+							1402 row
+								1403 cell
+									1404 text 268
+								1405 cell
+									1406 text <script  async src ="
+									1407 link https://www.googletagmanager.com/gtag/js?id=G-DYE31M1PWM, Value: googletagmanager.com/gtag/js?id=G-DYE31M1PWM
+									1408 text "> </script> <script> window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('set', 'developer_id.dZjQwMz', true);gtag('consent', 'default', { 'analytics_storage': 'denied', 'wait_for_update': 500 });window.googleAnalyticsRequiresConsentUpdates = true;(function(){let squarespaceCookies = {};if (window.getSquarespaceCookies) {  squarespaceCookies = window.getSquarespaceCookies();}const consentValue = squarespaceCookies.performance === 'accepted' ? 'granted' :  'denied';gtag('consent', 'update', { 'analytics_storage': consentValue })})();gtag('config', 'G-DYE31M1PWM'); </script> <script> !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.agent='plsquarespace';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');window.facebookPixelRequiresConsentUpdates = true;(function(){let squarespaceCookies = {};if (window.getSquarespaceCookies) {  squarespaceCookies = window.getSquarespaceCookies();}if (squarespaceCookies.marketing !== 'accepted') { fbq('consent', 'revoke'); }})();fbq('init', '4566349726935061');fbq('track', "PageView"); </script> <!-- End of Squarespace Headers -->
+							1409 row
+								1410 cell
+									1411 text 269
+								1412 cell
+									1413 text </head>
+							1414 row
+								1415 cell
+									1416 text 270
+							1417 row
+								1418 cell
+									1419 text 271
+								1420 cell
+									1421 text <body
+							1422 row
+								1423 cell
+									1424 text 272
+								1425 cell
+									1426 text id =" collection-6a40e3e9a631a0287c38ca49 "
+							1427 row
+								1428 cell
+									1429 text 273
+								1430 cell
+									1431 text class ="
+							1432 row
+								1433 cell
+									1434 text 274
+								1435 cell
+									1436 text       primary-button-style-solid primary-button-shape-square secondary-button-style-outline secondary-button-shape-square tertiary-button-style-outline tertiary-button-shape-underline form-field-style-solid form-field-shape-square form-field-border-all form-field-hover-focus-outline form-field-checkbox-type-icon form-field-checkbox-fill-solid form-field-checkbox-color-inverted form-field-checkbox-shape-square form-field-checkbox-layout-stack form-field-radio-type-icon form-field-radio-fill-solid form-field-radio-color-normal form-field-radio-shape-pill form-field-radio-layout-stack form-field-survey-fill-solid form-field-survey-color-normal form-field-survey-shape-pill form-submit-button-style-label tweak-global-animations-animation-type-none tweak-global-animations-animation-curve-ease image-block-poster-text-alignment-left image-block-card-content-position-center image-block-card-text-alignment-left image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-content-position-center image-block-collage-text-alignment-left image-block-stack-text-alignment-left tweak-blog-alternating-side-by-side-width-full tweak-blog-alternating-side-by-side-image-aspect-ratio-11-square tweak-blog-alternating-side-by-side-text-alignment-left tweak-blog-alternating-side-by-side-read-more-style-show tweak-blog-alternating-side-by-side-image-text-alignment-middle tweak-blog-alternating-side-by-side-delimiter-bullet tweak-blog-alternating-side-by-side-meta-position-top tweak-blog-alternating-side-by-side-primary-meta-categories tweak-blog-alternating-side-by-side-secondary-meta-date tweak-blog-alternating-side-by-side-excerpt-show form-use-theme-colors tweak-global-animations-complexity-level-detailed tweak-global-animations-animation-style-fade tweak-blog-masonry-width-full tweak-blog-masonry-text-alignment-left tweak-blog-masonry-primary-meta-categories tweak-blog-masonry-secondary-meta-date tweak-blog-masonry-meta-position-top tweak-blog-masonry-read-more-style-show tweak-blog-masonry-delimiter-space tweak-blog-masonry-image-placement-above tweak-blog-masonry-excerpt-show tweak-portfolio-grid-overlay-width-full tweak-portfolio-grid-overlay-height-large tweak-portfolio-grid-overlay-image-aspect-ratio-11-square tweak-portfolio-grid-overlay-text-placement-center tweak-portfolio-grid-overlay-show-text-after-hover tweak-blog-single-column-width-full tweak-blog-single-column-text-alignment-center tweak-blog-single-column-image-placement-above tweak-blog-single-column-delimiter-bullet tweak-blog-single-column-read-more-style-show tweak-blog-single-column-primary-meta-categories tweak-blog-single-column-secondary-meta-date tweak-blog-single-column-meta-position-top tweak-blog-single-column-content-full-post header-width-full  tweak-fixed-header-style-basic tweak-blog-item-width-medium tweak-blog-item-text-alignment-left tweak-blog-item-meta-position-below-title tweak-blog-item-show-categories tweak-blog-item-show-date tweak-blog-item-show-author-name tweak-blog-item-show-author-profile tweak-blog-item-delimiter-bullet tweak-blog-side-by-side-width-full tweak-blog-side-by-side-image-placement-left tweak-blog-side-by-side-image-aspect-ratio-11-square tweak-blog-side-by-side-primary-meta-categories tweak-blog-side-by-side-secondary-meta-date tweak-blog-side-by-side-meta-position-top tweak-blog-side-by-side-text-alignment-left tweak-blog-side-by-side-image-text-alignment-middle tweak-blog-side-by-side-read-more-style-show tweak-blog-side-by-side-delimiter-bullet tweak-blog-side-by-side-excerpt-show tweak-events-stacked-width-full tweak-events-stacked-height-large tweak-events-stacked-show-thumbnails tweak-events-stacked-thumbnail-size-32-standard tweak-events-stacked-date-style-with-text tweak-events-stacked-show-time tweak-events-stacked-show-location tweak-events-stacked-show-excerpt tweak-blog-basic-grid-width-full tweak-blog-basic-grid-image-aspect-ratio-32-standard tweak-blog-basic-grid-text-alignment-left tweak-blog-basic-grid-delimiter-bullet tweak-blog-basic-grid-image-placement-above tweak-blog-basic-grid-read-more-style-show tweak-blog-basic-grid-primary-meta-categories tweak-blog-basic-grid-secondary-meta-date tweak-blog-basic-grid-excerpt-show tweak-portfolio-grid-basic-width-full tweak-portfolio-grid-basic-height-large tweak-portfolio-grid-basic-image-aspect-ratio-11-square tweak-portfolio-grid-basic-text-alignment-left tweak-portfolio-grid-basic-hover-effect-fade header-overlay-alignment-center tweak-portfolio-index-background-link-format-stacked tweak-portfolio-index-background-width-full-bleed tweak-portfolio-index-background-height-small tweak-portfolio-index-background-vertical-alignment-top tweak-portfolio-index-background-horizontal-alignment-left tweak-portfolio-index-background-delimiter-none tweak-portfolio-index-background-animation-type-fade tweak-portfolio-index-background-animation-duration-fast tweak-portfolio-hover-follow-layout-inline tweak-portfolio-hover-follow-delimiter-forward-slash tweak-portfolio-hover-follow-animation-type-fade tweak-portfolio-hover-follow-animation-duration-medium tweak-portfolio-hover-static-layout-stacked tweak-portfolio-hover-static-delimiter-forward-slash tweak-portfolio-hover-static-animation-type-scale-up tweak-portfolio-hover-static-animation-duration-medium hide-opentable-icons opentable-style-dark tweak-product-quick-view-button-style-floating tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light native-currency-code-gbp collection-type-page collection-6a40e3e9a631a0287c38ca49 collection-layout-default homepage mobile-style-available sqs-seven-one
+							1437 row
+								1438 cell
+									1439 text 275
+							1440 row
+								1441 cell
+									1442 text 276
+							1443 row
+								1444 cell
+									1445 text 277
+							1446 row
+								1447 cell
+									1448 text 278
+							1449 row
+								1450 cell
+									1451 text 279
+							1452 row
+								1453 cell
+									1454 text 280
+								1455 cell
+									1456 text "
+							1457 row
+								1458 cell
+									1459 text 281
+								1460 cell
+									1461 text tabindex =" -1 "
+							1462 row
+								1463 cell
+									1464 text 282
+								1465 cell
+									1466 text   >
+							1467 row
+								1468 cell
+									1469 text 283
+								1470 cell
+									1471 text <div
+							1472 row
+								1473 cell
+									1474 text 284
+								1475 cell
+									1476 text id =" siteWrapper "
+							1477 row
+								1478 cell
+									1479 text 285
+								1480 cell
+									1481 text class =" clearfix site-wrapper "
+							1482 row
+								1483 cell
+									1484 text 286
+								1485 cell
+									1486 text     >
+							1487 row
+								1488 cell
+									1489 text 287
+							1490 row
+								1491 cell
+									1492 text 288
+							1493 row
+								1494 cell
+									1495 text 289
+							1496 row
+								1497 cell
+									1498 text 290
+							1499 row
+								1500 cell
+									1501 text 291
+							1502 row
+								1503 cell
+									1504 text 292
+							1505 row
+								1506 cell
+									1507 text 293
+							1508 row
+								1509 cell
+									1510 text 294
+							1511 row
+								1512 cell
+									1513 text 295
+							1514 row
+								1515 cell
+									1516 text 296
+							1517 row
+								1518 cell
+									1519 text 297
+							1520 row
+								1521 cell
+									1522 text 298
+							1523 row
+								1524 cell
+									1525 text 299
+							1526 row
+								1527 cell
+									1528 text 300
+							1529 row
+								1530 cell
+									1531 text 301
+							1532 row
+								1533 cell
+									1534 text 302
+							1535 row
+								1536 cell
+									1537 text 303
+								1538 cell
+									1539 text <header
+							1540 row
+								1541 cell
+									1542 text 304
+								1543 cell
+									1544 text data-test =" header "
+							1545 row
+								1546 cell
+									1547 text 305
+								1548 cell
+									1549 text id =" header "
+							1550 row
+								1551 cell
+									1552 text 306
+							1553 row
+								1554 cell
+									1555 text 307
+								1556 cell
+									1557 text class ="
+							1558 row
+								1559 cell
+									1560 text 308
+							1561 row
+								1562 cell
+									1563 text 309
+							1564 row
+								1565 cell
+									1566 text 310
+							1567 row
+								1568 cell
+									1569 text 311
+								1570 cell
+									1571 text       header theme-col--primary
+							1572 row
+								1573 cell
+									1574 text 312
+								1575 cell
+									1576 text "
+							1577 row
+								1578 cell
+									1579 text 313
+								1580 cell
+									1581 text data-section-theme =" "
+							1582 row
+								1583 cell
+									1584 text 314
+								1585 cell
+									1586 text data-controller =" Header "
+							1587 row
+								1588 cell
+									1589 text 315
+								1590 cell
+									1591 text data-current-styles =" {
+							1592 row
+								1593 cell
+									1594 text 316
+								1595 cell
+									1596 text                                                                                                                                                                                                                                               &quot;layout&quot;: &quot;navLeft&quot;,
+							1597 row
+								1598 cell
+									1599 text 317
+								1600 cell
+									1601 text                                                                                                                                                                                                                                               &quot;action&quot;: {
+							1602 row
+								1603 cell
+									1604 text 318
+								1605 cell
+									1606 text                                                                                                                                                                                                                                                 &quot;buttonText&quot;: &quot;Get Started&quot;,
+							1607 row
+								1608 cell
+									1609 text 319
+								1610 cell
+									1611 text                                                                                                                                                                                                                                                 &quot;newWindow&quot;: false
+							1612 row
+								1613 cell
+									1614 text 320
+								1615 cell
+									1616 text                                                                                                                                                                                                                                               },
+							1617 row
+								1618 cell
+									1619 text 321
+								1620 cell
+									1621 text                                                                                                                                                                                                                                               &quot;showSocial&quot;: true,
+							1622 row
+								1623 cell
+									1624 text 322
+								1625 cell
+									1626 text                                                                                                                                                                                                                                               &quot;socialOptions&quot;: {
+							1627 row
+								1628 cell
+									1629 text 323
+								1630 cell
+									1631 text                                                                                                                                                                                                                                                 &quot;socialBorderShape&quot;: &quot;none&quot;,
+							1632 row
+								1633 cell
+									1634 text 324
+								1635 cell
+									1636 text                                                                                                                                                                                                                                                 &quot;socialBorderStyle&quot;: &quot;outline&quot;,
+							1637 row
+								1638 cell
+									1639 text 325
+								1640 cell
+									1641 text                                                                                                                                                                                                                                                 &quot;socialBorderThickness&quot;: {
+							1642 row
+								1643 cell
+									1644 text 326
+								1645 cell
+									1646 text                                                                                                                                                                                                                                                   &quot;unit&quot;: &quot;px&quot;,
+							1647 row
+								1648 cell
+									1649 text 327
+								1650 cell
+									1651 text                                                                                                                                                                                                                                                   &quot;value&quot;: 1.0
+							1652 row
+								1653 cell
+									1654 text 328
+								1655 cell
+									1656 text                                                                                                                                                                                                                                                 }
+							1657 row
+								1658 cell
+									1659 text 329
+								1660 cell
+									1661 text                                                                                                                                                                                                                                                 },
+							1662 row
+								1663 cell
+									1664 text 330
+								1665 cell
+									1666 text                                                                                                                                                                                                                                                 &quot;menuOverlayAnimation&quot;: &quot;fade&quot;,
+							1667 row
+								1668 cell
+									1669 text 331
+								1670 cell
+									1671 text                                                                                                                                                                                                                                                 &quot;cartStyle&quot;: &quot;cart&quot;,
+							1672 row
+								1673 cell
+									1674 text 332
+								1675 cell
+									1676 text                                                                                                                                                                                                                                                 &quot;cartText&quot;: &quot;Cart&quot;,
+							1677 row
+								1678 cell
+									1679 text 333
+								1680 cell
+									1681 text                                                                                                                                                                                                                                                 &quot;showEmptyCartState&quot;: true,
+							1682 row
+								1683 cell
+									1684 text 334
+								1685 cell
+									1686 text                                                                                                                                                                                                                                                 &quot;cartOptions&quot;: {
+							1687 row
+								1688 cell
+									1689 text 335
+								1690 cell
+									1691 text                                                                                                                                                                                                                                                   &quot;iconType&quot;: &quot;stroke-1&quot;,
+							1692 row
+								1693 cell
+									1694 text 336
+								1695 cell
+									1696 text                                                                                                                                                                                                                                                   &quot;cartBorderShape&quot;: &quot;none&quot;,
+							1697 row
+								1698 cell
+									1699 text 337
+								1700 cell
+									1701 text                                                                                                                                                                                                                                                   &quot;cartBorderStyle&quot;: &quot;outline&quot;,
+							1702 row
+								1703 cell
+									1704 text 338
+								1705 cell
+									1706 text                                                                                                                                                                                                                                                   &quot;cartBorderThickness&quot;: {
+							1707 row
+								1708 cell
+									1709 text 339
+								1710 cell
+									1711 text                                                                                                                                                                                                                                                     &quot;unit&quot;: &quot;px&quot;,
+							1712 row
+								1713 cell
+									1714 text 340
+								1715 cell
+									1716 text                                                                                                                                                                                                                                                     &quot;value&quot;: 1.0
+							1717 row
+								1718 cell
+									1719 text 341
+								1720 cell
+									1721 text                                                                                                                                                                                                                                                   }
+							1722 row
+								1723 cell
+									1724 text 342
+								1725 cell
+									1726 text                                                                                                                                                                                                                                                 },
+							1727 row
+								1728 cell
+									1729 text 343
+								1730 cell
+									1731 text                                                                                                                                                                                                                                                 &quot;showButton&quot;: false,
+							1732 row
+								1733 cell
+									1734 text 344
+								1735 cell
+									1736 text                                                                                                                                                                                                                                               &quot;showCart&quot;: true,
+							1737 row
+								1738 cell
+									1739 text 345
+								1740 cell
+									1741 text                                                                                                                                                                                                                                               &quot;showAccountLogin&quot;: false,
+							1742 row
+								1743 cell
+									1744 text 346
+								1745 cell
+									1746 text                                                                                                                                                                                                                                               &quot;headerStyle&quot;: &quot;solid&quot;,
+							1747 row
+								1748 cell
+									1749 text 347
+								1750 cell
+									1751 text                                                                                                                                                                                                                                                 &quot;languagePicker&quot;: {
+							1752 row
+								1753 cell
+									1754 text 348
+								1755 cell
+									1756 text                                                                                                                                                                                                                                                   &quot;enabled&quot;: false,
+							1757 row
+								1758 cell
+									1759 text 349
+								1760 cell
+									1761 text                                                                                                                                                                                                                                                   &quot;iconEnabled&quot;: false,
+							1762 row
+								1763 cell
+									1764 text 350
+								1765 cell
+									1766 text                                                                                                                                                                                                                                                   &quot;iconType&quot;: &quot;globe&quot;,
+							1767 row
+								1768 cell
+									1769 text 351
+								1770 cell
+									1771 text                                                                                                                                                                                                                                                   &quot;flagShape&quot;: &quot;shiny&quot;,
+							1772 row
+								1773 cell
+									1774 text 352
+								1775 cell
+									1776 text                                                                                                                                                                                                                                                     &quot;languageFlags&quot;: [ ]
+							1777 row
+								1778 cell
+									1779 text 353
+								1780 cell
+									1781 text                                                                                                                                                                                                                                               },
+							1782 row
+								1783 cell
+									1784 text 354
+								1785 cell
+									1786 text                                                                                                                                                                                                                                               &quot;iconOptions&quot;: {
+							1787 row
+								1788 cell
+									1789 text 355
+								1790 cell
+									1791 text                                                                                                                                                                                                                                                 &quot;desktopDropdownIconOptions&quot;: {
+							1792 row
+								1793 cell
+									1794 text 356
+								1795 cell
+									1796 text                                                                                                                                                                                                                                                     &quot;size&quot;: {
+							1797 row
+								1798 cell
+									1799 text 357
+								1800 cell
+									1801 text                                                                                                                                                                                                                                                       &quot;unit&quot;: &quot;em&quot;,
+							1802 row
+								1803 cell
+									1804 text 358
+								1805 cell
+									1806 text                                                                                                                                                                                                                                                       &quot;value&quot;: 1.0
+							1807 row
+								1808 cell
+									1809 text 359
+								1810 cell
+									1811 text                                                                                                                                                                                                                                                     },
+							1812 row
+								1813 cell
+									1814 text 360
+								1815 cell
+									1816 text                                                                                                                                                                                                                                                       &quot;iconSpacing&quot;: {
+							1817 row
+								1818 cell
+									1819 text 361
+								1820 cell
+									1821 text                                                                                                                                                                                                                                                         &quot;unit&quot;: &quot;em&quot;,
+							1822 row
+								1823 cell
+									1824 text 362
+								1825 cell
+									1826 text                                                                                                                                                                                                                                                         &quot;value&quot;: 0.35
+							1827 row
+								1828 cell
+									1829 text 363
+								1830 cell
+									1831 text                                                                                                                                                                                                                                                   },
+							1832 row
+								1833 cell
+									1834 text 364
+								1835 cell
+									1836 text                                                                                                                                                                                                                                                   &quot;strokeWidth&quot;: {
+							1837 row
+								1838 cell
+									1839 text 365
+								1840 cell
+									1841 text                                                                                                                                                                                                                                                     &quot;unit&quot;: &quot;px&quot;,
+							1842 row
+								1843 cell
+									1844 text 366
+								1845 cell
+									1846 text                                                                                                                                                                                                                                                     &quot;value&quot;: 1.0
+							1847 row
+								1848 cell
+									1849 text 367
+								1850 cell
+									1851 text                                                                                                                                                                                                                                                     },
+							1852 row
+								1853 cell
+									1854 text 368
+								1855 cell
+									1856 text                                                                                                                                                                                                                                                     &quot;endcapType&quot;: &quot;square&quot;,
+							1857 row
+								1858 cell
+									1859 text 369
+								1860 cell
+									1861 text                                                                                                                                                                                                                                                     &quot;folderDropdownIcon&quot;: &quot;none&quot;,
+							1862 row
+								1863 cell
+									1864 text 370
+								1865 cell
+									1866 text                                                                                                                                                                                                                                                     &quot;languagePickerIcon&quot;: &quot;openArrowHead&quot;
+							1867 row
+								1868 cell
+									1869 text 371
+								1870 cell
+									1871 text                                                                                                                                                                                                                                                   },
+							1872 row
+								1873 cell
+									1874 text 372
+								1875 cell
+									1876 text                                                                                                                                                                                                                                                   &quot;mobileDropdownIconOptions&quot;: {
+							1877 row
+								1878 cell
+									1879 text 373
+								1880 cell
+									1881 text                                                                                                                                                                                                                                                     &quot;size&quot;: {
+							1882 row
+								1883 cell
+									1884 text 374
+								1885 cell
+									1886 text                                                                                                                                                                                                                                                       &quot;unit&quot;: &quot;em&quot;,
+							1887 row
+								1888 cell
+									1889 text 375
+								1890 cell
+									1891 text                                                                                                                                                                                                                                                       &quot;value&quot;: 1.0
+							1892 row
+								1893 cell
+									1894 text 376
+								1895 cell
+									1896 text                                                                                                                                                                                                                                                     },
+							1897 row
+								1898 cell
+									1899 text 377
+								1900 cell
+									1901 text                                                                                                                                                                                                                                                   &quot;iconSpacing&quot;: {
+							1902 row
+								1903 cell
+									1904 text 378
+								1905 cell
+									1906 text                                                                                                                                                                                                                                                     &quot;unit&quot;: &quot;em&quot;,
+							1907 row
+								1908 cell
+									1909 text 379
+								1910 cell
+									1911 text                                                                                                                                                                                                                                                       &quot;value&quot;: 0.15
+							1912 row
+								1913 cell
+									1914 text 380
+								1915 cell
+									1916 text                                                                                                                                                                                                                                                     },
+							1917 row
+								1918 cell
+									1919 text 381
+								1920 cell
+									1921 text                                                                                                                                                                                                                                                       &quot;strokeWidth&quot;: {
+							1922 row
+								1923 cell
+									1924 text 382
+								1925 cell
+									1926 text                                                                                                                                                                                                                                                         &quot;unit&quot;: &quot;px&quot;,
+							1927 row
+								1928 cell
+									1929 text 383
+								1930 cell
+									1931 text                                                                                                                                                                                                                                                         &quot;value&quot;: 0.5
+							1932 row
+								1933 cell
+									1934 text 384
+								1935 cell
+									1936 text                                                                                                                                                                                                                                                       },
+							1937 row
+								1938 cell
+									1939 text 385
+								1940 cell
+									1941 text                                                                                                                                                                                                                                                       &quot;endcapType&quot;: &quot;square&quot;,
+							1942 row
+								1943 cell
+									1944 text 386
+								1945 cell
+									1946 text                                                                                                                                                                                                                                                         &quot;folderDropdownIcon&quot;: &quot;openArrowHead&quot;,
+							1947 row
+								1948 cell
+									1949 text 387
+								1950 cell
+									1951 text                                                                                                                                                                                                                                                         &quot;languagePickerIcon&quot;: &quot;openArrowHead&quot;
+							1952 row
+								1953 cell
+									1954 text 388
+								1955 cell
+									1956 text                                                                                                                                                                                                                                                     }
+							1957 row
+								1958 cell
+									1959 text 389
+								1960 cell
+									1961 text                                                                                                                                                                                                                                                   },
+							1962 row
+								1963 cell
+									1964 text 390
+								1965 cell
+									1966 text                                                                                                                                                                                                                                                 &quot;mobileOptions&quot;: {
+							1967 row
+								1968 cell
+									1969 text 391
+								1970 cell
+									1971 text                                                                                                                                                                                                                                                   &quot;layout&quot;: &quot;logoLeftNavRight&quot;,
+							1972 row
+								1973 cell
+									1974 text 392
+								1975 cell
+									1976 text                                                                                                                                                                                                                                                     &quot;menuIconOptions&quot;: {
+							1977 row
+								1978 cell
+									1979 text 393
+								1980 cell
+									1981 text                                                                                                                                                                                                                                                         &quot;style&quot;: &quot;doubleLineHamburger&quot;,
+							1982 row
+								1983 cell
+									1984 text 394
+								1985 cell
+									1986 text                                                                                                                                                                                                                                                         &quot;thickness&quot;: {
+							1987 row
+								1988 cell
+									1989 text 395
+								1990 cell
+									1991 text                                                                                                                                                                                                                                                         &quot;unit&quot;: &quot;px&quot;,
+							1992 row
+								1993 cell
+									1994 text 396
+								1995 cell
+									1996 text                                                                                                                                                                                                                                                           &quot;value&quot;: 1.0
+							1997 row
+								1998 cell
+									1999 text 397
+								2000 cell
+									2001 text                                                                                                                                                                                                                                                         }
+							2002 row
+								2003 cell
+									2004 text 398
+								2005 cell
+									2006 text                                                                                                                                                                                                                                                     }
+							2007 row
+								2008 cell
+									2009 text 399
+								2010 cell
+									2011 text                                                                                                                                                                                                                                                   },
+							2012 row
+								2013 cell
+									2014 text 400
+								2015 cell
+									2016 text                                                                                                                                                                                                                                                     &quot;solidOptions&quot;: {
+							2017 row
+								2018 cell
+									2019 text 401
+								2020 cell
+									2021 text                                                                                                                                                                                                                                                       &quot;headerOpacity&quot;: {
+							2022 row
+								2023 cell
+									2024 text 402
+								2025 cell
+									2026 text                                                                                                                                                                                                                                                       &quot;unit&quot;: &quot;%&quot;,
+							2027 row
+								2028 cell
+									2029 text 403
+								2030 cell
+									2031 text                                                                                                                                                                                                                                                       &quot;value&quot;: 100.0
+							2032 row
+								2033 cell
+									2034 text 404
+								2035 cell
+									2036 text                                                                                                                                                                                                                                                     },
+							2037 row
+								2038 cell
+									2039 text 405
+								2040 cell
+									2041 text                                                                                                                                                                                                                                                     &quot;blurBackground&quot;: {
+							2042 row
+								2043 cell
+									2044 text 406
+								2045 cell
+									2046 text                                                                                                                                                                                                                                                       &quot;enabled&quot;: false,
+							2047 row
+								2048 cell
+									2049 text 407
+								2050 cell
+									2051 text                                                                                                                                                                                                                                                       &quot;blurRadius&quot;: {
+							2052 row
+								2053 cell
+									2054 text 408
+								2055 cell
+									2056 text                                                                                                                                                                                                                                                         &quot;unit&quot;: &quot;px&quot;,
+							2057 row
+								2058 cell
+									2059 text 409
+								2060 cell
+									2061 text                                                                                                                                                                                                                                                         &quot;value&quot;: 12.0
+							2062 row
+								2063 cell
+									2064 text 410
+								2065 cell
+									2066 text                                                                                                                                                                                                                                                       }
+							2067 row
+								2068 cell
+									2069 text 411
+								2070 cell
+									2071 text                                                                                                                                                                                                                                                     },
+							2072 row
+								2073 cell
+									2074 text 412
+								2075 cell
+									2076 text                                                                                                                                                                                                                                                     &quot;backgroundColor&quot;: {
+							2077 row
+								2078 cell
+									2079 text 413
+								2080 cell
+									2081 text                                                                                                                                                                                                                                                       &quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+							2082 row
+								2083 cell
+									2084 text 414
+								2085 cell
+									2086 text                                                                                                                                                                                                                                                     &quot;sitePaletteColor&quot;: {
+							2087 row
+								2088 cell
+									2089 text 415
+								2090 cell
+									2091 text                                                                                                                                                                                                                                                     &quot;colorName&quot;: &quot;white&quot;,
+							2092 row
+								2093 cell
+									2094 text 416
+								2095 cell
+									2096 text                                                                                                                                                                                                                                                     &quot;alphaModifier&quot;: 1.0
+							2097 row
+								2098 cell
+									2099 text 417
+								2100 cell
+									2101 text                                                                                                                                                                                                                                                     }
+							2102 row
+								2103 cell
+									2104 text 418
+								2105 cell
+									2106 text                                                                                                                                                                                                                                                   },
+							2107 row
+								2108 cell
+									2109 text 419
+								2110 cell
+									2111 text                                                                                                                                                                                                                                                     &quot;navigationColor&quot;: {
+							2112 row
+								2113 cell
+									2114 text 420
+								2115 cell
+									2116 text                                                                                                                                                                                                                                                       &quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+							2117 row
+								2118 cell
+									2119 text 421
+								2120 cell
+									2121 text                                                                                                                                                                                                                                                         &quot;sitePaletteColor&quot;: {
+							2122 row
+								2123 cell
+									2124 text 422
+								2125 cell
+									2126 text                                                                                                                                                                                                                                                           &quot;colorName&quot;: &quot;black&quot;,
+							2127 row
+								2128 cell
+									2129 text 423
+								2130 cell
+									2131 text                                                                                                                                                                                                                                                       &quot;alphaModifier&quot;: 1.0
+							2132 row
+								2133 cell
+									2134 text 424
+								2135 cell
+									2136 text                                                                                                                                                                                                                                                     }
+							2137 row
+								2138 cell
+									2139 text 425
+								2140 cell
+									2141 text                                                                                                                                                                                                                                                   }
+							2142 row
+								2143 cell
+									2144 text 426
+								2145 cell
+									2146 text                                                                                                                                                                                                                                                   },
+							2147 row
+								2148 cell
+									2149 text 427
+								2150 cell
+									2151 text                                                                                                                                                                                                                                                     &quot;gradientOptions&quot;: {
+							2152 row
+								2153 cell
+									2154 text 428
+								2155 cell
+									2156 text                                                                                                                                                                                                                                                       &quot;gradientType&quot;: &quot;faded&quot;,
+							2157 row
+								2158 cell
+									2159 text 429
+								2160 cell
+									2161 text                                                                                                                                                                                                                                                       &quot;headerOpacity&quot;: {
+							2162 row
+								2163 cell
+									2164 text 430
+								2165 cell
+									2166 text                                                                                                                                                                                                                                                       &quot;unit&quot;: &quot;%&quot;,
+							2167 row
+								2168 cell
+									2169 text 431
+								2170 cell
+									2171 text                                                                                                                                                                                                                                                       &quot;value&quot;: 90.0
+							2172 row
+								2173 cell
+									2174 text 432
+								2175 cell
+									2176 text                                                                                                                                                                                                                                                     },
+							2177 row
+								2178 cell
+									2179 text 433
+								2180 cell
+									2181 text                                                                                                                                                                                                                                                       &quot;blurBackground&quot;: {
+							2182 row
+								2183 cell
+									2184 text 434
+								2185 cell
+									2186 text                                                                                                                                                                                                                                                         &quot;enabled&quot;: false,
+							2187 row
+								2188 cell
+									2189 text 435
+								2190 cell
+									2191 text                                                                                                                                                                                                                                                           &quot;blurRadius&quot;: {
+							2192 row
+								2193 cell
+									2194 text 436
+								2195 cell
+									2196 text                                                                                                                                                                                                                                                             &quot;unit&quot;: &quot;px&quot;,
+							2197 row
+								2198 cell
+									2199 text 437
+								2200 cell
+									2201 text                                                                                                                                                                                                                                                             &quot;value&quot;: 12.0
+							2202 row
+								2203 cell
+									2204 text 438
+								2205 cell
+									2206 text                                                                                                                                                                                                                                                       }
+							2207 row
+								2208 cell
+									2209 text 439
+								2210 cell
+									2211 text                                                                                                                                                                                                                                                     },
+							2212 row
+								2213 cell
+									2214 text 440
+								2215 cell
+									2216 text                                                                                                                                                                                                                                                       &quot;backgroundColor&quot;: {
+							2217 row
+								2218 cell
+									2219 text 441
+								2220 cell
+									2221 text                                                                                                                                                                                                                                                         &quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+							2222 row
+								2223 cell
+									2224 text 442
+								2225 cell
+									2226 text                                                                                                                                                                                                                                                           &quot;sitePaletteColor&quot;: {
+							2227 row
+								2228 cell
+									2229 text 443
+								2230 cell
+									2231 text                                                                                                                                                                                                                                                             &quot;colorName&quot;: &quot;white&quot;,
+							2232 row
+								2233 cell
+									2234 text 444
+								2235 cell
+									2236 text                                                                                                                                                                                                                                                             &quot;alphaModifier&quot;: 1.0
+							2237 row
+								2238 cell
+									2239 text 445
+								2240 cell
+									2241 text                                                                                                                                                                                                                                                       }
+							2242 row
+								2243 cell
+									2244 text 446
+								2245 cell
+									2246 text                                                                                                                                                                                                                                                     },
+							2247 row
+								2248 cell
+									2249 text 447
+								2250 cell
+									2251 text                                                                                                                                                                                                                                                         &quot;navigationColor&quot;: {
+							2252 row
+								2253 cell
+									2254 text 448
+								2255 cell
+									2256 text                                                                                                                                                                                                                                                           &quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+							2257 row
+								2258 cell
+									2259 text 449
+								2260 cell
+									2261 text                                                                                                                                                                                                                                                             &quot;sitePaletteColor&quot;: {
+							2262 row
+								2263 cell
+									2264 text 450
+								2265 cell
+									2266 text                                                                                                                                                                                                                                                               &quot;colorName&quot;: &quot;black&quot;,
+							2267 row
+								2268 cell
+									2269 text 451
+								2270 cell
+									2271 text                                                                                                                                                                                                                                                             &quot;alphaModifier&quot;: 1.0
+							2272 row
+								2273 cell
+									2274 text 452
+								2275 cell
+									2276 text                                                                                                                                                                                                                                                         }
+							2277 row
+								2278 cell
+									2279 text 453
+								2280 cell
+									2281 text                                                                                                                                                                                                                                                     }
+							2282 row
+								2283 cell
+									2284 text 454
+								2285 cell
+									2286 text                                                                                                                                                                                                                                                   },
+							2287 row
+								2288 cell
+									2289 text 455
+								2290 cell
+									2291 text                                                                                                                                                                                                                                                     &quot;dropShadowOptions&quot;: {
+							2292 row
+								2293 cell
+									2294 text 456
+								2295 cell
+									2296 text                                                                                                                                                                                                                                                       &quot;enabled&quot;: false,
+							2297 row
+								2298 cell
+									2299 text 457
+								2300 cell
+									2301 text                                                                                                                                                                                                                                                       &quot;blur&quot;: {
+							2302 row
+								2303 cell
+									2304 text 458
+								2305 cell
+									2306 text                                                                                                                                                                                                                                                           &quot;unit&quot;: &quot;px&quot;,
+							2307 row
+								2308 cell
+									2309 text 459
+								2310 cell
+									2311 text                                                                                                                                                                                                                                                             &quot;value&quot;: 12.0
+							2312 row
+								2313 cell
+									2314 text 460
+								2315 cell
+									2316 text                                                                                                                                                                                                                                                           },
+							2317 row
+								2318 cell
+									2319 text 461
+								2320 cell
+									2321 text                                                                                                                                                                                                                                                         &quot;spread&quot;: {
+							2322 row
+								2323 cell
+									2324 text 462
+								2325 cell
+									2326 text                                                                                                                                                                                                                                                         &quot;unit&quot;: &quot;px&quot;,
+							2327 row
+								2328 cell
+									2329 text 463
+								2330 cell
+									2331 text                                                                                                                                                                                                                                                         &quot;value&quot;: 0.0
+							2332 row
+								2333 cell
+									2334 text 464
+								2335 cell
+									2336 text                                                                                                                                                                                                                                                       },
+							2337 row
+								2338 cell
+									2339 text 465
+								2340 cell
+									2341 text                                                                                                                                                                                                                                                       &quot;distance&quot;: {
+							2342 row
+								2343 cell
+									2344 text 466
+								2345 cell
+									2346 text                                                                                                                                                                                                                                                         &quot;unit&quot;: &quot;px&quot;,
+							2347 row
+								2348 cell
+									2349 text 467
+								2350 cell
+									2351 text                                                                                                                                                                                                                                                         &quot;value&quot;: 12.0
+							2352 row
+								2353 cell
+									2354 text 468
+								2355 cell
+									2356 text                                                                                                                                                                                                                                                       }
+							2357 row
+								2358 cell
+									2359 text 469
+								2360 cell
+									2361 text                                                                                                                                                                                                                                                     },
+							2362 row
+								2363 cell
+									2364 text 470
+								2365 cell
+									2366 text                                                                                                                                                                                                                                                     &quot;borderOptions&quot;: {
+							2367 row
+								2368 cell
+									2369 text 471
+								2370 cell
+									2371 text                                                                                                                                                                                                                                                       &quot;enabled&quot;: false,
+							2372 row
+								2373 cell
+									2374 text 472
+								2375 cell
+									2376 text                                                                                                                                                                                                                                                       &quot;position&quot;: &quot;allSides&quot;,
+							2377 row
+								2378 cell
+									2379 text 473
+								2380 cell
+									2381 text                                                                                                                                                                                                                                                       &quot;thickness&quot;: {
+							2382 row
+								2383 cell
+									2384 text 474
+								2385 cell
+									2386 text                                                                                                                                                                                                                                                           &quot;unit&quot;: &quot;px&quot;,
+							2387 row
+								2388 cell
+									2389 text 475
+								2390 cell
+									2391 text                                                                                                                                                                                                                                                           &quot;value&quot;: 4.0
+							2392 row
+								2393 cell
+									2394 text 476
+								2395 cell
+									2396 text                                                                                                                                                                                                                                                           },
+							2397 row
+								2398 cell
+									2399 text 477
+								2400 cell
+									2401 text                                                                                                                                                                                                                                                           &quot;color&quot;: {
+							2402 row
+								2403 cell
+									2404 text 478
+								2405 cell
+									2406 text                                                                                                                                                                                                                                                             &quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+							2407 row
+								2408 cell
+									2409 text 479
+								2410 cell
+									2411 text                                                                                                                                                                                                                                                           &quot;sitePaletteColor&quot;: {
+							2412 row
+								2413 cell
+									2414 text 480
+								2415 cell
+									2416 text                                                                                                                                                                                                                                                             &quot;colorName&quot;: &quot;black&quot;,
+							2417 row
+								2418 cell
+									2419 text 481
+								2420 cell
+									2421 text                                                                                                                                                                                                                                                             &quot;alphaModifier&quot;: 1.0
+							2422 row
+								2423 cell
+									2424 text 482
+								2425 cell
+									2426 text                                                                                                                                                                                                                                                         }
+							2427 row
+								2428 cell
+									2429 text 483
+								2430 cell
+									2431 text                                                                                                                                                                                                                                                       }
+							2432 row
+								2433 cell
+									2434 text 484
+								2435 cell
+									2436 text                                                                                                                                                                                                                                                     },
+							2437 row
+								2438 cell
+									2439 text 485
+								2440 cell
+									2441 text                                                                                                                                                                                                                                                       &quot;showPromotedElement&quot;: false,
+							2442 row
+								2443 cell
+									2444 text 486
+								2445 cell
+									2446 text                                                                                                                                                                                                                                                       &quot;buttonVariant&quot;: &quot;primary&quot;,
+							2447 row
+								2448 cell
+									2449 text 487
+								2450 cell
+									2451 text                                                                                                                                                                                                                                                       &quot;blurBackground&quot;: {
+							2452 row
+								2453 cell
+									2454 text 488
+								2455 cell
+									2456 text                                                                                                                                                                                                                                                         &quot;enabled&quot;: false,
+							2457 row
+								2458 cell
+									2459 text 489
+								2460 cell
+									2461 text                                                                                                                                                                                                                                                         &quot;blurRadius&quot;: {
+							2462 row
+								2463 cell
+									2464 text 490
+								2465 cell
+									2466 text                                                                                                                                                                                                                                                           &quot;unit&quot;: &quot;px&quot;,
+							2467 row
+								2468 cell
+									2469 text 491
+								2470 cell
+									2471 text                                                                                                                                                                                                                                                           &quot;value&quot;: 12.0
+							2472 row
+								2473 cell
+									2474 text 492
+								2475 cell
+									2476 text                                                                                                                                                                                                                                                         }
+							2477 row
+								2478 cell
+									2479 text 493
+								2480 cell
+									2481 text                                                                                                                                                                                                                                                       },
+							2482 row
+								2483 cell
+									2484 text 494
+								2485 cell
+									2486 text                                                                                                                                                                                                                                                     &quot;headerOpacity&quot;: {
+							2487 row
+								2488 cell
+									2489 text 495
+								2490 cell
+									2491 text                                                                                                                                                                                                                                                       &quot;unit&quot;: &quot;%&quot;,
+							2492 row
+								2493 cell
+									2494 text 496
+								2495 cell
+									2496 text                                                                                                                                                                                                                                                         &quot;value&quot;: 100.0
+							2497 row
+								2498 cell
+									2499 text 497
+								2500 cell
+									2501 text                                                                                                                                                                                                                                                       }
+							2502 row
+								2503 cell
+									2504 text 498
+								2505 cell
+									2506 text                                                                                                                                                                                                                                                       } "
+							2507 row
+								2508 cell
+									2509 text 499
+								2510 cell
+									2511 text data-section-id =" header "
+							2512 row
+								2513 cell
+									2514 text 500
+								2515 cell
+									2516 text data-header-style =" solid "
+			2517 pop-up button Tab search
+			2518 container
+				2519 tab group
+					2520 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					2521 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					2522 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					2523 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					2524 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					2525 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					2526 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					2527 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					2528 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					2529 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					2530 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					2531 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					2532 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					2533 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					2534 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					2535 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					2536 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					2537 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					2538 tab (settable, boolean) Meta Business Suite, Value: off
+					2539 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					2540 tab (settable, boolean) Meta Business Suite, Value: off
+					2541 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					2542 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					2543 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					2544 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					2545 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					2546 tab (selected, settable, boolean) view-source:https://boldstonesculpture.com, Value: on
+					2547 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 999 MB, Value: off
+					2548 tab (settable, boolean) Boldstone · Review room, Value: off
+			2549 button New tab
+	2550 close button
+	2551 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	2552 minimise button
+2553 menu bar
+	2554 Chrome
+	2555 File
+	2556 Edit
+	2557 View
+	2558 History
+	2559 Bookmarks
+	2560 Profiles
+	2561 Tab
+	2562 Window
+	2563 Help
+
+The focused UI element is 26 HTML content boldstonesculpture.com/

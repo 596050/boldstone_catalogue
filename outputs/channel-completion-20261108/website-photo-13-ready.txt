@@ -1,0 +1,374 @@
+Window: "Wall Sculpture & Sculptural Furnishings | Boldstone, UK", App: Google Chrome.
+0 standard window URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Secondary Actions: Raise, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.6 GB - Google Chrome – Tom
+	1 container URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.6 GB - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 1
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Wall Sculpture & Sculptural Furnishings | Boldstone, UK, URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical
+						27 container
+							28 container
+								29 button CANCEL
+								30 heading Edit Lunar Phase IV - White, Value: 1
+									31 text Edit Lunar Phase IV - White
+								32 text Physical Product
+								33 content list
+									34 button Delete
+									35 button Duplicate
+									36 button SAVE
+							37 container Product sections
+								38 button Details
+								39 button Forms
+								40 button Images
+								41 button Inventory
+								42 button Payment options
+								43 text New
+								44 button Fulfillment
+								45 button Organization
+								46 button Taxes
+								47 button Selling Tools
+								48 button Marketing
+							49 container
+								50 heading Details, Value: 2
+									51 text Details
+								52 container
+									53 text Product name
+									54 text field (settable) Product name, Value: Lunar Phase IV - White, Placeholder: Eucalyptus Face Scrub
+								55 container
+									56 text Description
+									57 text entry area (settable) A moon-inspired relief explores the relationship between a rounded form, its edges and the shadows it creates. The composition feels measured and calm, with details changing as the light moves.
+A small reference to the rhythm of the night sky, translated into a tactile presence for an interior or garden wall.
+The white finish keeps the focus on the form and its changing shadows.
+•Brand: Boldstone
+•Product type: Wall sculpture
+•Model: Lunar Phase IV - White (BOLD-818D745F1357)
+•Colour / appearance: White stone finish
+•Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+•Companion pieces: This is one piece of a coordinating group with Lunar Phase I, Lunar Phase II and Lunar Phase III. Companion sculptures are sold separately; this listing is for one sculpture only.
+•Material: Made from a gypsum-based material.
+•Dimensions: 30 × 30 cm; approximately 5–7 cm deep
+•Weight: Approximately 3–5 kg per panel
+•Use: Suitable for outdoor use and indoor display.
+•Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+•Availability: Ready to dispatch
+•Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+•Dispatch time: Within 10 working days. Delivery transit time is additional.
+•Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+										58 text A moon-inspired relief explores the relationship between a rounded form, its edges and the shadows it creates. The composition feels measured and calm, with details changing as the light moves.
+										59 text A small reference to the rhythm of the night sky, translated into a tactile presence for an interior or garden wall.
+										60 text The white finish keeps the focus on the form and its changing shadows.
+										61 content list
+											62 container
+												63 text • Brand:  Boldstone
+											64 container
+												65 text • Product type:  Wall sculpture
+											66 container
+												67 text • Model:  Lunar Phase IV - White (BOLD-818D745F1357)
+											68 container
+												69 text • Colour / appearance:  White stone finish
+											70 container
+												71 text • Quantity supplied:  1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											72 container
+												73 text • Companion pieces:  This is one piece of a coordinating group with Lunar Phase I, Lunar Phase II and Lunar Phase III. Companion sculptures are sold separately; this listing is for one sculpture only.
+											74 container
+												75 text • Material:  Made from a gypsum-based material.
+											76 container
+												77 text • Dimensions:  30 × 30 cm; approximately 5–7 cm deep
+											78 container
+												79 text • Weight:  Approximately 3–5 kg per panel
+											80 container
+												81 text • Use:  Suitable for outdoor use and indoor display.
+											82 container
+												83 text • Fixings:  Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											84 container
+												85 text • Availability:  Ready to dispatch
+											86 container
+												87 text • Custom design:  All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											88 container
+												89 text • Dispatch time:  Within 10 working days. Delivery transit time is additional.
+											90 container
+												91 text • Delivery:  Delivery is quoted separately. Please contact us for UK and international delivery options.
+								92 container
+									93 text Button Text
+									94 text field (settable) Button Text, Placeholder: Add to Cart
+								95 heading Forms, Value: 2
+									96 text Forms
+								97 container
+									98 text Add to Cart Form Collect extra information from shoppers when they add this item to their cart. Form responses are displayed in your order details.
+								99 button ADD
+								100 heading Images, Value: 2
+									101 text Images
+								102 sortable White Moonphase 4 panel showing the vertical curved bowl in the opposite orientation. 50% from left, 50% from top Featured image pin open image action menu
+									103 image White Moonphase 4 panel showing the vertical curved bowl in the opposite orientation.
+									104 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									105 button Featured image pin
+									106 button open image action menu
+								107 sortable White Moonphase 4 square panel with a deep vertical curved bowl. 50% from left, 50% from top Featured image pin open image action menu
+									108 image White Moonphase 4 square panel with a deep vertical curved bowl.
+									109 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									110 button Featured image pin
+									111 button open image action menu
+								112 sortable Front view of the white Moonphase 4 curved bowl relief against a pale background. 50% from left, 50% from top Featured image pin open image action menu
+									113 image Front view of the white Moonphase 4 curved bowl relief against a pale background.
+									114 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									115 button Featured image pin
+									116 button open image action menu
+								117 sortable Lunar Phase IV - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									118 image Lunar Phase IV - White - in situ
+									119 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									120 button Featured image pin
+									121 button open image action menu
+								122 sortable Lunar Phase IV - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									123 image Lunar Phase IV - White - in situ
+									124 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									125 button Featured image pin
+									126 button open image action menu
+								127 sortable Lunar Phase IV - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									128 image Lunar Phase IV - White - in situ
+									129 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									130 button Featured image pin
+									131 button open image action menu
+								132 sortable Lunar Phase IV - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									133 image Lunar Phase IV - White - in situ
+									134 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									135 button Featured image pin
+									136 button open image action menu
+								137 sortable Lunar Phase IV - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									138 image Lunar Phase IV - White - in situ
+									139 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									140 button Featured image pin
+									141 button open image action menu
+								142 sortable Lunar Phase IV - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									143 image Lunar Phase IV - White - in situ
+									144 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									145 button Featured image pin
+									146 button open image action menu
+								147 sortable Lunar Phase IV - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									148 image Lunar Phase IV - White - in situ
+									149 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									150 button Featured image pin
+									151 button open image action menu
+								152 sortable Lunar Phase IV - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									153 image Lunar Phase IV - White - in situ
+									154 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									155 button Featured image pin
+									156 button open image action menu
+								157 sortable Lunar Phase IV - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									158 image Lunar Phase IV - White - in situ
+									159 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									160 button Featured image pin
+									161 button open image action menu
+								162 sortable Lunar Phase IV - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									163 image Lunar Phase IV - White - in situ
+									164 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									165 button Featured image pin
+									166 button open image action menu
+								167 sortable Lunar Phase IV - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+									168 image Lunar Phase IV - White - in situ
+									169 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									170 button Featured image pin
+									171 button open image action menu
+								172 sortable Two separately sold white Lunar Phase panels displayed side by side on brick, with curved recesses and a small spiral catching pink-toned light. 50% from left, 50% from top Featured image pin open image action menu
+									173 image Two separately sold white Lunar Phase panels displayed side by side on brick, with curved recesses and a small spiral catching pink-toned light.
+									174 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									175 button Featured image pin
+									176 button open image action menu
+								177 button
+								178 container
+									179 button Change featured image
+									180 text Featured image
+									181 button open image action menu
+								182 heading Inventory, Value: 2
+									183 text Inventory
+								184 content list
+									185 container
+										186 text Price
+										187 text On sale
+										188 Tick box On sale, Value: 0
+										189 text £
+										190 stepper (settable, float) Price, Value: 34.2, Placeholder: 0.00
+										191 button increment
+										192 button decrement
+								193 container
+									194 text Stock
+									195 text Unlimited
+									196 Tick box Unlimited, Value: 1
+									197 text ∞
+									198 stepper (disabled) Stock, Value: 0, Secondary Actions: Increment, Decrement
+									199 button (disabled) increment
+									200 button (disabled) decrement
+								201 container
+									202 text SKU
+									203 container More info
+										204 image
+									205 text field (settable) SKU, Value: BOLD-818D745F1357, Placeholder: Add SKU
+								206 container
+									207 text GTIN
+									208 container More info
+										209 image
+									210 text field (settable) GTIN, Placeholder: Add GTIN, UPC, EAN, JAN, ISBN
+								211 container
+									212 text MPN
+									213 container More info
+										214 image
+									215 text field (settable) MPN, Placeholder: Add MPN
+								216 container
+									217 text Variants Sell different versions of the same product. For example, a shirt that comes in multiple colors or sizes.
+									218 button ADD
+								219 text Quantity limits New
+								220 container
+									221 Tick box enable or disable the showing of the Number input for Quantity limits, Value: 0
+								222 text Set the maximum quantity a customer can buy in a single order.
+								223 heading Payment options, Value: 2
+									224 text Payment options
+								225 container Subscriptions
+									226 text Subscriptions
+									227 text Charge customers on a recurring basis and offer discounts on repeat purchases. Subscriptions aren't available for products with add-ons.
+									228 button ADD
+								229 heading Fulfillment, Value: 2
+									230 text Fulfillment
+								231 container
+									232 text Fulfillment profiles Allow buyers to select how they'd like to receive this product. For example, Local Pickup or Ground Shipping.
+									233 combo box (settable) Fulfillment profiles, Value: Default
+										234 text Default
+										235 image
+									236 button SET UP
+								237 container
+									238 text Weight and dimensions Enabled Supports automated or weight-based shipping rates. 0 × 0 × 0 in · 13.23 lb
+									239 button Edit weight and dimensions
+									240 button Delete weight and dimensions
+								241 heading Organization, Value: 2
+									242 text Organization
+								243 container
+									244 text Visibility
+									245 combo box (settable) Visibility, Value: Public
+										246 text Public
+										247 image
+								248 container
+									249 text Tags Add keywords to connect related products. Tags can be used to create filters on your store page.
+									250 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/articles/231746347-Styling-store-pages#h_01JGPPMPYWYDKVHP17DKR1HA4F
+									251 combo box (settable) Tags, Placeholder: Add
+									252 text Wall Sculptures
+									253 button Remove Wall Sculptures
+									254 text Moonphases
+									255 button Remove Moonphases
+									256 text Catalogue 2026
+									257 button Remove Catalogue 2026
+									258 text BSI-818D745F1357
+									259 button Remove BSI-818D745F1357
+								260 container Categories
+									261 text Categories
+									262 text Create categories to bucket products. Categories will appear in the store's navigation.
+									263 container
+										264 text Sculpture
+										265 button Edit categories
+										266 button Remove all categories
+								267 heading Taxes, Value: 2
+									268 text Taxes
+								269 container Product Specific Tax Code
+									270 text Product Specific Tax Code
+									271 container
+										272 text Product specific tax codes are used to calculate correct tax rates during checkout. 
+										273 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/sections/200825098
+									274 container
+										275 container stripe-connect-ui-layer-stripe-connect-product-tax-code-selector
+								276 heading Selling Tools, Value: 2
+									277 text Selling Tools
+								278 container
+									279 text Add-ons Upsell customers with product add-ons directly on the product page. Products with subscriptions or more than one variant option are not available as add-ons. 
+									280 link Learn more, Value: support.squarespace.com/hc/articles/21149527560205
+									281 button ADD
+								282 container
+									283 text Featured Product Featured Products can be displayed in Summary Blocks on your page.
+									284 Tick box Featured Product, Value: 0
+								285 container
+									286 text Related Products Showcase similar items on your Product Pages.
+									287 button Set up Related Products
+								288 container
+									289 text Product Reviews Show customer reviews directly on all product pages. Manage this feature in 
+									290 button Selling
+									291 text .
+									292 button Set up product reviews
+								293 heading Marketing, Value: 2
+									294 text Marketing
+								295 text SEO and URL
+								296 text Lunar Phase IV - White — boldstone https://boldstonesculpture.com/buy/p/moonphase-four-white-mp4 This description will automatically be generated by search engines. You can add your own description by editing.
+								297 button EDIT
+			298 pop-up button Tab search
+			299 container
+				300 tab group
+					301 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					302 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					303 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					304 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					305 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					306 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					307 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					308 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					309 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					310 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					311 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					312 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					313 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					314 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					315 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					316 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					317 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					318 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					319 tab (settable, boolean) Meta Business Suite, Value: off
+					320 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					321 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					322 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					323 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					324 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					325 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					326 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					327 tab (selected, settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.6 GB, Value: on
+					328 tab (settable, boolean) Boldstone · Review room, Value: off
+					329 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					330 tab (settable, boolean) google-wall-sculptures-supplement.tsv details - Merchant Center, Value: off
+			331 button New tab
+	332 close button
+	333 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	334 minimise button
+335 menu bar
+	336 Chrome
+	337 File
+	338 Edit
+	339 View
+	340 History
+	341 Bookmarks
+	342 Profiles
+	343 Tab
+	344 Window
+	345 Help
+
+The focused UI element is 29 button CANCEL

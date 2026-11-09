@@ -1,0 +1,21 @@
+BOLDSTONE catalogue regression verification
+Installed version: 2.14.17
+Verified UTC: 2026-10-29T22:44:23.654273+00:00
+
+763 automated tests passed: 478 Python and 285 JavaScript; no failures or skips.
+All 13 consistency checks passed across all 181 active products.
+All 1,267 working specification fields are populated; no em dashes in listing values.
+Live browser: all 181 component cards remain available; document folder classification verified.
+Live export: 181 all-product rows, 112 selected product drafts and 89 products passing app listing checks; ZIP integrity passed.
+Every saved review, audit event, deletion job/batch, background job and read-only deletion review was preserved through the restart.
+
+Fixed defects:
+1. Unrelated catalogue publications invalidated unchanged saved reviews during export. Compare exact saved field snapshots and original image content hashes; changed or unproven sources still require review.
+2. Multiple primary photo selections could wrongly qualify a listing as ready. Use the same primary eligibility and conflict checks as component cards.
+3. A missing or unreadable cached image aborted the entire media export. Retain source links, skip unavailable local content and continue remaining images. Output write failures still fail explicitly.
+4. Edited product names used inconsistent dash wording between product and image CSV files. Use the effective normalized listing name in both.
+5. _Documents_Catalogue was offered as an image-only sculpture family. Classify this exact reserved folder as catalogue documents while retaining its folder link and inventory row; preserve any explicitly registered products.
+
+Audit snapshots and negative test reproductions are retained in this directory.
+Regression checks used isolated databases and fake Dropbox. Live browser checks read current data and created a local review export. No test-driven Dropbox deletions, moves, catalogue edits or changes to saved review decisions. Existing user jobs were allowed to complete before the restart and continue afterwards.
+These checks validate application behaviour and consistency, not sculpture measurements or visual identity. Five existing organisation jobs remain needs_review because component/folder choices are ambiguous; they were not dismissed. Listing-ready counts describe app review checks, not a platform publishing action.

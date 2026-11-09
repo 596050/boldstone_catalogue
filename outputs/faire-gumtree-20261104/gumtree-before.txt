@@ -1,0 +1,182 @@
+Window: "Gumtree | Free classified ads fro…he #1 classifieds site in the UK", App: Google Chrome.
+0 standard window Gumtree | Free classified ads from the #1 classifieds site in the UK - Google Chrome – Tom, URL: gumtree.com/manage/ads?filter=all, Secondary Actions: Raise
+	1 container Gumtree | Free classified ads from the #1 classifieds site in the UK - Google Chrome – Tom, URL: gumtree.com/manage/ads?filter=all
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: gumtree.com/manage/ads?filter=all, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads
+				22 button Control your music, videos and more
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Gumtree | Free classified ads from the #1 classifieds site in the UK, URL: gumtree.com/manage/ads?filter=all
+						28 container
+							29 container
+								30 link Gumtree, Value: gumtree.com/
+								31 container
+									32 text field (settable) Type search query, Placeholder: Search Gumtree
+									33 text field (settable) Location, Value: uk, Placeholder: Add postcode or location
+									34 button Search
+								35 link Messages, Value: gumtree.com/manage/messages
+								36 button Menu
+								37 link Post Ad, Value: gumtree.com/postad/category
+								38 content list
+									39 link Cars & Vehicles, Value: gumtree.com/cars-vans-motorbikes/cars/uk
+									40 link For Sale, Value: gumtree.com/for-sale
+									41 link Services, Value: gumtree.com/business-services
+									42 link Property, Value: gumtree.com/flats-houses
+									43 link Pets, Value: gumtree.com/pets
+									44 link Jobs, Value: gumtree.com/jobs
+									45 link Community, Value: gumtree.com/community
+							46 container
+								47 tab group
+									48 content list
+										49 tab (selected) Manage my Ads, Value: 1
+											50 link Manage my Ads, Value: gumtree.com/manage/ads
+										51 tab (settable, integer) My Orders, Value: 0
+											52 link My Orders, Value: gumtree.com/manage/orders
+										53 tab (settable, integer) Messages, Value: 0
+											54 link Messages, Value: gumtree.com/manage/messages
+										55 tab (settable, integer) Favourites, Value: 0
+											56 link Favourites, Value: gumtree.com/my-account/favourites
+										57 tab (settable, integer) My Alerts, Value: 0
+											58 link My Alerts, Value: gumtree.com/my-account/saved-searches
+										59 tab (settable, integer) My Details, Value: 0
+											60 link My Details, Value: gumtree.com/manage-account
+								61 text You currently have  0 ads
+								62 pop-up button All ads
+									63 (selected) All ads
+								64 text Looking for your job ads? Job Ads are managed on our job recruiter platform
+								65 link Manage Job ads
+									66 text Manage Job ads
+								67 container
+									68 text You have no  ads
+								69 text Clean up your clutter and turn it into extra cash.
+								70 link Sell now
+									71 text Sell now
+							72 container Footer
+								73 container
+									74 disclosure triangle About Us
+										75 text About Us
+									76 link About Gumtree, Value: gumtree.com/info/life/about-us/
+									77 link Gumtree for Business, Value: gumtree.com/info/life/advertise-with-us/
+									78 link Careers, Value: careers.gumtree.com/
+									79 link Media Advertising, Value: gumtree.com/info/life/media/
+									80 link Press, Value: gumtree.com/info/life/press-pr/
+								81 container
+									82 disclosure triangle Help & Contact
+										83 text Help & Contact
+									84 link Help Centre, Value: gumtree.com/info/safety
+									85 link Safety, Value: gumtree.com/info/safety/safety-advice/
+									86 link Policies, Value: gumtree.com/info/safety/gumtree-policies/
+									87 link Privacy Notice, Value: gumtree.com/privacy_policy
+									88 link Contact Us, Value: help.gumtree.com/s/contact-us
+								89 container
+									90 disclosure triangle More From Us
+										91 text More From Us
+									92 link Gumtree Lifestyle, Value: gumtree.com/info/life/
+									93 link Car Guides, Value: gumtree.com/info/cars/
+									94 link Car Reviews, Value: gumtree.com/info/cars/reviews-hub/
+									95 link Sell My Car, Value: gumtree.com/sell-my-car
+								96 container
+									97 text Mobile Apps
+									98 link iOS App, Value: app.adjust.com/ez1o5rv?campaign=App%20Store%20Button&adgroup=Global%20Footer&creative=V1
+									99 link Android App, Value: app.adjust.com/ez1o5rv?campaign=App%20Store%20Button&adgroup=Global%20Footer&creative=V1
+									100 link More About Our Apps, Value: gumtree.com/apps
+								101 container
+									102 heading Join Gumtree Community, Value: 4
+										103 text Join Gumtree Community
+									104 link instagram.com/gumtreeuk/
+									105 link tiktok.com/@gumtreeuk
+									106 link youtube.com/user/GumtreeClassifieds
+									107 link pinterest.co.uk/gumtreeuk/
+									108 link twitter.com/Gumtree
+									109 link facebook.com/gumtree
+								110 text © Copyright 2000-2026 Gumtree.com Limited. All rights reserved. Gumtree.com Limited (FRN 560524) is an Appointed Representative of Consumer Credit Compliance Limited who are authorised and regulated by the Financial Conduct Authority (FRN 631736). The permissions of Consumer Credit Compliance Limited as a Principal firm allow Gumtree.com Limited to undertake insurance and credit broking. Gumtree.com Limited acts as a credit broker, not a lender. We will refer you to CarMoney Limited (FRN 674094) for credit, we receive a fixed fee commission up to an agreed number of leads, and additional commission for those above the agreed level. We will refer you to Inspop.com Ltd T/A Confused.com (FRN 310635) for Insurance and we receive a fixed fee commission. Y Gumtree.com Limited, registered in England and Wales with number 03934849, 27 Old Gloucester Street, London, WC1N 3AX, United Kingdom. VAT No. 476 0835 68.
+								111 container
+									112 link Manage Utiq, Value: gumtree.com/manage/ads?filter=all#manage-utiq
+									113 text , 
+									114 link Terms of Use, Value: gumtree.com/termsofuse
+									115 text , 
+									116 link Privacy Notice, Value: gumtree.com/privacy_policy
+									117 text , 
+									118 link Privacy Settings, Value: gumtree.com/manage/ads?filter=all#privacy-settings
+									119 text ,  & 
+									120 link Cookies Policy, Value: gumtree.com/cookies
+			121 pop-up button Tab search
+			122 container
+				123 tab group
+					124 tab (settable, boolean) Brand Application | Join Procurist Platform | Procurist, Value: off
+					125 tab (settable, boolean) Booth activation - Import Items, Value: off
+					126 tab (settable, boolean) Faire — Brand Onboarding, Value: off
+					127 tab (selected, settable, boolean) Gumtree | Free classified ads from the #1 classifieds site in the UK, Value: on
+					128 tab (settable, boolean) Sign in to your Supplier account | AppScenic, Value: off
+					129 tab (settable, boolean) Shoppe Object, Value: off
+					130 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					131 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					132 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					133 tab (settable, boolean) sell on wholesale central - Google Search, Value: off
+					134 tab (settable, boolean) Display Your Products to Millions of Buyers Worldwide., Value: off
+					135 tab (settable, boolean) become-a-seller-new | Wholesale Prices | Tradeling, Value: off
+					136 tab (settable, boolean) Marketplace FAQ for Sellers | Brandboom Help Center, Value: off
+					137 tab (settable, boolean) Online Sales FAQ - TICA, Value: off
+					138 tab (settable, boolean) Carro Migration FAQ, Value: off
+					139 tab (settable, boolean) Join Us | CREOATE, Value: off
+					140 tab (settable, boolean) Ankorstore | Wholesale Marketplace Home to Europe's Best Brands, Value: off
+					141 tab (settable, boolean) MOM - Sell your products, Value: off
+					142 tab (settable, boolean) Explore JOOR for home brands, Value: off
+					143 tab (settable, boolean) Wholesale Marketplace: Get Discovered by Retailers | NuORDER by Lightspeed, Value: off
+					144 tab (settable, boolean) Sell on Syncee, Value: off
+					145 tab (settable, boolean) Become a Spocket Supplier - Sell to 100,000+ Retailers Free, Value: off
+					146 tab (settable, boolean) Become a verified Avasam supplier, Value: off
+					147 tab (settable, boolean) Advertise Your Wholesale Business - Would you like to expand your business?, Value: off
+					148 tab (settable, boolean) eSources UK Help | Managing Your Supplier Profile, Value: off
+					149 tab (settable, boolean) Gift Wholesalers - Gift Shop Wholesalers, Value: off
+					150 tab (settable, boolean) Sell on Tesco Marketplace | Reach millions of UK shoppers, Value: off
+					151 tab (settable, boolean) RangeMe, Value: off
+					152 tab (settable, boolean) Art Gallery | Buy Original British Art Online, Value: off
+					153 tab (settable, boolean) Original art for sale, Value: off
+					154 tab (settable, boolean) 25+ Handmade Marketplaces for Artisans to Sell Crafts, Art, Gifts Online - MultiMerch, Value: off
+					155 tab (settable, boolean) 250+ Websites Directory for Artists to Sell Art Online, Value: off
+			156 button New tab
+	157 close button
+	158 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	159 minimise button
+160 menu bar
+	161 Chrome
+	162 File
+	163 Edit
+	164 View
+	165 History
+	166 Bookmarks
+	167 Profiles
+	168 Tab
+	169 Window
+	170 Help
+
+The focused UI element is 27 HTML content Gumtree | Free classified ads from the #1 classifieds site in the UK, URL: gumtree.com/manage/ads?filter=all

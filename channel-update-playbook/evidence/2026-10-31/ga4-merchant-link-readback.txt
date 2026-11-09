@@ -1,0 +1,190 @@
+- banner:
+  - generic: Analytics
+  - button "Open the universal picker.":
+    - generic: All accounts
+    - img: chevron_right
+    - generic: burnaby
+    - generic: Boldstone Sculpture
+    - img: arrow_drop_down
+  - search:
+    - img: search
+    - textbox "Search":
+      - /placeholder: Try searching "add web stream"
+  - button "Switch products":
+  - button "Ask Advisor":
+    - img: search_spark
+  - button "Help entry menu":
+    - img: help
+  - button "Open the user account switcher panel."
+- navigation "Main pages":
+  - link "Home":
+    - generic: Home
+  - link "Reports":
+    - img: insert_chart_filled
+    - generic: Reports
+  - link "Explore":
+    - img: data_exploration
+    - generic: Explore
+  - link "Advertising":
+    - img: ads_click
+    - generic: Advertising
+- navigation "Settings pages":
+  - link "Tasks":
+    - img: task_alt
+    - generic: Tasks
+  - link "Admin":
+    - img: settings_filled
+    - generic: Admin
+- navigation "Secondary navigation":
+  - navigation "Secondary pages":
+    - button "Create":
+      - img: add
+      - text: Create
+      - img: arrow_drop_down
+  - tree:
+    - treeitem "Admin" [level=1]:
+      - button "Admin":
+        - generic: Admin
+    - treeitem "My preferences" [level=1]:
+      - button "My preferences":
+        - generic: My preferences
+    - treeitem "Account settings" [expanded] [level=1]:
+      - separator
+      - button "Account settings":
+        - generic: Account settings
+        - img: keyboard_arrow_up
+    - treeitem "Account" [level=2]:
+      - button "Account":
+        - img: arrow_right
+        - generic: Account
+    - treeitem "Property settings" [expanded] [level=1]:
+      - separator
+      - button "Property settings":
+        - generic: Property settings
+        - img: keyboard_arrow_up
+    - treeitem "Property" [level=2]:
+      - button "Property":
+        - img: arrow_right
+        - generic: Property
+    - treeitem "Data collection and modification" [level=2]:
+      - button "Data collection and modification":
+        - img: arrow_right
+        - generic: Data collection and modification
+    - treeitem "Data display" [level=2]:
+      - button "Data display":
+        - img: arrow_right
+        - generic: Data display
+    - treeitem "Product links" [expanded] [level=2]:
+      - button "Product links":
+        - img: arrow_drop_down
+        - generic: Product links
+    - treeitem "Google AdMob links" [level=3]:
+      - button "Google AdMob links":
+        - generic: Google AdMob links
+    - treeitem "Google AdSense links" [level=3]:
+      - button "Google AdSense links":
+        - generic: Google AdSense links
+    - treeitem "Google Ads links" [level=3]:
+      - button "Google Ads links":
+        - generic: Google Ads links
+    - treeitem "Ad Manager links" [level=3]:
+      - button "Ad Manager links":
+        - generic: Ad Manager links
+    - treeitem "BigQuery links" [level=3]:
+      - button "BigQuery links":
+        - generic: BigQuery links
+    - treeitem "Display & Video 360 links" [level=3]:
+      - button "Display & Video 360 links":
+        - generic: Display & Video 360 links
+    - treeitem "Floodlight links" [level=3]:
+      - button "Floodlight links":
+        - generic: Floodlight links
+    - treeitem "Google Business Profile links" [level=3]:
+      - button "Google Business Profile links":
+        - generic: Google Business Profile links
+    - treeitem "Merchant Center links" [level=3]:
+      - button "Merchant Center links":
+        - generic: Merchant Center links
+    - treeitem "Google Play links" [level=3]:
+      - button "Google Play links":
+        - generic: Google Play links
+    - treeitem "Search Ads 360 links" [level=3]:
+      - button "Search Ads 360 links":
+        - generic: Search Ads 360 links
+    - treeitem "Search Console links" [level=3]:
+      - button "Search Console links":
+        - generic: Search Console links
+    - treeitem "Meta links" [level=3]:
+      - button "Meta links":
+        - generic: Meta links
+    - treeitem "Pinterest links" [level=3]:
+      - button "Pinterest links":
+        - generic: Pinterest links
+    - treeitem "Reddit links" [level=3]:
+      - button "Reddit links":
+        - generic: Reddit links
+    - treeitem "Snap links" [level=3]:
+      - button "Snap links":
+        - generic: Snap links
+    - treeitem "TikTok links" [level=3]:
+      - button "TikTok links":
+        - generic: TikTok links
+  - separator
+- button "Nav toggle" [expanded]:
+  - img: keyboard_arrow_left
+- main:
+  - heading "Merchant Center links" [active] [level=1]
+  - img: search
+  - searchbox "Type to filter"
+  - button "Create a new GA integration link.":
+    - generic: Link
+  - table "Merchant Center links":
+    - row "Account name Account ID Date linked Linked by Row details":
+      - columnheader "Account name":
+        - button "Account name":
+          - generic: Account name
+      - columnheader "Account ID":
+        - button "Account ID":
+          - generic: Account ID
+      - columnheader "Date linked":
+        - button "Date linked":
+          - generic: Date linked
+      - columnheader "Linked by":
+        - button "Linked by":
+          - generic: Linked by
+      - columnheader "Row details":
+        - generic: Row details
+    - row "Boldstone Sculpture 5664655454 Oct 31, 2026 tppricet@gmail.com Show link detail":
+      - cell "Boldstone Sculpture":
+        - generic: Boldstone Sculpture
+      - cell "5664655454":
+        - generic: "5664655454"
+      - cell "Oct 31, 2026"
+      - cell "tppricet@gmail.com":
+        - generic: tppricet@gmail.com
+      - cell "Show link detail":
+        - button "Show link detail":
+          - img: keyboard_arrow_right
+  - generic: "Items per page:"
+  - combobox "Items per page:":
+    - generic: "5"
+  - status: 1 – 1 of 1
+  - button "First page" [disabled]:
+  - button "Previous page" [disabled]:
+  - button "Next page" [disabled]:
+  - button "Last page" [disabled]:
+- contentinfo:
+  - text: © 2026 Google |
+  - link "Analytics home":
+    - /url: https://www.google.com/analytics/?hl=en-US
+  - text: "|"
+  - link "Terms of Service":
+    - /url: https://www.google.com/analytics/tos.html?hl=en-US
+  - text: "|"
+  - link "Privacy Policy":
+    - /url: https://www.google.com/policies/privacy/?hl=en-US
+  - text: "|"
+  - button "Send feedback":
+    - img: feedback
+    - generic: Send feedback
+- button "Open context menu"

@@ -1,0 +1,622 @@
+- navigation "Website pages and features":
+  - link "Home":
+    - /url: /config/
+    - img "Home"
+  - button "Search":
+  - button "Notifications - you have unread notifications":
+  - link "Home":
+    - /url: /config/home
+    - paragraph: Home
+  - link "Website":
+    - /url: /config/
+    - paragraph: Website
+  - link "Products & Services":
+    - /url: /config/commerce
+    - paragraph: Products & Services
+  - checkbox [checked]
+  - link "Content & Memberships":
+    - /url: /config/content-and-memberships
+    - paragraph: Content & Memberships
+  - checkbox [checked]
+  - link "Scheduling":
+    - /url: https://secure.acuityscheduling.com/oauth2/squarespace-attached?website_id=66abcbd768fd043d92325d96&analytics_id=871ea609-7aad-4efb-9408-1d42d6316296
+    - paragraph: Scheduling
+  - checkbox [checked]
+  - link "Donations":
+    - /url: /config/donations
+    - paragraph: Donations
+  - checkbox [checked]
+  - link "Invoicing & Pay Links":
+    - /url: /config/invoicing
+    - paragraph: Invoicing & Pay Links
+  - checkbox [checked]
+  - status
+  - link "Campaigns":
+    - /url: /config/marketing/campaigns
+    - paragraph: Campaigns
+  - link "Contacts":
+    - /url: /config/profiles
+    - paragraph: Contacts
+  - link "Analytics":
+    - /url: /config/analytics
+    - paragraph: Analytics
+  - link "Traffic":
+    - /url: /config/analytics#traffic-overview
+    - paragraph: Traffic
+  - link "Engagement":
+    - /url: /config/analytics#site-content
+    - paragraph: Engagement
+  - link "Sales":
+    - /url: /config/analytics#sales-overview
+    - paragraph: Sales
+  - link "Finance":
+    - /url: /config/finance
+    - paragraph: Finance
+  - button "Account"
+  - list:
+    - button "Help":
+    - button "Customize Sidebar":
+    - button "Settings":
+- main:
+  - heading "Traffic Cookie Banner Enabled" [level=1]:
+    - text: Traffic
+    - button "Cookie Banner Enabled":
+      - generic: Cookie Banner Enabled
+  - button "Last 30 Days":
+    - paragraph: Last 30 Days
+  - paragraph: October 2026
+  - button "Previous Month":
+  - button "Next Month" [disabled]:
+  - generic "Sunday":
+    - paragraph: S
+  - generic "Monday":
+    - paragraph: M
+  - generic "Tuesday":
+    - paragraph: T
+  - generic "Wednesday":
+    - paragraph: W
+  - generic "Thursday":
+    - paragraph: T
+  - generic "Friday":
+    - paragraph: F
+  - generic "Saturday":
+    - paragraph: S
+  - button "09/27/2026":
+    - paragraph: "27"
+  - button "09/28/2026":
+    - paragraph: "28"
+  - button "09/29/2026":
+    - paragraph: "29"
+  - button "09/30/2026":
+    - paragraph: "30"
+  - button "10/01/2026":
+    - paragraph: "1"
+  - button "10/02/2026" [pressed]:
+    - paragraph: "2"
+  - button "10/03/2026":
+    - paragraph: "3"
+  - button "10/04/2026":
+    - paragraph: "4"
+  - button "10/05/2026":
+    - paragraph: "5"
+  - button "10/06/2026":
+    - paragraph: "6"
+  - button "10/07/2026":
+    - paragraph: "7"
+  - button "10/08/2026":
+    - paragraph: "8"
+  - button "10/09/2026":
+    - paragraph: "9"
+  - button "10/10/2026":
+    - paragraph: "10"
+  - button "10/11/2026":
+    - paragraph: "11"
+  - button "10/12/2026":
+    - paragraph: "12"
+  - button "10/13/2026":
+    - paragraph: "13"
+  - button "10/14/2026":
+    - paragraph: "14"
+  - button "10/15/2026":
+    - paragraph: "15"
+  - button "10/16/2026":
+    - paragraph: "16"
+  - button "10/17/2026":
+    - paragraph: "17"
+  - button "10/18/2026":
+    - paragraph: "18"
+  - button "10/19/2026":
+    - paragraph: "19"
+  - button "10/20/2026":
+    - paragraph: "20"
+  - button "10/21/2026":
+    - paragraph: "21"
+  - button "10/22/2026":
+    - paragraph: "22"
+  - button "10/23/2026":
+    - paragraph: "23"
+  - button "10/24/2026":
+    - paragraph: "24"
+  - button "10/25/2026":
+    - paragraph: "25"
+  - button "10/26/2026":
+    - paragraph: "26"
+  - button "10/27/2026":
+    - paragraph: "27"
+  - button "10/28/2026":
+    - paragraph: "28"
+  - button "10/29/2026":
+    - paragraph: "29"
+  - button "10/30/2026":
+    - paragraph: "30"
+  - button "10/31/2026":
+    - paragraph: "31"
+  - paragraph: Start Date
+  - paragraph: Oct 2, 2026
+  - paragraph: October 2026
+  - button "Previous Month":
+  - button "Next Month" [disabled]:
+  - generic "Sunday":
+    - paragraph: S
+  - generic "Monday":
+    - paragraph: M
+  - generic "Tuesday":
+    - paragraph: T
+  - generic "Wednesday":
+    - paragraph: W
+  - generic "Thursday":
+    - paragraph: T
+  - generic "Friday":
+    - paragraph: F
+  - generic "Saturday":
+    - paragraph: S
+  - button "09/27/2026" [disabled]:
+    - paragraph: "27"
+  - button "09/28/2026" [disabled]:
+    - paragraph: "28"
+  - button "09/29/2026" [disabled]:
+    - paragraph: "29"
+  - button "09/30/2026" [disabled]:
+    - paragraph: "30"
+  - button "10/01/2026" [disabled]:
+    - paragraph: "1"
+  - button "10/02/2026":
+    - paragraph: "2"
+  - button "10/03/2026":
+    - paragraph: "3"
+  - button "10/04/2026":
+    - paragraph: "4"
+  - button "10/05/2026":
+    - paragraph: "5"
+  - button "10/06/2026":
+    - paragraph: "6"
+  - button "10/07/2026":
+    - paragraph: "7"
+  - button "10/08/2026":
+    - paragraph: "8"
+  - button "10/09/2026":
+    - paragraph: "9"
+  - button "10/10/2026":
+    - paragraph: "10"
+  - button "10/11/2026":
+    - paragraph: "11"
+  - button "10/12/2026":
+    - paragraph: "12"
+  - button "10/13/2026":
+    - paragraph: "13"
+  - button "10/14/2026":
+    - paragraph: "14"
+  - button "10/15/2026":
+    - paragraph: "15"
+  - button "10/16/2026":
+    - paragraph: "16"
+  - button "10/17/2026":
+    - paragraph: "17"
+  - button "10/18/2026":
+    - paragraph: "18"
+  - button "10/19/2026":
+    - paragraph: "19"
+  - button "10/20/2026":
+    - paragraph: "20"
+  - button "10/21/2026":
+    - paragraph: "21"
+  - button "10/22/2026":
+    - paragraph: "22"
+  - button "10/23/2026":
+    - paragraph: "23"
+  - button "10/24/2026":
+    - paragraph: "24"
+  - button "10/25/2026":
+    - paragraph: "25"
+  - button "10/26/2026":
+    - paragraph: "26"
+  - button "10/27/2026":
+    - paragraph: "27"
+  - button "10/28/2026":
+    - paragraph: "28"
+  - button "10/29/2026":
+    - paragraph: "29"
+  - button "10/30/2026":
+    - paragraph: "30"
+  - button "10/31/2026" [pressed]:
+    - paragraph: "31"
+  - paragraph: End Date
+  - paragraph: Oct 31, 2026
+  - option "Today":
+    - paragraph: Today
+  - option "Yesterday":
+    - paragraph: Yesterday
+  - option "Week To Date":
+    - paragraph: Week To Date
+  - option "Last Week":
+    - paragraph: Last Week
+  - option "Month To Date":
+    - paragraph: Month To Date
+  - option "Last Month":
+    - paragraph: Last Month
+  - option "Last 30 Days" [selected]:
+    - paragraph: Last 30 Days
+  - option "Year To Date":
+    - paragraph: Year To Date
+  - option "Last Year":
+    - paragraph: Last Year
+  - option "Custom":
+    - paragraph: Custom
+  - paragraph: £ GBP
+  - tablist:
+    - tab "Traffic" [selected]
+    - tab "Traffic Sources"
+    - tab "Search Keywords"
+    - tab "Geography"
+  - button "Do you show up in AI search? When customers ask AI for recommendations, see if your business makes the list Set up AI Visibility I need help finding a...":
+    - paragraph: Do you show up in AI search?
+    - paragraph: When customers ask AI for recommendations, see if your business makes the list
+    - paragraph: Set up AI Visibility
+    - paragraph: I need help finding a...
+    - button:
+  - paragraph: Visits
+  - paragraph: "880"
+  - paragraph:
+    - text: 183% MoM
+  - paragraph: Bounce Rate
+  - paragraph: 92.96%
+  - paragraph:
+    - text: 58% MoM
+  - paragraph: Unique Visitors
+  - paragraph: "864"
+  - paragraph:
+    - text: 216% MoM
+  - paragraph: Pageviews
+  - paragraph: "819"
+  - paragraph:
+    - text: 7% MoM
+  - generic: Visits
+  - generic: Oct 2 – 31, 2026
+  - generic: •
+  - text: "880"
+  - generic: Total
+  - generic: +183% mo/mo
+  - combobox:
+    - paragraph: Daily
+  - img "Line chart with 1 series and 30 data points.":
+    - generic: Visits
+    - generic: "0"
+    - generic: "0"
+    - generic: "20"
+    - generic: "20"
+    - generic: "40"
+    - generic: "40"
+    - generic: "60"
+    - generic: "60"
+    - generic: "80"
+    - generic: "80"
+    - generic: "100"
+    - generic: "100"
+    - generic: Fri
+    - generic: Sat
+    - generic: Sun
+    - generic: Mon
+    - generic: Tue
+    - generic: Wed
+    - generic: Thu
+    - generic: Fri
+    - generic: Sat
+    - generic: Sun
+    - generic: Mon
+    - generic: Tue
+    - generic: Wed
+    - generic: Thu
+    - generic: Fri
+    - generic: Sat
+    - generic: Sun
+    - generic: Mon
+    - generic: Tue
+    - generic: Wed
+    - generic: Thu
+    - generic: Fri
+    - generic: Sat
+    - generic: Sun
+    - generic: Mon
+    - generic: Tue
+    - generic: Wed
+    - generic: Thu
+    - generic: Fri
+    - generic: Sat
+  - table "Line chart with 1 series and 30 data points.":
+    - caption: Line chart with 1 series and 30 data points.
+    - rowgroup:
+      - row "Category Visits":
+        - columnheader "Category"
+        - columnheader "Visits"
+    - rowgroup:
+      - row "Oct 2, 2026 3":
+        - rowheader "Oct 2, 2026"
+        - cell "3"
+      - row "Oct 3, 2026 4":
+        - rowheader "Oct 3, 2026"
+        - cell "4"
+      - row "Oct 4, 2026 10":
+        - rowheader "Oct 4, 2026"
+        - cell "10"
+      - row "Oct 5, 2026 7":
+        - rowheader "Oct 5, 2026"
+        - cell "7"
+      - row "Oct 6, 2026 10":
+        - rowheader "Oct 6, 2026"
+        - cell "10"
+      - row "Oct 7, 2026 7":
+        - rowheader "Oct 7, 2026"
+        - cell "7"
+      - row "Oct 8, 2026 3":
+        - rowheader "Oct 8, 2026"
+        - cell "3"
+      - row "Oct 9, 2026 7":
+        - rowheader "Oct 9, 2026"
+        - cell "7"
+      - row "Oct 10, 2026 7":
+        - rowheader "Oct 10, 2026"
+        - cell "7"
+      - row "Oct 11, 2026 8":
+        - rowheader "Oct 11, 2026"
+        - cell "8"
+      - row "Oct 12, 2026 21":
+        - rowheader "Oct 12, 2026"
+        - cell "21"
+      - row "Oct 13, 2026 9":
+        - rowheader "Oct 13, 2026"
+        - cell "9"
+      - row "Oct 14, 2026 30":
+        - rowheader "Oct 14, 2026"
+        - cell "30"
+      - row "Oct 15, 2026 53":
+        - rowheader "Oct 15, 2026"
+        - cell "53"
+      - row "Oct 16, 2026 25":
+        - rowheader "Oct 16, 2026"
+        - cell "25"
+      - row "Oct 17, 2026 46":
+        - rowheader "Oct 17, 2026"
+        - cell "46"
+      - row "Oct 18, 2026 43":
+        - rowheader "Oct 18, 2026"
+        - cell "43"
+      - row "Oct 19, 2026 16":
+        - rowheader "Oct 19, 2026"
+        - cell "16"
+      - row "Oct 20, 2026 43":
+        - rowheader "Oct 20, 2026"
+        - cell "43"
+      - row "Oct 21, 2026 21":
+        - rowheader "Oct 21, 2026"
+        - cell "21"
+      - row "Oct 22, 2026 63":
+        - rowheader "Oct 22, 2026"
+        - cell "63"
+      - row "Oct 23, 2026 40":
+        - rowheader "Oct 23, 2026"
+        - cell "40"
+      - row "Oct 24, 2026 54":
+        - rowheader "Oct 24, 2026"
+        - cell "54"
+      - row "Oct 25, 2026 12":
+        - rowheader "Oct 25, 2026"
+        - cell "12"
+      - row "Oct 26, 2026 76":
+        - rowheader "Oct 26, 2026"
+        - cell "76"
+      - row "Oct 27, 2026 45":
+        - rowheader "Oct 27, 2026"
+        - cell "45"
+      - row "Oct 28, 2026 30":
+        - rowheader "Oct 28, 2026"
+        - cell "30"
+      - row "Oct 29, 2026 48":
+        - rowheader "Oct 29, 2026"
+        - cell "48"
+      - row "Oct 30, 2026 96":
+        - rowheader "Oct 30, 2026"
+        - cell "96"
+      - row "Oct 31, 2026 43":
+        - rowheader "Oct 31, 2026"
+        - cell "43"
+  - application "Chart data. Use arrow keys to explore.":
+    - button
+    - button
+  - list:
+    - listitem: Top Sources by Visits
+    - button "View Sources":
+      - generic: View Sources
+  - img "Bar chart with 1 series and 5 data points.":
+    - generic: "0"
+    - generic: "0"
+    - generic: "200"
+    - generic: "200"
+    - generic: "400"
+    - generic: "400"
+    - generic: "600"
+    - generic: "600"
+    - generic: "800"
+    - generic: "800"
+    - generic: Direct
+    - generic: "709"
+    - generic: Instagram
+    - generic: "83"
+    - generic: Google
+    - generic: "48"
+    - generic: Facebook
+    - generic: "34"
+    - generic: Others
+    - generic: "12"
+    - generic: Top Sources
+  - table "Bar chart with 1 series and 5 data points.":
+    - caption: Bar chart with 1 series and 5 data points.
+    - rowgroup:
+      - row "Category Visits":
+        - columnheader "Category"
+        - columnheader "Visits"
+    - rowgroup:
+      - row "Direct 709":
+        - rowheader "Direct"
+        - cell "709"
+      - row "Instagram 83":
+        - rowheader "Instagram"
+        - cell "83"
+      - row "Google 48":
+        - rowheader "Google"
+        - cell "48"
+      - row "Facebook 34":
+        - rowheader "Facebook"
+        - cell "34"
+      - row "Others 12":
+        - rowheader "Others"
+        - cell "12"
+  - application "Chart data. Use arrow keys to explore.":
+  - generic: Top Devices by Visits
+  - group "Pie chart with 3 slices.":
+    - 'button "Mobile: 504 (57%)"'
+    - 'button "Desktop: 354 (40%)"'
+    - 'button "Tablet: 31 (3%)"'
+    - generic: "889"
+    - generic: Total
+  - table "Pie chart with 3 slices.":
+    - caption: Pie chart with 3 slices.
+    - rowgroup:
+      - row "Category Value":
+        - columnheader "Category"
+        - columnheader "Value"
+    - rowgroup:
+      - row "Mobile 504":
+        - rowheader "Mobile"
+        - cell "504"
+      - row "Desktop 354":
+        - rowheader "Desktop"
+        - cell "354"
+      - row "Tablet 31":
+        - rowheader "Tablet"
+        - cell "31"
+  - button "Mobile":
+    - generic: Mobile
+  - generic: 504 (57%)
+  - button "Desktop":
+    - generic: Desktop
+  - generic: 354 (40%)
+  - button "Tablet":
+    - generic: Tablet
+  - generic: 31 (3%)
+  - generic: Top Browsers by Visits
+  - img "Bar chart with 1 series and 5 data points.":
+    - generic: "0"
+    - generic: "0"
+    - generic: "100"
+    - generic: "100"
+    - generic: "200"
+    - generic: "200"
+    - generic: "300"
+    - generic: "300"
+    - generic: "400"
+    - generic: "400"
+    - generic: Chrome
+    - generic: "332"
+    - generic: Instagram...
+    - generic: "287"
+    - generic: Mobile...
+    - generic: "138"
+    - generic: Chrome...
+    - generic: "86"
+    - generic: Others
+    - generic: "46"
+    - generic: Top Browsers
+  - table "Bar chart with 1 series and 5 data points.":
+    - caption: Bar chart with 1 series and 5 data points.
+    - rowgroup:
+      - row "Category Visits":
+        - columnheader "Category"
+        - columnheader "Visits"
+    - rowgroup:
+      - row "Chrome 332":
+        - rowheader "Chrome"
+        - cell "332"
+      - row "Instagram App 287":
+        - rowheader "Instagram App"
+        - cell "287"
+      - row "Mobile Safari 138":
+        - rowheader "Mobile Safari"
+        - cell "138"
+      - row "Chrome Mobile 86":
+        - rowheader "Chrome Mobile"
+        - cell "86"
+      - row "Others 46":
+        - rowheader "Others"
+        - cell "46"
+  - application "Chart data. Use arrow keys to explore.":
+  - generic: Top Operating Systems by Visits
+  - img "Bar chart with 1 series and 5 data points.":
+    - generic: "0"
+    - generic: "0"
+    - generic: "100"
+    - generic: "100"
+    - generic: "200"
+    - generic: "200"
+    - generic: "300"
+    - generic: "300"
+    - generic: "400"
+    - generic: "400"
+    - generic: iOS
+    - generic: "330"
+    - generic: Android
+    - generic: "197"
+    - generic: macOS
+    - generic: "179"
+    - generic: Windows
+    - generic: "142"
+    - generic: Others
+    - generic: "41"
+    - generic: Top Operating Systems
+  - table "Bar chart with 1 series and 5 data points.":
+    - caption: Bar chart with 1 series and 5 data points.
+    - rowgroup:
+      - row "Category Visits":
+        - columnheader "Category"
+        - columnheader "Visits"
+    - rowgroup:
+      - row "iOS 330":
+        - rowheader "iOS"
+        - cell "330"
+      - row "Android 197":
+        - rowheader "Android"
+        - cell "197"
+      - row "macOS 179":
+        - rowheader "macOS"
+        - cell "179"
+      - row "Windows 142":
+        - rowheader "Windows"
+        - cell "142"
+      - row "Others 41":
+        - rowheader "Others"
+        - cell "41"
+  - application "Chart data. Use arrow keys to explore.":
+  - generic: Edit
+- button:
+  - generic: 0 updates
+- button:
+  - generic: 0 updates

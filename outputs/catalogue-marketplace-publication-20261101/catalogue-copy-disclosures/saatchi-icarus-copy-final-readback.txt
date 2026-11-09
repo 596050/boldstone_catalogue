@@ -1,0 +1,209 @@
+- text: Fax
+- textbox "Fax"
+- link "fax":
+  - /url: /facsimile-npc
+- link "Skip to Main Content":
+  - /url: "#skip-to-content"
+- banner:
+  - button "Close Menu" [expanded]:
+  - link "Saatchi Art logo":
+    - /url: https://www.saatchiart.com/en-gb
+  - paragraph: Studio
+  - link "Sally Price":
+    - /url: https://www.saatchiart.com/en-gb/account/profile/3090713
+- complementary:
+  - navigation:
+    - button "Manage Artworks":
+      - text: Manage Artworks
+    - list:
+      - link "My Portfolio":
+        - /url: https://www.saatchiart.com/en-gb/studio/artworks
+      - link "Artwork Uploader":
+        - /url: https://www.saatchiart.com/en-gb/studio/upload
+    - button "Sales Dashboard":
+      - text: Sales Dashboard
+    - link "Offers Dashboard":
+      - /url: https://www.saatchiart.com/en-gb/account/offers
+      - generic: Offers Dashboard
+    - button "Sponsored Listings":
+      - text: Sponsored Listings
+    - button "Profile Information":
+      - text: Profile Information
+    - link "Addresses":
+      - /url: https://www.saatchiart.com/en-gb/studio/address
+      - generic: Addresses
+    - button "Account":
+      - text: Account
+- button "Back to Artworks":
+  - text: Back to Artworks
+- link:
+  - /url: https://www.saatchiart.com/en-gb/art/Sculpture-Icarus-I-Abstract-Cave-Relief/3090713/14226583/view
+- paragraph: Icarus I - Abstract Cave Relief
+- paragraph: Views
+- paragraph: "32"
+- paragraph: Favorites
+- paragraph: "0"
+- button "Share":
+  - paragraph: Share
+- button "Renew" [disabled]:
+  - paragraph: Renew
+- button "Duplicate":
+  - paragraph: Duplicate
+- paragraph:
+  - text: "Visibility:"
+  - generic: Published
+- button "Delete Artwork"
+- heading "Images" [level=2]
+- button "Edit":
+  - paragraph: Edit
+- separator
+- heading "Description" [level=2]
+- button "Edit":
+  - paragraph: Edit
+- separator
+- paragraph: Subject, Category, Year
+- paragraph: Subject
+- paragraph: Classical Mythology
+- paragraph: Category
+- paragraph: Sculpture
+- paragraph: Year
+- paragraph: "2024"
+- separator
+- paragraph: Method, Materials & Styles
+- paragraph: Method
+- paragraph: Casting
+- paragraph: Materials
+- paragraph: Plaster
+- paragraph: Styles
+- paragraph: Abstract
+- separator
+- paragraph: Dimensions
+- paragraph: 39.4 W x 78.7 H x 2 D inches
+- separator
+- paragraph: Keywords
+- paragraph: Icarus, wall sculpture, relief, mythology, abstract, Bath stone, feather, textured, neutral, architectural, backlit
+- separator
+- paragraph: Description
+- paragraph:
+  - text: Boldstone Icarus I – Abstract Cave Relief is a large wall sculpture with feather-like marks, flowing lines and a textured Bath Stone-colour finish. Its sculpted surface catches changing light and shadow, evoking an ancient fragment in a contemporary setting.
+  - text: "Material: Made from a gypsum-based material."
+  - text: "Quantity: One sculpture; other pieces and room props shown are not included."
+  - text: "Panel: 200 cm high × 100 cm wide × 5 cm deep; face thickness 15 mm. Support framework: 186 × 86 × 6.5 cm."
+  - text: "Weight: Approximately 60 kg, before packing."
+  - text: Suitable for outdoor use and indoor display. This large panel uses a support framework; French-cleat fixing is available. Confirm the fixing arrangement for your wall before installation.
+  - text: "Dispatch: Within 3 working days; delivery transit is additional. Shipping charges are shown at checkout."
+  - text: "Model/SKU: SQ0717348."
+  - text: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+- button "Read less" [active]
+- heading "Price & Details" [level=2]
+- button "Edit":
+  - paragraph: Edit
+- separator
+- paragraph: Status
+- paragraph: For Sale
+- separator
+- paragraph: Quantity
+- paragraph: "1"
+- separator
+- paragraph: Price
+- paragraph: Artwork Price
+- paragraph: $873 (£655)
+- paragraph: Your Commission
+- paragraph: $523.80 (£393)
+- separator
+- paragraph: Weight & Packaging
+- paragraph: Packaging Type
+- paragraph: Crate
+- paragraph: Shipping Weight
+- paragraph: 145.51 lb
+- separator
+- paragraph: Additional Details
+- paragraph: Number of Pieces
+- paragraph: "1"
+- paragraph: Ready to Hang
+- paragraph: "Yes"
+- paragraph: Installation Type
+- paragraph: Wall-Mounted
+- paragraph: Ready to Hang
+- paragraph: "Yes"
+- paragraph: Outdoor Safe
+- paragraph: "Yes"
+- separator
+- paragraph: Shipping Address
+- paragraph:
+  - generic: Court Essington, Midford Road
+  - generic: Midford
+  - generic: Bath, Somerset BA2 7BX
+  - generic: GB
+- paragraph: Make Prints Available for Sale
+- button "Add Prints for Sale"
+- contentinfo:
+  - link "Saatchi Art logo footer":
+    - /url: https://www.saatchiart.com/en-gb
+  - link "Saatchi Art - Instagram":
+    - /url: http://instagram.com/saatchiart
+  - link "Saatchi Art - Tiktok":
+    - /url: https://www.tiktok.com/@saatchi_art
+  - link "Saatchi Art - Facebook":
+    - /url: http://www.facebook.com/saatchionline
+  - link "Saatchi Art - Pinterest":
+    - /url: http://pinterest.com/saatchiart
+  - link "Saatchi Art - Youtube":
+    - /url: https://www.youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+  - generic: Support
+  - link "Community Forum":
+    - /url: https://support.saatchiart.com/hc/en-us/community/topics
+  - link "Help Center":
+    - /url: https://support.saatchiart.com/hc
+  - link "Get Started":
+    - /url: https://support.saatchiart.com/hc/sections/14062766571419
+  - link "Payments":
+    - /url: https://support.saatchiart.com/hc/sections/14563986089883
+  - button "Request Support"
+  - generic: Resources
+  - link "Artist Handbook":
+    - /url: https://support.saatchiart.com/hc/categories/14062686015643
+  - link "Packaging Guide":
+    - /url: https://support.saatchiart.com/hc/articles/14709932602139
+  - link "How to Photograph":
+    - /url: https://support.saatchiart.com/hc/articles/17737130295963
+  - link "Artist Tips":
+    - /url: https://canvas.saatchiart.com/category/art/artist-tips
+  - generic: Saatchi Art
+  - link "About":
+    - /url: https://www.saatchiart.com/en-gb/about-us
+  - link "Sell on Saatchi Art":
+    - /url: https://www.saatchiart.com/en-gb/whysell
+  - link "Affiliate Program":
+    - /url: https://signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+  - link "Terms of Service":
+    - /url: https://www.saatchiart.com/en-gb/terms
+  - link "Privacy Notice":
+    - /url: https://www.saatchiart.com/en-gb/privacy
+  - link "Cookie Notice":
+    - /url: https://www.saatchiart.com/en-gb/cookie_notice
+  - link "Copyright Policy":
+    - /url: https://www.saatchiart.com/en-gb/copyright
+  - link "California Notice of Collection":
+    - /url: https://www.saatchiart.com/en-gb/privacy#12.2
+  - generic: Manage Preferences
+  - link "Accessibility":
+    - /url: https://www.saatchiart.com/en-gb/accessibility
+  - generic "View Store Preferences Footer":
+    - generic: United Kingdom
+    - text: /
+    - generic: GBP
+    - text: /
+    - generic: in
+  - generic: © 2010-2026 Saatchi Art. All Rights Reserved.
+  - paragraph:
+    - text: This site is protected by reCAPTCHA and the Google
+    - link "Privacy Policy":
+      - /url: https://policies.google.com/privacy
+    - text: and
+    - link "Terms of Service":
+      - /url: https://policies.google.com/terms
+    - text: apply.
+- alert
+- button "Manage Preferences"
+- text: Manage Preferences

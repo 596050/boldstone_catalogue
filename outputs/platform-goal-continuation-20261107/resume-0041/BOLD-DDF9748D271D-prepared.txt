@@ -1,0 +1,374 @@
+Window: "Complete your listing | Boldston…am Finish Wall sculpture | eBay", App: Google Chrome.
+0 standard window Secondary Actions: Raise, Complete your listing | Boldstone Fingerprint Rings I - Cream Finish Wall sculpture | eBay - Google Chrome – Tom, URL: ebay.co.uk/lstng?draftId=5456776876213&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+	1 container Complete your listing | Boldstone Fingerprint Rings I - Cream Finish Wall sculpture | eBay - Google Chrome – Tom, URL: ebay.co.uk/lstng?draftId=5456776876213&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ebay.co.uk/lstng?draftId=5456776876213&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+					10 button Zoom: 80%
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Complete your listing | Boldstone Fingerprint Rings I - Cream Finish Wall sculpture | eBay, URL: ebay.co.uk/lstng?draftId=5456776876213&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+						27 container
+							28 image
+							29 image
+							30 container
+								31 link Skip to main content, Value: ebay.co.uk/lstng?draftId=5456776876213&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts#mainContent
+								32 link eBay Home, Value: ebay.co.uk/
+							33 container
+								34 button Help
+								35 button More options
+								36 heading Complete your listing, Value: 1
+									37 text Complete your listing
+								38 heading PHOTOS & VIDEO, Value: 2
+									39 text PHOTOS & VIDEO
+								40 button See photo options
+								41 container
+									42 text You can add up to 24 photos and a 1-minute video. Buyers want to see all details and angles.
+									43 container Learn about the photo tips to attract more buyers
+										44 button Tips for taking pro photos
+								45 text 14 out of 25 photos or videos uploaded
+								46 button Select
+								47 button Edit or view photo 1
+								48 button Edit or view photo 2
+								49 button Edit or view photo 3
+								50 button Edit or view photo 4
+								51 button Edit or view photo 5
+								52 button Edit or view photo 6
+								53 button Edit or view photo 7
+								54 button Edit or view photo 8
+								55 button Edit or view photo 9
+								56 button Edit or view photo 10
+								57 button Edit or view photo 11
+								58 button Edit or view photo 12
+								59 button Edit or view photo 13
+								60 button Edit or view photo 14
+								61 button Add
+								62 button Empty slot. Upload photo
+								63 heading TITLE, Value: 2
+									64 text TITLE
+								65 button See title options
+								66 text Item title
+								67 text field (settable) Item title, Value: Boldstone Fingerprint Rings I - Cream Finish Wall sculpture
+								68 text 59 of 80 characters
+								69 text Custom label (SKU)
+								70 button Help tip for Custom label (SKU) field
+								71 text field (settable) Custom label (SKU), Value: BOLD-DDF9748D271D
+								72 text 17 of 50 characters
+								73 heading ITEM CATEGORY, Value: 2
+									74 text ITEM CATEGORY
+								75 button Edit Item category
+								76 button Art Sculptures Item category First category
+								77 text in Art
+								78 heading VARIATIONS, Value: 2
+									79 text VARIATIONS
+								80 button Edit Variations
+								81 text Save time and money by listing multiple variations of your item in one multi-quantity, fixed price listing.
+								82 heading ITEM SPECIFICS, Value: 2
+									83 text ITEM SPECIFICS
+								84 text Suggested item specifics Quickly add item specifics using info from your photos and title, powered by eBay.ai — this helps buyers find your item faster.
+								85 Tick box Type: Sculpture, Value: 0
+								86 button Apply all
+								87 container Essential
+									88 heading Essential, Value: 3
+										89 text Essential
+									90 button Material
+									91 button Gypsum-based material
+									92 button Format
+									93 button Format
+									94 button Subject
+									95 button Subject
+									96 button Style
+									97 button Style
+									98 button Artist
+									99 button Sally Price
+									100 button Size
+									101 button Size
+									102 button Theme
+									103 button Theme
+									104 button Features
+									105 button Features
+									106 button Original/Licensed Reproduction
+									107 content list Original/Licensed Reproduction
+										108 toggle button Original, Value: 0
+											109 text Original
+										110 toggle button Licensed Reproduction, Value: 0
+											111 text Licensed Reproduction
+									112 button Production Technique
+									113 button Production Technique
+									114 button Culture
+									115 button Culture
+									116 button Year of Production
+									117 button Year of Production
+									118 button Time Period Produced
+									119 button Time Period Produced
+									120 button Region of Origin
+									121 button Region of Origin
+									122 button Type
+									123 button Type
+									124 button Item Height
+									125 button 40 cm
+									126 button Item Length
+									127 button 3 cm
+									128 button Item Width
+									129 button 40 cm
+								130 container Optional
+									131 heading Optional, Value: 3
+										132 text Optional
+									133 button Signed
+									134 content list Signed
+										135 toggle button Yes, Value: 0
+											136 text Yes
+										137 toggle button No, Value: 0
+											138 text No
+									139 button Signed By
+									140 text field (disabled) Signed By
+									141 container
+										142 text Signed  is required before providing  Signed By
+									143 button Country of Origin
+									144 button Country of Origin
+									145 button Unit of Sale
+									146 button Single Piece
+								147 button Show more
+								148 heading CONDITION, Value: 2
+									149 text CONDITION
+								150 heading Item condition, Value: 3
+									151 text Item condition
+								152 button New Item condition
+								153 heading DESCRIPTION, Value: 2
+									154 text DESCRIPTION
+								155 content list
+									156 button Bold
+									157 button Unordered list
+									158 pop-up button Custom template
+										159 text Custom template
+									160 button Show all options
+								161 container Description
+									162 HTML content about:srcdoc
+										163 text entry area (settable) Description, Value: Concentric lines ripple across the surface in a pattern reminiscent of a fingerprint. The familiar becomes abstract, with repeated ridges giving the relief a gentle, absorbing rhythm.
+It is an invitation to slow down and notice small details: the trace of a line, the space between rings and the way light moves across them.
+The cream finish brings a soft, warm tone to the design.
+Brand: Boldstone
+Product type: Wall sculpture
+Model: Fingerprint Rings I - Cream Finish (BOLD-DDF9748D271D)
+Colour / appearance: Cream finish
+Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+Companion pieces: This is one piece of a coordinating group with Fingerprint Rings II and Fingerprint Rings III. Companion sculptures are sold separately; this listing is for one sculpture only.
+Material: Made from a gypsum-based material.
+Surface effect: A decorative surface effect is applied to create the finish shown. Each piece is handmade. The surface-effect pattern will vary and will differ from the photographs.
+Dimensions: 40 × 40 cm; approximately 3 cm deep
+Weight: Approximately 6 kg (range 4–9 kg) per panel
+Use: Suitable for outdoor use and indoor display.
+Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+Availability: Ready to dispatch
+Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+Dispatch time: Within 3 working days. Delivery transit time is additional.
+Delivery: The available delivery service and charge are shown in this eBay listing. Carrier transit time is additional to dispatch time.
+											164 text Concentric lines ripple across the surface in a pattern reminiscent of a fingerprint. The familiar becomes abstract, with repeated ridges giving the relief a gentle, absorbing rhythm.
+											165 text It is an invitation to slow down and notice small details: the trace of a line, the space between rings and the way light moves across them.
+											166 text The cream finish brings a soft, warm tone to the design.
+											167 text Brand: Boldstone
+											168 text Product type: Wall sculpture
+											169 text Model: Fingerprint Rings I - Cream Finish (BOLD-DDF9748D271D)
+											170 text Colour / appearance: Cream finish
+											171 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											172 text Companion pieces: This is one piece of a coordinating group with Fingerprint Rings II and Fingerprint Rings III. Companion sculptures are sold separately; this listing is for one sculpture only.
+											173 text Material: Made from a gypsum-based material.
+											174 text Surface effect: A decorative surface effect is applied to create the finish shown. Each piece is handmade. The surface-effect pattern will vary and will differ from the photographs.
+											175 text Dimensions: 40 × 40 cm; approximately 3 cm deep
+											176 text Weight: Approximately 6 kg (range 4–9 kg) per panel
+											177 text Use: Suitable for outdoor use and indoor display.
+											178 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											179 text Availability: Ready to dispatch
+											180 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											181 text Dispatch time: Within 3 working days. Delivery transit time is additional.
+											182 text Delivery: The available delivery service and charge are shown in this eBay listing. Carrier transit time is additional to dispatch time.
+								183 button Use AI description
+								184 heading PRICING, Value: 2
+									185 text PRICING
+								186 button See pricing options
+								187 text Format
+								188 pop-up button Format Buy It Now
+									189 text Buy It Now
+								190 container
+									191 text Item price
+									192 text £
+									193 text field (settable) Item price, Value: 55.68
+									194 text + £ 2.93 Buyer Protection fee
+								195 text Buyer will pay
+								196 text field (settable) Buyer will pay, Value: 58.61
+								197 container information
+									198 image information
+									199 text UK buyers will pay £58.61, which includes the 
+									200 button Buyer Protection fee
+									201 text .
+								202 Tick box Require immediate payment when buyer uses Buy it now, Value: 0
+								203 text Quantity
+								204 text field (settable) Quantity, Value: 1
+								205 text (optional) Interested buyers can send an offer for this item. You can accept, counter or decline. Buyer offers may include a Buyer Protection fee, paid to eBay.
+								206 switch Allow offers, Value: off
+								207 text Your listing goes live immediately, unless you select a time and date you want it to start.
+								208 switch Schedule your listing, Value: off
+								209 heading DELIVERY DETAILS, Value: 2
+									210 text DELIVERY DETAILS
+								211 button See postage options
+								212 content list Delivery method
+									213 button Postage or collection in person Let buyers choose how they get their items.
+									214 toggle button Postage only Post items directly to buyers., Value: 1
+									215 button No postage. Collection in person only Arrange collection in person without any postage costs.
+								216 heading Package size, Value: 3
+									217 text Package size
+								218 button Medium parcel Up to 20 kg, 61 x 46 x 46 cm
+								219 heading Domestic postage, Value: 3
+									220 text Domestic postage
+								221 text Simple Delivery
+								222 text Prepaid Royal Mail, Evri or InPost label provided Full protection and tracking 1–3 business days
+								223 button How it works
+								224 link Choose couriers, Value: ebay.co.uk/ship/prf/simpledelivery?returnUrl=https%3A%2F%2Fwww.ebay.co.uk%2Flstng%3FdraftId%3D5456776876213%26mode%3DAddItem%26ReturnURL%3Dhttps%253A%252F%252Fwww.ebay.co.uk%252Fsh%252Flst%252Fdrafts
+								225 heading Who pays?, Value: 4
+									226 text Who pays?
+								227 content list
+									228 button Buyer pays
+									229 button Seller pays
+								230 text The buyer will pay rates starting from: £7.19 Based on the service they select
+								231 heading Preferences, Value: 3
+									232 text Preferences
+								233 heading Your settings, Value: 4
+									234 text Your settings
+								235 text 3 working days handling Item location BA2 7BX (Bath, Somerset, United Kingdom) Postcode not visible on listing Domestic returns Accepted within 30 days Buyer pays return postage International returns Accepted within 30 days Buyer pays return postage
+								236 button Your settings - edit
+								237 text Excluded locations (optional)
+								238 button Excluded locations
+								239 heading ITEM DISCLOSURES, Value: 2
+									240 text ITEM DISCLOSURES
+								241 text Add product information to meet regulatory requirements in your buyer's region. Upload user guides, certificates, documents and accessibility information that are included with the item. 
+								242 link Learn more – opens in a new window or tab, Value: ebay.co.uk/help/selling/selling/hazardous-materials-labeling?id=5407
+								243 switch Product documents, Value: off
+								244 heading PROMOTE YOUR LISTING, Value: 2
+									245 text PROMOTE YOUR LISTING
+								246 text COMPETITIVE CATEGORY
+								247 text 45% of items in Art Sculptures are promoted right now.
+								248 container
+									249 text Sponsored
+								250 heading General, Value: 4
+									251 text General
+								252 switch Toggle General, Value: off
+								253 text 90% more visibility, on average.
+								254 button More visibility explanation
+								255 content list
+									256 text Basic access to ad placements
+									257 text Only pay when your item sells
+								258 heading Priority, Value: 4
+									259 text Priority
+								260 switch Toggle Priority, Value: off
+								261 text 170% more visibility, on average.
+								262 button More visibility explanation
+								263 content list
+									264 text Exclusive access to the top of search
+									265 text Advanced targeting and bid controls
+									266 text Priority ranking in ad placements
+									267 text Only pay for clicks on your ads
+								268 button Help me choose
+								269 heading CHARITY, Value: 2
+									270 text CHARITY
+								271 button Edit Charity
+								272 container information
+									273 image information
+									274 container
+										275 text Donate a portion of this sale to the charity of your choice. 
+										276 link Learn more Opens in a new window or tab, Value: ebay.co.uk/help/donating-ebay-charity/default/buying-selling-ebay-benefit-nonprofit-organizations?id=4668
+								277 heading Listing fee, Value: 2
+									278 text Listing fee
+								279 text £0.00 No 
+								280 link transaction fees, Value: ebay.co.uk/help/selling/fees-credits-invoices/fees-private-sellers?id=4822
+								281 text  will be applied. You accept that the duration of your listing may vary due to delayed appearance in search. 
+								282 link Learn more, Value: ebay.co.uk/help/selling/listings/listings-overview?id=4072
+								283 text By selecting List it for free, you agree to pay the above fees, accept the 
+								284 link eBay User Agreement - opens in new window or tab, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+								285 text , 
+								286 link Payments Terms of Use - opens in new window or tab, Value: pages.ebay.co.uk/payment/2.0/terms.html
+								287 text , 
+								288 link Marketing Program Terms - opens in new window or tab, Value: pages.ebay.co.uk/sell/pl/termsofservice.html
+								289 text  and 
+								290 link Delivery Terms and Conditions - opens in new window or tab, Value: pages.ebay.co.uk/managed-shipping-sellers/
+								291 text ; acknowledge reading the 
+								292 link User Privacy Notice - opens in new window or tab, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+								293 text , agree to offer products and services that comply with all applicable laws, and assume full responsibility for the item offered and the content of your listing. By using Simple Delivery, you agree to the 
+								294 link eBay delivery Terms and Conditions, Value: pages.ebay.co.uk/shipping/delivery/seller-tnc.html
+								295 text .
+								296 button List it for free
+								297 button Save for later
+								298 button Preview
+								299 text 'Buy It Now' listings will renew automatically every month based on the listing terms at that time, until the item sells or the listing is ended. 
+								300 link Fees may apply. - opens in new window or tab, Value: ebay.co.uk/help/selling/fees-credits-invoices/selling-fees?id=4822
+								301 text To improve your chances of selling, we may send you offers from buyers that you can choose to accept or decline. Funds from your sales may be unavailable and show as pending for a period of time. 
+								302 link Learn more - opens in new window or tab, Value: ebay.co.uk/help/selling/selling-getting-paid/pending-payments?id=4155
+							303 container
+								304 container
+									305 text Copyright © 1995-2026 eBay Inc. All Rights Reserved. 
+									306 link User Agreement, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+									307 text , 
+									308 link Privacy, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+									309 text , 
+									310 link Payments Terms of Use, Value: pages.ebay.co.uk/payment/2.0/terms.html
+									311 text , 
+									312 link Cookies, Value: ebay.co.uk/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+									313 text  and 
+									314 link AdChoice , Value: ebay.co.uk/adchoice
+								315 button Scroll to top
+			316 pop-up button Tab search
+			317 container
+				318 tab group
+					319 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					320 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					321 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					322 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					323 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					324 tab (settable, boolean) Meta Business Suite - High memory usage - 1.0 GB, Value: off
+					325 tab group  group 📦 Marketplace completion – 2 Tabs, •  Studio | Saatchi Art United Kingdom, •  Manage active listings - eBay Seller Hub – Expanded
+					326 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion, Value: off
+					327 tab (settable, boolean) Manage active listings - eBay Seller Hub – Part of group 📦 Marketplace completion, Value: off
+					328 tab (selected, settable, boolean) Complete your listing | Boldstone Fingerprint Rings I - Cream Finish Wall sculpture | eBay, Value: on
+						329 button Close
+			330 button New tab
+	331 close button
+	332 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	333 minimise button
+334 menu bar
+	335 Chrome
+	336 File
+	337 Edit
+	338 View
+	339 History
+	340 Bookmarks
+	341 Profiles
+	342 Tab
+	343 Window
+	344 Help
+
+The focused UI element is 26 HTML content Complete your listing | Boldstone Fingerprint Rings I - Cream Finish Wall sculpture | eBay, URL: ebay.co.uk/lstng?draftId=5456776876213&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts

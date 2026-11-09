@@ -1,0 +1,13 @@
+Browser tab: 961982131, Title: "Analytics | Realtime overview", URL: "https://analytics.google.com/analytics/web/#/a234700920p546648922/realtime/overview".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 708-716
++						946 text 1
++						947 text 2
++						948 text -30 min
++						949 text -25 min
++						950 text -20 min
++						951 text -15 min
++						952 text -10 min
++						953 text -5 min
++						954 text -1 min
+The focused UI element is 688 heading Realtime overview, Value: 1

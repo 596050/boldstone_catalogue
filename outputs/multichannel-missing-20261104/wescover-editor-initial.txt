@@ -1,0 +1,59 @@
+Window: "Manage Your Creator Page | Wescover Tools", App: Google Chrome.
+0 standard window Manage Your Creator Page | Wescover Tools - Google Chrome – Tom, URL: chrome://newtab/, Secondary Actions: Raise
+	1 container Manage Your Creator Page | Wescover Tools - Google Chrome – Tom, URL: chrome://newtab/
+		2 container
+			3 toolbar
+				4 button Back
+				5 button Reload
+				6 container
+					7 pop-up button View site information
+					8 text field (settable) Address and search bar, Value: edit.wescover.com/creator/MSJZKJh9uMg?anchor=items, Placeholder: Ask Google or type a URL
+					9 button Bookmark this tab
+				10 pop-up button Extensions
+				11 pop-up button Hidden toolbar buttons
+				12 pop-up button Relaunch to update
+			13 container
+				14 scroll area
+					15 HTML content Manage Your Creator Page | Wescover Tools, URL: edit.wescover.com/creator/MSJZKJh9uMg?anchor=items
+						16 container
+							17 container
+								18 button Menu
+								19 link edit.wescover.com/
+							20 container
+								21 text Loading ...
+							22 container
+								23 link edit.wescover.com/
+								24 content list
+									25 link FAQ, Value: wescover.com/faq
+									26 link CONTACT US, Value: mailto:communication@wescover.com
+								27 link , Value: facebook.com/wescoverapp/
+								28 link tiktok.com/@wescover.app
+								29 link , Value: instagram.com/wescoverapp
+								30 link © 2026 Wescover, Inc., Value: wescover.com/about
+								31 link Privacy, Value: wescover.com/static/privacy
+								32 link Terms, Value: wescover.com/static/generalterms
+							33 button Feedback - Show survey
+			34 pop-up button Tab search
+			35 container
+				36 tab group
+					37 tab (settable, boolean) (6557) Inside the Pentagon's Anomaly Office | Reality Check - YouTube, Value: off
+					38 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish - High memory usage - 1.2 GB, Value: off
+					39 tab (selected, settable, boolean) Manage Your Creator Page | Wescover Tools, Value: on
+						40 button Close
+			41 button New tab
+	42 close button
+	43 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	44 minimise button
+45 menu bar
+	46 Chrome
+	47 File
+	48 Edit
+	49 View
+	50 History
+	51 Bookmarks
+	52 Profiles
+	53 Tab
+	54 Window
+	55 Help
+
+The focused UI element is 15 HTML content Manage Your Creator Page | Wescover Tools, URL: edit.wescover.com/creator/MSJZKJh9uMg?anchor=items

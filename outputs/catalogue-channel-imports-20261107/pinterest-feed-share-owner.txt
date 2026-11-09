@@ -1,0 +1,109 @@
+Window: "Boldstone Wall Sculptures — Pin…st Retail Feed - Google Sheets", App: Google Chrome.
+0 standard window Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets - Google Chrome – Tom, Secondary Actions: Raise, URL: docs.google.com/spreadsheets/d/1PVhR1H-GFaojV_G7Khh0Vt3IwFL1RBHyLLzvXGIT-BQ/edit?gid=150703720#gid=150703720
+	1 container Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets - Google Chrome – Tom, URL: docs.google.com/spreadsheets/d/1PVhR1H-GFaojV_G7Khh0Vt3IwFL1RBHyLLzvXGIT-BQ/edit?gid=150703720#gid=150703720
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: docs.google.com/spreadsheets/d/1PVhR1H-GFaojV_G7Khh0Vt3IwFL1RBHyLLzvXGIT-BQ/edit?gid=150703720#gid=150703720
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, URL: docs.google.com/spreadsheets/d/1PVhR1H-GFaojV_G7Khh0Vt3IwFL1RBHyLLzvXGIT-BQ/edit?gid=150703720#gid=150703720
+						27 container
+							28 text To enable screen reader support, press ⌘+Option+Z To learn about keyboard shortcuts, press ⌘slash
+							29 container Content
+								30 HTML content Share Dialog, URL: docs.google.com/drivesharing/dialog/share?id=1PVhR1H-GFaojV_G7Khh0Vt3IwFL1RBHyLLzvXGIT-BQ&resourcekey=%5B%221PVhR1H-GFaojV_G7Khh0Vt3IwFL1RBHyLLzvXGIT-BQ%22%5D&themeColor=2&themeMode=1&foreignService=ritz&gaiaService=wise&shareService=ritz&command=settings&additionalExperimentIds=121172907%2C103276176&additionalExperimentIds=121172907%2C103276176&subapp=10&popupWindowsEnabled=true&shareUiType=default&hl=en&authuser=0&rand=1794087311218&locationHint=unknown&triggerInstantMs=1794087311218&origin=https%3A%2F%2Fdocs.google.com&notpif=false
+									31 container
+										32 container Share "Boldstone Wall Sculptures — Pinterest Retail Feed"
+											33 container
+												34 heading Share "Boldstone Wall Sculptures — Pinterest Retail Feed", Value: 2
+													35 text Share "Boldstone Wall Sculptures — Pinterest Retail Feed"
+												36 pop-up button Support
+												37 button Settings
+												38 container Share "Boldstone Wall Sculptures — Pinterest Retail Feed"
+													39 container
+														40 container
+															41 text Add people, groups, spaces, and calendar events
+															42 table
+																43 combo box (settable) Add people, groups, spaces, and calendar events
+													44 heading People with access, Value: 3
+														45 text People with access
+													46 menu List of people this item is shared with. There is 1 person or group in the list., Secondary Actions: Cancel
+														47 Sally Price (you) Sally Price (you). info@boldstone.co.uk. Owner.
+															48 image Sally Price (you)
+															49 container
+																50 container Sally Price (you).
+																	51 text Sally Price (you)
+																52 container info@boldstone.co.uk. 
+																	53 text info@boldstone.co.uk
+															54 pop-up button (disabled) Owner.
+													55 heading General access, Value: 3
+														56 text General access
+													57 container
+														58 pop-up button Anyone with the link change general access
+														59 text Anyone on the internet with the link can view
+														60 pop-up button Viewer. change link permission
+													61 button Copy link
+													62 button Done
+										63 text Access updated
+			64 pop-up button Tab search
+			65 container
+				66 tab group
+					67 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					68 tab group  group ✅Claude – 1 Tab, •  Import | Microsoft Advertising – Expanded
+					69 tab (settable, boolean) Import | Microsoft Advertising – Part of group ✅Claude, Value: off
+					70 tab (settable, boolean) Variants - Manufacturer Center, Value: off
+					71 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					72 tab (settable, boolean) Boldstone Sculpture | Boldstone Wall Sculptures, Value: off
+					73 tab (settable, boolean) Portela Nova | A slower kind of stay, Value: off
+					74 tab (settable, boolean) Pinterest, Value: off
+					75 tab (settable, boolean) Get started with retail catalogs | Pinterest Business help, Value: off
+					76 tab (settable, boolean) [TEMPLATE - COPY] Pinterest Catalog Data source Google Sheet Template - Google Sheets, Value: off
+					77 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					78 tab (settable, boolean) All products - Merchant Center, Value: off
+					79 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					80 tab (selected, settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: on
+						81 button Close
+					82 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+			83 button New tab
+	84 close button
+	85 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	86 minimise button
+87 menu bar
+	88 Chrome
+	89 File
+	90 Edit
+	91 View
+	92 History
+	93 Bookmarks
+	94 Profiles
+	95 Tab
+	96 Window
+	97 Help
+
+The focused UI element is 58 pop-up button Anyone with the link change general access

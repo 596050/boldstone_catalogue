@@ -1,0 +1,143 @@
+Window: "Brands - Manufacturer Center", App: Google Chrome.
+0 standard window Brands - Manufacturer Center - Google Chrome – Tom, Secondary Actions: Raise, URL: manufacturers.google.com/mc/brands?a=5898308482&brandsState=%7B%222%22%3A%5B%7B%221%22%3A%22name%22%2C%222%22%3A1%7D%5D%7D
+	1 container Brands - Manufacturer Center - Google Chrome – Tom, URL: manufacturers.google.com/mc/brands?a=5898308482&brandsState=%7B%222%22%3A%5B%7B%221%22%3A%22name%22%2C%222%22%3A1%7D%5D%7D
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: manufacturers.google.com/mc/brands?a=5898308482&brandsState=%7B"2"%3A%5B%7B"1"%3A"name"%2C"2"%3A1%7D%5D%7D
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Brands - Manufacturer Center, URL: manufacturers.google.com/mc/brands?a=5898308482&brandsState=%7B%222%22%3A%5B%7B%221%22%3A%22name%22%2C%222%22%3A1%7D%5D%7D
+						26 container
+							27 container
+								28 button Open/close navigation menu
+								29 link Manufacturer Center home, Value: manufacturers.google.com/mc/overview?a=5898308482
+								30 heading Brands, in Manufacturer Center, Value: 1
+									31 text Brands
+								32 pop-up button Tools and settings
+								33 pop-up button Help menu
+								34 text 5898308482 (Boldstone)
+								35 text info@boldstone.co.uk
+								36 container
+									37 pop-up button Google account
+										38 image Google account (info@boldstone.co.uk)
+							39 outline
+								40 row Overview
+									41 text Overview
+								42 row Diagnostics
+									43 text Diagnostics
+								44 row (selected) Brands
+									45 text Brands
+								46 row Products
+									47 text Products
+									48 container
+										49 row Variants
+											50 text Variants
+										51 row Groups
+											52 text Groups
+										53 row Feeds
+											54 text Feeds
+							55 container
+								56 button Add a brand
+								57 button Show filtering options
+								58 table Brands table
+									59 row Select all rows Name Website URL Verification status
+										60 cell
+											61 Tick box Select all rows, Value: 0
+										62 column header
+											63 text Name
+										64 column header Website URL
+											65 text Website URL
+										66 column header Verification status
+											67 text Verification status
+									68 row Select row Boldstone https://boldstonesculpture.com/ Brand review pending
+										69 cell
+											70 Tick box Select row, Value: 0
+										71 cell
+											72 link Boldstone, Value: manufacturers.google.com/mc/brands/details?a=5898308482&id=301096324
+										73 cell
+											74 link https://boldstonesculpture.com/, Value: boldstonesculpture.com/
+										75 cell
+											76 text Brand review pending
+								77 container
+									78 link Privacy Policy, Value: google.com/policies/privacy/
+									79 text •
+									80 link Terms of Service, Value: manufacturers.google.com/manufacturers/tos.html
+									81 text •
+									82 link Program Policies, Opens in a new tab, Value: support.google.com/manufacturers/answer/6371582?hl=en-US
+			83 pop-up button Tab search
+			84 container
+				85 tab group
+					86 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					87 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					88 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					89 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					90 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					91 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					92 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					93 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					94 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					95 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					96 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					97 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					98 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					99 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					100 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					101 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					102 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					103 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					104 tab (settable, boolean) Meta Business Suite, Value: off
+					105 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					106 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					107 tab group  group ✅Claude – 1 Tab, •  Brands - Manufacturer Center – Expanded
+					108 tab (settable, boolean) Brands - Manufacturer Center – Part of group ✅Claude, Value: off
+					109 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					110 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					111 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					112 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.0 GB, Value: off
+					113 tab (settable, boolean) Boldstone · Review room, Value: off
+					114 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					115 tab (settable, boolean) Overview - Merchant Center, Value: off
+					116 tab (selected, settable, boolean) Brands - Manufacturer Center, Value: on
+			117 button New tab
+	118 close button
+	119 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	120 minimise button
+121 menu bar
+	122 Chrome
+	123 File
+	124 Edit
+	125 View
+	126 History
+	127 Bookmarks
+	128 Profiles
+	129 Tab
+	130 Window
+	131 Help
+
+The focused UI element is 25 HTML content Brands - Manufacturer Center, URL: manufacturers.google.com/mc/brands?a=5898308482&brandsState=%7B%222%22%3A%5B%7B%221%22%3A%22name%22%2C%222%22%3A1%7D%5D%7D

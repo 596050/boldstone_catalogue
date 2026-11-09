@@ -1,0 +1,168 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Navigation menu" [expanded]:
+    - img: menu
+  - link "Merchant Center home":
+    - /url: /mc/overview?a=5664655454&authuser=1
+    - img "Merchant Center home"
+  - dialog "Search":
+    - img: search
+    - textbox "Search Merchant Center"
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone Sculpture, 5664655454"':
+    - generic: Boldstone Sculpture
+    - generic: "5664655454"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- navigation:
+  - tree "Navigation":
+    - treeitem "Overview" [level=1]:
+      - img: dashboard
+      - generic: Overview
+    - treeitem "Notifications 7" [level=1]:
+      - img: notifications
+      - generic: Notifications
+      - generic: "7"
+    - treeitem "Products & store" [expanded] [level=1]:
+      - img: inventory_2
+      - generic: Products & store
+      - img: arrow_drop_down
+      - treeitem "Products" [level=2]:
+        - generic: Products
+      - treeitem "Shipping and returns" [level=2]:
+        - generic: Shipping and returns
+      - treeitem "Store quality" [level=2]:
+        - generic: Store quality
+    - treeitem "Creative content" [level=1]:
+      - img: brush_spark
+      - generic: Creative content
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Product Studio
+      - treeitem [disabled] [level=2]:
+        - generic: Video assets
+    - treeitem "Marketing" [level=1]:
+      - img: campaign
+      - generic: Marketing
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Ad campaigns
+      - treeitem [disabled] [level=2]:
+        - generic: Marketing methods
+    - treeitem "Analytics" [level=1]:
+      - img: timeline
+      - generic: Analytics
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Summary
+      - treeitem [disabled] [level=2]:
+        - generic: Products
+      - treeitem [disabled] [level=2]:
+        - generic: Online store
+    - treeitem "Settings" [expanded] [level=1]:
+      - img: settings
+      - generic: Settings
+      - img: arrow_drop_down
+      - treeitem "General" [level=2]:
+        - generic: General
+      - treeitem "Business info" [level=2]:
+        - generic: Business info
+      - treeitem "Data sources" [level=2]:
+        - generic: Data sources
+      - treeitem "Add-ons" [level=2]:
+        - generic: Add-ons
+      - treeitem "Access and services" [level=2]:
+        - generic: Access and services
+- heading "Data sources" [level=1]
+- tablist:
+  - tab "Product sources" [selected]:
+    - generic: Product sources
+  - tab "SFTP and Google Cloud Storage":
+    - generic: SFTP and Google Cloud Storage
+- main:
+  - heading "Found by Google" [level=2]
+  - button "More information about automatically found products or inventory":
+    - img "More information about automatically found products or inventory": help_outline
+  - heading "Google found additional products on your online store." [level=3]
+  - generic: Add these products to Merchant Center to control which products to show or advertise on Google. They won't be included in ads automatically.
+  - button "Add all products found":
+    - generic: Add all products found
+  - heading "Provided by you" [level=2]
+  - text: Your primary sources are used to add products to Merchant Center while your supplemental sources are used to add missing product details or update existing ones.
+  - link "Learn more about data sources, Opens in a new tab":
+    - /url: https://support.google.com/merchants/answer/11586438?hl=en-US
+    - text: Learn more about data sources
+    - text: ⁠
+    - img: open_in_new
+    - text: ‎
+  - tablist:
+    - tab "Primary sources" [selected]:
+      - generic: Primary sources
+    - tab "Supplemental sources":
+      - generic: Supplemental sources
+  - tabpanel "Primary sources":
+    - button "Add product source":
+      - generic: Add product source
+    - grid "Data sources provided by you":
+      - row "Name Source Products Last updated Countries Language Actions":
+        - columnheader "Name"
+        - columnheader "Source"
+        - columnheader "Products"
+        - columnheader "Last updated"
+        - columnheader "Countries"
+        - columnheader "Language"
+        - columnheader "Actions"
+      - 'row "Squarespace-1469f13b Feed label: US Merchant API 325 - Automatic English Actions"':
+        - 'gridcell "Squarespace-1469f13b Feed label: US"':
+          - link "Squarespace-1469f13b":
+            - /url: /mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=1
+          - generic: "Feed label: US"
+        - gridcell "Merchant API":
+          - generic: Merchant API
+        - gridcell "325":
+          - button "325"
+        - gridcell "-":
+          - generic: "-"
+        - gridcell "Automatic":
+          - generic: Automatic
+        - gridcell "English":
+          - generic: English
+        - gridcell "Actions":
+          - generic "Actions":
+            - button "Actions":
+              - img: more_vert
+  - tabpanel "Supplemental sources"
+- contentinfo:
+  - link "Privacy Policy":
+    - /url: http://www.google.com/policies/privacy/
+  - generic: ·
+  - link "Terms of Service":
+    - /url: https://support.google.com/merchants/answer/160173?hl=en-US
+  - generic: ·
+  - link "Program Policies":
+    - /url: https://support.google.com/merchants/topic/7286989?hl=en-US
+- iframe [active] [id="google-hats-survey"] [name="google-hats-survey"]:
+  - application "User Survey":
+    - dialog "aria-modal":
+      - img "survey logo"
+      - heading "Tell us about your experience of using Website Crawl & help us make it better" [level=2]
+      - button "No thanks" [active]:
+        - generic: No thanks
+      - button "Show question":
+        - generic: Show question
+      - text: By continuing, you agree Google uses your answers,
+      - button "account & system info"
+      - text: to improve services, per our
+      - link "Privacy, Opens in new tab":
+        - /url: https://myaccount.google.com/privacypolicy?hl=en
+        - text: Privacy
+      - text: "&"
+      - link "Terms, Opens in new tab":
+        - /url: https://policies.google.com/terms?hl=en
+        - text: Terms
+      - text: .
+      - button "Close user survey dialog":
+        - generic: close

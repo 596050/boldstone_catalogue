@@ -1,0 +1,537 @@
+Window: "Wall Sculpture & Sculptural Furnishings | Boldstone, UK", App: Google Chrome.
+0 standard window URL: caper-spinach-spcy.squarespace.com/config/pages/code-injection, Secondary Actions: Raise, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 953 MB - Google Chrome – Tom
+	1 container URL: caper-spinach-spcy.squarespace.com/config/pages/code-injection, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 953 MB - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: caper-spinach-spcy.squarespace.com/config/pages/code-injection, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Wall Sculpture & Sculptural Furnishings | Boldstone, UK, URL: caper-spinach-spcy.squarespace.com/config/pages/code-injection
+						27 container
+							28 container
+								29 button Pages
+								30 container
+									31 heading Code Injection, Value: 1
+										32 text Code Injection
+									33 text With custom code modifications, functionality or full compatibility with Squarespace is not guaranteed. 
+									34 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/articles/205815908
+									35 text HEADER
+									36 text Enter code that will be injected into the 'head' tag on every page of your site.
+									37 text entry area (settable)
+									38 container
+										39 container (showing 0-100 of 132 items)
+											40 text 1
+											41 text <!-- Consent defaults must precede every custom Google tag. -->
+											42 text 2
+											43 text < script >
+											44 text 3
+											45 text window . dataLayer = window . dataLayer ||  [];
+											46 text 4
+											47 text function gtag (){ dataLayer . push ( arguments );}
+											48 text 5
+											49 text gtag ( 'consent' ,  'default' , {
+											50 text 6
+											51 text analytics_storage :  'denied' ,  ad_storage :  'denied' ,
+											52 text 7
+											53 text ad_user_data :  'denied' ,  ad_personalization :  'denied' ,  wait_for_update :  500
+											54 text 8
+											55 text });
+											56 text 9
+											57 text ( function  () {
+											58 text 10
+											59 text var pixelStarted = false ;
+											60 text 11
+											61 text function clearTrackingCookies ( pattern ) {
+											62 text 12
+											63 text var names = document . cookie . split ( ';' ). map ( function  ( cookie ) {
+											64 text 13
+											65 text return cookie . trim (). split ( '=' )[ 0 ];
+											66 text 14
+											67 text     }). filter ( function  ( name ) {  return pattern . test ( name ); });
+											68 text 15
+											69 text var domains =  [ '' ,  '; domain=' + location . hostname ,  '; domain=.boldstonesculpture.com' ];
+											70 text 16
+											71 text names . forEach ( function  ( name ) {
+											72 text 17
+											73 text domains . forEach ( function  ( domain ) {
+											74 text 18
+											75 text document . cookie = name + '=; Max-Age=0; path=/' + domain + '; SameSite=Lax; Secure' ;
+											76 text 19
+											77 text       });
+											78 text 20
+											79 text     });
+											80 text 21
+											81 text   }
+											82 text 22
+											83 text function syncConsent () {
+											84 text 23
+											85 text var choices =  {};
+											86 text 24
+											87 text if  ( typeof window . getSquarespaceCookies === 'function' )  choices = window . getSquarespaceCookies ()  ||  {};
+											88 text 25
+											89 text var marketing = choices . marketing === 'accepted' ;
+											90 text 26
+											91 text gtag ( 'consent' ,  'update' , {
+											92 text 27
+											93 text analytics_storage :  choices . performance === 'accepted' ? 'granted'  :  'denied' ,
+											94 text 28
+											95 text ad_storage :  marketing ? 'granted'  :  'denied' ,
+											96 text 29
+											97 text ad_user_data :  marketing ? 'granted'  :  'denied' ,
+											98 text 30
+											99 text ad_personalization :  marketing ? 'granted'  :  'denied'
+											100 text 31
+											101 text     });
+											102 text 32
+											103 text if  ( marketing && ! pixelStarted ) {
+											104 text 33
+											105 text pixelStarted = true ;
+											106 text 34
+											107 text if  ( ! window . oaiq ) {
+											108 text 35
+											109 text var q = function  () {  q . q . push ( arguments ); };
+											110 text 36
+											111 text q . q =  [];
+											112 text 37
+											113 text window . oaiq = q ;
+											114 text 38
+											115 text var script = document . createElement ( 'script' );
+											116 text 39
+											117 text script . async = true ;
+											118 text 40
+											119 text script . src = 'https://bzrcdn.openai.com/sdk/oaiq.min.js' ;
+											120 text 41
+											121 text document . head . appendChild ( script );
+											122 text 42
+											123 text       }
+											124 text 43
+											125 text window . oaiq ( 'consent' ,  false );
+											126 text 44
+											127 text window . oaiq ( 'init' , { pixelId :  '7h2BZq6n1ZWdWkD53Ekse7' ,  debug :  false });
+											128 text 45
+											129 text     }
+											130 text 46
+											131 text if  ( typeof window . oaiq === 'function' )  window . oaiq ( 'consent' ,  marketing );
+											132 text 47
+											133 text if  ( choices . performance !== 'accepted' )  clearTrackingCookies ( /^_ga(?:_|$)|^_gid$|^_gat(?:_|$)|^ss_(?:cid|cpvisit|cvisit|cvr|cvt)$/ );
+											134 text 48
+											135 text if  ( ! marketing )  clearTrackingCookies ( /^_fbp$|^_fbc$|^_gcl_|^_gac_|^__oppref$|^__obref$/ );
+											136 text 49
+											137 text   }
+											138 text 50
+											139 text var previous = window . onCookieBannerInteraction ;
+											140 text 51
+											141 text window . onCookieBannerInteraction = function  () {
+											142 text 52
+											143 text try  {
+											144 text 53
+											145 text if  ( typeof previous === 'function' )  previous . apply ( this ,  arguments );
+											146 text 54
+											147 text     }  finally  {
+											148 text 55
+											149 text syncConsent ();
+											150 text 56
+											151 text     }
+											152 text 57
+											153 text   };
+											154 text 58
+											155 text syncConsent ();
+											156 text 59
+											157 text })();
+											158 text 60
+											159 text </ script >
+											160 text 61
+											161 text <!-- Google Merchant Center destination MC-N7MG7EXNSE; retained separately from native GA4. -->
+											162 text 62
+											163 text < script async src = "https://www.googletagmanager.com/gtag/js?id=GT-5TW3GF4B" ></ script >
+											164 text 63
+											165 text < script >
+											166 text 64
+											167 text gtag ( 'js' ,  new Date ());
+											168 text 65
+											169 text gtag ( 'config' ,  'GT-5TW3GF4B' );
+											170 text 66
+											171 text </ script >
+											172 text 67
+											173 text < meta name = "facebook-domain-verification" content = "gxywc7luibucjshnf3mnbnt0vhmerd" />
+											174 text 68
+											175 text < meta name = "p:domain_verify" content = "a6a638613cb0d5bbeb6fad79af00d588" />
+											176 text 69
+											177 text <!-- Meta Pixel remains configured once through Squarespace's native integration. -->
+											178 text 70
+											179 text <!-- Count only a server-confirmed success from a genuine enquiry form. -->
+											180 text 71
+											181 text < script >
+											182 text 72
+											183 text ( function  () {
+											184 text 73
+											185 text function trackContact ( event ) {
+											186 text 74
+											187 text if  ( ! event . isTrusted || ! event . target . closest )  return ;
+											188 text 75
+											189 text var link = event . target . closest ( 'a[href]' );
+											190 text 76
+											191 text if  ( ! link )  return ;
+											192 text 77
+											193 text var method = link . protocol === 'mailto:' ? 'email'  :  link . protocol === 'tel:' ? 'phone'  :  '' ;
+											194 text 78
+											195 text var choices = typeof window . getSquarespaceCookies === 'function' ? window . getSquarespaceCookies () : {};
+											196 text 79
+											197 text if  ( ! method || choices . performance !== 'accepted' || typeof window . gtag !== 'function' )  return ;
+											198 text 80
+											199 text window . gtag ( 'event' ,  'click_' + method , {
+											200 text 81
+											201 text send_to :  'G-DYE31M1PWM' ,  contact_method :  method ,  link_type :  method === 'email' ? 'mailto'  :  'tel'
+											202 text 82
+											203 text     });
+											204 text 83
+											205 text   }
+											206 text 84
+											207 text var enquiries =  {
+											208 text 85
+											209 text '66ad0bcbd10c9508150d0c04' :  'contact_enquiry' ,
+											210 text 86
+											211 text '6a40e3e9a631a0287c38ca47' :  'homepage_enquiry' ,
+											212 text 87
+											213 text '6a0d721c1d29724366006daf' :  'furnishings_enquiry'
+											214 text 88
+											215 text   };
+											216 text 90
+											217 text productEnquiries . forEach ( function  ( formId ) {  enquiries [ formId ]  = 'product_enquiry' ; });
+											218 text 91
+											219 text var armed =  {};
+											220 text 92
+											221 text function arm ( event ) {
+											222 text 93
+											223 text if  ( ! event . isTrusted || ! event . target . closest )  return ;
+											224 text 94
+											225 text var form = event . target . closest ( 'form' );
+											226 text 95
+											227 text if  ( ! form ||  ( event . type === 'click' && ! event . target . closest ( 'button[type="submit"], input[type="submit"]' )))  return ;
+											228 text 96
+											229 text var block = form . closest ( '.sqs-block-form' );
+											230 text 97
+											231 text if  ( ! block )  return ;
+											232 text 98
+											233 text var context = block . querySelector ( 'script.sqs-form-block-context' );
+											234 text 99
+											235 text if  ( ! context )  return ;
+									236 text FOOTER
+									237 text Enter code that will be injected into the template-defined footer on every page of your site.
+									238 text entry area (settable)
+									239 container
+									240 text LOCK PAGE
+									241 text Add custom code above the password field in your custom 
+									242 link lock screen, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/articles/205815178
+									243 text . We recommend using the 
+									244 link Lock Screen panel, Value: caper-spinach-spcy.squarespace.com/config/design/lock-screen
+									245 text  instead.
+									246 text entry area (settable)
+									247 container
+										248 container
+											249 text 1
+									250 text ORDER CONFIRMATION PAGE
+									251 text Enter code that will be injected into the footer of the order confirmation page after checkout. If you'd like to pass the Order ID, subtotal, grand total, or customer email to a third party service, use the tags below in your code:
+									252 content list
+										253 container
+											254 AXListMarker • 
+											255 text {orderId} : The order number of the confirmed order
+										256 container
+											257 AXListMarker • 
+											258 text {orderSubtotal} : The subtotal of the confirmed order
+										259 container
+											260 AXListMarker • 
+											261 text {orderSubtotalCents} : The subtotal of the confirmed order, in cents
+										262 container
+											263 AXListMarker • 
+											264 text {orderGrandTotal} : The grand total of the confirmed order
+										265 container
+											266 AXListMarker • 
+											267 text {orderGrandTotalCents} : The grand total of the confirmed order, in cents
+										268 container
+											269 AXListMarker • 
+											270 text {customerEmailAddress} : The customer's email address, as it was entered in the "Billing Info" section
+									271 text entry area (settable)
+									272 container
+										273 container
+											274 text 1
+									275 text ORDER STATUS PAGE
+									276 text Enter code that will be injected into the footer of the order status page after checkout and on later page views. If you'd like to pass the Order ID, subtotal, grand total, or customer email to a third party service, use the tags below in your code:
+									277 content list
+										278 container
+											279 AXListMarker • 
+											280 text {orderId} : The order number of the confirmed order
+										281 container
+											282 AXListMarker • 
+											283 text {orderSubtotal} : The subtotal of the confirmed order
+										284 container
+											285 AXListMarker • 
+											286 text {orderSubtotalCents} : The subtotal of the confirmed order, in cents
+										287 container
+											288 AXListMarker • 
+											289 text {orderGrandTotal} : The grand total of the confirmed order
+										290 container
+											291 AXListMarker • 
+											292 text {orderGrandTotalCents} : The grand total of the confirmed order, in cents
+										293 container
+											294 AXListMarker • 
+											295 text {customerEmailAddress} : The customer's email address, as it was entered in the "Billing Info" section
+									296 text entry area (settable)
+									297 container
+										298 container
+											299 text 1
+								300 container Site preview and editing tools
+									301 button Edit
+									302 container
+										303 text Sculpture Page  ·  Published
+									304 content list
+										305 button Toggle Site Styles editing
+										306 button Preview
+								307 button Close full screen preview
+								308 container boldstone
+									309 HTML content Wall Sculpture & Sculptural Furnishings | Boldstone, UK, URL: caper-spinach-spcy.squarespace.com/sculpture
+										310 container
+											311 container
+												312 button EDIT SITE HEADER
+												313 link Skip to Content, Value: caper-spinach-spcy.squarespace.com/sculpture#page
+												314 container
+													315 link boldstone, Value: caper-spinach-spcy.squarespace.com/
+													316 link One item in cart, Value: caper-spinach-spcy.squarespace.com/cart
+													317 button Open Menu
+												318 text EDIT HEADER
+											319 container
+												320 container
+													321 container Wall sculpture catalogue
+														322 heading WALL SCULPTURE INSPIRED BY NATURE, Value: 1
+															323 text WALL SCULPTURE INSPIRED BY NATURE
+														324 text Handmade by Sally Price for homes, gardens and design projects.
+														325 container
+															326 text Search sculptures
+															327 search text field (settable) Search wall sculptures, Placeholder: Try ammonite, leaf or white
+														328 container
+															329 text Explore a collection
+															330 pop-up button Wall sculpture collection, Value: All collections
+																331 (selected) All collections
+														332 text Showing 24 of 176 sculptures
+														333 link Acanthus Bloom - White ACANTHUS BLOOM - WHITE Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-flower-white
+														334 link Acanthus Frond (Left) - Pewter Finish ACANTHUS FROND (LEFT) - PEWTER FINISH Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-one-leaf-left-pewter
+														335 link Acanthus Frond (Left) - White ACANTHUS FROND (LEFT) - WHITE Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-one-leaf-left-white
+														336 link Acanthus Moon - Gold Finish ACANTHUS MOON - GOLD FINISH Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-and-moon-gold-leaf
+														337 link Acanthus Moon - White ACANTHUS MOON - WHITE Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-full-acanthus-and-moon-white
+														338 link Acanthus Twin Leaves - Bronze Finish ACANTHUS TWIN LEAVES - BRONZE FINISH Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-two-leaves-bronze
+														339 link Value: boldstonesculpture.com/buy/p/acanthus-two-leaves-pale-blue-and-white, Acanthus Twin Leaves - Pale Blue and White Finish ACANTHUS TWIN LEAVES - PALE BLUE AND WHITE FINISH Acanthus
+														340 link Acanthus Twin Leaves - Pewter Finish ACANTHUS TWIN LEAVES - PEWTER FINISH Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-two-leaves-pewter
+														341 link Acanthus Twin Leaves - White ACANTHUS TWIN LEAVES - WHITE Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-two-leaves-white
+														342 link Ammonite Grande I (Left) - White AMMONITE GRANDE I (LEFT) - WHITE Ammonite, Value: boldstonesculpture.com/buy/p/ammonite-large-1-left-panel-white
+														343 link Ammonite Grande II (Right) - White AMMONITE GRANDE II (RIGHT) - WHITE Ammonite, Value: boldstonesculpture.com/buy/p/ammonite-large-2-right-panel-white
+														344 link Ammonite Petite I (Left) - White AMMONITE PETITE I (LEFT) - WHITE Ammonite, Value: boldstonesculpture.com/buy/p/ammonite-small-1-left-panel-white
+														345 link Ammonite Petite II (Right) - White AMMONITE PETITE II (RIGHT) - WHITE Ammonite, Value: boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white
+														346 link Ancient Cup Ring - White ANCIENT CUP RING - WHITE Cup Ring and Spiral, Value: boldstonesculpture.com/buy/p/cup-ring-crs2-white-standard
+														347 link Ancient Spiral - White ANCIENT SPIRAL - WHITE Cup Ring and Spiral, Value: boldstonesculpture.com/buy/p/spiral-white-crs1
+														348 link Value: boldstonesculpture.com/buy/p/azure-blue-and-white-marbled-panel, Azure Marble-Effect Relief - Blue and White Finish AZURE MARBLE-EFFECT RELIEF - BLUE AND WHITE FINISH Wall Panel Azure Blue Marble
+														349 link Barbados Wave Relief BARBADOS WAVE RELIEF Barbados Wave, Value: boldstonesculpture.com/buy/p/barbados-wave
+														350 link Battersea Shellmoon I - White BATTERSEA SHELLMOON I - WHITE Shellmoon, Value: boldstonesculpture.com/buy/p/battersea-shellmoon-1-white
+														351 link Battersea Shellmoon I Fountain - White BATTERSEA SHELLMOON I FOUNTAIN - WHITE Shellmoon, Value: boldstonesculpture.com/buy/p/battersea-shellmoon-1-white-water-feature
+														352 link Battersea Shellmoon II Fountain - White BATTERSEA SHELLMOON II FOUNTAIN - WHITE Shellmoon, Value: boldstonesculpture.com/buy/p/battersea-shellmoon-2-white-water-feature
+														353 link Bone Spiral I (Narrow) - White BONE SPIRAL I (NARROW) - WHITE Bone Spiral, Value: boldstonesculpture.com/buy/p/bone-spiral-1-narrow-panel-white-bs1
+														354 link Bone Spiral II (Wide) - White BONE SPIRAL II (WIDE) - WHITE Bone Spiral, Value: boldstonesculpture.com/buy/p/bone-spiral-2-wide-panel-white-bs2
+														355 link Bone Water Spiral Relief - White BONE WATER SPIRAL RELIEF - WHITE Bone Water Spiral, Value: boldstonesculpture.com/buy/p/bone-water-spiral-white
+														356 link Botanical Form - White BOTANICAL FORM - WHITE Plant Form, Value: boldstonesculpture.com/buy/p/plant-form-white
+														357 button Show more sculptures
+												358 container
+													359 container
+														360 heading HANDMADE WALL SCULPTURE BY SALLY PRICE, Value: 2
+															361 text HANDMADE WALL SCULPTURE BY SALLY PRICE
+														362 text Boldstone is the studio of British sculptor Sally Price, established in 1998 near Bath in South West England. Discover handmade relief panels, 
+														363 link garden wall sculpture, Value: caper-spinach-spcy.squarespace.com/garden-sculpture
+														364 text  and 
+														365 link sculptural furnishings, Value: caper-spinach-spcy.squarespace.com/furnishings
+														366 text  for homes, gardens, hotels and commercial interiors. Choose a made-to-order design from the collection or 
+														367 link commission a bespoke sculpture, Value: caper-spinach-spcy.squarespace.com/commission
+														368 text . We work with private clients, 
+														369 link interior designers and architects, Value: caper-spinach-spcy.squarespace.com/collaborate
+														370 text , with UK and international delivery. 
+														371 link Meet Sally Price, Value: caper-spinach-spcy.squarespace.com/about
+														372 text  and explore our 
+														373 link materials, outdoor finishes and lead times, Value: caper-spinach-spcy.squarespace.com/faqs
+														374 text . Botanical forms, fossil spirals and the movement of water, brought to life through texture, light and shadow. Explore individual wall sculptures for interiors, gardens and outdoor spaces.
+												375 container
+													376 container
+														377 container
+															378 container
+																379 image An abstract watercolor painting with red, beige, and light blue irregular shapes outlined in black.
+															380 image
+														381 container
+															382 container
+																383 image Abstract pattern with orange, cream, teal, and black cracked design.
+															384 image
+														385 container
+															386 heading NEWSLETTER, Value: 2
+																387 text NEWSLETTER
+															388 text Sign up with your email address to receive interviews of industry experts, market trends and our latest innovations
+															389 email (settable) Email Address
+															390 button Sign Up
+												391 container
+													392 container
+														393 button View fullsize Close-up of a fossilized ammonite shell showing spiral ridges and textured surface.
+														394 text If you would like more information or have a project in mind please make contact with us by the form below or via our email address directly, given in the footer. If you would like to book a consultation, please use the appointment form at the bottom of this page.
+														395 container
+															396 container Name
+																397 text Name
+																398 container
+																	399 text First Name (required)
+																	400 text field (settable) First Name (required)
+																401 container
+																	402 text Last Name (required)
+																	403 text field (settable) Last Name (required)
+															404 container
+																405 text Email (required)
+															406 email (settable) Email (required)
+															407 container
+																408 Tick box Sign up for news and updates, Value: 0
+																409 text Sign up for news and updates
+															410 container What Services Are You Interested In? Please indicate the types of services with which you're primarily interested
+																411 container
+																	412 text What Services Are You Interested In? Please indicate the types of services with which you're primarily interested
+																413 container
+																	414 Tick box Furnishings Details and Prices, Value: 0
+																	415 text Furnishings Details and Prices
+																416 container
+																	417 Tick box Sculptures Details and Prices, Value: 0
+																	418 text Sculptures Details and Prices
+																419 container
+																	420 Tick box Estimates for Projects and Bespoke Pieces, Value: 0
+																	421 text Estimates for Projects and Bespoke Pieces
+																422 container
+																	423 Tick box Materials and Surface Effects. Including: Stone, Metal and Resins, Value: 0
+																	424 text Materials and Surface Effects. Including: Stone, Metal and Resins
+																425 container
+																	426 Tick box Project Management, Sourcing and Creative Consulting, Value: 0
+																	427 text Project Management, Sourcing and Creative Consulting
+															428 text What Is Your Estimated Budget For Our Services?
+															429 text Your estimated budget for our services will give us an indication of scale and how we can best provide advice
+															430 text field (settable) What Is Your Estimated Budget For Our Services?
+															431 container
+																432 text Message (required)
+															433 text Please describe the project and service/s required so we can give you the necessary details
+															434 text entry area (settable) Message (required)
+															435 text Date Of Consultation (Optional)
+															436 text If you have a preferred date for a consultation, please enter it here and we will try to accommodate
+															437 container
+																438 date picker Date Of Consultation (Optional)
+																	439 container
+																		440 stepper (settable, float) Day Date Of Consultation (Optional), Value: 0, Placeholder: dd
+																		441 text /
+																		442 stepper (settable, float) Month Date Of Consultation (Optional), Value: 0, Placeholder: mm
+																		443 text /
+																		444 stepper (settable, float) Year Date Of Consultation (Optional), Value: 0, Placeholder: yyyy
+																	445 pop-up button Show date picker Date Of Consultation (Optional)
+																446 image
+															447 text Website Or Social (Optional)
+															448 text Providing your website or other social link/s can help us provide better advice
+															449 text field (settable) Website Or Social (Optional)
+															450 text http://
+															451 button Submit
+														452 heading GET IN TOUCH, Value: 2
+															453 text GET IN TOUCH
+														454 text If you're interested in working with us, complete the form with a few details about your project. We'll review your message and get back to you within 48 hours.
+												455 text EDIT PAGE
+											456 container
+												457 button EDIT SITE FOOTER
+												458 container
+													459 container
+														460 link Privacy Policy, Value: caper-spinach-spcy.squarespace.com/privacy-policy
+														461 link Terms of Service, Value: caper-spinach-spcy.squarespace.com/terms-of-service
+														462 link Terms and Conditions, Value: caper-spinach-spcy.squarespace.com/terms-and-conditions
+														463 link Partnership Terms, Value: caper-spinach-spcy.squarespace.com/partnership-terms
+													464 container
+														465 link Copyright and Design Right, Value: caper-spinach-spcy.squarespace.com/copyright-and-design-right
+														466 link Shipping Policy , Value: caper-spinach-spcy.squarespace.com/shipping-policy
+														467 link Return and Refund Policy, Value: caper-spinach-spcy.squarespace.com/return-and-refund-policy
+													468 container
+														469 text Contact Us Directly:
+														470 link info@, Value: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+														471 link boldstonesculpture, Value: mailto:info@boldstonesculpture.com?cc=info%40boldstone.co.uk&subject=Inquiry%3A%20Boldstone%20Sculpture
+														472 link .com, Value: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+														473 link Frequently Asked Questions, Value: caper-spinach-spcy.squarespace.com/faqs
+														474 link About Sally Price, Value: caper-spinach-spcy.squarespace.com/about
+														475 link Garden Sculpture, Value: caper-spinach-spcy.squarespace.com/garden-sculpture
+														476 link Bespoke Commissions, Value: caper-spinach-spcy.squarespace.com/commission
+												477 text EDIT FOOTER
+											478 container Manage previously selected cookie options
+												479 button Cookie Preferences
+			480 pop-up button Tab search
+			481 container
+				482 tab group
+					483 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					484 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					485 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					486 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					487 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					488 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					489 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					490 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					491 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					492 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					493 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					494 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					495 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					496 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					497 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					498 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					499 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					500 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					501 tab (settable, boolean) Meta Business Suite, Value: off
+					502 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					503 tab (settable, boolean) Meta Business Suite, Value: off
+					504 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					505 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					506 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					507 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					508 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					509 tab (selected, settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.2 GB, Value: on
+					510 tab (settable, boolean) Boldstone · Review room, Value: off
+			511 button New tab
+	512 close button
+	513 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	514 minimise button
+515 menu bar
+	516 Chrome
+	517 File
+	518 Edit
+	519 View
+	520 History
+	521 Bookmarks
+	522 Profiles
+	523 Tab
+	524 Window
+	525 Help
+
+The focused UI element is 26 HTML content Wall Sculpture & Sculptural Furnishings | Boldstone, UK, URL: caper-spinach-spcy.squarespace.com/config/pages/code-injection

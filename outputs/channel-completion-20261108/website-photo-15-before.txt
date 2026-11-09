@@ -1,0 +1,364 @@
+Window: "Wall Sculpture & Sculptural Furnishings | Boldstone, UK", App: Google Chrome.
+0 standard window URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Secondary Actions: Raise, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.8 GB - Google Chrome – Tom
+	1 container URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.8 GB - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 1
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Wall Sculpture & Sculptural Furnishings | Boldstone, UK, URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical
+						27 container
+							28 container Website pages and features
+							29 container
+								30 container
+									31 button CANCEL
+									32 heading Edit Lunar Water Catcher - White, Value: 1
+										33 text Edit Lunar Water Catcher - White
+									34 text Physical Product
+									35 content list
+										36 button Delete
+										37 button Duplicate
+										38 button (disabled) SAVE
+								39 container
+									40 container Product sections
+										41 button Details
+										42 button Forms
+										43 button Images
+										44 button Inventory
+										45 button Payment options
+										46 text New
+										47 button Fulfillment
+										48 button Organization
+										49 button Taxes
+										50 button Selling Tools
+										51 button Marketing
+									52 container
+										53 heading Details, Value: 2
+											54 text Details
+										55 text Product name
+										56 text field (settable) Product name, Value: Lunar Water Catcher - White, Placeholder: Eucalyptus Face Scrub
+										57 text Description
+										58 text entry area (settable) A rounded lunar form suggests the idea of catching and holding water. The relief brings together a clear outline and a softer play of curves, highlights and shadows.
+A contemplative piece with the mood of a still pool under an open sky.
+The white finish keeps the focus on the form and its changing shadows.
+•Brand: Boldstone
+•Product type: Sculptural relief
+•Model: Lunar Water Catcher - White (MWTR-1-50)
+•Colour / appearance: White stone finish
+•Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+•Material: Made from a gypsum-based material.
+•Dimensions: 51 cm high × 48 cm wide; 5–7 cm side depth
+•Weight: Approximately 10–12 kg
+•Use: Suitable for outdoor use and indoor display.
+•Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+•Availability: Ready to dispatch
+•Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+•Dispatch time: Within 10 working days. Delivery transit time is additional.
+•Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+											59 text A rounded lunar form suggests the idea of catching and holding water. The relief brings together a clear outline and a softer play of curves, highlights and shadows.
+											60 text A contemplative piece with the mood of a still pool under an open sky.
+											61 text The white finish keeps the focus on the form and its changing shadows.
+											62 content list
+												63 container
+													64 text • Brand:  Boldstone
+												65 container
+													66 text • Product type:  Sculptural relief
+												67 container
+													68 text • Model:  Lunar Water Catcher - White (MWTR-1-50)
+												69 container
+													70 text • Colour / appearance:  White stone finish
+												71 container
+													72 text • Quantity supplied:  1 individually described sculpture or panel. Other pieces and room props shown are not included.
+												73 container
+													74 text • Material:  Made from a gypsum-based material.
+												75 container
+													76 text • Dimensions:  51 cm high × 48 cm wide; 5–7 cm side depth
+												77 container
+													78 text • Weight:  Approximately 10–12 kg
+												79 container
+													80 text • Use:  Suitable for outdoor use and indoor display.
+												81 container
+													82 text • Fixings:  Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+												83 container
+													84 text • Availability:  Ready to dispatch
+												85 container
+													86 text • Custom design:  All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+												87 container
+													88 text • Dispatch time:  Within 10 working days. Delivery transit time is additional.
+												89 container
+													90 text • Delivery:  Delivery is quoted separately. Please contact us for UK and international delivery options.
+										91 text Button Text
+										92 text field (settable) Button Text, Placeholder: Add to Cart
+									93 container
+										94 heading Forms, Value: 2
+											95 text Forms
+										96 text Add to Cart Form
+										97 text Collect extra information from shoppers when they add this item to their cart. Form responses are displayed in your order details.
+										98 button ADD
+									99 container
+										100 heading Images, Value: 2
+											101 text Images
+										102 sortable White Moonwater Catcher panel with a deep circular bowl casting a shadow on a white wall. 50% from left, 50% from top Featured image pin open image action menu
+											103 image White Moonwater Catcher panel with a deep circular bowl casting a shadow on a white wall.
+											104 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											105 button Featured image pin
+											106 button open image action menu
+										107 sortable Lunar Water Catcher - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											108 image Lunar Water Catcher - White - in situ
+											109 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											110 button Featured image pin
+											111 button open image action menu
+										112 sortable Lunar Water Catcher - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											113 image Lunar Water Catcher - White - in situ
+											114 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											115 button Featured image pin
+											116 button open image action menu
+										117 sortable Lunar Water Catcher - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											118 image Lunar Water Catcher - White - in situ
+											119 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											120 button Featured image pin
+											121 button open image action menu
+										122 sortable Lunar Water Catcher - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											123 image Lunar Water Catcher - White - in situ
+											124 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											125 button Featured image pin
+											126 button open image action menu
+										127 sortable Lunar Water Catcher - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											128 image Lunar Water Catcher - White - in situ
+											129 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											130 button Featured image pin
+											131 button open image action menu
+										132 sortable Lunar Water Catcher - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											133 image Lunar Water Catcher - White - in situ
+											134 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											135 button Featured image pin
+											136 button open image action menu
+										137 sortable Lunar Water Catcher - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											138 image Lunar Water Catcher - White - in situ
+											139 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											140 button Featured image pin
+											141 button open image action menu
+										142 sortable Lunar Water Catcher - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											143 image Lunar Water Catcher - White - in situ
+											144 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											145 button Featured image pin
+											146 button open image action menu
+										147 sortable Lunar Water Catcher - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											148 image Lunar Water Catcher - White - in situ
+											149 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											150 button Featured image pin
+											151 button open image action menu
+										152 sortable Lunar Water Catcher - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											153 image Lunar Water Catcher - White - in situ
+											154 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											155 button Featured image pin
+											156 button open image action menu
+										157 sortable Lunar Water Catcher - White - in situ 50% from left, 50% from top Featured image pin open image action menu
+											158 image Lunar Water Catcher - White - in situ
+											159 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+											160 button Featured image pin
+											161 button open image action menu
+										162 button
+										163 button Change featured image
+										164 text Featured image
+										165 button open image action menu
+									166 container
+										167 heading Inventory, Value: 2
+											168 text Inventory
+										169 content list
+											170 container
+												171 text Price
+												172 text On sale
+												173 Tick box On sale, Value: 0
+												174 text £
+												175 stepper (settable, float) Price, Value: 73.68, Placeholder: 0.00
+												176 button increment
+												177 button decrement
+										178 text Stock
+										179 container
+											180 text Unlimited
+											181 Tick box Unlimited, Value: 1
+										182 text ∞
+										183 stepper (disabled) Stock, Value: 0, Secondary Actions: Increment, Decrement
+										184 button (disabled) increment
+										185 button (disabled) decrement
+										186 text SKU
+										187 container More info
+											188 image
+										189 text field (settable) SKU, Value: MWTR-1-50, Placeholder: Add SKU
+										190 text GTIN
+										191 container More info
+											192 image
+										193 text field (settable) GTIN, Placeholder: Add GTIN, UPC, EAN, JAN, ISBN
+										194 text MPN
+										195 container More info
+											196 image
+										197 text field (settable) MPN, Placeholder: Add MPN
+										198 text Variants
+										199 text Sell different versions of the same product. For example, a shirt that comes in multiple colors or sizes.
+										200 button ADD
+										201 text Quantity limits New
+										202 Tick box enable or disable the showing of the Number input for Quantity limits, Value: 0
+										203 text Set the maximum quantity a customer can buy in a single order.
+									204 container
+										205 heading Payment options, Value: 2
+											206 text Payment options
+										207 container Subscriptions
+											208 text Subscriptions
+											209 text Charge customers on a recurring basis and offer discounts on repeat purchases. Subscriptions aren't available for products with add-ons.
+											210 button ADD
+									211 container
+										212 heading Fulfillment, Value: 2
+											213 text Fulfillment
+										214 text Fulfillment profiles
+										215 text Allow buyers to select how they'd like to receive this product. For example, Local Pickup or Ground Shipping.
+										216 combo box (settable) Fulfillment profiles, Value: Default
+											217 text Default
+											218 image
+										219 button SET UP
+										220 text Weight and dimensions
+										221 text Enabled
+										222 text Supports automated or weight-based shipping rates.
+										223 text 0 × 0 × 0 in · 29.11 lb
+										224 button Edit weight and dimensions
+										225 button Delete weight and dimensions
+									226 container
+										227 heading Organization, Value: 2
+											228 text Organization
+										229 text Visibility
+										230 combo box (settable) Visibility, Value: Public
+											231 text Public
+											232 image
+										233 text Tags
+										234 container
+											235 text Add keywords to connect related products. Tags can be used to create filters on your store page.
+											236 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/articles/231746347-Styling-store-pages#h_01JGPPMPYWYDKVHP17DKR1HA4F
+										237 combo box (settable) Tags, Placeholder: Add
+										238 text Wall Sculptures
+										239 button Remove Wall Sculptures
+										240 text Moonwater catcher
+										241 button Remove Moonwater catcher
+										242 text Catalogue 2026
+										243 button Remove Catalogue 2026
+										244 text BSI-70C7029C1DB1
+										245 button Remove BSI-70C7029C1DB1
+										246 container Categories
+											247 text Categories
+											248 text Create categories to bucket products. Categories will appear in the store's navigation.
+											249 container
+												250 text Sculpture
+												251 button Edit categories
+												252 button Remove all categories
+									253 container
+										254 heading Taxes, Value: 2
+											255 text Taxes
+										256 container Product Specific Tax Code
+											257 text Product Specific Tax Code
+											258 container
+												259 text Product specific tax codes are used to calculate correct tax rates during checkout. 
+												260 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/sections/200825098
+											261 container
+												262 container stripe-connect-ui-layer-stripe-connect-product-tax-code-selector
+									263 container
+										264 heading Selling Tools, Value: 2
+											265 text Selling Tools
+										266 text Add-ons
+										267 container
+											268 text Upsell customers with product add-ons directly on the product page. Products with subscriptions or more than one variant option are not available as add-ons. 
+											269 link Learn more, Value: support.squarespace.com/hc/articles/21149527560205
+										270 button ADD
+										271 text Featured Product
+										272 text Featured Products can be displayed in Summary Blocks on your page.
+										273 container
+											274 Tick box Featured Product, Value: 0
+										275 text Related Products
+										276 text Showcase similar items on your Product Pages.
+										277 button Set up Related Products
+										278 text Product Reviews
+										279 container
+											280 text Show customer reviews directly on all product pages. Manage this feature in 
+											281 button Selling
+											282 text .
+										283 button Set up product reviews
+									284 container
+										285 heading Marketing, Value: 2
+											286 text Marketing
+										287 text SEO and URL Lunar Water Catcher - White — boldstone https://boldstonesculpture.com/buy/p/moon-water-catcher-white-mwc1 This description will automatically be generated by search engines. You can add your own description by editing.
+										288 button EDIT
+			289 pop-up button Tab search
+			290 container
+				291 tab group
+					292 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					293 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					294 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					295 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					296 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					297 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					298 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					299 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					300 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					301 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					302 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					303 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					304 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					305 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					306 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					307 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					308 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					309 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					310 tab (settable, boolean) Meta Business Suite, Value: off
+					311 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					312 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					313 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					314 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					315 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					316 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					317 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					318 tab (selected, settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.8 GB, Value: on
+					319 tab (settable, boolean) Boldstone · Review room, Value: off
+					320 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					321 tab (settable, boolean) google-wall-sculptures-supplement.tsv details - Merchant Center, Value: off
+			322 button New tab
+	323 close button
+	324 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	325 minimise button
+326 menu bar
+	327 Chrome
+	328 File
+	329 Edit
+	330 View
+	331 History
+	332 Bookmarks
+	333 Profiles
+	334 Tab
+	335 Window
+	336 Help
+
+The focused UI element is 337 container

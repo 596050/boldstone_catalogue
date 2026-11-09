@@ -1,0 +1,725 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089/p/681061, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089/p/681061
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089/p/681061, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089/p/681061
+						27 container
+							28 container
+								29 link manage.brandboom.com/
+								30 link manage.brandboom.com/products/s/111089
+								31 link manage.brandboom.com/marketplace/s/111089
+								32 link manage.brandboom.com/orders/s/111089
+								33 link
+									34 image
+								35 image
+							36 container
+								37 button Save
+								38 button Share
+								39 button (disabled) PDF, Help: PDF download is only available for your active shared presentation
+								40 link Exit Presentation
+									41 text Exit Presentation
+								42 container
+									43 link
+										44 image
+									45 search text field (settable) Search Products
+									46 link
+								47 button All
+									48 container
+										49 Tick box 0
+									50 text All
+								51 button At-Once
+								52 button
+								53 container
+									54 text 176  /  176
+								55 container
+									56 pop-up button
+										57 image
+									58 container
+										59 radio button 0
+										60 image
+									61 container
+										62 radio button 1
+										63 image
+									64 container
+										65 radio button 0
+										66 image
+							67 container
+								68 container
+									69 container
+										70 Unlabelled image /000347063663C852_M.jpg
+										71 text Boldstone Wave and Moonshadow II - White Wall sculpture
+										72 text BOLD-B6EC1EDD319F WHITE MARBLE STONE FINISH
+										73 container
+											74 text 109.25  GBP
+									75 container
+										76 Unlabelled image /000347063570B5C6_M.jpg
+										77 text Boldstone Wave and Moonshadow I - White Wall sculpture
+										78 text BOLD-A57A49000891 WHITE MARBLE STONE FINISH
+										79 container
+											80 text 109.25  GBP
+									81 container
+										82 Unlabelled image /000347063470E291_M.jpg
+										83 text Boldstone Azure Marble-Effect Relief - Blue and White Finish Wall sculpture
+										84 text EBAY-188703253522 HAND-MARBLED BLUE, WHITE AND CREAM RELIEF
+										85 container
+											86 text 122.13  GBP
+									87 container
+										88 Unlabelled image /00034706345D3621_M.jpg
+										89 text Boldstone Marbled Circle - Turquoise Finish Wall sculpture
+										90 text SQ1000002 TURQUOISE AND DARK MARBLING
+										91 container
+											92 text 227.63  GBP
+									93 container
+										94 Unlabelled image /0003470634295D7D_M.jpg
+										95 text Boldstone Marbled Circle - Terracotta Finish Wall sculpture
+										96 text SQ1000066 TERRACOTTA, RUST AND CREAM MARBLING
+										97 container
+											98 text 227.63  GBP
+									99 container
+										100 Unlabelled image /00034706338921B6_M.jpg
+										101 text Boldstone Marbled Circle - Pale Blue Finish Wall sculpture
+										102 text BOLD-CCB6CA396E9C PALE BLUE MARBLING
+										103 container
+											104 text 227.63  GBP
+									105 container
+										106 Unlabelled image /000347063367F213_M.jpg
+										107 text Boldstone Marbled Circle - Green and White Finish Wall sculpture
+										108 text SQ1000026 GREEN AND WHITE MARBLING
+										109 container
+											110 text 227.63  GBP
+									111 container
+										112 Unlabelled image /000347063351FC20_M.jpg
+										113 text Boldstone World Colours Circle - Brass Finish Wall sculpture
+										114 text BOLD-1B20DCA291BB MULTICOLOURED MARBLED FINISH
+										115 container
+											116 text 227.63  GBP
+									117 container
+										118 Unlabelled image /000347063342D8B5_M.jpg
+										119 text Boldstone Marbled Circle - Azure Blue and White Finish Wall sculpture
+										120 text BOLD-22DA74B2107E AZURE BLUE AND WHITE MARBLING
+										121 container
+											122 text 227.63  GBP
+									123 container
+										124 Unlabelled image /000347063309FD87_M.jpg
+										125 text Boldstone Textured Earth - Rust and Blue Patina Finish Wall sculpture
+										126 text BOLD-9AF26B8CF780 RUST-BROWN AND BLUE-GREY PATINA EFFECTS
+										127 container
+											128 text 472.84  GBP
+									129 container
+										130 Unlabelled image /0003470632793458_M.jpg
+										131 text Boldstone Textured Earth - Blue, Brown and Rust Finish Wall sculpture
+										132 text BOLD-207102CFD25C BLUE, BROWN AND RUST EFFECTS
+										133 container
+											134 text 334.93  GBP
+									135 container
+										136 Unlabelled image /0003470632446989_M.jpg
+										137 text Boldstone Strata Relief - White Wall sculpture
+										138 text BOLD-7B6291B7C7F9 WHITE MARBLE STONE FINISH
+										139 container
+											140 text 64.49  GBP
+									141 container
+										142 Unlabelled image /0003470631969D0B_M.jpg
+										143 text Boldstone Strata Relief - Verdigris Finish Wall sculpture
+										144 text SQ1851097 HAND-APPLIED FAUX VERDIGRIS
+										145 container
+											146 text 88.69  GBP
+									147 container
+										148 Unlabelled image /000347063128276A_M.jpg
+										149 text Boldstone Strata Relief - Blue Wash Verdigris Finish Wall sculpture
+										150 text BOLD-21E953F1D523 BLUE-WASH FAUX VERDIGRIS FINISH
+										151 container
+											152 text 88.69  GBP
+									153 container
+										154 Unlabelled image /00034706306370F1_M.jpg
+										155 text Boldstone Spiral Moon Relief - White Wall sculpture
+										156 text SM-1-55.55 WHITE MARBLE STONE FINISH
+										157 container
+											158 text 171.79  GBP
+									159 container
+										160 Unlabelled image /00034706301E44BD_M.jpg
+										161 text Boldstone Quarter Moon Relief - White Wall sculpture
+										162 text BOLD-8EA49F5DDB1C WHITE MARBLE STONE FINISH
+										163 container
+											164 text 165.02  GBP
+									165 container
+										166 Unlabelled image /00034706300C2048_M.jpg
+										167 text Boldstone Spiralfish Wave and Tide II - White Wall sculpture
+										168 text BOLD-A272AC152172 WHITE MARBLE STONE FINISH
+										169 container
+											170 text 171.79  GBP
+									171 container
+										172 Unlabelled image /0003470629922BDF_M.jpg
+										173 text Boldstone Spiralfish Wave and Tide II - Bronze Finish Wall sculpture
+										174 text BOLD-54F871DCF4CA BRONZE-EFFECT FINISH
+										175 container
+											176 text 223.33  GBP
+									177 container
+										178 Unlabelled image /0003470629240DB7_M.jpg
+										179 text Boldstone Spiralfish Wave and Tide I - White Wall sculpture
+										180 text BOLD-B19E0B8602C1 WHITE MARBLE STONE FINISH
+										181 container
+											182 text 171.79  GBP
+									183 container
+										184 Unlabelled image /00034706290D5EB8_M.jpg
+										185 text Boldstone Spiralfish Wave and Tide I - Bronze Finish Wall sculpture
+										186 text BOLD-718DFFB7EC5D BRONZE-EFFECT FINISH
+										187 container
+											188 text 223.33  GBP
+									189 container
+										190 Unlabelled image /000347062896D1F4_M.jpg
+										191 text Boldstone Spice Texture II - White Wall sculpture
+										192 text BOLD-828E89E3B7DC PALE STONE FINISH
+										193 container
+											194 text 64.49  GBP
+									195 container
+										196 Unlabelled image /00034706287D6244_M.jpg
+										197 text Boldstone Spice Texture I - White Wall sculpture
+										198 text BOLD-199FCF3A2B42 PALE STONE FINISH
+										199 container
+											200 text 64.49  GBP
+									201 container
+										202 Unlabelled image /0003470628497A7C_M.jpg
+										203 text Boldstone Soundwave Rhythm - White Wall sculpture
+										204 text BOLD-21DCD11AD8C6 TEXTURED WHITE FINISH
+										205 container
+											206 text 216.14  GBP
+									207 container
+										208 Unlabelled image /00034706281ED3E8_M.jpg
+										209 text Boldstone Islington Shellmoon Fountain - White Sculptural water-feature panel
+										210 text BOLD-22B6E4FB3DD8 WHITE MARBLE STONE FINISH
+										211 container
+											212 text 173.98  GBP
+									213 container
+										214 Unlabelled image /0003470627491E9C_M.jpg
+										215 text Boldstone Islington Shellmoon Relief - White Wall sculpture
+										216 text BOLD-406CAEC365A4 WHITE MARBLE STONE FINISH
+										217 container
+											218 text 173.98  GBP
+									219 container
+										220 Unlabelled image /00034706267DB5EF_M.jpg
+										221 text Boldstone Battersea Shellmoon II Fountain - White Sculptural water-feature panel
+										222 text BOLD-1B70A9FB1B26 WHITE STONE-EFFECT FINISH
+										223 container
+											224 text 173.98  GBP
+									225 container
+										226 Unlabelled image /00034706266FCBF3_M.jpg
+										227 text Boldstone Battersea Shellmoon I Fountain - White Sculptural water-feature panel
+										228 text BOLD-22E4E4F99696 WHITE MARBLE STONE FINISH
+										229 container
+											230 text 173.98  GBP
+									231 container
+										232 Unlabelled image /00034706258EF687_M.jpg
+										233 text Boldstone Battersea Shellmoon I - White Wall sculpture
+										234 text BOLD-C0F5BF012CFC WHITE MARBLE STONE FINISH
+										235 container
+											236 text 173.98  GBP
+									237 container
+										238 Unlabelled image /000347062509A76F_M.jpg
+										239 text Boldstone Smooth Sand Ripple Relief - White Wall sculpture
+										240 text SSR-1-100.50 WHITE MARBLE STONE FINISH AND SMOOTH RIPPLED RELIEF
+										241 container
+											242 text 222.50  GBP
+									243 container
+										244 Unlabelled image /0003470624631876_M.jpg
+										245 text Boldstone Fossil Sand Ripple Relief - White Wall sculpture
+										246 text FSR-1-50.100 WHITE MARBLE STONE FINISH AND SAND-TEXTURED RELIEF
+										247 container
+											248 text 222.50  GBP
+									249 container
+										250 image /00034706237BCB14_M.avif
+										251 text Boldstone Patina Panel - Rust and Verdigris Finish Wall sculpture
+										252 text EBAY-188590547084 RUST AND HAND-PAINTED FAUX VERDIGRIS
+										253 container
+											254 text 104.62  GBP
+									255 container
+										256 image /000347062353B0C2_M.avif
+										257 text Boldstone Riyadh Shellmoon Relief Wall sculpture
+										258 text BOLD-3EB5B16E33CC PALE TEXTURED FINISH
+										259 container
+											260 text 1,008.28  GBP
+									261 container
+										262 image /000347062346FCFE_M.avif
+										263 text Boldstone Riyadh Moon - White Wall sculpture
+										264 text BOLD-1AD9185411D8 OFF-WHITE TEXTURED FINISH
+										265 container
+											266 text 1,008.28  GBP
+									267 container
+										268 image /000347062293B4C1_M.avif
+										269 text Boldstone Riyadh Dune Ripple - White Wall sculpture
+										270 text BOLD-B9DA00108196 WHITE TEXTURED FINISH
+										271 container
+											272 text 1,008.28  GBP
+									273 container
+										274 image /0003470622746DE1_M.avif
+										275 text Boldstone Raked Spiral III - White Wall sculpture
+										276 text BOLD-04C3A2CA2BE1 WHITE MARBLE STONE FINISH
+										277 container
+											278 text 64.49  GBP
+									279 container
+										280 image /00034706223F903D_M.avif
+										281 text Boldstone Raked Spiral III - Beige Finish Wall sculpture
+										282 text BOLD-6AA659B1469F BEIGE/SAND TEXTURED SURFACE
+										283 container
+											284 text 74.17  GBP
+									285 container
+										286 image /00034706219A3396_M.avif
+										287 text Boldstone Raked Spiral II - White Wall sculpture
+										288 text BOLD-2AFD94C9F459 WHITE MARBLE STONE FINISH
+										289 container
+											290 text 64.49  GBP
+									291 container
+										292 image /00034706211FB5E4_M.avif
+										293 text Boldstone Raked Spiral I - White Wall sculpture
+										294 text BOLD-FE973AD4748E WHITE MARBLE STONE FINISH
+										295 container
+											296 text 64.49  GBP
+									297 container
+										298 image /0003470620897AF4_M.avif
+										299 text Boldstone Botanical Form - White Wall sculpture
+										300 text BOLD-1CDB2BAE6105 WHITE STONE-EFFECT FINISH
+										301 container
+											302 text 64.49  GBP
+									303 container
+										304 image /00034706204B78C9_M.avif
+										305 text Boldstone Sculpted Curves - Textured Gold Finish Wall sculpture
+										306 text BOLD-2418C8B43415 IMITATION GOLD LEAF ON A ROUGH-TEXTURED SURFACE
+										307 container
+											308 text 67.99  GBP
+									309 container
+										310 image /0003470620201E04_M.avif
+										311 text Boldstone Sculpted Curves - Beige Finish Wall sculpture
+										312 text BOLD-E5A179105EA8 BEIGE ROUGH-TEXTURED FINISH
+										313 container
+											314 text 61.29  GBP
+									315 container
+										316 image /000347061949E7C9_M.avif
+										317 text Boldstone Lunar Wave - White Wall sculpture
+										318 text MW-1-74.35 WHITE MARBLE STONE FINISH
+										319 container
+											320 text 178.45  GBP
+									321 container
+										322 image /0003470618658F3A_M.avif
+										323 text Boldstone Lunar Water Catcher - White Sculptural relief
+										324 text MWTR-1-50 WHITE STONE FINISH
+										325 container
+											326 text 138.80  GBP
+									327 container
+										328 image /0003470618273675_M.avif
+										329 text Boldstone Lunar Spiral II - White Wall sculpture
+										330 text MS-1-70.50 WHITE MARBLE STONE FINISH
+										331 container
+											332 text 189.68  GBP
+									333 container
+										334 image /0003470617967398_M.avif
+										335 text Boldstone Lunar Spiral III - White Wall sculpture
+										336 text BOLD-3EC38D9CD913 WHITE MARBLE STONE FINISH
+										337 container
+											338 text 173.98  GBP
+									339 container
+										340 image /00034706171CC1E5_M.avif
+										341 text Boldstone Lunar Spiral I - White Wall sculpture
+										342 text BOLD-1A7497B69626 WHITE MARBLE STONE FINISH
+										343 container
+											344 text 173.98  GBP
+									345 container
+										346 image /00034706169195C3_M.avif
+										347 text Boldstone Lava Moonshell Corner Curve - White Wall sculpture
+										348 text BOLD-75ACAD5A9841 PALE/WHITE STONE-EFFECT FINISH AND A COARSE TEXTURED BAND
+										349 container
+											350 text 66.48  GBP
+									351 container
+										352 image /0003470616802CB6_M.avif
+										353 text Boldstone Lava Moonshell II - White Wall sculpture
+										354 text BOLD-21E7F11ACAAA PALE/WHITE STONE-EFFECT, COARSE TEXTURED FINISH
+										355 container
+											356 text 165.02  GBP
+									357 container
+										358 image /000347061645A619_M.avif
+										359 text Boldstone Lava Moonshell I - White Wall sculpture
+										360 text BOLD-67EA9E9D261A PALE/WHITE STONE-EFFECT, COARSE TEXTURED FINISH
+										361 container
+											362 text 165.02  GBP
+									363 container
+										364 image /000347061636F267_M.avif
+										365 text Boldstone Lunar Phase II (Bordered) - White Wall sculpture
+										366 text BOLD-4515726BBC18 WHITE/PALE STONE-EFFECT RELIEF AND BORDER
+										367 container
+											368 text 95.59  GBP
+									369 container
+										370 image /0003470615636890_M.avif
+										371 text Boldstone Lunar Phase II - White and Gold Finish Wall sculpture
+										372 text BOLD-161DFE20DFB0 WHITE AND GOLD-COLOURED SURFACE TREATMENTS
+										373 container
+											374 text 74.17  GBP
+									375 container
+										376 image /000347061513F14B_M.avif
+										377 text Boldstone Lunar Phase II - White Wall sculpture
+										378 text SQ6247538 WHITE STONE FINISH
+										379 container
+											380 text 64.49  GBP
+									381 container
+										382 image /0003470614547770_M.avif
+										383 text Boldstone Lunar Phase III - White Wall sculpture
+										384 text SQ1357552 WHITE STONE FINISH
+										385 container
+											386 text 64.49  GBP
+									387 container
+										388 image /00034706141489DC_M.avif
+										389 text Boldstone Lunar Phase I (Bordered) - White Wall sculpture
+										390 text BOLD-65A93033A200 WHITE/PALE STONE-EFFECT RELIEF AND BORDER
+										391 container
+											392 text 95.59  GBP
+									393 container
+										394 image /00034706133C29A7_M.avif
+										395 text Boldstone Lunar Phase I - White Wall sculpture
+										396 text EBAY-188568605667 WHITE STONE FINISH
+										397 container
+											398 text 64.49  GBP
+									399 container
+										400 image /00034706121ED888_M.avif
+										401 text Boldstone Lunar Phase IV - White and Gold Finish Wall sculpture
+										402 text BOLD-B1DCB5B08396 WHITE AND GOLD-COLOURED SURFACE TREATMENTS
+										403 container
+											404 text 74.17  GBP
+									405 container
+										406 image /000347061126BC37_M.avif
+										407 text Boldstone Lunar Phase IV - White Wall sculpture
+										408 text BOLD-818D745F1357 WHITE STONE FINISH
+										409 container
+											410 text 64.49  GBP
+									411 container
+										412 image /00034706102876B2_M.avif
+										413 text Boldstone Lunar Phase IV - Silver Finish Wall sculpture
+										414 text EBAY-188687221372 SOFT SILVER METALLIC FINISH
+										415 container
+											416 text 87.87  GBP
+									417 container
+										418 image /000347060969CD65_M.avif
+										419 text Boldstone Crater Moon Basin - White Sculptural relief
+										420 text BOLD-CBD8D0C8DE19 WHITE/LIGHT STONE-EFFECT FINISH
+										421 container
+											422 text 248.07  GBP
+									423 container
+										424 image /000347060931BAEC_M.avif
+										425 text Boldstone Lunar Ring - White Wall sculpture
+										426 text BOLD-FBD125528AEC WHITE STONE-EFFECT FINISH
+										427 container
+											428 text 64.49  GBP
+							429 container
+								430 content list
+									431 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089/p/681061#
+								432 container
+									433 heading Presentations, Value: 5
+										434 text Presentations
+									435 button New
+									436 content list
+										437 link ALL, Value: manage.brandboom.com/products/s/111089/p/681061#
+										438 link RECENT, Value: manage.brandboom.com/products/s/111089/p/681061#
+									439 container
+										440 text Boldstone Wall Sculptures
+										441 link Edit Name
+											442 image
+										443 link Duplicate
+											444 image
+										445 text GBP
+										446 link
+											447 image
+									448 link Back, Value: javascript:void(0);
+									449 container
+										450 text Boldstone Wall Sculptures
+										451 link
+											452 image
+										453 link
+											454 image
+									455 container
+										456 container
+											457 text DISPLAY SETTINGS
+											458 image
+										459 container
+											460 text PRODUCT THUMBNAIL
+											461 button Bottom Align
+											462 container
+												463 text Split Product Options
+												464 image
+											465 container
+												466 Tick box (disabled) 0
+											467 text PRICE LIST
+											468 combo box (settable) Search and select Search and select
+												469 container
+													470 text Search and select
+													471 text field (settable) Search and select
+											472 image
+											473 text GBP
+											474 image
+											475 text SHOW PRICES
+											476 button Wholesale Price
+											477 container
+												478 text Quickview On
+												479 image
+											480 container
+												481 Tick box (disabled) 0
+										482 container
+											483 text INVENTORY SETTINGS
+											484 image
+										485 container
+											486 container
+												487 text Enforce Minimum
+												488 image
+											489 container
+												490 Tick box 1
+											491 text Show Inventory
+											492 container
+												493 Tick box 0
+											494 container
+												495 text Allow Backorder
+												496 image
+											497 container
+												498 Tick box 0
+											499 text Show Prepacks
+											500 container
+												501 Tick box 0
+										502 container
+											503 text ORDER + PAYMENT SETTINGS
+											504 image
+										505 container
+											506 text ENABLE ORDERING
+											507 Tick box 1
+											508 Tick box At-Once, Value: 1
+											509 container
+												510 text At-Once
+											511 Tick box Future, Value: 0
+											512 container
+												513 text Future
+											514 text ORDER MINIMUM ($)
+											515 text field (settable) 0
+											516 text SKU MINIMUM
+											517 text field (settable) 0
+											518 container DEPOSIT 
+												519 container
+													520 text DEPOSIT 
+												521 container
+													522 radio button £, Value: 1
+													523 radio button %, Value: 0
+													524 text field £0.00
+										525 container
+											526 text FONT SETTINGS
+											527 image
+										528 container
+											529 text SECTIONS
+											530 image
+										531 container
+											532 container
+												533 container
+													534 image
+													535 text PRODUCTS
+													536 image
+													537 image
+											538 link
+												539 image
+										540 container
+											541 text BUYER BROWSING SETTINGS
+											542 image
+										543 container
+											544 text PRODUCT PREVIEW
+											545 container
+												546 text CUSTOMIZE
+												547 Tick box 0
+											548 container
+												549 Unlabelled image /000347063663C852_S.jpg
+												550 Unlabelled image /000347063570B5C6_S.jpg
+												551 Unlabelled image /000347063470E291_S.jpg
+												552 Unlabelled image /00034706345D3621_S.jpg
+												553 Unlabelled image /0003470634295D7D_S.jpg
+												554 image
+												555 text 5 / 5
+											556 container
+												557 text DESCRIPTION
+												558 image
+											559 text entry area (settable) Placeholder: Provide a brief description of your Presentation., Value: Handmade wall reliefs by Sally Price, inspired by natural forms. Individual sculptures; coordinated pieces available separately.
+											560 container
+												561 text 12  characters left
+											562 text Preview Thumbnail
+								563 heading Ship Windows, Value: 5
+									564 text Ship Windows
+								565 content list
+									566 link ACTIVE, Value: manage.brandboom.com/products/s/111089/p/681061#
+									567 link ARCHIVED, Value: manage.brandboom.com/products/s/111089/p/681061#
+								568 text No active ship windows
+							569 text Product Limit Reached (50/50). To make these items available, please upgrade your plan or remove these items.
+							570 link Upgrade Now, Value: manage.brandboom.com/account/subscription?switch-plan=true
+							571 link Reset
+								572 text Reset
+							573 button Apply
+							574 text PRODUCT STATUS
+							575 text Active
+							576 text Inactive
+							577 text Archived
+							578 text Corrupted
+							579 text No Images
+							580 text SHIP DATE RANGE
+							581 container
+								582 image
+								583 text field (settable) Click to select range
+							584 text No Date Range
+							585 text CREATE DATE RANGE
+							586 container
+								587 image
+								588 text field (settable) Click to select range
+							589 text SIZES
+							590 text field (settable) S, M, L
+							591 text VENDORS
+							592 text Boldstone
+							593 text TYPES
+							594 link
+								595 image
+							596 text No Types
+							597 text Home Decor
+							598 text Mens
+							599 text Womens
+							600 text CATEGORIES
+							601 link
+								602 image
+							603 link
+								604 image
+							605 text No Categories
+							606 text Sweater
+							607 text Wall Sculpture
+							608 text SEASONS
+							609 link
+								610 image
+							611 link
+								612 image
+							613 text No Seasons
+							614 text Year-round
+							615 link
+								616 image
+							617 container
+								618 content list
+									619 link MEDIA, Value: manage.brandboom.com/products/s/111089/p/681061#
+									620 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089/p/681061#
+								621 container
+									622 button Upload Images
+									623 button
+									624 button
+									625 button
+							626 button Close
+							627 text Search Products
+							628 button Scan barcodes
+							629 container
+								630 link
+									631 image
+								632 search text field (settable) Search for Products
+							633 text RESULTS
+							634 button Open Intercom Messenger
+							635 container
+								636 link
+									637 image
+								638 text You have selected 5 images
+							639 container
+								640 Unlabelled image /000347063663C852_S.jpg
+								641 text loading...
+								642 text 1
+								643 Unlabelled image /000347063570B5C6_S.jpg
+								644 text loading...
+								645 text 2
+								646 Unlabelled image /000347063470E291_S.jpg
+								647 text loading...
+								648 text 3
+								649 Unlabelled image /00034706345D3621_S.jpg
+								650 text loading...
+								651 text 4
+								652 Unlabelled image /0003470634295D7D_S.jpg
+								653 text loading...
+								654 text 5
+							655 container
+								656 link
+									657 image
+								658 text You have selected 5 images
+							659 container
+								660 Unlabelled image /000347063663C852_S.jpg
+								661 text loading...
+								662 text 1
+								663 Unlabelled image /000347063570B5C6_S.jpg
+								664 text loading...
+								665 text 2
+								666 Unlabelled image /000347063470E291_S.jpg
+								667 text loading...
+								668 text 3
+								669 Unlabelled image /00034706345D3621_S.jpg
+								670 text loading...
+								671 text 4
+								672 Unlabelled image /0003470634295D7D_S.jpg
+								673 text loading...
+								674 text 5
+			675 pop-up button Tab search
+			676 container
+				677 tab group
+					678 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 827 MB, Value: off
+					679 tab group  group ✅Claude – 1 Tab, •  Artworks | Artfinder – Expanded
+					680 tab (settable, boolean) Artworks | Artfinder – Part of group ✅Claude, Value: off
+					681 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					682 tab (settable, boolean) Contact us - Glassette, Value: off
+					683 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					684 tab (settable, boolean) Sell on Artsper, Value: off
+					685 tab (settable, boolean) Explore JOOR for home brands, Value: off
+					686 tab (settable, boolean) Become a Supplier | House of Estila, Value: off
+					687 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					688 tab (settable, boolean) Vendeurs_new_form EN, Value: off
+					689 tab (settable, boolean) Explore JOOR for home brands, Value: off
+					690 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					691 tab (settable, boolean) Apply to sell with us - High memory usage - 930 MB, Value: off
+					692 tab group  group ✅Claude – 1 Tab, •  Inbox (97) - info@boldstone.co.uk - Thomas Pri… – Expanded
+					693 tab (settable, boolean) Value: off, Inbox (97) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1,022 MB
+					694 tab (settable, boolean) Value: off, Russell Brand trial live: Police release video of actor being interviewed after he is found guilty of one rape and three sexual assaults | Daily Mail Online
+					695 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 964 MB, Value: off
+					696 tab (settable, boolean) Overview of Marketplaces | Brandboom Help Center, Value: off
+					697 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						698 button Close
+			699 button New tab
+	700 close button
+	701 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	702 minimise button
+703 menu bar
+	704 Chrome
+	705 File
+	706 Edit
+	707 View
+	708 History
+	709 Bookmarks
+	710 Profiles
+	711 Tab
+	712 Window
+	713 Help
+
+The focused UI element is 714 container

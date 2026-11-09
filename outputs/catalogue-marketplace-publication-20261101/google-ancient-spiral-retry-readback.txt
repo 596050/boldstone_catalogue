@@ -1,0 +1,174 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Navigation menu" [expanded]:
+    - img: menu
+  - link "Merchant Center home":
+    - /url: /mc/overview?a=5664655454&authuser=1
+    - img "Merchant Center home"
+  - dialog "Search":
+    - img: search
+    - textbox "Search Merchant Center"
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone Sculpture, 5664655454"':
+    - generic: Boldstone Sculpture
+    - generic: "5664655454"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- navigation:
+  - tree "Navigation":
+    - treeitem "Overview" [level=1]:
+      - img: dashboard
+      - generic: Overview
+    - treeitem "Notifications" [level=1]:
+      - img: notifications
+      - generic: Notifications
+    - treeitem "Products & store" [expanded] [level=1]:
+      - img: inventory_2
+      - generic: Products & store
+      - img: arrow_drop_down
+      - treeitem "Products" [level=2]:
+        - generic: Products
+      - treeitem "Shipping and returns" [level=2]:
+        - generic: Shipping and returns
+      - treeitem "Store quality" [level=2]:
+        - generic: Store quality
+      - treeitem "Reviews" [level=2]:
+        - generic: Reviews
+    - treeitem "Creative content" [level=1]:
+      - img: brush_spark
+      - generic: Creative content
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Product Studio
+      - treeitem [disabled] [level=2]:
+        - generic: Video assets
+    - treeitem "Marketing" [level=1]:
+      - img: campaign
+      - generic: Marketing
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Ad campaigns
+      - treeitem [disabled] [level=2]:
+        - generic: Promotions
+      - treeitem [disabled] [level=2]:
+        - generic: Marketing methods
+    - treeitem "Analytics" [level=1]:
+      - img: timeline
+      - generic: Analytics
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Summary
+      - treeitem [disabled] [level=2]:
+        - generic: Products
+      - treeitem [disabled] [level=2]:
+        - generic: Online store
+    - treeitem "Settings" [expanded] [level=1]:
+      - img: settings
+      - generic: Settings
+      - img: arrow_drop_down
+      - treeitem "General" [level=2]:
+        - generic: General
+      - treeitem "Business info" [level=2]:
+        - generic: Business info
+      - treeitem "Data sources" [level=2]:
+        - generic: Data sources
+      - treeitem "Add-ons" [level=2]:
+        - generic: Add-ons
+      - treeitem "Access and services" [level=2]:
+        - generic: Access and services
+- button "Back":
+  - img: arrow_back
+- heading "Product details" [level=1]
+- main:
+  - heading "Product sections" [level=2]
+  - tablist:
+    - tab "Product details" [selected]:
+      - generic: Product details
+    - tab "Needs attention (1)":
+      - generic: Needs attention (1)
+    - tab "Shipping calculator":
+      - generic: Shipping calculator
+    - tab "Traffic":
+      - generic: Traffic
+  - heading "Ancient Spiral - White" [level=2]
+  - button "Edit product":
+    - img: edit
+    - generic: Edit product
+  - 'button "Selected image: file"':
+    - 'img "Selected image: file"'
+  - list:
+    - button "Edit image file":
+      - 'img "Thumbnail: file"'
+    - button "Edit image file":
+      - 'img "Thumbnail: file"'
+    - button "Edit image boldstone-gallery-ca6b7b9ff306e224.jpg":
+      - generic: "+6"
+  - button "Manage images and videos":
+    - img: photo_library
+    - generic: Manage images and videos
+  - generic: Product page on your website
+  - link "https://boldstonesculpture.com/buy/p/spiral-white-crs1":
+    - /url: https://boldstonesculpture.com/buy/p/spiral-white-crs1
+    - generic: https://boldstonesculpture.com/buy/p/spiral-white-crs1
+  - generic: Price
+  - generic: £34.20
+  - generic: Availability
+  - generic: In stock
+  - generic: Brand
+  - generic: boldstone
+  - generic: Product ID
+  - generic: d00ee970-b8fb-478d-a203-f0b4e26f2b25
+  - generic: Condition
+  - generic: New
+  - generic: Labels
+  - 'generic "Custom label 0: wall sculptures"': wall sculptures
+  - 'generic "Custom label 1: cup ring and spiral"': cup ring and spiral
+  - generic: Description
+  - generic: "A curling spiral becomes a tactile relief, drawing the eye along a continuous, organic line. The design recalls the elemental marks found in ancient rock art without losing its contemporary clarity. A tactile accent for a contemporary wall, carrying the feeling of a discovered mark or a pattern worn into the landscape. The white finish keeps the focus on the form and its changing shadows. Brand: Boldstone Product type: Wall sculpture Model: Ancient Spiral - White (BOLD-70BDE00F2855) Colour / appearance: White marble stone finish Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included. Material: Made from a gypsum-based material. Dimensions: 30 × 30 cm; approximately 5–7 cm deep Weight: Approximately 3–5 kg Use: Suitable for outdoor use and indoor display. Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall. Availability: Ready to dispatch Dispatch time: Within 10 working days. Delivery transit time is additional. Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options."
+  - button "Show less" [expanded] [active]
+  - button "Additional details":
+    - paragraph: Additional details
+    - img: expand_less
+  - heading "Status" [level=2]
+  - generic: Under review
+  - img "Under review": watch_later
+  - generic: This product cannot be shown while under policy review
+  - generic: Visibility preference
+  - checkbox "Show on Google once approved" [checked]
+  - generic: Show on Google once approved
+  - checkbox "Show in ads" [checked]
+  - generic: Show in ads
+  - img "Ancient Spiral - White product"
+  - generic: Ancient Spiral - White
+  - paragraph:
+    - generic: Boldstone Sculpture
+  - generic "Price £34.20":
+    - generic: £34.20
+  - generic: In stock
+  - generic: Marketing methods
+  - generic: Free listings
+  - generic: Countries
+  - generic: United Kingdom
+  - generic: Last update
+  - generic: 3 mins ago
+  - generic: Source
+  - generic: API
+  - button "Archive product":
+    - generic: Archive product
+  - text: You can't delete this product from Merchant Center
+  - generic "More info about product deletion":
+    - button "More information":
+      - img "More information": info
+  - contentinfo:
+    - link "Privacy Policy":
+      - /url: http://www.google.com/policies/privacy/
+    - generic: ·
+    - link "Terms of Service":
+      - /url: https://support.google.com/merchants/answer/160173?hl=en-US
+    - generic: ·
+    - link "Program Policies":
+      - /url: https://support.google.com/merchants/topic/7286989?hl=en-US
+- text: edit edit edit edit edit edit edit edit edit edit edit edit edit edit edit edit edit edit edit edit

@@ -1,0 +1,226 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089/import, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089/import
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089/import, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089/import
+						28 container
+							29 link
+								30 image
+							31 text 2 / 3
+							32 heading Check Your Mappings, Value: 4
+								33 text Check Your Mappings
+							34 heading Review your fields to make sure they are mapped correctly, Value: 5
+								35 text Review your fields to make sure they are mapped correctly
+							36 heading YOUR FIELDS, Value: 5
+								37 text YOUR FIELDS
+							38 heading PREVIEW INFO, Value: 5
+								39 text PREVIEW INFO
+							40 heading BRANDBOOM FIELDS, Value: 5
+								41 text BRANDBOOM FIELDS
+							42 text field (disabled) SKU Number
+							43 container
+								44 text SQ0717348 →
+							45 pop-up button SKU NUMBER
+								46 (selected) SKU NUMBER
+							47 text field (disabled) Style ID
+							48 container
+								49 text SQ0717348 →
+							50 pop-up button STYLE ID
+								51 (selected) STYLE ID
+							52 text field (disabled) Option Code
+							53 container
+								54 text STANDARD →
+							55 pop-up button OPTION CODE
+								56 (selected) OPTION CODE
+							57 text field (disabled) Size
+							58 container
+								59 text One sculpture →
+							60 pop-up button SIZE
+								61 (selected) SIZE
+							62 container
+								63 Tick box Add new size options, Value: 1
+								64 text Add new size options
+							65 text field (disabled) Name
+							66 container
+								67 text Boldstone Icarus I - Abstract Cave Relief Wall sculpture →
+							68 pop-up button NAME
+								69 (selected) NAME
+							70 text field (disabled) Description
+							71 container
+								72 text Abstract marks and a textured surface give Icarus the feeling of an ancient story retold in a contemporary relief. The composition invites a closer look, with small details revealing themselves as light moves across it. A striking focal point for an open wall, bringing the atmosphere of a found fragment into an interior or outdoor setting. Brand: Boldstone Product type: Wall sculpture Model: Icarus I - Abstract Cave Relief (SQ0717348) Colour / appearance: Bath Stone finish Quantity supplied: 1 individually  →
+							73 pop-up button DESCRIPTION
+								74 (selected) DESCRIPTION
+							75 text field (disabled) Option Name
+							76 container
+								77 text Bath Stone finish →
+							78 pop-up button OPTION NAME
+								79 (selected) OPTION NAME
+							80 text field (disabled) Wholesale (GBP)
+							81 container
+								82 text 1226.69 →
+							83 pop-up button WHOLESALE (GBP)
+								84 (selected) WHOLESALE (GBP)
+							85 text field (disabled) Retail (GBP)
+							86 text →
+							87 pop-up button
+								88 (selected)
+							89 text field (disabled) Type
+							90 container
+								91 text Home Decor →
+							92 pop-up button TYPE
+								93 (selected) TYPE
+							94 text field (disabled) Category
+							95 container
+								96 text Wall Sculpture →
+							97 pop-up button CATEGORY
+								98 (selected) CATEGORY
+							99 text field (disabled) Season
+							100 text →
+							101 pop-up button SEASON
+								102 (selected) SEASON
+							103 text field (disabled) Delivery Date
+							104 text →
+							105 pop-up button
+								106 (selected)
+							107 text field (disabled) HS Code
+							108 text →
+							109 pop-up button HS CODE
+								110 (selected) HS CODE
+							111 text field (disabled) Country of Origin
+							112 text →
+							113 pop-up button COUNTRY OF ORIGIN
+								114 (selected) COUNTRY OF ORIGIN
+							115 text field (disabled) Minimum Quantity
+							116 container
+								117 text 1 →
+							118 pop-up button MINIMUM QUANTITY
+								119 (selected) MINIMUM QUANTITY
+							120 text field (disabled) Inventory Count
+							121 text →
+							122 pop-up button INVENTORY COUNT
+								123 (selected) INVENTORY COUNT
+							124 text field (disabled) Image URL
+							125 container
+								126 text https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793398707630-5G5G6VHSXGOI5F9QAAUN/file,https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793398714657-NY4QE0PTS8YUE1K5DP4B/file,https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793398711847-R64BDYHIOIQZ1QK84TP0/file,https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793398710492-R889G5VHKTBLAXNI5SZL/file,https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d →
+							127 pop-up button IMAGE URL
+								128 (selected) IMAGE URL
+							129 link  back
+								130 image
+								131 text  back
+							132 Tick box Save mapping, Value: 1
+							133 text Save mapping
+							134 text field (settable) Value: Boldstone catalogue GBP, Placeholder: Template name
+							135 button Next
+			136 pop-up button Tab search
+			137 container
+				138 tab group
+					139 tab (settable, boolean) Products – Faire, Value: off
+					140 tab (settable, boolean) Gumtree | Free classified ads from the #1 classifieds site in the UK, Value: off
+					141 tab (settable, boolean) Sign in to your Supplier account | AppScenic, Value: off
+					142 tab (settable, boolean) Shoppe Object, Value: off
+					143 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					144 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					145 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					146 tab (settable, boolean) sell on wholesale central - Google Search, Value: off
+					147 tab (settable, boolean) Display Your Products to Millions of Buyers Worldwide., Value: off
+					148 tab (settable, boolean) become-a-seller-new | Wholesale Prices | Tradeling, Value: off
+					149 tab (settable, boolean) Marketplace FAQ for Sellers | Brandboom Help Center, Value: off
+					150 tab (settable, boolean) Online Sales FAQ - TICA, Value: off
+					151 tab (settable, boolean) Carro Migration FAQ, Value: off
+					152 tab (settable, boolean) Join Us | CREOATE, Value: off
+					153 tab (settable, boolean) MOM - Sell your products, Value: off
+					154 tab (settable, boolean) Ankorstore | Wholesale Marketplace Home to Europe's Best Brands, Value: off
+					155 tab (settable, boolean) Find the right wholesale fit, Value: off
+					156 tab (settable, boolean) Wholesale Marketplace: Get Discovered by Retailers | NuORDER by Lightspeed, Value: off
+					157 tab (settable, boolean) Sell on Syncee, Value: off
+					158 tab (settable, boolean) Become a Spocket Supplier - Sell to 100,000+ Retailers Free, Value: off
+					159 tab (settable, boolean) Become a verified Avasam supplier, Value: off
+					160 tab (settable, boolean) Advertise Your Wholesale Business - Would you like to expand your business?, Value: off
+					161 tab (settable, boolean) eSources UK Help | Managing Your Supplier Profile, Value: off
+					162 tab (settable, boolean) Gift Wholesalers - Gift Shop Wholesalers, Value: off
+					163 tab (settable, boolean) Sell on Tesco Marketplace | Reach millions of UK shoppers, Value: off
+					164 tab (settable, boolean) RangeMe, Value: off
+					165 tab (settable, boolean) Art Gallery | Buy Original British Art Online, Value: off
+					166 tab (settable, boolean) Original art for sale, Value: off
+					167 tab (settable, boolean) 25+ Handmade Marketplaces for Artisans to Sell Crafts, Art, Gifts Online - MultiMerch, Value: off
+					168 tab (settable, boolean) 250+ Websites Directory for Artists to Sell Art Online, Value: off
+					169 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish, Value: off
+					170 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					171 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					172 tab (settable, boolean) Wholesale Central | Leading Source for Wholesale Products & Suppliers, Value: off
+					173 tab (settable, boolean) New York City Show Exhibitor Application, Value: off
+					174 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					175 tab (settable, boolean) Booth activation - Booth customization, Value: off
+					176 tab (settable, boolean) Romans Surviving Rome’s Collapse, Value: off
+					177 tab (settable, boolean) PayPal, Value: off
+					178 tab (settable, boolean) Verification code to reset your PayPal password - info@boldstone.co.uk - Thomas Price Mail, Value: off
+					179 tab (settable, boolean) ChatGPT, Value: off
+					180 tab (settable, boolean) _20261105_125118_b5c8aa3a-e88c-489b-bb71-04f4e23ce0ea.png (2048×2048), Value: off
+					181 tab (settable, boolean) _20261105_124942_a2ea11ea-9588-4814-921b-1b8119944376.png (2048×2048), Value: off
+					182 tab (settable, boolean) 888309629_1523348299846656_5333981695044073670_n.jpg (947×2048), Value: off
+					183 tab (settable, boolean) 880004104_1873677580468638_5195249294559980998_n.jpg (947×2048), Value: off
+					184 tab (settable, boolean) Photo 31-03-2025, 12 41 58.jpg, Value: off
+					185 tab (settable, boolean) Value: off, Elegant Swan Marble Side Table with Artistic White Base – 50cm — boldstone - High memory usage - 955 MB
+					186 tab (settable, boolean) Marbled Circle - Turquoise — boldstone, Value: off
+					187 tab (settable, boolean) (1) Home / X, Value: off
+					188 tab (settable, boolean) SEO opportunity audit, Value: off
+					189 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					190 tab (settable, boolean) Contact us - Glassette, Value: off
+					191 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					192 tab (settable, boolean) Sell on Artsper, Value: off
+					193 tab (settable, boolean) ChatGPT, Value: off
+					194 tab (settable, boolean) (5) Boldstone Sculpture | Commerce Manager, Value: off
+					195 tab group  group ✅Claude – 1 Tab, •  Boldstone Sculpture | Products – Expanded
+					196 tab (settable, boolean) Boldstone Sculpture | Products – Part of group ✅Claude, Value: off
+					197 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+					198 tab group  group 🗿 Product completion – 1 Tab, •  about:blank – Expanded
+					199 tab (settable, boolean) about:blank – Part of group 🗿 Product completion, Value: off
+			200 button New tab
+	201 close button
+	202 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	203 minimise button
+204 menu bar
+	205 Chrome
+	206 File
+	207 Edit
+	208 View
+	209 History
+	210 Bookmarks
+	211 Profiles
+	212 Tab
+	213 Window
+	214 Help
+
+The focused UI element is 134 text field (settable) Value: Boldstone catalogue GBP, Placeholder: Template name

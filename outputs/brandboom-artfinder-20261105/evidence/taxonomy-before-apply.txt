@@ -1,0 +1,107 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						27 container
+							28 link
+								29 image
+							30 heading Mass Edit, Value: 4
+								31 text Mass Edit
+							32 container
+								33 button Apply
+								34 button Replace
+								35 button Clear
+							36 container
+								37 text SHIP DATE
+								38 image
+								39 text field (settable) DD/MM/YYYY
+								40 text No Date Range TYPES No Types Home Decor Mens Womens
+							41 container
+								42 text TAXONOMY
+								43 container
+									44 text field (settable) Value: Home Decor / Wall Decor / Wall Art, Placeholder: Select
+									45 link Home Decor / Wall Decor / Wall Art
+										46 text Home Decor / Wall Decor / Wall Art
+								47 text CATEGORIES
+								48 link
+									49 image
+								50 text No Categories
+								51 text Sweater
+								52 text Wall Sculpture
+								53 text SEASONS
+								54 link
+									55 image
+								56 text No Seasons
+			57 pop-up button Tab search
+			58 container
+				59 tab group
+					60 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 827 MB, Value: off
+					61 tab group  group ✅Claude – 1 Tab, •  Artworks | Artfinder – Expanded
+					62 tab (settable, boolean) Artworks | Artfinder – Part of group ✅Claude, Value: off
+					63 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					64 tab (settable, boolean) Contact us - Glassette, Value: off
+					65 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					66 tab (settable, boolean) Sell on Artsper, Value: off
+					67 tab (settable, boolean) Explore JOOR for home brands, Value: off
+					68 tab (settable, boolean) Become a Supplier | House of Estila, Value: off
+					69 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					70 tab (settable, boolean) Vendeurs_new_form EN, Value: off
+					71 tab (settable, boolean) See how wholesale gets simpler, Value: off
+					72 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					73 tab (settable, boolean) Apply to sell with us - High memory usage - 930 MB, Value: off
+					74 tab group  group ✅Claude – 1 Tab, •  Inbox (97) - info@boldstone.co.uk - Thomas Pri… – Expanded
+					75 tab (settable, boolean) Value: off, Inbox (97) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1,022 MB
+					76 tab (settable, boolean) Value: off, Russell Brand trial live: Police release video of actor being interviewed after he is found guilty of one rape and three sexual assaults | Daily Mail Online
+					77 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 964 MB, Value: off
+					78 tab (settable, boolean) Overview of Marketplaces | Brandboom Help Center, Value: off
+					79 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						80 button Close
+			81 button New tab
+	82 close button
+	83 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	84 minimise button
+85 menu bar
+	86 Chrome
+	87 File
+	88 Edit
+	89 View
+	90 History
+	91 Bookmarks
+	92 Profiles
+	93 Tab
+	94 Window
+	95 Help
+
+The focused UI element is 44 text field (settable) Value: Home Decor / Wall Decor / Wall Art, Placeholder: Select

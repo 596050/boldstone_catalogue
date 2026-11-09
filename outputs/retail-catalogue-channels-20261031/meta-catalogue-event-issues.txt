@@ -1,0 +1,177 @@
+- link "Business Home":
+  - /url: https://business.facebook.com/home/?business_id=2380586078685156
+  - img "Meta logo"
+- generic: Commerce Manager
+- combobox "Products for Boldstone Sculpture (103781478537396)":
+  - generic: Products for Boldstone Sculpture (103781478537396)
+- navigation "Navigation":
+  - list:
+    - link "Overview":
+      - /url: https://business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+    - generic: Overview
+    - button "Catalogue" [expanded]
+    - generic: Catalogue
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Products":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/products/?business_id=2380586078685156
+      - generic: Products
+      - link "Sets":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/sets/?business_id=2380586078685156
+      - generic: Sets
+      - link "Data sources":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/data_sources/?business_id=2380586078685156
+      - generic: Data sources
+      - link "Events":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/events/?business_id=2380586078685156
+      - generic: Events
+    - link "Image templates":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/templates/?business_id=2380586078685156
+    - generic: Image templates
+    - link "Product video creator":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/video_template_hub/?business_id=2380586078685156
+    - generic: Product video creator
+    - link "Shops":
+      - /url: https://business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+    - generic: Shops
+    - button "Promotions"
+    - generic: Promotions
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Offers":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/offers/?business_id=2380586078685156
+      - generic: Offers
+      - link "Marketing settings":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/mailing_list/?business_id=2380586078685156
+      - generic: Marketing settings
+    - button "Insights"
+    - generic: Insights
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Overview":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/overview/?business_id=2380586078685156
+      - generic: Overview
+      - link "Catalogue":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/products/?business_id=2380586078685156
+      - generic: Catalogue
+      - link "Performance":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/perf/?business_id=2380586078685156
+      - generic: Performance
+      - link "Audience":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/audience/?business_id=2380586078685156
+      - generic: Audience
+      - link "Tagged content":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/product_tagged_content/?business_id=2380586078685156
+      - generic: Tagged content
+      - link "Awareness":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/entry_points/?business_id=2380586078685156
+      - generic: Awareness
+    - link "To-do list":
+      - /url: https://business.facebook.com/commerce/326960679342026/to_do_list/?business_id=2380586078685156
+    - generic: To-do list
+    - link "Settings":
+      - /url: https://business.facebook.com/commerce/326960679342026/settings/general/?business_id=2380586078685156
+    - generic: Settings
+- navigation "all tools":
+  - list:
+    - button "All tools":
+    - generic: All tools
+- separator
+- list:
+  - button "Meta AI business assistant"
+  - generic: Meta AI business assistant
+- button "Help":
+- generic: Help
+- link "Business settings":
+  - /url: https://business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+  - generic: Business settings
+- button "Business notifications":
+  - generic: Business notifications
+- button:
+  - generic: "6"
+- button "Search":
+  - generic: Search
+- button "Collapse":
+  - generic: Collapse
+- navigation "Breadcrumb":
+  - link "Events":
+    - /url: "#"
+    - heading "Events" [active] [level=1]
+  - link "Event source Boldstone Sculpture Pixel":
+    - /url: "#"
+    - heading "Event source Boldstone Sculpture Pixel" [level=1]:
+      - generic: Event source
+      - combobox "Event source Boldstone Sculpture Pixel":
+        - generic: Boldstone Sculpture Pixel
+- toolbar:
+  - button
+- heading "Catalogue match rate (last 28 days)" [level=3]
+- generic: Needs attention
+- status: Needs attention
+- generic: 0%
+- heading "Item interactions on your websites that match items in this catalogue" [level=3]
+- separator
+- generic: Matched to this catalogue (last 28 days)
+- grid:
+  - row "Product views 0%":
+    - gridcell "Product views 0%":
+      - generic: Product views
+      - generic: 0%
+      - status: "0"
+  - row "Product adds to cart Missing":
+    - gridcell "Product adds to cart Missing":
+      - generic: Product adds to cart
+      - generic: Missing
+      - status: "0"
+  - row "Product purchases Missing":
+    - gridcell "Product purchases Missing":
+      - generic: Product purchases
+      - generic: Missing
+      - status: "0"
+- generic: Based on interactions from 2 Oct 2026 to 29 Oct 2026
+- alert:
+  - generic: A catalogue match rate below 90% limits the products available for ads targeting
+  - text: Only products with matches can be used for Meta Advantage+ catalogue ads. Increase it by resolving issues.
+- heading "Critical issues" [level=3]
+- generic: "3"
+- status: "3"
+- heading "ViewContent events weren't received in the last 7 days" [level=4]
+- generic: Your pixel might not be sending events from your website. Check that it's set up correctly.
+- button "How to fix":
+  - generic: How to fix
+- separator
+- heading "Purchase events weren't received in the last 7 days" [level=4]
+- generic: Your pixel might not be sending events from your website. Check that it's set up correctly.
+- button "How to fix":
+  - generic: How to fix
+- separator
+- heading "AddToCart events weren't received in the last 7 days" [level=4]
+- generic: Your pixel might not be sending events from your website. Check that it's set up correctly.
+- button "How to fix":
+  - generic: How to fix
+- heading "Warnings" [level=3]
+- heading "No warnings" [level=4]:
+  - strong: No warnings
+- generic: Warnings that need your attention will appear here.
+- text: Summary for
+- heading "Boldstone Sculpture Pixel" [level=3]
+- heading "Pixel ID" [level=4]
+- 'button "Copy pixel ID: 4566349726935061"':
+  - generic: "4566349726935061"
+- heading "Status" [level=4]
+- generic: Last event received 1h ago
+- heading "2 websites" [level=4]
+- text: boldstonesculpture.com
+- link "+1 more":
+  - /url: "#"
+- heading "1 catalogue with a total of 325 products" [level=4]
+- generic: This catalogue has 325 products
+- button "View in Events Manager":
+  - generic: View in Events Manager
+- heading "Are you working with others to fix issues?" [level=3]
+- generic: Download and share a full report of all issues with sample data and suggestions on how to resolve them.
+- button "Download issues report":
+  - generic: Download issues report

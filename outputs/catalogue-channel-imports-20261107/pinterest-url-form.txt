@@ -1,0 +1,205 @@
+Window: "Pinterest", App: Google Chrome.
+0 standard window Pinterest - Google Chrome – Tom, URL: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523, Secondary Actions: Raise
+	1 container Pinterest - Google Chrome – Tom, URL: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523, Placeholder: Ask Google or type a URL
+					10 button Install Pinterest
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Pinterest, URL: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523
+						28 container
+							29 container
+								30 link Skip to content, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523#
+								31 container Primary navigation header
+									32 button Pinterest Catalogues Dynamic badge drop-down menu button
+									33 button Boldstone Boldstone Account switcher arrow icon
+									34 link Notifications, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523
+									35 link Messages, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523
+									36 container Engagement. You have pending notifications.
+										37 link Manage comments and social activity, Value: uk.pinterest.com/engagement/
+									38 link Your profile, Value: uk.pinterest.com/boldstonepinterest/
+									39 pop-up button Accounts and more options
+							40 container Footer floating buttons
+							41 container
+								42 heading Catalogues, Value: 2
+									43 text Catalogues
+								44 container Navigate catalogues main item section
+									45 content list
+										46 link Overview, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523#
+										47 link Promotions, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523#
+										48 link Creative overlays, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523#
+									49 content list
+										50 container
+											51 text Catalogues
+											52 content list
+												53 container
+													54 button Catalog_Retail
+													55 content list
+														56 link Diagnostics, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/
+														57 link Products , You have products in this catalogue, Value: uk.pinterest.com/business/catalogs/4814500935893/products/
+														58 link Product groups , You have product groups in this catalogue, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523
+														59 link Data sources , You have active feeds in this catalogue, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523
+									60 content list
+										61 container
+											62 text Support
+											63 content list
+												64 link Help Centre, Value: help.pinterest.com/business/article/before-you-get-started-with-catalogs
+												65 link Contact us, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523#
+								66 image Error
+								67 container
+									68 text To connect your catalogue, all merchants must meet the 
+									69 link Merchant Guidelines; Opens a new tab, Value: pinterest.com/_/_/policy/
+									70 text . Once issues have been resolved, you will be able to add your products to Pinterest.
+								71 button View issues
+								72 heading Add a retail catalogue data source, Value: 1
+									73 text Add a retail catalogue data source
+								74 container
+									75 text Choose one of the options below to connect your data source to publish your products as Products on Pinterest. 
+									76 button Learn more
+								77 container
+									78 heading Provide a URL link, Value: 2
+										79 text Provide a URL link
+									80 text Updated Provide a URL link to your hosted file or Google Sheets. Pinterest will automatically ingest your data source daily for seamless management. 
+									81 link Learn more, Value: help.pinterest.com/business/article/before-you-get-started-with-catalogs#section-9441
+									82 button Provide a URL link
+									83 heading Upload manually, Value: 2
+										84 text Upload manually
+									85 text Create or refresh your data source by manually uploading a data source file from your computer. 
+									86 link Learn more, Value: help.pinterest.com/en/business/article/data-source-ingestion#accordion-30095
+									87 button Upload manually
+									88 heading Connect to Shopify, Value: 2
+										89 text Connect to Shopify
+									90 text Connect your data source to Shopify, and manage and add products to Pinterest automatically. This connection doesn't change anything in your Shopify account.
+									91 link Get started ; Opens a new tab, Value: apps.shopify.com/pinterest-1?utm_source=pinterest&utm_campaign=catalogs_onboarding
+									92 heading Use Shopping API, Value: 2
+										93 text Use Shopping API
+									94 text Use the Shopping API to upload a large number of products or if you plan to make frequent changes to your product details. This method requires technical knowledge. 
+									95 link Learn more, Value: developers.pinterest.com/docs/shopping/pinterest-api-for-shopping/
+									96 link Get started ; Opens a new tab, Value: developers.pinterest.com/docs/shopping/pinterest-api-for-shopping/
+								97 text Need help?
+								98 container
+									99 text Find tips and best practices on the 
+									100 link Pinterest Business site, Value: business.pinterest.com/
+								101 text Troubleshoot issues with the 
+								102 link Pinterest Help Centre, Value: help.pinterest.com/?context=business
+							103 container Footer
+							104 container
+								105 container New data source form
+									106 container
+										107 container
+											108 heading Provide a URL link, Value: 1
+												109 text Provide a URL link
+											110 button Close Provide a URL link sheet
+											111 text Provide a URL link that can be used to access your data source file. Pinterest will ingest your data source daily and alert you if there are any errors. Make sure your file is formatted correctly and uses fields and values that Pinterest supports. Data source files that contain video links may take up to a week to be processed. 
+											112 link Learn more, Value: help.pinterest.com/business/article/before-you-get-started-with-catalogs#section-9441
+										113 container
+											114 pop-up button Use template
+												115 text Use template
+											116 text Name
+											117 text field (settable) Name, Placeholder: Name your data source
+											118 text The unique name to identify your data source
+											119 text URL or Google Sheets
+											120 text field (settable) URL or Google Sheets, Placeholder: Link to a .csv, .tsv, .xml file or Google Sheets
+											121 text File format
+											122 pop-up button File format, Value: CSV
+												123 (selected) CSV
+											124 text Country/Region
+											125 pop-up button Country/Region, Value: United States
+												126 (selected) United States
+											127 text The country or region where your items are sold. This field can't be edited once the feed profile has been created.
+											128 text Language
+											129 pop-up button Language, Value: English (US)
+												130 (selected) English (US)
+											131 text The language of the content in your data source. This field can't be edited once the feed profile has been created.
+											132 text Feed login details (optional)
+											133 text field (settable) Feed login details (optional), Placeholder: Username
+											134 text Enter the username and password for password-protected URLs
+											135 text Feed login details (optional)
+											136 secure text field (settable) Feed login details (optional), Placeholder: Password
+											137 container Show password
+												138 switch Show password, Value: off
+											139 text Enter the username and password for password-protected URLs
+											140 text Default currency
+											141 pop-up button Default currency, Value: USD - United States Dollar
+												142 (selected) USD - United States Dollar
+											143 text Product currency in your data source without a value will default to this currency
+											144 text Default availability
+											145 pop-up button Default availability, Value: None
+												146 (selected) None
+											147 text Product availability in your data source without a value will default to this availability
+											148 text Ingestion schedule Choose how often you'd like Pinterest to update your feed
+											149 text Scheduled ingestions
+											150 Tick box Scheduled ingestions, Value: 1
+											151 text Use this option if you want to update this feed automatically at your specified times
+											152 text Schedule
+											153 pop-up button Schedule, Value: Every 24 hours
+												154 (selected) Every 24 hours
+											155 text Start time (optional)
+											156 pop-up button Start time (optional), Value: --:--
+											157 text Time zone (optional)
+											158 pop-up button Time zone (optional), Value: Pick a time zone
+										159 container
+											160 button Cancel
+											161 link Test your data source, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/feed-debugger
+											162 button (disabled) Upload
+			163 pop-up button Tab search
+			164 container
+				165 tab group
+					166 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					167 tab group  group ✅Claude – 1 Tab, •  Import | Microsoft Advertising – Expanded
+					168 tab (settable, boolean) Import | Microsoft Advertising – Part of group ✅Claude, Value: off
+					169 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					170 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					171 tab (settable, boolean) Boldstone Sculpture | Boldstone Wall Sculptures, Value: off
+					172 tab (settable, boolean) Portela Nova | A slower kind of stay, Value: off
+					173 tab (selected, settable, boolean) Pinterest, Value: on
+						174 button Close
+					175 tab (settable, boolean) Get started with retail catalogs | Pinterest Business help, Value: off
+					176 tab (settable, boolean) [TEMPLATE - COPY] Pinterest Catalog Data source Google Sheet Template - Google Sheets, Value: off
+					177 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					178 tab (settable, boolean) All products - Merchant Center, Value: off
+			179 button New tab
+	180 close button
+	181 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	182 minimise button
+183 menu bar
+	184 Chrome
+	185 File
+	186 Edit
+	187 View
+	188 History
+	189 Bookmarks
+	190 Profiles
+	191 Tab
+	192 Window
+	193 Help
+
+The focused UI element is 105 container New data source form

@@ -1,0 +1,382 @@
+- navigation "Website pages and features":
+  - link "Home":
+    - /url: /config/
+    - img "Home"
+  - button "Search":
+  - button "Notifications - you have unread notifications":
+  - link "Home":
+    - /url: /config/home
+    - paragraph: Home
+  - link "Website":
+    - /url: /config/
+    - paragraph: Website
+  - link "Products & Services":
+    - /url: /config/commerce
+    - paragraph: Products & Services
+  - checkbox [checked]
+  - link "Content & Memberships":
+    - /url: /config/content-and-memberships
+    - paragraph: Content & Memberships
+  - checkbox [checked]
+  - link "Scheduling":
+    - /url: https://secure.acuityscheduling.com/oauth2/squarespace-attached?website_id=66abcbd768fd043d92325d96&analytics_id=871ea609-7aad-4efb-9408-1d42d6316296
+    - paragraph: Scheduling
+  - checkbox [checked]
+  - link "Donations":
+    - /url: /config/donations
+    - paragraph: Donations
+  - checkbox [checked]
+  - link "Invoicing & Pay Links":
+    - /url: /config/invoicing
+    - paragraph: Invoicing & Pay Links
+  - checkbox [checked]
+  - status
+  - link "Campaigns":
+    - /url: /config/marketing/campaigns
+    - paragraph: Campaigns
+  - link "Contacts":
+    - /url: /config/profiles
+    - paragraph: Contacts
+  - link "Analytics":
+    - /url: /config/analytics
+    - paragraph: Analytics
+  - link "Finance":
+    - /url: /config/finance
+    - paragraph: Finance
+  - button "Account"
+  - list:
+    - button "Help":
+    - button "Customize Sidebar":
+    - button "Settings":
+- main:
+  - button "Pages":
+    - generic: Pages
+  - heading "Code Injection" [level=1]
+  - paragraph:
+    - text: With custom code modifications, functionality or full compatibility with Squarespace is not guaranteed.
+    - link "Learn more":
+      - /url: /api/auth/sso/help?path=/hc/articles/205815908
+  - generic: Header
+  - generic: Enter code that will be injected into the 'head' tag on every page of your site.
+  - textbox
+  - generic: "1"
+  - text: <!-- Consent defaults must precede every custom Google tag. -->
+  - generic: "2"
+  - text: <script>
+  - generic: "3"
+  - text: window.dataLayer = window.dataLayer || [];
+  - generic: "4"
+  - text: "function gtag(){dataLayer.push(arguments);}"
+  - generic: "5"
+  - text: "gtag('consent', 'default', {"
+  - generic: "6"
+  - text: "analytics_storage: 'denied', ad_storage: 'denied',"
+  - generic: "7"
+  - text: "ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500"
+  - generic: "8"
+  - text: "});"
+  - generic: "9"
+  - text: "(function () {"
+  - generic: "10"
+  - text: var pixelStarted = false;
+  - generic: "11"
+  - text: "function clearTrackingCookies(pattern) {"
+  - generic: "12"
+  - text: "var names = document.cookie.split(';').map(function (cookie) {"
+  - generic: "13"
+  - text: return cookie.trim().split('=')[0];
+  - generic: "14"
+  - text: "}).filter(function (name) { return pattern.test(name); });"
+  - generic: "15"
+  - text: var domains = ['', '; domain=' + location.hostname, '; domain=.boldstonesculpture.com'];
+  - generic: "16"
+  - text: "names.forEach(function (name) {"
+  - generic: "17"
+  - text: "domains.forEach(function (domain) {"
+  - generic: "18"
+  - text: document.cookie = name + '=; Max-Age=0; path=/' + domain + '; SameSite=Lax; Secure';
+  - generic: "19"
+  - text: "});"
+  - generic: "20"
+  - text: "});"
+  - generic: "21"
+  - text: "}"
+  - generic: "22"
+  - text: "function syncConsent() {"
+  - generic: "23"
+  - text: "var choices = {};"
+  - generic: "24"
+  - text: "if (typeof window.getSquarespaceCookies === 'function') choices = window.getSquarespaceCookies() || {};"
+  - generic: "25"
+  - text: var marketing = choices.marketing === 'accepted';
+  - generic: "26"
+  - text: "gtag('consent', 'update', {"
+  - generic: "27"
+  - text: "analytics_storage: choices.performance === 'accepted' ? 'granted' : 'denied',"
+  - generic: "28"
+  - text: "ad_storage: marketing ? 'granted' : 'denied',"
+  - generic: "29"
+  - text: "ad_user_data: marketing ? 'granted' : 'denied',"
+  - generic: "30"
+  - text: "ad_personalization: marketing ? 'granted' : 'denied'"
+  - generic: "31"
+  - text: "});"
+  - generic: "32"
+  - text: "if (marketing && !pixelStarted) {"
+  - generic: "33"
+  - text: pixelStarted = true;
+  - generic: "34"
+  - text: "if (!window.oaiq) {"
+  - generic: "35"
+  - text: "var q = function () { q.q.push(arguments); };"
+  - generic: "36"
+  - text: q.q = [];
+  - generic: "37"
+  - text: window.oaiq = q;
+  - generic: "38"
+  - text: var script = document.createElement('script');
+  - generic: "39"
+  - text: script.async = true;
+  - generic: "40"
+  - text: script.src = 'https://bzrcdn.openai.com/sdk/oaiq.min.js';
+  - generic: "41"
+  - text: document.head.appendChild(script);
+  - generic: "42"
+  - text: "}"
+  - generic: "43"
+  - text: window.oaiq('consent', false);
+  - generic: "44"
+  - text: "window.oaiq('init', {pixelId: '7h2BZq6n1ZWdWkD53Ekse7', debug: false});"
+  - generic: "45"
+  - text: "}"
+  - generic: "46"
+  - text: if (typeof window.oaiq === 'function') window.oaiq('consent', marketing);
+  - generic: "47"
+  - text: if (choices.performance !== 'accepted') clearTrackingCookies(/^_ga(?:_|$)|^_gid$|^_gat(?:_|$)|^ss_(?:cid|cpvisit|cvisit|cvr|cvt)$/);
+  - generic: "48"
+  - text: if (!marketing) clearTrackingCookies(/^_fbp$|^_fbc$|^_gcl_|^_gac_|^__oppref$|^__obref$/);
+  - generic: "49"
+  - text: "}"
+  - generic: "50"
+  - text: var previous = window.onCookieBannerInteraction;
+  - generic: "51"
+  - text: "window.onCookieBannerInteraction = function () {"
+  - generic: "52"
+  - text: "try {"
+  - generic: "53"
+  - text: if (typeof previous === 'function') previous.apply(this, arguments);
+  - generic: "54"
+  - text: "} finally {"
+  - generic: "55"
+  - text: syncConsent();
+  - generic: "56"
+  - text: "}"
+  - generic: "57"
+  - text: "};"
+  - generic: "58"
+  - text: syncConsent();
+  - generic: "59"
+  - text: "})();"
+  - generic: "60"
+  - text: </script>
+  - generic: "61"
+  - text: <!-- Google Merchant Center destination MC-N7MG7EXNSE; retained separately from native GA4. -->
+  - generic: "62"
+  - text: <script async src="https://www.googletagmanager.com/gtag/js?id=GT-5TW3GF4B"></script>
+  - generic: "63"
+  - text: <script>
+  - generic: "64"
+  - text: gtag('js', new Date());
+  - generic: "65"
+  - text: gtag('config', 'GT-5TW3GF4B');
+  - generic: "66"
+  - text: </script>
+  - generic: "67"
+  - text: <meta name="facebook-domain-verification" content="gxywc7luibucjshnf3mnbnt0vhmerd" />
+  - generic: "68"
+  - text: <!-- Meta Pixel remains configured once through Squarespace's native integration. -->
+  - generic: "69"
+  - text: <!-- Count only a server-confirmed success from a genuine enquiry form. -->
+  - generic: "70"
+  - text: <script>
+  - generic: "71"
+  - text: "(function () {"
+  - generic: "72"
+  - text: "function trackContact(event) {"
+  - generic: "73"
+  - text: if (!event.isTrusted || !event.target.closest) return;
+  - generic: "74"
+  - text: var link = event.target.closest('a[href]');
+  - generic: "75"
+  - text: if (!link) return;
+  - generic: "76"
+  - text: "var method = link.protocol === 'mailto:' ? 'email' : link.protocol === 'tel:' ? 'phone' : '';"
+  - generic: "77"
+  - text: "var choices = typeof window.getSquarespaceCookies === 'function' ? window.getSquarespaceCookies() : {};"
+  - generic: "78"
+  - text: if (!method || choices.performance !== 'accepted' || typeof window.gtag !== 'function') return;
+  - generic: "79"
+  - text: "window.gtag('event', 'click_' + method, {"
+  - generic: "80"
+  - text: "send_to: 'G-DYE31M1PWM', contact_method: method, link_type: method === 'email' ? 'mailto' : 'tel'"
+  - generic: "81"
+  - text: "});"
+  - generic: "82"
+  - text: "}"
+  - generic: "83"
+  - text: "var enquiries = {"
+  - generic: "84"
+  - text: "'66ad0bcbd10c9508150d0c04': 'contact_enquiry',"
+  - generic: "85"
+  - text: "'6a40e3e9a631a0287c38ca47': 'homepage_enquiry',"
+  - generic: "86"
+  - text: "'6a0d721c1d29724366006daf': 'furnishings_enquiry'"
+  - generic: "87"
+  - text: "};"
+  - generic: "88"
+  - text: var productEnquiries = ["6a131558e578c46cd0cf52c6","6a132f3987974039cbf79526","6a132f92deda452ffc2821f8","6a132fcaf7b04815480a3baf","6a132ff699592642010b33d1","6a1330290466a022dd09edf8","6a40df4002dbbf71649f56e6","6a40df50c4ad0b7e6b94b107","6a410e1f398d7f76f23a9a85","6a4436bf91a6bf3a0edb67ec","6a44401c0f076c231575337e","6a44405a1ec6544bcfabaef2","6a444089051d430e78c50d0b","6a4441c78131357bef2e14e2","6a4441f591a6bf3a0edfb608","6a4442212e29c63d4ae48729","6a444252979bab20e76d84bf","6a4444302ba6933c2835517e","6a4444e2de89f70a7e0f6c61","6a444528403eff765d606582","6a4445a1bfcf254515930c4c","6a4445e23948d17ac96890eb","6a44463297613b1b9a8f45ec","6a444724c4bd9157aaed5ecf","6a4447582e29c63d4ae6b87e","6a4447ac64e08c30b3ce1124","6a44cefba42c2a14dbac44d2","6a44cf3a9927185640d10da5","6a44cfa6148ba76329ea9dd6","6a44cfe04a7e03497d2f4826","6a44d0044fa8a62b86901905","6a44d02168e8482db86ef1b0","6a44d061c5585d11581dca65","6a540c2fb344bf6935f8e0ca","6a56753afccdff412e13f695","6a569aa7780e6210772fe703","6a569b68a5f2906ced1ba688","6a569c05df82cb318132256d","6a569caa856beb43fbfe5821","6a569d42f3c6220a0159ba65","6a569de0c70eaa5b0c155bc3","6a569e7621600240e7e022e2","6a569f1e9affd742a0d75476","6a569fbf88685d78581fa3d7","6a56a05aefd2ad380a06c6e9","6a56a0f915101b78ed6ff604","6a56a227ee266a0949bdf587","6a56a3ee8fc650249166e726","6a56a48903707d75ba506f69","6a56a542178cf638efe5425c","6a56a5fea64e4417a95ca033","6a56a6b761750f1ed175c9fe","6a56a756f17ff133f131bfc9","6a56a7f81d61906dbb1c637f","6a56a895e3a803172fdf9176","6a56a938fce5d4532de258b6","6a56a9d78e5bbe1dd11a3bfa","6a56aa7389931479d6733643","6a56ab1e3c3d510634480805","6a56abbb184a1647081233b2","6a56ad02e70f903430d321f4","6a56ae33da4aaa7c4e2e7148","6a56aec016ed7954b8e96a99","6a56af32431c52643ce71cd9","6a574ddbb80d077cca8eb2ff","6a574ffc18be4a7e3e592ef4","6a5750f90b0a806a28ce924e","6a575370a2c1a612731f3a69","6a5a6719d551291222fc7b9b","6a5a67d09b06540f443b4c6d","6a5a6975b1b00147acefbe80","6a5a6fceec0e676d7788cf6c","6a636a2d61429523107fd3c5","6aa5c06a2be1b2711bb656ab","6aa67715c20cf7004257259b","6aa688c79129ac4f52dfcaeb"];
+  - generic: "89"
+  - text: "productEnquiries.forEach(function (formId) { enquiries[formId] = 'product_enquiry'; });"
+  - generic: "90"
+  - text: "var armed = {};"
+  - generic: "91"
+  - text: "function arm(event) {"
+  - generic: "92"
+  - text: if (!event.isTrusted || !event.target.closest) return;
+  - generic: "93"
+  - text: var form = event.target.closest('form');
+  - generic: "94"
+  - text: if (!form || (event.type === 'click' && !event.target.closest('button[type="submit"], input[type="submit"]'))) return;
+  - generic: "95"
+  - text: var block = form.closest('.sqs-block-form');
+  - generic: "96"
+  - text: if (!block) return;
+  - generic: "97"
+  - text: var context = block.querySelector('script.sqs-form-block-context');
+  - generic: "98"
+  - text: if (!context) return;
+  - generic: "99"
+  - text: var formId;
+  - generic: "100"
+  - text: "try { formId = JSON.parse(context.textContent).formId; } catch (error) { return; }"
+  - generic: "101"
+  - text: if (enquiries[formId]) armed[formId] = block;
+  - generic: "102"
+  - text: "}"
+  - generic: "103"
+  - text: "function checkSuccess() {"
+  - generic: "104"
+  - text: "Object.keys(armed).forEach(function (formId) {"
+  - generic: "105"
+  - text: var block = armed[formId];
+  - generic: "106"
+  - text: var success = block.querySelector('.react-form-post-submit .form-submission-text');
+  - generic: "107"
+  - text: if (!success || !success.textContent.trim() || !success.getClientRects().length) return;
+  - generic: "108"
+  - text: delete armed[formId];
+  - generic: "109"
+  - text: "var choices = typeof window.getSquarespaceCookies === 'function' ? window.getSquarespaceCookies() : {};"
+  - generic: "110"
+  - text: if (choices.performance !== 'accepted' || typeof window.gtag !== 'function') return;
+  - generic: "111"
+  - text: "window.gtag('event', 'generate_lead', {"
+  - generic: "112"
+  - text: "send_to: 'G-DYE31M1PWM',"
+  - generic: "113"
+  - text: "form_id: formId,"
+  - generic: "114"
+  - text: "form_name: enquiries[formId],"
+  - generic: "115"
+  - text: "lead_type: 'website_enquiry'"
+  - generic: "116"
+  - text: "});"
+  - generic: "117"
+  - text: "});"
+  - generic: "118"
+  - text: "}"
+  - generic: "119"
+  - text: "function start() {"
+  - generic: "120"
+  - text: document.addEventListener('click', trackContact, true);
+  - generic: "121"
+  - text: document.addEventListener('submit', arm, true);
+  - generic: "122"
+  - text: document.addEventListener('click', arm, true);
+  - generic: "123"
+  - text: "new MutationObserver(checkSuccess).observe(document.body, {"
+  - generic: "124"
+  - text: "childList: true, subtree: true, attributes: true, attributeFilter: ['class', 'style', 'hidden']"
+  - generic: "125"
+  - text: "});"
+  - generic: "126"
+  - text: "}"
+  - generic: "127"
+  - text: "if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once: true});"
+  - generic: "128"
+  - text: else start();
+  - generic: "129"
+  - text: "})();"
+  - generic: "130"
+  - text: </script>
+  - generic: Footer
+  - generic: Enter code that will be injected into the template-defined footer on every page of your site.
+  - textbox
+  - generic: "1"
+  - generic: Lock Page
+  - text: Add custom code above the password field in your custom
+  - link "lock screen":
+    - /url: /api/auth/sso/help?path=/hc/articles/205815178
+  - text: . We recommend using the
+  - link "Lock Screen panel":
+    - /url: /config/design/lock-screen
+  - text: instead.
+  - textbox
+  - generic: "1"
+  - generic: Order Confirmation Page
+  - text: "Enter code that will be injected into the footer of the order confirmation page after checkout. If you'd like to pass the Order ID, subtotal, grand total, or customer email to a third party service, use the tags below in your code:"
+  - list:
+    - code: "{orderId}"
+    - text: ": The order number of the confirmed order"
+    - code: "{orderSubtotal}"
+    - text: ": The subtotal of the confirmed order"
+    - code: "{orderSubtotalCents}"
+    - text: ": The subtotal of the confirmed order, in cents"
+    - code: "{orderGrandTotal}"
+    - text: ": The grand total of the confirmed order"
+    - code: "{orderGrandTotalCents}"
+    - text: ": The grand total of the confirmed order, in cents"
+    - code: "{customerEmailAddress}"
+    - text: :The customer's email address, as it was entered in the "Billing Info" section
+  - textbox
+  - generic: "1"
+  - generic: Order Status Page
+  - text: "Enter code that will be injected into the footer of the order status page after checkout and on later page views. If you'd like to pass the Order ID, subtotal, grand total, or customer email to a third party service, use the tags below in your code:"
+  - list:
+    - code: "{orderId}"
+    - text: ": The order number of the confirmed order"
+    - code: "{orderSubtotal}"
+    - text: ": The subtotal of the confirmed order"
+    - code: "{orderSubtotalCents}"
+    - text: ": The subtotal of the confirmed order, in cents"
+    - code: "{orderGrandTotal}"
+    - text: ": The grand total of the confirmed order"
+    - code: "{orderGrandTotalCents}"
+    - text: ": The grand total of the confirmed order, in cents"
+    - code: "{customerEmailAddress}"
+    - text: :The customer's email address, as it was entered in the "Billing Info" section
+  - textbox
+  - generic: "1"
+  - navigation "Site preview and editing tools":
+    - button "Edit":
+      - generic: Edit
+    - generic: Sculpture
+    - list:
+      - button "Toggle Site Styles editing" [disabled]:
+      - button "Preview":
+  - button "Close full screen preview":
+  - iframe [id="sqs-site-frame"]
+- button:
+  - generic: 0 updates
+- button:
+  - generic: 0 updates

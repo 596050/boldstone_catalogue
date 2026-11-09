@@ -1,0 +1,41 @@
+127.0.0.1 - - [27/Oct/2026 12:02:01] "POST /api/deletions/execute-batch HTTP/1.1" 403 -
+127.0.0.1 - - [27/Oct/2026 12:02:01] "POST /api/deletions/execute-batch HTTP/1.1" 202 -
+127.0.0.1 - - [27/Oct/2026 12:02:01] "POST /api/deletions/execute-batch HTTP/1.1" 202 -
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 403: 'Forbidden'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+/Users/tprice/Documents/boldstone/catalogue-review/projection.py:66: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108fe9b60>
+  merged[k] = list(dict.fromkeys(merged[k] + edge.get(k, [])))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/projection.py:66: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108fe9620>
+  merged[k] = list(dict.fromkeys(merged[k] + edge.get(k, [])))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/projection.py:66: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108fea880>
+  merged[k] = list(dict.fromkeys(merged[k] + edge.get(k, [])))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/projection.py:66: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108fe9c40>
+  merged[k] = list(dict.fromkeys(merged[k] + edge.get(k, [])))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/projection.py:66: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108fe98c0>
+  merged[k] = list(dict.fromkeys(merged[k] + edge.get(k, [])))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/projection.py:66: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108fe9380>
+  merged[k] = list(dict.fromkeys(merged[k] + edge.get(k, [])))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/projection.py:66: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108fe9a80>
+  merged[k] = list(dict.fromkeys(merged[k] + edge.get(k, [])))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/projection.py:66: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108fe97e0>
+  merged[k] = list(dict.fromkeys(merged[k] + edge.get(k, [])))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/projection.py:66: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108fe9460>
+  merged[k] = list(dict.fromkeys(merged[k] + edge.get(k, [])))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/catalogue-review/projection.py:66: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x108fe99a0>
+  merged[k] = list(dict.fromkeys(merged[k] + edge.get(k, [])))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+All filename work verified. App native jobs released.
+All filename work verified. App native jobs released.
+----------------------------------------------------------------------
+Ran 212 tests in 2.103s
+
+OK

@@ -1,0 +1,117 @@
+Window: "Variants - Manufacturer Center", App: Google Chrome.
+0 standard window Variants - Manufacturer Center – Part of group ✅Claude - Google Chrome – Tom, Secondary Actions: Raise, URL: manufacturers.google.com/mc/products/variants?a=5898308482&variantsState=%7B%222%22%3A%5B%7B%221%22%3A%22title%22%2C%222%22%3A1%7D%5D%7D
+	1 container Variants - Manufacturer Center – Part of group ✅Claude - Google Chrome – Tom, URL: manufacturers.google.com/mc/products/variants?a=5898308482&variantsState=%7B%222%22%3A%5B%7B%221%22%3A%22title%22%2C%222%22%3A1%7D%5D%7D
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: manufacturers.google.com/mc/products/variants?a=5898308482&variantsState=%7B"2"%3A%5B%7B"1"%3A"title"%2C"2"%3A1%7D%5D%7D
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+					21 button Close side panel
+				22 tickbox Downloads, Value: 1
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Variants - Manufacturer Center, URL: manufacturers.google.com/mc/products/variants?a=5898308482&variantsState=%7B%222%22%3A%5B%7B%221%22%3A%22title%22%2C%222%22%3A1%7D%5D%7D
+						28 container
+							29 container
+								30 button Open/close navigation menu
+								31 link Manufacturer Center home, Value: manufacturers.google.com/mc/overview?a=5898308482
+								32 link Products, Value: manufacturers.google.com/mc/products/variants?a=5898308482&variantsState=%7B%222%22%3A%5B%7B%221%22%3A%22title%22%2C%222%22%3A1%7D%5D%7D
+								33 heading Variants, within Products, in Manufacturer Center, Value: 1
+									34 text Variants
+								35 pop-up button Tools and settings
+								36 pop-up button Help menu
+								37 text 5898308482 (Boldstone)
+								38 text info@boldstone.co.uk
+								39 container
+									40 pop-up button Google account
+										41 image Google account (info@boldstone.co.uk)
+							42 outline
+								43 row Overview
+									44 text Overview
+								45 row Diagnostics
+									46 text Diagnostics
+								47 row Brands
+									48 text Brands
+								49 row Products
+									50 text Products
+									51 container
+										52 row (selected) Variants
+											53 text Variants
+										54 row Groups
+											55 text Groups
+										56 row Feeds
+											57 text Feeds
+							58 container
+								59 container
+									60 button Show filtering options
+									61 pop-up button 'Columns' lets you modify the columns you see in your table. Click the icon and select 'Modify columns.'
+									62 button Download .CSV file
+								63 table Variants table
+									64 row Select all rows Image Title ID Brand Feed label Language GTIN MPN Item group ID Impressions Clicks CTR Creator feed Destination Status
+										65 cell
+											66 Tick box (disabled) Select all rows, Value: 0
+										67 column header
+											68 text Image
+										69 column header
+											70 text Title
+										71 column header ID
+											72 text ID
+										73 column header Brand
+											74 text Brand
+										75 column header Feed label
+											76 text Feed label
+										77 column header Language
+											78 text Language
+										79 column header GTIN
+											80 text GTIN
+										81 column header MPN
+											82 text MPN
+										83 column header Item group ID
+											84 text Item group ID
+										85 column header Impressions
+											86 text Impressions
+										87 column header Clicks
+											88 text Clicks
+										89 column header CTR
+											90 text CTR
+										91 column header
+											92 text Creator feed
+										93 column header
+											94 text Destination
+										95 column header
+											96 text Status
+									97 row No results
+										98 cell
+											99 text No results
+								100 container
+									101 link Privacy Policy, Value: google.com/policies/privacy/
+									102 text •
+									103 link Terms of Service, Value: manufacturers.google.com/manufacturers/tos.html
+									104 text •
+									105 link Program Policies, Opens in a new tab, Value: support.google.com/manufacturers/answer/6371582?hl=en-US
+			106 scroll area
+				107 

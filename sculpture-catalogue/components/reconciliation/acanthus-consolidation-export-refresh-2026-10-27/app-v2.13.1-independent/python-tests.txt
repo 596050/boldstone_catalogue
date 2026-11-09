@@ -1,0 +1,42 @@
+...........127.0.0.1 - - [27/Oct/2026 17:47:50] "POST /api/deletions/execute-batch HTTP/1.1" 403 -
+127.0.0.1 - - [27/Oct/2026 17:47:50] "POST /api/deletions/execute-batch HTTP/1.1" 202 -
+127.0.0.1 - - [27/Oct/2026 17:47:50] "POST /api/deletions/execute-batch HTTP/1.1" 202 -
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 403: 'Forbidden'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+................................................../Users/tprice/Documents/boldstone/sculpture-catalogue/components/reconciliation/acanthus-consolidation-export-refresh-2026-10-27/app-v2.13.1-independent/source/projection.py:64: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10ad72b20>
+  merged = self.edges[pid].setdefault(canonical, {'asset_id': canonical, 'uses': [], 'qualifications': [], 'association_ids': [], 'source_asset_ids': [], 'tier': 'related'})
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/sculpture-catalogue/components/reconciliation/acanthus-consolidation-export-refresh-2026-10-27/app-v2.13.1-independent/source/projection.py:64: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10ad70740>
+  merged = self.edges[pid].setdefault(canonical, {'asset_id': canonical, 'uses': [], 'qualifications': [], 'association_ids': [], 'source_asset_ids': [], 'tier': 'related'})
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/sculpture-catalogue/components/reconciliation/acanthus-consolidation-export-refresh-2026-10-27/app-v2.13.1-independent/source/projection.py:64: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10ad70c80>
+  merged = self.edges[pid].setdefault(canonical, {'asset_id': canonical, 'uses': [], 'qualifications': [], 'association_ids': [], 'source_asset_ids': [], 'tier': 'related'})
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/sculpture-catalogue/components/reconciliation/acanthus-consolidation-export-refresh-2026-10-27/app-v2.13.1-independent/source/projection.py:64: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10ad718c0>
+  merged = self.edges[pid].setdefault(canonical, {'asset_id': canonical, 'uses': [], 'qualifications': [], 'association_ids': [], 'source_asset_ids': [], 'tier': 'related'})
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/sculpture-catalogue/components/reconciliation/acanthus-consolidation-export-refresh-2026-10-27/app-v2.13.1-independent/source/projection.py:64: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10ad717e0>
+  merged = self.edges[pid].setdefault(canonical, {'asset_id': canonical, 'uses': [], 'qualifications': [], 'association_ids': [], 'source_asset_ids': [], 'tier': 'related'})
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/sculpture-catalogue/components/reconciliation/acanthus-consolidation-export-refresh-2026-10-27/app-v2.13.1-independent/source/projection.py:64: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10ad70d60>
+  merged = self.edges[pid].setdefault(canonical, {'asset_id': canonical, 'uses': [], 'qualifications': [], 'association_ids': [], 'source_asset_ids': [], 'tier': 'related'})
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/sculpture-catalogue/components/reconciliation/acanthus-consolidation-export-refresh-2026-10-27/app-v2.13.1-independent/source/projection.py:64: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10ad70120>
+  merged = self.edges[pid].setdefault(canonical, {'asset_id': canonical, 'uses': [], 'qualifications': [], 'association_ids': [], 'source_asset_ids': [], 'tier': 'related'})
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/sculpture-catalogue/components/reconciliation/acanthus-consolidation-export-refresh-2026-10-27/app-v2.13.1-independent/source/projection.py:64: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10ad73d80>
+  merged = self.edges[pid].setdefault(canonical, {'asset_id': canonical, 'uses': [], 'qualifications': [], 'association_ids': [], 'source_asset_ids': [], 'tier': 'related'})
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/sculpture-catalogue/components/reconciliation/acanthus-consolidation-export-refresh-2026-10-27/app-v2.13.1-independent/source/projection.py:64: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10ad70660>
+  merged = self.edges[pid].setdefault(canonical, {'asset_id': canonical, 'uses': [], 'qualifications': [], 'association_ids': [], 'source_asset_ids': [], 'tier': 'related'})
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/tprice/Documents/boldstone/sculpture-catalogue/components/reconciliation/acanthus-consolidation-export-refresh-2026-10-27/app-v2.13.1-independent/source/projection.py:64: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10ad2bae0>
+  merged = self.edges[pid].setdefault(canonical, {'asset_id': canonical, 'uses': [], 'qualifications': [], 'association_ids': [], 'source_asset_ids': [], 'tier': 'related'})
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.................................................................................................................................................................................................All filename work verified. App native jobs released.
+...All filename work verified. App native jobs released.
+................................................
+----------------------------------------------------------------------
+Ran 305 tests in 5.593s
+
+OK

@@ -1,0 +1,172 @@
+Window: "DevTools - boldstonesculpture.…paign=pinterest_consent_check", App: Google Chrome.
+1 standard window Secondary Actions: Raise, DevTools - boldstonesculpture.com/buy/p/brancusi-totem-white?utm_source=qa&utm_medium=test&utm_campaign=pinterest_consent_check (Incognito), URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true
+	2 container DevTools - boldstonesculpture.com/buy/p/brancusi-totem-white?utm_source=qa&utm_medium=test&utm_campaign=pinterest_consent_check (Incognito), URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true
+		3 container
+			4 container
+				5 scroll area
+					6 HTML content DevTools, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true
+						7 container
+							8 container
+								9 container
+									10 container Main toolbar
+										11 toolbar
+											12 container Select an element in the page to inspect it, Help: Select an element in the page to inspect it - ⌘ ⇧ C
+												13 toggle button Select an element in the page to inspect it - ⌘ ⇧ C, Value: 0
+											14 container Toggle device toolbar, Help: Toggle device toolbar - ⌘ ⇧ M
+												15 toggle button Toggle device toolbar - ⌘ ⇧ M, Value: 0
+										16 container
+											17 tab group Panels
+												18 tab (settable, integer) Console, Value: 0
+												19 tab (settable, integer) Elements, Value: 0
+												20 tab (settable, integer) Application, Value: 0
+												21 tab (selected) Network, Value: 1
+											22 pop-up button More tabs
+										23 toolbar
+											24 container
+												25 container Open Console to view 17 errors, 6 warnings
+													26 button Open Console to view 17 errors, 6 warnings
+												27 container Open Issues to view 1 issue: 1 possible improvement
+													28 button Open Issues to view 1 issue: 1 possible improvement
+											29 button  AI assistance, Help: Open AI assistance panel
+											30 container Settings, Help: Settings - F1 - ⇧ ?
+												31 button Settings - F1 - ⇧ ?
+											32 pop-up button Customize and control DevTools
+												33 button Customize and control DevTools
+									34 container Network panel
+										35 container network
+											36 container
+												37 toolbar
+													38 container Stop recording network log, Help: Stop recording network log - ⌘ E
+														39 toggle button Stop recording network log - ⌘ E, Value: 1
+													40 container Clear network log, Help: Clear network log - Ctrl L - ⌘ K
+														41 button Clear network log - Ctrl L - ⌘ K
+													42 container Filter
+														43 toggle button Filter, Value: 1
+													44 container Search
+														45 toggle button Search, Value: 0
+													46 container
+														47 Tick box Keep log, Value: 1
+														48 text Keep log
+													49 container
+														50 Tick box Disable cache, Value: 1
+														51 text Disable cache
+													52 pop-up button Throttling, Value: Disabled: No throttling
+														53 (selected) Disabled: No throttling
+													54 container More network conditions…
+														55 button More network conditions…
+													56 container Import HAR file…
+														57 button Import HAR file…
+													58 container Export HAR (sanitized)…
+														59 button Export HAR (sanitized)…
+													60 container Network settings
+														61 toggle button Network settings, Value: 0
+												62 toolbar
+													63 container
+														64 text entry area (settable) Filter, Value: pinimg
+															65 text pinimg
+														66 container Clear
+															67 button Clear
+												68 container Inverts the search filter
+													69 Tick box Invert, Value: 0
+													70 text Invert
+												71 container Show only/hide requests dropdown
+													72 pop-up button Show only/hide requests
+														73 text More filters
+												74 list box Request types to include, Help: ⌘ Click to select multiple types
+													75 text (selected) All Fetch/XHR Doc CSS JS Font Img Media Manifest Socket Wasm Other
+												76 container Overview grid window
+													77 container
+														78 container
+															79 text 0 ms
+															80 text 5,000 ms
+															81 text 10,000 ms
+															82 text 15,000 ms
+															83 text 20,000 ms
+															84 text 25,000 ms
+															85 text 30,000 ms
+													86 slider Left resizer, Value: 0, Details: 0 ms, Secondary Actions: Increment, Decrement
+													87 slider Right resizer, Value: 100, Details: 28,699 ms, Secondary Actions: Increment, Decrement
+												88 container
+													89 container
+														90 table
+															91 row
+																92 column header Name - Sortable column. Press enter to sort.
+																	93 text Name
+																94 column header Status - Sortable column. Press enter to sort.
+																	95 text Status
+																96 column header Type - Sortable column. Press enter to sort.
+																	97 text Type
+																98 column header Initiator - Sortable column. Press enter to sort.
+																	99 text Initiator
+																100 column header Size - Sortable column. Press enter to sort.
+																	101 text Size
+																102 column header Time - Sortable column. Press enter to sort.
+																	103 text Time
+													104 container 0 / 117 requests
+														105 text 0 / 117 requests
+													106 container 0 B / 11772561 B transferred over network
+														107 text 0.0 kB / 11,773 kB transferred
+													108 container 0 B / 23546055 B resources loaded by the page
+														109 text 0.0 kB / 23,546 kB resources
+													110 container Finish: 24.34 s
+														111 text Finish: 24.34 s
+													112 container DOMContentLoaded: 779 ms
+														113 text DOMContentLoaded: 779 ms
+													114 container Load: 1.36 s
+														115 text Load: 1.36 s
+								116 container Drawer
+									117 container
+										118 toolbar
+											119 pop-up button More tools
+												120 button More tools
+										121 tab group
+											122 tab (settable, integer) Console, Value: 0
+											123 tab (settable, integer) Issues, Value: 0
+											124 tab (selected) What’s new, Value: 1
+											125 tab (settable, integer) AI assistance, Value: 0
+										126 pop-up button More tabs
+										127 toolbar
+											128 container Toggle drawer orientation
+												129 button Toggle drawer orientation
+											130 container Minimize drawer
+												131 button Minimize drawer
+											132 container Close drawer
+												133 button Close drawer
+										134 container What’s new panel
+											135 container whats-new
+												136 container
+													137 text New in DevTools (November 2026)
+													138 button See all new features
+													139 heading DevTools for agents, Value: 3
+														140 link DevTools for agents, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#mcp
+															141 text DevTools for agents
+													142 container
+														143 text Inspect matched rules, inherited styles, pseudo-elements, and  @  rules with the  get_css_styles  tool in Chrome DevTools for agents. You can also manage server flags with a configuration file and parse large performance traces with chunked trace buffer parsing.
+													144 heading Visual position-area editor for CSS anchor positioning, Value: 3
+														145 link Visual position-area editor for CSS anchor positioning, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#sources
+															146 text Visual position-area editor for CSS anchor positioning
+													147 container
+														148 text Click the inline swatch next to a  position-area  declaration in the  Styles  tab to visually select anchor grid regions, configure axis modes, and toggle the  self  keyword. Right-click  popover  adorners in the DOM tree to disambiguate multiple implicit anchors.
+													149 heading Web Install manifest diagnostics and ad script provenance, Value: 3
+														150 link Web Install manifest diagnostics and ad script provenance, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#web-install-manifest-diagnosti
+															151 text Web Install manifest diagnostics and ad script provenance
+													152 container
+														153 text Diagnose Web Install ( navigator.install  and  <install> ) manifest errors in the  Issues  panel with direct links to affected manifests. In the  Application  panel's  Ads  section, use the new  Ad provenance  column to see whether script ancestry or a filter list rule tagged an ad script.
+							154 text Network data available
+	155 close button
+	156 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	157 minimise button
+	158 text DevTools - boldstonesculpture.…paign=pinterest_consent_check
+159 menu bar
+	160 Chrome
+	161 File
+	162 Edit
+	163 View
+	164 History
+	165 Bookmarks
+	166 Profiles
+	167 Tab
+	168 Window
+	169 Help
+
+The focused UI element is 41 button Clear network log - Ctrl L - ⌘ K

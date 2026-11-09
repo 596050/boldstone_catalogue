@@ -1,0 +1,408 @@
+Window: "Feed | LinkedIn", App: Google Chrome.
+0 standard window Feed | LinkedIn - High memory usage - 1.8 GB - Google Chrome – Tom, URL: …, Secondary Actions: Raise
+	1 container Feed | LinkedIn - High memory usage - 1.8 GB - Google Chrome – Tom, URL: …
+		2 container
+			3 toolbar
+				4 button Back
+				5 button Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: linkedin.com/feed/foryou/, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Feed | LinkedIn, URL: …
+						26 container
+							27 heading 1 notification, Value: 2
+								28 text 1 notification
+							29 container
+								30 text Post successful.
+								31 link View post, Value: linkedin.com/feed/update/urn:li:activity:7525172525220147200/
+								32 button Dismiss
+							33 container Skip navigation menu
+								34 container
+									35 button Skip to search
+									36 button Skip to main content
+									37 button Skip to sidebar
+									38 button Skip to primary content
+									39 button Skip to aside
+									40 button Close jump menu
+							41 button LinkedIn
+							42 container
+								43 container
+									44 text field (settable) Search
+							45 content list
+								46 button Home, 1 new notification
+								47 link Network, 0 new notifications, Value: linkedin.com/mynetwork
+								48 link Jobs, 0 new notifications, Value: linkedin.com/jobs/
+								49 link Messaging, 0 new notifications, Value: linkedin.com/messaging/
+								50 link Notifications, 6 new notifications, Value: linkedin.com/notifications/
+								51 button Me
+							52 content list
+								53 button For Business
+							54 button Try Premium for £0
+							55 container
+								56 container Sidebar
+									57 container
+										58 link linkedin.com/in/sally-price-1193858a/
+										59 link View Sally Price’s profile, Value: linkedin.com/in/sally-price-1193858a/
+										60 link Boldstone Sculpture, Value: linkedin.com/in/sally-price-1193858a/
+										61 container Secondary Actions: Cancel
+											62 link Profile viewers 28, Value: linkedin.com/me/profile-views/
+											63 link Post impressions 51, Value: linkedin.com/analytics/creator/content/
+										64 container Secondary Actions: Cancel
+											65 text My pages (2)
+											66 link Boldstone Sculpture, Value: linkedin.com/company/70378664/admin/
+											67 link Activity 0, Value: linkedin.com/company/70378664/admin/notifications/
+											68 link Boldstone LLC, Value: linkedin.com/company/106497936/admin/
+											69 link Activity 0, Value: linkedin.com/company/106497936/admin/notifications/
+											70 text Grow your business faster
+											71 button Try Premium Page
+											72 link Advertise on LinkedIn, Value: linkedin.com/campaignmanager/accounts/
+										73 container Secondary Actions: Cancel
+											74 link Saved items, Value: linkedin.com/my-items/saved-posts/
+											75 link Groups, Value: linkedin.com/groups/
+											76 link Newsletters, Value: linkedin.com/mynetwork/network-manager/newsletters/
+											77 link Events, Value: linkedin.com/events/
+								78 container Primary content
+									79 container
+										80 button For you, 1 of 2, selected
+										81 button Network, 2 of 2
+									82 content list
+										83 container
+											84 link linkedin.com/in/sally-price-1193858a/
+											85 button Start a post
+											86 button Video
+											87 button Photo
+											88 link Write article, Value: linkedin.com/article/new/
+										89 button Sort by: Top
+										90 container
+											91 heading Feed post, Value: 2
+												92 text Feed post
+											93 link linkedin.com/in/sally-price-1193858a/
+											94 link Sally Price You, Value: linkedin.com/in/sally-price-1193858a/
+											95 text Sculptor at Boldstone Sculpture | Bespoke wall sculpture, reliefs and water features for interiors, gardens and architecture | Working with designers and architects since 1998
+											96 text now
+											97 link Sally Price You, Value: linkedin.com/in/sally-price-1193858a/
+											98 button Open control menu for post by Sally Price
+											99 text A conversation between a spiral and an open curve. Soundwave Rhythm - White Soundwave Rhythm balances a compact curled form on one side with a broad, open sweep on the other. A lightly textured white surface connects the two, while the projecting contours give the design its rhythm. It is a single rectangular sculpture, even where the composition suggests a pair of movements. Dimensions: 80 × 60 cm; approximately 6 cm deep. Handmade from a gypsum-based material, suitable for indoor and outdoor display. One individually described sculpture is supplied. All designs can be customised, and completely new commissions can be developed with me, designer Sally Price. Private clients, interior designers, garden designers and architects are welcome to enquire. See the sculpture, current price and further photographs:
+											100 link Open https://lnkd.in/eVxscZZg, Value: linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FeVxscZZg&urlhash=83vl&mt=f1FupHLr-gXd4W_yWWQTF_JYqFC4fZ0O50f4OCzHcUILvR0K9j1xE-VyH5gGMYfBdymNoRIq1ZPt2XNJryz0TCAEl-Nf54upg405d-1zRWdr7n7XfDQMmHzGtg8qMAaKxWKZDm9b1vjmcUO0CgOCPXe_fLhUzZmQgjubsasBww3l-qfrP0Zv98KsxD13G53DAJqF_KKQoB5o53FmuLNVewcJU3f6cg&isSdui=true
+											101 link View hashtag: #boldstonesculpture, Value: linkedin.com/search/results/all/?keywords=%23boldstonesculpture&origin=HASH_TAG_FROM_FEED
+											102 link View hashtag: #wallsculpture, Value: linkedin.com/search/results/all/?keywords=%23wallsculpture&origin=HASH_TAG_FROM_FEED
+											103 link View hashtag: #interiordesign, Value: linkedin.com/search/results/all/?keywords=%23interiordesign&origin=HASH_TAG_FROM_FEED
+											104 link View hashtag: #gardendesign, Value: linkedin.com/search/results/all/?keywords=%23gardendesign&origin=HASH_TAG_FROM_FEED
+											105 link View hashtag: #sallyprice, Value: linkedin.com/search/results/all/?keywords=%23sallyprice&origin=HASH_TAG_FROM_FEED
+											106 link linkedin.com/feed/foryou/
+											107 link Switch to different account, Value: linkedin.com/feed/foryou/
+											108 button Reaction button state: no reaction
+											109 button Open reactions menu
+											110 button Comment
+											111 button Repost
+											112 link Send, Value: linkedin.com/feed/foryou/
+										113 container
+											114 heading Feed post, Value: 2
+												115 text Feed post
+											116 link linkedin.com/in/denisa-popovici-47a054173/
+											117 text Followed by
+											118 link View Denisa Popovici’s profile, Value: linkedin.com/in/denisa-popovici-47a054173/
+											119 button Open control menu for post by Naomi Samir
+											120 button Hide post by Naomi Samir
+											121 link linkedin.com/in/neama-ahmed92/
+											122 link Naomi Samir Premium Profile 2nd, Value: linkedin.com/in/neama-ahmed92/
+											123 text AI Design Specialist | Interior Designer | Instructor | Architect
+											124 text 2d • Edited
+											125 link Naomi Samir Premium Profile 2nd, Value: linkedin.com/in/neama-ahmed92/
+											126 button Follow Naomi Samir
+											127 text AI Workflows | AI for Landscape design P5  ✨  One base sketch, translated into a full visual package through an AI workflow: • Realistic Aerial render that keeps the original layout intact • Eye-level perspective at human scale • Architectural concept diagram • A short animation bringing life to the café pavilion , keeping design consistency as a main key ! A new way of presenting and discussing ideas in early stage design with the clients , much better than still photos Concept and visuals created using GPT image and Nanobanana inside
+											128 link View company: FLORA, Value: linkedin.com/company/floraai/
+											129 text Video generated using Seedance 2.5
+											130 text *
+											131 text Base image attached in comments
+											132 text . . .
+											133 text #ai
+											134 text #aiart
+											135 text #aiartist
+											136 text #aicommunnity
+											137 text #aifordesign
+											138 text #aicommunity
+											139 text #LandscapeArchitecture
+											140 text #ArchitecturalVisualization
+											141 text #aiarchitecturalvisualization
+											142 container Video Player
+												143 text 1.10
+											144 link Switch to different account, Value: linkedin.com/
+											145 button Reaction button state: no reaction
+											146 button Open reactions menu
+											147 button Comment
+											148 button Repost
+											149 link Send, Value: linkedin.com/
+											150 link 241 reactions, Value: linkedin.com/
+										151 text Only connections can comment on this post. You can still react or share it.
+										152 container
+											153 heading Feed post, Value: 2
+												154 text Feed post
+											155 link linkedin.com/in/jonathan-devenish-b5b5bb1a9/
+											156 link View Jonathan Devenish’s profile, Value: linkedin.com/in/jonathan-devenish-b5b5bb1a9/
+											157 text likes this
+											158 button Open control menu for post by Sushma M.
+											159 button Hide post by Sushma M.
+											160 link View group: Brain Expansion Group, Value: linkedin.com/groups/13927028/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7524955781436284928
+											161 link Sushma M. Verified Profile 3rd+, Value: linkedin.com/groups/13927028/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7524955781436284928
+											162 container
+												163 text Sushma M.  • 3rd+
+											164 text 1d
+											165 link Sushma M. Verified Profile 3rd+, Value: linkedin.com/groups/13927028/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7524955781436284928
+											166 button Join Brain Expansion Group
+											167 text 3D techniques 😂
+											168 button Show translation
+											169 link linkedin.com/
+											170 button Reaction button state: no reaction
+											171 button Open reactions menu
+											172 button Comment
+											173 button Repost
+											174 link Send, Value: linkedin.com/
+											175 link 2,035 reactions, Value: linkedin.com/
+										176 container
+											177 heading Feed post, Value: 2
+												178 text Feed post
+											179 link linkedin.com/in/alissa-a-m-johnson-a5a22814/
+											180 link Alissa A.M. Johnson, Open to work Premium Profile 3rd+, Value: linkedin.com/in/alissa-a-m-johnson-a5a22814/
+											181 text Architect + Designer | Interior Design, Brand & Visual Identity | Freelance Consulting | AIA, Fitwel Ambassador
+											182 text 1d • Edited
+											183 link Alissa A.M. Johnson, Open to work Premium Profile 3rd+, Value: linkedin.com/in/alissa-a-m-johnson-a5a22814/
+											184 button Follow Alissa A.M. Johnson
+											185 button Open control menu for post by Alissa A.M. Johnson
+											186 button Hide post by Alissa A.M. Johnson
+											187 text In architecture school, I used to bring a whole building idea to a desk crit. In my head. I had so much to tell my studio professor. And almost nothing physical for them to react to. Years later, I learned there’s a name for part of this. Psychologists call it the illusion of explanatory depth: we feel we understand something until we try to explain it, or draw it, and the gaps show up. The head version cheats. The stair just works. The corner just resolves. It never has to pass a test. Paper doesn’t let you skip. Donald Schön, who studied how architects think, described design as a conversation: you make a move, and the drawing talks back. That’s why the first lines of a drawing always feel wrong. They’re the first honest answer the idea gets. An idea in your head can’t fail. Drawing it means trading perfect potential for something flawed and real. Back then, that felt like failing. Sometimes it still does. But it's actually the start of the design. I think about this far beyond design now. The email I haven’t sent. The concern I haven’t raised. The question I’m still polishing. The job role I haven't tried. If it lives only in my head, no one knows I’m thinking it. Make it exist first. You can make it good later. What’s sitting in your head right now that could start a conversation, if people could see it?
+											188 link View hashtag: #design, Value: linkedin.com/search/results/all/?keywords=%23design&origin=HASH_TAG_FROM_FEED
+											189 link View hashtag: #architecture, Value: linkedin.com/search/results/all/?keywords=%23architecture&origin=HASH_TAG_FROM_FEED
+											190 link View hashtag: #creativeprocess, Value: linkedin.com/search/results/all/?keywords=%23creativeprocess&origin=HASH_TAG_FROM_FEED
+											191 text (Drawing: a perspective from Rome Studio, Iowa State University / Rome, Italy 2005)
+											192 link linkedin.com/sharing/compose
+											193 link Switch to different account, Value: linkedin.com/sharing/compose
+											194 button Reaction button state: no reaction
+											195 button Open reactions menu
+											196 button Comment
+											197 button Repost
+											198 link Send, Value: linkedin.com/sharing/compose
+											199 link 361 reactions, Value: linkedin.com/sharing/compose
+										200 container
+											201 heading Feed post, Value: 2
+												202 text Feed post
+											203 text Try LinkedIn Ads Build your brand and drive quality leads. Spend €200 to get an extra €200 on us.
+											204 link Claim offer, Value: linkedin.com/campaignmanager/claim-promo/?incentiveId=7475992670872551424&mcid=7369886489926823937&src=li-gmp
+											205 button View more options
+											206 link linkedin.com/campaignmanager/claim-promo/?incentiveId=7475992670872551424&mcid=7369886489926823937&src=li-gmp
+										207 container
+											208 heading Feed post, Value: 2
+												209 text Feed post
+											210 link linkedin.com/in/phil-stovell-665ab522/
+											211 link Phil Stovell Premium Profile 1st, Value: linkedin.com/in/phil-stovell-665ab522/
+											212 text Designing exceptional gardens & landscapes 
+											213 text 2d
+											214 link Phil Stovell Premium Profile 1st, Value: linkedin.com/in/phil-stovell-665ab522/
+											215 button Open control menu for post by Phil Stovell
+											216 button Hide post by Phil Stovell
+											217 text One of the best clients I've worked with was a retired engineer who could have done a lot of the job himself. He understood drainage better than most contractors I meet. Cables, levels, falls, none of it troubled him. What he said, quite plainly, was that soil and plants weren't his area, and he'd rather get that part right than learn it in his own garden. I've thought about that since. The people who end up with the best gardens aren't usually the ones who know least. They're the ones who can say which part is theirs, and hand over the rest properly. It's the same skill as in any business: knowing what to do yourself and what to bring in.
+											218 link View hashtag: #gardendesign, Value: linkedin.com/search/results/all/?keywords=%23gardendesign&origin=HASH_TAG_FROM_FEED
+											219 link View hashtag: #somerset, Value: linkedin.com/search/results/all/?keywords=%23somerset&origin=HASH_TAG_FROM_FEED
+											220 link View hashtag: #projectmanagement, Value: linkedin.com/search/results/all/?keywords=%23projectmanagement&origin=HASH_TAG_FROM_FEED
+											221 link linkedin.com/sharing/compose
+											222 link Switch to different account, Value: linkedin.com/sharing/compose
+											223 button Reaction button state: no reaction
+											224 button Open reactions menu
+											225 button Comment
+											226 button Repost
+											227 link Send, Value: linkedin.com/sharing/compose
+											228 link 10 reactions, Value: linkedin.com/sharing/compose
+										229 container
+											230 heading Feed post, Value: 2
+												231 text Feed post
+											232 link linkedin.com/in/lucy-acton-3a1b92173/
+											233 link Lucy Acton 1st, Value: linkedin.com/in/lucy-acton-3a1b92173/
+											234 text Associate Director at AGC
+											235 text 4d
+											236 link Lucy Acton 1st, Value: linkedin.com/in/lucy-acton-3a1b92173/
+											237 button Open control menu for post by Lucy Acton
+											238 button Hide post by Lucy Acton
+											239 text I’m happy to share that I’m starting a new position as Associate Director at
+											240 link View company: AGC, Value: linkedin.com/company/agofc/
+											241 text !
+											242 link linkedin.com/sharing/compose
+											243 link Starting a new position, Value: linkedin.com/feed/update/urn:li:activity:7523692387282595841/
+											244 link Switch to different account, Value: linkedin.com/sharing/compose
+											245 button Reaction button state: no reaction
+											246 button Open reactions menu
+											247 button Comment
+											248 button Repost
+											249 link Send, Value: linkedin.com/sharing/compose
+											250 link 46 reactions, Value: linkedin.com/sharing/compose
+											251 container
+												252 content list
+													253 button Congratulations! 🎉
+														254 container
+															255 Tick box Congratulations! 🎉, Value: 0
+															256 text Congratulations! 🎉
+													257 button 🎉🎉🎉
+														258 container
+															259 Tick box 🎉🎉🎉, Value: 0
+															260 text 🎉🎉🎉
+													261 button Wishing you the best
+														262 container
+															263 Tick box Wishing you the best, Value: 0
+															264 text Wishing you the best
+													265 button 🎉 Excited for you
+														266 container
+															267 Tick box 🎉 Excited for you, Value: 0
+															268 text 🎉 Excited for you
+													269 button 👏 Well deserved, Lucy
+														270 container
+															271 Tick box 👏 Well deserved, Lucy, Value: 0
+															272 text 👏 Well deserved, Lucy
+												273 button Next
+								274 container Aside
+									275 container
+										276 text LinkedIn News
+										277 button Info tooltip
+										278 text Top stories
+										279 link Canva's exit package sparks wider conversation on layoffs 1d ago • 8,642 readers, Value: linkedin.com/news/story/canvas-exit-package-sparks-wider-conversation-on-layoffs-9616234/
+										280 link No more 'competitive salary': job ads to include pay 2d ago • 1,538 readers, Value: …
+										281 link Pineapple-on-pizza dispute reaches workplace tribunal 1d ago • 1,093 readers, Value: …
+										282 link London faces Tube strikes in Christmas period 1d ago • 1,025 readers, Value: …
+										283 link Dior's holiday ad faces questions over AI 1d ago • 893 readers, Value: …
+										284 button Show more news
+									285 container
+										286 text Today’s puzzles
+										287 link Play Zip, Value: linkedin.com/games/zip/
+										288 link Play Wend, Value: …
+										289 link Play Patches, Value: …
+										290 link Play Mini Sudoku, Value: …
+										291 button Show more
+									292 container
+										293 link About, Value: …
+										294 link Accessibility, Value: …
+										295 link Help Center, Value: …
+										296 button Privacy & Terms
+										297 link Ad Choices, Value: …
+										298 link Advertising, Value: …
+										299 button Business Services
+										300 link Get the LinkedIn app, Value: …
+										301 link More, Value: …
+										302 text LinkedIn Corporation © 2026
+							303 container
+								304 container
+									305 container
+										306 image Sally Price
+										307 text Status is online
+										308 button You are on the messaging overlay. Press enter to open the list of conversations.
+									309 container
+										310 button Open messenger dropdown menu
+										311 button Compose message
+										312 button You are on the messaging overlay. Press enter to open the list of conversations.
+									313 heading Page inboxes, Value: 3
+										314 text Page inboxes
+									315 text Click to see affiliated inboxes
+									316 button Page inboxes
+								317 container Messaging
+									318 container
+										319 image Fisher Investments UK
+										320 heading Fisher Investments UK, Value: 2
+											321 text Fisher Investments UK
+										322 button Close your conversation with and Sally Price
+										323 container
+											324 text Sponsored Nov 7
+											325 heading Don’t Risk Outliving Your Money, Value: 3
+												326 text Don’t Risk Outliving Your Money
+											327 link Download
+												328 text Download
+											329 container
+												330 link Fisher Investments UK Fisher Investments UK, Value: …
+												331 text Hi Sally, Many people underestimate how long their retirement could last—and just how big a bite inflation can take from their savings along the way. Read Fisher Investments UK guide and ongoing insights for tips to keep your £250k+ portfolio working for you for as long as you need it.
+												332 link Download
+													333 text Download
+												334 button Not interested
+								335 container AI-powered assistant to get help with your career, jobs etc
+							336 HTML content (6) LinkedIn, URL: …
+								337 container
+									338 container Toast message
+										339 heading 0 notifications total, Value: 2
+											340 text 0 notifications total
+									341 container
+										342 button Skip to search
+										343 button Skip to main content
+										344 button Keyboard shortcuts
+										345 button Close jump menu
+									346 container Global Navigation
+										347 link LinkedIn, Value: …
+										348 container
+											349 combo box (settable) Search
+										350 container Primary Navigation
+											351 content list
+												352 link Home, Value: …
+												353 link Network, Value: …
+												354 link Jobs, Value: …
+												355 link Messaging, Value: …
+												356 link 6 new notifications Notifications, Value: …
+												357 button Sally Price Me
+												358 button For Business
+												359 link Try Premium for £0, Value: …
+			360 pop-up button Tab search
+			361 container
+				362 tab group
+					363 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					364 tab group  group ✅Claude – 1 Tab, •  Your Instagram is connected – view your Pinter… – Expanded
+					365 tab (settable, boolean) Value: off, Your Instagram is connected – view your Pinterest board - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 801 MB
+					366 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					367 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					368 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					369 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					370 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					371 tab (settable, boolean) SEO opportunity audit, Value: off
+					372 tab group  group ✅Claude – 2 Tabs, •  Inbox (113) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					373 tab (settable, boolean) Inbox (113) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude, Value: off
+					374 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | Did you experience issues with any of the followin… – Part of group ✅Claude
+					375 tab (settable, boolean) Drafts (1,332) - tppricet@gmail.com - Gmail, Value: off
+					376 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					377 tab (settable, boolean) Portela Nova | A slower kind of stay, Value: off
+					378 tab (settable, boolean) Bookmarks, Value: off
+					379 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					380 tab (selected, settable, boolean) Feed | LinkedIn - High memory usage - 1.8 GB, Value: on
+						381 button Close
+			382 button New tab
+	383 close button
+	384 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	385 minimise button
+386 menu bar
+	387 Chrome
+	388 File
+	389 Edit
+	390 View
+	391 History
+	392 Bookmarks
+	393 Profiles
+	394 Tab
+	395 Window
+	396 Help
+
+The focused UI element is 25 HTML content Feed | LinkedIn, URL: …

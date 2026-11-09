@@ -1,0 +1,36 @@
+✔ similarity includes all filtered images before pagination, keeps every image, and invalidates on filter change (20.030459ms)
+✔ multi sort groups before similarity; later criteria order anchors and ties (2.962208ms)
+✔ close confirmed bulk dialog while queue response is pending; background job is retained and new dialog is not replaced (1.8615ms)
+✔ single deletion response cannot close a subsequently opened bulk dialog (0.847375ms)
+✔ lost queue response discovers committed job without retrying deletion (0.740416ms)
+✔ late background gallery refresh never overwrites a different product or unsaved edits (1.537ms)
+✔ closing bulk deletion uses no navigation/unload blocker (0.738084ms)
+✔ mixed selection shows queued original and reviews only the free file (1.455791ms)
+✔ single busy original shows existing job instead of another delete form (0.984209ms)
+✔ selection containing only busy files cannot offer a zero-file confirmation (0.932792ms)
+✔ closed deletion preflight cannot overwrite a new dialog (1.025458ms)
+✔ uncertain job becoming completed refreshes again and clears deleted selection (0.804041ms)
+✔ jobs loading state does not briefly claim no jobs exist and concurrent polls await one request (0.934708ms)
+✔ lost queue response checks fresh status when a prior poll predates the commit (0.750792ms)
+✔ failed preflight offers retry and never presents a deletion confirmation (0.904792ms)
+✔ filename progress distinguishes verified files from the current pending batch (39.356542ms)
+✔ completed filename progress remains visible after writer reservation is released (0.921417ms)
+✔ filename progress updates while deletion File results are expanded without replacing them (0.678167ms)
+✔ expanded deletion results keep updating without losing expansion, focus or scroll (1.070166ms)
+✔ stopped filename worker is attention, not an active running job (0.652584ms)
+✔ poll failure visibly marks cached job results as stale and success clears it (0.707958ms)
+✔ bulk saves keep their original sculpture even if the user navigates (4.586834ms)
+✔ a partial bulk failure keeps only unsuccessful items selected (1.167167ms)
+✔ finishing a specification save after navigation leaves the new page untouched (1.052542ms)
+✔ removed and unreviewed choices do not inflate listing totals (0.777875ms)
+✔ No component chosen filter includes related-only family candidates (0.720167ms)
+✔ unchecking Listing also unchecks Primary while retaining Ads (2.822417ms)
+✔ returning a primary image to Not reviewed clears its primary choice (0.853833ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 130.892334

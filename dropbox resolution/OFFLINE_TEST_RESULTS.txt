@@ -1,0 +1,31 @@
+BOLDSTONE LOCAL HANDOVER: OFFLINE TEST RESULTS
+
+Observed: 14 October 2026
+Command: python -m unittest discover -s tests -v
+Scope: supplied offline bootstrap, hash helper, fixed scopes and historical-state import only.
+Remote Dropbox calls: 0
+Production executor / API / image-processing / visual-review tests: not implemented or executed by this handover.
+
+test_empty (test_offline.HashTests.test_empty) ... ok
+test_exact_block (test_offline.HashTests.test_exact_block) ... ok
+test_multiple_blocks (test_offline.HashTests.test_multiple_blocks) ... ok
+test_short_reads (test_offline.HashTests.test_short_reads) ... ok
+test_small (test_offline.HashTests.test_small) ... ok
+test_exact_order (test_offline.PackageTests.test_exact_order) ... ok
+test_no_deletion_or_bmp_id_duplicates (test_offline.PackageTests.test_no_deletion_or_bmp_id_duplicates) ... ok
+test_no_metadata_id_duplicates (test_offline.PackageTests.test_no_metadata_id_duplicates) ... ok
+test_safe_member (test_offline.PackageTests.test_safe_member) ... ok
+test_saved_states_not_overwritten (test_offline.PackageTests.test_saved_states_not_overwritten) ... ok
+test_scope_counts (test_offline.PackageTests.test_scope_counts) ... ok
+test_supplemental_row_counts (test_offline.PackageTests.test_supplemental_row_counts) ... ok
+test_append_only_event (test_offline.StateTests.test_append_only_event) ... ok
+test_existing_db_refused (test_offline.StateTests.test_existing_db_refused) ... ok
+test_foreign_keys_and_integrity (test_offline.StateTests.test_foreign_keys_and_integrity) ... ok
+test_immutable_members (test_offline.StateTests.test_immutable_members) ... ok
+test_import_counts (test_offline.StateTests.test_import_counts) ... ok
+test_import_does_not_claim_current_namespace (test_offline.StateTests.test_import_does_not_claim_current_namespace) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 2.202s
+
+OK

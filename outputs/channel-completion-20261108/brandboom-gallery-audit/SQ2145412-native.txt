@@ -1,0 +1,338 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: Boldstone Frozen Fish Relief - Verdigris Finish Wall sculpture, Placeholder: Search Products
+									48 link
+								49 button 1
+									50 container
+										51 Tick box 1
+									52 text 1
+								53 container
+									54 text 1  /  1
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container Boldstone Frozen Fish Relief - Verdigris Finish Wall sculpture SQ2145412 VERDIGRIS-GREEN SURFACE EFFECT 121.98 GBP
+										64 container
+											65 Unlabelled image /0003470592953596_M.avif
+											66 text Boldstone Frozen Fish Relief - Verdigris Finish Wall sculpture
+											67 text SQ2145412 VERDIGRIS-GREEN SURFACE EFFECT
+											68 container
+												69 text 121.98  GBP
+							70 container
+								71 content list
+									72 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								73 container
+									74 heading Presentations, Value: 5
+										75 text Presentations
+									76 button New
+									77 content list
+										78 link ALL, Value: manage.brandboom.com/products/s/111089#
+										79 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									80 container
+										81 link
+											82 image
+										83 search text field (settable) Search Presentations
+										84 link
+											85 image
+									86 container
+										87 text Wall Sculptures - 50 Preview
+										88 link Edit Name
+											89 image
+										90 link Duplicate
+											91 image
+										92 text GBP
+										93 link
+											94 image
+								95 heading Ship Windows, Value: 5
+									96 text Ship Windows
+								97 content list
+									98 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									99 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								100 text No active ship windows
+							101 container
+								102 button Cancel
+								103 button Select All
+								104 text 1 Item
+								105 button Search Order
+							106 link Reset
+								107 text Reset
+							108 button Apply
+							109 text PRODUCT STATUS
+							110 text Active
+							111 text Inactive
+							112 text Archived
+							113 text Corrupted
+							114 text No Images
+							115 text SORT BY
+							116 pop-up button Newest First
+								117 (selected) Newest First
+							118 text SHIP DATE RANGE
+							119 container
+								120 image
+								121 text field (settable) Click to select range
+							122 text No Date Range
+							123 text CREATE DATE RANGE
+							124 container
+								125 image
+								126 text field (settable) Click to select range
+							127 text SIZES
+							128 text field (settable) S, M, L
+							129 text VENDORS
+							130 text Boldstone
+							131 text TYPES
+							132 link
+								133 image
+							134 text No Types
+							135 text Home Decor
+							136 text Mens
+							137 text Womens
+							138 text CATEGORIES
+							139 link
+								140 image
+							141 link
+								142 image
+							143 text No Categories
+							144 text Sweater
+							145 text Wall Sculpture
+							146 text SEASONS
+							147 link
+								148 image
+							149 link
+								150 image
+							151 text No Seasons
+							152 text Year-round
+							153 container
+								154 container
+									155 Tick box Create another, Value: 0
+									156 text Create another
+								157 button Save
+								158 container
+									159 Unlabelled image /0003470592953596_M.avif
+									160 container
+										161 image /0003470592953596_S.avif
+										162 button STANDARD
+										163 image /00034705930785AE_S.avif
+										164 button STANDARD
+										165 image /000347059315BDC9_S.avif
+										166 button STANDARD
+										167 image /00034705932ABA23_S.avif
+										168 button STANDARD
+										169 image
+										170 image
+									171 image
+									172 text 4 / Unlimited
+									173 image
+									174 text 0 / 1
+									175 text Drag to reorder
+									176 container
+										177 text Style ID *
+										178 text SQ2145412
+									179 container
+										180 text Options
+										181 link Verdigris-green surface effect
+											182 text Verdigris-green surface effect
+									183 container
+										184 text Sizes
+										185 text One sculpture
+									186 text Barcode
+									187 container
+										188 button
+										189 text field (settable)
+									190 text Name
+									191 text field (settable) Boldstone Frozen Fish Relief - Verdigris Finish Wall sculpture
+									192 container Price
+										193 container
+											194 text Price
+											195 text field (settable) Value: 121.98, Placeholder: Enter
+									196 container Retail
+										197 container
+											198 text Retail
+											199 text field (settable) Value: 0.00, Placeholder: Enter
+									200 text Qty Min
+									201 text field (settable) 1
+									202 text Vendor
+									203 text field (settable) Boldstone
+									204 text Type
+									205 text field (settable) Home Decor
+									206 text Category
+									207 text field (settable) Wall Sculpture
+									208 text Taxonomy
+									209 text field (settable) Value: Home Decor / Wall Decor / Wall Art, Placeholder: Select
+									210 text Season
+									211 text field (settable) Year-round
+									212 text Ship Date
+									213 text field (settable)
+									214 container
+										215 text HS Code
+										216 text field (settable) HS Code
+									217 container Country Of Origin
+										218 container
+											219 text Country Of Origin
+											220 button -
+									221 container
+										222 text Description
+										223 container
+											224 text A sequence of fish-like forms creates a striking rhythm along the relief. The design holds the suggestion of movement in a still composition, with each raised detail catching the light.
+											225 text A playful connection to the water, equally at home in a coastal-inspired interior or a calm outdoor corner.
+											226 text A verdigris-effect finish adds sea-green colour and a weathered visual character.
+											227 text Brand: Boldstone
+											228 text Product type: Wall sculpture
+											229 text Model: Frozen Fish Relief - Verdigris Finish (SQ2145412)
+											230 text Colour / appearance: Verdigris-green surface effect
+											231 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											232 text Material: Made from a gypsum-based material.
+											233 text Surface effect: A decorative surface effect is applied to create the finish shown. Each piece is handmade. The surface-effect pattern will vary and will differ from the photographs.
+											234 text Dimensions: 70 cm high × 15 cm wide × 7 cm deep
+											235 text Weight: Approximately 5 kg (range 3–7 kg)
+											236 text Use: Suitable for outdoor use and indoor display.
+											237 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											238 text Availability: Ready to dispatch
+											239 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											240 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											241 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							242 link
+								243 image
+							244 container
+								245 content list
+									246 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									247 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								248 container
+									249 button Upload Images
+									250 button
+									251 button
+									252 button
+								253 container
+									254 Unlabelled image /000347368438D172_S.avif
+									255 text file.jpg
+									256 Unlabelled image /00011059388E43A7_S.avif
+									257 text toys-dinosaur
+									258 Unlabelled image /00011059387A69BA_S.avif
+									259 text baby-kidswear-t
+									260 Unlabelled image /000110593863557B_S.avif
+									261 text pet-sticks
+									262 Unlabelled image /00011059385C1D4E_S.avif
+									263 text apparel-t-shirt
+									264 Unlabelled image /00011059384494BB_S.avif
+									265 text footwear-shoes
+									266 Unlabelled image /000110593837D96A_S.avif
+									267 text beauty-cream
+									268 Unlabelled image /00011059382B4683_S.avif
+									269 text home-pitcher
+									270 Unlabelled image /00007087863E986B_S.avif
+									271 text BOOM1111
+									272 Unlabelled image /0000022409830BD3_S.avif
+									273 text BOOM1830
+									274 Unlabelled image /00000224097C30D6_S.avif
+									275 text BOOM1705
+									276 Unlabelled image /00000224096AD0BE_S.avif
+									277 text BOOM1100
+							278 button Close
+							279 text Search Products
+							280 button Scan barcodes
+							281 container
+								282 link
+									283 image
+								284 search text field (settable) Search for Products
+							285 text RESULTS
+							286 button Open Intercom Messenger
+			287 pop-up button Tab search
+			288 container
+				289 tab group
+					290 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					291 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					292 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					293 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					294 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					295 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					296 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					297 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					298 tab (settable, boolean) SEO opportunity audit, Value: off
+					299 tab group  group ✅Claude – 2 Tabs, •  Inbox (113) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					300 tab (settable, boolean) Value: off, Inbox (113) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1.1 GB
+					301 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					302 tab (settable, boolean) Drafts (1,333) - tppricet@gmail.com - Gmail, Value: off
+					303 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					304 tab (settable, boolean) Bookmarks, Value: off
+					305 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					306 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					307 tab (settable, boolean) Boldstone Sculpture | Wall Sculptures - 50 Preview, Value: off
+					308 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					309 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						310 button Close
+					311 tab (settable, boolean) 000347063570B5C6_M.avif (600×600), Value: off
+			312 button New tab
+	313 close button
+	314 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	315 minimise button
+316 menu bar
+	317 Chrome
+	318 File
+	319 Edit
+	320 View
+	321 History
+	322 Bookmarks
+	323 Profiles
+	324 Tab
+	325 Window
+	326 Help
+
+The focused UI element is 63 container Boldstone Frozen Fish Relief - Verdigris Finish Wall sculpture SQ2145412 VERDIGRIS-GREEN SURFACE EFFECT 121.98 GBP

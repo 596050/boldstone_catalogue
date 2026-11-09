@@ -1,0 +1,346 @@
+Window: "DevTools - boldstonesculpture.…paign=pinterest_consent_check", App: Google Chrome.
+0 standard window Secondary Actions: Raise, DevTools - boldstonesculpture.com/buy/p/brancusi-totem-white?utm_source=qa&utm_medium=test&utm_campaign=pinterest_consent_check (Incognito), URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true
+	1 container DevTools - boldstonesculpture.com/buy/p/brancusi-totem-white?utm_source=qa&utm_medium=test&utm_campaign=pinterest_consent_check (Incognito), URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true
+		2 container
+			3 container
+				4 scroll area
+					5 HTML content DevTools, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true
+						6 container
+							7 container
+								8 container
+									9 container Main toolbar
+										10 toolbar
+											11 container Select an element in the page to inspect it, Help: Select an element in the page to inspect it - ⌘ ⇧ C
+												12 toggle button Select an element in the page to inspect it - ⌘ ⇧ C, Value: 0
+											13 container Toggle device toolbar, Help: Toggle device toolbar - ⌘ ⇧ M
+												14 toggle button Toggle device toolbar - ⌘ ⇧ M, Value: 0
+										15 container
+											16 tab group Panels
+												17 tab (settable, integer) Console, Value: 0
+												18 tab (settable, integer) Elements, Value: 0
+												19 tab (settable, integer) Application, Value: 0
+												20 tab (selected) Network, Value: 1
+											21 pop-up button More tabs
+										22 toolbar
+											23 container
+												24 container Open Console to view 17 errors, 8 warnings
+													25 button Open Console to view 17 errors, 8 warnings
+												26 container Open Issues to view 1 issue: 1 possible improvement
+													27 button Open Issues to view 1 issue: 1 possible improvement
+											28 button  AI assistance, Help: Open AI assistance panel
+											29 container Settings, Help: Settings - F1 - ⇧ ?
+												30 button Settings - F1 - ⇧ ?
+											31 pop-up button Customize and control DevTools
+												32 button Customize and control DevTools
+									33 container Network panel
+										34 container network
+											35 container
+												36 toolbar
+													37 container Stop recording network log, Help: Stop recording network log - ⌘ E
+														38 toggle button Stop recording network log - ⌘ E, Value: 1
+													39 container Clear network log, Help: Clear network log - Ctrl L - ⌘ K
+														40 button Clear network log - Ctrl L - ⌘ K
+													41 container Filter
+														42 toggle button Filter, Value: 1
+													43 container Search
+														44 toggle button Search, Value: 0
+													45 container
+														46 Tick box Keep log, Value: 1
+														47 text Keep log
+													48 container
+														49 Tick box Disable cache, Value: 1
+														50 text Disable cache
+													51 pop-up button Throttling, Value: Disabled: No throttling
+														52 (selected) Disabled: No throttling
+													53 container More network conditions…
+														54 button More network conditions…
+													55 container Import HAR file…
+														56 button Import HAR file…
+													57 container Export HAR (sanitized)…
+														58 button Export HAR (sanitized)…
+													59 container Network settings
+														60 toggle button Network settings, Value: 0
+												61 toolbar
+													62 container
+														63 text entry area (settable) Filter, Value: domain:ct.pinterest.com
+															64 text domain:ct.pinterest.com
+														65 container Clear
+															66 button Clear
+												67 container Inverts the search filter
+													68 Tick box Invert, Value: 0
+													69 text Invert
+												70 container Show only/hide requests dropdown
+													71 pop-up button Show only/hide requests
+														72 text More filters
+												73 list box Request types to include, Help: ⌘ Click to select multiple types
+													74 text (selected) All Fetch/XHR Doc CSS JS Font Img Media Manifest Socket Wasm Other
+												75 container Overview grid window
+													76 container
+														77 container
+															78 text 0 ms
+															79 text 50,000 ms
+															80 text 100,000 ms
+															81 text 150,000 ms
+															82 text 200,000 ms
+															83 text 250,000 ms
+															84 text 300,000 ms
+															85 text 350,000 ms
+															86 text 400,000 ms
+															87 text 450,000 ms
+													88 slider Left resizer, Value: 0, Details: 0 ms, Secondary Actions: Increment, Decrement
+													89 slider Right resizer, Value: 100, Details: 417,619 ms, Secondary Actions: Increment, Decrement
+												90 container
+													91 container
+														92 table
+															93 row
+																94 column header Name - Sortable column. Press enter to sort.
+																	95 text Name
+																96 column header Status - Sortable column. Press enter to sort.
+																	97 text Status
+																98 column header Type - Sortable column. Press enter to sort.
+																	99 text Type
+																100 column header Initiator - Sortable column. Press enter to sort.
+																	101 text Initiator
+																102 column header Size - Sortable column. Press enter to sort.
+																	103 text Size
+																104 column header Time - Sortable column. Press enter to sort.
+																	105 text Time
+															106 row
+																107 cell https://ct.pinterest.com/user/?tid=2612823030261&cb=1794173841418&dep=2%2CPAGE_LOAD
+																	108 image XHR
+																	109 text user/?tid=2612823030261&cb=1794173841418&dep=2%2CPAGE_LOAD
+																110 cell 200 OK
+																	111 text 200
+																112 cell
+																	113 text xhr
+																114 cell
+																	115 button
+																116 cell 0.4 kB transferred over network, resource size: 0.4 kB
+																	117 text 0.4 kB
+																118 cell
+																	119 text 143 ms
+															120 row
+																121 cell https://ct.pinterest.com/v3/?tid=2612823030261&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fboldstonesculpture.com%2Fbuy%2Fp%2Fbrancusi-totem-white%3Futm_source%3Dqa%26utm_medium%3Dtest%26utm_campaign%3Dpinterest_consent_check%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A982%2C%22sw%22%3A1512%2C%22mh%22%3A%2280c2b6ae%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22arm%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Not%3AA-Brand%22%2C%22version%22%3A%228%22%7D%2C%7B%22bra
+																	122 image Fetch
+																	123 text v3/?tid=2612823030261&event=init&ad=%7B%22loc%22%3…sion%22%3A%22156.0.8078.73%22%7D&cb=1794173841420
+																124 cell 200 OK
+																	125 text 200
+																126 cell
+																	127 text fetch
+																128 cell
+																	129 button
+																130 cell 0.4 kB transferred over network, resource size: 0.0 kB
+																	131 text 0.4 kB
+																132 cell
+																	133 text 133 ms
+															134 row
+																135 cell https://ct.pinterest.com/user/?event=pagevisit&ed=%7B%22currency%22%3A%22GBP%22%2C%22value%22%3A79.62%2C%22order_quantity%22%3A1%2C%22event_id%22%3A%22boldstone-1794173841467-1%22%2C%22line_items%22%3A%5B%7B%22product_id%22%3A%22467ac7b5-9295-450f-8f65-13d2fafdbc07%22%2C%22product_name%22%3A%22Brancusi%20Totem%20Relief%20-%20White%22%2C%22product_price%22%3A79.62%2C%22product_quantity%22%3A1%2C%22product_category%22%3A%22Wall%20Sculptures%22%2C%22product_brand%22%3A%22Boldstone%22%7D%5D%7D&tid=2612823030261
+																	136 image XHR
+																	137 text user/?event=pagevisit&ed=%7B%22currency%22%3A%22GB…030261&cb=1794173841467&dep=5%2CEVENT_TAGS_ABSENT
+																138 cell 200 OK
+																	139 text 200
+																140 cell
+																	141 text xhr
+																142 cell
+																	143 button
+																144 cell 0.4 kB transferred over network, resource size: 0.4 kB
+																	145 text 0.4 kB
+																146 cell
+																	147 text 93 ms
+															148 row
+																149 cell https://ct.pinterest.com/static/ct/token_create.js
+																	150 text token_create.js
+																151 cell 200 OK
+																	152 text 200
+																153 cell
+																	154 text script
+																155 cell
+																	156 button
+																157 cell 4.4 kB transferred over network, resource size: 4.2 kB
+																	158 text 4.4 kB
+																159 cell
+																	160 text 15 ms
+															161 row
+																162 cell https://ct.pinterest.com/ct.html
+																	163 text ct.html
+																164 cell 200 OK
+																	165 text 200
+																166 cell
+																	167 text document
+																168 cell
+																	169 link main.80c2b6ae.js:1
+																		170 text main.80c2b6ae.js:1
+																171 cell 0.6 kB transferred over network, resource size: 0.6 kB
+																	172 text 0.6 kB
+																173 cell
+																	174 text 72 ms
+															175 row
+																176 cell https://ct.pinterest.com/v3/?event=pagevisit&ed=%7B%22currency%22%3A%22GBP%22%2C%22value%22%3A79.62%2C%22order_quantity%22%3A1%2C%22event_id%22%3A%22boldstone-1794173841467-1%22%2C%22line_items%22%3A%5B%7B%22product_id%22%3A%22467ac7b5-9295-450f-8f65-13d2fafdbc07%22%2C%22product_name%22%3A%22Brancusi%20Totem%20Relief%20-%20White%22%2C%22product_price%22%3A79.62%2C%22product_quantity%22%3A1%2C%22product_category%22%3A%22Wall%20Sculptures%22%2C%22product_brand%22%3A%22Boldstone%22%7D%5D%7D&tid=2612823030261&c
+																	177 image Fetch
+																	178 text v3/?event=pagevisit&ed=%7B%22currency%22%3A%22GBP%…22%2C%22uaFullVersion%22%3A%22156.0.8078.73%22%7D
+																179 cell 200 OK
+																	180 text 200
+																181 cell
+																	182 text fetch
+																183 cell
+																	184 button
+																185 cell 0.4 kB transferred over network, resource size: 0.0 kB
+																	186 text 0.4 kB
+																187 cell
+																	188 text 22 ms
+															189 row
+																190 cell https://ct.pinterest.com/user/?tid=2612823030261&pd=%7B%22pin_unauth%22%3A%22dWlkPU5UbGtaRFUzTWpRdFltWTBNUzAwTmpFMUxXSTJNV1V0WWpjNVlqTmlNekZoT0dFNQ%22%7D&cb=1794174155933&dep=2%2CPAGE_LOAD
+																	191 image XHR
+																	192 text user/?tid=2612823030261&pd=%7B%22pin_unauth%22%3A%…ZoT0dFNQ%22%7D&cb=1794174155933&dep=2%2CPAGE_LOAD
+																193 cell 200 OK
+																	194 text 200
+																195 cell
+																	196 text xhr
+																197 cell
+																	198 link main.80c2b6ae.js:1, Help: https://s.pinimg.com/ct/lib/main.80c2b6ae.js:1
+																		199 text main.80c2b6ae.js:1
+																200 cell 0.5 kB transferred over network, resource size: 0.4 kB
+																	201 text 0.5 kB
+																202 cell
+																	203 text 84 ms
+															204 row
+																205 cell https://ct.pinterest.com/user/?event=pagevisit&ed=%7B%22currency%22%3A%22GBP%22%2C%22value%22%3A79.62%2C%22order_quantity%22%3A1%2C%22event_id%22%3A%22boldstone-1794174155808-1%22%2C%22line_items%22%3A%5B%7B%22product_id%22%3A%22467ac7b5-9295-450f-8f65-13d2fafdbc07%22%2C%22product_name%22%3A%22Brancusi%20Totem%20Relief%20-%20White%22%2C%22product_price%22%3A79.62%2C%22product_quantity%22%3A1%2C%22product_category%22%3A%22Wall%20Sculptures%22%2C%22product_brand%22%3A%22Boldstone%22%7D%5D%7D&tid=2612823030261
+																	206 image XHR
+																	207 text user/?event=pagevisit&ed=%7B%22currency%22%3A%22GB…030261&cb=1794174155934&dep=5%2CEVENT_TAGS_ABSENT
+																208 cell 200 OK
+																	209 text 200
+																210 cell
+																	211 text xhr
+																212 cell
+																	213 link main.80c2b6ae.js:1, Help: https://s.pinimg.com/ct/lib/main.80c2b6ae.js:1
+																		214 text main.80c2b6ae.js:1
+																215 cell 0.4 kB transferred over network, resource size: 0.4 kB
+																	216 text 0.4 kB
+																217 cell
+																	218 text 95 ms
+															219 row
+																220 cell https://ct.pinterest.com/v3/?tid=2612823030261&pd=%7B%22pin_unauth%22%3A%22dWlkPU5UbGtaRFUzTWpRdFltWTBNUzAwTmpFMUxXSTJNV1V0WWpjNVlqTmlNekZoT0dFNQ%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fboldstonesculpture.com%2Fbuy%2Fp%2Fbrancusi-totem-white%3Futm_source%3Dqa%26utm_medium%3Dtest%26utm_campaign%3Dpinterest_consent_check%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A982%2C%22sw%22%3A1512%2C%22mh%22%3A%2280c2b6ae%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22arm%22%2C%22bitness%22%3A%
+																	221 image Fetch
+																	222 text v3/?tid=2612823030261&pd=%7B%22pin_unauth%22%3A%22…sion%22%3A%22156.0.8078.73%22%7D&cb=1794174155959
+																223 cell 200 OK
+																	224 text 200
+																225 cell
+																	226 text fetch
+																227 cell
+																	228 link main.80c2b6ae.js:1, Help: https://s.pinimg.com/ct/lib/main.80c2b6ae.js:1
+																		229 text main.80c2b6ae.js:1
+																230 cell 0.1 kB transferred over network, resource size: 0.0 kB
+																	231 text 0.1 kB
+																232 cell
+																	233 text 63 ms
+															234 row
+																235 cell https://ct.pinterest.com/v3/?event=pagevisit&ed=%7B%22currency%22%3A%22GBP%22%2C%22value%22%3A79.62%2C%22order_quantity%22%3A1%2C%22event_id%22%3A%22boldstone-1794174155808-1%22%2C%22line_items%22%3A%5B%7B%22product_id%22%3A%22467ac7b5-9295-450f-8f65-13d2fafdbc07%22%2C%22product_name%22%3A%22Brancusi%20Totem%20Relief%20-%20White%22%2C%22product_price%22%3A79.62%2C%22product_quantity%22%3A1%2C%22product_category%22%3A%22Wall%20Sculptures%22%2C%22product_brand%22%3A%22Boldstone%22%7D%5D%7D&tid=2612823030261&c
+																	236 image Fetch
+																	237 text v3/?event=pagevisit&ed=%7B%22currency%22%3A%22GBP%…22%2C%22uaFullVersion%22%3A%22156.0.8078.73%22%7D
+																238 cell 200 OK
+																	239 text 200
+																240 cell
+																	241 text fetch
+																242 cell
+																	243 link main.80c2b6ae.js:1, Help: https://s.pinimg.com/ct/lib/main.80c2b6ae.js:1
+																		244 text main.80c2b6ae.js:1
+																245 cell 0.6 kB transferred over network, resource size: 0.0 kB
+																	246 text 0.6 kB
+																247 cell
+																	248 text 83 ms
+															249 row
+																250 cell https://ct.pinterest.com/static/ct/token_create.js
+																	251 text token_create.js
+																252 cell 200 OK
+																	253 text 200
+																254 cell
+																	255 text script
+																256 cell
+																	257 link main.80c2b6ae.js:1, Help: https://s.pinimg.com/ct/lib/main.80c2b6ae.js:1
+																		258 text main.80c2b6ae.js:1
+																259 cell 4.4 kB transferred over network, resource size: 4.2 kB
+																	260 text 4.4 kB
+																261 cell
+																	262 text 11 ms
+															263 row
+																264 cell https://ct.pinterest.com/ct.html
+																	265 text ct.html
+																266 cell 200 OK
+																	267 text 200
+																268 cell
+																	269 text document
+																270 cell
+																	271 link main.80c2b6ae.js:1
+																		272 text main.80c2b6ae.js:1
+																273 cell 0.4 kB transferred over network, resource size: 0.6 kB
+																	274 text 0.4 kB
+																275 cell
+																	276 text 43 ms
+													277 container 12 / 234 requests
+														278 text 12 / 234 requests
+													279 container 13139 B / 23515564 B transferred over network
+														280 text 13.1 kB / 23,516 kB transferred
+													281 container 11464 B / 47091956 B resources loaded by the page
+														282 text 11.5 kB / 47,092 kB resources
+													283 container Finish: 6.1 min
+														284 text Finish: 6.1 min
+													285 container DOMContentLoaded: 5.6 min
+														286 text DOMContentLoaded: 5.6 min
+													287 container Load: 5.6 min
+														288 text Load: 5.6 min
+								289 container Drawer
+									290 container
+										291 toolbar
+											292 pop-up button More tools
+												293 button More tools
+										294 tab group
+											295 tab (settable, integer) Console, Value: 0
+											296 tab (settable, integer) Issues, Value: 0
+											297 tab (selected) What’s new, Value: 1
+											298 tab (settable, integer) AI assistance, Value: 0
+										299 pop-up button More tabs
+										300 toolbar
+											301 container Toggle drawer orientation
+												302 button Toggle drawer orientation
+											303 container Minimize drawer
+												304 button Minimize drawer
+											305 container Close drawer
+												306 button Close drawer
+										307 container What’s new panel
+											308 container whats-new
+												309 container
+													310 text New in DevTools (November 2026)
+													311 button See all new features
+													312 heading DevTools for agents, Value: 3
+														313 link DevTools for agents, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#mcp
+															314 text DevTools for agents
+													315 container
+														316 text Inspect matched rules, inherited styles, pseudo-elements, and  @  rules with the  get_css_styles  tool in Chrome DevTools for agents. You can also manage server flags with a configuration file and parse large performance traces with chunked trace buffer parsing.
+													317 heading Visual position-area editor for CSS anchor positioning, Value: 3
+														318 link Visual position-area editor for CSS anchor positioning, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#sources
+															319 text Visual position-area editor for CSS anchor positioning
+													320 container
+														321 text Click the inline swatch next to a  position-area  declaration in the  Styles  tab to visually select anchor grid regions, configure axis modes, and toggle the  self  keyword. Right-click  popover  adorners in the DOM tree to disambiguate multiple implicit anchors.
+													322 heading Web Install manifest diagnostics and ad script provenance, Value: 3
+														323 link Web Install manifest diagnostics and ad script provenance, Help: https://developer.chrome.com/blog/new-in-devtools-november-2026/#web-install-manifest-diagnosti
+															324 text Web Install manifest diagnostics and ad script provenance
+													325 container
+														326 text Diagnose Web Install ( navigator.install  and  <install> ) manifest errors in the  Issues  panel with direct links to affected manifests. In the  Application  panel's  Ads  section, use the new  Ad provenance  column to see whether script ancestry or a filter list rule tagged an ad script.
+							327 text Network data available 
+	328 close button
+	329 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	330 minimise button
+	331 text DevTools - boldstonesculpture.…paign=pinterest_consent_check
+332 menu bar
+	333 Chrome
+	334 File
+	335 Edit
+	336 View
+	337 History
+	338 Bookmarks
+	339 Profiles
+	340 Tab
+	341 Window
+	342 Help
+
+The focused UI element is 63 text entry area (settable) Filter, Value: domain:ct.pinterest.com

@@ -1,0 +1,19 @@
+BOLDSTONE REVIEW BUNDLE
+
+This is a local review export, not a platform upload.
+listing-ready.csv includes only selected, completed product reviews with reviewed specification fields and a selected primary image.
+listing-drafts.csv retains included products with review blockers. Neither file is a certified platform-specific import schema.
+An unrelated catalogue publication preserves a field review only when its retained source snapshot is identical, and an image review only when original hashes prove unchanged bytes. Missing proof or changed content still needs review.
+Primary readiness uses the same eligibility check as the app. Missing cached files keep their source links and do not interrupt other exported media.
+Product exclusions are distinct from image exclusions. Image exclusions apply to the named sculpture only.
+Shared tags and collections apply to the asset. Library selections use product_id __library__.
+Schema v2 adds image types, reversible assignment overlays and exact-byte duplicate groups. Original v1 reviews remain in reviews and the SQLite backup.
+Effective media/listing files contain one preferred image per exact byte group, preferring Dropbox. All source IDs remain in source_asset_ids.
+Moves remove only the source sculpture association. Target image uses need review. Conflicting duplicate choices are withheld until resolved.
+Image purposes may overlap: listing, advertising, social and reference. Creating this export does not move or delete originals.
+Separately confirmed Dropbox file deletions, if any, are recorded as kind=deletion reviews and audit events in the SQLite backup.
+Deleted or pending-verification display groups are withheld from effective media/listing output; cached bytes and historical source records remain for audit.
+Media folders contain copies of available local cached sources. Preview references stay in preview-references and are not upload originals.
+Image editing requests are instructions, not completed pixel edits. Rights fields are reviewer notes, not verification.
+Listing values do not append provenance labels. Certainty, qualifications and evidence remain in separate columns.
+Original specification qualifications remain in specification-decisions.csv and original values remain in review-decisions.json.

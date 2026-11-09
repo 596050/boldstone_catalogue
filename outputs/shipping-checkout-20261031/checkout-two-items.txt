@@ -1,0 +1,44 @@
+- banner:
+  - navigation:
+    - heading "boldstone" [level=1]:
+      - link "boldstone":
+        - /url: https://boldstonesculpture.com
+- main:
+  - iframe [name="__privateStripeFrame5428"]
+  - region "Your Email":
+    - heading "Your Email" [level=1]
+    - generic: Email
+    - textbox "Email":
+      - /placeholder: Email address
+    - generic: You'll receive receipts and notifications at this email
+    - text: Already have an account?
+    - link "Sign in":
+      - /url: "#"
+    - checkbox "Sign up to receive news and updates"
+    - text: Sign up to receive news and updates
+    - alert
+    - button "continue"
+  - region "Delivery":
+    - heading "Delivery" [level=1]
+  - region:
+    - heading "Payment" [level=1]
+  - region "Review & Purchase":
+    - heading "Review & Purchase" [level=1]
+  - paragraph: Order summary
+  - generic: "2"
+  - paragraph: Wave and Moonshadow II - White
+  - generic "Wave and Moonshadow II - White total price": £189.76
+  - generic: £94.88 each
+  - button "Remove"
+  - button "Discount or gift card":
+    - generic: Discount or gift card
+  - paragraph: Subtotal
+  - generic "Subtotal price": £189.76
+  - paragraph: Tax
+  - generic "Tax price": £35.79
+  - paragraph: Shipping
+  - generic "Shipping price": £24.95
+  - separator
+  - paragraph: Total
+  - generic "Total price": £214.71
+  - generic: Secure SSL Checkout

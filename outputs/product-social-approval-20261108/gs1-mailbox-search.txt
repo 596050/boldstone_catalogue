@@ -1,0 +1,39 @@
+heading Conversations, Value: 2
+											208 text Conversations
+										209 table
+											210 row Daniel , me 2 , Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required , has attachment, Nov 6 , Daniel C. (Faire). Nov 6, 2026, 01:37 PST. Hi Sally, We hope your week is going well! Thanks for submitting your onboarding information to Faire!.
+												211 cell
+													212 Tick box Value: 0, Daniel , me 2 , Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required , has attachment, Nov 6 , Daniel C. (Faire). Nov 6, 2026, 01:37 PST. Hi Sally, We hope your week is going well! Thanks for submitting your onboarding information to Faire!.
+												213 cell
+													214 button Not starred
+												215 cell
+													216 container
+														217 text Daniel ,  me 2
+												218 cell
+													219 link Inbox Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required  -  Daniel C. (Faire). Nov 6, 2026, 01:37 PST. Hi Sally, We hope your week is going well! Thanks for submitting your onboarding information to Faire!
+														220 text Inbox
+														221 text Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required
+														222 container
+															223 text  -  Daniel C. (Faire). Nov 6, 2026, 01:37 PST. Hi Sally, We hope your week is going well! Thanks for submitting your onboarding information to Faire!
+													224 container Boldstone Sculpture-Price Margin.xlsx
+														225 text Attachment:
+														226 text Boldstone Sculpture-Price Margin.xlsx
+												227 cell
+													228 container Fri, Nov 6, 2026, 9:37 AM
+														229 text Nov 6
+								230 container Side panel
+									231 tab group
+										232 tab (settable, integer) Calendar, Value: 0
+										233 tab (settable, integer) Keep, Value: 0
+										234 tab (settable, integer) Tasks, Value: 0
+										235 tab (settable, integer) Contacts, Value: 0
+										236 tab (settable, integer) Get Add-ons, Value: 0
+								237 button Hide side panel
+							238 text Clear search
+			239 scroll area
+				240 HTML content Claude for Chrome, URL: chrome-extension://fcoeoabgfenejglbffodgkkbkcdhcgfn/sidepanel.html?tabId=961988109
+					241 container Claude Cowork
+						242 HTML content Email response - Claude, URL: claude.ai/cic/task/cse_01CDxSEzWxjWccffkwtcAnMw
+							243 container
+								244 container
+									245 

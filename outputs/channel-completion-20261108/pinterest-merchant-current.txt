@@ -1,0 +1,200 @@
+Window: "Pinterest", App: Google Chrome.
+0 standard window Pinterest – Part of group ✅Claude - Google Chrome – Tom, URL: uk.pinterest.com/business/catalogs/overview/?subjectBusinessId=846254723639262523, Secondary Actions: Raise
+	1 container Pinterest – Part of group ✅Claude - Google Chrome – Tom, URL: uk.pinterest.com/business/catalogs/overview/?subjectBusinessId=846254723639262523
+		2 container
+			3 toolbar
+				4 button Back
+				5 button Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: uk.pinterest.com/business/catalogs/overview/?subjectBusinessId=846254723639262523, Placeholder: Ask Google or type a URL
+					10 button Install Pinterest
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Pinterest, URL: uk.pinterest.com/business/catalogs/overview/?subjectBusinessId=846254723639262523
+						28 container
+							29 container
+								30 link Skip to content, Value: uk.pinterest.com/business/catalogs/overview/?subjectBusinessId=846254723639262523#
+								31 container Primary navigation header
+									32 button Pinterest Catalogues Dynamic badge drop-down menu button
+									33 button Boldstone Boldstone Account switcher arrow icon
+									34 link Notifications, Value: uk.pinterest.com/business/catalogs/overview/?subjectBusinessId=846254723639262523
+									35 link Messages, Value: uk.pinterest.com/business/catalogs/overview/?subjectBusinessId=846254723639262523
+									36 container Engagement. You have pending notifications.
+										37 link Manage comments and social activity, Value: uk.pinterest.com/engagement/
+									38 link Your profile, Value: uk.pinterest.com/boldstonepinterest/
+									39 pop-up button Accounts and more options
+							40 container Footer floating buttons
+							41 container
+								42 heading Catalogues, Value: 2
+									43 text Catalogues
+								44 container Navigate catalogues main item section
+									45 content list
+										46 link Overview, Value: uk.pinterest.com/business/catalogs/overview/?subjectBusinessId=846254723639262523#
+										47 link Promotions, Value: uk.pinterest.com/business/catalogs/overview/?subjectBusinessId=846254723639262523#
+										48 link Creative overlays, Value: uk.pinterest.com/business/catalogs/overview/?subjectBusinessId=846254723639262523#
+										49 link Markets, Value: uk.pinterest.com/business/catalogs/overview/?subjectBusinessId=846254723639262523#
+									50 content list
+										51 container
+											52 text Catalogues
+											53 content list
+												54 container
+													55 button Catalog_Retail
+													56 content list
+														57 link Diagnostics, Value: uk.pinterest.com/business/catalogs/4814500935893/diagnosticsv2/
+														58 link Products , You have products in this catalogue, Value: uk.pinterest.com/business/catalogs/4814500935893/products/
+														59 link Product groups , You have product groups in this catalogue, Value: uk.pinterest.com/business/catalogs/overview/?subjectBusinessId=846254723639262523
+														60 link Data sources , You have active feeds in this catalogue, Value: uk.pinterest.com/business/catalogs/overview/?subjectBusinessId=846254723639262523
+									61 content list
+										62 container
+											63 text Support
+											64 content list
+												65 link Help Centre, Value: help.pinterest.com/business/article/before-you-get-started-with-catalogs
+												66 link Contact us, Value: uk.pinterest.com/business/catalogs/overview/?subjectBusinessId=846254723639262523#
+								67 container
+									68 link Boldstone, Value: uk.pinterest.com/boldstonepinterest/
+									69 heading Boldstone, Value: 2
+										70 link Boldstone, Value: uk.pinterest.com/boldstonepinterest/
+									71 link Edit profile, Value: uk.pinterest.com/settings#profile
+									72 link boldstonesculpture.com, Value: boldstonesculpture.com/
+									73 text  • @ boldstonepinterest Online merchant or marketplace
+									74 button Find out more about account types
+									75 text Merchant status
+									76 image Text indicating merchant status is not approved
+									77 text Not approved
+									78 image Merchant Not Approved
+									79 container
+										80 text We were unable to approve your business because it currently doesn't meet our 
+										81 link Merchant Guidelines, Value: policy.pinterest.com/merchant-guidelines
+										82 text . Once the issues have been resolved, you'll be able to distribute your catalogue organically and run shopping ads.
+								83 container
+									84 heading Review merchant status issues, Value: 2
+										85 text Review merchant status issues
+									86 text After reviewing your business, we've found some issues that may not meet our Merchant Guidelines. Please take a moment to carefully review and correct the issues. Once you've made the necessary changes, please submit an appeal in the section below for further review. If your appeal is approved, you will be able to distribute your catalogue and run shopping ads.
+									87 container Merchant non-approval reasons and recommendations
+										88 table Merchant non-approval reasons and recommendations
+											89 text Merchant non-approval reasons and recommendations
+											90 row
+												91 column header
+													92 text Reason
+												93 column header
+													94 text Recommendation
+											95 row
+												96 cell
+													97 text Merchant does not meet minimum product requirements
+												98 cell
+													99 container
+														100 text Review our 
+														101 link Merchant Guidelines, Value: policy.pinterest.com/merchant-guidelines
+														102 text  for more detailed information on how you can get your products on Pinterest
+											103 row
+												104 cell
+													105 text Merchant does not meet minimum website quality requirements
+												106 cell
+													107 container
+														108 text Review our 
+														109 link Merchant Guidelines, Value: policy.pinterest.com/merchant-guidelines
+														110 text  for more detailed information on how you can get your products on Pinterest
+									111 text Submit an appeal to request review of your account
+									112 text entry area (settable) Tell us what changes have been made for further review
+									113 text You have 2 appeals remaining For more details, view our 
+									114 link Merchant Guidelines, Value: policy.pinterest.com/merchant-guidelines
+									115 text .
+									116 button (disabled) Submit appeal
+									117 heading Catalogue best practices, Value: 3
+										118 text Catalogue best practices
+									119 text Stay hydrated
+									120 text Under $35
+									121 heading Optimise your product groups, Value: 5
+										122 text Optimise your product groups
+									123 text Create product groups organised by price or category to maximise your performance. 
+									124 link Learn more, Value: business.pinterest.com/blog/optimize-your-product-feed-tips/
+									125 link Create product groups ; Opens a new tab, Value: uk.pinterest.com/business/catalogs/product-groups/
+									126 text Ingestion completed
+									127 heading Keep your catalogue healthy, Value: 5
+										128 text Keep your catalogue healthy
+									129 text Update your data source at least every 7 days to get continued organic distribution and optimised performance.
+									130 link Go to diagnostics ; Opens a new tab, Value: uk.pinterest.com/business/catalogs/diagnostics/
+									131 heading Shopping success stories, Value: 3
+										132 text Shopping success stories
+									133 heading Ikea Canada, Value: 4
+										134 text Ikea Canada
+									135 heading IKEA Canada takes a creative-first approach to shopping ads, Value: 5
+										136 text IKEA Canada takes a creative-first approach to shopping ads
+									137 link Read more ; Opens a new tab, Value: business.pinterest.com/success-stories/ikea-canada/
+									138 heading PacSun, Value: 4
+										139 text PacSun
+									140 heading PacSun’s Pinterest strategy evolves from style inspo to shopping, Value: 5
+										141 text PacSun’s Pinterest strategy evolves from style inspo to shopping
+									142 link Read more ; Opens a new tab, Value: business.pinterest.com/success-stories/pacsun/
+							143 container Footer
+			144 pop-up button Tab search
+			145 container
+				146 tab group
+					147 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					148 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					149 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					150 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					151 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					152 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					153 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					154 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					155 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					156 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					157 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					158 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					159 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					160 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					161 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					162 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					163 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					164 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					165 tab (settable, boolean) Meta Business Suite, Value: off
+					166 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					167 tab (settable, boolean) Meta Business Suite, Value: off
+					168 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					169 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					170 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					171 tab (selected, settable, boolean) Pinterest – Part of group ✅Claude, Value: on
+					172 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					173 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.2 GB, Value: off
+			174 button New tab
+	175 close button
+	176 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	177 minimise button
+178 menu bar
+	179 Chrome
+	180 File
+	181 Edit
+	182 View
+	183 History
+	184 Bookmarks
+	185 Profiles
+	186 Tab
+	187 Window
+	188 Help
+
+The focused UI element is 27 HTML content Pinterest, URL: uk.pinterest.com/business/catalogs/overview/?subjectBusinessId=846254723639262523

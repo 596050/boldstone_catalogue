@@ -1,0 +1,1039 @@
+Window: "Wall Sculpture & Sculptural Furnishings | Boldstone, UK", App: Google Chrome.
+0 standard window URL: caper-spinach-spcy.squarespace.com/config/pages/code-injection, Secondary Actions: Raise, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.1 GB - Google Chrome – Tom
+	1 container URL: caper-spinach-spcy.squarespace.com/config/pages/code-injection, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.1 GB - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: caper-spinach-spcy.squarespace.com/config/pages/code-injection, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Wall Sculpture & Sculptural Furnishings | Boldstone, UK, URL: caper-spinach-spcy.squarespace.com/config/pages/code-injection
+						26 container
+							27 container
+								28 button Pages
+								29 container
+									30 heading Code Injection, Value: 1
+										31 text Code Injection
+									32 container
+										33 text With custom code modifications, functionality or full compatibility with Squarespace is not guaranteed. 
+										34 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/articles/205815908
+									35 text HEADER
+									36 text Enter code that will be injected into the 'head' tag on every page of your site.
+									37 container
+										38 text entry area (settable)
+										39 container
+											40 container (showing 116-216 of 216 items)
+												41 text 116
+												42 text lead_type :  'website_enquiry'
+												43 text 117
+												44 text       });
+												45 text 118
+												46 text     });
+												47 text 119
+												48 text   }
+												49 text 120
+												50 text function start () {
+												51 text 121
+												52 text document . addEventListener ( 'click' ,  trackContact ,  true );
+												53 text 122
+												54 text document . addEventListener ( 'submit' ,  arm ,  true );
+												55 text 123
+												56 text document . addEventListener ( 'click' ,  arm ,  true );
+												57 text 124
+												58 text new MutationObserver ( checkSuccess ). observe ( document . body , {
+												59 text 125
+												60 text childList :  true ,  subtree :  true ,  attributes :  true ,  attributeFilter : [ 'class' ,  'style' ,  'hidden' ]
+												61 text 126
+												62 text     });
+												63 text 127
+												64 text   }
+												65 text 128
+												66 text if  ( document . readyState === 'loading' )  document . addEventListener ( 'DOMContentLoaded' ,  start , { once :  true });
+												67 text 129
+												68 text else start ();
+												69 text 130
+												70 text })();
+												71 text 131
+												72 text </ script >
+												73 text 132
+												74 text 133
+												75 text <!-- Boldstone Pinterest consent bridge, 2026-11-08 -->
+												76 text 134
+												77 text < script >
+												78 text 135
+												79 text /* Consent-gated Pinterest tag. Config contains public SKU/variant identities only.
+												80 text 136
+												81 text  * Called by the existing confirmed-cart shopping funnel for commerce events.
+												82 text 137
+												83 text  * No enhanced matching, customer email, purchase simulation or noscript bypass.
+												84 text 138
+												85 text  */
+												86 text 139
+												87 text ( function  ( config ) {
+												88 text 140
+												89 text 'use strict' ;
+												90 text 141
+												91 text if  ( window . BoldstonePinterest || ! /^\d{13}$/ . test ( config . tagId ))  return ;
+												92 text 142
+												93 text var started = false ,  genericSent = false ,  views =  {},  serial = 0 ;
+												94 text 143
+												95 text function consent () {
+												96 text 144
+												97 text try  {  return window . getSquarespaceCookies (). marketing === 'accepted' ; }
+												98 text 145
+												99 text catch  ( _ ) {  return false ; }
+												100 text 146
+												101 text   }
+												102 text 147
+												103 text function start () {
+												104 text 148
+												105 text if  ( ! consent ())  return false ;
+												106 text 149
+												107 text if  ( ! started ) {
+												108 text 150
+												109 text if  ( ! window . pintrk ) {
+												110 text 151
+												111 text var queue = function  () {  queue . queue . push ( Array . prototype . slice . call ( arguments )); };
+												112 text 152
+												113 text queue . queue =  [];  queue . version = '3.0' ;  window . pintrk = queue ;
+												114 text 153
+												115 text var script = document . createElement ( 'script' );
+												116 text 154
+												117 text script . async = true ;  script . src = 'https://s.pinimg.com/ct/core.js' ;
+												118 text 155
+												119 text document . head . appendChild ( script );
+												120 text 156
+												121 text       }
+												122 text 157
+												123 text window . pintrk ( 'setconsent' ,  true );
+												124 text 158
+												125 text window . pintrk ( 'load' ,  config . tagId );
+												126 text 159
+												127 text window . pintrk ( 'page' );
+												128 text 160
+												129 text started = true ;
+												130 text 161
+												131 text     }
+												132 text 162
+												133 text return true ;
+												134 text 163
+												135 text   }
+												136 text 164
+												137 text function commerce ( name ,  items ,  currency ) {
+												138 text 165
+												139 text var event =  { view_item : 'pagevisit' ,  add_to_cart : 'addtocart' ,  begin_checkout : 'initiatecheckout' }[ name ];
+												140 text 166
+												141 text if  ( ! event || ! consent ()  || currency !== 'GBP' || ! Array . isArray ( items )  || ! items . length )  return false ;
+												142 text 167
+												143 text // Do not guess another product, selected variant or a mixed-cart total.
+												144 text 168
+												145 text if  ( items . some ( function  ( item ) {
+												146 text 169
+												147 text return ! config . products [ item . item_id ]  || ! Number . isFinite ( item . price )  || item . price < 0 ||
+												148 text 170
+												149 text ! Number . isInteger ( item . quantity )  || item . quantity < 1 ;
+												150 text 171
+												151 text     }))  return false ;
+												152 text 172
+												153 text if  ( ! start ())  return false ;
+												154 text 173
+												155 text var key = location . pathname + ':' + items . map ( function  ( i ) {  return i . item_id ; }). join ( ',' );
+												156 text 174
+												157 text if  ( event === 'pagevisit' && views [ key ])  return true ;
+												158 text 175
+												159 text var data =  { currency : currency ,  value : Math . round ( items . reduce ( function  ( n , i ) {  return n + i . price * i . quantity ; }, 0 ) * 100 ) / 100 ,
+												160 text 176
+												161 text order_quantity : items . reduce ( function  ( n , i ) {  return n + i . quantity ; }, 0 ),
+												162 text 177
+												163 text event_id : 'boldstone-' + Date . now ()  + '-' +  ( ++ serial ),
+												164 text 178
+												165 text line_items : items . map ( function  ( i ) {  return  {
+												166 text 179
+												167 text product_id : config . products [ i . item_id ]. id ,  product_name : i . item_name ,
+												168 text 180
+												169 text product_price : i . price ,  product_quantity : i . quantity ,
+												170 text 181
+												171 text product_category : 'Wall Sculptures' ,  product_brand : 'Boldstone'
+												172 text 182
+												173 text       }; })};
+												174 text 183
+												175 text window . pintrk ( 'track' ,  event ,  data );
+												176 text 184
+												177 text if  ( event === 'pagevisit' )  views [ key ]  = true ;
+												178 text 185
+												179 text return true ;
+												180 text 186
+												181 text   }
+												182 text 187
+												183 text function sync () {
+												184 text 188
+												185 text if  ( consent ()) {
+												186 text 189
+												187 text start ();
+												188 text 190
+												189 text window . pintrk ( 'setconsent' ,  true );
+												190 text 191
+												191 text // Product PageVisit comes from the existing JSON-LD-verified funnel.
+												192 text 192
+												193 text var productPage = Object . keys ( config . products ). some ( function  ( sku ) {
+												194 text 193
+												195 text return config . products [ sku ]. path === location . pathname ;
+												196 text 194
+												197 text       });
+												198 text 195
+												199 text if  ( ! productPage && ! genericSent && document . readyState !== 'loading' ) {
+												200 text 196
+												201 text window . pintrk ( 'track' , 'pagevisit' ,{ event_id : 'boldstone-page-' + Date . now () + '-' + ( ++ serial )});
+												202 text 197
+												203 text genericSent = true ;
+												204 text 198
+												205 text       }
+												206 text 199
+												207 text     }  else if  ( started && typeof window . pintrk === 'function' ) {
+												208 text 200
+												209 text window . pintrk ( 'setconsent' ,  false );
+												210 text 201
+												211 text     }
+												212 text 202
+												213 text   }
+												214 text 203
+												215 text window . BoldstonePinterest =  { commerce : commerce ,  syncConsent : sync };
+												216 text 204
+												217 text var previous = window . onCookieBannerInteraction ;
+												218 text 205
+												219 text window . onCookieBannerInteraction = function  () {
+												220 text 206
+												221 text var result ;
+												222 text 207
+												223 text try  {  if  ( typeof previous === 'function' )  result = previous . apply ( this , arguments ); }
+												224 text 208
+												225 text finally  {  sync (); }
+												226 text 209
+												227 text return result ;
+												228 text 210
+												229 text   };
+												230 text 211
+												231 text if  ( document . readyState === 'loading' )  document . addEventListener ( 'DOMContentLoaded' , sync ,{ once : true });
+												232 text 212
+												233 text sync ();
+												234 text 214
+												235 text 215
+												236 text </ script >
+									237 container
+										238 text FOOTER Enter code that will be injected into the template-defined footer on every page of your site.
+										239 container
+											240 text entry area (settable) <script id="boldstone-ga4-shopping-funnel">
+
+/* Boldstone consent-aware shopping funnel, 2026-11-08.
+ * Supplements native Squarespace purchase tracking. Does not send Meta events,
+ * purchase events, customer details, cart tokens, or duplicate page views.
+ * A cart addition requires a genuine click AND a confirmed cart-count increase.
+ */
+(function () {
+  'use strict';
+  if (window.__boldstoneShoppingFunnel) return;
+  window.__boldstoneShoppingFunnel = true;
+  var lastViews = {ga4:'', pinterest:''}, pending = null, checkoutAt = 0, scheduled = false;
+  function performanceConsent() {
+    try { return window.getSquarespaceCookies().performance === 'accepted'; }
+    catch (_) { return false; }
+  }
+  function consent() {
+    try { var c=window.getSquarespaceCookies(); return c.performance === 'accepted' || c.marketing === 'accepted'; }
+    catch (_) { return false; }
+  }
+  function emit(name, items, currency, viewKey) {
+    if (!consent() || !items.length) return false;
+    if (!/^[A-Z]{3}$/.test(currency)) return false;
+    if (items.some(function (i) {
+      return !i.item_id || !i.item_name || !Number.isFinite(i.price) || i.price < 0 ||
+        !Number.isInteger(i.quantity) || i.quantity < 1;
+    })) return false;
+    var emitted = false;
+    if (performanceConsent() && typeof window.gtag === 'function' && (!viewKey || lastViews.ga4 !== viewKey)) {
+      window.gtag('event', name, {
+      send_to: 'G-DYE31M1PWM', currency: currency,
+      value: Math.round(items.reduce(function (n, i) { return n + i.price * i.quantity; }, 0) * 100) / 100,
+      items: items, transport_type: 'beacon'
+      });
+      emitted = true;
+      if (viewKey) lastViews.ga4 = viewKey;
+    }
+    if (window.BoldstonePinterest && (!viewKey || lastViews.pinterest !== viewKey)
+        && window.BoldstonePinterest.commerce(name,items,currency)) {
+      emitted = true;
+      if (viewKey) lastViews.pinterest = viewKey;
+    }
+    return emitted;
+  }
+  function product() {
+    if (!document.querySelector('.sqs-add-to-cart-button')) return null;
+    var results = [];
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(function (s) {
+      try {
+        var p = JSON.parse(s.textContent);
+        // Single-offer products only: never guess the chosen multi-variant SKU.
+        if (p['@type'] !== 'Product' || !p.offers || Array.isArray(p.offers) || p.offers['@type'] !== 'Offer') return;
+        var o = p.offers;
+        if (!o.sku || o.price == null || o.price === '') return;
+        if (new URL(o.url, location.href).pathname !== location.pathname) return;
+        results.push({currency: o.priceCurrency, item: {
+          item_id: String(o.sku), item_name: String(p.name).replace(/\s+[—–]\s+boldstone$/i, ''),
+          item_brand: 'Boldstone', price: Number(o.price), quantity: 1
+        }});
+      } catch (_) { /* Leave malformed or ambiguous products uncounted. */ }
+    });
+    return results.length === 1 ? results[0] : null;
+  }
+  function count() {
+    var values = Array.from(document.querySelectorAll('.sqs-cart-initialized .sqs-cart-quantity')).map(function (e) { return Number(e.textContent.trim()); });
+    if (!values.length || values.some(function (n) { return !Number.isInteger(n) || n < 0 || n !== values[0]; })) return null;
+    return values[0];
+  }
+  function cart() {
+    if (location.pathname !== '/cart') return null;
+    var context = document.querySelector('#sqs-cart-root > script[type="application/json"]');
+    if (!context) return null;
+    try {
+      var source = JSON.parse(context.textContent);
+      if (source.storeCurrency !== 'GBP') return null;
+      var rows = Array.from(document.querySelectorAll('[data-testid="cart-table-row"]'));
+      if (!rows.length) return null;
+      var items = rows.map(function (row) {
+        var link = row.querySelector('.cart-row-title');
+        var input = row.querySelector('.cart-row-qty-input');
+        var total = row.querySelector('.cart-row-price');
+        if (!link || !input || !total) throw new Error('Incomplete cart row');
+        var matches = source.cart.items.filter(function (i) {
+          return new URL(i.productUrl, location.href).pathname === new URL(link.href).pathname;
+        });
+        if (matches.length !== 1) throw new Error('Ambiguous cart variant');
+        var item = matches[0], quantity = Number(input.value);
+        if (!item.sku || !item.unitPrice || !item.unitPrice.decimalValue) throw new Error('Missing cart price or SKU');
+        var price = Number(item.unitPrice.decimalValue);
+        var visibleTotal = Number(total.textContent.replace(/[£,\s]/g, ''));
+        if (item.unitPrice.currencyCode !== 'GBP' || Math.abs(visibleTotal - price * quantity) > 0.005) throw new Error('Cart not settled');
+        return {item_id: String(item.sku), item_name: item.productName, item_brand: 'Boldstone', price: price, quantity: quantity};
+      });
+      return {items: items, currency: 'GBP'};
+    } catch (_) { return null; }
+  }
+  function check() {
+    scheduled = false;
+    if (!consent()) { pending = null; return; }
+    var p = product(), c = cart();
+    var key = location.pathname + ':' + (p ? p.item.item_id : c ? 'cart' : '');
+    // Each destination may gain consent later than the other. A view delivered
+    // to GA4 must not suppress Pinterest's first consented view, or vice versa.
+    if (p) emit('view_item', [p.item], p.currency, key);
+    else if (c) emit('view_cart', c.items, c.currency, key);
+    if (pending) {
+      if (Date.now() - pending.at > 30000 || pending.path !== location.pathname || !pending.button.isConnected) { pending = null; return; }
+      var after = count();
+      if (after !== null && after > pending.before) {
+        var addition = pending; pending = null;
+        // Other tab changes or unexpected quantities must not create false events.
+        if (after - addition.before === 1) emit('add_to_cart', [addition.product.item], addition.product.currency);
+      }
+    }
+  }
+  function schedule() {
+    if (scheduled) return;
+    scheduled = true;
+    setTimeout(check, 100);
+  }
+  function click(e) {
+    if (!e.isTrusted || !e.target.closest || !consent()) return;
+    if (pending && Date.now() - pending.at > 30000) pending = null;
+    var button = e.target.closest('.sqs-add-to-cart-button');
+    if (button && !button.disabled && !button.classList.contains('cart-adding')) {
+      var p = product(), before = count();
+      if (p && before !== null && !pending) pending = {product:p, before:before, at:Date.now(), path:location.pathname, button:button};
+    }
+    var checkout = e.target.closest('a.cart-checkout-button[href]');
+    if (checkout && new URL(checkout.href).pathname === '/commerce/goto-checkout' && Date.now() - checkoutAt > 3000) {
+      var c = cart();
+      if (c && emit('begin_checkout', c.items, c.currency)) checkoutAt = Date.now();
+    }
+  }
+  function start() {
+    document.addEventListener('click', click, true);
+    new MutationObserver(schedule).observe(document.body, {childList:true, subtree:true, characterData:true, attributes:true, attributeFilter:['class','value']});
+    var previous = window.onCookieBannerInteraction;
+    window.onCookieBannerInteraction = function () {
+      try { if (typeof previous === 'function') previous.apply(this, arguments); }
+      finally { schedule(); }
+    };
+    window.addEventListener('pageshow', function (event) {
+      // Initial pageshow follows DOMContentLoaded; resetting then duplicates views.
+      if (!event.persisted) return;
+      pending = null; checkoutAt = 0; lastViews = {ga4:'', pinterest:''}; schedule();
+    });
+    check();
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once:true});
+  else start();
+})();
+</script>
+											241 container
+												242 container (showing 0-100 of 155 items)
+													243 text 1
+													244 text < script id = "boldstone-ga4-shopping-funnel" >
+													245 text 2
+													246 text 3
+													247 text /* Boldstone consent-aware shopping funnel, 2026-11-08.
+													248 text 4
+													249 text  * Supplements native Squarespace purchase tracking. Does not send Meta events,
+													250 text 5
+													251 text  * purchase events, customer details, cart tokens, or duplicate page views.
+													252 text 6
+													253 text  * A cart addition requires a genuine click AND a confirmed cart-count increase.
+													254 text 7
+													255 text  */
+													256 text 8
+													257 text ( function  () {
+													258 text 9
+													259 text 'use strict' ;
+													260 text 10
+													261 text if  ( window . __boldstoneShoppingFunnel )  return ;
+													262 text 11
+													263 text window . __boldstoneShoppingFunnel = true ;
+													264 text 12
+													265 text var lastViews =  { ga4 : '' ,  pinterest : '' },  pending = null ,  checkoutAt = 0 ,  scheduled = false ;
+													266 text 13
+													267 text function performanceConsent () {
+													268 text 14
+													269 text try  {  return window . getSquarespaceCookies (). performance === 'accepted' ; }
+													270 text 15
+													271 text catch  ( _ ) {  return false ; }
+													272 text 16
+													273 text   }
+													274 text 17
+													275 text function consent () {
+													276 text 18
+													277 text try  {  var c = window . getSquarespaceCookies ();  return c . performance === 'accepted' || c . marketing === 'accepted' ; }
+													278 text 19
+													279 text catch  ( _ ) {  return false ; }
+													280 text 20
+													281 text   }
+													282 text 21
+													283 text function emit ( name ,  items ,  currency ,  viewKey ) {
+													284 text 22
+													285 text if  ( ! consent ()  || ! items . length )  return false ;
+													286 text 23
+													287 text if  ( ! /^[A-Z]{3}$/ . test ( currency ))  return false ;
+													288 text 24
+													289 text if  ( items . some ( function  ( i ) {
+													290 text 25
+													291 text return ! i . item_id || ! i . item_name || ! Number . isFinite ( i . price )  || i . price < 0 ||
+													292 text 26
+													293 text ! Number . isInteger ( i . quantity )  || i . quantity < 1 ;
+													294 text 27
+													295 text     }))  return false ;
+													296 text 28
+													297 text var emitted = false ;
+													298 text 29
+													299 text if  ( performanceConsent ()  && typeof window . gtag === 'function' &&  ( ! viewKey || lastViews . ga4 !== viewKey )) {
+													300 text 30
+													301 text window . gtag ( 'event' ,  name , {
+													302 text 31
+													303 text send_to :  'G-DYE31M1PWM' ,  currency :  currency ,
+													304 text 32
+													305 text value :  Math . round ( items . reduce ( function  ( n ,  i ) {  return n + i . price * i . quantity ; },  0 )  * 100 )  / 100 ,
+													306 text 33
+													307 text items :  items ,  transport_type :  'beacon'
+													308 text 34
+													309 text       });
+													310 text 35
+													311 text emitted = true ;
+													312 text 36
+													313 text if  ( viewKey )  lastViews . ga4 = viewKey ;
+													314 text 37
+													315 text     }
+													316 text 38
+													317 text if  ( window . BoldstonePinterest &&  ( ! viewKey || lastViews . pinterest !== viewKey )
+													318 text 39
+													319 text && window . BoldstonePinterest . commerce ( name , items , currency )) {
+													320 text 40
+													321 text emitted = true ;
+													322 text 41
+													323 text if  ( viewKey )  lastViews . pinterest = viewKey ;
+													324 text 42
+													325 text     }
+													326 text 43
+													327 text return emitted ;
+													328 text 44
+													329 text   }
+													330 text 45
+													331 text function product () {
+													332 text 46
+													333 text if  ( ! document . querySelector ( '.sqs-add-to-cart-button' ))  return null ;
+													334 text 47
+													335 text var results =  [];
+													336 text 48
+													337 text document . querySelectorAll ( 'script[type="application/ld+json"]' ). forEach ( function  ( s ) {
+													338 text 49
+													339 text try  {
+													340 text 50
+													341 text var p = JSON . parse ( s . textContent );
+													342 text 51
+													343 text // Single-offer products only: never guess the chosen multi-variant SKU.
+													344 text 52
+													345 text if  ( p [ '@type' ]  !== 'Product' || ! p . offers || Array . isArray ( p . offers )  || p . offers [ '@type' ]  !== 'Offer' )  return ;
+													346 text 53
+													347 text var o = p . offers ;
+													348 text 54
+													349 text if  ( ! o . sku || o . price == null || o . price === '' )  return ;
+													350 text 55
+													351 text if  ( new URL ( o . url ,  location . href ). pathname !== location . pathname )  return ;
+													352 text 56
+													353 text results . push ({ currency :  o . priceCurrency ,  item : {
+													354 text 57
+													355 text item_id :  String ( o . sku ),  item_name :  String ( p . name ). replace ( /\s+[—–]\s+boldstone$/i ,  '' ),
+													356 text 58
+													357 text item_brand :  'Boldstone' ,  price :  Number ( o . price ),  quantity :  1
+													358 text 59
+													359 text         }});
+													360 text 60
+													361 text       }  catch  ( _ ) {  /* Leave malformed or ambiguous products uncounted. */  }
+													362 text 61
+													363 text     });
+													364 text 62
+													365 text return results . length === 1 ? results [ 0 ] :  null ;
+													366 text 63
+													367 text   }
+													368 text 64
+													369 text function count () {
+													370 text 65
+													371 text var values = Array . from ( document . querySelectorAll ( '.sqs-cart-initialized .sqs-cart-quantity' )). map ( function  ( e ) {  return Number ( e . textContent . trim ()); });
+													372 text 66
+													373 text if  ( ! values . length || values . some ( function  ( n ) {  return ! Number . isInteger ( n )  || n < 0 || n !== values [ 0 ]; }))  return null ;
+													374 text 67
+													375 text return values [ 0 ];
+													376 text 68
+													377 text   }
+													378 text 69
+													379 text function cart () {
+													380 text 70
+													381 text if  ( location . pathname !== '/cart' )  return null ;
+													382 text 71
+													383 text var context = document . querySelector ( '#sqs-cart-root > script[type="application/json"]' );
+													384 text 72
+													385 text if  ( ! context )  return null ;
+													386 text 73
+													387 text try  {
+													388 text 74
+													389 text var source = JSON . parse ( context . textContent );
+													390 text 75
+													391 text if  ( source . storeCurrency !== 'GBP' )  return null ;
+													392 text 76
+													393 text var rows = Array . from ( document . querySelectorAll ( '[data-testid="cart-table-row"]' ));
+													394 text 77
+													395 text if  ( ! rows . length )  return null ;
+													396 text 78
+													397 text var items = rows . map ( function  ( row ) {
+													398 text 79
+													399 text var link = row . querySelector ( '.cart-row-title' );
+													400 text 80
+													401 text var input = row . querySelector ( '.cart-row-qty-input' );
+													402 text 81
+													403 text var total = row . querySelector ( '.cart-row-price' );
+													404 text 82
+													405 text if  ( ! link || ! input || ! total )  throw new Error ( 'Incomplete cart row' );
+													406 text 83
+													407 text var matches = source . cart . items . filter ( function  ( i ) {
+													408 text 84
+													409 text return new URL ( i . productUrl ,  location . href ). pathname === new URL ( link . href ). pathname ;
+													410 text 85
+													411 text         });
+													412 text 86
+													413 text if  ( matches . length !== 1 )  throw new Error ( 'Ambiguous cart variant' );
+													414 text 87
+													415 text var item = matches [ 0 ],  quantity = Number ( input . value );
+													416 text 88
+													417 text if  ( ! item . sku || ! item . unitPrice || ! item . unitPrice . decimalValue )  throw new Error ( 'Missing cart price or SKU' );
+													418 text 89
+													419 text var price = Number ( item . unitPrice . decimalValue );
+													420 text 90
+													421 text var visibleTotal = Number ( total . textContent . replace ( /[£,\s]/g ,  '' ));
+													422 text 91
+													423 text if  ( item . unitPrice . currencyCode !== 'GBP' || Math . abs ( visibleTotal - price * quantity )  > 0.005 )  throw new Error ( 'Cart not settled' );
+													424 text 92
+													425 text return  { item_id :  String ( item . sku ),  item_name :  item . productName ,  item_brand :  'Boldstone' ,  price :  price ,  quantity :  quantity };
+													426 text 93
+													427 text       });
+													428 text 94
+													429 text return  { items :  items ,  currency :  'GBP' };
+													430 text 95
+													431 text     }  catch  ( _ ) {  return null ; }
+													432 text 96
+													433 text   }
+													434 text 97
+													435 text function check () {
+													436 text 98
+													437 text scheduled = false ;
+									438 text LOCK PAGE
+									439 container
+										440 text Add custom code above the password field in your custom 
+										441 link lock screen, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/articles/205815178
+										442 text . We recommend using the 
+										443 link Lock Screen panel, Value: caper-spinach-spcy.squarespace.com/config/design/lock-screen
+										444 text  instead.
+									445 container
+										446 text entry area (settable)
+										447 container
+											448 text 1
+									449 text ORDER CONFIRMATION PAGE
+									450 text Enter code that will be injected into the footer of the order confirmation page after checkout. If you'd like to pass the Order ID, subtotal, grand total, or customer email to a third party service, use the tags below in your code:
+									451 content list
+										452 container
+											453 AXListMarker • 
+											454 text {orderId} : The order number of the confirmed order
+										455 container
+											456 AXListMarker • 
+											457 text {orderSubtotal} : The subtotal of the confirmed order
+										458 container
+											459 AXListMarker • 
+											460 text {orderSubtotalCents} : The subtotal of the confirmed order, in cents
+										461 container
+											462 AXListMarker • 
+											463 text {orderGrandTotal} : The grand total of the confirmed order
+										464 container
+											465 AXListMarker • 
+											466 text {orderGrandTotalCents} : The grand total of the confirmed order, in cents
+										467 container
+											468 AXListMarker • 
+											469 text {customerEmailAddress} : The customer's email address, as it was entered in the "Billing Info" section
+									470 container
+										471 text entry area (settable)
+										472 container
+											473 text 1
+									474 text ORDER STATUS PAGE
+									475 text Enter code that will be injected into the footer of the order status page after checkout and on later page views. If you'd like to pass the Order ID, subtotal, grand total, or customer email to a third party service, use the tags below in your code:
+									476 content list
+										477 container
+											478 AXListMarker • 
+											479 text {orderId} : The order number of the confirmed order
+										480 container
+											481 AXListMarker • 
+											482 text {orderSubtotal} : The subtotal of the confirmed order
+										483 container
+											484 AXListMarker • 
+											485 text {orderSubtotalCents} : The subtotal of the confirmed order, in cents
+										486 container
+											487 AXListMarker • 
+											488 text {orderGrandTotal} : The grand total of the confirmed order
+										489 container
+											490 AXListMarker • 
+											491 text {orderGrandTotalCents} : The grand total of the confirmed order, in cents
+										492 container
+											493 AXListMarker • 
+											494 text {customerEmailAddress} : The customer's email address, as it was entered in the "Billing Info" section
+									495 container
+										496 text entry area (settable)
+										497 container
+											498 text 1
+								499 container Site preview and editing tools
+									500 button Edit
+									501 container
+										502 text Sculpture Page  ·  Published
+									503 content list
+										504 container
+											505 radio button Desktop View, Value: 1
+											506 radio button Mobile View, Value: 0
+										507 button Toggle Site Styles editing
+										508 button Preview
+								509 button Close full screen preview
+								510 container boldstone
+									511 HTML content Wall Sculpture & Sculptural Furnishings | Boldstone, UK, URL: caper-spinach-spcy.squarespace.com/#
+										512 container
+											513 container
+												514 button EDIT SITE HEADER
+												515 link Skip to Content, Value: caper-spinach-spcy.squarespace.com/#page
+												516 container
+													517 link boldstone, Value: caper-spinach-spcy.squarespace.com/
+													518 link One item in cart, Value: caper-spinach-spcy.squarespace.com/cart
+													519 button Open Menu
+												520 text EDIT HEADER
+											521 container
+												522 container
+													523 container Wall sculpture catalogue
+														524 heading WALL SCULPTURE INSPIRED BY NATURE, Value: 1
+															525 text WALL SCULPTURE INSPIRED BY NATURE
+														526 text Handmade by Sally Price for homes, gardens and design projects.
+														527 container
+															528 text Search sculptures
+															529 search text field (settable) Search wall sculptures, Placeholder: Try ammonite, leaf or white
+														530 container
+															531 text Explore a collection
+															532 pop-up button Wall sculpture collection, Value: All collections
+																533 (selected) All collections
+														534 text Showing 24 of 176 sculptures
+														535 link Acanthus Bloom - White ACANTHUS BLOOM - WHITE Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-flower-white
+														536 link Acanthus Frond (Left) - Pewter Finish ACANTHUS FROND (LEFT) - PEWTER FINISH Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-one-leaf-left-pewter
+														537 link Acanthus Frond (Left) - White ACANTHUS FROND (LEFT) - WHITE Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-one-leaf-left-white
+														538 link Acanthus Moon - Gold Finish ACANTHUS MOON - GOLD FINISH Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-and-moon-gold-leaf
+														539 link Acanthus Moon - White ACANTHUS MOON - WHITE Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-full-acanthus-and-moon-white
+														540 link Acanthus Twin Leaves - Bronze Finish ACANTHUS TWIN LEAVES - BRONZE FINISH Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-two-leaves-bronze
+														541 link Value: boldstonesculpture.com/buy/p/acanthus-two-leaves-pale-blue-and-white, Acanthus Twin Leaves - Pale Blue and White Finish ACANTHUS TWIN LEAVES - PALE BLUE AND WHITE FINISH Acanthus
+														542 link Acanthus Twin Leaves - Pewter Finish ACANTHUS TWIN LEAVES - PEWTER FINISH Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-two-leaves-pewter
+														543 link Acanthus Twin Leaves - White ACANTHUS TWIN LEAVES - WHITE Acanthus, Value: boldstonesculpture.com/buy/p/acanthus-two-leaves-white
+														544 link Ammonite Grande I (Left) - White AMMONITE GRANDE I (LEFT) - WHITE Ammonite, Value: boldstonesculpture.com/buy/p/ammonite-large-1-left-panel-white
+														545 link Ammonite Grande II (Right) - White AMMONITE GRANDE II (RIGHT) - WHITE Ammonite, Value: boldstonesculpture.com/buy/p/ammonite-large-2-right-panel-white
+														546 link Ammonite Petite I (Left) - White AMMONITE PETITE I (LEFT) - WHITE Ammonite, Value: boldstonesculpture.com/buy/p/ammonite-small-1-left-panel-white
+														547 link Ammonite Petite II (Right) - White AMMONITE PETITE II (RIGHT) - WHITE Ammonite, Value: boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white
+														548 link Ancient Cup Ring - White ANCIENT CUP RING - WHITE Cup Ring and Spiral, Value: boldstonesculpture.com/buy/p/cup-ring-crs2-white-standard
+														549 link Ancient Spiral - White ANCIENT SPIRAL - WHITE Cup Ring and Spiral, Value: boldstonesculpture.com/buy/p/spiral-white-crs1
+														550 link Value: boldstonesculpture.com/buy/p/azure-blue-and-white-marbled-panel, Azure Marble-Effect Relief - Blue and White Finish AZURE MARBLE-EFFECT RELIEF - BLUE AND WHITE FINISH Wall Panel Azure Blue Marble
+														551 link Barbados Wave Relief BARBADOS WAVE RELIEF Barbados Wave, Value: boldstonesculpture.com/buy/p/barbados-wave
+														552 link Battersea Shellmoon I - White BATTERSEA SHELLMOON I - WHITE Shellmoon, Value: boldstonesculpture.com/buy/p/battersea-shellmoon-1-white
+														553 link Battersea Shellmoon I Fountain - White BATTERSEA SHELLMOON I FOUNTAIN - WHITE Shellmoon, Value: boldstonesculpture.com/buy/p/battersea-shellmoon-1-white-water-feature
+														554 link Battersea Shellmoon II Fountain - White BATTERSEA SHELLMOON II FOUNTAIN - WHITE Shellmoon, Value: boldstonesculpture.com/buy/p/battersea-shellmoon-2-white-water-feature
+														555 link Bone Spiral I (Narrow) - White BONE SPIRAL I (NARROW) - WHITE Bone Spiral, Value: boldstonesculpture.com/buy/p/bone-spiral-1-narrow-panel-white-bs1
+														556 link Bone Spiral II (Wide) - White BONE SPIRAL II (WIDE) - WHITE Bone Spiral, Value: boldstonesculpture.com/buy/p/bone-spiral-2-wide-panel-white-bs2
+														557 link Bone Water Spiral Relief - White BONE WATER SPIRAL RELIEF - WHITE Bone Water Spiral, Value: boldstonesculpture.com/buy/p/bone-water-spiral-white
+														558 link Botanical Form - White BOTANICAL FORM - WHITE Plant Form, Value: boldstonesculpture.com/buy/p/plant-form-white
+														559 button Show more sculptures
+												560 container
+													561 container
+														562 heading HANDMADE WALL SCULPTURE BY SALLY PRICE, Value: 2
+															563 text HANDMADE WALL SCULPTURE BY SALLY PRICE
+														564 text Boldstone is the studio of British sculptor Sally Price, established in 1998 near Bath in South West England. Discover handmade relief panels, 
+														565 link garden wall sculpture, Value: caper-spinach-spcy.squarespace.com/garden-sculpture
+														566 text  and 
+														567 link sculptural furnishings, Value: caper-spinach-spcy.squarespace.com/furnishings
+														568 text  for homes, gardens, hotels and commercial interiors. Choose a made-to-order design from the collection or 
+														569 link commission a bespoke sculpture, Value: caper-spinach-spcy.squarespace.com/commission
+														570 text . We work with private clients, 
+														571 link interior designers and architects, Value: caper-spinach-spcy.squarespace.com/collaborate
+														572 text , with UK and international delivery. 
+														573 link Meet Sally Price, Value: caper-spinach-spcy.squarespace.com/about
+														574 text  and explore our 
+														575 link materials, outdoor finishes and lead times, Value: caper-spinach-spcy.squarespace.com/faqs
+														576 text . Botanical forms, fossil spirals and the movement of water, brought to life through texture, light and shadow. Explore individual wall sculptures for interiors, gardens and outdoor spaces.
+												577 container
+													578 container
+														579 container
+															580 container
+																581 image An abstract watercolor painting with red, beige, and light blue irregular shapes outlined in black.
+															582 image
+														583 container
+															584 container
+																585 image Abstract pattern with orange, cream, teal, and black cracked design.
+															586 image
+														587 container
+															588 heading NEWSLETTER, Value: 2
+																589 text NEWSLETTER
+															590 text Sign up with your email address to receive interviews of industry experts, market trends and our latest innovations
+															591 email (settable) Email Address
+															592 button Sign Up
+												593 container
+													594 container
+														595 button View fullsize Close-up of a fossilized ammonite shell showing spiral ridges and textured surface.
+														596 text If you would like more information or have a project in mind please make contact with us by the form below or via our email address directly, given in the footer. If you would like to book a consultation, please use the appointment form at the bottom of this page.
+														597 container
+															598 container Name
+																599 text Name
+																600 container
+																	601 text First Name (required)
+																	602 text field (settable) First Name (required)
+																603 container
+																	604 text Last Name (required)
+																	605 text field (settable) Last Name (required)
+															606 container
+																607 text Email (required)
+															608 email (settable) Email (required)
+															609 container
+																610 Tick box Sign up for news and updates, Value: 0
+																611 text Sign up for news and updates
+															612 container What Services Are You Interested In? Please indicate the types of services with which you're primarily interested
+																613 container
+																	614 text What Services Are You Interested In? Please indicate the types of services with which you're primarily interested
+																615 container
+																	616 Tick box Furnishings Details and Prices, Value: 0
+																	617 text Furnishings Details and Prices
+																618 container
+																	619 Tick box Sculptures Details and Prices, Value: 0
+																	620 text Sculptures Details and Prices
+																621 container
+																	622 Tick box Estimates for Projects and Bespoke Pieces, Value: 0
+																	623 text Estimates for Projects and Bespoke Pieces
+																624 container
+																	625 Tick box Materials and Surface Effects. Including: Stone, Metal and Resins, Value: 0
+																	626 text Materials and Surface Effects. Including: Stone, Metal and Resins
+																627 container
+																	628 Tick box Project Management, Sourcing and Creative Consulting, Value: 0
+																	629 text Project Management, Sourcing and Creative Consulting
+															630 text What Is Your Estimated Budget For Our Services?
+															631 text Your estimated budget for our services will give us an indication of scale and how we can best provide advice
+															632 text field (settable) What Is Your Estimated Budget For Our Services?
+															633 container
+																634 text Message (required)
+															635 text Please describe the project and service/s required so we can give you the necessary details
+															636 text entry area (settable) Message (required)
+															637 text Date Of Consultation (Optional)
+															638 text If you have a preferred date for a consultation, please enter it here and we will try to accommodate
+															639 container
+																640 date picker Date Of Consultation (Optional)
+																	641 container
+																		642 stepper (settable, float) Day Date Of Consultation (Optional), Value: 0, Placeholder: dd
+																		643 text /
+																		644 stepper (settable, float) Month Date Of Consultation (Optional), Value: 0, Placeholder: mm
+																		645 text /
+																		646 stepper (settable, float) Year Date Of Consultation (Optional), Value: 0, Placeholder: yyyy
+																	647 pop-up button Show date picker Date Of Consultation (Optional)
+																648 image
+															649 text Website Or Social (Optional)
+															650 text Providing your website or other social link/s can help us provide better advice
+															651 text field (settable) Website Or Social (Optional)
+															652 text http://
+															653 button Submit
+														654 heading GET IN TOUCH, Value: 2
+															655 text GET IN TOUCH
+														656 text If you're interested in working with us, complete the form with a few details about your project. We'll review your message and get back to you within 48 hours.
+												657 text EDIT PAGE
+											658 container
+												659 button EDIT SITE FOOTER
+												660 container
+													661 container
+														662 link Privacy Policy, Value: caper-spinach-spcy.squarespace.com/privacy-policy
+														663 link Terms of Service, Value: caper-spinach-spcy.squarespace.com/terms-of-service
+														664 link Terms and Conditions, Value: caper-spinach-spcy.squarespace.com/terms-and-conditions
+														665 link Partnership Terms, Value: caper-spinach-spcy.squarespace.com/partnership-terms
+													666 container
+														667 link Copyright and Design Right, Value: caper-spinach-spcy.squarespace.com/copyright-and-design-right
+														668 link Shipping Policy , Value: caper-spinach-spcy.squarespace.com/shipping-policy
+														669 link Return and Refund Policy, Value: caper-spinach-spcy.squarespace.com/return-and-refund-policy
+													670 container
+														671 text Contact Us Directly:
+														672 link info@, Value: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+														673 link boldstonesculpture, Value: mailto:info@boldstonesculpture.com?cc=info%40boldstone.co.uk&subject=Inquiry%3A%20Boldstone%20Sculpture
+														674 link .com, Value: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+														675 link Frequently Asked Questions, Value: caper-spinach-spcy.squarespace.com/faqs
+														676 link About Sally Price, Value: caper-spinach-spcy.squarespace.com/about
+														677 link Garden Sculpture, Value: caper-spinach-spcy.squarespace.com/garden-sculpture
+														678 link Bespoke Commissions, Value: caper-spinach-spcy.squarespace.com/commission
+												679 text EDIT FOOTER
+											680 container Manage previously selected cookie options
+												681 button Cookie Preferences
+			682 pop-up button Tab search
+			683 container
+				684 tab group
+					685 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					686 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					687 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					688 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					689 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					690 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					691 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					692 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					693 tab (settable, boolean) SEO opportunity audit, Value: off
+					694 tab group  group ✅Claude – 2 Tabs, •  Inbox (112) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					695 tab (settable, boolean) Value: off, Inbox (112) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1,001 MB
+					696 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					697 tab (settable, boolean) Drafts (1,334) - tppricet@gmail.com - Gmail, Value: off
+					698 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					699 tab (settable, boolean) Bookmarks, Value: off
+					700 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					701 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					702 tab (settable, boolean) Boldstone Sculpture | Wall Sculptures - 50 Preview, Value: off
+					703 tab (selected, settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.1 GB, Value: on
+						704 button Close
+			705 button New tab
+	706 close button
+	707 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	708 minimise button
+709 menu bar
+	710 Chrome
+	711 File
+	712 Edit
+	713 View
+	714 History
+	715 Bookmarks
+	716 Profiles
+	717 Tab
+	718 Window
+	719 Help
+
+Selected text: ```
+<script id="boldstone-ga4-shopping-funnel">
+
+/* Boldstone consent-aware shopping funnel, 2026-11-08.
+ * Supplements native Squarespace purchase tracking. Does not send Meta events,
+ * purchase events, customer details, cart tokens, or duplicate page views.
+ * A cart addition requires a genuine click AND a confirmed cart-count increase.
+ */
+(function () {
+  'use strict';
+  if (window.__boldstoneShoppingFunnel) return;
+  window.__boldstoneShoppingFunnel = true;
+  var lastViews = {ga4:'', pinterest:''}, pending = null, checkoutAt = 0, scheduled = false;
+  function performanceConsent() {
+    try { return window.getSquarespaceCookies().performance === 'accepted'; }
+    catch (_) { return false; }
+  }
+  function consent() {
+    try { var c=window.getSquarespaceCookies(); return c.performance === 'accepted' || c.marketing === 'accepted'; }
+    catch (_) { return false; }
+  }
+  function emit(name, items, currency, viewKey) {
+    if (!consent() || !items.length) return false;
+    if (!/^[A-Z]{3}$/.test(currency)) return false;
+    if (items.some(function (i) {
+      return !i.item_id || !i.item_name || !Number.isFinite(i.price) || i.price < 0 ||
+        !Number.isInteger(i.quantity) || i.quantity < 1;
+    })) return false;
+    var emitted = false;
+    if (performanceConsent() && typeof window.gtag === 'function' && (!viewKey || lastViews.ga4 !== viewKey)) {
+      window.gtag('event', name, {
+      send_to: 'G-DYE31M1PWM', currency: currency,
+      value: Math.round(items.reduce(function (n, i) { return n + i.price * i.quantity; }, 0) * 100) / 100,
+      items: items, transport_type: 'beacon'
+      });
+      emitted = true;
+      if (viewKey) lastViews.ga4 = viewKey;
+    }
+    if (window.BoldstonePinterest && (!viewKey || lastViews.pinterest !== viewKey)
+        && window.BoldstonePinterest.commerce(name,items,currency)) {
+      emitted = true;
+      if (viewKey) lastViews.pinterest = viewKey;
+    }
+    return emitted;
+  }
+  function product() {
+    if (!document.querySelector('.sqs-add-to-cart-button')) return null;
+    var results = [];
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(function (s) {
+      try {
+        var p = JSON.parse(s.textContent);
+        // Single-offer products only: never guess the chosen multi-variant SKU.
+        if (p['@type'] !== 'Product' || !p.offers || Array.isArray(p.offers) || p.offers['@type'] !== 'Offer') return;
+        var o = p.offers;
+        if (!o.sku || o.price == null || o.price === '') return;
+        if (new URL(o.url, location.href).pathname !== location.pathname) return;
+        results.push({currency: o.priceCurrency, item: {
+          item_id: String(o.sku), item_name: String(p.name).replace(/\s+[—–]\s+boldstone$/i, ''),
+          item_brand: 'Boldstone', price: Number(o.price), quantity: 1
+        }});
+      } catch (_) { /* Leave malformed or ambiguous products uncounted. */ }
+    });
+    return results.length === 1 ? results[0] : null;
+  }
+  function count() {
+    var values = Array.from(document.querySelectorAll('.sqs-cart-initialized .sqs-cart-quantity')).map(function (e) { return Number(e.textContent.trim()); });
+    if (!values.length || values.some(function (n) { return !Number.isInteger(n) || n < 0 || n !== values[0]; })) return null;
+    return values[0];
+  }
+  function cart() {
+    if (location.pathname !== '/cart') return null;
+    var context = document.querySelector('#sqs-cart-root > script[type="application/json"]');
+    if (!context) return null;
+    try {
+      var source = JSON.parse(context.textContent);
+      if (source.storeCurrency !== 'GBP') return null;
+      var rows = Array.from(document.querySelectorAll('[data-testid="cart-table-row"]'));
+      if (!rows.length) return null;
+      var items = rows.map(function (row) {
+        var link = row.querySelector('.cart-row-title');
+        var input = row.querySelector('.cart-row-qty-input');
+        var total = row.querySelector('.cart-row-price');
+        if (!link || !input || !total) throw new Error('Incomplete cart row');
+        var matches = source.cart.items.filter(function (i) {
+          return new URL(i.productUrl, location.href).pathname === new URL(link.href).pathname;
+        });
+        if (matches.length !== 1) throw new Error('Ambiguous cart variant');
+        var item = matches[0], quantity = Number(input.value);
+        if (!item.sku || !item.unitPrice || !item.unitPrice.decimalValue) throw new Error('Missing cart price or SKU');
+        var price = Number(item.unitPrice.decimalValue);
+        var visibleTotal = Number(total.textContent.replace(/[£,\s]/g, ''));
+        if (item.unitPrice.currencyCode !== 'GBP' || Math.abs(visibleTotal - price * quantity) > 0.005) throw new Error('Cart not settled');
+        return {item_id: String(item.sku), item_name: item.productName, item_brand: 'Boldstone', price: price, quantity: quantity};
+      });
+      return {items: items, currency: 'GBP'};
+    } catch (_) { return null; }
+  }
+  function check() {
+    scheduled = false;
+    if (!consent()) { pending = null; return; }
+    var p = product(), c = cart();
+    var key = location.pathname + ':' + (p ? p.item.item_id : c ? 'cart' : '');
+    // Each destination may gain consent later than the other. A view delivered
+    // to GA4 must not suppress Pinterest's first consented view, or vice versa.
+    if (p) emit('view_item', [p.item], p.currency, key);
+    else if (c) emit('view_cart', c.items, c.currency, key);
+    if (pending) {
+      if (Date.now() - pending.at > 30000 || pending.path !== location.pathname || !pending.button.isConnected) { pending = null; return; }
+      var after = count();
+      if (after !== null && after > pending.before) {
+        var addition = pending; pending = null;
+        // Other tab changes or unexpected quantities must not create false events.
+        if (after - addition.before === 1) emit('add_to_cart', [addition.product.item], addition.product.currency);
+      }
+    }
+  }
+  function schedule() {
+    if (scheduled) return;
+    scheduled = true;
+    setTimeout(check, 100);
+  }
+  function click(e) {
+    if (!e.isTrusted || !e.target.closest || !consent()) return;
+    if (pending && Date.now() - pending.at > 30000) pending = null;
+    var button = e.target.closest('.sqs-add-to-cart-button');
+    if (button && !button.disabled && !button.classList.contains('cart-adding')) {
+      var p = product(), before = count();
+      if (p && before !== null && !pending) pending = {product:p, before:before, at:Date.now(), path:location.pathname, button:button};
+    }
+    var checkout = e.target.closest('a.cart-checkout-button[href]');
+    if (checkout && new URL(checkout.href).pathname === '/commerce/goto-checkout' && Date.now() - checkoutAt > 3000) {
+      var c = cart();
+      if (c && emit('begin_checkout', c.items, c.currency)) checkoutAt = Date.now();
+    }
+  }
+  function start() {
+    document.addEventListener('click', click, true);
+    new MutationObserver(schedule).observe(document.body, {childList:true, subtree:true, characterData:true, attributes:true, attributeFilter:['class','value']});
+    var previous = window.onCookieBannerInteraction;
+    window.onCookieBannerInteraction = function () {
+      try { if (typeof previous === 'function') previous.apply(this, arguments); }
+      finally { schedule(); }
+    };
+    window.addEventListener('pageshow', function (event) {
+      // Initial pageshow follows DOMContentLoaded; resetting then duplicates views.
+      if (!event.persisted) return;
+      pending = null; checkoutAt = 0; lastViews = {ga4:'', pinterest:''}; schedule();
+    });
+    check();
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once:true});
+  else start();
+})();
+</script>
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

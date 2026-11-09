@@ -1,0 +1,987 @@
+ALL
+- complementary:
+  - menu:
+    - link "Homepage":
+      - /url: /homepage
+      - menuitem "Homepage":
+        - generic: Homepage
+    - separator
+    - separator
+    - link "Affiliate":
+      - /url: /affiliate/landing
+      - menuitem "Affiliate":
+        - generic: Affiliate
+    - link "LIVE selling":
+      - /url: /live?from=menu
+      - menuitem "LIVE selling":
+        - generic: LIVE selling
+    - separator
+    - generic: Marketing
+    - separator
+    - link "Analytics":
+      - /url: /compass/data-overview
+      - menuitem "Analytics":
+        - generic: Analytics
+    - link "Apps":
+      - /url: /services/market
+      - menuitem "Apps":
+        - generic: Apps
+- banner:
+  - navigation:
+    - link "Logo":
+      - /url: /
+    - separator
+    - generic: Seller Centre
+    - generic: "Search:"
+    - generic: "\"fbt\""
+    - textbox
+    - generic: ⌘+K
+    - button "Assistant":
+      - generic: Assistant
+    - separator
+    - button "Boldstone Boldstone":
+      - img "Boldstone"
+      - generic: Boldstone
+- main:
+  - heading "Manage products" [level=1]
+  - heading [level=1]
+  - button "Bulk actions":
+    - generic: Bulk actions
+  - button "Add product":
+    - generic: Add product
+  - button:
+  - tab "Overview" [selected]:
+    - generic: Overview
+  - tab "Improve listing quality":
+    - generic: Improve listing quality
+  - tab "Manage stock":
+    - generic: Manage stock
+  - paragraph: Recommendations for you
+  - generic: Grow your sales
+  - generic: Get useful tips to increase orders.
+  - button "Go":
+    - text: Go
+  - generic: See what's trending
+  - generic: Upload in-demand products to get more exposure
+  - button "Add product":
+    - text: Add product
+  - generic: Improve your listing quality to drive conversions and sales
+  - generic: 99 listings to be optimised
+  - button "Optimise listing":
+    - text: Optimise listing
+  - tab "All" [selected]:
+    - generic: All
+  - tab "Live 101":
+    - text: Live
+    - generic: "101"
+  - tab "Reviewing 0":
+    - text: Reviewing
+    - generic: "0"
+  - tab "Needs attention 0":
+    - text: Needs attention
+    - generic: "0"
+  - tab "Deactivated":
+    - generic: Deactivated
+  - tab "Draft":
+    - generic: Draft
+  - tab "Deleted":
+    - generic: Deleted
+  - textbox "Product name, ID or SKU" [active]
+  - combobox:
+    - textbox "Category"
+    - generic: Category
+  - generic: Status
+  - button "Filter":
+    - generic: Filter
+  - button "Sort by":
+    - generic: Sort by
+  - table:
+    - rowgroup:
+      - row "Product Performance Status Stock Retail price Improvements Action":
+        - columnheader
+        - columnheader:
+          - checkbox
+        - columnheader "Product":
+          - generic: Product
+        - columnheader "Performance":
+          - text: Performance
+        - columnheader "Status":
+          - generic: Status
+        - columnheader "Stock":
+          - generic: Stock
+        - columnheader "Retail price":
+          - generic: Retail price
+        - columnheader "Improvements":
+          - text: Improvements
+        - columnheader "Action":
+          - generic: Action
+    - rowgroup:
+      - 'row "Fingerprint Rings III - Cream ID:1729973176954362196 Seller SKU: BOLD-A9C6379B224B -- Live 1 minute ago 1 £55.68 1 pending action"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Fingerprint Rings III - Cream ID:1729973176954362196 Seller SKU: BOLD-A9C6379B224B"':
+          - generic: Fingerprint Rings III - Cream
+          - generic: ID:1729973176954362196
+          - generic: "Seller SKU: BOLD-A9C6379B224B"
+        - cell "--":
+          - generic: "--"
+        - cell "Live 1 minute ago":
+          - text: Live
+          - generic: 1 minute ago
+        - cell "1":
+          - generic: "1"
+        - cell "£55.68":
+          - generic: £55.68
+        - cell "1 pending action":
+          - generic: 1 pending action
+        - cell:
+          - button:
+          - button:
+      - 'row "Egyptian Palm I - Pewter ID:1729973176954231124 Seller SKU: BOLD-1774B82C6518 -- Live 2 minutes ago 1 £76.78 2 pending actions"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Egyptian Palm I - Pewter ID:1729973176954231124 Seller SKU: BOLD-1774B82C6518"':
+          - generic: Egyptian Palm I - Pewter
+          - generic: ID:1729973176954231124
+          - generic: "Seller SKU: BOLD-1774B82C6518"
+        - cell "--":
+          - generic: "--"
+        - cell "Live 2 minutes ago":
+          - text: Live
+          - generic: 2 minutes ago
+        - cell "1":
+          - generic: "1"
+        - cell "£76.78":
+          - generic: £76.78
+        - cell "2 pending actions":
+          - generic: 2 pending actions
+        - cell:
+          - button:
+          - button:
+      - 'row "Dune Ripple II - Gold ID:1729973176954165588 Seller SKU: SQ6244576 -- Live 2 minutes ago 1 £39.14 2 pending actions"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Dune Ripple II - Gold ID:1729973176954165588 Seller SKU: SQ6244576"':
+          - generic: Dune Ripple II - Gold
+          - generic: ID:1729973176954165588
+          - generic: "Seller SKU: SQ6244576"
+        - cell "--":
+          - generic: "--"
+        - cell "Live 2 minutes ago":
+          - text: Live
+          - generic: 2 minutes ago
+        - cell "1":
+          - generic: "1"
+        - cell "£39.14":
+          - generic: £39.14
+        - cell "2 pending actions":
+          - generic: 2 pending actions
+        - cell:
+          - button:
+          - button:
+      - 'row "Moon and Shell Wave II - Black and White ID:1729973069212850516 Seller SKU: BOLD-6E9202BEAD51 -- Live 2 minutes ago 1 £94.28 All done!"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Moon and Shell Wave II - Black and White ID:1729973069212850516 Seller SKU: BOLD-6E9202BEAD51"':
+          - generic: Moon and Shell Wave II - Black and White
+          - generic: ID:1729973069212850516
+          - generic: "Seller SKU: BOLD-6E9202BEAD51"
+        - cell "--":
+          - generic: "--"
+        - cell "Live 2 minutes ago":
+          - text: Live
+          - generic: 2 minutes ago
+        - cell "1":
+          - generic: "1"
+        - cell "£94.28":
+          - generic: £94.28
+        - cell "All done!":
+          - generic: All done!
+        - cell:
+          - button:
+          - button:
+      - 'row "Mediterranean Fountain Palm - White ID:1729973069212784980 Seller SKU: BOLD-DDD53E46FB3F -- Live 2 minutes ago 1 £118.14 2 pending actions 1 critical"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Mediterranean Fountain Palm - White ID:1729973069212784980 Seller SKU: BOLD-DDD53E46FB3F"':
+          - generic: Mediterranean Fountain Palm - White
+          - generic: ID:1729973069212784980
+          - generic: "Seller SKU: BOLD-DDD53E46FB3F"
+        - cell "--":
+          - generic: "--"
+        - cell "Live 2 minutes ago":
+          - text: Live
+          - generic: 2 minutes ago
+        - cell "1":
+          - generic: "1"
+        - cell "£118.14":
+          - generic: £118.14
+        - cell "2 pending actions 1 critical":
+          - generic: 2 pending actions
+          - generic: 1 critical
+        - cell:
+          - button:
+          - button:
+      - 'row "Egyptian Fountain Palm - White ID:1729973069212719444 Seller SKU: DF-1-100.50 -- Live 3 minutes ago 1 £118.14 2 pending actions 1 critical"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Egyptian Fountain Palm - White ID:1729973069212719444 Seller SKU: DF-1-100.50"':
+          - generic: Egyptian Fountain Palm - White
+          - generic: ID:1729973069212719444
+          - generic: "Seller SKU: DF-1-100.50"
+        - cell "--":
+          - generic: "--"
+        - cell "Live 3 minutes ago":
+          - text: Live
+          - generic: 3 minutes ago
+        - cell "1":
+          - generic: "1"
+        - cell "£118.14":
+          - generic: £118.14
+        - cell "2 pending actions 1 critical":
+          - generic: 2 pending actions
+          - generic: 1 critical
+        - cell:
+          - button:
+          - button:
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+  - generic: "Total rows: 159"
+  - list:
+    - listitem "Previous":
+      - text: .
+    - listitem "Page 1": "1"
+    - listitem "Page 2": "2"
+    - listitem "Page 3": "3"
+    - listitem "Page 4": "4"
+    - listitem "Next":
+      - text: .
+  - generic "Page size":
+    - combobox:
+      - textbox: 50/Page
+      - generic: 50/Page
+- complementary
+
+DEACTIVATED
+- complementary:
+  - menu:
+    - link "Homepage":
+      - /url: /homepage
+      - menuitem "Homepage":
+        - generic: Homepage
+    - separator
+    - separator
+    - link "Affiliate":
+      - /url: /affiliate/landing
+      - menuitem "Affiliate":
+        - generic: Affiliate
+    - link "LIVE selling":
+      - /url: /live?from=menu
+      - menuitem "LIVE selling":
+        - generic: LIVE selling
+    - separator
+    - generic: Marketing
+    - separator
+    - link "Analytics":
+      - /url: /compass/data-overview
+      - menuitem "Analytics":
+        - generic: Analytics
+    - link "Apps":
+      - /url: /services/market
+      - menuitem "Apps":
+        - generic: Apps
+- banner:
+  - navigation:
+    - link "Logo":
+      - /url: /
+    - separator
+    - generic: Seller Centre
+    - generic: "Search:"
+    - generic: "\"shipping options\""
+    - textbox
+    - generic: ⌘+K
+    - button "Assistant":
+      - generic: Assistant
+    - separator
+    - button "Boldstone Boldstone":
+      - img "Boldstone"
+      - generic: Boldstone
+- main:
+  - heading "Manage products" [level=1]
+  - heading [level=1]
+  - button "Bulk actions":
+    - generic: Bulk actions
+  - button "Add product":
+    - generic: Add product
+  - button:
+  - tab "Overview" [selected]:
+    - generic: Overview
+  - tab "Improve listing quality":
+    - generic: Improve listing quality
+  - tab "Manage stock":
+    - generic: Manage stock
+  - paragraph: Recommendations for you
+  - generic: Grow your sales
+  - generic: Get useful tips to increase orders.
+  - button "Go":
+    - text: Go
+  - generic: See what's trending
+  - generic: Upload in-demand products to get more exposure
+  - button "Add product":
+    - text: Add product
+  - generic: Improve your listing quality to drive conversions and sales
+  - generic: 99 listings to be optimised
+  - button "Optimise listing":
+    - text: Optimise listing
+  - tab "All":
+    - generic: All
+  - tab "Live 101":
+    - text: Live
+    - generic: "101"
+  - tab "Reviewing 0":
+    - text: Reviewing
+    - generic: "0"
+  - tab "Needs attention 0":
+    - text: Needs attention
+    - generic: "0"
+  - tab "Deactivated" [active] [selected]:
+    - generic: Deactivated
+  - tab "Draft":
+    - generic: Draft
+  - tab "Deleted":
+    - generic: Deleted
+  - textbox "Product name, ID or SKU"
+  - table:
+    - rowgroup:
+      - row "Product Status Stock Retail price Action":
+        - columnheader
+        - columnheader:
+          - checkbox
+        - columnheader "Product":
+          - generic: Product
+        - columnheader "Status":
+          - generic: Status
+        - columnheader "Stock":
+          - generic: Stock
+        - columnheader "Retail price":
+          - generic: Retail price
+        - columnheader "Action":
+          - generic: Action
+    - rowgroup:
+      - 'row "Gleneagles Vine I - White ID:1729973001793018196 Seller SKU: BOLD-53239DE28BCA Deactivated Today 02:14 1 £50.72"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Gleneagles Vine I - White ID:1729973001793018196 Seller SKU: BOLD-53239DE28BCA"':
+          - generic: Gleneagles Vine I - White
+          - generic: ID:1729973001793018196
+          - generic: "Seller SKU: BOLD-53239DE28BCA"
+        - cell "Deactivated Today 02:14":
+          - text: Deactivated
+          - generic: Today 02:14
+        - cell "1":
+          - generic: "1"
+        - cell "£50.72":
+          - generic: £50.72
+        - cell:
+          - button:
+          - button:
+      - 'row "Patina Panel - Rust and Verdigris ID:1729972964464826708 Seller SKU: EBAY-188590547084 Deactivated Today 02:14 1 £55.52"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Patina Panel - Rust and Verdigris ID:1729972964464826708 Seller SKU: EBAY-188590547084"':
+          - generic: Patina Panel - Rust and Verdigris
+          - generic: ID:1729972964464826708
+          - generic: "Seller SKU: EBAY-188590547084"
+        - cell "Deactivated Today 02:14":
+          - text: Deactivated
+          - generic: Today 02:14
+        - cell "1":
+          - generic: "1"
+        - cell "£55.52":
+          - generic: £55.52
+        - cell:
+          - button:
+          - button:
+      - 'row "Smooth Sand Ripple Relief - White ID:1729972964464630100 Seller SKU: SSR-1-100.50 Deactivated Today 02:14 1 £118.14"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Smooth Sand Ripple Relief - White ID:1729972964464630100 Seller SKU: SSR-1-100.50"':
+          - generic: Smooth Sand Ripple Relief - White
+          - generic: ID:1729972964464630100
+          - generic: "Seller SKU: SSR-1-100.50"
+        - cell "Deactivated Today 02:14":
+          - text: Deactivated
+          - generic: Today 02:14
+        - cell "1":
+          - generic: "1"
+        - cell "£118.14":
+          - generic: £118.14
+        - cell:
+          - button:
+          - button:
+      - 'row "Moon Fish Wave II - White ID:1729972964466661716 Seller SKU: BOLD-8AC0376F7DEF Deactivated Today 02:14 1 £76.66"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Moon Fish Wave II - White ID:1729972964466661716 Seller SKU: BOLD-8AC0376F7DEF"':
+          - generic: Moon Fish Wave II - White
+          - generic: ID:1729972964466661716
+          - generic: "Seller SKU: BOLD-8AC0376F7DEF"
+        - cell "Deactivated Today 02:14":
+          - text: Deactivated
+          - generic: Today 02:14
+        - cell "1":
+          - generic: "1"
+        - cell "£76.66":
+          - generic: £76.66
+        - cell:
+          - button:
+          - button:
+      - 'row "Battersea Shellmoon I Fountain - White ID:1729973046166722900 Seller SKU: BOLD-22E4E4F99696 Deactivated Today 02:14 1 £92.36"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Battersea Shellmoon I Fountain - White ID:1729973046166722900 Seller SKU: BOLD-22E4E4F99696"':
+          - generic: Battersea Shellmoon I Fountain - White
+          - generic: ID:1729973046166722900
+          - generic: "Seller SKU: BOLD-22E4E4F99696"
+        - cell "Deactivated Today 02:14":
+          - text: Deactivated
+          - generic: Today 02:14
+        - cell "1":
+          - generic: "1"
+        - cell "£92.36":
+          - generic: £92.36
+        - cell:
+          - button:
+          - button:
+      - 'row "Deco Timeless Spiral - White ID:1729973069212195156 Seller SKU: TS-1-45.40 Deactivated Today 02:12 1 £57.46"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Deco Timeless Spiral - White ID:1729973069212195156 Seller SKU: TS-1-45.40"':
+          - generic: Deco Timeless Spiral - White
+          - generic: ID:1729973069212195156
+          - generic: "Seller SKU: TS-1-45.40"
+        - cell "Deactivated Today 02:12":
+          - text: Deactivated
+          - generic: Today 02:12
+        - cell "1":
+          - generic: "1"
+        - cell "£57.46":
+          - generic: £57.46
+        - cell:
+          - button:
+          - button:
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+  - generic: "Total rows: 55"
+  - list:
+    - listitem "Previous":
+      - text: .
+    - listitem "Page 1": "1"
+    - listitem "Page 2": "2"
+    - listitem "Next":
+      - text: .
+  - generic "Page size":
+    - combobox:
+      - textbox: 50/Page
+      - generic: 50/Page
+- complementary
+
+DRAFT
+- complementary:
+  - menu:
+    - link "Homepage":
+      - /url: /homepage
+      - menuitem "Homepage":
+        - generic: Homepage
+    - separator
+    - separator
+    - link "Affiliate":
+      - /url: /affiliate/landing
+      - menuitem "Affiliate":
+        - generic: Affiliate
+    - link "LIVE selling":
+      - /url: /live?from=menu
+      - menuitem "LIVE selling":
+        - generic: LIVE selling
+    - separator
+    - generic: Marketing
+    - separator
+    - link "Analytics":
+      - /url: /compass/data-overview
+      - menuitem "Analytics":
+        - generic: Analytics
+    - link "Apps":
+      - /url: /services/market
+      - menuitem "Apps":
+        - generic: Apps
+- banner:
+  - navigation:
+    - link "Logo":
+      - /url: /
+    - separator
+    - generic: Seller Centre
+    - generic: "Search:"
+    - generic: "\"brand\""
+    - textbox
+    - generic: ⌘+K
+    - button "Assistant":
+      - generic: Assistant
+    - separator
+    - button "Boldstone Boldstone":
+      - img "Boldstone"
+      - generic: Boldstone
+- main:
+  - heading "Manage products" [level=1]
+  - heading [level=1]
+  - button "Bulk actions":
+    - generic: Bulk actions
+  - button "Add product":
+    - generic: Add product
+  - button:
+  - tab "Overview" [selected]:
+    - generic: Overview
+  - tab "Improve listing quality":
+    - generic: Improve listing quality
+  - tab "Manage stock":
+    - generic: Manage stock
+  - paragraph: Recommendations for you
+  - generic: Grow your sales
+  - generic: Get useful tips to increase orders.
+  - button "Go":
+    - text: Go
+  - generic: See what's trending
+  - generic: Upload in-demand products to get more exposure
+  - button "Add product":
+    - text: Add product
+  - generic: Improve your listing quality to drive conversions and sales
+  - generic: 99 listings to be optimised
+  - button "Optimise listing":
+    - text: Optimise listing
+  - tab "All":
+    - generic: All
+  - tab "Live 101":
+    - text: Live
+    - generic: "101"
+  - tab "Reviewing 0":
+    - text: Reviewing
+    - generic: "0"
+  - tab "Needs attention 0":
+    - text: Needs attention
+    - generic: "0"
+  - tab "Deactivated":
+    - generic: Deactivated
+  - tab "Draft" [active] [selected]:
+    - generic: Draft
+  - tab "Deleted":
+    - generic: Deleted
+  - textbox "Product name, ID or SKU"
+  - table:
+    - rowgroup:
+      - row "Product Status Stock Retail price Action":
+        - columnheader
+        - columnheader:
+          - checkbox
+        - columnheader "Product":
+          - generic: Product
+        - columnheader "Status":
+          - generic: Status
+        - columnheader "Stock":
+          - generic: Stock
+        - columnheader "Retail price":
+          - generic: Retail price
+        - columnheader "Action":
+          - generic: Action
+    - rowgroup:
+      - 'row "Echo Rhythm I - Verdigris ID:1729973069211015508 Seller SKU: BOLD-0BE032939501 Draft 11 minutes ago 1 £49.20"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Echo Rhythm I - Verdigris ID:1729973069211015508 Seller SKU: BOLD-0BE032939501"':
+          - generic: Echo Rhythm I - Verdigris
+          - generic: ID:1729973069211015508
+          - generic: "Seller SKU: BOLD-0BE032939501"
+        - cell "Draft 11 minutes ago":
+          - text: Draft
+          - generic: 11 minutes ago
+        - cell "1":
+          - generic: "1"
+        - cell "£49.20":
+          - generic: £49.20
+        - cell:
+          - button:
+          - button:
+      - 'row "Deco Palm II - White ID:1729973069210949972 Seller SKU: PF2-40.45 Draft 11 minutes ago 1 £61.76"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Deco Palm II - White ID:1729973069210949972 Seller SKU: PF2-40.45"':
+          - generic: Deco Palm II - White
+          - generic: ID:1729973069210949972
+          - generic: "Seller SKU: PF2-40.45"
+        - cell "Draft 11 minutes ago":
+          - text: Draft
+          - generic: 11 minutes ago
+        - cell "1":
+          - generic: "1"
+        - cell "£61.76":
+          - generic: £61.76
+        - cell:
+          - button:
+          - button:
+      - 'row "Bone Water Spiral Relief - White ID:1729973001790789972 Seller SKU: BWS-1-55.55 Draft 35 minutes ago 1 £120.46"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Bone Water Spiral Relief - White ID:1729973001790789972 Seller SKU: BWS-1-55.55"':
+          - generic: Bone Water Spiral Relief - White
+          - generic: ID:1729973001790789972
+          - generic: "Seller SKU: BWS-1-55.55"
+        - cell "Draft 35 minutes ago":
+          - text: Draft
+          - generic: 35 minutes ago
+        - cell "1":
+          - generic: "1"
+        - cell "£120.46":
+          - generic: £120.46
+        - cell:
+          - button:
+          - button:
+      - 'row "Acanthus Moon - White ID:1729973001790724436 Seller SKU: SQ7372116 Draft 36 minutes ago 1 £56.06"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Acanthus Moon - White ID:1729973001790724436 Seller SKU: SQ7372116"':
+          - generic: Acanthus Moon - White
+          - generic: ID:1729973001790724436
+          - generic: "Seller SKU: SQ7372116"
+        - cell "Draft 36 minutes ago":
+          - text: Draft
+          - generic: 36 minutes ago
+        - cell "1":
+          - generic: "1"
+        - cell "£56.06":
+          - generic: £56.06
+        - cell:
+          - button:
+          - button:
+      - 'row "Lava Moonshell II - White ID:1729972964466923860 Seller SKU: BOLD-21E7F11ACAAA Draft 37 minutes ago 1 £87.60"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Lava Moonshell II - White ID:1729972964466923860 Seller SKU: BOLD-21E7F11ACAAA"':
+          - generic: Lava Moonshell II - White
+          - generic: ID:1729972964466923860
+          - generic: "Seller SKU: BOLD-21E7F11ACAAA"
+        - cell "Draft 37 minutes ago":
+          - text: Draft
+          - generic: 37 minutes ago
+        - cell "1":
+          - generic: "1"
+        - cell "£87.60":
+          - generic: £87.60
+        - cell:
+          - button:
+          - button:
+      - 'row "Raked Spiral III - Beige ID:1729972964467054932 Seller SKU: BOLD-6AA659B1469F Draft Today 01:15 1 £39.34"':
+        - cell
+        - cell:
+          - checkbox
+        - 'cell "Raked Spiral III - Beige ID:1729972964467054932 Seller SKU: BOLD-6AA659B1469F"':
+          - generic: Raked Spiral III - Beige
+          - generic: ID:1729972964467054932
+          - generic: "Seller SKU: BOLD-6AA659B1469F"
+        - cell "Draft Today 01:15":
+          - text: Draft
+          - generic: Today 01:15
+        - cell "1":
+          - generic: "1"
+        - cell "£39.34":
+          - generic: £39.34
+        - cell:
+          - button:
+          - button:
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+      - row:
+        - cell
+  - generic: "Total rows: 63"
+  - list:
+    - listitem "Previous":
+      - text: .
+    - listitem "Page 1": "1"
+    - listitem "Page 2": "2"
+    - listitem "Next":
+      - text: .
+  - generic "Page size":
+    - combobox:
+      - textbox: 50/Page
+      - generic: 50/Page
+- complementary

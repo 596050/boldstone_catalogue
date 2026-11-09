@@ -1,0 +1,33 @@
+Unused BoldstoneLocal cache - recovery instructions
+
+Only verified cache copies outside the current app's image references were
+removed. No Dropbox originals, review choices, catalogue records or source
+exports were deleted. The Mac metadata of retired files is preserved.
+
+cache-manifest.json identifies every original local path, size, SHA-256,
+Dropbox content hash and recovery source. cache-journal.jsonl records removals.
+The cache included one QuickTime video (about 7 GiB), previously counted as an
+image because of its .original extension. It was verified against the current
+Dropbox file before removal.
+
+Recovery sources:
+- dropbox: the exact recorded revision of a current, byte-identical Dropbox file.
+- existing-archive: the earlier verified historical-images.zip.
+- archive: cache-originals.zip in this directory. Every member was restored
+  and hash-checked before any cache file was removed. Keep these archives.
+
+Restore a file by copying its relative path from cache-manifest.json:
+  /Users/tprice/Documents/boldstone/application/.venv/bin/python /Users/tprice/Documents/boldstone/outputs/cache-clear-and-snapshot-audit-20261030/cache_cleanup.py restore 'RELATIVE/PATH' --apply
+
+Omit --apply to preview. Add --destination '/absolute/path' to restore elsewhere.
+Restoration refuses to overwrite existing files, verifies restored bytes,
+and restores the saved permissions, timestamps and Mac extended attributes.
+Large originals are streamed so they do not have to fit into memory.
+Dropbox recovery requires the existing Mac Keychain connection and network
+access. Recorded Dropbox revisions are not an unlimited-retention archive.
+An old report that uses a retired cache path will need that file restored.
+
+Snapshot assessment:
+Open snapshot-assessment.html for the separate read-only review of historical
+JSON, databases, .before snapshots and workbook inspection dumps. No files
+from that assessment have been removed or compressed in place.

@@ -1,0 +1,292 @@
+Window: "DevTools - boldstonesculpture.com/", App: Google Chrome.
+0 standard window DevTools - boldstonesculpture.com/ – Tom, Secondary Actions: Raise, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true
+	1 container DevTools - boldstonesculpture.com/ – Tom, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true
+		2 container
+			3 container
+				4 scroll area
+					5 HTML content DevTools, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true
+						6 container
+							7 container
+								8 container
+									9 container Main toolbar
+										10 toolbar
+											11 container Select an element in the page to inspect it, Help: Select an element in the page to inspect it - ⌘ ⇧ C
+												12 toggle button Select an element in the page to inspect it - ⌘ ⇧ C, Value: 0
+											13 container Toggle device toolbar, Help: Toggle device toolbar - ⌘ ⇧ M
+												14 toggle button Toggle device toolbar - ⌘ ⇧ M, Value: 0
+										15 container
+											16 tab group Panels
+												17 tab (selected) Console, Value: 1
+												18 tab (settable, integer) Elements, Value: 0
+												19 tab (settable, integer) Application, Value: 0
+												20 tab (settable, integer) Sources, Value: 0
+											21 pop-up button More tabs
+										22 toolbar
+											23 container
+												24 container Open Console to view 14 errors, 6 warnings
+													25 button Open Console to view 14 errors, 6 warnings
+												26 container Open Issues to view 3 issues: 1 breaking change, 2 possible improvements
+													27 button Open Issues to view 3 issues: 1 breaking change, 2 possible improvements
+											28 button  AI assistance, Help: Open AI assistance panel
+											29 container Settings, Help: Settings - F1 - ⇧ ?
+												30 button Settings - F1 - ⇧ ?
+											31 pop-up button Customize and control DevTools
+												32 button Customize and control DevTools
+									33 container Console panel
+										34 container console
+											35 container
+												36 toolbar
+													37 container Show Console sidebar
+														38 button Show Console sidebar
+													39 container Clear console, Help: Clear console - Ctrl L - ⌘ K
+														40 button Clear console - Ctrl L - ⌘ K
+													41 container Expand all
+														42 button Expand all
+													43 button JavaScript context: top
+													44 container Create live expression
+														45 button Create live expression
+													46 text entry area (settable) Filter
+														47 text Filter
+													48 pop-up button Log level: Default levels
+														49 text Default levels
+													50 container Some problems no longer generate console messages, but are surfaced in the Issues tab Click to view 1 breaking change, 2 possible improvements
+														51 button Some problems no longer generate console messages, but are surfaced in the Issues tab Click to view 1 breaking change, 2 possible improvements
+													52 container Console settings
+														53 toggle button Console settings, Value: 0
+													54 container 21 messages in console
+												55 container
+													56 container
+														57 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															58 container
+																59 text 18:49:12.645
+																60 container Error
+																61 container content.js:18 Uncaught (in promise) Stack table collapsed
+																	62 container
+																		63 link content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																			64 text content.js:18
+																		65 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														66 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															67 container
+																68 text 18:49:12.645
+																69 container Error
+																70 container (index):1 Uncaught (in promise) Stack table collapsed
+																	71 container
+																		72 button (index):1
+																		73 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														74 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															75 container
+																76 text 18:49:12.645
+																77 container Error
+																78 container globals-front.js:5935 Uncaught (in promise) Stack table collapsed
+																	79 container
+																		80 link globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																			81 text globals-front.js:5935
+																		82 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														83 container Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+															84 container
+																85 text 18:49:12.911
+																86 container Error
+																87 container  GET https://bzrcdn.openai.com/sdk/oaiq.min.js net::ERR_BLOCKED_BY_CLIENT Stack table collapsed
+																	88 container
+																		89 link (index):93, Help: https://boldstonesculpture.com/:93
+																			90 text (index):93
+																		91 button Click to open the Network panel and show request for URL: https://bzrcdn.openai.com/sdk/oaiq.min.js
+																		92 text GET 
+																		93 link https://bzrcdn.openai.com/sdk/oaiq.min.js
+																			94 text https://bzrcdn.openai.com/sdk/oaiq.min.js
+																		95 text net::ERR_BLOCKED_BY_CLIENT
+														96 container Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+															97 container
+																98 text 18:49:12.911
+																99 container Error
+																100 container  GET https://connect.facebook.net/en_US/fbevents.js net::ERR_BLOCKED_BY_CLIENT Stack table collapsed
+																	101 container
+																		102 link (index):268, Help: https://boldstonesculpture.com/:268
+																			103 text (index):268
+																		104 button Click to open the Network panel and show request for URL: https://connect.facebook.net/en_US/fbevents.js
+																		105 text GET 
+																		106 link https://connect.facebook.net/en_US/fbevents.js
+																			107 text https://connect.facebook.net/en_US/fbevents.js
+																		108 text net::ERR_BLOCKED_BY_CLIENT
+														109 container yui: NOT loaded: squarespace-visitor_site_error_reporter
+															110 container
+																111 text 18:49:13.200
+																112 container Warning
+																113 container  yui: NOT loaded: squarespace-visitor_site_error_reporter Stack table collapsed
+																	114 container
+																		115 link installHook.js:1, Help: chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1
+																			116 text installHook.js:1
+																		117 text yui: NOT loaded: squarespace-visitor_site_error_reporter
+														118 container yui: NOT loaded: squarespace-cldr_resource_pack
+															119 container
+																120 text 18:49:13.200
+																121 container Warning
+																122 container  yui: NOT loaded: squarespace-cldr_resource_pack Stack table collapsed
+																	123 container
+																		124 link installHook.js:1, Help: chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1
+																			125 text installHook.js:1
+																		126 text yui: NOT loaded: squarespace-cldr_resource_pack
+														127 container yui: NOT loaded: squarespace-common_vendors_stable
+															128 container
+																129 text 18:49:13.200
+																130 container Warning
+																131 container  yui: NOT loaded: squarespace-common_vendors_stable Stack table collapsed
+																	132 container
+																		133 link installHook.js:1, Help: chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1
+																			134 text installHook.js:1
+																		135 text yui: NOT loaded: squarespace-common_vendors_stable
+														136 container yui: NOT loaded: squarespace-common_vendors
+															137 container
+																138 text 18:49:13.200
+																139 container Warning
+																140 container  yui: NOT loaded: squarespace-common_vendors Stack table collapsed
+																	141 container
+																		142 link installHook.js:1, Help: chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1
+																			143 text installHook.js:1
+																		144 text yui: NOT loaded: squarespace-common_vendors
+														145 container yui: NOT loaded: squarespace-user_account_core
+															146 container
+																147 text 18:49:13.203
+																148 container Warning
+																149 container  yui: NOT loaded: squarespace-user_account_core Stack table collapsed
+																	150 container
+																		151 link installHook.js:1, Help: chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1
+																			152 text installHook.js:1
+																		153 text yui: NOT loaded: squarespace-user_account_core
+														154 container yui: NOT loaded: squarespace-performance
+															155 container
+																156 text 18:49:13.204
+																157 container Warning
+																158 container  yui: NOT loaded: squarespace-performance Stack table collapsed
+																	159 container
+																		160 link installHook.js:1, Help: chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1
+																			161 text installHook.js:1
+																		162 text yui: NOT loaded: squarespace-performance
+														163 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															164 container
+																165 text 18:49:13.648
+																166 container Error
+																167 container content.js:18 Uncaught (in promise) Stack table collapsed
+																	168 container
+																		169 link content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																			170 text content.js:18
+																		171 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														172 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															173 container
+																174 text 18:49:13.648
+																175 container Error
+																176 container anchor?ar=1&k=6LdDFQ…3VscHR1cmUuY29tO…:1 Uncaught (in promise) Stack table collapsed
+																	177 container
+																		178 button anchor?ar=1&k=6LdDFQ…3VscHR1cmUuY29tO…:1
+																		179 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														180 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															181 container
+																182 text 18:49:13.649
+																183 container Error
+																184 container globals-front.js:5935 Uncaught (in promise) Stack table collapsed
+																	185 container
+																		186 link globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																			187 text globals-front.js:5935
+																		188 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														189 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															190 container
+																191 text 18:49:13.845
+																192 container Error
+																193 container content.js:18 Uncaught (in promise) Stack table collapsed
+																	194 container
+																		195 link content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																			196 text content.js:18
+																		197 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														198 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															199 container
+																200 text 18:49:13.845
+																201 container Error
+																202 container about:blank:1 Uncaught (in promise) Stack table collapsed
+																	203 container
+																		204 button about:blank:1
+																		205 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														206 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															207 container
+																208 text 18:49:13.846
+																209 container Error
+																210 container globals-front.js:5935 Uncaught (in promise) Stack table collapsed
+																	211 container
+																		212 link globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																			213 text globals-front.js:5935
+																		214 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														215 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															216 container
+																217 text 18:49:14.339
+																218 container Error
+																219 container content.js:18 Uncaught (in promise) Stack table collapsed
+																	220 container
+																		221 link content.js:18, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/vendor/@eyeo/webext-ad-filtering-solution/content.js:18
+																			222 text content.js:18
+																		223 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														224 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															225 container
+																226 text 18:49:14.339
+																227 container Error
+																228 container about:blank:1 Uncaught (in promise) Stack table collapsed
+																	229 container
+																		230 button about:blank:1
+																		231 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														232 container Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+															233 container
+																234 text 18:49:14.339
+																235 container Error
+																236 container globals-front.js:5935 Uncaught (in promise) Stack table collapsed
+																	237 container
+																		238 link globals-front.js:5935, Help: chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/globals-front.js:5935
+																			239 text globals-front.js:5935
+																		240 text Uncaught (in promise) Error: IO error: .../913120.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+														241 container [Visitor Sentry] Initialized and sending events
+															242 container
+																243 text 18:49:40.459
+																244 container  [Visitor Sentry] Initialized and sending events Stack table collapsed
+																	245 container
+																		246 link 60059-64a1c151ef9c33b0-min.en-US.js:489, Help: https://assets.squarespace.com/universal/scripts-compressed/60059-64a1c151ef9c33b0-min.en-US.js:489
+																			247 text 60059-64a1c151ef9c33b0-min.en-US.js:489
+																		248 text [Visitor Sentry] Initialized and sending events
+													249 container
+														250 container
+															251 text entry area (settable) Console prompt, Value: Press cmd i to turn on code suggestions Press cmd x to disable code suggestions
+
+																252 text Press cmd i to turn on code suggestions Press cmd x to disable code suggestions
+								253 container Drawer
+									254 container
+										255 toolbar
+											256 pop-up button More tools
+												257 button More tools
+										258 tab group
+											259 tab (selected) Console, Value: 1
+											260 tab (settable, integer) Issues, Value: 0
+											261 tab (settable, integer) What’s new, Value: 0
+											262 tab (settable, integer) AI assistance, Value: 0
+										263 pop-up button More tabs
+										264 toolbar
+											265 container Toggle drawer orientation
+												266 button Toggle drawer orientation
+											267 container Expand drawer
+												268 button Expand drawer
+											269 container Close drawer
+												270 button Close drawer
+										271 container Console panel
+							272 text Network data available
+	273 close button
+	274 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	275 minimise button
+	276 text DevTools - boldstonesculpture.com/
+277 menu bar
+	278 Chrome
+	279 File
+	280 Edit
+	281 View
+	282 History
+	283 Bookmarks
+	284 Profiles
+	285 Tab
+	286 Window
+	287 Help
+
+The focused UI element is 251 text entry area (settable) Console prompt, Value: Press cmd i to turn on code suggestions Press cmd x to disable code suggestions

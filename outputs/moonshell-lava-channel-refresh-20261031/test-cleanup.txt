@@ -1,0 +1,25 @@
+Browser tab: 961982145, Title: "boldstone", URL: "https://boldstonesculpture.com/cart".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~		72 container
+~			73 container Manage previously selected cookie options
++				74 button Cookie Preferences
++			75 button MANAGE COOKIES
++				76 container MANAGE COOKIES
++					77 button Close
++						78 image
++					79 heading MANAGE COOKIES, Value: 3, ID: :rb:-heading
++						80 text MANAGE COOKIES
++					81 heading NECESSARY, Value: 4
++						82 text NECESSARY
++					83 text Always on
++					84 text Required to enable core site functionality and to remember user preferences and choices, such as language preferences or customized settings.
++					85 heading PERFORMANCE AND ANALYTICS, Value: 4, ID: :rd:-title
++						86 text PERFORMANCE AND ANALYTICS
++					87 checkbox (settable, integer) Description: PERFORMANCE AND ANALYTICS, Value: 0
++					88 text These cookies provide quantitative measures of website visitors. With the usage of these cookies we are able to count visits and traffic sources to improve the performance of our site.
++					89 heading ADVERTISING, Value: 4, ID: :re:-title
++						90 text ADVERTISING
++					91 checkbox (settable, integer) Description: ADVERTISING, Value: 0
++					92 text These cookies are used by advertising companies to serve ads that are relevant to your interests.
++					93 button Save Preferences
+The focused UI element is 77 button Close

@@ -1,0 +1,880 @@
+Window: "UPS Global Shipping & Logistics … Delivery | UPS - United States", App: Google Chrome.
+0 standard window URL: …, Secondary Actions: Raise, UPS Global Shipping & Logistics Solutions | Worldwide Delivery | UPS - United States – Part of group 📦 Marketplace completion - Google Chrome – Tom
+	1 container URL: …, UPS Global Shipping & Logistics Solutions | Worldwide Delivery | UPS - United States – Part of group 📦 Marketplace completion - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: ups.com/global, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content UPS Global Shipping & Logistics Solutions | Worldwide Delivery | UPS - United States, URL: …
+						26 container
+							27 link Home, Value: ups.com/us/en/home
+							28 container
+								29 heading Select Your Location & Language, Value: 1
+									30 text Select Your Location & Language
+								31 heading Top Recommendation, Value: 2
+									32 text Top Recommendation
+								33 content list
+									34 container
+										35 text United States | 
+										36 link English, Value: ups.com/us/en/home
+										37 text  | 
+										38 link Español, Value: es-us.ups.com/us/es…
+									39 container
+										40 text Mexico | 
+										41 link English, Value: ups.com/mx/en/Home
+										42 text  | 
+										43 link Español, Value: ups.com/mx/es/home
+									44 container
+										45 text India | 
+										46 link English, Value: ups.com/in/en/home
+									47 container
+										48 text Canada | 
+										49 link English, Value: ups.com/ca/en/home
+										50 text  | 
+										51 link Français, Value: ups.com/ca/fr/home
+									52 container
+										53 text China Mainland | 
+										54 link English, Value: ups.com/cn/en/home
+										55 text  | 
+										56 link 简体中文, Value: ups.com/cn/zh/home
+									57 container
+										58 text United Kingdom | 
+										59 link English, Value: ups.com/gb/en/home
+							60 container
+								61 content list
+									62 link Africa, Value: ups.com/global
+									63 link Asia & India Subcontinent, Value: ups.com/global
+									64 link Caribbean, Central & South America, Value: ups.com/global
+									65 link Europe, Value: ups.com/global
+									66 link North America, Value: ups.com/global
+									67 link Middle East, Value: ups.com/global
+									68 link Oceania & Pacific, Value: ups.com/global
+								69 heading Africa, Value: 2
+									70 text Africa
+								71 content list
+									72 container
+										73 text Algeria | 
+										74 link English, Value: ups.com/dz/en/home
+										75 text  | 
+										76 link Français, Value: ups.com/dz/fr/home
+									77 container
+										78 text Angola | 
+										79 link English, Value: ups.com/ao/en/home
+									80 container
+										81 text Benin | 
+										82 link English, Value: ups.com/bj/en/home
+									83 container
+										84 text Botswana | 
+										85 link English, Value: ups.com/bw/en/home
+									86 container
+										87 text Burkina Faso | 
+										88 link English, Value: ups.com/bf/en/home
+									89 container
+										90 text Burundi | 
+										91 link English, Value: ups.com/bi/en/home
+									92 container
+										93 text Cameroon | 
+										94 link English, Value: ups.com/cm/en/home
+									95 container
+										96 text Cape Verde | 
+										97 link English, Value: ups.com/cv/en/home
+									98 container
+										99 text Central African Republic | 
+										100 link English, Value: ups.com/cf/en/home
+									101 container
+										102 text Chad | 
+										103 link English, Value: ups.com/td/en/home
+									104 container
+										105 text Comoros | 
+										106 link English, Value: ups.com/km/en/home
+									107 container
+										108 text Congo | 
+										109 link English, Value: ups.com/cg/en/home
+									110 container
+										111 text Democratic Republic of Congo | 
+										112 link English, Value: ups.com/cd/en/home
+									113 container
+										114 text Djibouti | 
+										115 link English, Value: ups.com/dj/en/home
+									116 container
+										117 text Egypt | 
+										118 link English, Value: ups.com/eg/en/home
+									119 container
+										120 text Equatorial Guinea | 
+										121 link English, Value: ups.com/gq/en/home
+									122 container
+										123 text Eritrea | 
+										124 link English, Value: ups.com/er/en/home
+									125 container
+										126 text Ethiopia | 
+										127 link English, Value: ups.com/et/en/home
+									128 container
+										129 text Gabon | 
+										130 link English, Value: ups.com/ga/en/home
+									131 container
+										132 text Gambia | 
+										133 link English, Value: ups.com/gm/en/home
+									134 container
+										135 text Ghana | 
+										136 link English, Value: ups.com/gh/en/home
+									137 container
+										138 text Guinea | 
+										139 link English, Value: ups.com/gn/en/home
+									140 container
+										141 text Guinea Bissau | 
+										142 link English, Value: ups.com/gw/en/home
+									143 container
+										144 text Ivory Coast | 
+										145 link English, Value: ups.com/ci/en/home
+									146 container
+										147 text Kenya | 
+										148 link English, Value: ups.com/ke/en/home
+									149 container
+										150 text Lesotho | 
+										151 link English, Value: ups.com/ls/en/home
+									152 container
+										153 text Liberia | 
+										154 link English, Value: ups.com/lr/en/home
+									155 container
+										156 text Libya | 
+										157 link English, Value: ups.com/ly/en/home
+									158 container
+										159 text Madagascar | 
+										160 link English, Value: ups.com/mg/en/home
+									161 container
+										162 text Malawi | 
+										163 link English, Value: ups.com/mw/en/home
+									164 container
+										165 text Mali | 
+										166 link English, Value: ups.com/ml/en/home
+									167 container
+										168 text Mauritania | 
+										169 link English, Value: ups.com/mr/en/home
+									170 container
+										171 text Mauritius | 
+										172 link English, Value: ups.com/mu/en/home
+									173 container
+										174 text Mayotte | 
+										175 link English, Value: ups.com/yt/en/home
+									176 container
+										177 text Morocco | 
+										178 link English, Value: ups.com/ma/en/home
+										179 text  | 
+										180 link Français, Value: ups.com/ma/fr/home
+									181 container
+										182 text Mozambique | 
+										183 link English, Value: ups.com/mz/en/home
+									184 container
+										185 text Namibia | 
+										186 link English, Value: ups.com/na/en/home
+									187 container
+										188 text Niger | 
+										189 link English, Value: ups.com/ne/en/home
+									190 container
+										191 text Nigeria | 
+										192 link English, Value: ups.com/ng/en/home
+									193 container
+										194 text Reunion | 
+										195 link English, Value: ups.com/re/en/home
+									196 container
+										197 text Rwanda | 
+										198 link English, Value: ups.com/rw/en/home
+									199 container
+										200 text Senegal | 
+										201 link English, Value: ups.com/sn/en/home
+									202 container
+										203 text Seychelles | 
+										204 link English, Value: ups.com/sc/en/home
+									205 container
+										206 text Sierra Leone | 
+										207 link English, Value: ups.com/sl/en/home
+									208 container
+										209 text South Africa | 
+										210 link English, Value: ups.com/za/en/home
+									211 container
+										212 text Swaziland | 
+										213 link English, Value: ups.com/sz/en/home
+									214 container
+										215 text Tanzania | 
+										216 link English, Value: ups.com/tz/en/home
+									217 container
+										218 text Togo | 
+										219 link English, Value: ups.com/tg/en/home
+									220 container
+										221 text Tunisia | 
+										222 link English, Value: ups.com/tn/en/home
+										223 text  | 
+										224 link Français, Value: ups.com/tn/fr/home
+									225 container
+										226 text Uganda | 
+										227 link English, Value: ups.com/ug/en/home
+									228 container
+										229 text Zambia | 
+										230 link English, Value: ups.com/zm/en/home
+									231 container
+										232 text Zimbabwe | 
+										233 link English, Value: ups.com/zw/en/home
+								234 heading Asia & India Subcontinent, Value: 2
+									235 text Asia & India Subcontinent
+								236 content list
+									237 container
+										238 text Afghanistan | 
+										239 link English, Value: ups.com/af/en/home
+									240 container
+										241 text Bangladesh | 
+										242 link English, Value: ups.com/bd/en/home
+									243 container
+										244 text Brunei | 
+										245 link English, Value: ups.com/bn/en/home
+									246 container
+										247 text Cambodia | 
+										248 link English, Value: ups.com/kh/en/home
+									249 container
+										250 text China Mainland | 
+										251 link English, Value: ups.com/cn/en/home
+										252 text  | 
+										253 link 简体中文, Value: ups.com/cn/zh/home
+									254 container
+										255 text Hong Kong SAR, China | 
+										256 link English, Value: ups.com/hk/en/home
+										257 text  | 
+										258 link 中文, Value: ups.com/hk/zh/home
+									259 container
+										260 text India | 
+										261 link English, Value: ups.com/in/en/home
+									262 container
+										263 text Indonesia | 
+										264 link English, Value: ups.com/id/en/home
+									265 container
+										266 text Japan | 
+										267 link English, Value: ups.com/jp/en/home
+										268 text  | 
+										269 link 日本語, Value: ups.com/jp/ja/home
+									270 container
+										271 text Korea, South | 
+										272 link English, Value: ups.com/kr/en/home
+										273 text  | 
+										274 link 한국어, Value: ups.com/kr/ko/home
+									275 container
+										276 text Laos | 
+										277 link English, Value: ups.com/la/en/home
+									278 container
+										279 text Macau SAR, China | 
+										280 link English, Value: ups.com/mo/en/home
+										281 text  | 
+										282 link 中文, Value: ups.com/mo/zh/home
+									283 container
+										284 text Malaysia | 
+										285 link English, Value: ups.com/my/en/home
+									286 container
+										287 text Maldives | 
+										288 link English, Value: ups.com/mv/en/home
+									289 container
+										290 text Mongolia | 
+										291 link English, Value: ups.com/mn/en/home
+									292 container
+										293 text Nepal | 
+										294 link English, Value: ups.com/np/en/home
+									295 container
+										296 text Northern Mariana Islands | 
+										297 link English, Value: ups.com/mp/en/home
+									298 container
+										299 text Pakistan | 
+										300 link English, Value: ups.com/pk/en/home
+									301 container
+										302 text Philippines | 
+										303 link English, Value: ups.com/ph/en/home
+									304 container
+										305 text Rota | 
+										306 link English, Value: ups.com/xc/en/home
+									307 container
+										308 text Saipan | 
+										309 link English, Value: ups.com/xs/en/home
+									310 container
+										311 text Samoa | 
+										312 link English, Value: ups.com/ws/en/home
+									313 container
+										314 text Singapore | 
+										315 link English, Value: ups.com/sg/en/home
+									316 container
+										317 text Sri Lanka | 
+										318 link English, Value: ups.com/lk/en/home
+									319 container
+										320 text Taiwan, China | 
+										321 link English, Value: ups.com/tw/en/home
+										322 text  | 
+										323 link 中文, Value: ups.com/tw/zh/home
+									324 container
+										325 text Tajikistan | 
+										326 link English, Value: ups.com/tj/en/home
+									327 container
+										328 text Thailand | 
+										329 link English, Value: ups.com/th/en/home
+										330 text  | 
+										331 link ไทย, Value: ups.com/th/th/home
+									332 container
+										333 text Tinian | 
+										334 link English, Value: ups.com/xn/en/home
+									335 container
+										336 text Uzbekistan | 
+										337 link English, Value: ups.com/uz/en/home
+									338 container
+										339 text Vietnam | 
+										340 link English, Value: ups.com/vn/en/home
+										341 text  | 
+										342 link Việt, Value: ups.com/vn/vi/home
+								343 heading Caribbean, Central & South America, Value: 2
+									344 text Caribbean, Central & South America
+								345 content list
+									346 container
+										347 text Anguilla | 
+										348 link English, Value: ups.com/ai/en/home
+									349 container
+										350 text Antigua | 
+										351 link English, Value: ups.com/ag/en/home
+									352 container
+										353 text Argentina | 
+										354 link English, Value: ups.com/ar/en/home
+										355 text  | 
+										356 link Español, Value: ups.com/ar/es/home
+									357 container
+										358 text Aruba | 
+										359 link English, Value: ups.com/aw/en/home
+									360 container
+										361 text Bahamas | 
+										362 link English, Value: ups.com/bs/en/home
+									363 container
+										364 text Barbados | 
+										365 link English, Value: ups.com/bb/en/home
+									366 container
+										367 text Belize | 
+										368 link English, Value: ups.com/bz/en/home
+									369 container
+										370 text Bermuda | 
+										371 link English, Value: ups.com/bm/en/home
+									372 container
+										373 text Bolivia | 
+										374 link English, Value: ups.com/bo/en/home
+										375 text  | 
+										376 link Español, Value: ups.com/bo/es/home
+									377 container
+										378 text Bonaire (Netherlands Antilles) | 
+										379 link English, Value: ups.com/bl/en/home
+									380 container
+										381 text Brazil | 
+										382 link English, Value: ups.com/br/en/home
+										383 text  | 
+										384 link Português do Brasil, Value: ups.com/br/pt/home
+									385 container
+										386 text British Virgin Islands | 
+										387 link English, Value: ups.com/vg/en/home
+									388 container
+										389 text Cayman Islands | 
+										390 link English, Value: ups.com/ky/en/home
+									391 container
+										392 text Chile | 
+										393 link English, Value: ups.com/cl/en/home
+										394 text  | 
+										395 link Español, Value: ups.com/cl/es/home
+									396 container
+										397 text Colombia | 
+										398 link English, Value: ups.com/co/en/home
+										399 text  | 
+										400 link Español, Value: ups.com/co/es/home
+									401 container
+										402 text Costa Rica | 
+										403 link English, Value: ups.com/cr/en/home
+										404 text  | 
+										405 link Español, Value: ups.com/cr/es/home
+									406 container
+										407 text Curacao | 
+										408 link English, Value: ups.com/cw/en/home
+									409 container
+										410 text Dominica | 
+										411 link English, Value: ups.com/dm/en/home
+									412 container
+										413 text Dominican Republic | 
+										414 link English, Value: ups.com/do/en/home
+										415 text  | 
+										416 link Español, Value: ups.com/do/es/home
+									417 container
+										418 text Ecuador | 
+										419 link English, Value: ups.com/ec/en/home
+										420 text  | 
+										421 link Español, Value: ups.com/ec/es/home
+									422 container
+										423 text El Salvador | 
+										424 link English, Value: ups.com/sv/en/home
+										425 text  | 
+										426 link Español, Value: ups.com/sv/es/home
+									427 container
+										428 text French Guiana | 
+										429 link English, Value: ups.com/gf/en/home
+									430 container
+										431 text Grenada | 
+										432 link English, Value: ups.com/gd/en/home
+									433 container
+										434 text Guadeloupe | 
+										435 link English, Value: ups.com/gp/en/home
+									436 container
+										437 text Guatemala | 
+										438 link English, Value: ups.com/gt/en/home
+										439 text  | 
+										440 link Español, Value: ups.com/gt/es/home
+									441 container
+										442 text Guyana | 
+										443 link English, Value: ups.com/gy/en/home
+									444 container
+										445 text Haiti | 
+										446 link English, Value: ups.com/ht/en/home
+									447 container
+										448 text Honduras | 
+										449 link English, Value: ups.com/hn/en/home
+										450 text  | 
+										451 link Español, Value: ups.com/hn/es/home
+									452 container
+										453 text Jamaica | 
+										454 link English, Value: ups.com/jm/en/home
+									455 container
+										456 text Martinique | 
+										457 link English, Value: ups.com/mq/en/home
+									458 container
+										459 text Montserrat | 
+										460 link English, Value: ups.com/ms/en/home
+									461 container
+										462 text Nicaragua | 
+										463 link English, Value: ups.com/ni/en/home
+										464 text  | 
+										465 link Español, Value: ups.com/ni/es/home
+									466 container
+										467 text Panama | 
+										468 link English, Value: ups.com/pa/en/home
+										469 text  | 
+										470 link Español, Value: ups.com/pa/es/home
+									471 container
+										472 text Paraguay | 
+										473 link English, Value: ups.com/py/en/home
+										474 text  | 
+										475 link Español, Value: ups.com/py/es/home
+									476 container
+										477 text Peru | 
+										478 link English, Value: ups.com/pe/en/home
+										479 text  | 
+										480 link Español, Value: ups.com/pe/es/home
+									481 container
+										482 text Puerto Rico | 
+										483 link English, Value: ups.com/pr/en/home
+										484 text  | 
+										485 link Español, Value: ups.com/pr/es/home
+									486 container
+										487 text Saba (Netherlands Antilles) | 
+										488 link English, Value: ups.com/xz/en/home
+									489 container
+										490 text St. Barthelemy | 
+										491 link English, Value: ups.com/nt/en/home
+									492 container
+										493 text St. Eustatius | 
+										494 link English, Value: ups.com/bq/en/home
+									495 container
+										496 text St. Kitts & Nevis | 
+										497 link English, Value: ups.com/kn/en/home
+									498 container
+										499 text St. Lucia | 
+										500 link English, Value: ups.com/lc/en/home
+									501 container
+										502 text St. Maarten | 
+										503 link English, Value: ups.com/mb/en/home
+									504 container
+										505 text St. Vincent and the Grenadines | 
+										506 link English, Value: ups.com/vc/en/home
+									507 container
+										508 text Suriname | 
+										509 link English, Value: ups.com/sr/en/home
+									510 container
+										511 text Trinidad & Tobago | 
+										512 link English, Value: ups.com/tt/en/home
+									513 container
+										514 text Turks and Caicos | 
+										515 link English, Value: ups.com/tc/en/home
+									516 container
+										517 text Uruguay | 
+										518 link English, Value: ups.com/uy/en/home
+										519 text  | 
+										520 link Español, Value: ups.com/uy/es/home
+									521 container
+										522 text U.S. Virgin Islands | 
+										523 link English, Value: ups.com/vi/en/home
+									524 container
+										525 text Venezuela | 
+										526 link English, Value: ups.com/ve/en/home
+										527 text  | 
+										528 link Español, Value: ups.com/ve/es/home
+								529 heading Europe, Value: 2
+									530 text Europe
+								531 content list
+									532 container
+										533 text Albania | 
+										534 link English, Value: ups.com/al/en/home
+									535 container
+										536 text Armenia | 
+										537 link English, Value: ups.com/am/en/home
+									538 container
+										539 text Austria | 
+										540 link English, Value: ups.com/at/en/home
+										541 text  | 
+										542 link Deutsch, Value: ups.com/at/de/home
+									543 container
+										544 text Azerbaijan | 
+										545 link English, Value: ups.com/az/en/home
+									546 container
+										547 text Belarus | 
+										548 link English, Value: ups.com/by/en/home
+									549 container
+										550 text Belgium | 
+										551 link English, Value: ups.com/be/en/home
+										552 text  | 
+										553 link Nederlands, Value: ups.com/be/nl/home
+										554 text  | 
+										555 link Français, Value: ups.com/be/fr/home
+									556 container
+										557 text Bosnia | 
+										558 link English, Value: ups.com/ba/en/home
+									559 container
+										560 text Bulgaria | 
+										561 link English, Value: ups.com/bg/en/home
+										562 text  | 
+										563 link Български, Value: ups.com/bg/bg/home
+									564 container
+										565 text Croatia | 
+										566 link English, Value: ups.com/hr/en/home
+									567 container
+										568 text Cyprus | 
+										569 link English, Value: ups.com/cy/en/home
+										570 text  | 
+										571 link Ελληνικά, Value: ups.com/cy/el/home
+									572 container
+										573 text Czechia | 
+										574 link English, Value: ups.com/cz/en/home
+										575 text  | 
+										576 link čeština, Value: ups.com/cz/cs/home
+									577 container
+										578 text Denmark | 
+										579 link English, Value: ups.com/dk/en/home
+										580 text  | 
+										581 link Dansk, Value: ups.com/dk/da/home
+									582 container
+										583 text Estonia | 
+										584 link English, Value: ups.com/ee/en/home
+										585 text  | 
+										586 link Eesti, Value: ups.com/ee/et/home
+									587 container
+										588 text Finland | 
+										589 link English, Value: ups.com/fi/en/home
+										590 text  | 
+										591 link Suomi, Value: ups.com/fi/fi/home
+									592 container
+										593 text France | 
+										594 link English, Value: ups.com/fr/en/home
+										595 text  | 
+										596 link Français, Value: ups.com/fr/fr/home
+									597 container
+										598 text Georgia | 
+										599 link English, Value: ups.com/ge/en/home
+									600 container
+										601 text Germany | 
+										602 link English, Value: ups.com/de/en/home
+										603 text  | 
+										604 link Deutsch, Value: ups.com/de/de/home
+									605 container
+										606 text Gibraltar | 
+										607 link English, Value: ups.com/gi/en/home
+									608 container
+										609 text Greece | 
+										610 link English, Value: ups.com/gr/en/home
+										611 text  | 
+										612 link Ελληνικά, Value: ups.com/gr/el/home
+									613 container
+										614 text Hungary | 
+										615 link English, Value: ups.com/hu/en/home
+										616 text  | 
+										617 link Magyar, Value: ups.com/hu/hu/home
+									618 container
+										619 text Iceland | 
+										620 link English, Value: ups.com/is/en/home
+									621 container
+										622 text Ireland | 
+										623 link English, Value: ups.com/ie/en/home
+									624 container
+										625 text Italy | 
+										626 link English, Value: ups.com/it/en/home
+										627 text  | 
+										628 link Italiano, Value: ups.com/it/it/home
+									629 container
+										630 text Kazakhstan | 
+										631 link English, Value: ups.com/kz/en/home
+									632 container
+										633 text Kosovo | 
+										634 link English, Value: ups.com/xk/en/home
+									635 container
+										636 text Kyrgyzstan | 
+										637 link English, Value: ups.com/kg/en/home
+									638 container
+										639 text Latvia | 
+										640 link English, Value: ups.com/lv/en/home
+										641 text  | 
+										642 link Latviešu, Value: ups.com/lv/lv/home
+									643 container
+										644 text Lithuania | 
+										645 link English, Value: ups.com/lt/en/home
+										646 text  | 
+										647 link Lietuvių, Value: ups.com/lt/lt/home
+									648 container
+										649 text Luxembourg | 
+										650 link English, Value: ups.com/lu/en/home
+										651 text  | 
+										652 link Français, Value: …
+									653 container
+										654 text Macedonia | 
+										655 link English, Value: …
+									656 container
+										657 text Malta | 
+										658 link English, Value: …
+									659 container
+										660 text Moldova | 
+										661 link English, Value: …
+									662 container
+										663 text Montenegro | 
+										664 link English, Value: …
+									665 container
+										666 text Netherlands | 
+										667 link English, Value: …
+										668 text  | 
+										669 link Nederlands, Value: …
+									670 container
+										671 text Norway | 
+										672 link English, Value: …
+										673 text  | 
+										674 link Norsk, Value: …
+									675 container
+										676 text Poland | 
+										677 link English, Value: …
+										678 text  | 
+										679 link Polski, Value: …
+									680 container
+										681 text Portugal | 
+										682 link English, Value: …
+										683 text  | 
+										684 link Português, Value: …
+									685 container
+										686 text Romania | 
+										687 link English, Value: …
+										688 text  | 
+										689 link Română, Value: …
+									690 container
+										691 text Russia | 
+										692 link English, Value: …
+										693 text  | 
+										694 link Русский, Value: …
+									695 container
+										696 text Serbia | 
+										697 link English, Value: …
+									698 container
+										699 text Slovakia | 
+										700 link English, Value: …
+										701 text  | 
+										702 link Slovenčina, Value: …
+									703 container
+										704 text Slovenia | 
+										705 link English, Value: …
+										706 text  | 
+										707 link Slovenščina, Value: …
+									708 container
+										709 text Spain | 
+										710 link English, Value: …
+										711 text  | 
+										712 link Español, Value: …
+									713 container
+										714 text Sweden | 
+										715 link English, Value: …
+										716 text  | 
+										717 link Svenska, Value: …
+									718 container
+										719 text Switzerland | 
+										720 link English, Value: …
+										721 text  | 
+										722 link Deutsch, Value: …
+										723 text  | 
+										724 link Français, Value: …
+									725 container
+										726 text Türkiye | 
+										727 link English, Value: …
+										728 text  | 
+										729 link Türkçe, Value: …
+									730 container
+										731 text Turkmenistan | 
+										732 link English, Value: …
+									733 container
+										734 text Ukraine | 
+										735 link English, Value: …
+										736 text  | 
+										737 link Українська, Value: …
+										738 text  | 
+										739 link Pусский, Value: …
+									740 container
+										741 text United Kingdom | 
+										742 link English, Value: …
+								743 heading North America, Value: 2
+									744 text North America
+								745 content list
+									746 container
+										747 text Canada | 
+										748 link English, Value: …
+										749 text  | 
+										750 link Français, Value: …
+									751 container
+										752 text Mexico | 
+										753 link English, Value: …
+										754 text  | 
+										755 link Español, Value: …
+									756 container
+										757 text United States | 
+										758 link English, Value: …
+										759 text  | 
+										760 link Español, Value: …
+								761 heading Middle East, Value: 2
+									762 text Middle East
+								763 content list
+									764 container
+										765 text Bahrain | 
+										766 link English, Value: …
+									767 container
+										768 text Iraq | 
+										769 link English, Value: …
+									770 container
+										771 text Israel | 
+										772 link English, Value: …
+										773 text  | 
+										774 link ישראל, Value: …
+									775 container
+										776 text Jordan | 
+										777 link English, Value: …
+									778 container
+										779 text Kuwait | 
+										780 link English, Value: …
+									781 container
+										782 text Lebanon | 
+										783 link English, Value: …
+									784 container
+										785 text Oman | 
+										786 link English, Value: …
+									787 container
+										788 text Qatar | 
+										789 link English, Value: …
+									790 container
+										791 text Saudi Arabia | 
+										792 link English, Value: …
+										793 text  | 
+										794 link العربية, Value: …
+									795 container
+										796 text Syria | 
+										797 link English, Value: …
+									798 container
+										799 text United Arab Emirates | 
+										800 link English, Value: …
+									801 container
+										802 text Yemen | 
+										803 link English, Value: …
+								804 heading Oceania & Pacific, Value: 2
+									805 text Oceania & Pacific
+								806 content list
+									807 container
+										808 text American Samoa | 
+										809 link English, Value: …
+									810 container
+										811 text Australia | 
+										812 link English, Value: …
+									813 container
+										814 text Guam | 
+										815 link English, Value: …
+									816 container
+										817 text New Caledonia | 
+										818 link English, Value: …
+									819 container
+										820 text New Zealand | 
+										821 link English, Value: …
+							822 button , Help: Back to Top
+							823 content list
+								824 content list
+									825 link Global Home, Value: …
+									826 link Protect Against Fraud, Value: …
+									827 link Terms and Conditions, Value: …
+									828 link Website Terms of Use, Value: …
+									829 link Your California Privacy Rights, Value: …
+									830 link Privacy Notice, Value: …
+									831 link Cookie Settings, Value: …
+									832 link Do Not Sell or Share My Personal Information, Value: …
+							833 container
+								834 text Copyright ©1994- 2026  United Parcel Service of America, Inc. All rights reserved.
+			835 pop-up button Tab search
+			836 container
+				837 tab group
+					838 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					839 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					840 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					841 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					842 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					843 tab (settable, boolean) Meta Business Suite, Value: off
+					844 tab group  group 📦 Marketplace completion – 4 Tabs, •  Studio | Saatchi Art United Kingdom, •  Revise your listing | Boldstone Patina Panel -…, •  Vintage & Used Furniture and Decor | Chairish, •  UPS Global Shipping & Logistics Solutions | Wo… – Expanded
+					845 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion, Value: off
+					846 tab (settable, boolean) Value: off, Revise your listing | Boldstone Patina Panel - Rust and Verdigris Finish Wall sculpture | eBay – Part of group 📦 Marketplace completion
+					847 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish – Part of group 📦 Marketplace completion, Value: off
+					848 tab (selected, settable, boolean) Value: on, UPS Global Shipping & Logistics Solutions | Worldwide Delivery | UPS - United States – Part of group 📦 Marketplace completion
+						849 button Close
+					850 tab (settable, boolean) Botanical Form - White Outdoor Sculpture by Sally Price | Saatchi Art United Kingdom, Value: off
+					851 tab (settable, boolean) Products – Faire, Value: off
+					852 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					853 tab (settable, boolean) Create listings, Value: off
+			854 button New tab
+	855 close button
+	856 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	857 minimise button
+858 menu bar
+	859 Chrome
+	860 File
+	861 Edit
+	862 View
+	863 History
+	864 Bookmarks
+	865 Profiles
+	866 Tab
+	867 Window
+	868 Help
+
+The focused UI element is 25 HTML content UPS Global Shipping & Logistics Solutions | Worldwide Delivery | UPS - United States, URL: …

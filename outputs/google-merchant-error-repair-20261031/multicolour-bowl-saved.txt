@@ -1,0 +1,213 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Navigation menu" [expanded]:
+    - img: menu
+  - link "Merchant Center home":
+    - /url: /mc/overview?a=5664655454&authuser=1
+    - img "Merchant Center home"
+  - dialog "Search":
+    - img: search
+    - textbox "Search Merchant Center"
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone Sculpture, 5664655454"':
+    - generic: Boldstone Sculpture
+    - generic: "5664655454"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- navigation:
+  - tree "Navigation":
+    - treeitem "Overview" [level=1]:
+      - img: dashboard
+      - generic: Overview
+    - treeitem "Notifications 7" [level=1]:
+      - img: notifications
+      - generic: Notifications
+      - generic: "7"
+    - treeitem "Products & store" [expanded] [level=1]:
+      - img: inventory_2
+      - generic: Products & store
+      - img: arrow_drop_down
+      - treeitem "Products" [level=2]:
+        - generic: Products
+      - treeitem "Shipping and returns" [level=2]:
+        - generic: Shipping and returns
+      - treeitem "Store quality" [level=2]:
+        - generic: Store quality
+    - treeitem "Creative content" [level=1]:
+      - img: brush_spark
+      - generic: Creative content
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Product Studio
+      - treeitem [disabled] [level=2]:
+        - generic: Video assets
+    - treeitem "Marketing" [level=1]:
+      - img: campaign
+      - generic: Marketing
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Ad campaigns
+      - treeitem [disabled] [level=2]:
+        - generic: Marketing methods
+    - treeitem "Analytics" [level=1]:
+      - img: timeline
+      - generic: Analytics
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Summary
+      - treeitem [disabled] [level=2]:
+        - generic: Products
+      - treeitem [disabled] [level=2]:
+        - generic: Online store
+    - treeitem "Settings" [expanded] [level=1]:
+      - img: settings
+      - generic: Settings
+      - img: arrow_drop_down
+      - treeitem "General" [level=2]:
+        - generic: General
+      - treeitem "Business info" [level=2]:
+        - generic: Business info
+      - treeitem "Data sources" [level=2]:
+        - generic: Data sources
+      - treeitem "Add-ons" [level=2]:
+        - generic: Add-ons
+      - treeitem "Access and services" [level=2]:
+        - generic: Access and services
+- button "Back":
+  - img: arrow_back
+- heading "Product details" [level=1]
+- main:
+  - heading "Product sections" [level=2]
+  - tablist:
+    - tab "Product details" [selected]:
+      - generic: Product details
+    - tab "Needs attention (2)":
+      - generic: Needs attention (2)
+    - tab "Shipping calculator":
+      - generic: Shipping calculator
+    - tab "Traffic":
+      - generic: Traffic
+  - heading "Catch all keyring bowl with a spherical relief Multicoloured Stone Pattern" [level=2]
+  - button "Edit product":
+    - img: edit
+    - generic: Edit product
+  - 'button "Selected image: 20260908_123619.jpg"':
+    - 'img "Selected image: 20260908_123619.jpg"'
+  - list:
+    - button "Edit image 20260908_123625.jpg":
+      - 'img "Thumbnail: 20260908_123625.jpg"'
+    - button "Edit image 20260724_225244.jpg":
+      - 'img "Thumbnail: 20260724_225244.jpg"'
+    - button "Edit image 20260724_225216.jpg":
+      - generic: "+8"
+  - button "Manage images and videos":
+    - img: photo_library
+    - generic: Manage images and videos
+  - generic: Product page on your website
+  - link "https://boldstonesculpture.com/buy/p/catch-all-keyring-bowl-with-a-spherical-relief-multicoloured-stone-pattern":
+    - /url: https://boldstonesculpture.com/buy/p/catch-all-keyring-bowl-with-a-spherical-relief-multicoloured-stone-pattern
+    - generic: https://boldstonesculpture.com/buy/p/catch-all-keyring-bowl-with-a-spherical-relief-multicoloured-stone-pattern
+  - generic: Price
+  - generic: £95.00
+  - generic: Availability
+  - generic: In stock
+  - generic: Brand
+  - generic: boldstone
+  - generic: Product ID
+  - generic: 75b82662-b646-460f-9ce3-f5874c51119f
+  - generic: Condition
+  - generic: New
+  - generic: Color
+  - generic: Multicoloured
+  - generic: Description
+  - paragraph: This catch all keyring bowl features a spherical relief dish set into a solid square block, hand-painted in a multicoloured stone pattern of blue, rust orange, cream, grey and black, so every side and every angle looks different and no two pieces are ever the same. Measuring 25 cm x 25 cm x 6 cm and weighing approximately 6 kg, it is crafted from sand, plaster, water-resistant finish.The spherical recess is the ideal landing spot for keys and keyrings, and works just as well for coins, rings, jewelry, cufflinks, a watch or loose change. Its substantial weight keeps it firmly in…
+  - button "Show more"
+  - button "Additional details" [expanded] [active]:
+    - paragraph: Additional details
+    - img: expand_less
+  - region "Additional details":
+    - grid "Additional details":
+      - row "Attribute Value":
+        - columnheader "Attribute"
+        - columnheader "Value"
+      - row "adult False":
+        - gridcell "adult":
+          - generic: adult
+        - gridcell "False":
+          - generic: "False"
+      - row "google_product_category 6457":
+        - gridcell "google_product_category":
+          - generic: google_product_category
+        - gridcell "6457":
+          - generic: "6457"
+      - row "is_bundle False":
+        - gridcell "is_bundle":
+          - generic: is_bundle
+        - gridcell "False":
+          - generic: "False"
+      - row "item_group_id 6aa01ad75e7636290fa6e95d":
+        - gridcell "item_group_id":
+          - generic: item_group_id
+        - gridcell "6aa01ad75e7636290fa6e95d":
+          - generic: 6aa01ad75e7636290fa6e95d
+      - row "product_type Home & Garden > Decor > Decorative Bowls":
+        - gridcell "product_type":
+          - generic: product_type
+        - gridcell "Home & Garden > Decor > Decorative Bowls":
+          - generic: Home & Garden > Decor > Decorative Bowls
+      - row "shipping_weight 13.23 POUND":
+        - gridcell "shipping_weight":
+          - generic: shipping_weight
+        - gridcell "13.23 POUND":
+          - generic: 13.23 POUND
+    - 'button "Raw data source attributes: Squarespace-1469f13b"':
+      - paragraph: "Raw data source attributes: Squarespace-1469f13b"
+      - img: expand_less
+    - button "Information found on your site":
+      - paragraph: Information found on your site
+      - img: expand_less
+  - heading "Status" [level=2]
+  - generic: Processing
+  - img "Processing": watch_later
+  - generic: In progress, updating this product. Processing updates can take up to 15 minutes. Check again later.
+  - generic: Visibility preference
+  - checkbox "Show on Google" [checked]
+  - generic: Show on Google
+  - checkbox "Show in ads" [checked]
+  - generic: Show in ads
+  - img "Catch all keyring bowl with a spherical relief Multicoloured Stone Pattern product"
+  - generic: Catch all keyring bowl with a spherical relief Multicoloured Stone Pattern
+  - paragraph:
+    - generic: Boldstone Sculpture
+  - generic "Price £95.00":
+    - generic: £95.00
+  - generic: In stock
+  - generic: Last update
+  - generic: moments ago
+  - button "Edited icon":
+    - img: edit_note
+  - generic: Edited
+  - generic: Source
+  - generic: API
+  - button "Archive product":
+    - generic: Archive product
+  - text: You can't delete this product from Merchant Center
+  - generic "More info about product deletion":
+    - button "More information":
+      - img "More information": info
+  - contentinfo:
+    - link "Privacy Policy":
+      - /url: http://www.google.com/policies/privacy/
+    - generic: ·
+    - link "Terms of Service":
+      - /url: https://support.google.com/merchants/answer/160173?hl=en-US
+    - generic: ·
+    - link "Program Policies":
+      - /url: https://support.google.com/merchants/topic/7286989?hl=en-US
+- status:
+  - generic: Product updated
+  - generic: Product updated
+- status

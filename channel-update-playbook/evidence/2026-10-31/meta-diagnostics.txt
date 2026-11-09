@@ -1,0 +1,97 @@
+- link "Ads Manager Meta":
+  - /url: /adsmanager/
+  - generic: Ads Manager
+  - img "Meta"
+- button "Pressable":
+- button:
+  - generic: "8"
+- separator
+- navigation "tools":
+  - list:
+    - link "Account overview":
+      - /url: /adsmanager/manage/accounts?business_id=2380586078685156&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager
+    - generic: Account overview
+    - link "Campaigns":
+      - /url: /adsmanager/manage/campaigns?business_id=2380586078685156&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager
+    - generic: Campaigns
+    - link "Ads Reporting":
+      - /url: /adsreporting/?business_id=2380586078685156&nav_entry_point=ads_ecosystem_navigation_menu
+    - generic: Ads Reporting
+    - link "Audiences":
+      - /url: /adsmanager/?business_id=2380586078685156&tool=AUDIENCES&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager
+    - generic: Audiences
+    - link "Advertising settings":
+      - /url: https://eventsmanager.facebook.com/adsmanager/manage/advertising_settings/?business_id=2380586078685156&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager
+    - generic: Advertising settings
+    - link "Billing and payments":
+      - /url: /billing_hub/payment_settings/?placement=ads_manager&business_id=2380586078685156&entrypoint=ads_ecosystem_navigation_ads_billing_tool_plugin
+    - generic: Billing and payments
+    - link "Events Manager":
+      - /url: /events_manager2/?business_id=2380586078685156&nav_source=ads_ecosystem_nav
+    - generic: Events Manager
+    - button "All tools":
+    - generic: All tools
+- separator
+- link "Business settings":
+  - /url: https://business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+  - generic: Business settings
+- button "Search":
+  - generic: Search
+- button "Help":
+  - generic: Help
+- button "Report a problem":
+  - generic: Report a problem
+- heading "Datasets" [level=1]
+- combobox "Sally Price":
+  - generic: Sally Price
+- button "Facebook":
+  - img "Facebook"
+- navigation "Tools":
+  - list:
+    - button "Connect data":
+    - generic: Connect data
+    - button "Overview":
+    - generic: Overview
+    - button "Datasets":
+    - generic: Datasets
+    - button "Custom conversions":
+    - generic: Custom conversions
+    - button "Integrations":
+    - generic: Integrations
+- button "Collapse":
+  - generic: Collapse
+- generic: Search
+- searchbox "Search"
+- grid:
+  - row "Boldstone Sculpture Pixel ID 4566349726935061":
+    - gridcell "Boldstone Sculpture Pixel ID 4566349726935061":
+      - generic: Boldstone Sculpture Pixel
+      - generic: ID
+      - generic: "4566349726935061"
+- generic: Found 1 data source(s)
+- heading "Boldstone Sculpture Pixel" [level=2]
+- link "Edit data source name":
+  - /url: "#"
+- button "Create":
+  - generic: Create
+- tablist:
+  - tab "Overview":
+    - generic: Overview
+  - tab "Test events":
+    - generic: Test events
+  - tab "Diagnostics" [active] [selected]:
+    - generic: Diagnostics
+  - tab "History":
+    - generic: History
+  - tab "Settings":
+    - generic: Settings
+- heading "Diagnostics" [level=3]
+- generic: Find and resolve the top errors affecting your performance.
+- generic: Active
+- button "Previously detected"
+- button "Ignored"
+- heading "Active errors" [level=4]
+- generic: If an error has been detected in the last three days, it will appear here. Follow the steps to resolve it.
+- heading "No errors at this time" [level=3]
+- link "Translations":
+  - /url: https://www.facebook.com/translations/?ref=trans_nub

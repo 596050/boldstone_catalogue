@@ -1,0 +1,256 @@
+- text: Fax
+- textbox "Fax"
+- link "fax":
+  - /url: /facsimile-npc
+- link "Skip to Main Content":
+  - /url: "#skip-to-content"
+- banner:
+  - button "Close Menu" [expanded]:
+  - link "Saatchi Art logo":
+    - /url: https://www.saatchiart.com/en-gb
+  - paragraph: Studio
+  - link "Sally Price":
+    - /url: https://www.saatchiart.com/en-gb/account/profile/3090713
+- complementary:
+  - navigation:
+    - button "Manage Artworks":
+      - text: Manage Artworks
+    - list:
+      - link "My Portfolio":
+        - /url: https://www.saatchiart.com/en-gb/studio/artworks
+      - link "Artwork Uploader":
+        - /url: https://www.saatchiart.com/en-gb/studio/upload
+    - button "Sales Dashboard":
+      - text: Sales Dashboard
+    - link "Offers Dashboard":
+      - /url: https://www.saatchiart.com/en-gb/account/offers
+      - generic: Offers Dashboard
+    - button "Sponsored Listings":
+      - text: Sponsored Listings
+    - button "Profile Information":
+      - text: Profile Information
+    - link "Addresses":
+      - /url: https://www.saatchiart.com/en-gb/studio/address
+      - generic: Addresses
+    - button "Account":
+      - text: Account
+- generic: draft
+- link "1 Image":
+  - /url: https://www.saatchiart.com/en-gb/studio/art/14379059/image
+  - generic: "1"
+  - text: Image
+- link "2 Description":
+  - /url: https://www.saatchiart.com/en-gb/studio/art/14379059/description
+  - generic: "2"
+  - text: Description
+- link "3 Price & Details":
+  - /url: https://www.saatchiart.com/en-gb/studio/art/14379059/price-details
+  - generic: "3"
+  - text: Price & Details
+- link "4 Prints":
+  - /url: https://www.saatchiart.com/en-gb/studio/art/14379059/prints
+  - generic: "4"
+  - text: Prints
+- button "Back to Overview":
+  - text: Back to Overview
+- paragraph: Title
+- paragraph: Acanthus Moon - Gold Finish
+- paragraph
+- paragraph
+- paragraph
+- heading "Description" [level=1]
+- button "Category, Subject, Year":
+  - heading "Category, Subject, Year" [level=2]
+- paragraph: Category
+- textbox "Search or select a category"
+- generic: Search or select a category
+- paragraph: Subject
+- textbox "Search or select a subject"
+- generic: Search or select a subject
+- paragraph: Year
+- paragraph: Select year produced
+- combobox:
+  - option "Select year produced" [selected]
+  - option "2026"
+  - option "2025"
+  - option "2024"
+  - option "2023"
+  - option "2022"
+  - option "2021"
+  - option "2020"
+  - option "2019"
+  - option "2018"
+  - option "2017"
+  - option "2016"
+  - option "2015"
+  - option "2014"
+  - option "2013"
+  - option "2012"
+  - option "2011"
+  - option "2010"
+  - option "2009"
+  - option "2008"
+  - option "2007"
+  - option "2006"
+  - option "2005"
+  - option "2004"
+  - option "2003"
+  - option "2002"
+  - option "2001"
+  - option "2000"
+  - option "1999"
+  - option "1998"
+  - option "1997"
+  - option "1996"
+  - option "1995"
+  - option "1994"
+  - option "1993"
+  - option "1992"
+  - option "1991"
+  - option "1990"
+  - option "1989"
+  - option "1988"
+  - option "1987"
+  - option "1986"
+  - option "1985"
+  - option "1984"
+  - option "1983"
+  - option "1982"
+  - option "1981"
+  - option "1980"
+  - option "1979"
+  - option "1978"
+  - option "1977"
+  - option "1976"
+- button "Next"
+- button "Mediums, Materials & Styles":
+  - heading "Mediums, Materials & Styles" [level=2]
+- paragraph: Mediums
+- generic: Select 1-5 Mediums
+- generic: Please select a category
+- list
+- paragraph: Materials
+- generic: Select 1-5 Materials
+- list
+- paragraph: Styles
+- generic: Select 1-5 Styles
+- textbox "Search or select a style"
+- generic: Search or select a style
+- list
+- button "Next"
+- button "Dimensions":
+  - heading "Dimensions" [level=2]
+- paragraph: It's very important that you provide accurate dimensions as collectors and trade clients need to know the exact size of the artwork before purchasing it. For flat artworks, such as photographs and other works on paper, we suggest that you enter a depth of 0.1.
+- paragraph: Width (inches)
+- textbox: "0"
+- paragraph: Height (inches)
+- textbox: "0"
+- paragraph: Depth (inches)
+- textbox: "0"
+- button "inches"
+- generic: 0 in
+- generic: 0 in
+- button "Next"
+- button "Keywords & Description":
+  - heading "Keywords & Description" [level=2]
+- paragraph: Keywords (optional)
+- paragraph: We recommend providing 5 to 12 keywords to help collectors discover your artwork. Use simple, descriptive words that capture the key visual elements of your work, such as color, subject matter, or artistic style. You may one keyword at a time by clicking the Add button or Enter on your keyboard or by providing a comma separated list of keywords.
+- list:
+  - listitem: Each keyword should be 2–20 characters long.
+  - listitem: Use English keywords for best visibility.
+  - listitem: Spam, websites, social media, email addresses and inappropriate and harmful keywords are not allowed.
+- textbox "Enter Up To 12 Keywords"
+- generic: Enter Up To 12 Keywords
+- button "Add" [disabled]
+- generic: 0 / 12
+- list
+- paragraph: Description
+- paragraph: "Collectors tend to appreciate works more if they know the “story” behind them, so be sure to write informative artwork descriptions. Great descriptions not only provide useful information (e.g. physical texture, whether hanging hardware is included, quality of materials), but they also answer questions like:"
+- strong: What/who inspired the work?
+- strong: What do you hope its viewers will feel/think?
+- strong: Why did you choose the medium, subject matter, style?
+- textbox "Write Here...": "Sweeping leaf forms turn a familiar botanical motif into a clean, flowing relief. Raised curves and quiet recesses let light and shadow become part of the composition. Think sunlit courtyard walls and the graceful lines of classical foliage, translated into a piece that feels at home in a modern space. A gold-toned finish adds warmth and catches the changing light. Colour / appearance: Imitation gold leaf finish. This Boldstone wall sculpture is sold individually. Other sculptures and room props shown are not included. Made from a gypsum-based material. A decorative surface effect is applied to create the finish shown. The dimensions are 50 × 30 × 6 cm. The stated weight is approximately 8 kg. Suitable for outdoor use and indoor display. Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall. Dispatch is within 3 working days. Delivery transit time is additional."
+- generic: 28 characters left
+- button "Next"
+- button "SAVE & EXIT"
+- link "Save & Continue":
+  - /url: https://www.saatchiart.com/en-gb/studio/art/14379059/price-details
+- paragraph:
+  - text: This site is protected by reCAPTCHA and the Google
+  - link "Privacy Policy":
+    - /url: https://policies.google.com/privacy
+  - text: and
+  - link "Terms of Service":
+    - /url: https://policies.google.com/terms
+  - text: apply.
+- contentinfo:
+  - link "Saatchi Art logo footer":
+    - /url: https://www.saatchiart.com/en-gb
+  - link "Saatchi Art - Instagram":
+    - /url: http://instagram.com/saatchiart
+  - link "Saatchi Art - Tiktok":
+    - /url: https://www.tiktok.com/@saatchi_art
+  - link "Saatchi Art - Facebook":
+    - /url: http://www.facebook.com/saatchionline
+  - link "Saatchi Art - Pinterest":
+    - /url: http://pinterest.com/saatchiart
+  - link "Saatchi Art - Youtube":
+    - /url: https://www.youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+  - generic: Support
+  - link "Community Forum":
+    - /url: https://support.saatchiart.com/hc/en-us/community/topics
+  - link "Help Center":
+    - /url: https://support.saatchiart.com/hc
+  - link "Get Started":
+    - /url: https://support.saatchiart.com/hc/sections/14062766571419
+  - link "Payments":
+    - /url: https://support.saatchiart.com/hc/sections/14563986089883
+  - button "Request Support"
+  - generic: Resources
+  - link "Artist Handbook":
+    - /url: https://support.saatchiart.com/hc/categories/14062686015643
+  - link "Packaging Guide":
+    - /url: https://support.saatchiart.com/hc/articles/14709932602139
+  - link "How to Photograph":
+    - /url: https://support.saatchiart.com/hc/articles/17737130295963
+  - link "Artist Tips":
+    - /url: https://canvas.saatchiart.com/category/art/artist-tips
+  - generic: Saatchi Art
+  - link "About":
+    - /url: https://www.saatchiart.com/en-gb/about-us
+  - link "Sell on Saatchi Art":
+    - /url: https://www.saatchiart.com/en-gb/whysell
+  - link "Affiliate Program":
+    - /url: https://signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+  - link "Terms of Service":
+    - /url: https://www.saatchiart.com/en-gb/terms
+  - link "Privacy Notice":
+    - /url: https://www.saatchiart.com/en-gb/privacy
+  - link "Cookie Notice":
+    - /url: https://www.saatchiart.com/en-gb/cookie_notice
+  - link "Copyright Policy":
+    - /url: https://www.saatchiart.com/en-gb/copyright
+  - link "California Notice of Collection":
+    - /url: https://www.saatchiart.com/en-gb/privacy#12.2
+  - generic: Manage Preferences
+  - link "Accessibility":
+    - /url: https://www.saatchiart.com/en-gb/accessibility
+  - generic "View Store Preferences Footer":
+    - generic: United Kingdom
+    - text: /
+    - generic: GBP
+    - text: /
+    - generic: in
+  - generic: © 2010-2026 Saatchi Art. All Rights Reserved.
+  - paragraph:
+    - text: This site is protected by reCAPTCHA and the Google
+    - link "Privacy Policy":
+      - /url: https://policies.google.com/privacy
+    - text: and
+    - link "Terms of Service":
+      - /url: https://policies.google.com/terms
+    - text: apply.
+- alert: Studio | Saatchi Art United Kingdom
+- button "Manage Preferences"
+- text: Manage Preferences
+- generic: Could not connect to the reCAPTCHA service. Please check your internet connection and reload to get a reCAPTCHA challenge.

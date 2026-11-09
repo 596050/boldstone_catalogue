@@ -1,0 +1,125 @@
+- navigation "Website pages and features":
+  - link "Home":
+    - /url: /config/
+    - img "Home"
+  - button "Search":
+  - button "Notifications - you have unread notifications":
+  - link "Home":
+    - /url: /config/home
+    - paragraph: Home
+  - link "Website":
+    - /url: /config/
+    - paragraph: Website
+  - link "Products & Services":
+    - /url: /config/commerce
+    - paragraph: Products & Services
+  - link "Products":
+    - /url: /config/commerce/products
+    - paragraph: Products
+  - link "Orders":
+    - /url: /config/commerce/orders
+    - paragraph: Orders
+  - link "Discounts":
+    - /url: /config/commerce/discounts
+    - paragraph: Discounts
+  - link "Selling Tools":
+    - /url: /config/commerce/selling-tools
+    - paragraph: Selling Tools
+  - checkbox [checked]
+  - link "Content & Memberships":
+    - /url: /config/content-and-memberships
+    - paragraph: Content & Memberships
+  - checkbox [checked]
+  - link "Scheduling":
+    - /url: https://secure.acuityscheduling.com/oauth2/squarespace-attached?website_id=66abcbd768fd043d92325d96&analytics_id=871ea609-7aad-4efb-9408-1d42d6316296
+    - paragraph: Scheduling
+  - checkbox [checked]
+  - link "Donations":
+    - /url: /config/donations
+    - paragraph: Donations
+  - checkbox [checked]
+  - link "Invoicing & Pay Links":
+    - /url: /config/invoicing
+    - paragraph: Invoicing & Pay Links
+  - checkbox [checked]
+  - status
+  - link "Campaigns":
+    - /url: /config/marketing/campaigns
+    - paragraph: Campaigns
+  - link "Contacts":
+    - /url: /config/profiles
+    - paragraph: Contacts
+  - link "Analytics":
+    - /url: /config/analytics
+    - paragraph: Analytics
+  - link "Finance":
+    - /url: /config/finance
+    - paragraph: Finance
+  - button "Account"
+  - list:
+    - button "Help":
+    - button "Customize Sidebar":
+    - button "Settings":
+- main:
+  - navigation "Breadcrumbs":
+    - list:
+      - generic: Products & Services
+      - listitem: /
+      - generic: Selling Tools
+      - listitem: /
+      - paragraph: Google Shopping
+  - heading "Google Shopping" [level=1]
+  - paragraph:
+    - text: Sync your Squarespace catalog to
+    - link "Google Merchant Center":
+      - /url: https://merchants.google.com/mc/overview?a=550093983
+    - text: to show your products on free listings such as in the Shopping Tab, Google Search, Google Images, and YouTube.
+  - generic: Google Merchant Center Account
+  - generic: Connected
+  - generic: "ID: 550093983"
+  - text: "Status:"
+  - generic: every 8 hrs
+  - paragraph:
+    - generic: 1 active products
+  - separator
+  - generic: Errors
+  - paragraph: There are errors with your account or products that could affect checkout. Log in to Google Merchant Center to resolve.
+  - paragraph: Online store not confirmed
+  - separator
+  - button "Disconnect":
+    - generic: Disconnect
+  - link "Google Merchant Center":
+    - /url: https://merchants.google.com/mc/overview?a=550093983
+    - generic: Google Merchant Center
+  - heading "Website connection" [level=2]
+  - list:
+    - button "Set up shipping Shipping successfully setup.":
+      - paragraph: Set up shipping
+      - paragraph: Shipping successfully setup.
+    - separator
+    - button "Payment method Payment method successfully setup.":
+      - paragraph: Payment method
+      - paragraph: Payment method successfully setup.
+    - separator
+    - button "Site status Site is published and public. Public":
+      - paragraph: Site status
+      - paragraph: Site is published and public.
+      - generic: Public
+  - paragraph:
+    - text: We recommend optimizing your Google Shopping experience by adding a
+    - link "return policy":
+      - /url: /config/settings/selling/checkout/store-policies
+      - generic: return policy
+    - text: ","
+    - link "terms of service":
+      - /url: /config/settings/selling/checkout/store-policies
+      - generic: terms of service
+    - text: ", and"
+    - button "confirming contact information":
+      - generic: confirming contact information
+    - text: is on your website for customers.
+  - generic: Edit
+- button:
+  - generic: 0 updates
+- button:
+  - generic: 0 updates

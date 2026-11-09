@@ -1,0 +1,775 @@
+The following is a diff from the previous accessibility tree for Window: "Wall Sculpture & Sculptural Furnishings | Boldstone, UK" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 29-298
++								520 container
++									521 heading Code Injection, Value: 1
++										522 text Code Injection
++									523 container
++										524 text With custom code modifications, functionality or full compatibility with Squarespace is not guaranteed. 
++										525 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/articles/205815908
++									526 text HEADER
++									527 text Enter code that will be injected into the 'head' tag on every page of your site.
++									528 container
++										529 text entry area (settable)
++										530 container
++											531 container (showing 116-216 of 216 items)
++												532 text 116
++												533 text lead_type :  'website_enquiry'
++												534 text 117
++												535 text       });
++												536 text 118
++												537 text     });
++												538 text 119
++												539 text   }
++												540 text 120
++												541 text function start () {
++												542 text 121
++												543 text document . addEventListener ( 'click' ,  trackContact ,  true );
++												544 text 122
++												545 text document . addEventListener ( 'submit' ,  arm ,  true );
++												546 text 123
++												547 text document . addEventListener ( 'click' ,  arm ,  true );
++												548 text 124
++												549 text new MutationObserver ( checkSuccess ). observe ( document . body , {
++												550 text 125
++												551 text childList :  true ,  subtree :  true ,  attributes :  true ,  attributeFilter : [ 'class' ,  'style' ,  'hidden' ]
++												552 text 126
++												553 text     });
++												554 text 127
++												555 text   }
++												556 text 128
++												557 text if  ( document . readyState === 'loading' )  document . addEventListener ( 'DOMContentLoaded' ,  start , { once :  true });
++												558 text 129
++												559 text else start ();
++												560 text 130
++												561 text })();
++												562 text 131
++												563 text </ script >
++												564 text 132
++												565 text 133
++												566 text <!-- Boldstone Pinterest consent bridge, 2026-11-08 -->
++												567 text 134
++												568 text < script >
++												569 text 135
++												570 text /* Consent-gated Pinterest tag. Config contains public SKU/variant identities only.
++												571 text 136
++												572 text  * Called by the existing confirmed-cart shopping funnel for commerce events.
++												573 text 137
++												574 text  * No enhanced matching, customer email, purchase simulation or noscript bypass.
++												575 text 138
++												576 text  */
++												577 text 139
++												578 text ( function  ( config ) {
++												579 text 140
++												580 text 'use strict' ;
++												581 text 141
++												582 text if  ( window . BoldstonePinterest || ! /^\d{13}$/ . test ( config . tagId ))  return ;
++												583 text 142
++												584 text var started = false ,  genericSent = false ,  views =  {},  serial = 0 ;
++												585 text 143
++												586 text function consent () {
++												587 text 144
++												588 text try  {  return window . getSquarespaceCookies (). marketing === 'accepted' ; }
++												589 text 145
++												590 text catch  ( _ ) {  return false ; }
++												591 text 146
++												592 text   }
++												593 text 147
++												594 text function start () {
++												595 text 148
++												596 text if  ( ! consent ())  return false ;
++												597 text 149
++												598 text if  ( ! started ) {
++												599 text 150
++												600 text if  ( ! window . pintrk ) {
++												601 text 151
++												602 text var queue = function  () {  queue . queue . push ( Array . prototype . slice . call ( arguments )); };
++												603 text 152
++												604 text queue . queue =  [];  queue . version = '3.0' ;  window . pintrk = queue ;
++												605 text 153
++												606 text var script = document . createElement ( 'script' );
++												607 text 154
++												608 text script . async = true ;  script . src = 'https://s.pinimg.com/ct/core.js' ;
++												609 text 155
++												610 text document . head . appendChild ( script );
++												611 text 156
++												612 text       }
++												613 text 157
++												614 text window . pintrk ( 'setconsent' ,  true );
++												615 text 158
++												616 text window . pintrk ( 'load' ,  config . tagId );
++												617 text 159
++												618 text window . pintrk ( 'page' );
++												619 text 160
++												620 text started = true ;
++												621 text 161
++												622 text     }
++												623 text 162
++												624 text return true ;
++												625 text 163
++												626 text   }
++												627 text 164
++												628 text function commerce ( name ,  items ,  currency ) {
++												629 text 165
++												630 text var event =  { view_item : 'pagevisit' ,  add_to_cart : 'addtocart' ,  begin_checkout : 'initiatecheckout' }[ name ];
++												631 text 166
++												632 text if  ( ! event || ! consent ()  || currency !== 'GBP' || ! Array . isArray ( items )  || ! items . length )  return false ;
++												633 text 167
++												634 text // Do not guess another product, selected variant or a mixed-cart total.
++												635 text 168
++												636 text if  ( items . some ( function  ( item ) {
++												637 text 169
++												638 text return ! config . products [ item . item_id ]  || ! Number . isFinite ( item . price )  || item . price < 0 ||
++												639 text 170
++												640 text ! Number . isInteger ( item . quantity )  || item . quantity < 1 ;
++												641 text 171
++												642 text     }))  return false ;
++												643 text 172
++												644 text if  ( ! start ())  return false ;
++												645 text 173
++												646 text var key = location . pathname + ':' + items . map ( function  ( i ) {  return i . item_id ; }). join ( ',' );
++												647 text 174
++												648 text if  ( event === 'pagevisit' && views [ key ])  return true ;
++												649 text 175
++												650 text var data =  { currency : currency ,  value : Math . round ( items . reduce ( function  ( n , i ) {  return n + i . price * i . quantity ; }, 0 ) * 100 ) / 100 ,
++												651 text 176
++												652 text order_quantity : items . reduce ( function  ( n , i ) {  return n + i . quantity ; }, 0 ),
++												653 text 177
++												654 text event_id : 'boldstone-' + Date . now ()  + '-' +  ( ++ serial ),
++												655 text 178
++												656 text line_items : items . map ( function  ( i ) {  return  {
++												657 text 179
++												658 text product_id : config . products [ i . item_id ]. id ,  product_name : i . item_name ,
++												659 text 180
++												660 text product_price : i . price ,  product_quantity : i . quantity ,
++												661 text 181
++												662 text product_category : 'Wall Sculptures' ,  product_brand : 'Boldstone'
++												663 text 182
++												664 text       }; })};
++												665 text 183
++												666 text window . pintrk ( 'track' ,  event ,  data );
++												667 text 184
++												668 text if  ( event === 'pagevisit' )  views [ key ]  = true ;
++												669 text 185
++												670 text return true ;
++												671 text 186
++												672 text   }
++												673 text 187
++												674 text function sync () {
++												675 text 188
++												676 text if  ( consent ()) {
++												677 text 189
++												678 text start ();
++												679 text 190
++												680 text window . pintrk ( 'setconsent' ,  true );
++												681 text 191
++												682 text // Product PageVisit comes from the existing JSON-LD-verified funnel.
++												683 text 192
++												684 text var productPage = Object . keys ( config . products ). some ( function  ( sku ) {
++												685 text 193
++												686 text return config . products [ sku ]. path === location . pathname ;
++												687 text 194
++												688 text       });
++												689 text 195
++												690 text if  ( ! productPage && ! genericSent && document . readyState !== 'loading' ) {
++												691 text 196
++												692 text window . pintrk ( 'track' , 'pagevisit' ,{ event_id : 'boldstone-page-' + Date . now () + '-' + ( ++ serial )});
++												693 text 197
++												694 text genericSent = true ;
++												695 text 198
++												696 text       }
++												697 text 199
++												698 text     }  else if  ( started && typeof window . pintrk === 'function' ) {
++												699 text 200
++												700 text window . pintrk ( 'setconsent' ,  false );
++												701 text 201
++												702 text     }
++												703 text 202
++												704 text   }
++												705 text 203
++												706 text window . BoldstonePinterest =  { commerce : commerce ,  syncConsent : sync };
++												707 text 204
++												708 text var previous = window . onCookieBannerInteraction ;
++												709 text 205
++												710 text window . onCookieBannerInteraction = function  () {
++												711 text 206
++												712 text var result ;
++												713 text 207
++												714 text try  {  if  ( typeof previous === 'function' )  result = previous . apply ( this , arguments ); }
++												715 text 208
++												716 text finally  {  sync (); }
++												717 text 209
++												718 text return result ;
++												719 text 210
++												720 text   };
++												721 text 211
++												722 text if  ( document . readyState === 'loading' )  document . addEventListener ( 'DOMContentLoaded' , sync ,{ once : true });
++												723 text 212
++												724 text sync ();
++												725 text 214
++												726 text 215
++												727 text </ script >
++									728 container
++										729 text FOOTER Enter code that will be injected into the template-defined footer on every page of your site.
++										730 container
++											731 text entry area (settable) <script id="boldstone-ga4-shopping-funnel">
+
+/* Boldstone GA4 shopping funnel, 2026-10-31.
+ * Supplements native Squarespace purchase tracking. Does not send Meta events,
+ * purchase events, customer details, cart tokens, or duplicate page views.
+ * A cart addition requires a genuine click AND a confirmed cart-count increase.
+ */
+(function () {
+  'use strict';
+  if (window.__boldstoneShoppingFunnel) return;
+  window.__boldstoneShoppingFunnel = true;
+  var lastView = '', pending = null, checkoutAt = 0, scheduled = false;
+  function performanceConsent() {
+    try { return window.getSquarespaceCookies().performance === 'accepted'; }
+    catch (_) { return false; }
+  }
+  function consent() {
+    try { var c=window.getSquarespaceCookies(); return c.performance === 'accepted' || c.marketing === 'accepted'; }
+    catch (_) { return false; }
+  }
+  function emit(name, items, currency) {
+    if (!consent() || !items.length) return false;
+    if (!/^[A-Z]{3}$/.test(currency)) return false;
+    if (items.some(function (i) {
+      return !i.item_id || !i.item_name || !Number.isFinite(i.price) || i.price < 0 ||
+        !Number.isInteger(i.quantity) || i.quantity < 1;
+    })) return false;
+    var emitted = false;
+    if (performanceConsent() && typeof window.gtag === 'function') {
+      window.gtag('event', name, {
+      send_to: 'G-DYE31M1PWM', currency: currency,
+      value: Math.round(items.reduce(function (n, i) { return n + i.price * i.quantity; }, 0) * 100) / 100,
+      items: items, transport_type: 'beacon'
+      });
+      emitted = true;
+    }
+    if (window.BoldstonePinterest && window.BoldstonePinterest.commerce(name,items,currency)) emitted = true;
+    return emitted;
+  }
+  function product() {
+    if (!document.querySelector('.sqs-add-to-cart-button')) return null;
+    var results = [];
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(function (s) {
+      try {
+        var p = JSON.parse(s.textContent);
+        // Single-offer products only: never guess the chosen multi-variant SKU.
+        if (p['@type'] !== 'Product' || !p.offers || Array.isArray(p.offers) || p.offers['@type'] !== 'Offer') return;
+        var o = p.offers;
+        if (!o.sku || o.price == null || o.price === '') return;
+        if (new URL(o.url, location.href).pathname !== location.pathname) return;
+        results.push({currency: o.priceCurrency, item: {
+          item_id: String(o.sku), item_name: String(p.name).replace(/\s+[—–]\s+boldstone$/i, ''),
+          item_brand: 'Boldstone', price: Number(o.price), quantity: 1
+        }});
+      } catch (_) { /* Leave malformed or ambiguous products uncounted. */ }
+    });
+    return results.length === 1 ? results[0] : null;
+  }
+  function count() {
+    var values = Array.from(document.querySelectorAll('.sqs-cart-initialized .sqs-cart-quantity')).map(function (e) { return Number(e.textContent.trim()); });
+    if (!values.length || values.some(function (n) { return !Number.isInteger(n) || n < 0 || n !== values[0]; })) return null;
+    return values[0];
+  }
+  function cart() {
+    if (location.pathname !== '/cart') return null;
+    var context = document.querySelector('#sqs-cart-root > script[type="application/json"]');
+    if (!context) return null;
+    try {
+      var source = JSON.parse(context.textContent);
+      if (source.storeCurrency !== 'GBP') return null;
+      var rows = Array.from(document.querySelectorAll('[data-testid="cart-table-row"]'));
+      if (!rows.length) return null;
+      var items = rows.map(function (row) {
+        var link = row.querySelector('.cart-row-title');
+        var input = row.querySelector('.cart-row-qty-input');
+        var total = row.querySelector('.cart-row-price');
+        if (!link || !input || !total) throw new Error('Incomplete cart row');
+        var matches = source.cart.items.filter(function (i) {
+          return new URL(i.productUrl, location.href).pathname === new URL(link.href).pathname;
+        });
+        if (matches.length !== 1) throw new Error('Ambiguous cart variant');
+        var item = matches[0], quantity = Number(input.value);
+        if (!item.sku || !item.unitPrice || !item.unitPrice.decimalValue) throw new Error('Missing cart price or SKU');
+        var price = Number(item.unitPrice.decimalValue);
+        var visibleTotal = Number(total.textContent.replace(/[£,\s]/g, ''));
+        if (item.unitPrice.currencyCode !== 'GBP' || Math.abs(visibleTotal - price * quantity) > 0.005) throw new Error('Cart not settled');
+        return {item_id: String(item.sku), item_name: item.productName, item_brand: 'Boldstone', price: price, quantity: quantity};
+      });
+      return {items: items, currency: 'GBP'};
+    } catch (_) { return null; }
+  }
+  function check() {
+    scheduled = false;
+    if (!consent()) { pending = null; return; }
+    var p = product(), c = cart();
+    var key = location.pathname + ':' + (p ? p.item.item_id : c ? 'cart' : '');
+    if (key !== lastView) {
+      if (p && emit('view_item', [p.item], p.currency)) lastView = key;
+      else if (c && emit('view_cart', c.items, c.currency)) lastView = key;
+    }
+    if (pending) {
+      if (Date.now() - pending.at > 30000 || pending.path !== location.pathname || !pending.button.isConnected) { pending = null; return; }
+      var after = count();
+      if (after !== null && after > pending.before) {
+        var addition = pending; pending = null;
+        // Other tab changes or unexpected quantities must not create false events.
+        if (after - addition.before === 1) emit('add_to_cart', [addition.product.item], addition.product.currency);
+      }
+    }
+  }
+  function schedule() {
+    if (scheduled) return;
+    scheduled = true;
+    setTimeout(check, 100);
+  }
+  function click(e) {
+    if (!e.isTrusted || !e.target.closest || !consent()) return;
+    if (pending && Date.now() - pending.at > 30000) pending = null;
+    var button = e.target.closest('.sqs-add-to-cart-button');
+    if (button && !button.disabled && !button.classList.contains('cart-adding')) {
+      var p = product(), before = count();
+      if (p && before !== null && !pending) pending = {product:p, before:before, at:Date.now(), path:location.pathname, button:button};
+    }
+    var checkout = e.target.closest('a.cart-checkout-button[href]');
+    if (checkout && new URL(checkout.href).pathname === '/commerce/goto-checkout' && Date.now() - checkoutAt > 3000) {
+      var c = cart();
+      if (c && emit('begin_checkout', c.items, c.currency)) checkoutAt = Date.now();
+    }
+  }
+  function start() {
+    document.addEventListener('click', click, true);
+    new MutationObserver(schedule).observe(document.body, {childList:true, subtree:true, characterData:true, attributes:true, attributeFilter:['class','value']});
+    var previous = window.onCookieBannerInteraction;
+    window.onCookieBannerInteraction = function () {
+      try { if (typeof previous === 'function') previous.apply(this, arguments); }
+      finally { schedule(); }
+    };
+    window.addEventListener('pageshow', function (event) {
+      // Initial pageshow follows DOMContentLoaded; resetting then duplicates views.
+      if (!event.persisted) return;
+      pending = null; checkoutAt = 0; lastView = ''; schedule();
+    });
+    check();
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once:true});
+  else start();
+})();
+
+
+</script>
++											732 container
++												733 container (showing 0-100 of 152 items)
++													734 text 1
++													735 text < script id = "boldstone-ga4-shopping-funnel" >
++													736 text 2
++													737 text 3
++													738 text /* Boldstone GA4 shopping funnel, 2026-10-31.
++													739 text 4
++													740 text  * Supplements native Squarespace purchase tracking. Does not send Meta events,
++													741 text 5
++													742 text  * purchase events, customer details, cart tokens, or duplicate page views.
++													743 text 6
++													744 text  * A cart addition requires a genuine click AND a confirmed cart-count increase.
++													745 text 7
++													746 text  */
++													747 text 8
++													748 text ( function  () {
++													749 text 9
++													750 text 'use strict' ;
++													751 text 10
++													752 text if  ( window . __boldstoneShoppingFunnel )  return ;
++													753 text 11
++													754 text window . __boldstoneShoppingFunnel = true ;
++													755 text 12
++													756 text var lastView = '' ,  pending = null ,  checkoutAt = 0 ,  scheduled = false ;
++													757 text 13
++													758 text function performanceConsent () {
++													759 text 14
++													760 text try  {  return window . getSquarespaceCookies (). performance === 'accepted' ; }
++													761 text 15
++													762 text catch  ( _ ) {  return false ; }
++													763 text 16
++													764 text   }
++													765 text 17
++													766 text function consent () {
++													767 text 18
++													768 text try  {  var c = window . getSquarespaceCookies ();  return c . performance === 'accepted' || c . marketing === 'accepted' ; }
++													769 text 19
++													770 text catch  ( _ ) {  return false ; }
++													771 text 20
++													772 text   }
++													773 text 21
++													774 text function emit ( name ,  items ,  currency ) {
++													775 text 22
++													776 text if  ( ! consent ()  || ! items . length )  return false ;
++													777 text 23
++													778 text if  ( ! /^[A-Z]{3}$/ . test ( currency ))  return false ;
++													779 text 24
++													780 text if  ( items . some ( function  ( i ) {
++													781 text 25
++													782 text return ! i . item_id || ! i . item_name || ! Number . isFinite ( i . price )  || i . price < 0 ||
++													783 text 26
++													784 text ! Number . isInteger ( i . quantity )  || i . quantity < 1 ;
++													785 text 27
++													786 text     }))  return false ;
++													787 text 28
++													788 text var emitted = false ;
++													789 text 29
++													790 text if  ( performanceConsent ()  && typeof window . gtag === 'function' ) {
++													791 text 30
++													792 text window . gtag ( 'event' ,  name , {
++													793 text 31
++													794 text send_to :  'G-DYE31M1PWM' ,  currency :  currency ,
++													795 text 32
++													796 text value :  Math . round ( items . reduce ( function  ( n ,  i ) {  return n + i . price * i . quantity ; },  0 )  * 100 )  / 100 ,
++													797 text 33
++													798 text items :  items ,  transport_type :  'beacon'
++													799 text 34
++													800 text       });
++													801 text 35
++													802 text emitted = true ;
++													803 text 36
++													804 text     }
++													805 text 37
++													806 text if  ( window . BoldstonePinterest && window . BoldstonePinterest . commerce ( name , items , currency ))  emitted = true ;
++													807 text 38
++													808 text return emitted ;
++													809 text 39
++													810 text   }
++													811 text 40
++													812 text function product () {
++													813 text 41
++													814 text if  ( ! document . querySelector ( '.sqs-add-to-cart-button' ))  return null ;
++													815 text 42
++													816 text var results =  [];
++													817 text 43
++													818 text document . querySelectorAll ( 'script[type="application/ld+json"]' ). forEach ( function  ( s ) {
++													819 text 44
++													820 text try  {
++													821 text 45
++													822 text var p = JSON . parse ( s . textContent );
++													823 text 46
++													824 text // Single-offer products only: never guess the chosen multi-variant SKU.
++													825 text 47
++													826 text if  ( p [ '@type' ]  !== 'Product' || ! p . offers || Array . isArray ( p . offers )  || p . offers [ '@type' ]  !== 'Offer' )  return ;
++													827 text 48
++													828 text var o = p . offers ;
++													829 text 49
++													830 text if  ( ! o . sku || o . price == null || o . price === '' )  return ;
++													831 text 50
++													832 text if  ( new URL ( o . url ,  location . href ). pathname !== location . pathname )  return ;
++													833 text 51
++													834 text results . push ({ currency :  o . priceCurrency ,  item : {
++													835 text 52
++													836 text item_id :  String ( o . sku ),  item_name :  String ( p . name ). replace ( /\s+[—–]\s+boldstone$/i ,  '' ),
++													837 text 53
++													838 text item_brand :  'Boldstone' ,  price :  Number ( o . price ),  quantity :  1
++													839 text 54
++													840 text         }});
++													841 text 55
++													842 text       }  catch  ( _ ) {  /* Leave malformed or ambiguous products uncounted. */  }
++													843 text 56
++													844 text     });
++													845 text 57
++													846 text return results . length === 1 ? results [ 0 ] :  null ;
++													847 text 58
++													848 text   }
++													849 text 59
++													850 text function count () {
++													851 text 60
++													852 text var values = Array . from ( document . querySelectorAll ( '.sqs-cart-initialized .sqs-cart-quantity' )). map ( function  ( e ) {  return Number ( e . textContent . trim ()); });
++													853 text 61
++													854 text if  ( ! values . length || values . some ( function  ( n ) {  return ! Number . isInteger ( n )  || n < 0 || n !== values [ 0 ]; }))  return null ;
++													855 text 62
++													856 text return values [ 0 ];
++													857 text 63
++													858 text   }
++													859 text 64
++													860 text function cart () {
++													861 text 65
++													862 text if  ( location . pathname !== '/cart' )  return null ;
++													863 text 66
++													864 text var context = document . querySelector ( '#sqs-cart-root > script[type="application/json"]' );
++													865 text 67
++													866 text if  ( ! context )  return null ;
++													867 text 68
++													868 text try  {
++													869 text 69
++													870 text var source = JSON . parse ( context . textContent );
++													871 text 70
++													872 text if  ( source . storeCurrency !== 'GBP' )  return null ;
++													873 text 71
++													874 text var rows = Array . from ( document . querySelectorAll ( '[data-testid="cart-table-row"]' ));
++													875 text 72
++													876 text if  ( ! rows . length )  return null ;
++													877 text 73
++													878 text var items = rows . map ( function  ( row ) {
++													879 text 74
++													880 text var link = row . querySelector ( '.cart-row-title' );
++													881 text 75
++													882 text var input = row . querySelector ( '.cart-row-qty-input' );
++													883 text 76
++													884 text var total = row . querySelector ( '.cart-row-price' );
++													885 text 77
++													886 text if  ( ! link || ! input || ! total )  throw new Error ( 'Incomplete cart row' );
++													887 text 78
++													888 text var matches = source . cart . items . filter ( function  ( i ) {
++													889 text 79
++													890 text return new URL ( i . productUrl ,  location . href ). pathname === new URL ( link . href ). pathname ;
++													891 text 80
++													892 text         });
++													893 text 81
++													894 text if  ( matches . length !== 1 )  throw new Error ( 'Ambiguous cart variant' );
++													895 text 82
++													896 text var item = matches [ 0 ],  quantity = Number ( input . value );
++													897 text 83
++													898 text if  ( ! item . sku || ! item . unitPrice || ! item . unitPrice . decimalValue )  throw new Error ( 'Missing cart price or SKU' );
++													899 text 84
++													900 text var price = Number ( item . unitPrice . decimalValue );
++													901 text 85
++													902 text var visibleTotal = Number ( total . textContent . replace ( /[£,\s]/g ,  '' ));
++													903 text 86
++													904 text if  ( item . unitPrice . currencyCode !== 'GBP' || Math . abs ( visibleTotal - price * quantity )  > 0.005 )  throw new Error ( 'Cart not settled' );
++													905 text 87
++													906 text return  { item_id :  String ( item . sku ),  item_name :  item . productName ,  item_brand :  'Boldstone' ,  price :  price ,  quantity :  quantity };
++													907 text 88
++													908 text       });
++													909 text 89
++													910 text return  { items :  items ,  currency :  'GBP' };
++													911 text 90
++													912 text     }  catch  ( _ ) {  return null ; }
++													913 text 91
++													914 text   }
++													915 text 92
++													916 text function check () {
++													917 text 93
++													918 text scheduled = false ;
++													919 text 94
++													920 text if  ( ! consent ()) {  pending = null ;  return ; }
++													921 text 95
++													922 text var p = product (),  c = cart ();
++													923 text 96
++													924 text var key = location . pathname + ':' +  ( p ? p . item . item_id  :  c ? 'cart'  :  '' );
++													925 text 97
++													926 text if  ( key !== lastView ) {
++													927 text 98
++													928 text if  ( p && emit ( 'view_item' , [ p . item ],  p . currency ))  lastView = key ;
++									929 text LOCK PAGE
++									930 container
++										931 text Add custom code above the password field in your custom 
++										932 link lock screen, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/articles/205815178
++										933 text . We recommend using the 
++										934 link Lock Screen panel, Value: caper-spinach-spcy.squarespace.com/config/design/lock-screen
++										935 text  instead.
++									936 container
++										937 text entry area (settable)
++										938 container
++											939 text 1
++									940 text ORDER CONFIRMATION PAGE
++									941 text Enter code that will be injected into the footer of the order confirmation page after checkout. If you'd like to pass the Order ID, subtotal, grand total, or customer email to a third party service, use the tags below in your code:
++									942 content list
++										943 container
++											944 AXListMarker • 
++											945 text {orderId} : The order number of the confirmed order
++										946 container
++											947 AXListMarker • 
++											948 text {orderSubtotal} : The subtotal of the confirmed order
++										949 container
++											950 AXListMarker • 
++											951 text {orderSubtotalCents} : The subtotal of the confirmed order, in cents
++										952 container
++											953 AXListMarker • 
++											954 text {orderGrandTotal} : The grand total of the confirmed order
++										955 container
++											956 AXListMarker • 
++											957 text {orderGrandTotalCents} : The grand total of the confirmed order, in cents
++										958 container
++											959 AXListMarker • 
++											960 text {customerEmailAddress} : The customer's email address, as it was entered in the "Billing Info" section
++									961 container
++										962 text entry area (settable)
++										963 container
++											964 text 1
++									965 text ORDER STATUS PAGE
++									966 text Enter code that will be injected into the footer of the order status page after checkout and on later page views. If you'd like to pass the Order ID, subtotal, grand total, or customer email to a third party service, use the tags below in your code:
++									967 content list
++										968 container
++											969 AXListMarker • 
++											970 text {orderId} : The order number of the confirmed order
++										971 container
++											972 AXListMarker • 
++											973 text {orderSubtotal} : The subtotal of the confirmed order
++										974 container
++											975 AXListMarker • 
++											976 text {orderSubtotalCents} : The subtotal of the confirmed order, in cents
++										977 container
++											978 AXListMarker • 
++											979 text {orderGrandTotal} : The grand total of the confirmed order
++										980 container
++											981 AXListMarker • 
++											982 text {orderGrandTotalCents} : The grand total of the confirmed order, in cents
++										983 container
++											984 AXListMarker • 
++											985 text {customerEmailAddress} : The customer's email address, as it was entered in the "Billing Info" section
++									986 container
++										987 text entry area (settable)
++										988 container
++											989 text 1
+Selected text: ```
+<script id="boldstone-ga4-shopping-funnel">
+
+/* Boldstone GA4 shopping funnel, 2026-10-31.
+ * Supplements native Squarespace purchase tracking. Does not send Meta events,
+ * purchase events, customer details, cart tokens, or duplicate page views.
+ * A cart addition requires a genuine click AND a confirmed cart-count increase.
+ */
+(function () {
+  'use strict';
+  if (window.__boldstoneShoppingFunnel) return;
+  window.__boldstoneShoppingFunnel = true;
+  var lastView = '', pending = null, checkoutAt = 0, scheduled = false;
+  function performanceConsent() {
+    try { return window.getSquarespaceCookies().performance === 'accepted'; }
+    catch (_) { return false; }
+  }
+  function consent() {
+    try { var c=window.getSquarespaceCookies(); return c.performance === 'accepted' || c.marketing === 'accepted'; }
+    catch (_) { return false; }
+  }
+  function emit(name, items, currency) {
+    if (!consent() || !items.length) return false;
+    if (!/^[A-Z]{3}$/.test(currency)) return false;
+    if (items.some(function (i) {
+      return !i.item_id || !i.item_name || !Number.isFinite(i.price) || i.price < 0 ||
+        !Number.isInteger(i.quantity) || i.quantity < 1;
+    })) return false;
+    var emitted = false;
+    if (performanceConsent() && typeof window.gtag === 'function') {
+      window.gtag('event', name, {
+      send_to: 'G-DYE31M1PWM', currency: currency,
+      value: Math.round(items.reduce(function (n, i) { return n + i.price * i.quantity; }, 0) * 100) / 100,
+      items: items, transport_type: 'beacon'
+      });
+      emitted = true;
+    }
+    if (window.BoldstonePinterest && window.BoldstonePinterest.commerce(name,items,currency)) emitted = true;
+    return emitted;
+  }
+  function product() {
+    if (!document.querySelector('.sqs-add-to-cart-button')) return null;
+    var results = [];
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(function (s) {
+      try {
+        var p = JSON.parse(s.textContent);
+        // Single-offer products only: never guess the chosen multi-variant SKU.
+        if (p['@type'] !== 'Product' || !p.offers || Array.isArray(p.offers) || p.offers['@type'] !== 'Offer') return;
+        var o = p.offers;
+        if (!o.sku || o.price == null || o.price === '') return;
+        if (new URL(o.url, location.href).pathname !== location.pathname) return;
+        results.push({currency: o.priceCurrency, item: {
+          item_id: String(o.sku), item_name: String(p.name).replace(/\s+[—–]\s+boldstone$/i, ''),
+          item_brand: 'Boldstone', price: Number(o.price), quantity: 1
+        }});
+      } catch (_) { /* Leave malformed or ambiguous products uncounted. */ }
+    });
+    return results.length === 1 ? results[0] : null;
+  }
+  function count() {
+    var values = Array.from(document.querySelectorAll('.sqs-cart-initialized .sqs-cart-quantity')).map(function (e) { return Number(e.textContent.trim()); });
+    if (!values.length || values.some(function (n) { return !Number.isInteger(n) || n < 0 || n !== values[0]; })) return null;
+    return values[0];
+  }
+  function cart() {
+    if (location.pathname !== '/cart') return null;
+    var context = document.querySelector('#sqs-cart-root > script[type="application/json"]');
+    if (!context) return null;
+    try {
+      var source = JSON.parse(context.textContent);
+      if (source.storeCurrency !== 'GBP') return null;
+      var rows = Array.from(document.querySelectorAll('[data-testid="cart-table-row"]'));
+      if (!rows.length) return null;
+      var items = rows.map(function (row) {
+        var link = row.querySelector('.cart-row-title');
+        var input = row.querySelector('.cart-row-qty-input');
+        var total = row.querySelector('.cart-row-price');
+        if (!link || !input || !total) throw new Error('Incomplete cart row');
+        var matches = source.cart.items.filter(function (i) {
+          return new URL(i.productUrl, location.href).pathname === new URL(link.href).pathname;
+        });
+        if (matches.length !== 1) throw new Error('Ambiguous cart variant');
+        var item = matches[0], quantity = Number(input.value);
+        if (!item.sku || !item.unitPrice || !item.unitPrice.decimalValue) throw new Error('Missing cart price or SKU');
+        var price = Number(item.unitPrice.decimalValue);
+        var visibleTotal = Number(total.textContent.replace(/[£,\s]/g, ''));
+        if (item.unitPrice.currencyCode !== 'GBP' || Math.abs(visibleTotal - price * quantity) > 0.005) throw new Error('Cart not settled');
+        return {item_id: String(item.sku), item_name: item.productName, item_brand: 'Boldstone', price: price, quantity: quantity};
+      });
+      return {items: items, currency: 'GBP'};
+    } catch (_) { return null; }
+  }
+  function check() {
+    scheduled = false;
+    if (!consent()) { pending = null; return; }
+    var p = product(), c = cart();
+    var key = location.pathname + ':' + (p ? p.item.item_id : c ? 'cart' : '');
+    if (key !== lastView) {
+      if (p && emit('view_item', [p.item], p.currency)) lastView = key;
+      else if (c && emit('view_cart', c.items, c.currency)) lastView = key;
+    }
+    if (pending) {
+      if (Date.now() - pending.at > 30000 || pending.path !== location.pathname || !pending.button.isConnected) { pending = null; return; }
+      var after = count();
+      if (after !== null && after > pending.before) {
+        var addition = pending; pending = null;
+        // Other tab changes or unexpected quantities must not create false events.
+        if (after - addition.before === 1) emit('add_to_cart', [addition.product.item], addition.product.currency);
+      }
+    }
+  }
+  function schedule() {
+    if (scheduled) return;
+    scheduled = true;
+    setTimeout(check, 100);
+  }
+  function click(e) {
+    if (!e.isTrusted || !e.target.closest || !consent()) return;
+    if (pending && Date.now() - pending.at > 30000) pending = null;
+    var button = e.target.closest('.sqs-add-to-cart-button');
+    if (button && !button.disabled && !button.classList.contains('cart-adding')) {
+      var p = product(), before = count();
+      if (p && before !== null && !pending) pending = {product:p, before:before, at:Date.now(), path:location.pathname, button:button};
+    }
+    var checkout = e.target.closest('a.cart-checkout-button[href]');
+    if (checkout && new URL(checkout.href).pathname === '/commerce/goto-checkout' && Date.now() - checkoutAt > 3000) {
+      var c = cart();
+      if (c && emit('begin_checkout', c.items, c.currency)) checkoutAt = Date.now();
+    }
+  }
+  function start() {
+    document.addEventListener('click', click, true);
+    new MutationObserver(schedule).observe(document.body, {childList:true, subtree:true, characterData:true, attributes:true, attributeFilter:['class','value']});
+    var previous = window.onCookieBannerInteraction;
+    window.onCookieBannerInteraction = function () {
+      try { if (typeof previous === 'function') previous.apply(this, arguments); }
+      finally { schedule(); }
+    };
+    window.addEventListener('pageshow', function (event) {
+      // Initial pageshow follows DOMContentLoaded; resetting then duplicates views.
+      if (!event.persisted) return;
+      pending = null; checkoutAt = 0; lastView = ''; schedule();
+    });
+    check();
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once:true});
+  else start();
+})();
+
+
+</script>
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

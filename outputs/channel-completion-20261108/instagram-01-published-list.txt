@@ -1,0 +1,680 @@
+Window: "Meta Business Suite", App: Google Chrome.
+0 standard window Meta Business Suite - Google Chrome – Tom, Secondary Actions: Raise, URL: business.facebook.com/latest/posts/published_posts/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav
+	1 container Meta Business Suite - Google Chrome – Tom, URL: business.facebook.com/latest/posts/published_posts/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: business.facebook.com/latest/posts/published_posts/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Meta Business Suite, URL: business.facebook.com/latest/posts/published_posts/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav
+						27 container
+							28 container
+								29 container
+									30 heading Content, Value: 1
+										31 text Content
+									32 text Schedule, publish and manage posts, reels and stories, and more.
+									33 toolbar
+										34 container
+											35 button Export Data
+											36 pop-up button Open export options ​
+												37 text Open export options
+												38 image
+										39 button Create reel
+										40 container
+											41 button Create post
+											42 pop-up button Create post ​
+												43 text Create post
+												44 image
+										45 button Your profiles
+									46 container
+										47 container
+											48 container Content
+												49 container
+													50 image
+													51 text Content
+												52 content list
+													53 container
+														54 link Posts and reels, Value: business.facebook.com/latest/posts/published_posts
+														55 text Posts and reels
+													56 container
+														57 link Stories, Value: business.facebook.com/latest/posts/active_stories
+														58 text Stories
+													59 container
+														60 link A/B tests, Value: business.facebook.com/latest/posts/ab_testing
+														61 text A/B tests
+													62 container
+														63 link Feed and grid, Value: business.facebook.com/latest/posts/feed_and_grid
+														64 text Feed and grid
+													65 container
+														66 link Mentions and tags, Value: business.facebook.com/latest/posts/tagged_content
+														67 text Mentions and tags
+													68 container
+														69 link Clips, Value: business.facebook.com/latest/posts/all_clips
+														70 text Clips
+											71 container Collections
+												72 container
+													73 image
+													74 text Collections
+												75 content list
+													76 container
+														77 link Playlists, Value: business.facebook.com/latest/posts/playlists
+														78 text Playlists
+											79 container Creative assets
+												80 container
+													81 image
+													82 text Creative assets
+												83 content list
+													84 container
+														85 link Videos you can crosspost, Value: business.facebook.com/latest/posts/videos_you_can_crosspost
+														86 text Videos you can crosspost
+										87 button Collapse ​
+									88 image
+									89 heading Facebook reach will no longer be available starting on 31 October 2026, Value: 4
+										90 text Facebook reach will no longer be available starting on 31 October 2026
+									91 button Close ​
+									92 text Viewers is the primary metric for understanding how many accounts viewed your Facebook content.
+									93 container
+										94 tab group
+											95 tab (selected) Published, Value: 1
+											96 tab (settable, integer) Scheduled, Value: 0
+											97 tab (settable, integer) Drafts, Value: 0
+											98 tab (settable, integer) Expiring, Value: 0
+											99 tab (settable, integer) Expired, Value: 0
+											100 tab (settable, integer) Ad posts, Value: 0
+										101 text Filter
+										102 combo box (settable) Filter Filter, Value: Filter ​
+											103 container
+												104 text Filter
+												105 image
+										106 container
+											107 text Search by ID or caption
+											108 image
+										109 container
+											110 text field (settable) Search by ID or caption
+										111 image
+										112 button Last 90 days
+										113 button Columns ​
+										114 table Published posts
+											115 row Select all Title Date published Status Reach ​ Views ​
+												116 column header
+													117 container
+														118 Tick box Select all, Value: 0
+														119 image
+												120 column header
+													121 heading Title, Value: 4
+														122 text Title
+												123 column header
+													124 button Date published
+												125 column header
+													126 button Status
+												127 column header
+													128 button Reach ​
+												129 column header
+													130 button Views ​
+												131 column header
+													132 button Viewers ​
+												133 column header
+													134 button Follows ​
+												135 column header
+													136 button Interactions ​
+												137 column header
+													138 button Likes and reactions ​
+												139 column header
+													140 button Comments ​
+												141 column header
+													142 button Shares ​
+												143 column header
+													144 button Saves ​
+												145 column header
+													146 button Link clicks ​
+												147 column header
+													148 button Watch time ​
+												149 column header
+													150 button Video average play time ​
+												151 column header
+													152 button 3-second views ​
+												153 column header
+													154 button Approximate in-stream ad earnings ​
+											155 row Select item with ID 17950461630349098 Instagram Brancusi Totem Relief - White A narrow wall can hold a strong sculptural rhythm. Brancusi Totem Relief brings a long, rippling line to the wall. The white surface lets the raised contours and their shadows do the work, changing quietly as the light moves. 100 × 22 × 8 cm. Made from a gypsum-based material. Suitable for outdoor use and indoor display. All designs can be customised, and completely new commissions can be developed with designer Sally Price. Tap t
+												156 cell
+													157 container
+														158 Tick box Select item with ID 17950461630349098, Value: 0
+														159 image
+												160 cell
+													161 container
+														162 container
+															163 image Instagram
+														164 text Brancusi Totem Relief - White A narrow wall can hold a strong sculptural rhythm. Brancusi Totem Relief brings a long, rippling line to the wall. The white surface lets the raised contours and their shadows do the work, changing quietly as the light moves. 100 × 22 × 8 cm. Made from a gypsum-based material. Suitable for outdoor use and indoor display. All designs can be customised, and completely new commissions can be developed with designer Sally Price. Tap the product tag to view the sculpture and purchas
+														165 image
+														166 text Photo
+														167 image
+														168 text boldstonesculpture
+														169 button Boost
+														170 pop-up button Open Drop-down ​
+															171 text Open Drop-down
+															172 image
+												173 cell
+													174 toggle button 8 November 18:54, Value: 0
+												175 cell
+													176 toggle button Not currently boosted, Value: 0
+														177 container Not currently boosted
+												178 cell
+													179 toggle button ‑‑, Value: 0
+												180 cell
+													181 toggle button 0
+												182 cell
+													183 toggle button ‑‑, Value: 0
+												184 cell
+													185 toggle button 0
+												186 cell
+													187 toggle button 0
+												188 cell
+													189 toggle button 0
+												190 cell
+													191 toggle button 0
+												192 cell
+													193 toggle button 0
+												194 cell
+													195 toggle button 0
+												196 cell
+													197 toggle button ‑‑, Value: 0
+												198 cell
+													199 toggle button ‑‑, Value: 0
+												200 cell
+													201 toggle button ‑‑, Value: 0
+												202 cell
+													203 toggle button ‑‑, Value: 0
+												204 cell
+													205 toggle button ‑‑, Value: 0
+											206 row Select item with ID 18088003400708204 Instagram A line that refuses to stand still. Brancusi Meander I - White balances long, flowing curves with a clean rectangular outline. Side light traces the raised edges and turns each recess into a quiet ribbon of shadow. Shown under coloured light; the offered finish is White. Display it alone or with Brancusi Meander II. Each sculpture is sold separately. Handmade from a gypsum-based material, suitable for indoor or outdoor display. All designs can be customised, a
+												207 cell
+													208 container
+														209 Tick box Select item with ID 18088003400708204, Value: 0
+														210 image
+												211 cell
+													212 container
+														213 container
+															214 image Instagram
+														215 text A line that refuses to stand still. Brancusi Meander I - White balances long, flowing curves with a clean rectangular outline. Side light traces the raised edges and turns each recess into a quiet ribbon of shadow. Shown under coloured light; the offered finish is White. Display it alone or with Brancusi Meander II. Each sculpture is sold separately. Handmade from a gypsum-based material, suitable for indoor or outdoor display. All designs can be customised, and completely new commissions can be created wit
+														216 image
+														217 text Photo
+														218 image
+														219 text boldstonesculpture
+														220 button Boost
+														221 pop-up button Open Drop-down ​
+															222 text Open Drop-down
+															223 image
+												224 cell
+													225 toggle button 8 November 12:49, Value: 0
+												226 cell
+													227 toggle button Not currently boosted, Value: 0
+														228 container Not currently boosted
+												229 cell
+													230 toggle button 26, Value: 0
+												231 cell
+													232 toggle button 41, Value: 0
+												233 cell
+													234 toggle button ‑‑, Value: 0
+												235 cell
+													236 toggle button 0
+												237 cell
+													238 toggle button 0
+												239 cell
+													240 toggle button 0
+												241 cell
+													242 toggle button 0
+												243 cell
+													244 toggle button 0
+												245 cell
+													246 toggle button 0
+												247 cell
+													248 toggle button ‑‑, Value: 0
+												249 cell
+													250 toggle button ‑‑, Value: 0
+												251 cell
+													252 toggle button ‑‑, Value: 0
+												253 cell
+													254 toggle button ‑‑, Value: 0
+												255 cell
+													256 toggle button ‑‑, Value: 0
+											257 row Select item with ID 18105959279371148 Instagram Follow the water inward. Bone Water Spiral Relief - White turns a broad curling form into a fluid, organic relief. The pale surface lets each raised edge and hollow gather its own changing light, recalling the movement of water and the quiet structure of a shell. Handmade from a gypsum-based material, suitable for indoor or outdoor display. One sculpture is supplied. Place it where the light changes through the day to enjoy the shifting shadows. All designs ca
+												258 cell
+													259 container
+														260 Tick box Select item with ID 18105959279371148, Value: 0
+														261 image
+												262 cell
+													263 container
+														264 container
+															265 image Instagram
+														266 text Follow the water inward. Bone Water Spiral Relief - White turns a broad curling form into a fluid, organic relief. The pale surface lets each raised edge and hollow gather its own changing light, recalling the movement of water and the quiet structure of a shell. Handmade from a gypsum-based material, suitable for indoor or outdoor display. One sculpture is supplied. Place it where the light changes through the day to enjoy the shifting shadows. All designs can be customised, and completely new commissions 
+														267 image
+														268 text Photo
+														269 image
+														270 text boldstonesculpture
+														271 button Boost
+														272 pop-up button Open Drop-down ​
+															273 text Open Drop-down
+															274 image
+												275 cell
+													276 toggle button 8 November 12:48, Value: 0
+												277 cell
+													278 toggle button Not currently boosted, Value: 0
+														279 container Not currently boosted
+												280 cell
+													281 toggle button 37, Value: 0
+												282 cell
+													283 toggle button 59, Value: 0
+												284 cell
+													285 toggle button ‑‑, Value: 0
+												286 cell
+													287 toggle button 0
+												288 cell
+													289 toggle button 1, Value: 0
+												290 cell
+													291 toggle button 1, Value: 0
+												292 cell
+													293 toggle button 0
+												294 cell
+													295 toggle button 0
+												296 cell
+													297 toggle button 0
+												298 cell
+													299 toggle button ‑‑, Value: 0
+												300 cell
+													301 toggle button ‑‑, Value: 0
+												302 cell
+													303 toggle button ‑‑, Value: 0
+												304 cell
+													305 toggle button ‑‑, Value: 0
+												306 cell
+													307 toggle button ‑‑, Value: 0
+											308 row Select item with ID 18112183388184806 Instagram What might an echo look like? Echo Rhythm I - White follows a sequence of sweeping ridges around a small circular centre. The grainy surface and deep channels let light turn a repeated pattern into a changing composition. Display it alone or with Echo Rhythm II as a coordinating pair. Each sculpture is sold separately. Handmade from a gypsum-based material, suitable for indoor or outdoor display. All designs can be customised, and completely new commissions ca
+												309 cell
+													310 container
+														311 Tick box Select item with ID 18112183388184806, Value: 0
+														312 image
+												313 cell
+													314 container
+														315 container
+															316 image Instagram
+														317 text What might an echo look like? Echo Rhythm I - White follows a sequence of sweeping ridges around a small circular centre. The grainy surface and deep channels let light turn a repeated pattern into a changing composition. Display it alone or with Echo Rhythm II as a coordinating pair. Each sculpture is sold separately. Handmade from a gypsum-based material, suitable for indoor or outdoor display. All designs can be customised, and completely new commissions can be created with designer Sally Price. Tap the 
+														318 image
+														319 text Photo
+														320 image
+														321 text boldstonesculpture
+														322 button Boost
+														323 pop-up button Open Drop-down ​
+															324 text Open Drop-down
+															325 image
+												326 cell
+													327 toggle button 8 November 12:47, Value: 0
+												328 cell
+													329 toggle button Not currently boosted, Value: 0
+														330 container Not currently boosted
+												331 cell
+													332 toggle button 22, Value: 0
+												333 cell
+													334 toggle button 32, Value: 0
+												335 cell
+													336 toggle button ‑‑, Value: 0
+												337 cell
+													338 toggle button 0
+												339 cell
+													340 toggle button 2, Value: 0
+												341 cell
+													342 toggle button 2, Value: 0
+												343 cell
+													344 toggle button 0
+												345 cell
+													346 toggle button 0
+												347 cell
+													348 toggle button 0
+												349 cell
+													350 toggle button ‑‑, Value: 0
+												351 cell
+													352 toggle button ‑‑, Value: 0
+												353 cell
+													354 toggle button ‑‑, Value: 0
+												355 cell
+													356 toggle button ‑‑, Value: 0
+												357 cell
+													358 toggle button ‑‑, Value: 0
+											359 row Select item with ID 17879516133635295 Instagram A shoal held in a moment of stillness. Frozen Fish Relief - Verdigris Finish repeats small raised fish-like forms along a tall, narrow panel. Sea-green colour and rougher surface details give this simple rhythm a weathered, coastal character. Handmade from a gypsum-based material with an applied decorative verdigris finish. Its surface-effect pattern will vary and differ from the photographs. Suitable for indoor or outdoor display; one sculpture is supplied. A
+												360 cell
+													361 container
+														362 Tick box Select item with ID 17879516133635295, Value: 0
+														363 image
+												364 cell
+													365 container
+														366 container
+															367 image Instagram
+														368 text A shoal held in a moment of stillness. Frozen Fish Relief - Verdigris Finish repeats small raised fish-like forms along a tall, narrow panel. Sea-green colour and rougher surface details give this simple rhythm a weathered, coastal character. Handmade from a gypsum-based material with an applied decorative verdigris finish. Its surface-effect pattern will vary and differ from the photographs. Suitable for indoor or outdoor display; one sculpture is supplied. All designs can be customised, and completely new
+														369 image
+														370 text Photo
+														371 image
+														372 text boldstonesculpture
+														373 button Boost
+														374 pop-up button Open Drop-down ​
+															375 text Open Drop-down
+															376 image
+												377 cell
+													378 toggle button 8 November 12:41, Value: 0
+												379 cell
+													380 toggle button Not currently boosted, Value: 0
+														381 container Not currently boosted
+												382 cell
+													383 toggle button 39, Value: 0
+												384 cell
+													385 toggle button 67, Value: 0
+												386 cell
+													387 toggle button ‑‑, Value: 0
+												388 cell
+													389 toggle button 0
+												390 cell
+													391 toggle button 1, Value: 0
+												392 cell
+													393 toggle button 1, Value: 0
+												394 cell
+													395 toggle button 0
+												396 cell
+													397 toggle button 0
+												398 cell
+													399 toggle button 0
+												400 cell
+													401 toggle button ‑‑, Value: 0
+												402 cell
+													403 toggle button ‑‑, Value: 0
+												404 cell
+													405 toggle button ‑‑, Value: 0
+												406 cell
+													407 toggle button ‑‑, Value: 0
+												408 cell
+													409 toggle button ‑‑, Value: 0
+											410 row Select item with ID 18425817283154355 Instagram A little courtyard sunshine for the wall. Acanthus Moon - Gold Finish brings sweeping leaf-like curves and a broad crescent into a warm, sculptural relief. The raised lines catch the light while quiet recesses give the composition its depth. Handmade from a gypsum-based material with an applied imitation gold leaf finish, suitable for indoor or outdoor display. The surface-effect pattern will vary and differ from the photographs. One sculpture is supplied. All
+												411 cell
+													412 container
+														413 Tick box Select item with ID 18425817283154355, Value: 0
+														414 image
+												415 cell
+													416 container
+														417 container
+															418 image Instagram
+														419 text A little courtyard sunshine for the wall. Acanthus Moon - Gold Finish brings sweeping leaf-like curves and a broad crescent into a warm, sculptural relief. The raised lines catch the light while quiet recesses give the composition its depth. Handmade from a gypsum-based material with an applied imitation gold leaf finish, suitable for indoor or outdoor display. The surface-effect pattern will vary and differ from the photographs. One sculpture is supplied. All designs can be customised, and completely new c
+														420 image
+														421 text Photo
+														422 image
+														423 text boldstonesculpture
+														424 button Boost
+														425 pop-up button Open Drop-down ​
+															426 text Open Drop-down
+															427 image
+												428 cell
+													429 toggle button 8 November 12:34, Value: 0
+												430 cell
+													431 toggle button Not currently boosted, Value: 0
+														432 container Not currently boosted
+												433 cell
+													434 toggle button 25, Value: 0
+												435 cell
+													436 toggle button 41, Value: 0
+												437 cell
+													438 toggle button ‑‑, Value: 0
+												439 cell
+													440 toggle button 0
+												441 cell
+													442 toggle button 3, Value: 0
+												443 cell
+													444 toggle button 2, Value: 0
+												445 cell
+													446 toggle button 0
+												447 cell
+													448 toggle button 0
+												449 cell
+													450 toggle button 1, Value: 0
+												451 cell
+													452 toggle button ‑‑, Value: 0
+												453 cell
+													454 toggle button ‑‑, Value: 0
+												455 cell
+													456 toggle button ‑‑, Value: 0
+												457 cell
+													458 toggle button ‑‑, Value: 0
+												459 cell
+													460 toggle button ‑‑, Value: 0
+											461 row Select item with ID 18111728378630199 Instagram A tide-mark rhythm that stays with the wall. Fossil Sand Ripple Relief - White traces long, undulating channels across a rectangular panel. Fine texture and narrow ridges recall ripples in sand, with each line becoming clearer as the light moves across it. It can be displayed alone or with coordinating Seaweed Ripple designs. Each sculpture is sold separately. Handmade from a gypsum-based material, suitable for indoor or outdoor display. All designs can be cus
+												462 cell
+													463 container
+														464 Tick box Select item with ID 18111728378630199, Value: 0
+														465 image
+												466 cell
+													467 container
+														468 container
+															469 image Instagram
+														470 text A tide-mark rhythm that stays with the wall. Fossil Sand Ripple Relief - White traces long, undulating channels across a rectangular panel. Fine texture and narrow ridges recall ripples in sand, with each line becoming clearer as the light moves across it. It can be displayed alone or with coordinating Seaweed Ripple designs. Each sculpture is sold separately. Handmade from a gypsum-based material, suitable for indoor or outdoor display. All designs can be customised, and completely new commissions can be c
+														471 image
+														472 text Photo
+														473 image
+														474 text boldstonesculpture
+														475 button Boost
+														476 pop-up button Open Drop-down ​
+															477 text Open Drop-down
+															478 image
+												479 cell
+													480 toggle button 7 November 03:26, Value: 0
+												481 cell
+													482 toggle button Not currently boosted, Value: 0
+														483 container Not currently boosted
+												484 cell
+													485 toggle button 39, Value: 0
+												486 cell
+													487 toggle button 62, Value: 0
+												488 cell
+													489 toggle button ‑‑, Value: 0
+												490 cell
+													491 toggle button 0
+												492 cell
+													493 toggle button 2, Value: 0
+												494 cell
+													495 toggle button 2, Value: 0
+												496 cell
+													497 toggle button 0
+												498 cell
+													499 toggle button 0
+												500 cell
+													501 toggle button 0
+												502 cell
+													503 toggle button ‑‑, Value: 0
+												504 cell
+													505 toggle button ‑‑, Value: 0
+												506 cell
+													507 toggle button ‑‑, Value: 0
+												508 cell
+													509 toggle button ‑‑, Value: 0
+												510 cell
+													511 toggle button ‑‑, Value: 0
+											512 row Select item with ID 17915555724285275 Instagram The calm of a raked garden, carried onto a wall. Raked Spiral I - White lets broad ridges unfurl from a small spiral into flowing waves. Its grainy surface softens the pattern, giving light a different path across every curve. A quiet piece with plenty to discover up close. Display it on its own or alongside the other Raked Spiral panels. Each sculpture is sold separately. Handmade from a gypsum-based material, suitable for indoor or outdoor display. All desig
+												513 cell
+													514 container
+														515 Tick box Select item with ID 17915555724285275, Value: 0
+														516 image
+												517 cell
+													518 container
+														519 container
+															520 image Instagram
+														521 text The calm of a raked garden, carried onto a wall. Raked Spiral I - White lets broad ridges unfurl from a small spiral into flowing waves. Its grainy surface softens the pattern, giving light a different path across every curve. A quiet piece with plenty to discover up close. Display it on its own or alongside the other Raked Spiral panels. Each sculpture is sold separately. Handmade from a gypsum-based material, suitable for indoor or outdoor display. All designs can be customised, and completely new commiss
+														522 image
+														523 text Photo
+														524 image
+														525 text boldstonesculpture
+														526 button Boost
+														527 pop-up button Open Drop-down ​
+															528 text Open Drop-down
+															529 image
+												530 cell
+													531 toggle button 7 November 03:23, Value: 0
+												532 cell
+													533 toggle button Not currently boosted, Value: 0
+														534 container Not currently boosted
+												535 cell
+													536 toggle button 34, Value: 0
+												537 cell
+													538 toggle button 47, Value: 0
+												539 cell
+													540 toggle button ‑‑, Value: 0
+												541 cell
+													542 toggle button 0
+												543 cell
+													544 toggle button 1, Value: 0
+												545 cell
+													546 toggle button 1, Value: 0
+												547 cell
+													548 toggle button 0
+												549 cell
+													550 toggle button 0
+												551 cell
+													552 toggle button 0
+												553 cell
+													554 toggle button ‑‑, Value: 0
+												555 cell
+													556 toggle button ‑‑, Value: 0
+												557 cell
+													558 toggle button ‑‑, Value: 0
+												559 cell
+													560 toggle button ‑‑, Value: 0
+												561 cell
+													562 toggle button ‑‑, Value: 0
+								563 button Meta AI business assistant
+								564 container
+									565 button Meta Business Suite
+									566 button Pressable
+									567 container Links
+										568 text Links
+										569 content list
+											570 container
+												571 link Home, Value: business.facebook.com/latest/home?business_id=2380586078685156&asset_id=103781478537396
+												572 text Home
+											573 container
+												574 link Notifications
+													575 text Notifications
+												576 text Notifications
+											577 container
+												578 link Ads Manager
+													579 text Ads Manager
+												580 text Ads Manager
+											581 container
+												582 link Inbox, Value: business.facebook.com/latest/inbox?business_id=2380586078685156&asset_id=103781478537396
+												583 text Inbox
+											584 container
+												585 link Content, Value: business.facebook.com/latest/posts?business_id=2380586078685156&asset_id=103781478537396
+												586 text Content
+											587 container
+												588 link Creator Marketing, Value: business.facebook.com/creator_marketing_hub/overview/?business_id=2380586078685156&asset_id=103781478537396&nav_ref=mbs_all_tools&ad_account_id=878195225362673&selected_business_ig_user_id=17841407266349160&selected_business_page_id=103781478537396
+												589 text Creator Marketing
+											590 container
+												591 link Planner, Value: business.facebook.com/latest/content_calendar?business_id=2380586078685156&asset_id=103781478537396
+												592 text Planner
+											593 container
+												594 link Ads, Value: business.facebook.com/latest/ad_center/ads_summary?business_id=2380586078685156&asset_id=103781478537396
+												595 text Ads
+											596 container
+												597 link Insights, Value: business.facebook.com/latest/insights?business_id=2380586078685156&asset_id=103781478537396
+												598 text Insights
+											599 container
+												600 link Monetisation, Value: business.facebook.com/latest/monetization?business_id=2380586078685156&asset_id=103781478537396
+												601 text Monetisation
+											602 container
+												603 link All tools
+													604 text All tools
+												605 text All tools
+											606 button Edit sidebar navigation
+									607 container
+										608 link Search
+											609 text Search
+										610 text Search
+										611 image
+									612 container Links
+										613 text Links
+										614 content list
+											615 container
+												616 link Settings, Value: business.facebook.com/latest/settings/business_users?business_id=2380586078685156
+												617 text Settings
+									618 container
+										619 link Help
+											620 text Help
+										621 text Help
+										622 image
+			623 pop-up button Tab search
+			624 container
+				625 tab group
+					626 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					627 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					628 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					629 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					630 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					631 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					632 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					633 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					634 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					635 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					636 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					637 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					638 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					639 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					640 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					641 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					642 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					643 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					644 tab (settable, boolean) Meta Business Suite, Value: off
+					645 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					646 tab (selected, settable, boolean) Meta Business Suite, Value: on
+					647 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					648 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					649 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					650 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					651 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					652 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 999 MB, Value: off
+					653 tab (settable, boolean) Boldstone · Review room, Value: off
+			654 button New tab
+	655 close button
+	656 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	657 minimise button
+658 menu bar
+	659 Chrome
+	660 File
+	661 Edit
+	662 View
+	663 History
+	664 Bookmarks
+	665 Profiles
+	666 Tab
+	667 Window
+	668 Help
+
+The focused UI element is 26 HTML content Meta Business Suite, URL: business.facebook.com/latest/posts/published_posts/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav

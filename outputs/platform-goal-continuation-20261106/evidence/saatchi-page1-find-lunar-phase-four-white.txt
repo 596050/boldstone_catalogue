@@ -1,0 +1,27 @@
+Window: "Studio | Saatchi Art United Kingdom | Page 1", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom | Page 1 - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio?sub=artworks&page=1&hitsPerPage=100, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom | Page 1 - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio?sub=artworks&page=1&hitsPerPage=100
+		2 container Find in page
+    Studio | Saatchi Art United Kingdom | Page 1
+			3 container
+				4 text field (settable) Find, Value: Lunar Phase IV - White
+				5 container Result 1 of 1
+				6 button Previous
+				7 button Next
+				8 button Close find bar
+	9 close button
+	10 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	11 minimise button
+12 menu bar
+	13 Chrome
+	14 File
+	15 Edit
+	16 View
+	17 History
+	18 Bookmarks
+	19 Profiles
+	20 Tab
+	21 Window
+	22 Help
+
+The focused UI element is 4 text field (settable) Find, Value: Lunar Phase IV - White

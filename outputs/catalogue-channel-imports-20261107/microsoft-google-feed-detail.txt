@@ -1,0 +1,153 @@
+Window: "Import | Microsoft Advertising", App: Google Chrome.
+0 standard window Import | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, Secondary Actions: Raise, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/import?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+	1 container Import | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/import?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/import?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Import | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/import?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+						27 container
+							28 container Skip to main content
+								29 link Skip to main content, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&uid=193182372#main
+							30 container global menu
+								31 button Microsoft Advertising
+								32 button Switch user accounts. Current selection: Boldstone (G1459Y2Q)
+								33 container
+									34 combo box (settable) Search Microsoft Advertising
+									35 button clear
+								36 button Copilot
+								37 button Notifications
+								38 button   Notifications
+								39 pop-up button Help
+								40 button New features
+								41 button Open account panel
+							42 container Banner message
+								43 text You need a primary payment method before your ads will run.
+								44 link Add a payment method now, Value: ads.microsoft.com/cc/PaymentMethods?aid=187335961&cid=255124527&uid=193182372&showTaxForm=False
+							45 tab group
+								46 tab (settable, integer) Campaigns, Value: 0
+								47 tab (settable, integer) Conversions, Value: 0
+								48 tab (settable, integer) Ads Studio, Value: 0
+								49 tab (settable, integer) Import, Value: 0
+								50 tab (settable, integer) Reporting, Value: 0
+								51 tab (selected) Merchant Center, Value: 1
+								52 tab (settable, integer) Billing, Value: 0
+								53 tab (settable, integer) Settings, Value: 0
+								54 tab (settable, integer) Tools, Value: 0
+							55 container breadcrumb
+								56 content list
+									57 button All stores
+									58 button (disabled) Boldstone Sculpture
+							59 container
+								60 button Overview
+								61 button Collapse menu
+								62 button Diagnostics
+								63 button Products
+								64 button Feeds
+								65 button Import
+								66 button Promotions
+								67 button Settings
+							68 container
+								69 heading Import, Value: 1
+									70 text Import
+								71 container
+									72 container
+										73 container Product catalog
+											74 heading Product catalog, Value: 2
+												75 text Product catalog
+											76 text 0 total products in this feed
+											77 pop-up button Download
+											78 container Product catalog
+												79 image No products
+												80 text 0
+											81 text Published
+											82 button Click to learn more about Published
+											83 text 0 Published with issues
+											84 button Click to learn more about Published with issues
+											85 text 0 Rejected/skipped
+											86 button Click to learn more about Rejected/skipped
+											87 text 0 Pending
+											88 button Click to learn more about Pending
+											89 text 0
+										90 container Website sync - GMC 5664655454
+											91 heading Website sync - GMC 5664655454, Value: 2
+												92 text Website sync - GMC 5664655454
+											93 text -
+											94 button Import now
+											95 pop-up button Manage import
+												96 text Manage import
+											97 switch Scheduled imports: On, Value: on
+											98 text Default import schedule Import Daily at 06 AM (UTC + 00:00) GMT Standard Time (London) Google Merchant Center account info@boldstone.co.uk (5664655454) Email notification No email Modified by info@boldstone.co.uk on 7 November 2026 at 21:14:33 GMT
+									99 text © 2026 Microsoft
+									100 content list
+										101 link Legal, Value: ads.microsoft.com/tc.aspx
+										102 link Privacy & Cookies, Value: go.microsoft.com/fwlink/?LinkId=248681
+										103 link Advertise, Value: go.microsoft.com/fwlink/?LinkId=258668
+										104 link Developers, Value: go.microsoft.com/fwlink/?linkid=2333449
+										105 link Support, Value: go.microsoft.com/fwlink/?LinkId=258669
+										106 link Blog, Value: go.microsoft.com/fwlink/?LinkId=395064
+										107 link Community, Value: go.microsoft.com/fwlink/?linkid=2325500&clcid=0x409
+										108 link Consumer Health Privacy, Value: go.microsoft.com/fwlink/?linkid=2259814
+										109 button Help
+			110 pop-up button Tab search
+			111 container
+				112 tab group
+					113 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					114 tab group  group ✅Claude – 1 Tab, •  Import | Microsoft Advertising – Expanded
+					115 tab (selected, settable, boolean) Import | Microsoft Advertising – Part of group ✅Claude, Value: on
+						116 button Close
+					117 tab (settable, boolean) Variants - Manufacturer Center, Value: off
+					118 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					119 tab (settable, boolean) Boldstone Sculpture | Boldstone Wall Sculptures, Value: off
+					120 tab (settable, boolean) Portela Nova | A slower kind of stay, Value: off
+					121 tab (settable, boolean) Pinterest, Value: off
+					122 tab (settable, boolean) Get started with retail catalogs | Pinterest Business help, Value: off
+					123 tab (settable, boolean) [TEMPLATE - COPY] Pinterest Catalog Data source Google Sheet Template - Google Sheets, Value: off
+					124 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					125 tab (settable, boolean) All products - Merchant Center, Value: off
+					126 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+			127 button New tab
+	128 close button
+	129 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	130 minimise button
+131 menu bar
+	132 Chrome
+	133 File
+	134 Edit
+	135 View
+	136 History
+	137 Bookmarks
+	138 Profiles
+	139 Tab
+	140 Window
+	141 Help
+
+The focused UI element is 26 HTML content Import | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/import?aid=187335961&cid=255124527&storeId=50112622&uid=193182372

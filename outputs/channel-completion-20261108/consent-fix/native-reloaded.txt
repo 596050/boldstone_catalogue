@@ -1,0 +1,75 @@
+Window: "Squarespace", App: Google Chrome.
+0 standard window Squarespace - Google Chrome – Tom, URL: caper-spinach-spcy.squarespace.com/config/pages/code-injection, Secondary Actions: Raise
+	1 container Squarespace - Google Chrome – Tom, URL: caper-spinach-spcy.squarespace.com/config/pages/code-injection
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: caper-spinach-spcy.squarespace.com/config/pages/code-injection, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Squarespace, URL: caper-spinach-spcy.squarespace.com/config/pages/code-injection
+			26 pop-up button Tab search
+			27 container
+				28 tab group
+					29 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					30 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					31 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					32 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					33 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					34 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					35 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					36 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					37 tab (settable, boolean) SEO opportunity audit, Value: off
+					38 tab group  group ✅Claude – 2 Tabs, •  Inbox (112) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					39 tab (settable, boolean) Value: off, Inbox (112) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1,001 MB
+					40 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					41 tab (settable, boolean) Drafts (1,334) - tppricet@gmail.com - Gmail, Value: off
+					42 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					43 tab (settable, boolean) Bookmarks, Value: off
+					44 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					45 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					46 tab (settable, boolean) Boldstone Sculpture | Wall Sculptures - 50 Preview, Value: off
+					47 tab (selected, settable, boolean) Squarespace, Value: on
+						48 button Close
+			49 button New tab
+	50 close button
+	51 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	52 minimise button
+53 menu bar
+	54 Chrome
+	55 File
+	56 Edit
+	57 View
+	58 History
+	59 Bookmarks
+	60 Profiles
+	61 Tab
+	62 Window
+	63 Help
+
+The focused UI element is 25 HTML content Squarespace, URL: caper-spinach-spcy.squarespace.com/config/pages/code-injection

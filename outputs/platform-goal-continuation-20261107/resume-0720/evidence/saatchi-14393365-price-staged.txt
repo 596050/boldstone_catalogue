@@ -1,0 +1,265 @@
+Window: "Studio | Saatchi Art United Kingdom", App: Google Chrome.
+0 standard window URL: saatchiart.com/en-gb/studio/art/14393365/price-details, Secondary Actions: Raise, Studio | Saatchi Art United Kingdom – Part of group 📦 Finish sculpture listings - Google Chrome – Tom
+	1 container URL: saatchiart.com/en-gb/studio/art/14393365/price-details, Studio | Saatchi Art United Kingdom – Part of group 📦 Finish sculpture listings - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio/art/14393365/price-details, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/art/14393365/price-details
+						26 container
+							27 container
+								28 text Fax
+								29 text field (settable) Fax
+							30 link fax, Value: saatchiart.com/facsimile-npc
+							31 link Skip to Main Content, Value: saatchiart.com/en-gb/studio/art/14393365/overview#skip-to-content
+							32 container
+								33 button Close Menu
+								34 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								35 text Studio
+								36 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								37 container
+									38 button Manage Artworks
+									39 content list
+										40 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										41 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									42 button Sales Dashboard
+									43 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									44 button Sponsored Listings
+									45 button Profile Information
+									46 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									47 button Account
+							48 container
+								49 link 1 Image, Value: saatchiart.com/en-gb/studio/art/14393365/image
+								50 link 2 Description, Value: saatchiart.com/en-gb/studio/art/14393365/description
+								51 link 3 Price & Details, Value: saatchiart.com/en-gb/studio/art/14393365/price-details
+								52 link 4 Prints, Value: saatchiart.com/en-gb/studio/art/14393365/prints
+								53 button Back to Overview
+								54 Unlabelled image /13455317-LXYAWFQO-7.jpg
+								55 text Title Bone Spiral I (Narrow) - White Subject Abstract Category Sculpture Dimensions 30  W x  55  H x  7  D  centimeters
+								56 button SHOW MORE
+								57 heading Price & Details, Value: 1
+									58 text Price & Details
+								59 text Availability For Sale
+								60 container
+									61 radio button For Sale, Value: 1
+									62 text For Sale
+								63 container
+									64 radio button Not For Sale, Value: 0
+									65 text Not For Sale
+								66 container
+									67 radio button Sold, Value: 0
+									68 text Sold
+								69 text Editions
+								70 container
+									71 radio button (disabled) One-of-a-kind, Value: 0
+									72 text One-of-a-kind
+								73 container
+									74 radio button Limited Edition, Value: 1
+									75 text Limited Edition
+								76 container
+									77 button Limited Edition, Help: Collapse
+									78 text Default Title
+									79 text Bone Spiral I (Narrow) - White - Limited Edition of 50
+									80 text Total Run
+									81 container
+										82 stepper (settable, float) Value: 50, Placeholder: Enter Total Run
+										83 text Enter Total Run
+									84 text Available For Sale on Saatchi Art
+									85 container
+										86 stepper (settable, float) Value: 1, Placeholder: Enter Availability
+										87 text Enter Availability
+									88 container
+										89 button Additional Details, Help: Collapse
+										90 text Is the artwork displayed in multiple pieces?
+										91 container
+											92 radio button Yes, Value: 0
+											93 text Yes
+										94 container
+											95 radio button No, Value: 1
+											96 text No
+										97 text Is the artwork primarily wall-mounted or free-standing?
+										98 container
+											99 radio button Wall-Mounted, Value: 1
+											100 text Wall-Mounted
+										101 container
+											102 radio button Free-Standing, Value: 0
+											103 text Free-Standing
+										104 container
+											105 radio button Other, Value: 0
+											106 text Other
+										107 text Does the artwork come with installed hardware, ready to hang?
+										108 container
+											109 radio button Yes, Value: 0
+											110 text Yes
+										111 container
+											112 radio button No, Value: 1
+											113 text No
+										114 text Is this artwork suitable/safe for the outdoors?
+										115 container
+											116 radio button Yes, Value: 1
+											117 text Yes
+										118 container
+											119 radio button No, Value: 0
+											120 text No
+										121 button Next
+									122 container
+										123 button Weight and Packaging, Help: Expand
+										124 container
+											125 text Select how you would like to package your artwork.
+											126 image
+											127 container
+												128 radio button Crate, Value: 1
+												129 text Crate
+											130 image
+											131 container
+												132 radio button Box, Value: 0
+												133 text Box
+											134 image
+											135 container
+												136 radio button Tube, Value: 0
+												137 text Tube
+											138 text Shipping Weight (Artwork +  Crate )
+											139 stepper (settable, float) Value: 28, Placeholder: Enter weight
+											140 text Enter weight
+											141 text kg Please provide accurate shipping weight. Inaccurate input may result in withheld commission to cover increased shipping cost.
+											142 link Learn More, Value: support.saatchiart.com/hc/en-us/articles/14709932602139-Packaging-Your-Artwork-2023-
+											143 button Next
+									144 container
+										145 button Shipping Address, Help: Expand
+										146 container
+											147 text Provide the address from which you will ship this artwork.
+											148 radio button Sally Price Court Essington, Midford Road Midford Bath, Somerset BA2 7BX GB +447766763566, Value: 1
+											149 text Sally Price Court Essington, Midford Road Midford Bath ,  Somerset BA2 7BX GB +447766763566
+											150 button Add Shipping Address
+											151 button Next
+									152 container
+										153 button Price, Help: Expand
+										154 container
+											155 text Price your artwork and see the all-in price collectors will see.
+											156 link SEE TIPS FOR PRICING, Value: support.saatchiart.com/hc/en-us/articles/14666580850203-How-to-Price-Your-Artwork-2023-
+											157 text Artwork Price
+											158 stepper (settable, float) Value: 307, Placeholder: Enter price
+											159 text Enter price
+											160 text (£230) Your Commission Commission before taxes US$ 184 (£138)
+											161 text LIST PRICE PREVIEW BASED ON DESTINATION COUNTRY
+											162 text United States
+											163 image
+											164 pop-up button United States
+												165 (selected) United States
+											166 text Shipping Cost to  United States Paid by Collector US$ 297 (£223)
+											167 text List Price in  United States What the collector will see (artwork price + shipping) US$ 604 (£453)
+											168 button Next
+								169 button SAVE & EXIT
+								170 link Save & Continue, Value: saatchiart.com/en-gb/studio/art/14393365/prints
+								171 container
+									172 text This site is protected by reCAPTCHA and the Google 
+									173 link Privacy Policy, Value: policies.google.com/privacy
+									174 text  and 
+									175 link Terms of Service, Value: policies.google.com/terms
+									176 text  apply.
+							177 container
+								178 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								179 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								180 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								181 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								182 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								183 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								184 text Support
+								185 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								186 link Help Center, Value: support.saatchiart.com/hc
+								187 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								188 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								189 pop-up button Request Support
+								190 text Resources
+								191 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								192 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								193 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								194 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								195 text Saatchi Art
+								196 link About, Value: saatchiart.com/en-gb/about-us
+								197 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								198 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								199 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								200 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								201 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								202 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								203 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								204 text Manage Preferences
+								205 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								206 container View Store Preferences Footer
+									207 image
+									208 text United Kingdom / GBP / Cm
+									209 image
+								210 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								211 link Privacy Policy, Value: policies.google.com/privacy
+								212 text  and 
+								213 link Terms of Service, Value: policies.google.com/terms
+								214 text  apply.
+							215 text Studio | Saatchi Art United Kingdom
+							216 container
+								217 button Manage Preferences
+								218 text Manage Preferences
+			219 pop-up button Tab search
+			220 container
+				221 tab group
+					222 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					223 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					224 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					225 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					226 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					227 tab (settable, boolean) Meta Business Suite, Value: off
+					228 tab group  group 📦 Finish sculpture listings – 5 Tabs, •  Studio | Saatchi Art United Kingdom, •  Revise your listing | Boldstone Patina Panel -…, •  Vintage & Used Furniture and Decor | Chairish, •  Login | UPS - United States, •  Studio | Saatchi Art United Kingdom – Expanded
+					229 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Finish sculpture listings, Value: off
+					230 tab (settable, boolean) Value: off, Revise your listing | Boldstone Patina Panel - Rust and Verdigris Finish Wall sculpture | eBay – Part of group 📦 Finish sculpture listings
+					231 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish – Part of group 📦 Finish sculpture listings, Value: off
+					232 tab (settable, boolean) Login | UPS - United States – Part of group 📦 Finish sculpture listings, Value: off
+					233 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Finish sculpture listings, Value: on
+						234 button Close
+					235 tab (settable, boolean) Botanical Form - White Outdoor Sculpture by Sally Price | Saatchi Art United Kingdom, Value: off
+					236 tab (settable, boolean) Products – Faire, Value: off
+					237 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					238 tab (settable, boolean) Create listings, Value: off
+			239 button New tab
+	240 close button
+	241 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	242 minimise button
+243 menu bar
+	244 Chrome
+	245 File
+	246 Edit
+	247 View
+	248 History
+	249 Bookmarks
+	250 Profiles
+	251 Tab
+	252 Window
+	253 Help
+
+The focused UI element is 164 pop-up button United States

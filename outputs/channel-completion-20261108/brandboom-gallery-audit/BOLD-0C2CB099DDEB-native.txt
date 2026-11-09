@@ -1,0 +1,329 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: Boldstone Coral Spiral Relief - White Wall sculpture, Placeholder: Search Products
+									48 link
+								49 button All
+									50 container
+										51 Tick box 0
+									52 text All
+								53 container
+									54 text 1  /  1
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container
+										64 Unlabelled image /0003470565422A8A_M.avif
+										65 text Boldstone Coral Spiral Relief - White Wall sculpture
+										66 text BOLD-0C2CB099DDEB WHITE TEXTURED STONE/AGGREGATE FINISH
+										67 container
+											68 text 158.24  GBP
+							69 container
+								70 content list
+									71 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								72 container
+									73 heading Presentations, Value: 5
+										74 text Presentations
+									75 button New
+									76 content list
+										77 link ALL, Value: manage.brandboom.com/products/s/111089#
+										78 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									79 container
+										80 link
+											81 image
+										82 search text field (settable) Search Presentations
+										83 link
+											84 image
+									85 container
+										86 text Wall Sculptures - 50 Preview
+										87 link Edit Name
+											88 image
+										89 link Duplicate
+											90 image
+										91 text GBP
+								92 heading Ship Windows, Value: 5
+									93 text Ship Windows
+								94 content list
+									95 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									96 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								97 text No active ship windows
+							98 link Reset
+								99 text Reset
+							100 button Apply
+							101 text PRODUCT STATUS
+							102 text Active
+							103 text Inactive
+							104 text Archived
+							105 text Corrupted
+							106 text No Images
+							107 text SORT BY
+							108 pop-up button Newest First
+								109 (selected) Newest First
+							110 text SHIP DATE RANGE
+							111 container
+								112 image
+								113 text field (settable) Click to select range
+							114 text No Date Range
+							115 text CREATE DATE RANGE
+							116 container
+								117 image
+								118 text field (settable) Click to select range
+							119 text SIZES
+							120 text field (settable) S, M, L
+							121 text VENDORS
+							122 text Boldstone
+							123 text TYPES
+							124 link
+								125 image
+							126 text No Types
+							127 text Home Decor
+							128 text Mens
+							129 text Womens
+							130 text CATEGORIES
+							131 link
+								132 image
+							133 link
+								134 image
+							135 text No Categories
+							136 text Sweater
+							137 text Wall Sculpture
+							138 text SEASONS
+							139 link
+								140 image
+							141 link
+								142 image
+							143 text No Seasons
+							144 text Year-round
+							145 container
+								146 container
+									147 Tick box Create another, Value: 0
+									148 text Create another
+								149 button Save
+								150 container
+									151 Unlabelled image /0003470565422A8A_M.avif
+									152 container
+										153 image /0003470565422A8A_S.avif
+										154 button STANDARD
+										155 image /00034705655AE0FB_S.avif
+										156 button STANDARD
+										157 image /00034705656E7A67_S.avif
+										158 button STANDARD
+										159 image /000347056578239D_S.avif
+										160 button STANDARD
+										161 image
+										162 image
+									163 image
+									164 text 4 / Unlimited
+									165 image
+									166 text 0 / 1
+									167 text Drag to reorder
+									168 container
+										169 text Style ID *
+										170 text BOLD-0C2CB099DDEB
+									171 container
+										172 text Options
+										173 link White textured stone/aggregate finish
+											174 text White textured stone/aggregate finish
+									175 container
+										176 text Sizes
+										177 text One sculpture
+									178 text Barcode
+									179 container
+										180 button
+										181 text field (settable)
+									182 text Name
+									183 text field (settable) Boldstone Coral Spiral Relief - White Wall sculpture
+									184 container Price
+										185 container
+											186 text Price
+											187 text field (settable) Value: 158.24, Placeholder: Enter
+									188 container Retail
+										189 container
+											190 text Retail
+											191 text field (settable) Value: 0.00, Placeholder: Enter
+									192 text Qty Min
+									193 text field (settable) 1
+									194 text Vendor
+									195 text field (settable) Boldstone
+									196 text Type
+									197 text field (settable) Home Decor
+									198 text Category
+									199 text field (settable) Wall Sculpture
+									200 text Taxonomy
+									201 text field (settable) Value: Home Decor / Wall Decor / Wall Art, Placeholder: Select
+									202 text Season
+									203 text field (settable) Year-round
+									204 text Ship Date
+									205 text field (settable)
+									206 container
+										207 text HS Code
+										208 text field (settable) HS Code
+									209 container Country Of Origin
+										210 container
+											211 text Country Of Origin
+											212 button -
+									213 container
+										214 text Description
+										215 container
+											216 text A spiral motif gathers the eye into a textured, organic relief. The design suggests the shapes and rhythms of the coast, bringing a touch of the underwater world to the wall.
+											217 text Its changing shadows add depth without needing a busy setting; give the sculpture a little space and let the form speak.
+											218 text The white finish keeps the focus on the form and its changing shadows.
+											219 text Brand: Boldstone
+											220 text Product type: Wall sculpture
+											221 text Model: Coral Spiral Relief - White (BOLD-0C2CB099DDEB)
+											222 text Colour / appearance: White textured stone/aggregate finish
+											223 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											224 text Material: Made from a gypsum-based material.
+											225 text Dimensions: 55 cm high × 55 cm wide; approximately 6 cm deep
+											226 text Weight: Approximately 14 kg (range 10–18 kg)
+											227 text Use: Suitable for outdoor use and indoor display.
+											228 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											229 text Availability: Ready to dispatch
+											230 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											231 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											232 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							233 link
+								234 image
+							235 container
+								236 content list
+									237 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									238 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								239 container
+									240 button Upload Images
+									241 button
+									242 button
+									243 button
+								244 container
+									245 Unlabelled image /000347368438D172_S.avif
+									246 text file.jpg
+									247 Unlabelled image /00011059388E43A7_S.avif
+									248 text toys-dinosaur
+									249 Unlabelled image /00011059387A69BA_S.avif
+									250 text baby-kidswear-t
+									251 Unlabelled image /000110593863557B_S.avif
+									252 text pet-sticks
+									253 Unlabelled image /00011059385C1D4E_S.avif
+									254 text apparel-t-shirt
+									255 Unlabelled image /00011059384494BB_S.avif
+									256 text footwear-shoes
+									257 Unlabelled image /000110593837D96A_S.avif
+									258 text beauty-cream
+									259 Unlabelled image /00011059382B4683_S.avif
+									260 text home-pitcher
+									261 Unlabelled image /00007087863E986B_S.avif
+									262 text BOOM1111
+									263 Unlabelled image /0000022409830BD3_S.avif
+									264 text BOOM1830
+									265 Unlabelled image /00000224097C30D6_S.avif
+									266 text BOOM1705
+									267 Unlabelled image /00000224096AD0BE_S.avif
+									268 text BOOM1100
+							269 button Close
+							270 text Search Products
+							271 button Scan barcodes
+							272 container
+								273 link
+									274 image
+								275 search text field (settable) Search for Products
+							276 text RESULTS
+							277 button Open Intercom Messenger
+			278 pop-up button Tab search
+			279 container
+				280 tab group
+					281 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					282 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					283 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					284 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					285 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					286 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					287 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					288 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					289 tab (settable, boolean) SEO opportunity audit, Value: off
+					290 tab group  group ✅Claude – 2 Tabs, •  Inbox (113) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					291 tab (settable, boolean) Value: off, Inbox (113) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1.1 GB
+					292 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					293 tab (settable, boolean) Drafts (1,333) - tppricet@gmail.com - Gmail, Value: off
+					294 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					295 tab (settable, boolean) Bookmarks, Value: off
+					296 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					297 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					298 tab (settable, boolean) Boldstone Sculpture | Wall Sculptures - 50 Preview, Value: off
+					299 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					300 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						301 button Close
+					302 tab (settable, boolean) 000347063570B5C6_M.avif (600×600), Value: off
+			303 button New tab
+	304 close button
+	305 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	306 minimise button
+307 menu bar
+	308 Chrome
+	309 File
+	310 Edit
+	311 View
+	312 History
+	313 Bookmarks
+	314 Profiles
+	315 Tab
+	316 Window
+	317 Help
+
+The focused UI element is 27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089

@@ -1,0 +1,404 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - High memory usage - 1.1 GB - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - High memory usage - 1.1 GB - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: Boldstone Lunar Phase III - White Wall sculpture, Placeholder: Search Products
+									48 link
+								49 button All
+									50 container
+										51 Tick box 0
+									52 text All
+								53 container
+									54 text 6  /  6
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container
+										64 Unlabelled image /0003470615636890_M.avif
+										65 text Boldstone Lunar Phase II - White and Gold Finish Wall sculpture
+										66 text BOLD-161DFE20DFB0 WHITE AND GOLD-COLOURED SURFACE TREATMENTS
+										67 container
+											68 text 74.17  GBP
+									69 container
+										70 Unlabelled image /000347061513F14B_M.avif
+										71 text Boldstone Lunar Phase II - White Wall sculpture
+										72 text SQ6247538 WHITE STONE FINISH
+										73 container
+											74 text 64.49  GBP
+									75 container
+										76 Unlabelled image /0003470614547770_M.avif
+										77 text Boldstone Lunar Phase III - White Wall sculpture
+										78 text SQ1357552 WHITE STONE FINISH
+										79 container
+											80 text 64.49  GBP
+									81 container
+										82 Unlabelled image /00034706133C29A7_M.avif
+										83 text Boldstone Lunar Phase I - White Wall sculpture
+										84 text EBAY-188568605667 WHITE STONE FINISH
+										85 container
+											86 text 64.49  GBP
+									87 container
+										88 Unlabelled image /00034706121ED888_M.avif
+										89 text Boldstone Lunar Phase IV - White and Gold Finish Wall sculpture
+										90 text BOLD-B1DCB5B08396 WHITE AND GOLD-COLOURED SURFACE TREATMENTS
+										91 container
+											92 text 74.17  GBP
+									93 container
+										94 Unlabelled image /000347061126BC37_M.avif
+										95 text Boldstone Lunar Phase IV - White Wall sculpture
+										96 text BOLD-818D745F1357 WHITE STONE FINISH
+										97 container
+											98 text 64.49  GBP
+							99 container
+								100 content list
+									101 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								102 container
+									103 heading Presentations, Value: 5
+										104 text Presentations
+									105 button New
+									106 content list
+										107 link ALL, Value: manage.brandboom.com/products/s/111089#
+										108 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									109 container
+										110 link
+											111 image
+										112 search text field (settable) Search Presentations
+										113 link
+											114 image
+									115 container
+										116 text Wall Sculptures - 50 Preview
+										117 link Edit Name
+											118 image
+										119 link Duplicate
+											120 image
+										121 text GBP
+								122 heading Ship Windows, Value: 5
+									123 text Ship Windows
+								124 content list
+									125 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									126 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								127 text No active ship windows
+							128 link Reset
+								129 text Reset
+							130 button Apply
+							131 text PRODUCT STATUS
+							132 text Active
+							133 text Inactive
+							134 text Archived
+							135 text Corrupted
+							136 text No Images
+							137 text SORT BY
+							138 pop-up button Newest First
+								139 (selected) Newest First
+							140 text SHIP DATE RANGE
+							141 container
+								142 image
+								143 text field (settable) Click to select range
+							144 text No Date Range
+							145 text CREATE DATE RANGE
+							146 container
+								147 image
+								148 text field (settable) Click to select range
+							149 text SIZES
+							150 text field (settable) S, M, L
+							151 text VENDORS
+							152 text Boldstone
+							153 text TYPES
+							154 link
+								155 image
+							156 text No Types
+							157 text Home Decor
+							158 text Mens
+							159 text Womens
+							160 text CATEGORIES
+							161 link
+								162 image
+							163 link
+								164 image
+							165 text No Categories
+							166 text Sweater
+							167 text Wall Sculpture
+							168 text SEASONS
+							169 link
+								170 image
+							171 link
+								172 image
+							173 text No Seasons
+							174 text Year-round
+							175 container
+								176 container
+									177 Tick box Create another, Value: 0
+									178 text Create another
+								179 button Save
+								180 container
+									181 Unlabelled image /0003470614547770_M.avif
+									182 container
+										183 image /0003470614547770_S.avif
+										184 button STANDARD
+										185 image /00034706146ABEDB_S.avif
+										186 button STANDARD
+										187 image /00034706147E05E7_S.avif
+										188 button STANDARD
+										189 image /0003470614829BED_S.avif
+										190 button STANDARD
+										191 image /00034706149760EF_S.avif
+										192 button STANDARD
+										193 image /00034706150EB358_S.avif
+										194 button STANDARD
+										195 Unlabelled image /00034706115E9B0E_S.avif
+										196 button STANDARD
+										197 Unlabelled image /00034706116F8B23_S.avif
+										198 button STANDARD
+										199 Unlabelled image /00034706117A8E7A_S.avif
+										200 button STANDARD
+										201 Unlabelled image /00034706138DA2DE_S.avif
+										202 button STANDARD
+										203 Unlabelled image /0003470613954F65_S.avif
+										204 button STANDARD
+										205 Unlabelled image /00034706140A853F_S.avif
+										206 button STANDARD
+										207 Unlabelled image /00034736736B4240_S.avif
+										208 button STANDARD
+										209 Unlabelled image /000347367370ED56_S.avif
+										210 button STANDARD
+										211 Unlabelled image /000347367381951E_S.avif
+										212 button STANDARD
+										213 Unlabelled image /0003473673989976_S.avif
+										214 button STANDARD
+										215 Unlabelled image /000347367407FC06_S.avif
+										216 button STANDARD
+										217 Unlabelled image /000347367416C72E_S.avif
+										218 button STANDARD
+										219 Unlabelled image /000347367428E529_S.avif
+										220 button STANDARD
+										221 Unlabelled image /0003473674310E7E_S.avif
+										222 button STANDARD
+										223 Unlabelled image /0003473674461B8E_S.avif
+										224 button STANDARD
+										225 Unlabelled image /0003473674591755_S.avif
+										226 button STANDARD
+										227 Unlabelled image /00034736746FF966_S.avif
+										228 button STANDARD
+										229 Unlabelled image /00034736747388F5_S.avif
+										230 button STANDARD
+										231 Unlabelled image /00034736733688EB_S.avif
+										232 button STANDARD
+										233 Unlabelled image /00034736734F2ECC_S.avif
+										234 button STANDARD
+										235 image
+										236 image
+									237 image
+									238 text 26 / Unlimited
+									239 image
+									240 text 0 / 1
+									241 text Drag to reorder
+									242 container
+										243 text Style ID *
+										244 text SQ1357552
+									245 container
+										246 text Options
+										247 link White stone finish
+											248 text White stone finish
+									249 container
+										250 text Sizes
+										251 text One sculpture
+									252 text Barcode
+									253 container
+										254 button
+										255 text field (settable)
+									256 text Name
+									257 text field (settable) Boldstone Lunar Phase III - White Wall sculpture
+									258 container Price
+										259 container
+											260 text Price
+											261 text field (settable) Value: 64.49, Placeholder: Enter
+									262 container Retail
+										263 container
+											264 text Retail
+											265 text field (settable) Value: 0.00, Placeholder: Enter
+									266 text Qty Min
+									267 text field (settable) 1
+									268 text Vendor
+									269 text field (settable) Boldstone
+									270 text Type
+									271 text field (settable) Home Decor
+									272 text Category
+									273 text field (settable) Wall Sculpture
+									274 text Taxonomy
+									275 text field (settable) Value: Home Decor / Wall Decor / Wall Art, Placeholder: Select
+									276 text Season
+									277 text field (settable) Year-round
+									278 text Ship Date
+									279 text field (settable)
+									280 container
+										281 text HS Code
+										282 text field (settable) HS Code
+									283 container Country Of Origin
+										284 container
+											285 text Country Of Origin
+											286 button -
+									287 container
+										288 text Description
+										289 container
+											290 text A moon-inspired relief explores the relationship between a rounded form, its edges and the shadows it creates. The composition feels measured and calm, with details changing as the light moves.
+											291 text A small reference to the rhythm of the night sky, translated into a tactile presence for an interior or garden wall.
+											292 text The white finish keeps the focus on the form and its changing shadows.
+											293 text Companion pieces: This is one piece of a coordinating group with Lunar Phase I, Lunar Phase II and Lunar Phase IV. Companion sculptures are sold separately; this listing is for one sculpture only.
+											294 text Brand: Boldstone
+											295 text Product type: Wall sculpture
+											296 text Model: Lunar Phase III - White (SQ1357552)
+											297 text Colour / appearance: White stone finish
+											298 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											299 text Material: Made from a gypsum-based material.
+											300 text Dimensions: 30 × 30 cm; approximately 5–7 cm deep
+											301 text Weight: Approximately 3–5 kg per panel
+											302 text Use: Suitable for outdoor use and indoor display.
+											303 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											304 text Availability: Made to order
+											305 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											306 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											307 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							308 link
+								309 image
+							310 container
+								311 content list
+									312 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									313 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								314 container
+									315 button Upload Images
+									316 button
+									317 button
+									318 button
+								319 container
+									320 Unlabelled image /000347368438D172_S.avif
+									321 text file.jpg
+									322 Unlabelled image /00011059388E43A7_S.avif
+									323 text toys-dinosaur
+									324 Unlabelled image /00011059387A69BA_S.avif
+									325 text baby-kidswear-t
+									326 Unlabelled image /000110593863557B_S.avif
+									327 text pet-sticks
+									328 Unlabelled image /00011059385C1D4E_S.avif
+									329 text apparel-t-shirt
+									330 Unlabelled image /00011059384494BB_S.avif
+									331 text footwear-shoes
+									332 Unlabelled image /000110593837D96A_S.avif
+									333 text beauty-cream
+									334 Unlabelled image /00011059382B4683_S.avif
+									335 text home-pitcher
+									336 Unlabelled image /00007087863E986B_S.avif
+									337 text BOOM1111
+									338 Unlabelled image /0000022409830BD3_S.avif
+									339 text BOOM1830
+									340 Unlabelled image /00000224097C30D6_S.avif
+									341 text BOOM1705
+									342 Unlabelled image /00000224096AD0BE_S.avif
+									343 text BOOM1100
+							344 button Close
+							345 text Search Products
+							346 button Scan barcodes
+							347 container
+								348 link
+									349 image
+								350 search text field (settable) Search for Products
+							351 text RESULTS
+							352 button Open Intercom Messenger
+			353 pop-up button Tab search
+			354 container
+				355 tab group
+					356 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					357 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					358 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					359 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					360 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					361 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					362 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					363 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					364 tab (settable, boolean) SEO opportunity audit, Value: off
+					365 tab group  group ✅Claude – 2 Tabs, •  Inbox (113) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					366 tab (settable, boolean) Value: off, Inbox (113) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1.1 GB
+					367 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					368 tab (settable, boolean) Drafts (1,333) - tppricet@gmail.com - Gmail, Value: off
+					369 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					370 tab (settable, boolean) Bookmarks, Value: off
+					371 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					372 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					373 tab (settable, boolean) Boldstone Sculpture | Wall Sculptures - 50 Preview, Value: off
+					374 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					375 tab (selected, settable, boolean) Boldstone Sculpture | Products - High memory usage - 1.1 GB, Value: on
+						376 button Close
+					377 tab (settable, boolean) 000347063570B5C6_M.avif (600×600), Value: off
+			378 button New tab
+	379 close button
+	380 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	381 minimise button
+382 menu bar
+	383 Chrome
+	384 File
+	385 Edit
+	386 View
+	387 History
+	388 Bookmarks
+	389 Profiles
+	390 Tab
+	391 Window
+	392 Help
+
+The focused UI element is 27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089

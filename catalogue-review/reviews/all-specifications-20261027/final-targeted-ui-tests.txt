@@ -1,0 +1,21 @@
+✔ overview keeps every component and distinguishes missing and omitted fields (53.384791ms)
+✔ combined name value family listing and missing filters select exact components (1.591417ms)
+✔ specification content is escaped and source links reject unsafe protocols (1.767625ms)
+✔ overview filters and specification edit routes survive URL parsing (0.897208ms)
+✔ loading overview uses one overview request and no product or image requests (1.42975ms)
+✔ a late overview response cannot replace a different sculpture (0.879625ms)
+✔ refresh preserves filters and renders newly saved details (0.685542ms)
+✔ failed refresh retains last details and visibly marks them stale (0.555083ms)
+✔ a local write invalidates an overlapping overview refresh (0.496417ms)
+✔ Next sculpture preserves specification or listing review tab (0.631166ms)
+✔ discard cancellation restores the exact prior specification URL (0.855917ms)
+✔ refreshNativeView() does not treat overview as a product (0.600666ms)
+✔ refreshDropboxView({generation:2}) does not treat overview as a product (0.5325ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 145.015167

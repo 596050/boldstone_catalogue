@@ -1,0 +1,234 @@
+- link "Business Home":
+  - /url: https://business.facebook.com/home/?business_id=2380586078685156
+  - img "Meta logo"
+- generic: Commerce Manager
+- combobox "Boldstone Sculpture":
+  - generic: Boldstone Sculpture
+- navigation "Navigation":
+  - list:
+    - link "Overview":
+      - /url: https://business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+    - generic: Overview
+    - button "Catalogue"
+    - generic: Catalogue
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Products":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/products/?business_id=2380586078685156
+      - generic: Products
+      - link "Sets":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/sets/?business_id=2380586078685156
+      - generic: Sets
+      - link "Data sources":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/data_sources/?business_id=2380586078685156
+      - generic: Data sources
+      - link "Events":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/events/?business_id=2380586078685156
+      - generic: Events
+    - link "Image templates":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/templates/?business_id=2380586078685156
+    - generic: Image templates
+    - link "Product video creator":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/video_template_hub/?business_id=2380586078685156
+    - generic: Product video creator
+    - link "Shops":
+      - /url: https://business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+    - generic: Shops
+    - button "Promotions"
+    - generic: Promotions
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Offers":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/offers/?business_id=2380586078685156
+      - generic: Offers
+      - link "Marketing settings":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/mailing_list/?business_id=2380586078685156
+      - generic: Marketing settings
+    - button "Insights"
+    - generic: Insights
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Overview":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/overview/?business_id=2380586078685156
+      - generic: Overview
+      - link "Catalogue":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/products/?business_id=2380586078685156
+      - generic: Catalogue
+      - link "Performance":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/perf/?business_id=2380586078685156
+      - generic: Performance
+      - link "Audience":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/audience/?business_id=2380586078685156
+      - generic: Audience
+      - link "Tagged content":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/product_tagged_content/?business_id=2380586078685156
+      - generic: Tagged content
+      - link "Awareness":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/entry_points/?business_id=2380586078685156
+      - generic: Awareness
+    - link "To-do list":
+      - /url: https://business.facebook.com/commerce/326960679342026/to_do_list/?business_id=2380586078685156
+    - generic: To-do list
+    - link "Settings":
+      - /url: https://business.facebook.com/commerce/326960679342026/settings/general/?business_id=2380586078685156
+    - generic: Settings
+- navigation "all tools":
+  - list:
+    - button "All tools":
+    - generic: All tools
+- separator
+- list:
+  - button "Meta AI business assistant"
+  - generic: Meta AI business assistant
+- button "Help":
+  - generic: Help
+- link "Business settings":
+  - /url: https://business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+  - generic: Business settings
+- button "Business notifications":
+  - generic: Business notifications
+- button:
+  - generic: "6"
+- button "Search":
+  - generic: Search
+- button "Collapse":
+  - generic: Collapse
+- tablist:
+  - tab "Layout":
+    - button "Layout":
+      - generic: Layout
+  - tab "Settings":
+    - button "Settings":
+      - generic: Settings
+- generic: Shop pages
+- combobox "Shop pages Home page":
+  - generic: Home page
+- heading "Shop's home page" [active] [level=2]
+- button "Add new":
+  - generic: Add new
+- generic: Optimise layout
+- switch "Label" [checked]
+- generic: Automatically order the layout of your shop for each person, based on their interests and shopping activity.
+- button "Offers Main image, banner Expand group":
+  - generic: Offers
+  - generic: Main image, banner
+  - button "Expand group":
+    - generic: Expand group
+- button "Carousel 1 collections Collapse group":
+  - generic: Carousel
+  - generic: 1 collections
+  - button "Collapse group":
+    - generic: Collapse group
+- button "Most sold exclusives! Collection":
+  - generic: Most sold exclusives!
+  - generic: Collection
+- button "Add collection":
+  - generic: Add collection
+- button "Wall Sculptures Collection":
+  - generic: Wall Sculptures
+  - generic: Collection
+- button "Instagram":
+  - generic: Instagram
+- button "Preview by location":
+- dialog
+- button
+- generic: boldstonesculpture
+- button
+- button "Categories":
+  - generic: Categories
+- heading "1 collection":
+  - generic: 1 collection
+- button "View the collection Most sold exclusives!":
+  - generic: Most sold exclusives!
+- button "View the collection Wall Sculptures":
+  - generic: Wall Sculptures
+  - button "View collection":
+    - button "View collection":
+      - generic: View collection
+- heading "More from this shop":
+  - generic: More from this shop
+- button "See all":
+  - generic: See all
+- button "Purple Mussels watercolour Print. £40,New,":
+  - generic: New
+  - generic: Purple Mussels watercolour Print
+  - generic: £40
+- button "Pink Beetle watercolour Print. £60,New,":
+  - generic: New
+  - generic: Pink Beetle watercolour Print
+  - generic: £60
+- button "Nested Sycamore seeds have two wings Print. £40,New,":
+  - generic: New
+  - generic: Nested Sycamore seeds have two wings Print
+  - generic: £40
+- button "Beautiful Natural History of Land Sea Air Print. £20,New,":
+  - generic: New
+  - generic: Beautiful Natural History of Land Sea Air Print
+  - generic: £20
+- button "Raked Water Sculpture Greetings Card. £3,New,":
+  - generic: New
+  - generic: Raked Water Sculpture Greetings Card
+  - generic: £3
+- button "Sprouting Onion Roots Print. £20,,New arrival":
+  - generic: Sprouting Onion Roots Print
+  - generic: £20
+  - generic: New arrival
+- button "Splendid Natural History Land Sea Air Print. £40,New,":
+  - generic: New
+  - generic: Splendid Natural History Land Sea Air Print
+  - generic: £40
+- button "Wave and Moonshadow I - White. £57.98,,":
+  - generic: Wave and Moonshadow I - White
+  - generic: £57.98
+- button "Sprouting Onion Beauty Print. £20,,New arrival":
+  - generic: Sprouting Onion Beauty Print
+  - generic: £20
+  - generic: New arrival
+- button "Dune Ripple I - Blue Verdigris and Bronze. £39,,":
+  - generic: Dune Ripple I - Blue Verdigris and Bronze
+  - generic: £39
+- button "Pineapple Portrait watercolour Print. £20,,New arrival":
+  - generic: Pineapple Portrait watercolour Print
+  - generic: £20
+  - generic: New arrival
+- button "Sprouting Onion Shell Print. £60,,New arrival":
+  - generic: Sprouting Onion Shell Print
+  - generic: £60
+  - generic: New arrival
+- button "Magnificent Natural History Land Sea Air Print. £20,,New arrival":
+  - generic: Magnificent Natural History Land Sea Air Print
+  - generic: £20
+  - generic: New arrival
+- button "Sprouting Onion Flower Bud Print. £60,,New arrival":
+  - generic: Sprouting Onion Flower Bud Print
+  - generic: £60
+  - generic: New arrival
+- button "Modern Sculptural Lamp Base. £250,,New arrival":
+  - generic: Modern Sculptural Lamp Base
+  - generic: £250
+  - generic: New arrival
+- button "Faceted Black Marbelised Lamp Base. £110,,New arrival":
+  - generic: Faceted Black Marbelised Lamp Base
+  - generic: £110
+  - generic: New arrival
+- button "Japanese Maple Blues Greetings Card. £3,,New arrival":
+  - generic: Japanese Maple Blues Greetings Card
+  - generic: £3
+  - generic: New arrival
+- button "Luminous Painted World. £60,,New arrival":
+  - generic: Luminous Painted World
+  - generic: £60
+  - generic: New arrival
+- button "Soundwave Greetings Card. £3,New,":
+  - generic: New
+  - generic: Soundwave Greetings Card
+  - generic: £3
+- button "Egyptian Palm I - Gold Finish. £76.78,,":
+  - generic: Egyptian Palm I - Gold Finish
+  - generic: £76.78
+- generic: Estimated delivery times as fast as 8 working days
+- alert
+- generic: This is a preview of what your customers will see. Some features may vary or may be unavailable to test.

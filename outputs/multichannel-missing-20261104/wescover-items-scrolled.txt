@@ -1,0 +1,199 @@
+Window: "Manage Your Creator Page | Wescover Tools", App: Google Chrome.
+0 standard window Manage Your Creator Page | Wescover Tools - Google Chrome – Tom, URL: edit.wescover.com/creator/MSJZKJh9uMg?anchor=items, Secondary Actions: Raise
+	1 container Manage Your Creator Page | Wescover Tools - Google Chrome – Tom, URL: edit.wescover.com/creator/MSJZKJh9uMg?anchor=items
+		2 container
+			3 toolbar
+				4 button Back
+				5 button Reload
+				6 container
+					7 pop-up button View site information
+					8 text field (settable) Address and search bar, Value: edit.wescover.com/creator/MSJZKJh9uMg?anchor=items, Placeholder: Ask Google or type a URL
+					9 button Bookmark this tab
+				10 pop-up button Extensions
+				11 pop-up button Hidden toolbar buttons
+				12 pop-up button Relaunch to update
+			13 container
+				14 scroll area
+					15 HTML content Manage Your Creator Page | Wescover Tools, URL: edit.wescover.com/creator/MSJZKJh9uMg?anchor=items
+						16 container
+							17 container
+								18 button Menu
+								19 link edit.wescover.com/
+							20 container
+								21 container
+									22 text 100 %
+								23 text Progress Bar
+								24 text Changes Saved. Click Submit to apply updates.
+								25 button  New Item
+								26 button Submit
+							27 heading Your Page, Value: 2
+								28 text Your Page
+							29 container
+								30 heading Creator Profile, Value: 3
+									31 text Creator Profile
+								32 text Welcome to Wescover! Here's where you'll build your page. Include your photo and information about you as a creator. You'll need to list at least one item in order to submit your page, but you can always come back to add more.
+								33 container
+									34 text Cover Photo 1500x500 px
+								35 container
+									36 Unlabelled image To get missing image descriptions, open the context menu.
+									37 text 
+									38 button Cover photo is locked
+								39 container
+									40 text Creator Photo 400x400 px
+								41 container
+									42 Unlabelled image /ceurhqumaw7wxrdctteu.jpg
+									43 text 
+									44 button Creator photo is locked
+								45 container
+									46 text field (disabled) Boldstone
+									47 container
+										48 text Brand Name/ Creator Name/ Studio Name *
+								49 button Brand name is locked
+								50 container
+									51 text field (disabled) Sally
+									52 container
+										53 text First Name *
+								54 button First name is locked
+								55 container
+									56 text field (disabled) Price
+									57 container
+										58 text Last Name *
+								59 button Last name is locked
+								60 combo box (settable)
+									61 container
+										62 search text field (settable) Bath, England, United Kingdom
+										63 container
+											64 text City *
+								65 url (settable) Value: https://boldstonesculpture.com, Placeholder: https://www.mysite.com
+								66 text Website
+								67 text field (settable) Value: Pattern in nature, pared back to texture, light and shadow., Placeholder: Any style method, idea or element that connects your pieces or work?
+								68 text Headline Quote
+								69 container
+									70 text entry area (disabled) Placeholder: Share your story to connect a new fan- don’t list your resume., Value: I started Boldstone in 1998 out of a simple obsession with the patterns that turn up everywhere in nature - ripples left in rock, the curve of a wave just before it breaks, the shadow across a half moon, the spiral inside a shell. I pare those down to their boldest form and carve or cast each piece by hand, finishing them in marble stone patterns, gold leaf, verdigris on copper or hand-painted metallics so the surface reads differently as the light moves across it. Everything is handmade in studio: wall reliefs, sculptural furnishings, and commissions built for one particular wall, courtyard or room. Some of my favourite work has come out of those conversations - a piece for a Knightsbridge apartment, a garden at Chelsea, a 2.75m sculpture for a palace courtyard in Riyadh.
+									71 text Bio
+								72 button Bio is locked
+								73 text Business Value Tags  (optional) Select up to 6 values that best match your business. These will appear on your item and Creator pages and shoppers will be able to find you when looking for values that match your business.
+								74 container
+									75 text Sustainable Natural Materials Upcycled Product Handmade Made To Order
+									76 text field (settable)
+								77 text Style  (optional) Select up to  5  styles that generally apply to all your items to help shoppers find your pieces. You can also add styles at the individual item-level when editing selling details.
+								78 container
+									79 text Art Deco Coastal Contemporary Minimalism Modern
+									80 text field (settable)
+								81 text How to Work With Me:
+								82 text Check options so buyers understand how to work with you. These will appear on your Creator page.
+								83 container
+									84 text ✓ I do commission/custom work
+								85 container
+									86 text ✓ I offer samples upon request
+							87 container
+								88 text Update Items on your Page
+								89 text Each item you submit should be a completed work, designed or created by you. You'll be able to add photos and information about materials, customization options, shipping and pricing. You can also include one-of-a-kind, sold works as inspiration for commissions / custom projects.
+								90 container
+									91 image
+									92 text Add New Product Create a new product by adding your completed work, along with photos, customization options, shipping, and pricing details.
+									93 button New Item
+									94 button Prefer the old way? Use the classic form
+								95 image
+								96 text Easy Upload Products
+								97 text Upload new products easily from Etsy, Squarespace, or other platforms using the CSV upload option. Quickly import multiple product listings at once.
+								98 button Upload
+								99 image
+								100 text Connect your online store
+								101 text Connect your store on Shopify and more seamlessly sync and manage everything in one place from pricing, stock to shipping.
+								102 link Know More, Value: docs.wescover.com/en/articles/5374817-creators-shopify-integration
+								103 container Running a sale? Discount your whole catalog at once
+									104 button NEW · PRICING TOOLS Running a sale? Discount your whole catalog at once
+									105 container
+										106 heading Running a sale? Discount your whole catalog at once, Value: 3
+											107 text Running a sale? Discount your whole catalog at once
+										108 text Set a percentage or fixed markdown across every product — or just the ones you pick — and let buyers see the compare-at price. No spreadsheets, no editing one product at a time.
+										109 content list
+											110 container
+												111 image
+												112 text % or fixed amount
+											113 container
+												114 image
+												115 text Apply to all or selected
+											116 container
+												117 image
+												118 text Preview before you save
+										119 link Set up a bulk discount, Value: edit.wescover.com/creator/MSJZKJh9uMg/pricing-manager
+										120 text Nothing changes until you press Save.
+								121 text Show items by popularity based on shopper’s Click Rate (recommended). Changes visible on your live page only
+								122 text Manually edit order of items on your page. Hold & drag item cards below to change their order as per your preference
+								123 image
+								124 text field (settable) Search your items, Placeholder: Search your items by name
+								125 pop-up button Category All
+									126 image
+									127 text Category
+									128 text All
+									129 image
+								130 container Items view
+									131 toggle button Grid view, Value: 0
+										132 image
+									133 toggle button List view, Value: 1
+										134 image
+							135 container
+								136 text Resources to Share with Clients If you have documents you typically share with clients to facilitate conversations about custom work (Product Spec sheet, custom options, etc), you should upload them here. You can specify which items and types of buyers they relate to below. Potential buyers will be able to access and download these resources from your Wescover page via a chat window. When they do, we’ll set up a conversation in your inquiry inbox and notify you, so you can follow up with them. Giving potential buyers these resources up front can make your inquiries more efficient and shorten the time to sale!
+								137 button Add File
+							138 text Creator Video
+							139 text Add a video about your business and creative process to be displayed directly on your creator page and also for all your items.
+							140 image
+							141 text A few quick tips:
+							142 content list
+								143 container
+									144 AXListMarker • 
+									145 text Share the story of your business and/or give a peek at the process of making your items.
+								146 container
+									147 AXListMarker • 
+									148 text Introduce yourself to potential buyers and highlight what makes your items special.
+								149 container
+									150 AXListMarker • 
+									151 text We recommend that videos be no longer than 90 seconds and have a resolution of at least 720px
+							152 container
+								153 heading Creator Video, Value: 3
+									154 text Creator Video
+								155 text field (settable) Paste a youtube / vimeo video link
+								156 button Embed Video
+								157 text Or
+								158 button Upload Video
+							159 text You can edit/add to your submission anytime. We’ll review, connect, and SEO optimize each post for you so please allow up to 24h to process each new submission.
+							160 text Welcome to the Community!
+							161 button Submit
+							162 container
+								163 link edit.wescover.com/
+								164 content list
+									165 link FAQ, Value: wescover.com/faq
+									166 link CONTACT US, Value: mailto:communication@wescover.com
+								167 link , Value: facebook.com/wescoverapp/
+								168 link tiktok.com/@wescover.app
+								169 link , Value: instagram.com/wescoverapp
+								170 link © 2026 Wescover, Inc., Value: wescover.com/about
+								171 link Privacy, Value: wescover.com/static/privacy
+								172 link Terms, Value: wescover.com/static/generalterms
+							173 button Feedback - Show survey
+			174 pop-up button Tab search
+			175 container
+				176 tab group
+					177 tab (settable, boolean) (6557) Inside the Pentagon's Anomaly Office | Reality Check - YouTube, Value: off
+					178 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish - High memory usage - 1.2 GB, Value: off
+					179 tab (selected, settable, boolean) Manage Your Creator Page | Wescover Tools, Value: on
+						180 button Close
+			181 button New tab
+	182 close button
+	183 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	184 minimise button
+185 menu bar
+	186 Chrome
+	187 File
+	188 Edit
+	189 View
+	190 History
+	191 Bookmarks
+	192 Profiles
+	193 Tab
+	194 Window
+	195 Help
+
+The focused UI element is 133 toggle button List view, Value: 1

@@ -1,0 +1,32 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - link "Merchant Center home":
+    - /url: /mc/overview?a=5664655454&authuser=1
+    - img "Merchant Center home"
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone Sculpture, 5664655454"':
+    - generic: Boldstone Sculpture
+    - generic: "5664655454"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- main:
+  - progressbar "6 of 6 tasks completed"
+  - generic: Setup completed
+  - region "Product illustrations":
+  - heading "Your products can now show on Google. Reach even more customers with ads." [level=1]
+  - paragraph: Get more sales by adverstising your products. Link your Google Ads account to start.
+  - text: You can stop showing the products found by Google at anytime, or choose a different data source.
+  - link "Go to data sources page to opt out of autofeed":
+    - /url: /mc/products/sources?a=5664655454&tab=products&autofeedOptOut=true&authuser=1
+    - text: Don't show products found by Google
+  - text: .
+  - button "Add more shipping & returns":
+    - generic: Add more shipping & returns
+  - button "View products":
+    - generic: View products
+  - button "Link Google Ads account":
+    - generic: Link Google Ads account
+- status

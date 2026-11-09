@@ -1,0 +1,97 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 heading Upload Images, Value: 4
+									31 text Upload Images
+								32 link
+									33 image
+							34 container
+								35 image
+								36 text 1 file uploaded
+								37 container
+									38 image
+									39 container File ML-1-100.30-selected-photo-upright.jpg in status finished
+										40 text ML-1-100.30-selected-photo-upright.jpg
+									41 button Edit
+									42 button Remove
+								43 button Clear
+								44 button Add more
+								45 button Done
+			46 pop-up button Tab search
+			47 container
+				48 tab group
+					49 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					50 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					51 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					52 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					53 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					54 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					55 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					56 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					57 tab (settable, boolean) SEO opportunity audit, Value: off
+					58 tab group  group ✅Claude – 2 Tabs, •  Inbox (113) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					59 tab (settable, boolean) Value: off, Inbox (113) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1.1 GB
+					60 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					61 tab (settable, boolean) Drafts (1,333) - tppricet@gmail.com - Gmail, Value: off
+					62 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					63 tab (settable, boolean) Bookmarks, Value: off
+					64 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					65 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					66 tab (settable, boolean) Boldstone Sculpture | Wall Sculptures - 50 Preview, Value: off
+					67 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					68 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						69 button Close
+					70 tab (settable, boolean) 000347063570B5C6_M.avif (600×600), Value: off
+			71 button New tab
+	72 close button
+	73 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	74 minimise button
+75 menu bar
+	76 Chrome
+	77 File
+	78 Edit
+	79 View
+	80 History
+	81 Bookmarks
+	82 Profiles
+	83 Tab
+	84 Window
+	85 Help
+
+The focused UI element is 27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089

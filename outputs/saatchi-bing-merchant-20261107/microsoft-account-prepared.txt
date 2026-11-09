@@ -1,0 +1,141 @@
+Window: "Microsoft Advertising", App: Google Chrome.
+0 standard window Microsoft Advertising - Google Chrome – Tom, Secondary Actions: Raise, URL: ads.microsoft.com/pmaxlite/signup/?cid=255124527&aid=187335961&uid=193182372&idP=Google&s_cid=acq-pmaxlanding-src_default
+	1 container Microsoft Advertising - Google Chrome – Tom, URL: ads.microsoft.com/pmaxlite/signup/?cid=255124527&aid=187335961&uid=193182372&idP=Google&s_cid=acq-pmaxlanding-src_default
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ads.microsoft.com/pmaxlite/signup/?cid=255124527&aid=187335961&uid=193182372&idP=Google&s_cid=acq-pmaxlanding-src_default
+					10 button Manage your passwords
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Microsoft Advertising, URL: ads.microsoft.com/pmaxlite/signup/?cid=255124527&aid=187335961&uid=193182372&idP=Google&s_cid=acq-pmaxlanding-src_default
+						27 container
+							28 container
+								29 image
+								30 button Help
+								31 button Start live chat
+								32 pop-up button Sign out
+									33 image
+									34 text info@boldstone.co.uk
+							35 container
+								36 content list
+									37 container Account details, current step
+									38 container Payment, not started
+								39 container
+									40 heading Tell us more about your account, Value: 1
+										41 text Tell us more about your account
+									42 text Please provide your legal business information. Enter your exact legal business name as it appears on your official registration documents, or else future account usage or ad delivery may be blocked. 
+									43 link Learn more about identity verification, Value: help.ads.microsoft.com/#apex/ads/en/60109/-1
+									44 container
+										45 heading Account details, Value: 2
+											46 text Account details
+										47 text Legal business name
+										48 text field (settable) Legal business name, Value: Boldstone
+										49 text Phone number
+										50 container
+											51 pop-up button Phone number, Value: United Kingdom (+44)
+												52 (selected) United Kingdom (+44)
+											53 text field (settable) Phone number, Value: 7951031061
+										54 container
+											55 text Business location
+											56 button Business location tooltip
+										57 pop-up button Business location, Value: United Kingdom
+											58 (selected) United Kingdom
+										59 container
+											60 text Address line 1
+											61 text field (settable) Address line 1, Value: Court Essington
+											62 text Address line 2
+											63 text field (settable) Address line 2, Value: Midford Road, Midford
+											64 text City
+											65 text field (settable) City, Value: Bath
+											66 text Postal code
+											67 text field (settable) Postal code, Value: BA2 7BX
+											68 text Province
+											69 pop-up button Province, Value: Bath and North East Somerset
+												70 (selected) Bath and North East Somerset
+										71 container
+											72 text VAT (required for VAT registered business customers)
+											73 button 
+										74 container
+											75 text field (settable)
+											76 text Failure to provide your VAT registration number may result in tax being applied to your invoice.
+										77 container
+											78 text Preferred time zone
+											79 button Preferred time zone tooltip
+										80 pop-up button Preferred time zone, Value: (GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London
+											81 (selected) (GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London
+										82 container
+											83 text Currency
+											84 button Currency selector tooltip
+										85 pop-up button Currency, Value: UK Pound (GBP)
+											86 (selected) UK Pound (GBP)
+										87 text You can't change currency after creating your account.
+										88 container
+											89 text User location
+											90 button User location tooltip
+										91 Tick box Apply above business location to the user, Value: 1
+										92 text Primary use
+										93 text Who are you advertising for?
+										94 Primary use
+											95 container
+												96 radio button A business I own or work for, Value: 1
+												97 text A business I own or work for
+											98 container
+												99 radio button A client (e.g., as an agency, channel partner, or consultant), Value: 0
+												100 text A client (e.g., as an agency, channel partner, or consultant)
+								101 container
+									102 button Previous
+									103 button Next
+								104 pop-up button Contact Us
+									105 image
+									106 text Contact Us
+									107 image
+			108 pop-up button Tab search
+			109 container
+				110 tab group
+					111 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+						112 button Close
+					113 tab (selected, settable, boolean) Microsoft Advertising, Value: on
+						114 button Close
+			115 button New tab
+	116 close button
+	117 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	118 minimise button
+119 menu bar
+	120 Chrome
+	121 File
+	122 Edit
+	123 View
+	124 History
+	125 Bookmarks
+	126 Profiles
+	127 Tab
+	128 Window
+	129 Help
+
+The focused UI element is 96 radio button A business I own or work for, Value: 1

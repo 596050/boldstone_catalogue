@@ -1,0 +1,39 @@
+127.0.0.1 - - [26/Oct/2026 21:20:27] "POST /api/deletions/execute-batch HTTP/1.1" 403 -
+127.0.0.1 - - [26/Oct/2026 21:20:27] "POST /api/deletions/execute-batch HTTP/1.1" 202 -
+127.0.0.1 - - [26/Oct/2026 21:20:27] "POST /api/deletions/execute-batch HTTP/1.1" 202 -
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 403: 'Forbidden'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/traceback.py:316: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071cde00>
+  tb = tb.tb_next
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/traceback.py:316: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071cc200>
+  tb = tb.tb_next
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/traceback.py:316: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071cc740>
+  tb = tb.tb_next
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/traceback.py:316: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071cdd20>
+  tb = tb.tb_next
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/traceback.py:316: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071ccd60>
+  tb = tb.tb_next
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/traceback.py:316: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071cc820>
+  tb = tb.tb_next
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/traceback.py:316: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071cd700>
+  tb = tb.tb_next
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/traceback.py:316: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071cc120>
+  tb = tb.tb_next
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/traceback.py:316: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071cda80>
+  tb = tb.tb_next
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/traceback.py:316: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071ccc80>
+  tb = tb.tb_next
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+----------------------------------------------------------------------
+Ran 188 tests in 2.335s
+
+OK

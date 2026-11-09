@@ -1,0 +1,176 @@
+Window: "Studio | Saatchi Art United Kingdom", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/upload, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/upload
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio/upload, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/upload
+						26 container
+							27 container
+								28 text Fax
+								29 text field (settable) Fax
+							30 link fax, Value: saatchiart.com/facsimile-npc
+							31 link Skip to Main Content, Value: saatchiart.com/en-gb/studio/upload#skip-to-content
+							32 container
+								33 button Close Menu
+								34 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								35 text Studio
+								36 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								37 container
+									38 button Manage Artworks
+									39 content list
+										40 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										41 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									42 button Sales Dashboard
+									43 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									44 button Sponsored Listings
+									45 button Profile Information
+									46 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									47 button Account
+							48 container
+								49 text DRAFT
+								50 link 1 Image, Value: saatchiart.com/en-gb/studio/upload
+								51 link 2 Description, Value: saatchiart.com/en-gb/studio/art/description
+								52 link 3 Price & Details, Value: saatchiart.com/en-gb/studio/art/price-details
+								53 link 4 Prints, Value: saatchiart.com/en-gb/studio/art/prints
+								54 button Back to Artworks
+								55 Unlabelled image /art_432c05a21b052045133db1ce21d62dd488479a79.jpg
+								56 text Title Gleneagles Vine I - White
+								57 heading Artwork, Value: 1
+									58 text Artwork
+								59 container
+									60 button Title, Help: Expand
+									61 container
+										62 text field (settable) Value: Gleneagles Vine I - White, Placeholder: Enter title
+										63 text Enter title
+										64 button Next
+								65 container
+									66 button Images, Help: Collapse
+									67 Unlabelled image /art_432c05a21b052045133db1ce21d62dd488479a79.jpg
+									68 image
+									69 button
+									70 button ADD ADDITIONAL IMAGE
+									71 button Next
+								72 button SAVE & EXIT
+								73 link Save & Continue, Value: saatchiart.com/en-gb/studio/art/description
+								74 container
+									75 text This site is protected by reCAPTCHA and the Google 
+									76 link Privacy Policy, Value: policies.google.com/privacy
+									77 text  and 
+									78 link Terms of Service, Value: policies.google.com/terms
+									79 text  apply.
+							80 container
+								81 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								82 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								83 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								84 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								85 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								86 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								87 text Support
+								88 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								89 link Help Center, Value: support.saatchiart.com/hc
+								90 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								91 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								92 pop-up button Request Support
+								93 text Resources
+								94 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								95 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								96 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								97 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								98 text Saatchi Art
+								99 link About, Value: saatchiart.com/en-gb/about-us
+								100 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								101 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								102 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								103 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								104 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								105 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								106 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								107 text Do Not Sell or Share My Personal Information
+								108 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								109 container View Store Preferences Footer
+									110 image
+									111 text United Kingdom / GBP / Cm
+									112 image
+								113 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								114 link Privacy Policy, Value: policies.google.com/privacy
+								115 text  and 
+								116 link Terms of Service, Value: policies.google.com/terms
+								117 text  apply.
+							118 container
+								119 container
+									120 heading Confirm Primary Image, Value: 2
+										121 text Confirm Primary Image
+									122 Unlabelled image To get missing image descriptions, open the context menu.
+									123 text gleneagles-vine-and-tendril__gleneagles-vine-and-tendril-1-and-gleneagles-vine-and-tendril-2-and-gleneagles-vine-and-tendril-3-and-gleneagles-vine-and-tendril-4-white-in-situ__005.jpg
+									124 container
+										125 text 1941  x  1295  px
+									126 Unlabelled image /art_432c05a21b052045133db1ce21d62dd488479a79.jpg
+									127 button UPLOAD NEW IMAGE
+									128 button Cancel
+									129 button Submit
+									130 text By clicking "Submit", I confirm that I am the copyright owner of this image.
+							131 container
+								132 button Manage Preferences
+								133 text Manage Preferences
+			134 pop-up button Tab search
+			135 container
+				136 tab group
+					137 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					138 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					139 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					140 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					141 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					142 tab (settable, boolean) Meta Business Suite, Value: off
+					143 tab group  group 📦 Marketplace completion – 2 Tabs, •  Studio | Saatchi Art United Kingdom, •  Complete your listing | Boldstone Islington Sh… – Expanded
+					144 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion, Value: on
+						145 button Close
+					146 tab (settable, boolean) Value: off, Complete your listing | Boldstone Islington Shellmoon Relief - White Wall sculpture | eBay – Part of group 📦 Marketplace completion
+					147 tab (settable, boolean) Products – Faire, Value: off
+					148 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					149 tab (settable, boolean) Create listings, Value: off
+			150 button New tab
+	151 close button
+	152 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	153 minimise button
+154 menu bar
+	155 Chrome
+	156 File
+	157 Edit
+	158 View
+	159 History
+	160 Bookmarks
+	161 Profiles
+	162 Tab
+	163 Window
+	164 Help
+
+The focused UI element is 118 container

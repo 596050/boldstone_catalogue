@@ -1,0 +1,360 @@
+Window: "Complete your listing | Boldston…ave Relief Wall sculpture | eBay", App: Google Chrome.
+0 standard window Secondary Actions: Raise, Complete your listing | Boldstone Barbados Wave Relief Wall sculpture | eBay – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: ebay.co.uk/lstng?draftId=5456580252612&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+	1 container Complete your listing | Boldstone Barbados Wave Relief Wall sculpture | eBay – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: ebay.co.uk/lstng?draftId=5456580252612&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ebay.co.uk/lstng?draftId=5456580252612&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+					10 button Zoom: 80%
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Complete your listing | Boldstone Barbados Wave Relief Wall sculpture | eBay, URL: ebay.co.uk/lstng?draftId=5456580252612&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+						27 container
+							28 image
+							29 image
+							30 container
+								31 link Skip to main content, Value: ebay.co.uk/lstng?draftId=5456580252612&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts#mainContent
+								32 link eBay Home, Value: ebay.co.uk/
+							33 container
+								34 button Help
+								35 button More options
+								36 heading Complete your listing, Value: 1
+									37 text Complete your listing
+								38 heading PHOTOS & VIDEO, Value: 2
+									39 text PHOTOS & VIDEO
+								40 button See photo options
+								41 container
+									42 text You can add up to 24 photos and a 1-minute video. Buyers want to see all details and angles.
+									43 container Learn about the photo tips to attract more buyers
+										44 button Tips for taking pro photos
+								45 text 5 out of 25 photos or videos uploaded
+								46 button Select
+								47 button Edit or view photo 1
+								48 button Edit or view photo 2
+								49 button Edit or view photo 3
+								50 button Edit or view photo 4
+								51 button Edit or view photo 5
+								52 button Add
+								53 button Empty slot. Upload photo
+								54 button Empty slot. Upload photo
+								55 button Empty slot. Upload photo
+								56 button Empty slot. Upload photo
+								57 button Empty slot. Upload photo
+								58 button Empty slot. Upload photo
+								59 button Empty slot. Upload photo
+								60 button Empty slot. Upload photo
+								61 button Empty slot. Upload photo
+								62 button Empty slot. Upload photo
+								63 heading TITLE, Value: 2
+									64 text TITLE
+								65 button See title options
+								66 text Item title
+								67 text field (settable) Item title, Value: Boldstone Barbados Wave Relief Wall sculpture
+								68 text 45 of 80 characters
+								69 text Custom label (SKU)
+								70 button Help tip for Custom label (SKU) field
+								71 text field (settable) Custom label (SKU), Value: SQ0484508
+								72 text 9 of 50 characters
+								73 heading ITEM CATEGORY, Value: 2
+									74 text ITEM CATEGORY
+								75 button Edit Item category
+								76 button Art Sculptures Item category First category
+								77 text in Art
+								78 heading VARIATIONS, Value: 2
+									79 text VARIATIONS
+								80 button Edit Variations
+								81 text Save time and money by listing multiple variations of your item in one multi-quantity, fixed price listing.
+								82 heading ITEM SPECIFICS, Value: 2
+									83 text ITEM SPECIFICS
+								84 container Essential
+									85 heading Essential, Value: 3
+										86 text Essential
+									87 button Material
+									88 button Gypsum-based material
+									89 button Format
+									90 button Format
+									91 button Subject
+									92 button Subject
+									93 button Style
+									94 button Style
+									95 button Artist
+									96 button Sally Price
+									97 button Size
+									98 button Size
+									99 button Theme
+									100 button Theme
+									101 button Features
+									102 button Features
+									103 button Original/Licensed Reproduction
+									104 content list Original/Licensed Reproduction
+										105 toggle button Original, Value: 0
+											106 text Original
+										107 toggle button Licensed Reproduction, Value: 0
+											108 text Licensed Reproduction
+									109 button Production Technique
+									110 button Production Technique
+									111 button Culture
+									112 button Culture
+									113 button Year of Production
+									114 button Year of Production
+									115 button Time Period Produced
+									116 button Time Period Produced
+									117 button Region of Origin
+									118 button Region of Origin
+									119 button Type
+									120 button Type
+									121 button Item Height
+									122 button 100 cm
+									123 button Item Length
+									124 button 8 cm
+									125 button Item Width
+									126 button 100 cm
+								127 container Optional
+									128 heading Optional, Value: 3
+										129 text Optional
+									130 button Signed
+									131 content list Signed
+										132 toggle button Yes, Value: 0
+											133 text Yes
+										134 toggle button No, Value: 0
+											135 text No
+									136 button Signed By
+									137 text field (disabled) Signed By
+									138 container
+										139 text Signed  is required before providing  Signed By
+									140 button Country of Origin
+									141 button Country of Origin
+									142 button Unit of Sale
+									143 button Single Piece
+								144 button Show more
+								145 heading CONDITION, Value: 2
+									146 text CONDITION
+								147 heading Item condition, Value: 3
+									148 text Item condition
+								149 button New Item condition
+								150 heading DESCRIPTION, Value: 2
+									151 text DESCRIPTION
+								152 content list
+									153 button Bold
+									154 button Unordered list
+									155 pop-up button Custom template
+										156 text Custom template
+									157 button Show all options
+								158 container Description
+									159 HTML content about:srcdoc
+										160 text entry area (settable) Description, Value: A flowing wave motif captures the feeling of water held in a moment of movement. The relief balances broad curves with changes in depth, giving the wall a gentle sense of motion.
+A little coastal daydream: warm light, an open horizon and the rhythm of the sea, brought into an interior or garden.
+Brand: Boldstone
+Product type: Wall sculpture
+Model: Barbados Wave Relief (SQ0484508)
+Colour / appearance: Bath Stone finish
+Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+Material: Made from a gypsum-based material.
+Dimensions: 100 × 100 × 8 cm
+Weight: Approximately 83 kg
+Use: Suitable for outdoor use and indoor display.
+Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+Availability: Ready to dispatch
+Dispatch time: Within 3 working days. Delivery transit time is additional.
+Delivery: The available delivery service and charge are shown in this eBay listing. Carrier transit time is additional to dispatch time.
+All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											161 text A flowing wave motif captures the feeling of water held in a moment of movement. The relief balances broad curves with changes in depth, giving the wall a gentle sense of motion.
+											162 text A little coastal daydream: warm light, an open horizon and the rhythm of the sea, brought into an interior or garden.
+											163 text Brand: Boldstone
+											164 text Product type: Wall sculpture
+											165 text Model: Barbados Wave Relief (SQ0484508)
+											166 text Colour / appearance: Bath Stone finish
+											167 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											168 text Material: Made from a gypsum-based material.
+											169 text Dimensions: 100 × 100 × 8 cm
+											170 text Weight: Approximately 83 kg
+											171 text Use: Suitable for outdoor use and indoor display.
+											172 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											173 text Availability: Ready to dispatch
+											174 text Dispatch time: Within 3 working days. Delivery transit time is additional.
+											175 text Delivery: The available delivery service and charge are shown in this eBay listing. Carrier transit time is additional to dispatch time.
+											176 text All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+								177 button Use AI description
+								178 heading PRICING, Value: 2
+									179 text PRICING
+								180 button See pricing options
+								181 text Format
+								182 pop-up button Format Buy It Now
+									183 text Buy It Now
+								184 container
+									185 text Item price
+									186 text £
+									187 text field (settable) Item price, Value: 268.28
+									188 text + £ 11.43 Buyer Protection fee
+								189 text Buyer will pay
+								190 text field (settable) Buyer will pay, Value: 279.71
+								191 container
+									192 text You can edit the price buyers see in your listing. We recommend rounded prices, for example £6, £15 or £82.
+									193 button Dismiss tourtip
+								194 container information
+									195 image information
+									196 text UK buyers will pay £279.71, which includes the 
+									197 button Buyer Protection fee
+									198 text .
+								199 Tick box Require immediate payment when buyer uses Buy it now, Value: 0
+								200 text Quantity
+								201 text field (settable) Quantity, Value: 1
+								202 text (optional) Interested buyers can send an offer for this item. You can accept, counter or decline. Buyer offers may include a Buyer Protection fee, paid to eBay.
+								203 switch Allow offers, Value: off
+								204 text Your listing goes live immediately, unless you select a time and date you want it to start.
+								205 switch Schedule your listing, Value: off
+								206 heading DELIVERY DETAILS, Value: 2
+									207 text DELIVERY DETAILS
+								208 button See postage options
+								209 content list Delivery method
+									210 button Postage or collection in person Let buyers choose how they get their items.
+									211 toggle button Postage only Post items directly to buyers., Value: 1
+									212 button No postage. Collection in person only Arrange collection in person without any postage costs.
+								213 image Loading
+								214 image Loading
+								215 image Loading
+								216 heading Preferences, Value: 3
+									217 text Preferences
+								218 heading Your settings, Value: 4
+									219 text Your settings
+								220 text 3 working days handling Item location BA2 7BX (Bath, Somerset, United Kingdom) Postcode not visible on listing Domestic returns Accepted within 30 days Buyer pays return postage International returns Accepted within 30 days Buyer pays return postage
+								221 button Your settings - edit
+								222 text Excluded locations (optional)
+								223 button Excluded locations
+								224 heading ITEM DISCLOSURES, Value: 2
+									225 text ITEM DISCLOSURES
+								226 text Add product information to meet regulatory requirements in your buyer's region. Upload user guides, certificates, documents and accessibility information that are included with the item. 
+								227 link Learn more – opens in a new window or tab, Value: ebay.co.uk/help/selling/selling/hazardous-materials-labeling?id=5407
+								228 switch Product documents, Value: off
+								229 heading PROMOTE YOUR LISTING, Value: 2
+									230 text PROMOTE YOUR LISTING
+								231 text COMPETITIVE CATEGORY
+								232 text 45% of items in Art Sculptures are promoted right now.
+								233 container
+									234 text Sponsored
+								235 heading General, Value: 4
+									236 text General
+								237 switch Toggle General, Value: off
+								238 text 90% more visibility, on average.
+								239 button More visibility explanation
+								240 content list
+									241 text Basic access to ad placements
+									242 text Only pay when your item sells
+								243 heading Priority, Value: 4
+									244 text Priority
+								245 switch Toggle Priority, Value: off
+								246 text 170% more visibility, on average.
+								247 button More visibility explanation
+								248 content list
+									249 text Exclusive access to the top of search
+									250 text Advanced targeting and bid controls
+									251 text Priority ranking in ad placements
+									252 text Only pay for clicks on your ads
+								253 button Help me choose
+								254 heading CHARITY, Value: 2
+									255 text CHARITY
+								256 button Edit Charity
+								257 container information
+									258 image information
+									259 container
+										260 text Donate a portion of this sale to the charity of your choice. 
+										261 link Learn more Opens in a new window or tab, Value: ebay.co.uk/help/donating-ebay-charity/default/buying-selling-ebay-benefit-nonprofit-organizations?id=4668
+								262 heading Listing fee, Value: 2
+									263 text Listing fee
+								264 text £0.00 No 
+								265 link transaction fees, Value: ebay.co.uk/help/selling/fees-credits-invoices/fees-private-sellers?id=4822
+								266 text  will be applied. You accept that the duration of your listing may vary due to delayed appearance in search. 
+								267 link Learn more, Value: ebay.co.uk/help/selling/listings/listings-overview?id=4072
+								268 text By selecting List it for free, you agree to pay the above fees, accept the 
+								269 link eBay User Agreement - opens in new window or tab, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+								270 text , 
+								271 link Payments Terms of Use - opens in new window or tab, Value: pages.ebay.co.uk/payment/2.0/terms.html
+								272 text , 
+								273 link Marketing Program Terms - opens in new window or tab, Value: pages.ebay.co.uk/sell/pl/termsofservice.html
+								274 text  and 
+								275 link Delivery Terms and Conditions - opens in new window or tab, Value: pages.ebay.co.uk/managed-shipping-sellers/
+								276 text ; acknowledge reading the 
+								277 link User Privacy Notice - opens in new window or tab, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+								278 text , agree to offer products and services that comply with all applicable laws, and assume full responsibility for the item offered and the content of your listing. By using Simple Delivery, you agree to the 
+								279 link eBay delivery Terms and Conditions, Value: pages.ebay.co.uk/shipping/delivery/seller-tnc.html
+								280 text .
+								281 button List it for free
+								282 button Save for later
+								283 button Preview
+								284 text 'Buy It Now' listings will renew automatically every month based on the listing terms at that time, until the item sells or the listing is ended. 
+								285 link Fees may apply. - opens in new window or tab, Value: ebay.co.uk/help/selling/fees-credits-invoices/selling-fees?id=4822
+								286 text To improve your chances of selling, we may send you offers from buyers that you can choose to accept or decline. Funds from your sales may be unavailable and show as pending for a period of time. 
+								287 link Learn more - opens in new window or tab, Value: ebay.co.uk/help/selling/selling-getting-paid/pending-payments?id=4155
+							288 container
+								289 container
+									290 text Copyright © 1995-2026 eBay Inc. All Rights Reserved. 
+									291 link User Agreement, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+									292 text , 
+									293 link Privacy, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+									294 text , 
+									295 link Payments Terms of Use, Value: pages.ebay.co.uk/payment/2.0/terms.html
+									296 text , 
+									297 link Cookies, Value: ebay.co.uk/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+									298 text  and 
+									299 link AdChoice , Value: ebay.co.uk/adchoice
+								300 button Scroll to top
+			301 pop-up button Tab search
+			302 container
+				303 tab group
+					304 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					305 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					306 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					307 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					308 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					309 tab (settable, boolean) Meta Business Suite, Value: off
+					310 tab group  group 📦 Marketplace completion – 4 Tabs, •  Studio | Saatchi Art United Kingdom, •  Complete your listing | Boldstone Islington Sh…, •  Complete your listing | Boldstone Riyadh Dune…, •  Complete your listing | Boldstone Barbados Wav… – Expanded
+					311 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion, Value: off
+					312 tab (settable, boolean) Value: off, Complete your listing | Boldstone Islington Shellmoon Relief - White Wall sculpture | eBay – Part of group 📦 Marketplace completion
+					313 tab (settable, boolean) Value: off, Complete your listing | Boldstone Riyadh Dune Ripple - White Wall sculpture | eBay – Part of group 📦 Marketplace completion
+					314 tab (selected, settable, boolean) Value: on, Complete your listing | Boldstone Barbados Wave Relief Wall sculpture | eBay – Part of group 📦 Marketplace completion
+						315 button Close
+					316 tab (settable, boolean) Products – Faire, Value: off
+					317 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					318 tab (settable, boolean) Create listings, Value: off
+			319 button New tab
+	320 close button
+	321 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	322 minimise button
+323 menu bar
+	324 Chrome
+	325 File
+	326 Edit
+	327 View
+	328 History
+	329 Bookmarks
+	330 Profiles
+	331 Tab
+	332 Window
+	333 Help
+
+The focused UI element is 26 HTML content Complete your listing | Boldstone Barbados Wave Relief Wall sculpture | eBay, URL: ebay.co.uk/lstng?draftId=5456580252612&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts

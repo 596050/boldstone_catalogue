@@ -1,0 +1,53 @@
+- banner:
+  - navigation:
+    - heading "boldstone" [level=1]:
+      - link "boldstone":
+        - /url: https://boldstonesculpture.com
+- main:
+  - iframe [name="__privateStripeFrame1018"]
+  - region "Your Email":
+    - heading "Your Email" [level=1]
+    - button "Edit":
+      - paragraph: Edit
+    - paragraph: info@boldstone.co.uk
+  - region "Delivery":
+    - heading "Delivery" [level=1]
+    - button "Edit":
+      - paragraph: Edit
+    - generic: Shipping
+    - generic: Boldstone Checkout test
+    - paragraph
+    - paragraph: 1 Test Street
+    - text: London SW1A 1AA
+    - paragraph: United Kingdom
+    - paragraph: United Kingdom
+    - generic "United Kingdom price": £69.95
+  - region:
+    - heading "Payment" [level=1]
+    - generic: Transactions are secure and encrypted.
+    - paragraph: Billing Address
+    - checkbox "Billing address same as shipping" [checked]
+    - paragraph: Use shipping address
+    - paragraph
+    - paragraph
+    - paragraph
+    - button "Continue"
+  - region "Review & Purchase":
+    - heading "Review & Purchase" [level=1]
+  - paragraph: Order summary
+  - generic: "1"
+  - paragraph: Icarus I - Abstract Cave Relief
+  - generic "Icarus I - Abstract Cave Relief total price": £769.16
+  - button "Remove"
+  - button "Discount or gift card":
+    - generic: Discount or gift card
+  - paragraph: Subtotal
+  - generic "Subtotal price": £769.16
+  - paragraph: Tax
+  - generic "Tax price": £139.85
+  - paragraph: Shipping (SW1A 1AA)
+  - generic "Shipping (SW1A 1AA) price": £69.95
+  - separator
+  - paragraph: Total
+  - generic "Total price": £839.11
+  - generic: Secure SSL Checkout

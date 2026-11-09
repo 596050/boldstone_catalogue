@@ -1,0 +1,369 @@
+Window: "Studio | Saatchi Art United Kingdom", App: Google Chrome.
+0 standard window URL: saatchiart.com/en-gb/studio/art/14397053/description, Secondary Actions: Raise, Studio | Saatchi Art United Kingdom – Part of group 🛍️ Boldstone catalogue completion - Google Chrome – Tom
+	1 container URL: saatchiart.com/en-gb/studio/art/14397053/description, Studio | Saatchi Art United Kingdom – Part of group 🛍️ Boldstone catalogue completion - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio/art/14397053/description, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content DevTools, URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@2f9a11097447f226133bc1a31c787291a5eeab98/&targetType=tab&can_dock=true&panel=console
+						26 container
+							27 container
+								28 container
+									29 container Main toolbar
+										30 toolbar
+											31 container Select an element in the page to inspect it, Help: Select an element in the page to inspect it - ⌘ ⇧ C
+												32 toggle button Select an element in the page to inspect it - ⌘ ⇧ C, Value: 0
+											33 container Toggle device toolbar, Help: Toggle device toolbar - ⌘ ⇧ M
+												34 toggle button Toggle device toolbar - ⌘ ⇧ M, Value: 0
+										35 container
+											36 tab group Panels
+											37 pop-up button More tabs
+										38 toolbar
+											39 container
+												40 container Open Console to view 72 errors, 5 warnings
+													41 button Open Console to view 72 errors, 5 warnings
+												42 container Open Issues to view 96 issues: 12 page errors, 81 breaking changes, 3 possible improvements
+													43 button Open Issues to view 96 issues: 12 page errors, 81 breaking changes, 3 possible improvements
+											44 button  AI assistance, Help: Open AI assistance panel
+											45 container Settings, Help: Settings - F1 - ⇧ ?
+												46 button Settings - F1 - ⇧ ?
+											47 pop-up button Customize and control DevTools
+												48 button Customize and control DevTools
+											49 container Close
+												50 button Close
+									51 container Network panel
+										52 container network
+											53 container
+												54 toolbar
+													55 container Stop recording network log, Help: Stop recording network log - ⌘ E
+														56 toggle button Stop recording network log - ⌘ E, Value: 1
+													57 container Clear network log, Help: Clear network log - Ctrl L - ⌘ K
+														58 button Clear network log - Ctrl L - ⌘ K
+													59 container Filter
+														60 toggle button Filter, Value: 1
+													61 container Search
+														62 toggle button Search, Value: 0
+													63 container
+														64 Tick box Keep log, Value: 1
+														65 text Keep log
+													66 container
+														67 Tick box Disable cache, Value: 1
+														68 text Disable cache
+													69 pop-up button Throttling, Value: Disabled: No throttling
+														70 (selected) Disabled: No throttling
+													71 container More network conditions…
+														72 button More network conditions…
+													73 container Import HAR file…
+														74 button Import HAR file…
+													75 container Export HAR (sanitized)…
+														76 button Export HAR (sanitized)…
+													77 container Network settings
+														78 toggle button Network settings, Value: 0
+												79 toolbar
+													80 container
+														81 text entry area (settable) Filter, Value: 14397053/update
+															82 text 14397053/update
+														83 container Clear
+															84 button Clear
+												85 container Inverts the search filter
+													86 Tick box Invert, Value: 0
+													87 text Invert
+												88 container Show only/hide requests dropdown
+													89 pop-up button Show only/hide requests
+														90 text More filters
+												91 list box Request types to include, Help: ⌘ Click to select multiple types
+													92 text (selected) All Fetch/XHR Doc CSS JS Font Img Media Manifest Socket Wasm Other
+												93 container Overview grid window
+													94 container
+														95 container
+															96 text 0 ms
+															97 text 200 ms
+															98 text 400 ms
+															99 text 600 ms
+													100 slider Left resizer, Value: 0, Details: 0 ms, Secondary Actions: Increment, Decrement
+													101 slider Right resizer, Value: 100, Details: 646 ms, Secondary Actions: Increment, Decrement
+												102 container
+													103 container
+														104 table
+															105 row
+																106 column header Name - Sortable column. Press enter to sort.
+																	107 text Name
+															108 row
+																109 cell https://www.saatchiart.com/easel_api/my-art/14397053/update
+																	110 image Fetch request failed
+																	111 button
+																	112 text update
+														113 container 1 / 3 requests
+															114 text 1 / 3 requests
+														115 container 150 B / 3043 B transferred over network
+															116 text 0.2 kB / 3.0 kB transferred
+														117 container 117 B / 3834 B resources loaded by the page
+															118 text 0.1 kB / 3.8 kB resources
+													119 container
+														120 toolbar
+															121 container Close
+																122 button Close
+														123 container
+															124 container
+																125 text entry area (settable) Code editor, Value: {    
+"payload": {},    
+"captchaFailure": true,    
+"success": false,    
+"messages": [        
+"Please try again later or contact us for support."
+    ]
+}
+																	126 text {
+																	127 container
+																		128 text "payload" : {},
+																	129 container
+																		130 text "captchaFailure" :  true ,
+																	131 container
+																		132 text "success" :  false ,
+																	133 container
+																		134 text "messages" : [
+																	135 container
+																		136 text "Please try again later or contact us for support."
+																	137 text     ]
+																	138 text }
+															139 toolbar
+																140 container Pretty print
+																	141 toggle button Pretty print, Value: 1
+							142 text Network Log row Name: update/easel_api/my-art/14397053, Status: 401Unauthorized, Type: fetch, Initiator: Script, Size: 0.2 kB0.1 kB, Time: 411 ms410 ms
+				143 scroll area
+					144 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/art/14397053/description
+						145 container
+							146 container
+								147 text Fax
+								148 text field (settable) Fax
+							149 link fax, Value: saatchiart.com/facsimile-npc
+							150 link Skip to Main Content, Value: saatchiart.com/en-gb/studio/art/14397053/description#skip-to-content
+							151 container
+								152 button Close Menu
+								153 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								154 text Studio
+								155 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								156 container
+									157 button Manage Artworks
+									158 content list
+										159 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										160 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									161 button Sales Dashboard
+									162 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									163 button Sponsored Listings
+									164 button Profile Information
+									165 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									166 button Account
+							167 container
+								168 text DRAFT
+								169 link 1 Image, Value: saatchiart.com/en-gb/studio/art/14397053/image
+								170 link 2 Description, Value: saatchiart.com/en-gb/studio/art/14397053/description
+								171 link 3 Price & Details, Value: saatchiart.com/en-gb/studio/art/14397053/price-details
+								172 link 4 Prints, Value: saatchiart.com/en-gb/studio/art/14397053/prints
+								173 button Back to Overview
+								174 Unlabelled image /13459005-BOWYYYEJ-7.jpg
+								175 text Title Raked Spiral III - White Subject Abstract Category Sculpture Dimensions 30  W x  30  H x  7  D  centimeters
+								176 button SHOW MORE
+								177 heading Description, Value: 1
+									178 text Description
+								179 container
+									180 button Category, Subject, Year, Help: Expand
+									181 container
+										182 text Category
+										183 container
+											184 text field (settable) Value: Sculpture, Placeholder: Search or select a category
+											185 text Search or select a category
+										186 text Subject
+										187 container
+											188 text field (settable) Value: Abstract, Placeholder: Search or select a subject
+											189 text Search or select a subject
+										190 text Year
+										191 text 2026
+										192 image
+										193 pop-up button 2026
+											194 (selected) 2026
+										195 button Next
+								196 container
+									197 button Method, Materials & Styles, Help: Expand
+									198 container
+										199 text Method Select 1 Method
+										200 container
+											201 text field (disabled) Max of 1 method
+											202 text Max of 1 method
+										203 content list
+											204 button Relief
+										205 text Materials Select 1-5 Materials
+										206 container
+											207 text field (settable) Search or select a material
+											208 text Search or select a material
+										209 content list
+											210 button Plaster
+										211 text Styles Select 1-5 Styles
+										212 container
+											213 text field (settable) Search or select a style
+											214 text Search or select a style
+										215 content list
+											216 button Abstract
+										217 button Next
+								218 container
+									219 button Dimensions, Help: Expand
+									220 container
+										221 text It's very important that you provide accurate dimensions as collectors and trade clients need to know the exact size of the artwork before purchasing it. For flat artworks, such as photographs and other works on paper, we suggest that you enter a depth of 0.1. Width ( cm )
+										222 text field (settable) 30
+										223 text Height ( cm )
+										224 text field (settable) 30
+										225 text Depth ( cm )
+										226 text field (settable) 7
+										227 button CENTIMETERS
+										228 text 30 cm 30 cm
+										229 button Next
+								230 container
+									231 button Keywords & Description, Help: Expand
+									232 container
+										233 text Keywords (optional) We recommend providing 5 to 12 keywords to help collectors discover your artwork. Use simple, descriptive words that capture the key visual elements of your work, such as color, subject matter, or artistic style. You may one keyword at a time by clicking the Add button or Enter on your keyboard or by providing a comma separated list of keywords.
+										234 content list
+											235 container
+												236 AXListMarker • 
+												237 text Each keyword should be 2–20 characters long.
+											238 container
+												239 AXListMarker • 
+												240 text Use English keywords for best visibility.
+											241 container
+												242 AXListMarker • 
+												243 text Spam, websites, social media, email addresses and inappropriate and harmful keywords are not allowed.
+										244 text field (settable) Enter Up To 12 Keywords
+										245 text Enter Up To 12 Keywords
+										246 button (disabled) Add
+										247 text 6  / 12
+										248 content list
+											249 button raked spiral
+											250 button wall relief
+											251 button white
+											252 button abstract
+											253 button Sally Price
+											254 button Boldstone
+										255 text Description Collectors tend to appreciate works more if they know the “story” behind them, so be sure to write informative artwork descriptions. Great descriptions not only provide useful information (e.g. physical texture, whether hanging hardware is included, quality of materials), but they also answer questions like: What/who inspired the work? What do you hope its viewers will feel/think? Why did you choose the medium, subject matter, style?
+										256 text entry area (settable) Placeholder: Write Here..., Value: Only the right-hand panel in this group photograph is supplied. The other panels are sold separately.
+
+Raked lines follow a spiral, creating a surface with a measured, flowing rhythm. The repeated marks catch the light and give the relief a quiet sense of movement. It recalls the calm of a carefully tended garden, where a simple pattern can invite a moment of stillness.
+
+Made from a gypsum-based material. Colour: White marble stone finish. Companion pieces: Raked Spiral I and Raked Spiral II (sold separately). Dimensions: 30 × 30 cm; approximately 5–7 cm deep. Weight: Approximately 3–5 kg. Suitable for outdoor use and indoor display. Usually keyhole fixings; French cleats and other options are available. One sculpture supplied; other pieces and room props are not included. All designs can be customised; completely new commissions can be created with designer Sally Price. Dispatch within 3 working days; delivery transit time is additional.
+										257 text 48 characters left
+										258 button Refine With AI
+										259 button Next
+								260 button SAVE & EXIT
+								261 link Save & Continue, Value: saatchiart.com/en-gb/studio/art/14397053/price-details
+								262 container
+									263 text This site is protected by reCAPTCHA and the Google 
+									264 link Privacy Policy, Value: policies.google.com/privacy
+									265 text  and 
+									266 link Terms of Service, Value: policies.google.com/terms
+									267 text  apply.
+							268 container
+								269 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								270 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								271 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								272 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								273 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								274 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								275 text Support
+								276 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								277 link Help Center, Value: support.saatchiart.com/hc
+								278 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								279 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								280 pop-up button Request Support
+								281 text Resources
+								282 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								283 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								284 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								285 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								286 text Saatchi Art
+								287 link About, Value: saatchiart.com/en-gb/about-us
+								288 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								289 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								290 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								291 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								292 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								293 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								294 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								295 text Manage Preferences
+								296 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								297 container View Store Preferences Footer
+									298 image
+									299 text United Kingdom / GBP / Cm
+									300 image
+								301 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								302 link Privacy Policy, Value: policies.google.com/privacy
+								303 text  and 
+								304 link Terms of Service, Value: policies.google.com/terms
+								305 text  apply.
+							306 text Studio | Saatchi Art United Kingdom
+							307 container
+								308 button Manage Preferences
+								309 text Manage Preferences
+			310 pop-up button Tab search
+			311 container
+				312 tab group
+					313 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					314 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					315 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					316 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					317 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					318 tab (settable, boolean) Meta Business Suite - High memory usage - 1.0 GB, Value: off
+					319 tab group  group 🛍️ Boldstone catalogue completion – 1 Tab, •  Studio | Saatchi Art United Kingdom – Expanded
+					320 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 🛍️ Boldstone catalogue completion, Value: on
+						321 button Close
+					322 tab (settable, boolean) (1) Instagram, Value: off
+					323 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish - High memory usage - 912 MB, Value: off
+					324 tab (settable, boolean) Complete your listing | Boldstone Wave and Moonshadow I - White Wall sculpture | eBay, Value: off
+			325 button New tab
+	326 close button
+	327 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	328 minimise button
+329 menu bar
+	330 Chrome
+	331 File
+	332 Edit
+	333 View
+	334 History
+	335 Bookmarks
+	336 Profiles
+	337 Tab
+	338 Window
+	339 Help
+
+The focused UI element is 125 text entry area (settable) Code editor, Value: {    
+"payload": {},    
+"captchaFailure": true,    
+"success": false,    
+"messages": [        
+"Please try again later or contact us for support."
+    ]
+}

@@ -1,0 +1,206 @@
+Window: "Overview | Microsoft Advertising", App: Google Chrome.
+0 standard window Overview | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, Secondary Actions: Raise, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/overview?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+	1 container Overview | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/overview?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/overview?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Overview | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/overview?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+						27 container
+							28 container Skip to main content
+								29 link Skip to main content, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/import?aid=187335961&cid=255124527&storeId=50112622&uid=193182372#main
+							30 container global menu
+								31 button Microsoft Advertising
+								32 button Switch user accounts. Current selection: Boldstone (G1459Y2Q)
+								33 container
+									34 combo box (settable) Search Microsoft Advertising
+									35 button clear
+								36 button Copilot
+								37 button Notifications
+								38 button   Notifications
+								39 pop-up button Help
+								40 button New features
+								41 button Open account panel
+							42 container Banner message
+								43 text You need a primary payment method before your ads will run.
+								44 link Add a payment method now, Value: ads.microsoft.com/cc/PaymentMethods?aid=187335961&cid=255124527&uid=193182372&showTaxForm=False
+							45 tab group
+								46 tab (settable, integer) Campaigns, Value: 0
+								47 tab (settable, integer) Conversions, Value: 0
+								48 tab (settable, integer) Ads Studio, Value: 0
+								49 tab (settable, integer) Import, Value: 0
+								50 tab (settable, integer) Reporting, Value: 0
+								51 tab (selected) Merchant Center, Value: 1
+								52 tab (settable, integer) Billing, Value: 0
+								53 tab (settable, integer) Settings, Value: 0
+								54 tab (settable, integer) Tools, Value: 0
+							55 container breadcrumb
+								56 content list
+									57 button All stores
+									58 button (disabled) Boldstone Sculpture
+							59 container
+								60 button Overview
+								61 button Collapse menu
+								62 button Diagnostics
+								63 button Products
+								64 button Feeds
+								65 button Import
+								66 button Promotions
+								67 button Settings
+							68 container
+								69 heading Overview, Value: 1
+									70 text Overview
+								71 container
+									72 heading Understand your store health, Value: 2
+										73 text Understand your store health
+									74 heading Trends, Value: 2
+										75 text Trends
+									76 container
+										77 text Total unique products 325
+									78 container
+										79 toggle button Show or hide Active in the chart, Value: 1
+										80 text Active
+										81 button Click to learn more about Active
+										82 text 0
+									83 container
+										84 toggle button Show or hide Pending in the chart, Value: 1
+										85 text Pending
+										86 button Click to learn more about Pending
+										87 text 308
+									88 container
+										89 toggle button Show or hide Expiring in the chart, Value: 1
+										90 text Expiring
+										91 button Click to learn more about Expiring
+										92 text 0
+									93 container
+										94 toggle button Show or hide Rejected in the chart, Value: 1
+										95 text Rejected
+										96 button Click to learn more about Rejected
+										97 text 17
+									98 container Area chart with 4 data series. 
+										99 text Date
+										100 container Rejected, series 1 of 4 with 360 data points.
+										101 container Expiring, series 2 of 4 with 360 data points.
+										102 container Pending, series 3 of 4 with 360 data points.
+										103 container Active, series 4 of 4 with 360 data points.
+										104 text Number of products
+									105 text Last feed updated:  8 November 2026 at 23:28:09 GMT
+									106 heading Product performance, Value: 2
+										107 text Product performance
+									108 container
+										109 heading Clicks, Value: 3
+											110 text Clicks
+										111 toggle button Product ads: 0, Value: 1
+										112 toggle button Product listings: 0, Value: 1
+										113 container Product performance
+											114 container Product listings, line 2 of 2 with 2 data points.
+												115 image 06/11/2026. Product listings, 0.
+												116 image 07/11/2026. Product listings, 0.
+											117 container Product ads, line 1 of 2 with 360 data points.
+										118 heading Impressions, Value: 3
+											119 text Impressions
+										120 toggle button Product ads: 0, Value: 1
+										121 toggle button Product listings: 0, Value: 1
+										122 container Product performance
+											123 container Product listings, line 2 of 2 with 2 data points.
+												124 image 06/11/2026. Product listings, 0.
+												125 image 07/11/2026. Product listings, 0.
+											126 container Product ads, line 1 of 2 with 360 data points.
+									127 heading What's next, Value: 2
+										128 text What's next
+									129 text Fix store, product, and feed issues Identify and resolve Merchant Center errors to get your products approved and serving.
+									130 button Review diagnostics
+									131 text Optimize your product listings Follow best practices to improve data quality, boost visibility, and drive better results.
+									132 button View improvement items
+									133 text Get help from support Contact Microsoft Advertising support for help with your account or product issues.
+									134 button Contact Support
+									135 text © 2026 Microsoft
+									136 content list
+										137 link Legal, Value: ads.microsoft.com/tc.aspx
+										138 link Privacy & Cookies, Value: go.microsoft.com/fwlink/?LinkId=248681
+										139 link Advertise, Value: go.microsoft.com/fwlink/?LinkId=258668
+										140 link Developers, Value: go.microsoft.com/fwlink/?linkid=2333449
+										141 link Support, Value: go.microsoft.com/fwlink/?LinkId=258669
+										142 link Blog, Value: go.microsoft.com/fwlink/?LinkId=395064
+										143 link Community, Value: go.microsoft.com/fwlink/?linkid=2325500&clcid=0x409
+										144 link Consumer Health Privacy, Value: go.microsoft.com/fwlink/?linkid=2259814
+										145 button Help
+			146 pop-up button Tab search
+			147 container
+				148 tab group
+					149 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					150 tab group  group ✅Claude – 1 Tab, •  Overview | Microsoft Advertising – Expanded
+					151 tab (selected, settable, boolean) Overview | Microsoft Advertising – Part of group ✅Claude, Value: on
+					152 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					153 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					154 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					155 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					156 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					157 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					158 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					159 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					160 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					161 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					162 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					163 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					164 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					165 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					166 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					167 tab (settable, boolean) Meta Business Suite, Value: off
+					168 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					169 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					170 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					171 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					172 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					173 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					174 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					175 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.0 GB, Value: off
+					176 tab (settable, boolean) Boldstone · Review room, Value: off
+					177 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					178 tab (settable, boolean) Overview - Merchant Center, Value: off
+					179 tab (settable, boolean) Pinterest, Value: off
+			180 button New tab
+	181 close button
+	182 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	183 minimise button
+184 menu bar
+	185 Chrome
+	186 File
+	187 Edit
+	188 View
+	189 History
+	190 Bookmarks
+	191 Profiles
+	192 Tab
+	193 Window
+	194 Help
+
+The focused UI element is 60 button Overview

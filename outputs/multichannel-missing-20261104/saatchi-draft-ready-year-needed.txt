@@ -1,0 +1,243 @@
+Window: "Studio | Saatchi Art United Kingdom", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14388967/description, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14388967/description
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio/art/14388967/description, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Control your music, videos and more
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/art/14388967/description
+						27 container
+							28 container
+								29 text Fax
+								30 text field (settable) Fax
+							31 link fax, Value: saatchiart.com/facsimile-npc
+							32 link Skip to Main Content, Value: saatchiart.com/en-gb/studio/art/14388967/description#skip-to-content
+							33 container
+								34 button Close Menu
+								35 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								36 text Studio
+								37 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								38 container
+									39 button Manage Artworks
+									40 content list
+										41 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										42 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									43 button Sales Dashboard
+									44 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									45 button Sponsored Listings
+									46 button Profile Information
+									47 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									48 button Account
+							49 container
+								50 text DRAFT
+								51 link 1 Image, Value: saatchiart.com/en-gb/studio/art/14388967/image
+								52 link 2 Description, Value: saatchiart.com/en-gb/studio/art/14388967/description
+								53 link 3 Price & Details, Value: saatchiart.com/en-gb/studio/art/14388967/price-details
+								54 link 4 Prints, Value: saatchiart.com/en-gb/studio/art/14388967/prints
+								55 button Back to Overview
+								56 Unlabelled image /13450919-PUFIBYAG-7.jpg
+								57 text Title Wave and Moonshadow I - White Subject Abstract Category Sculpture Dimensions 15.75  W x  15.75  H x  2.36  D  inches
+								58 button SHOW MORE
+								59 heading Description, Value: 1
+									60 text Description
+								61 container
+									62 button Category, Subject, Year, Help: Collapse
+									63 text Category
+									64 container
+										65 text field (settable) Value: Sculpture, Placeholder: Search or select a category
+										66 text Search or select a category
+									67 text Subject
+									68 container
+										69 text field (settable) Value: Abstract, Placeholder: Search or select a subject
+										70 text Search or select a subject
+									71 text Year
+									72 container
+										73 text Select year produced
+										74 image
+										75 pop-up button Select year produced
+											76 (selected) Select year produced
+									77 button Next
+								78 container
+									79 button Method, Materials & Styles, Help: Expand
+									80 container
+										81 text Method Select 1 Method
+										82 container
+											83 text field (disabled) Max of 1 method
+											84 text Max of 1 method
+										85 content list
+											86 button Relief
+										87 text Materials Select 1-5 Materials
+										88 container
+											89 text field (settable) Search or select a material
+											90 text Search or select a material
+										91 content list
+											92 button Plaster
+										93 text Styles Select 1-5 Styles
+										94 container
+											95 text field (settable) Search or select a style
+											96 text Search or select a style
+										97 content list
+											98 button Abstract
+										99 button Next
+								100 container
+									101 button Dimensions, Help: Expand
+									102 container
+										103 text It's very important that you provide accurate dimensions as collectors and trade clients need to know the exact size of the artwork before purchasing it. For flat artworks, such as photographs and other works on paper, we suggest that you enter a depth of 0.1. Width ( inches )
+										104 text field (settable) 15.75
+										105 text Height ( inches )
+										106 text field (settable) 15.75
+										107 text Depth ( inches )
+										108 text field (settable) 2.36
+										109 button INCHES
+										110 text 15.75 in 15.75 in
+										111 button Next
+								112 container
+									113 button Keywords & Description, Help: Expand
+									114 container
+										115 text Keywords (optional) We recommend providing 5 to 12 keywords to help collectors discover your artwork. Use simple, descriptive words that capture the key visual elements of your work, such as color, subject matter, or artistic style. You may one keyword at a time by clicking the Add button or Enter on your keyboard or by providing a comma separated list of keywords.
+										116 content list
+											117 container
+												118 AXListMarker • 
+												119 text Each keyword should be 2–20 characters long.
+											120 container
+												121 AXListMarker • 
+												122 text Use English keywords for best visibility.
+											123 container
+												124 AXListMarker • 
+												125 text Spam, websites, social media, email addresses and inappropriate and harmful keywords are not allowed.
+										126 text field (settable) Enter Up To 12 Keywords
+										127 text Enter Up To 12 Keywords
+										128 button (disabled) Add
+										129 text 6  / 12
+										130 content list
+											131 button wall sculpture
+											132 button moonshadow
+											133 button relief
+											134 button white
+											135 button spiral
+											136 button handmade
+										137 text Description Collectors tend to appreciate works more if they know the “story” behind them, so be sure to write informative artwork descriptions. Great descriptions not only provide useful information (e.g. physical texture, whether hanging hardware is included, quality of materials), but they also answer questions like: What/who inspired the work? What do you hope its viewers will feel/think? Why did you choose the medium, subject matter, style?
+										138 text entry area (settable) Placeholder: Write Here..., Value: A moonshadow-inspired form creates a calm relief of curve and depth. Light moves across its contours, revealing a quiet balance of highlight and shade.
+
+Colour / appearance: White marble stone finish.
+This Boldstone wall sculpture is sold individually. Other sculptures and room props shown are not included. Made from a gypsum-based material. This is one piece of a coordinating pair with Wave and Moonshadow II. Companion sculptures are sold separately; this listing is for one sculpture only. All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price. The dimensions are 40 × 40 × 6 cm. The stated weight is approximately 6–8 kg per panel. Suitable for outdoor use and indoor display. Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall. Dispatch is within 3 working days. Delivery transit time is additional.
+										139 text 28 characters left
+										140 button Refine With AI
+										141 button Next
+								142 button SAVE & EXIT
+								143 link Save & Continue, Value: saatchiart.com/en-gb/studio/art/14388967/price-details
+								144 container
+									145 text This site is protected by reCAPTCHA and the Google 
+									146 link Privacy Policy, Value: policies.google.com/privacy
+									147 text  and 
+									148 link Terms of Service, Value: policies.google.com/terms
+									149 text  apply.
+							150 container
+								151 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								152 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								153 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								154 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								155 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								156 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								157 text Support
+								158 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								159 link Help Center, Value: support.saatchiart.com/hc
+								160 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								161 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								162 pop-up button Request Support
+								163 text Resources
+								164 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								165 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								166 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								167 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								168 text Saatchi Art
+								169 link About, Value: saatchiart.com/en-gb/about-us
+								170 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								171 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								172 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								173 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								174 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								175 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								176 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								177 text Manage Preferences
+								178 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								179 container View Store Preferences Footer
+									180 image
+									181 text United Kingdom / GBP / In
+									182 image
+								183 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								184 link Privacy Policy, Value: policies.google.com/privacy
+								185 text  and 
+								186 link Terms of Service, Value: policies.google.com/terms
+								187 text  apply.
+							188 text Studio | Saatchi Art United Kingdom
+							189 container
+								190 button Manage Preferences
+								191 text Manage Preferences
+			192 pop-up button Tab search
+			193 container
+				194 tab group
+					195 tab group  group Claude – 11 Tabs, •  Become a host for gay travelers, join the mist…, •  Sign up, •  Frequently Asked Questions about Renting Out Y…, •  What is the commission rate? - FAQ Landlords |…, •  Ecobnb - General Terms of Use, + 6 more – Expanded
+					196 tab (settable, boolean) Become a host for gay travelers, join the misterb&b community! – Part of group Claude, Value: off
+					197 tab (settable, boolean) Sign up – Part of group Claude, Value: off
+					198 tab (settable, boolean) Frequently Asked Questions about Renting Out Your Holiday Home | Micazu – Part of group Claude, Value: off
+					199 tab (settable, boolean) What is the commission rate? - FAQ Landlords | HelpSite – Part of group Claude, Value: off
+					200 tab (settable, boolean) Ecobnb - General Terms of Use – Part of group Claude, Value: off
+					201 tab (settable, boolean) How much does it cost to list my rental property on Flatio? - Flatio – Part of group Claude, Value: off
+					202 tab (settable, boolean) Pricing - Vacation rentals management made easy – Part of group Claude, Value: off
+					203 tab (settable, boolean) Dtravel for Hosts - Flexible Pricing to Grow Your Direct Booking Business – Part of group Claude, Value: off
+					204 tab (settable, boolean) Direct Booking Lite: Free Property Management Software – Part of group Claude, Value: off
+					205 tab (settable, boolean) Holiday Cottages & Holiday Homes, Booked Direct | BookNoFees – Part of group Claude, Value: off
+					206 tab (settable, boolean) Your home for hosting - Travelnest – Part of group Claude, Value: off
+					207 tab (settable, boolean) Google Docs, Value: off
+					208 tab (settable, boolean) Inbox (91) - info@boldstone.co.uk - Thomas Price Mail, Value: off
+					209 tab (settable, boolean) Document shared with you: "Untitled document" - tppricet@gmail.com - Gmail, Value: off
+					210 tab (settable, boolean) Untitled document - Google Docs, Value: off
+					211 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom, Value: on
+						212 button Close
+					213 tab (settable, boolean) New tab, Value: off
+			214 button New tab
+	215 close button
+	216 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	217 minimise button
+218 menu bar
+	219 Chrome
+	220 File
+	221 Edit
+	222 View
+	223 History
+	224 Bookmarks
+	225 Profiles
+	226 Tab
+	227 Window
+	228 Help
+
+The focused UI element is 75 pop-up button Select year produced

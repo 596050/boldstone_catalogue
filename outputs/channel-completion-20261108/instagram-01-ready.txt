@@ -1,0 +1,244 @@
+Window: "Meta Business Suite", App: Google Chrome.
+0 standard window Meta Business Suite - Google Chrome – Tom, Secondary Actions: Raise, URL: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+	1 container Meta Business Suite - Google Chrome – Tom, URL: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Meta Business Suite, URL: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME
+						27 container
+							28 container
+								29 container
+									30 heading Create post, Value: 1
+										31 text Create post
+									32 container
+										33 image
+										34 heading Want to create an ad post?, Value: 4
+											35 text Want to create an ad post?
+										36 button Close ​
+										37 button See more
+									38 container Post to
+										39 heading Post to, Value: 3
+											40 text Post to
+										41 container
+											42 text Post to
+											43 combo box (settable) Post to boldstonesculpture, Value: ​ Instagram boldstonesculpture ​
+												44 container
+													45 container
+														46 image Instagram
+													47 text boldstonesculpture
+													48 image
+									49 container Media
+										50 heading Media, Value: 3
+											51 text Media
+										52 text Share photos and videos on Instagram. Posts can't exceed 10 photos or videos.
+										53 container
+											54 content list
+												55 container
+													56 image
+													57 heading Photo(s) will be auto-cropped, Value: 4
+														58 text Photo(s) will be auto-cropped
+													59 button See more
+											60 content list
+												61 container
+													62 text 1533 x 2048
+													63 image
+													64 text Photo will be auto-cropped
+													65 button Edit photo ​
+													66 button Edit ​
+													67 button Remove Photo ​
+											68 button Add photo/video
+									69 container Post details
+										70 heading Post details, Value: 3
+											71 text Post details
+										72 container
+											73 heading Text, Value: 4
+												74 text Text
+											75 text entry area (settable) Write in the dialogue box to include text with your post., Value: Brancusi Totem Relief - White
+A narrow wall can hold a strong sculptural rhythm.
+Brancusi Totem Relief brings a long, rippling line to the wall. The white surface lets the raised contours and their shadows do the work, changing quietly as the light moves.
+100 × 22 × 8 cm. Made from a gypsum-based material. Suitable for outdoor use and indoor display.
+All designs can be customised, and completely new commissions can be developed with designer Sally Price.
+Tap the product tag to view the sculpture and purchase on the website. Browse the collection through the link in our bio.
+#Boldstone #SallyPrice #WallSculpture #ReliefSculpture #GardenArt #SculptureForInteriors
+												76 text Brancusi Totem Relief - White
+												77 text A narrow wall can hold a strong sculptural rhythm.
+												78 text Brancusi Totem Relief brings a long, rippling line to the wall. The white surface lets the raised contours and their shadows do the work, changing quietly as the light moves.
+												79 text 100 × 22 × 8 cm. Made from a gypsum-based material. Suitable for outdoor use and indoor display.
+												80 text All designs can be customised, and completely new commissions can be developed with designer Sally Price.
+												81 text Tap the product tag to view the sculpture and purchase on the website. Browse the collection through the link in our bio.
+												82 container
+													83 text #Boldstone #SallyPrice #WallSculpture #ReliefSculpture #GardenArt #SculptureForInteriors
+											84 button Click to open hashtag menu. ​
+											85 button Choose emoji ​
+											86 image
+											87 text Write with AI
+											88 link Fix grammar, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											89 link Shorter, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											90 link Longer, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											91 link Funny, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											92 link Professional, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											93 link More, Value: business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156&nav_ref=internal_nav&ref=biz_web_home_create_post&context_ref=HOME#
+											94 button Location
+									95 container
+										96 heading Schedule, Value: 3
+											97 text Schedule
+										98 text Set date and time
+										99 switch Set date and time, Value: off
+									100 container
+										101 switch (disabled) Boost, Value: off
+										102 text Boost
+										103 button Cancel
+										104 button Finish later
+										105 button Publish
+									106 container
+										107 heading Instagram feed preview, Value: 3
+											108 text Instagram feed preview
+										109 container
+											110 text boldstonesculpture
+											111 image
+											112 button Like
+											113 button Comment
+											114 button Share
+											115 button Save
+											116 text boldstonesculpture
+											117 text Brancusi Totem Relief - White ... 
+											118 button more
+								119 button Meta AI business assistant
+								120 container
+									121 button Meta Business Suite
+									122 button Pressable
+									123 container Links
+										124 text Links
+										125 content list
+											126 container
+												127 link Home, Value: business.facebook.com/latest/home?business_id=2380586078685156&asset_id=103781478537396
+												128 text Home
+											129 container
+												130 link Notifications
+													131 text Notifications
+												132 text Notifications
+											133 container
+												134 link Ads Manager
+													135 text Ads Manager
+												136 text Ads Manager
+											137 container
+												138 link Inbox, Value: business.facebook.com/latest/inbox?business_id=2380586078685156&asset_id=103781478537396
+												139 text Inbox
+											140 container
+												141 link Content, Value: business.facebook.com/latest/posts?business_id=2380586078685156&asset_id=103781478537396
+												142 text Content
+											143 container
+												144 link Creator Marketing, Value: business.facebook.com/creator_marketing_hub/overview/?business_id=2380586078685156&asset_id=103781478537396&nav_ref=mbs_all_tools&ad_account_id=878195225362673&selected_business_ig_user_id=17841407266349160&selected_business_page_id=103781478537396
+												145 text Creator Marketing
+											146 container
+												147 link Planner, Value: business.facebook.com/latest/content_calendar?business_id=2380586078685156&asset_id=103781478537396
+												148 text Planner
+											149 container
+												150 link Ads, Value: business.facebook.com/latest/ad_center/ads_summary?business_id=2380586078685156&asset_id=103781478537396
+												151 text Ads
+											152 container
+												153 link Insights, Value: business.facebook.com/latest/insights?business_id=2380586078685156&asset_id=103781478537396
+												154 text Insights
+											155 container
+												156 link Monetisation, Value: business.facebook.com/latest/monetization?business_id=2380586078685156&asset_id=103781478537396
+												157 text Monetisation
+											158 container
+												159 link All tools
+													160 text All tools
+												161 text All tools
+											162 button Edit sidebar navigation
+									163 container
+										164 link Search
+											165 text Search
+										166 text Search
+										167 image
+									168 container Links
+										169 text Links
+										170 content list
+											171 container
+												172 link Settings, Value: business.facebook.com/latest/settings/business_users?business_id=2380586078685156
+												173 text Settings
+									174 container
+										175 link Help
+											176 text Help
+										177 text Help
+										178 image
+							179 list box
+								180 text (selected) #sculptureforinteriors #sculptureforinterior #sculptureforinteriordesign #sculptureforinteriordesigners #sculptureforinteriordecorators #sculptureforinteriorde
+			181 pop-up button Tab search
+			182 container
+				183 tab group
+					184 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					185 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					186 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					187 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					188 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					189 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					190 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					191 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					192 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					193 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					194 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					195 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					196 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					197 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					198 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					199 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					200 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					201 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					202 tab (settable, boolean) Meta Business Suite, Value: off
+					203 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					204 tab (selected, settable, boolean) Meta Business Suite, Value: on
+					205 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					206 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					207 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					208 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					209 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					210 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 999 MB, Value: off
+					211 tab (settable, boolean) Boldstone · Review room, Value: off
+			212 button New tab
+	213 close button
+	214 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	215 minimise button
+216 menu bar
+	217 Chrome
+	218 File
+	219 Edit
+	220 View
+	221 History
+	222 Bookmarks
+	223 Profiles
+	224 Tab
+	225 Window
+	226 Help
+
+The focused UI element is 180 text (selected) #sculptureforinteriors

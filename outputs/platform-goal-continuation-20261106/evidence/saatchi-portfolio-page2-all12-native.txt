@@ -1,0 +1,314 @@
+Window: "Studio | Saatchi Art United Kingdom | Page 2", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom | Page 2 - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio?sub=artworks&page=2&hitsPerPage=100, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom | Page 2 - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio?sub=artworks&page=2&hitsPerPage=100
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio?sub=artworks&page=2&hitsPerPage=100, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Studio | Saatchi Art United Kingdom | Page 2, URL: saatchiart.com/en-gb/studio?sub=artworks&page=2&hitsPerPage=100
+						26 container
+							27 container
+								28 text Fax
+								29 text field (settable) Fax
+							30 link fax, Value: saatchiart.com/facsimile-npc
+							31 link Skip to Main Content, Value: saatchiart.com/en-gb/studio#skip-to-content
+							32 container
+								33 button Close Menu
+								34 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								35 text Studio
+								36 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								37 container
+									38 button Manage Artworks
+									39 content list
+										40 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										41 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									42 button Sales Dashboard
+									43 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									44 button Sponsored Listings
+									45 button Profile Information
+									46 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									47 button Account
+							48 container
+								49 heading My Original Artworks, Value: 4
+									50 text My Original Artworks
+								51 heading Vacation Status, Value: 6
+									52 text Vacation Status
+								53 button Add New Artwork
+								54 Tick box 0
+								55 text ARTWORKS
+								56 text VISIBILITY
+								57 text DATE UPLOADED
+								58 text PRICE
+								59 text AVAILABILITY
+								60 text PRINTS
+								61 Tick box 0
+								62 container
+									63 Unlabelled image /13441037-SDLVVCKB-6.jpg
+									64 text Brancusi Meander II - White Sculpture 25 W x 50 H x 8 D centimeters
+								65 text Published
+								66 text Nov 1, 2026
+								67 container
+									68 text $100
+									69 image
+								70 container
+									71 text For Sale
+									72 image
+								73 text Not Available
+								74 Tick box 0
+								75 container
+									76 Unlabelled image /13441033-OJLLRSMH-6.jpg
+									77 text Brancusi Meander II - Gold Finish Sculpture 25 W x 50 H x 8 D centimeters
+								78 text Published
+								79 text Nov 1, 2026
+								80 container
+									81 text $100
+									82 image
+								83 container
+									84 text For Sale
+									85 image
+								86 text Not Available
+								87 Tick box 0
+								88 container
+									89 Unlabelled image /13441031-MHWCZLBO-6.jpg
+									90 text Brancusi Meander I - White Sculpture 25 W x 50 H x 8 D centimeters
+								91 text Published
+								92 text Nov 1, 2026
+								93 container
+									94 text $100
+									95 image
+								96 container
+									97 text For Sale
+									98 image
+								99 text Not Available
+								100 Tick box 0
+								101 container
+									102 Unlabelled image /13441029-UYWDDFQM-6.jpg
+									103 text Brancusi Meander I - Gold Finish Sculpture 25 W x 50 H x 8 D centimeters
+								104 text Published
+								105 text Nov 1, 2026
+								106 container
+									107 text $100
+									108 image
+								109 container
+									110 text For Sale
+									111 image
+								112 text Not Available
+								113 Tick box 0
+								114 container
+									115 Unlabelled image /13441027-VDVNOLDC-6.jpg
+									116 text Bone Water Spiral Relief - White Sculpture 80 W x 60 H x 8 D centimeters
+								117 text Published
+								118 text Nov 1, 2026
+								119 container
+									120 text $161
+									121 image
+								122 container
+									123 text For Sale
+									124 image
+								125 text Not Available
+								126 Tick box 0
+								127 container
+									128 Unlabelled image /13441025-UJHGZLMQ-6.jpg
+									129 text Barbados Wave Relief Sculpture 100 W x 100 H x 8 D centimeters
+								130 text Published
+								131 text Nov 1, 2026
+								132 container
+									133 text $358
+									134 image
+								135 container
+									136 text For Sale
+									137 image
+								138 text Not Available
+								139 Tick box 0
+								140 container
+									141 Unlabelled image /13441021-YXHBOAOT-6.jpg
+									142 text Acanthus Twin Leaves - Pale Blue and White Sculpture 30 W x 30 H x 6 D centimeters
+								143 text Published
+								144 text Nov 1, 2026
+								145 container
+									146 text $100
+									147 image
+								148 container
+									149 text For Sale
+									150 image
+								151 text Not Available
+								152 Tick box 0
+								153 container
+									154 Unlabelled image /13441017-OKGFEOAG-6.jpg
+									155 text Acanthus Twin Leaves - Bronze Sculpture 30 W x 30 H x 6 D centimeters
+								156 text Published
+								157 text Nov 1, 2026
+								158 container
+									159 text $100
+									160 image
+								161 container
+									162 text For Sale
+									163 image
+								164 text Not Available
+								165 Tick box 0
+								166 container
+									167 Unlabelled image /13441015-YJFKCRTG-6.jpg
+									168 text Acanthus Moon - White Sculpture 50 W x 30 H x 6 D centimeters
+								169 text Published
+								170 text Nov 1, 2026
+								171 container
+									172 text $100
+									173 image
+								174 container
+									175 text For Sale
+									176 image
+								177 text Not Available
+								178 Tick box 0
+								179 container
+									180 Unlabelled image /13441011-EMMPSOBR-6.jpg
+									181 text Acanthus Moon - Gold Finish Sculpture 50 W x 30 H x 6 D centimeters
+								182 text Published
+								183 text Nov 1, 2026
+								184 container
+									185 text $100
+									186 image
+								187 container
+									188 text For Sale
+									189 image
+								190 text Not Available
+								191 Tick box 0
+								192 container
+									193 Unlabelled image /13440993-EFKUUMGK-6.jpg
+									194 text Acanthus Bloom - White Sculpture 30 W x 30 H x 6 D centimeters
+								195 text Published
+								196 text Nov 1, 2026
+								197 container
+									198 text $100
+									199 image
+								200 container
+									201 text For Sale
+									202 image
+								203 text Not Available
+								204 Tick box 0
+								205 container
+									206 Unlabelled image /13288583-GJHHDHAE-6.jpg
+									207 text Icarus I - Abstract Cave Relief Sculpture 100.1 W x 199.9 H x 5.1 D centimeters
+								208 text Published
+								209 text Sep 11, 2026
+								210 container
+									211 text $869
+									212 image
+								213 container
+									214 text For Sale
+									215 image
+								216 text Not Available
+								217 button Go to previous page
+									218 link Go to previous page, Help: Previous, Value: saatchiart.com/en-gb/studio?sub=artworks&page=1&hitsPerPage=100
+								219 button Go to page 1, Help: Page 1
+								220 button Go to page 2, Help: Page 2
+								221 container
+									222 text 101  - 112 Artworks
+								223 container
+									224 text 100 Results Per Page
+									225 image
+							226 container
+								227 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								228 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								229 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								230 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								231 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								232 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								233 text Support
+								234 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								235 link Help Center, Value: support.saatchiart.com/hc
+								236 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								237 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								238 pop-up button Request Support
+								239 text Resources
+								240 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								241 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								242 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								243 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								244 text Saatchi Art
+								245 link About, Value: saatchiart.com/en-gb/about-us
+								246 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								247 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								248 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								249 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								250 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								251 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								252 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								253 text Manage Preferences
+								254 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								255 container View Store Preferences Footer
+									256 image
+									257 text United Kingdom / GBP / Cm
+									258 image
+								259 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								260 link Privacy Policy, Value: policies.google.com/privacy
+								261 text  and 
+								262 link Terms of Service, Value: policies.google.com/terms
+								263 text  apply.
+							264 text Studio | Saatchi Art United Kingdom | Page 2
+							265 container
+								266 button Manage Preferences
+								267 text Manage Preferences
+			268 pop-up button Tab search
+			269 container
+				270 tab group
+					271 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+						272 button Close
+					273 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					274 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+						275 button Close
+					276 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+						277 button Close
+					278 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+						279 button Close
+					280 tab (settable, boolean) Meta Business Suite - High memory usage - 1.0 GB, Value: off
+						281 button Close
+					282 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom | Page 2, Value: on
+						283 button Close
+			284 button New tab
+	285 close button
+	286 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	287 minimise button
+288 menu bar
+	289 Chrome
+	290 File
+	291 Edit
+	292 View
+	293 History
+	294 Bookmarks
+	295 Profiles
+	296 Tab
+	297 Window
+	298 Help
+
+Selected text: ```
+Fax￼faxSkip to Main Content￼￼StudioSALLY PRICEManage Artworks￼My PortfolioArtwork UploaderSales Dashboard￼Offers Dashboard￼Sponsored Listings￼Profile Information￼AddressesAccount￼My Original ArtworksVacation Status￼Add New Artwork￼ARTWORKSVISIBILITYDATE UPLOADEDPRICEAVAILABILITYPRINTS￼￼Brancusi Meander II - WhiteSculpture25 W x 50 H x 8 D centimetersPublishedNov 1, 2026$100￼For Sale￼Not Available￼￼Brancusi Meander II - Gold FinishSculpture25 W x 50 H x 8 D centimetersPublishedNov 1, 2026$100￼For Sale￼Not Available￼￼Brancusi Meander I - WhiteSculpture25 W x 50 H x 8 D centimetersPublishedNov 1, 2026$100￼For Sale￼Not Available￼￼Brancusi Meander I - Gold FinishSculpture25 W x 50 H x 8 D centimetersPublishedNov 1, 2026$100￼For Sale￼Not Available￼￼Bone Water Spiral Relief - WhiteSculpture80 W x 60 H x 8 D centimetersPublishedNov 1, 2026$161￼For Sale￼Not Available￼￼Barbados Wave ReliefSculpture100 W x 100 H x 8 D centimetersPublishedNov 1, 2026$358￼For Sale￼Not Available￼￼Acanthus Twin Leaves - Pale Blue and WhiteSculpture30 W x 30 H x 6 D centimetersPublishedNov 1, 2026$100￼For Sale￼Not Available￼￼Acanthus Twin Leaves - BronzeSculpture30 W x 30 H x 6 D centimetersPublishedNov 1, 2026$100￼For Sale￼Not Available￼￼Acanthus Moon - WhiteSculpture50 W x 30 H x 6 D centimetersPublishedNov 1, 2026$100￼For Sale￼Not Available￼￼Acanthus Moon - Gold FinishSculpture50 W x 30 H x 6 D centimetersPublishedNov 1, 2026$100￼For Sale￼Not Available￼￼Acanthus Bloom - WhiteSculpture30 W x 30 H x 6 D centimetersPublishedNov 1, 2026$100￼For Sale￼Not Available￼￼Icarus I - Abstract Cave ReliefSculpture100.1 W x 199.9 H x 5.1 D centimetersPublishedSep 11, 2026$869￼For Sale￼Not Available￼12101 - 112 Artworks100 Results Per Page￼￼￼￼￼￼￼SupportCommunity ForumHelp CenterGet StartedPaymentsRequest SupportResourcesArtist HandbookPackaging GuideHow to PhotographArtist TipsSaatchi ArtAboutSell on Saatchi ArtAffiliate ProgramTerms of ServicePrivacy NoticeCookie NoticeCopyright PolicyCalifornia Notice of CollectionManage PreferencesAccessibility￼United Kingdom/GBP/Cm￼© 2010-2026 Saatchi Art. All Rights Reserved.This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.￼￼￼￼￼Studio | Saatchi Art United Kingdom | Page 2￼￼Manage Preferences
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

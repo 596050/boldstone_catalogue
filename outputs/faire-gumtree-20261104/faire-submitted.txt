@@ -1,0 +1,100 @@
+Window: "Faire — Brand Onboarding", App: Google Chrome.
+0 standard window Faire — Brand Onboarding - Google Chrome – Tom, URL: faire.com/brand-portal/brand-onboarding/upload-product-images, Secondary Actions: Raise
+	1 container Faire — Brand Onboarding - Google Chrome – Tom, URL: faire.com/brand-portal/brand-onboarding/upload-product-images
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: faire.com/brand-portal/brand-onboarding/upload-product-images, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads
+				22 button Control your music, videos and more
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Faire — Brand Onboarding, URL: faire.com/brand-portal/brand-onboarding/upload-product-images
+						28 container
+							29 image Faire
+							30 button Get help
+							31 button Save and exit
+							32 progress indicator 100
+							33 heading We’re adding your products to Faire, Value: 2
+								34 text We’re adding your products to Faire
+							35 text Your upload has been submitted.
+							36 text Our team will take the next few days to review your products and build your catalog. We’ll let you know via email as soon as everything is ready for review.
+							37 text Your catalog will be ready in 5 to 7 days.
+							38 button Go to brand portal
+			39 pop-up button Tab search
+			40 container
+				41 tab group
+					42 tab (settable, boolean) Brand Application | Join Procurist Platform | Procurist, Value: off
+					43 tab (settable, boolean) Booth activation - Import Items, Value: off
+					44 tab (selected, settable, boolean) Faire — Brand Onboarding, Value: on
+					45 tab (settable, boolean) Gumtree | Free classified ads from the #1 classifieds site in the UK, Value: off
+					46 tab (settable, boolean) Sign in to your Supplier account | AppScenic, Value: off
+					47 tab (settable, boolean) Shoppe Object, Value: off
+					48 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					49 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					50 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					51 tab (settable, boolean) sell on wholesale central - Google Search, Value: off
+					52 tab (settable, boolean) Display Your Products to Millions of Buyers Worldwide., Value: off
+					53 tab (settable, boolean) become-a-seller-new | Wholesale Prices | Tradeling, Value: off
+					54 tab (settable, boolean) Marketplace FAQ for Sellers | Brandboom Help Center, Value: off
+					55 tab (settable, boolean) Online Sales FAQ - TICA, Value: off
+					56 tab (settable, boolean) Carro Migration FAQ, Value: off
+					57 tab (settable, boolean) Join Us | CREOATE, Value: off
+					58 tab (settable, boolean) Ankorstore | Wholesale Marketplace Home to Europe's Best Brands, Value: off
+					59 tab (settable, boolean) MOM - Sell your products, Value: off
+					60 tab (settable, boolean) See how virtual showrooms sell, Value: off
+					61 tab (settable, boolean) Wholesale Marketplace: Get Discovered by Retailers | NuORDER by Lightspeed, Value: off
+					62 tab (settable, boolean) Sell on Syncee, Value: off
+					63 tab (settable, boolean) Become a Spocket Supplier - Sell to 100,000+ Retailers Free, Value: off
+					64 tab (settable, boolean) Become a verified Avasam supplier, Value: off
+					65 tab (settable, boolean) Advertise Your Wholesale Business - Would you like to expand your business?, Value: off
+					66 tab (settable, boolean) eSources UK Help | Managing Your Supplier Profile, Value: off
+					67 tab (settable, boolean) Gift Wholesalers - Gift Shop Wholesalers, Value: off
+					68 tab (settable, boolean) Sell on Tesco Marketplace | Reach millions of UK shoppers, Value: off
+					69 tab (settable, boolean) RangeMe, Value: off
+					70 tab (settable, boolean) Art Gallery | Buy Original British Art Online, Value: off
+					71 tab (settable, boolean) Original art for sale, Value: off
+					72 tab (settable, boolean) 25+ Handmade Marketplaces for Artisans to Sell Crafts, Art, Gifts Online - MultiMerch, Value: off
+					73 tab (settable, boolean) 250+ Websites Directory for Artists to Sell Art Online, Value: off
+			74 button New tab
+	75 close button
+	76 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	77 minimise button
+78 menu bar
+	79 Chrome
+	80 File
+	81 Edit
+	82 View
+	83 History
+	84 Bookmarks
+	85 Profiles
+	86 Tab
+	87 Window
+	88 Help
+
+The focused UI element is 27 HTML content Faire — Brand Onboarding, URL: faire.com/brand-portal/brand-onboarding/upload-product-images

@@ -1,0 +1,190 @@
+Window: "Booth activation - Getting Started", App: Google Chrome.
+0 standard window URL: bonanza.com/booths/Boldstone/activate, Secondary Actions: Raise, Booth activation - Getting Started – Part of group 🛍️ Catalogue platform updates - Google Chrome – Tom
+	1 container URL: bonanza.com/booths/Boldstone/activate, Booth activation - Getting Started – Part of group 🛍️ Catalogue platform updates - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: bonanza.com/booths/Boldstone/activate, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Booth activation - Getting Started, URL: bonanza.com/booths/Boldstone/activate
+						27 container
+							28 container
+								29 link Bonanza, Value: bonanza.com/, Help: Shop for everything but the ordinary. More than 25,000 sellers offering you a vibrant collection of fashion, collectibles, home decor, and more.
+								30 heading booth setup, Value: 4
+									31 text booth setup
+							32 heading 25% complete, Value: 5
+								33 text 25% complete
+							34 heading Step 1 of 4: Getting Started, Value: 5
+								35 text Step 1 of 4:  Getting Started
+							36 text 25%
+							37 heading Welcome to Bonanza! Let's get started., Value: 1
+								38 text Welcome to Bonanza! Let's get started.
+							39 text We need a few details in order to get you set up on Bonanza. We strive to make this as painless as possible.
+							40 text Due to recent changes in international tax (VAT & GST) collection requirements, Bonanza currently supports purchases only from buyers in the United States.
+							41 text We are actively working on implementing the necessary requirements to expand access to more regions as soon as possible. While we do not have an exact timeline, we encourage you to check back in 1-2 months for updates.
+							42 text We apologize for any inconvenience and appreciate your interest in Bonanza!
+							43 container
+								44 heading Important Notice: Country-Based Seller Restrictions, Value: 3
+									45 text Important Notice: Country-Based Seller Restrictions
+								46 text Due to changes in PayPal’s policy, we are currently unable to accept sellers from Ukraine, Russia, Israel, and Japan.
+								47 text We are actively working on implementing the necessary requirements to expand access to more regions as soon as possible. While we do not have an exact timeline, we encourage you to check back in 1-2 months for updates.
+								48 heading Create a Bonanza account, Value: 3
+									49 text Create a Bonanza account
+								50 text Bonanza may use your email address for necessary communications, but you can update your notification preferences at any time. We value your privacy and will never share your email address.
+								51 link Read our full privacy policy., Value: bonanza.com/site_help/privacy_policy
+								52 content list
+									53 link Log in with Facebook, Value: bonanza.com/auth/facebook?origin=params-then_what-booth_activation
+									54 link Log in with Google, Value: bonanza.com/auth/google?origin=params-then_what-booth_activation
+									55 text OR CREATE AN ACCOUNT
+								56 heading Email address, Value: 4
+									57 text Email address
+								58 text field (settable) Email address, Value: info@boldstone.co.uk, Placeholder: user@domain.com
+								59 heading Password (Optional), Value: 4
+									60 text Password (Optional)
+								61 container
+									62 text If you want a separate password from your Google login)
+									63 link More info , Help: Optional password, Value: bonanza.com/booths/Boldstone/activate#
+								64 secure text field (settable) Password (Optional) If you want a separate password from your Google login) More info 
+								65 text Case sensitive. Must be 8 or more characters and include an uppercase letter and number.
+								66 heading Name your Bonanza booth, Value: 3
+									67 text Name your Bonanza booth
+								68 text A 
+								69 text "Booth"
+								70 text  is what we call your collection of items. Your 
+								71 text Booth title
+								72 text  will appear to buyers at the top of the page where your items are listed.
+								73 heading Username, Value: 4
+									74 text Username
+								75 text field (settable) Username, Value: Boldstone
+								76 text What a great name!  This is your unique identify on Bonanza. Letters, numbers, and underscores are allowed (no spaces).
+								77 heading Booth title, Value: 4
+									78 text Booth title
+								79 text field (settable) Booth title, Value: Boldstone Sculpture
+								80 text 19/80
+								81 text This is the title of your storefront on Bonanza. You can change this at any time.
+								82 Tick box I have read and agree to Bonanza's, Value: 0
+								83 link Terms of Use, Value: bonanza.com/site_help/user_agreement
+								84 text  and 
+								85 link Privacy Policy, Value: bonanza.com/site_help/privacy_policy
+								86 heading How did you hear about Bonanza? optional, Value: 4
+									87 text How did you hear about Bonanza?  optional
+								88 pop-up button How did you hear about Bonanza? optional, Value: Through Google
+									89 (selected) Through Google
+								90 button Continue Setup
+							91 content list
+								92 link About, Value: bonanza.com/about_us
+								93 link Affiliates, Value: darwin.affiliatewindow.com/merchant-profile/6238
+								94 link API, Value: api.bonanza.com/
+								95 container
+									96 link Selling Blog, Value: bonanza.com/blog/selling
+									97 text  / 
+									98 link Shopping Blog, Value: bonanza.com/blog/shopping
+								99 link Contact, Value: support.bonanza.com/hc/en-us/requests/new
+								100 link Help, Value: support.bonanza.com/hc/en-us
+								101 link Legal, Value: bonanza.com/site_help/general/legal_content
+								102 link Partners, Value: bonanza.com/partners
+								103 link Press, Value: bonanza.com/press
+								104 link Webstores, Value: bonanza.com/webstores
+								105 link bCapital, Value: bcap.co/
+							106 content list
+								107 link Facebook, Value: facebook.com/shop.bmarketplace
+								108 link Twitter, Value: twitter.com/bonanzamarket
+								109 link Pinterest, Value: pinterest.com/bonanzamarket
+								110 link Instagram, Value: instagram.com/shop_bmarketplace
+							111 container
+								112 link United States / United States Dollar $, Value: bonanza.com/booths/Boldstone/activate#set_local
+								113 text Click to activate accessibility preferences
+								114 text 
+								115 text Accessibility preferences
+							116 content list
+								117 text SSL Secure Connection
+								118 link Better Business Bureau Accredited Business, Help: Bonanza.com, Internet Shopping, Seattle, WA, Value: bbb.org/western-washington/business-reviews/internet-shopping/bonanzacom-in-seattle-wa-22476619#bbbseal
+								119 link PayPal Buyer Protection, Value: paypal.com/my/cgi-bin/webscr?cmd=xpt/Marketing/securitycenter/buy/Protection-outside
+							120 content list
+								121 text © 2026 Bonanza. All Rights Reserved
+								122 link Cookies and Tracking, Value: bonanza.com/site_help/cookies_and_tracking_policy
+								123 link Accessibility, Value: bonanza.com/site_help/accessibility
+								124 link Privacy Policy, Value: bonanza.com/site_help/privacy_policy
+								125 link Terms of Use, Value: bonanza.com/site_help/user_agreement
+			126 pop-up button Tab search
+			127 container
+				128 tab group
+					129 tab (settable, boolean) Brand Application | Join Procurist Platform | Procurist, Value: off
+					130 tab (settable, boolean) Booth activation - Import Items, Value: off
+					131 tab group  group 🛍️ Catalogue platform updates – 1 Tab, •  Booth activation - Getting Started – Expanded
+					132 tab (selected, settable, boolean) Booth activation - Getting Started – Part of group 🛍️ Catalogue platform updates, Value: on
+					133 tab (settable, boolean) Products – Faire, Value: off
+					134 tab (settable, boolean) Gumtree | Free classified ads from the #1 classifieds site in the UK, Value: off
+					135 tab (settable, boolean) Sign in to your Supplier account | AppScenic, Value: off
+					136 tab (settable, boolean) Shoppe Object, Value: off
+					137 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					138 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					139 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					140 tab (settable, boolean) sell on wholesale central - Google Search, Value: off
+					141 tab (settable, boolean) Display Your Products to Millions of Buyers Worldwide., Value: off
+					142 tab (settable, boolean) become-a-seller-new | Wholesale Prices | Tradeling, Value: off
+					143 tab (settable, boolean) Marketplace FAQ for Sellers | Brandboom Help Center, Value: off
+					144 tab (settable, boolean) Online Sales FAQ - TICA, Value: off
+					145 tab (settable, boolean) Carro Migration FAQ, Value: off
+					146 tab (settable, boolean) Join Us | CREOATE, Value: off
+					147 tab (settable, boolean) Ankorstore | Wholesale Marketplace Home to Europe's Best Brands, Value: off
+					148 tab (settable, boolean) MOM - Sell your products, Value: off
+					149 tab (settable, boolean) See how virtual showrooms sell, Value: off
+					150 tab (settable, boolean) Wholesale Marketplace: Get Discovered by Retailers | NuORDER by Lightspeed, Value: off
+					151 tab (settable, boolean) Sell on Syncee, Value: off
+					152 tab (settable, boolean) Become a Spocket Supplier - Sell to 100,000+ Retailers Free, Value: off
+					153 tab (settable, boolean) Become a verified Avasam supplier, Value: off
+					154 tab (settable, boolean) Advertise Your Wholesale Business - Would you like to expand your business?, Value: off
+					155 tab (settable, boolean) eSources UK Help | Managing Your Supplier Profile, Value: off
+					156 tab (settable, boolean) Gift Wholesalers - Gift Shop Wholesalers, Value: off
+					157 tab (settable, boolean) Sell on Tesco Marketplace | Reach millions of UK shoppers, Value: off
+					158 tab (settable, boolean) RangeMe, Value: off
+					159 tab (settable, boolean) Art Gallery | Buy Original British Art Online, Value: off
+					160 tab (settable, boolean) Original art for sale, Value: off
+					161 tab (settable, boolean) 25+ Handmade Marketplaces for Artisans to Sell Crafts, Art, Gifts Online - MultiMerch, Value: off
+					162 tab (settable, boolean) 250+ Websites Directory for Artists to Sell Art Online, Value: off
+					163 tab (settable, boolean) My Listings — Dashboard | Chairish - High memory usage - 1.7 GB, Value: off
+			164 button New tab
+	165 close button
+	166 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	167 minimise button
+168 menu bar
+	169 Chrome
+	170 File
+	171 Edit
+	172 View
+	173 History
+	174 Bookmarks
+	175 Profiles
+	176 Tab
+	177 Window
+	178 Help
+
+The focused UI element is 26 HTML content Booth activation - Getting Started, URL: bonanza.com/booths/Boldstone/activate

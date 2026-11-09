@@ -1,0 +1,216 @@
+Window: "Product issues | Microsoft Advertising", App: Google Chrome.
+0 standard window Product issues | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, Secondary Actions: Raise, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/productissues?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+	1 container Product issues | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/productissues?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/productissues?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Product issues | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/productissues?aid=187335961&cid=255124527&storeId=50112622&uid=193182372
+						27 container
+							28 container Skip to main content
+								29 link Skip to main content, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/overview?aid=187335961&cid=255124527&storeId=50112622&uid=193182372#main
+							30 container global menu
+								31 button Microsoft Advertising
+								32 button Switch user accounts. Current selection: Boldstone (G1459Y2Q)
+								33 container
+									34 combo box (settable) Search Microsoft Advertising
+									35 button clear
+								36 button Copilot
+								37 button Notifications
+								38 button   Notifications
+								39 pop-up button Help
+								40 button New features
+								41 button Open account panel
+							42 container Banner message
+								43 text You need a primary payment method before your ads will run.
+								44 link Add a payment method now, Value: ads.microsoft.com/cc/PaymentMethods?aid=187335961&cid=255124527&uid=193182372&showTaxForm=False
+							45 tab group
+								46 tab (settable, integer) Campaigns, Value: 0
+								47 tab (settable, integer) Conversions, Value: 0
+								48 tab (settable, integer) Ads Studio, Value: 0
+								49 tab (settable, integer) Import, Value: 0
+								50 tab (settable, integer) Reporting, Value: 0
+								51 tab (selected) Merchant Center, Value: 1
+								52 tab (settable, integer) Billing, Value: 0
+								53 tab (settable, integer) Settings, Value: 0
+								54 tab (settable, integer) Tools, Value: 0
+							55 container breadcrumb
+								56 content list
+									57 button All stores
+									58 button (disabled) Boldstone Sculpture
+							59 container
+								60 button Overview
+								61 button Collapse menu
+								62 button Diagnostics
+								63 button Products
+								64 button Feeds
+								65 button Import
+								66 button Promotions
+								67 button Settings
+							68 container
+								69 container
+									70 heading Diagnostics, Value: 1
+										71 text Diagnostics
+									72 tab group Sub page menu
+										73 tab (selected) Product issues 4, Value: 1
+										74 tab (settable, integer) Feed issues 0, Value: 0
+										75 tab (settable, integer) Store issues 0, Value: 0
+								76 container
+									77 link Learn more about product issues, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/productissues?aid=187335961&cid=255124527&storeId=50112622&uid=193182372#
+									78 toolbar Product issues report actions
+										79 button (disabled) Run report
+										80 button (disabled) Download report
+										81 progress indicator Running report
+									82 table Data
+										83 row Issue type Resize column (current width: 40px, double-click to reset to 40px) Product issue, sortable Resize column (current width: 380px, double-click to reset to 380px) Affected countries Resize column (current width: 200px, double-click to reset to 200px) Affected products, sortable Resize column (current width: 150px, double-click to reset to 150px)
+											84 column header
+												85 container
+													86 text Issue type
+													87 button Resize column (current width: 40px, double-click to reset to 40px), Help: Resize column (double-click to reset)
+											88 column header
+												89 container
+													90 pop-up button Product issue, sortable
+													91 button Resize column (current width: 380px, double-click to reset to 380px), Help: Resize column (double-click to reset)
+											92 column header
+												93 container
+													94 text Affected countries
+													95 button Resize column (current width: 200px, double-click to reset to 200px), Help: Resize column (double-click to reset)
+											96 column header
+												97 container
+													98 pop-up button Affected products, sortable
+													99 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+										100 container
+											101 row Error Click to view details page of product issue The offer does not meet our editorial guidelines. United States 2
+												102 cell
+													103 image Error
+												104 cell
+													105 button Click to view details page of product issue The offer does not meet our editorial guidelines., Help: EVRejectedErr
+												106 cell
+													107 text United States
+												108 cell
+													109 text 2
+											110 row Error Click to view details page of product issue The provided Image Url encountered issues. United States 15
+												111 cell
+													112 image Error
+												113 cell
+													114 button Click to view details page of product issue The provided Image Url encountered issues., Help: ImageCrawlingRejectedErr
+												115 cell
+													116 text United States
+												117 cell
+													118 text 15
+											119 row Error Click to view details page of product issue The offer was pending according to image crawling. United States 295
+												120 cell
+													121 image Error
+												122 cell
+													123 button Click to view details page of product issue The offer was pending according to image crawling., Help: ImageCrawlingPendingErr
+												124 cell
+													125 text United States
+												126 cell
+													127 text 295
+											128 row Error Click to view details page of product issue The offer is currently under manual review and is waiting for the final review status. It will replace the current active one when it is done. United States 13
+												129 cell
+													130 image Error
+												131 cell
+													132 button Help: EVManualPendingErr, Click to view details page of product issue The offer is currently under manual review and is waiting for the final review status. It will replace the current active one when it is done.
+												133 cell
+													134 text United States
+												135 cell
+													136 text 13
+									137 container Pagination
+										138 container
+											139 text Rows per page:
+											140 pop-up button Rows per page:, Value: 20
+												141 (selected) 20
+											142 text 1 of 1
+											143 button (disabled) previous page
+											144 button (disabled) next page
+									145 text © 2026 Microsoft
+									146 content list
+										147 link Legal, Value: ads.microsoft.com/tc.aspx
+										148 link Privacy & Cookies, Value: go.microsoft.com/fwlink/?LinkId=248681
+										149 link Advertise, Value: go.microsoft.com/fwlink/?LinkId=258668
+										150 link Developers, Value: go.microsoft.com/fwlink/?linkid=2333449
+										151 link Support, Value: go.microsoft.com/fwlink/?LinkId=258669
+										152 link Blog, Value: go.microsoft.com/fwlink/?LinkId=395064
+										153 link Community, Value: go.microsoft.com/fwlink/?linkid=2325500&clcid=0x409
+										154 link Consumer Health Privacy, Value: go.microsoft.com/fwlink/?linkid=2259814
+										155 button Help
+			156 pop-up button Tab search
+			157 container
+				158 tab group
+					159 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					160 tab group  group ✅Claude – 1 Tab, •  Product issues | Microsoft Advertising – Expanded
+					161 tab (selected, settable, boolean) Product issues | Microsoft Advertising – Part of group ✅Claude, Value: on
+					162 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					163 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					164 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					165 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					166 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					167 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					168 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					169 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					170 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					171 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					172 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					173 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					174 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					175 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					176 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					177 tab (settable, boolean) Meta Business Suite, Value: off
+					178 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					179 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					180 tab group  group ✅Claude – 1 Tab, •  Brands - Manufacturer Center – Expanded
+					181 tab (settable, boolean) Brands - Manufacturer Center – Part of group ✅Claude, Value: off
+					182 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					183 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					184 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					185 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.0 GB, Value: off
+					186 tab (settable, boolean) Boldstone · Review room, Value: off
+					187 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					188 tab (settable, boolean) Overview - Merchant Center, Value: off
+					189 tab (settable, boolean) Pinterest, Value: off
+			190 button New tab
+	191 close button
+	192 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	193 minimise button
+194 menu bar
+	195 Chrome
+	196 File
+	197 Edit
+	198 View
+	199 History
+	200 Bookmarks
+	201 Profiles
+	202 Tab
+	203 Window
+	204 Help
+
+The focused UI element is 26 HTML content Product issues | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/productissues?aid=187335961&cid=255124527&storeId=50112622&uid=193182372

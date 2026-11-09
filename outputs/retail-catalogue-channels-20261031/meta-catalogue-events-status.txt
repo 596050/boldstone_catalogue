@@ -1,0 +1,143 @@
+- link "Business Home":
+  - /url: https://business.facebook.com/home/?business_id=2380586078685156
+  - img "Meta logo"
+- generic: Commerce Manager
+- combobox "Products for Boldstone Sculpture (103781478537396)":
+  - generic: Products for Boldstone Sculpture (103781478537396)
+- navigation "Navigation":
+  - list:
+    - link "Overview":
+      - /url: https://business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+    - generic: Overview
+    - button "Catalogue" [expanded]
+    - generic: Catalogue
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Products":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/products/?business_id=2380586078685156
+      - generic: Products
+      - link "Sets":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/sets/?business_id=2380586078685156
+      - generic: Sets
+      - link "Data sources":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/data_sources/?business_id=2380586078685156
+      - generic: Data sources
+      - link "Events" [active]:
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/events/?business_id=2380586078685156
+      - generic: Events
+    - link "Image templates":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/templates/?business_id=2380586078685156
+    - generic: Image templates
+    - link "Product video creator":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/video_template_hub/?business_id=2380586078685156
+    - generic: Product video creator
+    - link "Shops":
+      - /url: https://business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+    - generic: Shops
+    - button "Promotions"
+    - generic: Promotions
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Offers":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/offers/?business_id=2380586078685156
+      - generic: Offers
+      - link "Marketing settings":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/mailing_list/?business_id=2380586078685156
+      - generic: Marketing settings
+    - button "Insights"
+    - generic: Insights
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Overview":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/overview/?business_id=2380586078685156
+      - generic: Overview
+      - link "Catalogue":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/products/?business_id=2380586078685156
+      - generic: Catalogue
+      - link "Performance":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/perf/?business_id=2380586078685156
+      - generic: Performance
+      - link "Audience":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/audience/?business_id=2380586078685156
+      - generic: Audience
+      - link "Tagged content":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/product_tagged_content/?business_id=2380586078685156
+      - generic: Tagged content
+      - link "Awareness":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/entry_points/?business_id=2380586078685156
+      - generic: Awareness
+    - link "To-do list":
+      - /url: https://business.facebook.com/commerce/326960679342026/to_do_list/?business_id=2380586078685156
+    - generic: To-do list
+    - link "Settings":
+      - /url: https://business.facebook.com/commerce/326960679342026/settings/general/?business_id=2380586078685156
+    - generic: Settings
+- navigation "all tools":
+  - list:
+    - button "All tools":
+    - generic: All tools
+- separator
+- list:
+  - button "Meta AI business assistant"
+  - generic: Meta AI business assistant
+- button "Help":
+- generic: Help
+- link "Business settings":
+  - /url: https://business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+  - generic: Business settings
+- button "Business notifications":
+  - generic: Business notifications
+- button:
+  - generic: "6"
+- button "Search":
+  - generic: Search
+- button "Collapse":
+  - generic: Collapse
+- navigation "Breadcrumb":
+  - heading "Events" [level=1]
+- toolbar:
+  - button "Analyse":
+    - generic: Analyse
+  - button "Manage datasets":
+    - generic: Manage datasets
+  - link "Create a new dataset":
+    - /url: /events_manager2/?business_id=2380586078685156
+    - generic: Create a new dataset
+- heading "Raise the match rate for Boldstone Sculpture Pixel" [level=4]
+- generic: None of the product interactions from this dataset match products in this catalogue. Interactions that don't match can't be tied to a product, so they can't help your ads show people the right products. Fix its issues to raise it.
+- text: "Top issue: ViewContent events weren't received in the last 7 days."
+- link "How to fix":
+  - /url: https://developers.facebook.com/docs/meta-pixel/support/pixel-helper
+- link "Learn more about catalogue match rate":
+  - /url: https://www.facebook.com/business/help/1183006658734497
+- separator
+- button "View issues":
+  - generic: View issues
+- grid "List of event sources connected to the catalogue":
+  - rowgroup:
+    - row "Dataset Catalogue match rate Status":
+      - columnheader "Dataset":
+        - heading "Dataset" [level=4]
+      - columnheader "Catalogue match rate":
+        - heading "Catalogue match rate" [level=4]
+      - columnheader "Status":
+        - heading "Status" [level=4]
+      - columnheader:
+        - heading [level=4]
+  - rowgroup:
+    - 'row "Boldstone Sculpture Pixel Dataset ID: 4566349726935061 0% 3 critical issues View"':
+      - 'gridcell "Boldstone Sculpture Pixel Dataset ID: 4566349726935061"':
+        - link "Boldstone Sculpture Pixel":
+          - /url: /commerce/catalogs/1638438493182970/events/sources/4566349726935061/
+          - generic: Boldstone Sculpture Pixel
+        - generic: "Dataset ID: 4566349726935061"
+      - gridcell "0%":
+        - generic: 0%
+      - gridcell "3 critical issues":
+        - generic: 3 critical issues
+      - gridcell "View":
+        - button "View":
+          - generic: View

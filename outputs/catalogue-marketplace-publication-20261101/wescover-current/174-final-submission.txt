@@ -1,0 +1,77 @@
+- navigation "Page navigation":
+  - button "Expand sidebar":
+  - link:
+    - /url: /creator/MSJZKJh9uMg/dashboard
+  - button:
+  - link:
+    - /url: /creator/MSJZKJh9uMg/pricing-manager
+  - button:
+  - link:
+    - /url: https://www.wescover.com/goto?creatorSid=MSJZKJh9uMg&gac=share
+  - link:
+    - /url: /creator/inbox
+  - button:
+  - button:
+  - link:
+    - /url: /logout?redirect=%2F
+- banner:
+  - link:
+    - /url: /
+  - navigation
+  - generic: Sally
+  - img "Sally"
+- heading "We've received your submission" [level=2]
+- paragraph:
+  - text: Please allow up to 24h for us to review and upload this submission. You can continue to edit your page while we are reviewing.
+  - button "Edit your page"
+- img "hero background"
+- heading "Increase traffic and get more inquiries from potential buyers." [level=2]
+- heading "List a price" [level=3]
+- paragraph: If you can’t provide an exact price, include a range or “starting at” price.
+- link "Add pricing":
+  - /url: /creator/MSJZKJh9uMg
+- heading "Set trade discounts" [level=3]
+- paragraph: Most trade members are looking for special pricing so they can pass on that benefit to their clients.
+- link "Add a Trade discount":
+  - /url: /creator/MSJZKJh9uMg/account?anchor=trade
+- heading "Tag items" [level=3]
+- paragraph: Add search term tags to all your items so that they’re easy to find and properly categorized.
+- link "Add Tags":
+  - /url: /creator/MSJZKJh9uMg
+- contentinfo:
+  - link:
+    - /url: /
+  - list:
+    - link "FAQ":
+      - /url: https://www.wescover.com/faq
+    - link "CONTACT US":
+      - /url: mailto:communication@wescover.com
+  - link "":
+    - /url: https://www.facebook.com/wescoverapp/
+    - generic: 
+  - link:
+    - /url: https://www.tiktok.com/@wescover.app
+  - link "":
+    - /url: https://instagram.com/wescoverapp
+    - generic: 
+  - link "© 2026 Wescover, Inc.":
+    - /url: https://www.wescover.com/about
+  - link "Privacy":
+    - /url: https://www.wescover.com/static/privacy
+  - link "Terms":
+    - /url: https://www.wescover.com/static/generalterms
+- button "Feedback - Show survey":
+  - generic: Feedback
+- region:
+  - heading: How would you rate your experience?
+  - generic: Select an option from 😠 to 😍, with 😠 being Hate and 😍 being Love
+  - radiogroup:
+    - radio
+    - radio
+    - radio
+    - radio
+    - radio
+    - generic: Hate
+    - generic: Love
+  - button [disabled]: Next
+- iframe [id="intercom-frame"]

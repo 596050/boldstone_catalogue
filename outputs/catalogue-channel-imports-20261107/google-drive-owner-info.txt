@@ -1,0 +1,234 @@
+Window: "My Drive - Google Drive", App: Google Chrome.
+0 standard window My Drive - Google Drive - Google Chrome – Tom, URL: drive.google.com/drive/u/0/my-drive, Secondary Actions: Raise
+	1 container My Drive - Google Drive - Google Chrome – Tom, URL: drive.google.com/drive/u/0/my-drive
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: drive.google.com/drive/u/0/my-drive, Placeholder: Ask Google or type a URL
+					10 button Install Google Drive
+					11 button Edit bookmark for this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content My Drive - Google Drive, URL: drive.google.com/drive/u/0/my-drive
+						28 container
+							29 container
+								30 button Skip to main content
+								31 button Keyboard shortcuts
+								32 button Accessibility feedback
+							33 container
+								34 link Drive, Value: drive.google.com/?tab=oo&authuser=0
+								35 container
+									36 container Search in Drive
+										37 text field (settable) Search in Drive
+									38 pop-up button Advanced search
+										39 image
+									40 button Search Google Drive
+								41 pop-up button Support
+									42 image
+								43 pop-up button Settings
+								44 toggle button Studio, Value: 0
+									45 image
+								46 container
+									47 button Google apps
+									48 button  Google Account: Sally Price (info@boldstone.co.uk)
+										49 button Google Account: Sally Price (info@boldstone.co.uk)
+							50 button New
+							51 container
+								52 container
+									53 heading Folders and views, Value: 2
+										54 text Folders and views
+									55 outline Folders and views
+										56 row Home
+											57 link Home
+												58 container Home
+													59 text Home
+										60 row Activity
+											61 link Activity
+												62 container Activity
+													63 text Activity
+										64 row Workspaces
+											65 link Workspaces
+												66 container Workspaces
+													67 text Workspaces
+										68 row (selected) My Drive Collapsed
+											69 link My Drive Collapsed
+												70 container My Drive
+													71 text My Drive
+												72 text Collapsed
+										73 row Shared drives Collapsed
+											74 link Shared drives Collapsed
+												75 container Shared drives
+													76 text Shared drives
+												77 text Collapsed
+										78 row Items shared with me
+											79 link Items shared with me
+												80 container Items shared with me
+													81 text Shared with me
+										82 row Recent items
+											83 link Recent items
+												84 container Recent items
+													85 text Recent
+										86 row Starred items
+											87 link Starred items
+												88 container Starred items
+													89 text Starred
+										90 row Spam
+											91 link Spam
+												92 container Spam
+													93 text Spam
+										94 row Trashed items
+											95 link Trashed items
+												96 container Trashed items
+													97 text Trash
+										98 row Storage
+											99 link Storage
+												100 container Storage
+													101 text Storage
+									102 progress indicator 6.59 GB used
+								103 container
+									104 button Admin console
+										105 container Admin console
+											106 link Admin console
+												107 container Admin console
+													108 text Admin console
+									109 progress indicator 6.59 GB of shared 30 GB used
+							110 container
+								111 pop-up button My Drive
+									112 text My Drive
+								113 toolbar
+									114 List or Grid layout (⌥V then L)
+										115 radio button List, Value: 0
+										116 radio button Grid, Value: 1
+									117 button View details (⌥V then D)
+								118 text No filters applied
+								119 toolbar Filters
+									120 container
+										121 pop-up button Type
+										122 pop-up button People
+										123 pop-up button Modified
+										124 pop-up button Source
+							125 container
+								126 table
+									127 button Sort by: A to Z
+									128 row Black outline Shared folder More info (Option + →) Block colours Shared folder More info (Option + →) ChatGPT Folder More info (Option + →) CNC Manufacturers Folder More info (Option + →) marketing Folder More info (Option + →) Photoshop files Folder More info (Option + →) product images Folder More info (Option + →) Reseller Products Folder More info (Option + →) Aldgate East Restaurant Google Slides More info (Option + →) Alys Beach Florida Interior Design Showroom and Designer contacts Google Docs More i
+										129 cell Black outline Shared folder More info (Option + →)
+										130 cell Block colours Shared folder More info (Option + →)
+										131 cell ChatGPT Folder More info (Option + →)
+										132 cell CNC Manufacturers Folder More info (Option + →)
+										133 cell marketing Folder More info (Option + →)
+										134 cell Photoshop files Folder More info (Option + →)
+										135 cell product images Folder More info (Option + →)
+										136 cell Reseller Products Folder More info (Option + →)
+										137 cell Aldgate East Restaurant Google Slides More info (Option + →)
+										138 cell Alys Beach Florida Interior Design Showroom and Designer contacts Google Docs More info (Option + →)
+										139 cell Backup of Boldstone Price List Google Sheets More info (Option + →)
+										140 cell Backup of Boldstone Price List Google Sheets More info (Option + →)
+										141 cell Boldstone _ Coastal Forms _ Inspiration Google Slides More info (Option + →)
+										142 cell Boldstone _ Coastal Forms _ Inspiration for Justina Jorgensen Google Slides More info (Option + →)
+										143 cell Boldstone _ INT00282 _ Joe Richards _ Revised Quotation _ 14 September 2026 Google Docs More info (Option + →)
+										144 cell Boldstone _ INT00282 _ Joe Richards _ Revised Quotation _ 14 September 2026 Google Docs More info (Option + →)
+										145 cell Boldstone _ Invoice Master Template Google Docs More info (Option + →)
+										146 cell Boldstone _ Quotation for Joe Richards _ Pattern 2.1 _ Draft _ 14 September 2026 Google Docs More info (Option + →)
+										147 cell BOLDSTONE 2026 OUTLINE PLAN Google Docs More info (Option + →)
+										148 cell Boldstone Brochure.pdf PDF More info (Option + →)
+										149 cell Boldstone Business Card Google Slides More info (Option + →)
+										150 cell Boldstone Collection Google Docs More info (Option + →)
+										151 cell Boldstone Collection Google Slides More info (Option + →)
+										152 cell Boldstone Collection Full Page Google Slides More info (Option + →)
+										153 cell Boldstone Collection.pdf PDF More info (Option + →)
+										154 cell Boldstone Contact List Google Sheets More info (Option + →)
+										155 cell Boldstone contact list (1).xlsx Microsoft Excel More info (Option + →)
+										156 cell Boldstone Existing Designs Price List 2025.pdf PDF More info (Option + →)
+										157 cell Boldstone Feedback California 2025 Google Docs More info (Option + →)
+										158 cell Boldstone Furnishings Price List Google Slides More info (Option + →)
+										159 cell Boldstone Furniture and Objects Google Slides More info (Option + →)
+										160 cell Boldstone Partner Terms Google Docs More info (Option + →)
+										161 cell Boldstone Price List Google Sheets More info (Option + →)
+										162 cell Boldstone Prints & Paintings Google Slides More info (Option + →)
+										163 cell Boldstone Prints & Paintings.pdf PDF More info (Option + →)
+										164 cell Boldstone Quote Joe Richards Google Docs More info (Option + →)
+										165 cell BOLDSTONE Website changes December 2025 Google Docs More info (Option + →)
+										166 cell Boldstone_Invoice_Joe_Richards_INT00282 Google Docs More info (Option + →)
+										167 cell Boldstone_Verdigris_Ripple_Wave_Quotation_Peter Google Docs More info (Option + →)
+										168 cell Boldstone_Wall_Sculpture_Input_Costing.xlsx Microsoft Excel More info (Option + →)
+										169 cell Boldstone_Website_Sales_Conditions_Change_Pack Google Docs More info (Option + →)
+										170 cell BoldstoneEamilHeader.psd Image More info (Option + →)
+										171 cell Brochure Google Docs More info (Option + →)
+										172 cell catalog_products Google Sheets More info (Option + →)
+										173 cell Contact Submissions For Squarespace boldstone.co.uk Google Sheets More info (Option + →)
+										174 cell Copy of SCULPTURE TRADE PRICE List 2025.docx Google Docs More info (Option + →)
+										175 cell DECOREX 23 Application Form (010).docx Microsoft Word More info (Option + →)
+										176 cell Echo Pattern and Fingerprint 3 & 4 Series of 1 & 2 Google Slides More info (Option + →)
+										177 cell Echo Pattern and Fingerprint Series Google Slides More info (Option + →)
+										178 cell Echo Pattern and Fingerprint Series 1 & 2 Google Slides More info (Option + →)
+							179 container Side panel
+								180 tab group
+									181 tab (settable, integer) Calendar, Value: 0
+									182 tab (settable, integer) Keep, Value: 0
+									183 tab (settable, integer) Tasks, Value: 0
+									184 tab (settable, integer) Contacts, Value: 0
+									185 tab (settable, integer) Get Add-ons, Value: 0
+							186 button Hide side panel
+							187 text Get notifications on your desktop for shared files and important events
+							188 button Turn on
+							189 button Dismiss
+							190 text More actions
+			191 pop-up button Tab search
+			192 container
+				193 tab group
+					194 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					195 tab group  group ✅Claude – 1 Tab, •  Import | Microsoft Advertising – Expanded
+					196 tab (settable, boolean) Import | Microsoft Advertising – Part of group ✅Claude, Value: off
+					197 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					198 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					199 tab (settable, boolean) Boldstone Sculpture | Boldstone Wall Sculptures, Value: off
+					200 tab (settable, boolean) Portela Nova | A slower kind of stay, Value: off
+					201 tab (settable, boolean) Pinterest, Value: off
+					202 tab (settable, boolean) Get started with retail catalogs | Pinterest Business help, Value: off
+					203 tab (settable, boolean) [TEMPLATE - COPY] Pinterest Catalog Data source Google Sheet Template - Google Sheets, Value: off
+					204 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					205 tab (settable, boolean) All products - Merchant Center, Value: off
+					206 tab (selected, settable, boolean) My Drive - Google Drive, Value: on
+						207 button Close
+			208 button New tab
+	209 close button
+	210 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	211 minimise button
+212 menu bar
+	213 Chrome
+	214 File
+	215 Edit
+	216 View
+	217 History
+	218 Bookmarks
+	219 Profiles
+	220 Tab
+	221 Window
+	222 Help
+
+The focused UI element is 125 container

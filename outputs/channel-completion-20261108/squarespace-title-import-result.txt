@@ -1,0 +1,102 @@
+Window: "Wall Sculpture & Sculptural Furnishings | Boldstone, UK", App: Google Chrome.
+0 standard window Wall Sculpture & Sculptural Furnishings | Boldstone, UK - Google Chrome – Tom, URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Secondary Actions: Raise
+	1 container Wall Sculpture & Sculptural Furnishings | Boldstone, UK - Google Chrome – Tom, URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Wall Sculpture & Sculptural Furnishings | Boldstone, UK, URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical
+						27 container
+							28 container Website pages and features
+							29 container
+								30 container
+									31 button Back
+									32 heading Import Squarespace CSV, Value: 2
+										33 text Import Squarespace CSV
+									34 button file upload: No file chosen
+									35 text squarespace-finish-titles.csv
+									36 text 0.19MB
+									37 button REMOVE
+									38 button REMOVE
+									39 text For an example of how to format your CSV, download the 
+									40 link Squarespace CSV Template, Value: assets.squarespace.com/universal/commerce/product_import-v3.csv
+									41 text .
+									42 text Update Product Quantities
+									43 Tick box Update Product Quantities, Value: 0
+									44 text Uncheck this if you haven't made any changes to the stock levels in your CSV. 
+									45 link Learn More, Value: support.squarespace.com/hc/articles/206540527#toc-bulk-edit-products
+			46 pop-up button Tab search
+			47 container
+				48 tab group
+					49 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					50 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					51 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					52 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					53 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					54 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					55 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					56 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					57 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					58 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					59 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					60 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					61 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					62 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					63 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					64 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					65 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					66 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					67 tab (settable, boolean) Meta Business Suite, Value: off
+					68 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					69 tab (settable, boolean) Meta Business Suite, Value: off
+					70 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					71 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					72 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					73 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					74 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					75 tab (selected, settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: on
+			76 button New tab
+	77 close button
+	78 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	79 minimise button
+80 menu bar
+	81 Chrome
+	82 File
+	83 Edit
+	84 View
+	85 History
+	86 Bookmarks
+	87 Profiles
+	88 Tab
+	89 Window
+	90 Help
+
+The focused UI element is 31 button Back

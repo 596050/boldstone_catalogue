@@ -1,0 +1,56 @@
+ "Review fees":
+  - heading "Review fees" [level=2]
+  - button "Close" [active]:
+  - generic: 111 listings to submit
+  - generic: "Estimated selling fees: £0.00"
+  - generic: Listing fee
+  - generic: £0.00
+  - text: For sales outside of the UK,
+  - link "fees apply":
+    - /url: https://www.ebay.co.uk/help/selling/fees-credits-invoices/selling-fees?id=4822
+  - text: .
+  - link "Ads fees":
+    - /url: https://www.ebay.co.uk/help/selling/fees-credits-invoices/selling-fees?id=4822
+  - text: may apply. No
+  - link "transaction fees":
+    - /url: https://www.ebay.co.uk/help/selling/fees-credits-invoices/fees-private-sellers?id=4822
+  - text: will be applied.
+  - text: By selecting Submit with displayed fees, you agree to pay the above fees, accept the
+  - link "eBay User Agreement":
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+  - text: ","
+  - link "Payments Terms of Use":
+    - /url: https://pages.ebay.co.uk/payment/2.0/terms.html
+  - text: and
+  - link "Marketing Terms of Service":
+    - /url: https://pages.ebay.co.uk/sell/pl/termsofservice.html
+  - text: ", acknowledge reading the"
+  - link "User Privacy Notice":
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+  - text: ", agree to offer products and services that comply with all applicable laws, and assume full responsibility for the items offered and the content of your listings."
+  - text: By using Simple Delivery, you agree to the
+  - link "eBay delivery Terms and Conditions":
+    - /url: https://pages.ebay.co.uk/shipping/delivery/seller-tnc.html
+  - button "Cancel"
+  - button "Submit with displayed fees"
+- contentinfo:
+  - text: Copyright © 1995-2026 eBay Inc. All Rights Reserved.
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+    - text: User Agreement
+  - text: ","
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+    - text: Privacy
+  - text: ","
+  - link:
+    - /url: https://pages.ebay.co.uk/payment/2.0/terms.html
+    - text: Payments Terms of Use
+  - text: ","
+  - link:
+    - /url: https://www.ebay.co.uk/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+    - text: Cookies
+  - text: and
+  - link:
+    - /url: https://www.ebay.co.uk/adchoice
+    - text: AdChoice

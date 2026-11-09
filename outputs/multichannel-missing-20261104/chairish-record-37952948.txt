@@ -1,0 +1,517 @@
+Window: "Vintage & Used Furniture and Decor | Chairish", App: Google Chrome.
+0 standard window Vintage & Used Furniture and Decor | Chairish - Google Chrome – Tom, URL: chairish.com/product/37952948/update, Secondary Actions: Raise
+	1 container Vintage & Used Furniture and Decor | Chairish - Google Chrome – Tom, URL: chairish.com/product/37952948/update
+		2 container
+			3 toolbar
+				4 button Back
+				5 button Reload
+				6 container
+					7 pop-up button View site information
+					8 text field (settable) Address and search bar, Value: chairish.com/product/37952948/update, Placeholder: Ask Google or type a URL
+					9 button Bookmark this tab
+				10 pop-up button Extensions
+				11 pop-up button Hidden toolbar buttons
+				12 pop-up button Relaunch to update
+			13 container
+				14 scroll area
+					15 HTML content Vintage & Used Furniture and Decor | Chairish, URL: chairish.com/product/37952948/update
+						16 container
+							17 link Close, Value: chairish.com/product/list
+							18 button Submit Changes
+							19 container
+								20 text All submissions are subject to the 
+								21 link Chairish Terms of Service, Help: Chairish Terms of Service (opens in new window), Value: support.chairish.com/hc/en-us/articles/115007071507
+							22 container
+								23 Unlabelled image To get missing image descriptions, open the context menu.
+								24 content list
+									25 container
+										26 text 1 BASICS
+									27 container
+										28 text 2 DETAILS
+									29 container
+										30 text 3 LOGISTICS
+							31 container
+								32 content list
+									33 link My Listings, Value: chairish.com/product/list
+									34 link FAQs, Help: FAQs (opens in new window), Value: support.chairish.com/hc/en-us/sections/115001866348
+								35 container
+									36 text 
+									37 container
+										38 image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-9113?aspect=fit&size=800
+										39 image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-9134?aspect=fit&size=800
+										40 image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-4989?aspect=fit&size=800
+										41 image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-3009?aspect=fit&size=800
+										42 image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-4291?aspect=fit&size=800
+										43 image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-5247?aspect=fit&size=800
+										44 image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-2643?aspect=fit&size=800
+										45 image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-2856?aspect=fit&size=800
+										46 image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-3052?aspect=fit&size=800
+										47 image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-0631?aspect=fit&size=800
+										48 image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-6813?aspect=fit&size=800
+								49 container
+									50 content list
+										51 text 1
+									52 container
+										53 heading The Basics, Value: 2
+											54 text The Basics
+										55 text Listing name, photos, product description
+									56 container LISTING INFO A few descriptive words to help buyers find your item.
+										57 container
+											58 text LISTING INFO A few descriptive words to help buyers find your item.
+										59 container
+											60 text Title of your listing
+											61 text field (settable) Title of your listing, Value: Boldstone Frozen Deco Wave II - White Wall Sculpture, Placeholder: Enter the title of your listing
+											62 text (e.g., Mid-Century Modern Walnut Coffee Table)
+										63 container
+											64 text Category
+											65 text field (settable) Category, Placeholder: Select from list or start typing
+											66 container
+												67 text Fine Art > Sculpture 
+									68 container PHOTOS Add between 2 and 18 photos of your item.
+										69 container
+											70 text PHOTOS Add between 2 and 18 photos of your item.
+										71 container
+											72 text Photography Tips  >
+										73 container
+											74 Unlabelled image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-9113?aspect=fit&size=800
+											75 button Delete image
+											76 container
+												77 button Upload image: No file chosen
+												78 text Upload image
+											79 text Primary
+											80 Unlabelled image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-9134?aspect=fit&size=800
+											81 button Delete image
+											82 container
+												83 button Upload image: No file chosen
+												84 text Upload image
+											85 Unlabelled image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-4989?aspect=fit&size=800
+											86 button Delete image
+											87 container
+												88 button Upload image: No file chosen
+												89 text Upload image
+											90 Unlabelled image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-3009?aspect=fit&size=800
+											91 button Delete image
+											92 container
+												93 button Upload image: No file chosen
+												94 text Upload image
+											95 Unlabelled image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-4291?aspect=fit&size=800
+											96 button Delete image
+											97 container
+												98 button Upload image: No file chosen
+												99 text Upload image
+											100 Unlabelled image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-5247?aspect=fit&size=800
+											101 button Delete image
+											102 container
+												103 button Upload image: No file chosen
+												104 text Upload image
+											105 Unlabelled image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-2643?aspect=fit&size=800
+											106 button Delete image
+											107 container
+												108 button Upload image: No file chosen
+												109 text Upload image
+											110 Unlabelled image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-2856?aspect=fit&size=800
+											111 button Delete image
+											112 container
+												113 button Upload image: No file chosen
+												114 text Upload image
+											115 Unlabelled image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-3052?aspect=fit&size=800
+											116 button Delete image
+											117 container
+												118 button Upload image: No file chosen
+												119 text Upload image
+											120 Unlabelled image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-0631?aspect=fit&size=800
+											121 button Delete image
+											122 container
+												123 button Upload image: No file chosen
+												124 text Upload image
+											125 Unlabelled image /boldstone-frozen-deco-wave-ii-white-wall-sculpture-6813?aspect=fit&size=800
+											126 button Delete image
+											127 container
+												128 button Upload image: No file chosen
+												129 text Upload image
+											130 container
+												131 button Upload image ADD UP TO 18 PHOTOS Or drag and drop photos here: No file chosen
+												132 text Upload image ADD UP TO 18 PHOTOS Or drag and drop photos here
+									133 container DESCRIPTION Tell us your item's story, description, history, and why you love it so much!
+										134 container
+											135 text DESCRIPTION Tell us your item's story, description, history, and why you love it so much!
+										136 container
+											137 text Writing Tips  >
+										138 text entry area (settable) Enter product description, Value: A wave motif becomes a rhythmic, decorative relief, balancing flowing curves with a clear, graphic shape. Light and shadow give its surface movement throughout the day.
+
+The feeling is coastal with an Art Deco inflection: a small escape into the rhythm of the sea.
+
+The white finish keeps the focus on the form and its changing shadows.
+
+This Boldstone wall sculpture is sold individually. Other sculptures and room props shown are not included. Made from a gypsum-based material. This is one piece of a coordinating pair with Frozen Deco Wave I. Companion sculptures are sold separately; this listing is for one sculpture only. All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price. The dimensions are 90 cm high × 15 cm wide × 8 cm deep. The stated weight is approximately 8–10 kg per panel. Suitable for outdoor use and indoor display. Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall. Dispatch is within 3 working days. Delivery transit time is additional., Placeholder: Writer's block? Start with the basics and describe things like your item's color and construction materials.
+								139 container
+									140 content list
+										141 text 2
+									142 container
+										143 heading The Details, Value: 2
+											144 text The Details
+										145 text Age, size, condition, colors and more
+									146 container FEATURES Every detail you add will help buyers find your unique item.
+										147 container
+											148 text FEATURES Every detail you add will help buyers find your unique item.
+										149 container
+											150 text Add one from the fields below or select Unknown
+											151 text 
+											152 text Unknown
+										153 container
+											154 text Styles
+											155 text field (settable) Styles, Placeholder: Select from list or start typing, e.g. Mid-Century Modern
+											156 container
+												157 text Art Deco 
+											158 container
+												159 text Contemporary 
+										160 container
+											161 text Materials
+											162 text field (settable) Materials, Placeholder: Select from list or start typing, e.g. Walnut
+											163 container
+												164 text Sculpture Materials > Plaster 
+										165 container
+											166 text Does this product require a Prop 65 Warning? 
+											167 text 
+											168 radio button Yes, Value: 0
+											169 radio button No, Value: 0
+											170 radio button I don't know, Value: 1
+										171 container PRIMARY STONE
+											172 text PRIMARY STONE
+										173 container DIAMOND CLARITY & DIAMOND COLOR
+											174 text DIAMOND CLARITY & DIAMOND COLOR
+										175 container
+											176 text Dominant Color
+											177 text field (settable) Dominant Color, Placeholder: Please select only one Dominant Color
+											178 container
+												179 text White 
+											180 container
+												181 text Accent Colors (Optional)
+											182 text field (settable) Accent Colors (Optional), Placeholder: Please select up to three Accent Colors
+										183 container
+											184 text Art Subjects
+											185 text field (settable) Art Subjects, Placeholder: Select from list or start typing, e.g. Cityscape
+											186 container
+												187 text Abstract 
+										188 container
+											189 text Country of Origin
+											190 pop-up button Country of Origin, Value: United Kingdom
+												191 (selected) United Kingdom
+									192 container DIMENSIONS Enter edge-to-edge dimensions. If listing a set/pair, enter dimensions for a single piece.
+										193 container
+											194 text DIMENSIONS Enter edge-to-edge dimensions. If listing a set/pair, enter dimensions for a single piece.
+										195 container
+											196 text Pro Tips  >
+										197 container
+											198 text Width
+											199 container
+												200 stepper (settable, float) Width, Value: 5.91, Placeholder: 36
+												201 text in
+											202 text Depth
+											203 container
+												204 stepper (settable, float) Depth, Value: 3.15, Placeholder: 36
+												205 text in
+											206 text Height
+											207 container
+												208 stepper (settable, float) Height, Value: 35.43, Placeholder: 36
+												209 text in
+									210 container CONDITION Be open and honest - accurately described items are less likely to be returned.
+										211 container
+											212 text CONDITION Be open and honest - accurately described items are less likely to be returned.
+										213 container
+											214 text Period Made
+											215 pop-up button Period Made, Value: 2020s
+												216 (selected) 2020s
+											217 text You cannot select 21st century as a Period Made for items where Country of Origin is unknown.
+										218 container
+											219 text Year Made  (Optional)
+											220 stepper (settable) Year Made (Optional), Placeholder: 1961
+										221 container
+											222 text What type of item is it?
+											223 content list
+												224 container
+													225 text Vintage / Antique / Used
+												226 container
+													227 text Not Used
+										228 container
+											229 text Does it have imperfections?
+											230 content list
+												231 container
+													232 text No Imperfections The item is new and unused. Any imperfections are due to it being handmade, intentionally distressed, or newly made with vintage components.
+												233 container
+													234 text Some Imperfections The item may have signs of aging, fading, or use (however minor), such as scratches, dings, and scuff marks.
+										235 container
+											236 text This item has been discontinued (Discontinued items are no longer in production)
+										237 container
+											238 text Condition Details
+											239 text entry area (settable) Condition Details, Placeholder: Please provide any additional details about the item's condition.
+								240 container
+									241 content list
+										242 text 3
+									243 container
+										244 heading The Logistics, Value: 2
+											245 text The Logistics
+										246 text Set your price, inventory quantity, and selling preferences
+									247 container
+										248 container PRICE A fair price is more likely to attract buyers!
+											249 container
+												250 text PRICE A fair price is more likely to attract buyers!
+											251 container
+												252 text Pricing Tips  >
+											253 container
+												254 text Asking Price
+												255 container
+													256 text $
+													257 stepper (settable, float) Asking Price, Value: 80
+												258 container
+													259 text You Earn:  $48
+												260 text Asking Price is the price that will be displayed to buyers.
+											261 container
+												262 text Reserve Discount
+												263 text Set Reserve
+												264 pop-up button Set Reserve, Value: 20%
+													265 (selected) 20%
+												266 container
+													267 text Reserve Price:  $64
+												268 container
+													269 text You Earn:  $38
+												270 container
+													271 text Your minimum accepted price. Offers at or above this price will be automatically accepted; all other offers will need your approval. 
+													272 link See examples about Reserve Discount, Help: See examples (opens in new window), Value: support.chairish.com/hc/en-us/articles/115006620468-Reserve-Price
+												273 text Reserve Price
+												274 text $0
+												275 text List Price:
+												276 text $80
+												277 text Auto Offer-Accept & Private Offer Range
+												278 text Auction Reserve Discount
+												279 text Set Minimum
+												280 pop-up button Set Minimum, Value: 40%
+													281 (selected) 40%
+												282 container
+													283 text Auction Reserve Price:  $48
+												284 container
+													285 text You Earn:  $38 - $80+
+												286 text Your Auction Reserve Price is automatically calculated based on your item's reserve discount so your payout is the same whether it sells at auction or on Chairish.com. Items are eligible for auction after being listed on Chairish for 180 days.
+												287 container
+													288 text Auction Priority:  Low 
+												289 container
+													290 text Higher discounts receive priority for curated auction selection.  Increase your discount to 80%+  for priority selection and exposure to 31M+ additional buyers for faster sales.
+												291 container
+													292 text   Trade Discount  (visible to trade members only)
+												293 container
+													294 text Set Net
+													295 pop-up button Set Net, Value: 12%
+														296 (selected) 12%
+													297 text Net Price:  $70 You Earn:  $42
+												298 container
+													299 text Trade discounts are only displayed to registered design professionals. A typical trade discount is 12-20%. 
+													300 link Learn more about Trade Discount, Help: Learn more (opens in new window), Value: support.chairish.com/hc/en-us/articles/115013529988-Pricing-Offering-Net-Pricing-to-Trade-Members
+												301 container
+													302 text Estimated Retail Price  (Optional)
+												303 container
+													304 text $
+													305 stepper (settable) Estimated Retail Price (Optional)
+											306 container
+												307 text Unit Type
+												308 pop-up button Unit Type, Value: Item
+													309 (selected) Item
+												310 text Are you selling a single item, a set or pair, etc.?
+												311 text Number of pieces included
+												312 stepper (settable, float) Number of pieces included, Value: 1
+												313 text 4 chairs and a table = 5 pieces.
+									314 container INVENTORY COUNT How many times can you sell this item/set?
+										315 container
+											316 text INVENTORY COUNT How many times can you sell this item/set?
+										317 container
+											318 text Inventory Count
+											319 stepper (settable, float) Inventory Count, Value: 1
+										320 container
+											321 text SKU  (Optional)
+											322 text field (settable) SKU (Optional), Value: BOLD-837E9B0B3B36
+											323 text If you use a SKU for your business, add it here for your reference - buyers won't see it
+									324 container SHIPPING DIMENSIONS Enter if you can fold, roll, disassemble, or pack your item to be smaller
+										325 container
+											326 text SHIPPING DIMENSIONS Enter if you can fold, roll, disassemble, or pack your item to be smaller
+										327 container
+											328 text Width
+											329 container
+												330 stepper (settable) Width, Placeholder: 36
+												331 text in
+											332 text Depth
+											333 container
+												334 stepper (settable) Depth, Placeholder: 36
+												335 text in
+											336 text Height
+											337 container
+												338 stepper (settable) Height, Placeholder: 36
+												339 text in
+									340 container PICKUP ADDRESS
+										341 text PICKUP ADDRESS
+										342 container
+											343 text Country
+											344 pop-up button Country, Value: United Kingdom
+												345 (selected) United Kingdom
+										346 container
+											347 text Name
+											348 text field (settable) Name, Value: Sally Price
+										349 container
+											350 text Address
+											351 text field (settable) Address, Value: Midford Road, Placeholder: Street address
+										352 container
+											353 text City
+											354 text field (settable) City, Value: Bath
+										355 container
+											356 text Region
+											357 pop-up button Region, Value: Bath and North East Somerset
+												358 (selected) Bath and North East Somerset
+										359 container
+											360 text Zip Code
+											361 text field (settable) Zip Code, Value: BA2, Placeholder: ZIP Code
+										362 container
+											363 text Phone Number
+											364 telephone (settable) Phone Number, Value: +44 7766 763566, Placeholder: Phone number
+									365 container SHIPPING & PACKING
+										366 text SHIPPING & PACKING
+										367 container
+											368 text Pro Tips  >
+										369 container
+											370 text How would you like to handle shipping?
+											371 content list
+												372 container
+													373 text Recommended for you
+													374 text Arrange my own shipping
+											375 text International shipment must be arranged by seller only
+										376 container SIZE OPTIONS
+											377 text SIZE OPTIONS
+											378 container
+												379 text What size is your item?
+												380 content list
+													381 container
+														382 text Recommended for you
+														383 text Fits into a box
+														384 text Item cannot exceed 150 pounds, 108 inches in length, or 165 inches in length plus girth.
+													385 container
+														386 text Too big to fit into a box Item exceeds 150 pounds, 108 inches in length, or 165 inches in length plus girth.
+												387 text International shipment must be arranged by seller only
+										388 container
+											389 text Will you charge for shipping?
+											390 content list
+												391 container
+													392 text I will offer free shipping
+												393 container
+													394 text I will charge for shipping Enter a parcel shipping cost:
+													395 content list
+														396 container
+															397 AXListMarker ◦ 
+															398 text Include all costs associated with packing, shipping, taxes, duties, and fees.
+														399 container
+															400 AXListMarker ◦ 
+															401 text Cover the cost of shipping to the farthest point in the lower 48-US States.
+														402 container
+															403 AXListMarker ◦ 
+															404 text Costs cannot be adjusted after an order is processed.
+													405 container
+														406 text Shipping Charge $
+														407 stepper (settable, float) Shipping Charge, Value: 225
+													408 text Please carefully choose the shipping cost. High shipping charges can be a deterrent for buyers.
+								409 container
+									410 text Listing is currently 
+									411 text Pending Review
+									412 button SUBMIT CHANGES
+									413 text All submissions are subject to the 
+									414 link Chairish Terms of Service, Help: Chairish Terms of Service (opens in new window), Value: support.chairish.com/hc/en-us/articles/115007071507
+							415 link 4.41 out of 5 stars 4.41 avg. from 33168 Verified Reviews, Help: Verified Reviews (opens in new window), Value: chairish.com/pages/reviews
+							416 container
+								417 heading NEED HELP?, Value: 4
+									418 text NEED HELP?
+								419 content list
+									420 link Help Center, Help: Help Center (opens in new window), Value: support.chairish.com/hc/en-us
+									421 button Send Feedback
+									422 link Contact Us, Help: Contact Us (opens in new window), Value: support.chairish.com/hc/en-us/articles/115006515948-Contact-Chairish
+									423 link Return Policy, Help: Return Policy (opens in new window), Value: support.chairish.com/hc/en-us/sections/115001855147-Cancellations-Returns
+									424 link Shipping Policy, Help: Shipping Policy (opens in new window), Value: support.chairish.com/hc/en-us/sections/115003461428-Pickup-and-Delivery
+									425 link Pink Book Pricing Guide, Value: chairish.com/pinkbook
+									426 link Accessibility, Help: Accessibility (opens in new window), Value: support.chairish.com/hc/en-us/articles/360034477113
+							427 container
+								428 heading FOR BUYERS, Value: 4
+									429 text FOR BUYERS
+								430 content list
+									431 link Buyer FAQ, Help: Buyer FAQ (opens in new window), Value: support.chairish.com/hc/en-us/categories/115001048347-Buying
+									432 link Trade Program, Help: Trade Program (opens in new window), Value: chairish.com/trade
+								433 heading FOR SELLERS, Value: 4
+									434 text FOR SELLERS
+								435 content list
+									436 link Consign with Us, Value: chairish.com/pages/consign-with-us
+									437 link Seller FAQ, Value: support.chairish.com/hc/en-us/categories/115001052668-Selling-on-Chairish
+							438 container
+								439 heading SHOP, Value: 4
+									440 text SHOP
+								441 content list
+									442 link Shop by Style, Value: chairish.com/style/list
+									443 link Shop by Brand, Value: chairish.com/maker/list
+									444 link Categories by Region, Value: chairish.com/shop/list/by-region-and-category
+									445 link Sellers by Region, Value: chairish.com/shop/list/by-region
+									446 link Shop by Room, Value: chairish.com/room/list
+							447 container
+								448 heading OUR COMPANY, Value: 4
+									449 text OUR COMPANY
+								450 content list
+									451 link About Us, Value: chairish.com/pages/about-us
+									452 link Leadership, Help: Leadership (opens in new window), Value: auctiontechnologygroup.com/about-us/leadership-board/
+									453 link Careers, Help: Careers (opens in new window), Value: auctiontechnologygroup.com/careers/
+									454 link Press, Value: support.chairish.com/hc/en-us/articles/115006637368
+									455 link Scholarship, Value: chairish.com/pages/scholarship
+									456 link Chairish Resale Report, Value: chairish.com/resale-report
+							457 container
+								458 heading THE CHAIRISH BLOG, Value: 4
+									459 text THE CHAIRISH BLOG
+								460 content list
+									461 link Decorating guides, designer tips, home tours, and more!, Help: Decorating guides, designer tips, home tours, and more! (opens in new window), Value: chairish.com/blog/
+								462 heading THE CHAIRISH APP, Value: 4
+									463 text THE CHAIRISH APP
+								464 content list
+									465 link For iPhone, iPad, and Android, Help: For iPhone, iPad, and Android (opens in new window), Value: chairish.com/app
+								466 link Get The App, Help: Get the App (opens in new window), Value: chairish.com/get-the-app
+								467 text  Scan the QR code to download the app!
+							468 container
+								469 text  Newsweek Best Online Shops  USA Today Readers' Choice  Goldman Sachs Intriguing Entrepreneurs  Newsweek Best Trending Online Shops
+							470 container
+								471 content list
+									472 link , Help: Instagram (opens in new window), Value: instagram.com/chairishco
+									473 link , Help: Facebook (opens in new window), Value: facebook.com/chairishco
+									474 link , Help: Pinterest (opens in new window), Value: pinterest.com/chairishco
+									475 link , Help: Twitter (opens in new window), Value: twitter.com/chairishco
+								476 content list
+									477 container
+										478 text © 2026 Chairish, Inc. All rights reserved.
+										479 link Privacy Policy, Help: Privacy Policy (opens in new window), Value: support.chairish.com/hc/en-us/articles/115007232828
+										480 text  | 
+										481 link Terms of Service, Help: Terms of Service (opens in new window), Value: support.chairish.com/hc/en-us/articles/115007071507
+										482 text  | 
+										483 link Do Not Sell My Info, Help: Do Not Sell My Info (opens in new window), Value: chairish.com/pages/privacy-request
+										484 text  |  Manage Cookies
+									485 text 548 Market Street Suite 69473 San Francisco, CA 94104
+			486 pop-up button Tab search
+			487 container
+				488 tab group
+					489 tab (settable, boolean) (6557) Inside the Pentagon's Anomaly Office | Reality Check - YouTube, Value: off
+						490 button Close
+					491 tab (selected, settable, boolean) Vintage & Used Furniture and Decor | Chairish, Value: on
+						492 button Close
+			493 button New tab
+	494 close button
+	495 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	496 minimise button
+497 menu bar
+	498 Chrome
+	499 File
+	500 Edit
+	501 View
+	502 History
+	503 Bookmarks
+	504 Profiles
+	505 Tab
+	506 Window
+	507 Help
+
+The focused UI element is 15 HTML content Vintage & Used Furniture and Decor | Chairish, URL: chairish.com/product/37952948/update

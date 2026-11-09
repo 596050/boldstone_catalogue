@@ -1,0 +1,144 @@
+Window: "Boldstone Acanthus Bloom - White Wall sculpture | Furnitures", App: Google Chrome.
+0 standard window Boldstone Acanthus Bloom - White Wall sculpture | Furnitures - Google Chrome – Tom, URL: furnitures.co.uk/product/boldstone-acanthus-bloom-white-wall-sculpture, Secondary Actions: Raise
+	1 container Boldstone Acanthus Bloom - White Wall sculpture | Furnitures - Google Chrome – Tom, URL: furnitures.co.uk/product/boldstone-acanthus-bloom-white-wall-sculpture
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: furnitures.co.uk/product/boldstone-acanthus-bloom-white-wall-sculpture, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Boldstone Acanthus Bloom - White Wall sculpture | Furnitures, URL: furnitures.co.uk/product/boldstone-acanthus-bloom-white-wall-sculpture
+						27 container
+							28 text Free UK delivery on orders over £500  ·  30-day returns  · 
+							29 link Sell on Furnitures, Value: furnitures.co.uk/sell
+							30 link Furnitures., Value: furnitures.co.uk/
+							31 container
+								32 link Shop All, Value: furnitures.co.uk/shop
+								33 link Lighting, Value: furnitures.co.uk/shop?category=lighting
+								34 link Living Room, Value: furnitures.co.uk/shop?category=living-room
+								35 link Bedroom, Value: furnitures.co.uk/shop?category=bedroom
+								36 link Dining, Value: furnitures.co.uk/shop?category=dining
+								37 link Office, Value: furnitures.co.uk/shop?category=office
+								38 link Outdoor, Value: furnitures.co.uk/shop?category=outdoor
+								39 link Sellers, Value: furnitures.co.uk/vendors
+							40 button Search
+							41 link Sell, Value: furnitures.co.uk/sell
+							42 button Account menu
+							43 button Open cart
+							44 container
+								45 link Home, Value: furnitures.co.uk/
+								46 link Shop, Value: furnitures.co.uk/shop
+								47 link Living Room, Value: furnitures.co.uk/shop?category=living-room
+								48 text Boldstone Acanthus Bloom - White Wall sculpture
+							49 image Boldstone Acanthus Bloom - White Wall sculpture
+							50 button View image 1
+							51 button View image 2
+							52 button View image 3
+							53 button View image 4
+							54 link Boldstone Sculpture, Value: furnitures.co.uk/vendor/boldstone-sculpture
+							55 heading Boldstone Acanthus Bloom - White Wall sculpture, Value: 1
+								56 text Boldstone Acanthus Bloom - White Wall sculpture
+							57 text £38
+							58 text A single botanical form opens across this relief, with broad, flowing curves that give the flower its sculptural presence. The design keeps the details simple so that light and shadow can follow the contours. Think sunlit courtyard walls and the graceful lines of classical foliage, translated into a piece that feels at home in a modern space. The white finish keeps the focus on the form and its changing shadows. Brand: Boldstone Product type: Wall sculpture Model: Acanthus Bloom - White (SQ1068535) Colour /
+							59 container
+								60 text Only  1  left in stock
+							61 button Decrease quantity
+							62 text 1
+							63 button (disabled) Increase quantity
+							64 button Add to basket
+							65 text Free UK delivery on orders over £500 30-day returns, no questions asked Ships direct from  Boldstone Sculpture
+							66 definition list
+								67 container Material
+									68 text Material
+								69 text Gypsum-based material
+								70 container Dimensions
+									71 text Dimensions
+								72 text 30 × 30 × 6 cm
+								73 container Colour
+									74 text Colour
+								75 text Smooth, contoured white relief finish
+							76 container
+								77 text SOLD BY Boldstone Sculpture
+								78 link Visit shop (1 pieces), Value: furnitures.co.uk/vendor/boldstone-sculpture
+							79 container
+								80 text Furnitures .
+							81 text The UK marketplace for quality furniture from independent makers and trusted sellers.
+							82 text SHOP
+							83 content list
+								84 link Lighting, Value: furnitures.co.uk/shop?category=lighting
+								85 link Living Room, Value: furnitures.co.uk/shop?category=living-room
+								86 link Bedroom, Value: furnitures.co.uk/shop?category=bedroom
+								87 link Dining, Value: furnitures.co.uk/shop?category=dining
+								88 link Office, Value: furnitures.co.uk/shop?category=office
+								89 link Outdoor, Value: furnitures.co.uk/shop?category=outdoor
+							90 text MARKETPLACE
+							91 content list
+								92 link Our Sellers, Value: furnitures.co.uk/vendors
+								93 link Sell on Furnitures, Value: furnitures.co.uk/sell
+								94 link New Arrivals, Value: furnitures.co.uk/shop?sort=newest
+								95 link Sale, Value: furnitures.co.uk/shop?sale=1
+							96 text HELP
+							97 content list
+								98 text Free UK delivery over £500
+								99 text 30-day returns
+								100 text Secure checkout
+								101 text support@furnitures.co.uk
+							102 container
+								103 text ©  2026  Furnitures.co.uk — All rights reserved.
+							104 text Visa · Mastercard · Amex · Apple Pay · Google Pay
+							105 text Boldstone Acanthus Bloom - White Wall sculpture | Furnitures
+			106 pop-up button Tab search
+			107 container
+				108 tab group
+					109 tab (selected, settable, boolean) Boldstone Acanthus Bloom - White Wall sculpture | Furnitures, Value: on
+						110 button Close
+					111 tab (settable, boolean) Home – Faire, Value: off
+						112 button Close
+					113 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+						114 button Close
+					115 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+						116 button Close
+			117 button New tab
+		118 text https://furnitures.co.uk/dashboard/products
+	119 close button
+	120 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	121 minimise button
+122 menu bar
+	123 Chrome
+	124 File
+	125 Edit
+	126 View
+	127 History
+	128 Bookmarks
+	129 Profiles
+	130 Tab
+	131 Window
+	132 Help
+
+The focused UI element is 26 HTML content Boldstone Acanthus Bloom - White Wall sculpture | Furnitures, URL: furnitures.co.uk/product/boldstone-acanthus-bloom-white-wall-sculpture

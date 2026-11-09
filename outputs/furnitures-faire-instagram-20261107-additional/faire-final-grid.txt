@@ -1,0 +1,198 @@
+Window: "Products – Faire", App: Google Chrome.
+0 standard window Products – Faire - Google Chrome – Tom, Secondary Actions: Raise, URL: faire.com/brand-portal/my-shop/products/bulk-edit?GTIN=false&attributeEditor=false&columns=productType&columns=productDescription&columns=price&columns=priceGBP&columns=sellingMethod&columns=fulfillmentBarcode&fromPublishErrors=false&fulfilledByFaire=false&imageQuality=false&pricing=false&quality=false&useAttributeGTMQ3Flow=false&useJewelryBeautyAttributesFlow=false&useKeyAttributesFlow=false&useOptimizedFoodAttributesFlow=false
+	1 container Products – Faire - Google Chrome – Tom, URL: faire.com/brand-portal/my-shop/products/bulk-edit?GTIN=false&attributeEditor=false&columns=productType&columns=productDescription&columns=price&columns=priceGBP&columns=sellingMethod&columns=fulfillmentBarcode&fromPublishErrors=false&fulfilledByFaire=false&imageQuality=false&pricing=false&quality=false&useAttributeGTMQ3Flow=false&useJewelryBeautyAttributesFlow=false&useKeyAttributesFlow=false&useOptimizedFoodAttributesFlow=false
+		2 container
+			3 toolbar
+				4 button Back
+				5 button Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: faire.com/brand-portal/my-shop/products/bulk-edit?GTIN=false&attributeEditor=false&columns=productType&columns=productDescription&columns=price&columns=priceGBP&columns=sellingMethod&columns=fulfillmentBarcode&fromPublishErrors=false&fulfilledByFaire=false&imageQuality=false&pricing=false&quality=false&useAttributeGTMQ3Flow=false&useJewelryBeautyAttributesFlow=false&useKeyAttributesFlow=false&useOptimizedFoodAttributesFlow=false
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Products – Faire, URL: faire.com/brand-portal/my-shop/products/bulk-edit?GTIN=false&attributeEditor=false&columns=productType&columns=productDescription&columns=price&columns=priceGBP&columns=sellingMethod&columns=fulfillmentBarcode&fromPublishErrors=false&fulfilledByFaire=false&imageQuality=false&pricing=false&quality=false&useAttributeGTMQ3Flow=false&useJewelryBeautyAttributesFlow=false&useKeyAttributesFlow=false&useOptimizedFoodAttributesFlow=false
+						27 container
+							28 link Skip to main content, Value: faire.com/brand-portal/my-shop/products/bulk-uploader#main-content
+							29 text Action required:
+							30 container
+								31 text All UK brands will now be paid out in GBP! 
+								32 link Add a UK Bank Account, Value: faire.com/brand-portal/account?tab=payment
+								33 text  to continue being paid out for orders.
+							34 container
+								35 container Main
+									36 container
+										37 link Faire Logo, Value: faire.com/brand-portal
+										38 button Updates
+										39 button Collapse navigation
+										40 link Home, Value: faire.com/brand-portal
+										41 link Orders, Value: faire.com/brand-portal/orders
+										42 link Messages, Value: faire.com/brand-portal/messages
+										43 link Products, Value: faire.com/brand-portal/my-shop/products
+										44 link Bulk upload & export, Value: faire.com/brand-portal/my-shop/products/bulk-uploader
+										45 link Inventory, Value: faire.com/brand-portal/inventory
+										46 link Collections, Value: faire.com/brand-portal/my-shop/collections
+										47 link Performance, Value: faire.com/brand-portal/my-shop/products/performance
+										48 link Customers, Value: faire.com/brand-portal/customers
+										49 link Marketing, Value: faire.com/brand-portal/marketing
+										50 link Analytics, Value: faire.com/brand-portal/analytics
+										51 link My shop, Value: faire.com/brand-portal/my-shop/story
+										52 link Faire Direct, Value: faire.com/brand-portal/direct
+										53 link Settings, Value: faire.com/brand-portal/my-shop/settings
+										54 link Faire Academy, Value: learn.faire.com/
+										55 link Help Centre, Value: faire.com/support/brands
+									56 button Account menu
+									57 link View shop, Value: faire.com/brand/b_dddpsekzv4
+								58 container
+									59 link Back to products, Value: faire.com/brand-portal/my-shop/products
+									60 heading Bulk edit products, Value: 1
+										61 text Bulk edit products
+									62 button Enter fullscreen
+									63 button Guide
+									64 button Discard edits
+									65 button (disabled) Save Edits
+									66 text 176 products Edit fields in bulk, refine listings and publish drafts.
+								67 pop-up button Sort: A–Z
+								68 switch Filter, Value: off
+								69 button Search
+								70 pop-up button View: Default
+								71 container
+									72 button (disabled) Undo
+									73 text Undo
+								74 container
+									75 button (disabled) Redo
+									76 text Redo
+								77 container
+									78 container (showing 0-100 of 312 items)
+										79 Tick box Select all rows, Value: 0
+										80 text Image
+										81 text Product name
+										82 text Status
+										83 text Product category
+										84 text Product description
+										85 text Fulfillment barcode
+										86 text Selling method
+										87 text Pricing (per item)
+										88 text Product type
+										89 text Customer
+										90 text Method
+										91 text Case size
+										92 text Minimum order quantity
+										93 text Wholesale: GBP
+										94 text Retail price: GBP
+										95 text 1
+										96 Tick box Select row, Value: 0
+										97 button Boldstone Acanthus Bloom - White Wall Sculpture View image
+										98 container
+											99 text Boldstone Acanthus Bloom - White Wall Sculpture
+											100 link Open, Value: faire.com/brand-portal/my-shop/products/p_ax8wxbary5
+										101 text Published
+										102 button Edit
+										103 image Search
+										104 text Wall Accent All Customers
+										105 button Edit
+										106 text A single botanical form opens across this relief, with broad, flowing curves that give the flower its sculptural presence. The design keeps the details simple so that light and shadow can follow the contours. Think sunlit courtyard walls and the graceful lines of classical foliage, translated into a piece that feels at home in a modern space. The white finish keeps the focus on the form and its changing shadows. This Boldstone wall sculpture is sold individually. Other sculptures and room props shown are no By the item
+										107 button Edit
+										108 text 1
+										109 button Edit
+										110 text £ 35.57 £ 44.47
+										111 text 2
+										112 Tick box Select row, Value: 0
+										113 button Boldstone Acanthus Frond (Left) - Pewter Finish Wall Sculpture View image
+										114 container
+											115 text Boldstone Acanthus Frond (Left) - Pewter Finish Wall Sculpture
+											116 link Open, Value: faire.com/brand-portal/my-shop/products/p_7mt5susb9m
+										117 text Published
+										118 button Edit
+										119 image Search
+										120 text Decorative Panel All Customers A single sweeping leaf gives this relief its graceful, upright movement. Its sculpted curve brings a botanical detail into focus, with shadows deepening around the raised form. Think sunlit courtyard walls and the graceful lines of classical foliage, translated into a piece that feels at home in a modern space. A pewter-toned finish adds a different mood to the relief and its shadows. This Boldstone wall sculpture is sold individually. Other sculptures and room props shown are not included. Made from a gyps By the item
+										121 button Edit
+										122 text 1
+										123 button Edit
+										124 text £ 46.27 £ 57.84
+										125 text 3
+										126 Tick box Select row, Value: 0
+										127 button Boldstone Acanthus Frond (Left) - White Wall Sculpture View image
+										128 container
+											129 text Boldstone Acanthus Frond (Left) - White Wall Sculpture
+											130 link Open, Value: faire.com/brand-portal/my-shop/products/p_z7w2pwanxy
+										131 text Published
+										132 button Edit
+										133 image Search
+										134 text Sculpture All Customers A single sweeping leaf gives this relief its graceful, upright movement. Its sculpted curve brings a botanical detail into focus, with shadows deepening around the raised form. Think sunlit courtyard walls and the graceful lines of classical foliage, translated into a piece that feels at home in a modern space. The white finish keeps the focus on the form and its changing shadows. This Boldstone wall sculpture is sold individually. Other sculptures and room props shown are not included. Made from a gypsum-b By the item
+										135 button Edit
+										136 text 1
+										137 button Edit
+										138 text £ 35.57 £ 44.47
+										139 text 4
+										140 Tick box Select row, Value: 0
+										141 button Boldstone Acanthus Moon - Gold Finish Wall Sculpture View image
+										142 container
+											143 text Boldstone Acanthus Moon - Gold Finish Wall Sculpture
+											144 link Open, Value: faire.com/brand-portal/my-shop/products/p_urhxzanthg
+										145 text Published
+										146 button Edit
+										147 image Search
+										148 text Sculpture All Customers Sweeping leaf forms turn a familiar botanical motif into a clean, flowing relief. Raised curves and quiet recesses let light and shadow become part of the composition. Think sunlit courtyard walls and the graceful lines of classical foliage, translated into a piece that feels at home in a modern space. A gold-toned finish adds warmth and catches the changing light. This Boldstone wall sculpture is sold individually. Other sculptures and room props shown are not included. Made from a gypsum-based material. A By the item
+										149 button Edit
+										150 text 1
+										151 button Edit
+										152 text £
+							153 container Notifications Alt+T
+							154 text Products – Faire
+			155 pop-up button Tab search
+			156 container
+				157 tab group
+					158 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					159 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					160 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					161 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					162 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					163 tab (settable, boolean) Meta Business Suite - High memory usage - 1.0 GB, Value: off
+					164 tab group  group 🛍️ Catalogue and Instagram – 3 Tabs, •  Studio | Saatchi Art United Kingdom, •  Complete your listing | Boldstone Islington Sh…, •  Manage drafts - eBay Seller Hub – Expanded
+					165 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 🛍️ Catalogue and Instagram, Value: off
+					166 tab (settable, boolean) Value: off, Complete your listing | Boldstone Islington Shellmoon Relief - White Wall sculpture | eBay – Part of group 🛍️ Catalogue and Instagram
+					167 tab (settable, boolean) Manage drafts - eBay Seller Hub – Part of group 🛍️ Catalogue and Instagram, Value: off
+					168 tab (selected, settable, boolean) Products – Faire, Value: on
+						169 button Close
+					170 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					171 tab (settable, boolean) Create listings, Value: off
+			172 button New tab
+	173 close button
+	174 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	175 minimise button
+176 menu bar
+	177 Chrome
+	178 File
+	179 Edit
+	180 View
+	181 History
+	182 Bookmarks
+	183 Profiles
+	184 Tab
+	185 Window
+	186 Help
+
+The focused UI element is 26 HTML content Products – Faire, URL: faire.com/brand-portal/my-shop/products/bulk-edit?GTIN=false&attributeEditor=false&columns=productType&columns=productDescription&columns=price&columns=priceGBP&columns=sellingMethod&columns=fulfillmentBarcode&fromPublishErrors=false&fulfilledByFaire=false&imageQuality=false&pricing=false&quality=false&useAttributeGTMQ3Flow=false&useJewelryBeautyAttributesFlow=false&useKeyAttributesFlow=false&useOptimizedFoodAttributesFlow=false

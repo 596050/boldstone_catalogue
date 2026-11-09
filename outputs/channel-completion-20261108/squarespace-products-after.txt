@@ -1,0 +1,1255 @@
+Window: "Wall Sculpture & Sculptural Furnishings | Boldstone, UK", App: Google Chrome.
+0 standard window URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Secondary Actions: Raise, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.0 GB - Google Chrome – Tom
+	1 container URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.0 GB - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Wall Sculpture & Sculptural Furnishings | Boldstone, UK, URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical
+						27 container
+							28 container Website pages and features
+								29 link Home, Value: caper-spinach-spcy.squarespace.com/config/
+								30 button Search
+								31 button Notifications - you have unread notifications
+								32 link Home, Value: caper-spinach-spcy.squarespace.com/config/home
+								33 link Website, Value: caper-spinach-spcy.squarespace.com/config/
+								34 container
+									35 link Products & Services, Value: caper-spinach-spcy.squarespace.com/config/commerce
+									36 link Products, Value: caper-spinach-spcy.squarespace.com/config/commerce/products
+									37 link Orders, Value: caper-spinach-spcy.squarespace.com/config/commerce/orders
+									38 link Discounts, Value: caper-spinach-spcy.squarespace.com/config/commerce/discounts
+									39 link Selling Tools, Value: caper-spinach-spcy.squarespace.com/config/commerce/selling-tools
+								40 link Content & Memberships, Value: caper-spinach-spcy.squarespace.com/config/content-and-memberships
+								41 link Scheduling, Value: secure.acuityscheduling.com/oauth2/squarespace-attached?website_id=66abcbd768fd043d92325d96&analytics_id=871ea609-7aad-4efb-9408-1d42d6316296
+								42 link Donations, Value: caper-spinach-spcy.squarespace.com/config/donations
+								43 link Invoicing & Pay Links, Value: caper-spinach-spcy.squarespace.com/config/invoicing
+								44 link Campaigns, Value: caper-spinach-spcy.squarespace.com/config/marketing/campaigns
+								45 link Contacts, Value: caper-spinach-spcy.squarespace.com/config/profiles
+								46 link Analytics, Value: caper-spinach-spcy.squarespace.com/config/analytics
+								47 link Finance, Value: caper-spinach-spcy.squarespace.com/config/finance
+								48 button Account
+								49 content list
+									50 button Help
+									51 button Customize Sidebar
+									52 button Settings
+							53 container
+								54 container
+									55 heading Products, Value: 1
+										56 text Products
+									57 button IMPORT
+									58 button ADD PRODUCT
+									59 Unlabelled image To get missing image descriptions, open the context menu.
+									60 text Get more sales by driving traffic to your store
+									61 text Promote your products or events with Email Campaigns.
+									62 button START EMAIL CAMPAIGN
+										63 link START EMAIL CAMPAIGN, Value: caper-spinach-spcy.squarespace.com/config/marketing/campaigns/templates/product
+									64 pop-up button Open menu
+									65 tab group
+										66 tab (selected) Physical, Value: 1
+										67 tab (settable, integer) Services, Value: 0
+										68 tab (settable, integer) Downloads, Value: 0
+										69 tab (settable, integer) Gift Cards, Value: 0
+									70 text field (settable) Search by products, tags, categories
+									71 button EXPORT ALL
+									72 button FULFILLMENT PROFILES
+									73 table
+										74 row
+											75 cell
+												76 container
+													77 text Product
+													78 image
+											79 cell
+												80 text Fulfillment
+											81 cell
+												82 text Visibility
+											83 cell
+												84 text SKU
+											85 cell
+												86 container
+													87 text Stock
+													88 image
+											89 cell
+												90 container
+													91 text Price
+													92 image
+										93 row
+											94 cell
+												95 container
+													96 Tick box Marbled Circle - Turquoise Finish, Value: 0
+											97 cell
+											98 cell
+												99 container
+													100 text Marbled Circle - Turquoise Finish
+											101 cell
+												102 combo box (settable) Default
+													103 text Default
+											104 cell
+												105 combo box (settable) Public
+													106 text Public
+											107 cell
+												108 text SQ1000002
+											109 cell
+												110 text ∞
+											111 cell
+												112 text £120.86
+											113 cell
+												114 image
+										115 row
+											116 cell
+												117 container
+													118 Tick box Marbled Circle - Terracotta Finish, Value: 0
+											119 cell
+											120 cell
+												121 container
+													122 text Marbled Circle - Terracotta Finish
+											123 cell
+												124 combo box (settable) Default
+													125 text Default
+											126 cell
+												127 combo box (settable) Public
+													128 text Public
+											129 cell
+												130 text SQ1000066
+											131 cell
+												132 text ∞
+											133 cell
+												134 text £120.86
+											135 cell
+												136 image
+										137 row
+											138 cell
+												139 container
+													140 Tick box Marbled Circle - Pale Blue Finish, Value: 0
+											141 cell
+											142 cell
+												143 container
+													144 text Marbled Circle - Pale Blue Finish
+											145 cell
+												146 combo box (settable) Default
+													147 text Default
+											148 cell
+												149 combo box (settable) Public
+													150 text Public
+											151 cell
+												152 text BOLD-CCB6CA396E9C
+											153 cell
+												154 text ∞
+											155 cell
+												156 text £120.86
+											157 cell
+												158 image
+										159 row
+											160 cell
+												161 container
+													162 Tick box Marbled Circle - Green and White Finish, Value: 0
+											163 cell
+											164 cell
+												165 container
+													166 text Marbled Circle - Green and White Finish
+											167 cell
+												168 combo box (settable) Default
+													169 text Default
+											170 cell
+												171 combo box (settable) Public
+													172 text Public
+											173 cell
+												174 text SQ1000026
+											175 cell
+												176 text ∞
+											177 cell
+												178 text £120.86
+											179 cell
+												180 image
+										181 row
+											182 cell
+												183 container
+													184 Tick box World Colours Circle - Brass Finish, Value: 0
+											185 cell
+											186 cell
+												187 container
+													188 text World Colours Circle - Brass Finish
+											189 cell
+												190 combo box (settable) Default
+													191 text Default
+											192 cell
+												193 combo box (settable) Public
+													194 text Public
+											195 cell
+												196 text BOLD-1B20DCA291BB
+											197 cell
+												198 text ∞
+											199 cell
+												200 text £120.86
+											201 cell
+												202 image
+										203 row
+											204 cell
+												205 container
+													206 Tick box Marbled Circle - Azure Blue and White Finish, Value: 0
+											207 cell
+											208 cell
+												209 container
+													210 text Marbled Circle - Azure Blue and White Finish
+											211 cell
+												212 combo box (settable) Default
+													213 text Default
+											214 cell
+												215 combo box (settable) Public
+													216 text Public
+											217 cell
+												218 text BOLD-22DA74B2107E
+											219 cell
+												220 text ∞
+											221 cell
+												222 text £120.86
+											223 cell
+												224 image
+										225 row
+											226 cell
+												227 container
+													228 Tick box Textured Earth - Rust and Blue Patina Finish, Value: 0
+											229 cell
+											230 cell
+												231 container
+													232 text Textured Earth - Rust and Blue Patina Finish
+											233 cell
+												234 combo box (settable) Default
+													235 text Default
+											236 cell
+												237 combo box (settable) Public
+													238 text Public
+											239 cell
+												240 text BOLD-9AF26B8CF780
+											241 cell
+												242 text ∞
+											243 cell
+												244 text £251.12
+											245 cell
+												246 image
+										247 row
+											248 cell
+												249 container
+													250 Tick box Textured Earth - Blue, Brown and Rust Finish, Value: 0
+											251 cell
+											252 cell
+												253 container
+													254 text Textured Earth - Blue, Brown and Rust Finish
+											255 cell
+												256 combo box (settable) Default
+													257 text Default
+											258 cell
+												259 combo box (settable) Public
+													260 text Public
+											261 cell
+												262 text BOLD-207102CFD25C
+											263 cell
+												264 text ∞
+											265 cell
+												266 text £177.86
+											267 cell
+												268 image
+										269 row
+											270 cell
+												271 container
+													272 Tick box Strata Relief - Verdigris Finish, Value: 0
+											273 cell
+											274 cell
+												275 container
+													276 text Strata Relief - Verdigris Finish
+											277 cell
+												278 combo box (settable) Default
+													279 text Default
+											280 cell
+												281 combo box (settable) Public
+													282 text Public
+											283 cell
+												284 text SQ1851097
+											285 cell
+												286 text ∞
+											287 cell
+												288 text £47.06
+											289 cell
+												290 image
+										291 row
+											292 cell
+												293 container
+													294 Tick box Strata Relief - Blue Wash Verdigris Finish, Value: 0
+											295 cell
+											296 cell
+												297 container
+													298 text Strata Relief - Blue Wash Verdigris Finish
+											299 cell
+												300 combo box (settable) Default
+													301 text Default
+											302 cell
+												303 combo box (settable) Public
+													304 text Public
+											305 cell
+												306 text BOLD-21E953F1D523
+											307 cell
+												308 text ∞
+											309 cell
+												310 text £47.06
+											311 cell
+												312 image
+										313 row
+											314 cell
+												315 container
+													316 Tick box Spiralfish Wave and Tide II - Bronze Finish, Value: 0
+											317 cell
+											318 cell
+												319 container
+													320 text Spiralfish Wave and Tide II - Bronze Finish
+											321 cell
+												322 combo box (settable) Default
+													323 text Default
+											324 cell
+												325 combo box (settable) Public
+													326 text Public
+											327 cell
+												328 text BOLD-54F871DCF4CA
+											329 cell
+												330 text ∞
+											331 cell
+												332 text £118.58
+											333 cell
+												334 image
+										335 row
+											336 cell
+												337 container
+													338 Tick box Spiralfish Wave and Tide I - Bronze Finish, Value: 0
+											339 cell
+											340 cell
+												341 container
+													342 text Spiralfish Wave and Tide I - Bronze Finish
+											343 cell
+												344 combo box (settable) Default
+													345 text Default
+											346 cell
+												347 combo box (settable) Public
+													348 text Public
+											349 cell
+												350 text BOLD-718DFFB7EC5D
+											351 cell
+												352 text ∞
+											353 cell
+												354 text £118.58
+											355 cell
+												356 image
+										357 row
+											358 cell
+												359 container
+													360 Tick box Patina Panel - Rust and Verdigris Finish, Value: 0
+											361 cell
+											362 cell
+												363 container
+													364 text Patina Panel - Rust and Verdigris Finish
+											365 cell
+												366 combo box (settable) Default
+													367 text Default
+											368 cell
+												369 combo box (settable) Public
+													370 text Public
+											371 cell
+												372 text EBAY-188590547084
+											373 cell
+												374 text ∞
+											375 cell
+												376 text £55.52
+											377 cell
+												378 image
+										379 row
+											380 cell
+												381 container
+													382 Tick box Raked Spiral III - Beige Finish, Value: 0
+											383 cell
+											384 cell
+												385 container
+													386 text Raked Spiral III - Beige Finish
+											387 cell
+												388 combo box (settable) Default
+													389 text Default
+											390 cell
+												391 combo box (settable) Public
+													392 text Public
+											393 cell
+												394 text BOLD-6AA659B1469F
+											395 cell
+												396 text ∞
+											397 cell
+												398 text £39.34
+											399 cell
+												400 image
+										401 row
+											402 cell
+												403 container
+													404 Tick box Sculpted Curves - Beige Finish, Value: 0
+											405 cell
+											406 cell
+												407 container
+													408 text Sculpted Curves - Beige Finish
+											409 cell
+												410 combo box (settable) Default
+													411 text Default
+											412 cell
+												413 combo box (settable) Public
+													414 text Public
+											415 cell
+												416 text BOLD-E5A179105EA8
+											417 cell
+												418 text ∞
+											419 cell
+												420 text £32.50
+											421 cell
+												422 image
+										423 row
+											424 cell
+												425 container
+													426 Tick box Lunar Phase II - White and Gold Finish, Value: 0
+											427 cell
+											428 cell
+												429 container
+													430 text Lunar Phase II - White and Gold Finish
+											431 cell
+												432 combo box (settable) Default
+													433 text Default
+											434 cell
+												435 combo box (settable) Public
+													436 text Public
+											437 cell
+												438 text BOLD-161DFE20DFB0
+											439 cell
+												440 text ∞
+											441 cell
+												442 text £39.34
+											443 cell
+												444 image
+										445 row
+											446 cell
+												447 container
+													448 Tick box Lunar Phase IV - White and Gold Finish, Value: 0
+											449 cell
+											450 cell
+												451 container
+													452 text Lunar Phase IV - White and Gold Finish
+											453 cell
+												454 combo box (settable) Default
+													455 text Default
+											456 cell
+												457 combo box (settable) Public
+													458 text Public
+											459 cell
+												460 text BOLD-B1DCB5B08396
+											461 cell
+												462 text ∞
+											463 cell
+												464 text £39.34
+											465 cell
+												466 image
+										467 row
+											468 cell
+												469 container
+													470 Tick box Lunar Phase IV - Silver Finish, Value: 0
+											471 cell
+											472 cell
+												473 container
+													474 text Lunar Phase IV - Silver Finish
+											475 cell
+												476 combo box (settable) Default
+													477 text Default
+											478 cell
+												479 combo box (settable) Public
+													480 text Public
+											481 cell
+												482 text EBAY-188687221372
+											483 cell
+												484 text ∞
+											485 cell
+												486 text £46.62
+											487 cell
+												488 image
+										489 row
+											490 cell
+												491 container
+													492 Tick box Wide-Lip Crater Moon - Rust Drip Finish, Value: 0
+											493 cell
+											494 cell
+												495 container
+													496 text Wide-Lip Crater Moon - Rust Drip Finish
+											497 cell
+												498 combo box (settable) Default
+													499 text Default
+											500 cell
+												501 combo box (settable) Public
+													502 text Public
+											503 cell
+												504 text BOLD-0696BC44A7BC
+											505 cell
+												506 text ∞
+											507 cell
+												508 text £37.10
+											509 cell
+												510 image
+										511 row
+											512 cell
+												513 container
+													514 Tick box Crater Moon IV - Verdigris and Rust Finish, Value: 0
+											515 cell
+											516 cell
+												517 container
+													518 text Crater Moon IV - Verdigris and Rust Finish
+											519 cell
+												520 combo box (settable) Default
+													521 text Default
+											522 cell
+												523 combo box (settable) Public
+													524 text Public
+											525 cell
+												526 text SQ2233720
+											527 cell
+												528 text ∞
+											529 cell
+												530 text £37.84
+											531 cell
+												532 image
+										533 row
+											534 cell
+												535 container
+													536 Tick box Crater Moon IV - Verdigris Finish, Value: 0
+											537 cell
+											538 cell
+												539 container
+													540 text Crater Moon IV - Verdigris Finish
+											541 cell
+												542 combo box (settable) Default
+													543 text Default
+											544 cell
+												545 combo box (settable) Public
+													546 text Public
+											547 cell
+												548 text SQ4868573
+											549 cell
+												550 text ∞
+											551 cell
+												552 text £37.84
+											553 cell
+												554 image
+										555 row
+											556 cell
+												557 container
+													558 Tick box Crater Moon IV - Silver and Bronze Finish, Value: 0
+											559 cell
+											560 cell
+												561 container
+													562 text Crater Moon IV - Silver and Bronze Finish
+											563 cell
+												564 combo box (settable) Default
+													565 text Default
+											566 cell
+												567 combo box (settable) Public
+													568 text Public
+											569 cell
+												570 text SQ1605793
+											571 cell
+												572 text ∞
+											573 cell
+												574 text £36.06
+											575 cell
+												576 image
+										577 row
+											578 cell
+												579 container
+													580 Tick box Crater Moon III - Verdigris and Rust Finish, Value: 0
+											581 cell
+											582 cell
+												583 container
+													584 text Crater Moon III - Verdigris and Rust Finish
+											585 cell
+												586 combo box (settable) Default
+													587 text Default
+											588 cell
+												589 combo box (settable) Public
+													590 text Public
+											591 cell
+												592 text SQ6211184
+											593 cell
+												594 text ∞
+											595 cell
+												596 text £37.84
+											597 cell
+												598 image
+										599 row
+											600 cell
+												601 container
+													602 Tick box Crater Moon II - Verdigris and Rust Finish, Value: 0
+											603 cell
+											604 cell
+												605 container
+													606 text Crater Moon II - Verdigris and Rust Finish
+											607 cell
+												608 combo box (settable) Default
+													609 text Default
+											610 cell
+												611 combo box (settable) Public
+													612 text Public
+											613 cell
+												614 text SQ5572436
+											615 cell
+												616 text ∞
+											617 cell
+												618 text £37.84
+											619 cell
+												620 image
+										621 row
+											622 cell
+												623 container
+													624 Tick box Crater Moon II - Blue Splash Finish, Value: 0
+											625 cell
+											626 cell
+												627 container
+													628 text Crater Moon II - Blue Splash Finish
+											629 cell
+												630 combo box (settable) Default
+													631 text Default
+											632 cell
+												633 combo box (settable) Public
+													634 text Public
+											635 cell
+												636 text BOLD-177C94BD0EFF
+											637 cell
+												638 text ∞
+											639 cell
+												640 text £32.50
+											641 cell
+												642 image
+										643 row
+											644 cell
+												645 container
+													646 Tick box Crater Moon I - Verdigris and Rust Finish, Value: 0
+											647 cell
+											648 cell
+												649 container
+													650 text Crater Moon I - Verdigris and Rust Finish
+											651 cell
+												652 combo box (settable) Default
+													653 text Default
+											654 cell
+												655 combo box (settable) Public
+													656 text Public
+											657 cell
+												658 text SQ6715979
+											659 cell
+												660 text ∞
+											661 cell
+												662 text £37.84
+											663 cell
+												664 image
+										665 row
+											666 cell
+												667 container
+													668 Tick box Moon and Shell Wave II - Black and White Finish, Value: 0
+											669 cell
+											670 cell
+												671 container
+													672 text Moon and Shell Wave II - Black and White Finish
+											673 cell
+												674 combo box (settable) Default
+													675 text Default
+											676 cell
+												677 combo box (settable) Public
+													678 text Public
+											679 cell
+												680 text BOLD-6E9202BEAD51
+											681 cell
+												682 text ∞
+											683 cell
+												684 text £94.28
+											685 cell
+												686 image
+										687 row
+											688 cell
+												689 container
+													690 Tick box Leaf Silhouette II - Gold Finish, Value: 0
+											691 cell
+											692 cell
+												693 container
+													694 text Leaf Silhouette II - Gold Finish
+											695 cell
+												696 combo box (settable) Default
+													697 text Default
+											698 cell
+												699 combo box (settable) Public
+													700 text Public
+											701 cell
+												702 text BOLD-096BA2E00517
+											703 cell
+												704 text ∞
+											705 cell
+												706 text £64.72
+											707 cell
+												708 image
+										709 row
+											710 cell
+												711 container
+													712 Tick box Deco Golden Spiral - White and Gold Finish, Value: 0
+											713 cell
+											714 cell
+												715 container
+													716 text Deco Golden Spiral - White and Gold Finish
+											717 cell
+												718 combo box (settable) Default
+													719 text Default
+											720 cell
+												721 combo box (settable) Public
+													722 text Public
+											723 cell
+												724 text GS-1-30.30
+											725 cell
+												726 text ∞
+											727 cell
+												728 text £67.74
+											729 cell
+												730 image
+										731 row
+											732 cell
+												733 container
+													734 Tick box Frozen Fish Relief - Verdigris Finish, Value: 0
+											735 cell
+											736 cell
+												737 container
+													738 text Frozen Fish Relief - Verdigris Finish
+											739 cell
+												740 combo box (settable) Default
+													741 text Default
+											742 cell
+												743 combo box (settable) Public
+													744 text Public
+											745 cell
+												746 text SQ2145412
+											747 cell
+												748 text ∞
+											749 cell
+												750 text £64.74
+											751 cell
+												752 image
+										753 row
+											754 cell
+												755 container
+													756 Tick box Frozen Fish Relief - Terracotta Finish, Value: 0
+											757 cell
+											758 cell
+												759 container
+													760 text Frozen Fish Relief - Terracotta Finish
+											761 cell
+												762 combo box (settable) Default
+													763 text Default
+											764 cell
+												765 combo box (settable) Public
+													766 text Public
+											767 cell
+												768 text EBAY-188654392024
+											769 cell
+												770 text ∞
+											771 cell
+												772 text £55.74
+											773 cell
+												774 image
+										775 row
+											776 cell
+												777 container
+													778 Tick box Egyptian Fountain Palm - Bronze and Verdigris Finish, Value: 0
+											779 cell
+											780 cell
+												781 container
+													782 text Egyptian Fountain Palm - Bronze and Verdigris Finish
+											783 cell
+												784 combo box (settable) Default
+													785 text Default
+											786 cell
+												787 combo box (settable) Public
+													788 text Public
+											789 cell
+												790 text BOLD-70ECBB049292
+											791 cell
+												792 text ∞
+											793 cell
+												794 text £182.44
+											795 cell
+												796 image
+										797 row
+											798 cell
+												799 container
+													800 Tick box Fingerprint Rings III - Cream Finish, Value: 0
+											801 cell
+											802 cell
+												803 container
+													804 text Fingerprint Rings III - Cream Finish
+											805 cell
+												806 combo box (settable) Default
+													807 text Default
+											808 cell
+												809 combo box (settable) Public
+													810 text Public
+											811 cell
+												812 text BOLD-A9C6379B224B
+											813 cell
+												814 text ∞
+											815 cell
+												816 text £55.68
+											817 cell
+												818 image
+										819 row
+											820 cell
+												821 container
+													822 Tick box Fingerprint Rings II - Cream Finish, Value: 0
+											823 cell
+											824 cell
+												825 container
+													826 text Fingerprint Rings II - Cream Finish
+											827 cell
+												828 combo box (settable) Default
+													829 text Default
+											830 cell
+												831 combo box (settable) Public
+													832 text Public
+											833 cell
+												834 text BOLD-061791F55EAD
+											835 cell
+												836 text ∞
+											837 cell
+												838 text £55.68
+											839 cell
+												840 image
+										841 row
+											842 cell
+												843 container
+													844 Tick box Fingerprint Rings I - Cream Finish, Value: 0
+											845 cell
+											846 cell
+												847 container
+													848 text Fingerprint Rings I - Cream Finish
+											849 cell
+												850 combo box (settable) Default
+													851 text Default
+											852 cell
+												853 combo box (settable) Public
+													854 text Public
+											855 cell
+												856 text BOLD-DDF9748D271D
+											857 cell
+												858 text ∞
+											859 cell
+												860 text £55.68
+											861 cell
+												862 image
+										863 row
+											864 cell
+												865 container
+													866 Tick box Egyptian Palm I - Pewter Finish, Value: 0
+											867 cell
+											868 cell
+												869 container
+													870 text Egyptian Palm I - Pewter Finish
+											871 cell
+												872 combo box (settable) Default
+													873 text Default
+											874 cell
+												875 combo box (settable) Public
+													876 text Public
+											877 cell
+												878 text BOLD-1774B82C6518
+											879 cell
+												880 text ∞
+											881 cell
+												882 text £76.78
+											883 cell
+												884 image
+										885 row
+											886 cell
+												887 container
+													888 Tick box Egyptian Palm I - Black and White Marble Effect Finish, Value: 0
+											889 cell
+											890 cell
+												891 container
+													892 text Egyptian Palm I - Black and White Marble Effect Finish
+											893 cell
+												894 combo box (settable) Default
+													895 text Default
+											896 cell
+												897 combo box (settable) Public
+													898 text Public
+											899 cell
+												900 text BOLD-5819104A663F
+											901 cell
+												902 text ∞
+											903 cell
+												904 text £76.78
+											905 cell
+												906 image
+										907 row
+											908 cell
+												909 container
+													910 Tick box Echo Rhythm II - Verdigris Finish, Value: 0
+											911 cell
+											912 cell
+												913 container
+													914 text Echo Rhythm II - Verdigris Finish
+											915 cell
+												916 combo box (settable) Default
+													917 text Default
+											918 cell
+												919 combo box (settable) Public
+													920 text Public
+											921 cell
+												922 text BOLD-EF421C1D2C92
+											923 cell
+												924 text ∞
+											925 cell
+												926 text £49.20
+											927 cell
+												928 image
+										929 row
+											930 cell
+												931 container
+													932 Tick box Echo Rhythm I - Verdigris Finish, Value: 0
+											933 cell
+											934 cell
+												935 container
+													936 text Echo Rhythm I - Verdigris Finish
+											937 cell
+												938 combo box (settable) Default
+													939 text Default
+											940 cell
+												941 combo box (settable) Public
+													942 text Public
+											943 cell
+												944 text BOLD-0BE032939501
+											945 cell
+												946 text ∞
+											947 cell
+												948 text £49.20
+											949 cell
+												950 image
+										951 row
+											952 cell
+												953 container
+													954 Tick box Dune Ripple II - Verdigris and Copper Finish, Value: 0
+											955 cell
+											956 cell
+												957 container
+													958 text Dune Ripple II - Verdigris and Copper Finish
+											959 cell
+												960 combo box (settable) Default
+													961 text Default
+											962 cell
+												963 combo box (settable) Public
+													964 text Public
+											965 cell
+												966 text SQ0059342
+											967 cell
+												968 text ∞
+											969 cell
+												970 text £41.24
+											971 cell
+												972 image
+										973 row
+											974 cell
+												975 container
+													976 Tick box Dune Ripple II - Rust Finish, Value: 0
+											977 cell
+											978 cell
+												979 container
+													980 text Dune Ripple II - Rust Finish
+											981 cell
+												982 combo box (settable) Default
+													983 text Default
+											984 cell
+												985 combo box (settable) Public
+													986 text Public
+											987 cell
+												988 text EBAY-188682535224
+											989 cell
+												990 text ∞
+											991 cell
+												992 text £41.24
+											993 cell
+												994 image
+										995 row
+											996 cell
+												997 container
+													998 Tick box Dune Ripple II - Gold Finish, Value: 0
+											999 cell
+											1000 cell
+												1001 container
+													1002 text Dune Ripple II - Gold Finish
+											1003 cell
+												1004 combo box (settable) Default
+													1005 text Default
+											1006 cell
+												1007 combo box (settable) Public
+													1008 text Public
+											1009 cell
+												1010 text SQ6244576
+											1011 cell
+												1012 text ∞
+											1013 cell
+												1014 text £39.14
+											1015 cell
+												1016 image
+										1017 row
+											1018 cell
+												1019 container
+													1020 Tick box Dune Ripple II - Copper with Verdigris Accents Finish, Value: 0
+											1021 cell
+											1022 cell
+												1023 container
+													1024 text Dune Ripple II - Copper with Verdigris Accents Finish
+											1025 cell
+												1026 combo box (settable) Default
+													1027 text Default
+											1028 cell
+												1029 combo box (settable) Public
+													1030 text Public
+											1031 cell
+												1032 text BOLD-6405184B86EB
+											1033 cell
+												1034 text ∞
+											1035 cell
+												1036 text £41.24
+											1037 cell
+												1038 image
+										1039 row
+											1040 cell
+												1041 container
+													1042 Tick box Dune Ripple II - Copper Finish, Value: 0
+											1043 cell
+											1044 cell
+												1045 container
+													1046 text Dune Ripple II - Copper Finish
+											1047 cell
+												1048 combo box (settable) Default
+													1049 text Default
+											1050 cell
+												1051 combo box (settable) Public
+													1052 text Public
+											1053 cell
+												1054 text EBAY-188654831217
+											1055 cell
+												1056 text ∞
+											1057 cell
+												1058 text £39.14
+											1059 cell
+												1060 image
+										1061 row
+											1062 cell
+												1063 container
+													1064 Tick box Dune Ripple II - Bronze and Verdigris Finish, Value: 0
+											1065 cell
+											1066 cell
+												1067 container
+													1068 text Dune Ripple II - Bronze and Verdigris Finish
+											1069 cell
+												1070 combo box (settable) Default
+													1071 text Default
+											1072 cell
+												1073 combo box (settable) Public
+													1074 text Public
+											1075 cell
+												1076 text BOLD-6F3C6CD908A0
+											1077 cell
+												1078 text ∞
+											1079 cell
+												1080 text £40.20
+											1081 cell
+												1082 image
+										1083 row
+											1084 cell
+												1085 container
+													1086 Tick box Dune Ripple I - Verdigris and Rust Finish, Value: 0
+											1087 cell
+											1088 cell
+												1089 container
+													1090 text Dune Ripple I - Verdigris and Rust Finish
+											1091 cell
+												1092 combo box (settable) Default
+													1093 text Default
+											1094 cell
+												1095 combo box (settable) Public
+													1096 text Public
+											1097 cell
+												1098 text VDR-1-35.20
+											1099 cell
+												1100 text ∞
+											1101 cell
+												1102 text £40.00
+											1103 cell
+												1104 image
+										1105 row
+											1106 cell
+												1107 container
+													1108 Tick box Dune Ripple I - Verdigris Finish, Value: 0
+											1109 cell
+											1110 cell
+												1111 container
+													1112 text Dune Ripple I - Verdigris Finish
+											1113 cell
+												1114 combo box (settable) Default
+													1115 text Default
+											1116 cell
+												1117 combo box (settable) Public
+													1118 text Public
+											1119 cell
+												1120 text SQ0836319
+											1121 cell
+												1122 text ∞
+											1123 cell
+												1124 text £41.24
+											1125 cell
+												1126 image
+										1127 row
+											1128 cell
+												1129 container
+													1130 Tick box Dune Ripple I - Rust Finish, Value: 0
+											1131 cell
+											1132 cell
+												1133 container
+													1134 text Dune Ripple I - Rust Finish
+											1135 cell
+												1136 combo box (settable) Default
+													1137 text Default
+											1138 cell
+												1139 combo box (settable) Public
+													1140 text Public
+											1141 cell
+												1142 text EBAY-188654649217
+											1143 cell
+												1144 text ∞
+											1145 cell
+												1146 text £41.24
+											1147 cell
+												1148 image
+										1149 row
+											1150 cell
+												1151 container
+													1152 Tick box Dune Ripple I - Blue Verdigris and Bronze Finish, Value: 0
+											1153 cell
+											1154 cell
+												1155 container
+													1156 text Dune Ripple I - Blue Verdigris and Bronze Finish
+											1157 cell
+												1158 combo box (settable) Default
+													1159 text Default
+											1160 cell
+												1161 combo box (settable) Public
+													1162 text Public
+											1163 cell
+												1164 text BOLD-AF88EAA8EBC0
+											1165 cell
+												1166 text ∞
+											1167 cell
+												1168 text £39.00
+											1169 cell
+												1170 image
+										1171 row
+											1172 cell
+												1173 container
+													1174 Tick box Deco Wave II - Verdigris Finish, Value: 0
+											1175 cell
+											1176 cell
+												1177 container
+													1178 text Deco Wave II - Verdigris Finish
+											1179 cell
+												1180 combo box (settable) Default
+													1181 text Default
+											1182 cell
+												1183 combo box (settable) Public
+													1184 text Public
+											1185 cell
+												1186 text BOLD-FE830AE502C3
+											1187 cell
+												1188 text ∞
+											1189 cell
+												1190 text £78.88
+											1191 cell
+												1192 image
+										1193 row
+											1194 cell
+												1195 text 1–50 of 306 products
+												1196 text 1 of 7
+												1197 button
+								1198 text Edit
+			1199 pop-up button Tab search
+			1200 container
+				1201 tab group
+					1202 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					1203 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					1204 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					1205 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					1206 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					1207 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					1208 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					1209 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					1210 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					1211 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					1212 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					1213 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					1214 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					1215 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					1216 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					1217 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					1218 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					1219 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					1220 tab (settable, boolean) Meta Business Suite, Value: off
+					1221 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					1222 tab (settable, boolean) Meta Business Suite, Value: off
+					1223 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					1224 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					1225 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					1226 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					1227 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					1228 tab (selected, settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.0 GB, Value: on
+			1229 button New tab
+	1230 close button
+	1231 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	1232 minimise button
+1233 menu bar
+	1234 Chrome
+	1235 File
+	1236 Edit
+	1237 View
+	1238 History
+	1239 Bookmarks
+	1240 Profiles
+	1241 Tab
+	1242 Window
+	1243 Help
+
+The focused UI element is 26 HTML content Wall Sculpture & Sculptural Furnishings | Boldstone, UK, URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical

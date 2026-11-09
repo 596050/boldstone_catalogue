@@ -1,0 +1,118 @@
+Window: "Feed details | Microsoft Advertising", App: Google Chrome.
+0 standard window Feed details | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, Secondary Actions: Raise, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&uid=193182372
+	1 container Feed details | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&uid=193182372
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&uid=193182372
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Feed details | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&uid=193182372
+						27 container Update feed Close
+							28 container
+								29 heading Update feed, Value: 2
+									30 text Update feed
+								31 button Close
+							32 container
+								33 text If you want your products to display on Bing, you need to create a feed and select how you want to transfer your feed file. We recommend that you test the file before you transfer it. Feed name
+								34 text field (disabled) Feed name, Value: Default Catalog, Placeholder: Enter a name for your feed
+								35 Tick box Use feed for testing only, Value: 0
+								36 button Click to learn more about test feed
+								37 text Destinations
+								38 button Click to learn more about Destinations
+								39 container
+									40 Tick box Online product ads, Value: 1
+									41 text Online product ads
+								42 container
+									43 Tick box Local inventory ads, Value: 0
+									44 text Local inventory ads
+								45 text Target regions
+								46 button Click to learn more about Target regions
+								47 toolbar selected items
+									48 container
+										49 button United Kingdom
+										50 button United Kingdom remove
+								51 combo box (settable) Target regions
+									52 text field (settable) Target regions, Placeholder: Search regions
+								53 text Default Currency (optional)
+								54 combo box (settable) Default Currency, Value: Please select ...
+									55 text Please select ...
+								56 text Input method There are different ways to 
+								57 link submit your feed file, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&uid=193182372#
+								58 text .  You can also 
+								59 link import your Google Merchant Center Online Product offers, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&uid=193182372#
+								60 text .  To help you create a feed file, see the 
+								61 button feed file sample
+								62 text  (txt).
+								63 Input method
+									64 radio button Manually upload, Value: 1
+									65 radio button Upload via FTP/SFTP Learn more about FTP/SFTP Upload, Value: 0
+									66 container
+										67 text Upload via FTP/SFTP Learn more about 
+										68 link FTP/SFTP Upload, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/feed-details?storeId=50112622&feedId=1830841&aid=187335961&cid=255124527&uid=193182372#
+									69 radio button Automatically download file from URL, Value: 0
+								70 text Upload feed file
+								71 text field Feed file, Placeholder: No file selected
+								72 button Browse
+							73 button Update feed
+							74 button Cancel
+			75 pop-up button Tab search
+			76 container
+				77 tab group
+					78 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					79 tab group  group ✅Claude – 1 Tab, •  Feed details | Microsoft Advertising – Expanded
+					80 tab (selected, settable, boolean) Feed details | Microsoft Advertising – Part of group ✅Claude, Value: on
+						81 button Close
+					82 tab (settable, boolean) Variants - Manufacturer Center, Value: off
+					83 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					84 tab (settable, boolean) Boldstone Sculpture | Boldstone Wall Sculptures, Value: off
+					85 tab (settable, boolean) Portela Nova | A slower kind of stay, Value: off
+					86 tab (settable, boolean) Pinterest, Value: off
+					87 tab (settable, boolean) Get started with retail catalogs | Pinterest Business help, Value: off
+					88 tab (settable, boolean) [TEMPLATE - COPY] Pinterest Catalog Data source Google Sheet Template - Google Sheets, Value: off
+					89 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					90 tab (settable, boolean) All products - Merchant Center, Value: off
+					91 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+			92 button New tab
+	93 close button
+	94 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	95 minimise button
+96 menu bar
+	97 Chrome
+	98 File
+	99 Edit
+	100 View
+	101 History
+	102 Bookmarks
+	103 Profiles
+	104 Tab
+	105 Window
+	106 Help
+
+The focused UI element is 31 button Close

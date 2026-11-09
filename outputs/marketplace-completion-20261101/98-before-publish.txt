@@ -1,0 +1,196 @@
+- banner:
+  - button [disabled]:
+  - link "Facebook":
+    - /url: /
+  - button:
+  - combobox "Search Facebook"
+  - navigation "Facebook":
+    - list:
+      - link "Home":
+        - /url: /
+      - link "Reels":
+        - /url: /reel/?s=tab
+      - link "Friends":
+        - /url: /friends/
+      - link "Groups":
+        - /url: /groups/
+      - link "Gaming":
+        - /url: /gaming/play/?store_visit_source=gaming_tab
+  - navigation "Account controls and settings":
+    - button "Facebook menu":
+    - button "Notifications, 27 unread":
+    - button:
+      - generic: Number of unread notifications
+      - generic: 20+
+    - button "Account, your profile":
+      - img "Your profile"
+- main:
+  - navigation "Breadcrumb":
+    - generic: Marketplace
+  - heading "Item for sale" [level=1]
+  - form "Marketplace":
+    - generic: Boldstone Sculpture
+    - generic: Listing to Marketplace
+    - generic: ·
+    - generic: Public
+    - text: Photos
+    - generic: ·
+    - text: 10/10 Videos
+    - generic: ·
+    - text: 0/1
+    - button
+    - button
+    - button "Remove photo 1 of 10":
+    - img "Listing photo"
+    - button "Remove photo 2 of 10":
+    - img "Listing photo"
+    - button "Remove photo 3 of 10":
+    - img "Listing photo"
+    - button "Remove photo 4 of 10":
+    - img "Listing photo"
+    - button "Remove photo 5 of 10":
+    - img "Listing photo"
+    - button "Remove photo 6 of 10":
+    - img "Listing photo"
+    - button "Remove photo 7 of 10":
+    - img "Listing photo"
+    - button "Remove photo 8 of 10":
+    - img "Listing photo"
+    - button "Remove photo 9 of 10":
+    - img "Listing photo"
+    - button "Remove photo 10 of 10":
+    - img "Listing photo"
+    - button "Add video":
+      - generic: Add video
+      - generic: (1 minute max)
+    - status: 10 photos attached
+    - text: Upload photos directly from your phone.
+    - button "Learn more about uploading photos from your phone": Learn more
+    - button "Try It":
+      - generic: Try It
+    - heading "Required" [level=2]:
+      - generic: Required
+    - generic: Be as descriptive as possible.
+    - generic: Title
+    - textbox "Title": Leaf Silhouette - White | Wall Sculpture
+    - generic: Price
+    - textbox "Price": £51
+    - combobox "Category":
+      - generic: Category
+      - generic: Household
+    - group "Suggested categories"
+    - combobox "Condition":
+      - generic: Condition
+      - generic: New
+    - button "More details Attract more interest by including more details." [expanded]:
+      - generic: More details
+      - generic: Attract more interest by including more details.
+    - generic: Material
+    - textbox "Material"
+    - combobox "Colour":
+      - generic: Colour
+    - generic: Description
+    - textbox "Description": "A simplified leaf silhouette becomes a sculptural study in line and form. The relief keeps the natural motif clear and expressive, allowing light to define its contours. A calm botanical accent for a space that favours thoughtful details and a connection to the garden. The white finish keeps the focus on the form and its changing shadows. Dimensions: 35 × 35 × 6 cm per panel Weight: Approximately 6–8 kg per panel Use: Suitable for outdoor use and indoor display. Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall. Availability: Made to order Production lead time: 1–2 weeks Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options. Room settings and group arrangements are illustrative; this listing is for the individual sculpture described above. Website price: £50.72. Full details, photographs and online ordering: https://boldstonesculpture.com/buy/p/leaf-form-white"
+    - combobox "Availability":
+      - generic: Availability
+      - generic: List as in stock
+    - generic: Product tags
+    - list
+    - textbox "Product tags"
+    - generic: "Optional. Limit: 20"
+    - generic: SKU
+    - textbox "SKU": LF-1-40.20
+    - generic: Optional. Only visible to you
+    - generic: Location
+    - combobox "Location": Bath
+    - heading "Meetup preferences" [level=2]:
+      - generic: Meetup preferences
+    - text: Buyers will be able to see your preferences on your listing.
+    - link "Learn more about meetup preferences":
+      - /url: https://www.facebook.com/help/329122794534612
+      - text: Learn more
+    - group "Meetup preferences":
+      - checkbox "Public meetup Meet in a public location. See Marketplace meetup safety tips":
+        - generic: Public meetup
+        - text: Meet in a public location.
+        - link "See Marketplace meetup safety tips":
+          - /url: https://www.facebook.com/help/1156544111079919
+          - text: See safety tips
+      - checkbox "Door pick-up Buyer picks up at your door.":
+        - generic: Door pick-up
+        - generic: Buyer picks up at your door.
+      - checkbox "Door drop-off You drop off at buyer's door.":
+        - generic: Door drop-off
+        - generic: You drop off at buyer's door.
+    - separator
+    - generic: Promote listing after publish
+    - generic: Add a step to promote your listing after it's been published to help you reach more potential buyers by turning it into an ad.
+    - switch "Promote listing after publish"
+    - generic: Hide from friends
+    - text: This listing is still public. If you hide this listing from friends, they won't see it in most cases.
+    - link "Learn more about hiding listings from friends":
+      - /url: https://www.facebook.com/help/1096431074294038
+      - text: Learn more
+    - switch "Hide from friends"
+    - button "Turn off commenting Comments are automatically enabled. Disabling comments prevents interested buyers from asking questions and leaving feedback. Disabled":
+      - generic: Turn off commenting
+      - generic: Comments are automatically enabled. Disabling comments prevents interested buyers from asking questions and leaving feedback.
+      - switch "Disabled"
+    - text: Marketplace items are public and can be seen by anyone on or off Facebook. Items such as animals, drugs, weapons, counterfeits and other items that infringe intellectual property aren't allowed on Marketplace. See our
+    - link "Commerce Policies":
+      - /url: https://www.facebook.com/policies_center/commerce/
+    - text: .
+    - generic: Marketplace sellers are responsible for complying with applicable regional laws and regulations.
+  - img "Progress, currently on step 1 of 2"
+  - button "Next" [active]:
+    - generic: Next
+- complementary "Marketplace composer":
+  - region:
+    - heading "Preview" [level=2]:
+      - generic: Preview
+    - region "Preview":
+      - button "View photo 1":
+        - img "Product photo of Leaf Silhouette - White | Wall Sculpture"
+      - button "View photo 2":
+        - img "Product photo of Leaf Silhouette - White | Wall Sculpture"
+      - button "View photo 3":
+        - img "Product photo of Leaf Silhouette - White | Wall Sculpture"
+      - button "View photo 4":
+        - img "Product photo of Leaf Silhouette - White | Wall Sculpture"
+      - button "View photo 5":
+        - img "Product photo of Leaf Silhouette - White | Wall Sculpture"
+      - button "View photo 6":
+        - img "Product photo of Leaf Silhouette - White | Wall Sculpture"
+      - button "View photo 7":
+        - img "Product photo of Leaf Silhouette - White | Wall Sculpture"
+      - button "View photo 8":
+        - img "Product photo of Leaf Silhouette - White | Wall Sculpture"
+      - button "View photo 9":
+        - img "Product photo of Leaf Silhouette - White | Wall Sculpture"
+      - button "View photo 10":
+        - img "Product photo of Leaf Silhouette - White | Wall Sculpture"
+      - button "View previous image":
+      - button "View next image":
+      - heading "Leaf Silhouette - White | Wall Sculpture" [level=3]:
+        - generic: Leaf Silhouette - White | Wall Sculpture
+      - generic: £51
+      - text: Listed
+      - generic "a few seconds ago"
+      - text: in
+      - button "Bath" [disabled]
+      - heading "Details" [level=2]:
+        - generic: Details
+      - generic: Condition
+      - generic: New
+      - generic: "A simplified leaf silhouette becomes a sculptural study in line and form. The relief keeps the natural motif clear and expressive, allowing light to define its contours. A calm botanical accent for a space that favours thoughtful details and a connection to the garden. The white finish keeps the focus on the form and its changing shadows. Dimensions: 35 × 35 × 6 cm per panel Weight: Approximately 6–8 kg per panel Use: Suitable for outdoor use and indoor display. Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall. Availability: Made to order Production lead time: 1–2 weeks Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options. Room settings and group arrangements are illustrative; this listing is for the individual sculpture described above. Website price: £50.72. Full details, photographs and online ordering: https://boldstonesculpture.com/buy/p/leaf-form-white"
+      - heading [level=2]:
+        - generic: Seller information
+      - link:
+        - /url: /marketplace/profile/100064311860325/?product_id=client%3Alocal%3A4
+        - generic: Seller details
+      - list:
+        - link:
+          - /url: /marketplace/profile/100064311860325/?product_id=client%3Alocal%3A4&__tn__=%3C
+        - link:
+          - /url: /marketplace/profile/100064311860325/?product_id=client%3Alocal%3A4
+          - text: Boldstone Sculpture

@@ -1,0 +1,363 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						28 container
+							29 container
+								30 link manage.brandboom.com/
+								31 link manage.brandboom.com/products/s/111089
+								32 link manage.brandboom.com/marketplace/s/111089
+								33 link manage.brandboom.com/orders/s/111089
+								34 link
+									35 image
+								36 image
+							37 container
+								38 heading Products, Value: 5
+									39 text Products
+								40 button (disabled) GBP
+								41 button Create
+								42 pop-up button Import
+									43 text Import
+								44 container
+									45 link
+										46 image
+									47 search text field (settable) Value: BOLD-AAC2DC2CFEC2, Placeholder: Search Products
+									48 link
+								49 button 1
+									50 container
+										51 Tick box 1
+									52 text 1
+								53 container
+									54 text 1  /  1
+								55 container
+									56 radio button 1
+									57 image
+								58 container
+									59 radio button 0
+									60 image
+							61 container
+								62 container
+									63 container
+										64 image /0003470566625BA4_M.jpg
+										65 text Boldstone Cup Ring and Spiral Paver I - Brown Finish Decorative paver panel
+										66 text BOLD-AAC2DC2CFEC2 TEXTURED BROWN SURFACE
+										67 container
+											68 text 74.17  GBP
+							69 container
+								70 content list
+									71 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								72 container
+									73 heading Presentations, Value: 5
+										74 text Presentations
+									75 button New
+									76 content list
+										77 link ALL, Value: manage.brandboom.com/products/s/111089#
+										78 link RECENT, Value: manage.brandboom.com/products/s/111089#
+									79 container
+										80 link
+											81 image
+										82 search text field (settable) Search Presentations
+										83 link
+											84 image
+								85 heading Ship Windows, Value: 5
+									86 text Ship Windows
+								87 content list
+									88 link ACTIVE, Value: manage.brandboom.com/products/s/111089#
+									89 link ARCHIVED, Value: manage.brandboom.com/products/s/111089#
+								90 text No active ship windows
+							91 container
+								92 button Cancel
+								93 button Select All
+								94 text 1 Item
+								95 button Search Order
+							96 link Reset
+								97 text Reset
+							98 button Apply
+							99 text PRODUCT STATUS
+							100 text Active
+							101 text Inactive
+							102 text Archived
+							103 text Corrupted
+							104 text No Images
+							105 text SORT BY
+							106 pop-up button Newest First
+								107 (selected) Newest First
+							108 text SHIP DATE RANGE
+							109 container
+								110 image
+								111 text field (settable) Click to select range
+							112 text No Date Range
+							113 text CREATE DATE RANGE
+							114 container
+								115 image
+								116 text field (settable) Click to select range
+							117 text SIZES
+							118 text field (settable) S, M, L
+							119 text VENDORS TYPES
+							120 link
+								121 image
+							122 text No Types
+							123 text Mens
+							124 text Womens
+							125 text CATEGORIES
+							126 link
+								127 image
+							128 link
+								129 image
+							130 text No Categories
+							131 text Sweater
+							132 text SEASONS
+							133 link
+								134 image
+							135 link
+								136 image
+							137 text No Seasons
+							138 container
+								139 container
+									140 Tick box Create another, Value: 0
+									141 text Create another
+								142 button Save
+								143 container
+									144 Unlabelled image /0003470566625BA4_M.jpg
+									145 container
+										146 image /0003470566625BA4_S.jpg
+										147 button STANDARD
+										148 image /00034705667FEA69_S.jpg
+										149 button STANDARD
+										150 image
+										151 image
+									152 image
+									153 text 2 / Unlimited
+									154 image
+									155 text 0 / 1
+									156 text Drag to reorder
+									157 container
+										158 text Style ID *
+										159 text BOLD-AAC2DC2CFEC2
+									160 container
+										161 text Options
+										162 link Textured brown surface
+											163 text Textured brown surface
+									164 container
+										165 text Sizes
+										166 text One sculpture
+									167 text Barcode
+									168 container
+										169 button
+										170 text field (settable)
+									171 text Name
+									172 text field (settable) Boldstone Cup Ring and Spiral Paver I - Brown Finish Decorative paver panel
+									173 container Price
+										174 container
+											175 text Price
+											176 text field (settable) Value: 74.17, Placeholder: Enter
+									177 container Retail
+										178 container
+											179 text Retail
+											180 text field (settable) Value: 0.00, Placeholder: Enter
+									181 text Qty Min
+									182 text field (settable) 1
+									183 text Vendor
+									184 text field (settable)
+									185 text Type
+									186 text field (settable) Home Decor
+									187 text Category
+									188 text field (settable) Wall Sculpture
+									189 text Taxonomy
+									190 text field (settable) Select
+									191 text Season
+									192 text field (settable)
+									193 text Ship Date
+									194 text field (settable)
+									195 container
+										196 text HS Code
+										197 text field (settable) HS Code
+									198 container Country Of Origin
+										199 container
+											200 text Country Of Origin
+											201 button -
+									202 container
+										203 text Description
+										204 container
+											205 text Simple circular marks and curling lines evoke the language of ancient rock art. The relief gives these elemental shapes a fresh setting, with texture and shadow adding depth to the design.
+											206 text A tactile accent for a contemporary wall, carrying the feeling of a discovered mark or a pattern worn into the landscape.
+											207 text This version is offered in the brown colourway.
+											208 text Brand: Boldstone
+											209 text Product type: Decorative paver panel
+											210 text Model: Cup Ring and Spiral Paver I - Brown Finish (BOLD-AAC2DC2CFEC2)
+											211 text Colour / appearance: Textured brown surface
+											212 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											213 text Material: Made from a gypsum-based material.
+											214 text Surface effect: A decorative surface effect is applied to create the finish shown. Each piece is handmade. The surface-effect pattern will vary and will differ from the photographs.
+											215 text Dimensions: Approximately 30 × 30 × 6 cm
+											216 text Weight: Approximately 4 kg
+											217 text Use: Suitable for outdoor use and indoor display.
+											218 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											219 text Availability: Ready to dispatch
+											220 text Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											221 text Dispatch time: Within 10 working days. Delivery transit time is additional.
+											222 text Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+							223 link
+								224 image
+							225 container
+								226 content list
+									227 link MEDIA, Value: manage.brandboom.com/products/s/111089#
+									228 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089#
+								229 container
+									230 button Upload Images
+									231 button
+									232 button
+									233 button
+								234 container
+									235 Unlabelled image /00011059390A4080_S.avif
+									236 text jewelry-watch
+									237 Unlabelled image /00011059388E43A7_S.avif
+									238 text toys-dinosaur
+									239 Unlabelled image /00011059387A69BA_S.avif
+									240 text baby-kidswear-t
+									241 Unlabelled image /000110593863557B_S.avif
+									242 text pet-sticks
+									243 Unlabelled image /00011059385C1D4E_S.avif
+									244 text apparel-t-shirt
+									245 Unlabelled image /00011059384494BB_S.avif
+									246 text footwear-shoes
+									247 Unlabelled image /000110593837D96A_S.avif
+									248 text beauty-cream
+									249 Unlabelled image /00011059382B4683_S.avif
+									250 text home-pitcher
+									251 Unlabelled image /00007087863E986B_S.avif
+									252 text BOOM1111
+									253 Unlabelled image /0000022409830BD3_S.avif
+									254 text BOOM1830
+									255 Unlabelled image /00000224097C30D6_S.avif
+									256 text BOOM1705
+									257 Unlabelled image /00000224096AD0BE_S.avif
+									258 text BOOM1100
+							259 button Close
+							260 text Search Products
+							261 button Scan barcodes
+							262 container
+								263 link
+									264 image
+								265 search text field (settable) Search for Products
+							266 text RESULTS
+							267 button Open Intercom Messenger
+							268 link Dismiss
+								269 text Dismiss
+							270 link Product Import Complete
+								271 text Product Import Complete
+							272 button Refresh
+			273 pop-up button Tab search
+			274 container
+				275 tab group
+					276 tab (settable, boolean) Products – Faire, Value: off
+					277 tab (settable, boolean) Gumtree | Free classified ads from the #1 classifieds site in the UK, Value: off
+					278 tab (settable, boolean) Sign in to your Supplier account | AppScenic, Value: off
+					279 tab (settable, boolean) Shoppe Object, Value: off
+					280 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					281 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					282 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					283 tab (settable, boolean) sell on wholesale central - Google Search, Value: off
+					284 tab (settable, boolean) Display Your Products to Millions of Buyers Worldwide., Value: off
+					285 tab (settable, boolean) become-a-seller-new | Wholesale Prices | Tradeling, Value: off
+					286 tab (settable, boolean) Marketplace FAQ for Sellers | Brandboom Help Center, Value: off
+					287 tab (settable, boolean) Online Sales FAQ - TICA, Value: off
+					288 tab (settable, boolean) Carro Migration FAQ, Value: off
+					289 tab (settable, boolean) Join Us | CREOATE, Value: off
+					290 tab (settable, boolean) MOM - Sell your products, Value: off
+					291 tab (settable, boolean) Ankorstore | Wholesale Marketplace Home to Europe's Best Brands, Value: off
+					292 tab (settable, boolean) Explore JOOR for home brands, Value: off
+					293 tab (settable, boolean) Wholesale Marketplace: Get Discovered by Retailers | NuORDER by Lightspeed, Value: off
+					294 tab (settable, boolean) Sell on Syncee, Value: off
+					295 tab (settable, boolean) Become a Spocket Supplier - Sell to 100,000+ Retailers Free, Value: off
+					296 tab (settable, boolean) Become a verified Avasam supplier, Value: off
+					297 tab (settable, boolean) Advertise Your Wholesale Business - Would you like to expand your business?, Value: off
+					298 tab (settable, boolean) eSources UK Help | Managing Your Supplier Profile, Value: off
+					299 tab (settable, boolean) Gift Wholesalers - Gift Shop Wholesalers, Value: off
+					300 tab (settable, boolean) Sell on Tesco Marketplace | Reach millions of UK shoppers, Value: off
+					301 tab (settable, boolean) RangeMe, Value: off
+					302 tab (settable, boolean) Art Gallery | Buy Original British Art Online, Value: off
+					303 tab (settable, boolean) Original art for sale, Value: off
+					304 tab (settable, boolean) 25+ Handmade Marketplaces for Artisans to Sell Crafts, Art, Gifts Online - MultiMerch, Value: off
+					305 tab (settable, boolean) 250+ Websites Directory for Artists to Sell Art Online, Value: off
+					306 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish, Value: off
+					307 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					308 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					309 tab (settable, boolean) Wholesale Central | Leading Source for Wholesale Products & Suppliers, Value: off
+					310 tab (settable, boolean) New York City Show Exhibitor Application, Value: off
+					311 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					312 tab (settable, boolean) Booth activation - Booth customization, Value: off
+					313 tab (settable, boolean) Romans Surviving Rome’s Collapse, Value: off
+					314 tab (settable, boolean) PayPal, Value: off
+					315 tab (settable, boolean) Verification code to reset your PayPal password - info@boldstone.co.uk - Thomas Price Mail, Value: off
+					316 tab (settable, boolean) ChatGPT, Value: off
+					317 tab (settable, boolean) _20261105_125118_b5c8aa3a-e88c-489b-bb71-04f4e23ce0ea.png (2048×2048), Value: off
+					318 tab (settable, boolean) _20261105_124942_a2ea11ea-9588-4814-921b-1b8119944376.png (2048×2048), Value: off
+					319 tab (settable, boolean) 888309629_1523348299846656_5333981695044073670_n.jpg (947×2048), Value: off
+					320 tab (settable, boolean) 880004104_1873677580468638_5195249294559980998_n.jpg (947×2048), Value: off
+					321 tab (settable, boolean) Photo 31-03-2025, 12 41 58.jpg, Value: off
+					322 tab (settable, boolean) Value: off, Elegant Swan Marble Side Table with Artistic White Base – 50cm — boldstone - High memory usage - 955 MB
+					323 tab (settable, boolean) Marbled Circle - Turquoise — boldstone, Value: off
+					324 tab (settable, boolean) (1) Home / X, Value: off
+					325 tab (settable, boolean) SEO opportunity audit, Value: off
+					326 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					327 tab (settable, boolean) Contact us - Glassette, Value: off
+					328 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					329 tab (settable, boolean) Sell on Artsper, Value: off
+					330 tab (settable, boolean) ChatGPT, Value: off
+					331 tab (settable, boolean) (5) Boldstone Sculpture | Commerce Manager, Value: off
+					332 tab group  group ✅Claude – 1 Tab, •  Boldstone Sculpture | Products – Expanded
+					333 tab (settable, boolean) Boldstone Sculpture | Products – Part of group ✅Claude, Value: off
+					334 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+					335 tab group  group 🗿 Product completion – 1 Tab, •  about:blank – Expanded
+					336 tab (settable, boolean) about:blank – Part of group 🗿 Product completion, Value: off
+			337 button New tab
+	338 close button
+	339 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	340 minimise button
+341 menu bar
+	342 Chrome
+	343 File
+	344 Edit
+	345 View
+	346 History
+	347 Bookmarks
+	348 Profiles
+	349 Tab
+	350 Window
+	351 Help
+
+The focused UI element is 27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089

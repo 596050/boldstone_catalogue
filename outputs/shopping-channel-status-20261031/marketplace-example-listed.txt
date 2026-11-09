@@ -1,0 +1,290 @@
+- banner:
+  - button [disabled]:
+  - link "Facebook":
+    - /url: /
+  - button:
+  - combobox "Search Facebook"
+  - navigation "Facebook":
+    - list:
+      - link "Home":
+        - /url: /
+      - link "Reels":
+        - /url: /reel/?s=tab
+      - link "Friends":
+        - /url: /friends/
+      - link "Groups":
+        - /url: /groups/
+      - link "Gaming":
+        - /url: /gaming/play/?store_visit_source=gaming_tab
+  - navigation "Account controls and settings":
+    - button "Facebook menu":
+    - button "Messenger":
+    - button "Notifications, 27 unread":
+    - button:
+      - generic: Number of unread notifications
+      - generic: 20+
+    - button "Account, your profile":
+      - img "Your profile"
+- navigation:
+  - heading [level=1]: Marketplace
+  - button:
+  - link:
+    - /url: /marketplace/create/?__tn__=!%3AA
+    - generic: Create new listing
+  - list:
+    - link:
+      - /url: /marketplace/you/dashboard/
+      - generic: Seller dashboard
+    - link:
+      - /url: /marketplace/you/selling/
+      - generic: Your listings
+    - link:
+      - /url: /marketplace/you/seller_announcement_center/
+      - generic: Announcements
+    - link:
+      - /url: /marketplace/you/insights/
+      - generic: Insights
+    - link:
+      - /url: /marketplace/profile/100064311860325/?product_id=
+      - generic: Marketplace profile
+    - link:
+      - /url: /marketplace/
+      - generic: Browse Marketplace
+  - button:
+    - generic: Manage Listings
+  - heading [level=2]:
+    - generic: Filters
+  - button:
+    - generic: Clear
+  - button:
+    - generic: Sort by
+  - button:
+    - generic: Status
+- main:
+  - heading [level=2]:
+    - generic: Keep your listings up to date
+  - generic: Marking items as sold reduces unwanted messages and ensures transparency for potential buyers.
+  - button
+  - link:
+    - /url: https://www.facebook.com/help/1156544111079919?helpref=about_content
+    - generic: Learn more
+  - textbox:
+    - /placeholder: Search your listings
+  - button [pressed]:
+  - button:
+  - button
+  - button:
+    - generic: Ammonite Grande I (Left) - White | Wall Sculpture
+    - generic: £155
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button
+  - button:
+    - generic: Mark as out of stock
+  - link:
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28555747487435193
+    - generic: Promote now
+  - button
+  - button
+  - button:
+    - generic: Acanthus Twin Leaves - White | Wall Sculpture
+    - generic: £34
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button
+  - button:
+    - generic: Mark as out of stock
+  - link:
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28842278498797711
+    - generic: Promote now
+  - button
+  - button
+  - button:
+    - generic: Acanthus Twin Leaves - Pewter | Wall Sculpture
+    - generic: £44
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button
+  - button:
+    - generic: Mark as out of stock
+  - link:
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28904613269166631
+    - generic: Promote now
+  - button
+  - button
+  - button:
+    - generic: Acanthus Twin Leaves - Pale Blue and White | Wall Sculpture
+    - generic: £39
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button
+  - button:
+    - generic: Mark as out of stock
+  - link:
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=29206491675634551
+    - generic: Promote now
+  - button
+  - button
+  - button:
+    - generic: Acanthus Twin Leaves - Bronze | Wall Sculpture
+    - generic: £44
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button
+  - button:
+    - generic: Mark as out of stock
+  - link:
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=29324458727185601
+    - generic: Promote now
+  - button
+  - button
+  - button:
+    - generic: Acanthus Frond (Left) - White | Wall Sculpture
+    - generic: £34
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button
+  - button:
+    - generic: Mark as out of stock
+  - link:
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28598948709776452
+    - generic: Promote now
+  - button
+  - button
+  - button:
+    - generic: Acanthus Frond (Left) - Pewter | Wall Sculpture
+    - generic: £44
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button
+  - button:
+    - generic: Mark as out of stock
+  - link:
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28847671371598866
+    - generic: Promote now
+  - button
+  - button
+  - button:
+    - generic: Acanthus Moon - White | Wall Sculpture
+    - generic: £56
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button
+  - button:
+    - generic: Mark as out of stock
+  - link:
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28572827819083461
+    - generic: Promote now
+  - button
+  - button
+  - button:
+    - generic: Acanthus Bloom - White | Wall Sculpture
+    - generic: £34
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button
+  - button:
+    - generic: Mark as out of stock
+  - link:
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28887719257564714
+    - generic: Promote now
+  - button
+  - button
+  - button:
+    - generic: Acanthus Moon - Gold Finish | Wall Sculpture
+    - generic: £73
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 1 click on listing
+    - button
+  - button:
+    - generic: Mark as out of stock
+  - link:
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=29060542926941208
+    - generic: Promote now
+  - button
+- dialog "Your listing":
+  - heading "Your listing" [active] [level=2]:
+    - generic: Your listing
+  - button "Close"
+  - link "Acanthus Moon - Gold Finish | Wall Sculpture £73 In stock Bath, EBAY-188698779320 Posted on 31 minutes ago":
+    - /url: /marketplace/item/28817988067812492/
+    - generic: Acanthus Moon - Gold Finish | Wall Sculpture
+    - text: £73
+    - generic: ·
+    - text: In stock
+    - generic: ·
+    - text: Bath,
+    - generic: EBAY-188698779320
+    - text: Posted on
+    - generic "31 minutes ago"
+  - button "Mark as out of stock Acanthus Moon - Gold Finish | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Acanthus Moon - Gold Finish | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=PDP_PROMOTE_BUTTON&page_id=1065651656636272&target_id=29060542926941208
+    - generic: Promote now
+  - link "Edit listing":
+    - /url: /marketplace/edit/?listing_id=28817988067812492&__tn__=!%3AH
+  - generic: Edit listing
+  - button "Delete Marketplace listing":
+  - generic: Delete listing
+  - button "More options for listing":
+  - generic: More
+  - heading "Listed in 1 place" [level=2]:
+    - generic: Listed in 1 place
+  - button "List to more places":
+    - generic: List to more places
+  - link "Marketplace":
+    - /url: https://www.facebook.com/marketplace/item/28817988067812492/
+    - generic: Marketplace
+  - text: 1 click on listing
+  - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - tablist:
+    - generic: More
+    - tab "Messages" [selected]:
+      - generic: Messages
+    - tab "Comments":
+      - generic: Comments
+    - tab "Insights":
+      - generic: Insights
+  - generic: No messages for this listing yet
+- button "New message":

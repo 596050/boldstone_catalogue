@@ -1,0 +1,108 @@
+Window: "Boldstone Sculpture | Marketplace", App: Google Chrome.
+0 standard window Boldstone Sculpture | Marketplace - Google Chrome – Tom, URL: manage.brandboom.com/marketplace/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Marketplace - Google Chrome – Tom, URL: manage.brandboom.com/marketplace/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/marketplace/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Boldstone Sculpture | Marketplace, URL: manage.brandboom.com/marketplace/s/111089
+						27 container
+							28 container Net more sales with Brandboom Marketplace A low 10% fee on each transaction. Accept orders within 7 days to ensure a great buying experience and streamlined payment process. (Order expires after 7 days). Get paid upfront when goods are delivered. Eliminate risk - we handle all credit checks and headaches of non-payment. SELECT PRESENTATION Boldstone Wall Sculptures MANAGING AGENT Sally Price PRIMARY CATEGORY Home THRESHOLD FOR INITIAL RETURN Seller's Discretion By participating in the marketplace, you agree
+								29 link
+									30 image
+								31 container
+									32 Unlabelled image To get missing image descriptions, open the context menu.
+									33 heading Net more sales with Brandboom Marketplace, Value: 3
+										34 text Net more sales with  Brandboom Marketplace
+									35 container
+										36 text A low 10% fee  on each transaction.
+									37 text Accept orders within 7 days  to ensure a great buying experience and streamlined payment process. (Order expires after 7 days).
+									38 container
+										39 text Get paid upfront  when goods are delivered.
+									40 container
+										41 text Eliminate risk  - we handle all credit checks and headaches of non-payment.
+									42 text SELECT PRESENTATION
+									43 button Boldstone Wall Sculptures
+									44 text MANAGING AGENT
+									45 button Sally Price
+									46 text PRIMARY CATEGORY
+									47 button Home
+									48 text THRESHOLD FOR INITIAL RETURN
+									49 image
+									50 button Seller's Discretion
+									51 container
+										52 text By participating in the marketplace, you agree to 
+										53 link Brandboom's Terms & Conditions, Value: brandboom.com/terms
+										54 text  and 
+										55 link Privacy Policy, Value: brandboom.com/terms
+									56 button Join
+			57 pop-up button Tab search
+			58 container
+				59 tab group
+					60 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 827 MB, Value: off
+					61 tab group  group ✅Claude – 1 Tab, •  Artworks | Artfinder – Expanded
+					62 tab (settable, boolean) Artworks | Artfinder – Part of group ✅Claude, Value: off
+					63 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					64 tab (settable, boolean) Contact us - Glassette, Value: off
+					65 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					66 tab (settable, boolean) Sell on Artsper, Value: off
+					67 tab (settable, boolean) See how virtual showrooms sell, Value: off
+					68 tab (settable, boolean) Become a Supplier | House of Estila, Value: off
+					69 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					70 tab (settable, boolean) Vendeurs_new_form EN, Value: off
+					71 tab (settable, boolean) A showroom buyers can shop 24/7, Value: off
+					72 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					73 tab (settable, boolean) Apply to sell with us - High memory usage - 930 MB, Value: off
+					74 tab group  group ✅Claude – 1 Tab, •  Inbox (97) - info@boldstone.co.uk - Thomas Pri… – Expanded
+					75 tab (settable, boolean) Value: off, Inbox (97) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1,022 MB
+					76 tab (settable, boolean) Value: off, Russell Brand trial live: Police release video of actor being interviewed after he is found guilty of one rape and three sexual assaults | Daily Mail Online
+					77 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 964 MB, Value: off
+					78 tab (settable, boolean) Overview of Marketplaces | Brandboom Help Center, Value: off
+					79 tab (selected, settable, boolean) Boldstone Sculpture | Marketplace, Value: on
+						80 button Close
+					81 tab (settable, boolean) Boldstone Sculpture | Boldstone Wall Sculptures, Value: off
+			82 button New tab
+	83 close button
+	84 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	85 minimise button
+86 menu bar
+	87 Chrome
+	88 File
+	89 Edit
+	90 View
+	91 History
+	92 Bookmarks
+	93 Profiles
+	94 Tab
+	95 Window
+	96 Help
+
+The focused UI element is 28 container Net more sales with Brandboom Marketplace A low 10% fee on each transaction. Accept orders within 7 days to ensure a great buying experience and streamlined payment process. (Order expires after 7 days). Get paid upfront when goods are delivered. Eliminate risk - we handle all credit checks and headaches of non-payment. SELECT PRESENTATION Boldstone Wall Sculptures MANAGING AGENT Sally Price PRIMARY CATEGORY Home THRESHOLD FOR INITIAL RETURN Seller's Discretion By participating in the marketplace, you agree

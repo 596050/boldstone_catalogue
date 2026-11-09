@@ -1,0 +1,670 @@
+- banner:
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Navigation menu" [expanded]:
+    - img: menu
+  - link "Merchant Center home":
+    - /url: /mc/overview?a=5664655454&authuser=1
+    - img "Merchant Center home"
+  - dialog "Search":
+    - img: search
+    - textbox "Search Merchant Center"
+  - button "Help":
+    - img: help_outline
+  - 'button "Merchant Center account: Boldstone Sculpture, 5664655454"':
+    - generic: Boldstone Sculpture
+    - generic: "5664655454"
+    - img: arrow_drop_down
+  - button "Google apps":
+  - 'button "Google Account: Sally Price (info@boldstone.co.uk)"':
+- navigation:
+  - tree "Navigation":
+    - treeitem "Overview" [level=1]:
+      - img: dashboard
+      - generic: Overview
+    - treeitem "Notifications" [level=1]:
+      - img: notifications
+      - generic: Notifications
+    - treeitem "Products & store" [expanded] [level=1]:
+      - img: inventory_2
+      - generic: Products & store
+      - img: arrow_drop_down
+      - treeitem "Products" [level=2]:
+        - generic: Products
+      - treeitem "Shipping and returns" [level=2]:
+        - generic: Shipping and returns
+      - treeitem "Store quality" [level=2]:
+        - generic: Store quality
+      - treeitem "Reviews" [level=2]:
+        - generic: Reviews
+    - treeitem "Creative content" [level=1]:
+      - img: brush_spark
+      - generic: Creative content
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Product Studio
+      - treeitem [disabled] [level=2]:
+        - generic: Video assets
+    - treeitem "Marketing" [level=1]:
+      - img: campaign
+      - generic: Marketing
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Ad campaigns
+      - treeitem [disabled] [level=2]:
+        - generic: Promotions
+      - treeitem [disabled] [level=2]:
+        - generic: Marketing methods
+    - treeitem "Analytics" [level=1]:
+      - img: timeline
+      - generic: Analytics
+      - img: arrow_drop_down
+      - treeitem [disabled] [level=2]:
+        - generic: Summary
+      - treeitem [disabled] [level=2]:
+        - generic: Products
+      - treeitem [disabled] [level=2]:
+        - generic: Online store
+    - treeitem "Settings" [expanded] [level=1]:
+      - img: settings
+      - generic: Settings
+      - img: arrow_drop_down
+      - treeitem "General" [level=2]:
+        - generic: General
+      - treeitem "Business info" [level=2]:
+        - generic: Business info
+      - treeitem "Data sources" [level=2]:
+        - generic: Data sources
+      - treeitem "Add-ons" [level=2]:
+        - generic: Add-ons
+      - treeitem "Access and services" [level=2]:
+        - generic: Access and services
+- heading "Products" [level=1]
+- tablist:
+  - tab "All products" [active] [selected]:
+    - generic: All products
+  - tab "Needs attention":
+    - generic: Needs attention
+  - tab "Automations":
+    - generic: Automations
+- main:
+  - button "Understand your product status changes" [expanded]:
+    - generic: Understand your product status changes
+    - img: expand_less
+  - region "Understand your product status changes":
+    - generic: This shows the status history for your products across various marketing methods. You can change the filters to view the product status for a specific marketing method.
+    - img: filter_alt
+    - generic: "Filters Applied:"
+    - grid "Filters Applied:":
+      - 'row "Time period: Last 28 days"':
+        - 'gridcell "Time period: Last 28 days"':
+          - 'button "Time period: Last 28 days"': "Time period: Last 28 days"
+      - 'row "Countries: All"':
+        - 'gridcell "Countries: All"':
+          - 'button "Countries: All"': "Countries: All"
+      - 'row "Marketing methods: Free listings"':
+        - 'gridcell "Marketing methods: Free listings"':
+          - 'button "Marketing methods: Free listings"': "Marketing methods: Free listings"
+    - generic "Product status history":
+      - table:
+        - rowgroup:
+          - row "Approved Limited Not approved Under review":
+            - checkbox "Approved" [checked]:
+              - checkbox [checked]
+              - generic: Approved
+            - checkbox "Limited" [checked]:
+              - checkbox [checked]
+              - generic: Limited
+            - checkbox "Not approved" [checked]:
+              - checkbox [checked]
+              - generic: Not approved
+            - checkbox "Under review" [checked]:
+              - checkbox [checked]
+              - generic: Under review
+      - generic: Product status history, Stacked area chart. Use the arrow keys to navigate inside the chart.
+  - heading "Your products are being added" [level=2]
+  - generic: Google is also reviewing your products for completeness and compliance with Google policies. This may take a while. You'll get notified when your products are ready.
+  - button "Got it. Close welcome message":
+    - generic: Got it
+  - tablist:
+    - generic "Total products 325":
+      - generic: Total products
+      - button "More information about Total products metric":
+        - img "More information about Total products metric": help_outline
+      - 'tab "325 value. Update reports to show: Total products" [selected]': "325"
+    - generic "Not showing on Google 325":
+      - generic: Not showing on Google
+      - button "More information about Not showing on Google metric":
+        - img "More information about Not showing on Google metric": help_outline
+      - 'tab "325 value. Update reports to show: Not showing on Google"': "325"
+    - generic "Edited products 4":
+      - generic: Edited products
+      - 'tab "4 value. Update reports to show: Edited products"': "4"
+  - button "Add products from a dropdown options, menu popup button":
+    - generic: Add products
+    - img: arrow_drop_down
+  - button "Manage product sources":
+    - generic: Manage product sources
+  - button "Search products":
+    - img: search
+  - button "Show filtering options":
+    - img: filter_alt
+  - button "'Columns' lets you modify the columns you see in your table. Click the icon and select 'Modify columns.'":
+    - img: view_column
+  - button "Download products":
+    - img: file_download
+  - grid "Product list":
+    - row "Select all rows Visibility Status Image Title Product ID Price Suggested sale price Availability Data source Last update Clicks Click potential Edit":
+      - gridcell "Select all rows":
+        - checkbox "Select all rows":
+      - columnheader "Visibility"
+      - columnheader "Status"
+      - columnheader "Image"
+      - columnheader "Title"
+      - columnheader "Product ID"
+      - columnheader "Price"
+      - columnheader "Suggested sale price":
+        - text: Suggested sale price
+        - img: help_outline
+      - columnheader "Availability"
+      - columnheader "Data source"
+      - columnheader "Last update"
+      - columnheader "Clicks":
+        - text: Clicks
+        - img: help_outline
+      - columnheader "Click potential":
+        - text: Click potential
+        - img: help_outline
+      - columnheader "Edit"
+    - 'row "Select row Under review Edit this Visibility, currently UNDER_REVIEW Under review Thumbnail image for: Ancient Spiral - White Ancient Spiral - White Edit this Title, currently Ancient Spiral - White d00ee970-b8fb-478d-a203-f0b4e26f2b25 Price: £34.20 - In stock Squarespace-1469f13b Nov 1, 2026 5:15:16 AM 0 Available soon Edit product: Ancient Spiral - White"':
+      - gridcell "Select row":
+        - checkbox "Select row":
+      - gridcell "Under review Edit this Visibility, currently UNDER_REVIEW":
+        - img "Under review": watch_later
+        - button "Edit this Visibility, currently UNDER_REVIEW"
+      - gridcell "Under review":
+        - generic: Under review
+      - 'gridcell "Thumbnail image for: Ancient Spiral - White"':
+        - 'img "Thumbnail image for: Ancient Spiral - White"'
+      - gridcell "Ancient Spiral - White Edit this Title, currently Ancient Spiral - White":
+        - link "Ancient Spiral - White":
+          - /url: /mc/items/details?a=5664655454&offerId=d00ee970-b8fb-478d-a203-f0b4e26f2b25&language=en&channel=0&feedLabel=US&authuser=1
+        - button "Edit this Title, currently Ancient Spiral - White"
+      - gridcell "d00ee970-b8fb-478d-a203-f0b4e26f2b25":
+        - generic: d00ee970-b8fb-478d-a203-f0b4e26f2b25
+      - 'gridcell "Price: £34.20"':
+        - 'group "Price: £34.20"':
+          - generic: £34.20
+      - gridcell "-":
+        - generic: "-"
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "Squarespace-1469f13b":
+        - link "Squarespace-1469f13b":
+          - /url: /mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=1
+      - gridcell "Nov 1, 2026 5:15:16 AM":
+        - generic: Nov 1, 2026 5:15:16 AM
+      - gridcell "0":
+        - generic: "0"
+      - gridcell "Available soon":
+        - generic: Available soon
+      - 'gridcell "Edit product: Ancient Spiral - White"':
+        - 'link "Edit product: Ancient Spiral - White"':
+          - /url: /mc/directoffers/edit?a=5664655454&language=en&offerId=d00ee970-b8fb-478d-a203-f0b4e26f2b25&channel=0&feedLabel=US&authuser=1
+          - img: edit
+    - 'row "Select row Under review Edit this Visibility, currently UNDER_REVIEW Under review Thumbnail image for: Echo Rhythm II - Verdigris Echo Rhythm II - Verdigris Edit this Title, currently Echo Rhythm II - Verdigris ff8c7fe3-b08a-47ec-9e68-122a16366041 Price: £49.20 - In stock Squarespace-1469f13b Nov 1, 2026 4:06:27 AM 0 Available soon Edit product: Echo Rhythm II - Verdigris"':
+      - gridcell "Select row":
+        - checkbox "Select row":
+      - gridcell "Under review Edit this Visibility, currently UNDER_REVIEW":
+        - img "Under review": watch_later
+        - button "Edit this Visibility, currently UNDER_REVIEW"
+      - gridcell "Under review":
+        - generic: Under review
+      - 'gridcell "Thumbnail image for: Echo Rhythm II - Verdigris"':
+        - 'img "Thumbnail image for: Echo Rhythm II - Verdigris"'
+      - gridcell "Echo Rhythm II - Verdigris Edit this Title, currently Echo Rhythm II - Verdigris":
+        - link "Echo Rhythm II - Verdigris":
+          - /url: /mc/items/details?a=5664655454&offerId=ff8c7fe3-b08a-47ec-9e68-122a16366041&language=en&channel=0&feedLabel=US&authuser=1
+        - button "Edit this Title, currently Echo Rhythm II - Verdigris"
+      - gridcell "ff8c7fe3-b08a-47ec-9e68-122a16366041":
+        - generic: ff8c7fe3-b08a-47ec-9e68-122a16366041
+      - 'gridcell "Price: £49.20"':
+        - 'group "Price: £49.20"':
+          - generic: £49.20
+      - gridcell "-":
+        - generic: "-"
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "Squarespace-1469f13b":
+        - link "Squarespace-1469f13b":
+          - /url: /mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=1
+      - gridcell "Nov 1, 2026 4:06:27 AM":
+        - generic: Nov 1, 2026 4:06:27 AM
+      - gridcell "0":
+        - generic: "0"
+      - gridcell "Available soon":
+        - generic: Available soon
+      - 'gridcell "Edit product: Echo Rhythm II - Verdigris"':
+        - 'link "Edit product: Echo Rhythm II - Verdigris"':
+          - /url: /mc/directoffers/edit?a=5664655454&language=en&offerId=ff8c7fe3-b08a-47ec-9e68-122a16366041&channel=0&feedLabel=US&authuser=1
+          - img: edit
+    - 'row "Select row Under review Edit this Visibility, currently UNDER_REVIEW Under review Thumbnail image for: Egyptian Palm I - White Egyptian Palm I - White Edit this Title, currently Egyptian Palm I - White ff4b0fcc-0efd-4af3-9b77-c6830b48ec38 Price: £59.64 - In stock Squarespace-1469f13b Nov 1, 2026 4:06:27 AM 0 Available soon Edit product: Egyptian Palm I - White"':
+      - gridcell "Select row":
+        - checkbox "Select row":
+      - gridcell "Under review Edit this Visibility, currently UNDER_REVIEW":
+        - img "Under review": watch_later
+        - button "Edit this Visibility, currently UNDER_REVIEW"
+      - gridcell "Under review":
+        - generic: Under review
+      - 'gridcell "Thumbnail image for: Egyptian Palm I - White"':
+        - 'img "Thumbnail image for: Egyptian Palm I - White"'
+      - gridcell "Egyptian Palm I - White Edit this Title, currently Egyptian Palm I - White":
+        - link "Egyptian Palm I - White":
+          - /url: /mc/items/details?a=5664655454&offerId=ff4b0fcc-0efd-4af3-9b77-c6830b48ec38&language=en&channel=0&feedLabel=US&authuser=1
+        - button "Edit this Title, currently Egyptian Palm I - White"
+      - gridcell "ff4b0fcc-0efd-4af3-9b77-c6830b48ec38":
+        - generic: ff4b0fcc-0efd-4af3-9b77-c6830b48ec38
+      - 'gridcell "Price: £59.64"':
+        - 'group "Price: £59.64"':
+          - generic: £59.64
+      - gridcell "-":
+        - generic: "-"
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "Squarespace-1469f13b":
+        - link "Squarespace-1469f13b":
+          - /url: /mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=1
+      - gridcell "Nov 1, 2026 4:06:27 AM":
+        - generic: Nov 1, 2026 4:06:27 AM
+      - gridcell "0":
+        - generic: "0"
+      - gridcell "Available soon":
+        - generic: Available soon
+      - 'gridcell "Edit product: Egyptian Palm I - White"':
+        - 'link "Edit product: Egyptian Palm I - White"':
+          - /url: /mc/directoffers/edit?a=5664655454&language=en&offerId=ff4b0fcc-0efd-4af3-9b77-c6830b48ec38&channel=0&feedLabel=US&authuser=1
+          - img: edit
+    - 'row "Select row Under review Edit this Visibility, currently UNDER_REVIEW Under review Thumbnail image for: Soundwave Rhythm - White Soundwave Rhythm - White Edit this Title, currently Soundwave Rhythm - White fe870ce0-d5dd-446c-a98b-ce41d009416a Price: £114.76 - In stock Squarespace-1469f13b Nov 1, 2026 4:06:27 AM 0 Available soon Edit product: Soundwave Rhythm - White"':
+      - gridcell "Select row":
+        - checkbox "Select row":
+      - gridcell "Under review Edit this Visibility, currently UNDER_REVIEW":
+        - img "Under review": watch_later
+        - button "Edit this Visibility, currently UNDER_REVIEW"
+      - gridcell "Under review":
+        - generic: Under review
+      - 'gridcell "Thumbnail image for: Soundwave Rhythm - White"':
+        - 'img "Thumbnail image for: Soundwave Rhythm - White"'
+      - gridcell "Soundwave Rhythm - White Edit this Title, currently Soundwave Rhythm - White":
+        - link "Soundwave Rhythm - White":
+          - /url: /mc/items/details?a=5664655454&offerId=fe870ce0-d5dd-446c-a98b-ce41d009416a&language=en&channel=0&feedLabel=US&authuser=1
+        - button "Edit this Title, currently Soundwave Rhythm - White"
+      - gridcell "fe870ce0-d5dd-446c-a98b-ce41d009416a":
+        - generic: fe870ce0-d5dd-446c-a98b-ce41d009416a
+      - 'gridcell "Price: £114.76"':
+        - 'group "Price: £114.76"':
+          - generic: £114.76
+      - gridcell "-":
+        - generic: "-"
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "Squarespace-1469f13b":
+        - link "Squarespace-1469f13b":
+          - /url: /mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=1
+      - gridcell "Nov 1, 2026 4:06:27 AM":
+        - generic: Nov 1, 2026 4:06:27 AM
+      - gridcell "0":
+        - generic: "0"
+      - gridcell "Available soon":
+        - generic: Available soon
+      - 'gridcell "Edit product: Soundwave Rhythm - White"':
+        - 'link "Edit product: Soundwave Rhythm - White"':
+          - /url: /mc/directoffers/edit?a=5664655454&language=en&offerId=fe870ce0-d5dd-446c-a98b-ce41d009416a&channel=0&feedLabel=US&authuser=1
+          - img: edit
+    - 'row "Select row Under review Edit this Visibility, currently UNDER_REVIEW Under review Thumbnail image for: Egyptian Palm I - Gold Finish Egyptian Palm I - Gold Finish Edit this Title, currently Egyptian Palm I - Gold Finish fd78790e-f464-45b7-abe1-9dd2f25a97bc Price: £76.78 - In stock Squarespace-1469f13b Nov 1, 2026 4:06:27 AM 0 Available soon Edit product: Egyptian Palm I - Gold Finish"':
+      - gridcell "Select row":
+        - checkbox "Select row":
+      - gridcell "Under review Edit this Visibility, currently UNDER_REVIEW":
+        - img "Under review": watch_later
+        - button "Edit this Visibility, currently UNDER_REVIEW"
+      - gridcell "Under review":
+        - generic: Under review
+      - 'gridcell "Thumbnail image for: Egyptian Palm I - Gold Finish"':
+        - 'img "Thumbnail image for: Egyptian Palm I - Gold Finish"'
+      - gridcell "Egyptian Palm I - Gold Finish Edit this Title, currently Egyptian Palm I - Gold Finish":
+        - link "Egyptian Palm I - Gold Finish":
+          - /url: /mc/items/details?a=5664655454&offerId=fd78790e-f464-45b7-abe1-9dd2f25a97bc&language=en&channel=0&feedLabel=US&authuser=1
+        - button "Edit this Title, currently Egyptian Palm I - Gold Finish"
+      - gridcell "fd78790e-f464-45b7-abe1-9dd2f25a97bc":
+        - generic: fd78790e-f464-45b7-abe1-9dd2f25a97bc
+      - 'gridcell "Price: £76.78"':
+        - 'group "Price: £76.78"':
+          - generic: £76.78
+      - gridcell "-":
+        - generic: "-"
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "Squarespace-1469f13b":
+        - link "Squarespace-1469f13b":
+          - /url: /mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=1
+      - gridcell "Nov 1, 2026 4:06:27 AM":
+        - generic: Nov 1, 2026 4:06:27 AM
+      - gridcell "0":
+        - generic: "0"
+      - gridcell "Available soon":
+        - generic: Available soon
+      - 'gridcell "Edit product: Egyptian Palm I - Gold Finish"':
+        - 'link "Edit product: Egyptian Palm I - Gold Finish"':
+          - /url: /mc/directoffers/edit?a=5664655454&language=en&offerId=fd78790e-f464-45b7-abe1-9dd2f25a97bc&channel=0&feedLabel=US&authuser=1
+          - img: edit
+    - 'row "Select row Under review Edit this Visibility, currently UNDER_REVIEW Under review Thumbnail image for: Egyptian Palm III (Three Leaves) - White Egyptian Palm III (Three Leaves) - White Edit this Title, currently Egyptian Palm III (Three Leaves) - White fd11217b-9dc6-4387-9f8f-45a7549ff616 Price: £59.64 - In stock Squarespace-1469f13b Nov 1, 2026 4:06:27 AM 0 Available soon Edit product: Egyptian Palm III (Three Leaves) - White"':
+      - gridcell "Select row":
+        - checkbox "Select row":
+      - gridcell "Under review Edit this Visibility, currently UNDER_REVIEW":
+        - img "Under review": watch_later
+        - button "Edit this Visibility, currently UNDER_REVIEW"
+      - gridcell "Under review":
+        - generic: Under review
+      - 'gridcell "Thumbnail image for: Egyptian Palm III (Three Leaves) - White"':
+        - 'img "Thumbnail image for: Egyptian Palm III (Three Leaves) - White"'
+      - gridcell "Egyptian Palm III (Three Leaves) - White Edit this Title, currently Egyptian Palm III (Three Leaves) - White":
+        - link "Egyptian Palm III (Three Leaves) - White":
+          - /url: /mc/items/details?a=5664655454&offerId=fd11217b-9dc6-4387-9f8f-45a7549ff616&language=en&channel=0&feedLabel=US&authuser=1
+        - button "Edit this Title, currently Egyptian Palm III (Three Leaves) - White"
+      - gridcell "fd11217b-9dc6-4387-9f8f-45a7549ff616":
+        - generic: fd11217b-9dc6-4387-9f8f-45a7549ff616
+      - 'gridcell "Price: £59.64"':
+        - 'group "Price: £59.64"':
+          - generic: £59.64
+      - gridcell "-":
+        - generic: "-"
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "Squarespace-1469f13b":
+        - link "Squarespace-1469f13b":
+          - /url: /mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=1
+      - gridcell "Nov 1, 2026 4:06:27 AM":
+        - generic: Nov 1, 2026 4:06:27 AM
+      - gridcell "0":
+        - generic: "0"
+      - gridcell "Available soon":
+        - generic: Available soon
+      - 'gridcell "Edit product: Egyptian Palm III (Three Leaves) - White"':
+        - 'link "Edit product: Egyptian Palm III (Three Leaves) - White"':
+          - /url: /mc/directoffers/edit?a=5664655454&language=en&offerId=fd11217b-9dc6-4387-9f8f-45a7549ff616&channel=0&feedLabel=US&authuser=1
+          - img: edit
+    - 'row "Select row Under review Edit this Visibility, currently UNDER_REVIEW Under review Thumbnail image for: Gleneagles Vine II - White Gleneagles Vine II - White Edit this Title, currently Gleneagles Vine II - White fd001373-a8eb-4bf7-96dd-cb488da087da Price: £50.72 - In stock Squarespace-1469f13b Nov 1, 2026 4:06:27 AM 0 Available soon Edit product: Gleneagles Vine II - White"':
+      - gridcell "Select row":
+        - checkbox "Select row":
+      - gridcell "Under review Edit this Visibility, currently UNDER_REVIEW":
+        - img "Under review": watch_later
+        - button "Edit this Visibility, currently UNDER_REVIEW"
+      - gridcell "Under review":
+        - generic: Under review
+      - 'gridcell "Thumbnail image for: Gleneagles Vine II - White"':
+        - 'img "Thumbnail image for: Gleneagles Vine II - White"'
+      - gridcell "Gleneagles Vine II - White Edit this Title, currently Gleneagles Vine II - White":
+        - link "Gleneagles Vine II - White":
+          - /url: /mc/items/details?a=5664655454&offerId=fd001373-a8eb-4bf7-96dd-cb488da087da&language=en&channel=0&feedLabel=US&authuser=1
+        - button "Edit this Title, currently Gleneagles Vine II - White"
+      - gridcell "fd001373-a8eb-4bf7-96dd-cb488da087da":
+        - generic: fd001373-a8eb-4bf7-96dd-cb488da087da
+      - 'gridcell "Price: £50.72"':
+        - 'group "Price: £50.72"':
+          - generic: £50.72
+      - gridcell "-":
+        - generic: "-"
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "Squarespace-1469f13b":
+        - link "Squarespace-1469f13b":
+          - /url: /mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=1
+      - gridcell "Nov 1, 2026 4:06:27 AM":
+        - generic: Nov 1, 2026 4:06:27 AM
+      - gridcell "0":
+        - generic: "0"
+      - gridcell "Available soon":
+        - generic: Available soon
+      - 'gridcell "Edit product: Gleneagles Vine II - White"':
+        - 'link "Edit product: Gleneagles Vine II - White"':
+          - /url: /mc/directoffers/edit?a=5664655454&language=en&offerId=fd001373-a8eb-4bf7-96dd-cb488da087da&channel=0&feedLabel=US&authuser=1
+          - img: edit
+    - 'row "Select row Under review Edit this Visibility, currently UNDER_REVIEW Under review Thumbnail image for: Dune Ripple I - Verdigris and Rust Dune Ripple I - Verdigris and Rust Edit this Title, currently Dune Ripple I - Verdigris and Rust fcf39a9c-eea7-4545-96cc-e5c83a2df742 Price: £40.00 - In stock Squarespace-1469f13b Nov 1, 2026 4:06:27 AM 0 Available soon Edit product: Dune Ripple I - Verdigris and Rust"':
+      - gridcell "Select row":
+        - checkbox "Select row":
+      - gridcell "Under review Edit this Visibility, currently UNDER_REVIEW":
+        - img "Under review": watch_later
+        - button "Edit this Visibility, currently UNDER_REVIEW"
+      - gridcell "Under review":
+        - generic: Under review
+      - 'gridcell "Thumbnail image for: Dune Ripple I - Verdigris and Rust"':
+        - 'img "Thumbnail image for: Dune Ripple I - Verdigris and Rust"'
+      - gridcell "Dune Ripple I - Verdigris and Rust Edit this Title, currently Dune Ripple I - Verdigris and Rust":
+        - link "Dune Ripple I - Verdigris and Rust":
+          - /url: /mc/items/details?a=5664655454&offerId=fcf39a9c-eea7-4545-96cc-e5c83a2df742&language=en&channel=0&feedLabel=US&authuser=1
+        - button "Edit this Title, currently Dune Ripple I - Verdigris and Rust"
+      - gridcell "fcf39a9c-eea7-4545-96cc-e5c83a2df742":
+        - generic: fcf39a9c-eea7-4545-96cc-e5c83a2df742
+      - 'gridcell "Price: £40.00"':
+        - 'group "Price: £40.00"':
+          - generic: £40.00
+      - gridcell "-":
+        - generic: "-"
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "Squarespace-1469f13b":
+        - link "Squarespace-1469f13b":
+          - /url: /mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=1
+      - gridcell "Nov 1, 2026 4:06:27 AM":
+        - generic: Nov 1, 2026 4:06:27 AM
+      - gridcell "0":
+        - generic: "0"
+      - gridcell "Available soon":
+        - generic: Available soon
+      - 'gridcell "Edit product: Dune Ripple I - Verdigris and Rust"':
+        - 'link "Edit product: Dune Ripple I - Verdigris and Rust"':
+          - /url: /mc/directoffers/edit?a=5664655454&language=en&offerId=fcf39a9c-eea7-4545-96cc-e5c83a2df742&channel=0&feedLabel=US&authuser=1
+          - img: edit
+    - 'row "Select row Under review Edit this Visibility, currently UNDER_REVIEW Under review Thumbnail image for: Dune Ripple II - Gold Dune Ripple II - Gold Edit this Title, currently Dune Ripple II - Gold fade7c19-c2ec-4689-b3bf-20defb1af737 Price: £39.14 - In stock Squarespace-1469f13b Nov 1, 2026 4:06:27 AM 0 Available soon Edit product: Dune Ripple II - Gold"':
+      - gridcell "Select row":
+        - checkbox "Select row":
+      - gridcell "Under review Edit this Visibility, currently UNDER_REVIEW":
+        - img "Under review": watch_later
+        - button "Edit this Visibility, currently UNDER_REVIEW"
+      - gridcell "Under review":
+        - generic: Under review
+      - 'gridcell "Thumbnail image for: Dune Ripple II - Gold"':
+        - 'img "Thumbnail image for: Dune Ripple II - Gold"'
+      - gridcell "Dune Ripple II - Gold Edit this Title, currently Dune Ripple II - Gold":
+        - link "Dune Ripple II - Gold":
+          - /url: /mc/items/details?a=5664655454&offerId=fade7c19-c2ec-4689-b3bf-20defb1af737&language=en&channel=0&feedLabel=US&authuser=1
+        - button "Edit this Title, currently Dune Ripple II - Gold"
+      - gridcell "fade7c19-c2ec-4689-b3bf-20defb1af737":
+        - generic: fade7c19-c2ec-4689-b3bf-20defb1af737
+      - 'gridcell "Price: £39.14"':
+        - 'group "Price: £39.14"':
+          - generic: £39.14
+      - gridcell "-":
+        - generic: "-"
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "Squarespace-1469f13b":
+        - link "Squarespace-1469f13b":
+          - /url: /mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=1
+      - gridcell "Nov 1, 2026 4:06:27 AM":
+        - generic: Nov 1, 2026 4:06:27 AM
+      - gridcell "0":
+        - generic: "0"
+      - gridcell "Available soon":
+        - generic: Available soon
+      - 'gridcell "Edit product: Dune Ripple II - Gold"':
+        - 'link "Edit product: Dune Ripple II - Gold"':
+          - /url: /mc/directoffers/edit?a=5664655454&language=en&offerId=fade7c19-c2ec-4689-b3bf-20defb1af737&channel=0&feedLabel=US&authuser=1
+          - img: edit
+    - 'row "Select row Under review Edit this Visibility, currently UNDER_REVIEW Under review Thumbnail image for: Acanthus Frond (Left) - Pewter Acanthus Frond (Left) - Pewter Edit this Title, currently Acanthus Frond (Left) - Pewter f97d3cfa-5363-4b38-8599-d28205711b18 Price: £44.48 - In stock Squarespace-1469f13b Nov 1, 2026 4:06:27 AM 0 Available soon Edit product: Acanthus Frond (Left) - Pewter"':
+      - gridcell "Select row":
+        - checkbox "Select row":
+      - gridcell "Under review Edit this Visibility, currently UNDER_REVIEW":
+        - img "Under review": watch_later
+        - button "Edit this Visibility, currently UNDER_REVIEW"
+      - gridcell "Under review":
+        - generic: Under review
+      - 'gridcell "Thumbnail image for: Acanthus Frond (Left) - Pewter"':
+        - 'img "Thumbnail image for: Acanthus Frond (Left) - Pewter"'
+      - gridcell "Acanthus Frond (Left) - Pewter Edit this Title, currently Acanthus Frond (Left) - Pewter":
+        - link "Acanthus Frond (Left) - Pewter":
+          - /url: /mc/items/details?a=5664655454&offerId=f97d3cfa-5363-4b38-8599-d28205711b18&language=en&channel=0&feedLabel=US&authuser=1
+        - button "Edit this Title, currently Acanthus Frond (Left) - Pewter"
+      - gridcell "f97d3cfa-5363-4b38-8599-d28205711b18":
+        - generic: f97d3cfa-5363-4b38-8599-d28205711b18
+      - 'gridcell "Price: £44.48"':
+        - 'group "Price: £44.48"':
+          - generic: £44.48
+      - gridcell "-":
+        - generic: "-"
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "Squarespace-1469f13b":
+        - link "Squarespace-1469f13b":
+          - /url: /mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=1
+      - gridcell "Nov 1, 2026 4:06:27 AM":
+        - generic: Nov 1, 2026 4:06:27 AM
+      - gridcell "0":
+        - generic: "0"
+      - gridcell "Available soon":
+        - generic: Available soon
+      - 'gridcell "Edit product: Acanthus Frond (Left) - Pewter"':
+        - 'link "Edit product: Acanthus Frond (Left) - Pewter"':
+          - /url: /mc/directoffers/edit?a=5664655454&language=en&offerId=f97d3cfa-5363-4b38-8599-d28205711b18&channel=0&feedLabel=US&authuser=1
+          - img: edit
+    - 'row "Select row Under review Edit this Visibility, currently UNDER_REVIEW Under review Thumbnail image for: Dune Ripple I - Verdigris Dune Ripple I - Verdigris Edit this Title, currently Dune Ripple I - Verdigris f95ac00c-3709-4a6d-ae1a-09630559d1a9 Price: £41.24 - In stock Squarespace-1469f13b Nov 1, 2026 4:06:27 AM 0 Available soon Edit product: Dune Ripple I - Verdigris"':
+      - gridcell "Select row":
+        - checkbox "Select row":
+      - gridcell "Under review Edit this Visibility, currently UNDER_REVIEW":
+        - img "Under review": watch_later
+        - button "Edit this Visibility, currently UNDER_REVIEW"
+      - gridcell "Under review":
+        - generic: Under review
+      - 'gridcell "Thumbnail image for: Dune Ripple I - Verdigris"':
+        - 'img "Thumbnail image for: Dune Ripple I - Verdigris"'
+      - gridcell "Dune Ripple I - Verdigris Edit this Title, currently Dune Ripple I - Verdigris":
+        - link "Dune Ripple I - Verdigris":
+          - /url: /mc/items/details?a=5664655454&offerId=f95ac00c-3709-4a6d-ae1a-09630559d1a9&language=en&channel=0&feedLabel=US&authuser=1
+        - button "Edit this Title, currently Dune Ripple I - Verdigris"
+      - gridcell "f95ac00c-3709-4a6d-ae1a-09630559d1a9":
+        - generic: f95ac00c-3709-4a6d-ae1a-09630559d1a9
+      - 'gridcell "Price: £41.24"':
+        - 'group "Price: £41.24"':
+          - generic: £41.24
+      - gridcell "-":
+        - generic: "-"
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "Squarespace-1469f13b":
+        - link "Squarespace-1469f13b":
+          - /url: /mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=1
+      - gridcell "Nov 1, 2026 4:06:27 AM":
+        - generic: Nov 1, 2026 4:06:27 AM
+      - gridcell "0":
+        - generic: "0"
+      - gridcell "Available soon":
+        - generic: Available soon
+      - 'gridcell "Edit product: Dune Ripple I - Verdigris"':
+        - 'link "Edit product: Dune Ripple I - Verdigris"':
+          - /url: /mc/directoffers/edit?a=5664655454&language=en&offerId=f95ac00c-3709-4a6d-ae1a-09630559d1a9&channel=0&feedLabel=US&authuser=1
+          - img: edit
+    - 'row "Select row Under review Edit this Visibility, currently UNDER_REVIEW Under review Thumbnail image for: Brancusi Meander I - White Brancusi Meander I - White Edit this Title, currently Brancusi Meander I - White f7cea7ee-e39f-412a-a564-7e0c73e0e5bb Price: £57.16 - In stock Squarespace-1469f13b Nov 1, 2026 4:06:27 AM 0 Available soon Edit product: Brancusi Meander I - White"':
+      - gridcell "Select row":
+        - checkbox "Select row":
+      - gridcell "Under review Edit this Visibility, currently UNDER_REVIEW":
+        - img "Under review": watch_later
+        - button "Edit this Visibility, currently UNDER_REVIEW"
+      - gridcell "Under review":
+        - generic: Under review
+      - 'gridcell "Thumbnail image for: Brancusi Meander I - White"':
+        - 'img "Thumbnail image for: Brancusi Meander I - White"'
+      - gridcell "Brancusi Meander I - White Edit this Title, currently Brancusi Meander I - White":
+        - link "Brancusi Meander I - White":
+          - /url: /mc/items/details?a=5664655454&offerId=f7cea7ee-e39f-412a-a564-7e0c73e0e5bb&language=en&channel=0&feedLabel=US&authuser=1
+        - button "Edit this Title, currently Brancusi Meander I - White"
+      - gridcell "f7cea7ee-e39f-412a-a564-7e0c73e0e5bb":
+        - generic: f7cea7ee-e39f-412a-a564-7e0c73e0e5bb
+      - 'gridcell "Price: £57.16"':
+        - 'group "Price: £57.16"':
+          - generic: £57.16
+      - gridcell "-":
+        - generic: "-"
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "Squarespace-1469f13b":
+        - link "Squarespace-1469f13b":
+          - /url: /mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=1
+      - gridcell "Nov 1, 2026 4:06:27 AM":
+        - generic: Nov 1, 2026 4:06:27 AM
+      - gridcell "0":
+        - generic: "0"
+      - gridcell "Available soon":
+        - generic: Available soon
+      - 'gridcell "Edit product: Brancusi Meander I - White"':
+        - 'link "Edit product: Brancusi Meander I - White"':
+          - /url: /mc/directoffers/edit?a=5664655454&language=en&offerId=f7cea7ee-e39f-412a-a564-7e0c73e0e5bb&channel=0&feedLabel=US&authuser=1
+          - img: edit
+    - 'row "Select row Under review Edit this Visibility, currently UNDER_REVIEW Under review Thumbnail image for: Dune Ripple I - Rust Dune Ripple I - Rust Edit this Title, currently Dune Ripple I - Rust f2e7f2c4-62d0-4467-9401-172498684b7f Price: £41.24 - In stock Squarespace-1469f13b Nov 1, 2026 4:06:27 AM 0 Available soon Edit product: Dune Ripple I - Rust"':
+      - gridcell "Select row":
+        - checkbox "Select row":
+      - gridcell "Under review Edit this Visibility, currently UNDER_REVIEW":
+        - img "Under review": watch_later
+        - button "Edit this Visibility, currently UNDER_REVIEW"
+      - gridcell "Under review":
+        - generic: Under review
+      - 'gridcell "Thumbnail image for: Dune Ripple I - Rust"':
+        - 'img "Thumbnail image for: Dune Ripple I - Rust"'
+      - gridcell "Dune Ripple I - Rust Edit this Title, currently Dune Ripple I - Rust":
+        - link "Dune Ripple I - Rust":
+          - /url: /mc/items/details?a=5664655454&offerId=f2e7f2c4-62d0-4467-9401-172498684b7f&language=en&channel=0&feedLabel=US&authuser=1
+        - button "Edit this Title, currently Dune Ripple I - Rust"
+      - gridcell "f2e7f2c4-62d0-4467-9401-172498684b7f":
+        - generic: f2e7f2c4-62d0-4467-9401-172498684b7f
+      - 'gridcell "Price: £41.24"':
+        - 'group "Price: £41.24"':
+          - generic: £41.24
+      - gridcell "-":
+        - generic: "-"
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "Squarespace-1469f13b":
+        - link "Squarespace-1469f13b":
+          - /url: /mc/products/sources/detail?a=5664655454&afmDataSourceId=10788949980&tab=processing&authuser=1
+      - gridcell "Nov 1, 2026 4:06:27 AM":
+        - generic: Nov 1, 2026 4:06:27 AM
+      - gridcell "0":
+        - generic: "0"
+      - gridcell "Available soon":
+        - generic: Available soon
+      - 'gridcell "Edit product: Dune Ripple I - Rust"':
+        - 'link "Edit product: Dune Ripple I - Rust"':
+          - /url: /mc/directoffers/edit?a=5664655454&language=en&offerId=f2e7f2c4-62d0-4467-9401-172498684b7f&channel=0&feedLabel=US&authuser=1
+          - img: edit
+  - button "View archived products":
+    - generic: View archived products
+  - generic: "Show rows:"
+  - 'button "Show rows: 50 selected."':
+    - generic: "50"
+    - img: arrow_drop_down
+  - generic: 1 - 50 of 325
+  - button "Go to the first page" [disabled]:
+    - img: first_page
+  - button "Go to the previous page" [disabled]:
+    - img: chevron_left
+  - button "Go to the next page":
+    - img: chevron_right
+  - button "Go to the last page":
+    - img: last_page
+- contentinfo:
+  - link "Privacy Policy":
+    - /url: http://www.google.com/policies/privacy/
+  - generic: ·
+  - link "Terms of Service":
+    - /url: https://support.google.com/merchants/answer/160173?hl=en-US
+  - generic: ·
+  - link "Program Policies":
+    - /url: https://support.google.com/merchants/topic/7286989?hl=en-US

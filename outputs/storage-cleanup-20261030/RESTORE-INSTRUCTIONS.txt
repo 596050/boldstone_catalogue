@@ -1,0 +1,7 @@
+Historical databases are retained in adjacent .sqlite3.gz files, each with a .restore.json receipt.
+Open archive-index.html to search all 83 archived database copies and six retained test-export ZIPs.
+
+Restore one database without overwriting: python3 /Users/tprice/Documents/boldstone/outputs/storage-cleanup-20261030/restore.py /absolute/path/to/original.sqlite3 --apply
+Omit --apply to preview only.
+
+Broad duplicate consolidation preserves existing filenames, file contents, permissions, extended attributes and independent edits using APFS copy-on-write clones. No hard links were created. Current app dependencies and code were protected. No Dropbox files were changed.

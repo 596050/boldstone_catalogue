@@ -1,0 +1,123 @@
+- banner:
+  - link "Skip to Content":
+    - /url: "#page"
+  - link "boldstone":
+    - /url: /
+    - img "boldstone"
+  - navigation:
+    - link "Commissions":
+      - /url: /commission
+    - link "Sculpture":
+      - /url: /
+    - link "Furnishings":
+      - /url: /furnishings
+    - link "Gallery":
+      - /url: /gallery
+    - link "Buy":
+      - /url: /buy
+    - link "Blog":
+      - /url: /blog
+    - link "Contact":
+      - /url: /consultation-and-contact
+  - link "Instagram":
+    - /url: https://www.instagram.com/boldstonesculpture/
+  - link "LinkedIn":
+    - /url: https://www.linkedin.com/in/sally-price-1193858a
+  - link "Facebook":
+    - /url: https://www.facebook.com/boldstone.s/
+  - link "Pinterest":
+    - /url: https://www.pinterest.co.uk/boldstonepinterest
+  - link "X":
+    - /url: https://x.com/SallyPr65718327
+  - link "Houzz":
+    - /url: https://www.houzz.co.uk/pro/sally-price2
+  - link "URL":
+    - /url: https://linktr.ee/boldstone
+  - link "TikTok":
+    - /url: https://www.tiktok.com/@boldstonesculpture
+  - link "YouTube":
+    - /url: https://www.youtube.com/@BoldstoneSculpture
+  - link "0 items in cart":
+    - /url: /cart
+    - generic: "0"
+- main:
+  - article:
+    - heading "Return and refund policy" [level=2]
+    - paragraph:
+      - text: We have a 30-day return policy, which means you have 30 days after receiving your item to request a return.
+      - text: To be eligible for a return, your item must be in the same condition that you received it, unworn or unused, with tags, and in its original packaging. You’ll also need the receipt or proof of purchase.
+      - text: For change-of-mind returns, you are responsible for the actual return postage cost. If your item is damaged, faulty or incorrect, please contact us before returning it so we can arrange the return.
+      - text: To start a return, you can contact us at
+      - link "info@boldstone.co.uk":
+        - /url: mailto:info@boldstone.co.uk
+      - text: . If your return is accepted, we’ll send you a return shipping label, as well as instructions on how and where to send your package. Items sent back to us without first requesting a return will not be accepted.
+      - text: You can always contact us for any return question at
+      - link "info@boldstone.co.uk":
+        - /url: mailto:info@boldstone.co.uk
+      - text: .
+    - paragraph
+    - paragraph:
+      - strong: Damages and issues
+      - text: Please inspect your order upon reception and contact us immediately if the item is defective, damaged or if you receive the wrong item, so that we can evaluate the issue and make it right.
+    - paragraph
+    - paragraph:
+      - strong: Exceptions / non-returnable items
+      - text: Certain types of items cannot be returned, like perishable goods (such as food, flowers, or plants), custom products (such as special orders or personalized items), and personal care goods (such as beauty products). We also do not accept returns for hazardous materials, flammable liquids, or gases. Please get in touch if you have questions or concerns about your specific item.
+      - text: Unfortunately, we cannot accept returns on sale items or gift cards.
+    - paragraph
+    - paragraph:
+      - strong: Exchanges
+      - text: The fastest way to ensure you get what you want is to return the item you have, and once the return is accepted, make a separate purchase for the new item.
+    - paragraph
+    - paragraph:
+      - strong: Refunds
+      - text: We will notify you once we’ve received and inspected your return, and let you know if the refund was approved or not. If approved, you’ll be automatically refunded on your original payment method. Please remember it can take some time for your bank or credit card company to process and post the refund too.
+- contentinfo:
+  - paragraph:
+    - link "Privacy Policy":
+      - /url: /privacy-policy
+  - paragraph:
+    - link "Terms of Service":
+      - /url: /terms-of-service
+  - paragraph:
+    - link "Terms and Conditions":
+      - /url: /terms-and-conditions
+  - paragraph:
+    - link "Partnership Terms":
+      - /url: /partnership-terms
+  - paragraph:
+    - link "Copyright and Design Right":
+      - /url: /copyright-and-design-right
+  - paragraph:
+    - link "Shipping Policy":
+      - /url: /shipping-policy
+      - text: Shipping Policy
+  - paragraph:
+    - link "Return and Refund Policy":
+      - /url: /return-and-refund-policy
+  - paragraph: "Contact Us Directly:"
+  - paragraph:
+    - link "info@":
+      - /url: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+      - strong: info@
+    - link "boldstonesculpture":
+      - /url: mailto:info@boldstonesculpture.com?cc=info%40boldstone.co.uk&subject=Inquiry%3A%20Boldstone%20Sculpture
+      - strong: boldstonesculpture
+    - link ".com":
+      - /url: mailto:info@boldstone.co.uk?cc=info%40boldstonesculpture.com&subject=Inquiry%3A%20Boldstone%20Sculpture
+      - strong: .com
+  - paragraph:
+    - link "Frequently Asked Questions":
+      - /url: /faqs
+      - strong: Frequently Asked Questions
+  - paragraph:
+    - link "About Sally Price":
+      - /url: /about
+  - paragraph:
+    - link "Garden Sculpture":
+      - /url: /garden-sculpture
+  - paragraph:
+    - link "Bespoke Commissions":
+      - /url: /commission
+- region "Manage previously selected cookie options":
+  - button "Cookie Preferences"

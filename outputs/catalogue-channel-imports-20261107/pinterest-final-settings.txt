@@ -1,0 +1,133 @@
+Window: "Pinterest", App: Google Chrome.
+0 standard window Pinterest - Google Chrome – Tom, URL: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523, Secondary Actions: Raise
+	1 container Pinterest - Google Chrome – Tom, URL: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523, Placeholder: Ask Google or type a URL
+					10 button Install Pinterest
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Pinterest, URL: uk.pinterest.com/business/catalogs/4814500935893/data-sources/?subjectBusinessId=846254723639262523
+						28 container New data source form
+							29 container
+								30 container
+									31 heading Provide a URL link, Value: 1
+										32 text Provide a URL link
+									33 button Close Provide a URL link sheet
+									34 text Provide a URL link that can be used to access your data source file. Pinterest will ingest your data source daily and alert you if there are any errors. Make sure your file is formatted correctly and uses fields and values that Pinterest supports. Data source files that contain video links may take up to a week to be processed. 
+									35 link Learn more, Value: help.pinterest.com/business/article/before-you-get-started-with-catalogs#section-9441
+								36 container
+									37 pop-up button Use template
+										38 text Use template
+									39 text Name
+									40 text field (settable) Name, Value: Boldstone Wall Sculptures - website retail, Placeholder: Name your data source
+									41 text The unique name to identify your data source
+									42 text URL or Google Sheets
+									43 text field (settable) URL or Google Sheets, Value: https://docs.google.com/spreadsheets/d/1PVhR1H-GFaojV_G7Khh0Vt3IwFL1RBHyLLzvXGIT-BQ/edit, Placeholder: Link to a .csv, .tsv, .xml file or Google Sheets
+									44 text File format
+									45 pop-up button (disabled) File format
+									46 text No file format selection required for Google Sheets
+									47 text Country/Region
+									48 pop-up button Country/Region, Value: United Kingdom
+										49 (selected) United Kingdom
+									50 text The country or region where your items are sold. This field can't be edited once the feed profile has been created.
+									51 text Language
+									52 pop-up button Language, Value: English (UK)
+										53 (selected) English (UK)
+									54 text The language of the content in your data source. This field can't be edited once the feed profile has been created.
+									55 text Feed login details (optional)
+									56 text field (settable) Feed login details (optional), Placeholder: Username
+									57 text Enter the username and password for password-protected URLs
+									58 text Feed login details (optional)
+									59 secure text field (settable) Feed login details (optional), Placeholder: Password
+									60 container Show password
+										61 switch Show password, Value: off
+									62 text Enter the username and password for password-protected URLs
+									63 text Default currency
+									64 pop-up button Default currency, Value: GBP - Great Britain Pound
+										65 (selected) GBP - Great Britain Pound
+									66 text Product currency in your data source without a value will default to this currency
+									67 text Default availability
+									68 pop-up button Default availability, Value: None
+										69 (selected) None
+									70 text Product availability in your data source without a value will default to this availability
+									71 text Ingestion schedule Choose how often you'd like Pinterest to update your feed
+									72 text Scheduled ingestions
+									73 Tick box Scheduled ingestions, Value: 1
+									74 text Use this option if you want to update this feed automatically at your specified times
+									75 text Schedule
+									76 pop-up button Schedule, Value: Every 24 hours
+										77 (selected) Every 24 hours
+									78 text Start time (optional)
+									79 pop-up button Start time (optional), Value: 07:00
+										80 (selected) 07:00
+									81 text Time zone (optional)
+									82 pop-up button Time zone (optional), Value: GMT+00:00 Europe/London
+										83 (selected) GMT+00:00 Europe/London
+								84 container
+									85 button Cancel
+									86 link Test your data source, Value: uk.pinterest.com/business/catalogs/4814500935893/data-sources/feed-debugger
+									87 button Upload
+			88 pop-up button Tab search
+			89 container
+				90 tab group
+					91 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					92 tab group  group ✅Claude – 1 Tab, •  Import | Microsoft Advertising – Expanded
+					93 tab (settable, boolean) Import | Microsoft Advertising – Part of group ✅Claude, Value: off
+					94 tab (settable, boolean) Variants - Manufacturer Center, Value: off
+					95 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					96 tab (settable, boolean) Boldstone Sculpture | Boldstone Wall Sculptures, Value: off
+					97 tab (settable, boolean) Portela Nova | A slower kind of stay, Value: off
+					98 tab (selected, settable, boolean) Pinterest, Value: on
+						99 button Close
+					100 tab (settable, boolean) Get started with retail catalogs | Pinterest Business help, Value: off
+					101 tab (settable, boolean) [TEMPLATE - COPY] Pinterest Catalog Data source Google Sheet Template - Google Sheets, Value: off
+					102 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					103 tab (settable, boolean) All products - Merchant Center, Value: off
+					104 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					105 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					106 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+			107 button New tab
+	108 close button
+	109 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	110 minimise button
+111 menu bar
+	112 Chrome
+	113 File
+	114 Edit
+	115 View
+	116 History
+	117 Bookmarks
+	118 Profiles
+	119 Tab
+	120 Window
+	121 Help
+
+The focused UI element is 79 pop-up button Start time (optional), Value: 07:00

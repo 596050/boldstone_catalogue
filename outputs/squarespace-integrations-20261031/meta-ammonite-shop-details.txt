@@ -1,0 +1,350 @@
+- link "Business Home":
+  - /url: https://business.facebook.com/home/?business_id=2380586078685156
+  - img "Meta logo"
+- generic: Commerce Manager
+- combobox "Products for Boldstone Sculpture (103781478537396)":
+  - generic: Products for Boldstone Sculpture (103781478537396)
+- navigation "Navigation":
+  - list:
+    - link "Overview":
+      - /url: https://business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+    - generic: Overview
+    - button "Catalogue" [expanded]
+    - generic: Catalogue
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Products":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/products/?business_id=2380586078685156
+      - generic: Products
+      - link "Sets":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/sets/?business_id=2380586078685156
+      - generic: Sets
+      - link "Data sources":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/data_sources/?business_id=2380586078685156
+      - generic: Data sources
+      - link "Events":
+        - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/events/?business_id=2380586078685156
+      - generic: Events
+    - link "Image templates":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/templates/?business_id=2380586078685156
+    - generic: Image templates
+    - link "Product video creator":
+      - /url: https://business.facebook.com/commerce/catalogs/1638438493182970/video_template_hub/?business_id=2380586078685156
+    - generic: Product video creator
+    - link "Shops":
+      - /url: https://business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+    - generic: Shops
+    - button "Promotions"
+    - generic: Promotions
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Offers":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/offers/?business_id=2380586078685156
+      - generic: Offers
+      - link "Marketing settings":
+        - /url: https://business.facebook.com/commerce/326960679342026/promotions/mailing_list/?business_id=2380586078685156
+      - generic: Marketing settings
+    - button "Insights"
+    - generic: Insights
+    - button "Toggle Group":
+      - generic: Toggle Group
+    - list:
+      - link "Overview":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/overview/?business_id=2380586078685156
+      - generic: Overview
+      - link "Catalogue":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/products/?business_id=2380586078685156
+      - generic: Catalogue
+      - link "Performance":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/perf/?business_id=2380586078685156
+      - generic: Performance
+      - link "Audience":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/audience/?business_id=2380586078685156
+      - generic: Audience
+      - link "Tagged content":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/product_tagged_content/?business_id=2380586078685156
+      - generic: Tagged content
+      - link "Awareness":
+        - /url: https://business.facebook.com/commerce/326960679342026/performance/entry_points/?business_id=2380586078685156
+      - generic: Awareness
+    - link "To-do list":
+      - /url: https://business.facebook.com/commerce/326960679342026/to_do_list/?business_id=2380586078685156
+    - generic: To-do list
+    - link "Settings":
+      - /url: https://business.facebook.com/commerce/326960679342026/settings/general/?business_id=2380586078685156
+    - generic: Settings
+- navigation "all tools":
+  - list:
+    - button "All tools":
+    - generic: All tools
+- separator
+- list:
+  - button "Meta AI business assistant"
+  - generic: Meta AI business assistant
+- button "Help":
+  - generic: Help
+- link "Business settings":
+  - /url: https://business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+  - generic: Business settings
+- button "Business notifications":
+  - generic: Business notifications
+- button:
+  - generic: "6"
+- button "Search":
+  - generic: Search
+- button "Collapse":
+  - generic: Collapse
+- heading "Products" [level=1]
+- text: View and manage products in your catalogue. Quickly find specific products using search or filters.
+- link "Learn how to view products in your catalogue":
+  - /url: https://www.facebook.com/business/help/1406482412767183
+- toolbar:
+  - button "Create campaign":
+    - generic: Create campaign
+  - button "Add":
+    - generic: Add
+- tablist:
+  - tab "All products" [selected]:
+    - generic: All products
+  - tab "Actions":
+    - generic: Actions
+    - generic: "1"
+    - status: Number of actions
+- generic: Describe what you're looking for
+- textbox "Describe what you're looking for": Ammonite Grande
+- button "Clear":
+- button "Edit" [disabled]:
+  - generic: Edit
+- button "Open Drop-down" [disabled]:
+  - generic: Open Drop-down
+- button "Create set" [disabled]:
+  - generic: Create set
+- button "Add filter":
+  - generic: Add filter
+- generic: Columns
+- combobox "Columns":
+  - generic: Columns
+- button "Analyse":
+  - generic: Analyse
+- treegrid "Commerce Manager products table":
+  - rowgroup:
+    - row "Select all Name Status Variants Availability Price Last updated":
+      - columnheader
+      - columnheader "Select all":
+        - checkbox "Select all"
+      - columnheader "Name":
+        - heading "Name" [level=4]
+      - columnheader "Status":
+        - heading "Status" [level=4]
+      - columnheader "Variants":
+        - heading "Variants" [level=4]
+      - columnheader "Availability":
+        - heading "Availability" [level=4]
+      - columnheader "Price":
+        - heading "Price" [level=4]
+      - columnheader "Last updated":
+        - heading "Last updated" [level=4]
+      - columnheader:
+        - heading [level=4]
+  - rowgroup:
+    - 'row "Select Ammonite Grande II (Right) - White Ammonite Grande II (Right) - White Content ID: 406940ee-fc7e-491b-a52f-5c9a13736f3e Eligible — In stock £225.74 31 Oct at 09:39 Actions" [level=1]':
+      - gridcell
+      - gridcell "Select Ammonite Grande II (Right) - White":
+        - checkbox "Select Ammonite Grande II (Right) - White"
+      - 'gridcell "Ammonite Grande II (Right) - White Content ID: 406940ee-fc7e-491b-a52f-5c9a13736f3e"':
+        - link "Ammonite Grande II (Right) - White":
+          - /url: "#"
+        - generic: "Content ID: 406940ee-fc7e-491b-a52f-5c9a13736f3e"
+      - gridcell "Eligible":
+        - generic: Eligible
+      - gridcell "—":
+        - generic: —
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "£225.74":
+        - generic: £225.74
+      - gridcell "31 Oct at 09:39":
+        - generic: 31 Oct at 09:39
+      - gridcell "Actions":
+        - button "Actions":
+          - generic: Actions
+    - 'row "Select Ammonite Grande I (Left) - White Ammonite Grande I (Left) - White Content ID: 7ea40d4e-fd6c-4ef8-bf81-54b632111f60 Eligible — In stock £225.74 31 Oct at 09:39 Actions" [level=1]':
+      - gridcell
+      - gridcell "Select Ammonite Grande I (Left) - White":
+        - checkbox "Select Ammonite Grande I (Left) - White"
+      - 'gridcell "Ammonite Grande I (Left) - White Content ID: 7ea40d4e-fd6c-4ef8-bf81-54b632111f60"':
+        - link "Ammonite Grande I (Left) - White" [active]:
+          - /url: "#"
+        - generic: "Content ID: 7ea40d4e-fd6c-4ef8-bf81-54b632111f60"
+      - gridcell "Eligible":
+        - generic: Eligible
+      - gridcell "—":
+        - generic: —
+      - gridcell "In stock":
+        - generic: In stock
+      - gridcell "£225.74":
+        - generic: £225.74
+      - gridcell "31 Oct at 09:39":
+        - generic: 31 Oct at 09:39
+      - gridcell "Actions":
+        - button "Actions":
+          - generic: Actions
+- generic: 2 products match your search or filters
+- generic: Page 1 of 1
+- generic: Rows per page
+- combobox "Rows per page 100":
+  - generic: "100"
+- button "Previous" [disabled]:
+  - generic: Previous
+- button "Next" [disabled]:
+  - generic: Next
+- button "Edit product":
+  - generic: Edit product
+- button "Open Drop-down":
+  - generic: Open Drop-down
+- button "Create Variant":
+  - generic: Create Variant
+- button "Close":
+  - generic: Close
+- separator
+- heading "Ammonite Grande I (Left) - White" [level=3]
+- generic: "Content ID: 7ea40d4e-fd6c-4ef8-bf81-54b632111f60"
+- generic: "Status:"
+- generic: Eligible
+- heading "Data sources" [level=4]
+- link "Squarespace Integration Feed":
+  - /url: /commerce/catalogs/1638438493182970/data_sources/1008534278476350/
+- tablist:
+  - tab "Detail" [selected]:
+    - generic: Detail
+  - tab "Media":
+    - generic: Media
+- separator
+- heading [level=3]: Ammonite Grande I (Left) - White
+- generic: "Content ID: 7ea40d4e-fd6c-4ef8-bf81-54b632111f60"
+- generic: "Status:"
+- generic: Eligible
+- button:
+  - generic: Edit product
+- button:
+  - generic: Open Drop-down
+- button:
+  - generic: Create Variant
+- button:
+  - generic: Close
+- tablist:
+  - tab [selected]:
+    - generic: Detail
+  - tab:
+    - generic: Media
+- separator
+- grid "Product fields lineage":
+  - rowgroup:
+    - row "Attribute Details":
+      - columnheader "Attribute":
+        - heading "Attribute" [level=4]
+      - columnheader "Details":
+        - heading "Details" [level=4]
+  - rowgroup:
+    - row "Partner content Missing":
+      - gridcell "Partner content":
+        - generic: Partner content
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Title Ammonite Grande I (Left) - White":
+      - gridcell "Title":
+        - generic: Title
+      - gridcell "Ammonite Grande I (Left) - White":
+        - generic: Ammonite Grande I (Left) - White
+    - row "Price £225.74":
+      - gridcell "Price":
+        - generic: Price
+      - gridcell "£225.74":
+        - generic: £225.74
+    - row "Sale price Missing":
+      - gridcell "Sale price":
+        - generic: Sale price
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Product link https://boldstonesculpture.com/buy/p/ammonite-large-1-left-panel-white":
+      - gridcell "Product link":
+        - generic: Product link
+      - gridcell "https://boldstonesculpture.com/buy/p/ammonite-large-1-left-panel-white":
+        - link "https://boldstonesculpture.com/buy/p/ammonite-large-1-left-panel-white":
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fboldstonesculpture.com%2Fbuy%2Fp%2Fammonite-large-1-left-panel-white%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgNicmlkETBqbWVvU1Bhb2N1eEpZYmowc3J0YwZhcHBfaWQPNDM2NzYxNzc5NzQ0NjIwAAEfli09ruA_PJtepKhyvj8Z9592cMX55_HvwZfNlnXqMyMT2pcP0AWZ3TlHVhA_aem_NAilZLGFH-RuVX8Y8aP3Dw&h=AUAA5RFPgIWTHGsV_5K2FeyDtb_ogurtoGqgmlUFJxADAzgr8t3Jtv7043z357RnGPxcqV3ZrRHBidRpF6TczF3l1IGBmgAPRtUS4OGhcpfQPrFL0b7CLtdG3xD5YRSGGUycRoyjry4
+    - row:
+      - gridcell "Description":
+        - generic: Description
+      - gridcell:
+        - generic: "The ammonite spiral draws the eye inward through a rhythm of curved ridges. Its fossil-inspired form brings a sense of deep time and the shoreline to a contemporary wall.This is the left-hand panel in the larger Ammonite design. Display it as an individual sculptural fragment, or choose its matching partner to reveal the full spiral. Each panel is sold separately.The white finish keeps the focus on the form and its changing shadows.Dimensions: 120 × 60 × 6 cmWeight: Approximately 20–22 kg per panelUse: Suitable for outdoor use and indoor display.Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.Availability: Made to orderProduction lead time: 1-2 weeksDelivery: Delivery is quoted separately. Please contact us for UK and international delivery options.In a settingStyling inspiration showing the sculpture in context. Room settings and group arrangements are illustrative; this listing is for the individual sculpture described above."
+    - row "Availability In stock":
+      - gridcell "Availability":
+        - generic: Availability
+      - gridcell "In stock":
+        - generic: In stock
+    - row "Product group ID 6ae517f79b3a3f6a35bd9c70":
+      - gridcell "Product group ID":
+        - generic: Product group ID
+      - gridcell "6ae517f79b3a3f6a35bd9c70":
+        - generic: 6ae517f79b3a3f6a35bd9c70
+    - row "Google product category Missing":
+      - gridcell "Google product category":
+        - generic: Google product category
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Size chart Missing":
+      - gridcell "Size chart":
+        - generic: Size chart
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Live special price Missing":
+      - gridcell "Live special price":
+        - generic: Live special price
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Condition new":
+      - gridcell "Condition":
+        - generic: Condition
+      - gridcell "new":
+        - generic: new
+    - row "Brand boldstone":
+      - gridcell "Brand":
+        - generic: Brand
+      - gridcell "boldstone":
+        - generic: boldstone
+    - row "Size Missing":
+      - gridcell "Size":
+        - generic: Size
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Images Image URL 640 × 960":
+      - gridcell "Images":
+        - generic: Images
+      - gridcell "Image URL 640 × 960":
+        - link "Image URL":
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lhr11-1.xx.fbcdn.net%2Fv%2Ft45.5328-4%2F873784481_1178123628234531_4772322407524281959_n.jpg%3Fstp%3Ddst-jpg_p640x640_tt6%26_nc_cat%3D100%26ccb%3D1-7%26_nc_sid%3D247b10%26_nc_ohc%3D-IBc1gPv4VsQ7kNvwGM9Hyx%26_nc_oc%3DAdpxs_-2wQhBaX8ZsVCvzdW0jfd-9CN0vqfMmUIc94w8dhC7YPmZIhZ06CRUwdjweO_KSS3jth7ngxdvCg_BvGI-%26_nc_zt%3D23%26_nc_ht%3Dscontent-lhr11-1.xx%26_nc_gid%3DxZOF-ph-IsnMN2SrjG7N4w%26_nc_ss%3D7b2a8%26oh%3D00_AQTc_WUIGZ0n02z7gVk1MBc3tRgHDsANIuwp9uOoiMsvZA%26oe%3D6AEB9230&h=AUAA5RFPgIWTHGsV_5K2FeyDtb_ogurtoGqgmlUFJxADAzgr8t3Jtv7043z357RnGPxcqV3ZrRHBidRpF6TczF3l1IGBmgAPRtUS4OGhcpfQPrFL0b7CLtdG3xD5YRSGGUycRoyjry4
+        - generic: 640 × 960
+    - row "Videos Missing":
+      - gridcell "Videos":
+        - generic: Videos
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Backgrounds Missing":
+      - gridcell "Backgrounds":
+        - generic: Backgrounds
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Models Missing":
+      - gridcell "Models":
+        - generic: Models
+      - gridcell "Missing":
+        - generic: Missing
+    - row "Shop Shown in Boldstone Sculpture":
+      - gridcell "Shop":
+        - generic: Shop
+      - gridcell "Shown in Boldstone Sculpture":
+        - generic: Shown in Boldstone Sculpture
+- button "Show more attributes":
+  - generic: Show more attributes

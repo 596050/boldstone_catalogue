@@ -1,0 +1,185 @@
+Window: "google-wall-sculptures-supplem….tsv details - Merchant Center", App: Google Chrome.
+0 standard window google-wall-sculptures-supplement.tsv details - Merchant Center - Google Chrome – Tom, Secondary Actions: Raise, URL: merchants.google.com/mc/products/sources/joindetails?a=5664655454&joinFeedId=10789003059&tab=processing&authuser=0&pli=1
+	1 container google-wall-sculptures-supplement.tsv details - Merchant Center - Google Chrome – Tom, URL: merchants.google.com/mc/products/sources/joindetails?a=5664655454&joinFeedId=10789003059&tab=processing&authuser=0&pli=1
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: merchants.google.com/mc/products/sources/joindetails?a=5664655454&joinFeedId=10789003059&tab=processing&authuser=0&pli=1
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content google-wall-sculptures-supplement.tsv details - Merchant Center, URL: merchants.google.com/mc/products/sources/joindetails?a=5664655454&joinFeedId=10789003059&tab=processing&authuser=0&pli=1
+						27 container
+							28 container
+								29 button Skip to main content
+								30 button Navigation menu
+								31 link Merchant Center home, Value: merchants.google.com/mc/overview?a=5664655454&authuser=0
+								32 container Search
+									33 container
+										34 text field (settable) Search Merchant Center
+								35 pop-up button Help
+								36 button Merchant Center account: Boldstone Sculpture, 5664655454
+								37 container
+									38 button Google apps
+									39 button Google Account: Sally Price (info@boldstone.co.uk)
+								40 progress indicator loading
+							41 outline Navigation
+								42 row Overview
+									43 text Overview
+								44 row Notifications
+									45 text Notifications
+								46 row Products & store
+									47 text Products & store
+									48 container
+										49 row Products
+											50 text Products
+										51 row Shipping and returns
+											52 text Shipping and returns
+										53 row Store quality
+											54 text Store quality
+										55 row Reviews
+											56 text Reviews
+								57 row Creative content
+									58 text Creative content
+								59 row Marketing
+									60 text Marketing
+								61 row Analytics
+									62 text Analytics
+									63 container
+										64 row Summary
+											65 text Summary
+										66 row Products
+											67 text Products
+										68 row Pricing
+											69 text Pricing
+										70 row Online store
+											71 text Online store
+								72 row Settings
+									73 text Settings
+									74 container
+										75 row General
+											76 text General
+										77 row Business info
+											78 text Business info
+										79 row Data sources
+											80 container
+												81 text Data sources
+										82 row Add-ons
+											83 text Add-ons
+										84 row Access and services
+											85 text Access and services
+							86 container
+								87 button Back
+								88 heading google-wall-sculptures-supplement.tsv details, Value: 1
+									89 text google-wall-sculptures-supplement.tsv details
+								90 container
+									91 heading Source details, Value: 2
+										92 text Source details
+									93 text Type File (manual) Content Product data Last updated November 8, 2026 8:29 PM
+									94 button View update history
+									95 button Update by using SFTP
+									96 button (disabled) Update products in Merchant Center
+									97 tab group
+										98 tab (selected) Latest update, Value: 1
+										99 tab (settable, integer) Data source setup, Value: 0
+									100 container
+										101 heading Your products are updated, Value: 2
+											102 text Your products are updated
+										103 text Your products are up-to-date with your file. Any basic issues can be found on this page. You'll find all products that need to be fixed on 
+										104 link Needs attention, Value: merchants.google.com/mc/products/diagnostics?a=5664655454&authuser=0
+										105 text .
+										106 text If you've added new products to your file and want to initiate an update to have them added to Merchant Center, click "Update" in the header above to start the process.
+										107 definition list
+											108 container Total updated products
+												109 text Total updated products
+											110 text 176
+											111 container Matched products
+												112 text Matched products
+											113 text 176
+										114 container
+											115 heading Attribute names, Value: 2
+												116 text Attribute names
+											117 text All recognized
+										118 container
+											119 heading Your supplemental product data file, Value: 2
+												120 text Your supplemental product data file
+											121 text No issues found
+									122 link Privacy Policy, Value: google.com/policies/privacy/
+									123 link Terms of Service, Value: support.google.com/merchants/answer/160173?hl=en-US
+									124 link Program Policies, Value: support.google.com/merchants/topic/7286989?hl=en-US
+			125 pop-up button Tab search
+			126 container
+				127 tab group
+					128 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					129 tab group  group ✅Claude – 1 Tab, •  Product issues | Microsoft Advertising – Expanded
+					130 tab (settable, boolean) Product issues | Microsoft Advertising – Part of group ✅Claude, Value: off
+					131 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					132 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					133 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					134 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					135 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					136 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					137 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					138 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					139 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					140 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					141 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					142 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					143 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					144 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					145 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					146 tab (settable, boolean) Meta Business Suite, Value: off
+					147 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					148 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					149 tab group  group ✅Claude – 1 Tab, •  Brands - Manufacturer Center – Expanded
+					150 tab (settable, boolean) Brands - Manufacturer Center – Part of group ✅Claude, Value: off
+					151 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					152 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					153 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					154 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.0 GB, Value: off
+					155 tab (settable, boolean) Boldstone · Review room, Value: off
+					156 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					157 tab (selected, settable, boolean) google-wall-sculptures-supplement.tsv details - Merchant Center, Value: on
+					158 tab (settable, boolean) Pinterest, Value: off
+			159 button New tab
+	160 close button
+	161 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	162 minimise button
+163 menu bar
+	164 Chrome
+	165 File
+	166 Edit
+	167 View
+	168 History
+	169 Bookmarks
+	170 Profiles
+	171 Tab
+	172 Window
+	173 Help
+
+The focused UI element is 26 HTML content google-wall-sculptures-supplement.tsv details - Merchant Center, URL: merchants.google.com/mc/products/sources/joindetails?a=5664655454&joinFeedId=10789003059&tab=processing&authuser=0&pli=1

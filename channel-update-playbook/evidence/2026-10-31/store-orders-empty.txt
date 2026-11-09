@@ -1,0 +1,91 @@
+- navigation "Website pages and features":
+  - link "Home":
+    - /url: /config/
+    - img "Home"
+  - button "Search":
+  - button "Notifications - you have unread notifications":
+  - link "Home":
+    - /url: /config/home
+    - paragraph: Home
+  - link "Website":
+    - /url: /config/
+    - paragraph: Website
+  - link "Products & Services":
+    - /url: /config/commerce
+    - paragraph: Products & Services
+  - link "Products":
+    - /url: /config/commerce/products
+    - paragraph: Products
+  - link "Orders" [active]:
+    - /url: /config/commerce/orders
+    - paragraph: Orders
+  - link "Discounts":
+    - /url: /config/commerce/discounts
+    - paragraph: Discounts
+  - link "Selling Tools":
+    - /url: /config/commerce/selling-tools
+    - paragraph: Selling Tools
+  - checkbox [checked]
+  - link "Content & Memberships":
+    - /url: /config/content-and-memberships
+    - paragraph: Content & Memberships
+  - checkbox [checked]
+  - link "Scheduling":
+    - /url: https://secure.acuityscheduling.com/oauth2/squarespace-attached?website_id=66abcbd768fd043d92325d96&analytics_id=871ea609-7aad-4efb-9408-1d42d6316296
+    - paragraph: Scheduling
+  - checkbox [checked]
+  - link "Donations":
+    - /url: /config/donations
+    - paragraph: Donations
+  - checkbox [checked]
+  - link "Invoicing & Pay Links":
+    - /url: /config/invoicing
+    - paragraph: Invoicing & Pay Links
+  - checkbox [checked]
+  - status
+  - link "Campaigns":
+    - /url: /config/marketing/campaigns
+    - paragraph: Campaigns
+  - link "Contacts":
+    - /url: /config/profiles
+    - paragraph: Contacts
+  - link "Analytics":
+    - /url: /config/analytics
+    - paragraph: Analytics
+  - link "Finance":
+    - /url: /config/finance
+    - paragraph: Finance
+  - button "Account"
+  - list:
+    - button "Help":
+    - button "Customize Sidebar":
+    - button "Settings":
+- main:
+  - generic: Orders
+  - text: View completed transactions for Products & Services. See orders for all transaction types at
+  - link "Finance > Orders":
+    - /url: /config/finance/orders
+  - text: .
+  - button "Export Data":
+    - text: Export Data
+  - tablist:
+    - tab "All Statuses" [selected]
+    - tab "Pending"
+    - tab "Fulfilled"
+    - tab "Canceled"
+  - separator
+  - textbox "Type to search":
+    - /placeholder: Search by customer name, email, product, SKU, or order number
+  - separator
+  - button "Open filter":
+    - paragraph: Filter
+  - separator
+  - combobox "Sort by":
+    - paragraph: Sort by
+  - paragraph: No orders yet
+  - paragraph: When you make your first sale, it will show up here.
+  - generic: Edit
+- button:
+  - generic: 0 updates
+- button:
+  - generic: 0 updates

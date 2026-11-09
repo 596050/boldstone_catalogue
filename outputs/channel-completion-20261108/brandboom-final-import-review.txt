@@ -1,0 +1,91 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089/import, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089/import
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089/import, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 tickbox Downloads, Value: 0
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089/import
+						28 container
+							29 link
+								30 image
+							31 text 3 / 3
+							32 heading Combine or Split Options, Value: 4
+								33 text Combine or Split Options
+							34 heading Select your import method, Value: 5
+								35 text Select your import method
+							36 container
+								37 text COMBINE OPTIONS Combine options under the same Style ID
+							38 container
+								39 text SPLIT OPTIONS Keep options separate under the same Style ID
+							40 link  back
+								41 image
+								42 text  back
+							43 button Import
+			44 pop-up button Tab search
+			45 container
+				46 tab group
+					47 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					48 tab group  group ✅Claude – 1 Tab, •  Search results - info@boldstone.co.uk - Thomas… – Expanded
+					49 tab (settable, boolean) Value: off, Search results - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 804 MB
+					50 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					51 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					52 tab group  group ✅Claude – 2 Tabs, •  Shopping Basket | Specialist Aggregates Ltd, •  MKM Building Supplies | Your local experts – Expanded
+					53 tab (settable, boolean) Shopping Basket | Specialist Aggregates Ltd – Part of group ✅Claude, Value: off
+					54 tab (settable, boolean) MKM Building Supplies | Your local experts – Part of group ✅Claude, Value: off
+					55 tab (settable, boolean) SEO opportunity audit, Value: off
+					56 tab group  group ✅Claude – 2 Tabs, •  Inbox (112) - info@boldstone.co.uk - Thomas Pr…, •  [Live as of March 2025+] Catalog Build CSAT Su… – Expanded
+					57 tab (settable, boolean) Value: off, Inbox (112) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1,001 MB
+					58 tab (settable, boolean) Value: off, [Live as of March 2025+] Catalog Build CSAT Survey | How would you rate how satisfied you are with your… – Part of group ✅Claude
+					59 tab (settable, boolean) Drafts (1,332) - tppricet@gmail.com - Gmail, Value: off
+					60 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					61 tab (settable, boolean) Bookmarks, Value: off
+					62 tab (settable, boolean) Boldstone Sculpture | Products, Value: off
+					63 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						64 button Close
+			65 button New tab
+	66 close button
+	67 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	68 minimise button
+69 menu bar
+	70 Chrome
+	71 File
+	72 Edit
+	73 View
+	74 History
+	75 Bookmarks
+	76 Profiles
+	77 Tab
+	78 Window
+	79 Help
+
+The focused UI element is 27 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089/import

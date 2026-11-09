@@ -1,0 +1,320 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089/p/681061, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089/p/681061
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089/p/681061, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089/p/681061
+						27 container
+							28 container
+								29 link manage.brandboom.com/
+								30 link manage.brandboom.com/products/s/111089
+								31 link manage.brandboom.com/marketplace/s/111089
+								32 link manage.brandboom.com/orders/s/111089
+								33 link
+									34 image
+								35 image
+							36 container
+								37 button Save
+								38 button Share
+								39 button (disabled) PDF, Help: PDF download is only available for your active shared presentation
+								40 link Exit Presentation
+									41 text Exit Presentation
+								42 container
+									43 link
+										44 image
+									45 search text field (settable) Search Products
+									46 link
+								47 button All
+									48 container
+										49 Tick box 0
+									50 text All
+								51 button Future
+								52 button
+								53 container
+									54 text 0  /  0
+								55 container
+									56 pop-up button
+										57 image
+									58 container
+										59 radio button 0
+										60 image
+									61 container
+										62 radio button 1
+										63 image
+									64 container
+										65 radio button 0
+										66 image
+							67 container
+							68 container
+								69 content list
+									70 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089/p/681061#
+								71 container
+									72 heading Presentations, Value: 5
+										73 text Presentations
+									74 button New
+									75 content list
+										76 link ALL, Value: manage.brandboom.com/products/s/111089/p/681061#
+										77 link RECENT, Value: manage.brandboom.com/products/s/111089/p/681061#
+									78 container
+										79 text Boldstone Wall Sculptures
+										80 link Edit Name
+											81 image
+										82 link Duplicate
+											83 image
+										84 text GBP
+										85 link
+											86 image
+									87 link Back, Value: javascript:void(0);
+									88 container
+										89 text Boldstone Wall Sculptures
+										90 link
+											91 image
+										92 link
+											93 image
+									94 container
+										95 container
+											96 text DISPLAY SETTINGS
+											97 image
+										98 container
+											99 text PRODUCT THUMBNAIL
+											100 button Bottom Align
+											101 container
+												102 text Split Product Options
+												103 image
+											104 container
+												105 Tick box (disabled) 0
+											106 text PRICE LIST
+											107 combo box (settable) Search and select Search and select
+												108 container
+													109 text Search and select
+													110 text field (settable) Search and select
+											111 image
+											112 text GBP
+											113 image
+											114 text SHOW PRICES
+											115 button Wholesale & Retail
+											116 container
+												117 text Quickview On
+												118 image
+											119 container
+												120 Tick box (disabled) 0
+										121 container
+											122 text INVENTORY SETTINGS
+											123 image
+										124 container
+											125 container
+												126 text Enforce Minimum
+												127 image
+											128 container
+												129 Tick box 1
+											130 text Show Inventory
+											131 container
+												132 Tick box 0
+											133 container
+												134 text Allow Backorder
+												135 image
+											136 container
+												137 Tick box 0
+											138 text Show Prepacks
+											139 container
+												140 Tick box 1
+										141 container
+											142 text ORDER + PAYMENT SETTINGS
+											143 image
+										144 container
+											145 text ENABLE ORDERING
+											146 Tick box 1
+											147 Tick box At-Once, Value: 0
+											148 container
+												149 text At-Once
+											150 Tick box Future, Value: 1
+											151 container
+												152 text Future
+											153 text ORDER MINIMUM ($)
+											154 text field (settable) 0
+											155 text SKU MINIMUM
+											156 text field (settable) 0
+											157 container DEPOSIT 
+												158 container
+													159 text DEPOSIT 
+												160 container
+													161 radio button £, Value: 1
+													162 radio button %, Value: 0
+													163 text field £0.00
+										164 container
+											165 text FONT SETTINGS
+											166 image
+										167 container
+											168 text SECTIONS
+											169 image
+										170 container
+											171 link
+												172 image
+										173 container
+											174 text BUYER BROWSING SETTINGS
+											175 image
+										176 container
+											177 text PRODUCT PREVIEW
+											178 container
+												179 text CUSTOMIZE
+												180 Tick box 0
+											181 container
+												182 image
+												183 image
+												184 image
+												185 image
+												186 image
+												187 image
+												188 text 0 / 5
+											189 container
+												190 text DESCRIPTION
+												191 image
+											192 text entry area (settable) Provide a brief description of your Presentation.
+											193 container
+												194 text 140  characters left
+											195 text Preview Thumbnail
+								196 heading Ship Windows, Value: 5
+									197 text Ship Windows
+								198 content list
+									199 link ACTIVE, Value: manage.brandboom.com/products/s/111089/p/681061#
+									200 link ARCHIVED, Value: manage.brandboom.com/products/s/111089/p/681061#
+								201 text No active ship windows
+							202 link Reset
+								203 text Reset
+							204 button Apply
+							205 text PRODUCT STATUS
+							206 text Active
+							207 text Inactive
+							208 text Archived
+							209 text Corrupted
+							210 text No Images
+							211 text SHIP DATE RANGE
+							212 container
+								213 image
+								214 text field (settable) Click to select range
+							215 text No Date Range
+							216 text CREATE DATE RANGE
+							217 container
+								218 image
+								219 text field (settable) Click to select range
+							220 text SIZES
+							221 text field (settable) S, M, L
+							222 text VENDORS
+							223 text Boldstone
+							224 text TYPES
+							225 link
+								226 image
+							227 text No Types
+							228 text Home Decor
+							229 text Mens
+							230 text Womens
+							231 text CATEGORIES
+							232 link
+								233 image
+							234 link
+								235 image
+							236 text No Categories
+							237 text Sweater
+							238 text Wall Sculpture
+							239 text SEASONS
+							240 link
+								241 image
+							242 link
+								243 image
+							244 text No Seasons
+							245 text Year-round
+							246 link
+								247 image
+							248 container
+								249 content list
+									250 link MEDIA, Value: manage.brandboom.com/products/s/111089/p/681061#
+									251 link PRESENTATIONS, Value: manage.brandboom.com/products/s/111089/p/681061#
+								252 container
+									253 button Upload Images
+									254 button
+									255 button
+									256 button
+							257 button Close
+							258 text Search Products
+							259 button Scan barcodes
+							260 container
+								261 link
+									262 image
+								263 search text field (settable) Search for Products
+							264 text RESULTS
+							265 button Open Intercom Messenger
+							266 container
+								267 link
+									268 image
+								269 text Select 0 images in the order to be displayed
+			270 pop-up button Tab search
+			271 container
+				272 tab group
+					273 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 827 MB, Value: off
+					274 tab group  group ✅Claude – 1 Tab, •  Artworks | Artfinder – Expanded
+					275 tab (settable, boolean) Artworks | Artfinder – Part of group ✅Claude, Value: off
+					276 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					277 tab (settable, boolean) Contact us - Glassette, Value: off
+					278 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					279 tab (settable, boolean) Sell on Artsper, Value: off
+					280 tab (settable, boolean) Explore JOOR for home brands, Value: off
+					281 tab (settable, boolean) Become a Supplier | House of Estila, Value: off
+					282 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					283 tab (settable, boolean) Vendeurs_new_form EN, Value: off
+					284 tab (settable, boolean) See how wholesale gets simpler, Value: off
+					285 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					286 tab (settable, boolean) Apply to sell with us - High memory usage - 930 MB, Value: off
+					287 tab group  group ✅Claude – 1 Tab, •  Inbox (97) - info@boldstone.co.uk - Thomas Pri… – Expanded
+					288 tab (settable, boolean) Value: off, Inbox (97) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1,022 MB
+					289 tab (settable, boolean) Value: off, Russell Brand trial live: Police release video of actor being interviewed after he is found guilty of one rape and three sexual assaults | Daily Mail Online
+					290 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 964 MB, Value: off
+					291 tab (settable, boolean) Overview of Marketplaces | Brandboom Help Center, Value: off
+					292 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						293 button Close
+			294 button New tab
+	295 close button
+	296 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	297 minimise button
+298 menu bar
+	299 Chrome
+	300 File
+	301 Edit
+	302 View
+	303 History
+	304 Bookmarks
+	305 Profiles
+	306 Tab
+	307 Window
+	308 Help
+
+The focused UI element is 309 container

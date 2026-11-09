@@ -1,0 +1,483 @@
+Window: "Get a barcode | Create a GS1 barcode online | GS1 UK", App: Google Chrome.
+0 standard window URL: gs1uk.org/about-us/membership…, Secondary Actions: Raise, Get a barcode | Create a GS1 barcode online | GS1 UK – Part of group 🔎 Catalogue sync and GTINs - Google Chrome – Tom
+	1 container URL: gs1uk.org/about-us/membership…, Get a barcode | Create a GS1 barcode online | GS1 UK – Part of group 🔎 Catalogue sync and GTINs - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: gs1uk.org/about-us/membership/get-a-barcode#plans, Placeholder: Ask Google or type a URL
+					10 button Reading mode
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Get a barcode | Create a GS1 barcode online | GS1 UK, URL: gs1uk.org/about-us/membership…
+						27 container
+							28 link Skip to main content, Value: gs1uk.org/about-us/membership…
+							29 container
+								30 container
+									31 link Insights & news, Value: gs1uk.org/insights
+									32 link Events, Value: gs1uk.org/event-listing-and-w…
+									33 link Training, Value: gs1uk.org/training
+									34 link Contact us, Value: gs1uk.org/contact-us
+									35 container
+										36 text field (settable) Search GS1 UK
+										37 text Enter the terms you wish to search for.
+								38 link Welcome to GS1 UK, The Global Language of Business, Help: Home, Value: gs1uk.org/
+								39 content list
+									40 container
+										41 link About us, Value: gs1uk.org/about-us
+										42 content list
+											43 link Our history, Value: gs1uk.org/about-us/who-we-are…
+											44 link Our president, Value: gs1uk.org/about-us/who-we-are…
+											45 link Our board, Value: gs1uk.org/about-us/who-we-are…
+											46 link Our leadership team, Value: gs1uk.org/about-us/who-we-are…
+											47 link Our three-year strategy, Value: gs1uk.org/about-us/who-we-are…
+											48 link Governance, Value: gs1uk.org/about-us/who-we-are…
+										49 content list
+											50 link Meet our members, Value: gs1uk.org/about-us/membership…
+									51 container
+										52 link Standards & services, Value: gs1uk.org/standards-services
+										53 content list
+											54 link GTINs and barcodes, Value: gs1uk.org/standards-services/…
+											55 link Product data, Value: gs1uk.org/standards-services/…
+										56 content list
+											57 link Create your barcodes, Value: gs1uk.org/standards-services/…
+											58 link Different types of barcodes for your products, Value: gs1uk.org/standards-services/…
+											59 link QR codes for your products, Value: gs1uk.org/standards-services/…
+											60 link Improve your visibility online, Value: gs1uk.org/standards-services/…
+											61 link Money off coupons, Value: gs1uk.org/standards-services/…
+											62 link Shipper labels for your products, Value: gs1uk.org/standards-services/…
+											63 link Get your solution checked, Value: gs1uk.org/standards-services/…
+										64 content list
+											65 link RFID, Value: gs1uk.org/standards-services/…
+											66 link Electronic business messaging, Value: gs1uk.org/standards-services/…
+											67 link Location management, Value: gs1uk.org/standards-services/…
+											68 link Consultancy, Value: gs1uk.org/standards-services/…
+										69 content list
+											70 link GTIN Check API, Value: gs1uk.org/standards-services/…
+											71 link LocationManager, Value: gs1uk.org/standards-services/…
+											72 link My Numberbank, Value: gs1uk.org/standards-services/…
+											73 link TrueSource, Value: gs1uk.org/standards-services/…
+											74 link productDNA, Value: gs1uk.org/standards-services/…
+										75 content list
+											76 link What are standards?, Value: gs1uk.org/standards-services/…
+											77 link Standards that identify, Value: gs1uk.org/standards-services/…
+											78 link Standards that capture, Value: gs1uk.org/standards-services/…
+											79 link Standards that share, Value: gs1uk.org/standards-services/…
+										80 content list
+											81 link Search verified by GS1, Value: gs1uk.org/our-services/data-s…
+											82 link Check digit calculator, Value: gs1.org/services/check-digit-…
+											83 link Global Data Model, Value: gs1.org/standards/gs1-global-…
+											84 link When to change a GTIN, Value: gs1.org/1/gtinrules/en/decisi…
+											85 link Package measurement rules, Value: gs1.org/standards/gs1-package…
+									86 container
+										87 link Industries, Value: gs1uk.org/industries
+										88 content list
+											89 link People, Value: gs1uk.org/industries/healthca…
+											90 link Products, Value: gs1uk.org/industries/healthca…
+											91 link Places, Value: gs1uk.org/industries/healthca…
+											92 link Healthcare guides and toolkits, Value: gs1uk.org/industries/healthca…
+										93 content list
+											94 link Apparel, Value: gs1uk.org/industries/retail/a…
+											95 link Drinks & beverages, Value: gs1uk.org/about-us/membership…
+											96 link Health & beauty, Value: gs1uk.org/about-us/membership…
+											97 link Food & grocery, Value: gs1uk.org/about-us/membership…
+											98 link Powering sustainability, Value: gs1uk.org/industries/retail/p…
+										99 content list
+											100 link Digital product passports, Value: gs1uk.org/industries/retail/p…
+											101 link Deposit Return Scheme, Value: gs1uk.org/industries/retail/p…
+											102 link Selling online: your guide to marketplaces and ecommerce, Value: gs1uk.org/guide-to-marketplac…
+											103 link The next generation of barcodes, Value: gs1uk.org/standards-services/…
+											104 link Transforming tomorrow, Value: gs1uk.org/about-us/who-we-are…
+									105 container
+										106 link Partners, Value: gs1uk.org/partner-finder
+										107 content list
+											108 link Amazon trading, Value: gs1uk.org/partner-finder/part…
+											109 link Barcode labels, Value: gs1uk.org/partner-finder/part…
+											110 link Barcode scanners, Value: gs1uk.org/partner-finder/part…
+											111 link Inventory management, Value: gs1uk.org/partner-finder/part…
+										112 content list
+											113 link Consumer engagement, Value: gs1uk.org/partner-finder/part…
+											114 link Printing, scanning and verifying, Value: gs1uk.org/partner-finder/part…
+											115 link Asset management, Value: gs1uk.org/partner-finder/part…
+											116 link Reducing waste in the supply chain, Value: gs1uk.org/partner-finder/part…
+											117 link Tracking of reusable items, Value: gs1uk.org/partner-finder/part…
+											118 link Accessible QR codes, Value: gs1uk.org/partner-finder/part…
+									119 link Knowledge hub, Value: gs1uk.org/knowledge-hub
+								120 container
+									121 link Get a barcode, Value: gs1uk.org/about-us/membership…
+									122 link  Member login, Value: gs1uk.org/login
+							123 container breadcrumb
+								124 heading Breadcrumb, Value: 2
+									125 text Breadcrumb
+								126 content list
+									127 container
+										128 link Home, Value: gs1uk.org/
+									129 container
+										130 link About us, Value: gs1uk.org/about-us
+									131 container
+										132 link Membership, Value: gs1uk.org/about-us/membership
+									133 text Get a barcode
+							134 container
+								135 image Get a barcode
+								136 container
+									137 heading Official GS1 barcodes - accepted worldwide, Value: 4
+										138 text Official GS1 barcodes - accepted worldwide
+									139 heading Get your barcodes — start selling everywhere, Value: 1
+										140 text Get your barcodes — start selling everywhere
+									141 text Join the two million companies using GS1 barcodes to sell products globally.
+									142 button Explore our plans 
+								143 heading The only barcodes Amazon and every major retailer will accept, Value: 4
+									144 text The only barcodes Amazon and every major retailer will accept
+								145 text GS1 is the only authorised source of Global Trade Item Numbers (GTINs) and barcodes — required to list products on Amazon, Tesco, Sainsbury's and every major retailer and marketplace. Your numbers are unique to you, permanently registered in the global GS1 database and verifiable by any retailer worldwide.
+								146 text Get your EAN, UPC, GTIN or QR code — all included in a GS1 UK membership from £50 per year, just over £4 a month.
+								147 heading Get your barcode and start selling in three steps, Value: 4
+									148 text Get your barcode and start selling in three steps
+								149 image Step 1
+								150 text 1 .
+								151 heading 3
+								152 heading Sign up, Value: 2
+									153 text Sign up
+								154 text Become a GS1 UK member in just a few minutes to access exclusive member benefits and barcodes.
+								155 image Step 2
+								156 text 2 .
+								157 heading 3
+								158 heading Activate your membership, Value: 2
+									159 text Activate your membership
+								160 text Begin a flexible membership plan that suits your business based on your annual turnover.
+								161 image Step 3
+								162 text 3 .
+								163 heading 3
+								164 heading Log into My GS1 & start selling, Value: 2
+									165 text Log into My GS1 & start selling
+								166 text Create new GTINs, barcodes and QR codes, add your barcodes to your products and begin selling.
+								167 button Get started 
+								168 heading More than a barcode — membership that works for your business, Value: 4
+									169 text More than a barcode — membership that works for your business
+								170 text License GS1 barcodes and receive so much more. When you sign up to your GS1 barcodes, GTINs, UPCs or EANs you’ll get all the additional benefits of being a GS1 UK member. Each of our membership plans carries a wealth of extras that your business can benefit from. 
+								171 image Globally recognised
+								172 heading Globally recognised, Value: 3
+									173 text Globally recognised
+								174 text GS1 is the only place to get authentic GTINs that are recognised and accepted globally by all retailers and marketplaces.
+								175 image Increase your reach
+								176 heading 40% more impressions on Google, Value: 3
+									177 text 40% more impressions on Google
+								178 text Adding a GS1 GTIN to your Google Shopping listing increases impressions by 40% and conversions by 20%.
+								179 image Trade on Amazon
+								180 heading Required for Amazon, Value: 3
+									181 text Required for Amazon
+								182 text Amazon won't accept product listings without a GS1 GTIN. If you want to sell on Amazon, this is the only route.
+								183 image Boost efficiency
+								184 heading Boost efficiency, Value: 3
+									185 text Boost efficiency
+								186 text Streamline your supply chain with accurate data by using other GS1 standards like Global Location Numbers (GLNs).
+								187 image Technical expertise and support
+								188 heading Free expert support, Value: 3
+									189 text Free expert support
+								190 text Phone and online access to GS1 UK's technical team, plus training and a partner network to help you grow.
+								191 image Unlimited user access
+								192 heading Unlimited team access, Value: 3
+									193 text Unlimited team access
+								194 text Share exclusive membership benefits with an unlimited number of users across your organisation.
+								195 image Centralised management of your barcodes
+								196 heading Central barcode management, Value: 3
+									197 text Central barcode management
+								198 text You’ll get access to My Numberbank to assign and manage your barcodes, QR codes and product data.
+								199 image Access to networks, communities and valuable insights
+								200 heading Access to networks, communities and valuable insights, Value: 3
+									201 text Access to networks, communities and valuable insights
+								202 text Get support to meet business requirements and grow, with access to GS1 UK communities, our partner network, exclusive insights and events.
+								203 image QR code
+								204 heading Next-gen QR codes included, Value: 3
+									205 text Next-gen QR codes included
+								206 text Create QR codes powered by GS1 alongside your barcodes — ready for retail, regulatory and consumer requirements ahead.
+								207 button Explore our plans 
+								208 heading Transforming standards worldwide, Value: 4
+									209 text Transforming standards worldwide
+								210 text GS1 delivers the traceability and data sharing infrastructure that allows business and consumers to make sustainable and safe choices. For more than 50 years we have helped our members to adapt, thrive and make ambitious improvements. 
+								211 text To this day, our globally recognised standards remain essential for powering the ability to identify, capture and share interoperable data.
+								212 text 60,000
+								213 text members in the UK
+								214 text 150
+								215 text countries
+								216 text 10bn
+								217 text scans of GS1 barcodes every day
+								218 text 2m
+								219 text members globally
+								220 heading Trusted by, Value: 4
+									221 text Trusted by
+								222 container
+									223 container 15 / 15
+										224 image google shopping
+									225 container 1 / 15
+										226 image Amazon
+									227 container 2 / 15
+										228 image Tesco
+									229 container 3 / 15
+										230 image sainsburys
+									231 container 4 / 15
+										232 image shopify
+									233 container 5 / 15
+										234 image google shopping
+									235 container 6 / 15
+										236 image TikTok
+									237 container 7 / 15
+										238 image ebay
+									239 container 8 / 15
+										240 image Facebook
+									241 container 9 / 15
+										242 image Waitrose
+									243 container 10 / 15
+										244 image Ocado
+									245 container 11 / 15
+										246 image Amazon
+									247 container 12 / 15
+										248 image Tesco
+									249 container 13 / 15
+										250 image sainsburys
+									251 container 14 / 15
+										252 image shopify
+								253 heading Join & get barcodes in minutes, Value: 4
+									254 text Join & get barcodes in minutes
+								255 text GS1 manages the only global standard for barcodes used by retailers, marketplaces and supply chains worldwide – essential for powering the ability to identify, capture and share data. When you join GS1 UK, you get official barcode numbers assigned to your business, so you can sell, ship and list your products with confidence. 
+								256 text Your membership is based on your annual turnover and number of barcodes your business needs, ensuring fair and scalable pricing for all.
+								257 heading Select your annual turnover, Value: 4
+									258 text Select your annual turnover
+								259 pop-up button Up to £99,999
+									260 (selected) Up to £99,999
+								261 heading Select the number of barcodes, Value: 4
+									262 text Select the number of barcodes
+								263 text Everything you need to start selling in the UK and globally including QR codes, GTIN and GLNs.
+								264 container
+									265 text Number of barcodes, GTINs, QR codes and GLNs
+									266 text 10
+									267 text BEST VALUE
+									268 text 1,000
+									269 text 100
+									270 text Dedicated, UK-based membership support
+									271 text 
+									272 text 
+									273 text 
+									274 text Product listing in the global verification database
+									275 text 
+									276 text 
+									277 text 
+									278 text Tailored marketplace launch advice
+									279 text 
+									280 text 
+									281 text 
+									282 text Training and insights to accelerate growth
+									283 text 
+									284 text 
+									285 text 
+									286 text Networking and partnership events
+									287 text 
+									288 text 
+									289 text 
+									290 text Price
+									291 text £50 per year
+									292 text excl. VAT
+									293 text £130 per year
+									294 text excl. VAT
+									295 text £100 per year
+									296 text excl. VAT
+								297 text Ways to pay
+								298 image Paypal
+								299 image Google Pay
+								300 image apple pay
+								301 image master card
+								302 image Visa
+								303 image Direct Debit
+								304 button Join and buy barcodes 
+								305 container
+									306 container 7 / 7
+										307 container
+											308 text 
+											309 text We joined GS1 UK because we needed barcodes to get into retail. Without GS1 barcodes, we couldn’t have scaled into supermarkets or exported overseas. Matt Hunt The Protein Ball Co
+										310 button Previous slide
+										311 button Next slide
+									312 container 1 / 7
+										313 container
+											314 text 
+											315 text A fab member organisation. GS1 UK has helped my drinks brand from day one. From barcode creation and pitching to retailers to marketing and sales support. I would be nowhere without them. Charlie Knockton Founder, Happy Inside Drinks
+										316 button Previous slide
+										317 button Next slide
+									318 container 2 / 7
+										319 container
+											320 text 
+											321 text We verify the authenticity of product identifiers by checking the GS1 database. EANs/UPCs that do not match the information provided by GS1 will be considered invalid. We recommend obtaining your product identifiers directly from GS1 (and not from other third parties selling EAN/UPC licenses) to ensure that the appropriate information is reflected in the GS1 database. Amazon
+										322 button Previous slide
+										323 button Next slide
+									324 container 3 / 7
+										325 container
+											326 text 
+											327 text We see no less than 40 percent more impressions with products with a GTIN. We recommend using them, provided that you also follow the guidelines of GS1. Other product identifiers are simply not as reliable as the GTIN. Mike Campsambelis Product management lead, Google
+										328 button Previous slide
+										329 button Next slide
+									330 container 4 / 7
+										331 container
+											332 text 
+											333 text Applying GS1 numbers and barcodes to our bottles has made international trading so much easier. We don’t have to change the barcodes on our bottles or packaging at any point... This saves us a lot of time and money and also gives our international customers so much more confidence. A lot of smaller breweries can’t offer this, so it really sets us apart. Andy Moffat Head brewer, Redemption Brewing Company
+										334 button Previous slide
+										335 button Next slide
+									336 container 5 / 7
+										337 container
+											338 text 
+											339 text The great thing about GS1 barcodes is that they are globally recognised which has really helped me sell overseas. Jenni Bailey Calla
+										340 button Previous slide
+										341 button Next slide
+									342 container 6 / 7
+										343 container
+											344 text 
+											345 text We joined GS1 UK online and set up our barcodes immediately. The whole process was so quick and easy. You guys came in and saved the day! Renee Fraser-Shepherd Sloobie
+										346 button Previous slide
+										347 button Next slide
+								348 heading FAQs, Value: 4
+									349 text FAQs
+								350 container
+									351 heading What is a barcode?, Value: 3
+										352 button What is a barcode?
+									353 container What is a barcode?
+										354 text A barcode is the image you’ll recognise from most products that you see every day. It is the machine readable version of a Global Trade Item Number (GTIN) - the number that sits underneath the barcode - formed of black and white lines that allows lasers to read the number and automatically identify a product.
+									355 heading What is a GTIN?, Value: 3
+										356 button What is a GTIN?
+									357 heading What is an EAN?, Value: 3
+										358 button What is an EAN?
+									359 heading What is a UPC?, Value: 3
+										360 button What is a UPC?
+									361 heading What’s the difference between an EAN and a UPC?, Value: 3
+										362 button What’s the difference between an EAN and a UPC?
+									363 heading How do product identifiers work?, Value: 3
+										364 button How do product identifiers work?
+									365 heading What standards and services are included in my GS1 UK membership?, Value: 3
+										366 button What standards and services are included in my GS1 UK membership?
+									367 heading I'm not based in the UK, can I still join GS1 UK?, Value: 3
+										368 button I'm not based in the UK, can I still join GS1 UK?
+									369 heading Will QR codes replace barcodes?, Value: 3
+										370 button Will QR codes replace barcodes?
+								371 button Check out our knowledge hub for more 
+								372 image Support
+								373 container
+									374 heading 4
+									375 heading Need a hand?, Value: 1
+										376 text Need a hand?
+									377 text If you need help getting started or support with any aspect of your GS1 UK membership,  please get in touch.
+									378 button Get in touch 
+							379 Unlabelled image GS1 UK
+							380 container About us
+								381 heading About us, Value: 2
+									382 text About us
+								383 content list
+									384 link Who we are, Value: gs1uk.org/about-us/who-we-are
+									385 link Membership, Value: gs1uk.org/about-us/membership
+									386 link Standards & services, Value: gs1uk.org/standards-services
+									387 link Careers, Value: gs1uk.org/about-us/careers
+							388 container Get a barcode
+								389 heading Get a barcode, Value: 2
+									390 text Get a barcode
+								391 content list
+									392 link GTINs and barcodes, Value: gs1uk.org/about-us/membership…
+									393 link QR codes powered by GS1, Help: Different types of barcodes for your products, Value: gs1uk.org/standards-services/…
+							394 container Our industries
+								395 heading Our industries, Value: 2
+									396 text Our industries
+								397 content list
+									398 link Construction, Value: gs1uk.org/industries/construc…
+									399 link Healthcare, Value: gs1uk.org/industries/healthca…
+									400 link Retail, Value: gs1uk.org/industries/retail
+							401 container Support
+								402 heading Support, Value: 2
+									403 text Support
+								404 content list
+									405 link Contact us, Value: gs1uk.org/contact-us
+									406 link Knowledge hub, Value: gs1uk.org/knowledge-hub
+									407 link Amazon support, Value: gs1uk.org/knowledge-hub/amazo…
+									408 link Getting started, Value: gs1uk.org/knowledge-hub/getti…
+							409 content list
+								410 link Linkedin, Value: linkedin.com/company/gs1-uk
+								411 link YouTube, Value: youtube.com/user/GS1UK
+								412 link Twitter, Value: twitter.com/GS1UK
+								413 link Facebook, Value: facebook.com/gs1uk/
+								414 link Instagram, Value: instagram.com/gs1uk/
+							415 content list
+								416 link Terms and conditions, Value: gs1uk.org/terms-and-conditions
+								417 link Cookie policy, Value: gs1uk.org/cookie-policy
+								418 link Privacy policy, Value: gs1uk.org/privacy-policy
+								419 link Competition policy, Value: gs1uk.org/competition-policy
+								420 link End user terms, Value: gs1uk.org/end-user-terms
+							421 container
+								422 text GS1 UK is a company limited by guarantee and registered in England and Wales under company number 01256140. Registered office Hasilwood House, 60 Bishopsgate, London, EC2N 4AW. VAT number GB287940215.
+							423 container
+								424 button Open cookie settings widget
+			425 pop-up button Tab search
+			426 container
+				427 tab group
+					428 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					429 tab group  group ✅Claude – 1 Tab, •  Products | Microsoft Advertising – Expanded
+					430 tab (settable, boolean) Products | Microsoft Advertising – Part of group ✅Claude, Value: off
+					431 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					432 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					433 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					434 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					435 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					436 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					437 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					438 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					439 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					440 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					441 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					442 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					443 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					444 tab (settable, boolean) Inbox (7,129) - tppricet@gmail.com - Gmail, Value: off
+					445 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					446 tab (settable, boolean) Meta Business Suite, Value: off
+					447 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					448 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					449 tab group  group ✅Claude – 1 Tab, •  Brands - Manufacturer Center – Expanded
+					450 tab (settable, boolean) Brands - Manufacturer Center – Part of group ✅Claude, Value: off
+					451 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					452 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					453 tab (settable, boolean) Boldstone · Review room, Value: off
+					454 tab (settable, boolean) Pinterest, Value: off
+					455 tab group  group 🔎 Catalogue sync and GTINs – 1 Tab, •  Get a barcode | Create a GS1 barcode online |… – Expanded
+					456 tab (selected, settable, boolean) Get a barcode | Create a GS1 barcode online | GS1 UK – Part of group 🔎 Catalogue sync and GTINs, Value: on
+			457 button New tab
+	458 close button
+	459 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	460 minimise button
+461 menu bar
+	462 Chrome
+	463 File
+	464 Edit
+	465 View
+	466 History
+	467 Bookmarks
+	468 Profiles
+	469 Tab
+	470 Window
+	471 Help
+
+The focused UI element is 26 HTML content Get a barcode | Create a GS1 barcode online | GS1 UK, URL: gs1uk.org/about-us/membership…

@@ -1,0 +1,998 @@
+Window: "(5) Boldstone Sculpture | Commerce Manager", App: Google Chrome.
+0 standard window (5) Boldstone Sculpture | Commerce Manager - Google Chrome – Tom, URL: …, Secondary Actions: Raise
+	1 container (5) Boldstone Sculpture | Commerce Manager - Google Chrome – Tom, URL: …
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: business.facebook.com/commerce/catalogs/1638438493182970/products?aiSearchFilteredAttributes=["product_item_id"]&aiSearchMatchedTerms=[]&aiSearchQuery=Ammonite%20Petite&ai_search_matching_count=4&ai_search_unmatched_terms=["Petite"%2C"Ammonite%20Petite"]&dataSourceIds&facets=[%7B"id"%3A"f0e3b98f-0198-4061-a87f-6eed61afb3ef"%2C"property"%3A"product_item_id"%2C"isPriceFilter"%3Afalse%2C"operator"%3A"IN"%2C"value"%3A["29560657036875588"%2C"28501410682870665"%2C"29520342034239396"%2C"29119016884449779"]%2C"plainText"%3A""%7D]&filterOption&highPriorityItemsIssuesOnly&issues=[]&itemHasManualEdits=false&tab&business_id=2380586078685156
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content (5) Boldstone Sculpture | Commerce Manager, URL: …
+						27 container
+							28 container
+								29 container
+									30 link Business Home, Value: business.facebook.com/home/?business_id=2380586078685156
+									31 text Commerce Manager
+									32 combo box (settable) Products for Boldstone Sculpture (103781478537396)
+										33 container
+											34 text Products for Boldstone Sculpture (103781478537396)
+											35 image
+									36 container
+										37 container Navigation
+											38 content list
+												39 container
+													40 link Overview, Value: business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+													41 text Overview
+												42 container
+													43 button Catalogue
+													44 text Catalogue
+													45 button Toggle Group ​
+													46 content list
+														47 container
+															48 link Products, Value: business.facebook.com/commerce/catalogs/1638438493182970/products/?business_id=2380586078685156
+															49 text Products
+														50 container
+															51 link Sets, Value: business.facebook.com/commerce/catalogs/1638438493182970/sets/?business_id=2380586078685156
+															52 text Sets
+														53 container
+															54 link Data sources, Value: business.facebook.com/commerce/catalogs/1638438493182970/data_sources/?business_id=2380586078685156
+															55 text Data sources
+														56 container
+															57 link Events, Value: business.facebook.com/commerce/catalogs/1638438493182970/events/?business_id=2380586078685156
+															58 text Events
+												59 container
+													60 link Image templates, Value: business.facebook.com/commerce/catalogs/1638438493182970/templates/?business_id=2380586078685156
+													61 text Image templates
+												62 container
+													63 link Product video creator, Value: business.facebook.com/commerce/catalogs/1638438493182970/video_template_hub/?business_id=2380586078685156
+													64 text Product video creator
+												65 container
+													66 link Shops, Value: business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+													67 text Shops
+												68 container
+													69 button Promotions
+													70 text Promotions
+													71 button Toggle Group ​
+													72 content list
+														73 container
+															74 link Offers, Value: business.facebook.com/commerce/326960679342026/promotions/offers/?business_id=2380586078685156
+															75 text Offers
+														76 container
+															77 link Marketing settings, Value: business.facebook.com/commerce/326960679342026/promotions/mailing_list/?business_id=2380586078685156
+															78 text Marketing settings
+												79 container
+													80 button Insights
+													81 text Insights
+													82 button Toggle Group ​
+													83 content list
+														84 container
+															85 link Overview, Value: business.facebook.com/commerce/326960679342026/performance/overview/?business_id=2380586078685156
+															86 text Overview
+														87 container
+															88 link Catalogue, Value: business.facebook.com/commerce/326960679342026/performance/products/?business_id=2380586078685156
+															89 text Catalogue
+														90 container
+															91 link Performance, Value: business.facebook.com/commerce/326960679342026/performance/perf/?business_id=2380586078685156
+															92 text Performance
+														93 container
+															94 link Audience, Value: business.facebook.com/commerce/326960679342026/performance/audience/?business_id=2380586078685156
+															95 text Audience
+														96 container
+															97 link Tagged content, Value: business.facebook.com/commerce/326960679342026/performance/product_tagged_content/?business_id=2380586078685156
+															98 text Tagged content
+														99 container
+															100 link Awareness, Value: business.facebook.com/commerce/326960679342026/performance/entry_points/?business_id=2380586078685156
+															101 text Awareness
+												102 container
+													103 link To-do list, Value: business.facebook.com/commerce/326960679342026/to_do_list/?business_id=2380586078685156
+													104 text To-do list
+												105 container
+													106 link Settings, Value: business.facebook.com/commerce/326960679342026/settings/general/?business_id=2380586078685156
+													107 text Settings
+										108 container all tools
+											109 content list
+												110 container
+													111 button All tools
+													112 text All tools
+									113 content list
+										114 container
+											115 button Meta AI business assistant
+											116 text Meta AI business assistant
+									117 button Help ​
+									118 link Business settings ​, Value: business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+									119 container
+										120 button Business notifications ​
+									121 button Search ​
+									122 button Collapse ​
+								123 container
+									124 heading Products, Value: 1
+										125 text Products
+									126 text View and manage products in your catalogue. Quickly find specific products using search or filters. 
+									127 link Learn how to view products in your catalogue, Value: facebook.com/business/help/1406482412767183
+									128 toolbar
+										129 button (disabled) Create campaign
+										130 pop-up button Add
+											131 text Add
+											132 image
+									133 tab group
+										134 tab (selected) All products, Value: 1
+										135 tab (settable, integer) Actions, Value: 0
+											136 text 1
+											137 text Number of actions
+									138 container
+										139 text Describe what you're looking for
+										140 text field (settable) Describe what you're looking for, Value: Ammonite Petite
+										141 button Clear
+									142 button (disabled) Edit
+									143 pop-up button (disabled) Open Drop-down ​
+										144 text Open Drop-down
+										145 image
+									146 button (disabled) Create set
+									147 pop-up button Add filter
+										148 text Add filter
+										149 image
+									150 text Columns
+									151 combo box (settable) Columns, Value: ​ Columns
+										152 text Columns
+										153 image
+									154 button Analyse
+									155 tree grid Commerce Manager products table
+										156 row Select all Name Status Variants Availability Price Data sources Last updated
+											157 column header
+											158 column header
+												159 container
+													160 Tick box Select all, Value: 0
+													161 image
+											162 column header
+												163 heading Name, Value: 4
+													164 text Name
+											165 column header
+												166 heading Status, Value: 4
+													167 text Status
+											168 column header
+												169 heading Variants, Value: 4
+													170 text Variants
+											171 column header
+												172 heading Availability, Value: 4
+													173 text Availability
+											174 column header
+												175 heading Price, Value: 4
+													176 text Price
+											177 column header
+												178 heading Data sources, Value: 4
+													179 text Data sources
+											180 column header
+												181 heading Last updated, Value: 4
+													182 text Last updated
+											183 column header
+												184 heading 4
+										185 row Select Ammonite Petite I (Left) - White Ammonite Petite I (Left) - White Content ID: 14a1dd22-1d07-42e2-acc4-8c34420dbca5 Eligible — In stock £49.10 Squarespace Integration Feed + Wall Sculptures - catalogue gallery images 1 Nov at 17:01 by Squarespace Integration Feed Actions ​
+											186 cell
+											187 cell
+												188 container
+													189 Tick box Select Ammonite Petite I (Left) - White, Value: 0
+													190 image
+											191 cell
+												192 link Ammonite Petite I (Left) - White, Value: business.facebook.com/commerce/catalogs/1638438493182970/products?aiSearchFilteredAttributes=%5B%2522product_item_id%2522%5D&aiSearchMatchedTerms=%5B%5D&aiSearchQuery=Ammonite%2520Petite&ai_search_matching_count=4&ai_search_unmatched_terms=%5B%2522Petite%2522%252C%2522Ammonite%2520Petite%2522%5D&dataSourceIds&facets=%5B%257B%2522id%2522%253A%2522f0e3b98f-0198-4061-a87f-6eed61afb3ef%2522%252C%2522property%2522%253A%2522product_item_id%2522%252C%2522isPriceFilter%2522%253Afalse%252C%2522operator%2522%253A%2522IN%2522%252C%2522value%2522%253A%5B%252229560657036875588%2522%252C%252228501410682870665%2522%252C%252229520342034239396%2522%252C%252229119016884449779%2522%5D%252C%2522plainText%2522%253A%2522%2522%257D%5D&filterOption&highPriorityItemsIssuesOnly&issues=%5B%5D&itemHasManualEdits=false&tab&business_id=2380586078685156#
+												193 text Content ID: 14a1dd22-1d07-42e2-acc4-8c34420dbca5
+											194 cell
+												195 text Eligible
+											196 cell
+												197 text —
+											198 cell
+												199 text In stock
+											200 cell
+												201 text £49.10
+											202 cell
+												203 link Squarespace Integration Feed, Value: business.facebook.com/commerce/catalogs/1638438493182970/data_sources/1008534278476350/
+												204 container
+													205 text + 
+													206 link Wall Sculptures - catalogue gallery images, Value: business.facebook.com/commerce/catalogs/1638438493182970/data_sources/1699005968459486/
+											207 cell
+												208 text 1 Nov at 17:01
+												209 container
+													210 text by
+													211 link Squarespace Integration Feed, Value: business.facebook.com/commerce/catalogs/1638438493182970/data_sources/1008534278476350/
+											212 cell
+												213 pop-up button Actions ​
+													214 text Actions
+													215 image
+										216 row Select Ammonite Grande II (Right) - White Ammonite Grande II (Right) - White Content ID: 406940ee-fc7e-491b-a52f-5c9a13736f3e Eligible — In stock £154.94 Squarespace Integration Feed + Wall Sculptures - catalogue gallery images 1 Nov at 17:01 by Squarespace Integration Feed Actions ​
+											217 cell
+											218 cell
+												219 container
+													220 Tick box Select Ammonite Grande II (Right) - White, Value: 0
+													221 image
+											222 cell
+												223 link Ammonite Grande II (Right) - White, Value: business.facebook.com/commerce/catalogs/1638438493182970/products?aiSearchFilteredAttributes=%5B%2522product_item_id%2522%5D&aiSearchMatchedTerms=%5B%5D&aiSearchQuery=Ammonite%2520Petite&ai_search_matching_count=4&ai_search_unmatched_terms=%5B%2522Petite%2522%252C%2522Ammonite%2520Petite%2522%5D&dataSourceIds&facets=%5B%257B%2522id%2522%253A%2522f0e3b98f-0198-4061-a87f-6eed61afb3ef%2522%252C%2522property%2522%253A%2522product_item_id%2522%252C%2522isPriceFilter%2522%253Afalse%252C%2522operator%2522%253A%2522IN%2522%252C%2522value%2522%253A%5B%252229560657036875588%2522%252C%252228501410682870665%2522%252C%252229520342034239396%2522%252C%252229119016884449779%2522%5D%252C%2522plainText%2522%253A%2522%2522%257D%5D&filterOption&highPriorityItemsIssuesOnly&issues=%5B%5D&itemHasManualEdits=false&tab&business_id=2380586078685156#
+												224 text Content ID: 406940ee-fc7e-491b-a52f-5c9a13736f3e
+											225 cell
+												226 text Eligible
+											227 cell
+												228 text —
+											229 cell
+												230 text In stock
+											231 cell
+												232 text £154.94
+											233 cell
+												234 link Squarespace Integration Feed, Value: business.facebook.com/commerce/catalogs/1638438493182970/data_sources/1008534278476350/
+												235 container
+													236 text + 
+													237 link Wall Sculptures - catalogue gallery images, Value: …
+											238 cell
+												239 text 1 Nov at 17:01
+												240 container
+													241 text by
+													242 link Squarespace Integration Feed, Value: …
+											243 cell
+												244 pop-up button Actions ​
+													245 text Actions
+													246 image
+										247 row Select Ammonite Grande I (Left) - White Ammonite Grande I (Left) - White Content ID: 7ea40d4e-fd6c-4ef8-bf81-54b632111f60 Eligible — In stock £154.94 Squarespace Integration Feed + Wall Sculptures - catalogue gallery images 1 Nov at 17:01 by Squarespace Integration Feed Actions ​
+											248 cell
+											249 cell
+												250 container
+													251 Tick box Select Ammonite Grande I (Left) - White, Value: 0
+													252 image
+											253 cell
+												254 link Ammonite Grande I (Left) - White, Value: …
+												255 text Content ID: 7ea40d4e-fd6c-4ef8-bf81-54b632111f60
+											256 cell
+												257 text Eligible
+											258 cell
+												259 text —
+											260 cell
+												261 text In stock
+											262 cell
+												263 text £154.94
+											264 cell
+												265 link Squarespace Integration Feed, Value: …
+												266 container
+													267 text + 
+													268 link Wall Sculptures - catalogue gallery images, Value: …
+											269 cell
+												270 text 1 Nov at 17:01
+												271 container
+													272 text by
+													273 link Squarespace Integration Feed, Value: …
+											274 cell
+												275 pop-up button Actions ​
+													276 text Actions
+													277 image
+										278 row Select Ammonite Petite II (Right) - White Ammonite Petite II (Right) - White Content ID: defc512b-61f5-427d-abca-6afe0a6bdec9 Eligible — In stock £49.10 Squarespace Integration Feed + Wall Sculptures - catalogue gallery images 1 Nov at 17:01 by Squarespace Integration Feed Actions ​
+											279 cell
+											280 cell
+												281 container
+													282 Tick box Select Ammonite Petite II (Right) - White, Value: 0
+													283 image
+											284 cell
+												285 link Ammonite Petite II (Right) - White, Value: …
+												286 text Content ID: defc512b-61f5-427d-abca-6afe0a6bdec9
+											287 cell
+												288 text Eligible
+											289 cell
+												290 text —
+											291 cell
+												292 text In stock
+											293 cell
+												294 text £49.10
+											295 cell
+												296 link Squarespace Integration Feed, Value: …
+												297 container
+													298 text + 
+													299 link Wall Sculptures - catalogue gallery images, Value: …
+											300 cell
+												301 text 1 Nov at 17:01
+												302 container
+													303 text by
+													304 link Squarespace Integration Feed, Value: …
+											305 cell
+												306 pop-up button Actions ​
+													307 text Actions
+													308 image
+									309 text 4 products match your search or filters Page 1 of 1
+									310 text Rows per page
+									311 combo box (settable) Rows per page 15, Value: 15 ​
+										312 container
+											313 text 15
+											314 image
+									315 button (disabled) Previous ​
+									316 button (disabled) Next ​
+								317 container
+									318 container
+										319 button Edit product
+										320 pop-up button Open Drop-down ​
+											321 text Open Drop-down
+											322 image
+									323 button Create Variant
+									324 button Close ​
+									325 heading Ammonite Petite II (Right) - White, Value: 3
+										326 text Ammonite Petite II (Right) - White
+									327 text Content ID: defc512b-61f5-427d-abca-6afe0a6bdec9
+									328 text Status: Eligible
+									329 container
+										330 heading Data sources, Value: 4
+											331 text Data sources
+										332 link Squarespace Integration Feed, Value: …
+										333 text 1 attribute is being updated by multiple data sources
+									334 tab group
+										335 tab (selected) Detail, Value: 1
+										336 tab (settable, integer) Media, Value: 0
+									337 table Product fields lineage
+										338 row Attribute Last updated by Details
+											339 column header
+												340 heading Attribute, Value: 4
+													341 text Attribute
+											342 column header
+												343 heading Last updated by, Value: 4
+													344 text Last updated by
+											345 column header
+												346 heading Details, Value: 4
+													347 text Details
+										348 row Partner content N/A Missing
+											349 cell
+												350 text Partner content
+											351 cell
+												352 text N/A
+											353 cell
+												354 text Missing
+										355 row Title Squarespace Integration Feed Ammonite Petite II (Right) - White
+											356 cell
+												357 text Title
+											358 cell
+												359 image
+												360 link Squarespace Integration Feed, Value: …
+											361 cell
+												362 text Ammonite Petite II (Right) - White
+										363 row Price Squarespace Integration Feed £49.10
+											364 cell
+												365 text Price
+											366 cell
+												367 image
+												368 link Squarespace Integration Feed, Value: …
+											369 cell
+												370 text £49.10
+										371 row Sale price Squarespace Integration Feed Missing
+											372 cell
+												373 text Sale price
+											374 cell
+												375 image
+												376 link Squarespace Integration Feed, Value: …
+											377 cell
+												378 text Missing
+										379 row Product link Squarespace Integration Feed https://boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white
+											380 cell
+												381 text Product link
+											382 cell
+												383 image
+												384 link Squarespace Integration Feed, Value: …
+											385 cell
+												386 link https://boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white, Value: …
+										387 row Description Wall Sculptures - catalogue gallery images and 1 other source View sources The ammonite spiral draws the eye inward through a rhythm of curved ridges. Its fossil-inspired form brings a sense of deep time and the shoreline to a contemporary wall. This is the right-hand panel in the smaller Ammonite design. Display it as an individual sculptural fragment, or choose its matching partner to reveal the full spiral. Each panel is sold separately. The white finish keeps the focus on the form and its ch
+											388 cell
+												389 text Description
+											390 cell
+												391 image
+												392 link Wall Sculptures - catalogue gallery images, Value: …
+												393 text and 1 other source
+												394 link View sources, Value: …
+											395 cell
+												396 text The ammonite spiral draws the eye inward through a rhythm of curved ridges. Its fossil-inspired form brings a sense of deep time and the shoreline to a contemporary wall. This is the right-hand panel in the smaller Ammonite design. Display it as an individual sculptural fragment, or choose its matching partner to reveal the full spiral. Each panel is sold separately. The white finish keeps the focus on the form and its changing shadows. Brand: Boldstone Product type: Wall sculpture Model: Ammonite Petite II
+										397 row Availability Squarespace Integration Feed In stock
+											398 cell
+												399 text Availability
+											400 cell
+												401 image
+												402 link Squarespace Integration Feed, Value: …
+											403 cell
+												404 text In stock
+										405 row Product group ID Squarespace Integration Feed 6ae518129b3a3f6a35bd9ca0
+											406 cell
+												407 text Product group ID
+											408 cell
+												409 image
+												410 link Squarespace Integration Feed, Value: …
+											411 cell
+												412 text 6ae518129b3a3f6a35bd9ca0
+										413 row Google product category Squarespace Integration Feed Missing
+											414 cell
+												415 text Google product category
+											416 cell
+												417 image
+												418 link Squarespace Integration Feed, Value: …
+											419 cell
+												420 text Missing
+										421 row Size chart N/A Missing
+											422 cell
+												423 text Size chart
+											424 cell
+												425 text N/A
+											426 cell
+												427 text Missing
+										428 row Live special price Squarespace Integration Feed Missing
+											429 cell
+												430 text Live special price
+											431 cell
+												432 image
+												433 link Squarespace Integration Feed, Value: …
+											434 cell
+												435 text Missing
+										436 row Condition Squarespace Integration Feed new
+											437 cell
+												438 text Condition
+											439 cell
+												440 image
+												441 link Squarespace Integration Feed, Value: …
+											442 cell
+												443 text new
+										444 row Brand Squarespace Integration Feed boldstone
+											445 cell
+												446 text Brand
+											447 cell
+												448 image
+												449 link Squarespace Integration Feed, Value: …
+											450 cell
+												451 text boldstone
+										452 row Size Squarespace Integration Feed Missing
+											453 cell
+												454 text Size
+											455 cell
+												456 image
+												457 link Squarespace Integration Feed, Value: …
+											458 cell
+												459 text Missing
+										460 row Images Wall Sculptures - catalogue gallery images Item 1 of 9 Item 2 of 9 Item 3 of 9 Item 4 of 9 Item 5 of 9 Item 6 of 9 Item 7 of 9 Item 8 of 9 Item 9 of 9 Forwards arrow Go to page 1 of 9 Go to page 2 of 9 Go to page 3 of 9 Go to page 4 of 9 Go to page 5 of 9 Go to page 6 of 9 Go to page 7 of 9 Go to page 8 of 9 Go to page 9 of 9
+											461 cell
+												462 text Images
+											463 cell
+												464 image
+												465 link Wall Sculptures - catalogue gallery images, Value: …
+											466 cell
+												467 container
+													468 container
+														469 container Item 1 of 9
+															470 link Image URL, Value: …
+															471 text 1122 × 1402
+														472 container Item 2 of 9
+															473 link Image URL, Value: …
+															474 text 2500 × 1674
+														475 container Item 3 of 9
+															476 link Image URL, Value: …
+															477 text 2500 × 3735
+														478 container Item 4 of 9
+															479 link Image URL, Value: …
+															480 text 2048 × 2048
+														481 container Item 5 of 9
+															482 link Image URL, Value: …
+															483 text 1122 × 1402
+														484 container Item 6 of 9
+															485 link Image URL, Value: …
+															486 text 1941 × 1295
+														487 container Item 7 of 9
+															488 link Image URL, Value: …
+															489 text 1941 × 1295
+														490 container Item 8 of 9
+															491 link Image URL, Value: …
+															492 text 1080 × 690
+														493 container Item 9 of 9
+															494 link Image URL, Value: …
+															495 text 1512 × 2016
+													496 button Forwards arrow
+												497 button Go to page 1 of 9
+												498 button Go to page 2 of 9
+												499 button Go to page 3 of 9
+												500 button Go to page 4 of 9
+												501 button Go to page 5 of 9
+												502 button Go to page 6 of 9
+												503 button Go to page 7 of 9
+												504 button Go to page 8 of 9
+												505 button Go to page 9 of 9
+										506 row Videos N/A Missing
+											507 cell
+												508 text Videos
+											509 cell
+												510 text N/A
+											511 cell
+												512 text Missing
+										513 row Backgrounds N/A Missing
+											514 cell
+												515 text Backgrounds
+											516 cell
+												517 text N/A
+											518 cell
+												519 text Missing
+										520 row Models N/A Missing
+											521 cell
+												522 text Models
+											523 cell
+												524 text N/A
+											525 cell
+												526 text Missing
+										527 row Shop - Shown in Boldstone Sculpture
+											528 cell
+												529 text Shop
+											530 cell
+												531 text -
+											532 cell
+												533 text Shown in Boldstone Sculpture
+									534 button Show more attributes
+							535 container
+								536 heading 3
+								537 button Close ​
+								538 table Product properties
+									539 row Attribute Value
+										540 column header
+											541 heading Attribute, Value: 4
+												542 text Attribute
+										543 column header
+											544 heading Value, Value: 4
+												545 text Value
+									546 row Ad display preview link https://scontent-lhr11-1.xx.fbcdn.net/v/t45.5328-4/862982851_1976883107050875_3764428838195633621_n.jpg?stp=c0.137.1122.1124a_dst-jpg_s720x720_sh2.08_tt6&_nc_cat=101&ccb=1-7&_nc_sid=89567c&efg=eyJ2ZW5jb2RlX3RhZyI6ImFkc19pbWFnZS5mYl9kcGEuc2hhcnBlbi5vcmlnaW5hbF9kaW1lbnNpb24uMTEyMngxNDAyIn0%3D&_nc_ohc=UjHuanbqQ-UQ7kNvwGiJJn_&_nc_oc=Ado02DdsnVMFFl4Ijt_-Bmeq3E6VHcy1ZMd-aR8EsQnbQ9-vcULSt_R8qTRN-jh0uRXRcx1-x3Ji1vE7pqM0Xv-R&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=50VWEQGQGyTbtXBxjRN1qw&
+										547 cell
+											548 text Ad display preview link
+										549 cell
+											550 link Value: …, https://scontent-lhr11-1.xx.fbcdn.net/v/t45.5328-4/862982851_1976883107050875_3764428838195633621_n.jpg?stp=c0.137.1122.1124a_dst-jpg_s720x720_sh2.08_tt6&_nc_cat=101&ccb=1-7&_nc_sid=89567c&efg=eyJ2ZW5jb2RlX3RhZyI6ImFkc19pbWFnZS5mYl9kcGEuc2hhcnBlbi5vcmlnaW5hbF9kaW1lbnNpb24uMTEyMngxNDAyIn0%3D&_nc_ohc=UjHuanbqQ-UQ7kNvwGiJJn_&_nc_oc=Ado02DdsnVMFFl4Ijt_-Bmeq3E6VHcy1ZMd-aR8EsQnbQ9-vcULSt_R8qTRN-jh0uRXRcx1-x3Ji1vE7pqM0Xv-R&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=50VWEQGQGyTbtXBxjRN1qw&_nc_ss=7b2a8&oh=00_AQTjQ
+									551 row Affiliate seller rating Missing
+										552 cell
+											553 text Affiliate seller rating
+										554 cell
+											555 text Missing
+									556 row Affiliate seller rating count Missing
+										557 cell
+											558 text Affiliate seller rating count
+										559 cell
+											560 text Missing
+									561 row Age group Missing
+										562 cell
+											563 text Age group
+										564 cell
+											565 text Missing
+									566 row Allow pre-orders for this product
+										567 cell
+											568 text Allow pre-orders for this product
+										569 cell
+									570 row App links {"web":[{"should_fallback":true,"url":"https://boldstonesculpture.com/buy/p/ammonite-small More
+										571 cell
+											572 text App links
+										573 cell
+											574 container
+												575 text {"web":[{"should_fallback":true,"url":"https://boldstonesculpture.com/buy/p/ammonite-small 
+												576 button More
+									577 row Availability In stock
+										578 cell
+											579 text Availability
+										580 cell
+											581 text In stock
+									582 row Base commission rate Missing
+										583 cell
+											584 text Base commission rate
+										585 cell
+											586 text Missing
+									587 row Brand boldstone
+										588 cell
+											589 text Brand
+										590 cell
+											591 text boldstone
+									592 row Category ranking Missing
+										593 cell
+											594 text Category ranking
+										595 cell
+											596 text Missing
+									597 row Category-specific fields Missing
+										598 cell
+											599 text Category-specific fields
+										600 cell
+											601 text Missing
+									602 row Colour Missing
+										603 cell
+											604 text Colour
+										605 cell
+											606 text Missing
+									607 row Condition new
+										608 cell
+											609 text Condition
+										610 cell
+											611 text new
+									612 row Content ID defc512b-61f5-427d-abca-6afe0a6bdec9
+										613 cell
+											614 text Content ID
+										615 cell
+											616 text defc512b-61f5-427d-abca-6afe0a6bdec9
+									617 row Custom label 0 Wall Sculptures
+										618 cell
+											619 text Custom label 0
+										620 cell
+											621 text Wall Sculptures
+									622 row Custom label 1 Ammonite
+										623 cell
+											624 text Custom label 1
+										625 cell
+											626 text Ammonite
+									627 row Custom label 2 Missing
+										628 cell
+											629 text Custom label 2
+										630 cell
+											631 text Missing
+									632 row Custom label 3 Missing
+										633 cell
+											634 text Custom label 3
+										635 cell
+											636 text Missing
+									637 row Custom label 4 Missing
+										638 cell
+											639 text Custom label 4
+										640 cell
+											641 text Missing
+									642 row Custom number 0 0
+										643 cell
+											644 text Custom number 0
+										645 cell
+											646 text 0
+									647 row Custom number 1 0
+										648 cell
+											649 text Custom number 1
+										650 cell
+											651 text 0
+									652 row Custom number 2 0
+										653 cell
+											654 text Custom number 2
+										655 cell
+											656 text 0
+									657 row Custom number 3 0
+										658 cell
+											659 text Custom number 3
+										660 cell
+											661 text 0
+									662 row Custom number 4 0
+										663 cell
+											664 text Custom number 4
+										665 cell
+											666 text 0
+									667 row Custom return window name Missing
+										668 cell
+											669 text Custom return window name
+										670 cell
+											671 text Missing
+									672 row Date of last edit 1 November 2026
+										673 cell
+											674 text Date of last edit
+										675 cell
+											676 text 1 November 2026
+									677 row Delivery [{"shipping_country":"US","shipping_region":"CA","shipping_price_currency":"USD","shipping More
+										678 cell
+											679 text Delivery
+										680 cell
+											681 container
+												682 text [{"shipping_country":"US","shipping_region":"CA","shipping_price_currency":"USD","shipping 
+												683 button More
+									684 row Delivery profile reference ID Missing
+										685 cell
+											686 text Delivery profile reference ID
+										687 cell
+											688 text Missing
+									689 row Description The ammonite spiral draws the eye inward through a rhythm of curved ridges. Its fossil-inspired form brings a sense of deep time and the shoreline to a contemporary wall. This is the right-hand panel in the smaller Ammonite design. Display it as an individual sculptural fragment, or choose its matching partner to reveal the full spiral. Each panel is sold separately. The white finish keeps the focus on the form and its changing shadows. Brand: Boldstone Product type: Wall sculpture Model: Ammoni
+										690 cell
+											691 text Description
+										692 cell
+											693 text The ammonite spiral draws the eye inward through a rhythm of curved ridges. Its fossil-inspired form brings a sense of deep time and the shoreline to a contemporary wall. This is the right-hand panel in the smaller Ammonite design. Display it as an individual sculptural fragment, or choose its matching partner to reveal the full spiral. Each panel is sold separately. The white finish keeps the focus on the form and its changing shadows. Brand: Boldstone Product type: Wall sculpture Model: Ammonite Petite II
+									694 row Estimated margin Missing
+										695 cell
+											696 text Estimated margin
+										697 cell
+											698 text Missing
+									699 row Expiry date
+										700 cell
+											701 text Expiry date
+										702 cell
+									703 row Facebook product category Missing
+										704 cell
+											705 text Facebook product category
+										706 cell
+											707 text Missing
+									708 row GTIN Missing
+										709 cell
+											710 text GTIN
+										711 cell
+											712 text Missing
+									713 row Gender Missing
+										714 cell
+											715 text Gender
+										716 cell
+											717 text Missing
+									718 row Google product category Missing
+										719 cell
+											720 text Google product category
+										721 cell
+											722 text Missing
+									723 row Image fetch status ​ Fetched
+										724 cell
+											725 text Image fetch status
+											726 image
+										727 cell
+											728 text Fetched
+									729 row Images https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793398804300-4QEYL18O6NU0NXF29OVB/file https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793398805721-MR9U7PFNCEPR5QHDJI9V/file https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793398807368-9I0UPQPSNKL1J7MKHV1P/file Show more (6)
+										730 cell
+											731 text Images
+										732 cell
+											733 link Value: …, https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793398804300-4QEYL18O6NU0NXF29OVB/file
+											734 link Value: …, https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793398805721-MR9U7PFNCEPR5QHDJI9V/file
+											735 link Value: …, https://images.squarespace-cdn.com/content/v1/66abcbd768fd043d92325d96/1793398807368-9I0UPQPSNKL1J7MKHV1P/file
+											736 link Show more (6), Value: …
+									737 row Internal label []
+										738 cell
+											739 text Internal label
+										740 cell
+											741 text []
+									742 row MPN BOLD-EFBAEB31C2B1
+										743 cell
+											744 text MPN
+										745 cell
+											746 text BOLD-EFBAEB31C2B1
+									747 row Main image link https://scontent-lhr11-1.xx.fbcdn.net/v/t45.5328-4/862982851_1976883107050875_3764428838195633621_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c66aae&_nc_ohc=UjHuanbqQ-UQ7kNvwGiJJn_&_nc_oc=Ado02DdsnVMFFl4Ijt_-Bmeq3E6VHcy1ZMd-aR8EsQnbQ9-vcULSt_R8qTRN-jh0uRXRcx1-x3Ji1vE7pqM0Xv-R&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=50VWEQGQGyTbtXBxjRN1qw&_nc_ss=7b2a8&oh=00_AQTqRdDO2QCWMxYEeeCygx_db1LQvbEhlJcBrKvN8_0D-A&oe=6AF2930B
+										748 cell
+											749 text Main image link
+										750 cell
+											751 link Value: …, https://scontent-lhr11-1.xx.fbcdn.net/v/t45.5328-4/862982851_1976883107050875_3764428838195633621_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c66aae&_nc_ohc=UjHuanbqQ-UQ7kNvwGiJJn_&_nc_oc=Ado02DdsnVMFFl4Ijt_-Bmeq3E6VHcy1ZMd-aR8EsQnbQ9-vcULSt_R8qTRN-jh0uRXRcx1-x3Ji1vE7pqM0Xv-R&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=50VWEQGQGyTbtXBxjRN1qw&_nc_ss=7b2a8&oh=00_AQTqRdDO2QCWMxYEeeCygx_db1LQvbEhlJcBrKvN8_0D-A&oe=6AF2930B
+									752 row Material Missing
+										753 cell
+											754 text Material
+										755 cell
+											756 text Missing
+									757 row Mobile link Missing
+										758 cell
+											759 text Mobile link
+										760 cell
+											761 text Missing
+									762 row Offer disclaimer Missing
+										763 cell
+											764 text Offer disclaimer
+										765 cell
+											766 text Missing
+									767 row Offer disclaimer URL Missing
+										768 cell
+											769 text Offer disclaimer URL
+										770 cell
+											771 text Missing
+									772 row Overall ranking Missing
+										773 cell
+											774 text Overall ranking
+										775 cell
+											776 text Missing
+									777 row Pattern Missing
+										778 cell
+											779 text Pattern
+										780 cell
+											781 text Missing
+									782 row Previous content ID Missing
+										783 cell
+											784 text Previous content ID
+										785 cell
+											786 text Missing
+									787 row Price £49.10
+										788 cell
+											789 text Price
+										790 cell
+											791 text £49.10
+									792 row Product ID 28501410682870665
+										793 cell
+											794 text Product ID
+										795 cell
+											796 text 28501410682870665
+									797 row Product group ID 6ae518129b3a3f6a35bd9ca0
+										798 cell
+											799 text Product group ID
+										800 cell
+											801 text 6ae518129b3a3f6a35bd9ca0
+									802 row Product group ID (Meta) 1688653802989990
+										803 cell
+											804 text Product group ID (Meta)
+										805 cell
+											806 text 1688653802989990
+									807 row Product type Missing
+										808 cell
+											809 text Product type
+										810 cell
+											811 text Missing
+									812 row Quantity to sell 2147483647 ​
+										813 cell
+											814 text Quantity to sell
+										815 cell
+											816 text 2147483647
+											817 image
+									818 row Rating average Missing
+										819 cell
+											820 text Rating average
+										821 cell
+											822 text Missing
+									823 row Rating count Missing
+										824 cell
+											825 text Rating count
+										826 cell
+											827 text Missing
+									828 row Return policy days 30
+										829 cell
+											830 text Return policy days
+										831 cell
+											832 text 30
+									833 row Rich text description Missing
+										834 cell
+											835 text Rich text description
+										836 cell
+											837 text Missing
+									838 row Sale price Missing
+										839 cell
+											840 text Sale price
+										841 cell
+											842 text Missing
+									843 row Sale price effective date
+										844 cell
+											845 text Sale price effective date
+										846 cell
+									847 row Shipping weight unit lb
+										848 cell
+											849 text Shipping weight unit
+										850 cell
+											851 text lb
+									852 row Shipping weight value 19.85
+										853 cell
+											854 text Shipping weight value
+										855 cell
+											856 text 19.85
+									857 row Size Missing
+										858 cell
+											859 text Size
+										860 cell
+											861 text Missing
+									862 row Size chart Missing
+										863 cell
+											864 text Size chart
+										865 cell
+											866 text Missing
+									867 row Source of last edit Feed upload
+										868 cell
+											869 text Source of last edit
+										870 cell
+											871 text Feed upload
+									872 row Status ​ shown
+										873 cell
+											874 text Status
+											875 image
+										876 cell
+											877 text shown
+									878 row Title Ammonite Petite II (Right) - White
+										879 cell
+											880 text Title
+										881 cell
+											882 text Ammonite Petite II (Right) - White
+									883 row Vendor ID Missing
+										884 cell
+											885 text Vendor ID
+										886 cell
+											887 text Missing
+									888 row Video fetch status ​ No status
+										889 cell
+											890 text Video fetch status
+											891 image
+										892 cell
+											893 text No status
+									894 row Videos Missing
+										895 cell
+											896 text Videos
+										897 cell
+											898 text Missing
+									899 row Website link https://boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white
+										900 cell
+											901 text Website link
+										902 cell
+											903 link https://boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white, Value: …
+								904 button Done
+			905 pop-up button Tab search
+			906 container
+				907 tab group
+					908 tab (settable, boolean) Products – Faire, Value: off
+					909 tab (settable, boolean) Gumtree | Free classified ads from the #1 classifieds site in the UK, Value: off
+					910 tab (settable, boolean) Sign in to your Supplier account | AppScenic, Value: off
+					911 tab (settable, boolean) Shoppe Object, Value: off
+					912 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					913 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					914 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					915 tab (settable, boolean) sell on wholesale central - Google Search, Value: off
+					916 tab (settable, boolean) Display Your Products to Millions of Buyers Worldwide., Value: off
+					917 tab (settable, boolean) become-a-seller-new | Wholesale Prices | Tradeling, Value: off
+					918 tab (settable, boolean) Marketplace FAQ for Sellers | Brandboom Help Center, Value: off
+					919 tab (settable, boolean) Online Sales FAQ - TICA, Value: off
+					920 tab (settable, boolean) Carro Migration FAQ, Value: off
+					921 tab (settable, boolean) Join Us | CREOATE, Value: off
+					922 tab (settable, boolean) MOM - Sell your products, Value: off
+					923 tab (settable, boolean) Ankorstore | Wholesale Marketplace Home to Europe's Best Brands, Value: off
+					924 tab (settable, boolean) Explore JOOR for home brands, Value: off
+					925 tab (settable, boolean) Wholesale Marketplace: Get Discovered by Retailers | NuORDER by Lightspeed, Value: off
+					926 tab (settable, boolean) Sell on Syncee, Value: off
+					927 tab (settable, boolean) Become a Spocket Supplier - Sell to 100,000+ Retailers Free, Value: off
+					928 tab (settable, boolean) Become a verified Avasam supplier, Value: off
+					929 tab (settable, boolean) Advertise Your Wholesale Business - Would you like to expand your business?, Value: off
+					930 tab (settable, boolean) eSources UK Help | Managing Your Supplier Profile, Value: off
+					931 tab (settable, boolean) Gift Wholesalers - Gift Shop Wholesalers, Value: off
+					932 tab (settable, boolean) Sell on Tesco Marketplace | Reach millions of UK shoppers, Value: off
+					933 tab (settable, boolean) RangeMe, Value: off
+					934 tab (settable, boolean) Art Gallery | Buy Original British Art Online, Value: off
+					935 tab (settable, boolean) Original art for sale, Value: off
+					936 tab (settable, boolean) 25+ Handmade Marketplaces for Artisans to Sell Crafts, Art, Gifts Online - MultiMerch, Value: off
+					937 tab (settable, boolean) 250+ Websites Directory for Artists to Sell Art Online, Value: off
+					938 tab (settable, boolean) Vintage & Used Furniture and Decor | Chairish, Value: off
+					939 tab (settable, boolean) Value: off, Wholesale Suppliers Submit {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sep{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06} {79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}sitename{79e4de7f4dd93e079dc0346302e626876dfa84685ed4cc069cc3c188db3afb06}{79e4de7f4d
+					940 tab (settable, boolean) Value: off, Benefits for Suppliers - Thousands of Professional Resellers, Unlimited Product Listings - Wholesale Deals
+					941 tab (settable, boolean) Wholesale Central | Leading Source for Wholesale Products & Suppliers, Value: off
+					942 tab (settable, boolean) New York City Show Exhibitor Application, Value: off
+					943 tab (settable, boolean) Suppliers | SaleHoo, Value: off
+					944 tab (settable, boolean) Booth activation - Booth customization, Value: off
+					945 tab (settable, boolean) Romans Surviving Rome’s Collapse, Value: off
+					946 tab (settable, boolean) PayPal, Value: off
+					947 tab (settable, boolean) Verification code to reset your PayPal password - info@boldstone.co.uk - Thomas Price Mail, Value: off
+					948 tab group  group ✅Claude – 1 Tab, •  Boldstone Sculpture | Products – Expanded
+					949 tab (settable, boolean) Boldstone Sculpture | Products – Part of group ✅Claude, Value: off
+					950 tab (settable, boolean) ChatGPT, Value: off
+					951 tab (settable, boolean) _20261105_125118_b5c8aa3a-e88c-489b-bb71-04f4e23ce0ea.png (2048×2048), Value: off
+					952 tab (settable, boolean) _20261105_124942_a2ea11ea-9588-4814-921b-1b8119944376.png (2048×2048), Value: off
+					953 tab (settable, boolean) 888309629_1523348299846656_5333981695044073670_n.jpg (947×2048), Value: off
+					954 tab (settable, boolean) 880004104_1873677580468638_5195249294559980998_n.jpg (947×2048), Value: off
+					955 tab (settable, boolean) Photo 31-03-2025, 12 41 58.jpg, Value: off
+					956 tab (settable, boolean) Value: off, Elegant Swan Marble Side Table with Artistic White Base – 50cm — boldstone - High memory usage - 955 MB
+					957 tab (settable, boolean) Marbled Circle - Turquoise — boldstone, Value: off
+					958 tab (settable, boolean) (1) Home / X, Value: off
+					959 tab (settable, boolean) SEO opportunity audit, Value: off
+					960 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					961 tab (settable, boolean) Contact us - Glassette, Value: off
+					962 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					963 tab (settable, boolean) Sell on Artsper, Value: off
+					964 tab (settable, boolean) Inbox (94) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 814 MB, Value: off
+					965 tab (settable, boolean) Communist Takeovers And Killings, Value: off
+					966 tab (settable, boolean) ChatGPT, Value: off
+					967 tab (settable, boolean) (1) Instagram, Value: off
+					968 tab (settable, boolean) New tab, Value: off
+					969 tab (settable, boolean) Partner With Us for Brands | Maison Flâneur, Value: off
+					970 tab (settable, boolean) Meta Business Suite, Value: off
+					971 tab (selected, settable, boolean) (5) Boldstone Sculpture | Commerce Manager, Value: on
+			972 button New tab
+	973 close button
+	974 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	975 minimise button
+976 menu bar
+	977 Chrome
+	978 File
+	979 Edit
+	980 View
+	981 History
+	982 Bookmarks
+	983 Profiles
+	984 Tab
+	985 Window
+	986 Help
+
+The focused UI element is 537 button Close ​

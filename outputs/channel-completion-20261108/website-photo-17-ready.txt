@@ -1,0 +1,430 @@
+Window: "Wall Sculpture & Sculptural Furnishings | Boldstone, UK", App: Google Chrome.
+0 standard window URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Secondary Actions: Raise, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.6 GB - Google Chrome – Tom
+	1 container URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.6 GB - Google Chrome – Tom
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: caper-spinach-spcy.squarespace.com/config/commerce/products/physical, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 1
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Wall Sculpture & Sculptural Furnishings | Boldstone, UK, URL: caper-spinach-spcy.squarespace.com/config/commerce/products/physical
+						27 container
+							28 container
+								29 button CANCEL
+								30 heading Edit Patina Panel - Rust and Verdigris Finish, Value: 1
+									31 text Edit Patina Panel - Rust and Verdigris Finish
+								32 text Physical Product
+								33 content list
+									34 button Delete
+									35 button Duplicate
+									36 button SAVE
+							37 container Product sections
+								38 button Details
+								39 button Forms
+								40 button Images
+								41 button Inventory
+								42 button Payment options
+								43 text New
+								44 button Fulfillment
+								45 button Organization
+								46 button Taxes
+								47 button Selling Tools
+								48 button Marketing
+							49 container
+								50 heading Details, Value: 2
+									51 text Details
+								52 container
+									53 text Product name
+									54 text field (settable) Product name, Value: Patina Panel - Rust and Verdigris Finish, Placeholder: Eucalyptus Face Scrub
+								55 container
+									56 text Description
+									57 text entry area (settable) Layers of warm and cool colour create a richly varied surface. The relief has a weathered, landscape-like character, with details that reward a closer look.
+Think of the meeting of earth tones and sea-green patina: an expressive focal point for an otherwise quiet wall.
+This version is offered in the rust and verdigris colourway.
+•Brand: Boldstone
+•Product type: Wall sculpture
+•Model: Patina Panel - Rust and Verdigris (EBAY-188590547084)
+•Colour / appearance: Rust and hand-painted faux verdigris
+•Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+•Material: Made from a gypsum-based material.
+•Surface effect: A decorative surface effect is applied to create the finish shown. Each piece is handmade. The surface-effect pattern will vary and will differ from the photographs.
+•Dimensions: 31.5 × 31.5 × 4 cm
+•Weight: Approximately 3 kg
+•Use: Suitable for outdoor use and indoor display.
+•Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+•Availability: Made to order
+•Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+•Dispatch time: Within 10 working days. Delivery transit time is additional.
+•Delivery: Delivery is quoted separately. Please contact us for UK and international delivery options.
+										58 text Layers of warm and cool colour create a richly varied surface. The relief has a weathered, landscape-like character, with details that reward a closer look.
+										59 text Think of the meeting of earth tones and sea-green patina: an expressive focal point for an otherwise quiet wall.
+										60 text This version is offered in the rust and verdigris colourway.
+										61 content list
+											62 container
+												63 text • Brand:  Boldstone
+											64 container
+												65 text • Product type:  Wall sculpture
+											66 container
+												67 text • Model:  Patina Panel - Rust and Verdigris (EBAY-188590547084)
+											68 container
+												69 text • Colour / appearance:  Rust and hand-painted faux verdigris
+											70 container
+												71 text • Quantity supplied:  1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											72 container
+												73 text • Material:  Made from a gypsum-based material.
+											74 container
+												75 text • Surface effect:  A decorative surface effect is applied to create the finish shown. Each piece is handmade. The surface-effect pattern will vary and will differ from the photographs.
+											76 container
+												77 text • Dimensions:  31.5 × 31.5 × 4 cm
+											78 container
+												79 text • Weight:  Approximately 3 kg
+											80 container
+												81 text • Use:  Suitable for outdoor use and indoor display.
+											82 container
+												83 text • Fixings:  Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											84 container
+												85 text • Availability:  Made to order
+											86 container
+												87 text • Custom design:  All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											88 container
+												89 text • Dispatch time:  Within 10 working days. Delivery transit time is additional.
+											90 container
+												91 text • Delivery:  Delivery is quoted separately. Please contact us for UK and international delivery options.
+								92 container
+									93 text Button Text
+									94 text field (settable) Button Text, Placeholder: Add to Cart
+								95 heading Forms, Value: 2
+									96 text Forms
+								97 container
+									98 text Add to Cart Form Collect extra information from shoppers when they add this item to their cart. Form responses are displayed in your order details.
+								99 button ADD
+								100 heading Images, Value: 2
+									101 text Images
+								102 sortable Square wall panel with turquoise verdigris and mottled rusty brown areas on a white wall. 50% from left, 50% from top Featured image pin open image action menu
+									103 image Square wall panel with turquoise verdigris and mottled rusty brown areas on a white wall.
+									104 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									105 button Featured image pin
+									106 button open image action menu
+								107 sortable Square rust and verdigris panel photographed against a grey stone surface. 50% from left, 50% from top Featured image pin open image action menu
+									108 image Square rust and verdigris panel photographed against a grey stone surface.
+									109 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									110 button Featured image pin
+									111 button open image action menu
+								112 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									113 image Patina Panel - Rust and Verdigris - in situ
+									114 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									115 button Featured image pin
+									116 button open image action menu
+								117 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									118 image Patina Panel - Rust and Verdigris - in situ
+									119 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									120 button Featured image pin
+									121 button open image action menu
+								122 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									123 image Patina Panel - Rust and Verdigris - in situ
+									124 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									125 button Featured image pin
+									126 button open image action menu
+								127 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									128 image Patina Panel - Rust and Verdigris - in situ
+									129 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									130 button Featured image pin
+									131 button open image action menu
+								132 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									133 image Patina Panel - Rust and Verdigris - in situ
+									134 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									135 button Featured image pin
+									136 button open image action menu
+								137 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									138 image Patina Panel - Rust and Verdigris - in situ
+									139 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									140 button Featured image pin
+									141 button open image action menu
+								142 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									143 image Patina Panel - Rust and Verdigris - in situ
+									144 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									145 button Featured image pin
+									146 button open image action menu
+								147 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									148 image Patina Panel - Rust and Verdigris - in situ
+									149 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									150 button Featured image pin
+									151 button open image action menu
+								152 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									153 image Patina Panel - Rust and Verdigris - in situ
+									154 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									155 button Featured image pin
+									156 button open image action menu
+								157 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									158 image Patina Panel - Rust and Verdigris - in situ
+									159 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									160 button Featured image pin
+									161 button open image action menu
+								162 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									163 image Patina Panel - Rust and Verdigris - in situ
+									164 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									165 button Featured image pin
+									166 button open image action menu
+								167 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									168 image Patina Panel - Rust and Verdigris - in situ
+									169 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									170 button Featured image pin
+									171 button open image action menu
+								172 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									173 image Patina Panel - Rust and Verdigris - in situ
+									174 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									175 button Featured image pin
+									176 button open image action menu
+								177 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									178 image Patina Panel - Rust and Verdigris - in situ
+									179 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									180 button Featured image pin
+									181 button open image action menu
+								182 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									183 image Patina Panel - Rust and Verdigris - in situ
+									184 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									185 button Featured image pin
+									186 button open image action menu
+								187 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									188 image Patina Panel - Rust and Verdigris - in situ
+									189 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									190 button Featured image pin
+									191 button open image action menu
+								192 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									193 image Patina Panel - Rust and Verdigris - in situ
+									194 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									195 button Featured image pin
+									196 button open image action menu
+								197 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									198 image Patina Panel - Rust and Verdigris - in situ
+									199 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									200 button Featured image pin
+									201 button open image action menu
+								202 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									203 image Patina Panel - Rust and Verdigris - in situ
+									204 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									205 button Featured image pin
+									206 button open image action menu
+								207 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									208 image Patina Panel - Rust and Verdigris - in situ
+									209 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									210 button Featured image pin
+									211 button open image action menu
+								212 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									213 image Patina Panel - Rust and Verdigris - in situ
+									214 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									215 button Featured image pin
+									216 button open image action menu
+								217 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									218 image Patina Panel - Rust and Verdigris - in situ
+									219 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									220 button Featured image pin
+									221 button open image action menu
+								222 sortable Patina Panel - Rust and Verdigris - in situ 50% from left, 50% from top Featured image pin open image action menu
+									223 image Patina Panel - Rust and Verdigris - in situ
+									224 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									225 button Featured image pin
+									226 button open image action menu
+								227 sortable An angled view of a Patina Panel lying on a rough surface, showing turquoise-green and rusty brown finish patterns. 50% from left, 50% from top Featured image pin open image action menu
+									228 image An angled view of a Patina Panel lying on a rough surface, showing turquoise-green and rusty brown finish patterns.
+									229 slider Image focal point, Value: 50, Details: 50% from left, 50% from top, Secondary Actions: Increment, Decrement
+									230 button Featured image pin
+									231 button open image action menu
+								232 button
+								233 text Picked up image boldstone-1708da07eca1d33d.jpg in position 26 of 26
+								234 container
+									235 button Change featured image
+									236 text Featured image
+									237 button open image action menu
+								238 heading Inventory, Value: 2
+									239 text Inventory
+								240 content list
+									241 container
+										242 text Price
+										243 text On sale
+										244 Tick box On sale, Value: 0
+										245 text £
+										246 stepper (settable, float) Price, Value: 55.52, Placeholder: 0.00
+										247 button increment
+										248 button decrement
+								249 container
+									250 text Stock
+									251 text Unlimited
+									252 Tick box Unlimited, Value: 1
+									253 text ∞
+									254 stepper (disabled) Stock, Value: 0, Secondary Actions: Increment, Decrement
+									255 button (disabled) increment
+									256 button (disabled) decrement
+								257 container
+									258 text SKU
+									259 container More info
+										260 image
+									261 text field (settable) SKU, Value: EBAY-188590547084, Placeholder: Add SKU
+								262 container
+									263 text GTIN
+									264 container More info
+										265 image
+									266 text field (settable) GTIN, Placeholder: Add GTIN, UPC, EAN, JAN, ISBN
+								267 container
+									268 text MPN
+									269 container More info
+										270 image
+									271 text field (settable) MPN, Placeholder: Add MPN
+								272 container
+									273 text Variants Sell different versions of the same product. For example, a shirt that comes in multiple colors or sizes.
+									274 button ADD
+								275 text Quantity limits New
+								276 container
+									277 Tick box enable or disable the showing of the Number input for Quantity limits, Value: 0
+								278 text Set the maximum quantity a customer can buy in a single order.
+								279 heading Payment options, Value: 2
+									280 text Payment options
+								281 container Subscriptions
+									282 text Subscriptions
+									283 text Charge customers on a recurring basis and offer discounts on repeat purchases. Subscriptions aren't available for products with add-ons.
+									284 button ADD
+								285 heading Fulfillment, Value: 2
+									286 text Fulfillment
+								287 container
+									288 text Fulfillment profiles Allow buyers to select how they'd like to receive this product. For example, Local Pickup or Ground Shipping.
+									289 combo box (settable) Fulfillment profiles, Value: Default
+										290 text Default
+										291 image
+									292 button SET UP
+								293 container
+									294 text Weight and dimensions Enabled Supports automated or weight-based shipping rates. 0 × 0 × 0 in · 8.82 lb
+									295 button Edit weight and dimensions
+									296 button Delete weight and dimensions
+								297 heading Organization, Value: 2
+									298 text Organization
+								299 container
+									300 text Visibility
+									301 combo box (settable) Visibility, Value: Public
+										302 text Public
+										303 image
+								304 container
+									305 text Tags Add keywords to connect related products. Tags can be used to create filters on your store page.
+									306 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/articles/231746347-Styling-store-pages#h_01JGPPMPYWYDKVHP17DKR1HA4F
+									307 combo box (settable) Tags, Placeholder: Add
+									308 text Wall Sculptures
+									309 button Remove Wall Sculptures
+									310 text Rust and Verdigris Panel
+									311 button Remove Rust and Verdigris Panel
+									312 text Catalogue 2026
+									313 button Remove Catalogue 2026
+									314 text BSI-83F1AACE15E9
+									315 button Remove BSI-83F1AACE15E9
+								316 container Categories
+									317 text Categories
+									318 text Create categories to bucket products. Categories will appear in the store's navigation.
+									319 container
+										320 text Sculpture
+										321 button Edit categories
+										322 button Remove all categories
+								323 heading Taxes, Value: 2
+									324 text Taxes
+								325 container Product Specific Tax Code
+									326 text Product Specific Tax Code
+									327 container
+										328 text Product specific tax codes are used to calculate correct tax rates during checkout. 
+										329 link Learn more, Value: caper-spinach-spcy.squarespace.com/api/auth/sso/help?path=/hc/sections/200825098
+									330 container
+										331 container stripe-connect-ui-layer-stripe-connect-product-tax-code-selector
+								332 heading Selling Tools, Value: 2
+									333 text Selling Tools
+								334 container
+									335 text Add-ons Upsell customers with product add-ons directly on the product page. Products with subscriptions or more than one variant option are not available as add-ons. 
+									336 link Learn more, Value: support.squarespace.com/hc/articles/21149527560205
+									337 button ADD
+								338 container
+									339 text Featured Product Featured Products can be displayed in Summary Blocks on your page.
+									340 Tick box Featured Product, Value: 0
+								341 container
+									342 text Related Products Showcase similar items on your Product Pages.
+									343 button Set up Related Products
+								344 container
+									345 text Product Reviews Show customer reviews directly on all product pages. Manage this feature in 
+									346 button Selling
+									347 text .
+									348 button Set up product reviews
+								349 heading Marketing, Value: 2
+									350 text Marketing
+								351 text SEO and URL
+								352 text Patina Panel - Rust and Verdigris Finish — boldstone https://boldstonesculpture.com/buy/p/rust-and-verdigris-panel This description will automatically be generated by search engines. You can add your own description by editing.
+								353 button EDIT
+			354 pop-up button Tab search
+			355 container
+				356 tab group
+					357 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					358 tab group  group ✅Claude – 1 Tab, •  Review rejections | Microsoft Advertising – Expanded
+					359 tab (settable, boolean) Review rejections | Microsoft Advertising – Part of group ✅Claude, Value: off
+					360 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					361 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					362 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					363 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					364 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					365 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					366 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					367 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					368 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					369 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					370 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					371 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					372 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					373 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					374 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					375 tab (settable, boolean) Meta Business Suite, Value: off
+					376 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					377 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					378 tab group  group ✅Claude – 1 Tab, •  Variants - Manufacturer Center – Expanded
+					379 tab (settable, boolean) Variants - Manufacturer Center – Part of group ✅Claude, Value: off
+					380 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					381 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					382 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					383 tab (selected, settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.6 GB, Value: on
+					384 tab (settable, boolean) Boldstone · Review room, Value: off
+					385 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					386 tab (settable, boolean) google-wall-sculptures-supplement.tsv details - Merchant Center, Value: off
+			387 button New tab
+	388 close button
+	389 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	390 minimise button
+391 menu bar
+	392 Chrome
+	393 File
+	394 Edit
+	395 View
+	396 History
+	397 Bookmarks
+	398 Profiles
+	399 Tab
+	400 Window
+	401 Help
+
+The focused UI element is 29 button CANCEL

@@ -1,0 +1,114 @@
+Window: "Create store | Microsoft Advertising", App: Google Chrome.
+0 standard window Create store | Microsoft Advertising - Google Chrome – Tom, Secondary Actions: Raise, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/create-store?uid=193182372&cid=255124527&aid=187335961
+	1 container Create store | Microsoft Advertising - Google Chrome – Tom, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/create-store?uid=193182372&cid=255124527&aid=187335961
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/create-store?uid=193182372&cid=255124527&aid=187335961
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Create store | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/create-store?uid=193182372&cid=255124527&aid=187335961
+						26 container
+							27 container Skip to main content
+								28 link Skip to main content, Value: ui.ads.microsoft.com/campaign/vnext/createcampaign/objective?aid=187335961&cid=255124527&uid=193182372#main
+							29 container global menu
+								30 button Microsoft Advertising
+								31 button Switch user accounts. Current selection: Boldstone (G1459Y2Q)
+								32 container
+									33 combo box (settable) Search Microsoft Advertising
+									34 button clear
+								35 button Copilot
+								36 button Notifications
+								37 button   Notifications
+								38 pop-up button Help
+								39 button New features
+								40 button Open account panel
+							41 container Banner message
+								42 text You need a primary payment method before your ads will run.
+								43 link Add a payment method now, Value: ads.microsoft.com/cc/PaymentMethods?aid=187335961&cid=255124527&uid=193182372&showTaxForm=False
+							44 container Summary bar
+								45 link Back to Campaigns, Value: ui.ads.microsoft.com/campaign/vnext/?uid=193182372&cid=255124527&aid=187335961
+								46 text Create store
+							47 container
+								48 container
+									49 content list
+										50 container Previous step
+											51 text 
+											52 text Choose how to create
+										53 container Previous step
+											54 text 
+											55 text Store info
+										56 container Current step
+											57 text 
+											58 text Contact details
+									59 text Contact details
+									60 text Language
+									61 pop-up button Language, Value: English - United Kingdom
+										62 (selected) English - United Kingdom
+									63 container Email
+										64 text Email
+									65 text field (settable) Email, Value: info@boldstone.co.uk
+									66 Tick box Send me information about new features, best practices, and more., Value: 0
+									67 button Back
+									68 button Create store
+									69 button Cancel
+								70 text © 2026 Microsoft
+								71 content list
+									72 link Legal, Value: ads.microsoft.com/tc.aspx
+									73 link Privacy & Cookies, Value: go.microsoft.com/fwlink/?LinkId=248681
+									74 link Advertise, Value: go.microsoft.com/fwlink/?LinkId=258668
+									75 link Developers, Value: go.microsoft.com/fwlink/?linkid=2333449
+									76 link Support, Value: go.microsoft.com/fwlink/?LinkId=258669
+									77 link Blog, Value: go.microsoft.com/fwlink/?LinkId=395064
+									78 link Community, Value: go.microsoft.com/fwlink/?linkid=2325500&clcid=0x409
+									79 link Consumer Health Privacy, Value: go.microsoft.com/fwlink/?linkid=2259814
+									80 button Help
+			81 pop-up button Tab search
+			82 container
+				83 tab group
+					84 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+						85 button Close
+					86 tab (selected, settable, boolean) Create store | Microsoft Advertising, Value: on
+						87 button Close
+			88 button New tab
+	89 close button
+	90 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	91 minimise button
+92 menu bar
+	93 Chrome
+	94 File
+	95 Edit
+	96 View
+	97 History
+	98 Bookmarks
+	99 Profiles
+	100 Tab
+	101 Window
+	102 Help
+
+The focused UI element is 65 text field (settable) Email, Value: info@boldstone.co.uk

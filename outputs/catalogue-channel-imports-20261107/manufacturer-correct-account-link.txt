@@ -1,0 +1,145 @@
+Window: "Account linking - Manufacturer Center", App: Google Chrome.
+0 standard window Account linking - Manufacturer Center - Google Chrome – Tom, URL: manufacturers.google.com/mc/merchants?a=5898308482, Secondary Actions: Raise
+	1 container Account linking - Manufacturer Center - Google Chrome – Tom, URL: manufacturers.google.com/mc/merchants?a=5898308482
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manufacturers.google.com/mc/merchants?a=5898308482, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox New download available
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Account linking - Manufacturer Center, URL: manufacturers.google.com/mc/merchants?a=5898308482
+						27 container
+							28 container
+								29 button Back
+								30 link Manufacturer Center home, Value: manufacturers.google.com/mc/overview?a=5898308482
+								31 heading Account linking, in Manufacturer Center, Value: 1
+									32 text Account linking
+								33 pop-up button Tools and settings
+								34 pop-up button Help menu
+								35 text 5898308482 (Boldstone)
+								36 text info@boldstone.co.uk
+								37 container
+									38 pop-up button Google account
+										39 image Google account (info@boldstone.co.uk)
+							40 container
+								41 tab group
+									42 tab (selected) Merchant Center, Value: 1
+									43 tab (settable, integer) Data partners, Value: 0
+								44 container
+									45 text Merchant Center Link to a Merchant Center account to enable product data synchronization.
+									46 link Learn more, Opens in a new tab, Value: support.google.com/manufacturers/answer/10562928?hl=en-US
+									47 button Link account
+									48 table Requests to link Merchant Center accounts
+										49 row Merchant Center ID Business name and website Link status Actions
+											50 column header
+												51 text Merchant Center ID
+											52 column header
+												53 text Business name and website
+											54 column header
+												55 text Link status
+											56 column header
+												57 text Actions
+										58 row 5664655454 Boldstone Sculpture https://boldstonesculpture.com Active Unlink
+											59 cell
+												60 text 5664655454
+											61 cell
+												62 text Boldstone Sculpture
+												63 text https://boldstonesculpture.com
+											64 cell
+												65 text Active
+											66 cell
+												67 button Unlink
+									68 container
+										69 text Show rows:
+										70 pop-up button Show rows per page: 10 selected.
+										71 button (disabled) Go to the previous page
+										72 button (disabled) Go to the next page
+									73 container
+										74 link Privacy Policy, Value: google.com/policies/privacy/
+										75 text •
+										76 link Terms of Service, Value: manufacturers.google.com/manufacturers/tos.html
+										77 text •
+										78 link Program Policies, Opens in a new tab, Value: support.google.com/manufacturers/answer/6371582?hl=en-US
+			79 pop-up button Tab search
+			80 container
+				81 tab group
+					82 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					83 tab group  group ✅Claude – 1 Tab, •  Import steps | Microsoft Advertising – Expanded
+					84 tab (settable, boolean) Import steps | Microsoft Advertising – Part of group ✅Claude, Value: off
+					85 tab (selected, settable, boolean) Account linking - Manufacturer Center, Value: on
+						86 button Close
+					87 tab (settable, boolean) Brandboom | Home, Value: off
+					88 tab (settable, boolean) Portela Nova | A slower kind of stay, Value: off
+					89 tab (settable, boolean) Pinterest, Value: off
+					90 tab (settable, boolean) Get started with retail catalogs | Pinterest Business help, Value: off
+					91 tab (settable, boolean) [TEMPLATE - COPY] Pinterest Catalog Data source Google Sheet Template - Google Sheets, Value: off
+					92 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					93 tab (settable, boolean) All products - Merchant Center, Value: off
+			94 button New tab
+		95 container Recent download history
+			96 container
+				97 scroll area
+					98 container
+						99 button products_2026-11-07_21-11-52.zip 190 KB • Done
+						100 text products_2026-11-07_21-11-52.zip
+						101 text 190 KB • Done
+						102 button [TEMPLATE  - COPY] Pinterest Catalog Data source Google Sheet Template.xlsx 24.7 KB • 18 minutes ago
+						103 text [TEMPLATE  - COPY] Pinterest Catalog Data source Google Sheet Template.xlsx
+						104 text 24.7 KB • 18 minutes ago
+						105 button providerproductoffer-2086fa6e-ef33-a56d-9d69-af04a600b560.csv 322 KB • 3 hours ago
+						106 text providerproductoffer-2086fa6e-ef33-a56d-9d69-af04a600b560.csv
+						107 text 322 KB • 3 hours ago
+						108 button Boldstone_All_Selling_and_Directory_Lists_2026-11-06.txt 47.7 KB • 8 hours ago
+						109 text Boldstone_All_Selling_and_Directory_Lists_2026-11-06.txt
+						110 text 47.7 KB • 8 hours ago
+						111 button Boldstone_and_Sally_Price_Directories_2026-11-06.txt 21.8 KB • 8 hours ago
+						112 text Boldstone_and_Sally_Price_Directories_2026-11-06.txt
+						113 text 21.8 KB • 8 hours ago
+						114 button Boldstone_Complete_Selling_Sites_2026-11-06.txt 30.5 KB • 8 hours ago
+						115 text Boldstone_Complete_Selling_Sites_2026-11-06.txt
+						116 text 30.5 KB • 8 hours ago
+						117 button faire-products (1).xlsx 262 KB • 18 hours ago
+						118 text faire-products (1).xlsx
+						119 text 262 KB • 18 hours ago
+	120 close button
+	121 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	122 minimise button
+123 menu bar
+	124 Chrome
+	125 File
+	126 Edit
+	127 View
+	128 History
+	129 Bookmarks
+	130 Profiles
+	131 Tab
+	132 Window
+	133 Help
+
+The focused UI element is 26 HTML content Account linking - Manufacturer Center, URL: manufacturers.google.com/mc/merchants?a=5898308482

@@ -1,0 +1,383 @@
+- banner:
+  - button [disabled]:
+  - link "Facebook":
+    - /url: /
+  - button:
+  - combobox "Search Facebook"
+  - navigation "Facebook":
+    - list:
+      - link "Home":
+        - /url: /
+      - link "Reels":
+        - /url: /reel/?s=tab
+      - link "Friends":
+        - /url: /friends/
+      - link "Groups":
+        - /url: /groups/
+      - link "Gaming":
+        - /url: /gaming/play/?store_visit_source=gaming_tab
+  - navigation "Account controls and settings":
+    - button "Facebook menu":
+    - button "Messenger":
+    - button "Notifications, 28 unread":
+    - button:
+      - generic: Number of unread notifications
+      - generic: 20+
+    - button "Account, your profile":
+      - img "Your profile"
+- navigation "Marketplace sidebar":
+  - heading "Marketplace" [level=1]
+  - button "Edit Marketplace settings":
+  - link "Create new listing":
+    - /url: /marketplace/create/?__tn__=!%3AA
+    - generic: Create new listing
+  - list:
+    - link "Seller dashboard":
+      - /url: /marketplace/you/dashboard/
+      - generic: Seller dashboard
+    - link "Your listings":
+      - /url: /marketplace/you/selling/
+      - generic: Your listings
+    - link "Announcements":
+      - /url: /marketplace/you/seller_announcement_center/
+      - generic: Announcements
+    - link "Insights":
+      - /url: /marketplace/you/insights/
+      - generic: Insights
+    - link "Marketplace profile":
+      - /url: /marketplace/profile/100064311860325/?product_id=
+      - generic: Marketplace profile
+    - link "Browse Marketplace":
+      - /url: /marketplace/
+      - generic: Browse Marketplace
+  - button "Manage Listings":
+    - generic: Manage Listings
+  - heading "Filters" [level=2]:
+    - generic: Filters
+  - button "Clear filters":
+    - generic: Clear
+  - button "Sort by":
+    - generic: Sort by
+  - button "Status":
+    - generic: Status
+- main "Collection of your Marketplace items":
+  - heading "Keep your listings up to date" [level=2]:
+    - generic: Keep your listings up to date
+  - generic: Marking items as sold reduces unwanted messages and ensures transparency for potential buyers.
+  - button "Dismiss Keep your listings up to date card"
+  - link "Learn more":
+    - /url: https://www.facebook.com/help/1156544111079919?helpref=about_content
+    - generic: Learn more
+  - heading "Your listings" [level=1]
+  - textbox "Search your listings"
+  - button "List view" [pressed]:
+  - button "Grid view":
+  - button "Dune Ripple I - Blue Verdigris and Bronze | Wall Sculpture"
+  - button "Dune Ripple I - Blue Verdigris and Bronze | Wall Sculpture, £39, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing" [active]:
+    - generic: This listing is being reviewed.
+    - generic: Dune Ripple I - Blue Verdigris and Bronze | Wall Sculpture
+    - generic: £39
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Dune Ripple I - Blue Verdigris and Bronze | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Dune Ripple I - Blue Verdigris and Bronze | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=39637721805874014
+    - generic: Promote now
+  - button "Share Dune Ripple I - Blue Verdigris and Bronze | Wall Sculpture":
+    - generic: Share
+  - button "More options for Dune Ripple I - Blue Verdigris and Bronze | Wall Sculpture"
+  - button "Deco Wave I - Verdigris | Wall Sculpture"
+  - button "Deco Wave I - Verdigris | Wall Sculpture, £79, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: This listing is being reviewed.
+    - generic: Deco Wave I - Verdigris | Wall Sculpture
+    - generic: £79
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Deco Wave I - Verdigris | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Deco Wave I - Verdigris | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=29070505975967452
+    - generic: Promote now
+  - button "Share Deco Wave I - Verdigris | Wall Sculpture":
+    - generic: Share
+  - button "More options for Deco Wave I - Verdigris | Wall Sculpture"
+  - button "Deco Wave I - Terracotta | Wall Sculpture"
+  - button "Deco Wave I - Terracotta | Wall Sculpture, £71, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: This listing is being reviewed.
+    - generic: Deco Wave I - Terracotta | Wall Sculpture
+    - generic: £71
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Deco Wave I - Terracotta | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Deco Wave I - Terracotta | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28777400051883258
+    - generic: Promote now
+  - button "Share Deco Wave I - Terracotta | Wall Sculpture":
+    - generic: Share
+  - button "More options for Deco Wave I - Terracotta | Wall Sculpture"
+  - button "Deco Dune Wave - White | Wall Sculpture"
+  - button "Deco Dune Wave - White | Wall Sculpture, £69, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: This listing is being reviewed.
+    - generic: Deco Dune Wave - White | Wall Sculpture
+    - generic: £69
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Deco Dune Wave - White | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Deco Dune Wave - White | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28818958961095408
+    - generic: Promote now
+  - button "Share Deco Dune Wave - White | Wall Sculpture":
+    - generic: Share
+  - button "More options for Deco Dune Wave - White | Wall Sculpture"
+  - button "Deco Dune Wave - Verdigris | Wall Sculpture"
+  - button "Deco Dune Wave - Verdigris | Wall Sculpture, £101, In stock":
+    - generic: Deco Dune Wave - Verdigris | Wall Sculpture
+    - generic: £101
+    - generic: In stock
+  - link "Continue":
+    - /url: /marketplace/edit/?listing_id=1649682580160808
+    - generic: Continue
+  - button "Delete draft Deco Dune Wave - Verdigris | Wall Sculpture":
+    - generic: Delete draft
+  - button "More options for Deco Dune Wave - Verdigris | Wall Sculpture"
+  - button "Deco Dune Spiral - Verdigris | Wall Sculpture"
+  - button "Deco Dune Spiral - Verdigris | Wall Sculpture, £101, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: Deco Dune Spiral - Verdigris | Wall Sculpture
+    - generic: £101
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Deco Dune Spiral - Verdigris | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Deco Dune Spiral - Verdigris | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=30121400364130088
+    - generic: Promote now
+  - button "Share Deco Dune Spiral - Verdigris | Wall Sculpture":
+    - generic: Share
+  - button "More options for Deco Dune Spiral - Verdigris | Wall Sculpture"
+  - button "Deco Dune Spiral - White | Wall Sculpture"
+  - button "Deco Dune Spiral - White | Wall Sculpture, £69, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: Deco Dune Spiral - White | Wall Sculpture
+    - generic: £69
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Deco Dune Spiral - White | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Deco Dune Spiral - White | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=29161928703492695
+    - generic: Promote now
+  - button "Share Deco Dune Spiral - White | Wall Sculpture":
+    - generic: Share
+  - button "More options for Deco Dune Spiral - White | Wall Sculpture"
+  - button "Cup Ring and Spiral Paver II - Brown | Wall Sculpture"
+  - button "Cup Ring and Spiral Paver II - Brown | Wall Sculpture, £39, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: Cup Ring and Spiral Paver II - Brown | Wall Sculpture
+    - generic: £39
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Cup Ring and Spiral Paver II - Brown | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Cup Ring and Spiral Paver II - Brown | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=30002252829376987
+    - generic: Promote now
+  - button "Share Cup Ring and Spiral Paver II - Brown | Wall Sculpture":
+    - generic: Share
+  - button "More options for Cup Ring and Spiral Paver II - Brown | Wall Sculpture"
+  - button "Cup Ring and Spiral Paver I - Brown | Wall Sculpture"
+  - button "Cup Ring and Spiral Paver I - Brown | Wall Sculpture, £39, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: Cup Ring and Spiral Paver I - Brown | Wall Sculpture
+    - generic: £39
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Cup Ring and Spiral Paver I - Brown | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Cup Ring and Spiral Paver I - Brown | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28924464597181972
+    - generic: Promote now
+  - button "Share Cup Ring and Spiral Paver I - Brown | Wall Sculpture":
+    - generic: Share
+  - button "More options for Cup Ring and Spiral Paver I - Brown | Wall Sculpture"
+  - button "Ancient Cup Ring - White | Wall Sculpture"
+  - button "Ancient Cup Ring - White | Wall Sculpture, £34, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: Ancient Cup Ring - White | Wall Sculpture
+    - generic: £34
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Ancient Cup Ring - White | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Ancient Cup Ring - White | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=29402281626127931
+    - generic: Promote now
+  - button "Share Ancient Cup Ring - White | Wall Sculpture":
+    - generic: Share
+  - button "More options for Ancient Cup Ring - White | Wall Sculpture"
+  - button "Cultivation Folds Relief - White | Wall Sculpture"
+  - button "Cultivation Folds Relief - White | Wall Sculpture, £92, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: Cultivation Folds Relief - White | Wall Sculpture
+    - generic: £92
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Cultivation Folds Relief - White | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Cultivation Folds Relief - White | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28363413466670785
+    - generic: Promote now
+  - button "Share Cultivation Folds Relief - White | Wall Sculpture":
+    - generic: Share
+  - button "More options for Cultivation Folds Relief - White | Wall Sculpture"
+  - button "Coral Spiral Relief - White | Wall Sculpture"
+  - button "Coral Spiral Relief - White | Wall Sculpture, £84, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: Coral Spiral Relief - White | Wall Sculpture
+    - generic: £84
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Coral Spiral Relief - White | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Coral Spiral Relief - White | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=29920405210894877
+    - generic: Promote now
+  - button "Share Coral Spiral Relief - White | Wall Sculpture":
+    - generic: Share
+  - button "More options for Coral Spiral Relief - White | Wall Sculpture"
+  - button "Chiswick Moon Fountain | Wall Sculpture"
+  - button "Chiswick Moon Fountain | Wall Sculpture, £209, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: Chiswick Moon Fountain | Wall Sculpture
+    - generic: £209
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Chiswick Moon Fountain | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Chiswick Moon Fountain | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28948630444792190
+    - generic: Promote now
+  - button "Share Chiswick Moon Fountain | Wall Sculpture":
+    - generic: Share
+  - button "More options for Chiswick Moon Fountain | Wall Sculpture"
+  - button "Chiswick Moon Relief | Wall Sculpture"
+  - button "Chiswick Moon Relief | Wall Sculpture, £209, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: Chiswick Moon Relief | Wall Sculpture
+    - generic: £209
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Chiswick Moon Relief | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Chiswick Moon Relief | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28964141363228105
+    - generic: Promote now
+  - button "Share Chiswick Moon Relief | Wall Sculpture":
+    - generic: Share
+  - button "More options for Chiswick Moon Relief | Wall Sculpture"
+  - button "Chelsea Moonwave Relief | Wall Sculpture"
+  - button "Chelsea Moonwave Relief | Wall Sculpture, £735, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: Chelsea Moonwave Relief | Wall Sculpture
+    - generic: £735
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Chelsea Moonwave Relief | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Chelsea Moonwave Relief | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=LISTINGS_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28858528980455158
+    - generic: Promote now
+  - button "Share Chelsea Moonwave Relief | Wall Sculpture":
+    - generic: Share
+  - button "More options for Chelsea Moonwave Relief | Wall Sculpture"
+  - status "Loading..."
+  - generic: Marketplace profile
+  - generic: Boldstone Sculpture
+  - generic: 20+ active listings
+  - link "Create new listing":
+    - /url: /marketplace/create/?__tn__=!%3AC
+    - generic: Create new listing
+  - link "See Marketplace profile":
+    - /url: /marketplace/profile/100064311860325/?product_id=
+    - generic: See Marketplace profile
+  - generic: Need help?
+  - list "Seller support options":
+    - link "See All Help Topics":
+      - /url: https://www.facebook.com/help/1713241952104830/
+      - generic: See All Help Topics
+  - generic: Promote your listings to reach more buyers
+  - generic: Promoting your listings turns them into ads that may appear in Feed, on Marketplace and more places.
+  - generic: "This is a preview of how your ad may appear:"
+  - article:
+    - status "Loading..."
+  - link "Promote listings for Dune Ripple I - Blue Verdigris and Bronze | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /marketplace/boost/?entrypoint=LISTINGS_BULK_PROMOTE_PREVIEW
+    - generic: Promote listings
+  - link "Learn more about boosting Marketplace listings":
+    - /url: https://www.facebook.com/business/help/800378530343391
+    - generic: Learn more
+- button "New message":
+- list

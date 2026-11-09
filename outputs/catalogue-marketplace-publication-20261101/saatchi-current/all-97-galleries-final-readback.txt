@@ -1,0 +1,111 @@
+Browser tab: 961982993, Title: "Studio | Saatchi Art United Kingdom", URL: "https://www.saatchiart.com/en-gb/studio/art/14379997/overview".
+0 AXWebArea Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/art/14379997/overview
+	1 container
+		2 container
+			3 text Fax
+			4 text field (settable) Fax, ID: fax
+		5 link Description: fax, Value: saatchiart.com/facsimile-npc
+		6 link Description: Skip to Main Content, Value: saatchiart.com/en-gb/studio/art/14379997/overview#skip-to-content
+		7 container
+			8 button (expanded) Description: Close Menu, Secondary Actions: Collapse
+				9 image
+			10 link Description: Saatchi Art logo, Value: saatchiart.com/en-gb
+			11 text Studio
+			12 link Description: SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+			13 container
+				14 button (collapsed) Manage Artworks, Secondary Actions: Expand
+					15 text Manage Artworks
+					16 image
+				17 content list
+					18 link Description: My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+					19 link Description: Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+				20 button (collapsed) Sales Dashboard, Secondary Actions: Expand
+					21 text Sales Dashboard
+					22 image
+				23 link Description: Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+				24 button (collapsed) Sponsored Listings, Secondary Actions: Expand
+					25 text Sponsored Listings
+					26 image
+				27 button (collapsed) Profile Information, Secondary Actions: Expand
+					28 text Profile Information
+					29 image
+				30 link Description: Addresses, Value: saatchiart.com/en-gb/studio/address
+				31 button (collapsed) Account, Secondary Actions: Expand
+					32 text Account
+					33 image
+		34 container
+			35 button Back to Artworks
+				36 image
+				37 text Back to Artworks
+			38 image
+			39 text Azure Marble-Effect Relief - Blue and White Visibility:  Draft
+			40 button Publish
+			41 text Draft can not be published. Your Draft must be completed to publish.
+			42 button DELETE ARTWORK
+			43 heading Images, Value: 2
+				44 text Images
+			45 button Edit
+				46 image
+				47 text Edit
+			48 image
+			49 image
+			50 image
+			51 image
+			52 image
+			53 image
+			54 heading Description, Value: 2
+				55 text Description
+			56 button Edit
+				57 image
+				58 text Edit
+			59 text Subject, Category, Year Subject - Category - Year -
+			60 text Mediums, Materials & Styles Mediums - Materials - Styles -
+			61 text Dimensions -
+			62 text Keywords -
+			63 text Description - Make the Artwork Available for Sale
+			64 button Make Available for Sale
+			65 text Make Prints Available for Sale
+			66 button Add Prints for Sale
+		67 container
+			68 link Description: Saatchi Art logo footer, Value: saatchiart.com/en-gb
+			69 link Description: Saatchi Art - Instagram, Value: instagram.com/saatchiart
+			70 link Description: Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+			71 link Description: Saatchi Art - Facebook, Value: facebook.com/saatchionline
+			72 link Description: Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+			73 link Description: Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+			74 text Support
+			75 link Description: Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+			76 link Description: Help Center, Value: support.saatchiart.com/hc
+			77 link Description: Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+			78 link Description: Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+			79 pop up button Request Support
+			80 text Resources
+			81 link Description: Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+			82 link Description: Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+			83 link Description: How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+			84 link Description: Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+			85 text Saatchi Art
+			86 link Description: About, Value: saatchiart.com/en-gb/about-us
+			87 link Description: Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+			88 link Description: Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+			89 link Description: Terms of Service, Value: saatchiart.com/en-gb/terms
+			90 link Description: Privacy Notice, Value: saatchiart.com/en-gb/privacy
+			91 link Description: Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+			92 link Description: Copyright Policy, Value: saatchiart.com/en-gb/copyright
+			93 link Description: California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+			94 text Manage Preferences
+			95 link Description: Accessibility, Value: saatchiart.com/en-gb/accessibility
+			96 container View Store Preferences Footer
+				97 image
+				98 text United Kingdom / GBP / In
+				99 image
+			100 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+			101 link Description: Privacy Policy, Value: policies.google.com/privacy
+			102 text  and 
+			103 link Description: Terms of Service, Value: policies.google.com/terms
+			104 text  apply.
+		105 container ot-sdk-btn-floating
+			106 button Manage Preferences
+			107 text Manage Preferences
+
+The focused UI element is 0 AXWebArea Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/art/14379997/overview

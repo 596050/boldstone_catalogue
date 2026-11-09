@@ -1,0 +1,90 @@
+Window: "Boldstone Sculpture | Products", App: Google Chrome.
+0 standard window Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089, Secondary Actions: Raise
+	1 container Boldstone Sculpture | Products - Google Chrome – Tom, URL: manage.brandboom.com/products/s/111089
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: manage.brandboom.com/products/s/111089, Placeholder: Ask Google or type a URL
+					10 button Install Brandboom
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089
+						27 container
+							28 link
+								29 image
+							30 heading New Presentation, Value: 4
+								31 text New Presentation
+							32 container
+								33 text PRESENTATION TITLE
+								34 container
+									35 text field (settable) Value: Boldstone Wall Sculptures, Placeholder: Presentation Name
+									36 image
+								37 text PARENT FOLDER (OPTIONAL)
+								38 button [No Folder]
+							39 button (disabled) Save
+			40 pop-up button Tab search
+			41 container
+				42 tab group
+					43 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 827 MB, Value: off
+					44 tab group  group ✅Claude – 1 Tab, •  Artworks | Artfinder – Expanded
+					45 tab (settable, boolean) Artworks | Artfinder – Part of group ✅Claude, Value: off
+					46 tab (settable, boolean) List Your Brand | House of Estila, Value: off
+					47 tab (settable, boolean) Contact us - Glassette, Value: off
+					48 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					49 tab (settable, boolean) Sell on Artsper, Value: off
+					50 tab (settable, boolean) Explore JOOR for home brands, Value: off
+					51 tab (settable, boolean) Become a Supplier | House of Estila, Value: off
+					52 tab (settable, boolean) Sell on Furnitures | Furnitures, Value: off
+					53 tab (settable, boolean) Vendeurs_new_form EN, Value: off
+					54 tab (settable, boolean) See how wholesale gets simpler, Value: off
+					55 tab (settable, boolean) worldwidebrands.com/freelisting/supplier_submit_page2.asp, Value: off
+					56 tab (settable, boolean) Apply to sell with us - High memory usage - 930 MB, Value: off
+					57 tab group  group ✅Claude – 1 Tab, •  Inbox (97) - info@boldstone.co.uk - Thomas Pri… – Expanded
+					58 tab (settable, boolean) Value: off, Inbox (97) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 1,022 MB
+					59 tab (settable, boolean) Value: off, Russell Brand trial live: Police release video of actor being interviewed after he is found guilty of one rape and three sexual assaults | Daily Mail Online
+					60 tab (settable, boolean) Inbox (97) - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 964 MB, Value: off
+					61 tab (settable, boolean) Overview of Marketplaces | Brandboom Help Center, Value: off
+					62 tab (selected, settable, boolean) Boldstone Sculpture | Products, Value: on
+						63 button Close
+			64 button New tab
+	65 close button
+	66 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	67 minimise button
+68 menu bar
+	69 Chrome
+	70 File
+	71 Edit
+	72 View
+	73 History
+	74 Bookmarks
+	75 Profiles
+	76 Tab
+	77 Window
+	78 Help
+
+The focused UI element is 26 HTML content Boldstone Sculpture | Products, URL: manage.brandboom.com/products/s/111089

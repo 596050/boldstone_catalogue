@@ -1,0 +1,520 @@
+Window: "Products | Microsoft Advertising", App: Google Chrome.
+0 standard window Products | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, Secondary Actions: Raise, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/products?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372
+	1 container Products | Microsoft Advertising – Part of group ✅Claude - Google Chrome – Tom, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/products?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/products?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Products | Microsoft Advertising, URL: ui.ads.microsoft.com/campaign/vnext/merchantcenter/products?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372
+						27 container
+							28 container Skip to main content
+								29 link Skip to main content, Value: ui.ads.microsoft.com/campaign/vnext/merchantcenter/products?aid=187335961&cid=255124527&flagAreaIdCode=EV_156&issueCode=EVRejectedErr&storeId=50112622&uid=193182372#main
+							30 container global menu
+								31 button Microsoft Advertising
+								32 button Switch user accounts. Current selection: Boldstone (G1459Y2Q)
+								33 container
+									34 combo box (settable) Search Microsoft Advertising
+									35 button clear
+								36 button Copilot
+								37 button Notifications
+								38 button   Notifications
+								39 pop-up button Help
+								40 button New features
+								41 button Open account panel
+							42 container Banner message
+								43 text You need a primary payment method before your ads will run.
+								44 link Add a payment method now, Value: ads.microsoft.com/cc/PaymentMethods?aid=187335961&cid=255124527&uid=193182372&showTaxForm=False
+							45 tab group
+								46 tab (settable, integer) Campaigns, Value: 0
+								47 tab (settable, integer) Conversions, Value: 0
+								48 tab (settable, integer) Ads Studio, Value: 0
+								49 tab (settable, integer) Import, Value: 0
+								50 tab (settable, integer) Reporting, Value: 0
+								51 tab (selected) Merchant Center, Value: 1
+								52 tab (settable, integer) Billing, Value: 0
+								53 tab (settable, integer) Settings, Value: 0
+								54 tab (settable, integer) Tools, Value: 0
+							55 container breadcrumb
+								56 content list
+									57 button All stores
+									58 button (disabled) Boldstone Sculpture
+							59 container
+								60 button Overview
+								61 button Collapse menu
+								62 button Diagnostics
+								63 button Products
+								64 button Feeds
+								65 button Import
+								66 button Promotions
+								67 button Settings
+							68 container
+								69 heading Products, Value: 1
+									70 text Products
+								71 container
+									72 button Title
+									73 button Title: *Lunar Wave - White*
+									74 button Title: *Lunar Wave - White* Remove Title filter
+									75 pop-up button Add filter
+										76 text Add filter
+									77 pop-up button Settings
+								78 container
+									79 pop-up button Edit columns
+										80 text Edit columns
+									81 button Download
+								82 container
+									83 table Data
+										84 row Product ID, sortable Resize column (current width: 200px, double-click to reset to 200px) Description Reorder column Description Resize column (current width: 250px, double-click to reset to 250px) Product URL Reorder column Product URL Resize column (current width: 250px, double-click to reset to 250px) Reorder column Price Price, sortable Resize column (current width: 150px, double-click to reset to 150px) Free shipping Reorder column Free shipping Resize column (current width: 150px, double-click to rese
+											85 column header
+												86 container
+													87 pop-up button Product ID, sortable
+													88 button Resize column (current width: 200px, double-click to reset to 200px), Help: Resize column (double-click to reset)
+											89 column header
+												90 container
+													91 pop-up button Description
+													92 draggable Reorder column Description
+													93 button Resize column (current width: 250px, double-click to reset to 250px), Help: Resize column (double-click to reset)
+											94 column header
+												95 container
+													96 pop-up button Product URL
+													97 draggable Reorder column Product URL
+													98 button Resize column (current width: 250px, double-click to reset to 250px), Help: Resize column (double-click to reset)
+											99 column header
+												100 container
+													101 draggable Reorder column Price
+													102 pop-up button Price, sortable
+													103 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											104 column header
+												105 container
+													106 pop-up button Free shipping
+													107 draggable Reorder column Free shipping
+													108 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											109 column header
+												110 container
+													111 pop-up button Title, sortable
+													112 draggable Reorder column Title
+													113 button Resize column (current width: 220px, double-click to reset to 220px), Help: Resize column (double-click to reset)
+											114 column header
+												115 container
+													116 pop-up button Image
+													117 draggable Reorder column Image
+													118 button Resize column (current width: 100px, double-click to reset to 100px), Help: Resize column (double-click to reset)
+											119 column header
+												120 container
+													121 pop-up button Brand, sortable
+													122 draggable Reorder column Brand
+													123 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											124 column header
+												125 container
+													126 pop-up button Custom label 0, sortable
+													127 draggable Reorder column Custom label 0
+													128 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											129 column header
+												130 container
+													131 pop-up button Custom label 1, sortable
+													132 draggable Reorder column Custom label 1
+													133 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											134 column header
+												135 container
+													136 pop-up button Custom label 2, sortable
+													137 draggable Reorder column Custom label 2
+													138 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											139 column header
+												140 container
+													141 pop-up button Custom label 3, sortable
+													142 draggable Reorder column Custom label 3
+													143 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											144 column header
+												145 container
+													146 pop-up button Custom label 4, sortable
+													147 draggable Reorder column Custom label 4
+													148 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											149 column header
+												150 container
+													151 pop-up button Category (1st level), sortable
+													152 draggable Reorder column Category (1st level)
+													153 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											154 column header
+												155 container
+													156 pop-up button Category (2nd level), sortable
+													157 draggable Reorder column Category (2nd level)
+													158 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											159 column header
+												160 container
+													161 pop-up button Category (3rd level), sortable
+													162 draggable Reorder column Category (3rd level)
+													163 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											164 column header
+												165 container
+													166 pop-up button Category (4th level), sortable
+													167 draggable Reorder column Category (4th level)
+													168 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											169 column header
+												170 container
+													171 pop-up button Category (5th level), sortable
+													172 draggable Reorder column Category (5th level)
+													173 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											174 column header
+												175 container
+													176 pop-up button Condition, sortable
+													177 draggable Reorder column Condition
+													178 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											179 column header
+												180 container
+													181 pop-up button Product type (1st level), sortable
+													182 draggable Reorder column Product type (1st level)
+													183 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											184 column header
+												185 container
+													186 pop-up button Product type (2nd level), sortable
+													187 draggable Reorder column Product type (2nd level)
+													188 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											189 column header
+												190 container
+													191 pop-up button Product type (3rd level), sortable
+													192 draggable Reorder column Product type (3rd level)
+													193 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											194 column header
+												195 container
+													196 pop-up button Product type (4th level), sortable
+													197 draggable Reorder column Product type (4th level)
+													198 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											199 column header
+												200 container
+													201 pop-up button Product type (5th level), sortable
+													202 draggable Reorder column Product type (5th level)
+													203 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											204 column header
+												205 container
+													206 draggable Reorder column Impr.
+													207 pop-up button Impr., sortable
+													208 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											209 column header
+												210 container
+													211 draggable Reorder column Clicks
+													212 pop-up button Clicks, sortable
+													213 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											214 column header
+												215 container
+													216 draggable Reorder column Conv.
+													217 pop-up button Conv., sortable
+													218 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											219 column header
+												220 container
+													221 pop-up button Status, sortable
+													222 draggable Reorder column Status
+													223 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											224 column header
+												225 container
+													226 draggable Reorder column Avg. CPC
+													227 pop-up button Avg. CPC, sortable
+													228 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											229 column header
+												230 container
+													231 draggable Reorder column CPA
+													232 pop-up button CPA, sortable
+													233 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											234 column header
+												235 container
+													236 draggable Reorder column Revenue
+													237 pop-up button Revenue, sortable
+													238 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+											239 column header
+												240 container
+													241 draggable Reorder column Return on ad spend
+													242 pop-up button Return on ad spend, sortable
+													243 button Resize column (current width: 150px, double-click to reset to 150px), Help: Resize column (double-click to reset)
+										244 container
+											245 row 76dc58c2-9754-4b21-a7f8-c6c844dc643c A sweeping wave meets a lunar-inspired curve in this fluid relief. The design gives the wall a sense of movement while keeping the overall composition calm and balanced. It brings to mind moonlight crossing water, with each change of light revealing another part of the form. The white finish keeps the focus on the form and its changing shadows. Brand: Boldstone Product type: Wall sculpture Model: Lunar Wave - White (MW-1-74.35) Colour / appearance: White marble stone fin
+												246 cell
+													247 text 76dc58c2-9754-4b21-a7f8-c6c844dc643c
+												248 cell
+													249 text A sweeping wave meets a lunar-inspired curve in this fluid relief. The design gives the wall a sense of movement while keeping the overall composition calm and balanced. It brings to mind moonlight crossing water, with each change of light revealing another part of the form. The white finish keeps the focus on the form and its changing shadows. Brand: Boldstone Product type: Wall sculpture Model: Lunar Wave - White (MW-1-74.35) Colour / appearance: White marble stone finish Quantity supplied: 1 individually
+												250 cell
+													251 text https://boldstonesculpture.com/buy/p/moonwave-white
+												252 cell
+													253 text £94.74
+												254 cell
+													255 text -
+												256 cell
+													257 text Lunar Wave - White
+												258 cell
+													259 image Lunar Wave - White
+												260 cell
+													261 text boldstone
+												262 cell
+													263 text Wall Sculptures
+												264 cell
+													265 text Moonwave
+												266 cell
+													267 text -
+												268 cell
+													269 text -
+												270 cell
+													271 text -
+												272 cell
+													273 text -
+												274 cell
+													275 text -
+												276 cell
+													277 text -
+												278 cell
+													279 text -
+												280 cell
+													281 text -
+												282 cell
+													283 text New
+												284 cell
+													285 text -
+												286 cell
+													287 text -
+												288 cell
+													289 text -
+												290 cell
+													291 text -
+												292 cell
+													293 text -
+												294 cell
+													295 text 0
+												296 cell
+													297 text 0
+												298 cell
+													299 text 0.00
+												300 cell
+													301 text Rejected
+												302 cell
+													303 text £0.00
+												304 cell
+													305 text £0.00
+												306 cell
+													307 text £0.00
+												308 cell
+													309 text 0.00%
+											310 row Filtered total - 1 products 0 0 0.00 £0.00 £0.00 £0.00 0.00%
+												311 cell
+													312 text Filtered total - 1 products
+												313 cell
+												314 cell
+												315 cell
+												316 cell
+												317 cell
+												318 cell
+												319 cell
+												320 cell
+												321 cell
+												322 cell
+												323 cell
+												324 cell
+												325 cell
+												326 cell
+												327 cell
+												328 cell
+												329 cell
+												330 cell
+												331 cell
+												332 cell
+												333 cell
+												334 cell
+												335 cell
+												336 cell
+													337 text 0
+												338 cell
+													339 text 0
+												340 cell
+													341 text 0.00
+												342 cell
+												343 cell
+													344 text £0.00
+												345 cell
+													346 text £0.00
+												347 cell
+													348 text £0.00
+												349 cell
+													350 text 0.00%
+											351 row Overall total - 325 products 0 0 0.00 £0.00 £0.00 £0.00 0.00%
+												352 cell
+													353 text Overall total - 325 products
+												354 cell
+												355 cell
+												356 cell
+												357 cell
+												358 cell
+												359 cell
+												360 cell
+												361 cell
+												362 cell
+												363 cell
+												364 cell
+												365 cell
+												366 cell
+												367 cell
+												368 cell
+												369 cell
+												370 cell
+												371 cell
+												372 cell
+												373 cell
+												374 cell
+												375 cell
+												376 cell
+												377 cell
+													378 text 0
+												379 cell
+													380 text 0
+												381 cell
+													382 text 0.00
+												383 cell
+												384 cell
+													385 text £0.00
+												386 cell
+													387 text £0.00
+												388 cell
+													389 text £0.00
+												390 cell
+													391 text 0.00%
+											392 row Deleted items total 0 0 0.00 £0.00 £0.00 £0.00 0.00%
+												393 cell
+													394 text Deleted items total
+												395 cell
+												396 cell
+												397 cell
+												398 cell
+												399 cell
+												400 cell
+												401 cell
+												402 cell
+												403 cell
+												404 cell
+												405 cell
+												406 cell
+												407 cell
+												408 cell
+												409 cell
+												410 cell
+												411 cell
+												412 cell
+												413 cell
+												414 cell
+												415 cell
+												416 cell
+												417 cell
+												418 cell
+													419 text 0
+												420 cell
+													421 text 0
+												422 cell
+													423 text 0.00
+												424 cell
+												425 cell
+													426 text £0.00
+												427 cell
+													428 text £0.00
+												429 cell
+													430 text £0.00
+												431 cell
+													432 text 0.00%
+								433 container Pagination
+									434 container
+										435 text Rows per page:
+										436 pop-up button Rows per page:, Value: 20
+											437 (selected) 20
+										438 text 1 of 1
+										439 button (disabled) previous page
+										440 button (disabled) next page
+								441 container
+									442 text Not all metrics are in real time. Clicks and impressions in the last 1 hour, UET conversions in the last 2 hours, and Non-UET conversions (App Install, Offline Conversions) in the last 5 hours might not be included.
+									443 button Not all metrics are in real time. Clicks and impressions in the last 1 hour, UET conversions in the last 2 hours, and Non-UET conversions (App Install, Offline Conversions) in the last 5 hours might not be included. Learn more
+									444 text Only US Search ad clicks are MRC accredited. Other metrics and traffic are not MRC accredited.
+									445 button Only US Search ad clicks are MRC accredited. Other metrics and traffic are not MRC accredited. Learn more. 
+									446 text The time zone for the date range is (GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London
+									447 button The time zone for the date range is (GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London Learn more
+								448 container
+									449 text © 2026 Microsoft
+									450 content list
+										451 link Legal, Value: ads.microsoft.com/tc.aspx
+										452 link Privacy & Cookies, Value: go.microsoft.com/fwlink/?LinkId=248681
+										453 link Advertise, Value: go.microsoft.com/fwlink/?LinkId=258668
+										454 link Developers, Value: go.microsoft.com/fwlink/?linkid=2333449
+										455 link Support, Value: go.microsoft.com/fwlink/?LinkId=258669
+										456 link Blog, Value: go.microsoft.com/fwlink/?LinkId=395064
+										457 link Community, Value: go.microsoft.com/fwlink/?linkid=2325500&clcid=0x409
+										458 link Consumer Health Privacy, Value: go.microsoft.com/fwlink/?linkid=2259814
+										459 button Help
+			460 pop-up button Tab search
+			461 container
+				462 tab group
+					463 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					464 tab group  group ✅Claude – 1 Tab, •  Products | Microsoft Advertising – Expanded
+					465 tab (selected, settable, boolean) Products | Microsoft Advertising – Part of group ✅Claude, Value: on
+					466 tab (settable, boolean) Amazon Storefront - Google Search, Value: off
+					467 tab (settable, boolean) LojaIntegrada - Google Search, Value: off
+					468 tab (settable, boolean) Where to Buy Solutions | MikMak - High memory usage - 1.2 GB, Value: off
+					469 tab (settable, boolean) Brands - Manufacturer Center, Value: off
+					470 tab (settable, boolean) ChatGPT - Google Drive, Value: off
+					471 tab (settable, boolean) Boldstone Wall Sculptures — Pinterest Retail Feed - Google Sheets, Value: off
+					472 tab (settable, boolean) Boldstone Wall Sculptures — Master Catalogue - Google Sheets, Value: off
+					473 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					474 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					475 tab group  group ✅Claude – 1 Tab, •  Faire – Brand Portal – Expanded
+					476 tab (settable, boolean) Faire – Brand Portal – Part of group ✅Claude, Value: off
+					477 tab group  group Claude – 1 Tab, •  Seller Dashboard | Furnitures – Expanded
+					478 tab (settable, boolean) Seller Dashboard | Furnitures – Part of group Claude, Value: off
+					479 tab (settable, boolean) Inbox (7,128) - tppricet@gmail.com - Gmail, Value: off
+					480 tab group  group ✅Claude – 2 Tabs, •  Map and address settings - Vrbo, •  Welcome guide - Contact – Collapsed
+					481 tab (settable, boolean) Meta Business Suite, Value: off
+					482 tab (settable, boolean) Fine Jewellery | Catalogue Live | Register & bid Now - tppricet@gmail.com - Gmail, Value: off
+					483 tab (settable, boolean) Meta Business Suite - High memory usage - 1.1 GB, Value: off
+					484 tab group  group ✅Claude – 1 Tab, •  Brands - Manufacturer Center – Expanded
+					485 tab (settable, boolean) Brands - Manufacturer Center – Part of group ✅Claude, Value: off
+					486 tab group  group ✅Claude – 1 Tab, •  Pinterest – Expanded
+					487 tab (settable, boolean) Pinterest – Part of group ✅Claude, Value: off
+					488 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					489 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK - High memory usage - 1.0 GB, Value: off
+					490 tab (settable, boolean) Boldstone · Review room, Value: off
+					491 tab (settable, boolean) Post | LinkedIn - High memory usage - 1.1 GB, Value: off
+					492 tab (settable, boolean) Overview - Merchant Center, Value: off
+					493 tab (settable, boolean) Pinterest, Value: off
+			494 button New tab
+	495 close button
+	496 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	497 minimise button
+498 menu bar
+	499 Chrome
+	500 File
+	501 Edit
+	502 View
+	503 History
+	504 Bookmarks
+	505 Profiles
+	506 Tab
+	507 Window
+	508 Help
+
+The focused UI element is 72 button Title

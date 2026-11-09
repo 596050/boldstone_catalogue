@@ -1,0 +1,186 @@
+Window: "Studio | Saatchi Art United Kingdom", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/upload, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/upload
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio/upload, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/upload
+						26 container
+							27 container
+								28 text Fax
+								29 text field (settable) Fax
+							30 link fax, Value: saatchiart.com/facsimile-npc
+							31 link Skip to Main Content, Value: saatchiart.com/en-gb/studio/art/14397075/image#skip-to-content
+							32 container
+								33 button Close Menu
+								34 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								35 text Studio
+								36 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								37 container
+									38 button Manage Artworks
+									39 content list
+										40 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										41 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									42 button Sales Dashboard
+									43 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									44 button Sponsored Listings
+									45 button Profile Information
+									46 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									47 button Account
+							48 container
+								49 text DRAFT
+								50 link 1 Image, Value: saatchiart.com/en-gb/studio/upload
+								51 link 2 Description, Value: saatchiart.com/en-gb/studio/art/description
+								52 link 3 Price & Details, Value: saatchiart.com/en-gb/studio/art/price-details
+								53 link 4 Prints, Value: saatchiart.com/en-gb/studio/art/prints
+								54 button Back to Artworks
+								55 image
+								56 heading Artwork, Value: 1
+									57 text Artwork
+								58 container
+									59 button Title, Help: Expand
+									60 container
+										61 text field (settable) Enter title
+										62 text Enter title
+										63 button Next
+								64 container
+									65 button Images, Help: Collapse
+									66 button ADD PRIMARY IMAGE
+									67 button Next
+								68 button SAVE & EXIT
+								69 link Save & Continue, Value: saatchiart.com/en-gb/studio/art/description
+								70 container
+									71 text This site is protected by reCAPTCHA and the Google 
+									72 link Privacy Policy, Value: policies.google.com/privacy
+									73 text  and 
+									74 link Terms of Service, Value: policies.google.com/terms
+									75 text  apply.
+							76 container
+								77 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								78 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								79 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								80 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								81 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								82 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								83 text Support
+								84 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								85 link Help Center, Value: support.saatchiart.com/hc
+								86 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								87 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								88 pop-up button Request Support
+								89 text Resources
+								90 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								91 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								92 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								93 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								94 text Saatchi Art
+								95 link About, Value: saatchiart.com/en-gb/about-us
+								96 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								97 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								98 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								99 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								100 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								101 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								102 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								103 text Manage Preferences
+								104 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								105 container View Store Preferences Footer
+									106 image
+									107 text United Kingdom / GBP / Cm
+									108 image
+								109 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								110 link Privacy Policy, Value: policies.google.com/privacy
+								111 text  and 
+								112 link Terms of Service, Value: policies.google.com/terms
+								113 text  apply.
+							114 container
+								115 heading Upload Image, Value: 2
+									116 text Upload Image
+								117 container
+									118 image
+									119 text Drag and drop image here or  BROWSE IMAGE
+								120 container
+									121 text This site is protected by reCAPTCHA and the Google 
+									122 link Privacy Policy, Value: policies.google.com/privacy
+									123 text  and 
+									124 link Terms of Service, Value: policies.google.com/terms
+									125 text  apply.
+								126 text Your image file must be:
+								127 content list
+									128 text JPEG or PNG format
+									129 text At least 1500W x 1200H pixels
+									130 text Less than 50MB
+								131 button Cancel
+								132 button Submit
+								133 text By clicking "Submit", I confirm that I am the copyright owner of this image.
+							134 text Studio | Saatchi Art United Kingdom
+							135 container
+								136 button Manage Preferences
+								137 text Manage Preferences
+			138 pop-up button Tab search
+			139 container
+				140 tab group
+					141 tab (settable, boolean) Instagram Ad Audit - High memory usage - 867 MB, Value: off
+					142 tab (settable, boolean) SEO opportunity audit, Value: off
+					143 tab (settable, boolean) Value: off, [Agoda] Bank Account Rejected - Hotel ID 98148013 - info@portelanova.com - Portela Nova Mail - High memory usage - 922 MB
+					144 tab (settable, boolean) Inbox (7,123) - tppricet@gmail.com - Gmail, Value: off
+					145 tab (settable, boolean) Compare UK Dollar Savings Accounts, Value: off
+					146 tab (settable, boolean) Video transcription request, Value: off
+					147 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					148 tab group  group ✅Claude – 1 Tab, •  **Reminder** UPS [E - CBZ716] Tracking No: 1Z5… – Expanded
+					149 tab (settable, boolean) Value: off, **Reminder** UPS [E - CBZ716] Tracking No: 1Z50WTZ9D902500842 Exception Notification - tppricet@gmail.com - Gmail – Part of group ✅Claude
+					150 tab (settable, boolean) Boldstone_Masterplan_Consolidated_v5_2026-11-01 (2) - Google Sheets, Value: off
+					151 tab (settable, boolean) Analyse for Specificity, Value: off
+					152 tab group  group ✅Claude – 2 Tabs, •  Sign in to The Range Marketplace, •  Drafts (777) - info@boldstone.co.uk - Thomas P… – Expanded
+					153 tab (settable, boolean) Sign in to The Range Marketplace – Part of group ✅Claude, Value: off
+					154 tab (settable, boolean) Value: off, Drafts (777) - info@boldstone.co.uk - Thomas Price Mail – Part of group ✅Claude - High memory usage - 830 MB
+					155 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					156 tab (settable, boolean) Monte da Portela Nova · Sync calendars, Value: off
+					157 tab (settable, boolean) about:blank, Value: off
+					158 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom, Value: on
+						159 button Close
+			160 button New tab
+	161 close button
+	162 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	163 minimise button
+164 menu bar
+	165 Chrome
+	166 File
+	167 Edit
+	168 View
+	169 History
+	170 Bookmarks
+	171 Profiles
+	172 Tab
+	173 Window
+	174 Help
+
+The focused UI element is 66 button ADD PRIMARY IMAGE

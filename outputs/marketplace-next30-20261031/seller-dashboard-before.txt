@@ -1,0 +1,166 @@
+- banner:
+  - button [disabled]:
+  - link "Facebook":
+    - /url: /
+  - button:
+  - combobox "Search Facebook"
+  - navigation "Facebook":
+    - list:
+      - link "Home":
+        - /url: /
+      - link "Reels":
+        - /url: /reel/?s=tab
+      - link "Friends":
+        - /url: /friends/
+      - link "Groups":
+        - /url: /groups/
+      - link "Gaming":
+        - /url: /gaming/play/?store_visit_source=gaming_tab
+  - navigation "Account controls and settings":
+    - button "Facebook menu":
+    - button "Messenger":
+    - button "Notifications, 27 unread":
+    - button:
+      - generic: Number of unread notifications
+      - generic: 20+
+    - button "Account, your profile":
+      - img "Your profile"
+- navigation "Marketplace sidebar":
+  - heading "Marketplace" [level=1]
+  - button "Edit Marketplace settings":
+  - link "Create new listing":
+    - /url: /marketplace/create/?__tn__=!%3AA
+    - generic: Create new listing
+  - list:
+    - link "Seller dashboard":
+      - /url: /marketplace/you/dashboard/
+      - generic: Seller dashboard
+    - link "Your listings":
+      - /url: /marketplace/you/selling/
+      - generic: Your listings
+    - link "Announcements":
+      - /url: /marketplace/you/seller_announcement_center/
+      - generic: Announcements
+    - link "Insights":
+      - /url: /marketplace/you/insights/
+      - generic: Insights
+    - link "Marketplace profile":
+      - /url: /marketplace/profile/100064311860325/?product_id=
+      - generic: Marketplace profile
+    - link "Browse Marketplace":
+      - /url: /marketplace/
+      - generic: Browse Marketplace
+- main "Collection of your Marketplace items":
+  - heading "Overview" [active] [level=2]:
+    - generic: Overview
+  - list:
+    - link "Seller rating 0":
+      - /url: /marketplace/profile/100064311860325/?product_id=
+      - generic: Seller rating
+      - generic: "0"
+  - heading "Your listings" [level=2]:
+    - generic: Your listings
+  - button "Boost listings":
+    - generic: Boost listings
+  - button "Create New Listing":
+    - generic: Create New Listing
+  - list:
+    - link "Needs attention 0":
+      - /url: /marketplace/you/selling/?referral_surface=seller_hub
+      - generic: Needs attention
+      - generic: "0"
+    - link "Active and pending 10":
+      - /url: /marketplace/you/selling/?referral_surface=seller_hub&status[0]=IN_STOCK
+      - generic: Active and pending
+      - generic: "10"
+    - link "Sold and out of stock 0":
+      - /url: /marketplace/you/selling/?referral_surface=seller_hub&status[0]=OUT_OF_STOCK
+      - generic: Sold and out of stock
+      - generic: "0"
+    - link "Drafts 0":
+      - /url: /marketplace/you/selling/?referral_surface=seller_hub&state=DRAFT
+      - generic: Drafts
+      - generic: "0"
+    - link "To renew 0":
+      - /url: /marketplace/selling/renew_listings/?is_routable_dialog=true
+      - generic: To renew
+      - generic: "0"
+  - button "Ammonite Grande I (Left) - White | Wall Sculpture"
+  - button "Ammonite Grande I (Left) - White | Wall Sculpture, £155, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: Ammonite Grande I (Left) - White | Wall Sculpture
+    - generic: £155
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Ammonite Grande I (Left) - White | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Ammonite Grande I (Left) - White | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=SELLER_DASHBOARD_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28555747487435193
+    - generic: Promote now
+  - button "Share Ammonite Grande I (Left) - White | Wall Sculpture":
+    - generic: Share
+  - button "More options for Ammonite Grande I (Left) - White | Wall Sculpture"
+  - button "Acanthus Twin Leaves - White | Wall Sculpture"
+  - button "Acanthus Twin Leaves - White | Wall Sculpture, £34, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: Acanthus Twin Leaves - White | Wall Sculpture
+    - generic: £34
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Acanthus Twin Leaves - White | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Acanthus Twin Leaves - White | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=SELLER_DASHBOARD_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28842278498797711
+    - generic: Promote now
+  - button "Share Acanthus Twin Leaves - White | Wall Sculpture":
+    - generic: Share
+  - button "More options for Acanthus Twin Leaves - White | Wall Sculpture"
+  - button "Acanthus Twin Leaves - Pewter | Wall Sculpture"
+  - button "Acanthus Twin Leaves - Pewter | Wall Sculpture, £44, In stock, Listed on 31/10, Listed on Marketplace, 0 clicks on listing":
+    - generic: Acanthus Twin Leaves - Pewter | Wall Sculpture
+    - generic: £44
+    - text: In stock
+    - generic: ·
+    - text: Listed on 31/10
+    - text: Listed on Marketplace
+    - generic: ·
+    - text: 0 clicks on listing
+    - button "The number of times that people viewed the details page of your Marketplace listing in the last 14 days."
+  - button "Mark as out of stock Acanthus Twin Leaves - Pewter | Wall Sculpture":
+    - generic: Mark as out of stock
+  - link "Promote now for Acanthus Twin Leaves - Pewter | Wall Sculpture. Boost to reach more potential buyers":
+    - /url: /ad_center/create/listingad/?entry_point=SELLER_DASHBOARD_PROMOTE_BUTTON&page_id=1065651656636272&target_id=28904613269166631
+    - generic: Promote now
+  - button "Share Acanthus Twin Leaves - Pewter | Wall Sculpture":
+    - generic: Share
+  - button "More options for Acanthus Twin Leaves - Pewter | Wall Sculpture"
+  - link "See all listings":
+    - /url: /marketplace/you/selling/?referral_surface=seller_hub
+  - heading "Marketplace insights" [level=2]:
+    - generic: Marketplace insights
+  - combobox "Selected time period for insights data":
+    - generic: Last 7 days
+  - list:
+    - button "11 Clicks on listings":
+      - generic: "11"
+      - generic: Clicks on listings
+    - button "0 Listing saves":
+      - generic: "0"
+      - generic: Listing saves
+    - button "0 Listing shares":
+      - generic: "0"
+      - generic: Listing shares
+    - button "0 Marketplace followers":
+      - generic: "0"
+      - generic: Marketplace followers
+  - link "See more insights":
+    - /url: /marketplace/you/insights/
+- button "New message":

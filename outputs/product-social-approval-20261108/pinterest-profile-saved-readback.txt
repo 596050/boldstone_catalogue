@@ -1,0 +1,117 @@
+Window: "Pinterest", App: Google Chrome.
+0 standard window Pinterest – Part of group ✅Claude - Google Chrome – Tom, URL: uk.pinterest.com/settings/edit-profile/, Secondary Actions: Raise
+	1 container Pinterest – Part of group ✅Claude - Google Chrome – Tom, URL: uk.pinterest.com/settings/edit-profile/
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: uk.pinterest.com/settings/edit-profile/, Placeholder: Ask Google or type a URL
+					10 button Install Pinterest
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+					22 button Close side panel
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Pinterest, URL: uk.pinterest.com/settings/edit-profile/
+						28 container
+							29 container
+								30 link Skip to content, Value: uk.pinterest.com/settings/edit-profile/#
+								31 container Primary navigation header
+									32 button Pinterest Settings Dynamic badge drop-down menu button
+									33 button Boldstone Boldstone Account switcher arrow icon
+									34 button Search icon
+									35 link Notifications, Value: uk.pinterest.com/settings/edit-profile/
+									36 link Messages, Value: uk.pinterest.com/settings/edit-profile/
+									37 container Engagement. You have pending notifications.
+										38 link Manage comments and social activity, Value: uk.pinterest.com/engagement/
+									39 link Your profile, Value: uk.pinterest.com/boldstonepinterest/
+									40 pop-up button Accounts and more options
+							41 container Footer floating buttons
+								42 container More
+									43 pop-up button More
+							44 container
+								45 container User settings menu
+									46 link Edit profile, Value: uk.pinterest.com/settings/edit-profile/
+									47 link Account management, Value: uk.pinterest.com/settings/account-settings/
+									48 link Profile visibility, Value: uk.pinterest.com/settings/profile-visibility/
+									49 link Refine your recommendations, Value: uk.pinterest.com/edit/
+									50 link Display settings, Value: uk.pinterest.com/settings/edit/display-settings/
+									51 link Import content, Value: uk.pinterest.com/settings/import/
+									52 link Link to Pinterest, Value: uk.pinterest.com/settings/claim/
+									53 link Social permissions, Value: uk.pinterest.com/settings/permissions/
+									54 link Notifications, Value: uk.pinterest.com/settings/notifications/
+									55 link Privacy and data, Value: uk.pinterest.com/settings/privacy/
+									56 link Security, Value: uk.pinterest.com/settings/security/
+									57 link Branded Content, Value: uk.pinterest.com/settings/branded-content/
+									58 link Labs, Value: uk.pinterest.com/settings/labs/
+								59 heading Edit profile, Value: 1
+									60 text Edit profile
+								61 text Keep your personal details private. Information you add here is visible to anyone who can view your profile.
+								62 heading Photo, Value: 2
+									63 text Photo
+								64 container
+									65 image User profile picture
+								66 button Change profile picture
+								67 text Name
+								68 text field (settable) Name, Value: Boldstone, Placeholder: Type your name
+								69 text About
+								70 text entry area (settable) About, Placeholder: Tell your story, Value: Handmade wall sculptures, relief panels and water features by sculptor and designer Sally Price, near Bath, UK. Inspired by botanical forms, fossil spirals and the movement of water. Shop individual designs for interiors and gardens. All designs can be customised, and new commissions developed with Sally.
+								71 container
+									72 text Pronouns
+									73 combo box (settable) Pronouns, Placeholder: Add your pronouns
+								74 text Choose up to 2 sets of pronouns to appear on your profile so others know how to refer to you. You can edit or remove them at any time.
+								75 text Website URL
+								76 pop-up button Website URL, Value: boldstonesculpture.com
+									77 (selected) boldstonesculpture.com
+								78 image Verified
+								79 text Username
+								80 text field (settable) Username, Value: boldstonepinterest
+								81 text www.pinterest.com/boldstonepinterest
+								82 text Email address
+								83 text field (settable) Email address, Value: info@boldstone.co.uk, Placeholder: pinner@pinterest.com
+								84 text Country code
+								85 pop-up button Country code, Value: Choose
+								86 text Phone (public)
+								87 text field (settable) Phone (public), Placeholder: 01234 567890
+								88 Tick box Include a retail location?, Value: 0
+								89 text Include a retail location?
+								90 text Address line 1
+								91 text field (settable) Address line 1
+								92 text Address line 2
+								93 text field (settable) Address line 2
+								94 text Town/city
+								95 text field (settable) Town/city
+								96 text County/State/Region
+								97 text field (settable) County/State/Region
+								98 text Postcode
+								99 text field (settable) Postcode
+								100 text Country
+								101 pop-up button Country
+									102 (selected)
+								103 button (disabled) Reset
+								104 button (disabled) Save
+							105 container Footer
+			106 scroll area
+				107 

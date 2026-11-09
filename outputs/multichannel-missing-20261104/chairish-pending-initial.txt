@@ -1,0 +1,759 @@
+Window: "My Listings — Dashboard | Chairish", App: Google Chrome.
+0 standard window My Listings — Dashboard | Chairish - Google Chrome – Tom, URL: …, Secondary Actions: Raise
+	1 container My Listings — Dashboard | Chairish - Google Chrome – Tom, URL: …
+		2 container
+			3 toolbar
+				4 button Back
+				5 button Reload
+				6 container
+					7 pop-up button View site information
+					8 text field (settable) Address and search bar, Value: chairish.com/product/list?state=DRA, Placeholder: Ask Google or type a URL
+					9 button Bookmark this tab
+				10 pop-up button Extensions
+				11 pop-up button Hidden toolbar buttons
+				12 pop-up button Relaunch to update
+			13 container
+				14 scroll area
+					15 HTML content My Listings — Dashboard | Chairish, URL: …
+						16 container
+							17 link Shop Our Newest Arrivals, Value: chairish.com/collec…
+							18 container
+								19 button Mobile Navigation
+								20 container SEARCH
+									21 text SEARCH
+									22 container
+										23 search text field (settable) search products, brands, and shops, Placeholder: Search products, brands, and shops
+										24 button Search
+											25 text 
+								26 link Chairish - The Art of Vintage. The Luxury of Home., Value: chairish.com/
+								27 link Account avatar for Sally P., Value: chairish.com/shop/me
+								28 link My To-dos, Value: chairish.com/home
+								29 link Consign With Us, Value: chairish.com/pages/…
+								30 button My Favorites
+								31 link Cart, Value: chairish.com/cart
+							32 container
+								33 content list
+									34 link New Arrivals, Value: chairish.com/collec…
+									35 link Furniture , Value: chairish.com/collec…
+									36 link Art , Value: chairish.com/collec…
+									37 link Lighting , Value: chairish.com/collec…
+									38 link Decor , Value: chairish.com/collec…
+									39 link Tabletop + Bar , Value: chairish.com/collec…
+									40 link Bed + Bath, Value: chairish.com/collec…
+									41 link Rugs , Value: chairish.com/collec…
+									42 link Outdoor , Value: chairish.com/collec…
+									43 link Jewelry , Value: chairish.com/collec…
+									44 link Auctions New!, Help: Auctions (opens in new window), Value: chairishauctions.co…
+									45 link new, vintage and antique on sale, Value: chairish.com/collec…
+									46 link Read the blog, Value: chairish.com/blog/
+									47 link  Consign With Us, Value: chairish.com/pages/…
+							48 content list
+								49 link New Arrivals, Value: chairish.com/collec…
+								50 link Furniture, Value: chairish.com/collec…
+								51 link Art, Value: chairish.com/collec…
+								52 link Lighting, Value: chairish.com/collec…
+								53 link Decor, Value: chairish.com/collec…
+								54 link Tabletop + Bar, Value: chairish.com/collec…
+								55 link Bed + Bath, Value: chairish.com/collec…
+								56 link Rugs, Value: chairish.com/collec…
+								57 link Outdoor, Value: chairish.com/collec…
+								58 link Jewelry, Value: chairish.com/collec…
+								59 link Auctions New!, Help: Auctions (opens in new window), Value: chairishauctions.co…
+								60 link new, vintage and antique on sale, Value: chairish.com/collec…
+								61 link Read the blog, Value: chairish.com/blog/
+							62 link Join our trade program, Value: chairish.com/trade
+							63 link View the Designer Directory, Value: chairish.com/pros
+							64 container
+								65 container
+									66 heading My Listings, Value: 1
+										67 text My Listings
+									68 button Vacation Settings
+									69 link CREATE LISTING, Value: chairish.com/produc…
+									70 container
+										71 text Search for listings
+										72 search text field (settable) Search for listings, Placeholder: Search Listings
+										73 button Search
+									74 text Search 
+									75 link The Pink Book, Value: chairish.com/pinkbo…
+									76 text  for pricing guidance
+								77 content list
+									78 link Active Listings, Value: chairish.com/produc…
+									79 container
+										80 link Drafts (24), Value: chairish.com/produc…
+									81 link Pending (152), Value: chairish.com/produc…
+									82 link Incomplete, Value: chairish.com/produc…
+									83 link Inactive (1), Value: chairish.com/produc…
+									84 link Sold Out, Value: chairish.com/produc…
+								85 pop-up button Bulk Actions
+								86 table
+									87 row
+										88 column header 0-1
+											89 container
+												90 text All (24)
+										91 column header
+											92 text Title
+										93 column header
+											94 text Price
+										95 column header
+											96 text Sale
+										97 column header
+											98 text Auction %  
+										99 column header
+											100 text Trade %
+										101 column header
+											102 text State
+									103 row
+										104 cell
+										105 cell
+											106 image Image of Boldstone Acanthus Frond (Left) - Pewter Wall Sculpture
+										107 cell
+											108 link Boldstone Acanthus Frond (Left) - Pewter Wall Sculpture, Value: chairish.com/produc…
+											109 text SKU: BOLD-3635E3DC3434
+											110 container
+												111 content list
+													112 link Edit, Value: chairish.com/produc…
+													113 link Create Variant Group, Value: chairish.com/produc…
+													114 link Delete, Value: chairish.com/produc…
+												115 text Seller Delegated In-Home Delivery
+										116 cell
+											117 text $60 Net $53
+											118 link Reserve $48, Value: chairish.com/produc…
+										119 cell
+											120 text 40%
+										121 cell
+											122 text 12%
+										123 cell
+											124 text Draft
+									125 row
+										126 cell
+										127 cell
+											128 image Image of Boldstone Chiswick Moon Fountain Sculptural Water-Feature Panel
+										129 cell
+											130 link Boldstone Chiswick Moon Fountain Sculptural Water-Feature Panel, Value: chairish.com/produc…
+											131 text SKU: BOLD-3DEA4D29C4A2
+											132 container
+												133 content list
+													134 link Edit, Value: chairish.com/produc…
+													135 link Create Variant Group, Value: chairish.com/produc…
+													136 link Delete, Value: chairish.com/produc…
+												137 text Seller Delegated In-Home Delivery
+										138 cell
+											139 text $280 Net $246
+											140 link Reserve $224, Value: chairish.com/produc…
+										141 cell
+											142 text 40%
+										143 cell
+											144 text 12%
+										145 cell
+											146 text Draft
+									147 row
+										148 cell
+										149 cell
+											150 image Image of Boldstone Bone Water Spiral Relief - White Wall Sculpture
+										151 cell
+											152 link Boldstone Bone Water Spiral Relief - White Wall Sculpture, Value: chairish.com/produc…
+											153 text SKU: BWS-1-55.55
+											154 container
+												155 content list
+													156 link Edit, Value: chairish.com/produc…
+													157 link Create Variant Group, Value: chairish.com/produc…
+													158 link Delete, Value: chairish.com/produc…
+												159 text Seller Delegated In-Home Delivery
+										160 cell
+											161 text $161 Net $142
+											162 link Reserve $129, Value: chairish.com/produc…
+										163 cell
+											164 text 40%
+										165 cell
+											166 text 12%
+										167 cell
+											168 text Draft
+									169 row
+										170 cell
+										171 cell
+											172 image Image of Boldstone Lava Moon I - White Wall Sculpture
+										173 cell
+											174 link Boldstone Lava Moon I - White Wall Sculpture, Value: chairish.com/produc…
+											175 text SKU: BOLD-7357A558C9E8
+											176 container
+												177 content list
+													178 link Edit, Value: chairish.com/produc…
+													179 link Create Variant Group, Value: chairish.com/produc…
+													180 link Delete, Value: chairish.com/produc…
+												181 text Seller Delegated In-Home Delivery
+										182 cell
+											183 text $641 Net $564
+											184 link Reserve $513, Value: chairish.com/produc…
+										185 cell
+											186 text 40%
+										187 cell
+											188 text 12%
+										189 cell
+											190 text Draft
+									191 row
+										192 cell
+										193 cell
+											194 image Image of Boldstone Riyadh Dune Ripple - White Wall Sculpture
+										195 cell
+											196 link Boldstone Riyadh Dune Ripple - White Wall Sculpture, Value: chairish.com/produc…
+											197 text SKU: BOLD-B9DA00108196
+											198 container
+												199 content list
+													200 link Edit, Value: chairish.com/produc…
+													201 link Create Variant Group, Value: chairish.com/produc…
+													202 link Delete, Value: chairish.com/produc…
+												203 text Seller Delegated In-Home Delivery
+										204 cell
+											205 text $718 Net $632
+											206 link Reserve $574, Value: chairish.com/produc…
+										207 cell
+											208 text 40%
+										209 cell
+											210 text 12%
+										211 cell
+											212 text Draft
+									213 row
+										214 cell
+										215 cell
+											216 image Image of Boldstone Riyadh Moon - White Wall Sculpture
+										217 cell
+											218 link Boldstone Riyadh Moon - White Wall Sculpture, Value: chairish.com/produc…
+											219 text SKU: BOLD-1AD9185411D8
+											220 container
+												221 content list
+													222 link Edit, Value: chairish.com/produc…
+													223 link Create Variant Group, Value: chairish.com/produc…
+													224 link Delete, Value: chairish.com/produc…
+												225 text Seller Delegated In-Home Delivery
+										226 cell
+											227 text $718 Net $632
+											228 link Reserve $574, Value: chairish.com/produc…
+										229 cell
+											230 text 40%
+										231 cell
+											232 text 12%
+										233 cell
+											234 text Draft
+									235 row
+										236 cell
+										237 cell
+											238 image Image of Boldstone Icarus I - Abstract Cave Relief Wall Sculpture
+										239 cell
+											240 link Boldstone Icarus I - Abstract Cave Relief Wall Sculpture, Value: chairish.com/produc…
+											241 text SKU: SQ0717348
+											242 container
+												243 content list
+													244 link Edit, Value: chairish.com/produc…
+													245 link Create Variant Group, Value: chairish.com/produc…
+													246 link Delete, Value: chairish.com/produc…
+												247 text Seller Delegated In-Home Delivery
+										248 cell
+											249 text $873 Net $768
+											250 link Reserve $698, Value: chairish.com/produc…
+										251 cell
+											252 text 40%
+										253 cell
+											254 text 12%
+										255 cell
+											256 text Draft
+									257 row
+										258 cell
+										259 cell
+											260 image Image of Boldstone Dune Ripple II - Copper With Verdigris Accents Wall Sculpture
+										261 cell
+											262 link Boldstone Dune Ripple II - Copper With Verdigris Accents Wall Sculpture, Value: chairish.com/produc…
+											263 text SKU: BOLD-6405184B86EB
+											264 container
+												265 content list
+													266 link Edit, Value: chairish.com/produc…
+													267 link Create Variant Group, Value: chairish.com/produc…
+													268 link Delete, Value: chairish.com/produc…
+												269 text Seller Delegated In-Home Delivery
+										270 cell
+											271 text $55 Net $48
+											272 link Reserve $44, Value: chairish.com/produc…
+										273 cell
+											274 text 40%
+										275 cell
+											276 text 12%
+										277 cell
+											278 text Draft
+									279 row
+										280 cell
+										281 cell
+											282 image Image of Boldstone Magnolia Growth - White and Gold Finish Wall Sculpture
+										283 cell
+											284 link Boldstone Magnolia Growth - White and Gold Finish Wall Sculpture, Value: chairish.com/produc…
+											285 text SKU: BOLD-B42C439049D7
+											286 container
+												287 content list
+													288 link Edit, Value: chairish.com/produc…
+													289 link Create Variant Group, Value: chairish.com/produc…
+													290 link Delete, Value: chairish.com/produc…
+												291 text Seller Delegated In-Home Delivery
+										292 cell
+											293 text $135 Net $119
+											294 link Reserve $108, Value: chairish.com/produc…
+										295 cell
+											296 text 40%
+										297 cell
+											298 text 12%
+										299 cell
+											300 text Draft
+									301 row
+										302 cell
+										303 cell
+											304 image Image of Boldstone Marbled Circle - Azure Blue and White Wall Sculpture
+										305 cell
+											306 link Boldstone Marbled Circle - Azure Blue and White Wall Sculpture, Value: chairish.com/produc…
+											307 text SKU: BOLD-22DA74B2107E
+											308 container
+												309 content list
+													310 link Edit, Value: chairish.com/produc…
+													311 link Create Variant Group, Value: chairish.com/produc…
+													312 link Delete, Value: chairish.com/produc…
+												313 text Seller Delegated In-Home Delivery
+										314 cell
+											315 text $162 Net $143
+											316 link Reserve $130, Value: chairish.com/produc…
+										317 cell
+											318 text 40%
+										319 cell
+											320 text 12%
+										321 cell
+											322 text Draft
+									323 row
+										324 cell
+										325 cell
+											326 image Image of Boldstone Ammonite Grande II (Right) - White Wall Sculpture
+										327 cell
+											328 link Boldstone Ammonite Grande II (Right) - White Wall Sculpture, Value: chairish.com/produc…
+											329 text SKU: BOLD-C3858B1FE67E
+											330 container
+												331 content list
+													332 link Edit, Value: chairish.com/produc…
+													333 link Create Variant Group, Value: chairish.com/produc…
+													334 link Delete, Value: chairish.com/produc…
+												335 text Seller Delegated In-Home Delivery
+										336 cell
+											337 text $208 Net $183
+											338 link Reserve $166, Value: chairish.com/produc…
+										339 cell
+											340 text 40%
+										341 cell
+											342 text 12%
+										343 cell
+											344 text Draft
+									345 row
+										346 cell
+										347 cell
+											348 image Image of Boldstone Ammonite Grande I (Left) - White Wall Sculpture
+										349 cell
+											350 link Boldstone Ammonite Grande I (Left) - White Wall Sculpture, Value: chairish.com/produc…
+											351 text SKU: BOLD-DA27DD604F0B
+											352 container
+												353 content list
+													354 link Edit, Value: chairish.com/produc…
+													355 link Create Variant Group, Value: chairish.com/produc…
+													356 link Delete, Value: chairish.com/produc…
+												357 text Seller Delegated In-Home Delivery
+										358 cell
+											359 text $208 Net $183
+											360 link Reserve $166, Value: chairish.com/produc…
+										361 cell
+											362 text 40%
+										363 cell
+											364 text 12%
+										365 cell
+											366 text Draft
+									367 row
+										368 cell
+										369 cell
+											370 image Image of Boldstone Barbados Wave Relief Wall Sculpture
+										371 cell
+											372 link Boldstone Barbados Wave Relief Wall Sculpture, Value: chairish.com/produc…
+											373 text SKU: SQ0484508
+											374 container
+												375 content list
+													376 link Edit, Value: chairish.com/produc…
+													377 link Create Variant Group, Value: chairish.com/produc…
+													378 link Delete, Value: chairish.com/produc…
+												379 text Seller Delegated In-Home Delivery
+										380 cell
+											381 text $359 Net $316
+											382 link Reserve $287, Value: chairish.com/produc…
+										383 cell
+											384 text 40%
+										385 cell
+											386 text 12%
+										387 cell
+											388 text Draft
+									389 row
+										390 cell
+										391 cell
+											392 image Image of Boldstone Knightsbridge Fountain Relief - White Sculptural Water-Feature Panel
+										393 cell
+											394 link Boldstone Knightsbridge Fountain Relief - White Sculptural Water-Feature Panel, Value: chairish.com/produc…
+											395 text SKU: BOLD-3BFB1137D230
+											396 container
+												397 content list
+													398 link Edit, Value: chairish.com/produc…
+													399 link Create Variant Group, Value: chairish.com/produc…
+													400 link Delete, Value: chairish.com/produc…
+												401 text Seller Delegated In-Home Delivery
+										402 cell
+											403 text $386 Net $340
+											404 link Reserve $309, Value: chairish.com/produc…
+										405 cell
+											406 text 40%
+										407 cell
+											408 text 12%
+										409 cell
+											410 text Draft
+									411 row
+										412 cell
+										413 cell
+											414 image Image of Boldstone Riyadh Shellmoon Relief Wall Sculpture
+										415 cell
+											416 link Boldstone Riyadh Shellmoon Relief Wall Sculpture, Value: chairish.com/produc…
+											417 text SKU: BOLD-3EB5B16E33CC
+											418 container
+												419 content list
+													420 link Edit, Value: chairish.com/produc…
+													421 link Create Variant Group, Value: chairish.com/produc…
+													422 link Delete, Value: chairish.com/produc…
+												423 text Seller Delegated In-Home Delivery
+										424 cell
+											425 text $718 Net $632
+											426 link Reserve $574, Value: chairish.com/produc…
+										427 cell
+											428 text 40%
+										429 cell
+											430 text 12%
+										431 cell
+											432 text Draft
+									433 row
+										434 cell
+										435 cell
+											436 image Image of Boldstone Textured Earth - Rust and Blue Patina Wall Sculpture
+										437 cell
+											438 link Boldstone Textured Earth - Rust and Blue Patina Wall Sculpture, Value: chairish.com/produc…
+											439 text SKU: BOLD-9AF26B8CF780
+											440 container
+												441 content list
+													442 link Edit, Value: chairish.com/produc…
+													443 link Create Variant Group, Value: chairish.com/produc…
+													444 link Delete, Value: chairish.com/produc…
+												445 text Seller Delegated In-Home Delivery
+										446 cell
+											447 text $337 Net $297
+											448 link Reserve $270, Value: chairish.com/produc…
+										449 cell
+											450 text 40%
+										451 cell
+											452 text 12%
+										453 cell
+											454 text Draft
+									455 row
+										456 cell
+										457 cell
+											458 image Image of Boldstone Chiswick Moon Relief Wall Sculpture
+										459 cell
+											460 link Boldstone Chiswick Moon Relief Wall Sculpture, Value: chairish.com/produc…
+											461 text SKU: BOLD-830A4594D176
+											462 container
+												463 content list
+													464 link Edit, Value: chairish.com/produc…
+													465 link Create Variant Group, Value: chairish.com/produc…
+													466 link Delete, Value: chairish.com/produc…
+												467 text Seller Delegated In-Home Delivery
+										468 cell
+											469 text $280 Net $246
+											470 link Reserve $224, Value: chairish.com/produc…
+										471 cell
+											472 text 40%
+										473 cell
+											474 text 12%
+										475 cell
+											476 text Draft
+									477 row
+										478 cell
+										479 cell
+											480 image Image of Boldstone Crater Moon Basin - White Sculptural Relief
+										481 cell
+											482 link Boldstone Crater Moon Basin - White Sculptural Relief, Value: chairish.com/produc…
+											483 text SKU: BOLD-CBD8D0C8DE19
+											484 container
+												485 content list
+													486 link Edit, Value: chairish.com/produc…
+													487 link Create Variant Group, Value: chairish.com/produc…
+													488 link Delete, Value: chairish.com/produc…
+												489 text Seller Delegated In-Home Delivery
+										490 cell
+											491 text $177 Net $156
+											492 link Reserve $142, Value: chairish.com/produc…
+										493 cell
+											494 text 40%
+										495 cell
+											496 text 12%
+										497 cell
+											498 text Draft
+									499 row
+										500 cell
+										501 cell
+											502 image Image of Boldstone Chelsea Moonwave Relief Wall Sculpture
+										503 cell
+											504 link Boldstone Chelsea Moonwave Relief Wall Sculpture, Value: chairish.com/produc…
+											505 text SKU: BOLD-F95020D6821C
+											506 container
+												507 content list
+													508 link Edit, Value: chairish.com/produc…
+													509 link Create Variant Group, Value: chairish.com/produc…
+													510 link Delete, Value: chairish.com/produc…
+												511 text Seller Delegated In-Home Delivery
+										512 cell
+											513 text $985 Net $867
+											514 link Reserve $788, Value: chairish.com/produc…
+										515 cell
+											516 text 40%
+										517 cell
+											518 text 12%
+										519 cell
+											520 text Draft
+									521 row
+										522 cell
+										523 cell
+											524 image Image of Boldstone Lava Moon III - White Wall Sculpture
+										525 cell
+											526 link Boldstone Lava Moon III - White Wall Sculpture, Value: chairish.com/produc…
+											527 text SKU: BOLD-2246CBC9C94E
+											528 container
+												529 content list
+													530 link Edit, Value: chairish.com/produc…
+													531 link Create Variant Group, Value: chairish.com/produc…
+													532 link Delete, Value: chairish.com/produc…
+												533 text Seller Delegated In-Home Delivery
+										534 cell
+											535 text $641 Net $564
+											536 link Reserve $513, Value: chairish.com/produc…
+										537 cell
+											538 text 40%
+										539 cell
+											540 text 12%
+										541 cell
+											542 text Draft
+									543 row
+										544 cell
+										545 cell
+											546 image Image of Boldstone Lava Moon II - White Wall Sculpture
+										547 cell
+											548 link Boldstone Lava Moon II - White Wall Sculpture, Value: chairish.com/produc…
+											549 text SKU: BOLD-791ADD96D660
+											550 container
+												551 content list
+													552 link Edit, Value: chairish.com/produc…
+													553 link Create Variant Group, Value: chairish.com/produc…
+													554 link Delete, Value: chairish.com/produc…
+												555 text Seller Delegated In-Home Delivery
+										556 cell
+											557 text $641 Net $564
+											558 link Reserve $513, Value: chairish.com/produc…
+										559 cell
+											560 text 40%
+										561 cell
+											562 text 12%
+										563 cell
+											564 text Draft
+									565 row
+										566 cell
+										567 cell
+											568 image Image of Boldstone Cup Ring and Spiral Paver II - Brown Decorative Paver Panel
+										569 cell
+											570 link Boldstone Cup Ring and Spiral Paver II - Brown Decorative Paver Panel, Value: chairish.com/produc…
+											571 text SKU: BOLD-4C08C8E484EE
+											572 container
+												573 content list
+													574 link Edit, Value: chairish.com/produc…
+													575 link Create Variant Group, Value: chairish.com/produc…
+													576 link Delete, Value: chairish.com/produc…
+												577 text Seller Delegated In-Home Delivery
+										578 cell
+											579 text $53 Net $47
+											580 link Reserve $42, Value: chairish.com/produc…
+										581 cell
+											582 text 40%
+										583 cell
+											584 text 12%
+										585 cell
+											586 text Draft
+									587 row
+										588 cell
+										589 cell
+											590 image Image of Boldstone Cup Ring and Spiral Paver I - Brown Decorative Paver Panel
+										591 cell
+											592 link Boldstone Cup Ring and Spiral Paver I - Brown Decorative Paver Panel, Value: chairish.com/produc…
+											593 text SKU: BOLD-AAC2DC2CFEC2
+											594 container
+												595 content list
+													596 link Edit, Value: chairish.com/produc…
+													597 link Create Variant Group, Value: chairish.com/produc…
+													598 link Delete, Value: chairish.com/produc…
+												599 text Seller Delegated In-Home Delivery
+										600 cell
+											601 text $53 Net $47
+											602 link Reserve $42, Value: chairish.com/produc…
+										603 cell
+											604 text 40%
+										605 cell
+											606 text 12%
+										607 cell
+											608 text Draft
+									609 row
+										610 cell
+										611 cell
+											612 image Image of Boldstone World Colours Circle - Brass Wall Sculpture
+										613 cell
+											614 link Boldstone World Colours Circle - Brass Wall Sculpture, Value: chairish.com/produc…
+											615 text SKU: BOLD-1B20DCA291BB
+											616 container
+												617 content list
+													618 link Edit, Value: chairish.com/produc…
+													619 link Create Variant Group, Value: chairish.com/produc…
+													620 link Delete, Value: chairish.com/produc…
+												621 text Seller Delegated In-Home Delivery
+										622 cell
+											623 text $162 Net $143
+											624 link Reserve $130, Value: chairish.com/produc…
+										625 cell
+											626 text 40%
+										627 cell
+											628 text 12%
+										629 cell
+											630 text Draft
+								631 image Account avatar for Sally P.
+								632 text Sally Price
+								633 link View Shop, Value: chairish.com/shop/me
+								634 content list
+									635 text DASHBOARD
+									636 link To Do List (4), Value: chairish.com/home
+									637 link Messages, Value: chairish.com/accoun…
+								638 content list
+									639 text BUYING
+									640 link My Purchases, Value: chairish.com/order/…
+									641 link My Offers, Value: chairish.com/offer/…
+								642 content list
+									643 text SELLING
+									644 link Create Listing, Value: chairish.com/produc…
+									645 link My Listings, Value: chairish.com/produc…
+									646 link Offers, Value: chairish.com/offer/…
+									647 link My Sales History, Value: chairish.com/produc…
+									648 link Payment History, Value: chairish.com/paymen…
+									649 link Promoted Listings, Value: chairish.com/promot…
+									650 link Seller Badges, Value: chairish.com/accoun…
+								651 content list
+									652 text SETTINGS
+									653 link Account Settings, Value: chairish.com/accoun…
+									654 link Email Settings, Value: chairish.com/accoun…
+									655 link Shop Settings, Value: chairish.com/profil…
+									656 link Payment Settings, Value: chairish.com/accoun…
+									657 link Seller Plan, Value: chairish.com/accoun…
+									658 link Tax Settings, Value: chairish.com/accoun…
+									659 link Vacation Settings, Value: chairish.com/produc…
+								660 content list
+									661 button Log Out
+							662 link 4.41 out of 5 stars 4.41 avg. from 33168 Verified Reviews, Help: Verified Reviews (opens in new window), Value: chairish.com/pages/…
+							663 container
+								664 heading NEED HELP?, Value: 4
+									665 text NEED HELP?
+								666 content list
+									667 link Help Center, Help: Help Center (opens in new window), Value: support.chairish.co…
+									668 button Send Feedback
+									669 link Contact Us, Help: Contact Us (opens in new window), Value: support.chairish.co…
+									670 link Return Policy, Help: Return Policy (opens in new window), Value: support.chairish.co…
+									671 link Shipping Policy, Help: Shipping Policy (opens in new window), Value: support.chairish.co…
+									672 link Pink Book Pricing Guide, Value: chairish.com/pinkbo…
+									673 link Accessibility, Help: Accessibility (opens in new window), Value: support.chairish.co…
+							674 container
+								675 heading FOR BUYERS, Value: 4
+									676 text FOR BUYERS
+								677 content list
+									678 link Buyer FAQ, Help: Buyer FAQ (opens in new window), Value: support.chairish.co…
+									679 link Trade Program, Help: Trade Program (opens in new window), Value: chairish.com/trade
+								680 heading FOR SELLERS, Value: 4
+									681 text FOR SELLERS
+								682 content list
+									683 link Consign with Us, Value: chairish.com/pages/…
+									684 link Seller FAQ, Value: support.chairish.co…
+							685 container
+								686 heading SHOP, Value: 4
+									687 text SHOP
+								688 content list
+									689 link Shop by Style, Value: chairish.com/style/…
+									690 link Shop by Brand, Value: chairish.com/maker/…
+									691 link Categories by Region, Value: chairish.com/shop/l…
+									692 link Sellers by Region, Value: chairish.com/shop/l…
+									693 link Shop by Room, Value: chairish.com/room/l…
+							694 container
+								695 heading OUR COMPANY, Value: 4
+									696 text OUR COMPANY
+								697 content list
+									698 link About Us, Value: chairish.com/pages/…
+									699 link Leadership, Help: Leadership (opens in new window), Value: auctiontechnologygr…
+									700 link Careers, Help: Careers (opens in new window), Value: auctiontechnologygr…
+									701 link Press, Value: …
+									702 link Scholarship, Value: …
+									703 link Chairish Resale Report, Value: …
+							704 container
+								705 heading THE CHAIRISH BLOG, Value: 4
+									706 text THE CHAIRISH BLOG
+								707 content list
+									708 link Decorating guides, designer tips, home tours, and more!, Help: Decorating guides, designer tips, home tours, and more! (opens in new window), Value: …
+								709 heading THE CHAIRISH APP, Value: 4
+									710 text THE CHAIRISH APP
+								711 content list
+									712 link For iPhone, iPad, and Android, Help: For iPhone, iPad, and Android (opens in new window), Value: …
+								713 link Get The App, Help: Get the App (opens in new window), Value: …
+								714 text  Scan the QR code to download the app!
+							715 container
+								716 text  Newsweek Best Online Shops  USA Today Readers' Choice  Goldman Sachs Intriguing Entrepreneurs  Newsweek Best Trending Online Shops
+							717 container
+								718 content list
+									719 link , Help: Instagram (opens in new window), Value: …
+									720 link , Help: Facebook (opens in new window), Value: …
+									721 link , Help: Pinterest (opens in new window), Value: …
+									722 link , Help: Twitter (opens in new window), Value: …
+								723 content list
+									724 container
+										725 text © 2026 Chairish, Inc. All rights reserved.
+										726 link Privacy Policy, Help: Privacy Policy (opens in new window), Value: …
+										727 text  | 
+										728 link Terms of Service, Help: Terms of Service (opens in new window), Value: …
+										729 text  | 
+										730 link Do Not Sell My Info, Help: Do Not Sell My Info (opens in new window), Value: …
+										731 text  |  Manage Cookies
+									732 text 548 Market Street Suite 69473 San Francisco, CA 94104
+			733 pop-up button Tab search
+			734 container
+				735 tab group
+					736 tab (settable, boolean) (6557) Inside the Pentagon's Anomaly Office | Reality Check - YouTube, Value: off
+						737 button Close
+					738 tab (selected, settable, boolean) My Listings — Dashboard | Chairish, Value: on
+						739 button Close
+			740 button New tab
+		741 text https://www.chairish.com/collection/lighting
+	742 close button
+	743 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	744 minimise button
+745 menu bar
+	746 Chrome
+	747 File
+	748 Edit
+	749 View
+	750 History
+	751 Bookmarks
+	752 Profiles
+	753 Tab
+	754 Window
+	755 Help
+
+The focused UI element is 81 link Pending (152), Value: …

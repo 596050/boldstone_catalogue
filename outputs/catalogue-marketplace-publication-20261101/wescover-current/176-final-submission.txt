@@ -1,0 +1,1616 @@
+- navigation "Page navigation":
+  - button "Expand sidebar":
+  - link:
+    - /url: /creator/MSJZKJh9uMg/dashboard
+  - button:
+  - link:
+    - /url: /creator/MSJZKJh9uMg/pricing-manager
+  - button:
+  - link:
+    - /url: https://www.wescover.com/goto?creatorSid=MSJZKJh9uMg&gac=share
+  - link:
+    - /url: /creator/inbox
+  - button:
+  - button:
+  - link:
+    - /url: /logout?redirect=%2F
+- banner:
+  - link:
+    - /url: /
+  - navigation
+  - generic: Sally
+  - img "Sally"
+- paragraph: Progress Bar
+- generic: Changes Saved. Click Submit to apply updates.
+- button " New Item":
+  - generic: 
+  - text: New Item
+- button "Submit": Submit
+- heading "Your Page" [level=2]
+- heading "Creator Profile" [level=3]
+- generic: Welcome to Wescover! Here's where you'll build your page. Include your photo and information about you as a creator. You'll need to list at least one item in order to submit your page, but you can always come back to add more.
+- paragraph: Cover Photo1500x500 px
+- generic: 
+- button "Cover photo is locked"
+- paragraph: Creator Photo400x400 px
+- generic: 
+- button "Creator photo is locked"
+- textbox [disabled]: Boldstone
+- paragraph: Brand Name/ Creator Name/ Studio Name*
+- button "Brand name is locked"
+- textbox
+- paragraph: First Name*
+- textbox
+- paragraph: Last Name*
+- combobox:
+  - searchbox: Bath, England, United Kingdom
+  - paragraph: City*
+  - listbox
+- textbox "https://www.mysite.com": https://boldstonesculpture.com
+- generic: Website
+- textbox "Any style method, idea or element that connects your pieces or work?": Pattern in nature, pared back to texture, light and shadow.
+- generic: Headline Quote
+- textbox "Share your story to connect a new fan- don’t list your resume." [disabled]: "I started Boldstone in 1998 out of a simple obsession with the patterns that turn up everywhere in nature - ripples left in rock, the curve of a wave just before it breaks, the shadow across a half moon, the spiral inside a shell. I pare those down to their boldest form and carve or cast each piece by hand, finishing them in marble stone patterns, gold leaf, verdigris on copper or hand-painted metallics so the surface reads differently as the light moves across it. Everything is handmade in studio: wall reliefs, sculptural furnishings, and commissions built for one particular wall, courtyard or room. Some of my favourite work has come out of those conversations - a piece for a Knightsbridge apartment, a garden at Chelsea, a 2.75m sculpture for a palace courtyard in Riyadh."
+- paragraph: Bio
+- button "Bio is locked"
+- paragraph: Business Value Tags (optional)
+- paragraph: Select up to 6 values that best match your business. These will appear on your item and Creator pages and shoppers will be able to find you when looking for values that match your business.
+- generic: Sustainable
+- generic: Natural materials
+- generic: Upcycled product
+- generic: Handmade
+- generic: Made to order
+- generic: Women owned
+- textbox
+- paragraph: Style (optional)
+- paragraph: Select up to 5 styles that generally apply to all your items to help shoppers find your pieces. You can also add styles at the individual item-level when editing selling details.
+- generic: art deco
+- generic: coastal
+- generic: contemporary
+- generic: minimalism
+- generic: modern
+- textbox
+- paragraph: "How to Work With Me:"
+- paragraph: Check options so buyers understand how to work with you. These will appear on your Creator page.
+- generic: ✓ I do commission/custom work
+- generic: ✓ I offer samples upon request
+- generic: Update Items on your Page
+- paragraph: Each item you submit should be a completed work, designed or created by you. You'll be able to add photos and information about materials, customization options, shipping and pricing. You can also include one-of-a-kind, sold works as inspiration for commissions / custom projects.
+- article:
+  - paragraph: Add New Product
+  - paragraph: Create a new product by adding your completed work, along with photos, customization options, shipping, and pricing details.
+  - button " New Item":
+    - generic: 
+    - text: New Item
+  - button "Prefer the old way? Use the classic form":
+    - generic: Prefer the old way? Use the classic form
+- paragraph: Easy Upload Products
+- paragraph: Upload new products easily from Etsy, Squarespace, or other platforms using the CSV upload option. Quickly import multiple product listings at once.
+- button "Upload": Upload
+- paragraph: Connect your online store
+- paragraph: Connect your store on Shopify and more seamlessly sync and manage everything in one place from pricing, stock to shipping.
+- link "Know More":
+  - /url: https://docs.wescover.com/en/articles/5374817-creators-shopify-integration
+  - button "Know More": Know More
+- region "Running a sale? Discount your whole catalog at once":
+  - button "New · Pricing tools Running a sale? Discount your whole catalog at once":
+    - generic: ⌄
+    - generic: New · Pricing tools
+    - generic: Running a sale? Discount your whole catalog at once
+  - heading "Running a sale? Discount your whole catalog at once" [level=3]
+  - paragraph: Set a percentage or fixed markdown across every product — or just the ones you pick — and let buyers see the compare-at price. No spreadsheets, no editing one product at a time.
+  - list:
+    - text: "% or fixed amount"
+    - text: Apply to all or selected
+    - text: Preview before you save
+  - generic: Stoneware mug
+  - generic: $48$36
+  - generic: Serving bowl
+  - generic: $120$90
+  - generic: Vase, tall
+  - generic: $95$71
+  - generic: −25% APPLIED TO YOUR CATALOG
+  - link "Set up a bulk discount":
+    - /url: /creator/MSJZKJh9uMg/pricing-manager
+    - text: Set up a bulk discount
+  - paragraph: Nothing changes until you press Save.
+- generic: Show items by popularity based on shopper’s Click Rate (recommended). Changes visible on your live page only
+- generic: Manually edit order of items on your page. Hold & drag item cards below to change their order as per your preference
+- textbox "Search your items":
+  - /placeholder: Search your items by name
+- button "Category All":
+  - generic: Category
+  - generic: All
+- group "Items view":
+  - button "Grid view" [pressed]:
+  - button "List view":
+- article:
+  - generic "Furniture/Furniture/Tables — side table, console table, floating table": Side Table
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Terracotta Top Accent Table with Metal Legs" [level=3]
+  - generic "Private Residence":
+    - generic: Private Residence
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Acanthus Bloom - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Strata Relief - Verdigris" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Two Frozen Decowaves Wall Sculpture" [level=3]
+  - generic "Private Residence":
+    - generic: Private Residence
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Icarus I - Abstract Cave Relief" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Brancusi Totem Relief - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Chiswick Moon Fountain" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Crater Moon I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Acanthus Moon - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Crater Moon III - Verdigris and Rust" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Ammonite Grande I (Left) - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Crater Moon III - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Crater Moon IV - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Cultivation Folds Relief - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Cup Ring and Spiral Paver I - Brown" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Coral Spiral Relief - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Cup Ring and Spiral Paver II - Brown" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Battersea Shellmoon I Fountain - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Bone Water Spiral Relief - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Crater Moon II - Verdigris and Rust" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Crater Moon Basin - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Deco Dune Spiral - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Azure Marble-Effect Relief - Blue and White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Crater Moon IV - Silver and Bronze" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Bone Spiral II (Wide) - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Botanical Form - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Brancusi Meander II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Acanthus Twin Leaves - Pewter" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Ammonite Grande II (Right) - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Acanthus Frond (Left) - Pewter" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Battersea Shellmoon II Fountain - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Brancusi Meander I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Battersea Shellmoon I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Chiswick Moon Relief" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Crater Moon II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Crater Moon IV - Verdigris" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Deco Dune Wave - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Crater Moon II - Blue Splash" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Acanthus Moon - Gold Finish" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Ammonite Petite I (Left) - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Brancusi Meander I - Gold Finish" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Ancient Cup Ring - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Curving Leaf - White and Gold Finish" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Crater Moon I - Verdigris and Rust" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Acanthus Twin Leaves - Bronze" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Acanthus Twin Leaves - Pale Blue and White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Crater Moon IV - Verdigris and Rust" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Ammonite Petite II (Right) - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Deco Dune Spiral - Verdigris" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Deco Dune Wave - Verdigris" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Brancusi Meander II - Gold Finish" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Ancient Spiral - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Acanthus Twin Leaves - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Acanthus Frond (Left) - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Bone Spiral I (Narrow) - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Frozen Deco Wave II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Dune Ripple I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Echo Rhythm I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Fingerprint Rings II - Cream" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Frozen Deco Wave I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Deco Wave I - Terracotta" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Echo Rhythm II - Verdigris" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Egyptian Palm I - Gold Finish" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Folded Swan Wing - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Fold and Unfold IV - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Dune Ripple II - Gold" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Fossil Sand Ripple Relief - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Deco Wave I - Verdigris" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Embedded Seashells - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Gleneagles Vine I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Egyptian Palm I - Black and White Marble Effect" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Deco Wave II - Terracotta" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Egyptian Palm II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Egyptian Palm III (Three Leaves) - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Frozen Fish Relief - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Fingerprint Rings III - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Dune Ripple I - Verdigris and Rust" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Fingerprint Rings I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Frozen Fish Relief - Verdigris" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Echo Rhythm II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Dune Ripple II - Rust" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Fingerprint Rings I - Cream" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Deco Wave II - Verdigris" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Egyptian Palm I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Egyptian Fountain Palm - Bronze and Verdigris" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Dune Ripple I - Rust" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Deco Palm II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Frozen Fish Relief - Terracotta" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Deco Timeless Spiral - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Dune Ripple II - Bronze and Verdigris" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Dune Ripple II - Copper with Verdigris Accents" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Egyptian Fountain Palm - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Deco Palm I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Dune Ripple II - Copper" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Deco Golden Spiral - White and Gold" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Egyptian Palm IV (Extended) - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Dune Ripple II - Verdigris and Copper" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Dune Ripple I - Blue Verdigris and Bronze" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Dune Ripple II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Echo Rhythm I - Verdigris" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Egyptian Palm I - Pewter" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Fingerprint Rings II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Fingerprint Rings III - Cream" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Folded Fan - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Dune Ripple I - Verdigris" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Marbled Circle - Pale Blue" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lunar Phase IV - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Gleneagles Vine III - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Marbled Circle - Terracotta" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Islington Shellmoon Fountain - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Magnolia Growth - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Moon Fish Wave II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Golden Facets - Gold Finish" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lunar Spiral II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Patina Panel - Rust and Verdigris" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lava Moonshell I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Marbled Circle - Azure Blue and White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Gleneagles Vine II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lunar Phase II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lunar Phase III - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Raked Spiral II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Raked Spiral III - Beige" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Raked Spiral III - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Gleneagles Vine IV - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Leaf Silhouette II - Gold" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lunar Spiral I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lunar Phase I (Bordered) - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Sculpted Curves - Beige" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Moon Fish Wave I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Moon and Shell Wave II - Black and White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Sculpted Curves - Textured Gold Finish" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Soundwave Rhythm - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Spice Texture I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Moon and Shell Wave II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lunar Water Catcher - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lunar Wave - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Marbled Circle - Turquoise" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lunar Phase I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lunar Phase II (Bordered) - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Mediterranean Fountain Palm - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Magnolia Growth - White and Gold Finish" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Quarter Moon Relief - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lunar Phase IV - Silver" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lava Moonshell Corner Curve - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Islington Shellmoon Relief - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lava Moonshell II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Smooth Sand Ripple Relief - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Raked Spiral I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Moon and Shell Wave I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Marbled Circle - Green and White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lunar Phase II - White and Gold" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lunar Phase IV - White and Gold" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lunar Spiral III - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Leaf Silhouette - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lunar Ring - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Spiralfish Wave and Tide II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Textured Earth - Blue, Brown and Rust" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Spiralfish Wave and Tide II - Bronze" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Spice Texture II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Spiralfish Wave and Tide I - Bronze" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Wave and Moonshadow I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Strata Relief - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Wave and Moonshadow II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Wide-Lip Crater Moon - Rust Drip" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "World Colours Circle - Brass" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Strata Relief - Blue Wash Verdigris" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Spiralfish Wave and Tide I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Textured Earth - Rust and Blue Patina" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Spiral Moon Relief - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Barbados Wave Relief" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Chelsea Moonwave Relief" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Knightsbridge Fountain Relief - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lava Moon I - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lava Moon II - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Lava Moon III - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Riyadh Dune Ripple - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Riyadh Moon - White" [level=3]
+- article:
+  - generic "Art & Decor/Art & Wall Decor/Wall Hangings — wall sculpture": Wall Sculpture
+  - button "Edit item":
+    - generic: Edit item
+  - button "Duplicate item":
+    - text: Duplicate item
+  - text: Drag to reorder
+  - heading "Riyadh Shellmoon Relief" [level=3]
+- generic: Resources to Share with Clients
+- paragraph:
+  - text: If you have documents you typically share with clients to facilitate conversations about custom work (Product Spec sheet, custom options, etc), you should upload them here. You can specify which items and types of buyers they relate to below. Potential buyers will be able to access and download these resources from your Wescover page via a chat window. When they do, we’ll set up a conversation in your inquiry inbox and notify you, so you can follow up with them.
+  - text: Giving potential buyers these resources up front can make your inquiries more efficient and shorten the time to sale!
+- button "Add File"
+- generic: Creator Video
+- paragraph: Add a video about your business and creative process to be displayed directly on your creator page and also for all your items.
+- paragraph:
+  - text: "A few quick tips:"
+- list:
+  - listitem: Share the story of your business and/or give a peek at the process of making your items.
+  - listitem: Introduce yourself to potential buyers and highlight what makes your items special.
+  - listitem: We recommend that videos be no longer than 90 seconds and have a resolution of at least 720px
+- heading "Creator Video" [level=3]
+- textbox "Paste a youtube / vimeo video link"
+- button "Embed Video"
+- generic: Or
+- button "Upload Video"
+- paragraph: You can edit/add to your submission anytime. We’ll review, connect, and SEO optimize each post for you so please allow up to 24h to process each new submission.
+- paragraph: Welcome to the Community!
+- button "Submit": Submit
+- contentinfo:
+  - link:
+    - /url: /
+  - list:
+    - link "FAQ":
+      - /url: https://www.wescover.com/faq
+    - link "CONTACT US":
+      - /url: mailto:communication@wescover.com
+  - link "":
+    - /url: https://www.facebook.com/wescoverapp/
+    - generic: 
+  - link:
+    - /url: https://www.tiktok.com/@wescover.app
+  - link "":
+    - /url: https://instagram.com/wescoverapp
+    - generic: 
+  - link "© 2026 Wescover, Inc.":
+    - /url: https://www.wescover.com/about
+  - link "Privacy":
+    - /url: https://www.wescover.com/static/privacy
+  - link "Terms":
+    - /url: https://www.wescover.com/static/generalterms
+- button "Feedback - Show survey":
+  - generic: Feedback
+- region:
+  - heading: How would you rate your experience?
+  - generic: Select an option from 😠 to 😍, with 😠 being Hate and 😍 being Love
+  - radiogroup:
+    - radio
+    - radio
+    - radio
+    - radio
+    - radio
+    - generic: Hate
+    - generic: Love
+  - button [disabled]: Next
+- iframe [id="intercom-frame"]
+- generic: 
+- heading "We've received your submission" [level=2]
+- paragraph: Please allow up to 24h for us to review and upload this submission. You can continue to edit your page while we are reviewing.
+- button "Okay": Okay

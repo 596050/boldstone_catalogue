@@ -1,0 +1,374 @@
+Window: "Complete your listing | Boldston…ve - White Wall sculpture | eBay", App: Google Chrome.
+0 standard window Secondary Actions: Raise, Complete your listing | Boldstone Lunar Wave - White Wall sculpture | eBay – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: ebay.co.uk/lstng?draftId=5456511575611&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+	1 container Complete your listing | Boldstone Lunar Wave - White Wall sculpture | eBay – Part of group 📦 Marketplace completion - Google Chrome – Tom, URL: ebay.co.uk/lstng?draftId=5456511575611&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: ebay.co.uk/lstng?draftId=5456511575611&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+					10 button Zoom: 80%
+					11 button Bookmark this tab
+				12 container
+					13 pop-up button AdBlock — block ads across the web
+Has access to this site
+					14 pop-up button ColorZilla
+Has access to this site
+					15 pop-up button Video Speed Controller
+Has access to this site
+					16 pop-up button React Developer Tools
+Has access to this site
+					17 pop-up button PayPal Honey
+Has access to this site
+					18 pop-up button JSONVue
+Has access to this site
+					19 pop-up button Open Claude
+Has access to this site
+					20 pop-up button ChatGPT
+Has access to this site
+					21 pop-up button Extensions
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Complete your listing | Boldstone Lunar Wave - White Wall sculpture | eBay, URL: ebay.co.uk/lstng?draftId=5456511575611&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts
+						27 container
+							28 image
+							29 image
+							30 container
+								31 link Skip to main content, Value: ebay.co.uk/lstng?draftId=5456511575611&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts#mainContent
+								32 link eBay Home, Value: ebay.co.uk/
+							33 container
+								34 button Help
+								35 button More options
+								36 heading Complete your listing, Value: 1
+									37 text Complete your listing
+								38 heading PHOTOS & VIDEO, Value: 2
+									39 text PHOTOS & VIDEO
+								40 button See photo options
+								41 container
+									42 text You can add up to 24 photos and a 1-minute video. Buyers want to see all details and angles.
+									43 container Learn about the photo tips to attract more buyers
+										44 button Tips for taking pro photos
+								45 text 13 out of 25 photos or videos uploaded
+								46 button Select
+								47 button Edit or view photo 1
+								48 button Edit or view photo 2
+								49 button Edit or view photo 3
+								50 button Edit or view photo 4
+								51 button Edit or view photo 5
+								52 button Edit or view photo 6
+								53 button Edit or view photo 7
+								54 button Edit or view photo 8
+								55 button Edit or view photo 9
+								56 button Edit or view photo 10
+								57 button Edit or view photo 11
+								58 button Edit or view photo 12
+								59 button Edit or view photo 13
+								60 button Add
+								61 button Empty slot. Upload photo
+								62 button Empty slot. Upload photo
+								63 heading TITLE, Value: 2
+									64 text TITLE
+								65 button See title options
+								66 text Item title
+								67 text field (settable) Item title, Value: Boldstone Lunar Wave - White Wall sculpture
+								68 text 43 of 80 characters
+								69 text Custom label (SKU)
+								70 button Help tip for Custom label (SKU) field
+								71 text field (settable) Custom label (SKU), Value: MW-1-74.35
+								72 text 10 of 50 characters
+								73 heading ITEM CATEGORY, Value: 2
+									74 text ITEM CATEGORY
+								75 button Edit Item category
+								76 button Art Sculptures Item category First category
+								77 text in Art
+								78 heading VARIATIONS, Value: 2
+									79 text VARIATIONS
+								80 button Edit Variations
+								81 text Save time and money by listing multiple variations of your item in one multi-quantity, fixed price listing.
+								82 heading ITEM SPECIFICS, Value: 2
+									83 text ITEM SPECIFICS
+								84 container Essential
+									85 heading Essential, Value: 3
+										86 text Essential
+									87 button Material
+									88 button Gypsum-based material
+									89 button Format
+									90 button Format
+									91 button Subject
+									92 button Subject
+									93 button Style
+									94 button Style
+									95 button Artist
+									96 button Sally Price
+									97 button Size
+									98 button Size
+									99 button Theme
+									100 button Theme
+									101 button Features
+									102 button Features
+									103 button Original/Licensed Reproduction
+									104 content list Original/Licensed Reproduction
+										105 toggle button Original, Value: 0
+											106 text Original
+										107 toggle button Licensed Reproduction, Value: 0
+											108 text Licensed Reproduction
+									109 button Production Technique
+									110 button Production Technique
+									111 button Culture
+									112 button Culture
+									113 button Year of Production
+									114 button Year of Production
+									115 button Time Period Produced
+									116 button Time Period Produced
+									117 button Region of Origin
+									118 button Region of Origin
+									119 button Type
+									120 button Type
+									121 button Item Height
+									122 button 74 cm
+									123 button Item Length
+									124 button 9 cm
+									125 button Item Width
+									126 button 35 cm
+								127 container Optional
+									128 heading Optional, Value: 3
+										129 text Optional
+									130 button Signed
+									131 content list Signed
+										132 toggle button Yes, Value: 0
+											133 text Yes
+										134 toggle button No, Value: 0
+											135 text No
+									136 button Signed By
+									137 text field (disabled) Signed By
+									138 container
+										139 text Signed  is required before providing  Signed By
+									140 button Country of Origin
+									141 button Country of Origin
+									142 button Unit of Sale
+									143 button Single Piece
+								144 button Show more
+								145 heading CONDITION, Value: 2
+									146 text CONDITION
+								147 heading Item condition, Value: 3
+									148 text Item condition
+								149 button New Item condition
+								150 heading DESCRIPTION, Value: 2
+									151 text DESCRIPTION
+								152 content list
+									153 button Bold
+									154 button Unordered list
+									155 pop-up button Custom template
+										156 text Custom template
+									157 button Show all options
+								158 container Description
+									159 HTML content about:srcdoc
+										160 text entry area (settable) Description, Value: A sweeping wave meets a lunar-inspired curve in this fluid relief. The design gives the wall a sense of movement while keeping the overall composition calm and balanced.
+It brings to mind moonlight crossing water, with each change of light revealing another part of the form.
+The white finish keeps the focus on the form and its changing shadows.
+Brand: Boldstone
+Product type: Wall sculpture
+Model: Lunar Wave - White (MW-1-74.35)
+Colour / appearance: White marble stone finish
+Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+Material: Made from a gypsum-based material.
+Dimensions: 74 cm high × 35 cm wide × 9 cm deep
+Weight: Approximately 18 kg
+Use: Suitable for outdoor use and indoor display.
+Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+Availability: Ready to dispatch
+Dispatch time: Within 3 working days. Delivery transit time is additional.
+Delivery: The available delivery service and charge are shown in this eBay listing. Carrier transit time is additional to dispatch time.
+All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+											161 text A sweeping wave meets a lunar-inspired curve in this fluid relief. The design gives the wall a sense of movement while keeping the overall composition calm and balanced.
+											162 text It brings to mind moonlight crossing water, with each change of light revealing another part of the form.
+											163 text The white finish keeps the focus on the form and its changing shadows.
+											164 text Brand: Boldstone
+											165 text Product type: Wall sculpture
+											166 text Model: Lunar Wave - White (MW-1-74.35)
+											167 text Colour / appearance: White marble stone finish
+											168 text Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+											169 text Material: Made from a gypsum-based material.
+											170 text Dimensions: 74 cm high × 35 cm wide × 9 cm deep
+											171 text Weight: Approximately 18 kg
+											172 text Use: Suitable for outdoor use and indoor display.
+											173 text Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+											174 text Availability: Ready to dispatch
+											175 text Dispatch time: Within 3 working days. Delivery transit time is additional.
+											176 text Delivery: The available delivery service and charge are shown in this eBay listing. Carrier transit time is additional to dispatch time.
+											177 text All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+								178 button Use AI description
+								179 heading PRICING, Value: 2
+									180 text PRICING
+								181 button See pricing options
+								182 text Format
+								183 pop-up button Format Buy It Now
+									184 text Buy It Now
+								185 container
+									186 text Item price
+									187 text £
+									188 text field (settable) Item price, Value: 94.74
+									189 text + £ 4.49 Buyer Protection fee
+								190 text Buyer will pay
+								191 text field (settable) Buyer will pay, Value: 99.23
+								192 container
+									193 text You can edit the price buyers see in your listing. We recommend rounded prices, for example £6, £15 or £82.
+									194 button Dismiss tourtip
+								195 container information
+									196 image information
+									197 text UK buyers will pay £99.23, which includes the 
+									198 button Buyer Protection fee
+									199 text .
+								200 Tick box Require immediate payment when buyer uses Buy it now, Value: 0
+								201 text Quantity
+								202 text field (settable) Quantity, Value: 1
+								203 text (optional) Interested buyers can send an offer for this item. You can accept, counter or decline. Buyer offers may include a Buyer Protection fee, paid to eBay.
+								204 switch Allow offers, Value: off
+								205 text Your listing goes live immediately, unless you select a time and date you want it to start.
+								206 switch Schedule your listing, Value: off
+								207 heading DELIVERY DETAILS, Value: 2
+									208 text DELIVERY DETAILS
+								209 button See postage options
+								210 content list Delivery method
+									211 button Postage or collection in person Let buyers choose how they get their items.
+									212 toggle button Postage only Post items directly to buyers., Value: 1
+									213 button No postage. Collection in person only Arrange collection in person without any postage costs.
+								214 heading Package size, Value: 3
+									215 text Package size
+								216 button Small parcel Up to 2 kg, 45 x 35 x 16 cm
+								217 heading Domestic postage, Value: 3
+									218 text Domestic postage
+								219 text Simple Delivery
+								220 text Prepaid Royal Mail, Evri or InPost label provided Full protection and tracking 1–3 business days
+								221 button How it works
+								222 link Choose couriers, Value: ebay.co.uk/ship/prf/simpledelivery?returnUrl=https%3A%2F%2Fwww.ebay.co.uk%2Flstng%3FdraftId%3D5456511575611%26mode%3DAddItem%26ReturnURL%3Dhttps%253A%252F%252Fwww.ebay.co.uk%252Fsh%252Flst%252Fdrafts
+								223 heading Who pays?, Value: 4
+									224 text Who pays?
+								225 content list
+									226 button Buyer pays
+									227 button Seller pays
+								228 text The buyer will pay rates starting from: £3.89 Based on the service they select
+								229 heading Preferences, Value: 3
+									230 text Preferences
+								231 heading Your settings, Value: 4
+									232 text Your settings
+								233 text 3 working days handling Item location BA2 7BX (Bath, Somerset, United Kingdom) Postcode not visible on listing Domestic returns Accepted within 30 days Buyer pays return postage International returns Accepted within 30 days Buyer pays return postage
+								234 button Your settings - edit
+								235 text Excluded locations (optional)
+								236 button Excluded locations
+								237 heading ITEM DISCLOSURES, Value: 2
+									238 text ITEM DISCLOSURES
+								239 text Add product information to meet regulatory requirements in your buyer's region. Upload user guides, certificates, documents and accessibility information that are included with the item. 
+								240 link Learn more – opens in a new window or tab, Value: ebay.co.uk/help/selling/selling/hazardous-materials-labeling?id=5407
+								241 switch Product documents, Value: off
+								242 heading PROMOTE YOUR LISTING, Value: 2
+									243 text PROMOTE YOUR LISTING
+								244 text COMPETITIVE CATEGORY
+								245 text 45% of items in Art Sculptures are promoted right now.
+								246 container
+									247 text Sponsored
+								248 heading General, Value: 4
+									249 text General
+								250 switch Toggle General, Value: off
+								251 text 90% more visibility, on average.
+								252 button More visibility explanation
+								253 content list
+									254 text Basic access to ad placements
+									255 text Only pay when your item sells
+								256 heading Priority, Value: 4
+									257 text Priority
+								258 switch Toggle Priority, Value: off
+								259 text 170% more visibility, on average.
+								260 button More visibility explanation
+								261 content list
+									262 text Exclusive access to the top of search
+									263 text Advanced targeting and bid controls
+									264 text Priority ranking in ad placements
+									265 text Only pay for clicks on your ads
+								266 button Help me choose
+								267 heading CHARITY, Value: 2
+									268 text CHARITY
+								269 button Edit Charity
+								270 container information
+									271 image information
+									272 container
+										273 text Donate a portion of this sale to the charity of your choice. 
+										274 link Learn more Opens in a new window or tab, Value: ebay.co.uk/help/donating-ebay-charity/default/buying-selling-ebay-benefit-nonprofit-organizations?id=4668
+								275 heading Listing fee, Value: 2
+									276 text Listing fee
+								277 text £0.00 No 
+								278 link transaction fees, Value: ebay.co.uk/help/selling/fees-credits-invoices/fees-private-sellers?id=4822
+								279 text  will be applied. You accept that the duration of your listing may vary due to delayed appearance in search. 
+								280 link Learn more, Value: ebay.co.uk/help/selling/listings/listings-overview?id=4072
+								281 text By selecting List it for free, you agree to pay the above fees, accept the 
+								282 link eBay User Agreement - opens in new window or tab, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+								283 text , 
+								284 link Payments Terms of Use - opens in new window or tab, Value: pages.ebay.co.uk/payment/2.0/terms.html
+								285 text , 
+								286 link Marketing Program Terms - opens in new window or tab, Value: pages.ebay.co.uk/sell/pl/termsofservice.html
+								287 text  and 
+								288 link Delivery Terms and Conditions - opens in new window or tab, Value: pages.ebay.co.uk/managed-shipping-sellers/
+								289 text ; acknowledge reading the 
+								290 link User Privacy Notice - opens in new window or tab, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+								291 text , agree to offer products and services that comply with all applicable laws, and assume full responsibility for the item offered and the content of your listing. By using Simple Delivery, you agree to the 
+								292 link eBay delivery Terms and Conditions, Value: pages.ebay.co.uk/shipping/delivery/seller-tnc.html
+								293 text .
+								294 button List it for free
+								295 button Save for later
+								296 button Preview
+								297 text 'Buy It Now' listings will renew automatically every month based on the listing terms at that time, until the item sells or the listing is ended. 
+								298 link Fees may apply. - opens in new window or tab, Value: ebay.co.uk/help/selling/fees-credits-invoices/selling-fees?id=4822
+								299 text To improve your chances of selling, we may send you offers from buyers that you can choose to accept or decline. Funds from your sales may be unavailable and show as pending for a period of time. 
+								300 link Learn more - opens in new window or tab, Value: ebay.co.uk/help/selling/selling-getting-paid/pending-payments?id=4155
+							301 container
+								302 container
+									303 text Copyright © 1995-2026 eBay Inc. All Rights Reserved. 
+									304 link User Agreement, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-agreement?id=4259
+									305 text , 
+									306 link Privacy, Value: ebay.co.uk/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+									307 text , 
+									308 link Payments Terms of Use, Value: pages.ebay.co.uk/payment/2.0/terms.html
+									309 text , 
+									310 link Cookies, Value: ebay.co.uk/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+									311 text  and 
+									312 link AdChoice , Value: ebay.co.uk/adchoice
+								313 button Scroll to top
+			314 pop-up button Tab search
+			315 container
+				316 tab group
+					317 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					318 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					319 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					320 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					321 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					322 tab (settable, boolean) Meta Business Suite, Value: off
+					323 tab group  group 📦 Marketplace completion – 4 Tabs, •  Studio | Saatchi Art United Kingdom, •  Complete your listing | Boldstone Islington Sh…, •  Complete your listing | Boldstone Frozen Deco…, •  Complete your listing | Boldstone Lunar Wave -… – Expanded
+					324 tab (settable, boolean) Studio | Saatchi Art United Kingdom – Part of group 📦 Marketplace completion, Value: off
+					325 tab (settable, boolean) Value: off, Complete your listing | Boldstone Islington Shellmoon Relief - White Wall sculpture | eBay – Part of group 📦 Marketplace completion
+					326 tab (settable, boolean) Value: off, Complete your listing | Boldstone Frozen Deco Wave II - White Wall sculpture | eBay – Part of group 📦 Marketplace completion
+					327 tab (selected, settable, boolean) Value: on, Complete your listing | Boldstone Lunar Wave - White Wall sculpture | eBay – Part of group 📦 Marketplace completion
+						328 button Close
+					329 tab (settable, boolean) Products – Faire, Value: off
+					330 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					331 tab (settable, boolean) Create listings, Value: off
+			332 button New tab
+	333 close button
+	334 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	335 minimise button
+336 menu bar
+	337 Chrome
+	338 File
+	339 Edit
+	340 View
+	341 History
+	342 Bookmarks
+	343 Profiles
+	344 Tab
+	345 Window
+	346 Help
+
+The focused UI element is 26 HTML content Complete your listing | Boldstone Lunar Wave - White Wall sculpture | eBay, URL: ebay.co.uk/lstng?draftId=5456511575611&mode=AddItem&ReturnURL=https%3A%2F%2Fwww.ebay.co.uk%2Fsh%2Flst%2Fdrafts

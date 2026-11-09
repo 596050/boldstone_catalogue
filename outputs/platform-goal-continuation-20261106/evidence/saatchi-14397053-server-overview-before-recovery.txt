@@ -1,0 +1,151 @@
+Window: "Studio | Saatchi Art United Kingdom", App: Google Chrome.
+0 standard window Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14397053/overview, Secondary Actions: Raise
+	1 container Studio | Saatchi Art United Kingdom - Google Chrome – Tom, URL: saatchiart.com/en-gb/studio/art/14397053/overview
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: saatchiart.com/en-gb/studio/art/14397053/overview, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Relaunch to update
+			23 container
+				24 scroll area
+					25 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/art/14397053/overview
+						26 container
+							27 container
+								28 text Fax
+								29 text field (settable) Fax
+							30 link fax, Value: saatchiart.com/facsimile-npc
+							31 link Skip to Main Content, Value: saatchiart.com/en-gb/studio/art/14397053/overview#skip-to-content
+							32 container
+								33 button Close Menu
+								34 link Saatchi Art logo, Value: saatchiart.com/en-gb
+								35 text Studio
+								36 link SALLY PRICE, Value: saatchiart.com/en-gb/account/profile/3090713
+								37 container
+									38 button Manage Artworks
+									39 content list
+										40 link My Portfolio, Value: saatchiart.com/en-gb/studio/artworks
+										41 link Artwork Uploader, Value: saatchiart.com/en-gb/studio/upload
+									42 button Sales Dashboard
+									43 link Offers Dashboard, Value: saatchiart.com/en-gb/account/offers
+									44 button Sponsored Listings
+									45 button Profile Information
+									46 link Addresses, Value: saatchiart.com/en-gb/studio/address
+									47 button Account
+							48 container
+								49 button Back to Artworks
+								50 Unlabelled image To get missing image descriptions, open the context menu.
+								51 text Raked Spiral III - White Visibility:  Draft
+								52 button Publish
+								53 text Draft can not be published. Your Draft must be completed to publish.
+								54 button DELETE ARTWORK
+								55 heading Images, Value: 2
+									56 text Images
+								57 button Edit
+								58 Unlabelled image /13459005-BOWYYYEJ-22.jpg
+								59 heading Description, Value: 2
+									60 text Description
+								61 button Edit
+								62 text Subject, Category, Year Subject - Category - Year -
+								63 text Mediums, Materials & Styles Mediums - Materials - Styles -
+								64 text Dimensions -
+								65 text Keywords -
+								66 text Description - Make the Artwork Available for Sale
+								67 button Make Available for Sale
+								68 text Make Prints Available for Sale
+								69 button Add Prints for Sale
+							70 container
+								71 link Saatchi Art logo footer, Value: saatchiart.com/en-gb
+								72 link Saatchi Art - Instagram, Value: instagram.com/saatchiart
+								73 link Saatchi Art - Tiktok, Value: tiktok.com/@saatchi_art
+								74 link Saatchi Art - Facebook, Value: facebook.com/saatchionline
+								75 link Saatchi Art - Pinterest, Value: pinterest.com/saatchiart
+								76 link Saatchi Art - Youtube, Value: youtube.com/channel/UCqfUz6UyK4kKVsnTyPoWZJw
+								77 text Support
+								78 link Community Forum, Value: support.saatchiart.com/hc/en-us/community/topics
+								79 link Help Center, Value: support.saatchiart.com/hc
+								80 link Get Started, Value: support.saatchiart.com/hc/sections/14062766571419
+								81 link Payments, Value: support.saatchiart.com/hc/sections/14563986089883
+								82 pop-up button Request Support
+								83 text Resources
+								84 link Artist Handbook, Value: support.saatchiart.com/hc/categories/14062686015643
+								85 link Packaging Guide, Value: support.saatchiart.com/hc/articles/14709932602139
+								86 link How to Photograph, Value: support.saatchiart.com/hc/articles/17737130295963
+								87 link Artist Tips, Value: canvas.saatchiart.com/category/art/artist-tips
+								88 text Saatchi Art
+								89 link About, Value: saatchiart.com/en-gb/about-us
+								90 link Sell on Saatchi Art, Value: saatchiart.com/en-gb/whysell
+								91 link Affiliate Program, Value: signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4023958
+								92 link Terms of Service, Value: saatchiart.com/en-gb/terms
+								93 link Privacy Notice, Value: saatchiart.com/en-gb/privacy
+								94 link Cookie Notice, Value: saatchiart.com/en-gb/cookie_notice
+								95 link Copyright Policy, Value: saatchiart.com/en-gb/copyright
+								96 link California Notice of Collection, Value: saatchiart.com/en-gb/privacy#12.2
+								97 text Manage Preferences
+								98 link Accessibility, Value: saatchiart.com/en-gb/accessibility
+								99 container View Store Preferences Footer
+									100 image
+									101 text United Kingdom / GBP / Cm
+									102 image
+								103 text © 2010- 2026  Saatchi Art. All Rights Reserved. This site is protected by reCAPTCHA and the Google 
+								104 link Privacy Policy, Value: policies.google.com/privacy
+								105 text  and 
+								106 link Terms of Service, Value: policies.google.com/terms
+								107 text  apply.
+							108 container
+								109 button Manage Preferences
+								110 text Manage Preferences
+			111 pop-up button Tab search
+			112 container
+				113 tab group
+					114 tab (settable, boolean) Seller Dashboard | Furnitures, Value: off
+					115 tab group  group ✅Claude – 1 Tab, •  Products – Faire – Expanded
+					116 tab (settable, boolean) Products – Faire – Part of group ✅Claude, Value: off
+					117 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+					118 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+					119 tab (settable, boolean) Meta Business Suite - High memory usage - 1.0 GB, Value: off
+					120 tab (settable, boolean) Studio | Saatchi Art United Kingdom, Value: off
+					121 tab group  group 🪑 Catalogue distribution – 1 Tab, •  about:blank – Expanded
+					122 tab (settable, boolean) about:blank – Part of group 🪑 Catalogue distribution, Value: off
+					123 tab (selected, settable, boolean) Studio | Saatchi Art United Kingdom, Value: on
+						124 button Close
+			125 button New tab
+	126 close button
+	127 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	128 minimise button
+129 menu bar
+	130 Chrome
+	131 File
+	132 Edit
+	133 View
+	134 History
+	135 Bookmarks
+	136 Profiles
+	137 Tab
+	138 Window
+	139 Help
+
+The focused UI element is 25 HTML content Studio | Saatchi Art United Kingdom, URL: saatchiart.com/en-gb/studio/art/14397053/overview

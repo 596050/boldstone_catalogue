@@ -1,0 +1,129 @@
+Window: "Seller Dashboard | Furnitures", App: Google Chrome.
+0 standard window Seller Dashboard | Furnitures - Google Chrome – Tom, URL: furnitures.co.uk/dashboard/settings, Secondary Actions: Raise
+	1 container Seller Dashboard | Furnitures - Google Chrome – Tom, URL: furnitures.co.uk/dashboard/settings
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: furnitures.co.uk/dashboard/settings, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content Seller Dashboard | Furnitures, URL: furnitures.co.uk/dashboard/settings
+						27 container
+							28 text Free UK delivery on orders over £500  ·  30-day returns  · 
+							29 link Sell on Furnitures, Value: furnitures.co.uk/sell
+							30 link Furnitures., Value: furnitures.co.uk/
+							31 container
+								32 link Shop All, Value: furnitures.co.uk/shop
+								33 link Lighting, Value: furnitures.co.uk/shop?category=lighting
+								34 link Living Room, Value: furnitures.co.uk/shop?category=living-room
+								35 link Bedroom, Value: furnitures.co.uk/shop?category=bedroom
+								36 link Dining, Value: furnitures.co.uk/shop?category=dining
+								37 link Office, Value: furnitures.co.uk/shop?category=office
+								38 link Outdoor, Value: furnitures.co.uk/shop?category=outdoor
+								39 link Sellers, Value: furnitures.co.uk/vendors
+							40 button Search
+							41 link Sell, Value: furnitures.co.uk/sell
+							42 button Account menu
+							43 button Open cart
+							44 container
+								45 text SELLER DASHBOARD
+								46 link Overview, Value: furnitures.co.uk/dashboard
+								47 link Products, Value: furnitures.co.uk/dashboard/products
+								48 link Orders, Value: furnitures.co.uk/dashboard/orders
+								49 link Settings, Value: furnitures.co.uk/dashboard/settings
+							50 heading Shop settings, Value: 1
+								51 text Shop settings
+							52 text How your shop appears to buyers across the marketplace.
+							53 container
+								54 text Shop name
+								55 text field (settable) Shop name, Value: Boldstone Sculpture
+								56 text Tagline
+								57 text field (settable) Tagline, Placeholder: Solid wood, honest craft
+								58 text About your shop
+								59 text entry area (settable) About your shop, Placeholder: Tell buyers who you are, what you make and how you make it…
+								60 text Shop logo Square image — shown as your shop's avatar. Optional.
+								61 button Upload image
+								62 text Shop banner Wide image across the top of your shop page — about 1600×600 works best. Optional.
+								63 button Upload image
+								64 button Save settings
+							65 container
+								66 text Furnitures .
+							67 text The UK marketplace for quality furniture from independent makers and trusted sellers.
+							68 text SHOP
+							69 content list
+								70 link Lighting, Value: furnitures.co.uk/shop?category=lighting
+								71 link Living Room, Value: furnitures.co.uk/shop?category=living-room
+								72 link Bedroom, Value: furnitures.co.uk/shop?category=bedroom
+								73 link Dining, Value: furnitures.co.uk/shop?category=dining
+								74 link Office, Value: furnitures.co.uk/shop?category=office
+								75 link Outdoor, Value: furnitures.co.uk/shop?category=outdoor
+							76 text MARKETPLACE
+							77 content list
+								78 link Our Sellers, Value: furnitures.co.uk/vendors
+								79 link Sell on Furnitures, Value: furnitures.co.uk/sell
+								80 link New Arrivals, Value: furnitures.co.uk/shop?sort=newest
+								81 link Sale, Value: furnitures.co.uk/shop?sale=1
+							82 text HELP
+							83 content list
+								84 text Free UK delivery over £500
+								85 text 30-day returns
+								86 text Secure checkout
+								87 text support@furnitures.co.uk
+							88 container
+								89 text ©  2026  Furnitures.co.uk — All rights reserved.
+							90 text Visa · Mastercard · Amex · Apple Pay · Google Pay
+			91 pop-up button Tab search
+			92 container
+				93 tab group
+					94 tab (selected, settable, boolean) Seller Dashboard | Furnitures, Value: on
+						95 button Close
+					96 tab (settable, boolean) Home – Faire, Value: off
+						97 button Close
+					98 tab (settable, boolean) Boldstone Sculpture – Faire, Value: off
+						99 button Close
+					100 tab (settable, boolean) Value: off, Faire / Boldstone Sculpture: Onboarding - Price Margin Issue - Response Required - info@boldstone.co.uk - Thomas Price Mail
+						101 button Close
+			102 button New tab
+		103 text https://furnitures.co.uk/dashboard/settings
+	104 close button
+	105 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	106 minimise button
+107 menu bar
+	108 Chrome
+	109 File
+	110 Edit
+	111 View
+	112 History
+	113 Bookmarks
+	114 Profiles
+	115 Tab
+	116 Window
+	117 Help
+
+The focused UI element is 49 link Settings, Value: furnitures.co.uk/dashboard/settings
