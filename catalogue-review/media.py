@@ -264,6 +264,7 @@ def enrich(catalogue, root):
                     catalogue.assets[canonical].update(local_preview=True, representation=catalogue.paths[member][1])
                     catalogue.assets[canonical]['original'].update(
                         dimensions=a['original']['dimensions'], sha256=a['original'].get('sha256'),
+                        verified_local_bytes=a['original']['bytes'],
                         locally_verified=True, dimension_basis='Verified original bytes available through an exact-hash duplicate')
                     break
         catalogue.duplicate_groups.append({'canonical_id': canonical, 'member_ids': ids,

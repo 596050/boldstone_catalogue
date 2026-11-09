@@ -14,6 +14,7 @@ from projection import Projection
 from presentation import listing_value
 from component_photos import component_photos
 from costing import product_cost, priced_listing_value, settings as cost_settings
+from image_formats import IMAGE_HEADER_BYTES, image_type_from_header
 
 
 def field_review_matches_source(record, field, source_hash):
@@ -57,21 +58,17 @@ def safe_name(value):
 
 def image_type(path):
     with Path(path).open('rb') as stream:
-        return image_type_from_header(stream.read(16))
+        return image_type_from_header(stream.read(IMAGE_HEADER_BYTES))
 
 
-def image_type_from_header(b):
-    if b.startswith(b'\xff\xd8\xff'):
-        return 'image/jpeg', '.jpg'
-    if b.startswith(b'\x89PNG'):
-        return 'image/png', '.png'
-    if b.startswith((b'GIF87a', b'GIF89a')):
-        return 'image/gif', '.gif'
-    if b.startswith(b'RIFF') and b[8:12] == b'WEBP':
-        return 'image/webp', '.webp'
-    if b.startswith((b'II*\x00', b'MM\x00*')):
-        return 'image/tiff', '.tiff'
-    return 'application/octet-stream', '.bin'
+def copied_identity(stream):
+    """Hash the copied payload through its open descriptor, never a reopened path."""
+    stream.seek(0)
+    sha, blocks = hashlib.sha256(), hashlib.sha256()
+    for block in iter(lambda: stream.read(4 * 1024 * 1024), b''):
+        sha.update(block)
+        blocks.update(hashlib.sha256(block).digest())
+    return {'sha256': sha.hexdigest(), 'dropbox_content_hash': blocks.hexdigest()}
 
 
 def csv_write(path, columns, rows):
@@ -246,16 +243,25 @@ def create_export(catalogue, store, include_media=False):
                         continue
                     is_preview = 'preview' in representation.lower() or 'thumbnail' in representation.lower()
                     with source_bytes:
-                        mime, ext = image_type_from_header(source_bytes.read(16))
+                        mime, ext = image_type_from_header(source_bytes.read(IMAGE_HEADER_BYTES))
                         source_bytes.seek(0)
                         # Preview derivatives stay separate from upload originals.
                         destination = root / ('preview-references' if is_preview else 'media') / use / safe_name(row['product_name'])
                         destination.mkdir(parents=True, exist_ok=True)
                         target = destination / (safe_name(asset['name'])[:70] + '-' + hashlib.sha256(aid.encode()).hexdigest()[:10] + ext)
-                        with target.open('wb') as output_file:
+                        with target.open('w+b') as output_file:
                             shutil.copyfileobj(source_bytes, output_file)
+                            output_file.flush()
+                            copied = copied_identity(output_file)
+                        original = asset.get('original', {})
+                        expected = {key: original[key] for key in ('sha256', 'dropbox_content_hash') if original.get(key)}
+                        if not is_preview and original.get('locally_verified') and (not expected or any(copied[key] != value for key, value in expected.items())):
+                            target.unlink()
+                            row['export_status'] = 'Local cached bytes changed; source link retained'
+                            media_rows.append(row)
+                            continue
                         row['media_file'] = str(target.relative_to(root))
-                        row['media_sha256'] = hashlib.sha256(target.read_bytes()).hexdigest()
+                        row['media_sha256'] = copied['sha256']
                     row['export_status'] = 'Preview reference only' if is_preview else 'Cached source copied; verify production resolution'
                 else:
                     row['export_status'] = 'Local media unavailable; source link retained'

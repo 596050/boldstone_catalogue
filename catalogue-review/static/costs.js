@@ -75,14 +75,30 @@ async function previewCosts(){
     $('#cost-result').innerHTML=costSummary(result,e.pid);$('#cost-alternatives').innerHTML=costAlternatives(result,e.rates.settings);$('#cost-status').textContent='Preview recalculated. Save to keep these inputs.';
   }catch(error){if(costEditor===e&&!e.saving&&e.previewRequest===request&&(!submitted||JSON.stringify(submitted)===JSON.stringify(costFormData())))$('#cost-status').textContent=error.message;}
 }
-async function refreshCostViews(pid){
+function updateCurrentCostFragments(current){
+  const summary=$('#tab-content > .cost-summary');
+  if(summary)summary.outerHTML=costSummary(current.costing,current.id);
+  const price=$('#tab-content [data-calculated-price]'),field=current.fields?.find(item=>item.key==='Price');
+  if(price&&field&&typeof fieldHTML==='function')price.outerHTML=fieldHTML(field);
+}
+async function refreshCostViews(pid,{summaryOnly=false}={}){
   if(state.pid==='__specifications__')await refreshAllSpecifications(true);
   else if(state.current?.id===state.pid&&(!pid||state.pid===pid)){
-    const current=state.current,request=state.request;
-    const product=await api('/api/products/'+encodeURIComponent(current.id));
-    if(state.current===current&&state.request===request){
+    const current=state.current,request=state.request,writeEpoch=state.writeEpoch;
+    let product;
+    try{product=await api('/api/products/'+encodeURIComponent(current.id));}
+    catch(error){
+      if(summaryOnly&&state.current===current&&state.request===request&&state.writeEpoch===writeEpoch){
+        current.costing={...current.costing,status:'needs_inputs',message:'The specification was saved, but costs could not refresh. Reopen this component before using its price.',
+          pricing:{...current.costing?.pricing,listing_value:'',marked_up_price:null}};
+        updateCurrentCostFragments(current);
+      }
+      throw error;
+    }
+    if(state.current===current&&state.request===request&&state.writeEpoch===writeEpoch){
       current.costing=product.costing;
-      if(!state.dirty.size&&['specs','listing'].includes(state.tab))renderSpecs(state.tab==='listing');
+      if(!summaryOnly&&!state.dirty.size&&['specs','listing'].includes(state.tab))renderSpecs(state.tab==='listing');
+      else updateCurrentCostFragments(current);
     }
   }
   if(typeof overviewPayload!=='undefined'&&overviewPayload&&$('#component-overview-dialog')?.open&&(!pid||overviewPayload.product.id===pid))

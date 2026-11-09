@@ -17,6 +17,8 @@ Add `--browser` to exercise the review app and layout lab in Chrome against an
 isolated fake server. This requires Playwright (set `PLAYWRIGHT_MODULE` to its
 `index.mjs` when installed separately) and Chrome or Playwright Chromium.
 Browser screenshots and a workflow receipt are saved alongside the check logs.
+It also verifies 20 fresh page loads, two at a time, checking every startup
+script's response, content type and bytes without retries.
 
 The [9 November bug audit](docs/bug-audit-2026-11-09.md) records the fixes,
 verification and missing private inputs. The earlier channel publication

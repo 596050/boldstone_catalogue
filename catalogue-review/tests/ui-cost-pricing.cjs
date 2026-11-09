@@ -157,3 +157,29 @@ test('cost refresh preserves unsaved specifications and cannot overwrite a later
   const next={id:'B',costing:{sentinel:true}};h.context.state.current=next;h.context.state.pid='B';h.context.state.request++;
   resolve({costing:h.cost});await pending;assert.equal(h.context.state.current,next);assert.equal(next.costing.sentinel,true);
 });
+test('specification saves update cost and markup fragments without replacing unsaved forms',async()=>{
+  const h=harness(),rendered=[];
+  h.context.state.current={id:'A',fields:[{key:'Price'}],costing:{}};h.context.state.pid='A';h.context.state.request=1;h.context.state.tab='specs';
+  h.context.state.dirty.add('field-Weight');h.context.renderSpecs=()=>rendered.push(true);
+  h.context.fieldHTML=()=>'<article>Fresh markup price</article>';h.context.api=async()=>({costing:h.cost});
+  await h.run("refreshCostViews('A',{summaryOnly:true})");
+  assert.equal(h.context.state.current.costing,h.cost);assert.deepEqual(rendered,[]);
+  assert.match(h.node('#tab-content > .cost-summary').outerHTML,/£76.66/);
+  assert.match(h.node('#tab-content [data-calculated-price]').outerHTML,/Fresh markup price/);
+  assert.equal(h.context.state.dirty.has('field-Weight'),true);
+});
+test('cost refresh cannot install a response captured before another specification save',async()=>{
+  const h=harness();let resolve;
+  h.context.state.current={id:'A',costing:{sentinel:true}};h.context.state.pid='A';h.context.state.request=1;h.context.state.tab='specs';
+  h.context.api=()=>new Promise(r=>resolve=r);
+  const pending=h.run("refreshCostViews('A',{summaryOnly:true})");h.context.state.writeEpoch++;
+  resolve({costing:h.cost});await pending;assert.equal(h.context.state.current.costing.sentinel,true);
+});
+test('failed derived-cost read withholds stale amounts while preserving the successful specification save',async()=>{
+  const h=harness();h.context.state.current={id:'A',costing:h.cost};h.context.state.pid='A';h.context.state.request=1;h.context.state.tab='specs';
+  h.context.api=async()=>{throw Error('Read unavailable');};
+  await assert.rejects(h.run("refreshCostViews('A',{summaryOnly:true})"));
+  assert.equal(h.context.state.current.costing.status,'needs_inputs');
+  assert.equal(h.context.state.current.costing.pricing.listing_value,'');
+  assert.match(h.node('#tab-content > .cost-summary').outerHTML,/specification was saved/);
+});

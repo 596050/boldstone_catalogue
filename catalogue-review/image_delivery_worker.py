@@ -10,6 +10,7 @@ import re
 import sys
 
 from fetch_original import OriginalError, check_metadata
+from image_formats import IMAGE_HEADER_BYTES, image_type_from_header
 
 
 @contextmanager
@@ -47,12 +48,9 @@ def thumbnail(data):
 
 
 def mime_type(first):
-    if first.startswith(b'\xff\xd8\xff'): return 'image/jpeg'
-    if first.startswith(b'\x89PNG\r\n\x1a\n'): return 'image/png'
-    if first.startswith((b'GIF87a', b'GIF89a')): return 'image/gif'
-    if first.startswith(b'RIFF') and first[8:12] == b'WEBP': return 'image/webp'
-    if first.startswith(b'BM'): return 'image/bmp'
-    if first[4:8] == b'ftyp' and first[8:12] in (b'avif', b'avis'): return 'image/avif'
+    mime, _ = image_type_from_header(first)
+    if mime in ('image/jpeg', 'image/png', 'image/gif', 'image/webp', 'image/bmp', 'image/avif'):
+        return mime
     raise OriginalError('Use the thumbnail or source link for this image format.')
 
 
@@ -66,15 +64,31 @@ def stream_original(client, spec, root, output):
     with closing(response):
         check_metadata(metadata, spec['id'], spec['hash'], spec['bytes'], root)
         chunks = iter(response.iter_content(chunk_size=64 * 1024))
-        first = next(chunks, b'')
-        mime = mime_type(first)
+        # HTTP chunks need not align with image signatures. Read a bounded
+        # prefix before choosing the content type, then process every consumed
+        # byte once through the same length/hash/final-chunk checks below.
+        prefix, prefetched, prefetched_length = bytearray(), [], 0
+        needed = min(IMAGE_HEADER_BYTES, spec['bytes'])
+        for chunk in chunks:
+            if not chunk:
+                continue
+            prefetched_length += len(chunk)
+            if prefetched_length > spec['bytes']:
+                raise OriginalError('Original exceeded its pinned size.')
+            prefetched.append(chunk)
+            prefix.extend(chunk[:needed - len(prefix)])
+            if len(prefix) >= needed:
+                break
+        mime = mime_type(prefix)
         send_header(output, mime, spec['bytes'])
         # Keep only one Dropbox hash block in memory. Hold the final HTTP
         # chunk until the whole stream's length and hash have been verified;
         # a broken stream cannot become a complete browser-cached response.
         block_hashes, pending, length, last = hashlib.sha256(), bytearray(), 0, b''
         from itertools import chain
-        for chunk in chain((first,), chunks):
+        for chunk in chain(prefetched, chunks):
+            if not chunk:
+                continue  # Keep the last actual bytes withheld until verification.
             length += len(chunk)
             if length > spec['bytes']:
                 raise OriginalError('Original exceeded its pinned size.')

@@ -4,6 +4,7 @@ import hashlib
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from check_data_layout import check
 
@@ -69,6 +70,58 @@ class DataLayoutTests(unittest.TestCase):
     def test_missing_manifest_reports_failure(self):
         (self.root / 'data/file-manifest.csv').unlink()
         self.assertTrue(check(self.root)[1])
+
+    def test_broken_extra_data_links_are_not_omitted_from_verification(self):
+        (self.target.parent / 'missing.csv').symlink_to('absent.csv')
+        self.assertTrue(check(self.root)[1])
+
+    def test_directory_links_cannot_hide_unlisted_canonical_data(self):
+        hidden = self.root / 'other-data'
+        hidden.mkdir()
+        (hidden / 'unlisted.csv').write_text('unlisted')
+        (self.target.parent / 'hidden-data').symlink_to(hidden, target_is_directory=True)
+        self.assertTrue(check(self.root)[1])
+
+    def test_same_size_target_replacement_during_hashing_is_not_certified(self):
+        real_sha256 = hashlib.sha256
+        replacement = self.root / 'replacement.csv'
+        replacement.write_bytes(b'x' * self.target.stat().st_size)
+        target = self.target
+
+        class ReplacingDigest:
+            def __init__(self):
+                self.digest = real_sha256()
+
+            def update(self, block):
+                self.digest.update(block)
+                replacement.replace(target)
+
+            def hexdigest(self):
+                return self.digest.hexdigest()
+
+        with patch('check_data_layout.hashlib.sha256', side_effect=ReplacingDigest):
+            self.assertTrue(check(self.root)[1])
+
+    def test_legacy_link_retargeted_during_hashing_is_not_certified(self):
+        real_sha256 = hashlib.sha256
+        alternate = self.root / 'alternate.csv'
+        alternate.write_bytes(self.target.read_bytes())
+        legacy = self.legacy
+
+        class RetargetingDigest:
+            def __init__(self):
+                self.digest = real_sha256()
+
+            def update(self, block):
+                self.digest.update(block)
+                legacy.unlink()
+                legacy.symlink_to('../alternate.csv')
+
+            def hexdigest(self):
+                return self.digest.hexdigest()
+
+        with patch('check_data_layout.hashlib.sha256', side_effect=RetargetingDigest):
+            self.assertTrue(check(self.root)[1])
 
 
 if __name__ == '__main__':

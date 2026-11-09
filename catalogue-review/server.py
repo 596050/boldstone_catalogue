@@ -11,12 +11,13 @@ import threading
 import webbrowser
 import subprocess
 import hashlib
+import os
 
 from catalogue import Catalogue
 from exports import create_export, image_type
 from store import Conflict, ReviewStore, validate
 from projection import Projection
-from media import TYPES
+from media import TYPES, is_preview
 from deletions import Deletions
 from review_coverage import coverage, product_coverage
 from live_review import SourceConflict
@@ -41,6 +42,12 @@ from types import SimpleNamespace
 
 HERE = Path(__file__).resolve().parent
 VERSION = '2.19.0'
+
+
+class ReviewHTTPServer(ThreadingHTTPServer):
+    """Accept browser startup bursts before dispatching their asset requests."""
+    request_queue_size = 128
+    daemon_threads = True
 
 
 class Application:
@@ -112,11 +119,17 @@ class Application:
                     stamp = [str(local), stat.st_size, stat.st_mtime_ns, stat.st_ctime_ns]
                 except OSError:
                     local = None
-            return {'id': aid, 'hash': content_hash, 'bytes': original.get('bytes'),
+            return {'id': aid, 'hash': content_hash,
+                    'bytes': (original['bytes'] if original.get('bytes') is not None
+                              else original.get('verified_local_bytes')),
+                    'sha256': original.get('sha256'),
+                    'dropbox_content_hash': original.get('dropbox_content_hash'),
                     'native': bool(asset.get('source') == 'Dropbox' and aid.startswith('id:')
                                    and original.get('dropbox_content_hash') and original.get('bytes')),
                     'local': str(local) if local else None, 'local_stamp': stamp,
-                    'full_local': str(cat.paths[aid][0]) if aid in cat.paths else None}
+                    'full_local': str(cat.paths[aid][0]) if aid in cat.paths else None,
+                    'full_verified': bool(original.get('locally_verified') and aid in cat.paths
+                                          and not is_preview(cat.paths[aid][1]))}
 
     def bootstrap(self):
         view = self.projection()
@@ -428,10 +441,62 @@ class Handler(BaseHTTPRequestHandler):
             pass
 
     def do_GET(self):
-        if urlparse(self.path).path == '/api/image':
+        path = unquote(urlparse(self.path).path)
+        if path == '/api/health':
+            return self.health_response()
+        if path.startswith('/api/exports/'):
+            return self.export_response()
+        if path == '/api/image':
             return self.image_response()
         with self.app.catalogue_lock:
             self.get_response()
+
+    def health_response(self):
+        if not self.headers_ok():
+            return self.send({'error': 'Local access only'}, 403)
+        # Catalogue refresh installs a new object atomically. Reading this
+        # snapshot's size does not need to wait for saves or slow source work.
+        catalogue = self.app.catalogue
+        return self.send({'status': 'ok', 'application': 'boldstone-review',
+                          'version': VERSION, 'products': len(catalogue.products)})
+
+    def export_response(self):
+        if not self.headers_ok():
+            return self.send({'error': 'Local access only'}, 403)
+        name = unquote(urlparse(self.path).path).split('/')[-1]
+        import re
+        if not re.fullmatch(r'\d{8}T\d{6}Z-[0-9a-f]{8}\.zip', name):
+            return self.send({'error': 'Unknown export'}, 404)
+        sent_headers = False
+        try:
+            target = self.app.store.root / 'exports' / name
+            # Media bundles can be much larger than an image. Stream from the
+            # open snapshot instead of reading the archive into RAM or holding
+            # the catalogue lock while the browser downloads it.
+            with target.open('rb') as stream:
+                remaining = os.fstat(stream.fileno()).st_size
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/zip')
+                self.send_header('Content-Length', str(remaining))
+                self.send_header('Cache-Control', 'no-store')
+                self.send_header('X-Content-Type-Options', 'nosniff')
+                self.send_header('Referrer-Policy', 'no-referrer')
+                self.send_header('Content-Disposition', 'attachment; filename="Boldstone-review-' + name + '"')
+                self.end_headers()
+                sent_headers = True
+                while remaining:
+                    chunk = stream.read(min(64 * 1024, remaining))
+                    if not chunk:
+                        raise OSError('The export bundle changed during download.')
+                    self.wfile.write(chunk)
+                    remaining -= len(chunk)
+        except (BrokenPipeError, ConnectionResetError):
+            self.close_connection = True
+        except OSError:
+            if sent_headers:
+                self.close_connection = True
+            else:
+                self.send({'error': 'The export bundle is unavailable; create a new bundle.'}, 404)
 
     def image_response(self):
         if not self.headers_ok() or self.headers.get('Sec-Fetch-Site') == 'cross-site':
@@ -445,8 +510,20 @@ class Handler(BaseHTTPRequestHandler):
                 local = Path(spec['full_local'])
                 if local.is_file() and local.stat().st_size < 150_000_000:
                     mime, _ = image_type(local)
-                    if mime in ('image/png', 'image/jpeg', 'image/webp', 'image/gif'):
+                    if mime in ('image/png', 'image/jpeg', 'image/webp', 'image/gif', 'image/bmp', 'image/avif'):
                         data = local.read_bytes()
+                        if spec.get('full_verified'):
+                            if len(data) != spec['bytes']:
+                                raise Conflict('The retained image bytes changed. Reload its photos.')
+                            sha = spec.get('sha256')
+                            expected = spec.get('dropbox_content_hash')
+                            actual = hashlib.sha256()
+                            if expected:
+                                for offset in range(0, len(data), 4 * 1024 * 1024):
+                                    actual.update(hashlib.sha256(data[offset:offset + 4 * 1024 * 1024]).digest())
+                            if ((sha and hashlib.sha256(data).hexdigest() != sha)
+                                    or (expected and actual.hexdigest() != expected)):
+                                raise Conflict('The retained image bytes changed. Reload its photos.')
                         self.app.image_spec(aid, spec['hash'])
                         return self.send(data, mime=mime)
             if query.get('size') == ['thumb'] or not spec['native']:
@@ -562,14 +639,9 @@ class Handler(BaseHTTPRequestHandler):
             if path == '/api/history':
                 return self.send(self.app.store.history())
             if path == '/api/health':
-                return self.send({'status': 'ok', 'application': 'boldstone-review', 'version': VERSION, 'products': len(self.app.catalogue.products)})
+                return self.health_response()
             if path.startswith('/api/exports/'):
-                name = path.split('/')[-1]
-                import re
-                if not re.fullmatch(r'\d{8}T\d{6}Z-[0-9a-f]{8}\.zip', name):
-                    raise KeyError('Unknown export')
-                target = self.app.store.root / 'exports' / name
-                return self.send(target.read_bytes(), mime='application/zip', disposition='attachment; filename="Boldstone-review-' + name + '"')
+                return self.export_response()
             if path in ('/', '/index.html', '/app.js', '/image-tools.js', '/delete-tools.js', '/bulk-delete.js', '/family-tools.js', '/sync-tools.js', '/sort-core.js', '/sort-tools.js', '/component-tools.js', '/component-overview.js', '/jobs.js', '/specifications.js', '/platform-tasks.js', '/costs.js', '/delivery.js', '/style.css'):
                 target = HERE / 'static' / ('index.html' if path == '/' else path[1:])
                 return self.send(target.read_bytes(), mime=mimetypes.guess_type(target)[0] or 'text/plain')
@@ -728,8 +800,7 @@ def main():
     parser.add_argument('--no-auto-sync', action='store_true', help='Disable Dropbox polling for isolated tests.')
     args = parser.parse_args()
     app = Application(args.project, args.data_dir, auto_sync=not args.no_auto_sync)
-    server = ThreadingHTTPServer(('127.0.0.1', args.port), Handler)
-    server.daemon_threads = True
+    server = ReviewHTTPServer(('127.0.0.1', args.port), Handler)
     server.app = app
     app.sync.start()
     app.jobs.start()

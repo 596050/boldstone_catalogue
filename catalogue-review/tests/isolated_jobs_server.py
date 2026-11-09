@@ -1,7 +1,6 @@
 """Disposable browser QA. Every native call is an in-memory fake, never Dropbox."""
 from pathlib import Path
 from types import SimpleNamespace as NS
-from http.server import ThreadingHTTPServer
 import json
 import argparse
 import sys
@@ -12,7 +11,7 @@ from copy import deepcopy
 sys.path[:0]=[str(Path(__file__).resolve().parent),str(Path(__file__).resolve().parents[1])]
 from test_background_jobs import BackgroundJobTests
 from test_deletions import TARGET
-from server import Application,Handler
+from server import Application,Handler,ReviewHTTPServer
 from background_jobs import BackgroundJobs
 from similarity import Similarity
 from media import TYPES
@@ -263,7 +262,7 @@ if args.cost_model:
         product['fields'] = [{'key': k, 'label': k, 'value': v, 'section': 'Listing copy' if k in ('Name','Description') else 'Specifications', 'basis': 'Isolated fixture', 'qualification': ''} for k,v in [('Name',product['name']),('Dimensions / depth','35 x 20 x 6 cm'),('Weight','4 kg'),('Material / finish','GFRC with verdigris'),('Fixing','Keyhole or French cleat'),('Price','£120'),('Availability','Made to order'),('Lead time','1-2 weeks'),('Description','Test relief')]]
         product['name'] = 'Test Dune Ripple - Verdigris'
         product['fields'][0]['value'] = product['name']
-server=ThreadingHTTPServer(('127.0.0.1',args.port),Handler);server.app=app;server.daemon_threads=True
+server=ReviewHTTPServer(('127.0.0.1',args.port),Handler);server.app=app
 app.jobs.start()
 app.deletion_reviews.start()
 print(json.dumps({'url':f'http://127.0.0.1:{server.server_port}/#L1','data_dir':str(app.store.root),'native':'in-memory fake only'}),flush=True)

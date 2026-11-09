@@ -18,8 +18,9 @@ const child=spawn(python,[path.join(root,'catalogue-review/tests/isolated_jobs_s
   '--port','0','--cost-model','--gallery-layout','--component-controls','--browser-smoke'],{cwd:root,stdio:['ignore','pipe','pipe']});
 let serverLog='',browser,page;
 child.stderr.on('data',chunk=>{serverLog+=chunk;});
-const checks=[],errors=[],blocked=[],apiFailures=[];
+const checks=[],errors=[],blocked=[],apiFailures=[],consoleErrors=[],failedRequests=[],staticResponses=[];
 const report={status:'RUNNING',checks,errors,blocked_external_requests:blocked,api_failures:apiFailures,
+  console_errors:consoleErrors,failed_requests:failedRequests,static_responses:staticResponses,
   native:'in-memory fake only',live_dropbox_calls:0,output};
 async function check(name,operation){await operation();checks.push(name);console.log('PASS '+name);}
 try{
@@ -46,7 +47,14 @@ try{
   });
   page=await context.newPage();page.setDefaultTimeout(10000);
   page.on('pageerror',error=>errors.push(error.message));
-  page.on('response',response=>{const url=new URL(response.url());if(url.pathname.startsWith('/api/')&&response.status()>=400)apiFailures.push({path:url.pathname,status:response.status()});});
+  page.on('console',message=>{if(message.type()==='error')consoleErrors.push(message.text());});
+  page.on('requestfailed',request=>failedRequests.push({url:request.url(),error:request.failure()?.errorText}));
+  page.on('response',response=>{
+    const url=new URL(response.url());
+    if(url.pathname.startsWith('/api/')&&response.status()>=400)apiFailures.push({path:url.pathname,status:response.status()});
+    if(/\.(?:js|css|html)$/.test(url.pathname)||url.pathname==='/')
+      staticResponses.push({path:url.pathname,status:response.status(),type:response.headers()['content-type']});
+  });
   await page.goto(base+'/#L1',{waitUntil:'networkidle'});
   await check('gallery displays synthetic images and all fixture components',async()=>{
     await page.waitForFunction(()=>[...document.querySelectorAll('#image-grid img')].some(image=>image.complete&&image.naturalWidth>0));
@@ -76,6 +84,19 @@ try{
     await page.reload({waitUntil:'networkidle'});await page.locator('[data-tab=specs]').click();
     assert.equal(await page.locator('form[data-field=Weight] [name=value]').inputValue(),'5 kg');
   });
+  await check('dimension saves refresh costs and preserve another unsaved specification',async()=>{
+    const weight=page.locator('form[data-field=Weight]');
+    await weight.locator('[name=notes]').fill('Browser QA measurement note');
+    const dimensions=page.locator('form[data-field="Dimensions / depth"]');
+    await dimensions.locator('[name=decision]').selectOption('edit');
+    await dimensions.locator('[name=value]').fill('70 x 20 x 6 cm');
+    await dimensions.getByRole('button',{name:'Save item',exact:true}).click();
+    await page.waitForFunction(()=>state.current.costing.material_cost===10);
+    assert((await page.locator('#tab-content > .cost-summary').innerText()).includes('£10.00'));
+    assert.equal(await weight.locator('[name=notes]').inputValue(),'Browser QA measurement note');
+    await weight.getByRole('button',{name:'Save item',exact:true}).click();
+    await weight.locator('.save-state').filter({hasText:'Saved locally'}).waitFor();
+  });
   await check('component cost preview and save use the entered amount',async()=>{
     await page.locator('[data-cost-product="L1"]').first().click();
     await page.locator('#cost-form [name=other_cost]').fill('8.25');
@@ -102,6 +123,22 @@ try{
     await page.locator('#component-overview-content .overview-specs').waitFor();
     assert((await page.locator('#component-overview-content').innerText()).includes('5 kg'));
     await page.locator('#component-overview-close').click();
+  });
+  await check('missing dimensions open repairable component costs and save successfully',async()=>{
+    await page.locator('[data-product=L2]').click();await page.locator('[data-tab=specs]').click();
+    const dimensions=page.locator('form[data-field="Dimensions / depth"]');
+    await dimensions.locator('[name=decision]').selectOption('exclude');
+    await dimensions.getByRole('button',{name:'Save item',exact:true}).click();
+    await page.waitForFunction(()=>state.current.costing.status==='needs_inputs');
+    await page.locator('[data-cost-product=L2]').first().click();
+    for(const [name,value] of Object.entries({width_cm:35,height_cm:20,depth_cm:6}))
+      await page.locator('#cost-form [name='+name+']').fill(String(value));
+    await page.locator('#cost-form button[type=submit]').click();
+    await page.locator('#toast').filter({hasText:'Costs and pricing saved'}).waitFor();
+    await page.locator('[data-cost-close]').click();
+    await page.waitForFunction(()=>state.current.costing.status==='calculated');
+    await page.locator('#specifications-view').click();
+    await page.locator('#specification-results .specification-family').waitFor();
   });
   await check('export produces an accessible ZIP bundle',async()=>{
     await page.locator('#export-open').click();await page.locator('#export-run').click();
