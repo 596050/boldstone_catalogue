@@ -1,0 +1,14 @@
+import fs from 'node:fs/promises';
+import {Workbook} from '@oai/artifact-tool';
+const root=new URL('../',import.meta.url);
+const plan=JSON.parse(await fs.readFile(new URL('continuation-2230/merchant-compatible-supplement-plan.json',root),'utf8'));
+if(plan.status!=='PREPARED_NOT_UPLOADED'||plan.rows.length!==176||plan.protected_field_differences!==0)throw Error('Unexpected input');
+const book=Workbook.create(),sheet=book.worksheets.add('Products');
+const values=[plan.headers,...plan.rows.map(r=>plan.headers.map(h=>r[h]))];
+sheet.getRange(`A1:K${values.length}`).values=values;
+book.recalculate();
+const actual=sheet.getRange(`A1:K${values.length}`).values;
+if(JSON.stringify(actual)!==JSON.stringify(values))throw Error('Artifact values differ');
+const quote=value=>'"'+String(value??'').replaceAll('"','""')+'"';
+await fs.writeFile(new URL(plan.output_filename,root),actual.map(r=>r.map(quote).join('\t')).join('\r\n')+'\r\n');
+console.log(JSON.stringify({records:actual.length-1,columns:plan.headers.length,changes:plan.counts}));

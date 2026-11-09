@@ -1,0 +1,15 @@
+import fs from 'node:fs/promises';
+import {Workbook} from '@oai/artifact-tool';
+const root=new URL('../',import.meta.url);
+const plan=JSON.parse(await fs.readFile(new URL('google-supplement-refresh-plan.json',root),'utf8'));
+const book=Workbook.create();
+const sheet=book.worksheets.add('Products');
+const values=[plan.headers,...plan.rows.map(r=>plan.headers.map(h=>r[h]))];
+const last=String.fromCharCode(64+plan.headers.length);
+sheet.getRange(`A1:${last}${values.length}`).values=values;
+book.recalculate();
+const actual=sheet.getRange(`A1:${last}${values.length}`).values;
+if(JSON.stringify(actual)!==JSON.stringify(values))throw Error('Artifact values differ');
+const cell=v=>'"'+String(v??'').replaceAll('"','""')+'"';
+await fs.writeFile(new URL(plan.output_filename||'google-wall-sculptures-supplement-refresh.tsv',root),actual.map(r=>r.map(cell).join('\t')).join('\r\n')+'\r\n');
+console.log(JSON.stringify({records:actual.length-1,columns:plan.headers.length,changes:plan.counts}));

@@ -1,0 +1,30 @@
+"""Write product-specific copy grounded in the reviewed image and current catalogue."""
+import json
+from pathlib import Path
+OUT=Path(__file__).parent
+records=json.loads((OUT/'linkedin-ten-posts.json').read_text())
+copy=[
+('Botanical curves, caught in warm light.', 'Acanthus Moon combines sweeping leaf-like forms with a broad crescent. Raised lines and quiet recesses give this relief a changing rhythm as light moves across the wall. The applied imitation gold leaf finish brings warmth to a garden courtyard or an interior.', 'Gold-toned rectangular wall relief with sweeping raised leaf-like curves and a crescent against a pale wall.'),
+('A narrow wall can still have a strong focal point.', 'Frozen Fish Relief turns a tall, slender panel into a sequence of small projecting forms. The repeated ridges create a lively play of shadow, while the verdigris finish adds sea-green colour. Its proportions make it an interesting option beside an entrance, between planting or within a larger wall arrangement.', 'Tall narrow green wall sculpture with a repeated series of raised horizontal fish-like ridges on a pale background.'),
+('Repetition gives a small relief its presence.', 'Echo Rhythm I draws the eye along concentric, curving ridges towards the edge of a square panel. The textured white surface lets light do much of the work, emphasising the difference between each raised line and the recess beside it. It can stand alone or sit alongside the coordinating Echo design, sold separately.', 'Square white textured wall relief with concentric curved ridges sweeping towards its right edge.'),
+('A spiral that makes the surrounding space part of the design.', 'Bone Water Spiral Relief pairs a tightly curled centre with a generous, sweeping outer curve. The contrast between a textured inner form and smoother surrounding areas gives the piece depth without relying on added colour. This photograph shows the White sculpture under directional coloured lighting.', 'Rectangular pale wall relief with a central curling spiral and sweeping outer curve, photographed under warm and cool directional lighting.'),
+('Light can redraw a sculpture throughout the day.', 'Brancusi Meander I uses a winding raised form to interrupt the simplicity of a rectangular panel. Broad curves and deep recesses create a strong pattern of light and shadow. This is the White finish; the pink and blue tones in this photograph come from the lighting. A coordinating Brancusi Meander panel is available separately.', 'White rectangular wall relief with a winding vertical raised form, long shadows and pink and blue lighting.'),
+('The shoreline leaves its own drawings.', 'Dune Ripple I takes its cue from the ridges left by wind and water across sand. The vertical contours swell and narrow across the relief, catching light along their edges. An applied verdigris finish adds a weathered sea-green character. Coordinating Dune Ripple designs are available separately.', 'Upright green verdigris-finish wall relief with flowing vertical ripples and darker ridged edges against a pale background.'),
+('A familiar natural form, given an architectural frame.', 'Ammonite Petite I brings the curve of an ammonite into a tall rectangular relief. The rounded shell form meets sweeping recessed lines and a textured surface, creating detail that rewards a closer look. This is the Left-hand White component; the coordinating Right-hand piece is sold separately.', 'Tall pale rectangular relief with a large ammonite shell curve and sweeping recessed bands.'),
+('A botanical design with room to breathe.', 'Magnolia Growth follows the upward movement of a stem and opening leaves. The long, narrow composition uses quiet areas of white surface around its raised forms, so the shadows become part of the drawing. It offers a sculptural botanical detail for an interior or garden wall.', 'Tall white relief panel with a slender raised stem and long pointed leaf-like forms against a white wall.'),
+('A conversation between a spiral and an open curve.', 'Soundwave Rhythm balances a compact curled form on one side with a broad, open sweep on the other. A lightly textured white surface connects the two, while the projecting contours give the design its rhythm. It is a single rectangular sculpture, even where the composition suggests a pair of movements.', 'Horizontal white textured relief with a small curling spiral at the left and a large open curved form at the right.'),
+('A slender band of blue can change the pace of a wall.', 'Azure Marble-Effect Relief layers blue, white and cream within a long, narrow panel. The broken, flowing pattern gives the surface a sense of movement, offering a vivid contrast to a quiet wall or planting scheme. The marbled appearance is an applied decorative finish.', 'Long narrow vertical wall relief with a broken flowing pattern of blue, white and cream.'),
+]
+for row,(opening,description,alt) in zip(records,copy,strict=True):
+ finish='finish' in row['title'].casefold()
+ details='Handmade from a gypsum-based material, suitable for indoor and outdoor display.'
+ if finish:details+=' The surface effect is applied by hand, so its pattern will vary and differ from the photographs.'
+ details+=' One individually described sculpture is supplied.'
+ row['caption']='\n\n'.join([opening,row['title']+'\n'+description,'Dimensions: '+row['fields']['Dimensions / depth']+'.\n'+details,
+  'All designs can be customised, and completely new commissions can be developed with me, designer Sally Price. Private clients, interior designers, garden designers and architects are welcome to enquire.',
+  'See the sculpture, current price and further photographs:\n'+row['tracked_url'],
+  '#BoldstoneSculpture #WallSculpture #InteriorDesign #GardenDesign #SallyPrice'])
+ row['alt_text']=alt
+ assert len(row['caption'])<3000
+(OUT/'linkedin-ten-posts.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
+print(json.dumps(dict(posts=10,maximum_characters=max(len(p['caption']) for p in records),tracked_purchase_links=10)))

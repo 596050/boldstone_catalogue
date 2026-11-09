@@ -56,6 +56,11 @@ https://www.joor.com/industry/home-brands?utm_source=chatgpt.com
 https://worldwidebrands.com/supplier-submit/?utm_source=chatgpt.com
 https://uk.pinterest.com/business/catalogs
 brandboom.com
+https://www.catawiki.com/en
+whatnot.com
+behance.net
+sell.amazon.co.uk
+
 
 Brighthelm-Stone
 Amazon.co.uk
@@ -69,6 +74,7 @@ Paolo Moschino
 Pavilion Broadway
 ArtGallery.co.uk
 Artfinder
+LinkedIn
 
 **Requires payment:**
 Amazon handmade

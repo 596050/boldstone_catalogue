@@ -2,7 +2,13 @@
 
 Native setup verified on 7 November 2026. This is the product-catalogue route for Bing Shopping. The onboarding option **Import from Meta Ads** imports advertising campaigns; it does not create the sculpture product catalogue.
 
-## Current Google import — 7 November 2026, evening
+## Latest check — 8 November 2026
+
+The correct existing import has populated **325 products: 0 Active, 323 Pending and 2 Rejected**. This is an import success, not public Bing visibility. The last server-side feed timestamp still reads **8 November at 11:24:21 GMT**. A single **Import now** refresh was requested at **22:41:37 UTC** after the website/Google corrections. Microsoft acknowledged **Import scheduled — Product data will update when the import finishes**. The later server timestamp has not yet advanced; do not report that refresh as processed or repeat it solely because the notification is gone. Recheck this same store/feed and export current offers before claiming the updated fields arrived.
+
+Lunar Wave White (`76dc58c2-9754-4b21-a7f8-c6c844dc643c`) is wrongly classified under Disallowed Supplements and Health Products. A native exact-title filter confirms the single sculpture offer. The diagnostics view exposes **Request review for all**, covering that sculpture plus an unrelated Amanita greetings card; no all-product review was submitted. No Pinterest appeal, account payment method or advertising spend was added. Evidence: `outputs/channel-completion-20261108/continuation-2230/microsoft-refresh-intent.json`, the native scheduled acknowledgement, filtered sculpture and current overview receipts.
+
+## Initial Google import — 7 November 2026, evening
 
 The production source is now **Google Merchant Center 5664655454, Boldstone Sculpture**, signed in as `info@boldstone.co.uk`. Do not select the older account `550093983` offered first by the Microsoft wizard.
 
@@ -69,3 +75,14 @@ The frozen first-release files are in `outputs/saatchi-bing-merchant-20261107/`:
 Use the latest release receipt and native diagnostics for current status; this document's approval state is dated.
 
 Official references: [Merchant Center and feed setup](https://help.ads.microsoft.com/apex/index/3/en/60048), [product field schema](https://learn.microsoft.com/en-us/advertising/shopping-content/products-resource), and [free product listings](https://about.ads.microsoft.com/en/blog/post/august-2020/product-listings-show-products-for-free-in-the-bing-shopping-tab).
+
+
+## Image-compatibility follow-up — 9 November 2026
+
+The first requested refresh completed at8November23:28:09GMT. Native counts became325 total,0Active,308Pending,17Rejected. The detailed report has15 internal image-download errors, two editorial rejections,295image-crawl waits and13manual reviews. For the176sculptures:160pending,16rejected. Lunar Wave White remains the sculpture editorial rejection; the other editorial rejection is the unrelated greetingscard. Thirteen abstract sculptures have adult-content manual-review flags, which are pending, not rejected.
+
+Public headers were checked for all1252distinct image URLs used by the current Google supplement.217 exceeded Microsoft's3.9MB imageLink cap; all were replaced only in the existing Google supplement with qualified renditions of the same photo paths, below1.5MB, no upscaling. Native Google processing and its combined325-offer export were independently verified; all176sculptures match all11fields, prices/IDs unchanged, all325Google offers Approved. Six of Microsoft's15download failures were over3.9MB; nine were already below it, so the size correction alone does not establish their recovery.
+
+**One further import** was then requested through the existing Website sync - GMC5664655454 and acknowledged `Import scheduled`. Processing/publication is not yet verified. Do not queue another import based on an unchanged old success label: require an advanced native completed-feed timestamp and per-offer readback. Keep manualfeed1830841test-only. No paid ads, support messages or all-product review requests were submitted.
+
+Receipts: `outputs/channel-completion-20261108/continuation-2230/microsoft-refresh-status.json`, `microsoft-rejection-report.csv`, `merchant-image-header-audit.json`, `google-rendition-after-verification.json`, `microsoft-rendition-refresh-intent.json`. Official limit: https://learn.microsoft.com/en-us/advertising/shopping-content/products-resource?view=bingads-13 .

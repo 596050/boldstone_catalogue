@@ -126,7 +126,7 @@ function routeState() {
   const [id,query='']=location.hash.slice(1).split('?');
   if(id.startsWith('family='))return {pid:'__family__',family:decodeURIComponent(id.slice(7))};
   const params=new URLSearchParams(query);
-  if(id==='specifications')return {pid:'__specifications__',specSearch:params.get('q')||'',specFamily:params.get('family')||'',specListing:params.get('listing')||'',specDetails:params.get('details')||''};
+  if(id==='specifications')return {pid:'__specifications__',specSearch:params.get('q')||'',specFamily:params.get('family')||'',specListing:params.get('listing')||'',specDetails:params.get('details')||'',specPlatform:params.get('platform')||'',specTask:params.get('task')||''};
   return {pid:decodeURIComponent(id)==='library'?'__library__':decodeURIComponent(id),tab:params.get('tab')||'images',role:params.get('type')||'',scope:params.get('scope')||'sculpture',use:params.get('use')||'',family:params.get('family')||'',folder:params.get('folder')||'',sort:params.has('sort')?params.get('sort'):undefined};
 }
 function updateFilterRoute() {

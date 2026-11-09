@@ -5,18 +5,20 @@ function initSpecificationFilters(filters={}){
   state.specSearch=filters.specSearch||'';state.specFamily=filters.specFamily||'';
   state.specListing=['include','exclude','pending'].includes(filters.specListing)?filters.specListing:'';
   state.specDetails=['missing','omitted','unreviewed'].includes(filters.specDetails)?filters.specDetails:'';
+  state.specPlatform=filters.specPlatform||'';state.specTask=filters.specTask||'';
 }
 function filteredSpecifications(){
   const terms=(state.specSearch||'').trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
   return (state.specifications?.products||[]).filter(p=>{
     const text=[p.name,p.original_name,p.id,p.component_id,p.family,...p.fields.map(f=>f.value||'')].join(' ').toLocaleLowerCase();
     return (!state.specFamily||p.family===state.specFamily)&&(!state.specListing||p.listing_decision===state.specListing)&&
-      (!state.specDetails||(state.specDetails==='missing'?p.missing_count>0:state.specDetails==='omitted'?p.omitted_count>0:p.fields.some(f=>f.decision==='pending')))&&terms.every(term=>text.includes(term));
+      (!state.specDetails||(state.specDetails==='missing'?p.missing_count>0:state.specDetails==='omitted'?p.omitted_count>0:p.fields.some(f=>f.decision==='pending')))&&
+      (!(state.specPlatform||state.specTask)||(p.platform_tasks?.platforms||[]).some(platform=>(!state.specPlatform||platform.id===state.specPlatform)&&platform.tasks.some(task=>['action','waiting','unknown'].includes(task.state)&&(!state.specTask||task.id===state.specTask))))&&terms.every(term=>text.includes(term));
   });
 }
 function specificationRoute(){
   const params=new URLSearchParams();
-  for(const [key,value] of [['q',state.specSearch],['family',state.specFamily],['listing',state.specListing],['details',state.specDetails]])if(value)params.set(key,value);
+  for(const [key,value] of [['q',state.specSearch],['family',state.specFamily],['listing',state.specListing],['details',state.specDetails],['platform',state.specPlatform],['task',state.specTask]])if(value)params.set(key,value);
   state.routeHash='#specifications'+(params.size?'?'+params:'');history.replaceState(null,'',state.routeHash);
 }
 function specValue(field){return field.value===null?'Omitted from listing':field.value?.trim()?field.value:'Not provided';}
@@ -34,6 +36,7 @@ function specificationCard(product){
   return `<article class="component-specification" data-spec-product="${esc(product.id)}" aria-labelledby="spec-title-${esc(product.id)}">
     <header class="component-spec-heading"><div><span class="eyebrow">${product.number} · ${esc(product.id)}</span><h3 id="spec-title-${esc(product.id)}">${esc(product.name)}</h3><span class="chip ${product.listing_decision==='exclude'?'bad':product.listing_decision==='include'?'good':''}">${esc(specificationListingLabels[product.listing_decision]||specificationListingLabels.pending)}</span></div><div class="specification-links"><button class="button green" data-component-overview="${esc(product.id)}">Photos & specs</button><a class="button" href="#${encodeURIComponent(product.id)}?tab=specs">Review specifications →</a><a href="#${encodeURIComponent(product.id)}">Images</a>${product.folder_url?`<a href="${safeURL(product.folder_url)}" target="_blank" rel="noopener">Dropbox folder ↗</a>`:''}</div></header>
     ${product.photos?`<div class="component-photo-readiness">${coverageBadge({...product.photos,excluded:product.listing_decision==='exclude'})}</div>`:''}
+    ${typeof platformTaskSection==='function'?platformTaskSection(product,'specifications'):''}
     <dl class="overview-fields">${product.fields.map(field).join('')||'<div class="overview-field missing"><dt>Specifications</dt><dd>No specification fields recorded</dd></div>'}</dl>
     ${typeof costSummary==='function'?costSummary(product.costing,product.id):''}
     ${componentPhotoPreviews(product)}
@@ -50,17 +53,32 @@ function specificationFamilyInventory(){
   const documents=inventory.document_folders?.length||0;
   return `<details class="family-inventory" id="spec-family-inventory"><summary>Dropbox folders & catalogue families - ${inventory.image_only_folders.length} image folders without component records${documents?` · ${documents} catalogue document folder${documents===1?'':'s'}`:''}</summary><p>The family count above covers named component records. Dropbox folders can have a different catalogue name or contain group photographs without individual records. Every current top-level folder is listed here. Catalogue document folders remain separate from sculpture families.</p><table><thead><tr><th>Dropbox folder</th><th>Catalogue family / status</th><th>Components</th><th>Images</th></tr></thead><tbody>${inventory.folders.map(f=>`<tr><th><a href="${safeURL(f.url)}" target="_blank" rel="noopener">${esc(f.name)} ↗</a></th><td>${f.status==='catalogue_documents'?'Catalogue documents':f.registered_families.map(esc).join(', ')||'Images only - no component records'}</td><td>${f.product_ids.length}</td><td>${f.status==='catalogue_documents'?'Not a sculpture gallery':`<a href="#library?family=${encodeURIComponent(f.name)}">Browse images →</a>`}</td></tr>`).join('')}</tbody></table></details>`;
 }
+function specificationPlatformFilters(){
+  const platforms=state.specifications.platform_task_summary?.platforms||[];
+  if(!platforms.length)return '';
+  return `<label>Platform tasks<select id="spec-platform" aria-label="Filter platform tasks"><option value="">All platforms</option>${platforms.map(p=>`<option value="${esc(p.id)}">${esc(p.label)}</option>`).join('')}</select></label><label>Task type<select id="spec-platform-task" aria-label="Filter platform task type">${specificationTaskOptions()}</select></label>`;
+}
+function specificationTaskOptions(){
+  const tasks=new Map();
+  for(const p of state.specifications.products)for(const platform of p.platform_tasks?.platforms||[]){
+    if(state.specPlatform&&platform.id!==state.specPlatform)continue;
+    for(const task of platform.tasks)if(['action','waiting','unknown'].includes(task.state)&&!tasks.has(task.id))tasks.set(task.id,task.title);
+  }
+  if(state.specTask&&!tasks.has(state.specTask))tasks.set(state.specTask,'No outstanding matches · '+state.specTask.replaceAll('_',' '));
+  return '<option value="">All outstanding tasks</option>'+[...tasks].sort((a,b)=>a[1].localeCompare(b[1])).map(([id,title])=>`<option value="${esc(id)}">${esc(title)}</option>`).join('');
+}
 function renderAllSpecifications(){
   const s=state.specifications;
   $('#main').innerHTML=`<div class="breadcrumb"><span>Collection / Specifications</span><span>All components on one page</span></div><div class="hero"><div class="hero-copy"><span class="eyebrow">THE COMPLETE SPECIFICATION REGISTER</span><h1>All component specifications</h1><p>Every sculpture and finish, grouped by family. These are your current listing values, including saved edits. Open a component to review or change its details.</p></div><button class="button" data-cost-settings>Cost rates &amp; pricing</button><button class="button subtle" id="spec-refresh">Refresh details</button></div><div class="stats-strip spec-overview-stats" id="spec-overview-stats">${specificationSummary()}</div>${specificationFamilyInventory()}<div class="spec-overview-controls" role="search" aria-label="Find component specifications"><label>Search components or details<input type="search" id="spec-search" aria-label="Search component specifications" placeholder="Name, ID, material or size…"></label><label>Family<select id="spec-family" aria-label="Specification family"><option value="">All families</option>${s.families.map(f=>`<option>${esc(f)}</option>`).join('')}</select></label><label>Listing choice<select id="spec-listing" aria-label="Specification listing choice"><option value="">All listing choices</option><option value="include">Included in listing</option><option value="pending">Not decided</option><option value="exclude">Excluded from listing</option></select></label><label>Details<select id="spec-details" aria-label="Specification detail filter"><option value="">All details</option><option value="missing">Missing values</option><option value="omitted">Omitted fields</option><option value="unreviewed">Unreviewed fields</option></select></label><button class="text-button" id="spec-clear">Clear filters</button></div><div class="spec-overview-status"><span id="spec-result-count" role="status"></span><span id="spec-checked" role="status"></span></div><div id="specification-results"></div>`;
-  for(const [id,value] of [['spec-search',state.specSearch],['spec-family',state.specFamily],['spec-listing',state.specListing],['spec-details',state.specDetails]])$('#'+id).value=value||'';
+  const controls=$('.spec-overview-controls');if(controls&&specificationPlatformFilters())controls.insertAdjacentHTML('beforeend',specificationPlatformFilters());
+  for(const [id,value] of [['spec-search',state.specSearch],['spec-family',state.specFamily],['spec-listing',state.specListing],['spec-details',state.specDetails],['spec-platform',state.specPlatform],['spec-platform-task',state.specTask]])if($('#'+id))$('#'+id).value=value||'';
   renderSpecificationResults();renderSpecificationChecked();
 }
 function renderSpecificationResults(){
-  const products=filteredSpecifications(),open=new Set($$('.specification-evidence[open]').map(el=>el.id));
+  const products=filteredSpecifications(),open=new Set($$('.specification-evidence[open],.platform-checklist[open]').map(el=>el.id));
   $('#spec-result-count').textContent=products.length+' of '+state.specifications.totals.products+' components shown';
   $('#specification-results').innerHTML=[...new Set(products.map(p=>p.family))].map(family=>`<section class="specification-family"><div class="specification-family-heading"><h2>${esc(family)}</h2><span>${products.filter(p=>p.family===family).length} ${products.filter(p=>p.family===family).length===1?'component':'components'}</span></div><div class="specification-family-products">${products.filter(p=>p.family===family).map(specificationCard).join('')}</div></section>`).join('')||'<div class="empty-state">No components match these filters. Try another name or clear the filters.</div>';
-  for(const id of open){const el=document.getElementById(id);if(el)el.open=true;}
+  for(const id of open){const el=document.getElementById(id);if(el){el.open=true;if(typeof fillPlatformTaskDetails==='function'&&el.matches?.('.platform-checklist'))fillPlatformTaskDetails(el);}}
 }
 function renderSpecificationChecked(message=''){
   const el=$('#spec-checked');if(el)el.textContent=message||'Checked '+new Date(state.specifications.checked_at).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})+' · Auto-checks every 15 seconds';
@@ -78,6 +96,8 @@ async function refreshAllSpecifications(manual=false){
       const inventory=$('#spec-family-inventory');
       if(inventory){const open=inventory.open;inventory.outerHTML=specificationFamilyInventory();const replacement=$('#spec-family-inventory');if(replacement)replacement.open=open;}
       const select=$('#spec-family');select.innerHTML='<option value="">All families</option>'+payload.families.map(f=>`<option>${esc(f)}</option>`).join('');select.value=state.specFamily;
+      const platform=$('#spec-platform');if(platform){platform.innerHTML='<option value="">All platforms</option>'+(payload.platform_task_summary?.platforms||[]).map(p=>`<option value="${esc(p.id)}">${esc(p.label)}</option>`).join('');platform.value=state.specPlatform;}
+      const task=$('#spec-platform-task');if(task){task.innerHTML=specificationTaskOptions();task.value=state.specTask;}
       $('#main').scrollTop=mainScroll;window.scrollTo(0,pageScroll);
     }
     renderSpecificationChecked();if(manual)toast('Specification details are up to date');
@@ -86,7 +106,7 @@ async function refreshAllSpecifications(manual=false){
 }
 function startSpecificationRefresh(){clearInterval(specificationTimer);specificationTimer=setInterval(()=>refreshAllSpecifications(),15000);}
 document.addEventListener('input',e=>{if(e.target.id==='spec-search'){state.specSearch=e.target.value;renderSpecificationResults();specificationRoute();}});
-document.addEventListener('change',e=>{const field={'spec-family':'specFamily','spec-listing':'specListing','spec-details':'specDetails'}[e.target.id];if(field){state[field]=e.target.value;renderSpecificationResults();specificationRoute();}});
+document.addEventListener('change',e=>{const field={'spec-family':'specFamily','spec-listing':'specListing','spec-details':'specDetails','spec-platform':'specPlatform','spec-platform-task':'specTask'}[e.target.id];if(field){state[field]=e.target.value;if(field==='specPlatform'){state.specTask='';const task=$('#spec-platform-task');if(task)task.innerHTML=specificationTaskOptions();}renderSpecificationResults();specificationRoute();}});
 document.addEventListener('click',e=>{
   const button=e.target.closest('button');if(!button)return;
   if(button.id==='spec-refresh')refreshAllSpecifications(true);

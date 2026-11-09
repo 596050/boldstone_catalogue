@@ -69,7 +69,10 @@ def product_coverage(view, product, include_photos=False):
             'individual': {'count': len(individual), 'image_ids': individual},
             'listing': {'count': len(photos['listing_ids']), 'image_ids': photos['listing_ids']},
             'white_evidence': plain_white_evidence(product, name), 'image_ids': sorted(family_images),
-            'primary_listing': photos['primary_listing']}
+            'primary_listing': photos['primary_listing'],
+            'primary_content_hash': next((a.get('original', {}).get('dropbox_content_hash')
+                                         or a.get('original', {}).get('sha256')
+                                         for a in photos['images'] if a['id'] == photos['primary_id']), None)}
     if include_photos:
         result['photos'] = photo_preview(photos, situ)
     return result

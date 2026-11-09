@@ -18,7 +18,7 @@ from store import Conflict, ReviewStore, validate
 from projection import Projection
 from media import TYPES
 from deletions import Deletions
-from review_coverage import coverage
+from review_coverage import coverage, product_coverage
 from live_review import SourceConflict
 from dropbox_sync import DropboxSync
 from similarity import Similarity
@@ -36,13 +36,17 @@ from image_delivery import ImageDelivery, ImageUnavailable
 from delivery import Tariffs, quote as delivery_quote
 from us_delivery import product_estimate as us_shipping_estimate
 from costing import values as specification_values
+from platform_tasks import PlatformTasks
+from types import SimpleNamespace
 
 HERE = Path(__file__).resolve().parent
+VERSION = '2.19.0'
 
 
 class Application:
     def __init__(self, project, data_dir, auto_sync=True):
         self.store = ReviewStore(data_dir)
+        self.platform_tasks = PlatformTasks(self.store.root)
         self.catalogue_lock = threading.RLock()
         self.catalogue = Catalogue(project, self.store.root)
         # Keep already-open local tabs able to save across a server upgrade.
@@ -71,6 +75,17 @@ class Application:
 
     def projection(self):
         return Projection(self.catalogue, self.store.all())
+
+    def platform_status(self, view, pid=None, photo_rows=None, products=None):
+        if not hasattr(self, 'platform_tasks'):
+            self.platform_tasks = PlatformTasks(self.store.root)
+        cat = self.catalogue if pid is None else SimpleNamespace(
+            products={pid: self.catalogue.products[pid]}, source=self.catalogue.source)
+        products = products if products is not None else specification_overview(cat, view.reviews)['products']
+        photo_rows = photo_rows if photo_rows is not None else (
+            coverage(view)['products'] if pid is None else {pid: product_coverage(view, self.catalogue.products[pid])})
+        summary = self.platform_tasks.attach(products, photo_rows)
+        return summary, {p['id']: p['platform_tasks'] for p in products}
 
     def image_spec(self, aid, version=''):
         """Snapshot trusted inputs quickly; never hold this lock for image I/O."""
@@ -118,13 +133,18 @@ class Application:
                              'image_count': len(images), 'reviewed_images': reviewed,
                              'primary_id': None if view.cid(p['primary_id']) in view.deleted else p['primary_id'], 'review': state})
         inventory = family_inventory(self.catalogue, view.deleted)
+        photo_coverage = coverage(view)
+        platform_summary, platform_products = self.platform_status(view, photo_rows=photo_coverage['products'])
+        for product in products:
+            product['platform_tasks'] = platform_products[product['id']]
         return {'products': sorted(products, key=lambda x: (x['family'], x['name'])),
                 'families': sorted(set(self.catalogue.families) | {f['name'] for f in inventory['image_only_folders']}),
                 'family_inventory': inventory,
                 'source': self.catalogue.source, 'csrf_token': self.token, 'saved_decisions': len(reviews),
                 'data_directory': str(self.store.root), 'history': self.store.history(15), 'image_types': TYPES,
                 'assignments': [r for r in reviews if r['kind'] == 'assignment'], 'operations': self.store.operations(),
-                'deletions': self.deletions.history(), 'coverage': coverage(view), 'dropbox_sync': self.sync.snapshot()}
+                'deletions': self.deletions.history(), 'coverage': photo_coverage, 'dropbox_sync': self.sync.snapshot(),
+                'platform_task_summary': platform_summary}
 
     def product(self, pid):
         if pid not in self.catalogue.products:
@@ -137,11 +157,12 @@ class Application:
         p = self.catalogue.products[pid]
         if view.cid(p.get('primary_id')) in view.deleted:
             p = {**p, 'original_primary_id': p.get('primary_id'), 'primary_id': None, 'image_url': ''}
+        _, platform_products = self.platform_status(view, pid)
         return {**p, 'original_name': p['name'], 'name': (name_edit.get('value') if name_edit.get('decision') == 'edit' else p['name']).replace('\u2014', '-'),
                 'costing': product_cost(p, reviews),
                 'images': view.images(pid, include_removed=True),
                 'reviews': [r for r in reviews if r['product_id'] == pid or r['kind'] == 'asset'],
-                'source_hash': self.catalogue.source['register_sha256']}
+                'source_hash': self.catalogue.source['register_sha256'], 'platform_tasks': platform_products[pid]}
 
     def library(self, family=''):
         view = self.projection()
@@ -346,7 +367,7 @@ class Application:
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version = 'BoldstoneReview/2.18.0'
+    server_version = 'BoldstoneReview/' + VERSION
 
     @property
     def app(self):
@@ -459,7 +480,7 @@ class Handler(BaseHTTPRequestHandler):
         parsed = urlparse(self.path)
         path = unquote(parsed.path)
         try:
-            if (path in ('/api/bootstrap', '/api/dropbox-sync', '/api/library', '/api/specifications', '/api/coverage', '/api/image-components')
+            if (path in ('/api/bootstrap', '/api/dropbox-sync', '/api/library', '/api/specifications', '/api/coverage', '/api/image-components', '/api/platform-tasks')
                 or path.startswith(('/api/products/', '/api/component-overview/'))) and hasattr(self.app, 'refresh_source'):
                 self.app.refresh_source()
             if path == '/api/bootstrap':
@@ -495,14 +516,31 @@ class Handler(BaseHTTPRequestHandler):
                                   'package': package, 'us_shipping': estimate})
             if path == '/api/specifications':
                 view = self.app.projection()
-                photos = {pid: p['photos'] for pid, p in coverage(view, include_photos=True)['products'].items()}
+                photo_rows = coverage(view, include_photos=True)['products']
+                photos = {pid: p['photos'] for pid, p in photo_rows.items()}
                 result = specification_overview(self.app.catalogue, view.reviews, photos)
+                if hasattr(self.app, 'platform_status'):
+                    summary, _ = self.app.platform_status(view, photo_rows=photo_rows, products=result['products'])
+                    result['platform_task_summary'] = summary
+                    result['revision'] = hashlib.sha256((result['revision'] + summary['revision']).encode()).hexdigest()
                 result['family_inventory'] = family_inventory(self.app.catalogue, view.deleted)
                 result['revision'] = hashlib.sha256((result['revision'] + json.dumps(
                     result['family_inventory'], sort_keys=True)).encode()).hexdigest()
                 return self.send(result)
             if path.startswith('/api/component-overview/'):
-                return self.send(component_overview(self.app.projection(), path.split('/')[-1]))
+                view = self.app.projection()
+                pid = path.split('/')[-1]
+                result = component_overview(view, pid)
+                if hasattr(self.app, 'platform_status'):
+                    _, products = self.app.platform_status(view, pid, products=[result['product']])
+                    result['product']['platform_tasks'] = products[pid]
+                return self.send(result)
+            if path == '/api/platform-tasks':
+                pid = parse_qs(parsed.query).get('product_id', [''])[0] or None
+                if pid is not None and pid not in self.app.catalogue.products:
+                    raise KeyError('Unknown sculpture')
+                summary, products = self.app.platform_status(self.app.projection(), pid)
+                return self.send({**summary, 'products': products})
             if path.startswith('/api/deletion-reviews/'):
                 return self.send(self.app.deletion_reviews.get(path.split('/')[-1], plans=True))
             if path == '/api/image-components':
@@ -516,7 +554,7 @@ class Handler(BaseHTTPRequestHandler):
             if path == '/api/history':
                 return self.send(self.app.store.history())
             if path == '/api/health':
-                return self.send({'status': 'ok', 'application': 'boldstone-review', 'version': '2.18.0', 'products': len(self.app.catalogue.products)})
+                return self.send({'status': 'ok', 'application': 'boldstone-review', 'version': VERSION, 'products': len(self.app.catalogue.products)})
             if path.startswith('/api/exports/'):
                 name = path.split('/')[-1]
                 import re
@@ -524,7 +562,7 @@ class Handler(BaseHTTPRequestHandler):
                     raise KeyError('Unknown export')
                 target = self.app.store.root / 'exports' / name
                 return self.send(target.read_bytes(), mime='application/zip', disposition='attachment; filename="Boldstone-review-' + name + '"')
-            if path in ('/', '/index.html', '/app.js', '/image-tools.js', '/delete-tools.js', '/bulk-delete.js', '/family-tools.js', '/sync-tools.js', '/sort-core.js', '/sort-tools.js', '/component-tools.js', '/component-overview.js', '/jobs.js', '/specifications.js', '/costs.js', '/delivery.js', '/style.css'):
+            if path in ('/', '/index.html', '/app.js', '/image-tools.js', '/delete-tools.js', '/bulk-delete.js', '/family-tools.js', '/sync-tools.js', '/sort-core.js', '/sort-tools.js', '/component-tools.js', '/component-overview.js', '/jobs.js', '/specifications.js', '/platform-tasks.js', '/costs.js', '/delivery.js', '/style.css'):
                 target = HERE / 'static' / ('index.html' if path == '/' else path[1:])
                 return self.send(target.read_bytes(), mime=mimetypes.guess_type(target)[0] or 'text/plain')
             raise KeyError('Not found')
