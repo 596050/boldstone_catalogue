@@ -1,0 +1,130 @@
+Window: "(6) Commerce Manager", App: Google Chrome.
+0 standard window (6) Commerce Manager - Google Chrome – Tom, URL: business.facebook.com/commerce/?business_id=2380586078685156, Secondary Actions: Raise
+	1 container (6) Commerce Manager - Google Chrome – Tom, URL: business.facebook.com/commerce/?business_id=2380586078685156
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: business.facebook.com/commerce/?business_id=2380586078685156, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content (6) Commerce Manager, URL: business.facebook.com/commerce/?business_id=2380586078685156
+						27 container
+							28 container
+								29 container
+									30 link Business Home, Value: business.facebook.com/home/?business_id=2380586078685156
+									31 text Commerce Manager
+									32 combo box (settable) Sally Price
+										33 container
+											34 text Sally Price
+											35 image
+									36 container
+										37 container Assets
+											38 content list
+												39 container
+													40 link Assets, Value: business.facebook.com/commerce/?business_id=2380586078685156
+													41 text Assets
+										42 container all tools
+											43 content list
+												44 container
+													45 button All tools
+													46 text All tools
+									47 content list
+										48 container
+											49 button Meta AI business assistant
+											50 text Meta AI business assistant
+									51 button Help ​
+									52 link Business settings ​, Value: business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+									53 container
+										54 button Business notifications ​
+									55 button Search ​
+									56 button Collapse ​
+								57 heading Assets, Value: 1
+									58 text Assets
+								59 container
+									60 heading Commerce accounts, Value: 3
+										61 text Commerce accounts
+									62 image
+									63 container
+										64 text Search by name
+										65 search text field (settable) Search by name
+									66 button Add Account
+									67 container
+										68 link Boldstone Sculpture, Value: business.facebook.com/commerce/326960679342026/
+								69 container
+									70 heading Catalogues, Value: 3
+										71 text Catalogues
+									72 image
+									73 container
+										74 text Search by name or ID
+										75 search text field (settable) Search by name or ID
+									76 button ​
+									77 button Manage list
+									78 container
+										79 link Products for Boldstone Sculpture (103781478537396), Value: business.facebook.com/commerce/catalogs/1638438493182970/home/?business_id=2380586078685156
+			80 pop-up button Tab search
+			81 container
+				82 tab group
+					83 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					84 tab (settable, boolean) Fine Washed Building Sand (2mm down) - FWS | Limebase, Value: off
+					85 tab (settable, boolean) Bone Ash, 1kg | Corby Kilns | Discover The Range, Value: off
+					86 tab (settable, boolean) mkm.com/cart, Value: off
+					87 tab (settable, boolean) Fine Washed Building Sand (2mm down) - FWS | Limebase, Value: off
+					88 tab (settable, boolean) Liquid Feed - Peters Professional 10+52+10 | Medwyns of Anglesey, Value: off
+					89 tab (settable, boolean) Contact us – Moss Clerks, Value: off
+					90 tab (settable, boolean) Adomast Adotard TF Top-Face Aggregate Exposing Retarder - 5 Litre | BaseTec, Value: off
+					91 tab (settable, boolean) Checkout - Sealant Supplies Ltd, Value: off
+					92 tab (settable, boolean) Cart - Corby Kilns, Value: off
+					93 tab (settable, boolean) SEO opportunity audit, Value: off
+					94 tab (settable, boolean) Drafts (1,335) - tppricet@gmail.com - Gmail, Value: off
+					95 tab (settable, boolean) worldwidebrands.com – Network error, Value: off
+					96 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					97 tab (settable, boolean) Bookmarks, Value: off
+					98 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					99 tab (settable, boolean) SEO opportunity audit, Value: off
+					100 tab (settable, boolean) file (2048×1360), Value: off
+					101 tab (settable, boolean) Facebook Shops: Start your online retail store and sell anywhere | Meta for Business, Value: off
+					102 tab (selected, settable, boolean) (6) Commerce Manager, Value: on
+					103 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+			104 button New tab
+	105 close button
+	106 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	107 minimise button
+108 menu bar
+	109 Chrome
+	110 File
+	111 Edit
+	112 View
+	113 History
+	114 Bookmarks
+	115 Profiles
+	116 Tab
+	117 Window
+	118 Help
+
+The focused UI element is 26 HTML content (6) Commerce Manager, URL: business.facebook.com/commerce/?business_id=2380586078685156

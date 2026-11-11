@@ -1,0 +1,47 @@
+Your Reference Number (optional),Your Reference Colour (optional),Auction Type (9) (optional),Object type (19499),Language,Description,D: Era,D: Country of origin,D: Material,D: Artist (optional),D: Title of artwork,D: Signature,D: Edition (optional),D: Year (optional),D: Colour (optional),D: Condition,D: Height,D: Width,D: Depth,D: Weight (optional),D: Culture,D: Manufacturer/brand (optional),D: Style subtype (optional),D: Ceramics type (optional),D: Brass type (optional),D: Bronze type (optional),D: Fur type (optional),D: Glass type (optional),D: Glaze type (optional),D: Gold type (optional),D: Iron type (optional),D: Marble type (optional),D: Metal type (optional),D: Mineral type (optional),D: Paper type (optional),D: Plastic type (optional),D: Shell type (optional),D: Silver type (optional),D: Silver plating type (optional),D: Stone type (optional),D: Textile type (optional),D: Wood type (optional),D: Porcelain type (optional),D: Animal hair type (optional),D: Leather type (optional),D: Over 200 years old,D: Sold by (optional),D: Century/timeframe,D: Style (optional),D: Acquired from,D: Year acquired,D: Ethnic group/culture (optional),D: Country acquired from,D: Dynastic style/period,D: Indigenous object name (optional),D: Previous owner acquired from,D: Provenance (optional),D: Sold with stand (optional),D: Previous owner - year acquired,D: Previous owner - country acquired from,D: Attribution (optional),D: I verify that I have obtained this object legally and that I am allowed to sell it,Public photo URL,Estimated lot value,Reserve price (optional),Start bidding from (optional),Pick up (optional),Combined shipping (optional),Shipping costs - United Kingdom,Shipping costs - Europe,Shipping costs - Rest of World,Country specific shipping price (optional),Shipping profile (optional),Message to Expert (optional)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+>> Points to note: (delete this entire section once you have read them)
+>> 1 Ensure you are using the latest csv template for your category.
+>> 2 Read the title of each column carefully. Some fields are optional and some have specific requirements.
+">> 3 To know what possible values to enter for each column, download https://www.catawiki.com/en/seller/bulk_upload_objects/object_types/19499/dictionary.csv"
+>> 4 External Reference Label & Colour: You have the possibility to add a reference label and colour to your lot. This will be only visible to you and can be used for internal reference. The label will be visible and searchable on your offered lots page and orders overview.
+>> 5 Start adding lot details from row 2 onwards. Keep the title row intact.
+>> 6 Optionally you can go to https://www.catawiki.com/seller/lots/new/wizard/auction and try submitting a lot to see the what should be filled in in each column.
+>> 7 All columns that start with 'D:' are the specific lot details.
+>> 8 Photo URLs: Share public links of all photos applicable to a lot and separate them by semicolon (';')
+>> 9 All fields with multiple values for a given column should be separated by ';'
+">> 10 All fields with units (such as weight, volume, diameter, length, width, height, height_width, height_width_length, mileage, depth) must be entered as: 20_30_40_cm"
+>> 11 All fields with year must be entered in yyyy format.
+>> 12 All yes/no fields must be filled in with 'yes' or 'no'
+">> 13 All currencies need to be entered in euros (€). Please do not add € in the columns, just the numeric value."
+">> 14 For numbers with decimals enter as follows 23.4 or ""23,4"". For a comma seperator, use double quotes"
+">> 15 Start bidding from can be set to '1 euro', 'RP' (for reserve price) or '60%' (of the reserve price)"

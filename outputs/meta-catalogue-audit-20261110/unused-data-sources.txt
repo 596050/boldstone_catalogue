@@ -1,0 +1,177 @@
+Window: "(6) Commerce Manager 🔊", App: Google Chrome.
+0 standard window (6) Commerce Manager - Google Chrome – Tom, Secondary Actions: Raise, URL: business.facebook.com/commerce/catalogs/1382336793520933/data_sources/add/?business_id=2380586078685156
+	1 container (6) Commerce Manager - Google Chrome – Tom, URL: business.facebook.com/commerce/catalogs/1382336793520933/data_sources/add/?business_id=2380586078685156
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: business.facebook.com/commerce/catalogs/1382336793520933/data_sources/add/?business_id=2380586078685156
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Extensions
+				15 tickbox Downloads, Value: 0
+				16 button Control your music, videos and more
+				17 button Tom
+				18 pop-up button Relaunch to update
+			19 container
+				20 scroll area
+					21 HTML content (6) Commerce Manager, URL: business.facebook.com/commerce/catalogs/1382336793520933/data_sources/add/?business_id=2380586078685156
+						22 container
+							23 container
+								24 container
+									25 link Business Home, Value: business.facebook.com/home/?business_id=2380586078685156
+									26 text Commerce Manager
+									27 combo box (settable) Boldstone 2026 Catalogue
+										28 container
+											29 text Boldstone 2026 Catalogue
+											30 image
+									31 container
+										32 container Navigation
+											33 content list
+												34 container
+													35 link Overview, Value: business.facebook.com/commerce/catalogs/1382336793520933/overview/?business_id=2380586078685156
+													36 text Overview
+												37 container
+													38 button Catalogue
+													39 text Catalogue
+													40 button Toggle Group ​
+													41 content list
+														42 container
+															43 link Products, Value: business.facebook.com/commerce/catalogs/1382336793520933/products/?business_id=2380586078685156
+															44 text Products
+														45 container
+															46 link Sets, Value: business.facebook.com/commerce/catalogs/1382336793520933/sets/?business_id=2380586078685156
+															47 text Sets
+														48 container
+															49 link Data sources, Value: business.facebook.com/commerce/catalogs/1382336793520933/data_sources/?business_id=2380586078685156
+															50 text Data sources
+														51 container
+															52 link Events, Value: business.facebook.com/commerce/catalogs/1382336793520933/events/?business_id=2380586078685156
+															53 text Events
+												54 container
+													55 link Image templates, Value: business.facebook.com/commerce/catalogs/1382336793520933/templates/?business_id=2380586078685156
+													56 text Image templates
+												57 container
+													58 link Product video creator, Value: business.facebook.com/commerce/catalogs/1382336793520933/video_template_hub/?business_id=2380586078685156
+													59 text Product video creator
+												60 container
+													61 link Offers, Value: business.facebook.com/commerce/1382336793520933/promotions/offers/?business_id=2380586078685156
+													62 text Offers
+												63 container
+													64 link Shops, Value: business.facebook.com/commerce/catalogs/1382336793520933/shops_upsell/?business_id=2380586078685156
+													65 text Shops
+												66 container
+													67 link To-do list, Value: business.facebook.com/commerce/1382336793520933/to_do_list/?business_id=2380586078685156
+													68 text To-do list
+												69 container
+													70 link Settings, Value: business.facebook.com/commerce/catalogs/1382336793520933/settings/general/?business_id=2380586078685156
+													71 text Settings
+										72 container all tools
+											73 content list
+												74 container
+													75 button All tools
+													76 text All tools
+									77 content list
+										78 container
+											79 button Meta AI business assistant
+											80 text Meta AI business assistant
+									81 button Help ​
+									82 link Business settings ​, Value: business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+									83 container
+										84 button Business notifications ​
+									85 button Search ​
+									86 button Collapse ​
+								87 heading Add products, Value: 1
+									88 text Add products
+								89 container Choose your preferred option
+									90 heading Choose your preferred option, Value: 3
+										91 text Choose your preferred option
+									92 container
+										93 container
+											94 button Manual
+												95 heading Manual, Value: 3
+													96 text Manual
+												97 text Fill in a form to manually add products to your catalogue.
+												98 text Recommended for a small inventory that rarely changes.
+												99 link Learn more, Value: facebook.com/business/help/1670875312991238
+										100 container
+											101 button Data file
+												102 heading Data file, Value: 3
+													103 text Data file
+												104 text Use a spreadsheet or file to add and update your products automatically.
+												105 text Recommended if you manage inventory in a program such as Excel or Google Sheets.
+												106 link Learn more, Value: facebook.com/business/help/125074381480892
+										107 container
+											108 button Products from your social media
+												109 heading Products from your social media, Value: 3
+													110 text Products from your social media
+												111 text Choose a Facebook Page or Instagram profile and we'll automatically add the products found in your posts within the last 45 days.
+												112 text Recommended for extracting products from your social media.
+												113 link Learn more, Value: facebook.com/business/help/1573601244287366
+										114 container
+											115 button Partner platform
+												116 heading Partner platform, Value: 3
+													117 text Partner platform
+												118 text Use a partner platform such as Shopify or BigCommerce to automatically add products from your website.
+												119 text Recommended if your inventory already exists on another platform.
+												120 link Learn more, Value: facebook.com/business/help/365831587397584
+										121 container
+											122 button Pixel
+												123 heading Pixel, Value: 3
+													124 text Pixel
+												125 text Use your Meta pixel to automatically add products from your website.
+												126 text Recommended if you use a pixel for tracking product interactions.
+												127 link Learn more, Value: facebook.com/business/help/887775018036966
+									128 button Cancel
+									129 button Next
+			130 pop-up button Tab search
+			131 container
+				132 tab group
+					133 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					134 tab (settable, boolean) Fine Washed Building Sand (2mm down) - FWS | Limebase, Value: off
+					135 tab (settable, boolean) Bone Ash, 1kg | Corby Kilns | Discover The Range, Value: off
+					136 tab (settable, boolean) mkm.com/cart, Value: off
+					137 tab (settable, boolean) Fine Washed Building Sand (2mm down) - FWS | Limebase, Value: off
+					138 tab (settable, boolean) Liquid Feed - Peters Professional 10+52+10 | Medwyns of Anglesey, Value: off
+					139 tab (settable, boolean) Contact us – Moss Clerks, Value: off
+					140 tab (settable, boolean) Adomast Adotard TF Top-Face Aggregate Exposing Retarder - 5 Litre | BaseTec, Value: off
+					141 tab (settable, boolean) Checkout - Sealant Supplies Ltd, Value: off
+					142 tab (settable, boolean) Cart - Corby Kilns, Value: off
+					143 tab (settable, boolean) SEO opportunity audit, Value: off
+					144 tab (settable, boolean) Drafts (1,335) - tppricet@gmail.com - Gmail, Value: off
+					145 tab (settable, boolean) worldwidebrands.com – Network error, Value: off
+					146 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					147 tab (settable, boolean) Bookmarks, Value: off
+					148 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					149 tab (settable, boolean) SEO opportunity audit, Value: off
+					150 tab (settable, boolean) file (2048×1360), Value: off
+					151 tab (settable, boolean) Facebook Shops: Start your online retail store and sell anywhere | Meta for Business, Value: off
+					152 tab (selected, settable, boolean) (6) Commerce Manager, Value: on
+					153 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					154 tab (settable, boolean) (6717) “We Are a Target” | A Soldier’s Dangerous Return to Afghanistan - YouTube – Audio playing, Value: off
+						155 button (disabled) Mute tab
+			156 button New tab
+		157 text https://business.facebook.com/commerce/catalogs/1382336793520933/data_sources/?business_id=2380586078685156
+	158 close button
+	159 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	160 minimise button
+161 menu bar
+	162 Chrome
+	163 File
+	164 Edit
+	165 View
+	166 History
+	167 Bookmarks
+	168 Profiles
+	169 Tab
+	170 Window
+	171 Help
+
+The focused UI element is 49 link Data sources, Value: business.facebook.com/commerce/catalogs/1382336793520933/data_sources/?business_id=2380586078685156

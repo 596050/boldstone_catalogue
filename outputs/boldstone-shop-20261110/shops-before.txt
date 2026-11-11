@@ -1,0 +1,196 @@
+Window: "(6) Boldstone Sculpture | Commerce Manager", App: Google Chrome.
+0 standard window (6) Boldstone Sculpture | Commerce Manager - Google Chrome – Tom, URL: business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156, Secondary Actions: Raise
+	1 container (6) Boldstone Sculpture | Commerce Manager - Google Chrome – Tom, URL: business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Control your music, videos and more
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content (6) Boldstone Sculpture | Commerce Manager, URL: business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+						28 container
+							29 container
+								30 container
+									31 link Business Home, Value: business.facebook.com/home/?business_id=2380586078685156
+									32 text Commerce Manager
+									33 combo box (settable) Boldstone Sculpture
+										34 container
+											35 text Boldstone Sculpture
+											36 image
+									37 container
+										38 container Navigation
+											39 content list
+												40 container
+													41 link Overview, Value: business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+													42 text Overview
+												43 container
+													44 button Catalogue
+													45 text Catalogue
+													46 button Toggle Group ​
+													47 content list
+														48 container
+															49 link Products, Value: business.facebook.com/commerce/catalogs/1638438493182970/products/?business_id=2380586078685156
+															50 text Products
+														51 container
+															52 link Sets, Value: business.facebook.com/commerce/catalogs/1638438493182970/sets/?business_id=2380586078685156
+															53 text Sets
+														54 container
+															55 link Data sources, Value: business.facebook.com/commerce/catalogs/1638438493182970/data_sources/?business_id=2380586078685156
+															56 text Data sources
+														57 container
+															58 link Events, Value: business.facebook.com/commerce/catalogs/1638438493182970/events/?business_id=2380586078685156
+															59 text Events
+												60 container
+													61 link Image templates, Value: business.facebook.com/commerce/catalogs/1638438493182970/templates/?business_id=2380586078685156
+													62 text Image templates
+												63 container
+													64 link Product video creator, Value: business.facebook.com/commerce/catalogs/1638438493182970/video_template_hub/?business_id=2380586078685156
+													65 text Product video creator
+												66 container
+													67 link Shops, Value: business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+													68 text Shops
+												69 container
+													70 button Promotions
+													71 text Promotions
+													72 button Toggle Group ​
+													73 content list
+														74 container
+															75 link Offers, Value: business.facebook.com/commerce/326960679342026/promotions/offers/?business_id=2380586078685156
+															76 text Offers
+														77 container
+															78 link Marketing settings, Value: business.facebook.com/commerce/326960679342026/promotions/mailing_list/?business_id=2380586078685156
+															79 text Marketing settings
+												80 container
+													81 button Insights
+													82 text Insights
+													83 button Toggle Group ​
+													84 content list
+														85 container
+															86 link Overview, Value: business.facebook.com/commerce/326960679342026/performance/overview/?business_id=2380586078685156
+															87 text Overview
+														88 container
+															89 link Catalogue, Value: business.facebook.com/commerce/326960679342026/performance/products/?business_id=2380586078685156
+															90 text Catalogue
+														91 container
+															92 link Performance, Value: business.facebook.com/commerce/326960679342026/performance/perf/?business_id=2380586078685156
+															93 text Performance
+														94 container
+															95 link Audience, Value: business.facebook.com/commerce/326960679342026/performance/audience/?business_id=2380586078685156
+															96 text Audience
+														97 container
+															98 link Tagged content, Value: business.facebook.com/commerce/326960679342026/performance/product_tagged_content/?business_id=2380586078685156
+															99 text Tagged content
+														100 container
+															101 link Awareness, Value: business.facebook.com/commerce/326960679342026/performance/entry_points/?business_id=2380586078685156
+															102 text Awareness
+												103 container
+													104 link To-do list, Value: business.facebook.com/commerce/326960679342026/to_do_list/?business_id=2380586078685156
+													105 text To-do list
+												106 container
+													107 link Settings, Value: business.facebook.com/commerce/326960679342026/settings/general/?business_id=2380586078685156
+													108 text Settings
+										109 container all tools
+											110 content list
+												111 container
+													112 button All tools
+													113 text All tools
+									114 content list
+										115 container
+											116 button Meta AI business assistant
+											117 text Meta AI business assistant
+									118 button Help ​
+									119 link Business settings ​, Value: business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+									120 container
+										121 button Business notifications ​
+									122 button Search ​
+									123 button Collapse ​
+								124 heading Shops, Value: 1
+									125 text Shops
+								126 container
+									127 text You can create and edit shops where buyers can easily discover and purchase your items on Instagram and Facebook. 
+									128 link Learn more, Value: facebook.com/business/help/610592986219839
+								129 container
+									130 image
+									131 heading We're testing a simplified customer experience, Value: 4
+										132 text We're testing a simplified customer experience
+									133 text We're testing a new shop experience that may help customers find products more easily. During this test, some customers may not see some of the manual customisations you've made in your Shops settings. For example, your collections will be shown in a carousel to these customers, and their order may not match your configuration.
+								134 container
+									135 table Storefronts table
+										136 row Shop Sales channels Last updated
+											137 column header
+												138 heading Shop, Value: 4
+													139 text Shop
+											140 column header
+												141 heading Sales channels, Value: 4
+													142 text Sales channels
+											143 column header
+												144 heading Last updated, Value: 4
+													145 text Last updated
+											146 column header
+										147 row Instagram Facebook Unpublished changes 31 Oct 2026, 21:39 View Live Shop Edit Shop
+											148 cell
+											149 cell
+												150 text Instagram
+												151 text Facebook
+											152 cell
+												153 text Unpublished changes
+												154 text 31 Oct 2026, 21:39
+											155 cell
+												156 link View Live Shop, Value: business.facebook.com/commerce/326960679342026/shops/2182319861923672/?preview_live=true
+												157 link Edit Shop, Value: business.facebook.com/commerce/326960679342026/shops/2182319861923672/?preview_live=false
+								158 image
+								159 text Update your sales channels or create a new shop in 
+								160 link Settings, Value: business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156#
+								161 text .
+			162 pop-up button Tab search
+			163 container
+				164 tab group
+					165 tab (settable, boolean) Facebook Shops: Start your online retail store and sell anywhere | Meta for Business, Value: off
+						166 button Close
+					167 tab (selected, settable, boolean) (6) Boldstone Sculpture | Commerce Manager, Value: on
+						168 button Close
+			169 button New tab
+		170 text https://business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+	171 close button
+	172 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	173 minimise button
+174 menu bar
+	175 Chrome
+	176 File
+	177 Edit
+	178 View
+	179 History
+	180 Bookmarks
+	181 Profiles
+	182 Tab
+	183 Window
+	184 Help
+
+The focused UI element is 124 heading Shops, Value: 1

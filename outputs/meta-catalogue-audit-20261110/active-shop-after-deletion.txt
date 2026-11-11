@@ -1,0 +1,492 @@
+Window: "(6) Boldstone Sculpture | Commerce Manager", App: Google Chrome.
+0 standard window (6) Boldstone Sculpture | Commerce Manager - High memory usage - 819 MB - Google Chrome – Tom, URL: business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156, Secondary Actions: Raise
+	1 container (6) Boldstone Sculpture | Commerce Manager - High memory usage - 819 MB - Google Chrome – Tom, URL: business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156, Placeholder: Ask Google or type a URL
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Tom
+				23 pop-up button Relaunch to update
+			24 container
+				25 scroll area
+					26 HTML content (6) Boldstone Sculpture | Commerce Manager, URL: business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+						27 container
+							28 container
+								29 container
+									30 link Business Home, Value: business.facebook.com/home/?business_id=2380586078685156
+									31 text Commerce Manager
+									32 combo box (settable) Boldstone Sculpture
+										33 container
+											34 text Boldstone Sculpture
+											35 image
+									36 container
+										37 container Navigation
+											38 content list
+												39 container
+													40 link Overview, Value: business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+													41 text Overview
+												42 container
+													43 button Catalogue
+													44 text Catalogue
+													45 button Toggle Group ​
+													46 content list
+														47 container
+															48 link Products, Value: business.facebook.com/commerce/catalogs/1638438493182970/products/?business_id=2380586078685156
+															49 text Products
+														50 container
+															51 link Sets, Value: business.facebook.com/commerce/catalogs/1638438493182970/sets/?business_id=2380586078685156
+															52 text Sets
+														53 container
+															54 link Data sources, Value: business.facebook.com/commerce/catalogs/1638438493182970/data_sources/?business_id=2380586078685156
+															55 text Data sources
+														56 container
+															57 link Events, Value: business.facebook.com/commerce/catalogs/1638438493182970/events/?business_id=2380586078685156
+															58 text Events
+												59 container
+													60 link Image templates, Value: business.facebook.com/commerce/catalogs/1638438493182970/templates/?business_id=2380586078685156
+													61 text Image templates
+												62 container
+													63 link Product video creator, Value: business.facebook.com/commerce/catalogs/1638438493182970/video_template_hub/?business_id=2380586078685156
+													64 text Product video creator
+												65 container
+													66 link Shops, Value: business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+													67 text Shops
+												68 container
+													69 button Promotions
+													70 text Promotions
+													71 button Toggle Group ​
+													72 content list
+														73 container
+															74 link Offers, Value: business.facebook.com/commerce/326960679342026/promotions/offers/?business_id=2380586078685156
+															75 text Offers
+														76 container
+															77 link Marketing settings, Value: business.facebook.com/commerce/326960679342026/promotions/mailing_list/?business_id=2380586078685156
+															78 text Marketing settings
+												79 container
+													80 button Insights
+													81 text Insights
+													82 button Toggle Group ​
+													83 content list
+														84 container
+															85 link Overview, Value: business.facebook.com/commerce/326960679342026/performance/overview/?business_id=2380586078685156
+															86 text Overview
+														87 container
+															88 link Catalogue, Value: business.facebook.com/commerce/326960679342026/performance/products/?business_id=2380586078685156
+															89 text Catalogue
+														90 container
+															91 link Performance, Value: business.facebook.com/commerce/326960679342026/performance/perf/?business_id=2380586078685156
+															92 text Performance
+														93 container
+															94 link Audience, Value: business.facebook.com/commerce/326960679342026/performance/audience/?business_id=2380586078685156
+															95 text Audience
+														96 container
+															97 link Tagged content, Value: business.facebook.com/commerce/326960679342026/performance/product_tagged_content/?business_id=2380586078685156
+															98 text Tagged content
+														99 container
+															100 link Awareness, Value: business.facebook.com/commerce/326960679342026/performance/entry_points/?business_id=2380586078685156
+															101 text Awareness
+												102 container
+													103 link To-do list, Value: business.facebook.com/commerce/326960679342026/to_do_list/?business_id=2380586078685156
+													104 text To-do list
+												105 container
+													106 link Settings, Value: business.facebook.com/commerce/326960679342026/settings/general/?business_id=2380586078685156
+													107 text Settings
+										108 container all tools
+											109 content list
+												110 container
+													111 button All tools
+													112 text All tools
+									113 content list
+										114 container
+											115 button Meta AI business assistant
+											116 text Meta AI business assistant
+									117 button Help ​
+									118 link Business settings ​, Value: business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+									119 container
+										120 button Business notifications ​
+									121 button Search ​
+									122 button Collapse ​
+								123 heading Overview, Value: 1
+									124 text Overview
+								125 container
+									126 heading Ask Meta AI business assistant about your catalogue, Value: 2
+										127 text Ask Meta AI business assistant about your catalogue
+									128 text Beta
+									129 text Compose a message to Meta AI business assistant
+									130 container
+										131 text Compose a message to Meta AI business assistant
+										132 text field (settable) Compose a message to Meta AI business assistant Compose a message to Meta AI business assistant, Placeholder: Ask a question...
+									133 container
+										134 button Start
+									135 container
+										136 button Suggested prompt to start chat with Meta AI business assistant
+										137 button Suggested prompt to start chat with Meta AI business assistant
+										138 button Suggested prompt to start chat with Meta AI business assistant
+										139 button Suggested prompt to start chat with Meta AI business assistant
+								140 container Next steps for your shop
+									141 heading Next steps for your shop, Value: 3
+										142 text Next steps for your shop
+									143 container
+										144 heading Product matching events are missing, Value: 3
+											145 text Product matching events are missing
+										146 text Your event source setup has issues. Ads won't show the most relevant products until this has been resolved. 
+										147 link Learn more, Value: business.facebook.com/business/help/946671458738854
+										148 button Review issues
+										149 heading More ad accounts can now access this catalogue, Value: 3
+											150 text More ad accounts can now access this catalogue
+										151 text Ad accounts with a pixel connected to a catalogue can now use that catalogue to create ads. This access is automatic.
+										152 button Learn more
+										153 pop-up button CGP Guidance Row Dropdown Menu ​
+											154 text CGP Guidance Row Dropdown Menu
+											155 image
+										156 button See all
+								157 container Shop insights
+									158 heading Shop insights, Value: 3
+										159 text Shop insights
+									160 text Last 28 days on Facebook and Instagram
+									161 button See all insights
+									162 container
+										163 tab group
+											164 tab (settable, integer) Shop sales, Value: 0
+											165 tab (settable, integer) Purchases, Value: 0
+											166 tab (selected) Product page views, Value: 1
+											167 tab (settable, integer) Visitors, Value: 0
+										168 heading Product page views metric summary data, Value: 2
+											169 text Product page views metric summary data
+										170 image Product page views metric summary data
+										171 table
+											172 row
+												173 column header
+													174 text 1791874800
+												175 column header
+													176 text 1791961200
+												177 column header
+													178 text 1792047600
+												179 column header
+													180 text 1792134000
+												181 column header
+													182 text 1792220400
+												183 column header
+													184 text 1792306800
+												185 column header
+													186 text 1792393200
+												187 column header
+													188 text 1792479600
+												189 column header
+													190 text 1792566000
+												191 column header
+													192 text 1792652400
+												193 column header
+													194 text 1792738800
+												195 column header
+													196 text 1792825200
+												197 column header
+													198 text 1792911600
+												199 column header
+													200 text 1792998000
+												201 column header
+													202 text 1793084400
+												203 column header
+													204 text 1793170800
+												205 column header
+													206 text 1793257200
+												207 column header
+													208 text 1793343600
+												209 column header
+													210 text 1793430000
+												211 column header
+													212 text 1793516400
+												213 column header
+													214 text 1793606400
+												215 column header
+													216 text 1793692800
+												217 column header
+													218 text 1793779200
+												219 column header
+													220 text 1793865600
+												221 column header
+													222 text 1793952000
+												223 column header
+													224 text 1794038400
+												225 column header
+													226 text 1794124800
+												227 column header
+													228 text 1794211200
+											229 row
+												230 cell
+													231 text Facebook
+												232 cell
+													233 text 0
+												234 cell
+													235 text 0
+												236 cell
+													237 text 0
+												238 cell
+													239 text 0
+												240 cell
+													241 text 0
+												242 cell
+													243 text 0
+												244 cell
+													245 text 0
+												246 cell
+													247 text 0
+												248 cell
+													249 text 0
+												250 cell
+													251 text 0
+												252 cell
+													253 text 0
+												254 cell
+													255 text 0
+												256 cell
+													257 text 0
+												258 cell
+													259 text 0
+												260 cell
+													261 text 0
+												262 cell
+													263 text 0
+												264 cell
+													265 text 0
+												266 cell
+													267 text 0
+												268 cell
+													269 text 0
+												270 cell
+													271 text 0
+												272 cell
+													273 text 0
+												274 cell
+													275 text 0
+												276 cell
+													277 text 0
+												278 cell
+													279 text 0
+												280 cell
+													281 text 0
+												282 cell
+													283 text 0
+												284 cell
+													285 text 0
+												286 cell
+													287 text 0
+											288 row
+												289 cell
+													290 text Instagram
+												291 cell
+													292 text 0
+												293 cell
+													294 text 0
+												295 cell
+													296 text 0
+												297 cell
+													298 text 0
+												299 cell
+													300 text 0
+												301 cell
+													302 text 0
+												303 cell
+													304 text 0
+												305 cell
+													306 text 0
+												307 cell
+													308 text 0
+												309 cell
+													310 text 0
+												311 cell
+													312 text 0
+												313 cell
+													314 text 0
+												315 cell
+													316 text 0
+												317 cell
+													318 text 0
+												319 cell
+													320 text 0
+												321 cell
+													322 text 0
+												323 cell
+													324 text 0
+												325 cell
+													326 text 0
+												327 cell
+													328 text 2
+												329 cell
+													330 text 3
+												331 cell
+													332 text 1
+												333 cell
+													334 text 1
+												335 cell
+													336 text 1
+												337 cell
+													338 text 2
+												339 cell
+													340 text 5
+												341 cell
+													342 text 4
+												343 cell
+													344 text 5
+												345 cell
+													346 text 0
+										347 text Facebook Instagram
+								348 container Top products
+									349 heading Top products, Value: 3
+										350 text Top products
+									351 text Last 28 days on Facebook and Instagram
+									352 button See catalogue insights
+									353 container
+										354 table Table of a seller's top products in the last 28 days
+											355 row Product Product page views Adds to cart Product sales
+												356 column header
+													357 heading Product, Value: 4
+														358 text Product
+												359 column header
+													360 heading Product page views, Value: 4
+														361 text Product page views
+												362 column header
+													363 heading Adds to cart, Value: 4
+														364 text Adds to cart
+												365 column header
+													366 heading Product sales, Value: 4
+														367 text Product sales
+											368 row Ammonite Petite II (Right) - White 8 0 $0.00
+												369 cell
+													370 text Ammonite Petite II (Right) - White
+												371 cell
+													372 text 8
+												373 cell
+													374 text 0
+												375 cell
+													376 text $0.00
+											377 row Dune Ripple II - Copper with Verdigris Accents Finish 2 0 $0.00
+												378 cell
+													379 text Dune Ripple II - Copper with Verdigris Accents Finish
+												380 cell
+													381 text 2
+												382 cell
+													383 text 0
+												384 cell
+													385 text $0.00
+											386 row Fossil Sand Ripple Relief - White 2 0 $0.00
+												387 cell
+													388 text Fossil Sand Ripple Relief - White
+												389 cell
+													390 text 2
+												391 cell
+													392 text 0
+												393 cell
+													394 text $0.00
+								395 container Top tagged content
+									396 heading Top tagged content, Value: 3
+										397 text Top tagged content
+									398 text Last 28 days on Facebook and Instagram
+									399 button See all tagged content
+									400 container
+										401 image Instagram
+										402 text A fragment of a fossil, a moment of stillness. Ammonite Petite II (Right) - White follows the shell’s spiral through soft curves and deep, changing shadows. Display this right-hand panel on its own, or pair it with Ammonite Petite I to reveal the full spiral. Each panel is sold separately. Made to order for indoor or outdoor display. Tap the product tag to explore photographs, dimensions and current pricing. https://boldstonesculpture.com/buy/p/ammonite-small-2-right-panel-white?utm_source=meta&utm_medium=o Product page views
+										403 heading 9, Value: 4
+											404 text 9
+										405 text Adds to cart
+										406 heading 0, Value: 4
+											407 text 0
+										408 image Instagram
+										409 text The shoreline, in close-up. This detail of Dune Ripple II reveals flowing ridges with a copper and verdigris surface-effect finish. Warm copper-coloured highlights meet cool turquoise, following the relief like water tracing patterns in sand. The finish is applied to a handmade gypsum-based sculpture; its pattern will vary and differ from the photographs. Suitable for indoor or outdoor display. Dune Ripple II can be shown with its companion Dune Ripple I; each sculpture is sold separately. All designs can b Product page views
+										410 heading 2, Value: 4
+											411 text 2
+										412 text Adds to cart
+										413 heading 0, Value: 4
+											414 text 0
+										415 image Instagram
+										416 text A tide-mark rhythm that stays with the wall. Fossil Sand Ripple Relief - White traces long, undulating channels across a rectangular panel. Fine texture and narrow ridges recall ripples in sand, with each line becoming clearer as the light moves across it. It can be displayed alone or with coordinating Seaweed Ripple designs. Each sculpture is sold separately. Handmade from a gypsum-based material, suitable for indoor or outdoor display. All designs can be customised, and completely new commissions can be c Product page views
+										417 heading 2, Value: 4
+											418 text 2
+										419 text Adds to cart
+										420 heading 0, Value: 4
+											421 text 0
+								422 container Catalogue
+									423 heading Catalogue, Value: 3
+										424 text Catalogue
+									425 button Manage
+									426 container
+										427 button Squarespace Integration Feed 325 items synced
+								428 container Sales channels
+									429 heading Sales channels, Value: 3
+										430 text Sales channels
+									431 link Manage, Value: business.facebook.com/commerce/326960679342026/settings/assets/?business_id=2380586078685156
+									432 container
+										433 text Boldstone Sculpture Active This channel is active.
+										434 text @boldstonesculpture Active This channel is active.
+								435 container
+									436 heading FAQ, Value: 3
+										437 text FAQ
+									438 button Help Centre
+									439 content list
+										440 button How do I integrate my website's checkout?
+										441 button How do I offer promotions to customers?
+			442 pop-up button Tab search
+			443 container
+				444 tab group
+					445 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					446 tab (settable, boolean) Fine Washed Building Sand (2mm down) - FWS | Limebase, Value: off
+					447 tab (settable, boolean) Bone Ash, 1kg | Corby Kilns | Discover The Range, Value: off
+					448 tab (settable, boolean) mkm.com/cart, Value: off
+					449 tab (settable, boolean) Fine Washed Building Sand (2mm down) - FWS | Limebase, Value: off
+					450 tab (settable, boolean) Liquid Feed - Peters Professional 10+52+10 | Medwyns of Anglesey, Value: off
+					451 tab (settable, boolean) Contact us – Moss Clerks, Value: off
+					452 tab (settable, boolean) Adomast Adotard TF Top-Face Aggregate Exposing Retarder - 5 Litre | BaseTec, Value: off
+					453 tab (settable, boolean) Checkout - Sealant Supplies Ltd, Value: off
+					454 tab (settable, boolean) Cart - Corby Kilns, Value: off
+					455 tab (settable, boolean) SEO opportunity audit, Value: off
+					456 tab (settable, boolean) Drafts (1,335) - tppricet@gmail.com - Gmail, Value: off
+					457 tab (settable, boolean) worldwidebrands.com – Network error, Value: off
+					458 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					459 tab (settable, boolean) Bookmarks, Value: off
+					460 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					461 tab (settable, boolean) SEO opportunity audit, Value: off
+					462 tab (settable, boolean) file (2048×1360), Value: off
+					463 tab (settable, boolean) Facebook Shops: Start your online retail store and sell anywhere | Meta for Business, Value: off
+					464 tab (selected, settable, boolean) (6) Boldstone Sculpture | Commerce Manager - High memory usage - 819 MB, Value: on
+					465 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+			466 button New tab
+	467 close button
+	468 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	469 minimise button
+470 menu bar
+	471 Chrome
+	472 File
+	473 Edit
+	474 View
+	475 History
+	476 Bookmarks
+	477 Profiles
+	478 Tab
+	479 Window
+	480 Help
+
+The focused UI element is 26 HTML content (6) Boldstone Sculpture | Commerce Manager, URL: business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156

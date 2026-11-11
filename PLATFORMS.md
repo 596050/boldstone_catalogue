@@ -7,11 +7,11 @@ Correct Google source | Account 5664655454, actively supplied by Squarespace. Al
 https://merchants.google.com/mc/overview?a=5664655454&authuser=0&hl=en
 [Google Manufacturer Center](https://manufacturers.google.com/mc/overview?a=5898308482)
 
-[Microsoft Merchant Center](https://ui.ads.microsoft.com/campaign/vnext/merchantcenter/products?aid=187335961&cid=255124527&storeId=50112622&uid=193182372)
+[Microsoft Merchant Center](https://ui.ads.microsoft.com/campaign/vnext/merchantcenter/overview?uid=193182372&cid=255124527&aid=187335961&storeId=50112622)
 Microsoft Merchant Center | Correct Google account selected; daily import saved for 06:00 London. Its first completed import remains unverified: Microsoft still shows 0 imported products.
 
 https://www.facebook.com/marketplace/you/selling?referral_surface=seller_hub
-
+https://business.facebook.com/commerce/?business_id=2380586078685156
 Meta Commerce Manager Facebook
 
 https://www.ebay.co.uk/usr/sapr_2972
@@ -44,6 +44,7 @@ https://marketplace.therange.co.uk/sp/
 Robert Dyas
 https://www.nuorder.com/wholesale/marketplace/?utm_source=chatgpt.com
 artsper.com
+https://www.catawiki.com/en/v/lots/bulk_upload
 
 
 
@@ -56,7 +57,6 @@ https://www.joor.com/industry/home-brands?utm_source=chatgpt.com
 https://worldwidebrands.com/supplier-submit/?utm_source=chatgpt.com
 https://uk.pinterest.com/business/catalogs
 brandboom.com
-https://www.catawiki.com/en
 whatnot.com
 behance.net
 sell.amazon.co.uk
@@ -75,15 +75,21 @@ Pavilion Broadway
 ArtGallery.co.uk
 Artfinder
 LinkedIn
+Yahoo
+
 
 **Requires payment:**
 Amazon handmade
+
+**Requires 50 reviews and business registration**
+https://www.onbuy.com/gb/sell/create-account/
 
 **Requires VAT Registration**
 Wayfair UK
 B&Q Marketplace
 Argos Marketplace
 Tesco Marketplace
+Procurist
 
 **Rejected**
 https://www.artfinder.com/art/?gad_source=1&gad_campaignid=1697084867&gbraid=0AAAAAC2r581GiR8_yG5zDhufgabXsM4Rt&gclid=CjwKCAiAqabXBhBUEiwAw_SQpdTu6T5tWaQBtZMFlqT6aTMmA5jElZDGrN3uCDCeCqMfEN1qaW7daBoC5NAQAvD_BwE

@@ -1,0 +1,230 @@
+Window: "Submissions", App: Google Chrome.
+0 standard window Submissions – Part of group 🗿 Catawiki catalogue - Google Chrome – Tom, URL: catawiki.com/en/v/lots/submissions, Secondary Actions: Raise
+	1 container Submissions – Part of group 🗿 Catawiki catalogue - Google Chrome – Tom, URL: catawiki.com/en/v/lots/submissions
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: catawiki.com/en/v/lots/submissions, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Control your music, videos and more
+				23 button Tom
+				24 pop-up button Chrome
+			25 container
+				26 scroll area
+					27 HTML content Submissions, URL: catawiki.com/en/v/lots/submissions
+						28 container
+							29 container
+								30 link homepage, Value: catawiki.com/en/
+								31 container
+									32 link Help, Value: catawiki.com/en/help
+									33 link Messages, Value: catawiki.com/en/f/conversations
+									34 pop-up button 2 Sally
+										35 text 2
+										36 text Sally
+										37 image
+							38 container Notifications Alt+T
+							39 container
+								40 heading Submissions, Value: 1
+									41 text Submissions
+								42 link Bulk upload, Value: catawiki.com/en/v/lots/bulk_upload
+								43 link Submit new object, Value: catawiki.com/en/v/lot/new
+								44 heading Status, Value: 3
+									45 text Status
+								46 content list
+									47 container
+										48 Tick box Draft (2), Value: 0
+										49 container
+											50 text Draft (2)
+									51 container
+										52 Tick box (disabled) Adjustments required (0), Value: 0
+										53 container
+											54 text Adjustments required (0)
+									55 container
+										56 Tick box (disabled) Not approved (0), Value: 0
+										57 container
+											58 text Not approved (0)
+									59 container
+										60 Tick box (disabled) Submitted (0), Value: 0
+										61 container
+											62 text Submitted (0)
+									63 container
+										64 Tick box (disabled) Under review (0), Value: 0
+										65 container
+											66 text Under review (0)
+									67 container
+										68 Tick box (disabled) Resubmitted (0), Value: 0
+										69 container
+											70 text Resubmitted (0)
+									71 container
+										72 Tick box (disabled) Approved (0), Value: 0
+										73 container
+											74 text Approved (0)
+									75 container
+										76 Tick box (disabled) Planned (0), Value: 0
+										77 container
+											78 text Planned (0)
+									79 container
+										80 Tick box (disabled) Auctioned (0), Value: 0
+										81 container
+											82 text Auctioned (0)
+									83 container
+										84 Tick box (disabled) Payment received (0), Value: 0
+										85 container
+											86 text Payment received (0)
+									87 container
+										88 Tick box (disabled) Paid (0), Value: 0
+										89 container
+											90 text Paid (0)
+									91 container
+										92 Tick box Archived, Value: 0
+										93 text Archived
+								94 container
+									95 text field (settable) Search for brand, model, artist...
+									96 button
+									97 combo box Filter by auction
+									98 button Open
+								99 content list
+									100 text 2 lots found
+								101 container
+									102 text Sort by
+									103 pop-up button Relevancy
+								104 table
+									105 row
+										106 column header
+											107 container
+												108 Tick box 0
+										109 column header
+											110 text Select all
+										111 column header
+											112 text Title
+										113 column header
+											114 text Object  /  Auction
+										115 column header
+											116 text Status
+										117 column header
+											118 text Highest bid
+									119 row
+										120 cell
+											121 container
+												122 Tick box 0
+										123 cell
+											124 link Sally Price - Acanthus Frond (Left) - Pewter, Value: catawiki.com/en/v/lot/108497870/edit
+										125 cell
+											126 link Sally Price - Acanthus Frond (Left) - Pewter, Value: catawiki.com/en/v/lot/108497870/edit
+											127 container
+												128 text Lot 
+												129 button 108497870, Help: Copy
+											130 text BOLD-3635E3DC3434
+										131 cell
+											132 text Sculpture
+											133 text Post-War & Contemporary Galleries
+										134 cell
+											135 text Draft
+											136 text Last updated November 11, 2026
+										137 cell
+											138 button Actions
+									139 row
+										140 cell
+											141 container
+												142 Tick box 0
+										143 cell
+											144 link Boldstone - Sally Price - Sculpture, Acanthus Bloom - White - 30 cm - Gypsum-based material, Value: catawiki.com/en/v/lot/108492920/edit
+										145 cell
+											146 link Boldstone - Sally Price - Sculpture, Acanthus Bloom - White - 30 cm - Gypsum-based material, Value: catawiki.com/en/v/lot/108492920/edit
+											147 container
+												148 text Lot 
+												149 button 108492920, Help: Copy
+											150 text BOLDSTONE-SQ1068535
+										151 cell
+											152 text Sculpture
+											153 text Post-War & Contemporary Galleries
+										154 cell
+											155 text Draft
+											156 text Last updated November 11, 2026
+										157 cell
+											158 button Actions
+							159 container
+								160 heading MENU, Value: 5
+									161 text MENU
+								162 container MENU
+									163 link Sales overview, Value: catawiki.com/en/v/dashboard
+									164 link Submissions, Value: catawiki.com/en/v/lots/submissions
+									165 link In auction, Value: catawiki.com/en/v/lots/live
+									166 link Sold, Value: catawiki.com/en/f/seller/orders
+									167 link Not sold, Value: catawiki.com/en/v/lots/unsold
+									168 link Your performance, Value: catawiki.com/en/v/performance
+									169 link Payments, Value: catawiki.com/en/f/seller/payments
+							170 container Notifications Alt+T
+							171 container
+								172 link Terms of Use, Value: catawiki.com/en/pages/p/terms-of-use
+								173 link Data Protection & Privacy Notice, Value: catawiki.com/en/help/buyer-privacy/privacy-policy
+								174 link Cookie Notice, Value: catawiki.com/en/help/cookies
+								175 link Law Enforcement Policy, Value: catawiki.com/en/help/buyer-terms/guidelines-for-law-enforcement-requests
+								176 link Other Policies, Value: catawiki.com/en/help/policies-guidelines
+								177 text ©  2026
+							178 text Submissions
+			179 container Infobar Container
+				180 container Infobar
+					181 container
+						182 text 'ChatGPT' started debugging this browser
+						183 button Cancel
+					184 button Close
+			185 pop-up button Tab search
+			186 container
+				187 tab group
+					188 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+						189 button Close
+					190 tab (settable, boolean) Analyse for Specificity, Value: off
+						191 button Close
+					192 tab (settable, boolean) New Beginnings - sally.v.price@gmail.com - Gmail, Value: off
+						193 button Close
+					194 tab (settable, boolean) (6757) China's Power Vacuum Worsens || Peter Zeihan - YouTube, Value: off
+						195 button Close
+					196 tab (settable, boolean) Value: off, (1) Beatriz Villarroel on X: "All the videos from the Beyond Institute’s first event in Stockholm are now publicly available. https://t.co/Kezsyt2I6W https://t.co/8DYvh8E8ZP https://t.co/FFzEgKpyBP https://t.co/R6PrTVw3NW https://t.co/gYR9a5Gm7T https://t.co/fbjlWGlCij https://t.co/Gd7VIvwDEv" / X
+						197 button Close
+					198 tab (settable, boolean) Acanthus Flower White - Dropbox, Value: off
+					199 tab group  group 🗿 Catawiki catalogue – 1 Tab, •  Submissions – Expanded
+					200 tab (selected, settable, boolean) Submissions – Part of group 🗿 Catawiki catalogue, Value: on
+						201 button Close
+					202 tab (settable, boolean) New tab, Value: off
+			203 button New tab
+		204 text https://www.catawiki.com/en/v/lots/submissions
+	205 close button
+	206 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	207 minimise button
+208 menu bar
+	209 Chrome
+	210 File
+	211 Edit
+	212 View
+	213 History
+	214 Bookmarks
+	215 Profiles
+	216 Tab
+	217 Window
+	218 Help
+
+The focused UI element is 27 HTML content Submissions, URL: catawiki.com/en/v/lots/submissions

@@ -1,0 +1,294 @@
+Window: "(6) Boldstone Sculpture | Commerce Manager", App: Google Chrome.
+0 standard window (6) Boldstone Sculpture | Commerce Manager - Google Chrome – Tom, Secondary Actions: Raise, URL: business.facebook.com/commerce/326960679342026/shops/2182319861923672/?preview_live=true&business_id=2380586078685156
+	1 container (6) Boldstone Sculpture | Commerce Manager - Google Chrome – Tom, URL: business.facebook.com/commerce/326960679342026/shops/2182319861923672/?preview_live=true&business_id=2380586078685156
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: business.facebook.com/commerce/326960679342026/shops/2182319861923672/?preview_live=true&business_id=2380586078685156
+					10 button Edit bookmark for this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Control your music, videos and more
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content (6) Boldstone Sculpture | Commerce Manager, URL: business.facebook.com/commerce/326960679342026/shops/2182319861923672/?preview_live=true&business_id=2380586078685156
+						28 container
+							29 container
+								30 container
+									31 link Business Home, Value: business.facebook.com/home/?business_id=2380586078685156
+									32 text Commerce Manager
+									33 combo box (settable) Boldstone Sculpture
+										34 container
+											35 text Boldstone Sculpture
+											36 image
+									37 container
+										38 container Navigation
+											39 content list
+												40 container
+													41 link Overview, Value: business.facebook.com/commerce/326960679342026/home/?business_id=2380586078685156
+													42 text Overview
+												43 container
+													44 button Catalogue
+													45 text Catalogue
+													46 button Toggle Group ​
+													47 content list
+														48 container
+															49 link Products, Value: business.facebook.com/commerce/catalogs/1638438493182970/products/?business_id=2380586078685156
+															50 text Products
+														51 container
+															52 link Sets, Value: business.facebook.com/commerce/catalogs/1638438493182970/sets/?business_id=2380586078685156
+															53 text Sets
+														54 container
+															55 link Data sources, Value: business.facebook.com/commerce/catalogs/1638438493182970/data_sources/?business_id=2380586078685156
+															56 text Data sources
+														57 container
+															58 link Events, Value: business.facebook.com/commerce/catalogs/1638438493182970/events/?business_id=2380586078685156
+															59 text Events
+												60 container
+													61 link Image templates, Value: business.facebook.com/commerce/catalogs/1638438493182970/templates/?business_id=2380586078685156
+													62 text Image templates
+												63 container
+													64 link Product video creator, Value: business.facebook.com/commerce/catalogs/1638438493182970/video_template_hub/?business_id=2380586078685156
+													65 text Product video creator
+												66 container
+													67 link Shops, Value: business.facebook.com/commerce/326960679342026/shops/?business_id=2380586078685156
+													68 text Shops
+												69 container
+													70 button Promotions
+													71 text Promotions
+													72 button Toggle Group ​
+													73 content list
+														74 container
+															75 link Offers, Value: business.facebook.com/commerce/326960679342026/promotions/offers/?business_id=2380586078685156
+															76 text Offers
+														77 container
+															78 link Marketing settings, Value: business.facebook.com/commerce/326960679342026/promotions/mailing_list/?business_id=2380586078685156
+															79 text Marketing settings
+												80 container
+													81 button Insights
+													82 text Insights
+													83 button Toggle Group ​
+													84 content list
+														85 container
+															86 link Overview, Value: business.facebook.com/commerce/326960679342026/performance/overview/?business_id=2380586078685156
+															87 text Overview
+														88 container
+															89 link Catalogue, Value: business.facebook.com/commerce/326960679342026/performance/products/?business_id=2380586078685156
+															90 text Catalogue
+														91 container
+															92 link Performance, Value: business.facebook.com/commerce/326960679342026/performance/perf/?business_id=2380586078685156
+															93 text Performance
+														94 container
+															95 link Audience, Value: business.facebook.com/commerce/326960679342026/performance/audience/?business_id=2380586078685156
+															96 text Audience
+														97 container
+															98 link Tagged content, Value: business.facebook.com/commerce/326960679342026/performance/product_tagged_content/?business_id=2380586078685156
+															99 text Tagged content
+														100 container
+															101 link Awareness, Value: business.facebook.com/commerce/326960679342026/performance/entry_points/?business_id=2380586078685156
+															102 text Awareness
+												103 container
+													104 link To-do list, Value: business.facebook.com/commerce/326960679342026/to_do_list/?business_id=2380586078685156
+													105 text To-do list
+												106 container
+													107 link Settings, Value: business.facebook.com/commerce/326960679342026/settings/general/?business_id=2380586078685156
+													108 text Settings
+										109 container all tools
+											110 content list
+												111 container
+													112 button All tools
+													113 text All tools
+									114 content list
+										115 container
+											116 button Meta AI business assistant
+											117 text Meta AI business assistant
+									118 button Help ​
+									119 link Business settings ​, Value: business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+									120 container
+										121 button Business notifications ​
+									122 button Search ​
+									123 button Collapse ​
+								124 tab group
+									125 tab (settable, integer) Layout, Value: 0
+										126 button Layout
+									127 tab (settable, integer) Settings, Value: 0
+										128 button Settings
+								129 container
+									130 text Shop pages
+									131 combo box (settable) Shop pages Home page, Value: Home page ​
+										132 container
+											133 text Home page
+											134 image
+								135 heading Shop's home page, Value: 2
+									136 text Shop's home page
+								137 button Add new
+								138 text Optimise layout
+								139 container
+									140 switch Label, Value: on
+								141 text Automatically order the layout of your shop for each person, based on their interests and shopping activity.
+								142 button Offers Main image, banner Expand group ​
+									143 text Offers
+									144 text Main image, banner
+									145 button Expand group ​
+								146 button Carousel 3 collections Collapse group ​
+									147 text Carousel
+									148 text 3 collections
+									149 button Collapse group ​
+								150 button Most sold exclusives! Collection
+									151 image
+									152 text Most sold exclusives!
+									153 text Collection
+								154 button Ammonite Wall Sculptures Collection
+									155 image
+									156 text Ammonite Wall Sculptures
+									157 text Collection
+								158 button Dune Ripple Wall Sculptures Collection
+									159 image
+									160 text Dune Ripple Wall Sculptures
+									161 text Collection
+								162 button Add collection
+								163 button Wall Sculptures Collection
+									164 text Wall Sculptures
+									165 text Collection
+								166 container
+									167 pop-up button Instagram
+										168 text Instagram
+										169 image
+									170 button Preview by location
+									171 button
+									172 text boldstonesculpture
+									173 button
+									174 container
+										175 container
+											176 container
+												177 container
+													178 container
+														179 container
+															180 button Categories
+																181 text Categories
+													182 container
+														183 heading 3 collections, Value: 2
+															184 text 3 collections
+														185 container
+															186 button View the collection Most sold exclusives!
+																187 text Most sold exclusives!
+															188 button View the collection Ammonite Wall Sculptures
+																189 container
+																190 text Ammonite Wall Sculptures
+																191 text Fossil-inspired spirals in two sizes, with individual left and right panels.
+													192 button View the collection Wall Sculptures
+														193 container
+														194 container
+															195 text Wall Sculptures
+															196 button View collection
+																197 button View collection
+													198 container
+														199 heading More from this shop, Value: 2
+															200 text More from this shop
+														201 button See all
+															202 text See all
+													203 container
+														204 container
+															205 button Purple Mussels watercolour Print. £40,New,
+														206 container
+															207 button Pink Beetle watercolour Print. £60,New,
+													208 container
+														209 container
+															210 button Nested Sycamore seeds have two wings Print. £40,New,
+														211 container
+															212 button Beautiful Natural History of Land Sea Air Print. £20,New,
+													213 container
+														214 container
+															215 button Raked Water Sculpture Greetings Card. £3,New,
+														216 container
+															217 button Sprouting Onion Roots Print. £20,New,
+													218 container
+														219 container
+															220 button Splendid Natural History Land Sea Air Print. £40,New,
+														221 container
+															222 button Wave and Moonshadow I - White. £57.98,,New arrival
+													223 container
+														224 container
+															225 button Sprouting Onion Beauty Print. £20,,New arrival
+														226 container
+															227 button Dune Ripple I - Blue Verdigris and Bronze Finish. £39,,New arrival
+													228 container
+														229 container
+															230 button Pineapple Portrait watercolour Print. £20,,New arrival
+														231 container
+															232 button Sprouting Onion Shell Print. £60,,New arrival
+													233 container
+														234 container
+															235 button Magnificent Natural History Land Sea Air Print. £20,,New arrival
+														236 container
+															237 button Sprouting Onion Flower Bud Print. £60,,New arrival
+													238 container
+														239 container
+															240 button Modern Sculptural Lamp Base. £250,,New arrival
+														241 container
+															242 button Faceted Black Marbelised Lamp Base. £110,,New arrival
+													243 container
+														244 container
+															245 button Japanese Maple Blues Greetings Card. £3,,New arrival
+														246 container
+															247 button Luminous Painted World. £60,,New arrival
+													248 container
+														249 container
+															250 button Soundwave Greetings Card. £3,,New arrival
+														251 container
+															252 button Egyptian Palm I - Gold Finish. £76.78,,New arrival
+												253 container
+													254 container
+														255 container
+															256 container
+																257 text ... Estimated delivery times as fast as 8 working days
+									258 text This is a preview of what your customers will see. Some features may vary or may be unavailable to test.
+								259 button Cancel
+								260 button Restore Version
+			261 pop-up button Tab search
+			262 container
+				263 tab group
+					264 tab (settable, boolean) Facebook Shops: Start your online retail store and sell anywhere | Meta for Business, Value: off
+						265 button Close
+					266 tab (selected, settable, boolean) (6) Boldstone Sculpture | Commerce Manager, Value: on
+						267 button Close
+			268 button New tab
+	269 close button
+	270 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	271 minimise button
+272 menu bar
+	273 Chrome
+	274 File
+	275 Edit
+	276 View
+	277 History
+	278 Bookmarks
+	279 Profiles
+	280 Tab
+	281 Window
+	282 Help
+
+The focused UI element is 135 heading Shop's home page, Value: 2

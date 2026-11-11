@@ -1,0 +1,398 @@
+Window: "Meta Business Suite 🔊", App: Google Chrome.
+0 standard window Meta Business Suite - High memory usage - 858 MB - Google Chrome – Tom, URL: …, Secondary Actions: Raise
+	1 container Meta Business Suite - High memory usage - 858 MB - Google Chrome – Tom, URL: …
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: business.facebook.com/latest/settings/product_catalogs?business_id=2380586078685156&nav_ref=commerce_manager_settings_permissions_manage_link&selected_asset_id=1382336793520933&selected_asset_type=product-catalog&detail_view_tab=PRODUCT_CATALOG_OVERVIEW
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Control your music, videos and more
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content Meta Business Suite, URL: …
+						28 container
+							29 container
+								30 container
+									31 heading Settings, Value: 1
+										32 text Settings
+									33 toolbar
+										34 heading Sally Price, Value: 4
+											35 text Sally Price
+										36 text Business portfolio
+										37 button Your profiles
+									38 container
+										39 container
+											40 content list
+												41 container
+													42 link Business info, Value: business.facebook.com/latest/settings/business_info?business_id=2380586078685156
+													43 text Business info
+											44 container Users
+												45 content list
+													46 container
+														47 button Users
+														48 text Users
+														49 button Toggle Group ​
+														50 content list
+															51 container
+																52 link People, Value: business.facebook.com/latest/settings/business_users?business_id=2380586078685156
+																53 text People
+															54 container
+																55 link Partners, Value: business.facebook.com/latest/settings/partners?business_id=2380586078685156
+																56 text Partners
+															57 container
+																58 link System users, Value: business.facebook.com/latest/settings/system_users?business_id=2380586078685156
+																59 text System users
+											60 container Accounts
+												61 content list
+													62 container
+														63 button Accounts
+														64 text Accounts
+														65 button Toggle Group ​
+														66 content list
+															67 container
+																68 link Pages, Value: business.facebook.com/latest/settings/pages?business_id=2380586078685156
+																69 text Pages
+															70 container
+																71 link Ad accounts, Value: business.facebook.com/latest/settings/ad_accounts?business_id=2380586078685156
+																72 text Ad accounts
+															73 container
+																74 link Business asset groups, Value: business.facebook.com/latest/settings/business_asset_groups?business_id=2380586078685156
+																75 text Business asset groups
+															76 container
+																77 link Apps, Value: business.facebook.com/latest/settings/apps?business_id=2380586078685156
+																78 text Apps
+															79 container
+																80 link Commerce accounts, Value: business.facebook.com/latest/settings/commerce_accounts?business_id=2380586078685156
+																81 text Commerce accounts
+															82 container
+																83 link Instagram accounts, Value: business.facebook.com/latest/settings/instagram_account?business_id=2380586078685156
+																84 text Instagram accounts
+															85 container
+																86 link WhatsApp accounts, Value: business.facebook.com/latest/settings/whatsapp_business_presence?business_id=2380586078685156
+																87 text WhatsApp accounts
+															88 container
+																89 link Messaging accounts, Value: business.facebook.com/latest/settings/whatsapp_account?business_id=2380586078685156
+																90 text Messaging accounts
+															91 container
+																92 link Threads accounts, Value: business.facebook.com/latest/settings/threads_account?business_id=2380586078685156
+																93 text Threads accounts
+											94 container Data sources
+												95 content list
+													96 container
+														97 button Data sources
+														98 text Data sources
+														99 button Toggle Group ​
+														100 content list
+															101 container
+																102 link Catalogues, Value: business.facebook.com/latest/settings/product_catalogs?business_id=2380586078685156
+																103 text Catalogues
+															104 container
+																105 link Datasets and pixels, Value: business.facebook.com/latest/settings/events_dataset_and_pixel?business_id=2380586078685156
+																106 text Datasets and pixels
+															107 container
+																108 link Offline event sets, Value: business.facebook.com/latest/settings/offline_event_sets?business_id=2380586078685156
+																109 text Offline event sets
+															110 container
+																111 link Custom conversions, Value: business.facebook.com/latest/settings/custom_conversions?business_id=2380586078685156
+																112 text Custom conversions
+															113 container
+																114 link Shared audiences, Value: business.facebook.com/latest/settings/shared_audiences?business_id=2380586078685156
+																115 text Shared audiences
+															116 container
+																117 link Business creative folders, Value: business.facebook.com/latest/settings/business_creative_folders?business_id=2380586078685156
+																118 text Business creative folders
+											119 content list
+												120 container
+													121 link Requests, Value: business.facebook.com/latest/settings/requests?business_id=2380586078685156
+													122 text Requests
+											123 container Brand safety and suitability
+												124 content list
+													125 container
+														126 button Brand safety and suitability
+														127 text Brand safety and suitability
+														128 button Toggle Group ​
+														129 content list
+															130 container
+																131 link Domains, Value: business.facebook.com/latest/settings/domains?business_id=2380586078685156
+																132 text Domains
+															133 container
+																134 link Publisher block lists, Value: business.facebook.com/latest/settings/block_lists?business_id=2380586078685156
+																135 text Publisher block lists
+											136 container Integrations
+												137 content list
+													138 container
+														139 button Integrations
+														140 text Integrations
+														141 button Toggle Group ​
+														142 content list
+															143 container
+																144 link Connected apps, Value: business.facebook.com/latest/settings/connected_apps?business_id=2380586078685156
+																145 text Connected apps
+															146 container
+																147 link Leads access, Value: business.facebook.com/latest/settings/leads_access?business_id=2380586078685156
+																148 text Leads access
+															149 container
+																150 link Conversation routing, Value: business.facebook.com/latest/settings/conversation_routing?business_id=2380586078685156
+																151 text Conversation routing
+															152 container
+																153 link ads MCP server, Value: business.facebook.com/latest/settings/ads_mcp_server?business_id=2380586078685156
+																154 text ads MCP server
+											155 content list
+												156 container
+													157 link Billing and payments, Value: business.facebook.com/latest/billing_hub?business_id=2380586078685156
+													158 text Billing and payments
+													159 image
+											160 content list
+												161 container
+													162 link Meta Verified, Value: business.facebook.com/latest/settings/mv4b?business_id=2380586078685156
+													163 text Meta Verified
+												164 container
+													165 link News Pages, Value: business.facebook.com/latest/settings/news_pages?business_id=2380586078685156
+													166 text News Pages
+												167 container
+													168 link Partnership Ads Hub, Value: business.facebook.com/latest/settings/business_ad_partnerships?business_id=2380586078685156
+													169 text Partnership Ads Hub
+												170 container
+													171 link Security Centre, Value: business.facebook.com/latest/settings/security_center?business_id=2380586078685156
+													172 text Security Centre
+												173 container
+													174 link Notifications, Value: business.facebook.com/latest/settings/notifications?business_id=2380586078685156
+													175 text Notifications
+												176 container
+													177 link Setup guide, Value: business.facebook.com/latest/settings/setup_guide?business_id=2380586078685156
+													178 text Setup guide
+												179 container
+													180 link Business assets, Value: business.facebook.com/latest/settings/business_assets?business_id=2380586078685156
+													181 text Business assets
+												182 container
+													183 link Authorisations and verifications, Value: business.facebook.com/latest/settings/authorizations_verifications?business_id=2380586078685156
+													184 text Authorisations and verifications
+												185 container
+													186 link Ad account settings, Value: business.facebook.com/ads/manager/account_settings/?business_id=2380586078685156&nav_source=business_manager
+													187 text Ad account settings
+													188 image
+												189 container
+													190 link Language settings, Value: facebook.com/settings/?tab=language
+													191 text Language settings
+													192 image
+										193 button Collapse ​
+									194 container
+										195 heading Catalogues, Value: 1
+											196 text Catalogues
+										197 image
+										198 text Search
+										199 container
+											200 image
+											201 text field (settable) Search, Placeholder: Search by name or ID
+										202 button Filters
+										203 pop-up button Add
+											204 image
+											205 text Add
+											206 image
+										207 container
+											208 table Business assets
+												209 row Name Full access ​ Partial access ​ Partners ​
+													210 column header
+														211 button Name
+													212 column header
+														213 heading Full access, Value: 4
+															214 text Full access
+														215 image
+													216 column header
+														217 heading Partial access, Value: 4
+															218 text Partial access
+														219 image
+													220 column header
+														221 heading Partners, Value: 4
+															222 text Partners
+														223 image
+													224 column header
+												225 row Boldstone 2026 Catalogue 3 people 0 people 0 partners Details
+													226 cell
+														227 toggle button Boldstone 2026 Catalogue, Value: 1
+															228 heading Boldstone 2026 Catalogue, Value: 4
+																229 text Boldstone 2026 Catalogue
+													230 cell
+														231 toggle button 3 people, Value: 1
+													232 cell
+														233 toggle button 0 people, Value: 1
+													234 cell
+														235 toggle button 0 partners, Value: 1
+													236 cell
+														237 toggle button Details, Value: 1
+															238 link Details, Value: business.facebook.com/latest/settings/product_catalogs/?business_id=2380586078685156&detail_view_tab=ASSET_ACCESS&nav_ref=commerce_manager_settings_permissions_manage_link&selected_asset_id=1382336793520933&selected_asset_type=product-catalog#
+												239 row Products for Boldstone Sculpture (103781478537396) 4 people 0 people 0 partners Details
+													240 cell
+														241 toggle button Products for Boldstone Sculpture (103781478537396), Value: 0
+															242 heading Products for Boldstone Sculpture (103781478537396), Value: 4
+																243 text Products for Boldstone Sculpture (103781478537396)
+													244 cell
+														245 toggle button 4 people, Value: 0
+													246 cell
+														247 toggle button 0 people, Value: 0
+													248 cell
+														249 toggle button 0 partners, Value: 0
+													250 cell
+														251 toggle button Details, Value: 0
+															252 link Details, Value: business.facebook.com/latest/settings/product_catalogs/?business_id=2380586078685156&detail_view_tab=ASSET_ACCESS&nav_ref=commerce_manager_settings_permissions_manage_link&selected_asset_id=1382336793520933&selected_asset_type=product-catalog#
+											253 container
+												254 image
+												255 heading Boldstone 2026 Catalogue, Value: 4
+													256 text Boldstone 2026 Catalogue
+												257 text ID: 
+												258 link 1382336793520933, Value: business.facebook.com/latest/settings/product_catalogs/?business_id=2380586078685156&detail_view_tab=ASSET_ACCESS&nav_ref=commerce_manager_settings_permissions_manage_link&selected_asset_id=1382336793520933&selected_asset_type=product-catalog#
+												259 text Owned by: Sally Price
+												260 button Remove
+												261 link Open in Commerce Manager, Value: business.facebook.com/commerce/catalogs/1382336793520933/products?business_id=2380586078685156
+												262 button Close ​
+												263 button Assign people
+												264 button Assign partner
+												265 link Add products, Value: business.facebook.com/commerce/catalogs/1382336793520933/products/?business_id=2380586078685156&nav_source=facebook_business_suite
+												266 link Associate sources, Value: …
+												267 tab group
+													268 tab (selected) Overview, Value: 1
+													269 tab (settable, integer) People, Value: 0
+													270 tab (settable, integer) Partners, Value: 0
+												271 heading Overview, Value: 2
+													272 text Overview
+												273 container
+													274 heading Finish your catalogue setup, Value: 2
+														275 text Finish your catalogue setup
+													276 text You're only a few steps away from being ready to promote your products or services.
+													277 heading Settings, Value: 4
+														278 text Settings
+													279 text Connect data from your website or app. This helps us show your products or services to the right people.
+													280 button Connect data
+													281 heading Permissions, Value: 4
+														282 text Permissions
+													283 text Make sure that people who need access to this catalogue have the necessary permissions.
+													284 link Review permissions, Value: …
+													285 heading Products, Value: 4
+														286 text Products
+													287 text Add at least 5 products or services to unlock all available ad formats.
+													288 button Add more products
+								289 button Meta AI business assistant
+								290 container
+									291 button Meta Business Suite
+									292 button Switch account
+									293 container Links
+										294 text Links
+										295 content list
+											296 container
+												297 link Home, Value: …
+												298 text Home
+											299 container
+												300 link Notifications
+													301 text Notifications
+												302 text Notifications
+											303 container
+												304 link Ads Manager
+													305 text Ads Manager
+												306 text Ads Manager
+											307 container
+												308 link Inbox, Value: …
+												309 text Inbox
+											310 container
+												311 link Content, Value: …
+												312 text Content
+											313 container
+												314 link Creator Marketing, Value: …
+												315 text Creator Marketing
+											316 container
+												317 link Ads, Value: …
+												318 text Ads
+											319 container
+												320 link Insights, Value: …
+												321 text Insights
+											322 container
+												323 link Monetisation, Value: …
+												324 text Monetisation
+											325 container
+												326 link All tools
+													327 text All tools
+												328 text All tools
+									329 container
+										330 link Search
+											331 text Search
+										332 text Search
+										333 image
+									334 container Links
+										335 text Links
+										336 content list
+											337 container
+												338 link Settings, Value: …
+												339 text Settings
+									340 container
+										341 link Help
+											342 text Help
+										343 text Help
+										344 image
+			345 pop-up button Tab search
+			346 container
+				347 tab group
+					348 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					349 tab (settable, boolean) Fine Washed Building Sand (2mm down) - FWS | Limebase, Value: off
+					350 tab (settable, boolean) Bone Ash, 1kg | Corby Kilns | Discover The Range, Value: off
+					351 tab (settable, boolean) mkm.com/cart, Value: off
+					352 tab (settable, boolean) Fine Washed Building Sand (2mm down) - FWS | Limebase, Value: off
+					353 tab (settable, boolean) Liquid Feed - Peters Professional 10+52+10 | Medwyns of Anglesey, Value: off
+					354 tab (settable, boolean) Contact us – Moss Clerks, Value: off
+					355 tab (settable, boolean) Adomast Adotard TF Top-Face Aggregate Exposing Retarder - 5 Litre | BaseTec, Value: off
+					356 tab (settable, boolean) Checkout - Sealant Supplies Ltd, Value: off
+					357 tab (settable, boolean) Cart - Corby Kilns, Value: off
+					358 tab (settable, boolean) SEO opportunity audit, Value: off
+					359 tab (settable, boolean) Drafts (1,335) - tppricet@gmail.com - Gmail, Value: off
+					360 tab (settable, boolean) worldwidebrands.com – Network error, Value: off
+					361 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					362 tab (settable, boolean) Bookmarks, Value: off
+					363 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					364 tab (settable, boolean) SEO opportunity audit, Value: off
+					365 tab (settable, boolean) file (2048×1360), Value: off
+					366 tab (settable, boolean) Facebook Shops: Start your online retail store and sell anywhere | Meta for Business, Value: off
+					367 tab (selected, settable, boolean) Meta Business Suite - High memory usage - 858 MB, Value: on
+						368 button Close
+					369 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					370 tab (settable, boolean) (6717) “We Are a Target” | A Soldier’s Dangerous Return to Afghanistan - YouTube – Audio playing, Value: off
+						371 button (disabled) Mute tab
+			372 button New tab
+	373 close button
+	374 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	375 minimise button
+376 menu bar
+	377 Chrome
+	378 File
+	379 Edit
+	380 View
+	381 History
+	382 Bookmarks
+	383 Profiles
+	384 Tab
+	385 Window
+	386 Help
+
+The focused UI element is 268 tab (selected) Overview, Value: 1

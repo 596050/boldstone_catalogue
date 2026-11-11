@@ -1,0 +1,528 @@
+Window: "Submissions", App: Google Chrome.
+0 standard window Submissions – Part of group 🗿 Catawiki catalogue - Google Chrome – Tom, URL: catawiki.com/en/v/lots/submissions?page=2, Secondary Actions: Raise
+	1 container Submissions – Part of group 🗿 Catawiki catalogue - Google Chrome – Tom, URL: catawiki.com/en/v/lots/submissions?page=2
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: catawiki.com/en/v/lots/submissions?page=2, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Control your music, videos and more
+				22 button Tom
+				23 pop-up button Chrome
+			24 container
+				25 scroll area
+					26 HTML content Submissions, URL: catawiki.com/en/v/lots/submissions?page=2
+						27 container
+							28 container
+								29 link homepage, Value: catawiki.com/en/
+								30 container
+									31 link Help, Value: catawiki.com/en/help
+									32 link Messages, Value: catawiki.com/en/f/conversations
+									33 pop-up button 2 Sally
+										34 text 2
+										35 text Sally
+										36 image
+							37 container Notifications Alt+T
+							38 container
+								39 heading Submissions, Value: 1
+									40 text Submissions
+								41 link Bulk upload, Value: catawiki.com/en/v/lots/bulk_upload
+								42 link Submit new object, Value: catawiki.com/en/v/lot/new
+								43 heading Status, Value: 3
+									44 text Status
+								45 content list
+									46 container
+										47 Tick box Draft (42), Value: 0
+										48 container
+											49 text Draft (42)
+									50 container
+										51 Tick box (disabled) Adjustments required (0), Value: 0
+										52 container
+											53 text Adjustments required (0)
+									54 container
+										55 Tick box (disabled) Not approved (0), Value: 0
+										56 container
+											57 text Not approved (0)
+									58 container
+										59 Tick box (disabled) Submitted (0), Value: 0
+										60 container
+											61 text Submitted (0)
+									62 container
+										63 Tick box (disabled) Under review (0), Value: 0
+										64 container
+											65 text Under review (0)
+									66 container
+										67 Tick box (disabled) Resubmitted (0), Value: 0
+										68 container
+											69 text Resubmitted (0)
+									70 container
+										71 Tick box (disabled) Approved (0), Value: 0
+										72 container
+											73 text Approved (0)
+									74 container
+										75 Tick box (disabled) Planned (0), Value: 0
+										76 container
+											77 text Planned (0)
+									78 container
+										79 Tick box (disabled) Auctioned (0), Value: 0
+										80 container
+											81 text Auctioned (0)
+									82 container
+										83 Tick box (disabled) Payment received (0), Value: 0
+										84 container
+											85 text Payment received (0)
+									86 container
+										87 Tick box (disabled) Paid (0), Value: 0
+										88 container
+											89 text Paid (0)
+									90 container
+										91 Tick box Archived, Value: 0
+										92 text Archived
+								93 container
+									94 text field (settable) Search for brand, model, artist...
+									95 button
+									96 combo box Filter by auction
+									97 button Open
+								98 content list
+									99 text 42 lots found
+								100 container
+									101 text Sort by
+									102 pop-up button Relevancy
+								103 table
+									104 row
+										105 column header
+											106 container
+												107 Tick box 0
+										108 column header
+											109 text Select all
+										110 column header
+											111 text Title
+										112 column header
+											113 text Object  /  Auction
+										114 column header
+											115 text Status
+										116 column header
+											117 text Highest bid
+									118 row
+										119 cell
+											120 container
+												121 Tick box 0
+										122 cell
+											123 link Sally Price - Ammonite Petite I (Left) - White, Value: catawiki.com/en/v/lot/108498324/edit
+										124 cell
+											125 link Sally Price - Ammonite Petite I (Left) - White, Value: catawiki.com/en/v/lot/108498324/edit
+											126 container
+												127 text Lot 
+												128 button 108498324, Help: Copy
+											129 text BOLD-624D16148726
+										130 cell
+											131 text Sculpture
+											132 text Fine Art Direct from Artists
+										133 cell
+											134 text Draft
+											135 text Last updated November 11, 2026
+										136 cell
+											137 button Actions
+									138 row
+										139 cell
+											140 container
+												141 Tick box 0
+										142 cell
+											143 link Sally Price - Folded Fan - White, Value: catawiki.com/en/v/lot/108498320/edit
+										144 cell
+											145 link Sally Price - Folded Fan - White, Value: catawiki.com/en/v/lot/108498320/edit
+											146 container
+												147 text Lot 
+												148 button 108498320, Help: Copy
+											149 text FF-1-70.50
+										150 cell
+											151 text Sculpture
+											152 text Fine Art Direct from Artists
+										153 cell
+											154 text Draft
+											155 text Last updated November 11, 2026
+										156 cell
+											157 button Actions
+									158 row
+										159 cell
+											160 container
+												161 Tick box 0
+										162 cell
+											163 link Sally Price - Raked Spiral I - White, Value: catawiki.com/en/v/lot/108498321/edit
+										164 cell
+											165 link Sally Price - Raked Spiral I - White, Value: catawiki.com/en/v/lot/108498321/edit
+											166 container
+												167 text Lot 
+												168 button 108498321, Help: Copy
+											169 text BOLD-FE973AD4748E
+										170 cell
+											171 text Sculpture
+											172 text Fine Art Direct from Artists
+										173 cell
+											174 text Draft
+											175 text Last updated November 11, 2026
+										176 cell
+											177 button Actions
+									178 row
+										179 cell
+											180 container
+												181 Tick box 0
+										182 cell
+											183 link Sally Price - Crater Moon III - Verdigris and Rust Finish, Value: catawiki.com/en/v/lot/108498319/edit
+										184 cell
+											185 link Sally Price - Crater Moon III - Verdigris and Rust Finish, Value: catawiki.com/en/v/lot/108498319/edit
+											186 container
+												187 text Lot 
+												188 button 108498319, Help: Copy
+											189 text BOLDSTONE-SQ6211184
+										190 cell
+											191 text Sculpture
+											192 text Fine Art Direct from Artists
+										193 cell
+											194 text Draft
+											195 text Last updated November 11, 2026
+										196 cell
+											197 button Actions
+									198 row
+										199 cell
+											200 container
+												201 Tick box 0
+										202 cell
+											203 link Sally Price - Ammonite Grande II (Right) - White, Value: catawiki.com/en/v/lot/108498259/edit
+										204 cell
+											205 link Sally Price - Ammonite Grande II (Right) - White, Value: catawiki.com/en/v/lot/108498259/edit
+											206 container
+												207 text Lot 
+												208 button 108498259, Help: Copy
+											209 text BOLD-C3858B1FE67E
+										210 cell
+											211 text Sculpture
+											212 text Fine Art Direct from Artists
+										213 cell
+											214 text Draft
+											215 text Last updated November 11, 2026
+										216 cell
+											217 button Actions
+									218 row
+										219 cell
+											220 container
+												221 Tick box 0
+										222 cell
+											223 link Sally Price - Dune Ripple II - Bronze and Verdigris Finish, Value: catawiki.com/en/v/lot/108498260/edit
+										224 cell
+											225 link Sally Price - Dune Ripple II - Bronze and Verdigris Finish, Value: catawiki.com/en/v/lot/108498260/edit
+											226 container
+												227 text Lot 
+												228 button 108498260, Help: Copy
+											229 text BOLD-6F3C6CD908A0
+										230 cell
+											231 text Sculpture
+											232 text Fine Art Direct from Artists
+										233 cell
+											234 text Draft
+											235 text Last updated November 11, 2026
+										236 cell
+											237 button Actions
+									238 row
+										239 cell
+											240 container
+												241 Tick box 0
+										242 cell
+											243 link Sally Price - Lunar Phase II - White, Value: catawiki.com/en/v/lot/108498261/edit
+										244 cell
+											245 link Sally Price - Lunar Phase II - White, Value: catawiki.com/en/v/lot/108498261/edit
+											246 container
+												247 text Lot 
+												248 button 108498261, Help: Copy
+											249 text BOLDSTONE-SQ6247538
+										250 cell
+											251 text Sculpture
+											252 text Fine Art Direct from Artists
+										253 cell
+											254 text Draft
+											255 text Last updated November 11, 2026
+										256 cell
+											257 button Actions
+									258 row
+										259 cell
+											260 container
+												261 Tick box 0
+										262 cell
+											263 link Sally Price - Ammonite Grande I (Left) - White, Value: catawiki.com/en/v/lot/108498166/edit
+										264 cell
+											265 link Sally Price - Ammonite Grande I (Left) - White, Value: catawiki.com/en/v/lot/108498166/edit
+											266 container
+												267 text Lot 
+												268 button 108498166, Help: Copy
+											269 text BOLD-DA27DD604F0B
+										270 cell
+											271 text Sculpture
+											272 text Fine Art Direct from Artists
+										273 cell
+											274 text Draft
+											275 text Last updated November 11, 2026
+										276 cell
+											277 button Actions
+									278 row
+										279 cell
+											280 container
+												281 Tick box 0
+										282 cell
+											283 link Sally Price - Acanthus Twin Leaves - White, Value: catawiki.com/en/v/lot/108498157/edit
+										284 cell
+											285 link Sally Price - Acanthus Twin Leaves - White, Value: catawiki.com/en/v/lot/108498157/edit
+											286 container
+												287 text Lot 
+												288 button 108498157, Help: Copy
+											289 text BOLD-93ADE7C4103D
+										290 cell
+											291 text Sculpture
+											292 text Post-War & Contemporary Galleries
+										293 cell
+											294 text Draft
+											295 text Last updated November 11, 2026
+										296 cell
+											297 button Actions
+									298 row
+										299 cell
+											300 container
+												301 Tick box 0
+										302 cell
+											303 link Sally Price - Acanthus Twin Leaves - Pewter Finish, Value: catawiki.com/en/v/lot/108498144/edit
+										304 cell
+											305 link Sally Price - Acanthus Twin Leaves - Pewter Finish, Value: catawiki.com/en/v/lot/108498144/edit
+											306 container
+												307 text Lot 
+												308 button 108498144, Help: Copy
+											309 text BOLD-449C4421ABD0
+										310 cell
+											311 text Sculpture
+											312 text Post-War & Contemporary Galleries
+										313 cell
+											314 text Draft
+											315 text Last updated November 11, 2026
+										316 cell
+											317 button Actions
+									318 row
+										319 cell
+											320 container
+												321 Tick box 0
+										322 cell
+											323 link Sally Price - Acanthus Twin Leaves - Pale Blue and White Finish, Value: catawiki.com/en/v/lot/108498138/edit
+										324 cell
+											325 link Sally Price - Acanthus Twin Leaves - Pale Blue and White Finish, Value: catawiki.com/en/v/lot/108498138/edit
+											326 container
+												327 text Lot 
+												328 button 108498138, Help: Copy
+											329 text BOLD-9B2B466B38BE
+										330 cell
+											331 text Sculpture
+											332 text Post-War & Contemporary Galleries
+										333 cell
+											334 text Draft
+											335 text Last updated November 11, 2026
+										336 cell
+											337 button Actions
+									338 row
+										339 cell
+											340 container
+												341 Tick box 0
+										342 cell
+											343 link Sally Price - Acanthus Twin Leaves - Bronze Finish, Value: catawiki.com/en/v/lot/108498133/edit
+										344 cell
+											345 link Sally Price - Acanthus Twin Leaves - Bronze Finish, Value: catawiki.com/en/v/lot/108498133/edit
+											346 container
+												347 text Lot 
+												348 button 108498133, Help: Copy
+											349 text EBAY-188686814621
+										350 cell
+											351 text Sculpture
+											352 text Post-War & Contemporary Galleries
+										353 cell
+											354 text Draft
+											355 text Last updated November 11, 2026
+										356 cell
+											357 button Actions
+									358 row
+										359 cell
+											360 container
+												361 Tick box 0
+										362 cell
+											363 link Sally Price - Acanthus Moon - White, Value: catawiki.com/en/v/lot/108498102/edit
+										364 cell
+											365 link Sally Price - Acanthus Moon - White, Value: catawiki.com/en/v/lot/108498102/edit
+											366 container
+												367 text Lot 
+												368 button 108498102, Help: Copy
+											369 text BOLDSTONE-SQ7372116
+										370 cell
+											371 text Sculpture
+											372 text Post-War & Contemporary Galleries
+										373 cell
+											374 text Draft
+											375 text Last updated November 11, 2026
+										376 cell
+											377 button Actions
+									378 row
+										379 cell
+											380 container
+												381 Tick box 0
+										382 cell
+											383 link Sally Price - Acanthus Moon - Gold Finish, Value: catawiki.com/en/v/lot/108498092/edit
+										384 cell
+											385 link Sally Price - Acanthus Moon - Gold Finish, Value: catawiki.com/en/v/lot/108498092/edit
+											386 container
+												387 text Lot 
+												388 button 108498092, Help: Copy
+											389 text EBAY-188698779320
+										390 cell
+											391 text Sculpture
+											392 text Post-War & Contemporary Galleries
+										393 cell
+											394 text Draft
+											395 text Last updated November 11, 2026
+										396 cell
+											397 button Actions
+									398 row
+										399 cell
+											400 container
+												401 Tick box 0
+										402 cell
+											403 link Sally Price - Acanthus Frond (Left) - White, Value: catawiki.com/en/v/lot/108498024/edit
+										404 cell
+											405 link Sally Price - Acanthus Frond (Left) - White, Value: catawiki.com/en/v/lot/108498024/edit
+											406 container
+												407 text Lot 
+												408 button 108498024, Help: Copy
+											409 text BOLD-BCAB636141CC
+										410 cell
+											411 text Sculpture
+											412 text Post-War & Contemporary Galleries
+										413 cell
+											414 text Draft
+											415 text Last updated November 11, 2026
+										416 cell
+											417 button Actions
+									418 row
+										419 cell
+											420 container
+												421 Tick box 0
+										422 cell
+											423 link Sally Price - Acanthus Frond (Left) - Pewter, Value: catawiki.com/en/v/lot/108497870/edit
+										424 cell
+											425 link Sally Price - Acanthus Frond (Left) - Pewter, Value: catawiki.com/en/v/lot/108497870/edit
+											426 container
+												427 text Lot 
+												428 button 108497870, Help: Copy
+											429 text BOLD-3635E3DC3434
+										430 cell
+											431 text Sculpture
+											432 text Post-War & Contemporary Galleries
+										433 cell
+											434 text Draft
+											435 text Last updated November 11, 2026
+										436 cell
+											437 button Actions
+									438 row
+										439 cell
+											440 container
+												441 Tick box 0
+										442 cell
+											443 link Boldstone - Sally Price - Sculpture, Acanthus Bloom - White - 30 cm - Gypsum-based material, Value: catawiki.com/en/v/lot/108492920/edit
+										444 cell
+											445 link Boldstone - Sally Price - Sculpture, Acanthus Bloom - White - 30 cm - Gypsum-based material, Value: catawiki.com/en/v/lot/108492920/edit
+											446 container
+												447 text Lot 
+												448 button 108492920, Help: Copy
+											449 text BOLDSTONE-SQ1068535
+										450 cell
+											451 text Sculpture
+											452 text Post-War & Contemporary Galleries
+										453 cell
+											454 text Draft
+											455 text Last updated November 11, 2026
+										456 cell
+											457 button Actions
+								458 container
+									459 link Previous, Value: catawiki.com/en/v/lots/submissions?page=1
+									460 link 1, Value: catawiki.com/en/v/lots/submissions?page=1
+									461 text 2
+							462 container
+								463 heading MENU, Value: 5
+									464 text MENU
+								465 container MENU
+									466 link Sales overview, Value: catawiki.com/en/v/dashboard
+									467 link Submissions, Value: catawiki.com/en/v/lots/submissions
+									468 link In auction, Value: catawiki.com/en/v/lots/live
+									469 link Sold, Value: catawiki.com/en/f/seller/orders
+									470 link Not sold, Value: catawiki.com/en/v/lots/unsold
+									471 link Your performance, Value: catawiki.com/en/v/performance
+									472 link Payments, Value: catawiki.com/en/f/seller/payments
+							473 container Notifications Alt+T
+							474 container
+								475 link Terms of Use, Value: catawiki.com/en/pages/p/terms-of-use
+								476 link Data Protection & Privacy Notice, Value: catawiki.com/en/help/buyer-privacy/privacy-policy
+								477 link Cookie Notice, Value: catawiki.com/en/help/cookies
+								478 link Law Enforcement Policy, Value: catawiki.com/en/help/buyer-terms/guidelines-for-law-enforcement-requests
+								479 link Other Policies, Value: catawiki.com/en/help/policies-guidelines
+								480 text ©  2026
+							481 text Submissions
+			482 container Infobar Container
+				483 container Infobar
+					484 container
+						485 text 'ChatGPT' started debugging this browser
+						486 button Cancel
+					487 button Close
+			488 pop-up button Tab search
+			489 container
+				490 tab group
+					491 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					492 tab (settable, boolean) Analyse for Specificity, Value: off
+					493 tab (settable, boolean) New Beginnings - sally.v.price@gmail.com - Gmail, Value: off
+					494 tab (settable, boolean) (6758) China's Power Vacuum Worsens || Peter Zeihan - YouTube, Value: off
+					495 tab (settable, boolean) Value: off, (1) Beatriz Villarroel on X: "All the videos from the Beyond Institute’s first event in Stockholm are now publicly available. https://t.co/Kezsyt2I6W https://t.co/8DYvh8E8ZP https://t.co/FFzEgKpyBP https://t.co/R6PrTVw3NW https://t.co/gYR9a5Gm7T https://t.co/fbjlWGlCij https://t.co/Gd7VIvwDEv" / X
+					496 tab (settable, boolean) Acanthus Flower White - Dropbox, Value: off
+					497 tab group  group 🗿 Catawiki catalogue – 1 Tab, •  Submissions – Expanded
+					498 tab (selected, settable, boolean) Submissions – Part of group 🗿 Catawiki catalogue, Value: on
+						499 button Close
+					500 tab (settable, boolean) (6758) Why Interested Leads Still Don't Understand Your Offer - YouTube, Value: off
+					501 tab (settable, boolean) Boldstone Catawiki preparation, Value: off
+			502 button New tab
+	503 close button
+	504 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	505 minimise button
+506 menu bar
+	507 Chrome
+	508 File
+	509 Edit
+	510 View
+	511 History
+	512 Bookmarks
+	513 Profiles
+	514 Tab
+	515 Window
+	516 Help
+
+The focused UI element is 26 HTML content Submissions, URL: catawiki.com/en/v/lots/submissions?page=2

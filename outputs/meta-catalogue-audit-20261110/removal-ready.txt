@@ -1,0 +1,185 @@
+Window: "(6) Commerce Manager 🔊", App: Google Chrome.
+0 standard window (6) Commerce Manager - Google Chrome – Tom, Secondary Actions: Raise, URL: business.facebook.com/commerce/catalogs/1382336793520933/settings/products/?business_id=2380586078685156
+	1 container (6) Commerce Manager - Google Chrome – Tom, URL: business.facebook.com/commerce/catalogs/1382336793520933/settings/products/?business_id=2380586078685156
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: business.facebook.com/commerce/catalogs/1382336793520933/settings/products/?business_id=2380586078685156
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 tickbox Downloads, Value: 0
+				22 button Control your music, videos and more
+				23 button Tom
+				24 pop-up button Relaunch to update
+			25 container
+				26 scroll area
+					27 HTML content (6) Commerce Manager, URL: business.facebook.com/commerce/catalogs/1382336793520933/settings/products/?business_id=2380586078685156
+						28 container
+							29 container
+								30 container
+									31 link Business Home, Value: business.facebook.com/home/?business_id=2380586078685156
+									32 text Commerce Manager
+									33 combo box (settable) Boldstone 2026 Catalogue
+										34 container
+											35 text Boldstone 2026 Catalogue
+											36 image
+									37 container
+										38 container Navigation
+											39 content list
+												40 container
+													41 link Overview, Value: business.facebook.com/commerce/catalogs/1382336793520933/overview/?business_id=2380586078685156
+													42 text Overview
+												43 container
+													44 button Catalogue
+													45 text Catalogue
+													46 button Toggle Group ​
+													47 content list
+														48 container
+															49 link Products, Value: business.facebook.com/commerce/catalogs/1382336793520933/products/?business_id=2380586078685156
+															50 text Products
+														51 container
+															52 link Sets, Value: business.facebook.com/commerce/catalogs/1382336793520933/sets/?business_id=2380586078685156
+															53 text Sets
+														54 container
+															55 link Data sources, Value: business.facebook.com/commerce/catalogs/1382336793520933/data_sources/?business_id=2380586078685156
+															56 text Data sources
+														57 container
+															58 link Events, Value: business.facebook.com/commerce/catalogs/1382336793520933/events/?business_id=2380586078685156
+															59 text Events
+												60 container
+													61 link Image templates, Value: business.facebook.com/commerce/catalogs/1382336793520933/templates/?business_id=2380586078685156
+													62 text Image templates
+												63 container
+													64 link Product video creator, Value: business.facebook.com/commerce/catalogs/1382336793520933/video_template_hub/?business_id=2380586078685156
+													65 text Product video creator
+												66 container
+													67 link Offers, Value: business.facebook.com/commerce/1382336793520933/promotions/offers/?business_id=2380586078685156
+													68 text Offers
+												69 container
+													70 link Shops, Value: business.facebook.com/commerce/catalogs/1382336793520933/shops_upsell/?business_id=2380586078685156
+													71 text Shops
+												72 container
+													73 link To-do list, Value: business.facebook.com/commerce/1382336793520933/to_do_list/?business_id=2380586078685156
+													74 text To-do list
+												75 container
+													76 link Settings, Value: business.facebook.com/commerce/catalogs/1382336793520933/settings/general/?business_id=2380586078685156
+													77 text Settings
+										78 container all tools
+											79 content list
+												80 container
+													81 button All tools
+													82 text All tools
+									83 content list
+										84 container
+											85 button Meta AI business assistant
+											86 text Meta AI business assistant
+									87 button Help ​
+									88 link Business settings ​, Value: business.facebook.com/settings/people?business_id=2380586078685156&referring_source=ads_navigation_gear_icon
+									89 container
+										90 button Business notifications ​
+									91 button Search ​
+									92 button Collapse ​
+								93 container Breadcrumb
+									94 link Settings, Value: business.facebook.com/commerce/catalogs/1382336793520933/settings/general/?business_id=2380586078685156
+								95 container
+									96 table
+										97 row General
+											98 cell
+												99 heading General, Value: 3
+													100 text General
+										101 row Catalogue
+											102 cell
+												103 heading Catalogue, Value: 3
+													104 text Catalogue
+								105 container Catalogue name
+									106 heading Catalogue name, Value: 3
+										107 text Catalogue name
+									108 button Edit
+									109 container
+										110 text Boldstone 2026 Catalogue Catalogue ID : 1382336793520933
+								111 container Image cropping
+									112 heading Image cropping, Value: 3
+										113 text Image cropping
+									114 container
+										115 text Select how your images are cropped and resized. These settings will be immediately applied to all of your catalogue items, including those in your live campaigns. 
+										116 link Learn more, Value: facebook.com/business/help/686259348512056
+									117 button Edit
+									118 container
+										119 text Ads : Fill frame with image (default) Single image ads : Fill frame with image (default) Product page : Fill frame with image (default)
+								120 container Shop locations
+									121 heading Shop locations, Value: 3
+										122 text Shop locations
+									123 container
+										124 text If your business has multiple physical shop locations, connect your catalogue to your store Pages. This matches items in your catalogue to specific shops so that your ads can show local inventory and direct people to nearby shops. 
+										125 link Learn more, Value: facebook.com/business/help/799893063819520?id=153845951953267
+									126 button Connect
+								127 container Delete catalogue
+									128 heading Delete catalogue, Value: 3
+										129 text Delete catalogue
+									130 text Remove your catalogue from Meta. Deleting your catalogue will stop any campaigns with the generic catalogue products from your catalogue.
+									131 button Delete
+			132 pop-up button Tab search
+			133 container
+				134 tab group
+					135 tab (settable, boolean) DIY Mosscrete Guide, Value: off
+					136 tab (settable, boolean) Fine Washed Building Sand (2mm down) - FWS | Limebase, Value: off
+					137 tab (settable, boolean) Bone Ash, 1kg | Corby Kilns | Discover The Range, Value: off
+					138 tab (settable, boolean) mkm.com/cart, Value: off
+					139 tab (settable, boolean) Fine Washed Building Sand (2mm down) - FWS | Limebase, Value: off
+					140 tab (settable, boolean) Liquid Feed - Peters Professional 10+52+10 | Medwyns of Anglesey, Value: off
+					141 tab (settable, boolean) Contact us – Moss Clerks, Value: off
+					142 tab (settable, boolean) Adomast Adotard TF Top-Face Aggregate Exposing Retarder - 5 Litre | BaseTec, Value: off
+					143 tab (settable, boolean) Checkout - Sealant Supplies Ltd, Value: off
+					144 tab (settable, boolean) Cart - Corby Kilns, Value: off
+					145 tab (settable, boolean) SEO opportunity audit, Value: off
+					146 tab (settable, boolean) Drafts (1,335) - tppricet@gmail.com - Gmail, Value: off
+					147 tab (settable, boolean) worldwidebrands.com – Network error, Value: off
+					148 tab (settable, boolean) Sign in to The Range Marketplace, Value: off
+					149 tab (settable, boolean) Bookmarks, Value: off
+					150 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					151 tab (settable, boolean) SEO opportunity audit, Value: off
+					152 tab (settable, boolean) file (2048×1360), Value: off
+					153 tab (settable, boolean) Facebook Shops: Start your online retail store and sell anywhere | Meta for Business, Value: off
+					154 tab (selected, settable, boolean) (6) Commerce Manager, Value: on
+						155 button Close
+					156 tab (settable, boolean) Watch The Terminal List - S2 | Prime Video, Value: off
+					157 tab (settable, boolean) (6717) “We Are a Target” | A Soldier’s Dangerous Return to Afghanistan - YouTube – Audio playing, Value: off
+						158 button (disabled) Mute tab
+			159 button New tab
+	160 close button
+	161 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	162 minimise button
+163 menu bar
+	164 Chrome
+	165 File
+	166 Edit
+	167 View
+	168 History
+	169 Bookmarks
+	170 Profiles
+	171 Tab
+	172 Window
+	173 Help
+
+The focused UI element is 27 HTML content (6) Commerce Manager, URL: business.facebook.com/commerce/catalogs/1382336793520933/settings/products/?business_id=2380586078685156
