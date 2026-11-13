@@ -1,0 +1,691 @@
+Window: "Submissions", App: Google Chrome.
+0 standard window Submissions – Part of group 🗿 Catawiki catalogue - Google Chrome – Tom, URL: catawiki.com/en/v/lots/submissions, Secondary Actions: Raise
+	1 container Submissions – Part of group 🗿 Catawiki catalogue - Google Chrome – Tom, URL: catawiki.com/en/v/lots/submissions
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: catawiki.com/en/v/lots/submissions, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Chrome
+			23 container
+				24 scroll area
+					25 HTML content Submissions, URL: catawiki.com/en/v/lots/submissions
+						26 container
+							27 container
+								28 link homepage, Value: catawiki.com/en/
+								29 container
+									30 link Help, Value: catawiki.com/en/help
+									31 link Messages, Value: catawiki.com/en/f/conversations
+									32 pop-up button 2 Sally
+										33 text 2
+										34 text Sally
+										35 image
+							36 container Notifications Alt+T
+							37 container
+								38 heading Submissions, Value: 1
+									39 text Submissions
+								40 link Bulk upload, Value: catawiki.com/en/v/lots/bulk_upload
+								41 link Submit new object, Value: catawiki.com/en/v/lot/new
+								42 heading Status, Value: 3
+									43 text Status
+								44 content list
+									45 container
+										46 Tick box Draft (44), Value: 0
+										47 container
+											48 text Draft (44)
+									49 container
+										50 Tick box (disabled) Adjustments required (0), Value: 0
+										51 container
+											52 text Adjustments required (0)
+									53 container
+										54 Tick box (disabled) Not approved (0), Value: 0
+										55 container
+											56 text Not approved (0)
+									57 container
+										58 Tick box (disabled) Submitted (0), Value: 0
+										59 container
+											60 text Submitted (0)
+									61 container
+										62 Tick box (disabled) Under review (0), Value: 0
+										63 container
+											64 text Under review (0)
+									65 container
+										66 Tick box (disabled) Resubmitted (0), Value: 0
+										67 container
+											68 text Resubmitted (0)
+									69 container
+										70 Tick box (disabled) Approved (0), Value: 0
+										71 container
+											72 text Approved (0)
+									73 container
+										74 Tick box (disabled) Planned (0), Value: 0
+										75 container
+											76 text Planned (0)
+									77 container
+										78 Tick box (disabled) Auctioned (0), Value: 0
+										79 container
+											80 text Auctioned (0)
+									81 container
+										82 Tick box (disabled) Payment received (0), Value: 0
+										83 container
+											84 text Payment received (0)
+									85 container
+										86 Tick box (disabled) Paid (0), Value: 0
+										87 container
+											88 text Paid (0)
+									89 container
+										90 Tick box Archived, Value: 0
+										91 text Archived
+								92 container
+									93 text field (settable) Search for brand, model, artist...
+									94 button
+									95 combo box Filter by auction
+									96 button Open
+								97 content list
+									98 text 44 lots found
+								99 container
+									100 text Sort by
+									101 pop-up button Relevancy
+								102 table
+									103 row
+										104 column header
+											105 container
+												106 Tick box 0
+										107 column header
+											108 text Select all
+										109 column header
+											110 text Title
+										111 column header
+											112 text Object  /  Auction
+										113 column header
+											114 text Status
+										115 column header
+											116 text Highest bid
+									117 row
+										118 cell
+											119 container
+												120 Tick box 0
+										121 cell
+											122 link Sally Price - Barbados Wave Relief, Value: catawiki.com/en/v/lot/108506202/edit
+										123 cell
+											124 link Sally Price - Barbados Wave Relief, Value: catawiki.com/en/v/lot/108506202/edit
+											125 container
+												126 text Lot 
+												127 button 108506202, Help: Copy
+											128 text BSI-A76B86DA7928
+										129 cell
+											130 text Sculpture
+											131 text Post-War & Contemporary Galleries
+										132 cell
+											133 text Draft
+											134 text Last updated November 11, 2026
+										135 cell
+											136 text RESERVE PRICE
+											137 container
+												138 text € 440
+										139 cell
+											140 button Actions
+									141 row
+										142 cell
+											143 container
+												144 Tick box 0
+										145 cell
+											146 link Sally Price - Lunar Phase IV - White, Value: catawiki.com/en/v/lot/108498537/edit
+										147 cell
+											148 link Sally Price - Lunar Phase IV - White, Value: catawiki.com/en/v/lot/108498537/edit
+											149 container
+												150 text Lot 
+												151 button 108498537, Help: Copy
+											152 text BOLD-818D745F1357
+										153 cell
+											154 text Sculpture
+											155 text Fine Art Direct from Artists
+										156 cell
+											157 text Draft
+											158 text Last updated November 11, 2026
+										159 cell
+											160 button Actions
+									161 row
+										162 cell
+											163 container
+												164 Tick box 0
+										165 cell
+											166 link Sally Price - Azure Marble-Effect Relief - Blue and White Finish, Value: catawiki.com/en/v/lot/108498538/edit
+										167 cell
+											168 link Sally Price - Azure Marble-Effect Relief - Blue and White Finish, Value: catawiki.com/en/v/lot/108498538/edit
+											169 container
+												170 text Lot 
+												171 button 108498538, Help: Copy
+											172 text EBAY-188703253522
+										173 cell
+											174 text Sculpture
+											175 text Fine Art Direct from Artists
+										176 cell
+											177 text Draft
+											178 text Last updated November 11, 2026
+										179 cell
+											180 button Actions
+									181 row
+										182 cell
+											183 container
+												184 Tick box 0
+										185 cell
+											186 link Sally Price - Crater Moon IV - Verdigris and Rust Finish, Value: catawiki.com/en/v/lot/108498535/edit
+										187 cell
+											188 link Sally Price - Crater Moon IV - Verdigris and Rust Finish, Value: catawiki.com/en/v/lot/108498535/edit
+											189 container
+												190 text Lot 
+												191 button 108498535, Help: Copy
+											192 text BOLDSTONE-SQ2233720
+										193 cell
+											194 text Sculpture
+											195 text Fine Art Direct from Artists
+										196 cell
+											197 text Draft
+											198 text Last updated November 11, 2026
+										199 cell
+											200 button Actions
+									201 row
+										202 cell
+											203 container
+												204 Tick box 0
+										205 cell
+											206 link Sally Price - Dune Ripple II - Verdigris and Copper Finish, Value: catawiki.com/en/v/lot/108498533/edit
+										207 cell
+											208 link Sally Price - Dune Ripple II - Verdigris and Copper Finish, Value: catawiki.com/en/v/lot/108498533/edit
+											209 container
+												210 text Lot 
+												211 button 108498533, Help: Copy
+											212 text BOLDSTONE-SQ0059342
+										213 cell
+											214 text Sculpture
+											215 text Fine Art Direct from Artists
+										216 cell
+											217 text Draft
+											218 text Last updated November 11, 2026
+										219 cell
+											220 button Actions
+									221 row
+										222 cell
+											223 container
+												224 Tick box 0
+										225 cell
+											226 link Sally Price - Riyadh Dune Ripple - White, Value: catawiki.com/en/v/lot/108498531/edit
+										227 cell
+											228 link Sally Price - Riyadh Dune Ripple - White, Value: catawiki.com/en/v/lot/108498531/edit
+											229 container
+												230 text Lot 
+												231 button 108498531, Help: Copy
+											232 text BOLD-B9DA00108196
+										233 cell
+											234 text Sculpture
+											235 text Fine Art Direct from Artists
+										236 cell
+											237 text Draft
+											238 text Last updated November 11, 2026
+										239 cell
+											240 button Actions
+									241 row
+										242 cell
+											243 container
+												244 Tick box 0
+										245 cell
+											246 link Sally Price - Crater Moon IV - Verdigris Finish, Value: catawiki.com/en/v/lot/108498492/edit
+										247 cell
+											248 link Sally Price - Crater Moon IV - Verdigris Finish, Value: catawiki.com/en/v/lot/108498492/edit
+											249 container
+												250 text Lot 
+												251 button 108498492, Help: Copy
+											252 text BOLDSTONE-SQ4868573
+										253 cell
+											254 text Sculpture
+											255 text Fine Art Direct from Artists
+										256 cell
+											257 text Draft
+											258 text Last updated November 11, 2026
+										259 cell
+											260 button Actions
+									261 row
+										262 cell
+											263 container
+												264 Tick box 0
+										265 cell
+											266 link Sally Price - Raked Spiral III - White, Value: catawiki.com/en/v/lot/108498493/edit
+										267 cell
+											268 link Sally Price - Raked Spiral III - White, Value: catawiki.com/en/v/lot/108498493/edit
+											269 container
+												270 text Lot 
+												271 button 108498493, Help: Copy
+											272 text BOLD-04C3A2CA2BE1
+										273 cell
+											274 text Sculpture
+											275 text Fine Art Direct from Artists
+										276 cell
+											277 text Draft
+											278 text Last updated November 11, 2026
+										279 cell
+											280 button Actions
+									281 row
+										282 cell
+											283 container
+												284 Tick box 0
+										285 cell
+											286 link Sally Price - Lunar Phase IV - Silver Finish, Value: catawiki.com/en/v/lot/108498488/edit
+										287 cell
+											288 link Sally Price - Lunar Phase IV - Silver Finish, Value: catawiki.com/en/v/lot/108498488/edit
+											289 container
+												290 text Lot 
+												291 button 108498488, Help: Copy
+											292 text EBAY-188687221372
+										293 cell
+											294 text Sculpture
+											295 text Fine Art Direct from Artists
+										296 cell
+											297 text Draft
+											298 text Last updated November 11, 2026
+										299 cell
+											300 button Actions
+									301 row
+										302 cell
+											303 container
+												304 Tick box 0
+										305 cell
+											306 link Sally Price - Dune Ripple II - Rust Finish, Value: catawiki.com/en/v/lot/108498489/edit
+										307 cell
+											308 link Sally Price - Dune Ripple II - Rust Finish, Value: catawiki.com/en/v/lot/108498489/edit
+											309 container
+												310 text Lot 
+												311 button 108498489, Help: Copy
+											312 text EBAY-188682535224
+										313 cell
+											314 text Sculpture
+											315 text Fine Art Direct from Artists
+										316 cell
+											317 text Draft
+											318 text Last updated November 11, 2026
+										319 cell
+											320 button Actions
+									321 row
+										322 cell
+											323 container
+												324 Tick box 0
+										325 cell
+											326 link Sally Price - Fossil Sand Ripple Relief - White, Value: catawiki.com/en/v/lot/108498490/edit
+										327 cell
+											328 link Sally Price - Fossil Sand Ripple Relief - White, Value: catawiki.com/en/v/lot/108498490/edit
+											329 container
+												330 text Lot 
+												331 button 108498490, Help: Copy
+											332 text FSR-1-50.100
+										333 cell
+											334 text Sculpture
+											335 text Fine Art Direct from Artists
+										336 cell
+											337 text Draft
+											338 text Last updated November 11, 2026
+										339 cell
+											340 button Actions
+									341 row
+										342 cell
+											343 container
+												344 Tick box 0
+										345 cell
+											346 link Sally Price - Ancient Spiral - White, Value: catawiki.com/en/v/lot/108498491/edit
+										347 cell
+											348 link Sally Price - Ancient Spiral - White, Value: catawiki.com/en/v/lot/108498491/edit
+											349 container
+												350 text Lot 
+												351 button 108498491, Help: Copy
+											352 text BOLD-70BDE00F2855
+										353 cell
+											354 text Sculpture
+											355 text Fine Art Direct from Artists
+										356 cell
+											357 text Draft
+											358 text Last updated November 11, 2026
+										359 cell
+											360 button Actions
+									361 row
+										362 cell
+											363 container
+												364 Tick box 0
+										365 cell
+											366 link Sally Price - Lunar Phase III - White, Value: catawiki.com/en/v/lot/108498425/edit
+										367 cell
+											368 link Sally Price - Lunar Phase III - White, Value: catawiki.com/en/v/lot/108498425/edit
+											369 container
+												370 text Lot 
+												371 button 108498425, Help: Copy
+											372 text BOLDSTONE-SQ1357552
+										373 cell
+											374 text Sculpture
+											375 text Fine Art Direct from Artists
+										376 cell
+											377 text Draft
+											378 text Last updated November 11, 2026
+										379 cell
+											380 button Actions
+									381 row
+										382 cell
+											383 container
+												384 Tick box 0
+										385 cell
+											386 link Sally Price - Crater Moon IV - Silver and Bronze Finish, Value: catawiki.com/en/v/lot/108498420/edit
+										387 cell
+											388 link Sally Price - Crater Moon IV - Silver and Bronze Finish, Value: catawiki.com/en/v/lot/108498420/edit
+											389 container
+												390 text Lot 
+												391 button 108498420, Help: Copy
+											392 text BOLDSTONE-SQ1605793
+										393 cell
+											394 text Sculpture
+											395 text Fine Art Direct from Artists
+										396 cell
+											397 text Draft
+											398 text Last updated November 11, 2026
+										399 cell
+											400 button Actions
+									401 row
+										402 cell
+											403 container
+												404 Tick box 0
+										405 cell
+											406 link Sally Price - Raked Spiral III - Beige Finish, Value: catawiki.com/en/v/lot/108498421/edit
+										407 cell
+											408 link Sally Price - Raked Spiral III - Beige Finish, Value: catawiki.com/en/v/lot/108498421/edit
+											409 container
+												410 text Lot 
+												411 button 108498421, Help: Copy
+											412 text BOLD-6AA659B1469F
+										413 cell
+											414 text Sculpture
+											415 text Fine Art Direct from Artists
+										416 cell
+											417 text Draft
+											418 text Last updated November 11, 2026
+										419 cell
+											420 button Actions
+									421 row
+										422 cell
+											423 container
+												424 Tick box 0
+										425 cell
+											426 link Sally Price - Dune Ripple II - Gold Finish, Value: catawiki.com/en/v/lot/108498422/edit
+										427 cell
+											428 link Sally Price - Dune Ripple II - Gold Finish, Value: catawiki.com/en/v/lot/108498422/edit
+											429 container
+												430 text Lot 
+												431 button 108498422, Help: Copy
+											432 text BOLDSTONE-SQ6244576
+										433 cell
+											434 text Sculpture
+											435 text Fine Art Direct from Artists
+										436 cell
+											437 text Draft
+											438 text Last updated November 11, 2026
+										439 cell
+											440 button Actions
+									441 row
+										442 cell
+											443 container
+												444 Tick box 0
+										445 cell
+											446 link Sally Price - Ancient Cup Ring - White, Value: catawiki.com/en/v/lot/108498423/edit
+										447 cell
+											448 link Sally Price - Ancient Cup Ring - White, Value: catawiki.com/en/v/lot/108498423/edit
+											449 container
+												450 text Lot 
+												451 button 108498423, Help: Copy
+											452 text BOLD-ADD5F3BEFCF5
+										453 cell
+											454 text Sculpture
+											455 text Fine Art Direct from Artists
+										456 cell
+											457 text Draft
+											458 text Last updated November 11, 2026
+										459 cell
+											460 button Actions
+									461 row
+										462 cell
+											463 container
+												464 Tick box 0
+										465 cell
+											466 link Sally Price - Fossil Sand Ripple Relief - White, Value: catawiki.com/en/v/lot/108498424/edit
+										467 cell
+											468 link Sally Price - Fossil Sand Ripple Relief - White, Value: catawiki.com/en/v/lot/108498424/edit
+											469 container
+												470 text Lot 
+												471 button 108498424, Help: Copy
+											472 text FSR-1-50.100
+										473 cell
+											474 text Sculpture
+											475 text Fine Art Direct from Artists
+										476 cell
+											477 text Draft
+											478 text Last updated November 11, 2026
+										479 cell
+											480 button Actions
+									481 row
+										482 cell
+											483 container
+												484 Tick box 0
+										485 cell
+											486 link Sally Price - Ammonite Petite II (Right) - White, Value: catawiki.com/en/v/lot/108498350/edit
+										487 cell
+											488 link Sally Price - Ammonite Petite II (Right) - White, Value: catawiki.com/en/v/lot/108498350/edit
+											489 container
+												490 text Lot 
+												491 button 108498350, Help: Copy
+											492 text BOLD-EFBAEB31C2B1
+										493 cell
+											494 text Sculpture
+											495 text Fine Art Direct from Artists
+										496 cell
+											497 text Draft
+											498 text Last updated November 11, 2026
+										499 cell
+											500 button Actions
+									501 row
+										502 cell
+											503 container
+												504 Tick box 0
+										505 cell
+											506 link Sally Price - Dune Ripple II - Copper with Verdigris Accents Finish, Value: catawiki.com/en/v/lot/108498351/edit
+										507 cell
+											508 link Sally Price - Dune Ripple II - Copper with Verdigris Accents Finish, Value: catawiki.com/en/v/lot/108498351/edit
+											509 container
+												510 text Lot 
+												511 button 108498351, Help: Copy
+											512 text BOLD-6405184B86EB
+										513 cell
+											514 text Sculpture
+											515 text Fine Art Direct from Artists
+										516 cell
+											517 text Draft
+											518 text Last updated November 11, 2026
+										519 cell
+											520 button Actions
+									521 row
+										522 cell
+											523 container
+												524 Tick box 0
+										525 cell
+											526 link Sally Price - Lunar Phase II (Bordered) - White, Value: catawiki.com/en/v/lot/108498347/edit
+										527 cell
+											528 link Sally Price - Lunar Phase II (Bordered) - White, Value: catawiki.com/en/v/lot/108498347/edit
+											529 container
+												530 text Lot 
+												531 button 108498347, Help: Copy
+											532 text BOLD-4515726BBC18
+										533 cell
+											534 text Sculpture
+											535 text Fine Art Direct from Artists
+										536 cell
+											537 text Draft
+											538 text Last updated November 11, 2026
+										539 cell
+											540 button Actions
+									541 row
+										542 cell
+											543 container
+												544 Tick box 0
+										545 cell
+											546 link Sally Price - Crater Moon III - White, Value: catawiki.com/en/v/lot/108498348/edit
+										547 cell
+											548 link Sally Price - Crater Moon III - White, Value: catawiki.com/en/v/lot/108498348/edit
+											549 container
+												550 text Lot 
+												551 button 108498348, Help: Copy
+											552 text BOLD-89699A0F5BA9
+										553 cell
+											554 text Sculpture
+											555 text Fine Art Direct from Artists
+										556 cell
+											557 text Draft
+											558 text Last updated November 11, 2026
+										559 cell
+											560 button Actions
+									561 row
+										562 cell
+											563 container
+												564 Tick box 0
+										565 cell
+											566 link Sally Price - Raked Spiral II - White, Value: catawiki.com/en/v/lot/108498349/edit
+										567 cell
+											568 link Sally Price - Raked Spiral II - White, Value: catawiki.com/en/v/lot/108498349/edit
+											569 container
+												570 text Lot 
+												571 button 108498349, Help: Copy
+											572 text BOLD-2AFD94C9F459
+										573 cell
+											574 text Sculpture
+											575 text Fine Art Direct from Artists
+										576 cell
+											577 text Draft
+											578 text Last updated November 11, 2026
+										579 cell
+											580 button Actions
+									581 row
+										582 cell
+											583 container
+												584 Tick box 0
+										585 cell
+											586 link Sally Price - Folded Swan Wing - White, Value: catawiki.com/en/v/lot/108498345/edit
+										587 cell
+											588 link Sally Price - Folded Swan Wing - White, Value: catawiki.com/en/v/lot/108498345/edit
+											589 container
+												590 text Lot 
+												591 button 108498345, Help: Copy
+											592 text SWF-1-70.50
+										593 cell
+											594 text Sculpture
+											595 text Fine Art Direct from Artists
+										596 cell
+											597 text Draft
+											598 text Last updated November 11, 2026
+										599 cell
+											600 button Actions
+									601 row
+										602 cell
+											603 container
+												604 Tick box 0
+										605 cell
+											606 link Sally Price - Dune Ripple II - Copper Finish, Value: catawiki.com/en/v/lot/108498322/edit
+										607 cell
+											608 link Sally Price - Dune Ripple II - Copper Finish, Value: catawiki.com/en/v/lot/108498322/edit
+											609 container
+												610 text Lot 
+												611 button 108498322, Help: Copy
+											612 text EBAY-188654831217
+										613 cell
+											614 text Sculpture
+											615 text Fine Art Direct from Artists
+										616 cell
+											617 text Draft
+											618 text Last updated November 11, 2026
+										619 cell
+											620 button Actions
+								621 container
+									622 link Next, Value: catawiki.com/en/v/lots/submissions?page=2
+									623 text 1
+									624 link 2, Value: catawiki.com/en/v/lots/submissions?page=2
+							625 container
+								626 heading MENU, Value: 5
+									627 text MENU
+								628 container MENU
+									629 link Sales overview, Value: catawiki.com/en/v/dashboard
+									630 link Submissions, Value: catawiki.com/en/v/lots/submissions
+									631 link In auction, Value: catawiki.com/en/v/lots/live
+									632 link Sold, Value: catawiki.com/en/f/seller/orders
+									633 link Not sold, Value: catawiki.com/en/v/lots/unsold
+									634 link Your performance, Value: catawiki.com/en/v/performance
+									635 link Payments, Value: catawiki.com/en/f/seller/payments
+							636 container Notifications Alt+T
+							637 container
+								638 link Terms of Use, Value: catawiki.com/en/pages/p/terms-of-use
+								639 link Data Protection & Privacy Notice, Value: catawiki.com/en/help/buyer-privacy/privacy-policy
+								640 link Cookie Notice, Value: catawiki.com/en/help/cookies
+								641 link Law Enforcement Policy, Value: catawiki.com/en/help/buyer-terms/guidelines-for-law-enforcement-requests
+								642 link Other Policies, Value: catawiki.com/en/help/policies-guidelines
+								643 text ©  2026
+							644 text Submissions
+			645 container Infobar Container
+				646 container Infobar
+					647 container
+						648 text 'ChatGPT' started debugging this browser
+						649 button Cancel
+					650 button Close
+			651 pop-up button Tab search
+			652 container
+				653 tab group
+					654 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					655 tab (settable, boolean) Analyse for Specificity, Value: off
+					656 tab (settable, boolean) New Beginnings - sally.v.price@gmail.com - Gmail, Value: off
+					657 tab (settable, boolean) (6764) China's Power Vacuum Worsens || Peter Zeihan - YouTube, Value: off
+					658 tab (settable, boolean) Value: off, (1) Beatriz Villarroel on X: "All the videos from the Beyond Institute’s first event in Stockholm are now publicly available. https://t.co/Kezsyt2I6W https://t.co/8DYvh8E8ZP https://t.co/FFzEgKpyBP https://t.co/R6PrTVw3NW https://t.co/gYR9a5Gm7T https://t.co/fbjlWGlCij https://t.co/Gd7VIvwDEv" / X
+					659 tab (settable, boolean) Acanthus Flower White - Dropbox, Value: off
+					660 tab group  group 🗿 Catawiki catalogue – 1 Tab, •  Submissions – Expanded
+					661 tab (selected, settable, boolean) Submissions – Part of group 🗿 Catawiki catalogue, Value: on
+						662 button Close
+					663 tab (settable, boolean) (6764) Why Interested Leads Still Don't Understand Your Offer - YouTube, Value: off
+					664 tab (settable, boolean) Boldstone Catawiki preparation, Value: off
+			665 button New tab
+	666 close button
+	667 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	668 minimise button
+669 menu bar
+	670 Chrome
+	671 File
+	672 Edit
+	673 View
+	674 History
+	675 Bookmarks
+	676 Profiles
+	677 Tab
+	678 Window
+	679 Help
+
+The focused UI element is 25 HTML content Submissions, URL: catawiki.com/en/v/lots/submissions

@@ -1,0 +1,392 @@
+Window: "Submit your item", App: Google Chrome.
+0 standard window Submit your item – Part of group 🗿 Catawiki catalogue - Google Chrome – Tom, URL: catawiki.com/en/v/lot/108506202/edit, Secondary Actions: Raise
+	1 container Submit your item – Part of group 🗿 Catawiki catalogue - Google Chrome – Tom, URL: catawiki.com/en/v/lot/108506202/edit
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: catawiki.com/en/v/lot/108506202/edit, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Tom
+				22 pop-up button Chrome
+			23 container
+				24 scroll area
+					25 HTML content Submit your item, URL: catawiki.com/en/v/lot/108506202/edit
+						26 container
+							27 container
+								28 link homepage, Value: catawiki.com/en/
+								29 container
+									30 link Help, Value: catawiki.com/en/help
+									31 link Messages, Value: catawiki.com/en/f/conversations
+									32 pop-up button 2 Sally
+										33 text 2
+										34 text Sally
+										35 image
+							36 container Notifications Alt+T
+							37 container
+								38 content list
+									39 link Object, Value: catawiki.com/en/v/lot/108506202/edit#
+									40 link Images, Value: catawiki.com/en/v/lot/108506202/edit#photos
+									41 link Details, Value: catawiki.com/en/v/lot/108506202/edit#details
+									42 link Value, Value: catawiki.com/en/v/lot/108506202/edit#valuation
+									43 link Shipping, Value: catawiki.com/en/v/lot/108506202/edit#shipping
+									44 button Preview
+									45 button Submit
+								46 heading Find the perfect buyer for your sculpture, Value: 1
+									47 text Find the perfect buyer for your  sculpture
+								48 button Change object
+								49 container
+									50 heading Select the category your object best fits in, Value: 5
+										51 text Select the category your object best fits in
+									52 button Sculptures & Figurines
+									53 button Modern & Contemporary Art
+									54 button Archaeology
+									55 button See more
+								56 button Our experts will find the best auction for your object, but you can also choose an auction yourself
+								57 container Images
+									58 heading Images, Value: 1
+										59 text Images
+									60 text Buyers love images that show off the details of your special object.
+									61 container
+										62 button Choose files: No file chosen
+										63 button Drag and drop your images here
+										64 button Upload images
+										65 button Add via mobile
+									66 container
+										67 button
+										68 image Object Selection
+										69 heading TAKE PHOTOS BUYERS WILL LOVE, Value: 4
+											70 text TAKE PHOTOS BUYERS WILL LOVE
+										71 heading Lighting, Value: 5
+											72 text Lighting
+										73 text Bright, natural lighting helps with accurate colours.
+										74 button
+										75 button
+										76 button
+								77 container Details
+									78 heading Details, Value: 1
+										79 text Details
+									80 text Dive into the specifics of your object to help the perfect buyers find it.
+									81 heading Smart fill: pre-filled details based on your images, Value: 4
+										82 image
+										83 text Smart fill: pre-filled details based on your images
+									84 content list
+										85 container
+											86 text 1. Upload your images
+										87 container
+											88 text 2. We scan for info and fill in details
+										89 container
+											90 text 3. You check to make sure everything’s correct
+									91 button Fill details
+									92 container
+										93 text Language : English
+										94 button Edit
+									95 container
+										96 text ERA
+										97 container
+											98 text e.g. 1900-2000, After 2000, Before 1400
+											99 combo box (settable)
+										100 text MANUFACTURER/BRAND ( OPTIONAL )
+										101 container
+											102 text e.g. ACO, AWA, KPM
+											103 combo box (settable)
+										104 text STYLE ( OPTIONAL )
+										105 container
+											106 text e.g. Antique, Art Deco, Realism
+											107 combo box (settable)
+										108 text COUNTRY OF ORIGIN
+										109 button Description
+										110 container
+											111 text United Kingdom
+											112 combo box (settable)
+										113 text MATERIAL
+										114 container
+											115 text Other
+											116 button Remove Other
+												117 button
+											118 combo box (settable)
+										119 text field (settable) Value: Gypsum-based material, Placeholder: ​
+										120 text ARTIST ( OPTIONAL )
+										121 container
+											122 text Other
+											123 combo box (settable)
+										124 text field (settable) Value: Sally Price, Placeholder: ​
+										125 text TITLE OF ARTWORK
+										126 button Description
+										127 text field (settable) Value: Barbados Wave Relief, Placeholder: Title of artwork
+										128 text SIGNATURE
+										129 container
+											130 text e.g. Hand signed, Not signed, Signed
+											131 combo box (settable)
+										132 text EDITION ( OPTIONAL )
+										133 text field (settable) Edition
+										134 text YEAR ( OPTIONAL )
+										135 button Description
+										136 stepper (settable) Year
+										137 text COLOUR ( OPTIONAL )
+										138 container
+											139 text e.g. Blue, Gold, Green
+											140 combo box (settable)
+										141 text CONDITION
+										142 container
+											143 text Excellent condition
+											144 combo box (settable)
+										145 text HEIGHT
+										146 stepper (settable, float) Value: 100, Placeholder: Height
+										147 container
+											148 combo box Unit, Value: cm, Placeholder: ​
+											149 text Unit
+										150 button Open
+										151 text WIDTH
+										152 stepper (settable, float) Value: 100, Placeholder: Width
+										153 container
+											154 combo box Unit, Value: cm, Placeholder: ​
+											155 text Unit
+										156 button Open
+										157 text DEPTH
+										158 stepper (settable, float) Value: 8, Placeholder: Depth
+										159 container
+											160 combo box Unit, Value: cm, Placeholder: ​
+											161 text Unit
+										162 button Open
+										163 text WEIGHT ( OPTIONAL )
+										164 stepper (settable, float) Value: 83000, Placeholder: Weight
+										165 container
+											166 combo box Unit, Value: g, Placeholder: ​
+											167 text Unit
+										168 button Open
+									169 text YOUR REFERENCE LABEL (OPTIONAL)
+									170 text Keep track of your lots with colours and labels (only you can see this).
+									171 combo box Colour
+									172 button Open
+									173 text field (settable) Value: BSI-A76B86DA7928, Placeholder: Text / number
+									174 heading Description (English), Value: 4
+										175 text Description (English)
+									176 text Share as many details as possible about your artwork. This builds confidence with bidders, making it easier for them to understand its value and increasing your chances of a successful sale. Your description should include:
+
+• Artist’s full name, nationality, and lifespan (if applicable)
+• Title of the work, year (or approximate period), and medium or technique (e.g. oil on canvas, lithograph on paper, mixed                        media)
+• Dimensions: include image size, sheet/canvas size and framed size (i
+									177 text entry area (settable) Placeholder: Use this section to add any extra information, Value: Barbados Wave Relief
+
+A flowing wave motif captures the feeling of water held in a moment of movement. The relief balances broad curves with changes in depth, giving the wall a gentle sense of motion.
+
+A little coastal daydream: warm light, an open horizon and the rhythm of the sea, brought into an interior or garden.
+
+Brand: Boldstone
+Product type: Wall sculpture
+Model: Barbados Wave Relief (SQ0484508)
+Colour / appearance: Bath Stone finish
+Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+Material: Made from a gypsum-based material.
+Dimensions: 100 × 100 × 8 cm
+Weight: Approximately 83 kg
+Use: Suitable for outdoor use and indoor display.
+Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+
+Dimensions: 100 × 100 × 8 cm
+Weight: Approximately 83 kg
+Quantity: one individual sculpture or panel. Other pieces and room props in reference photographs are not included.
+
+Condition: new, as confirmed by the maker. This is a handmade cast; photographs are reference examples of the design and finish, and the supplied cast may differ. Collection in Midford, Bath, and insured shipping are intended; the service and destination charges remain to be confirmed.
+									178 heading This is how buyers will see your object, Value: 4
+										179 text This is how buyers will see your object
+									180 text To help your special object reach a wide, international audience we use the details you provide for consistent titles with strong translations.
+									181 button View full preview
+									182 container
+										183 heading Sally Price - Barbados Wave Relief, Value: 4
+											184 text Sally Price - Barbados Wave Relief
+										185 button
+									186 container
+										187 button
+										188 image Object Selection
+										189 heading PRO TIP, Value: 4
+											190 text PRO TIP
+										191 heading Make your object stand out, Value: 5
+											192 text Make your object stand out
+										193 text Buyers use details to filter their object searches. Help them find yours by filling out as many details as you can. Our experts are here to help with anything you’re unsure about.
+								194 container Value
+									195 heading Value, Value: 1
+										196 text Value
+									197 text Help experts find the perfect auctions for your object, and set an optional reserve price.
+									198 heading Estimated selling price, Value: 4
+										199 text Estimated selling price
+									200 text How much do you think your object will sell for?
+									201 text Buyers won't see this, only our expert. They'll get in touch to confirm or adjust your estimate.
+									202 text ESTIMATED VALUE
+									203 text €
+									204 stepper (settable, float) ESTIMATED VALUE, Value: 441, Placeholder: ​
+									205 heading Reserve price, Value: 4
+										206 text Reserve price
+									207 text A reserve price is a minimum price you're willing to sell your object for. Data shows that no reserve prices usually lead to higher selling prices.
+									208 container
+										209 Tick box Set a reserve price (minimum price), Value: 1
+									210 heading Enter your reserve price, Value: 6
+										211 text Enter your reserve price
+									212 text Bidders won't see your reserve price, only if it's been met. We'll optimise the starting bid to maximise your chances of selling.
+									213 text RESERVE PRICE
+									214 text €
+									215 stepper (settable, float) RESERVE PRICE, Value: 440, Placeholder: ​
+									216 container
+										217 Tick box Value: 0, Offer top bidders another chance to buy after the auction, if bids reach € 396 (90% of reserve price)
+									218 container
+										219 button
+										220 image Object Selection
+										221 heading PRO TIP, Value: 4
+											222 text PRO TIP
+										223 heading Objects without a reserve price sell for more, Value: 5
+											224 text Objects without a reserve price sell for more
+										225 text Our data shows that objects without a reserve price are more likely to lead to a bidding frenzy.
+								226 container Shipping
+									227 heading Shipping, Value: 1
+										228 text Shipping
+									229 container Package size
+										230 heading Package size, Value: 4
+											231 text Package size
+										232 text Estimate the size and weight (object and packaging)
+										233 content list
+											234 container
+												235 radio button 0
+												236 container
+													237 heading Small package, Value: 1
+														238 text Small package
+													239 heading MAX. WEIGHT, Value: 2
+														240 text MAX. WEIGHT
+													241 text up to 2 kg
+													242 heading MAX. DIMENSIONS, Value: 2
+														243 text MAX. DIMENSIONS
+													244 text 38x26x3 cm
+											245 container
+												246 radio button 0
+												247 container
+													248 heading Medium package, Value: 1
+														249 text Medium package
+													250 heading MAX. WEIGHT, Value: 2
+														251 text MAX. WEIGHT
+													252 text up to 5 kg
+													253 heading MAX. DIMENSIONS, Value: 2
+														254 text MAX. DIMENSIONS
+													255 text 80x50x35 cm
+											256 container
+												257 radio button 0
+												258 container
+													259 heading Large package, Value: 1
+														260 text Large package
+													261 heading MAX. WEIGHT, Value: 2
+														262 text MAX. WEIGHT
+													263 text up to 20 kg
+													264 heading MAX. DIMENSIONS, Value: 2
+														265 text MAX. DIMENSIONS
+													266 text 100x50x50 cm
+											267 container
+												268 radio button 0
+												269 container
+													270 heading XL package, Value: 1
+														271 text XL package
+													272 heading MIN. WEIGHT, Value: 2
+														273 text MIN. WEIGHT
+													274 text Over 21 kg
+													275 heading MIN. DIMENSIONS, Value: 2
+														276 text MIN. DIMENSIONS
+													277 text Over 101x51x51 cm
+											278 container
+												279 radio button 0
+												280 container
+													281 heading Custom size, Value: 1
+														282 text Custom size
+													283 text Enter the exact weight and dimensions for more precise shipping costs.
+								284 container Message the expert
+									285 heading Message the expert, Value: 1
+										286 text Message the expert
+									287 text (optional)
+									288 heading Will be reviewed by:, Value: 3
+										289 text Will be reviewed by:
+									290 image Giulia Couzzi
+									291 heading Giulia Couzzi, Value: 4
+										292 text Giulia Couzzi
+									293 text Expert in Post-War & Contemporary Galleries
+									294 text entry area (settable) Send a message to the expert to clarify all questions you might have. After submitting your lot, it will be sent to the expert to review.
+								295 text By submitting, you agree to our 
+								296 link Terms of Use , Value: catawiki.com/en/pages/p/terms-of-use
+								297 text and confirm the item is as described, legally compliant, yours to sell, and listed exclusively on Catawiki.
+								298 button Submit
+								299 button Save as draft
+								300 button Preview
+							301 container
+								302 heading MENU, Value: 5
+									303 text MENU
+								304 container MENU
+									305 link Sales overview, Value: catawiki.com/en/v/dashboard
+									306 link Submissions, Value: catawiki.com/en/v/lots/submissions
+									307 link In auction, Value: catawiki.com/en/v/lots/live
+									308 link Sold, Value: catawiki.com/en/f/seller/orders
+									309 link Not sold, Value: catawiki.com/en/v/lots/unsold
+									310 link Your performance, Value: catawiki.com/en/v/performance
+									311 link Payments, Value: catawiki.com/en/f/seller/payments
+							312 container Notifications Alt+T
+							313 container
+								314 link Terms of Use, Value: catawiki.com/en/pages/p/terms-of-use
+								315 link Data Protection & Privacy Notice, Value: catawiki.com/en/help/buyer-privacy/privacy-policy
+								316 link Cookie Notice, Value: catawiki.com/en/help/cookies
+								317 link Law Enforcement Policy, Value: catawiki.com/en/help/buyer-terms/guidelines-for-law-enforcement-requests
+								318 link Other Policies, Value: catawiki.com/en/help/policies-guidelines
+								319 text ©  2026
+			320 container Infobar Container
+				321 container Infobar
+					322 container
+						323 text 'ChatGPT' started debugging this browser
+						324 button Cancel
+					325 button Close
+			326 pop-up button Tab search
+			327 container
+				328 tab group
+					329 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					330 tab (settable, boolean) Analyse for Specificity, Value: off
+					331 tab (settable, boolean) New Beginnings - sally.v.price@gmail.com - Gmail, Value: off
+					332 tab (settable, boolean) (6762) China's Power Vacuum Worsens || Peter Zeihan - YouTube, Value: off
+					333 tab (settable, boolean) Value: off, (1) Beatriz Villarroel on X: "All the videos from the Beyond Institute’s first event in Stockholm are now publicly available. https://t.co/Kezsyt2I6W https://t.co/8DYvh8E8ZP https://t.co/FFzEgKpyBP https://t.co/R6PrTVw3NW https://t.co/gYR9a5Gm7T https://t.co/fbjlWGlCij https://t.co/Gd7VIvwDEv" / X
+					334 tab (settable, boolean) Acanthus Flower White - Dropbox, Value: off
+					335 tab group  group 🗿 Catawiki catalogue – 1 Tab, •  Submit your item – Expanded
+					336 tab (selected, settable, boolean) Submit your item – Part of group 🗿 Catawiki catalogue, Value: on
+						337 button Close
+					338 tab (settable, boolean) (6762) Why Interested Leads Still Don't Understand Your Offer - YouTube, Value: off
+					339 tab (settable, boolean) Boldstone Catawiki preparation, Value: off
+			340 button New tab
+	341 close button
+	342 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	343 minimise button
+344 menu bar
+	345 Chrome
+	346 File
+	347 Edit
+	348 View
+	349 History
+	350 Bookmarks
+	351 Profiles
+	352 Tab
+	353 Window
+	354 Help
+
+The focused UI element is 25 HTML content Submit your item, URL: catawiki.com/en/v/lot/108506202/edit

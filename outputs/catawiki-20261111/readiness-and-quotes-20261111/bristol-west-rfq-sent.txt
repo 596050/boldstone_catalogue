@@ -1,0 +1,116 @@
+The following is a diff from the previous accessibility tree for Window: "Quote request: Boldstone gypsu…tone.co.uk - Thomas Price Mail" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 159, 934-942, 1072-1919
+~0 standard window URL: mail.google.com/mail/u/2/#sent/KtbxLzGPpJPNTfGRlVLXFlQsXpkCkfWcxV, Secondary Actions: Raise, Quote request: Boldstone gypsum wall sculptures from Bath — parcel and freight profiles - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 909 MB - Google Chrome – Tom
+~	1 container URL: mail.google.com/mail/u/2/#sent/KtbxLzGPpJPNTfGRlVLXFlQsXpkCkfWcxV, Quote request: Boldstone gypsum wall sculptures from Bath — parcel and freight profiles - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 909 MB - Google Chrome – Tom
+~					9 text field (settable) Address and search bar, Value: mail.google.com/mail/u/2/#sent/KtbxLzGPpJPNTfGRlVLXFlQsXpkCkfWcxV, Placeholder: Ask Google or type a URL
+~					26 HTML content URL: mail.google.com/mail/u/2/#sent/KtbxLzGPpJPNTfGRlVLXFlQsXpkCkfWcxV, Quote request: Boldstone gypsum wall sculptures from Bath — parcel and freight profiles - info@boldstone.co.uk - Thomas Price Mail
++								1069 container
++									1070 container
++										1071 button Back to Sent Mail
++										1072 container
++											1073 button Archive
++											1074 button Report spam
++											1075 button Delete
++										1076 container
++											1077 button Mark as unread
++											1078 button Snooze
++											1079 button Add to Tasks
++										1080 container
++											1081 button Move to Inbox
++											1082 pop-up button Labels
++											1083 button Automate
++										1084 pop-up button More email options, Help: More
++										1085 container
++											1086 text 1  of  1,139
++										1087 button (disabled) Newer
++										1088 button Older
++									1089 container
++										1090 button Print all
++										1091 button In new window
++										1092 heading Quote request: Boldstone gypsum wall sculptures from Bath — parcel and freight profiles, Value: 2
++											1093 text Quote request: Boldstone gypsum wall sculptures from Bath — parcel and freight profiles
++										1094 content list
++											1095 container
++												1096 container
++													1097 container Boldstone info@boldstone.co.uk
++														1098 container Boldstone info@boldstone.co.uk
++															1099 heading Boldstone info@boldstone.co.uk, Value: 3
++																1100 cell
++																	1101 text Boldstone
++																	1102 text info@boldstone.co.uk
++															1103 heading 3
++													1104 container Attachments 7:31 PM (1 minute ago) Not starred
++														1105 image Attachments, Help: supplier-rfq-products.csv
++														1106 cell Nov 11, 2026, 7:31 PM
++															1107 text 7:31 PM (1 minute ago)
++														1108 Tick box Not starred, Value: 0
++													1109 container Add reaction Reply More message options
++														1110 button Add reaction
++														1111 button Reply
++														1112 container More message options
++															1113 button More message options
++												1114 container to bristolwest Show details
++													1115 container to bristolwest Show details
++														1116 container
++															1117 text to  bristolwest
++														1118 pop-up button Show details
++												1119 container
++													1120 text Hello Bristol West team, PACK & SEND's initial chat support directed this enquiry to you. On behalf of Boldstone, please provide indicative packing, collection and insured-delivery quotations for gypsum-based wall sculptures sold through Catawiki. Collection: Court Essington, Midford Road, Midford, Bath BA2 7BX, UK. Reply email: 
++													1121 link info@boldstone.co.uk, Value: mailto:info@boldstone.co.uk
++													1122 text . There are 176 separate potential one-sculpture shipments, NOT one consignment. The attached CSV contains the individual product references, estimated packed dimensions/weights and proposed sale values in GBP. These are planning estimates, not measured packed consignments; please assess suitable packing/crating and confirm the final measurements before binding quotes. Six planning profiles (group maxima can refer to different products): P1: 17 products, up to 42 x 42 x 17 cm, 5 kg, proposed value up to GBP155.52. P2: 74 products, up to 62 x 50 x 18 cm, 10 kg, GBP176.78. P3: 49 products, up to 100 x 65 x 20 cm, 19.8 kg, GBP220.86. P4: 21 products, up to 110 x 70 x 28 cm, 27.5 kg, GBP282.44. F1: 4 products requiring specialist parcel/crate assessment, up to 130 x 80 x 20 cm, 49.5 kg, GBP309.16. F2: 11 large/heavy pieces requiring individual freight/crate assessment; longest 285 cm, heaviest 198 kg, proposed value up to GBP835. The CSV gives each combination separately. Please provide: - UK mainland rates or zones, with a representative Bath BA2 7BX to central London WC2N 5DN example. - EU destination-country/zone rates suitable for entering before auction, including any islands, remote areas and exclusions; representative Paris 75001 and Berlin 10115 examples are useful. - A representative New York 10001, USA quotation and any viable wider international service zones. No buyer addresses or auction sale dates are known yet. - Packing/crating, collection, carriage, loss/damage cover, VAT and surcharges itemised separately; state quote validity and any volumetric-weight rules. - Written confirmation whether Freight Plus Warranty or another offered policy covers accidental breakage of fragile gypsum-based sculptures packed by you, not only loss; exclusions, excesses and claim valuation requirements. - Collection/tracking lead time: Catawiki requires dispatch within three working days of payment, so please state how far in advance packaging or crates would need to be prepared. These are pre-auction quotations to establish commercially suitable shipping profiles, not a shipment booking or acceptance of a charge or service agreement. The final declared value will need to match the actual sale and the terms of cover. Please send a quotation/enquiry reference and identify any additional measurements or photographs needed. Product examples are on 
++													1123 link https://boldstonesculpture. com/, Value: boldstonesculpture.com/
++													1124 text . Thank you, Boldstone catalogue team
++													1125 link info@boldstone.co.uk, Value: mailto:info@boldstone.co.uk
++												1126 container
++													1127 container
++														1128 text One attachment
++													1129 text   •  Scanned by Gmail
++													1130 image Attachment scanning in Gmail To help protect your inbox, Gmail blocks attachments when malware is detected. You should still only download attachments from people you trust.  Learn more Safer with Google logo
++													1131 button Add to Drive
++												1132 container
++													1133 link Preview attachment supplier-rfq-products.csv Preview attachment supplier-rfq-products.csv, Value: mail.google.com/mail/u/2/?ui=2&ik=aeb6818f0d&attid=0.1&permmsgid=msg-a:r6817712804096833927&th=1a1cc1881be084ee&view=att&disp=safe&realattid=f_mwcily2k0&zw
++													1134 button Edit attachment with Google Sheets supplier-rfq-products.csv
++													1135 button Download attachment supplier-rfq-products.csv
++													1136 button Add attachment to Drive supplier-rfq-products.csv
++										1137 container
++											1138 link Reply
++												1139 text Reply
++											1140 link Forward
++												1141 text Forward
++											1142 button Add reaction
++											1143 link Share in chat New
++												1144 text Share in chat
++												1145 text New
+~					1048 tab (selected, settable, boolean) Value: on, Quote request: Boldstone gypsum wall sculptures from Bath — parcel and freight profiles - info@boldstone.co.uk - Thomas Price Mail - High memory usage - 909 MB
+The focused UI element is 1092 heading Quote request: Boldstone gypsum wall sculptures from Bath — parcel and freight profiles, Value: 2
+The following is a diff from the previous accessibility tree for Window: "Quote request: Boldstone gypsu…tone.co.uk - Thomas Price Mail" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
++												1146 container
++													1147 table
++														1148 row
++															1149 row header
++																1150 text from:
++															1151 cell
++																1152 text Boldstone info@boldstone.co.uk
++														1153 row
++															1154 row header
++																1155 text to:
++															1156 cell
++																1157 toolbar
++																	1158 content list
++																		1159 pop-up button bristolwest@packsend.co.uk
++														1160 row
++															1161 row header
++																1162 text date:
++															1163 cell
++																1164 text Nov 11, 2026, 7:31 PM
++														1165 row
++															1166 row header
++																1167 text subject:
++															1168 cell
++																1169 text Quote request: Boldstone gypsum wall sculptures from Bath — parcel and freight profiles
++														1170 row
++															1171 row header
++																1172 text mailed-by:
++															1173 cell
++																1174 text boldstone.co.uk
+The focused UI element is 1146 container

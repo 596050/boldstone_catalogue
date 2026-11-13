@@ -49,7 +49,7 @@ https://www.catawiki.com/en/v/lots/bulk_upload
 
 
 **In Progress:**
-https://houseofestila.com/join/brand
+
 https://www.glassette.com/pages/contact
 https://furnitures.co.uk/sell?utm_source=chatgpt.com
 https://partners.artsper.com/application?utm_source=chatgpt.com
@@ -78,8 +78,116 @@ LinkedIn
 Yahoo
 
 
+///
+How to make hollow cast sculptures:
+How to pigment cement
+etc.
+
+Maps and search
+• Apple Business Connect
+• Bing Places
+• Yelp
+• Nextdoor
+• Facebook
+• Instagram
+• LinkedIn
+• MapQuest
+• Here WeGo
+• TomTom
+• Waze
+
+General directories
+• Yellow Pages
+• Better Business Bureau
+• Manta
+• Superpages
+• Hotfrog
+• Brownbook
+• Cylex
+• MerchantCircle
+• EZlocal
+• CitySquares
+• ShowMeLocal
+• Alignable
+• Trustpilot
+
+Home and local services
+• Angi
+• Thumbtack
+• Houzz
+• HomeAdvisor
+• Porch
+• TaskRabbit
+• Bark
+
+Industry-specific
+• TripAdvisor, OpenTable
+• Healthgrades, Zocdoc
+• Avvo
+• Zillow
+• The Knot, WeddingWire
+• ClassPass, Mindbody
+• G2, Capterra, Clutch
+
+Manage them all at once
+• Yext
+• BrightLocal
+• Moz Local
+• Semrush Local
+• Whitespark
+• Synup
+• Birdeye
+
+Free UGC platforms
+
+• LinkedIn (articles + newsletters)
+• Medium
+• Reddit
+• Quora
+• Substack
+• YouTube (descriptions + video rankings)
+• Pinterest
+• X Articles
+
+Free site builders
+
+• Google Sites
+• Blogger
+• WordPress
+• Notion
+• Wix / Weebly
+• Canva Sites
+
+Dev + doc hosts
+
+• GitHub / GitHub Pages
+• Dev. To
+• Hashnode
+• Google Docs / Looker Studio
+• SlideShare
+• Scribd / Issuu
+
+Community + creative
+
+• Vocal Media
+• Tumblr
+• Behance
+• Product Hunt
+• Patreon
+
+Paid placements (sponsored posts)
+
+• Outlook India
+• Times of India
+• Deccan Herald
+• Mid-Day
+• Regional US news sites and alt-weeklies
+
+
+
 **Requires payment:**
 Amazon handmade
+https://houseofestila.com/join/brand
 
 **Requires 50 reviews and business registration**
 https://www.onbuy.com/gb/sell/create-account/

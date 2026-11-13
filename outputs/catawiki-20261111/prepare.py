@@ -17,7 +17,27 @@ OUT = ROOT / 'outputs/catawiki-20261111'
 SOURCE = Path(json.loads((ROOT / 'sculpture-catalogue/current-master.json').read_text())['current_app_review_workbook']['path'])
 NS = {'m': 'http://schemas.openxmlformats.org/spreadsheetml/2006/main',
       'r': 'http://schemas.openxmlformats.org/officeDocument/2006/relationships'}
-EXISTING = {'BSI-C02D6DF365D3': '108492920', 'BSI-3635E3DC3434': '108497870'}
+inventory_path = OUT / 'submission-continuation/lot-matches.json'
+observed_inventory = json.loads(inventory_path.read_text())
+owner_inventory_path = OUT / 'owner-decisions-20261111/canonical-lots.json'
+if owner_inventory_path.exists():
+    latest = json.loads(owner_inventory_path.read_text())
+    ids = {lot['id'] for lot in observed_inventory['lots']}
+    for lot in latest['lots']:
+        if lot['id'] not in ids:
+            observed_inventory['lots'].append({
+                'id': lot['id'], 'title': lot.get('title', ''), 'reference': lot['reference'],
+                'state': 'Draft', 'url': 'https://www.catawiki.com/en/v/lot/' + lot['id'] + '/edit',
+                'matching_product_ids': [lot['product_id']]})
+            ids.add(lot['id'])
+existing_lots = defaultdict(list)
+for lot in observed_inventory['lots']:
+    assert len(lot['matching_product_ids']) == 1
+    existing_lots[lot['matching_product_ids'][0]].append(lot)
+# Keep the earliest draft as the canonical existing record. Duplicate drafts
+# are held out of submission, never deleted by this preparation script.
+EXISTING = {pid: min(lots, key=lambda lot: int(lot['id']))['id']
+            for pid, lots in existing_lots.items()}
 
 
 def read_sheet(z, number, header_row):
@@ -71,12 +91,14 @@ fx_date = next(n.attrib['time'] for n in ecb.iter() if 'time' in n.attrib)
 gbp_per_eur = Decimal(next(n.attrib['rate'] for n in ecb.iter() if n.attrib.get('currency') == 'GBP'))
 selected = defaultdict(list)
 for r in images:
-    if val(r, 'Listing') == 'Yes' and val(r, 'Excluded') != 'Yes' and val(r, 'In situ') != 'Yes':
+    if (val(r, 'Listing') == 'Yes' or val(r, 'In situ') == 'Yes') and val(r, 'Excluded') != 'Yes':
         u = url(r, 'Website gallery image')
         if u.startswith('https://'):
             selected[val(r, 'Product ID')].append({'image_id': val(r, 'Stable image ID'),
                 'name': val(r, 'File name'), 'url': u, 'dropbox_url': url(r, 'Image'),
                 'types': val(r, 'Image types'), 'primary': val(r, 'Primary listing') == 'Yes',
+                'listing': val(r, 'Listing') == 'Yes', 'in_situ': val(r, 'In situ') == 'Yes',
+                'ai_status': 'Unverified: inspect actual image; extension and category are not evidence',
                 'order': val(r, 'Listing order') or 0, 'alt': val(r, 'Alt text'),
                 'width_px': val(r, 'Original width (px)'), 'height_px': val(r, 'Original height (px)')})
 
@@ -109,9 +131,12 @@ for r in products:
     desc = re.sub(r'https?://\S+', '', desc)
     desc = re.sub(r'(?im)^.*(?:dispatch|lead time|royal mail|delivery is).*(?:\n|$)', '', desc).strip()
     description = f'{title}\n\n{desc}\n\nDimensions: {val(r, "Dimensions / depth")}\nWeight: {val(r, "Weight")}\nQuantity: one individual sculpture or panel. Other pieces and room props in reference photographs are not included.'
+    condition = val(r, 'catawiki_condition') or ''
+    if condition.startswith('New (owner-confirmed)'):
+        description = val(r, 'catawiki_description')
     draft = dict.fromkeys(headers, '')
     draft.update({'Your Reference Number (optional)': pid, 'Your Reference Colour (optional)': 'Orange',
-        'Auction Type (9) (optional)': 'Post-War & Contemporary Galleries', 'Object type (19499)': 'Relief',
+        'Auction Type (9) (optional)': 'Fine Art Direct from Artists', 'Object type (19499)': 'Relief',
         'Language': 'English', 'Description': description, 'D: Country of origin': 'United Kingdom',
         'D: Material': 'Plaster', 'D: Artist (optional)': 'Sally Price', 'D: Title of artwork': title,
         'D: Sold by (optional)': 'Direct from the brand', 'D: Over 200 years old': 'no',
@@ -120,17 +145,25 @@ for r in products:
         # a seller proposal for expert review, not an independently appraised value.
         'Estimated lot value': catawiki_target_eur if catawiki_target_eur is not None else round(float(eur), 2),
         'Message to Expert (optional)': 'Contemporary gypsum-based wall relief by Sally Price for Boldstone. Surface colours are finishes, not solid precious or base metals. No numbered or limited edition is asserted. Catalogue dimensions may include working estimates. The owner-proposed Catawiki price includes GBP100 over catalogue retail, converted to EUR; please independently assess category, value and reserve eligibility.'})
+    if condition.startswith('New (owner-confirmed)'):
+        draft['D: Condition'] = 'Excellent condition'
+        draft['Message to Expert (optional)'] += ' The maker confirms new handmade casts, but says the supplied casts vary from these catalogue reference images. Actual-sale-cast photo evidence, signature and production era are not yet confirmed. Collection plus insured shipping is intended; destination quotes are pending. No-reserve auctions are owner-authorised for the original 97 targets below EUR200.'
     for dim in ('Height', 'Width', 'Depth'):
         n = val(r, f'ebay_{dim.lower()}_cm')
         if isinstance(n, (int, float)) and n > 0: draft[f'D: {dim}'] = f'{n:g}_cm'
-    issues = ['Exclusive Catawiki listing requirement conflicts with other active channel listings',
+    reserve_proposal = val(r, 'catawiki_reserve_price_eur')
+    if isinstance(reserve_proposal, (int, float)) and reserve_proposal > 0:
+        assert catawiki_target_eur >= 200 and reserve_proposal < catawiki_target_eur
+        draft['Reserve price (optional)'] = reserve_proposal
+        draft['Message to Expert (optional)'] += f' Seller reserve proposal EUR{reserve_proposal:g}; please assess and approve independently. This is not a previously accepted reserve.'
+    issues = ['Confirm a separate actual cast is reserved exclusively for this Catawiki lot; do not withdraw other product listings automatically',
               'Owner confirmation of terms, legal ownership/compliance and exclusivity required before upload',
-              'Verify physical cast condition, signature and manufacturing era',
-              'Review photographs of the actual sale item; neutral background, reverse/fixings and details',
+              'New condition confirmed by owner. Signature and manufacturing era remain unspecified; the casts vary from the reference images',
+              'Review actual-object photographs, reverse/fixings and details. Accurate AI visualisations may supplement originals only when labelled and disclosed under the August 2026 AI policy',
               'Shipping profile or actual permitted destination charges not configured; dispatch deadline to check']
-    if eur < 100: issues.append('Baseline catalogue retail equivalent is below EUR100. Owner-proposed Catawiki uplift does not establish an expert-approved market valuation.')
-    if eur < 200: issues.append('Baseline catalogue retail equivalent is below EUR200. Expert confirmation is required for reserve eligibility; do not expose to an unprotected low bid.')
-    if len(photos) < 5: issues.append(f'Only {len(photos)} selected non-in-situ website photo candidates; minimum five suitable photos required')
+    issues.append('The owner accepts the modelled net-proceeds shortfall for eight products. Keep the GBP100 uplift; this is not a publication hold')
+    if (catawiki_target_eur or float(eur)) < 200: issues.append('Owner explicitly permits a no-reserve auction for this original target; no additional EUR200 floor is applied. Winning bids can be lower than the proposed estimate')
+    if len(photos) < 5: issues.append(f'Only {len(photos)} selected listing/in-situ website candidates; native editor requires minimum five suitable photographs')
     if not all(draft[f'D: {d}'] for d in ('Height','Width','Depth')): issues.append('Missing dimensional fields')
     rec = {'product_id': pid, 'sku': sku, 'title': title, 'family': val(r, 'Family'),
         'website': val(r, 'Website listing'), 'dimensions': val(r, 'Dimensions / depth'), 'weight': val(r, 'Weight'),
@@ -138,20 +171,24 @@ for r in products:
         'retail_eur_reference': round(float(eur),2), 'fee_protected_hammer_floor_eur_planning': floor,
         'catawiki_target_price_gbp': catawiki_target_gbp, 'catawiki_target_price_eur': catawiki_target_eur,
         'photo_candidates': photos, 'photo_candidate_count': len(photos),
-        'existing_lot_id': EXISTING.get(pid), 'status': 'Existing draft: update in place' if pid in EXISTING else 'Prepared locally only',
+        'existing_lot_id': EXISTING.get(pid), 'duplicate_lot_ids': [lot['id'] for lot in existing_lots.get(pid, []) if lot['id'] != EXISTING.get(pid)],
+        'status': 'Existing draft: update in place' if pid in EXISTING else 'Prepared locally only',
         'issues': issues, 'draft': draft}
     records.append(rec)
     if pid not in EXISTING: new_rows.append([draft[k] for k in headers])
 
-assert len(records) == 176 and len(new_rows) == 174
+assert len(records) == 176 and len(new_rows) == 176 - len(EXISTING)
 assert len({r['product_id'] for r in records}) == 176
 assert len({r['sku'] for r in records}) == 176
 assert set(EXISTING) <= {r['product_id'] for r in records}
-assert all(not r['draft']['Reserve price (optional)'] for r in records)
+assert sum(bool(r['draft']['Reserve price (optional)']) for r in records) == 79
+assert sum(not r['draft']['Reserve price (optional)'] for r in records) == 97
 assert all(not r['draft']['D: I verify that I have obtained this object legally and that I am allowed to sell it'] for r in records)
 review = {'checked_utc': '2026-11-11', 'source': str(SOURCE),
     'source_sha256': hashlib.sha256(SOURCE.read_bytes()).hexdigest(), 'products': records,
-    'counts': {'included': len(records), 'existing_drafts': len(EXISTING), 'new_rows': len(new_rows),
+    'counts': {'included': len(records), 'existing_drafts': len(EXISTING),
+        'observed_native_drafts': len(observed_inventory['lots']),
+        'duplicate_drafts_held': sum(len(v)-1 for v in existing_lots.values()), 'new_rows': len(new_rows),
         'retail_eur_below_100': sum(r['retail_eur_reference'] < 100 for r in records),
         'retail_eur_below_200': sum(r['retail_eur_reference'] < 200 for r in records),
         'fewer_than_five_selected_photo_candidates': sum(r['photo_candidate_count'] < 5 for r in records)},
@@ -162,10 +199,12 @@ review = {'checked_utc': '2026-11-11', 'source': str(SOURCE),
         'hammer_floor_is_expert_valuation': False, 'packing_and_postage_included': False},
     'uploaded_by_this_run': 0, 'terms_accepted_by_this_run': False,
     'catawiki_price_policy': 'Owner-requested catalogue GBP price + GBP100; linked EUR seller proposal. Not expert approval or a saved native price.',
-    'primary_blocker': 'Binding upload statement includes exclusive Catawiki listing. No other channel listings have been withdrawn.',
+    'primary_blocker': 'New condition and original 97 no-reserve auctions are owner-confirmed. The additional EUR200 asking-floor clarification is resolved: retain catalogue plus GBP100. Actual-cast photographs, signatures/era, commercially suitable insured shipping rates, physical-cast reservation, and final binding terms remain unresolved.',
+    'ai_policy': 'https://www.catawiki.com/en/help/seller-terms/ai-image-policy',
+    'inventory_observed_utc': observed_inventory['checked_utc'],
     'template_url': 'https://www.catawiki.com/seller/bulk_upload_objects/object_types/19499/template.csv',
     'dictionary_url': 'https://www.catawiki.com/seller/bulk_upload_objects/object_types/19499/dictionary.csv',
-    'official_guidelines': 'https://cw-app-marketing.s3.amazonaws.com/assets/customer_support/customer_support/help_centre/guidelines/MODERN_ART_EN_Acceptance_Submission_Guidelines.pdf',
+    'official_guidelines': 'https://www.catawiki.com/en/help/specific-guidelines-art/direct-from-the-artist-submission-guidelines',
     'reserve_rule': 'https://www.catawiki.com/en/help/estimates-and-reserve-prices/can-i-set-a-minimum-selling-price-reserve-price'}
 (OUT / 'product-review.json').write_text(json.dumps(review, indent=2, ensure_ascii=False))
 (OUT / 'import-matrix.json').write_text(json.dumps({'headers': headers, 'rows': new_rows}, ensure_ascii=False))

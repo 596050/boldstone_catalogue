@@ -1,0 +1,415 @@
+Window: "Submit your item", App: Google Chrome.
+0 standard window Submit your item – Part of group 🗿 Catawiki catalogue - Google Chrome – Tom, URL: catawiki.com/en/v/lot/108492920/edit#valuation, Secondary Actions: Raise
+	1 container Submit your item – Part of group 🗿 Catawiki catalogue - Google Chrome – Tom, URL: catawiki.com/en/v/lot/108492920/edit#valuation
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: catawiki.com/en/v/lot/108492920/edit#valuation, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button AdBlock — block ads across the web
+Has access to this site
+					13 pop-up button ColorZilla
+Has access to this site
+					14 pop-up button Video Speed Controller
+Has access to this site
+					15 pop-up button React Developer Tools
+Has access to this site
+					16 pop-up button PayPal Honey
+Has access to this site
+					17 pop-up button JSONVue
+Has access to this site
+					18 pop-up button Open Claude
+Has access to this site
+					19 pop-up button ChatGPT
+Has access to this site
+					20 pop-up button Extensions
+				21 button Control your music, videos and more
+				22 button Tom
+				23 pop-up button Chrome
+			24 container
+				25 scroll area
+					26 HTML content Submit your item, URL: catawiki.com/en/v/lot/108492920/edit#valuation
+						27 container
+							28 container
+								29 link homepage, Value: catawiki.com/en/
+								30 container
+									31 link Help, Value: catawiki.com/en/help
+									32 link Messages, Value: catawiki.com/en/f/conversations
+									33 pop-up button 2 Sally
+										34 text 2
+										35 text Sally
+										36 image
+							37 container Notifications Alt+T
+							38 container
+								39 content list
+									40 link Object, Value: catawiki.com/en/v/lot/108492920/edit#
+									41 link Images, Value: catawiki.com/en/v/lot/108492920/edit#photos
+									42 link Details, Value: catawiki.com/en/v/lot/108492920/edit#details
+									43 link Value, Value: catawiki.com/en/v/lot/108492920/edit#valuation
+									44 link Shipping, Value: catawiki.com/en/v/lot/108492920/edit#shipping
+									45 button Preview
+									46 button Submit
+								47 heading Find the perfect buyer for your sculpture, Value: 1
+									48 text Find the perfect buyer for your  sculpture
+								49 button Change object
+								50 container
+									51 heading Select the category your object best fits in, Value: 5
+										52 text Select the category your object best fits in
+									53 button Sculptures & Figurines
+									54 button Modern & Contemporary Art
+									55 button Archaeology
+									56 button See more
+								57 button Our experts will find the best auction for your object, but you can also choose an auction yourself
+								58 container Images
+									59 heading Images, Value: 1
+										60 text Images
+									61 text Buyers love images that show off the details of your special object.
+									62 container
+										63 button Choose files: No file chosen
+										64 content list
+											65 container
+												66 button Cover image Drag another image in its place to change acanthus__acanthus-flower-white__001.jpg
+												67 button Delete
+												68 button Rotate left
+												69 button Rotate right
+										70 container
+											71 button Sort images by file name
+											72 button Delete all
+											73 button Upload images
+											74 button Add via mobile
+										75 text Add more photos. You need a minimum of 5 photos to submit.
+									76 container
+										77 button
+										78 image Object Selection
+										79 heading TAKE PHOTOS BUYERS WILL LOVE, Value: 4
+											80 text TAKE PHOTOS BUYERS WILL LOVE
+										81 heading Lighting, Value: 5
+											82 text Lighting
+										83 text Bright, natural lighting helps with accurate colours.
+										84 button
+										85 button
+										86 button
+								87 container Details
+									88 heading Details, Value: 1
+										89 text Details
+									90 text Dive into the specifics of your object to help the perfect buyers find it.
+									91 heading Smart fill: pre-filled details based on your images, Value: 4
+										92 image
+										93 text Smart fill: pre-filled details based on your images
+									94 content list
+										95 container
+											96 text 1. Upload your images
+										97 container
+											98 text 2. We scan for info and fill in details
+										99 container
+											100 text 3. You check to make sure everything’s correct
+									101 button Fill details
+									102 container
+										103 text Language : English
+										104 button Edit
+									105 container
+										106 text ERA
+										107 container
+											108 text e.g. 1900-2000, After 2000, Before 1400
+											109 combo box (settable)
+										110 text MANUFACTURER/BRAND ( OPTIONAL )
+										111 container
+											112 text Other
+											113 button Remove Other
+												114 button
+											115 combo box (settable)
+										116 text field (settable) Value: Boldstone, Placeholder: ​
+										117 text STYLE ( OPTIONAL )
+										118 container
+											119 text e.g. Abstract, Bauhaus, Pop Art
+											120 combo box (settable)
+										121 text COUNTRY OF ORIGIN
+										122 button Description
+										123 container
+											124 text e.g. Chad, Laos, Oman
+											125 combo box (settable)
+										126 text MATERIAL
+										127 container
+											128 text Other
+											129 button Remove Other
+												130 button
+											131 combo box (settable)
+										132 text field (settable) Value: Gypsum-based material, Placeholder: ​
+										133 text ARTIST ( OPTIONAL )
+										134 container
+											135 text Other
+											136 combo box (settable)
+										137 text field (settable) Value: Sally Price, Placeholder: ​
+										138 text TITLE OF ARTWORK
+										139 button Description
+										140 text field (settable) Value: Acanthus Bloom - White, Placeholder: Title of artwork
+										141 text SIGNATURE
+										142 container
+											143 text e.g. Hand signed, Plate signed, Signed
+											144 combo box (settable)
+										145 text EDITION ( OPTIONAL )
+										146 text field (settable) Edition
+										147 text YEAR ( OPTIONAL )
+										148 button Description
+										149 stepper (settable) Year
+										150 text COLOUR ( OPTIONAL )
+										151 container
+											152 text e.g. Black, Cream, Red
+											153 combo box (settable)
+										154 text CONDITION
+										155 container
+											156 text e.g. Excellent condition, Fair condition, Needs restoration
+											157 combo box (settable)
+										158 text HEIGHT
+										159 stepper (settable, float) Value: 30, Placeholder: Height
+										160 container
+											161 combo box Unit, Value: cm, Placeholder: ​
+											162 text Unit
+										163 button Open
+										164 text WIDTH
+										165 stepper (settable, float) Value: 30, Placeholder: Width
+										166 container
+											167 combo box Unit, Value: cm, Placeholder: ​
+											168 text Unit
+										169 button Open
+										170 text DEPTH
+										171 stepper (settable, float) Value: 6, Placeholder: Depth
+										172 container
+											173 combo box Unit, Value: cm, Placeholder: ​
+											174 text Unit
+										175 button Open
+										176 text WEIGHT ( OPTIONAL )
+										177 stepper (settable, float) Value: 4000, Placeholder: Weight
+										178 container
+											179 combo box Unit, Value: g, Placeholder: ​
+											180 text Unit
+										181 button Open
+									182 text YOUR REFERENCE LABEL (OPTIONAL)
+									183 text Keep track of your lots with colours and labels (only you can see this).
+									184 combo box Colour
+									185 button Open
+									186 text field (settable) Value: BOLDSTONE-SQ1068535, Placeholder: Text / number
+									187 heading Description (English), Value: 4
+										188 text Description (English)
+									189 text Share as many details as possible about your artwork. This builds confidence with bidders, making it easier for them to understand its value and increasing your chances of a successful sale. Your description should include:
+
+• Artist’s full name, nationality, and lifespan (if applicable)
+• Title of the work, year (or approximate period), and medium or technique (e.g. oil on canvas, lithograph on paper, mixed                        media)
+• Dimensions: include image size, sheet/canvas size and framed size (i
+									190 text entry area (settable) Placeholder: Use this section to add any extra information, Value: Acanthus Bloom - White
+
+A single botanical form opens across this relief, with broad, flowing curves that give the flower its sculptural presence. The design keeps the details simple so that light and shadow can follow the contours.
+
+Think sunlit courtyard walls and the graceful lines of classical foliage, translated into a piece that feels at home in a modern space.
+
+The white finish keeps the focus on the form and its changing shadows.
+
+Brand: Boldstone
+Product type: Wall sculpture
+Model: Acanthus Bloom - White (SQ1068535)
+Colour / appearance: Smooth, contoured white relief finish
+Quantity supplied: 1 individually described sculpture or panel. Other pieces and room props shown are not included.
+Material: Made from a gypsum-based material.
+Dimensions: 30 × 30 × 6 cm
+Weight: Approximately 4 kg per panel
+Use: Suitable for outdoor use and indoor display.
+Fixings: Keyhole fixings are usually used. Other options, including French cleats, are available; the fixing choice can be agreed for your sculpture and wall.
+Custom design: All designs can be customised. Completely new commissions can also be created in collaboration with designer Sally Price.
+									191 heading This is how buyers will see your object, Value: 4
+										192 text This is how buyers will see your object
+									193 text To help your special object reach a wide, international audience we use the details you provide for consistent titles with strong translations.
+									194 button View full preview
+									195 container
+										196 heading Sally Price - Acanthus Bloom - White, Value: 4
+											197 text Sally Price - Acanthus Bloom - White
+										198 button
+									199 container
+										200 button
+										201 image Object Selection
+										202 heading PRO TIP, Value: 4
+											203 text PRO TIP
+										204 heading Make your object stand out, Value: 5
+											205 text Make your object stand out
+										206 text Buyers use details to filter their object searches. Help them find yours by filling out as many details as you can. Our experts are here to help with anything you’re unsure about.
+								207 container Value
+									208 heading Value, Value: 1
+										209 text Value
+									210 text Help experts find the perfect auctions for your object, and set an optional reserve price.
+									211 heading Estimated selling price, Value: 4
+										212 text Estimated selling price
+									213 text How much do you think your object will sell for?
+									214 text Buyers won't see this, only our expert. They'll get in touch to confirm or adjust your estimate.
+									215 text ESTIMATED VALUE
+									216 text €
+									217 stepper (settable, float) ESTIMATED VALUE, Value: 161, Placeholder: ​
+									218 heading Reserve price, Value: 4
+										219 text Reserve price
+									220 text A reserve price is a minimum price you're willing to sell your object for. Data shows that no reserve prices usually lead to higher selling prices.
+									221 container
+										222 Tick box (disabled) Set a reserve price (minimum price), Value: 0
+									223 heading Buy now: sell before the auction ends Recommended, Value: 4
+										224 image
+										225 text Buy now: sell before the auction ends Recommended
+									226 content list
+										227 container
+											228 AXListMarker • 
+											229 text Faster payment: Buyers pay immediately so you get paid 4 days earlier on average.
+										230 container
+											231 AXListMarker • 
+											232 text More buyers: Almost 40% of buyers prefer instant purchases to bidding.
+										233 container
+											234 AXListMarker • 
+											235 text Committed winners: Buy now sales are twice as likely to be finalised.
+									236 container
+										237 Tick box Offer buy now, Value: 0
+									238 container
+										239 button
+										240 image Object Selection
+										241 heading PRO TIP, Value: 4
+											242 text PRO TIP
+										243 heading Objects without a reserve price sell for more, Value: 5
+											244 text Objects without a reserve price sell for more
+										245 text Our data shows that objects without a reserve price are more likely to lead to a bidding frenzy.
+								246 container Shipping
+									247 heading Shipping, Value: 1
+										248 text Shipping
+									249 container Package size
+										250 heading Package size, Value: 4
+											251 text Package size
+										252 text Estimate the size and weight (object and packaging)
+										253 content list
+											254 container
+												255 radio button 0
+												256 container
+													257 heading Small package, Value: 1
+														258 text Small package
+													259 heading MAX. WEIGHT, Value: 2
+														260 text MAX. WEIGHT
+													261 text up to 2 kg
+													262 heading MAX. DIMENSIONS, Value: 2
+														263 text MAX. DIMENSIONS
+													264 text 38x26x3 cm
+											265 container
+												266 radio button 0
+												267 container
+													268 heading Medium package, Value: 1
+														269 text Medium package
+													270 heading MAX. WEIGHT, Value: 2
+														271 text MAX. WEIGHT
+													272 text up to 5 kg
+													273 heading MAX. DIMENSIONS, Value: 2
+														274 text MAX. DIMENSIONS
+													275 text 80x50x35 cm
+											276 container
+												277 radio button 0
+												278 container
+													279 heading Large package, Value: 1
+														280 text Large package
+													281 heading MAX. WEIGHT, Value: 2
+														282 text MAX. WEIGHT
+													283 text up to 20 kg
+													284 heading MAX. DIMENSIONS, Value: 2
+														285 text MAX. DIMENSIONS
+													286 text 100x50x50 cm
+											287 container
+												288 radio button 0
+												289 container
+													290 heading XL package, Value: 1
+														291 text XL package
+													292 heading MIN. WEIGHT, Value: 2
+														293 text MIN. WEIGHT
+													294 text Over 21 kg
+													295 heading MIN. DIMENSIONS, Value: 2
+														296 text MIN. DIMENSIONS
+													297 text Over 101x51x51 cm
+											298 container
+												299 radio button 0
+												300 container
+													301 heading Custom size, Value: 1
+														302 text Custom size
+													303 text Enter the exact weight and dimensions for more precise shipping costs.
+								304 container Message the expert
+									305 heading Message the expert, Value: 1
+										306 text Message the expert
+									307 text (optional)
+									308 heading Will be reviewed by:, Value: 3
+										309 text Will be reviewed by:
+									310 image Giulia Couzzi
+									311 heading Giulia Couzzi, Value: 4
+										312 text Giulia Couzzi
+									313 text Expert in Post-War & Contemporary Galleries
+									314 text entry area (settable) Send a message to the expert to clarify all questions you might have. After submitting your lot, it will be sent to the expert to review.
+									315 heading Message history about this lot, Value: 2
+										316 text Message history about this lot
+									317 text Draft prepared from the Boldstone product catalogue. Catalogue price: GBP 34.20. The website quotes dispatch within 10 working days and delivery separately. Before submission: confirm the actual item and its photographs, current condition, signature, creation year/edition if applicable, dispatch timetable, shipping costs, EUR estimate and any reserve.
+									318 container
+										319 text Sally  Price
+									320 text 11-11-2026 12:14:51
+								321 text By submitting, you agree to our 
+								322 link Terms of Use , Value: catawiki.com/en/pages/p/terms-of-use
+								323 text and confirm the item is as described, legally compliant, yours to sell, and listed exclusively on Catawiki.
+								324 button Submit
+								325 button Save as draft
+								326 button Preview
+							327 container
+								328 heading MENU, Value: 5
+									329 text MENU
+								330 container MENU
+									331 link Sales overview, Value: catawiki.com/en/v/dashboard
+									332 link Submissions, Value: catawiki.com/en/v/lots/submissions
+									333 link In auction, Value: catawiki.com/en/v/lots/live
+									334 link Sold, Value: catawiki.com/en/f/seller/orders
+									335 link Not sold, Value: catawiki.com/en/v/lots/unsold
+									336 link Your performance, Value: catawiki.com/en/v/performance
+									337 link Payments, Value: catawiki.com/en/f/seller/payments
+							338 container Notifications Alt+T
+							339 container
+								340 link Terms of Use, Value: catawiki.com/en/pages/p/terms-of-use
+								341 link Data Protection & Privacy Notice, Value: catawiki.com/en/help/buyer-privacy/privacy-policy
+								342 link Cookie Notice, Value: catawiki.com/en/help/cookies
+								343 link Law Enforcement Policy, Value: catawiki.com/en/help/buyer-terms/guidelines-for-law-enforcement-requests
+								344 link Other Policies, Value: catawiki.com/en/help/policies-guidelines
+								345 text ©  2026
+							346 text Submit your item
+			347 container Infobar Container
+				348 container Infobar
+					349 container
+						350 text 'ChatGPT' started debugging this browser
+						351 button Cancel
+					352 button Close
+			353 pop-up button Tab search
+			354 container
+				355 tab group
+					356 tab (settable, boolean) Wall Sculpture & Sculptural Furnishings | Boldstone, UK, Value: off
+					357 tab (settable, boolean) Analyse for Specificity, Value: off
+					358 tab (settable, boolean) New Beginnings - sally.v.price@gmail.com - Gmail, Value: off
+					359 tab (settable, boolean) (6759) China's Power Vacuum Worsens || Peter Zeihan - YouTube, Value: off
+					360 tab (settable, boolean) Value: off, (1) Beatriz Villarroel on X: "All the videos from the Beyond Institute’s first event in Stockholm are now publicly available. https://t.co/Kezsyt2I6W https://t.co/8DYvh8E8ZP https://t.co/FFzEgKpyBP https://t.co/R6PrTVw3NW https://t.co/gYR9a5Gm7T https://t.co/fbjlWGlCij https://t.co/Gd7VIvwDEv" / X
+					361 tab (settable, boolean) Acanthus Flower White - Dropbox, Value: off
+					362 tab group  group 🗿 Catawiki catalogue – 1 Tab, •  Submit your item – Expanded
+					363 tab (selected, settable, boolean) Submit your item – Part of group 🗿 Catawiki catalogue, Value: on
+						364 button Close
+					365 tab (settable, boolean) (6759) Why Interested Leads Still Don't Understand Your Offer - YouTube, Value: off
+					366 tab (settable, boolean) Boldstone Catawiki preparation, Value: off
+			367 button New tab
+	368 close button
+	369 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	370 minimise button
+371 menu bar
+	372 Chrome
+	373 File
+	374 Edit
+	375 View
+	376 History
+	377 Bookmarks
+	378 Profiles
+	379 Tab
+	380 Window
+	381 Help
+
+The focused UI element is 43 link Value, Value: catawiki.com/en/v/lot/108492920/edit#valuation
