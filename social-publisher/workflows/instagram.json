@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "description":"An Instagram-only post through Meta Business Suite. Facebook must be unselected. Product tags are required whenever promised by the caption.",
+  "prepare":[
+    {"op":"wait","locator":[{"selector":"[role=checkbox]","contains":"$username"},{"selector":"label","contains":"$username"}]},
+    {"op":"set_checked","locator":[{"selector":"[role=checkbox]","contains":"$username"},{"selector":"label","contains":"$username"}],"value":true},
+    {"op":"set_checked","locator":[{"selector":"[role=checkbox]","contains":"$other_account_name"},{"selector":"label","contains":"$other_account_name"}],"value":false},
+    {"op":"upload","locator":[{"selector":"input[type=file][accept*='image']","hidden":true}]},
+    {"op":"set_text","locator":[{"selector":"[contenteditable=true][role=textbox]","name":"Write in the dialogue box to include text with your post."},{"selector":"[contenteditable=true][data-lexical-editor=true]"}],"value":"$caption"},
+    {"op":"click","locator":[{"selector":"[role=button]","name":"Edit photo"},{"selector":"button","name":"Edit photo"}]},
+    {"op":"click","locator":[{"selector":"[role=tab]","name":"Alt text"},{"selector":"[role=button]","name":"Alternative text"}]},
+    {"op":"set_text","locator":[{"selector":"[role=dialog] textarea","name":"Alt text"},{"selector":"[role=dialog] textarea","name":"Alternative text"}],"value":"$alt_text"},
+    {"op":"assert","checks":[{"locator":[{"selector":"[role=dialog] textarea","name":"Alt text"},{"selector":"[role=dialog] textarea","name":"Alternative text"}],"text":"$alt_text"}]},
+    {"op":"click","locator":[{"selector":"[role=dialog] [role=button]","name":"Save"},{"selector":"[role=dialog] button","name":"Save"}]},
+    {"when":"product_tag","op":"click","locator":[{"selector":"[role=button]","name":"Tag products"},{"selector":"button","name":"Tag products"}]},
+    {"when":"product_tag","op":"set_text","locator":[{"selector":"[role=dialog] input[type=search]"},{"selector":"[role=dialog] input[placeholder='Search products']"}],"value":"$product_tag.name"},
+    {"when":"product_tag","op":"wait","locator":[{"selector":"[role=dialog] [role=row]","contains":["$product_tag.name","$product_tag.price_text"]}]},
+    {"when":"product_tag","op":"click","locator":[{"selector":"[role=dialog] [role=row]","contains":["$product_tag.name","$product_tag.price_text"]}]},
+    {"when":"product_tag","op":"click","locator":[{"selector":"[role=dialog] [role=button]","name":"Save"},{"selector":"[role=dialog] button","name":"Save"}]}
+  ],
+  "ready":[
+    {"purpose":"account","locator":[{"selector":"[role=checkbox]","contains":"$username"},{"selector":"label","contains":"$username"}],"checked":true},
+    {"locator":[{"selector":"[role=checkbox]","contains":"$other_account_name"},{"selector":"label","contains":"$other_account_name"}],"checked":false},
+    {"purpose":"caption","locator":[{"selector":"[contenteditable=true][role=textbox]","name":"Write in the dialogue box to include text with your post."},{"selector":"[contenteditable=true][data-lexical-editor=true]"}],"text":"$caption"},
+    {"purpose":"photo","locator":[{"selector":"img[src^='blob:']"}],"image":true},
+    {"purpose":"tag","when":"product_tag","locator":[{"selector":"[data-testid='selected-product-tag']","contains":["$product_tag.name","$product_tag.price_text"]}]}
+  ],
+  "submit":[{"selector":"[role=button]","name":"Publish"},{"selector":"button","name":"Publish"}],
+  "cleanup":[{"op":"click","locator":[{"selector":"[role=dialog] [role=button]","name":"Done","within":{"selector":"[role=dialog]","contains":"published"}},{"selector":"[role=dialog] button","name":"Done","within":{"selector":"[role=dialog]","contains":"published"}}]}],
+  "clean_state":{
+    "caption":[{"selector":"[contenteditable=true][role=textbox]","name":"Write in the dialogue box to include text with your post."},{"selector":"[contenteditable=true][data-lexical-editor=true]"}],
+    "preview":[{"selector":"img[src^='blob:']"}]
+  },
+  "native_url_pattern":"https://(?:www\\.)?instagram\\.com/(?:[^/?#]+/)?(?:p|reel)/[A-Za-z0-9_-]+/?(?:\\?[^#]*)?",
+  "discover":{"roots":[{"selector":"[role=dialog]","contains":"published"},{"selector":"[role=alert]"},{"selector":"[role=status]"}]},
+  "recovery":{
+    "url":"$profile_url",
+    "steps":[{"op":"wait","locator":[{"selector":"a[href*='/p/']","descendant_attribute":{"selector":"img","attribute":"alt","contains":"$alt_text"}}]}],
+    "discover":{"roots":[{"selector":"a[href*='/p/']","descendant_attribute":{"selector":"img","attribute":"alt","contains":"$alt_text"}}]}
+  },
+  "readback":{
+    "root":[{"selector":"article","contains":"$title"}],
+    "author":[{"selector":"header a, h2 a","name":"$username"}],
+    "caption_selectors":["h1", "ul > li:first-child ._a9zs"],
+    "photo_selector":"div._aagv img, img[style*='object-fit: cover']",
+    "expand":[[{"selector":"[role=button]","name":"more"},{"selector":"button","name":"more"}]],
+    "tag_expand":[[{"selector":"button","name":"View products"},{"selector":"[role=button]","name":"View products"}]],
+    "tag_checks":[{"locator":[{"selector":"[role=dialog]","contains":["$product_tag.name","$product_tag.price_text"]}]}]
+  }
+}
+

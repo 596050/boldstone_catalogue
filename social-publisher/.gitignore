@@ -1,0 +1,8 @@
+state/
+__pycache__/
+*.scpt
+*.pyc
+!*.applescript
+!*.json
+verification.json
+

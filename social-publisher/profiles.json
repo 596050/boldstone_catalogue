@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "policy": {
+    "create_tabs": false,
+    "require_background_tab": true,
+    "max_media_bytes": 15000000,
+    "max_prepare_attempts": 4,
+    "max_reconcile_attempts": 8,
+    "retry_base_seconds": 10,
+    "retry_max_seconds": 120,
+    "watch_interval_seconds": 30
+  },
+  "profiles": {
+    "boldstone_facebook": {
+      "platform": "facebook",
+      "channel_key": "facebook:103781478537396",
+      "account_name": "Boldstone Sculpture",
+      "username": "BoldstoneSculpture",
+      "other_account_name": "boldstonesculpture",
+      "business_id": "2380586078685156",
+      "asset_id": "103781478537396",
+      "allowed_hosts": ["business.facebook.com", "www.facebook.com", "facebook.com"],
+      "compose_url": "https://business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156",
+      "inventory_url": "https://business.facebook.com/latest/content/posts/?asset_id=103781478537396&business_id=2380586078685156",
+      "post_submit_paths": ["/latest/content/posts/", "/latest/home/"],
+      "caption_limit": 60000,
+      "workflow": "workflows/facebook.json"
+    },
+    "boldstone_instagram": {
+      "platform": "instagram",
+      "channel_key": "instagram:boldstonesculpture",
+      "account_name": "boldstonesculpture",
+      "username": "boldstonesculpture",
+      "other_account_name": "Boldstone Sculpture",
+      "profile_url": "https://www.instagram.com/boldstonesculpture/",
+      "business_id": "2380586078685156",
+      "asset_id": "103781478537396",
+      "allowed_hosts": ["business.facebook.com", "www.instagram.com", "instagram.com"],
+      "compose_url": "https://business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156",
+      "inventory_url": "https://business.facebook.com/latest/content/posts/?asset_id=103781478537396&business_id=2380586078685156",
+      "post_submit_paths": ["/latest/content/posts/", "/latest/home/"],
+      "caption_limit": 2200,
+      "workflow": "workflows/instagram.json"
+    },
+    "sally_linkedin": {
+      "platform": "linkedin",
+      "channel_key": "linkedin:sally-price",
+      "account_name": "Sally Price",
+      "username": "Sally Price",
+      "actor_control_label": "Sally Price. Post to Anyone",
+      "allowed_hosts": ["www.linkedin.com", "linkedin.com"],
+      "compose_url": "https://www.linkedin.com/sharing/compose",
+      "inventory_url": "https://www.linkedin.com/feed/",
+      "post_submit_paths": ["/feed/"],
+      "caption_limit": 3000,
+      "workflow": "workflows/linkedin.json"
+    }
+  }
+}
+

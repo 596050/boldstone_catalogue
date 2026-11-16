@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "description": "A Facebook-only Meta Business Suite post. The Instagram destination must be unselected. Never uses the OS file picker or enables a paid boost.",
+  "prepare": [
+    {"op":"wait","locator":[{"selector":"[role=checkbox]","contains":"$account_name"},{"selector":"label","contains":"$account_name"}]},
+    {"op":"set_checked","locator":[{"selector":"[role=checkbox]","contains":"$account_name"},{"selector":"label","contains":"$account_name"}],"value":true},
+    {"op":"set_checked","locator":[{"selector":"[role=checkbox]","contains":"$other_account_name"},{"selector":"label","contains":"$other_account_name"}],"value":false},
+    {"op":"upload","locator":[{"selector":"input[type=file][accept*='image']","hidden":true}]},
+    {"op":"set_text","locator":[{"selector":"[contenteditable=true][role=textbox]","name":"Write in the dialogue box to include text with your post."},{"selector":"[contenteditable=true][data-lexical-editor=true]"}],"value":"$caption"},
+    {"op":"click","locator":[{"selector":"[role=button]","name":"Edit photo"},{"selector":"button","name":"Edit photo"}]},
+    {"op":"click","locator":[{"selector":"[role=tab]","name":"Alt text"},{"selector":"[role=button]","name":"Alternative text"}]},
+    {"op":"set_text","locator":[{"selector":"[role=dialog] textarea","name":"Alt text"},{"selector":"[role=dialog] textarea","name":"Alternative text"}],"value":"$alt_text"},
+    {"op":"assert","checks":[{"locator":[{"selector":"[role=dialog] textarea","name":"Alt text"},{"selector":"[role=dialog] textarea","name":"Alternative text"}],"text":"$alt_text"}]},
+    {"op":"click","locator":[{"selector":"[role=dialog] [role=button]","name":"Save"},{"selector":"[role=dialog] button","name":"Save"}]}
+  ],
+  "ready": [
+    {"purpose":"account","locator":[{"selector":"[role=checkbox]","contains":"$account_name"},{"selector":"label","contains":"$account_name"}],"checked":true},
+    {"locator":[{"selector":"[role=checkbox]","contains":"$other_account_name"},{"selector":"label","contains":"$other_account_name"}],"checked":false},
+    {"purpose":"caption","locator":[{"selector":"[contenteditable=true][role=textbox]","name":"Write in the dialogue box to include text with your post."},{"selector":"[contenteditable=true][data-lexical-editor=true]"}],"text":"$caption"},
+    {"purpose":"photo","locator":[{"selector":"img[src^='blob:']"}],"image":true}
+  ],
+  "submit":[{"selector":"[role=button]","name":"Publish"},{"selector":"button","name":"Publish"}],
+  "cleanup":[{"op":"click","locator":[{"selector":"[role=dialog] [role=button]","name":"Done","within":{"selector":"[role=dialog]","contains":"published"}},{"selector":"[role=dialog] button","name":"Done","within":{"selector":"[role=dialog]","contains":"published"}}]}],
+  "clean_state":{
+    "caption":[{"selector":"[contenteditable=true][role=textbox]","name":"Write in the dialogue box to include text with your post."},{"selector":"[contenteditable=true][data-lexical-editor=true]"}],
+    "preview":[{"selector":"img[src^='blob:']"}]
+  },
+  "native_url_pattern":"https://(?:www\\.)?facebook\\.com/(?:[^/?#]+/posts/[^/?#]+|permalink\\.php\\?[^#]+|photo(?:\\.php)?\\?[^#]+)/?(?:\\?[^#]*)?",
+  "discover":{"roots":[{"selector":"[role=dialog]","contains":"published"},{"selector":"[role=alert]"},{"selector":"[role=status]"}]},
+  "recovery":{
+    "url":"$inventory_url",
+    "steps":[
+      {"op":"wait","locator":[{"selector":"input[type=search]"},{"selector":"input[placeholder='Search']"}]},
+      {"op":"set_text","locator":[{"selector":"input[type=search]"},{"selector":"input[placeholder='Search']"}],"value":"$title"},
+      {"op":"wait","locator":[{"selector":"[role=row]","contains":"$title"}]},
+      {"op":"click","locator":[{"selector":"[role=row] [role=button]","name":"View insights","within":{"selector":"[role=row]","contains":"$title"}},{"selector":"[role=row] button","name":"View insights","within":{"selector":"[role=row]","contains":"$title"}}]}
+    ],
+    "discover":{"roots":[{"selector":"[role=dialog]","contains":"$title"},{"selector":"[role=main]","contains":"$title"}]}
+  },
+  "readback":{
+    "root":[{"selector":"[role=article]","contains":"$title"}],
+    "author":[{"selector":"h2 a, h3 a","name":"$account_name"}],
+    "caption_selectors":["[data-ad-preview='message']", "[data-ad-comet-preview='message']", "[data-ad-rendering-role='story_message']"],
+    "photo_selector":"a[href*='/photo'] img, img[data-imgperflogname='feedImage']",
+    "expand":[[{"selector":"[role=button]","name":"See more"}]]
+  }
+}
+

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "description": "One original photograph on the configured personal LinkedIn account. Exact labels may be calibrated from inspect; ambiguous controls hold the job.",
+  "prepare": [
+    {"op":"wait","locator":[{"selector":"[role=dialog] [role=textbox][contenteditable=true]"},{"selector":"[data-placeholder='What do you want to talk about?']"}]},
+    {"op":"set_text","locator":[{"selector":"[role=dialog] [role=textbox][contenteditable=true]"},{"selector":"[data-placeholder='What do you want to talk about?']"}],"value":"$caption"},
+    {"op":"upload","locator":[{"selector":"input[type=file][accept*='image']","hidden":true}]},
+    {"op":"wait","locator":[{"selector":"[role=dialog] button","name":"Alternative text"},{"selector":"[role=dialog] button","name":"Alt text"}]},
+    {"op":"click","locator":[{"selector":"[role=dialog] button","name":"Alternative text"},{"selector":"[role=dialog] button","name":"Alt text"}],"unless":[{"selector":"[role=dialog] textarea","name":"Alternative text"},{"selector":"[role=dialog] textarea","name":"Alt text"}]},
+    {"op":"set_text","locator":[{"selector":"[role=dialog] textarea","name":"Alternative text"},{"selector":"[role=dialog] textarea","name":"Alt text"}],"value":"$alt_text"},
+    {"op":"assert","checks":[{"locator":[{"selector":"[role=dialog] textarea","name":"Alternative text"},{"selector":"[role=dialog] textarea","name":"Alt text"}],"text":"$alt_text"}]},
+    {"op":"click","locator":[{"selector":"[role=dialog] button","name":"Add"},{"selector":"[role=dialog] button","name":"Save"}]},
+    {"op":"click","locator":[{"selector":"[role=dialog] button","name":"Next"}]} 
+  ],
+  "ready": [
+    {"purpose":"account","locator":[{"selector":"[role=dialog] button","contains":["$account_name","Post to Anyone"]},{"selector":"[role=dialog] button","name":"$actor_control_label"}]},
+    {"purpose":"caption","locator":[{"selector":"[role=dialog] [role=textbox][contenteditable=true]"},{"selector":"[data-placeholder='What do you want to talk about?']"}],"text":"$caption"},
+    {"purpose":"photo","locator":[{"selector":"[role=dialog] img[src^='blob:']"},{"selector":"[role=dialog] img.share-creation-state__image"}],"image":true}
+  ],
+  "submit": [{"selector":"[role=dialog] button","name":"Post"}],
+  "cleanup":[{"op":"click","locator":[{"selector":"[role=dialog] button","name":"Done","within":{"selector":"[role=dialog]","contains":"Post successful"}}]}],
+  "clean_state":{
+    "caption":[{"selector":"[role=dialog] [role=textbox][contenteditable=true]"},{"selector":"[data-placeholder='What do you want to talk about?']"}],
+    "preview":[{"selector":"[role=dialog] img[src^='blob:']"},{"selector":"[role=dialog] img.share-creation-state__image"}]
+  },
+  "native_url_pattern": "https://(?:www\\.)?linkedin\\.com/feed/update/urn:li:activity:[0-9]+/?(?:\\?[^#]*)?",
+  "discover": {"roots":[{"selector":"[role=alert]"},{"selector":"[role=status]"}]},
+  "recovery":{
+    "url":"$inventory_url",
+    "steps":[{"op":"wait","locator":[{"selector":"article","contains":"$title"},{"selector":".feed-shared-update-v2","contains":"$title"}]}],
+    "discover":{"roots":[{"selector":"article","contains":"$title"},{"selector":".feed-shared-update-v2","contains":"$title"}]}
+  },
+  "readback": {
+    "root":[{"selector":"article","contains":"$title"},{"selector":"[data-view-name='feed-full-update']","contains":"$title"},{"selector":".feed-shared-update-v2","contains":"$title"}],
+    "author":[{"selector":".update-components-actor__name span[aria-hidden=true]","name":"$account_name"},{"selector":".update-components-actor__name","name":"$account_name"},{"selector":"header a[href*='/in/'] span","name":"$account_name"}],
+    "caption_selectors":[".update-components-text", ".feed-shared-update-v2__description", "[data-view-name='feed-commentary']"],
+    "photo_selector":".update-components-image img, img.feed-shared-image__image, [data-view-name='feed-image'] img",
+    "expand":[[{"selector":"button","name":"…more"},{"selector":"button","name":"see more"},{"selector":"button","name":"…see more"}]]
+  }
+}
+

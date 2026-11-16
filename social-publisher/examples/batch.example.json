@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "batch_id": "replace-with-a-new-batch-name",
+  "publish_authorized": false,
+  "posts": [
+    {
+      "post_key": "BSI-REPLACE-WITH-CATALOGUE-ID",
+      "catalogue_id": "BSI-REPLACE-WITH-CATALOGUE-ID",
+      "sku": "REPLACE-WITH-SKU",
+      "title": "New sculpture - White",
+      "media_path": "/absolute/path/to/reviewed-original.png",
+      "sha256": "REPLACE-WITH-SHA256-OF-ORIGINAL",
+      "alt_text": "Describe the actual sculpture and photograph.",
+      "targets": {
+        "boldstone_facebook": {
+          "caption": "The complete reviewed Facebook caption, with its purchase URL."
+        },
+        "boldstone_instagram": {
+          "caption": "The complete reviewed Instagram caption."
+        },
+        "sally_linkedin": {
+          "caption": "The complete reviewed LinkedIn caption, with its purchase URL."
+        }
+      }
+    }
+  ]
+}
+

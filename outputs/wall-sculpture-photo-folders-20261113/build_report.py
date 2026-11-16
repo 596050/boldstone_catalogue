@@ -1,9 +1,10 @@
 import html
 import json
-from collections import Counter, defaultdict
-from datetime import datetime, timezone
+from collections import defaultdict
+from datetime import datetime
 from pathlib import Path
 from urllib.parse import quote
+from zoneinfo import ZoneInfo
 
 
 BASE = Path(__file__).resolve().parent
@@ -79,6 +80,7 @@ for component in plan['components']:
             'child_count': len(contents),
             'file_count': sum(c['object_type'] == 'file' for c in contents),
             'created': entry['file_id'] in creations,
+            'created_at': creations[entry['file_id']]['completed_at'] if entry['file_id'] in creations else None,
         }
         row['folders'][target['role']] = record
         targets.append(record)
@@ -108,16 +110,15 @@ after_ids = set(by_id)
 other_additions = [by_id[fid] for fid in (after_ids - before_ids) - set(creations)]
 assert all(e['object_type'] == 'file' for e in other_additions), 'Additional folders require a scope recheck'
 assert set(creations) <= after_ids - before_ids, 'A created folder was already present in the opening inventory'
-assert before_ids <= after_ids, 'An original Dropbox item disappeared during the operation'
+missing_since_creation = [e for e in before['entries'] if e['file_id'] not in by_id]
 file_changes = []
 for old in before['entries']:
-    if old['object_type'] != 'file':
+    if old['object_type'] != 'file' or old['file_id'] not in by_id:
         continue
     new = by_id[old['file_id']]
     fields = ['name', 'path', 'modified_time', 'file']
     if any(old.get(k) != new.get(k) for k in fields):
         file_changes.append(old['file_id'])
-assert not file_changes, 'Original file metadata changed during the operation'
 
 summary = {
     'checked_at': after['checked_at'], 'component_finish_folders': len(rows),
@@ -128,13 +129,16 @@ summary = {
     'empty_in_detail': sum(f['role'] == 'In Detail' for f in empty_targets),
     'component_finish_folders_with_empty_folders': len(empty_rows),
     'populated_folders': sum(not f['empty'] for f in targets),
-    'original_files_preserved': sum(e['object_type'] == 'file' for e in before['entries']),
-    'original_file_metadata_changes': len(file_changes),
+    'original_files_still_present': sum(e['object_type'] == 'file' and e['file_id'] in by_id for e in before['entries']),
+    'original_items_missing_since_creation': len(missing_since_creation),
+    'original_file_metadata_changes_since_creation': len(file_changes),
     'additional_files_observed': len(other_additions),
     'recursive_pages_after': after['pages'], 'final_listing_complete': True,
     'in_situ': in_situ['summary'],
 }
-(BASE / 'folder-audit.json').write_text(json.dumps({'summary': summary, 'components': rows, 'additional_files_observed': other_additions}, indent=2) + '\n')
+(BASE / 'folder-audit.json').write_text(json.dumps({'summary': summary, 'components': rows, 'additional_files_observed': other_additions,
+    'changes_since_original_snapshot': {'missing_items': missing_since_creation, 'changed_file_ids': file_changes},
+    'refresh_mode': 'read-only Dropbox inventory; local report regenerated'}, indent=2) + '\n')
 (BASE / 'empty-folder-links.json').write_text(json.dumps({'summary': summary, 'components': empty_rows}, indent=2) + '\n')
 
 esc = html.escape
@@ -142,7 +146,8 @@ esc = html.escape
 
 def cell(folder):
     status = 'Empty' if folder['empty'] else f"{folder['child_count']} item(s)"
-    origin = 'Created today' if folder['created'] else 'Already existed'
+    created_date = datetime.fromisoformat(folder['created_at'].replace('Z', '+00:00')).strftime('%-d %b %Y') if folder['created_at'] else None
+    origin = 'Created ' + created_date if created_date else 'Already existed'
     return (f'<td><a href="{esc(folder["url"], quote=True)}" target="_blank" rel="noopener noreferrer">'
             f'{esc(folder["name"])}</a><br><span class="{"empty" if folder["empty"] else "filled"}">'
             f'{status}</span> <small>{origin}</small></td>')
@@ -203,21 +208,22 @@ th{background:#e8efe7;position:sticky;top:0}td{width:25%;overflow-wrap:anywhere}
 </style><h1>Sculpture photo folder checklist</h1>
 '''
 is_summary = in_situ['summary']
+checked_label = datetime.fromisoformat(after['checked_at'].replace('Z', '+00:00')).astimezone(ZoneInfo('Europe/London')).strftime('%-d %B %Y at %H:%M %Z')
 page += '<nav><a href="#missing-in-situ">Missing In Situ</a><a href="#empty-photo-folders">Empty High Resolution / In Detail folders</a></nav>'
 page += '<h2 id="missing-in-situ">Components without In Situ</h2>'
-page += f'<p class="summary"><strong>{is_summary["without_matching_in_situ_images"]} component and finish entries</strong> have no matching In Situ folder containing image files.<br>{is_summary["with_shared_images_only"]} further entries have images only in named shared group In Situ folders; {is_summary["with_dedicated_images"]} have images in their own dedicated folder.<br><small>All {is_summary["checked_components"]} entries checked {esc(is_summary["checked_at"])}.</small></p>'
+page += f'<p class="summary"><strong>{is_summary["without_matching_in_situ_images"]} component and finish entries</strong> have no matching In Situ folder containing image files.<br>{is_summary["with_shared_images_only"]} further entries have images only in named shared group In Situ folders; {is_summary["with_dedicated_images"]} have images in their own dedicated folder.<br><small>All {is_summary["checked_components"]} entries checked {esc(checked_label)}.</small></p>'
 page += '<p>Populated group In Situ folders count when their names identify the component and its finish. Use the checkbox to include all entries lacking a populated dedicated folder. This check uses Dropbox folder names and image-file presence; the photographs have not been visually re-reviewed.</p>'
 page += '<div class="controls"><input id="inSituSearch" type="search" placeholder="Search missing In Situ by component or family…" aria-label="Search missing In Situ"><label><input id="dedicatedOnly" type="checkbox"> Require a dedicated In Situ folder</label><span id="inSituCount"></span></div>'
 page += '<div class="tablewrap"><table id="inSituTable" class="in-situ-table"><thead><tr><th>Component and finish</th><th>In Situ status</th><th>Shared group In Situ folders</th></tr></thead><tbody>' + ''.join(in_situ_rows) + '</tbody></table></div>'
 page += '<p class="footnote">Component links open the existing sculpture folder. In Situ folder links are included when available. <a href="in-situ-audit.json">Full In Situ audit and folder links</a></p>'
 page += '<h2 id="empty-photo-folders">Empty High Resolution / In Detail folders</h2>'
-page += f'<p class="summary"><strong>{summary["empty_folders"]} empty folders</strong>: {summary["empty_high_resolution"]} High Resolution and {summary["empty_in_detail"]} In Detail, across {len(empty_rows)} component and finish folders.<br>{len(rows)} component and finish folders checked · {len(creations)} folders created · {len(plan["existing"])} required folders already existed.<br><small>Verified {esc(after["checked_at"])}.</small></p>'
+page += f'<p class="summary"><strong>{summary["empty_folders"]} empty folders</strong>: {summary["empty_high_resolution"]} High Resolution and {summary["empty_in_detail"]} In Detail, across {len(empty_rows)} component and finish folders.<br>{len(rows)} component and finish folders checked · {len(targets)} required photo folders verified.<br><small>Updated {esc(checked_label)}.</small></p>'
 page += '<p>Each folder name uses the full name of its existing component and finish folder. Open a linked empty folder to add photographs. The list shows folders with no files or subfolders at the time of the check.</p>'
 page += '<p>Existing folders with different names are linked in the last column. This includes two “Batersea” High Resolution folders and existing sibling Details folders; photographs there remain in their original locations.</p>'
 page += '<div class="controls"><input id="search" type="search" placeholder="Search component or family…" aria-label="Search component or family"><label><input id="showAll" type="checkbox"> Include components whose two folders are populated</label><span id="count"></span></div>'
 page += '<div class="tablewrap"><table id="photoFolders"><thead><tr><th>Component and finish</th><th>[Name] High Resolution</th><th>[Name] In Detail</th><th>Existing related folders</th></tr></thead><tbody>' + ''.join(table_rows) + '</tbody></table></div>'
-page += '<p class="footnote">All individual component and finish folders in the Wall Sculptures tree were checked, including existing Wall Circle pattern-source folders. Arrangement, In Situ, workshop, scene and catalogue document folders are outside the per-component folder list. The audit confirmed all original files remained at their original paths with unchanged recorded metadata.</p>'
-page += '<p class="footnote">To undo these additions, request removal of the folders marked “Created today.” Their contents would be checked and deletion would require separate explicit confirmation. <a href="folder-audit.json">Full audit and exact folder paths</a> · <a href="empty-folder-links.json">Empty-folder list as JSON</a></p>'
+page += '<p class="footnote">All individual component and finish folders in the Wall Sculptures tree were checked, including existing Wall Circle pattern-source folders. Arrangement, In Situ, workshop, scene and catalogue document folders are outside the per-component folder list. Folder status reflects the Dropbox contents at the check time shown above.</p>'
+page += '<p class="footnote">The earlier folder additions are marked with their creation date. To undo those additions, request their removal; contents would be checked and deletion would require separate explicit confirmation. <a href="folder-audit.json">Full audit and exact folder paths</a> · <a href="empty-folder-links.json">Empty-folder list as JSON</a></p>'
 page += '''<script>
 const search=document.getElementById('search'),showAll=document.getElementById('showAll'),rows=[...document.querySelectorAll('#photoFolders tbody tr')];
 function update(){let count=0;for(const row of rows){row.hidden=!(row.dataset.search.includes(search.value.toLowerCase())&&(showAll.checked||row.dataset.empty==='true'));if(!row.hidden)count++;}document.getElementById('count').textContent=count+' component and finish folders';}
