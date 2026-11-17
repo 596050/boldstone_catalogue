@@ -56,6 +56,26 @@ class FakePlatform:
 
 
 class RecoveryTests(unittest.TestCase):
+    def test_meta_replaced_option_is_read_back_without_a_second_click(self):
+        class DelayedOption:
+            clicks = 0
+            reads = 0
+
+            def call(self, name, request):
+                if request['op'] == 'set_checked':
+                    self.clicks += 1
+                    raise Hold('CHECKBOX_READBACK_FAILED')
+                self.reads += 1
+                if self.reads == 1:
+                    raise Hold('WRONG_SELECTED_ACCOUNT')
+                return {'ok': True}
+
+        chrome = DelayedOption()
+        workflow = Workflow(self.settings, chrome, self.directory)
+        self.assertTrue(workflow.set_checked('boldstone_facebook', [{'selector': '#option'}], False)['ok'])
+        self.assertEqual(chrome.clicks, 1)
+        self.assertEqual(chrome.reads, 2)
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
@@ -68,7 +88,8 @@ class RecoveryTests(unittest.TestCase):
         self.source = {'schema_version': 1, 'batch_id': 'fixture', 'publish_authorized': True,
                        'posts': [{'post_key': 'BSI-TEST', 'title': 'Fixture sculpture', 'alt_text': 'White relief on a pale wall',
                                   'media_path': str(self.media), 'sha256': digest(self.media.read_bytes()),
-                                  'targets': {'boldstone_instagram': {'caption': 'Fixture sculpture\nA complete caption.'}}}]}
+                                  'targets': {'boldstone_instagram': {'caption': 'Fixture sculpture\nA complete caption.',
+                                                                    'product_tag': {'name': 'Fixture sculpture - White', 'price_text': '£34.20'}}}}]}
         self.write_manifest()
         self.jobs = self.settings.jobs(self.manifest)
         self.adapter = FakePlatform(self.directory)
@@ -221,11 +242,43 @@ class RecoveryTests(unittest.TestCase):
         self.assertEqual(context.exception.code, 'MEDIA_HASH_CHANGED')
 
     def test_promised_product_tag_must_be_explicit(self):
+        self.source['posts'][0]['targets']['boldstone_instagram'].pop('product_tag')
         self.source['posts'][0]['targets']['boldstone_instagram']['caption'] += ' Tap the product tag.'
         self.write_manifest()
         with self.assertRaises(Hold) as context:
             self.settings.jobs(self.manifest)
         self.assertEqual(context.exception.code, 'PRODUCT_TAG_REQUIRED')
+
+    def test_meta_shopping_policy_rejects_website_and_bio_links_without_tags(self):
+        self.settings.policy['require_meta_product_tags'] = True
+        for name, caption in [('boldstone_instagram', 'View the link in our bio.'),
+                              ('boldstone_facebook', 'Shop https://boldstonesculpture.com/buy/p/sculpture')]:
+            with self.subTest(profile=name):
+                self.source['posts'][0]['targets'] = {name: {'caption': caption}}
+                self.write_manifest()
+                with self.assertRaises(Hold) as error:
+                    self.settings.jobs(self.manifest)
+                self.assertEqual(error.exception.code, 'PRODUCT_TAG_REQUIRED')
+
+    def test_retained_meta_job_without_tag_is_held_before_any_browser_action(self):
+        self.settings.policy['require_meta_product_tags'] = True
+        job = copy.deepcopy(self.jobs[0])
+        job['payload']['product_tag'] = None
+        with self.assertRaises(Hold) as error:
+            Workflow(self.settings, None, self.state).prepare(job)
+        self.assertEqual(error.exception.code, 'PRODUCT_TAG_REQUIRED')
+
+    def test_manifest_builder_carries_commerce_selection_on_both_meta_targets(self):
+        source = self.directory / 'shopping-source.json'
+        atomic_json(source, [{'catalogue_id': 'BSI-NEW', 'title': 'New sculpture', 'alt_text': 'Original',
+                              'media_path': str(self.media), 'sha256': digest(self.media.read_bytes()),
+                              'native_commerce_title': 'New sculpture - White', 'native_commerce_price_text': '£34.20',
+                              'captions': {'facebook': 'View this sculpture.', 'instagram': 'See our collection.'}}])
+        output = self.directory / 'shopping-manifest.json'
+        build(source, output, 'shopping-fixture')
+        targets = json.loads(output.read_text())['posts'][0]['targets']
+        for name in ['boldstone_facebook', 'boldstone_instagram']:
+            self.assertEqual(targets[name]['product_tag'], {'name': 'New sculpture - White', 'price_text': '£34.20'})
 
     def test_profile_change_holds_queued_work_before_browser_use(self):
         job = self.jobs[0]
@@ -323,7 +376,7 @@ class RecoveryTests(unittest.TestCase):
     def test_chrome_active_reserved_tab_is_paused(self):
         chrome = Chrome(self.settings, self.state)
         chrome.bindings['sally_linkedin'] = {'window_id': 1, 'tab_id': 2, 'url': 'https://www.linkedin.com/feed/'}
-        chrome.inventory = lambda: {'frontmost': 'com.google.Chrome', 'windows': [{'window_id': 1, 'active_tab_id': 2, 'mode': 'normal', 'tabs': [{'tab_id': 2, 'url': 'https://www.linkedin.com/feed/'}]}]}
+        chrome.state_for = lambda binding: {'frontmost': 'com.google.Chrome', 'windows': [{'window_id': 1, 'active_tab_id': 2, 'mode': 'normal', 'tabs': [{'tab_id': 2, 'url': 'https://www.linkedin.com/feed/'}]}]}
         with self.assertRaises(Hold) as context:
             chrome.bound('sally_linkedin', mutation=True)
         self.assertEqual(context.exception.code, 'FOREGROUND_TAB_PAUSED')
@@ -332,15 +385,96 @@ class RecoveryTests(unittest.TestCase):
     def test_user_navigation_is_never_overwritten(self):
         chrome = Chrome(self.settings, self.state)
         chrome.bindings['sally_linkedin'] = {'window_id': 1, 'tab_id': 2, 'url': 'https://www.linkedin.com/feed/'}
-        chrome.inventory = lambda: {'frontmost': 'com.apple.finder', 'windows': [{'window_id': 1, 'active_tab_id': 3, 'mode': 'normal', 'tabs': [{'tab_id': 2, 'url': 'https://www.linkedin.com/messaging/'}]}]}
+        chrome.state_for = lambda binding: {'frontmost': 'com.apple.finder', 'windows': [{'window_id': 1, 'active_tab_id': 3, 'mode': 'normal', 'tabs': [{'tab_id': 2, 'url': 'https://www.linkedin.com/messaging/'}]}]}
         with self.assertRaises(Hold) as context:
             chrome.bound('sally_linkedin', mutation=True)
         self.assertEqual(context.exception.code, 'TAB_NAVIGATED_EXTERNALLY')
 
+    def test_unrelated_application_switch_does_not_pause_a_background_operation(self):
+        chrome=Chrome(self.settings,self.state)
+        chrome.bindings['sally_linkedin']={'window_id':1,'tab_id':2,'url':'https://www.linkedin.com/sharing/compose'}
+        windows=[{'window_id':3,'active_tab_id':4,'mode':'normal','tabs':[]},{'window_id':1,'active_tab_id':2,'mode':'normal','tabs':[{'tab_id':2,'url':'https://www.linkedin.com/sharing/compose'}]}]
+        states=[{'frontmost':'com.google.Chrome','windows':windows},{'frontmost':'com.apple.Terminal','windows':windows}]
+        chrome.state_for=lambda binding:states.pop(0)
+        chrome.evaluate=lambda *args,**kwargs:{'ok':True}
+        self.assertTrue(chrome.call('sally_linkedin',{'op':'claim'})['ok'])
+
+    def test_reserved_tab_becoming_foreground_still_pauses(self):
+        chrome=Chrome(self.settings,self.state)
+        chrome.bindings['sally_linkedin']={'window_id':1,'tab_id':2,'url':'https://www.linkedin.com/sharing/compose'}
+        windows=[{'window_id':1,'active_tab_id':2,'mode':'normal','tabs':[{'tab_id':2,'url':'https://www.linkedin.com/sharing/compose'}]}]
+        states=[{'frontmost':'com.apple.Terminal','windows':windows},{'frontmost':'com.google.Chrome','windows':windows}]
+        chrome.state_for=lambda binding:states.pop(0)
+        chrome.evaluate=lambda *args,**kwargs:{'ok':True}
+        with self.assertRaisesRegex(Hold,'reserved tab became foreground'):
+            chrome.call('sally_linkedin',{'op':'claim'})
+
+    def test_photo_alt_changes_are_applied_once_and_unchanged_text_is_preserved(self):
+        class PhotoUI:
+            def __init__(self, value):
+                self.value=value;self.panel=False;self.field=False;self.clicks=[];self.writes=0
+            def call(self, profile, request):
+                op=request['op'];locator=request.get('locator')
+                if op=='exists':return {'exists':self.panel if locator==['panel'] else self.field}
+                if op=='click':
+                    self.clicks.append(locator)
+                    if locator==['open']:self.panel=True
+                    elif locator==['tab']:self.field=True
+                    else:self.panel=False;self.field=False
+                elif op=='assert':
+                    if self.value!=request['checks'][0]['text']:raise Hold('TEXT_READBACK_CHANGED')
+                elif op=='set_text':self.value=request['value'];self.writes+=1
+                return {'ok':True}
+        step={key:[key] for key in ('panel','open','tab','field','apply','cancel')}
+        step['value']='Reviewed description of the original photograph'
+        for initial,changed in [('old text',True),(step['value'],False)]:
+            ui=PhotoUI(initial);result=Workflow(self.settings,ui,self.state).photo_alt('fixture',step)
+            self.assertEqual(result['changed'],changed)
+            self.assertEqual(ui.value,step['value'])
+            self.assertEqual(ui.writes,int(changed))
+            self.assertEqual(ui.clicks[-1],['apply'] if changed else ['cancel'])
+
+    def test_only_the_exact_recorded_pending_navigation_can_be_adopted(self):
+        chrome=Chrome(self.settings,self.state)
+        chrome.bindings['sally_linkedin']={'window_id':1,'tab_id':2,'url':'https://www.linkedin.com/sharing/compose','pending_url':'https://www.linkedin.com/feed/'}
+        chrome.state_for=lambda binding:{'frontmost':'com.apple.finder','windows':[{'window_id':1,'active_tab_id':3,'mode':'normal','tabs':[{'tab_id':2,'url':'https://www.linkedin.com/feed/'}]}]}
+        binding,_=chrome.bound('sally_linkedin')
+        self.assertEqual(binding['url'],'https://www.linkedin.com/feed/')
+        self.assertNotIn('pending_url',binding)
+
+    def test_native_url_setter_is_not_available_to_the_background_bridge(self):
+        import re
+        source='\n'.join(line.split('--')[0] for line in (ROOT/'chrome.applescript').read_text().splitlines())
+        self.assertIsNone(re.search(r'\bset\s+URL\s+of\s+',source,re.I))
+
+    def test_linkedin_post_redirect_accepts_the_observed_for_you_feed_only(self):
+        chrome=Chrome(self.settings,self.state)
+        chrome.bindings['sally_linkedin']={'window_id':1,'tab_id':2,'url':'https://www.linkedin.com/sharing/compose'}
+        current={'tab_id':2,'url':'https://www.linkedin.com/feed/foryou/'}
+        chrome.state_for=lambda binding:{'frontmost':'com.apple.finder','windows':[{'window_id':1,'active_tab_id':3,'mode':'normal','tabs':[current]}]}
+        self.assertEqual(chrome.sync_after_submit('sally_linkedin')['url'],current['url'])
+        current['url']='https://www.linkedin.com/in/an-unrelated-profile/'
+        with self.assertRaises(Hold) as result:chrome.sync_after_submit('sally_linkedin')
+        self.assertEqual(result.exception.code,'TAB_NAVIGATED_EXTERNALLY')
+
+    def test_post_redirect_race_retries_only_reads_and_never_the_post_action(self):
+        class RedirectingReader:
+            def __init__(self):self.syncs=0;self.operations=[]
+            def sync_after_submit(self,name):self.syncs+=1
+            def call(self,name,request):
+                self.operations.append(request['op'])
+                if len(self.operations)==1:raise Hold('TAB_NAVIGATED_EXTERNALLY')
+                return {'exists':True} if request['op']=='exists' else {'url':'https://www.linkedin.com/feed/update/urn:li:activity:123/'}
+        reader=RedirectingReader()
+        result=Workflow(self.settings,reader,self.state).wait_for_post_link('sally_linkedin',[{'selector':'a[href]','name':'View post'}],'native-pattern')
+        self.assertEqual(result,'https://www.linkedin.com/feed/update/urn:li:activity:123/')
+        self.assertEqual(reader.syncs,2)
+        self.assertEqual(reader.operations,['exists','exists','discover'])
+
     def test_dirty_composer_cannot_be_navigated_away_from_even_in_recovery(self):
         chrome = Chrome(self.settings, self.state)
         chrome.bindings['sally_linkedin'] = {'window_id': 1, 'tab_id': 2, 'url': 'https://www.linkedin.com/feed/', 'dirty': True}
-        chrome.inventory = lambda: {'frontmost': 'com.apple.finder', 'windows': [{'window_id': 1, 'active_tab_id': 3, 'mode': 'normal', 'tabs': [{'tab_id': 2, 'url': 'https://www.linkedin.com/feed/'}]}]}
+        chrome.state_for = lambda binding: {'frontmost': 'com.apple.finder', 'windows': [{'window_id': 1, 'active_tab_id': 3, 'mode': 'normal', 'tabs': [{'tab_id': 2, 'url': 'https://www.linkedin.com/feed/'}]}]}
         chrome.apple = lambda args: self.fail('Navigation must not be attempted: a beforeunload dialog could interrupt the user')
         with self.assertRaises(Hold) as context:
             chrome.navigate('sally_linkedin', 'https://www.linkedin.com/sharing/compose', recovery=True)
@@ -348,7 +482,7 @@ class RecoveryTests(unittest.TestCase):
 
     def test_shared_readback_tab_can_be_bound_without_navigation(self):
         chrome = Chrome(self.settings, self.state)
-        chrome.inventory = lambda: {'frontmost': 'com.apple.finder', 'windows': [{'window_id': 1, 'active_tab_id': 3, 'mode': 'normal', 'tabs': [{'tab_id': 2, 'url': 'about:blank'}]}]}
+        chrome.state_for = lambda binding: {'frontmost': 'com.apple.finder', 'windows': [{'window_id': 1, 'active_tab_id': 3, 'mode': 'normal', 'tabs': [{'tab_id': 2, 'url': 'about:blank'}]}]}
         chrome.apple = lambda args: self.fail('Binding must not navigate or activate a tab')
         self.assertEqual(chrome.bind('verification', 1, 2)['url'], 'about:blank')
 
@@ -414,6 +548,46 @@ class RecoveryTests(unittest.TestCase):
         result = Workflow(self.settings, None, self.state).purchase_links(job, ['https://l.facebook.com/l.php?u=' + quote(url, safe='')])
         self.assertEqual(result[0]['expected'], url)
 
+    def test_meta_click_id_does_not_hide_a_changed_campaign_or_destination(self):
+        from urllib.parse import quote
+        expected = 'https://boldstonesculpture.com/buy/p/sculpture?utm_source=facebook&utm_content=piece'
+        wrapped = lambda url: 'https://l.facebook.com/l.php?u=' + quote(url, safe='')
+        self.assertEqual(Workflow.unwrap_link(wrapped(expected + '&fbclid=platform-added')), expected)
+        job = copy.deepcopy(self.jobs[0])
+        job['payload']['caption'] += ' ' + expected
+        workflow = Workflow(self.settings, None, self.state)
+        workflow.purchase_links(job, [wrapped(expected + '&fbclid=platform-added')])
+        with self.assertRaises(Hold):
+            workflow.purchase_links(job, [wrapped(expected.replace('utm_content=piece', 'utm_content=other') + '&fbclid=platform-added')])
+
+    def test_facebook_native_host_canonicalization_preserves_post(self):
+        original = 'https://facebook.com/BoldstoneSculpture/posts/pfbidExample'
+        self.assertEqual(Workflow.canonical_native_url('facebook', original),
+                         'https://www.facebook.com/BoldstoneSculpture/posts/pfbidExample')
+        self.assertEqual(Workflow.canonical_native_url('linkedin', original), original)
+
+    def test_linkedin_safety_wrapper_exposes_only_its_public_destination(self):
+        from urllib.parse import quote
+        short = 'https://lnkd.in/example'
+        wrapped = 'https://www.linkedin.com/safety/go/?url=' + quote(short, safe='') + '&isSdui=true'
+        self.assertEqual(Workflow.unwrap_link(wrapped), short)
+        other = wrapped.replace('www.linkedin.com', 'example.com')
+        self.assertEqual(Workflow.unwrap_link(other), other)
+
+    def test_calibrated_reader_navigation_never_adopts_an_unexpected_url(self):
+        chrome = Chrome(self.settings, self.state)
+        chrome.bindings['verification'] = {'window_id': 1, 'tab_id': 2, 'url': 'https://business.facebook.com/latest/posts'}
+        actual = 'https://business.facebook.com/latest/insights/object_insights/?content_id=123&nav_ref=bizweb_published_posts_table'
+        chrome.state_for = lambda binding: {'frontmost': 'com.apple.finder', 'windows': [
+            {'window_id': 1, 'active_tab_id': 3, 'mode': 'normal', 'tabs': [{'tab_id': 2, 'url': actual, 'loading': False}]}]}
+        chrome.call = lambda name, request: {'ok': True}
+        pattern = r'https://business\.facebook\.com/latest/insights/object_insights/\?content_id=\d+&nav_ref=bizweb_published_posts_table'
+        self.assertEqual(chrome.sync_expected_navigation('verification', pattern)['url'], actual)
+        with self.assertRaises(Hold) as error:
+            chrome.sync_expected_navigation('verification', r'https://www\.linkedin\.com/feed/', timeout=0)
+        self.assertEqual(error.exception.code, 'RECOVERY_NAVIGATION_TIMEOUT')
+        self.assertEqual(chrome.bindings['verification']['url'], actual)
+
     def test_manifest_builder_cannot_replay_a_published_source(self):
         source = self.directory / 'old-posts.json'
         atomic_json(source, [{'title': 'Already posted', 'status': 'PUBLISHED_ALL_THREE_NATIVE_READBACK'}])
@@ -424,7 +598,7 @@ class RecoveryTests(unittest.TestCase):
     def test_manifest_builder_defaults_to_prepared_and_does_not_touch_browser(self):
         source = self.directory / 'prepared.json'
         atomic_json(source, [{'catalogue_id': 'BSI-NEW', 'sku': 'TEST', 'title': 'New sculpture', 'alt_text': 'Original',
-                              'media_path': str(self.media), 'sha256': digest(self.media.read_bytes()), 'captions': {'facebook': 'New sculpture'}}])
+                              'media_path': str(self.media), 'sha256': digest(self.media.read_bytes()), 'captions': {'linkedin': 'New sculpture'}}])
         result = build(source, self.directory / 'new.json', 'new-batch')
         self.assertFalse(result['publish_authorized'])
         self.assertEqual(result['browser_actions'], 0)

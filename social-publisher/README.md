@@ -5,15 +5,68 @@ AppleScript entry point and a Python 3.9+ standard-library supervisor for the
 Facebook and Instagram post separately through Meta Business Suite; LinkedIn
 posts through Sally Price’s normal composer. Accounts, routes, exact controls
 and recovery workflows are editable JSON. There are no browser-profile copies,
-API tokens, browser debugging ports or Python dependencies to install.
+social API tokens, browser debugging ports or Python dependencies to install.
 
-The AppleScript and recovery logic are implemented and covered by offline
-failure tests. Background JavaScript was tested read-only in the installed
-Chrome. **A new public post has not been submitted by this runner.** The platform
-recipes are conservative baselines from the existing Boldstone workflow, and
-their DOM selectors need checking against the live reserved composers before
-the first batch. A missing or ambiguous control holds the job; it is not silently
-treated as a successful post.
+Live execution on 17 November 2026 published and independently read back
+**five new posts on each of Facebook, Instagram and LinkedIn: 15 in total**.
+Each receipt verifies the native permalink, full caption, author and loaded
+photograph. Authored purchase links were checked on Facebook and LinkedIn,
+and saved Commerce product associations were verified on all ten Meta posts.
+The [batch review](../outputs/social-script-20261117/review.html) links to every
+post; [execution checks](../outputs/social-script-20261117/execution-checks.json)
+confirm one publish intent per delivery, matching original media hashes and
+no observed target-window foregrounding. The earlier 16 November Meta batch
+remains separate and has no Commerce tag verification.
+
+The optional Chrome upload helper is installed in the existing signed-in
+profile. It supplies reviewed original files through Chrome's public scripting
+API, including detached inputs, without opening a native picker. Account,
+document, job and media-hash checks precede every upload. The supervisor then
+requires a matching receipt and a loaded image preview.
+
+LinkedIn's current Editor accepts original image files in its visible media
+drop area. That route checks the image hash, account and audience, loads the
+preview, adds and reads back the exact alt text, then returns to the main
+composer before pasting the caption. It needs no native picker or helper reload.
+The older 16 November LinkedIn deliveries remain separate retained jobs; a new
+batch does not release that backlog automatically.
+
+Facebook and Instagram were checked separately in Meta Business Suite, with
+Story sharing, ad-post mode, scheduling and boosting disabled. Meta's Story
+confirmation uses **Don't share this post**, preserving account-wide settings.
+Photo alt text was entered and read back. Rich-text captions use the site's
+paste handler, with every line checked before submission.
+
+Commerce product tags are mandatory for new Meta deliveries. The script checks
+the exact product name and price in the catalogue picker, saves the tag, reopens
+the photo editor to verify that selection, and checks that the composer shows
+one association. The ready guard binds this evidence to the job and photo hash.
+After publication, it independently verifies the native caption, author,
+photograph and authored links, then checks the persisted tag count in Meta's
+published editor for that exact caption and account. Meta disables editing the
+photo after publication; receipts identify this persisted-count check and retain
+the earlier exact-product readback. They do not claim to test every customer
+shopping interface or complete a checkout.
+
+Meta's inactive windows can retain closed confirmation nodes and leave active
+menus without a completed visual transition. Story sharing is checked against
+the actual switch and the exact **Don't share this post** radio choice. Product
+typeahead uses DOM focus events and its option's mouse selection events, while
+the Chrome window remains in the background. Instagram permalink recovery uses
+the exact published Meta row and its **View Post on Instagram** link, avoiding
+stale profile-grid caches.
+
+LinkedIn's current success notification places **View post** outside alert and
+status roles. Verification reads that exact native link, accepts the inspected
+`/feed/foryou/` canonical feed route, and retries only reads during a publication
+redirect. A redirect error never repeats the Post action.
+
+Chrome's native AppleScript URL setter activates its window on this Mac. The
+bridge uses an owned page's `location.assign` instead, checks focus, and retains
+an exact pending URL for recovery. Runtime publishing does not activate an app,
+change the user's active tab, use the system clipboard or open a file picker.
+A user switching between other windows is allowed; using the reserved tab holds
+that delivery. Stable window and tab IDs avoid index shifts during tab changes.
 
 ## Start here
 
@@ -37,6 +90,59 @@ Chrome or Script Editor. The equivalent command is:
 from **14 and 15 November 2026** have been imported as `HISTORICAL_VERIFIED`
 duplicate guards. They are historical receipts, not new publications or fresh
 live verifications.
+
+## Install the background photo helper once
+
+Prepare the local, reviewable bundle without installing anything:
+
+```sh
+/usr/bin/python3 publisher.py helper-build
+```
+
+The bundle is `state/chrome-uploader-extension/`. Its manifest and source hashes
+are listed in `state/upload-helper-review.json`. It asks for `scripting`,
+`alarms` and `storage`, with access to exactly these origins:
+
+- `https://business.facebook.com/*` for both Meta destinations.
+- `https://www.linkedin.com/*` for the LinkedIn composer.
+- `http://127.0.0.1/*` for the local bridge, fixed to port 8768 by default.
+
+After explicit approval for this new extension access and the one-time Chrome
+setup, open `chrome://extensions`, enable Developer mode if necessary, choose
+**Load unpacked**, and select the bundle. Use the existing signed-in Chrome
+profile. The stable extension ID is recorded in the review file. Return to the
+user's own application before testing any upload. Runtime posting does not
+activate a window or open a file picker.
+
+The helper cannot enqueue a new file or invoke a publish action. Its authenticated
+loopback server exposes only existing requests, exact hashed media, leases and
+receipts. HTTP callers cannot supply arbitrary file paths or URLs. Each request
+checks its normal background tab, URL, tab owner, current job, selected account
+and media hash. A lost file event/result remains uncertain and is never replayed.
+An unclaimed request is cancelled when its supervising client closes. A later
+preparation can requeue an expired unclaimed request or a retained failure that
+proves no file event started. Running or uncertain file events are never replayed.
+
+The local connection token is generated per installation and kept under private
+`state/`; it is not a social account credential. Keep the bundle and its config
+private. No service is installed. `run` starts and closes its own loopback server
+when needed. For a connection check without publishing:
+
+```sh
+/usr/bin/python3 publisher.py helper-serve
+# In another terminal, or from the helper popup:
+/usr/bin/python3 publisher.py helper-status
+```
+
+Stop a manually started server with Ctrl-C. `helper-status` reports the last
+helper contact; a running server or a heartbeat alone does not prove upload or
+publication. Chrome may suspend the helper between its 30-second alarm checks.
+The supervisor allows time for it to wake without bringing Chrome forward.
+During the one-time setup, start `helper-serve`, open the extension popup and
+click **Connect local uploader**. If Chrome requests local companion/loopback
+access, approve it as part of that setup. The worker stays idle until this
+authenticated connection succeeds. This follows Chrome's
+[local connection permission guidance](https://developer.chrome.com/docs/modern-web-guidance/guides/security/local-network-access).
 
 ## Reserve tabs once
 
@@ -91,10 +197,26 @@ Accessibility access or System Events.
 Use `examples/batch.example.json` as the schema. Each sculpture has independent
 target captions and a hash of its reviewed original photograph. A five-sculpture,
 three-profile manifest creates 15 independently tracked deliveries. There is no
-automatic extra crosspost. The destination checkboxes must read back
-as the intended platform selected and the other platform unselected.
-During calibration, include explicit unchecked guards for any optional Story
-or paid-boost controls exposed by the current composer before enabling a batch.
+automatic extra crosspost. The destination must read back as the intended
+platform alone. Ad-post mode, Story sharing, scheduling and boost controls are
+checked before upload and again before publication when exposed by the composer.
+
+The 17 November Commerce audit found that the 16 November batch omitted shopping
+tags. Its native publication receipts prove captions, authors and photographs;
+they do not prove Commerce tags. `policy.require_meta_product_tags` is now true:
+Facebook and Instagram need an explicit `product_tag` regardless of caption
+wording. Website and bio links cannot satisfy that requirement. The builder
+carries the native Commerce name and price onto both Meta targets. Preparation
+also checks existing queued jobs and refuses adapters without selected-tag and
+native-tag checks. Both Meta workflows now include the calibrated selection,
+save/reopen and published-association checks described above.
+
+The existing-post desktop editors inspected in this account disabled media
+editing; Instagram's own web editor exposed people tags but no product tags.
+Commerce Manager showed both channels active and all five matching White items
+eligible. No Commerce edits, replacement publications or deletions were applied
+by this audit. Evidence and the review are in
+`../outputs/commerce-tag-repair-20261117/`.
 
 The existing Boldstone prepared-post format can be converted:
 
@@ -102,8 +224,8 @@ The existing Boldstone prepared-post format can be converted:
 /usr/bin/python3 build_manifest.py /path/to/NEW/prepared-posts.json --output /path/to/new-batch.json --batch-id component-sculptures-YYYYMMDD
 ```
 
-The builder refuses rows containing existing publication receipts. If an
-Instagram caption promises a product tag, the source also needs
+The builder refuses rows containing existing publication receipts. Every new
+Facebook or Instagram target needs
 `native_commerce_title` and `native_commerce_price_text` from the actual Commerce
 picker. It does not invent the product’s native name. The generated manifest
 defaults to `publish_authorized: false`; set it to true for a batch whose exact
@@ -146,7 +268,8 @@ readback is mandatory.
 | User is using the reserved tab | Pause; no global keyboard, mouse or clipboard operation is attempted. |
 | Crash or timeout during submission | Keep `OUTCOME_UNKNOWN`; search for the native post and verify it. Never automatically click Publish again. |
 | Published caption missing, wrong author, absent photo or bad link | Keep the delivery unconfirmed. Other independent jobs retain their own status. |
-| Restart during reversible preparation | Resume from its saved checkpoint when its owned page is still available. Lost media state requires inspection/rebinding. |
+| Restart during reversible preparation | Resume from its checkpoint in the same owned job. Unclaimed uploads may be prepared again; a running/lost upload lease is reconciliation-only. |
+| Helper returns file events but no loaded photo appears | Retain the draft and input receipt; do not publish or upload the file again automatically. |
 | SQLite restored to an older backup | Replay the independent intent ledger before considering any queued work. |
 | Corrupt or torn intent ledger | Hold; preserve the evidence. Do not erase the ambiguous record. |
 | Login, checkpoint, permission prompt or removed browser tab | Hold for that account/tab to be restored; no attempt to bypass it. |
@@ -173,11 +296,15 @@ Fix a pre-submission issue, then resume that job:
 
 If a profile name, handle, URL or workflow is edited, queued jobs hold on their
 old fingerprint. For the same stable destination account, inspect the corrected
-reserved composer, bind it again, then explicitly adopt the change:
+reserved composer, then explicitly adopt the change:
 
 ```sh
 /usr/bin/python3 publisher.py adopt-profile-change --job DELIVERY_ID
 ```
+
+This also updates an existing reserved binding's workflow fingerprint and
+restarts its preparation checks while preserving its owner and retained draft.
+Reserve and bind a replacement only if the original tab is unavailable.
 
 Changing the actual account requires a new profile with a new `channel_key`.
 After submission, the original profile/workflow configuration must remain
@@ -196,6 +323,8 @@ Queued manifests retain the profile/workflow snapshots for review.
 | `bindings.json` | Explicitly reserved window/tab IDs, ownership token and preparation checkpoint. |
 | `evidence/` | Ready-state and complete native post readbacks with hashes. |
 | `focus-audit.jsonl` | Focus and active-tab IDs sampled before and after DOM mutations. Concurrent user changes pause work; their focus is never restored by the runner. |
+| `upload-helper.json`, `chrome-uploader-extension/` | Private helper pairing token, public extension key and generated bundle. |
+| `upload-requests/` | Durable upload states, single leases and document receipts. Unknown file events are never requeued. |
 | `status.json`, `status.html`, `health.json` | Reviewable status, receipt links and current diagnostics. |
 
 Retain the **whole state directory**, especially the independent ledger and
@@ -222,6 +351,8 @@ history stays attached to the same account. Profile metadata is configuration;
 this tool does not edit the live account’s bio or other public details.
 
 Add a new profile and a workflow JSON to support another ordinary web composer.
+If it needs the photo helper, its new origin also requires a reviewed manifest
+change and approval of the additional Chrome site access.
 The generic driver supports exact unique CSS/accessible-label locators, waits,
 text entry, checkbox selection, direct file inputs, alt text, guarded submission,
 native permalink discovery and readback. Every workflow must have account,

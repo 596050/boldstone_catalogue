@@ -67,6 +67,14 @@ class Engine:
             pass
 
     def run(self, job_id=None):
+        try:
+            return self._run(job_id)
+        finally:
+            close = getattr(self.adapter, 'close', None)
+            if close is not None:
+                close()
+
+    def _run(self, job_id=None):
         before = {j['id']: j['state'] for j in self.store.jobs()}
         intents_before = len([e for e in self.store.ledger if e['kind'] == 'PUBLISH_INTENT'])
         for job in self.store.jobs():

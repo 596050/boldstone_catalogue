@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Boldstone background photo uploader",
+  "version": "1.0.0",
+  "minimum_chrome_version": "120",
+  "description": "Upload an approved local sculpture photograph in a reserved background tab. Publishing remains with the local AppleScript supervisor.",
+  "permissions": ["scripting", "alarms", "storage"],
+  "host_permissions": [
+    "https://business.facebook.com/*",
+    "https://www.linkedin.com/*",
+    "http://127.0.0.1/*"
+  ],
+  "background": {"service_worker": "service-worker.js", "type": "module"},
+  "action": {"default_title": "Boldstone uploader", "default_popup": "popup.html"}
+}

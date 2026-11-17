@@ -114,6 +114,8 @@ class Settings:
                 caption = target.get('caption', '')
                 if not isinstance(caption, str) or not caption.strip() or len(caption) > p.get('caption_limit', 60000):
                     raise Hold('CAPTION_INVALID', name)
+                if self.policy.get('require_meta_product_tags') and p['platform'] in {'facebook', 'instagram'} and not target.get('product_tag'):
+                    raise Hold('PRODUCT_TAG_REQUIRED', 'Meta publications require the exact Commerce product and price; caption links and bio links do not satisfy this requirement')
                 if 'product tag' in caption.lower() and not target.get('product_tag'):
                     raise Hold('PRODUCT_TAG_REQUIRED', 'The caption promises a product tag; supply the exact native tag and price')
                 if target.get('product_tag'):

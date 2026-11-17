@@ -19,7 +19,8 @@ def main():
     with tempfile.TemporaryDirectory(prefix='boldstone-social-verification-') as temp:
         commands = [
             ('python-recovery', [sys.executable, '-m', 'unittest', 'discover', '-s', str(ROOT / 'tests'), '-p', 'test_*.py', '-v']),
-            ('dom-driver', ['node', '--test', str(ROOT / 'tests' / 'dom.test.cjs')]),
+            ('dom-and-helper-worker', ['node', '--test', str(ROOT / 'tests' / 'dom.test.cjs'), str(ROOT / 'tests' / 'helper-worker.test.cjs')]),
+            ('chrome-upload-fixture', [sys.executable, str(ROOT / 'tests' / 'chrome_upload_fixture.py')]),
             ('compile-bridge', ['/usr/bin/osacompile', '-o', temp + '/chrome.scpt', str(ROOT / 'chrome.applescript')]),
             ('compile-launcher', ['/usr/bin/osacompile', '-o', temp + '/Run.scpt', str(ROOT / 'Run.applescript')]),
         ]

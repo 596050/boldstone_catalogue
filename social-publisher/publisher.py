@@ -19,10 +19,12 @@ from engine import Engine
 from journal import Store
 from settings import Settings
 from workflow import Workflow
+from upload_bridge import UploadClient, UploadServer, build_helper
 
 
 def concise(report):
     return {'utc': report['utc'], 'complete': report['complete'], 'counts': report['counts'], 'run_results': report.get('run_results'),
+            **({'requested_job':report['requested_job']} if report.get('requested_job') else {}),
             'jobs': [{'id': r['id'], 'title': r['payload']['title'], 'profile_id': r['payload']['profile_id'],
                       'state': r['state'], 'attempts': r['attempts'], 'last_error': r['last_error'],
                       'native_url': (r['receipt'] or {}).get('native_url')} for r in report['jobs']]}
@@ -164,6 +166,10 @@ def parser():
     w = sub.add_parser('watch', help='Explicit foreground-free worker; Ctrl-C stops it without losing intent state')
     w.add_argument('--cycles', type=int, default=0, help='0 runs until stopped')
     sub.add_parser('status')
+    helper = sub.add_parser('helper-build', help='Prepare the reviewable Chrome photo helper; does not install it')
+    helper.add_argument('--port', type=int, default=8768)
+    sub.add_parser('helper-status', help='Read local helper health; never opens Chrome or starts publishing')
+    sub.add_parser('helper-serve', help='Serve the authenticated upload queue on loopback; Ctrl-C stops it')
     h = sub.add_parser('import-history', help='Seed duplicate guards from verified historical batch receipts')
     h.add_argument('directory', type=Path)
     c = sub.add_parser('reconcile', help='Check the exact native post after an uncertain submission; never clicks Publish')
@@ -180,6 +186,21 @@ def parser():
 def main(argv=None):
     args = parser().parse_args(argv)
     directory = args.state.expanduser().resolve()
+    if args.command == 'helper-build':
+        if not 1024 <= args.port <= 65535:
+            raise Hold('UPLOAD_HELPER_PORT_INVALID')
+        return build_helper(directory, args.port), 0
+    if args.command == 'helper-status':
+        client = UploadClient(directory)
+        try:
+            return {'health': client.health(), 'publish_clicks': 0}, 0
+        except OSError:
+            return {'status': 'LOCAL_BRIDGE_NOT_RUNNING', 'publish_clicks': 0}, 2
+    if args.command == 'helper-serve':
+        with UploadServer(directory) as server:
+            print(canonical({'status': 'SERVING_UPLOAD_QUEUE', 'bind': '127.0.0.1', 'port': server.port, 'publish_actions': False}), flush=True)
+            while True:
+                time.sleep(1)
     settings = Settings(args.config)
     chrome = Chrome(settings, directory)
     if args.command == 'validate':
@@ -240,6 +261,8 @@ def main(argv=None):
                 if current['channel_key'] != job['channel_key']:
                     raise Hold('ACCOUNT_CHANGED', 'A different destination account requires a new profile and new delivery')
                 payload = job['payload']
+                if payload['profile_id'] in chrome.bindings:
+                    chrome.adopt_profile(payload['profile_id'])
                 payload.setdefault('previous_profile_hashes', []).append(payload['profile_hash'])
                 payload['profile_hash'] = settings.fingerprint(payload['profile_id'])
                 payload['profile_snapshot'] = current
@@ -252,7 +275,12 @@ def main(argv=None):
         else:
             result = store.export()
         report_html(directory, result)
-        return concise(result), 0 if result['complete'] or args.command != 'run' else 2
+        success=result['complete'] or args.command!='run'
+        if args.command=='run' and args.job:
+            requested=store.get(args.job)
+            success=requested['state'] in {'PUBLISHED','HISTORICAL_VERIFIED'}
+            result['requested_job']={'id':args.job,'state':requested['state'],'complete':success}
+        return concise(result), 0 if success else 2
 
 
 if __name__ == '__main__':

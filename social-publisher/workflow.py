@@ -4,9 +4,9 @@ import re
 import time
 import urllib.request
 from pathlib import Path
-from urllib.parse import parse_qs, unquote, urlparse
+from urllib.parse import parse_qs, parse_qsl, unquote, urlencode, urlparse, urlunparse
 
-from common import Hold, atomic_json, digest, utc
+from common import Hold, atomic_json, digest, read_json, utc
 from chrome import VERIFICATION
 
 
@@ -56,13 +56,187 @@ class Workflow:
                 raise Hold('CONTROL_MISSING', 'The expected interface did not become ready', retryable=True)
             time.sleep(0.25)
 
+    def wait_for_post_link(self, profile_id, locator, pattern, timeout=10):
+        """Retry only native-link reads during a known publication redirect."""
+        deadline=time.monotonic()+timeout
+        while True:
+            self.chrome.sync_after_submit(profile_id)
+            try:
+                if self.chrome.call(profile_id,{'op':'exists','locator':locator})['exists']:
+                    url=self.chrome.call(profile_id,{'op':'discover','pattern':pattern,'roots':locator})['url']
+                    if url:return url
+            except Hold as error:
+                if error.code!='TAB_NAVIGATED_EXTERNALLY' or time.monotonic()>=deadline:
+                    raise
+                # sync_after_submit on the next iteration accepts only the
+                # configured post routes and the inspected canonical feed.
+                continue
+            if time.monotonic()>=deadline:raise Hold('CONTROL_MISSING','The native success link did not appear',retryable=True)
+            time.sleep(.25)
+
     def guards(self, recipe, context):
         return list(self.enabled_steps(recipe['ready'], context))
+
+    def photo_alt(self, profile_id, step):
+        if not self.chrome.call(profile_id, {'op': 'exists', 'locator': step['panel']})['exists']:
+            self.chrome.call(profile_id, {'op': 'click', 'locator': step['open']})
+        if not self.chrome.call(profile_id, {'op': 'exists', 'locator': step['field']})['exists']:
+            self.chrome.call(profile_id, {'op': 'click', 'locator': step['tab']})
+        self.wait(profile_id, step['field'])
+        check = {'locator': step['field'], 'text': step['value']}
+        changed = False
+        try:
+            self.chrome.call(profile_id, {'op': 'assert', 'checks': [check]})
+        except Hold as error:
+            if error.code != 'TEXT_READBACK_CHANGED':
+                raise
+            changed = True
+            self.chrome.call(profile_id, {'op': 'set_text', 'locator': step['field'], 'value': step['value']})
+            self.chrome.call(profile_id, {'op': 'assert', 'checks': [check]})
+        self.chrome.call(profile_id, {'op': 'click', 'locator': step['apply'] if changed else step['cancel']})
+        deadline = time.monotonic() + 10
+        while self.chrome.call(profile_id, {'op': 'exists', 'locator': step['panel']})['exists']:
+            if time.monotonic() >= deadline:
+                raise Hold('PHOTO_EDITOR_STILL_OPEN', retryable=True)
+            time.sleep(0.25)
+        return {'value': step['value'], 'changed': changed, 'editor_closed': True}
+
+    def set_checked(self, profile_id, locator, value, timeout=5, confirmation=None):
+        # Meta can leave a requested confirmation at zero opacity in an
+        # inactive window. Its exact radio choices and resulting switch state
+        # remain usable without activating or repainting that window.
+        confirmation_root = [{k:v for k,v in spec.items() if k!='painted'} for spec in confirmation['root']] if confirmation else None
+        pending = confirmation and self.chrome.call(profile_id, {'op': 'exists', 'locator': confirmation_root})['exists']
+        if not pending:
+            try:
+                self.chrome.call(profile_id, {'op': 'set_checked', 'locator': locator, 'value': value})
+            except Hold as error:
+                # Poll the replacement node without repeating its earlier click.
+                if error.code != 'CHECKBOX_READBACK_FAILED':
+                    raise
+        deadline = time.monotonic() + timeout
+        while True:
+            if confirmation and self.chrome.call(profile_id, {'op': 'exists', 'locator': confirmation_root})['exists']:
+                self.chrome.call(profile_id, {'op': 'assert', 'checks': confirmation['checks']})
+                self.chrome.call(profile_id, {'op': 'click', 'locator': confirmation['confirm']})
+            try:
+                return self.chrome.call(profile_id, {'op': 'assert', 'checks': [{'locator': locator, 'checked': value}]})
+            except Hold as error:
+                if error.code not in {'WRONG_SELECTED_ACCOUNT', 'CONTROL_MISSING'} or time.monotonic() >= deadline:
+                    raise
+                time.sleep(0.25)
+
+    def wait_absent(self, profile_id, locator, timeout=10):
+        deadline=time.monotonic()+timeout
+        while self.chrome.call(profile_id, {'op':'exists','locator':locator})['exists']:
+            if time.monotonic()>=deadline:
+                raise Hold('UNFINISHED_DIALOG', retryable=True)
+            time.sleep(.25)
+
+    def product_tag(self, profile_id, context, step):
+        """Save one exact product, reopen it, and attest its persisted UI value."""
+        if not self.chrome.call(profile_id, {'op':'exists','locator':step['panel']})['exists']:
+            self.chrome.call(profile_id, {'op':'click','locator':step['open']})
+            self.wait(profile_id, step['panel'])
+        self.chrome.call(profile_id, {'op':'click','locator':step['tab']})
+        if not self.chrome.call(profile_id, {'op':'exists','locator':step['heading']})['exists']:
+            self.chrome.call(profile_id, {'op':'click_photo_point','locator':step['photo'],'target':step['point_target'],'x':.5,'y':.5,'checks':[{'locator':step['tab']}]})
+            self.wait(profile_id, step['search'])
+            self.chrome.call(profile_id, {'op':'set_text','locator':step['search'],'value':context['product_tag']['name'],'focus':True,'typeahead':True})
+            self.wait(profile_id, step['choice'])
+            self.chrome.call(profile_id, {'op':'click','locator':step['choice'],'method':'mouse'})
+            self.wait(profile_id, step['heading'])
+        self.chrome.call(profile_id, {'op':'click','locator':step['save']})
+        self.wait_absent(profile_id, step['panel'])
+        self.chrome.call(profile_id, {'op':'click','locator':step['open']})
+        self.wait(profile_id, step['heading'])
+        proof=self.chrome.call(profile_id, {'op':'attest_product_tag','tag':context['product_tag'],'job':context['id'],'mediaSha256':context['media_sha256'],'panel':step['panel'],'heading':step['heading'],'markers':step['markers']})
+        self.chrome.call(profile_id, {'op':'click','locator':step['cancel']})
+        self.wait_absent(profile_id, step['panel'])
+        self.chrome.call(profile_id, {'op':'assert','checks':[{'locator':step['badge'],'text':'1','tag_receipt':context['product_tag']}],'job':context['id'],'mediaSha256':context['media_sha256']})
+        atomic_json(self.directory/'evidence'/(context['id']+'-product-tag.json'), {'utc':utc(),'job_id':context['id'],**proof})
+        return proof
+
+    def verify_product_tag(self, context, recipe):
+        """Correlate the exact saved product with the published post's tag count.
+
+        Meta disables photo editing after publication. Its published editor
+        exposes the persisted association count, while the exact product and
+        price are attested by saving and reopening the draft before submission.
+        """
+        recovery=render(recipe['readback']['tag_recovery'],context)
+        reader=VERIFICATION
+        proof_path=self.directory/'evidence'/(context['id']+'-product-tag.json')
+        proof=read_json(proof_path)
+        selected=proof.get('product_tag',{})
+        expected={'job':context['id'],'sha256':context['media_sha256'],**context['product_tag']}
+        if any(selected.get(k)!=v for k,v in expected.items()) or not selected.get('persisted_editor_readback'):
+            raise Hold('PRODUCT_TAG_RECEIPT_MISSING')
+        self.chrome.navigate(reader,context['inventory_url'],context['id'],recovery=True)
+        self.wait(reader,recovery['search'])
+        self.chrome.call(reader,{'op':'set_text','locator':recovery['search'],'value':context['title']})
+        self.wait(reader,recovery['row'])
+        row=self.chrome.call(reader,{'op':'snapshot','scope':recovery['row']})
+        ids=[re.fullmatch(r'Select item with ID (\d+)',control['name']) for control in row['controls']]
+        ids=[m.group(1) for m in ids if m]
+        if len(ids)!=1:raise Hold('NATIVE_PRODUCT_POST_AMBIGUOUS')
+        post_id=ids[0]
+        self.chrome.call(reader,{'op':'click','locator':recovery['menu']})
+        self.chrome.call(reader,{'op':'click','locator':recovery['manage']})
+        self.chrome.call(reader,{'op':'click','locator':recovery['edit']})
+        self.chrome.sync_expected_navigation(reader,recovery['edit_url_pattern'].replace('{post_id}',post_id))
+        self.wait(reader,recovery['caption'])
+        checks=render(recipe['readback']['tag_checks'],context)
+        native=self.chrome.call(reader,{'op':'assert','checks':checks})
+        result={'method':'Meta published editor tag count correlated with exact saved product UI',
+                'native_post_id':post_id,'native_editor_url':self.chrome.bindings[reader]['url'],
+                'persisted_tag_count':1,'selected_product':selected,'native_checks':native,
+                'selection_evidence_path':str(proof_path.resolve()),'selection_evidence_sha256':digest(proof_path.read_bytes())}
+        self.chrome.call(reader,{'op':'click','locator':recovery['cancel']})
+        self.wait(reader,recovery['leave'])
+        # This reader has made no edits, and the exact published caption was
+        # checked above. Only its inspection form is being closed.
+        self.chrome.call(reader,{'op':'assert','checks':checks})
+        self.chrome.call(reader,{'op':'click','locator':recovery['discard']})
+        self.chrome.sync_expected_navigation(reader,recovery['inventory_pattern'])
+        return result
+
+    def meta_permalink(self, context, recipe):
+        """Read the permalink from the exact published row, avoiding grid cache."""
+        reader=VERIFICATION
+        recovery=render(recipe['readback']['tag_recovery'],context)
+        self.chrome.navigate(reader,context['inventory_url'],context['id'],recovery=True)
+        self.wait(reader,recovery['search'])
+        self.chrome.call(reader,{'op':'set_text','locator':recovery['search'],'value':context['title']})
+        self.wait(reader,recovery['row'])
+        row=self.chrome.call(reader,{'op':'snapshot','scope':recovery['row']})
+        ids=[re.fullmatch(r'Select item with ID (\d+)',control['name']) for control in row['controls']]
+        ids=[m.group(1) for m in ids if m]
+        if len(ids)!=1:raise Hold('AMBIGUOUS_NATIVE_POST')
+        leaf=[{'selector':"[role=row] td[aria-colindex='2'] div.x1vvvo52.x1fvot60.xh8yej3",'text':context['caption'],'within':recovery['row'][0]}]
+        self.chrome.call(reader,{'op':'click','locator':leaf})
+        self.chrome.sync_expected_navigation(reader,r'https://business\.facebook\.com/latest/insights/object_insights/\?content_id='+ids[0]+r'&nav_ref=bizweb_published_posts_table')
+        anchor=[{'selector':'a[href]','name':'View Post on '+context['platform'].title()}]
+        self.wait(reader,anchor)
+        snap=self.chrome.call(reader,{'op':'snapshot','scope':anchor})
+        links=snap.get('links',[])
+        # A scoped anchor is not included among its own descendants.
+        if not links:
+            snap=self.chrome.call(reader,{'op':'snapshot','fullDocument':True})
+            links=[link for link in snap.get('links',[]) if link['text']=='View Post on '+context['platform'].title()]
+        if len(links)!=1:raise Hold('AMBIGUOUS_NATIVE_POST')
+        url=self.canonical_native_url(context['platform'],self.unwrap_link(links[0]['href']))
+        self.native_url(context['profile_id'],url,recipe)
+        return url
 
     def prepare(self, job):
         c = self.context(job)
         name = c['profile_id']
         recipe = self.settings.workflow(self.settings.profile(name))
+        if self.settings.policy.get('require_meta_product_tags') and c['platform'] in {'facebook', 'instagram'} and not c.get('product_tag'):
+            raise Hold('PRODUCT_TAG_REQUIRED', 'The retained delivery has no Commerce product association; repair its manifest before publishing')
+        if c.get('product_tag') and (not any(g.get('purpose') == 'tag' and g.get('when') == 'product_tag' for g in recipe['ready']) or not recipe['readback'].get('tag_checks')):
+            raise Hold('PRODUCT_TAG_UNSUPPORTED', 'Selected-tag and native-tag readbacks are both required before this adapter can publish a shopping post')
         self.chrome.bound(VERIFICATION, mutation=True)  # required before any possible submission
         binding = self.chrome.begin(name, job['id'], c['compose_url'])
         steps = list(self.enabled_steps(recipe.get('prepare', []), c))
@@ -79,8 +253,17 @@ class Workflow:
             if op == 'wait':
                 self.wait(name, step['locator'])
             elif op == 'upload':
-                self.chrome.upload(name, c, step['locator'])
-            elif op in {'set_text', 'set_checked', 'click', 'assert'}:
+                upload_guards = [g for g in self.guards(recipe, c) if g.get('purpose') in {'account', 'destination', 'audience', 'story', 'boost', 'schedule'}]
+                self.chrome.upload(name, c, step['locator'], method=step.get('method', 'input'),
+                                   preview=step.get('preview'), guards=upload_guards)
+            elif op == 'set_checked':
+                self.set_checked(name, step['locator'], step['value'], confirmation=step.get('confirmation'))
+            elif op == 'photo_alt':
+                result = self.photo_alt(name, step)
+                atomic_json(self.directory / 'evidence' / (job['id'] + '-alt.json'), {'utc': utc(), 'job_id': job['id'], **result})
+            elif op == 'product_tag':
+                self.product_tag(name, c, step)
+            elif op in {'set_text', 'click', 'assert', 'prepare_upload'}:
                 args = {k: v for k, v in step.items() if k not in {'unless', 'dirty', 'if_exists'}}
                 self.chrome.call(name, args)
             else:
@@ -91,6 +274,9 @@ class Workflow:
         ready = self.chrome.call(name, request)
         atomic_json(self.directory / 'evidence' / (job['id'] + '-ready.json'), {'utc': utc(), 'job_id': job['id'], 'ready': ready})
         return ready
+
+    def close(self):
+        self.chrome.close()
 
     def submit(self, job):
         c = self.context(job)
@@ -104,8 +290,15 @@ class Workflow:
     @staticmethod
     def unwrap_link(url):
         u = urlparse(url)
+        if u.scheme == 'https' and u.hostname in {'www.linkedin.com', 'linkedin.com'} and u.path == '/safety/go/':
+            return parse_qs(u.query).get('url', [url])[0]
         if u.hostname in {'l.facebook.com', 'lm.facebook.com', 'l.instagram.com'}:
-            return parse_qs(u.query).get('u', [url])[0]
+            destination = parse_qs(u.query).get('u', [url])[0]
+            parsed = urlparse(destination)
+            # Meta appends its click ID to the authored destination. Preserve
+            # every authored path and campaign parameter when comparing it.
+            query = [(k, v) for k, v in parse_qsl(parsed.query, keep_blank_values=True) if k != 'fbclid']
+            return urlunparse(parsed._replace(query=urlencode(query)))
         return url
 
     def purchase_links(self, job, links):
@@ -147,6 +340,30 @@ class Workflow:
         if not re.fullmatch(recipe['native_url_pattern'], url):
             raise Hold('NATIVE_PERMALINK_INVALID', url)
 
+    @staticmethod
+    def canonical_native_url(platform, url):
+        if platform == 'facebook' and url.startswith('https://facebook.com/'):
+            return 'https://www.facebook.com/' + url[len('https://facebook.com/'):]
+        return url
+
+    def finish_composer(self, name, recipe, context, timeout=30):
+        deadline = time.monotonic() + timeout
+        while True:
+            self.chrome.sync_after_submit(name)
+            self.chrome.call(name, {'op': 'claim'})
+            for step in render(recipe.get('cleanup', []), context):
+                if self.chrome.call(name, {'op': 'exists', 'locator': step['locator']})['exists']:
+                    self.chrome.call(name, step)
+                    self.chrome.sync_after_submit(name)
+                    self.chrome.call(name, {'op': 'claim'})
+            clean = self.chrome.call(name, {'op': 'clean_state', **render(recipe['clean_state'], context)})
+            if clean['clean']:
+                self.chrome.checkpoint(name, 0, dirty=False)
+                return True
+            if time.monotonic() >= deadline:
+                return False
+            time.sleep(0.5)
+
     def verify(self, job, native_url=None):
         c = self.context(job)
         name = c['profile_id']
@@ -154,6 +371,16 @@ class Workflow:
         composer = self.chrome.sync_after_submit(name)
         reader = VERIFICATION
         b, _ = self.chrome.bound(reader)
+        if native_url is None and c['platform']=='linkedin':
+            # LinkedIn's current success notification exposes its native link
+            # outside alert/status roles. The generic feed can lag behind it.
+            anchor=[{'selector':'a[href]','name':'View post'}]
+            try:
+                native_url=self.wait_for_post_link(name,anchor,recipe['native_url_pattern'])
+            except Hold as error:
+                if error.code!='CONTROL_MISSING':raise
+        if native_url is None and c['platform']=='instagram' and c.get('product_tag') and recipe['readback'].get('tag_recovery'):
+            native_url=self.meta_permalink(c,recipe)
         if native_url is None:
             if re.fullmatch(recipe['native_url_pattern'], composer['url']):
                 native_url = composer['url']
@@ -166,16 +393,21 @@ class Workflow:
                     self.settings.check_url(self.settings.profile(name), recovery.get('url', c['inventory_url']))
                     self.chrome.navigate(reader, recovery.get('url', c['inventory_url']), job['id'], recovery=True)
                     for step in recovery.get('steps', []):
+                        navigation_pattern = step.get('navigation_pattern')
+                        step = {k: v for k, v in step.items() if k != 'navigation_pattern'}
                         if step['op'] == 'wait':
                             self.wait(reader, step['locator'])
                         elif step['op'] in {'set_text', 'click', 'assert'}:
                             self.chrome.call(reader, step)
                         else:
                             raise Hold('RECOVERY_OPERATION_INVALID')
+                        if navigation_pattern:
+                            self.chrome.sync_expected_navigation(reader, navigation_pattern)
                     result = self.chrome.call(reader, {'op': 'discover', 'pattern': recipe['native_url_pattern'], **recovery['discover']})
                     native_url = result['url']
         if not native_url:
             raise Hold('NATIVE_POST_NOT_FOUND', 'Inspect the platform’s Published inventory and run reconcile with its exact native URL')
+        native_url = self.canonical_native_url(c['platform'], native_url)
         self.native_url(name, native_url, recipe)
         if b['url'] != native_url:
             self.chrome.navigate(reader, native_url, job['id'], recovery=True)
@@ -195,23 +427,20 @@ class Workflow:
                 time.sleep(0.3)
         links = self.purchase_links(job, evidence['links'])
         if c.get('product_tag'):
-            for locator in spec.get('tag_expand', []):
-                if self.chrome.call(reader, {'op': 'exists', 'locator': locator})['exists']:
-                    self.chrome.call(reader, {'op': 'click', 'locator': locator})
-            checks = recipe['readback'].get('tag_checks')
-            if not checks:
-                raise Hold('NATIVE_PRODUCT_TAG_CHECK_MISSING')
-            evidence['product_tag_readback'] = self.chrome.call(reader, {'op': 'assert', 'checks': render(checks, c)})
+            if spec.get('tag_recovery'):
+                evidence['product_tag_readback']=self.verify_product_tag(c,recipe)
+            else:
+                for locator in spec.get('tag_expand', []):
+                    if self.chrome.call(reader, {'op': 'exists', 'locator': locator})['exists']:
+                        self.chrome.call(reader, {'op': 'click', 'locator': locator})
+                checks = recipe['readback'].get('tag_checks')
+                if not checks:
+                    raise Hold('NATIVE_PRODUCT_TAG_CHECK_MISSING')
+                evidence['product_tag_readback'] = self.chrome.call(reader, {'op': 'assert', 'checks': render(checks, c)})
         # A stale composer is never navigated away from. That could trigger a
         # browser-wide beforeunload dialog even from a background tab.
         try:
-            for step in render(recipe.get('cleanup', []), c):
-                if self.chrome.call(name, {'op': 'exists', 'locator': step['locator']})['exists']:
-                    self.chrome.call(name, step)
-            clean = self.chrome.call(name, {'op': 'clean_state', **render(recipe['clean_state'], c)})
-            if clean['clean']:
-                self.chrome.checkpoint(name, 0, dirty=False)
-            else:
+            if not self.finish_composer(name, recipe, c):
                 evidence['composer_warning'] = 'Native post verified; stale composer retained for inspection'
         except Hold as error:
             evidence['composer_warning'] = str(error)
@@ -221,5 +450,6 @@ class Workflow:
         self.chrome.checkpoint(reader, 0, dirty=False)
         return {'native_url': native_url, 'caption_verified': True, 'author_verified': True, 'photo_verified': True,
                 'media_sha256': c['media_sha256'], 'purchase_links': links, 'verified_utc': utc(),
+                **({'product_tag_verified':True,'product_tag_readback':evidence['product_tag_readback']} if c.get('product_tag') else {}),
                 'evidence_path': str(evidence_path.resolve()), 'evidence_sha256': digest(evidence_path.read_bytes())}
 

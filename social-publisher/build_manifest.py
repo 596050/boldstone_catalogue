@@ -37,7 +37,10 @@ def build(source, output, batch_id, authorized=False):
             if platform not in by_platform:
                 raise Hold('UNKNOWN_PLATFORM', platform)
             target = {'caption': caption}
-            if platform == 'instagram' and 'product tag' in caption.lower():
+            wants_tag = platform in {'facebook', 'instagram'} and (
+                settings.policy.get('require_meta_product_tags') or 'product tag' in caption.lower() or
+                p.get('native_commerce_title') or p.get('native_commerce_price_text'))
+            if wants_tag:
                 if not p.get('native_commerce_title') or not p.get('native_commerce_price_text'):
                     raise Hold('NATIVE_TAG_DETAILS_REQUIRED', 'Provide native_commerce_title and native_commerce_price_text from the actual Commerce picker')
                 target['product_tag'] = {'name': p['native_commerce_title'], 'price_text': p['native_commerce_price_text']}

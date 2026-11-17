@@ -31,9 +31,13 @@ on inventory()
     set windowRows to current application's NSMutableArray's array()
     tell application "Google Chrome"
         set chromeVersion to version
-        repeat with browserWindow in windows
+        set windowIDs to id of every window
+        repeat with windowID in windowIDs
+            set browserWindow to window id (windowID as integer)
             set tabRows to current application's NSMutableArray's array()
-            repeat with browserTab in tabs of browserWindow
+            set tabIDs to id of every tab of browserWindow
+            repeat with tabID in tabIDs
+                set browserTab to tab id (tabID as integer) of browserWindow
                 set tabRow to my jsonObject({"tab_id", "url", "title", "loading"}, {(id of browserTab), (URL of browserTab), (title of browserTab), (loading of browserTab)})
                 tabRows's addObject:tabRow
             end repeat
@@ -44,11 +48,34 @@ on inventory()
     return my jsonText(my jsonObject({"chrome_running", "chrome_version", "frontmost", "windows"}, {true, chromeVersion, frontBundle, windowRows}))
 end inventory
 
+on tabState(wantedWindow, wantedTab)
+    set frontBundle to my foregroundBundle()
+    if application id "com.google.Chrome" is not running then error "CHROME_NOT_RUNNING"
+    set windowRows to current application's NSMutableArray's array()
+    tell application "Google Chrome"
+        set windowIDs to id of every window
+        repeat with windowID in windowIDs
+            set browserWindow to window id (windowID as integer)
+            set tabRows to current application's NSMutableArray's array()
+            if ((id of browserWindow) as integer) is wantedWindow then
+                set browserTab to tab id wantedTab of browserWindow
+                tabRows's addObject:(my jsonObject({"tab_id", "url", "loading"}, {(id of browserTab), (URL of browserTab), (loading of browserTab)}))
+            end if
+            windowRows's addObject:(my jsonObject({"window_id", "active_tab_id", "mode", "tabs"}, {(id of browserWindow), (id of active tab of browserWindow), (mode of browserWindow), tabRows}))
+        end repeat
+    end tell
+    return my jsonText(my jsonObject({"chrome_running", "frontmost", "windows"}, {true, frontBundle, windowRows}))
+end tabState
+
 on run argv
-    if (count of argv) is 0 then error "Expected inventory, inspect, execute or navigate"
+    if (count of argv) is 0 then error "Expected inventory, tab-state, inspect or execute"
     set operationName to item 1 of argv
     with timeout of 5 seconds
         if operationName is "inventory" then return my inventory()
+        if operationName is "tab-state" then
+            if (count of argv) is not 3 then error "Expected tab-state, window ID and tab ID"
+            return my tabState((item 2 of argv) as integer, (item 3 of argv) as integer)
+        end if
         if (count of argv) is not 5 then error "Expected operation, window ID, tab ID, expected URL and payload path/URL"
         if application id "com.google.Chrome" is not running then error "CHROME_NOT_RUNNING"
         set wantedWindow to (item 2 of argv) as integer
@@ -62,11 +89,7 @@ on run argv
             set selectedTab to tab id wantedTab of selectedWindow
             if URL of selectedTab is not expectedURL then error "TAB_NAVIGATED_EXTERNALLY"
             if operationName is not "inspect" then
-                if frontBundle is "com.google.Chrome" and id of front window is wantedWindow and id of active tab of selectedWindow is wantedTab then error "FOREGROUND_TAB_PAUSED"
-            end if
-            if operationName is "navigate" then
-                set URL of selectedTab to payloadArgument
-                return "NAVIGATION_REQUESTED"
+                if frontBundle is "com.google.Chrome" and ((id of front window) as integer) is wantedWindow and ((id of active tab of selectedWindow) as integer) is wantedTab then error "FOREGROUND_TAB_PAUSED"
             end if
             if operationName is not "inspect" and operationName is not "execute" then error "UNSUPPORTED_OPERATION"
             set javascriptText to read (POSIX file payloadArgument) as «class utf8»

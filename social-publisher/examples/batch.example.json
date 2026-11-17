@@ -13,10 +13,18 @@
       "alt_text": "Describe the actual sculpture and photograph.",
       "targets": {
         "boldstone_facebook": {
-          "caption": "The complete reviewed Facebook caption, with its purchase URL."
+          "caption": "The complete reviewed Facebook caption, with its purchase URL.",
+          "product_tag": {
+            "name": "REPLACE-WITH-EXACT-COMMERCE-PRODUCT-NAME",
+            "price_text": "REPLACE-WITH-EXACT-COMMERCE-PRICE"
+          }
         },
         "boldstone_instagram": {
-          "caption": "The complete reviewed Instagram caption."
+          "caption": "The complete reviewed Instagram caption.",
+          "product_tag": {
+            "name": "REPLACE-WITH-EXACT-COMMERCE-PRODUCT-NAME",
+            "price_text": "REPLACE-WITH-EXACT-COMMERCE-PRICE"
+          }
         },
         "sally_linkedin": {
           "caption": "The complete reviewed LinkedIn caption, with its purchase URL."

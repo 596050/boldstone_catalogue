@@ -1,41 +1,404 @@
 {
   "schema_version": 1,
-  "description": "One original photograph on the configured personal LinkedIn account. Exact labels may be calibrated from inspect; ambiguous controls hold the job.",
+  "description": "LinkedIn photo posts through the signed-in Sally Price account. Uses the visible media drop area without a picker, then verifies the image, exact alt text, full caption and audience before the one guarded Post action.",
   "prepare": [
-    {"op":"wait","locator":[{"selector":"[role=dialog] [role=textbox][contenteditable=true]"},{"selector":"[data-placeholder='What do you want to talk about?']"}]},
-    {"op":"set_text","locator":[{"selector":"[role=dialog] [role=textbox][contenteditable=true]"},{"selector":"[data-placeholder='What do you want to talk about?']"}],"value":"$caption"},
-    {"op":"upload","locator":[{"selector":"input[type=file][accept*='image']","hidden":true}]},
-    {"op":"wait","locator":[{"selector":"[role=dialog] button","name":"Alternative text"},{"selector":"[role=dialog] button","name":"Alt text"}]},
-    {"op":"click","locator":[{"selector":"[role=dialog] button","name":"Alternative text"},{"selector":"[role=dialog] button","name":"Alt text"}],"unless":[{"selector":"[role=dialog] textarea","name":"Alternative text"},{"selector":"[role=dialog] textarea","name":"Alt text"}]},
-    {"op":"set_text","locator":[{"selector":"[role=dialog] textarea","name":"Alternative text"},{"selector":"[role=dialog] textarea","name":"Alt text"}],"value":"$alt_text"},
-    {"op":"assert","checks":[{"locator":[{"selector":"[role=dialog] textarea","name":"Alternative text"},{"selector":"[role=dialog] textarea","name":"Alt text"}],"text":"$alt_text"}]},
-    {"op":"click","locator":[{"selector":"[role=dialog] button","name":"Add"},{"selector":"[role=dialog] button","name":"Save"}]},
-    {"op":"click","locator":[{"selector":"[role=dialog] button","name":"Next"}]} 
+    {
+      "op": "click",
+      "locator": [
+        {
+          "selector": "[role=button]",
+          "name": "Start a post"
+        }
+      ],
+      "unless": [
+        {
+          "selector": ":is(dialog[open],[role=dialog]) [role=textbox][contenteditable=true]"
+        },
+        {
+          "selector": "[data-placeholder='What do you want to talk about?']"
+        }
+      ]
+    },
+    {
+      "op": "wait",
+      "locator": [
+        {
+          "selector": ":is(dialog[open],[role=dialog]) [role=textbox][contenteditable=true]"
+        },
+        {
+          "selector": "[data-placeholder='What do you want to talk about?']"
+        }
+      ]
+    },
+    {
+      "op": "click",
+      "locator": [
+        {
+          "selector": "dialog[open] button",
+          "name": "Media"
+        }
+      ],
+      "unless": [
+        {
+          "selector": "dialog[open]",
+          "contains": "Editor"
+        },
+        {
+          "selector": "dialog[open][aria-labelledby=dialog-header] img[src^=\"blob:\"]"
+        }
+      ]
+    },
+    {
+      "op": "wait",
+      "locator": [
+        {
+          "selector": "dialog[open] div:has(>h2)",
+          "contains": "Select files to begin"
+        }
+      ],
+      "unless": [
+        {
+          "selector": "dialog[open] img[alt=\"Image Preview\"]"
+        },
+        {
+          "selector": "dialog[open][aria-labelledby=dialog-header] img[src^=\"blob:\"]"
+        }
+      ]
+    },
+    {
+      "op": "upload",
+      "method": "drop",
+      "locator": [
+        {
+          "selector": "dialog[open] div:has(>h2)",
+          "contains": "Select files to begin"
+        }
+      ],
+      "preview": [
+        {
+          "selector": "dialog[open] img[alt=\"Image Preview\"]"
+        }
+      ],
+      "unless": [
+        {
+          "selector": "dialog[open] img[alt=\"Image Preview\"]"
+        },
+        {
+          "selector": "dialog[open][aria-labelledby=dialog-header] img[src^=\"blob:\"]"
+        }
+      ]
+    },
+    {
+      "op": "wait",
+      "locator": [
+        {
+          "selector": "dialog[open] img[alt=\"Image Preview\"]"
+        }
+      ],
+      "unless": [
+        {
+          "selector": "dialog[open][aria-labelledby=dialog-header] img[src^=\"blob:\"]"
+        }
+      ]
+    },
+    {
+      "op": "click",
+      "locator": [
+        {
+          "selector": "dialog[open] button",
+          "name": "Alternative text",
+          "within": {
+            "selector": "dialog[open]",
+            "contains": "Editor"
+          }
+        }
+      ],
+      "unless": [
+        {
+          "selector": "dialog[open] textarea",
+          "name": "How would you describe this image?"
+        },
+        {
+          "selector": "dialog[open][aria-labelledby=dialog-header] img[src^=\"blob:\"]"
+        }
+      ]
+    },
+    {
+      "op": "set_text",
+      "locator": [
+        {
+          "selector": "dialog[open] textarea",
+          "name": "How would you describe this image?"
+        }
+      ],
+      "value": "$alt_text",
+      "unless": [
+        {
+          "selector": "dialog[open][aria-labelledby=dialog-header] img[src^=\"blob:\"]"
+        }
+      ]
+    },
+    {
+      "op": "assert",
+      "checks": [
+        {
+          "locator": [
+            {
+              "selector": "dialog[open] textarea",
+              "name": "How would you describe this image?"
+            }
+          ],
+          "text": "$alt_text"
+        }
+      ],
+      "unless": [
+        {
+          "selector": "dialog[open][aria-labelledby=dialog-header] img[src^=\"blob:\"]"
+        }
+      ]
+    },
+    {
+      "op": "click",
+      "locator": [
+        {
+          "selector": "dialog[open] button",
+          "name": "Add",
+          "within": {
+            "selector": "dialog[open]",
+            "contains": "Add alt text"
+          }
+        }
+      ],
+      "unless": [
+        {
+          "selector": "dialog[open][aria-labelledby=dialog-header] img[src^=\"blob:\"]"
+        }
+      ]
+    },
+    {
+      "op": "click",
+      "locator": [
+        {
+          "selector": "dialog[open] button",
+          "name": "Next",
+          "within": {
+            "selector": "dialog[open]",
+            "contains": "Editor"
+          }
+        }
+      ],
+      "unless": [
+        {
+          "selector": "dialog[open][aria-labelledby=dialog-header] img[src^=\"blob:\"]"
+        }
+      ]
+    },
+    {
+      "op": "set_text",
+      "locator": [
+        {
+          "selector": "dialog[open][aria-labelledby=dialog-header] [role=textbox][contenteditable=true]"
+        }
+      ],
+      "value": "$caption",
+      "method": "paste"
+    }
   ],
   "ready": [
-    {"purpose":"account","locator":[{"selector":"[role=dialog] button","contains":["$account_name","Post to Anyone"]},{"selector":"[role=dialog] button","name":"$actor_control_label"}]},
-    {"purpose":"caption","locator":[{"selector":"[role=dialog] [role=textbox][contenteditable=true]"},{"selector":"[data-placeholder='What do you want to talk about?']"}],"text":"$caption"},
-    {"purpose":"photo","locator":[{"selector":"[role=dialog] img[src^='blob:']"},{"selector":"[role=dialog] img.share-creation-state__image"}],"image":true}
+    {
+      "purpose": "account",
+      "locator": [
+        {
+          "selector": ":is(dialog[open],[role=dialog]) [role=button]",
+          "name": "$account_name"
+        },
+        {
+          "selector": ":is(dialog[open],[role=dialog]) button",
+          "name": "$account_name"
+        }
+      ]
+    },
+    {
+      "purpose": "audience",
+      "locator": [
+        {
+          "selector": ":is(dialog[open],[role=dialog]) [role=button]",
+          "name": "$audience_control_label"
+        },
+        {
+          "selector": ":is(dialog[open],[role=dialog]) button",
+          "name": "$audience_control_label"
+        }
+      ]
+    },
+    {
+      "purpose": "caption",
+      "locator": [
+        {
+          "selector": ":is(dialog[open],[role=dialog]) [role=textbox][contenteditable=true]"
+        },
+        {
+          "selector": "[data-placeholder='What do you want to talk about?']"
+        }
+      ],
+      "text": "$caption"
+    },
+    {
+      "purpose": "photo",
+      "locator": [
+        {
+          "selector": "dialog[open][aria-labelledby=dialog-header] img[src^=\"blob:\"]"
+        }
+      ],
+      "image": true,
+      "alt_text": "$alt_text"
+    }
   ],
-  "submit": [{"selector":"[role=dialog] button","name":"Post"}],
-  "cleanup":[{"op":"click","locator":[{"selector":"[role=dialog] button","name":"Done","within":{"selector":"[role=dialog]","contains":"Post successful"}}]}],
-  "clean_state":{
-    "caption":[{"selector":"[role=dialog] [role=textbox][contenteditable=true]"},{"selector":"[data-placeholder='What do you want to talk about?']"}],
-    "preview":[{"selector":"[role=dialog] img[src^='blob:']"},{"selector":"[role=dialog] img.share-creation-state__image"}]
+  "submit": [
+    {
+      "selector": ":is(dialog[open],[role=dialog]) button",
+      "name": "Post"
+    }
+  ],
+  "cleanup": [
+    {
+      "op": "click",
+      "locator": [
+        {
+          "selector": ":is(dialog[open],[role=dialog]) button",
+          "name": "Done",
+          "within": {
+            "selector": ":is(dialog[open],[role=dialog])",
+            "contains": "Post successful"
+          }
+        }
+      ]
+    }
+  ],
+  "clean_state": {
+    "caption": [
+      {
+        "selector": ":is(dialog[open],[role=dialog]) [role=textbox][contenteditable=true]"
+      },
+      {
+        "selector": "[data-placeholder='What do you want to talk about?']"
+      }
+    ],
+    "preview": [
+      {
+        "selector": "dialog[open][aria-labelledby=dialog-header] img[src^=\"blob:\"]"
+      }
+    ]
   },
   "native_url_pattern": "https://(?:www\\.)?linkedin\\.com/feed/update/urn:li:activity:[0-9]+/?(?:\\?[^#]*)?",
-  "discover": {"roots":[{"selector":"[role=alert]"},{"selector":"[role=status]"}]},
-  "recovery":{
-    "url":"$inventory_url",
-    "steps":[{"op":"wait","locator":[{"selector":"article","contains":"$title"},{"selector":".feed-shared-update-v2","contains":"$title"}]}],
-    "discover":{"roots":[{"selector":"article","contains":"$title"},{"selector":".feed-shared-update-v2","contains":"$title"}]}
+  "discover": {
+    "roots": [
+      {
+        "selector": "[role=alert]"
+      },
+      {
+        "selector": "[role=status]"
+      },
+      {
+        "selector": "[role=listitem][componentkey^='update-card-']",
+        "contains": "$title"
+      },
+      {
+        "selector": "[role=listitem][componentkey^='update-card-']",
+        "contains": "$title"
+      }
+    ]
+  },
+  "recovery": {
+    "url": "$inventory_url",
+    "steps": [
+      {
+        "op": "wait",
+        "locator": [
+          {
+            "selector": "[role=listitem][componentkey^='update-card-']",
+            "contains": "$title"
+          },
+          {
+            "selector": "[role=listitem][componentkey^='update-card-']",
+            "contains": "$title"
+          },
+          {
+            "selector": "article",
+            "contains": "$title"
+          },
+          {
+            "selector": ".feed-shared-update-v2",
+            "contains": "$title"
+          }
+        ]
+      }
+    ],
+    "discover": {
+      "roots": [
+        {
+          "selector": "[role=listitem][componentkey^='update-card-']",
+          "contains": "$title"
+        },
+        {
+          "selector": "[role=listitem][componentkey^='update-card-']",
+          "contains": "$title"
+        },
+        {
+          "selector": "article",
+          "contains": "$title"
+        },
+        {
+          "selector": ".feed-shared-update-v2",
+          "contains": "$title"
+        }
+      ]
+    }
   },
   "readback": {
-    "root":[{"selector":"article","contains":"$title"},{"selector":"[data-view-name='feed-full-update']","contains":"$title"},{"selector":".feed-shared-update-v2","contains":"$title"}],
-    "author":[{"selector":".update-components-actor__name span[aria-hidden=true]","name":"$account_name"},{"selector":".update-components-actor__name","name":"$account_name"},{"selector":"header a[href*='/in/'] span","name":"$account_name"}],
-    "caption_selectors":[".update-components-text", ".feed-shared-update-v2__description", "[data-view-name='feed-commentary']"],
-    "photo_selector":".update-components-image img, img.feed-shared-image__image, [data-view-name='feed-image'] img",
-    "expand":[[{"selector":"button","name":"…more"},{"selector":"button","name":"see more"},{"selector":"button","name":"…see more"}]]
+    "root": [
+      {
+        "selector": "[role=listitem][componentkey^='update-card-']",
+        "contains": "$title"
+      },
+      {
+        "selector": "article",
+        "contains": "$title"
+      },
+      {
+        "selector": "[data-view-name='feed-full-update']",
+        "contains": "$title"
+      },
+      {
+        "selector": ".feed-shared-update-v2",
+        "contains": "$title"
+      }
+    ],
+    "author": [
+      {
+        "selector": ":scope > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1)",
+        "name": "$account_name"
+      },
+      {
+        "selector": ".update-components-actor__name span[aria-hidden=true]",
+        "name": "$account_name"
+      },
+      {
+        "selector": ".update-components-actor__name",
+        "name": "$account_name"
+      },
+      {
+        "selector": "header a[href*='/in/'] span",
+        "name": "$account_name"
+      }
+    ],
+    "caption_selectors": [
+      "[data-testid='expandable-text-box']",
+      ".update-components-text",
+      ".feed-shared-update-v2__description",
+      "[data-view-name='feed-commentary']"
+    ],
+    "photo_selector": "a[href*='/feed/update/urn:li:activity:'] > figure > img, .update-components-image img, img.feed-shared-image__image, [data-view-name='feed-image'] img",
+    "expand": []
   }
 }
-

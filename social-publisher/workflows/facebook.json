@@ -1,48 +1,713 @@
 {
   "schema_version": 1,
-  "description": "A Facebook-only Meta Business Suite post. The Instagram destination must be unselected. Never uses the OS file picker or enables a paid boost.",
+  "description": "One independently tracked facebook post through Meta Business Suite. The exact destination, disabled scheduling/story/boost, complete caption, image and native readback are checked. Photo upload requires the reviewed Chrome helper.",
   "prepare": [
-    {"op":"wait","locator":[{"selector":"[role=checkbox]","contains":"$account_name"},{"selector":"label","contains":"$account_name"}]},
-    {"op":"set_checked","locator":[{"selector":"[role=checkbox]","contains":"$account_name"},{"selector":"label","contains":"$account_name"}],"value":true},
-    {"op":"set_checked","locator":[{"selector":"[role=checkbox]","contains":"$other_account_name"},{"selector":"label","contains":"$other_account_name"}],"value":false},
-    {"op":"upload","locator":[{"selector":"input[type=file][accept*='image']","hidden":true}]},
-    {"op":"set_text","locator":[{"selector":"[contenteditable=true][role=textbox]","name":"Write in the dialogue box to include text with your post."},{"selector":"[contenteditable=true][data-lexical-editor=true]"}],"value":"$caption"},
-    {"op":"click","locator":[{"selector":"[role=button]","name":"Edit photo"},{"selector":"button","name":"Edit photo"}]},
-    {"op":"click","locator":[{"selector":"[role=tab]","name":"Alt text"},{"selector":"[role=button]","name":"Alternative text"}]},
-    {"op":"set_text","locator":[{"selector":"[role=dialog] textarea","name":"Alt text"},{"selector":"[role=dialog] textarea","name":"Alternative text"}],"value":"$alt_text"},
-    {"op":"assert","checks":[{"locator":[{"selector":"[role=dialog] textarea","name":"Alt text"},{"selector":"[role=dialog] textarea","name":"Alternative text"}],"text":"$alt_text"}]},
-    {"op":"click","locator":[{"selector":"[role=dialog] [role=button]","name":"Save"},{"selector":"[role=dialog] button","name":"Save"}]}
+    {
+      "op": "wait",
+      "locator": [
+        {
+          "selector": "[role=combobox][aria-haspopup=listbox]"
+        }
+      ]
+    },
+    {
+      "op": "click",
+      "locator": [
+        {
+          "selector": "[role=combobox][aria-haspopup=listbox]"
+        }
+      ],
+      "unless": [
+        {
+          "selector": "[role=combobox][aria-haspopup=listbox][aria-expanded=true]"
+        }
+      ]
+    },
+    {
+      "op": "assert",
+      "checks": [
+        {
+          "locator": [
+            {
+              "selector": "[role=combobox][aria-haspopup=listbox][aria-expanded=true]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "op": "set_checked",
+      "locator": [
+        {
+          "selector": "[role=option]",
+          "name": "$account_name"
+        }
+      ],
+      "value": true
+    },
+    {
+      "op": "set_checked",
+      "locator": [
+        {
+          "selector": "[role=option]",
+          "name": "$other_account_name"
+        }
+      ],
+      "value": false
+    },
+    {
+      "op": "click",
+      "locator": [
+        {
+          "selector": "[role=combobox][aria-haspopup=listbox]"
+        }
+      ],
+      "unless": [
+        {
+          "selector": "[role=combobox][aria-haspopup=listbox][aria-expanded=false]"
+        }
+      ]
+    },
+    {
+      "op": "set_checked",
+      "locator": [
+        {
+          "selector": "input[type=checkbox]",
+          "name": "Make this an ad post"
+        }
+      ],
+      "value": false,
+      "if_exists": false
+    },
+    {
+      "op": "set_checked",
+      "locator": [
+        {
+          "selector": "input[type=checkbox]",
+          "name": "Set date and time"
+        }
+      ],
+      "value": false
+    },
+    {
+      "op": "set_checked",
+      "locator": [
+        {
+          "selector": "input[type=checkbox]",
+          "name": "Boost"
+        }
+      ],
+      "value": false,
+      "if_exists": true
+    },
+    {
+      "op": "set_checked",
+      "locator": [
+        {
+          "selector": "input[type=checkbox]",
+          "name": "Share to Facebook story"
+        }
+      ],
+      "value": false,
+      "confirmation": {
+        "root": [
+          {
+            "selector": "[role=dialog]",
+            "contains": "Stop sharing to Facebook story",
+            "painted": true
+          }
+        ],
+        "checks": [
+          {
+            "locator": [
+              {
+                "selector": "[role=dialog] input[type=radio]",
+                "name": "Don't share this post",
+                "within": {
+                  "selector": "[role=dialog]",
+                  "contains": "Stop sharing to Facebook story"
+                }
+              }
+            ],
+            "checked": true
+          },
+          {
+            "locator": [
+              {
+                "selector": "[role=dialog] input[type=radio]",
+                "name": "Stop sharing all posts",
+                "within": {
+                  "selector": "[role=dialog]",
+                  "contains": "Stop sharing to Facebook story"
+                }
+              }
+            ],
+            "checked": false
+          }
+        ],
+        "confirm": [
+          {
+            "selector": "[role=dialog] [role=button]",
+            "name": "Confirm",
+            "within": {
+              "selector": "[role=dialog]",
+              "contains": "Stop sharing to Facebook story"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "op": "set_text",
+      "locator": [
+        {
+          "selector": "[contenteditable=true][role=combobox]",
+          "name": "Write in the dialogue box to include text with your post."
+        }
+      ],
+      "value": "$caption",
+      "method": "paste"
+    },
+    {
+      "op": "upload",
+      "method": "helper",
+      "locator": [
+        {
+          "selector": "[role=button]",
+          "name": "Add photo/video"
+        }
+      ],
+      "preview": [
+        {
+          "selector": "img[data-imgperflogname='feedImage']"
+        }
+      ]
+    },
+    {
+      "op": "photo_alt",
+      "value": "$alt_text",
+      "panel": [
+        {
+          "selector": "[role=dialog]",
+          "contains": "Creative tools",
+          "painted": true
+        }
+      ],
+      "open": [
+        {
+          "selector": "[role=button]",
+          "name": "Edit photo"
+        }
+      ],
+      "tab": [
+        {
+          "selector": "[role=dialog] [role=button]",
+          "name": "Alt text",
+          "within": {
+            "selector": "[role=dialog]",
+            "contains": "Creative tools"
+          }
+        }
+      ],
+      "field": [
+        {
+          "selector": "[role=dialog] textarea",
+          "name": "Enter alt text that describes what's in your photo for people using screen readers.",
+          "within": {
+            "selector": "[role=dialog]",
+            "contains": "Creative tools"
+          }
+        }
+      ],
+      "apply": [
+        {
+          "selector": "[role=dialog] [role=button]",
+          "name": "Apply",
+          "within": {
+            "selector": "[role=dialog]",
+            "contains": "Creative tools"
+          }
+        }
+      ],
+      "cancel": [
+        {
+          "selector": "[role=dialog] [role=button]",
+          "name": "Cancel",
+          "within": {
+            "selector": "[role=dialog]",
+            "contains": "Creative tools"
+          }
+        }
+      ]
+    },
+    {
+      "when": "product_tag",
+      "op": "product_tag",
+      "panel": [
+        {
+          "selector": "[role=dialog]",
+          "contains": "Product tags that you add",
+          "painted": true
+        }
+      ],
+      "open": [
+        {
+          "selector": "[role=button]",
+          "name": "Edit"
+        }
+      ],
+      "tab": [
+        {
+          "selector": "[role=dialog] [role=button]",
+          "name": "Tag products",
+          "within": {
+            "selector": "[role=dialog]",
+            "contains": "Product tags that you add"
+          }
+        }
+      ],
+      "photo": [
+        {
+          "selector": "[role=dialog] img._5i4g"
+        }
+      ],
+      "point_target": [
+        {
+          "selector": "[role=dialog] .x5lhr3w > button"
+        }
+      ],
+      "search": [
+        {
+          "selector": "input[role=combobox]",
+          "name": "Which product or collection would you like to tag?"
+        }
+      ],
+      "choice": [
+        {
+          "selector": "[role=option]",
+          "name": "$product_tag.name",
+          "contains": "$product_tag.price_text"
+        }
+      ],
+      "heading": [
+        {
+          "selector": "[role=dialog] span[role=heading]",
+          "name": "$product_tag.name",
+          "within": {
+            "selector": "[role=dialog]",
+            "contains": "Product tags that you add"
+          }
+        }
+      ],
+      "save": [
+        {
+          "selector": "[role=dialog] [role=button]",
+          "name": "Save",
+          "within": {
+            "selector": "[role=dialog]",
+            "contains": "Product tags that you add"
+          }
+        }
+      ],
+      "cancel": [
+        {
+          "selector": "[role=dialog] [role=button]",
+          "name": "Cancel",
+          "within": {
+            "selector": "[role=dialog]",
+            "contains": "Product tags that you add"
+          }
+        }
+      ],
+      "markers": [
+        {
+          "selector": "[role=dialog] .x5lhr3w > div"
+        }
+      ],
+      "badge": [
+        {
+          "selector": ".x135b78x > span",
+          "text": "1"
+        }
+      ]
+    }
   ],
   "ready": [
-    {"purpose":"account","locator":[{"selector":"[role=checkbox]","contains":"$account_name"},{"selector":"label","contains":"$account_name"}],"checked":true},
-    {"locator":[{"selector":"[role=checkbox]","contains":"$other_account_name"},{"selector":"label","contains":"$other_account_name"}],"checked":false},
-    {"purpose":"caption","locator":[{"selector":"[contenteditable=true][role=textbox]","name":"Write in the dialogue box to include text with your post."},{"selector":"[contenteditable=true][data-lexical-editor=true]"}],"text":"$caption"},
-    {"purpose":"photo","locator":[{"selector":"img[src^='blob:']"}],"image":true}
+    {
+      "purpose": "account",
+      "locator": [
+        {
+          "selector": "[role=combobox][aria-haspopup=listbox]"
+        }
+      ],
+      "contains": "$account_name",
+      "not_contains": "$other_account_name"
+    },
+    {
+      "purpose": "boost",
+      "locator": [
+        {
+          "selector": "input[type=checkbox]",
+          "name": "Make this an ad post"
+        }
+      ],
+      "checked": false,
+      "if_exists": false
+    },
+    {
+      "purpose": "schedule",
+      "locator": [
+        {
+          "selector": "input[type=checkbox]",
+          "name": "Set date and time"
+        }
+      ],
+      "checked": false
+    },
+    {
+      "purpose": "boost",
+      "locator": [
+        {
+          "selector": "input[type=checkbox]",
+          "name": "Boost"
+        }
+      ],
+      "checked": false,
+      "if_exists": true
+    },
+    {
+      "purpose": "story",
+      "locator": [
+        {
+          "selector": "input[type=checkbox]",
+          "name": "Share to Facebook story"
+        }
+      ],
+      "checked": false,
+      "if_exists": false
+    },
+    {
+      "purpose": "caption",
+      "locator": [
+        {
+          "selector": "[contenteditable=true][role=combobox]",
+          "name": "Write in the dialogue box to include text with your post."
+        }
+      ],
+      "text": "$caption"
+    },
+    {
+      "purpose": "photo",
+      "locator": [
+        {
+          "selector": "img[data-imgperflogname='feedImage']"
+        }
+      ],
+      "image": true
+    },
+    {
+      "when": "product_tag",
+      "purpose": "tag",
+      "locator": [
+        {
+          "selector": ".x135b78x > span",
+          "text": "1"
+        }
+      ],
+      "text": "1",
+      "tag_receipt": "$product_tag"
+    },
+    {
+      "purpose": "dialog",
+      "locator": [
+        {
+          "selector": "[role=dialog]",
+          "painted": true
+        }
+      ],
+      "absent": true
+    }
   ],
-  "submit":[{"selector":"[role=button]","name":"Publish"},{"selector":"button","name":"Publish"}],
-  "cleanup":[{"op":"click","locator":[{"selector":"[role=dialog] [role=button]","name":"Done","within":{"selector":"[role=dialog]","contains":"published"}},{"selector":"[role=dialog] button","name":"Done","within":{"selector":"[role=dialog]","contains":"published"}}]}],
-  "clean_state":{
-    "caption":[{"selector":"[contenteditable=true][role=textbox]","name":"Write in the dialogue box to include text with your post."},{"selector":"[contenteditable=true][data-lexical-editor=true]"}],
-    "preview":[{"selector":"img[src^='blob:']"}]
-  },
-  "native_url_pattern":"https://(?:www\\.)?facebook\\.com/(?:[^/?#]+/posts/[^/?#]+|permalink\\.php\\?[^#]+|photo(?:\\.php)?\\?[^#]+)/?(?:\\?[^#]*)?",
-  "discover":{"roots":[{"selector":"[role=dialog]","contains":"published"},{"selector":"[role=alert]"},{"selector":"[role=status]"}]},
-  "recovery":{
-    "url":"$inventory_url",
-    "steps":[
-      {"op":"wait","locator":[{"selector":"input[type=search]"},{"selector":"input[placeholder='Search']"}]},
-      {"op":"set_text","locator":[{"selector":"input[type=search]"},{"selector":"input[placeholder='Search']"}],"value":"$title"},
-      {"op":"wait","locator":[{"selector":"[role=row]","contains":"$title"}]},
-      {"op":"click","locator":[{"selector":"[role=row] [role=button]","name":"View insights","within":{"selector":"[role=row]","contains":"$title"}},{"selector":"[role=row] button","name":"View insights","within":{"selector":"[role=row]","contains":"$title"}}]}
+  "submit": [
+    {
+      "selector": "[role=button]",
+      "name": "Publish"
+    },
+    {
+      "selector": "button",
+      "name": "Publish"
+    }
+  ],
+  "cleanup": [
+    {
+      "op": "click",
+      "locator": [
+        {
+          "selector": "[role=dialog] [role=button]",
+          "name": "Maybe later",
+          "within": {
+            "selector": "[role=dialog]",
+            "contains": "Are there more posts that you want to publish?"
+          }
+        },
+        {
+          "selector": "[role=dialog] button",
+          "name": "Maybe later",
+          "within": {
+            "selector": "[role=dialog]",
+            "contains": "Are there more posts that you want to publish?"
+          }
+        },
+        {
+          "selector": "[role=dialog] [role=button]",
+          "name": "Maybe later",
+          "within": {
+            "selector": "[role=dialog]",
+            "contains": "Your post is published"
+          }
+        }
+      ]
+    }
+  ],
+  "clean_state": {
+    "caption": [
+      {
+        "selector": "[contenteditable=true][role=combobox]",
+        "name": "Write in the dialogue box to include text with your post."
+      }
     ],
-    "discover":{"roots":[{"selector":"[role=dialog]","contains":"$title"},{"selector":"[role=main]","contains":"$title"}]}
+    "preview": [
+      {
+        "selector": "img[data-imgperflogname='feedImage']"
+      }
+    ]
   },
-  "readback":{
-    "root":[{"selector":"[role=article]","contains":"$title"}],
-    "author":[{"selector":"h2 a, h3 a","name":"$account_name"}],
-    "caption_selectors":["[data-ad-preview='message']", "[data-ad-comet-preview='message']", "[data-ad-rendering-role='story_message']"],
-    "photo_selector":"a[href*='/photo'] img, img[data-imgperflogname='feedImage']",
-    "expand":[[{"selector":"[role=button]","name":"See more"}]]
+  "native_url_pattern": "https://(?:www\\.)?facebook\\.com/(?:[^/?#]+/posts/[^/?#]+|permalink\\.php\\?[^#]+|photo(?:\\.php)?\\?[^#]+)/?(?:\\?[^#]*)?",
+  "discover": {
+    "roots": [
+      {
+        "selector": "[role=dialog]",
+        "contains": "published"
+      },
+      {
+        "selector": "[role=alert]"
+      },
+      {
+        "selector": "[role=status]"
+      }
+    ]
+  },
+  "recovery": {
+    "url": "$inventory_url",
+    "steps": [
+      {
+        "op": "wait",
+        "locator": [
+          {
+            "selector": "input[type=text]",
+            "name": "Search by ID or caption"
+          }
+        ]
+      },
+      {
+        "op": "set_text",
+        "locator": [
+          {
+            "selector": "input[type=text]",
+            "name": "Search by ID or caption"
+          }
+        ],
+        "value": "$title"
+      },
+      {
+        "op": "wait",
+        "locator": [
+          {
+            "selector": "[role=row]",
+            "contains": [
+              "$title",
+              "$account_name"
+            ]
+          }
+        ]
+      },
+      {
+        "op": "wait",
+        "locator": [
+          {
+            "selector": "[role=row] td[aria-colindex='2'] div.x1vvvo52.x1fvot60.xh8yej3",
+            "within": {
+              "selector": "[role=row]",
+              "contains": [
+                "$title",
+                "$account_name"
+              ]
+            },
+            "text": "$caption"
+          }
+        ]
+      },
+      {
+        "op": "click",
+        "locator": [
+          {
+            "selector": "[role=row] td[aria-colindex='2'] div.x1vvvo52.x1fvot60.xh8yej3",
+            "within": {
+              "selector": "[role=row]",
+              "contains": [
+                "$title",
+                "$account_name"
+              ]
+            },
+            "text": "$caption"
+          }
+        ],
+        "navigation_pattern": "https://business\\.facebook\\.com/latest/insights/object_insights/\\?content_id=\\d+&nav_ref=bizweb_published_posts_table"
+      },
+      {
+        "op": "wait",
+        "locator": [
+          {
+            "selector": "a[href]",
+            "name": "View Post on Facebook"
+          }
+        ]
+      }
+    ],
+    "discover": {
+      "roots": [
+        {
+          "selector": "a[href]",
+          "name": "View Post on Facebook"
+        }
+      ]
+    }
+  },
+  "readback": {
+    "root": [
+      {
+        "selector": "[role=article]",
+        "contains": "$title"
+      }
+    ],
+    "author": [
+      {
+        "selector": "h2 a, h3 a",
+        "name": "$account_name"
+      }
+    ],
+    "caption_selectors": [
+      "[data-ad-preview='message']",
+      "[data-ad-comet-preview='message']",
+      "[data-ad-rendering-role='story_message']"
+    ],
+    "photo_selector": "a[href*='/photo'] img, img[data-imgperflogname='feedImage']",
+    "expand": [
+      [
+        {
+          "selector": "[role=button]",
+          "name": "See more",
+          "within": {
+            "selector": "[role=article]",
+            "contains": "$title"
+          }
+        }
+      ]
+    ],
+    "tag_checks": [
+      {
+        "locator": [
+          {
+            "selector": "[role=combobox][aria-haspopup=listbox]"
+          }
+        ],
+        "contains": "$account_name",
+        "not_contains": "$other_account_name"
+      },
+      {
+        "locator": [
+          {
+            "selector": "[contenteditable=true][role=combobox]",
+            "name": "Write in the dialogue box to include text with your post."
+          }
+        ],
+        "text": "$caption"
+      },
+      {
+        "locator": [
+          {
+            "selector": ".x135b78x > span",
+            "text": "1"
+          }
+        ],
+        "text": "1"
+      }
+    ],
+    "tag_recovery": {
+      "search": [
+        {
+          "selector": "input[type=text]",
+          "name": "Search by ID or caption"
+        }
+      ],
+      "row": [
+        {
+          "selector": "[role=row]",
+          "contains": "$caption"
+        }
+      ],
+      "menu": [
+        {
+          "selector": "[role=row] [role=button]",
+          "name": "Open Drop-down",
+          "within": {
+            "selector": "[role=row]",
+            "contains": "$caption"
+          }
+        }
+      ],
+      "manage": [
+        {
+          "selector": "[role=menu] [role=button]",
+          "name": "Manage post"
+        }
+      ],
+      "edit": [
+        {
+          "selector": "[role=menuitem]",
+          "name": "Edit Post"
+        }
+      ],
+      "edit_url_pattern": "https://business\\.facebook\\.com/latest/composer/\\?asset_id=103781478537396&business_id=2380586078685156&ir_qe_exposed=1&business_content_id={post_id}&nav_ref=internal_nav&ref=biz_tools_published_fb_posts_tab_edit_composer&context_ref=POSTS",
+      "caption": [
+        {
+          "selector": "[contenteditable=true][role=combobox]",
+          "name": "Write in the dialogue box to include text with your post."
+        }
+      ],
+      "cancel": [
+        {
+          "selector": "[role=button]",
+          "name": "Cancel"
+        }
+      ],
+      "inventory_pattern": "https://business\\.facebook\\.com/latest/posts/published_posts/\\?(?:nav_ref=internal_nav&)?asset_id=103781478537396&business_id=2380586078685156(?:&nav_ref=internal_nav)?",
+      "leave": [
+        {
+          "selector": "[role=dialog]",
+          "contains": "Leave Page?"
+        }
+      ],
+      "discard": [
+        {
+          "selector": "[role=dialog] [role=button]",
+          "name": "Discard Changes",
+          "within": {
+            "selector": "[role=dialog]",
+            "contains": "Leave Page?"
+          }
+        }
+      ]
+    }
   }
 }
-

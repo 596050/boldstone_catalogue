@@ -15,6 +15,8 @@ class Element {
     this.naturalWidth = 500; this.naturalHeight = 500;
   }
   getClientRects() { return this.visible ? [1] : []; }
+  getBoundingClientRect() { return {left:10,top:20,width:100,height:80}; }
+  contains(e) { return e===this || e.parentElement===this; }
   getAttribute(k) { return this.attrs[k] ?? null; }
   setAttribute(k, v) { this.attrs[k] = String(v); }
   hasAttribute(k) { return k in this.attrs; }
@@ -43,7 +45,9 @@ class Input extends Element {
   set value(v) { this._value = v; }
 }
 class Transfer {
-  constructor() { this.files = []; this.items = { add: f => this.files.push(f) }; }
+  constructor() { this.files = []; this.data={}; this.items = { add: f => this.files.push(f) }; }
+  setData(type,value) {this.data[type]=value;}
+  getData(type) {return this.data[type]||'';}
 }
 
 function fixture() {
@@ -56,9 +60,15 @@ function fixture() {
     querySelectorAll: s => nodes[s] || [], querySelector: s => (nodes[s] || [])[0] || null,
   };
   const context = vm.createContext({ document, location: { href: 'https://www.linkedin.com/sharing/compose', pathname: '/sharing/compose' },
-    getComputedStyle: () => ({ visibility: 'visible' }), DataTransfer: Transfer, File,
+    URL, navigator:{userActivation:{isActive:false}},
+    getComputedStyle: e => ({ visibility: 'visible', opacity:e.opacity??'1' }), DataTransfer: Transfer, File,
     HTMLInputElement: Input, HTMLTextAreaElement: Textarea,
     Event: class { constructor(type) { this.type = type; } }, InputEvent: class { constructor(type) { this.type = type; } },
+    MouseEvent:class {constructor(type,options){this.type=type;Object.assign(this,options);}},
+    DragEvent:class {constructor(type,options){this.type=type;Object.assign(this,options);}},
+    KeyboardEvent:class {constructor(type,options){this.type=type;Object.assign(this,options);}},
+    FocusEvent:class {constructor(type,options){this.type=type;Object.assign(this,options);}},
+    ClipboardEvent: class {constructor(type,options){this.type=type;Object.assign(this,options);this.defaultPrevented=false;}preventDefault(){this.defaultPrevented=true;}},
     crypto: webcrypto, atob: s => Buffer.from(s, 'base64').toString('binary'),
   });
   const run = request => JSON.parse(vm.runInContext(driver + '(' + JSON.stringify({ expectedURL: context.location.href, owner: 'owner', ...request }) + ')', context));
@@ -73,7 +83,7 @@ test('missing and ambiguous controls are held without clicking a fallback', () =
   assert.equal(f.run({ op: 'click', locator: { selector: '#absent' } }).code, 'CONTROL_MISSING');
 });
 test('generic operations cannot click Publish, Post or Share', () => {
-  for (const name of ['Publish', 'Post', 'Share', 'Publish post', 'Schedule now']) {
+  for (const name of ['Publish', 'Post', 'Share', 'Publish post', 'Schedule now', 'Create ad', 'Boost', 'Promote']) {
     const f = fixture(), button = new Element(name); f.nodes['button'] = [button];
     assert.equal(f.run({ op: 'click', locator: { selector: 'button' } }).code, 'GUARDED_ACTION_REQUIRED');
     assert.equal(button.clicked, 0);
@@ -92,6 +102,40 @@ test('foreground tabs and lost ownership are held', () => {
   f.state.focus = false; f.root.setAttribute('data-boldstone-publisher', 'someone-else');
   assert.equal(f.run({ op: 'click', locator: { selector: 'button' } }).code, 'TAB_OWNERSHIP_LOST');
 });
+test('ordinary DOM navigation does not use the Chrome URL setter', () => {
+  const f=fixture();const targets=[];f.context.location.assign=url=>targets.push(url);
+  const result=f.run({op:'navigate',url:'https://www.linkedin.com/feed/'});
+  assert.equal(result.status,'NAVIGATION_REQUESTED');assert.deepEqual(targets,['https://www.linkedin.com/feed/']);
+  assert.equal(f.run({op:'navigate',url:'javascript:alert(1)'}).code,'WRONG_DESTINATION');
+});
+test('upload preparation cannot open a picker with transient user activation', () => {
+  const f=fixture(), button=new Element('Media');f.nodes['#media']=[button];
+  f.context.navigator.userActivation.isActive=true;
+  assert.equal(f.run({op:'prepare_upload',locator:{selector:'#media'}}).code,'USER_ACTIVATION_ACTIVE');assert.equal(button.clicked,0);
+});
+test('opening the composer is separate from the guarded publication click', () => {
+  const f=fixture(), button=new Element('Start a post');f.nodes['#start']=[button];
+  assert.equal(f.run({op:'click',locator:{selector:'#start'}}).ok,true);assert.equal(button.clicked,1);
+});
+test('existing post editors open without granting a publication or advertising click', () => {
+  const f=fixture();
+  for (const name of ['Manage post','Edit post','Edit Post']) {
+    const button=new Element(name);f.nodes['#edit']=[button];
+    assert.equal(f.run({op:'click',locator:{selector:'#edit'}}).ok,true);
+    assert.equal(button.clicked,1);
+  }
+  const menu=new Element('Actions for this post',{'aria-haspopup':'menu'});f.nodes['#menu']=[menu];
+  assert.equal(f.run({op:'click',locator:{selector:'#menu'}}).ok,true);
+  for (const name of ['Post','Publish','Boost post','Create ad']) {
+    const button=new Element(name);f.nodes['#commit']=[button];
+    assert.equal(f.run({op:'click',locator:{selector:'#commit'}}).code,'GUARDED_ACTION_REQUIRED');
+    assert.equal(button.clicked,0);
+  }
+});
+test('multi-select destinations use their exposed selected state', () => {
+  const f=fixture(), option=new Element('boldstonesculpture',{'aria-selected':'true'});f.nodes['#option']=[option];
+  assert.equal(f.run({op:'assert',checks:[{locator:{selector:'#option'},checked:true}]}).ok,true);
+});
 test('URL changes are checked inside the same JS operation', () => {
   const f = fixture();
   assert.equal(f.run({ op: 'probe', expectedURL: 'https://www.linkedin.com/old/' }).code, 'TAB_NAVIGATED_EXTERNALLY');
@@ -107,6 +151,17 @@ test('textareas use the native setter, input/change events and exact readback', 
   const text = 'Full caption\nWith another paragraph.';
   assert.equal(f.run({ op: 'set_text', locator: { selector: '#caption' }, value: text }).value, text);
   assert.deepEqual(area.events, ['input', 'change']);
+});
+test('rich text uses the editor paste handler and verifies every caption line',()=>{
+  const f=fixture(), editor=new Element('',{},'DIV');editor.isContentEditable=true;f.nodes['#editor']=[editor];
+  f.document.createRange=()=>({selectNodeContents(){}});
+  f.context.window={getSelection:()=>({removeAllRanges(){},addRange(){}})};
+  f.document.execCommand=()=>{throw new Error('The paste method must not use insertText');};
+  editor.dispatchEvent=event=>{editor.innerText=event.clipboardData.getData('text/plain');event.preventDefault();};
+  const caption='First paragraph\n\nSecond paragraph\n\nhttps://example.com/product';
+  assert.equal(f.run({op:'set_text',method:'paste',locator:[{selector:'#editor'}],value:caption}).value,caption);
+  editor.dispatchEvent=event=>{editor.innerText='Only the final line';event.preventDefault();};
+  assert.equal(f.run({op:'set_text',method:'paste',locator:[{selector:'#editor'}],value:'Different first line\nFinal line'}).code,'EDITOR_READBACK_FAILED');
 });
 test('whole-document selectors cannot be used as a publishing guard', () => {
   const f = fixture();
@@ -161,6 +216,21 @@ test('wrong image hashes cannot be committed', async () => {
   assert.equal(f.run({ op: 'upload_commit', ...common }).code, 'UPLOAD_HASH_NOT_VERIFIED');
   assert.equal(input.files, undefined);
 });
+test('a helper receipt needs its matching document marker and a loaded preview', () => {
+  const f=fixture(), id='1'.repeat(32), sha='a'.repeat(64);
+  const receipt={ok:true,request_id:id,sha256:sha,phase:'FILE_EVENTS_DISPATCHED',method:'chrome-main-world-file-input',name:'original.png',size:10};
+  const request={op:'adopt_upload',job:'one',mediaSha256:sha,receipt,preview:[{selector:'#preview'}]};
+  assert.equal(f.run(request).code,'UPLOAD_HELPER_DOCUMENT_MISMATCH');
+  f.root.setAttribute('data-boldstone-upload-'+id,JSON.stringify(receipt));
+  assert.equal(f.run(request).code,'CONTROL_MISSING');
+  const preview=new Element('',{},'IMG');preview.naturalWidth=0;f.nodes['#preview']=[preview];
+  assert.equal(f.run(request).code,'PHOTO_NOT_LOADED');
+  assert.equal(f.run({op:'upload_status',job:'one'}).committed,false);
+  preview.naturalWidth=500;
+  assert.equal(f.run(request).status,'PHOTO_PREVIEW_CONFIRMED');
+  assert.equal(f.run({op:'upload_status',job:'one'}).method,'helper');
+  assert.equal(f.run({...request,mediaSha256:'b'.repeat(64)}).code,'UPLOAD_HELPER_RECEIPT_INVALID');
+});
 test('the guarded submission rechecks the caption and permits only one click', () => {
   const f = fixture(), button = new Element('Post'), caption = new Textarea('Full caption'), photo = new Element('', {}, 'IMG');
   f.nodes['#post'] = [button]; f.nodes['#caption'] = [caption]; f.nodes['#photo'] = [photo];
@@ -180,3 +250,68 @@ test('a composer with retained text or an uploaded preview is never considered c
   f.nodes['#preview']=[]; assert.equal(f.run(request).clean,true);
 });
 
+
+test('background typeahead activates only its DOM field and mouse selection cannot publish', () => {
+  const f=fixture(), input=new Input('text');input.setAttribute('role','combobox');f.nodes['#query']=[input];
+  assert.equal(f.run({op:'set_text',locator:{selector:'#query'},value:'White relief',focus:true,typeahead:true}).ok,true);
+  assert.equal(input.focused,true);assert.ok(input.events.includes('focusin'));assert.ok(input.events.includes('keydown'));
+  const publish=new Element('Publish');f.nodes['#publish']=[publish];
+  assert.equal(f.run({op:'click',locator:{selector:'#publish'},method:'mouse'}).code,'GUARDED_ACTION_REQUIRED');
+  assert.deepEqual(publish.events,[]);
+});
+test('photo tag placement cannot send mouse events to a named publication button', () => {
+  const f=fixture(), panel=new Element('Tags',{},'DIV'), photo=new Element('',{},'IMG'), publish=new Element('Publish');
+  photo.parent=panel;publish.parent=panel;f.nodes['#photo']=[photo];f.nodes['#publish']=[publish];
+  assert.equal(f.run({op:'click_photo_point',locator:{selector:'#photo'},target:{selector:'#publish'},x:.5,y:.5}).code,'PHOTO_POINT_TARGET_INVALID');
+  assert.deepEqual(publish.events,[]);
+});
+test('a saved product attestation requires the selected name, price and one marker, then stays job-bound', () => {
+  const f=fixture(), panel=new Element('Tags',{},'DIV'), heading=new Element('White relief',{},'SPAN');
+  heading.parentElement=new Element('White relief £34.20',{},'DIV');panel.contains=e=>e===heading;
+  f.nodes['#panel']=[panel];f.nodes['#heading']=[heading];f.nodes['#marker']=[new Element('',{},'DIV')];f.nodes['#count']=[new Element('1',{},'SPAN')];
+  f.context.__boldstoneMedia={job:'one',sha256:'hash',committed:true};f.root.setAttribute('data-boldstone-job','one');
+  const tag={name:'White relief',price_text:'£34.20'};
+  const request={op:'attest_product_tag',job:'one',mediaSha256:'hash',tag,panel:{selector:'#panel'},heading:{selector:'#heading'},markers:{selector:'#marker'}};
+  heading.parentElement.innerText='White relief £44.20';assert.equal(f.run(request).code,'PRODUCT_TAG_SELECTION_MISMATCH');
+  heading.parentElement.innerText='White relief £34.20';assert.equal(f.run(request).ok,true);
+  const check={locator:{selector:'#count'},text:'1',tag_receipt:tag};
+  assert.equal(f.run({op:'assert',job:'one',mediaSha256:'hash',checks:[check]}).ok,true);
+  assert.equal(f.run({op:'assert',job:'two',mediaSha256:'hash',checks:[check]}).code,'PRODUCT_TAG_RECEIPT_MISSING');
+  f.nodes['#count'][0].innerText='0';assert.equal(f.run({op:'assert',job:'one',mediaSha256:'hash',checks:[check]}).code,'TEXT_READBACK_CHANGED');
+});
+test('a hidden retained dialog does not block readiness but an open one does', () => {
+  const f=fixture(), modal=new Element('Old confirmation',{},'DIV'), wrapper=new Element('',{},'DIV');
+  modal.parentElement=wrapper;wrapper.opacity='0';f.nodes['#modal']=[modal];
+  const request={op:'assert',checks:[{locator:{selector:'#modal',painted:true},absent:true}]};
+  assert.equal(f.run(request).ok,true);wrapper.opacity='1';assert.equal(f.run(request).code,'UNFINISHED_DIALOG');
+});
+
+test('an account change before dropping a verified image blocks its file event', async () => {
+  const f=fixture(), actor=new Element('Sally Price'), zone=new Element('',{},'DIV');
+  f.nodes['#actor']=[actor];f.nodes['#zone']=[zone];
+  const bytes=Buffer.from('reviewed original photograph'), sha=createHash('sha256').update(bytes).digest('hex');
+  const common={job:'drop-job',mediaSha256:sha,checks:[{locator:{selector:'#actor',name:'Sally Price'}}]};
+  assert.equal(f.run({op:'upload_begin',locator:{selector:'#zone'},method:'drop',name:'photo.png',type:'image/png',size:bytes.length,...common}).ok,true);
+  f.run({op:'upload_chunk',index:0,data:bytes.toString('base64'),...common});
+  f.run({op:'upload_finish',chunks:1,...common});
+  for(let i=0;i<30 && f.context.__boldstoneMedia.status==='HASHING';i++)await new Promise(resolve=>setTimeout(resolve,2));
+  assert.equal(f.run({op:'upload_commit',...common}).status,'DRAG_ENTERED');
+  f.run({op:'upload_drop',phase:'over',...common});actor.innerText='Different account';
+  assert.equal(f.run({op:'upload_drop',phase:'drop',...common}).code,'CONTROL_MISSING');
+  assert.deepEqual(zone.events,['dragenter','dragover']);
+});
+test('the main composer must retain the exact authored photo alt text', () => {
+  const f=fixture(), photo=new Element('',{alt:'Wrong image description'},'IMG');f.nodes['#photo']=[photo];
+  const check={locator:{selector:'#photo'},image:true,alt_text:'Reviewed description'};
+  assert.equal(f.run({op:'assert',checks:[check]}).code,'PHOTO_ALT_TEXT_CHANGED');
+  photo.setAttribute('alt','Reviewed description');assert.equal(f.run({op:'assert',checks:[check]}).ok,true);
+});
+
+test('a scoped success link can identify the native post outside alert roles', () => {
+  const f=fixture(), link=new Element('View post',{},'A');link.href='https://www.linkedin.com/feed/update/urn:li:activity:123456/';
+  f.nodes['a[href]']=[link];
+  const request={op:'discover',pattern:'^https://www\\.linkedin\\.com/feed/update/urn:li:activity:[0-9]+/$',roots:[{selector:'a[href]',name:'View post'}]};
+  assert.equal(f.run(request).url,link.href);
+  const other=new Element('View post',{},'A');other.href='https://www.linkedin.com/feed/update/urn:li:activity:789/';f.nodes['a[href]'].push(other);
+  assert.equal(f.run(request).code,'AMBIGUOUS_NATIVE_POST');
+});

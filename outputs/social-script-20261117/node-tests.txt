@@ -1,0 +1,44 @@
+✔ missing and ambiguous controls are held without clicking a fallback (3.106458ms)
+✔ generic operations cannot click Publish, Post or Share (3.663583ms)
+✔ the OS file picker cannot be opened by a generic click (1.033958ms)
+✔ foreground tabs and lost ownership are held (0.32375ms)
+✔ ordinary DOM navigation does not use the Chrome URL setter (2.947833ms)
+✔ upload preparation cannot open a picker with transient user activation (0.914375ms)
+✔ opening the composer is separate from the guarded publication click (0.809667ms)
+✔ existing post editors open without granting a publication or advertising click (1.669666ms)
+✔ multi-select destinations use their exposed selected state (0.764292ms)
+✔ URL changes are checked inside the same JS operation (0.634084ms)
+✔ checkboxes change idempotently and verify the actual checked state (0.64025ms)
+✔ textareas use the native setter, input/change events and exact readback (1.04325ms)
+✔ rich text uses the editor paste handler and verifies every caption line (1.212708ms)
+✔ whole-document selectors cannot be used as a publishing guard (0.60275ms)
+✔ a toast and an editor value cannot substitute for full native caption readback (0.869375ms)
+✔ matching caption text in a comment cannot substitute for the post caption (0.620792ms)
+✔ discovery requires one exact native permalink (0.599792ms)
+✔ image bytes are SHA-256 checked before a background file-input upload (11.929125ms)
+✔ wrong image hashes cannot be committed (4.082542ms)
+✔ a helper receipt needs its matching document marker and a loaded preview (1.607459ms)
+✔ the guarded submission rechecks the caption and permits only one click (0.833375ms)
+✔ a composer with retained text or an uploaded preview is never considered clean (0.678083ms)
+✔ background typeahead activates only its DOM field and mouse selection cannot publish (1.339417ms)
+✔ photo tag placement cannot send mouse events to a named publication button (0.914459ms)
+✔ a saved product attestation requires the selected name, price and one marker, then stays job-bound (1.736458ms)
+✔ a hidden retained dialog does not block readiness but an open one does (0.708917ms)
+✔ an account change before dropping a verified image blocks its file event (5.410334ms)
+✔ the main composer must retain the exact authored photo alt text (0.7835ms)
+✔ a scoped success link can identify the native post outside alert roles (0.711625ms)
+✔ the helper injects only into the exact normal background tab and keeps the lease private (5.525541ms)
+✔ changed, incognito, popup and foreground contexts receive no image and no injection (3.118417ms)
+✔ a lost acknowledgement is saved and retried without injecting or uploading twice (0.996458ms)
+✔ a lost injection result remains uncertain (0.479458ms)
+✔ the background worker stays idle until the local setup connection succeeds (0.335625ms)
+✔ the setup popup authenticates the exact local bridge before waking background work (0.755625ms)
+✔ denied local access and a mismatched bridge identity leave background work disabled (0.610458ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 136.1845
