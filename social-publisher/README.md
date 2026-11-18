@@ -7,16 +7,17 @@ posts through Sally Price’s normal composer. Accounts, routes, exact controls
 and recovery workflows are editable JSON. There are no browser-profile copies,
 social API tokens, browser debugging ports or Python dependencies to install.
 
-Live execution on 17 November 2026 published and independently read back
+The second batch on 18 November 2026 published and independently read back
 **five new posts on each of Facebook, Instagram and LinkedIn: 15 in total**.
 Each receipt verifies the native permalink, full caption, author and loaded
 photograph. Authored purchase links were checked on Facebook and LinkedIn,
 and saved Commerce product associations were verified on all ten Meta posts.
-The [batch review](../outputs/social-script-20261117/review.html) links to every
-post; [execution checks](../outputs/social-script-20261117/execution-checks.json)
+The [batch review](../outputs/social-script-20261118-2/review.html) links to every
+post; [execution checks](../outputs/social-script-20261118-2/execution-checks.json)
 confirm one publish intent per delivery, matching original media hashes and
-no observed target-window foregrounding. The earlier 16 November Meta batch
-remains separate and has no Commerce tag verification.
+no observed target-window foregrounding. The completed 17 November and first
+18 November batches are retained separately. The earlier 16 November Meta batch
+has no Commerce tag verification.
 
 The optional Chrome upload helper is installed in the existing signed-in
 profile. It supplies reviewed original files through Chrome's public scripting
@@ -56,10 +57,23 @@ the Chrome window remains in the background. Instagram permalink recovery uses
 the exact published Meta row and its **View Post on Instagram** link, avoiding
 stale profile-grid caches.
 
+Meta can replace a Published table row while its search is updating. Native
+readback reuses the owned inventory page and matching search value when possible,
+then captures the exact full-caption row in one read with bounded retries.
+An ambiguous row or changed account still holds the delivery; this never retries
+the Publish action.
+
 LinkedIn's current success notification places **View post** outside alert and
 status roles. Verification reads that exact native link, accepts the inspected
 `/feed/foryou/` canonical feed route, and retries only reads during a publication
 redirect. A redirect error never repeats the Post action.
+
+Some LinkedIn post views use different image wrappers. Native readback also
+recognises the exact authored alt text on a loaded `media.licdn.com` feedshare
+image inside the matched post. This route requires an HTTPS native activity
+page and the same caption and author checks. Profile pictures, other image
+hosts, unloaded images and multiple post photographs still hold verification.
+The native evidence records which image identification method succeeded.
 
 Chrome's native AppleScript URL setter activates its window on this Mac. The
 bridge uses an owned page's `location.assign` instead, checks focus, and retains

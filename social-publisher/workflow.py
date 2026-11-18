@@ -157,6 +157,29 @@ class Workflow:
         atomic_json(self.directory/'evidence'/(context['id']+'-product-tag.json'), {'utc':utc(),'job_id':context['id'],**proof})
         return proof
 
+    def meta_published_row(self, context, recovery, timeout=30):
+        """Read one exact caption despite Meta replacing filtered table rows."""
+        reader = VERIFICATION
+        binding, _ = self.chrome.bound(reader)
+        if binding['url'] != context['inventory_url']:
+            self.chrome.navigate(reader, context['inventory_url'], context['id'], recovery=True)
+        self.wait(reader, recovery['search'])
+        try:
+            self.chrome.call(reader, {'op':'assert', 'checks':[{
+                'locator':recovery['search'], 'text':context['title']} ]})
+        except Hold as error:
+            if error.code != 'TEXT_READBACK_CHANGED':
+                raise
+            self.chrome.call(reader, {'op':'set_text', 'locator':recovery['search'], 'value':context['title']})
+        deadline = time.monotonic() + timeout
+        while True:
+            try:
+                return self.chrome.call(reader, {'op':'snapshot', 'scope':recovery['row']})
+            except Hold as error:
+                if error.code != 'CONTROL_MISSING' or time.monotonic() >= deadline:
+                    raise
+                time.sleep(.25)
+
     def verify_product_tag(self, context, recipe):
         """Correlate the exact saved product with the published post's tag count.
 
@@ -172,11 +195,7 @@ class Workflow:
         expected={'job':context['id'],'sha256':context['media_sha256'],**context['product_tag']}
         if any(selected.get(k)!=v for k,v in expected.items()) or not selected.get('persisted_editor_readback'):
             raise Hold('PRODUCT_TAG_RECEIPT_MISSING')
-        self.chrome.navigate(reader,context['inventory_url'],context['id'],recovery=True)
-        self.wait(reader,recovery['search'])
-        self.chrome.call(reader,{'op':'set_text','locator':recovery['search'],'value':context['title']})
-        self.wait(reader,recovery['row'])
-        row=self.chrome.call(reader,{'op':'snapshot','scope':recovery['row']})
+        row=self.meta_published_row(context,recovery)
         ids=[re.fullmatch(r'Select item with ID (\d+)',control['name']) for control in row['controls']]
         ids=[m.group(1) for m in ids if m]
         if len(ids)!=1:raise Hold('NATIVE_PRODUCT_POST_AMBIGUOUS')
@@ -205,11 +224,7 @@ class Workflow:
         """Read the permalink from the exact published row, avoiding grid cache."""
         reader=VERIFICATION
         recovery=render(recipe['readback']['tag_recovery'],context)
-        self.chrome.navigate(reader,context['inventory_url'],context['id'],recovery=True)
-        self.wait(reader,recovery['search'])
-        self.chrome.call(reader,{'op':'set_text','locator':recovery['search'],'value':context['title']})
-        self.wait(reader,recovery['row'])
-        row=self.chrome.call(reader,{'op':'snapshot','scope':recovery['row']})
+        row=self.meta_published_row(context,recovery)
         ids=[re.fullmatch(r'Select item with ID (\d+)',control['name']) for control in row['controls']]
         ids=[m.group(1) for m in ids if m]
         if len(ids)!=1:raise Hold('AMBIGUOUS_NATIVE_POST')
@@ -419,7 +434,8 @@ class Workflow:
         while True:
             try:
                 evidence = self.chrome.call(reader, {'op': 'readback', 'caption': c['caption'], 'root': spec['root'],
-                                                  'author': spec['author'], 'photoSelector': spec['photo_selector'], 'captionSelectors': spec['caption_selectors']})
+                                                  'author': spec['author'], 'photoSelector': spec['photo_selector'], 'captionSelectors': spec['caption_selectors'],
+                                                  **({'linkedinPhotoAlt':c['alt_text']} if c['platform']=='linkedin' else {})})
                 break
             except Hold as error:
                 if not error.retryable or time.monotonic() >= deadline:

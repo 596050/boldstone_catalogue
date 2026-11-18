@@ -186,6 +186,52 @@ test('matching caption text in a comment cannot substitute for the post caption'
   f.nodes['#post']=[post]; post.nodes['.caption']=[caption];
   assert.equal(f.run({op:'readback',root:{selector:'#post'},caption:'Complete expected caption',captionSelectors:['.caption'],author:[],photoSelector:'.photo'}).code,'NATIVE_CAPTION_MISMATCH');
 });
+function authoredPhotoFixture() {
+  const f=fixture(), post=new Element('',{},'ARTICLE'), caption=new Element('Complete authored caption',{},'P');
+  const author=new Element('Sally Price',{},'A'), photo=new Element('',{alt:'Exact authored sculpture description'},'IMG');
+  f.context.location.href='https://www.linkedin.com/feed/update/urn:li:activity:12345/';
+  f.context.location.pathname='/feed/update/urn:li:activity:12345/';
+  photo.src='https://media.licdn.com/dms/image/v2/asset/feedshare-shrink_800/photo';
+  f.nodes['#post']=[post];post.nodes['.caption']=[caption];post.nodes['.author']=[author];post.nodes['img']=[photo];post.nodes['a[href]']=[];
+  const request={op:'readback',root:{selector:'#post'},caption:'Complete authored caption',captionSelectors:['.caption'],
+    author:{selector:'.author',name:'Sally Price'},photoSelector:'.previous-photo-markup',linkedinPhotoAlt:'Exact authored sculpture description'};
+  return {...f,post,photo,request};
+}
+test('new LinkedIn photo markup requires the exact authored alt and a native feedshare image',()=>{
+  const f=authoredPhotoFixture(), r=f.run(f.request);
+  assert.equal(r.ok,true);
+  assert.equal(r.photo.alt,f.request.linkedinPhotoAlt);
+  assert.equal(r.photo.identity_method,'exact authored alt and native LinkedIn feedshare image');
+  f.photo.attrs.alt='Different sculpture';assert.equal(f.run(f.request).code,'NATIVE_PHOTO_MISMATCH');
+});
+test('profile photographs and foreign image hosts cannot replace a LinkedIn post photo',()=>{
+  const f=authoredPhotoFixture();
+  f.photo.src='https://media.licdn.com/dms/image/v2/asset/profile-displayphoto-scale_100_100/photo';
+  assert.equal(f.run(f.request).code,'NATIVE_PHOTO_MISMATCH');
+  f.photo.src='https://media.licdn.com.attacker.example/dms/image/v2/asset/feedshare-shrink_800/photo';
+  assert.equal(f.run(f.request).code,'NATIVE_PHOTO_MISMATCH');
+});
+test('the same photo matching both routes is counted once, while duplicate photos remain ambiguous',()=>{
+  const f=authoredPhotoFixture();f.post.nodes['.previous-photo-markup']=[f.photo];
+  assert.equal(f.run(f.request).ok,true);
+  const second=new Element('',{alt:f.request.linkedinPhotoAlt},'IMG');second.src=f.photo.src;f.post.nodes['img'].push(second);
+  assert.equal(f.run(f.request).code,'NATIVE_PHOTO_MISMATCH');
+});
+test('unloaded images and missing caption or author evidence still hold the new LinkedIn route',()=>{
+  const f=authoredPhotoFixture();f.photo.naturalWidth=0;
+  assert.equal(f.run(f.request).code,'NATIVE_PHOTO_MISMATCH');f.photo.naturalWidth=500;
+  f.post.nodes['.caption'][0].innerText='Incomplete';assert.equal(f.run(f.request).code,'NATIVE_CAPTION_MISMATCH');
+  f.post.nodes['.caption'][0].innerText=f.request.caption;f.post.nodes['.author'][0].innerText='Another person';
+  assert.equal(f.run(f.request).code,'NATIVE_AUTHOR_MISMATCH');
+});
+test('the authored LinkedIn image route cannot be used on a feed or another platform',()=>{
+  const f=authoredPhotoFixture();f.context.location.href='https://www.linkedin.com/feed/foryou/';
+  assert.equal(f.run(f.request).code,'NATIVE_PHOTO_SCOPE_MISSING');
+  f.context.location.href='https://www.facebook.com/BoldstoneSculpture/posts/12345';
+  assert.equal(f.run(f.request).code,'NATIVE_PHOTO_SCOPE_MISSING');
+  f.context.location.href='http://www.linkedin.com/feed/update/urn:li:activity:12345/';
+  assert.equal(f.run(f.request).code,'NATIVE_PHOTO_SCOPE_MISSING');
+});
 test('discovery requires one exact native permalink', () => {
   const f = fixture(), scope = new Element('', {}, 'MAIN'); f.nodes['main'] = [scope];
   const a = new Element('', {}, 'A'); a.href = 'https://www.instagram.com/p/one/';

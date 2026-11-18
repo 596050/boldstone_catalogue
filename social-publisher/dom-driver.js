@@ -328,11 +328,26 @@
       if (!captionRoot) fail("NATIVE_CAPTION_MISMATCH");
       const authors = [].concat(request.author).flatMap(spec=>Array.from(root.querySelectorAll(spec.selector)).filter(visible).filter(e=>norm(e.innerText || e.getAttribute("alt") || e.getAttribute("aria-label"))===norm(spec.name)));
       if (!authors.length) fail("NATIVE_AUTHOR_MISMATCH");
-      const photos = Array.from(root.querySelectorAll(request.photoSelector)).filter(visible).filter(e=>e.tagName==="IMG" && e.complete && e.naturalWidth>0);
+      const candidates = Array.from(root.querySelectorAll(request.photoSelector));
+      let authoredPhotos = [];
+      if (request.linkedinPhotoAlt !== undefined) {
+        const page = new URL(location.href);
+        if (page.protocol!=="https:" || page.hostname!=="www.linkedin.com" || !/^\/feed\/update\/urn:li:activity:\d+\/?$/.test(page.pathname) || !norm(request.linkedinPhotoAlt)) fail("NATIVE_PHOTO_SCOPE_MISSING");
+        authoredPhotos = Array.from(root.querySelectorAll('img')).filter(e=>{
+          if (norm(e.getAttribute('alt'))!==norm(request.linkedinPhotoAlt)) return false;
+          try {
+            const source = new URL(e.currentSrc || e.src || e.getAttribute('src'));
+            return source.protocol==='https:' && source.hostname==='media.licdn.com' &&
+              source.pathname.startsWith('/dms/image/') && source.pathname.split('/').some(part=>part.startsWith('feedshare-'));
+          } catch { return false; }
+        });
+      }
+      const photos = [...new Set([...candidates,...authoredPhotos])].filter(visible).filter(e=>e.tagName==="IMG" && e.complete && e.naturalWidth>0);
       if (photos.length !== 1) fail("NATIVE_PHOTO_MISMATCH", "Expected exactly one loaded post photograph");
       return JSON.stringify({ok:true,url:location.href,text:captionRoot.innerText,caption_verified:true,author_verified:true,photo_verified:true,
         authors:authors.map(e=>norm(e.innerText || e.getAttribute("alt"))),
-        photo:{src:photos[0].currentSrc || photos[0].src,width:photos[0].naturalWidth,height:photos[0].naturalHeight},
+        photo:{src:photos[0].currentSrc || photos[0].src,width:photos[0].naturalWidth,height:photos[0].naturalHeight,
+          alt:photos[0].getAttribute('alt')||'',identity_method:authoredPhotos.includes(photos[0])?'exact authored alt and native LinkedIn feedshare image':'calibrated post photo selector'},
         links:Array.from(captionRoot.querySelectorAll('a[href]')).map(e=>e.href)});
     }
     fail("UNSUPPORTED_OPERATION");
