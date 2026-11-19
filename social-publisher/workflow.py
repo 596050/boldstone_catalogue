@@ -298,6 +298,12 @@ class Workflow:
                    'checks': self.guards(recipe, c), 'submit': render(recipe['submit'], c)}
         ready = self.chrome.call(name, request)
         atomic_json(self.directory / 'evidence' / (job['id'] + '-ready.json'), {'utc': utc(), 'job_id': job['id'], 'ready': ready})
+        if c['platform']=='google_business_profile':
+            photos=[check['photo'] for check in ready['checks'] if check.get('photo')]
+            if len(photos)!=1:raise Hold('GOOGLE_PREPARED_PHOTO_RECEIPT_MISSING')
+            atomic_json(self.directory/'evidence'/(job['id']+'-google-photo.json'),
+                        {'utc':utc(),'job_id':job['id'],'profile_hash':c['profile_hash'],
+                         'media_sha256':c['media_sha256'],'photo':photos[0]})
         return ready
 
     def close(self):
@@ -391,6 +397,9 @@ class Workflow:
 
     def verify(self, job, native_url=None):
         c = self.context(job)
+        if c['platform']=='google_business_profile':
+            from google_business import GoogleBusinessProfile
+            return GoogleBusinessProfile(self).verify(job,native_url)
         name = c['profile_id']
         recipe = self.settings.workflow(self.settings.profile(name))
         composer = self.chrome.sync_after_submit(name)

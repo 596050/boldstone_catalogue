@@ -45,9 +45,17 @@
     return value === "true";
   };
   const enabled = e => !e.disabled && e.getAttribute("aria-disabled") !== "true";
+  const svgPhotoURL = e => {
+    if (!/^https:\/\/www\.google\.com\/local\/business\/\d+\/promote\/updates\/(?:add|\d+\/edit)(?:[?#]|$)/.test(location.href) ||
+        e.localName!=="image" || e.namespaceURI!=="http://www.w3.org/2000/svg") fail("PHOTO_ELEMENT_REQUIRED");
+    const src=e.getAttribute("href") || e.getAttributeNS?.("http://www.w3.org/1999/xlink","href") || e.getAttribute("xlink:href");
+    if (!src || !(src.startsWith("blob:https://www.google.com/") || /^https:\/\/[a-z0-9.-]+\.googleusercontent\.com\//.test(src))) fail("PHOTO_SOURCE_INVALID");
+    return src;
+  };
   const assertChecks = checks => {
     const receipts = [];
     for (const check of checks || []) {
+      if (check.url_path_prefix && !location.pathname.startsWith(check.url_path_prefix)) fail("WRONG_SELECTED_ACCOUNT");
       if (check.absent) {
         if ([].concat(check.locator).some(spec=>all(spec).length)) fail("UNFINISHED_DIALOG");
         receipts.push({absent:true});continue;
@@ -58,13 +66,18 @@
       if (check.contains && !norm(text(e)).includes(norm(check.contains))) fail("TEXT_READBACK_CHANGED");
       if (check.not_contains && norm(text(e)).includes(norm(check.not_contains))) fail("WRONG_SELECTED_ACCOUNT");
       if (check.checked !== undefined && checked(e) !== check.checked) fail("WRONG_SELECTED_ACCOUNT");
-      if (check.image && !(e.tagName === "IMG" && e.complete && e.naturalWidth > 0)) fail("PHOTO_NOT_LOADED");
+      let svgPhoto;
+      if (check.image && check.svg_image) {
+        const src=svgPhotoURL(e), proof=globalThis.__boldstoneSVGPhoto;
+        if (!proof || proof.status!=="LOADED" || proof.job!==request.job || proof.input_sha256!==request.mediaSha256 || proof.src!==src || proof.document_url!==location.href || proof.width<=0 || proof.height<=0) fail("PHOTO_NOT_LOADED");
+        svgPhoto={src,width:proof.width,height:proof.height,rendering:"native SVG image",input_sha256:proof.input_sha256};
+      } else if (check.image && !(e.tagName === "IMG" && e.complete && e.naturalWidth > 0)) fail("PHOTO_NOT_LOADED");
       if (check.alt_text!==undefined && norm(e.getAttribute('alt'))!==norm(check.alt_text)) fail("PHOTO_ALT_TEXT_CHANGED");
       if (check.tag_receipt) {
         const tag=globalThis.__boldstoneProductTag;
         if (!tag || tag.job!==request.job || tag.sha256!==request.mediaSha256 || tag.name!==check.tag_receipt.name || tag.price_text!==check.tag_receipt.price_text || tag.url!==location.href) fail("PRODUCT_TAG_RECEIPT_MISSING");
       }
-      receipts.push({label: label(e), text: norm(text(e)).slice(0, 800), image: !!check.image});
+      receipts.push({label: label(e), text: norm(text(e)).slice(0, 800), image: !!check.image,...(svgPhoto?{photo:svgPhoto}:{})});
     }
     return receipts;
   };
@@ -130,6 +143,18 @@
         links:Array.from(scope.querySelectorAll('a[href]')).filter(visible).map(e=>({text:label(e),href:e.href}))});
     }
     if (op === "exists") return JSON.stringify({ok:true, exists:exists(request.locator)});
+    if (op === "probe_svg_photo") {
+      if (!request.job || !request.mediaSha256) fail("PHOTO_CONTEXT_MISSING");
+      const src=svgPhotoURL(locate(request.locator));
+      const old=globalThis.__boldstoneSVGPhoto;
+      if (old && old.job===request.job && old.input_sha256===request.mediaSha256 && old.src===src && old.document_url===location.href && old.status!=="ERROR") return JSON.stringify({ok:true,photo:old});
+      const proof={job:request.job,input_sha256:request.mediaSha256,src,document_url:location.href,status:"LOADING"};
+      globalThis.__boldstoneSVGPhoto=proof;
+      const probe=new Image();proof.probe=probe;
+      probe.onload=()=>{proof.width=probe.naturalWidth;proof.height=probe.naturalHeight;proof.status=proof.width>0&&proof.height>0?"LOADED":"ERROR";delete proof.probe;};
+      probe.onerror=()=>{proof.status="ERROR";delete proof.probe;};probe.src=src;
+      return JSON.stringify({ok:true,status:proof.status});
+    }
     if (op === "clean_state") {
       const fields = [].concat(request.caption).flatMap(all);
       const previews = [].concat(request.preview).flatMap(all);
@@ -149,7 +174,10 @@
     if (op === "click") {
       const e = locate(request.locator);
       if (!enabled(e)) fail("CONTROL_DISABLED");
-      const opensComposer = ["Start a post", "Create post", "Manage post", "Edit post", "Edit Post"].includes(label(e));
+      const googlePostComposer = label(e)==="Add post" &&
+        /^https:\/\/www\.google\.com\/local\/business\/\d+\/promote\/updates(?:[?#]|$)/.test(location.href) &&
+        Array.from(document.querySelectorAll('h1')).some(h=>visible(h) && norm(h.innerText)==="Your posts");
+      const opensComposer = googlePostComposer || ["Start a post", "Create post", "Manage post", "Edit post", "Edit Post"].includes(label(e));
       const opensPostMenu = /^Actions for this post(?: by .+)?$/.test(label(e)) && e.getAttribute("aria-haspopup") === "menu";
       if ((!opensComposer && !opensPostMenu && /\b(publish|post|share|send|schedule|boost|promote|ad)\b/i.test(label(e))) || e.matches('input[type="file"]')) fail("GUARDED_ACTION_REQUIRED");
       if (/^(add (?:photos?|videos?|media)|select from computer|upload(?: photos?| videos?)?)$/i.test(label(e))) fail("NATIVE_PICKER_FORBIDDEN");
@@ -185,7 +213,11 @@
     if (op === "set_text") {
       const e = locate(request.locator);
       if (!enabled(e)) fail("CONTROL_DISABLED");
-      if (!e.isContentEditable && !e.matches('textarea,input[type="text"],input[type="search"],input:not([type])')) fail("TEXT_FIELD_REQUIRED");
+      if (!e.isContentEditable && !e.matches('textarea,input[type="text"],input[type="search"],input[type="url"],input:not([type])')) fail("TEXT_FIELD_REQUIRED");
+      if (e.tagName==="INPUT" && e.type==="url" && request.value) {
+        const destination=new URL(request.value);
+        if(destination.protocol!=="https:" || destination.username || destination.password) fail("WRONG_DESTINATION");
+      }
       if (request.focus) e.focus({preventScroll:true});
       if (norm(text(e)) !== norm(request.value)) {
         if (e.isContentEditable) {

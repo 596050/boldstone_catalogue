@@ -1,0 +1,1 @@
+(function(){return JSON.stringify({url:location.href,frames:Array.from(document.querySelectorAll("iframe")).map(e=>({src:e.src,title:e.title,html:e.outerHTML.slice(0,2500),visible:!!e.getClientRects().length})),dialogs:Array.from(document.querySelectorAll("[role=dialog]")).map(e=>e.outerHTML.slice(0,1200))});})()

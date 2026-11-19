@@ -1,3 +1,5 @@
+Use the script to post another set to all platforms and include posts on Google Business Profile as well as Instagram, Facebook, LinkedIn and Google Posts on Boldstone Google Business Profile.
+
 **Added:**
 Apple Business
 Google Business Profile
@@ -45,7 +47,7 @@ Robert Dyas
 https://www.nuorder.com/wholesale/marketplace/?utm_source=chatgpt.com
 artsper.com
 https://www.catawiki.com/en/v/lots/bulk_upload
-
+perplexity marketplace
 
 
 **In Progress:**

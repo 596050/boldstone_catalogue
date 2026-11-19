@@ -28,7 +28,7 @@ class Element {
     if (selector === 'a[href]') return this.tagName === 'A' && !!this.href;
     if (selector.includes('input[type="file"]')) return this.tagName === 'INPUT' && this.type === 'file';
     if (selector.includes('checkbox')) return this.tagName === 'INPUT' && this.type === 'checkbox';
-    if (selector.startsWith('textarea,')) return this.tagName === 'TEXTAREA' || (this.tagName === 'INPUT' && this.type === 'text');
+    if (selector.startsWith('textarea,')) return this.tagName === 'TEXTAREA' || (this.tagName === 'INPUT' && ['text','url'].includes(this.type));
     return false;
   }
   dispatchEvent(e) { this.events.push(e.type); }
@@ -116,6 +116,51 @@ test('upload preparation cannot open a picker with transient user activation', (
 test('opening the composer is separate from the guarded publication click', () => {
   const f=fixture(), button=new Element('Start a post');f.nodes['#start']=[button];
   assert.equal(f.run({op:'click',locator:{selector:'#start'}}).ok,true);assert.equal(button.clicked,1);
+});
+test('Google Add post opens only the observed business posts inventory', () => {
+  const f=fixture(), add=new Element('Add post');f.nodes['button']=[add];f.nodes.h1=[new Element('Your posts',{},'H1')];
+  f.context.location.href='https://www.google.com/local/business/15009857378722117958/promote/updates?hl=en';
+  assert.equal(f.run({op:'click',locator:{selector:'button'}}).ok,true);assert.equal(add.clicked,1);
+  const post=new Element('Post');f.nodes['button']=[post];
+  assert.equal(f.run({op:'click',locator:{selector:'button'}}).code,'GUARDED_ACTION_REQUIRED');assert.equal(post.clicked,0);
+});
+test('Google composer opening still rejects another route, host or missing inventory heading', () => {
+  for(const url of ['https://www.google.com/search?q=Boldstone','https://example.com/local/business/15009857378722117958/promote/updates']){
+    const f=fixture(), add=new Element('Add post');f.nodes.button=[add];f.nodes.h1=[new Element('Your posts',{},'H1')];f.context.location.href=url;
+    assert.equal(f.run({op:'click',locator:{selector:'button'}}).code,'GUARDED_ACTION_REQUIRED');assert.equal(add.clicked,0);
+  }
+  const f=fixture(), add=new Element('Add post');f.nodes.button=[add];f.context.location.href='https://www.google.com/local/business/15009857378722117958/promote/updates';
+  assert.equal(f.run({op:'click',locator:{selector:'button'}}).code,'GUARDED_ACTION_REQUIRED');assert.equal(add.clicked,0);
+});
+test('Google account path guards reject a different location even when the visible heading matches', () => {
+  const f=fixture();f.nodes.h1=[new Element('Add post',{},'H1')];f.context.location.pathname='/local/business/999/promote/updates/add';
+  assert.equal(f.run({op:'assert',checks:[{locator:{selector:'h1'},url_path_prefix:'/local/business/15009857378722117958/'}]}).code,'WRONG_SELECTED_ACCOUNT');
+});
+test('product button URL fields accept an exact HTTPS destination and reject executable or credential-bearing URLs', () => {
+  const f=fixture(), input=new Input('url');f.nodes['input']=[input];const url='https://boldstonesculpture.com/buy/p/example?utm_source=google_business_profile';
+  assert.equal(f.run({op:'set_text',locator:{selector:'input'},value:url}).ok,true);assert.equal(input.value,url);
+  for(const bad of ['javascript:alert(1)','https://user:secret@example.com/']){
+    assert.equal(f.run({op:'set_text',locator:{selector:'input'},value:bad}).code,'WRONG_DESTINATION');assert.equal(input.value,url);
+  }
+});
+test('Google SVG photograph guards require a decoded image bound to this job and source hash', () => {
+  const f=fixture(), photo=new Element('',{href:'blob:https://www.google.com/photo-one'},'image');photo.localName='image';photo.namespaceURI='http://www.w3.org/2000/svg';f.nodes['#photo']=[photo];
+  f.context.location.href='https://www.google.com/local/business/123/promote/updates/add';
+  f.context.Image=class {set src(value){this.naturalWidth=1254;this.naturalHeight=1254;this.onload();}};
+  const check={locator:{selector:'#photo'},image:true,svg_image:true},context={job:'one',mediaSha256:'hash'};
+  assert.equal(f.run({op:'assert',checks:[check],...context}).code,'PHOTO_NOT_LOADED');
+  assert.equal(f.run({op:'probe_svg_photo',locator:{selector:'#photo'},...context}).ok,true);
+  assert.equal(f.run({op:'assert',checks:[check],...context}).checks[0].photo.width,1254);
+  assert.equal(f.run({op:'assert',checks:[check],...context,job:'other'}).code,'PHOTO_NOT_LOADED');
+  photo.attrs.href='blob:https://www.google.com/photo-two';
+  assert.equal(f.run({op:'assert',checks:[check],...context}).code,'PHOTO_NOT_LOADED');
+});
+test('SVG photograph probes reject foreign sources and non-Google editor pages', () => {
+  const f=fixture(), photo=new Element('',{href:'https://example.com/photo.png'},'image');photo.localName='image';photo.namespaceURI='http://www.w3.org/2000/svg';f.nodes['#photo']=[photo];
+  f.context.location.href='https://www.google.com/local/business/123/promote/updates/add';
+  assert.equal(f.run({op:'probe_svg_photo',locator:{selector:'#photo'},job:'one',mediaSha256:'hash'}).code,'PHOTO_SOURCE_INVALID');
+  photo.attrs.href='blob:https://www.google.com/photo-one';f.context.location.href='https://www.linkedin.com/sharing/compose';
+  assert.equal(f.run({op:'probe_svg_photo',locator:{selector:'#photo'},job:'one',mediaSha256:'hash'}).code,'PHOTO_ELEMENT_REQUIRED');
 });
 test('existing post editors open without granting a publication or advertising click', () => {
   const f=fixture();

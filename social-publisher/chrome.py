@@ -263,7 +263,7 @@ class Chrome:
         status = self.call(name, {'op': 'upload_status', **common})
         if status.get('committed') and status.get('sha256') == job['media_sha256'] and (method != 'helper' or status.get('method') == 'helper'):
             if preview:
-                self.confirm_upload_preview(name,preview)
+                self.confirm_upload_preview(name,preview,job)
             return status
         if method == 'helper':
             if not preview:
@@ -311,7 +311,7 @@ class Chrome:
                     self.call(name, {'op': 'upload_drop', 'phase': 'over', **common})
                     result = self.call(name, {'op': 'upload_drop', 'phase': 'drop', **common})
                 if preview:
-                    evidence=self.confirm_upload_preview(name,preview)
+                    evidence=self.confirm_upload_preview(name,preview,job)
                     result.update(status='PHOTO_PREVIEW_CONFIRMED',preview_confirmed=True,sha256=job['media_sha256'])
                     atomic_json(self.directory/'evidence'/(job['id']+'-upload.json'),{'utc':utc(),'job_id':job['id'],'method':method,'sha256':job['media_sha256'],'preview_confirmed':True,'preview':evidence})
                 return result
@@ -320,11 +320,16 @@ class Chrome:
             time.sleep(0.2)
         raise Hold('UPLOAD_HASH_TIMEOUT', retryable=True)
 
-    def confirm_upload_preview(self,name,preview):
+    def confirm_upload_preview(self,name,preview,job=None):
+        check=preview if isinstance(preview,dict) and 'locator' in preview else {'locator':preview,'image':True}
+        context={'job':job['id'],'mediaSha256':job['media_sha256']} if job else {}
         deadline=time.monotonic()+30
         while True:
             try:
-                return self.call(name,{'op':'assert','checks':[{'locator':preview,'image':True}]})
+                if check.get('svg_image'):
+                    if not job:raise Hold('PHOTO_CONTEXT_MISSING')
+                    self.call(name,{'op':'probe_svg_photo','locator':check['locator'],**context})
+                return self.call(name,{'op':'assert','checks':[check],**context})
             except Hold as error:
                 if error.code not in {'CONTROL_MISSING','PHOTO_NOT_LOADED'}:
                     raise

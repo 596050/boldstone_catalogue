@@ -73,6 +73,12 @@ class Settings:
         u = urlparse(url)
         if u.scheme != 'https' or u.hostname not in profile['allowed_hosts'] or u.username or u.password or u.port not in (None, 443):
             raise Hold('WRONG_DESTINATION', 'URL is outside the configured HTTPS origins')
+        if profile.get('platform')=='google_business_profile':
+            location_id=profile.get('location_id','')
+            if not re.fullmatch(r'\d+',location_id):
+                raise Hold('GOOGLE_PROFILE_CONFIG','A verified numeric location_id is required')
+            if u.hostname!='www.google.com' or not u.path.startswith('/local/business/'+location_id+'/'):
+                raise Hold('WRONG_GOOGLE_BUSINESS_PROFILE','The native URL belongs to a different Google Business Profile')
         # Account IDs must match even if the visible name happens to match.
         if u.hostname == 'business.facebook.com':
             q = parse_qs(u.query)
@@ -111,6 +117,13 @@ class Settings:
                 raise Hold('MEDIA_FORMAT', 'Use a PNG or JPEG within max_media_bytes')
             for name, target in post['targets'].items():
                 p = self.profile(name)
+                if media.stat().st_size>p.get('max_media_bytes',self.policy['max_media_bytes']):
+                    raise Hold('MEDIA_FORMAT','The photo exceeds this platform profile\u2019s media size limit')
+                if p['platform']=='google_business_profile':
+                    destination=urlparse(target.get('purchase_url') or '')
+                    hosts=p.get('purchase_allowed_hosts') or [urlparse(p.get('website_url','')).hostname]
+                    if destination.scheme!='https' or destination.hostname not in hosts or destination.username or destination.password:
+                        raise Hold('GOOGLE_PURCHASE_URL_REQUIRED','Google posts require an exact HTTPS product button destination on a configured purchase host')
                 caption = target.get('caption', '')
                 if not isinstance(caption, str) or not caption.strip() or len(caption) > p.get('caption_limit', 60000):
                     raise Hold('CAPTION_INVALID', name)

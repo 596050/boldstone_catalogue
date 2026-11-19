@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "description": "Google Business Profile Update with one checked original image and a saved Buy destination; native Published status required.",
+  "native_url_pattern": "https://www\\.google\\.com/local/business/\\d+/promote/updates/\\d+/edit",
+  "clean_state": {
+    "caption": [
+      {
+        "selector": "textarea[maxlength=\"1500\"]"
+      }
+    ],
+    "preview": [
+      {
+        "selector": "main:has(textarea[maxlength=\"1500\"]) div[data-file-id]"
+      }
+    ]
+  },
+  "google_photo": {
+    "locator": [
+      {
+        "selector": "main div[data-file-id] svg[role=img] image"
+      }
+    ],
+    "image": true,
+    "svg_image": true
+  },
+  "prepare": [
+    {
+      "op": "wait",
+      "locator": [
+        {
+          "selector": "textarea[maxlength=\"1500\"]"
+        }
+      ]
+    },
+    {
+      "op": "assert",
+      "checks": [
+        {
+          "purpose": "account",
+          "locator": [
+            {
+              "selector": "h1",
+              "text": "Add post"
+            }
+          ],
+          "text": "Add post",
+          "url_path_prefix": "$business_path"
+        },
+        {
+          "locator": [
+            {
+              "selector": "button[aria-pressed=true]",
+              "name": "Update"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "op": "set_text",
+      "locator": [
+        {
+          "selector": "textarea[maxlength=\"1500\"]"
+        }
+      ],
+      "value": "$caption"
+    },
+    {
+      "op": "set_checked",
+      "locator": [
+        {
+          "selector": "button[role=switch]",
+          "name": "Schedule post"
+        }
+      ],
+      "value": false
+    },
+    {
+      "op": "click",
+      "locator": [
+        {
+          "selector": "button",
+          "name": "Add link fields"
+        }
+      ],
+      "unless": [
+        {
+          "selector": "input[type=url]"
+        }
+      ]
+    },
+    {
+      "op": "click",
+      "locator": [
+        {
+          "selector": "button",
+          "name": "None"
+        }
+      ],
+      "if_exists": true
+    },
+    {
+      "op": "click",
+      "locator": [
+        {
+          "selector": "li[role=menuitem][value=SHOP]",
+          "name": "Buy"
+        }
+      ],
+      "unless": [
+        {
+          "selector": "button",
+          "name": "Buy"
+        }
+      ]
+    },
+    {
+      "op": "wait",
+      "locator": [
+        {
+          "selector": "input[type=url]"
+        }
+      ]
+    },
+    {
+      "op": "set_text",
+      "locator": [
+        {
+          "selector": "input[type=url]"
+        }
+      ],
+      "value": "$purchase_url"
+    },
+    {
+      "op": "upload",
+      "locator": [
+        {
+          "selector": "input[type=file]",
+          "hidden": true
+        }
+      ],
+      "method": "input",
+      "preview": {
+        "locator": [
+          {
+            "selector": "main div[data-file-id] svg[role=img] image"
+          }
+        ],
+        "image": true,
+        "svg_image": true
+      }
+    }
+  ],
+  "ready": [
+    {
+      "purpose": "account",
+      "locator": [
+        {
+          "selector": "h1",
+          "text": "Add post"
+        }
+      ],
+      "text": "Add post",
+      "url_path_prefix": "$business_path"
+    },
+    {
+      "purpose": "destination",
+      "locator": [
+        {
+          "selector": "button[aria-pressed=true]",
+          "name": "Update"
+        }
+      ]
+    },
+    {
+      "purpose": "caption",
+      "locator": [
+        {
+          "selector": "textarea[maxlength=\"1500\"]"
+        }
+      ],
+      "text": "$caption"
+    },
+    {
+      "purpose": "photo",
+      "locator": [
+        {
+          "selector": "main div[data-file-id] svg[role=img] image"
+        }
+      ],
+      "image": true,
+      "svg_image": true
+    },
+    {
+      "purpose": "button",
+      "locator": [
+        {
+          "selector": "button",
+          "name": "Buy"
+        }
+      ],
+      "text": "Buy"
+    },
+    {
+      "purpose": "purchase",
+      "locator": [
+        {
+          "selector": "input[type=url]"
+        }
+      ],
+      "text": "$purchase_url"
+    },
+    {
+      "purpose": "schedule",
+      "locator": [
+        {
+          "selector": "button[role=switch]",
+          "name": "Schedule post"
+        }
+      ],
+      "checked": false
+    },
+    {
+      "purpose": "dialog",
+      "locator": [
+        {
+          "selector": "[role=alertdialog]",
+          "painted": true
+        }
+      ],
+      "absent": true
+    }
+  ],
+  "submit": [
+    {
+      "selector": "footer button",
+      "name": "Post"
+    }
+  ],
+  "readback": {
+    "caption_selectors": [
+      "div.XNfYrb"
+    ],
+    "row_selector": "div.J7elmb",
+    "description": "Exact caption in Published inventory, exact managed location/post id, saved editor description, loaded photograph and Buy destination",
+    "status_selector": "div.WeJbRc"
+  },
+  "discover": {
+    "roots": [
+      {
+        "selector": "main"
+      }
+    ]
+  },
+  "cleanup": []
+}
