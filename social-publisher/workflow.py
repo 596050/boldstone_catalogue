@@ -135,14 +135,24 @@ class Workflow:
 
     def product_tag(self, profile_id, context, step):
         """Save one exact product, reopen it, and attest its persisted UI value."""
+        search = step['search']
+        # Instagram's native crop editor returns to a product-only picker.
+        # Its search field is a separate popover; selection is still attested
+        # inside the exact tagging dialog before any publication is allowed.
+        if context.get('platform') == 'instagram' and any(
+                locator.get('selector') == 'input[role=combobox]' and
+                locator.get('name') == 'Which product or collection would you like to tag?'
+                for locator in search):
+            search = search + [{'selector': 'input[role=combobox][aria-autocomplete=list]',
+                                'name': 'Which product would you like to tag?'}]
         if not self.chrome.call(profile_id, {'op':'exists','locator':step['panel']})['exists']:
             self.chrome.call(profile_id, {'op':'click','locator':step['open']})
             self.wait(profile_id, step['panel'])
         self.chrome.call(profile_id, {'op':'click','locator':step['tab']})
         if not self.chrome.call(profile_id, {'op':'exists','locator':step['heading']})['exists']:
             self.chrome.call(profile_id, {'op':'click_photo_point','locator':step['photo'],'target':step['point_target'],'x':.5,'y':.5,'checks':[{'locator':step['tab']}]})
-            self.wait(profile_id, step['search'])
-            self.chrome.call(profile_id, {'op':'set_text','locator':step['search'],'value':context['product_tag']['name'],'focus':True,'typeahead':True})
+            self.wait(profile_id, search)
+            self.chrome.call(profile_id, {'op':'set_text','locator':search,'value':context['product_tag']['name'],'focus':True,'typeahead':True})
             self.wait(profile_id, step['choice'])
             self.chrome.call(profile_id, {'op':'click','locator':step['choice'],'method':'mouse'})
             self.wait(profile_id, step['heading'])

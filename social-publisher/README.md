@@ -7,17 +7,20 @@ posts through Sally Price’s normal composer. Accounts, routes, exact controls
 and recovery workflows are editable JSON. There are no browser-profile copies,
 social API tokens, browser debugging ports or Python dependencies to install.
 
-The second batch on 18 November 2026 published and independently read back
+The batch on 19 November 2026 published and independently read back
 **five new posts on each of Facebook, Instagram and LinkedIn: 15 in total**.
 Each receipt verifies the native permalink, full caption, author and loaded
 photograph. Authored purchase links were checked on Facebook and LinkedIn,
 and saved Commerce product associations were verified on all ten Meta posts.
-The [batch review](../outputs/social-script-20261118-2/review.html) links to every
-post; [execution checks](../outputs/social-script-20261118-2/execution-checks.json)
+The [batch review](../outputs/social-script-20261119/review.html) links to every
+post; [execution checks](../outputs/social-script-20261119/execution-checks.json)
 confirm one publish intent per delivery, matching original media hashes and
-no observed target-window foregrounding. The completed 17 November and first
-18 November batches are retained separately. The earlier 16 November Meta batch
-has no Commerce tag verification.
+all 15 submission operations in the background. One foreground transition
+during an image-buffer transfer triggered a guard pause before publication.
+The empty draft was preserved and the remaining LinkedIn posts completed from
+a fresh background tab. The transition's cause is not determined. The completed
+17 and 18 November batches are retained separately. The earlier 16 November
+Meta batch has no Commerce tag verification.
 
 The optional Chrome upload helper is installed in the existing signed-in
 profile. It supplies reviewed original files through Chrome's public scripting
@@ -48,6 +51,14 @@ published editor for that exact caption and account. Meta disables editing the
 photo after publication; receipts identify this persisted-count check and retain
 the earlier exact-product readback. They do not claim to test every customer
 shopping interface or complete a checkout.
+
+Instagram's native crop editor can return to a product-only picker labelled
+**Which product would you like to tag?** in a separate popover. The script
+recognises this exact alternate combobox for Instagram while retaining the
+same selected-product, price, photo-hash and account checks. The latest batch
+retains the native 4:5 crop and alt-text readbacks for Frozen Deco Wave II;
+the original source file is unchanged. The picker change passed 76 Python and
+41 JavaScript guard tests before publication resumed.
 
 Meta's inactive windows can retain closed confirmation nodes and leave active
 menus without a completed visual transition. Story sharing is checked against
