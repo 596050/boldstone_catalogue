@@ -98,6 +98,26 @@ class RecoveryTests(unittest.TestCase):
     def write_manifest(self):
         atomic_json(self.manifest, self.source)
 
+    def test_video_success_requires_google_identity_input_hash_and_published_status(self):
+        job=copy.deepcopy(self.jobs[0]);job['payload'].update(platform='google_business_profile',media_type='video/mp4',profile_snapshot={'location_id':'123'})
+        evidence=self.directory/'video-proof.json';atomic_json(evidence,{'video':'native loaded clip'})
+        receipt={'native_url':'https://www.google.com/local/business/123/promote/updates/456/edit','caption_verified':True,'author_verified':True,'photo_verified':False,'video_verified':True,'media_sha256':job['payload']['media_sha256'],'google_location_id':'123','google_post_id':'456','google_status':'Published just now','evidence_path':str(evidence),'evidence_sha256':digest(evidence.read_bytes())}
+        with Store(self.state) as store:
+            store.enqueue([job]);store.change(job['id'],'READY');store.intent(job['id'])
+            for key,value in [('video_verified',False),('google_location_id','999'),('media_sha256','b'*64),('google_status','Pending')]:
+                with self.assertRaises(Hold):store.published(job['id'],dict(receipt,**{key:value}))
+            store.published(job['id'],receipt)
+            self.assertEqual(store.get(job['id'])['state'],'PUBLISHED')
+
+    def test_public_video_boolean_without_bound_native_evidence_cannot_publish(self):
+        job=copy.deepcopy(self.jobs[0]);job['payload'].update(platform='google_business_profile',media_type='video/mp4',profile_snapshot={'location_id':'123'})
+        evidence=self.directory/'unproven-public-video.json';atomic_json(evidence,{'video':'unproven thumbnail'})
+        receipt={'native_url':'https://www.google.com/search?q=Boldstone#lpstate=pid:456','caption_verified':True,'author_verified':True,'video_verified':True,'public_detail_verified':True,'media_sha256':job['payload']['media_sha256'],'google_location_id':'123','google_post_id':'456','google_status':'Public Google post readable','evidence_path':str(evidence),'evidence_sha256':digest(evidence.read_bytes())}
+        with Store(self.state) as store:
+            store.enqueue([job]);store.change(job['id'],'READY');store.intent(job['id'])
+            with self.assertRaises(Hold):store.published(job['id'],receipt)
+            self.assertNotEqual(store.get(job['id'])['state'],'PUBLISHED')
+
     def engine(self, store):
         return Engine(store, self.adapter, self.settings.policy, now=lambda: self.clock[0])
 
@@ -111,6 +131,35 @@ class RecoveryTests(unittest.TestCase):
         with Store(self.state) as store:
             self.engine(store).run()
         self.assertEqual(self.adapter.clicks, 1)
+
+    def test_superseded_preparation_stays_blocked_after_database_row_loss(self):
+        job=self.jobs[0];proof=self.directory/'replacement.json'
+        atomic_json(proof,{'original_job_id':job['id'],'replacement_job_id':'new-delivery'})
+        with Store(self.state) as store:
+            store.enqueue(self.jobs);store.supersede_preparation(job['id'],'new-delivery',proof)
+            with store.db:store.db.execute('DELETE FROM jobs WHERE id=?',(job['id'],))
+        with Store(self.state) as store:
+            self.assertEqual(store.get(job['id'])['state'],'BLOCKED')
+            self.engine(store).run()
+        self.assertEqual(self.adapter.prepares,0);self.assertEqual(self.adapter.clicks,0)
+
+    def test_submission_intent_prevents_preparation_replacement(self):
+        job=self.jobs[0];proof=self.directory/'replacement.json'
+        atomic_json(proof,{'original_job_id':job['id'],'replacement_job_id':'new-delivery'})
+        with Store(self.state) as store:
+            store.enqueue(self.jobs);store.change(job['id'],'READY');store.intent(job['id'])
+            with self.assertRaises(Hold) as caught:store.supersede_preparation(job['id'],'new-delivery',proof)
+            self.assertEqual(caught.exception.code,'SUBMITTED_PREPARATION_CANNOT_BE_SUPERSEDED')
+            self.assertEqual(store.get(job['id'])['state'],'SUBMITTING')
+
+    def test_replacement_proof_change_blocks_recovery(self):
+        job=self.jobs[0];proof=self.directory/'replacement.json'
+        atomic_json(proof,{'original_job_id':job['id'],'replacement_job_id':'new-delivery'})
+        with Store(self.state) as store:
+            store.enqueue(self.jobs);store.supersede_preparation(job['id'],'new-delivery',proof)
+        atomic_json(proof,{'changed':True})
+        with self.assertRaises(Hold) as caught:Store(self.state)
+        self.assertEqual(caught.exception.code,'EVIDENCE_MISSING')
 
     def test_timeout_after_real_submission_reconciles_without_second_click(self):
         self.adapter.timeout_after_click = True
@@ -498,13 +547,15 @@ class RecoveryTests(unittest.TestCase):
 
     def test_source_contains_no_focus_or_native_keyboard_commands(self):
         import re
-        for file in ['chrome.applescript', 'Run.applescript']:
+        for file in ['chrome.applescript', 'google-fast.applescript', 'Run.applescript']:
             source = '\n'.join(line.split('--')[0] for line in (ROOT / file).read_text().splitlines())
             self.assertIsNone(re.search(r'\b(activate|keystroke)\b|key code|make new (window|tab)|set (?:the )?frontmost', source, re.I))
 
     def test_workflows_are_configurable_and_all_variables_resolve(self):
         for name, p in self.settings.profiles.items():
             context = {**p, 'caption': 'full caption', 'title': 'title', 'alt_text': 'image alt',
+                       'purchase_url': 'https://boldstonesculpture.com/buy/p/sculpture',
+                       'button_label': 'Buy',
                        'product_tag': {'name': 'Sculpture - White', 'price_text': '£34.20'}}
             render(self.settings.workflow(p), context)
 

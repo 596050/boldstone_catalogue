@@ -20,6 +20,7 @@
     if (!spec || !spec.selector || /^(?:html|body|\*)$/.test(spec.selector.trim())) fail("UNSCOPED_LOCATOR");
     let result = Array.from(document.querySelectorAll(spec.selector));
     if (!spec.hidden) result = result.filter(visible);
+    if (spec.in_view) result=result.filter(e=>{const r=e.getBoundingClientRect();return r.width>0 && r.height>0 && r.bottom>0 && r.right>0 && r.top<window.innerHeight && r.left<window.innerWidth;});
     if (spec.painted) result=result.filter(painted);
     if (spec.name !== undefined) result = result.filter(e => label(e) === norm(spec.name));
     if (spec.text !== undefined) result = result.filter(e => norm(e.innerText) === norm(spec.text));
@@ -66,8 +67,17 @@
       if (check.contains && !norm(text(e)).includes(norm(check.contains))) fail("TEXT_READBACK_CHANGED");
       if (check.not_contains && norm(text(e)).includes(norm(check.not_contains))) fail("WRONG_SELECTED_ACCOUNT");
       if (check.checked !== undefined && checked(e) !== check.checked) fail("WRONG_SELECTED_ACCOUNT");
-      let svgPhoto;
-      if (check.image && check.svg_image) {
+      if (check.valid && (!e.validity?.valid || e.getAttribute('aria-invalid')==='true')) fail("NATIVE_FIELD_INVALID");
+      let svgPhoto, videoProof;
+      if (check.video) {
+        if (!/^https:\/\/www\.google\.com\/local\/business\/\d+\/promote\/updates\/(?:add|\d+\/edit)(?:[?#]|$)/.test(location.href) || e.tagName!=="VIDEO" || !request.job || !/^[a-f0-9]{64}$/.test(request.mediaSha256||"")) fail("VIDEO_CONTEXT_REQUIRED");
+        const src=e.currentSrc||e.src;
+        if (!(src.startsWith("blob:https://www.google.com/") || /^https:\/\/[a-z0-9.-]+\.googleusercontent\.com\//.test(src))) fail("VIDEO_SOURCE_INVALID");
+        if (e.readyState<2 || !Number.isFinite(e.duration) || e.duration<=0 || e.videoWidth<=0 || e.videoHeight<=0) fail("VIDEO_NOT_LOADED");
+        if (!Number.isFinite(check.duration) || check.duration<=0 || check.duration>30 || !Number.isFinite(check.width) || !Number.isFinite(check.height) ||
+            Math.abs(e.duration-check.duration)>.25 || Math.abs(e.videoWidth/e.videoHeight-check.width/check.height)>.01) fail("NATIVE_VIDEO_MISMATCH");
+        videoProof={src,width:e.videoWidth,height:e.videoHeight,duration:e.duration,input_sha256:request.mediaSha256,rendering:"native HTML video",media_type:"video/mp4"};
+      } else if (check.image && check.svg_image) {
         const src=svgPhotoURL(e), proof=globalThis.__boldstoneSVGPhoto;
         if (!proof || proof.status!=="LOADED" || proof.job!==request.job || proof.input_sha256!==request.mediaSha256 || proof.src!==src || proof.document_url!==location.href || proof.width<=0 || proof.height<=0) fail("PHOTO_NOT_LOADED");
         svgPhoto={src,width:proof.width,height:proof.height,rendering:"native SVG image",input_sha256:proof.input_sha256};
@@ -77,7 +87,7 @@
         const tag=globalThis.__boldstoneProductTag;
         if (!tag || tag.job!==request.job || tag.sha256!==request.mediaSha256 || tag.name!==check.tag_receipt.name || tag.price_text!==check.tag_receipt.price_text || tag.url!==location.href) fail("PRODUCT_TAG_RECEIPT_MISSING");
       }
-      receipts.push({label: label(e), text: norm(text(e)).slice(0, 800), image: !!check.image,...(svgPhoto?{photo:svgPhoto}:{})});
+      receipts.push({label: label(e), text: norm(text(e)).slice(0, 800), image: !!check.image,...(check.valid?{valid:true}:{}),...(svgPhoto?{photo:svgPhoto}:{}),...(videoProof?{video:videoProof}:{})});
     }
     return receipts;
   };
@@ -100,10 +110,13 @@
   };
   try {
     const op = request.op;
-    const readonly = ["probe", "snapshot", "exists", "assert", "discover", "readback", "upload_status", "clean_state"].includes(op);
+    const readonly = ["probe", "snapshot", "exists", "assert", "discover", "readback", "upload_status", "clean_state", "source_grid", "source_modal","source_facebook_photo"].includes(op);
     confirmContext(!readonly && op !== "claim");
     if (op === "probe") return JSON.stringify({ok:true, url:location.href, title:document.title, ready:document.readyState,
       hasFocus:document.hasFocus(), dataTransfer:typeof DataTransfer === "function", file:typeof File === "function",
+      scroll:{y:window.scrollY,viewport:window.innerHeight,height:document.scrollingElement?.scrollHeight,at_bottom:window.scrollY+window.innerHeight>=(document.scrollingElement?.scrollHeight||0)-10},
+      googlePostRecordNames:Array.from(new Set(Array.from(document.querySelectorAll('div[data-post-name]')).map(e=>e.getAttribute('data-post-name')).filter(n=>/^accounts\/-\/locations\/\d+\/localPosts\/\d+$/.test(n||'')))),
+      googlePostCards:Array.from(document.querySelectorAll('div.J7elmb')).filter(visible).map(e=>({caption:e.querySelector('div.XNfYrb')?.innerText||'',status:e.querySelector('div.WeJbRc')?.innerText||'',record_names:Array.from(new Set(Array.from(e.querySelectorAll('[data-post-name]')).map(n=>n.getAttribute('data-post-name'))))})),
       selfProfileEditable:!!document.querySelector('a[href="/accounts/edit/"]'),
       instagramPostLinks:Array.from(document.querySelectorAll('a[href]')).map(e=>e.href).filter(u=>/^https:\/\/www\.instagram\.com\/(?:[^/]+\/)?(?:p|reel)\//.test(u)).slice(0,20)});
     if (op === "claim") {
@@ -118,6 +131,55 @@
       if (target.protocol !== "https:") fail("WRONG_DESTINATION");
       location.assign(target.href);
       return JSON.stringify({ok:true,status:"NAVIGATION_REQUESTED"});
+    }
+    if (op === "scroll_page") {
+      if (!/^https:\/\/www\.instagram\.com\/boldstonesculpture\/?$/.test(location.href) && !/^https:\/\/www\.facebook\.com\/BoldstoneSculpture\/(?:owner_reels|photos)?\/?$/.test(location.href)) fail("SOURCE_PROFILE_REQUIRED");
+      const before=window.scrollY;
+      window.scrollBy(0,Math.max(300,Math.min(window.innerHeight,1200)));
+      return JSON.stringify({ok:true,before,after:window.scrollY});
+    }
+    if (op === "source_facebook_photo") {
+      const url=new URL(location.href),id=url.searchParams.get('fbid');
+      if (url.hostname!=="www.facebook.com" || !['/photo.php','/photo/'].includes(url.pathname) || !/^\d+$/.test(id||'') || url.searchParams.get('set')!=='pb.100067801382847.-2207520000') fail('SOURCE_PHOTO_COLLECTION_REQUIRED');
+      const authors=Array.from(document.querySelectorAll('h2 a[href]')).filter(visible);
+      if (authors.length!==1 || norm(authors[0].innerText)!=='Boldstone Sculpture' || new URL(authors[0].href).pathname!=='/BoldstoneSculpture') fail('SOURCE_PHOTO_AUTHOR_REQUIRED');
+      const photos=Array.from(document.querySelectorAll('[data-pagelet="MediaViewerPhoto"] img')).filter(visible);
+      if (photos.length!==1 || !photos[0].complete || photos[0].naturalWidth<=0) fail('PHOTO_NOT_LOADED');
+      const captions=Array.from(document.querySelectorAll('div.xyinxu5 > span[dir="auto"]')).filter(visible);
+      if (captions.length>1) fail('SOURCE_PHOTO_CAPTION_AMBIGUOUS');
+      const dates=Array.from(document.querySelectorAll('a[aria-describedby]')).filter(visible).map(a=>({href:a.href,text:document.getElementById(a.getAttribute('aria-describedby'))?.textContent||''})).filter(a=>/\b(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday) \d{1,2} [A-Za-z]+ \d{4} at \d{1,2}:\d{2}\b/.test(a.text));
+      if (dates.length!==1) fail('SOURCE_PHOTO_DATE_REQUIRED');
+      const parents=Array.from(document.querySelectorAll('a[href]')).filter(visible).filter(a=>label(a)==='View Post').map(a=>a.href);
+      if(new Set(parents).size>1) fail('SOURCE_PHOTO_PARENT_AMBIGUOUS');
+      const img=photos[0];
+      return JSON.stringify({ok:true,url:location.href,photo_id:id,author:'Boldstone Sculpture',caption:captions[0]?.innerText||'',date:dates[0],
+        parent_post_url:parents[0]||null,
+        photo:{src:img.currentSrc||img.src,alt:img.alt,width:img.naturalWidth,height:img.naturalHeight},
+        caption_collapsed:captions.some(e=>Array.from(e.querySelectorAll('[role="button"]')).filter(visible).some(b=>label(b)==='See more')),
+        next_available:Array.from(document.querySelectorAll('[role="button"]')).filter(visible).some(b=>label(b)==='Next photo' && enabled(b))});
+    }
+    if (op === "source_grid") {
+      if (!/^https:\/\/www\.instagram\.com\/boldstonesculpture\/?$/.test(location.href)) fail("SOURCE_PROFILE_REQUIRED");
+      const main=document.querySelector('main');
+      if (!main || !main.innerText.includes('boldstonesculpture')) fail("SOURCE_PROFILE_REQUIRED");
+      const items=Array.from(main.querySelectorAll('a[href]')).filter(e=>visible(e) && /^\/boldstonesculpture\/(?:p|reel)\/[^/]+\/$/.test(new URL(e.href).pathname)).map(e=>({
+        url:e.href,photos:Array.from(e.querySelectorAll('img')).map(i=>({src:i.currentSrc||i.src,alt:i.alt,width:i.naturalWidth,height:i.naturalHeight}))
+      }));
+      return JSON.stringify({ok:true,url:location.href,profile:'boldstonesculpture',profile_text:main.innerText.slice(0,2000),items,
+        scroll_y:window.scrollY,height:document.documentElement.scrollHeight,at_bottom:window.scrollY+window.innerHeight>=document.documentElement.scrollHeight-10});
+    }
+    if (op === "source_modal") {
+      if (!/^https:\/\/www\.instagram\.com\/(?:boldstonesculpture\/)?p\/[^/?]+\/(?:\?img_index=\d+)?$/.test(location.href)) fail("SOURCE_PROFILE_REQUIRED");
+      const dialogs=Array.from(document.querySelectorAll('[role=dialog]')).filter(visible);
+      if (dialogs.length!==1) fail("SOURCE_POST_AMBIGUOUS");
+      const root=dialogs[0], headings=root.querySelectorAll('h1');
+      const authors=[...root.querySelectorAll('h2 a[href]'),...root.querySelectorAll('header a[href]')].filter(a=>new URL(a.href).pathname==='/boldstonesculpture/');
+      if (headings.length>1 || !authors.length) fail("SOURCE_AUTHOR_OR_CAPTION_MISSING");
+      const photos=Array.from(root.querySelectorAll('img')).filter(i=>visible(i) && i.naturalWidth>=250 && i.naturalHeight>=250).map(i=>({src:i.currentSrc||i.src,alt:i.alt,width:i.naturalWidth,height:i.naturalHeight}));
+      const videos=Array.from(root.querySelectorAll('video')).filter(visible).map(v=>({src:v.currentSrc||v.src,poster:v.poster,duration:Number.isFinite(v.duration)?v.duration:null,width:v.videoWidth,height:v.videoHeight}));
+      const times=Array.from(root.querySelectorAll('time[datetime]')).map(t=>({datetime:t.getAttribute('datetime'),text:t.innerText}));
+      const next=Array.from(document.querySelectorAll('div._abm0')).filter(d=>visible(d) && d.querySelector('svg[aria-label=Next]'));
+      return JSON.stringify({ok:true,url:location.href,author:'boldstonesculpture',caption:headings[0]?.innerText||'',photos,videos,times,next_available:next.length===1});
     }
     if (op === "begin_job") {
       if (!request.job) fail("UPLOAD_JOB_MISSING");
@@ -139,6 +201,8 @@
         controls:Array.from(scope.querySelectorAll('button,[role="button"],input,textarea,[contenteditable="true"],[role="checkbox"],[role="combobox"],[role="option"],[role="tab"]')).filter(visible).map(e=>({tag:e.tagName,id:e.id,role:e.getAttribute("role"),name:label(e),text:norm(e.innerText).slice(0,800),type:e.type,testid:e.getAttribute("data-testid"),placeholder:e.getAttribute("placeholder"),disabled:!enabled(e),checked:e.matches('input[type="checkbox"],input[type="radio"]')?!!e.checked:e.getAttribute("aria-checked"),selected:e.getAttribute("aria-selected"),expanded:e.getAttribute("aria-expanded"),haspopup:e.getAttribute("aria-haspopup")})),
         fileInputs:Array.from(document.querySelectorAll('input[type="file"]')).map(e=>({id:e.id,name:e.name,accept:e.accept,multiple:e.multiple,testid:e.getAttribute("data-testid")})),
         images:Array.from(scope.querySelectorAll('img')).filter(visible).map(e=>({src:e.currentSrc||e.src,alt:e.alt,width:e.naturalWidth,height:e.naturalHeight,html:e.outerHTML,parent:e.parentElement?.outerHTML.slice(0,1800)})),
+        videos:Array.from(scope.querySelectorAll('video')).map(e=>({src:e.currentSrc||e.src,poster:e.poster,duration:Number.isFinite(e.duration)?e.duration:null,width:e.videoWidth,height:e.videoHeight,readyState:e.readyState,paused:e.paused,visible:visible(e),html:e.outerHTML.slice(0,5000)})),
+        frames:Array.from(scope.querySelectorAll('iframe')).map(e=>({src:e.src,title:e.title,html:e.outerHTML.slice(0,3000)})),
         editors:Array.from(document.querySelectorAll('[contenteditable],textarea,[role=textbox]')).map(e=>({tag:e.tagName,role:e.getAttribute('role'),label:label(e),editable:e.getAttribute('contenteditable'),text:e.innerText,value:e.value,html:e.outerHTML.slice(0,6000)})),
         links:Array.from(scope.querySelectorAll('a[href]')).filter(visible).map(e=>({text:label(e),href:e.href}))});
     }
@@ -171,15 +235,33 @@
       globalThis.__boldstoneProductTag=proof;
       return JSON.stringify({ok:true,product_tag:proof});
     }
+    if (op === "submit_google_rejected_revision") {
+      if (!/^https:\/\/www\.google\.com\/local\/business\/\d+\/promote\/updates\/\d+\/edit$/.test(location.href) || location.href!==request.nativeURL || !/^[a-f0-9]{64}$/.test(request.rejectionEvidenceSha256||'') || !request.job || !request.originalCaption || !request.revisedCaption || norm(request.originalCaption)===norm(request.revisedCaption)) fail('GOOGLE_REJECTED_REVISION_CONTEXT_REQUIRED');
+      if (!Array.from(document.querySelectorAll('h1')).some(e=>visible(e) && norm(e.innerText)==='Edit update')) fail('EXISTING_GOOGLE_POST_REQUIRED');
+      const revisionChecks=request.checks||[];
+      if (!revisionChecks.some(c=>c.purpose==='account' && c.url_path_prefix && location.pathname.startsWith(c.url_path_prefix)) || !revisionChecks.some(c=>c.purpose==='caption' && norm(c.text)===norm(request.revisedCaption)) || !revisionChecks.some(c=>c.purpose==='photo' && c.image && c.svg_image) || !revisionChecks.some(c=>c.purpose==='purchase' && c.valid) || !revisionChecks.some(c=>c.purpose==='schedule' && c.checked===false)) fail('GOOGLE_REJECTED_REVISION_GUARDS_REQUIRED');
+      const caption=locate({selector:'textarea[maxlength="1500"]'});
+      if (norm(caption.value)!==norm(request.revisedCaption)) fail('TEXT_READBACK_CHANGED');
+      assertChecks(request.checks);
+      const button=locate({selector:'footer button',name:'Post'});if (!enabled(button)) fail('SUBMIT_DISABLED');
+      const marker='data-boldstone-rejected-revision-'+request.job;if(document.documentElement.hasAttribute(marker))fail('SUBMIT_ALREADY_CLICKED');
+      document.documentElement.setAttribute(marker,'attempted');button.click();
+      return JSON.stringify({ok:true,status:'EXISTING_REJECTED_POST_REVISION_CLICKED',native_url:location.href,job:request.job});
+    }
     if (op === "click") {
       const e = locate(request.locator);
       if (!enabled(e)) fail("CONTROL_DISABLED");
+      if(label(e)==='More posts' && /^https:\/\/www\.google\.com\/local\/business\/\d+\/promote\/updates(?:[?#]|$)/.test(location.href)) e.scrollIntoView({block:'center',behavior:'instant'});
       const googlePostComposer = label(e)==="Add post" &&
         /^https:\/\/www\.google\.com\/local\/business\/\d+\/promote\/updates(?:[?#]|$)/.test(location.href) &&
         Array.from(document.querySelectorAll('h1')).some(h=>visible(h) && norm(h.innerText)==="Your posts");
       const opensComposer = googlePostComposer || ["Start a post", "Create post", "Manage post", "Edit post", "Edit Post"].includes(label(e));
       const opensPostMenu = /^Actions for this post(?: by .+)?$/.test(label(e)) && e.getAttribute("aria-haspopup") === "menu";
-      if ((!opensComposer && !opensPostMenu && /\b(publish|post|share|send|schedule|boost|promote|ad)\b/i.test(label(e))) || e.matches('input[type="file"]')) fail("GUARDED_ACTION_REQUIRED");
+      const sourcePlatformMenu = location.hostname==="business.facebook.com" && location.pathname==="/latest/posts/published_posts/" &&
+        ["Facebook post","Instagram post"].includes(label(e)) && e.getAttribute("role")==="button" &&
+        e.closest('[role="menu"]')?.innerText &&
+        norm(e.closest('[role="menu"]').innerText)==="Facebook post Instagram post";
+      if ((!opensComposer && !opensPostMenu && !sourcePlatformMenu && /\b(publish|post|share|send|schedule|boost|promote|ad)\b/i.test(label(e))) || e.matches('input[type="file"]')) fail("GUARDED_ACTION_REQUIRED");
       if (/^(add (?:photos?|videos?|media)|select from computer|upload(?: photos?| videos?)?)$/i.test(label(e))) fail("NATIVE_PICKER_FORBIDDEN");
       if (request.method==="mouse") {
         const r=e.getBoundingClientRect(), p={bubbles:true,cancelable:true,button:0,clientX:r.left+r.width/2,clientY:r.top+r.height/2};
@@ -231,10 +313,16 @@
             if (!event.defaultPrevented) fail("EDITOR_REJECTED_PASTE");
           } else if (!document.execCommand("insertText", false, request.value)) fail("EDITOR_REJECTED_INPUT");
         } else {
-          const prototype = e.tagName === "TEXTAREA" ? HTMLTextAreaElement.prototype : HTMLInputElement.prototype;
-          const setter = Object.getOwnPropertyDescriptor(prototype,"value").set;
-          setter.call(e,request.value);
-          e.dispatchEvent(new InputEvent("input",{bubbles:true,inputType:"insertText",data:request.value}));
+          if(request.method==="insert_text") {
+            if(e.tagName!=="INPUT" || e.type!=="url" || !/^https:\/\/www\.google\.com\/local\/business\/\d+\/promote\/updates\/add(?:[?#]|$)/.test(location.href)) fail("NATIVE_URL_EDITOR_REQUIRED");
+            e.focus({preventScroll:true});e.select();
+            if(!document.execCommand("insertText",false,request.value)) fail("EDITOR_REJECTED_INPUT");
+          } else {
+            const prototype = e.tagName === "TEXTAREA" ? HTMLTextAreaElement.prototype : HTMLInputElement.prototype;
+            const setter = Object.getOwnPropertyDescriptor(prototype,"value").set;
+            setter.call(e,request.value);
+            e.dispatchEvent(new InputEvent("input",{bubbles:true,inputType:"insertText",data:request.value}));
+          }
           e.dispatchEvent(new Event("change",{bubbles:true}));
         }
       }
@@ -288,7 +376,8 @@
     }
     if (op === "upload_status") {
       const m = globalThis.__boldstoneMedia;
-      return JSON.stringify({ok:true,status:m && m.job===request.job?m.status:"MISSING",sha256:m?.sha256,committed:!!m?.committed,method:m?.method});
+      return JSON.stringify({ok:true,status:m && m.job===request.job?m.status:"MISSING",sha256:m?.sha256,committed:!!m?.committed,method:m?.method,
+        same_job:!!m && m.job===request.job,document_job:document.documentElement.getAttribute('data-boldstone-job'),submission_marker:document.documentElement.getAttribute('data-boldstone-submission-'+request.job),document_url:location.href});
     }
     if (op === "adopt_upload") {
       const r=request.receipt;
@@ -330,15 +419,26 @@
       if (type==="drop") {m.committed=true;m.chunks=[];delete m.file;delete m.transfer;}
       return JSON.stringify({ok:true,status:type==="drop"?"DROP_DISPATCHED_UNCONFIRMED":"DRAG_OVER_SENT"});
     }
-    if (op === "ready" || op === "submit") {
+    if (op === "ready" || op === "submit" || op === "submit_google_validation_correction") {
       const result = ready();
-      if (op === "submit") {
+      if (op === "submit_google_validation_correction") {
+        if (!/^https:\/\/www\.google\.com\/local\/business\/\d+\/promote\/updates\/add(?:[?#]|$)/.test(location.href) ||
+            !/^[a-f0-9]{64}$/.test(request.rejectionEvidenceSha256 || "") ||
+            document.documentElement.getAttribute("data-boldstone-job")!==request.job ||
+            document.documentElement.getAttribute("data-boldstone-submission-"+request.job)!=="attempted") fail("GOOGLE_VALIDATION_CORRECTION_CONTEXT_MISSING");
+        const field=locate([{selector:'input[type="url"][aria-invalid="false"]'}]);
+        if (!field.value || field.value!==request.purchaseURL) fail("GOOGLE_LINK_NOT_VALIDATED");
+        const marker="data-boldstone-validation-correction-"+request.job+"-"+request.rejectionEvidenceSha256;
+        if(document.documentElement.hasAttribute(marker)) fail("SUBMIT_ALREADY_CLICKED");
+        document.documentElement.setAttribute(marker,request.rejectionEvidenceSha256);
+        locate(request.submit).click();
+      } else if (op === "submit") {
         const marker = "data-boldstone-submission-" + request.job;
         if (document.documentElement.hasAttribute(marker)) fail("SUBMIT_ALREADY_CLICKED");
         document.documentElement.setAttribute(marker,"attempted"); // before invoking the handler
         locate(request.submit).click();
       }
-      return JSON.stringify({ok:true,status:op==="submit"?"CLICKED_UNCONFIRMED":"READY",...result});
+      return JSON.stringify({ok:true,status:op==="ready"?"READY":"CLICKED_UNCONFIRMED",...result});
     }
     if (op === "discover") {
       const re = new RegExp(request.pattern);

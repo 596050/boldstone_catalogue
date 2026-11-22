@@ -11,7 +11,7 @@ from pathlib import Path
 from common import ROOT, Hold, atomic_json, canonical, digest, read_json, utc
 from settings import Settings
 
-READONLY = {'probe', 'snapshot', 'exists', 'assert', 'discover', 'readback', 'upload_status', 'clean_state'}
+READONLY = {'probe', 'snapshot', 'exists', 'assert', 'discover', 'readback', 'upload_status', 'clean_state', 'source_grid', 'source_modal','source_facebook_photo'}
 VERIFICATION = 'verification'
 
 
@@ -148,7 +148,7 @@ class Chrome:
             raise Hold('DOM_RESPONSE_INVALID', 'Chrome did not return a JSON result', retryable=True)
         if not result.get('ok'):
             code = result.get('code', 'DOM_ERROR')
-            retryable = code in {'CONTROL_MISSING', 'PHOTO_NOT_LOADED', 'SUBMIT_DISABLED', 'CONTROL_DISABLED', 'NATIVE_CAPTION_MISMATCH', 'NATIVE_PHOTO_MISMATCH'}
+            retryable = code in {'CONTROL_MISSING', 'PHOTO_NOT_LOADED','VIDEO_NOT_LOADED', 'SUBMIT_DISABLED', 'CONTROL_DISABLED', 'NATIVE_CAPTION_MISMATCH', 'NATIVE_PHOTO_MISMATCH'}
             raise Hold(code, result.get('detail', code), retryable=retryable)
         return result
 
@@ -331,7 +331,7 @@ class Chrome:
                     self.call(name,{'op':'probe_svg_photo','locator':check['locator'],**context})
                 return self.call(name,{'op':'assert','checks':[check],**context})
             except Hold as error:
-                if error.code not in {'CONTROL_MISSING','PHOTO_NOT_LOADED'}:
+                if error.code not in {'CONTROL_MISSING','PHOTO_NOT_LOADED','VIDEO_NOT_LOADED'}:
                     raise
                 if time.monotonic()>=deadline:
                     raise Hold('UPLOAD_PREVIEW_NOT_CONFIRMED','File events were dispatched but no loaded photo was confirmed; inspect this draft without uploading again')

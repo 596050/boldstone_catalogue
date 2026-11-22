@@ -13,7 +13,8 @@ import time
 from pathlib import Path
 from urllib.parse import urlparse
 
-from chrome import Chrome, VERIFICATION
+from chrome import VERIFICATION
+from google_fast import GoogleFastChrome as Chrome
 from common import ROOT, Hold, atomic_json, canonical, digest, read_json, sync_directory, utc
 from engine import Engine
 from journal import Store
@@ -175,6 +176,16 @@ def parser():
     c = sub.add_parser('reconcile', help='Check the exact native post after an uncertain submission; never clicks Publish')
     c.add_argument('--job', required=True)
     c.add_argument('--url', required=True)
+    correction=sub.add_parser('repair-google-link-validation',help='Correct one proven client-side Google link rejection without resetting its original intent')
+    correction.add_argument('--job',required=True)
+    correction.add_argument('--rejection-evidence',type=Path,required=True)
+    unattempted=sub.add_parser('resume-google-unattempted',help='Finish a first Post only in its intact original upload document with no submission marker or native record')
+    unattempted.add_argument('--job',required=True)
+    public=sub.add_parser('reconcile-google-public',help='Read the exact Google public post and decode its native media; never submits')
+    public.add_argument('--job',required=True)
+    public.add_argument('--post-id',required=True)
+    public.add_argument('--context',type=Path,required=True)
+    public.add_argument('--evidence-state',type=Path,help='Original prepared media evidence directory, if separate from the outbox')
     for name in ['resume', 'adopt-profile-change']:
         s = sub.add_parser(name)
         s.add_argument('--job', required=True)
@@ -252,6 +263,20 @@ def main(argv=None):
             Engine(store, workflow, settings.policy).reconcile(args.job, args.url)
             result = store.export()
             store.backup()
+        elif args.command == 'repair-google-link-validation':
+            from google_business import GoogleBusinessProfile
+            GoogleBusinessProfile(workflow).correct_link_validation(store,store.get(args.job),args.rejection_evidence)
+            result=store.export()
+        elif args.command == 'resume-google-unattempted':
+            from google_business import GoogleBusinessProfile
+            GoogleBusinessProfile(workflow).resume_unattempted(store,store.get(args.job))
+            result=store.export()
+        elif args.command == 'reconcile-google-public':
+            from google_public import GooglePublicReadback
+            evidence_directory=args.evidence_state.expanduser().resolve() if args.evidence_state else directory
+            public=GooglePublicReadback(Workflow(settings,chrome,evidence_directory),args.context,args.post_id)
+            Engine(store,public,settings.policy).reconcile(args.job)
+            result=store.export();store.backup()
         elif args.command in {'resume', 'adopt-profile-change'}:
             job = store.get(args.job)
             if store.has_intent(args.job):

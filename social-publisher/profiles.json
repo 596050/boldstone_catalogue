@@ -79,6 +79,26 @@
       "caption_limit": 3000,
       "workflow": "workflows/linkedin.json",
       "audience_control_label": "Post to Anyone"
+    },
+    "boldstone_google_business_profile": {
+      "platform": "google_business_profile",
+      "channel_key": "google_business_profile:15009857378722117958",
+      "account_name": "Boldstone",
+      "location_id": "15009857378722117958",
+      "business_path": "/local/business/15009857378722117958/",
+      "website_url": "https://boldstonesculpture.com",
+      "allowed_hosts": [
+        "www.google.com"
+      ],
+      "compose_url": "https://www.google.com/local/business/15009857378722117958/promote/updates/add",
+      "inventory_url": "https://www.google.com/local/business/15009857378722117958/promote/updates",
+      "post_submit_paths": [
+        "/local/business/15009857378722117958/promote/updates",
+        "/local/business/15009857378722117958/promote/updates/add"
+      ],
+      "caption_limit": 1500,
+      "max_media_bytes": 5000000,
+      "workflow": "workflows/google_business_profile.json"
     }
   }
 }

@@ -7,7 +7,122 @@ posts through Sally Price’s normal composer. Accounts, routes, exact controls
 and recovery workflows are editable JSON. There are no browser-profile copies,
 social API tokens, browser debugging ports or Python dependencies to install.
 
-The batch on 19 November 2026 published and independently read back
+Google Business Profile Updates are supported by
+`workflows/google_business_profile.json` and `google_business.py`. Their original
+image uploads use the background AppleScript file-input path. A Google target
+supplies its full description and an exact HTTPS `purchase_url`. The optional
+`button_label` is **Buy** by default or **Learn more** for an older commission,
+installation or project without an individual shop page. Its profile config contains the verified numeric `location_id`, native
+manager URLs, allowed purchase hosts, a 1,500-character limit and a 5 MB media
+limit. SVG photo previews must decode successfully and match the job and source
+hash before Post is enabled by the supervisor.
+
+The Google manager check requires the exact description in its published
+inventory, a **Published** status and one stable location/post ID. A separate
+inspection then checks the saved description, loaded photograph and exact action button
+destination. Google receipts link to that unique Business Profile post record;
+these are managed-record links rather than customer-facing share links.
+Every inventory readback refreshes the independent reader, including when its
+URL is unchanged. Repeated menu attributes for the same post ID are accepted;
+different native IDs or multiple matching cards remain ambiguous.
+Pending or rejected posts retain their original intent for read-only
+reconciliation and are never reported as published or submitted again.
+An intact original composer can finish its first Post after an interrupted
+pre-click check. `resume_unattempted` requires the committed original upload,
+unchanged original blob URL, job, profile, caption and native submission marker
+to prove that this script has not clicked Post in that same document. It checks
+the independently loaded native inventory for an existing record and records
+that check's limited scope. The absent atomic marker in the unchanged
+original document is the basis for this first click. The original publish
+intent remains; a separate proof-bound resume event precedes the first click.
+A clicked marker, reloaded document or changed upload blocks this recovery.
+Its first actual click receives a new bounded window of read-only checks;
+verification counters remain cumulative and the original intent is retained.
+The catch-up can release an exact retained create form only after inspecting
+the saved server record's full description, loaded media and action destination.
+Its hash-bound hold receipt lets unrelated posts continue. A held record still
+needs a later Published readback and is excluded from completion totals.
+For video processing, the catch-up can instead preserve Google's exact inspected
+processing-placeholder image, native Pending record, saved description and
+destination, and the original committed video upload proof. This explicitly
+records `loaded_saved_video_verified: false`; it never satisfies publication
+verification. Original video files remain intact for subsequent readback.
+
+`google_public.py` also verifies individual Google post views when the manager
+cannot reopen a saved video or load older pages. Calibration binds the visible
+business feature and native post IDs to the configured location and profile
+hash. It checks the exact rendered article, author, full caption and action.
+It fetches only the native media URL shown on that article; ffprobe and ffmpeg
+verify video metadata and decode the complete film without browser focus or
+audio. A stale article under a changed URL, missing post, rejected post, changed
+profile or mismatched media cannot pass. `reconcile-google-public` exposes this
+read-only path with an explicit context file and existing native post ID.
+
+A caption revision of a concretely rejected existing Google post uses a
+separate `GOOGLE_REJECTED_REVISION_INTENT`. Its proof binds the original rejected
+card, caption, photo hash, profile and exact native post ID. It never changes the
+frozen job payload or creates a replacement post. Readback uses the recorded
+revised caption and exact same post ID; an unconfirmed edit remains unconfirmed.
+
+The sculpture-history catch-up also uses a frozen Google video workflow. MP4
+jobs require that workflow, verified metadata of up to 30 seconds and at least
+720p, and the same 5 MB delivery limit. A loaded native video must match its
+duration, aspect ratio and input hash before Post; a photograph cannot satisfy
+that guard. Verification then reopens the saved Google record and checks its
+loaded video, full caption, Published status and exact action destination.
+Video receipts use `video_verified`, separately from photo receipts.
+
+The [history review](../outputs/google-social-catchup-20261120/history-review.html)
+tracks the current catch-up. Original short films are preserved. Longer films
+are delivered as complete, numbered sequences of clips, with original masters,
+conversion commands, hashes and frame counts retained. One public reel exposes
+only its Instagram watch page; its counterpart is explicitly labelled as an
+archive still with the original reel link. The video batch uses its own frozen
+account configuration and two separately reserved existing background tabs,
+while retaining the shared durable outbox and never replaying Post.
+
+Google's Buy-link field needs its focus/input/blur sequence before its native
+controller accepts the URL. A visible value alone is insufficient: the ready
+guard also checks the browser's URL validity and rejects Google's error flag.
+New valid forms may omit that flag; a corrected form can explicitly set it false.
+For a saved, specific **A link is required for this button** client-side rejection, the
+explicit `repair-google-link-validation` command checks the exact rejected
+form evidence, the same live rejection, the unchanged owned job and the fresh
+inventory's absence of that post before permitting a correction. It preserves the original publish
+intent and records a separate correction intent and page marker for that exact
+rejection. The same rejection cannot be retried, and each delivery allows at
+most two proven corrections. A timeout or missing inventory row alone never
+permits this action. Native URL editing uses Chrome's `insertText` editing path.
+
+Use canonical Google manager URLs without embedded-frame query parameters.
+Full navigation to the saved editor is deliberate: its internal SPA links can
+otherwise expect a surrounding Google Search parent frame. The verified post
+record is checked before a completed standalone composer is released.
+
+Google preparation uses `google_fast.py` and `google-fast.applescript` to check
+the exact normal Chrome tab and record its background state within one native
+operation. Read-only inspections retain the standard URL and window-mode
+checks. The final Post action and explicit validation corrections always use the
+standard publishing bridge and durable intent guard. Facebook and LinkedIn
+continue through their existing bridge. This reduces repeated state queries
+during large Google catch-ups without adding browser permissions or a new
+signed-in browser instance.
+
+The latest regular batch across all four platforms started on 19 November and completed on 20 November 2026:
+**five posts each on Facebook, Instagram, LinkedIn and Google Business Profile,
+20 in total**. All twenty native records were independently verified, including
+Google's Published statuses, saved descriptions, decoded photographs and exact
+Buy URLs. All ten Meta Commerce associations were also verified. The
+[latest batch review](../outputs/social-script-20261119-2/review.html) links to
+each native record; its [execution checks](../outputs/social-script-20261119-2/execution-checks.json)
+reconcile twenty original publish intents, twenty terminal receipts, five source
+photo hashes and 145 passing automated tests. The first Google post required
+two corrections of explicit client-side link validation rejections during
+calibration; those failed attempts remain separately recorded. The final
+workflow published the following four Google updates with one Post attempt each.
+No posting-window foregrounding was recorded in this batch.
+
+The earlier batch on 19 November 2026 published and independently read back
 **five new posts on each of Facebook, Instagram and LinkedIn: 15 in total**.
 Each receipt verifies the native permalink, full caption, author and loaded
 photograph. Authored purchase links were checked on Facebook and LinkedIn,
@@ -187,6 +302,7 @@ that were deliberately set aside, using the current IDs from that output:
 /usr/bin/python3 publisher.py bind --profile boldstone_facebook --window WINDOW_ID --tab FACEBOOK_TAB_ID
 /usr/bin/python3 publisher.py bind --profile boldstone_instagram --window WINDOW_ID --tab INSTAGRAM_TAB_ID
 /usr/bin/python3 publisher.py bind --profile sally_linkedin --window WINDOW_ID --tab LINKEDIN_TAB_ID
+/usr/bin/python3 publisher.py bind --profile boldstone_google_business_profile --window WINDOW_ID --tab GOOGLE_TAB_ID
 /usr/bin/python3 publisher.py bind --profile verification --window WINDOW_ID --tab VERIFICATION_TAB_ID
 ```
 
@@ -198,6 +314,7 @@ file when the site’s current labels or markup differ:
 /usr/bin/python3 publisher.py inspect --profile boldstone_facebook
 /usr/bin/python3 publisher.py inspect --profile boldstone_instagram
 /usr/bin/python3 publisher.py inspect --profile sally_linkedin
+/usr/bin/python3 publisher.py inspect --profile boldstone_google_business_profile
 ```
 
 The shared verification tab opens native post links and Published inventories
@@ -221,10 +338,26 @@ Accessibility access or System Events.
 
 Use `examples/batch.example.json` as the schema. Each sculpture has independent
 target captions and a hash of its reviewed original photograph. A five-sculpture,
-three-profile manifest creates 15 independently tracked deliveries. There is no
+four-profile manifest creates 20 independently tracked deliveries. There is no
 automatic extra crosspost. The destination must read back as the intended
 platform alone. Ad-post mode, Story sharing, scheduling and boost controls are
 checked before upload and again before publication when exposed by the composer.
+Google's target uses the `boldstone_google_business_profile` profile, a full
+description within 1,500 characters and an exact HTTPS `purchase_url` on the
+configured website. Its original PNG or JPEG must fit Google's 5 MB profile
+limit. Prepared-post sources include a `google_business_profile` caption and
+matching `tracked_urls.google_business_profile`; the builder carries both into
+the fourth target.
+
+The 20 November catalogue catch-up copied 59 missing Meta sculpture posts to
+Google and independently verified all 64 catalogue sculptures, including the
+five already present. Original photographs and any proportional size copies
+have separate hash receipts. The wider historical sculpture audit and its
+additional Google batches are tracked in
+[`outputs/google-social-catchup-20261120/history-review.html`](../outputs/google-social-catchup-20261120/history-review.html).
+Older captions identify the sculpture archive and use a checked **Learn more**
+destination. Matching Facebook and Instagram copies share one stable source
+key. A frozen manifest is resumed, never rebuilt after publication starts.
 
 The 17 November Commerce audit found that the 16 November batch omitted shopping
 tags. Its native publication receipts prove captions, authors and photographs;

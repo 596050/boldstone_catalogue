@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/finish_facebook_export_calendar.py", line 23, in <module>
+    print(Chrome.call(c,name,{'op':'click','locator':[{'selector':'[role=button]','name':'Update','in_view':True}]}),flush=True)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 159, in call
+    return self.evaluate(b, request, readonly=readonly)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 152, in evaluate
+    raise Hold(code, result.get('detail', code), retryable=retryable)
+common.Hold: CONTROL_DISABLED

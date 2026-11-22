@@ -1,0 +1,1 @@
+social-publisher/Run.applescript:821:848: execution error: {  "status": "HELD",  "code": "GOOGLE_LINK_VALIDATION_REJECTED",  "detail": "The native form rejected its Buy link; preserve the intent and inspect the saved rejection evidence"} (2)

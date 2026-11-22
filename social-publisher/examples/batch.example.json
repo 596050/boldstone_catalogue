@@ -28,6 +28,10 @@
         },
         "sally_linkedin": {
           "caption": "The complete reviewed LinkedIn caption, with its purchase URL."
+        },
+        "boldstone_google_business_profile": {
+          "caption": "The complete reviewed Google update, within 1,500 characters.",
+          "purchase_url": "https://boldstonesculpture.com/buy/p/REPLACE-WITH-PRODUCT-SLUG"
         }
       }
     }

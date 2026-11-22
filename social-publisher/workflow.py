@@ -37,7 +37,7 @@ class Workflow:
             raise Hold('PROFILE_CHANGED', 'Queued account details or workflow changed; inspect and explicitly adopt the change before submission')
         if digest(Path(p['media_path']).read_bytes()) != p['media_sha256']:
             raise Hold('MEDIA_HASH_CHANGED')
-        return {**profile, **p, 'id': job['id'], 'job': job['id'], 'mediaSha256': p['media_sha256']}
+        return {'button_label':'Buy', **profile, **p, 'id': job['id'], 'job': job['id'], 'mediaSha256': p['media_sha256']}
 
     @staticmethod
     def enabled_steps(steps, context):
@@ -76,6 +76,12 @@ class Workflow:
 
     def guards(self, recipe, context):
         return list(self.enabled_steps(recipe['ready'], context))
+
+    def reconciliation_epoch(self, job):
+        if job['payload'].get('platform')!='google_business_profile':return 0
+        from google_business import rejected_revision_context,unattempted_reconciliation_base
+        context=self.context(job)
+        return max(rejected_revision_context(context,self.directory).get('caption_revision_verification_base',0),unattempted_reconciliation_base(context,self.directory))
 
     def photo_alt(self, profile_id, step):
         if not self.chrome.call(profile_id, {'op': 'exists', 'locator': step['panel']})['exists']:
@@ -299,11 +305,12 @@ class Workflow:
         ready = self.chrome.call(name, request)
         atomic_json(self.directory / 'evidence' / (job['id'] + '-ready.json'), {'utc': utc(), 'job_id': job['id'], 'ready': ready})
         if c['platform']=='google_business_profile':
-            photos=[check['photo'] for check in ready['checks'] if check.get('photo')]
-            if len(photos)!=1:raise Hold('GOOGLE_PREPARED_PHOTO_RECEIPT_MISSING')
-            atomic_json(self.directory/'evidence'/(job['id']+'-google-photo.json'),
+            kind='video' if c['media_type']=='video/mp4' else 'photo'
+            photos=[check[kind] for check in ready['checks'] if check.get(kind)]
+            if len(photos)!=1:raise Hold('GOOGLE_PREPARED_'+kind.upper()+'_RECEIPT_MISSING')
+            atomic_json(self.directory/'evidence'/(job['id']+'-google-'+kind+'.json'),
                         {'utc':utc(),'job_id':job['id'],'profile_hash':c['profile_hash'],
-                         'media_sha256':c['media_sha256'],'photo':photos[0]})
+                         'media_sha256':c['media_sha256'],kind:photos[0]})
         return ready
 
     def close(self):

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/social-publisher/journal.py", line 24, in __init__
+    fcntl.flock(self.lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+BlockingIOError: [Errno 35] Resource temporarily unavailable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/hold_google_unpublished.py", line 12, in <module>
+    with Store(state) as store:
+  File "/Users/tprice/Documents/boldstone/social-publisher/journal.py", line 27, in __init__
+    raise Hold('RUNNER_ALREADY_ACTIVE', 'Another process owns this publisher state')
+common.Hold: Another process owns this publisher state

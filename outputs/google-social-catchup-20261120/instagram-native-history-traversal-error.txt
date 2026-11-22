@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/traverse_instagram_history.py", line 66, in <module>
+    if time.monotonic()>deadline:raise Hold('SOURCE_NEXT_NAVIGATION_NOT_OBSERVED')
+common.Hold: SOURCE_NEXT_NAVIGATION_NOT_OBSERVED
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/traverse_instagram_history.py", line 29, in <module>
+    try:s=c.call(name,{'op':'source_modal'});break
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/source_chrome.py", line 17, in call
+    return super().call(name,request)
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_fast.py", line 31, in call
+    return self.evaluate(binding,request,readonly=True)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 152, in evaluate
+    raise Hold(code, result.get('detail', code), retryable=retryable)
+common.Hold: SOURCE_AUTHOR_OR_CAPTION_MISSING
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/traverse_instagram_history.py", line 29, in <module>
+    try:s=c.call(name,{'op':'source_modal'});break
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/source_chrome.py", line 17, in call
+    return super().call(name,request)
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_fast.py", line 31, in call
+    return self.evaluate(binding,request,readonly=True)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 152, in evaluate
+    raise Hold(code, result.get('detail', code), retryable=retryable)
+common.Hold: SOURCE_AUTHOR_OR_CAPTION_MISSING
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/traverse_instagram_history.py", line 48, in <module>
+    if len(raw)>5_000_000 or raw[:2]!=b'\xff\xd8':raise Hold('SOURCE_PHOTO_FORMAT_REFUSED')
+common.Hold: SOURCE_PHOTO_FORMAT_REFUSED

@@ -17,12 +17,14 @@ class Engine:
         if not self.store.has_intent(job_id):
             raise Hold('MISSING_INTENT', 'Only a recorded submission can be reconciled')
         attempts = self.store.verification_attempt(job_id)
+        epoch=0
         try:
+            if hasattr(self.adapter,'reconciliation_epoch'):epoch=self.adapter.reconciliation_epoch(job)
             receipt = self.adapter.verify(job, native_url=native_url)
             self.store.published(job_id, receipt)
             return receipt
         except Exception as error:
-            delay = min(self.policy['retry_max_seconds'], self.policy['retry_base_seconds'] * (2 ** min(attempts - 1, 10)))
+            delay = min(self.policy['retry_max_seconds'], self.policy['retry_base_seconds'] * (2 ** min(max(0,attempts-epoch-1), 10)))
             self.store.change(job_id, 'OUTCOME_UNKNOWN', str(error), next_attempt=self.now() + delay)
             raise
 
@@ -31,7 +33,8 @@ class Engine:
         if job['state'] in {'PUBLISHED', 'HISTORICAL_VERIFIED', 'BLOCKED'}:
             return
         if self.store.has_intent(job_id) or job['state'] in PENDING_INTENT:
-            if job['next_attempt'] > self.now() or job['verify_attempts'] >= self.policy.get('max_reconcile_attempts', 8):
+            epoch=self.adapter.reconciliation_epoch(job) if hasattr(self.adapter,'reconciliation_epoch') else 0
+            if job['next_attempt'] > self.now() or job['verify_attempts'] >= epoch+self.policy.get('max_reconcile_attempts', 8):
                 return
             try:
                 self.reconcile(job_id)

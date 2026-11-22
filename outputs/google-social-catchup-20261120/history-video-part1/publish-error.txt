@@ -1,0 +1,127 @@
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 332, in confirm_upload_preview
+    return self.call(name,{'op':'assert','checks':[check],**context})
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_fast.py", line 31, in call
+    return self.evaluate(binding,request,readonly=True)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 152, in evaluate
+    raise Hold(code, result.get('detail', code), retryable=retryable)
+common.Hold: [{"selector":"main div[data-file-id] video"}]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/publish_video_batch.py", line 40, in <module>
+    hold_unpublished(store,settings,chrome,job['id'])
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/hold_google_unpublished.py", line 20, in hold_unpublished
+    chrome.navigate(reader,native,job_id,recovery=True);media=chrome.confirm_upload_preview(reader,guard,c);saved=chrome.call(reader,{'op':'snapshot','fullDocument':True,'includeHTML':True});checked=saved_details(saved,media,c)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 337, in confirm_upload_preview
+    raise Hold('UPLOAD_PREVIEW_NOT_CONFIRMED','File events were dispatched but no loaded photo was confirmed; inspect this draft without uploading again')
+common.Hold: File events were dispatched but no loaded photo was confirmed; inspect this draft without uploading again
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 332, in confirm_upload_preview
+    return self.call(name,{'op':'assert','checks':[check],**context})
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_fast.py", line 31, in call
+    return self.evaluate(binding,request,readonly=True)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 152, in evaluate
+    raise Hold(code, result.get('detail', code), retryable=retryable)
+common.Hold: [{"selector":"main div[data-file-id] video"}]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/hold_google_unpublished.py", line 29, in hold_unpublished
+    media=chrome.confirm_upload_preview(reader,guard,c);saved=chrome.call(reader,{'op':'snapshot','fullDocument':True,'includeHTML':True});checked=saved_details(saved,media,c)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 337, in confirm_upload_preview
+    raise Hold('UPLOAD_PREVIEW_NOT_CONFIRMED','File events were dispatched but no loaded photo was confirmed; inspect this draft without uploading again')
+common.Hold: File events were dispatched but no loaded photo was confirmed; inspect this draft without uploading again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/publish_video_batch.py", line 43, in <module>
+    hold_unpublished(store,settings,chrome,job['id'])
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/hold_google_unpublished.py", line 40, in hold_unpublished
+    assert not chrome.call(reader,{'op':'exists','locator':recipe['google_photo']['locator']})['exists']
+KeyError: 'google_photo'
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/publish_video_batch.py", line 21, in <module>
+    assert source['url']=='https://www.google.com/local/business/15009857378722117958/promote/updates'
+AssertionError
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 332, in confirm_upload_preview
+    return self.call(name,{'op':'assert','checks':[check],**context})
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_fast.py", line 31, in call
+    return self.evaluate(binding,request,readonly=True)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 152, in evaluate
+    raise Hold(code, result.get('detail', code), retryable=retryable)
+common.Hold: [{"selector":"main div[data-file-id] video"}]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/hold_google_unpublished.py", line 36, in hold_unpublished
+    media=chrome.confirm_upload_preview(reader,guard,c);saved=chrome.call(reader,{'op':'snapshot','fullDocument':True,'includeHTML':True});checked=saved_details(saved,media,c)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 337, in confirm_upload_preview
+    raise Hold('UPLOAD_PREVIEW_NOT_CONFIRMED','File events were dispatched but no loaded photo was confirmed; inspect this draft without uploading again')
+common.Hold: File events were dispatched but no loaded photo was confirmed; inspect this draft without uploading again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/publish_video_batch.py", line 52, in <module>
+    hold_unpublished(store,settings,chrome,job['id'])
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/hold_google_unpublished.py", line 55, in hold_unpublished
+    assert digest(raw)=='870b42cdfb69749d117b5cdc133c822d7108cc650605e98982f51eb0d66241df'
+AssertionError
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 332, in confirm_upload_preview
+    return self.call(name,{'op':'assert','checks':[check],**context})
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_fast.py", line 31, in call
+    return self.evaluate(binding,request,readonly=True)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 152, in evaluate
+    raise Hold(code, result.get('detail', code), retryable=retryable)
+common.Hold: [{"selector":"main div[data-file-id] video"}]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/hold_google_unpublished.py", line 36, in hold_unpublished
+    media=chrome.confirm_upload_preview(reader,guard,c);saved=chrome.call(reader,{'op':'snapshot','fullDocument':True,'includeHTML':True});checked=saved_details(saved,media,c)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 337, in confirm_upload_preview
+    raise Hold('UPLOAD_PREVIEW_NOT_CONFIRMED','File events were dispatched but no loaded photo was confirmed; inspect this draft without uploading again')
+common.Hold: File events were dispatched but no loaded photo was confirmed; inspect this draft without uploading again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/publish_video_batch.py", line 60, in <module>
+    hold_unpublished(store,settings,chrome,job['id'])
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/hold_google_unpublished.py", line 55, in hold_unpublished
+    assert digest(raw)=='870b42cdfb69749d117b5cdc133c822d7108cc650605e98982f51eb0d66241df'
+AssertionError
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 332, in confirm_upload_preview
+    return self.call(name,{'op':'assert','checks':[check],**context})
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_fast.py", line 31, in call
+    return self.evaluate(binding,request,readonly=True)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 152, in evaluate
+    raise Hold(code, result.get('detail', code), retryable=retryable)
+common.Hold: [{"selector":"main div[data-file-id] video"}]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/hold_google_unpublished.py", line 36, in hold_unpublished
+    media=chrome.confirm_upload_preview(reader,guard,c);saved=chrome.call(reader,{'op':'snapshot','fullDocument':True,'includeHTML':True});checked=saved_details(saved,media,c)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 337, in confirm_upload_preview
+    raise Hold('UPLOAD_PREVIEW_NOT_CONFIRMED','File events were dispatched but no loaded photo was confirmed; inspect this draft without uploading again')
+common.Hold: File events were dispatched but no loaded photo was confirmed; inspect this draft without uploading again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/publish_video_batch.py", line 60, in <module>
+    hold_unpublished(store,settings,chrome,job['id'])
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/hold_google_unpublished.py", line 55, in hold_unpublished
+    assert digest(raw)=='870b42cdfb69749d117b5cdc133c822d7108cc650605e98982f51eb0d66241df'
+AssertionError

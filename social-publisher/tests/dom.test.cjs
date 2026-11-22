@@ -40,9 +40,10 @@ class Textarea extends Element {
   set value(v) { this._value = v; }
 }
 class Input extends Element {
-  constructor(type) { super('', { type }, 'INPUT'); this._value = ''; }
+  constructor(type) { super('', { type }, 'INPUT'); this._value = ''; this.validity={valid:true}; }
   get value() { return this._value; }
   set value(v) { this._value = v; }
+  select() {this.selected=true;}
 }
 class Transfer {
   constructor() { this.files = []; this.data={}; this.items = { add: f => this.files.push(f) }; }
@@ -82,12 +83,74 @@ test('missing and ambiguous controls are held without clicking a fallback', () =
   assert.equal(a.clicked + b.clicked, 0);
   assert.equal(f.run({ op: 'click', locator: { selector: '#absent' } }).code, 'CONTROL_MISSING');
 });
+test('viewport scoping excludes an offscreen duplicate without choosing an arbitrary match',()=>{
+ const f=fixture(),shown=new Element('More options'),offscreen=new Element('More options');f.context.window={innerWidth:1000,innerHeight:800};
+ shown.getBoundingClientRect=()=>({left:10,top:20,right:110,bottom:100,width:100,height:80});
+ offscreen.getBoundingClientRect=()=>({left:10,top:900,right:110,bottom:980,width:100,height:80});
+ f.nodes.button=[shown,offscreen];const result=f.run({op:'click',locator:[{selector:'button',name:'More options',in_view:true}]});
+ assert.equal(result.ok,true);assert.equal(shown.clicked,1);assert.equal(offscreen.clicked,0);
+});
+test('history readers reject a different profile and a post without the owned author', () => {
+  const f=fixture();
+  for(const op of ['source_grid','source_modal','scroll_page']) assert.equal(f.run({op}).code,'SOURCE_PROFILE_REQUIRED');
+  f.context.location.href='https://www.instagram.com/p/source/';
+  const dialog=new Element('',{},'DIV');dialog.nodes.h1=[new Element('Original sculpture caption',{},'H1')];
+  f.nodes['[role=dialog]']=[dialog];
+  assert.equal(f.run({op:'source_modal'}).code,'SOURCE_AUTHOR_OR_CAPTION_MISSING');
+});
+test('the history modal reader keeps the owned caption and excludes recommendation photos', () => {
+  const f=fixture();f.context.location.href='https://www.instagram.com/p/source/';
+  const dialog=new Element('',{},'DIV'),author=new Element('boldstonesculpture',{},'A');author.href='https://www.instagram.com/boldstonesculpture/';
+  const photo=new Element('',{},'IMG');photo.src='https://scontent.cdninstagram.com/original.jpg';photo.alt='Original relief';
+  dialog.nodes.h1=[new Element('Original sculpture caption',{},'H1')];dialog.nodes['h2 a[href]']=[author];dialog.nodes.img=[photo];
+  f.nodes['[role=dialog]']=[dialog];f.nodes.img=[new Element('Unrelated recommendation',{},'IMG')];
+  const result=f.run({op:'source_modal'});
+  assert.equal(result.caption,'Original sculpture caption');assert.equal(result.photos.length,1);assert.equal(result.photos[0].src,photo.src);assert.equal(result.author,'boldstonesculpture');
+});
+test('an owned post without a caption remains readable through its native author header',()=>{
+  const f=fixture();f.context.location.href='https://www.instagram.com/p/source/?img_index=1';
+  const dialog=new Element('',{},'DIV'),author=new Element('boldstonesculpture',{},'A');author.href='https://www.instagram.com/boldstonesculpture/';
+  dialog.nodes['header a[href]']=[author];f.nodes['[role=dialog]']=[dialog];
+  const result=f.run({op:'source_modal'});assert.equal(result.ok,true);assert.equal(result.caption,'');assert.equal(result.author,'boldstonesculpture');
+});
 test('generic operations cannot click Publish, Post or Share', () => {
   for (const name of ['Publish', 'Post', 'Share', 'Publish post', 'Schedule now', 'Create ad', 'Boost', 'Promote']) {
     const f = fixture(), button = new Element(name); f.nodes['button'] = [button];
     assert.equal(f.run({ op: 'click', locator: { selector: 'button' } }).code, 'GUARDED_ACTION_REQUIRED');
     assert.equal(button.clicked, 0);
   }
+});
+test('published Meta platform submenu is navigation, while other post buttons remain guarded',()=>{
+ const f=fixture();Object.assign(f.context.location,{hostname:'business.facebook.com',pathname:'/latest/posts/published_posts/'});
+ const menu=new Element('Facebook post\nInstagram post',{role:'menu'}),button=new Element('Facebook post',{role:'button'});button.parent=menu;f.nodes.button=[button];
+ assert.equal(f.run({op:'click',locator:{selector:'button'}}).ok,true);assert.equal(button.clicked,1);
+ menu.innerText='Facebook post Publish';assert.equal(f.run({op:'click',locator:{selector:'button'}}).code,'GUARDED_ACTION_REQUIRED');
+ menu.innerText='Facebook post Instagram post';f.context.location.pathname='/latest/composer/';
+ assert.equal(f.run({op:'click',locator:{selector:'button'}}).code,'GUARDED_ACTION_REQUIRED');assert.equal(button.clicked,1);
+});
+test('Google native videos require loaded metadata, exact duration and aspect ratio',()=>{
+ const f=fixture();Object.assign(f.context.location,{href:'https://www.google.com/local/business/123/promote/updates/add',pathname:'/local/business/123/promote/updates/add'});
+ const v=new Element('',{},'VIDEO');Object.assign(v,{src:'blob:https://www.google.com/native-upload',videoWidth:720,videoHeight:1280,duration:3.033333,readyState:4});f.nodes.video=[v];
+ const request={op:'assert',job:'clip',mediaSha256:'a'.repeat(64),checks:[{locator:{selector:'video'},video:true,duration:3.033333,width:720,height:1280}]};
+ assert.equal(f.run(request).checks[0].video.media_type,'video/mp4');
+ v.readyState=1;assert.equal(f.run(request).code,'VIDEO_NOT_LOADED');v.readyState=4;
+ v.duration=10;assert.equal(f.run(request).code,'NATIVE_VIDEO_MISMATCH');v.duration=3.033333;
+ v.videoWidth=1280;assert.equal(f.run(request).code,'NATIVE_VIDEO_MISMATCH');v.videoWidth=720;
+ v.src='https://unrelated.example/video.mp4';assert.equal(f.run(request).code,'VIDEO_SOURCE_INVALID');
+});
+test('a photograph cannot satisfy a Google video guard',()=>{
+ const f=fixture();f.context.location.href='https://www.google.com/local/business/123/promote/updates/456/edit';
+ f.nodes.media=[new Element('',{},'IMG')];
+ assert.equal(f.run({op:'assert',job:'clip',mediaSha256:'a'.repeat(64),checks:[{locator:{selector:'media'},video:true,duration:3,width:720,height:1280}]}).code,'VIDEO_CONTEXT_REQUIRED');
+});
+test('video readiness is checked in the one allowed Post turn and a retry cannot post again',()=>{
+ const f=fixture();Object.assign(f.context.location,{href:'https://www.google.com/local/business/123/promote/updates/add',pathname:'/local/business/123/promote/updates/add'});
+ const video=new Element('',{},'VIDEO'),post=new Element('Post');Object.assign(video,{src:'blob:https://www.google.com/clip',readyState:1,videoWidth:720,videoHeight:720,duration:10});f.nodes.video=[video];f.nodes.post=[post];
+ f.context.__boldstoneMedia={job:'clip',sha256:'a'.repeat(64),committed:true};
+ const request={op:'submit',job:'clip',mediaSha256:'a'.repeat(64),checks:[{locator:{selector:'video'},video:true,duration:10,width:720,height:720}],submit:{selector:'post'}};
+ assert.equal(f.run(request).code,'VIDEO_NOT_LOADED');assert.equal(post.clicked,0);
+ video.readyState=4;assert.equal(f.run(request).ok,true);assert.equal(post.clicked,1);
+ assert.equal(f.run(request).code,'SUBMIT_ALREADY_CLICKED');assert.equal(post.clicked,1);
 });
 test('the OS file picker cannot be opened by a generic click', () => {
   const f = fixture(), input = new Input('file'); f.nodes['input'] = [input];
@@ -142,6 +205,51 @@ test('product button URL fields accept an exact HTTPS destination and reject exe
   for(const bad of ['javascript:alert(1)','https://user:secret@example.com/']){
     assert.equal(f.run({op:'set_text',locator:{selector:'input'},value:bad}).code,'WRONG_DESTINATION');assert.equal(input.value,url);
   }
+});
+function googleCorrectionFixture() {
+  const f=fixture(),post=new Element('Post'),input=new Input('url');input.value='https://boldstonesculpture.com/buy/p/one';
+  f.context.location.href='https://www.google.com/local/business/123/promote/updates/add';
+  f.root.setAttribute('data-boldstone-job','one');f.root.setAttribute('data-boldstone-submission-one','attempted');
+  f.context.__boldstoneMedia={job:'one',sha256:'hash',committed:true};
+  f.nodes['#post']=[post];f.nodes['input[type="url"][aria-invalid="false"]']=[input];
+  return {f,post,request:{op:'submit_google_validation_correction',job:'one',mediaSha256:'hash',
+    submit:[{selector:'#post'}],checks:[],purchaseURL:input.value,rejectionEvidenceSha256:'a'.repeat(64)}};
+}
+test('a proven Google validation correction has its own durable page marker and cannot replay',()=>{
+  const {f,post,request}=googleCorrectionFixture();
+  assert.equal(f.run(request).status,'CLICKED_UNCONFIRMED');assert.equal(post.clicked,1);
+  assert.equal(f.root.getAttribute('data-boldstone-submission-one'),'attempted');
+  assert.equal(f.run(request).code,'SUBMIT_ALREADY_CLICKED');assert.equal(post.clicked,1);
+});
+test('Google URL entry can use Chrome native insertText without changing other fields',()=>{
+  const f=fixture(),input=new Input('url');f.nodes.input=[input];
+  f.context.location.href='https://www.google.com/local/business/123/promote/updates/add';
+  f.context.document.execCommand=(command,unused,value)=>{assert.equal(command,'insertText');assert.equal(input.focused,true);assert.equal(input.selected,true);input.value=value;return true;};
+  const url='https://boldstonesculpture.com/buy/p/one';
+  assert.equal(f.run({op:'set_text',locator:{selector:'input'},value:url,method:'insert_text'}).ok,true);
+  assert.equal(input.value,url);
+  f.context.location.href='https://example.com/';input.value='';
+  assert.equal(f.run({op:'set_text',locator:{selector:'input'},value:url,method:'insert_text'}).code,'NATIVE_URL_EDITOR_REQUIRED');
+});
+test('native field guards accept an untouched valid URL and reject browser or Google errors',()=>{
+  const f=fixture(),input=new Input('url');input.value='https://boldstonesculpture.com/buy/p/one';f.nodes.input=[input];
+  const request={op:'assert',checks:[{locator:{selector:'input'},text:input.value,valid:true}]};
+  assert.equal(f.run(request).checks[0].valid,true);
+  input.attrs['aria-invalid']='true';assert.equal(f.run(request).code,'NATIVE_FIELD_INVALID');
+  input.attrs['aria-invalid']='false';input.validity.valid=false;assert.equal(f.run(request).code,'NATIVE_FIELD_INVALID');
+});
+test('Google validation correction requires the original owned job, submission and evidence hash',()=>{
+  for(const change of [x=>x.f.root.setAttribute('data-boldstone-job','other'),x=>x.f.root.setAttribute('data-boldstone-submission-one',''),
+      x=>x.request.rejectionEvidenceSha256='',x=>x.f.context.location.href='https://www.linkedin.com/sharing/compose']){
+    const x=googleCorrectionFixture();change(x);
+    assert.equal(x.f.run(x.request).code,'GOOGLE_VALIDATION_CORRECTION_CONTEXT_MISSING');assert.equal(x.post.clicked,0);
+  }
+});
+test('a validation correction still requires the exact Google-validated product URL',()=>{
+  const x=googleCorrectionFixture();x.request.purchaseURL='https://example.com/';
+  assert.equal(x.f.run(x.request).code,'GOOGLE_LINK_NOT_VALIDATED');assert.equal(x.post.clicked,0);
+  const y=googleCorrectionFixture();y.f.nodes['input[type="url"][aria-invalid="false"]']=[];
+  assert.equal(y.f.run(y.request).code,'CONTROL_MISSING');assert.equal(y.post.clicked,0);
 });
 test('Google SVG photograph guards require a decoded image bound to this job and source hash', () => {
   const f=fixture(), photo=new Element('',{href:'blob:https://www.google.com/photo-one'},'image');photo.localName='image';photo.namespaceURI='http://www.w3.org/2000/svg';f.nodes['#photo']=[photo];
@@ -405,4 +513,38 @@ test('a scoped success link can identify the native post outside alert roles', (
   assert.equal(f.run(request).url,link.href);
   const other=new Element('View post',{},'A');other.href='https://www.linkedin.com/feed/update/urn:li:activity:789/';f.nodes['a[href]'].push(other);
   assert.equal(f.run(request).code,'AMBIGUOUS_NATIVE_POST');
+});
+
+function rejectedRevisionFixture() {
+  const f=fixture();f.context.location.href='https://www.google.com/local/business/123/promote/updates/456/edit';f.context.location.pathname='/local/business/123/promote/updates/456/edit';
+  const caption=new Textarea('Revised sculpture caption'),photo=new Element('',{href:'blob:https://www.google.com/same-photo'},'image');photo.localName='image';photo.namespaceURI='http://www.w3.org/2000/svg';
+  const button=new Element('Post'),url=new Input('url'),schedule=new Input('checkbox'),heading=new Element('Edit update');url.value='https://boldstonesculpture.com/';
+  Object.assign(f.nodes,{'h1':[heading],'#account':[new Element('Boldstone')],'textarea[maxlength="1500"]':[caption],'#photo':[photo],'#url':[url],'#schedule':[schedule],'footer button':[button]});
+  f.context.Image=class {set src(value){this.naturalWidth=1000;this.naturalHeight=1000;this.onload();}};
+  const request={op:'submit_google_rejected_revision',nativeURL:f.context.location.href,job:'one',mediaSha256:'a'.repeat(64),rejectionEvidenceSha256:'b'.repeat(64),originalCaption:'Original sculpture caption',revisedCaption:caption.value,
+    checks:[{purpose:'account',url_path_prefix:'/local/business/123/',locator:{selector:'#account'},text:'Boldstone'},{purpose:'caption',locator:{selector:'textarea[maxlength="1500"]'},text:caption.value},{purpose:'photo',locator:{selector:'#photo'},image:true,svg_image:true},{purpose:'purchase',locator:{selector:'#url'},text:url.value,valid:true},{purpose:'schedule',locator:{selector:'#schedule'},checked:false}]};
+  f.run({op:'probe_svg_photo',locator:{selector:'#photo'},job:'one',mediaSha256:'a'.repeat(64)});
+  return {f,request,button,caption};
+}
+test('existing rejected Google record revision clicks once and cannot create a replacement post',()=>{
+  const {f,request,button}=rejectedRevisionFixture();assert.equal(f.run(request).status,'EXISTING_REJECTED_POST_REVISION_CLICKED');assert.equal(button.clicked,1);
+  assert.equal(f.run(request).code,'SUBMIT_ALREADY_CLICKED');assert.equal(button.clicked,1);
+  f.context.location.href='https://www.google.com/local/business/123/promote/updates/add';assert.equal(f.run({...request,nativeURL:f.context.location.href}).code,'GOOGLE_REJECTED_REVISION_CONTEXT_REQUIRED');assert.equal(button.clicked,1);
+});
+test('rejected record revision requires exact saved record, original photograph and all guards',()=>{
+  for(const change of [r=>({...r,nativeURL:r.nativeURL.replace('/456/','/789/')}),r=>({...r,rejectionEvidenceSha256:''}),r=>({...r,originalCaption:r.revisedCaption}),r=>({...r,checks:r.checks.filter(c=>c.purpose!=='schedule')}),r=>({...r,mediaSha256:'c'.repeat(64)})]){
+    const {f,request,button}=rejectedRevisionFixture();assert.equal(f.run(change(request)).ok,false);assert.equal(button.clicked,0);
+  }
+  const {f,request,button,caption}=rejectedRevisionFixture();caption.value='User edited this';assert.equal(f.run(request).code,'TEXT_READBACK_CHANGED');assert.equal(button.clicked,0);
+});
+test('Google inventory probes expose distinct rendered native record identities for pagination',()=>{
+ const f=fixture();f.context.window={scrollY:0,innerHeight:800};f.document.scrollingElement={scrollHeight:1200};
+ const one=new Element('',{'data-post-name':'accounts/-/locations/123/localPosts/456'}),duplicate=new Element('',{'data-post-name':'accounts/-/locations/123/localPosts/456'}),two=new Element('',{'data-post-name':'accounts/-/locations/123/localPosts/789'}),invalid=new Element('',{'data-post-name':'unrelated'});
+ f.nodes['div[data-post-name]']=[one,duplicate,two,invalid];const result=f.run({op:'probe'});assert.equal(result.ok,true);assert.deepEqual(result.googlePostRecordNames,['accounts/-/locations/123/localPosts/456','accounts/-/locations/123/localPosts/789']);
+});
+test('same-document upload status distinguishes an unclicked intent from an attempted submission',()=>{
+ const f=fixture();f.context.__boldstoneMedia={job:'one',sha256:'hash',committed:true,status:'HASH_VERIFIED'};f.root.setAttribute('data-boldstone-job','one');f.nodes['#post']=[new Element('Post')];
+ const before=f.run({op:'upload_status',job:'one'});assert.equal(before.same_job,true);assert.equal(before.document_job,'one');assert.equal(before.submission_marker,null);
+ assert.equal(f.run({op:'submit',job:'one',mediaSha256:'hash',checks:[],submit:{selector:'#post'}}).ok,true);
+ assert.equal(f.run({op:'upload_status',job:'one'}).submission_marker,'attempted');assert.equal(f.run({op:'upload_status',job:'other'}).same_job,false);
 });

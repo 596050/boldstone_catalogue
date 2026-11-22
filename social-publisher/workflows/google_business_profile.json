@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "description": "Google Business Profile Update with one checked original image and a saved Buy destination; native Published status required.",
+  "description": "Google Business Profile Update with one checked original image and an exact Buy or Learn more destination; native Published status required.",
   "native_url_pattern": "https://www\\.google\\.com/local/business/\\d+/promote/updates/\\d+/edit",
   "clean_state": {
     "caption": [
@@ -103,14 +103,14 @@
       "op": "click",
       "locator": [
         {
-          "selector": "li[role=menuitem][value=SHOP]",
-          "name": "Buy"
+          "selector": "li[role=menuitem]",
+          "name": "$button_label"
         }
       ],
       "unless": [
         {
           "selector": "button",
-          "name": "Buy"
+          "name": "$button_label"
         }
       ]
     },
@@ -129,7 +129,29 @@
           "selector": "input[type=url]"
         }
       ],
-      "value": "$purchase_url"
+      "value": "",
+      "focus": true
+    },
+    {
+      "op": "set_text",
+      "locator": [
+        {
+          "selector": "input[type=url]"
+        }
+      ],
+      "value": "$purchase_url",
+      "focus": true,
+      "method": "insert_text"
+    },
+    {
+      "op": "set_text",
+      "locator": [
+        {
+          "selector": "textarea[maxlength=\"1500\"]"
+        }
+      ],
+      "value": "$caption",
+      "focus": true
     },
     {
       "op": "upload",
@@ -196,10 +218,9 @@
       "locator": [
         {
           "selector": "button",
-          "name": "Buy"
+          "name": "$button_label"
         }
-      ],
-      "text": "Buy"
+      ]
     },
     {
       "purpose": "purchase",
@@ -208,7 +229,8 @@
           "selector": "input[type=url]"
         }
       ],
-      "text": "$purchase_url"
+      "text": "$purchase_url",
+      "valid": true
     },
     {
       "purpose": "schedule",
@@ -242,7 +264,7 @@
       "div.XNfYrb"
     ],
     "row_selector": "div.J7elmb",
-    "description": "Exact caption in Published inventory, exact managed location/post id, saved editor description, loaded photograph and Buy destination",
+    "description": "Exact caption in Published inventory, exact managed location/post id, saved editor description, loaded photograph and exact action button destination",
     "status_selector": "div.WeJbRc"
   },
   "discover": {

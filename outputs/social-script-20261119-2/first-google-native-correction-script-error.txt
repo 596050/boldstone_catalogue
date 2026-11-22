@@ -1,0 +1,1 @@
+social-publisher/Run.applescript:821:848: execution error: {  "status": "HELD",  "code": "CONTROL_MISSING",  "detail": "The expected interface did not become ready"} (2)

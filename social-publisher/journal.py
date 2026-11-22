@@ -147,6 +147,19 @@ class Store:
     def has_intent(self, job_id):
         return any(e['kind'] == 'PUBLISH_INTENT' and e['job']['id'] == job_id for e in self.ledger)
 
+    def supersede_preparation(self, job_id, replacement_job_id, evidence_path):
+        """Retire an unsubmitted preparation while preserving a durable block."""
+        job=self.get(job_id)
+        if self.has_intent(job_id) or job['state'] in PENDING_INTENT|{'PUBLISHED','HISTORICAL_VERIFIED'}:
+            raise Hold('SUBMITTED_PREPARATION_CANNOT_BE_SUPERSEDED')
+        path=Path(evidence_path).resolve()
+        proof=read_json(path)
+        if proof.get('original_job_id')!=job_id or proof.get('replacement_job_id')!=replacement_job_id or job_id==replacement_job_id:
+            raise Hold('PREPARATION_REPLACEMENT_PROOF_INVALID')
+        self.event('PREPARATION_SUPERSEDED',job={k:job[k] for k in ['id','channel_key','post_key','content_hash','payload']},
+                   replacement_job_id=replacement_job_id,evidence_path=str(path),evidence_sha256=digest(path.read_bytes()))
+        self.change(job_id,'BLOCKED','Superseded before submission by '+replacement_job_id)
+
     def verification_attempt(self, job_id):
         with self.db:
             self.db.execute('UPDATE jobs SET verify_attempts=verify_attempts+1 WHERE id=?', (job_id,))
@@ -162,10 +175,24 @@ class Store:
     def published(self, job_id, receipt):
         if not self.has_intent(job_id):
             raise Hold('MISSING_INTENT')
-        if not all(receipt.get(k) for k in ['native_url', 'caption_verified', 'author_verified', 'photo_verified', 'evidence_path', 'evidence_sha256']):
+        payload=self.get(job_id)['payload']
+        video=payload.get('platform')=='google_business_profile' and payload.get('media_type')=='video/mp4'
+        media_verified=receipt.get('video_verified') if video else receipt.get('photo_verified')
+        if not media_verified or not all(receipt.get(k) for k in ['native_url', 'caption_verified', 'author_verified', 'evidence_path', 'evidence_sha256']):
             raise Hold('RECEIPT_INCOMPLETE')
         if digest(Path(receipt['evidence_path']).read_bytes()) != receipt['evidence_sha256']:
             raise Hold('EVIDENCE_CHANGED')
+        if video:
+            if receipt.get('media_sha256')!=payload['media_sha256'] or receipt.get('google_location_id')!=payload['profile_snapshot']['location_id'] or not receipt.get('google_post_id'):
+                raise Hold('RECEIPT_INCOMPLETE')
+            if not str(receipt.get('google_status','')).startswith('Published'):
+                if receipt.get('public_detail_verified') is not True or receipt.get('google_status')!='Public Google post readable':raise Hold('RECEIPT_INCOMPLETE')
+                from google_public import public_evidence_checks
+                proof=read_json(Path(receipt['evidence_path']))
+                context={**payload['profile_snapshot'],**payload,'id':job_id}
+                identity,_=public_evidence_checks(proof,context,receipt['google_post_id'])
+                if receipt['native_url']!=proof.get('url') or proof.get('url')!=proof['public_article'].get('url') or receipt.get('purchase_links')!=identity['purchase_links']:
+                    raise Hold('RECEIPT_INCOMPLETE')
         self.event('PUBLISHED', job_id=job_id, receipt=receipt)
         with self.db:
             self.db.execute("UPDATE jobs SET state='PUBLISHED',receipt=?,last_error=NULL,updated_utc=? WHERE id=?", (canonical(receipt), utc(), job_id))
@@ -186,6 +213,18 @@ class Store:
                 self.db.execute("UPDATE jobs SET state='PUBLISHED',receipt=?,last_error=NULL WHERE id=?", (canonical(r), event['job_id']))
             elif event['kind'] == 'HISTORICAL_VERIFIED':
                 self.enqueue([event['job']], state='HISTORICAL_VERIFIED', receipts={event['job']['id']: event['receipt']})
+            elif event['kind']=='PREPARATION_SUPERSEDED':
+                job=event['job'];path=Path(event['evidence_path'])
+                if not path.is_file() or digest(path.read_bytes())!=event['evidence_sha256']:
+                    raise Hold('EVIDENCE_MISSING','A retired preparation requires its exact replacement proof')
+                if self.has_intent(job['id']):
+                    raise Hold('SUBMITTED_PREPARATION_CANNOT_BE_SUPERSEDED')
+                self.enqueue([job],state='BLOCKED')
+                self.change(job['id'],'BLOCKED','Superseded before submission by '+event['replacement_job_id'])
+            elif event['kind'] in {'GOOGLE_REJECTED_REVISION_INTENT','GOOGLE_UNATTEMPTED_SUBMISSION_RESUME_INTENT'}:
+                path=Path(event['evidence_path'])
+                if not path.is_file() or digest(path.read_bytes())!=event['evidence_sha256'] or not self.has_intent(event['job_id']):
+                    raise Hold('EVIDENCE_MISSING','A guarded Google recovery requires its original intent and exact durable proof')
         self.db.commit()
 
     def import_history(self, job, receipt):

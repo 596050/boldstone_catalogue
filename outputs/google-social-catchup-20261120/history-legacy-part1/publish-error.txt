@@ -1,0 +1,165 @@
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/publish_history_batch.py", line 38, in <module>
+    Engine(store,Workflow(settings,chrome,directory),settings.policy).reconcile(job['id'])
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 23, in reconcile
+    receipt = self.adapter.verify(job, native_url=native_url)
+  File "/Users/tprice/Documents/boldstone/social-publisher/workflow.py", line 408, in verify
+    return GoogleBusinessProfile(self).verify(job,native_url)
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_business.py", line 170, in verify
+    'media_sha256':c['media_sha256'],'snapshot':retained})
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 187, in navigate
+    state = self.state_for(b)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 50, in state_for
+    value = json.loads(self.apple(['tab-state', binding['window_id'], binding['tab_id']]))
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 31, in apple
+    p = self.execute(['/usr/bin/osascript', str(ROOT / 'chrome.applescript')] + [str(a) for a in args],
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1979, in _communicate
+    ready = selector.select(timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/publish_history_batch.py", line 31, in <module>
+    if not store.has_intent(job['id']):Engine(store,Workflow(settings,chrome,directory),settings.policy).run(job['id'])
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 74, in run
+    return self._run(job_id)
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 85, in _run
+    self.one(job)
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 68, in one
+    self.reconcile(job_id)
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 23, in reconcile
+    receipt = self.adapter.verify(job, native_url=native_url)
+  File "/Users/tprice/Documents/boldstone/social-publisher/workflow.py", line 408, in verify
+    return GoogleBusinessProfile(self).verify(job,native_url)
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_business.py", line 176, in verify
+    self.chrome.navigate(reader, c['inventory_url'], job['id'], recovery=True)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 176, in navigate
+    b, before = self.bound(name, mutation=True)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 99, in bound
+    state = self.state_for(b)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 50, in state_for
+    value = json.loads(self.apple(['tab-state', binding['window_id'], binding['tab_id']]))
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 31, in apple
+    p = self.execute(['/usr/bin/osascript', str(ROOT / 'chrome.applescript')] + [str(a) for a in args],
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1979, in _communicate
+    ready = selector.select(timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/publish_history_batch.py", line 31, in <module>
+    if not store.has_intent(job['id']):Engine(store,Workflow(settings,chrome,directory),settings.policy).run(job['id'])
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 74, in run
+    return self._run(job_id)
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 85, in _run
+    self.one(job)
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 48, in one
+    self.adapter.prepare(self.store.get(job_id))
+  File "/Users/tprice/Documents/boldstone/social-publisher/workflow.py", line 287, in prepare
+    self.chrome.upload(name, c, step['locator'], method=step.get('method', 'input'),
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 303, in upload
+    self.call(name, {'op': 'upload_chunk', 'index': i, 'data': base64.b64encode(chunk).decode('ascii'), **common})
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_fast.py", line 37, in call
+    process=self.execute(['/usr/bin/osascript',str(ROOT/'google-fast.applescript'),str(binding['window_id']),
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1979, in _communicate
+    ready = selector.select(timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/publish_history_batch.py", line 31, in <module>
+    if not store.has_intent(job['id']):Engine(store,Workflow(settings,chrome,directory),settings.policy).run(job['id'])
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 74, in run
+    return self._run(job_id)
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 85, in _run
+    self.one(job)
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 68, in one
+    self.reconcile(job_id)
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 23, in reconcile
+    receipt = self.adapter.verify(job, native_url=native_url)
+  File "/Users/tprice/Documents/boldstone/social-publisher/workflow.py", line 408, in verify
+    return GoogleBusinessProfile(self).verify(job,native_url)
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_business.py", line 193, in verify
+    from pathlib import Path
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_fast.py", line 31, in call
+    return self.evaluate(binding,request,readonly=True)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 142, in evaluate
+    output = self.apple(['inspect' if readonly else 'execute', binding['window_id'], binding['tab_id'], binding['url'], path])
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 31, in apple
+    p = self.execute(['/usr/bin/osascript', str(ROOT / 'chrome.applescript')] + [str(a) for a in args],
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1979, in _communicate
+    ready = selector.select(timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/publish_history_batch.py", line 49, in <module>
+    hold_unpublished(store,settings,chrome,job['id']);break
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/hold_google_unpublished.py", line 16, in hold_unpublished
+    snap=chrome.call(reader,{'op':'snapshot','scope':row,'includeHTML':True});caption=chrome.call(reader,{'op':'snapshot','scope':[{'selector':'div.XNfYrb','text':c['caption']}]});status=chrome.call(reader,{'op':'snapshot','scope':[{'selector':'div.WeJbRc','within':row[0]}]})
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_fast.py", line 31, in call
+    return self.evaluate(binding,request,readonly=True)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 152, in evaluate
+    raise Hold(code, result.get('detail', code), retryable=retryable)
+common.Hold: div.J7elmb: 6 matches
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_business.py", line 302, in verify
+    post_id=c['native_revision_url'].rsplit('/',2)[1]
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_business.py", line 128, in find_inventory_record
+    if self.chrome.call(reader,{'op':'exists','locator':row})['exists']:return
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_fast.py", line 31, in call
+    return self.evaluate(binding,request,readonly=True)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 152, in evaluate
+    raise Hold(code, result.get('detail', code), retryable=retryable)
+common.Hold: div.J7elmb: 8 matches
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/publish_history_batch.py", line 31, in <module>
+    if not store.has_intent(job['id']):Engine(store,Workflow(settings,chrome,directory),settings.policy).run(job['id'])
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 74, in run
+    return self._run(job_id)
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 85, in _run
+    self.one(job)
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 68, in one
+    self.reconcile(job_id)
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 23, in reconcile
+    receipt = self.adapter.verify(job, native_url=native_url)
+  File "/Users/tprice/Documents/boldstone/social-publisher/workflow.py", line 408, in verify
+    return GoogleBusinessProfile(self).verify(job,native_url)
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_business.py", line 305, in verify
+    try:self.find_inventory_record(reader,row)
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_business.py", line 158, in resolve_caption_record
+    self.chrome.navigate(reader,url,context['id'],recovery=True)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 187, in navigate
+    state = self.state_for(b)
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 50, in state_for
+    value = json.loads(self.apple(['tab-state', binding['window_id'], binding['tab_id']]))
+  File "/Users/tprice/Documents/boldstone/social-publisher/chrome.py", line 31, in apple
+    p = self.execute(['/usr/bin/osascript', str(ROOT / 'chrome.applescript')] + [str(a) for a in args],
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1979, in _communicate
+    ready = selector.select(timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt

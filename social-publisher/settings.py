@@ -58,7 +58,9 @@ class Settings:
         if not recipe['readback'].get('caption_selectors'):
             raise Hold('CAPTION_SCOPE_MISSING', 'Native readback needs the post caption scope, excluding comments')
         guards = recipe['ready']
-        if not any(g.get('purpose') == 'account' for g in guards) or not any(g.get('purpose') == 'caption' and g.get('text') == '$caption' for g in guards) or not any(g.get('purpose') == 'photo' and g.get('image') is True for g in guards):
+        visual_guard=any(g.get('purpose') == 'photo' and g.get('image') is True for g in guards)
+        video_guard=profile.get('platform')=='google_business_profile' and recipe.get('google_video') and any(g.get('purpose')=='video' and g.get('video') is True and g.get('duration')=='$video_duration' for g in guards)
+        if not any(g.get('purpose') == 'account' for g in guards) or not any(g.get('purpose') == 'caption' and g.get('text') == '$caption' for g in guards) or not (visual_guard or video_guard):
             raise Hold('WORKFLOW_GUARDS_MISSING', 'Every workflow needs account, complete caption and photograph guards')
         return recipe
 
@@ -113,13 +115,21 @@ class Settings:
             if sha != post.get('sha256'):
                 raise Hold('MEDIA_HASH_CHANGED', post['title'])
             mime = mimetypes.guess_type(str(media))[0]
-            if mime not in ['image/png', 'image/jpeg'] or media.stat().st_size > self.policy['max_media_bytes']:
-                raise Hold('MEDIA_FORMAT', 'Use a PNG or JPEG within max_media_bytes')
+            if mime not in ['image/png', 'image/jpeg','video/mp4'] or media.stat().st_size > self.policy['max_media_bytes']:
+                raise Hold('MEDIA_FORMAT', 'Use a supported image or Google MP4 within max_media_bytes')
             for name, target in post['targets'].items():
                 p = self.profile(name)
+                if mime=='video/mp4':
+                    video=post.get('video') or {}
+                    if p['platform']!='google_business_profile' or not self.workflow(p).get('google_video'):
+                        raise Hold('VIDEO_WORKFLOW_REQUIRED','MP4 delivery requires a Google workflow with native video checks')
+                    if not all(isinstance(video.get(k),(int,float)) and not isinstance(video.get(k),bool) for k in ['duration','width','height']) or not 0<video['duration']<=30 or min(video['width'],video['height'])<720:
+                        raise Hold('VIDEO_METADATA_REQUIRED','Google video needs verified duration up to 30 seconds and dimensions of at least 720p')
                 if media.stat().st_size>p.get('max_media_bytes',self.policy['max_media_bytes']):
                     raise Hold('MEDIA_FORMAT','The photo exceeds this platform profile\u2019s media size limit')
                 if p['platform']=='google_business_profile':
+                    if target.get('button_label','Buy') not in {'Buy','Learn more'}:
+                        raise Hold('GOOGLE_BUTTON_UNSUPPORTED','Choose Buy for a product or Learn more for a sculpture project')
                     destination=urlparse(target.get('purchase_url') or '')
                     hosts=p.get('purchase_allowed_hosts') or [urlparse(p.get('website_url','')).hostname]
                     if destination.scheme!='https' or destination.hostname not in hosts or destination.username or destination.password:
@@ -153,6 +163,9 @@ class Settings:
                            'profile_snapshot': p, 'workflow_snapshot': self.workflow(p),
                            'platform': p['platform'], 'purchase_url': target.get('purchase_url'),
                            'manifest_path': str(path)}
+                if p['platform']=='google_business_profile':
+                    payload['button_label']=target.get('button_label','Buy')
+                    if mime=='video/mp4':payload.update(video=post['video'],video_duration=post['video']['duration'],video_width=post['video']['width'],video_height=post['video']['height'])
                 result.append({'id': digest([channel, post['post_key']])[:32], 'channel_key': channel,
                                'post_key': str(post['post_key']), 'content_hash': content, 'payload': payload})
         return result

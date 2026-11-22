@@ -1,0 +1,12 @@
+test_an_existing_native_record_blocks_the_resume_before_any_publication (test_google_unattempted.OriginalDocumentChecks) ... ok
+test_an_unloaded_inventory_cannot_resume_the_original_document (test_google_unattempted.OriginalDocumentChecks) ... ok
+test_another_prepared_job_profile_or_input_hash_cannot_resume (test_google_unattempted.OriginalDocumentChecks) ... ok
+test_clicked_reloaded_foreign_and_uncommitted_documents_cannot_resume (test_google_unattempted.OriginalDocumentChecks) ... ok
+test_resume_keeps_one_original_intent_and_records_its_proof_before_the_first_click (test_google_unattempted.OriginalDocumentChecks) ... ok
+test_the_intact_original_blob_and_absent_marker_prove_no_click_in_this_document (test_google_unattempted.OriginalDocumentChecks) ... ok
+test_unclicked_document_does_not_claim_a_partial_inventory_is_complete (test_google_unattempted.OriginalDocumentChecks) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.024s
+
+OK

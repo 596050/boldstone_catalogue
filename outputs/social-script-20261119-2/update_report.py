@@ -32,7 +32,8 @@ for p in posts:
  for platform in PLATFORMS:
   j=next((j for j in jobs if j['catalogue_id']==p['catalogue_id'] and j['platform']==platform),{'state':'PREPARED','receipt':None})
   r=j['receipt']or{};url=r.get('native_url')
-  link='<a href="'+esc(url,quote=True)+'" target="_blank">Open post</a>' if url else 'Not yet verified'
+  label='Open Google post record' if platform=='google_business_profile' else 'Open post'
+  link='<a href="'+esc(url,quote=True)+'" target="_blank">'+label+'</a>' if url else 'Not yet verified'
   commerce='Saved tag verified in Meta' if r.get('product_tag_verified') else ('Product destination verified' if r.get('purchase_links') else 'Pending')
   rows.append('<tr><td>'+esc(LABELS[platform])+'</td><td>'+esc(j['state'])+'</td><td>'+link+'</td><td>'+commerce+'</td></tr>')
  captions=''.join('<details><summary>'+esc(k.title())+' caption</summary><pre>'+esc(v)+'</pre></details>' for k,v in p['captions'].items())

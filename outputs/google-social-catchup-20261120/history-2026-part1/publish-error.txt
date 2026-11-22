@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/tprice/Documents/boldstone/outputs/google-social-catchup-20261120/publish_history_batch.py", line 30, in <module>
+    Engine(store,Workflow(settings,chrome,directory),settings.policy).reconcile(job['id'])
+  File "/Users/tprice/Documents/boldstone/social-publisher/engine.py", line 21, in reconcile
+    receipt = self.adapter.verify(job, native_url=native_url)
+  File "/Users/tprice/Documents/boldstone/social-publisher/workflow.py", line 402, in verify
+    return GoogleBusinessProfile(self).verify(job,native_url)
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_business.py", line 152, in verify
+    identity = record_identity(snapshot, caption, status, c)
+  File "/Users/tprice/Documents/boldstone/social-publisher/google_business.py", line 28, in record_identity
+    raise Hold('GOOGLE_POST_PENDING_OR_REJECTED', 'Google has not marked this post Published; retain its intent and check its status again', retryable=True)
+common.Hold: Google has not marked this post Published; retain its intent and check its status again
