@@ -251,6 +251,9 @@ Sketching
 
 
 **Social Platforms**
+codex resume 01a1db69-035e-7783-9b7c-42e4dcf07840
+
+
 Facebook
 Instagram
 Threads
@@ -260,6 +263,10 @@ Google Business Profile / Google Posts — Boldstone’s business profile.
 Houzz
 Reddit
 Medium
+- Archiproducts: Existing account confirmed as Sally Price — info@boldstone.co.uk. Account settings are open.
+- Architonic: Email prefilled. Click Continue with Google and choose info@boldstone.co.uk.
+- Archilovers: Sally Price and the email are prefilled. Login with Google is available, though that route timed out earlier. Email registration additionally needs your password and CAPTCHA before Subscribe.
+
 
 Account directory and platform review
 
