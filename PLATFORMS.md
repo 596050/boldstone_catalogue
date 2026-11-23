@@ -261,6 +261,30 @@ Houzz
 Reddit
 Medium
 
+Account directory and platform review
+
+I found all seven profiles. Six show activity; Houzz’s recent activity is unconfirmed.
+
+| Platform | Account name / identifier | Activity |
+|---|---|---|
+| Facebook | Boldstone Sculpture — BoldstoneSculpture (https://www.facebook.com/BoldstoneSculpture/) | Verified sculpture posts |
+| Instagram | @boldstonesculpture (https://www.instagram.com/boldstonesculpture/) | Active |
+| Threads | Sally Price — @boldstonesculpture (https://www.threads.com/@boldstonesculpture) | Sculpture posts shown as two hours old |
+| X | Sally Price @Boldstone — @SallyPr65718327 (https://x.com/SallyPr65718327) | 217 posts; recent sculpture post |
+| LinkedIn | Sally Price — sally-price-1193858a (https://www.linkedin.com/in/sally-price-1193858a/) | New posts verified today |
+| Google Business Profile | Boldstone (https://www.google.com/local/business/15009857378722117958/promote/updates) | New posts verified today |
+| Houzz | Boldstone Sculpture — sally-price2 (https://www.houzz.co.uk/pro/sally-price2) | One Ideabook; recent activity unconfirmed |
+
+For the interior-design audience, I’d prioritise these:
+
+- Wescover (https://www.wescover.com/creator/boldstone) — Boldstone already has a populated creator catalogue. A strong fit for sculpture, commissions and designer sourcing.
+- Archilovers (https://www.archilovers.com/) — closest to Houzz for project photographs, installations and professional networking.
+- Archiproducts (https://business.archiproducts.com/en/) — product catalogues and specifications that designers can use in projects.
+- Architonic (https://www.architonic.com/en/about-us) — curated product discovery for architects and interior designers.
+- 1stDibs (https://www.1stdibs.com/dealer/application-form/?allowUniversalLink=no) — sculpture sales to designers and collectors, subject to seller approval.
+
+These need tailored project portfolios or product listings when added to the script.
+
 
 
 
