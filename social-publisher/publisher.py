@@ -164,6 +164,14 @@ def parser():
         s.add_argument('manifest', type=Path)
     r = sub.add_parser('run', help='Run due jobs once; uncertain submissions are reconciliation-only')
     r.add_argument('--job')
+    r.add_argument('--prepare-only', action='store_true', help='Prepare the supplied manifest in reserved tabs without enqueueing or publishing')
+    r.add_argument('--manifest', type=Path)
+    r.add_argument('--tabs', type=Path)
+    prepare = sub.add_parser('prepare', help='Prepare retained drafts only; accepts publish_authorized=false and never enqueues or publishes')
+    prepare.add_argument('manifest', type=Path)
+    prepare.add_argument('--tabs', type=Path, required=True, help='JSON mapping each profile/post_key to a separate reserved background tab')
+    prepare.add_argument('--profile')
+    prepare.add_argument('--post-key')
     w = sub.add_parser('watch', help='Explicit foreground-free worker; Ctrl-C stops it without losing intent state')
     w.add_argument('--cycles', type=int, default=0, help='0 runs until stopped')
     sub.add_parser('status')
@@ -196,6 +204,11 @@ def parser():
 
 def main(argv=None):
     args = parser().parse_args(argv)
+    if args.command == 'run':
+        if args.prepare_only and (not args.manifest or not args.tabs or args.job):
+            raise Hold('PREPARATION_ARGUMENTS','Use run --prepare-only --manifest FILE --tabs FILE, or the prepare command')
+        if not args.prepare_only and (args.manifest or args.tabs):
+            raise Hold('PREPARATION_ARGUMENTS','--manifest and --tabs require --prepare-only')
     directory = args.state.expanduser().resolve()
     if args.command == 'helper-build':
         if not 1024 <= args.port <= 65535:
@@ -235,6 +248,11 @@ def main(argv=None):
     # Commands share the same process lock, including binding and diagnostics.
     with Store(directory) as store:
         workflow = Workflow(settings, chrome, directory)
+        if args.command == 'prepare' or (args.command == 'run' and args.prepare_only):
+            from preparation import prepare_manifest
+            result=prepare_manifest(settings,store,directory,args.manifest,args.tabs,
+                                    profile=getattr(args,'profile',None),post_key=getattr(args,'post_key',None))
+            return result,0 if result['complete'] else 2
         if args.command == 'doctor':
             result = doctor(settings, chrome, directory, args.probe)
             return result, 0 if result['chrome_running'] and (not args.probe or result['transport_probe_ok']) else 2

@@ -99,6 +99,24 @@
       "caption_limit": 1500,
       "max_media_bytes": 5000000,
       "workflow": "workflows/google_business_profile.json"
+    },
+    "boldstone_threads": {
+      "platform": "threads",
+      "channel_key": "threads:boldstonesculpture",
+      "account_name": "boldstonesculpture",
+      "username": "boldstonesculpture",
+      "profile_picture_label": "boldstonesculpture’s profile picture",
+      "allowed_hosts": [
+        "www.threads.com",
+        "www.threads.net"
+      ],
+      "compose_url": "https://www.threads.com/",
+      "inventory_url": "https://www.threads.com/@boldstonesculpture",
+      "post_submit_paths": [
+        "/"
+      ],
+      "caption_limit": 500,
+      "workflow": "workflows/threads.json"
     }
   }
 }

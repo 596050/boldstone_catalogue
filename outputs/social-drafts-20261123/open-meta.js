@@ -1,0 +1,1 @@
+JSON.stringify({navigating:(location.assign("https://business.facebook.com/latest/composer/?asset_id=103781478537396&business_id=2380586078685156"),true)})

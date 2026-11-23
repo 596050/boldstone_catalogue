@@ -82,6 +82,18 @@ class UploadQueueTests(unittest.TestCase):
         with self.assertRaisesRegex(Hold, 'WRONG_DESTINATION'):
             self.submit()
 
+    def test_pre_injection_foreground_pause_can_resume_but_unknown_injection_cannot(self):
+        claim=self.queue.claim(self.submit()['request_id'])
+        result={'ok':False,'request_id':claim['request_id'],'sha256':claim['sha256'],
+                'phase':'NOT_STARTED','code':'HELPER_ERROR','detail':'FOREGROUND_TAB_PAUSED'}
+        self.queue.complete(claim['request_id'],claim['lease'],result)
+        retry=self.submit()
+        self.assertEqual(retry['status'],'PENDING')
+        self.assertEqual(retry['previous_attempts'][0]['result'],result)
+        second=self.queue.claim(retry['request_id'])
+        self.queue.complete(second['request_id'],second['lease'],dict(result,phase='OUTCOME_UNKNOWN'))
+        self.assertEqual(self.submit()['status'],'OUTCOME_UNKNOWN')
+
     def test_media_lease_and_hash_are_checked_at_read_time(self):
         claim = self.queue.claim(self.submit()['request_id'])
         with self.assertRaisesRegex(Hold, 'UPLOAD_LEASE_INVALID'):

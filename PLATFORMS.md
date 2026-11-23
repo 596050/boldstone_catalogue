@@ -242,6 +242,29 @@ Interior/Garden Design Consulting
 Educations
 Sketching
 
+
+
+
+
+
+
+
+
+**Social Platforms**
+Facebook
+Instagram
+Threads
+X https://x.com/SallyPr65718327
+LinkedIn — Sally Price’s account.
+Google Business Profile / Google Posts — Boldstone’s business profile.
+Houzz
+Reddit
+Medium
+
+
+
+
+
 **Verified update — 6 November 2026**
 
 - Furnitures: 176 Active products imported, with 680 selected image links. All native identities, prices, stock indicators and primary image URLs reconcile. Separate specification fields/full-gallery URLs checked for 122; the remaining 54 are recorded for completion. Its fixed GBP49 delivery/free-over-GBP500 policy and unreleased seller payouts still need platform clarification. The earlier In Progress entry is superseded by this dated listing status.

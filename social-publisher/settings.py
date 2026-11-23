@@ -91,12 +91,12 @@ class Settings:
         if re.search(r'/(?:checkpoint|challenge|login|accounts/login|authwall)(?:/|$)', u.path):
             raise Hold('ACCOUNT_ACTION_REQUIRED', 'The platform requires account access to be restored')
 
-    def jobs(self, manifest_path):
+    def jobs(self, manifest_path, require_authorized=True):
         path = Path(manifest_path).resolve()
         m = read_json(path)
         if not isinstance(m, dict) or m.get('schema_version') != 1 or not m.get('batch_id') or not isinstance(m.get('posts'), list) or not m['posts']:
             raise Hold('MANIFEST_SCHEMA', 'Expected schema_version, batch_id and a nonempty posts list')
-        if m.get('publish_authorized') is not True:
+        if require_authorized and m.get('publish_authorized') is not True:
             raise Hold('MANIFEST_NOT_AUTHORIZED', 'Set publish_authorized=true only for the exact batch you intend to publish')
         result = []
         seen_keys, seen_content = set(), set()

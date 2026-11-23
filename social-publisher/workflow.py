@@ -77,6 +77,23 @@ class Workflow:
     def guards(self, recipe, context):
         return list(self.enabled_steps(recipe['ready'], context))
 
+    def set_text(self, profile_id, request, wait_readback=False):
+        """Some public editors commit a paste asynchronously; retry reads only."""
+        try:
+            return self.chrome.call(profile_id, request)
+        except Hold as error:
+            if not wait_readback or error.code != 'EDITOR_READBACK_FAILED':
+                raise
+        deadline = time.monotonic() + 5
+        while True:
+            try:
+                return self.chrome.call(profile_id, {'op':'assert', 'checks':[
+                    {'locator':request['locator'], 'text':request['value']}]})
+            except Hold as error:
+                if error.code not in {'TEXT_READBACK_CHANGED','CONTROL_MISSING'} or time.monotonic() >= deadline:
+                    raise
+                time.sleep(.2)
+
     def reconciliation_epoch(self, job):
         if job['payload'].get('platform')!='google_business_profile':return 0
         from google_business import rejected_revision_context,unattempted_reconciliation_base
@@ -97,7 +114,9 @@ class Workflow:
             if error.code != 'TEXT_READBACK_CHANGED':
                 raise
             changed = True
-            self.chrome.call(profile_id, {'op': 'set_text', 'locator': step['field'], 'value': step['value']})
+            self.set_text(profile_id, {'op': 'set_text', 'locator': step['field'], 'value': step['value'],
+                                      **({'method':step['method']} if step.get('method') else {})},
+                          wait_readback=step.get('wait_readback',False))
             self.chrome.call(profile_id, {'op': 'assert', 'checks': [check]})
         self.chrome.call(profile_id, {'op': 'click', 'locator': step['apply'] if changed else step['cancel']})
         deadline = time.monotonic() + 10
@@ -115,6 +134,11 @@ class Workflow:
         pending = confirmation and self.chrome.call(profile_id, {'op': 'exists', 'locator': confirmation_root})['exists']
         if not pending:
             try:
+                return self.chrome.call(profile_id, {'op':'assert','checks':[{'locator':locator,'checked':value}]})
+            except Hold as error:
+                if error.code != 'WRONG_SELECTED_ACCOUNT':
+                    raise
+            try:
                 self.chrome.call(profile_id, {'op': 'set_checked', 'locator': locator, 'value': value})
             except Hold as error:
                 # Poll the replacement node without repeating its earlier click.
@@ -131,6 +155,28 @@ class Workflow:
                 if error.code not in {'WRONG_SELECTED_ACCOUNT', 'CONTROL_MISSING'} or time.monotonic() >= deadline:
                     raise
                 time.sleep(0.25)
+
+    def ensure_destination(self, profile_id, step):
+        """Leave an already-correct destination closed and change only mismatches."""
+        self.wait(profile_id,step['control'])
+        try:
+            proof=self.chrome.call(profile_id,{'op':'assert','checks':step['checks']})
+        except Hold as error:
+            if error.code not in {'TEXT_READBACK_CHANGED','WRONG_SELECTED_ACCOUNT'}:
+                raise
+            proof=None
+        if proof is None:
+            if not self.chrome.call(profile_id,{'op':'exists','locator':step['expanded']})['exists']:
+                self.chrome.call(profile_id,{'op':'click','locator':step['control']})
+                self.wait(profile_id,step['expanded'])
+            for selection in step['selections']:
+                self.set_checked(profile_id,selection['locator'],selection['value'])
+        if self.chrome.call(profile_id,{'op':'exists','locator':step['expanded']})['exists']:
+            self.chrome.call(profile_id,{'op':'click','locator':step['control']})
+            self.wait(profile_id,step['collapsed'])
+        if proof is not None:
+            return proof
+        return self.chrome.call(profile_id,{'op':'assert','checks':step['checks']})
 
     def wait_absent(self, profile_id, locator, timeout=10):
         deadline=time.monotonic()+timeout
@@ -289,14 +335,19 @@ class Workflow:
                                    preview=step.get('preview'), guards=upload_guards)
             elif op == 'set_checked':
                 self.set_checked(name, step['locator'], step['value'], confirmation=step.get('confirmation'))
+            elif op == 'ensure_destination':
+                self.ensure_destination(name,step)
             elif op == 'photo_alt':
                 result = self.photo_alt(name, step)
                 atomic_json(self.directory / 'evidence' / (job['id'] + '-alt.json'), {'utc': utc(), 'job_id': job['id'], **result})
             elif op == 'product_tag':
                 self.product_tag(name, c, step)
             elif op in {'set_text', 'click', 'assert', 'prepare_upload'}:
-                args = {k: v for k, v in step.items() if k not in {'unless', 'dirty', 'if_exists'}}
-                self.chrome.call(name, args)
+                args = {k: v for k, v in step.items() if k not in {'unless', 'dirty', 'if_exists','wait_readback'}}
+                if op == 'set_text':
+                    self.set_text(name,args,wait_readback=step.get('wait_readback',False))
+                else:
+                    self.chrome.call(name, args)
             else:
                 raise Hold('WORKFLOW_OPERATION', op)
             self.chrome.checkpoint(name, index + 1, dirty=step.get('dirty', True))
@@ -330,7 +381,7 @@ class Workflow:
         u = urlparse(url)
         if u.scheme == 'https' and u.hostname in {'www.linkedin.com', 'linkedin.com'} and u.path == '/safety/go/':
             return parse_qs(u.query).get('url', [url])[0]
-        if u.hostname in {'l.facebook.com', 'lm.facebook.com', 'l.instagram.com'}:
+        if u.hostname in {'l.facebook.com', 'lm.facebook.com', 'l.instagram.com','l.threads.com','l.threads.net'}:
             destination = parse_qs(u.query).get('u', [url])[0]
             parsed = urlparse(destination)
             # Meta appends its click ID to the authored destination. Preserve
@@ -412,6 +463,17 @@ class Workflow:
         composer = self.chrome.sync_after_submit(name)
         reader = VERIFICATION
         b, _ = self.chrome.bound(reader)
+        if native_url is None and c['platform']=='threads':
+            # The exact caption and a time link in the same native post identify
+            # the record. No second Post is used when a success toast is lost.
+            if b['url'] != c['inventory_url']:
+                self.chrome.navigate(reader,c['inventory_url'],job['id'],recovery=True)
+            deadline=time.monotonic()+20
+            while True:
+                result=self.chrome.call(reader,{'op':'find_threads_post','username':c['username'],'caption':c['caption']})
+                native_url=result.get('url')
+                if native_url or time.monotonic()>=deadline:break
+                time.sleep(.3)
         if native_url is None and c['platform']=='linkedin':
             # LinkedIn's current success notification exposes its native link
             # outside alert/status roles. The generic feed can lag behind it.

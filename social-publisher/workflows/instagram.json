@@ -1,70 +1,53 @@
 {
   "schema_version": 1,
-  "description": "One independently tracked instagram post through Meta Business Suite. The exact destination, disabled scheduling/story/boost, complete caption, image and native readback are checked. Photo upload requires the reviewed Chrome helper.",
+  "description": "One independently tracked Instagram post. Post to must select only the configured Instagram account; an already-correct destination is left untouched. Enable Facebook Story sharing if Meta exposes its switch here; Facebook-only Story controls are handled by the Facebook workflow. Caption, photo, Commerce tag, schedule, boost and native readback remain guarded.",
   "prepare": [
     {
-      "op": "wait",
-      "locator": [
-        {
-          "selector": "[role=combobox][aria-haspopup=listbox]"
-        }
-      ]
-    },
-    {
-      "op": "click",
-      "locator": [
+      "op": "ensure_destination",
+      "control": [
         {
           "selector": "[role=combobox][aria-haspopup=listbox]"
         }
       ],
-      "unless": [
+      "expanded": [
         {
           "selector": "[role=combobox][aria-haspopup=listbox][aria-expanded=true]"
         }
-      ]
-    },
-    {
-      "op": "assert",
+      ],
+      "collapsed": [
+        {
+          "selector": "[role=combobox][aria-haspopup=listbox][aria-expanded=false]"
+        }
+      ],
+      "selections": [
+        {
+          "locator": [
+            {
+              "selector": "[role=option]",
+              "name": "$username"
+            }
+          ],
+          "value": true
+        },
+        {
+          "locator": [
+            {
+              "selector": "[role=option]",
+              "name": "$other_account_name"
+            }
+          ],
+          "value": false
+        }
+      ],
       "checks": [
         {
           "locator": [
             {
-              "selector": "[role=combobox][aria-haspopup=listbox][aria-expanded=true]"
+              "selector": "[role=combobox][aria-haspopup=listbox]"
             }
-          ]
-        }
-      ]
-    },
-    {
-      "op": "set_checked",
-      "locator": [
-        {
-          "selector": "[role=option]",
-          "name": "$username"
-        }
-      ],
-      "value": true
-    },
-    {
-      "op": "set_checked",
-      "locator": [
-        {
-          "selector": "[role=option]",
-          "name": "$other_account_name"
-        }
-      ],
-      "value": false
-    },
-    {
-      "op": "click",
-      "locator": [
-        {
-          "selector": "[role=combobox][aria-haspopup=listbox]"
-        }
-      ],
-      "unless": [
-        {
-          "selector": "[role=combobox][aria-haspopup=listbox][aria-expanded=false]"
+          ],
+          "contains": "$username",
+          "not_contains": "$other_account_name"
         }
       ]
     },
@@ -108,55 +91,8 @@
           "name": "Share to Facebook story"
         }
       ],
-      "value": false,
-      "if_exists": true,
-      "confirmation": {
-        "root": [
-          {
-            "selector": "[role=dialog]",
-            "contains": "Stop sharing to Facebook story",
-            "painted": true
-          }
-        ],
-        "checks": [
-          {
-            "locator": [
-              {
-                "selector": "[role=dialog] input[type=radio]",
-                "name": "Don't share this post",
-                "within": {
-                  "selector": "[role=dialog]",
-                  "contains": "Stop sharing to Facebook story"
-                }
-              }
-            ],
-            "checked": true
-          },
-          {
-            "locator": [
-              {
-                "selector": "[role=dialog] input[type=radio]",
-                "name": "Stop sharing all posts",
-                "within": {
-                  "selector": "[role=dialog]",
-                  "contains": "Stop sharing to Facebook story"
-                }
-              }
-            ],
-            "checked": false
-          }
-        ],
-        "confirm": [
-          {
-            "selector": "[role=dialog] [role=button]",
-            "name": "Confirm",
-            "within": {
-              "selector": "[role=dialog]",
-              "contains": "Stop sharing to Facebook story"
-            }
-          }
-        ]
-      }
+      "value": true,
+      "if_exists": true
     },
     {
       "op": "set_text",
@@ -384,7 +320,7 @@
           "name": "Share to Facebook story"
         }
       ],
-      "checked": false,
+      "checked": true,
       "if_exists": true
     },
     {

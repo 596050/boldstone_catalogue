@@ -548,3 +548,28 @@ test('same-document upload status distinguishes an unclicked intent from an atte
  assert.equal(f.run({op:'submit',job:'one',mediaSha256:'hash',checks:[],submit:{selector:'#post'}}).ok,true);
  assert.equal(f.run({op:'upload_status',job:'one'}).submission_marker,'attempted');assert.equal(f.run({op:'upload_status',job:'other'}).same_job,false);
 });
+
+test('accessible locators exclude a closed Threads alt editor retained during background animation',()=>{
+ const f=fixture(),main=new Element('Done'),closed=new Element('Done');
+ main.closest=()=>null;closed.closest=()=>new Element('',{'aria-hidden':'true'});
+ f.nodes['[role=button]']=[main,closed];
+ const r=f.run({op:'click',locator:[{selector:'[role=button]',name:'Done',accessible:true}]});
+ assert.equal(r.ok,true);assert.equal(main.clicked,1);assert.equal(closed.clicked,0);
+});
+test('Threads reconciliation finds only a full caption and native time link in the same post',()=>{
+ const f=fixture();f.context.location.href='https://www.threads.com/@boldstonesculpture';
+ f.context.location.hostname='www.threads.com';f.context.location.origin='https://www.threads.com';
+ f.context.location.pathname='/@boldstonesculpture';
+ const caption=new Element('Sculpture A\nA complete caption.'),root=new Element('');
+ const link=new Element('Just now',{},'A');link.href='https://www.threads.com/@boldstonesculpture/post/Native123';
+ link.nodes.time=[new Element('')];root.nodes['a[href]']=[link];caption.parentElement=root;
+ f.nodes['div.x1a6qonq']=[caption];
+ const request={op:'find_threads_post',username:'boldstonesculpture',caption:'Sculpture A\nA complete caption.'};
+ assert.equal(f.run(request).url,link.href);
+ assert.equal(f.run({...request,username:'anotherprofile'}).code,'WRONG_THREADS_PROFILE');
+ f.nodes['div.x1a6qonq']=[caption,new Element(caption.innerText)];
+ assert.equal(f.run(request).code,'AMBIGUOUS_NATIVE_CAPTION');
+ f.nodes['div.x1a6qonq']=[caption];root.nodes['a[href]']=[];
+ assert.equal(f.run(request).url,null);
+ assert.equal(link.clicked,0);
+});

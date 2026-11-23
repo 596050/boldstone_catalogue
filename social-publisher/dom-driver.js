@@ -20,6 +20,7 @@
     if (!spec || !spec.selector || /^(?:html|body|\*)$/.test(spec.selector.trim())) fail("UNSCOPED_LOCATOR");
     let result = Array.from(document.querySelectorAll(spec.selector));
     if (!spec.hidden) result = result.filter(visible);
+    if (spec.accessible) result=result.filter(e=>!e.closest('[aria-hidden="true"]'));
     if (spec.in_view) result=result.filter(e=>{const r=e.getBoundingClientRect();return r.width>0 && r.height>0 && r.bottom>0 && r.right>0 && r.top<window.innerHeight && r.left<window.innerWidth;});
     if (spec.painted) result=result.filter(painted);
     if (spec.name !== undefined) result = result.filter(e => label(e) === norm(spec.name));
@@ -110,7 +111,7 @@
   };
   try {
     const op = request.op;
-    const readonly = ["probe", "snapshot", "exists", "assert", "discover", "readback", "upload_status", "clean_state", "source_grid", "source_modal","source_facebook_photo"].includes(op);
+    const readonly = ["probe", "snapshot", "exists", "assert", "discover", "readback", "upload_status", "clean_state", "source_grid", "source_modal","source_facebook_photo","find_threads_post"].includes(op);
     confirmContext(!readonly && op !== "claim");
     if (op === "probe") return JSON.stringify({ok:true, url:location.href, title:document.title, ready:document.readyState,
       hasFocus:document.hasFocus(), dataTransfer:typeof DataTransfer === "function", file:typeof File === "function",
@@ -131,6 +132,11 @@
       if (target.protocol !== "https:") fail("WRONG_DESTINATION");
       location.assign(target.href);
       return JSON.stringify({ok:true,status:"NAVIGATION_REQUESTED"});
+    }
+    if (op === "label_draft") {
+      if (typeof request.title !== "string" || !request.title.trim() || request.title.length>240) fail("DRAFT_TITLE_INVALID");
+      document.title=request.title;
+      return JSON.stringify({ok:true,title:document.title});
     }
     if (op === "scroll_page") {
       if (!/^https:\/\/www\.instagram\.com\/boldstonesculpture\/?$/.test(location.href) && !/^https:\/\/www\.facebook\.com\/BoldstoneSculpture\/(?:owner_reels|photos)?\/?$/.test(location.href)) fail("SOURCE_PROFILE_REQUIRED");
@@ -439,6 +445,28 @@
         locate(request.submit).click();
       }
       return JSON.stringify({ok:true,status:op==="ready"?"READY":"CLICKED_UNCONFIRMED",...result});
+    }
+    if (op === "find_threads_post") {
+      if (!/^[a-zA-Z0-9_.]+$/.test(request.username || "") ||
+          !["www.threads.com","www.threads.net"].includes(location.hostname) ||
+          location.pathname.replace(/\/$/,"") !== "/@"+request.username) fail("WRONG_THREADS_PROFILE");
+      const wanted=noURLs(request.caption);
+      if (!wanted) fail("NATIVE_CAPTION_SCOPE_MISSING");
+      const captions=Array.from(document.querySelectorAll('div.x1a6qonq')).filter(visible).filter(e=>noURLs(e.innerText).includes(wanted));
+      if (captions.length>1) fail("AMBIGUOUS_NATIVE_CAPTION");
+      const found=new Set();
+      for (const caption of captions) {
+        for (let root=caption,depth=0;root && depth<8;root=root.parentElement,depth++) {
+          const links=Array.from(root.querySelectorAll('a[href]')).filter(visible).filter(a=>{
+            const u=new URL(a.href);
+            return u.origin===location.origin && u.pathname.startsWith('/@'+request.username+'/post/') &&
+              /^\/@[^/]+\/post\/[A-Za-z0-9_-]+\/?$/.test(u.pathname) && a.querySelector('time');
+          });
+          if (links.length) { for(const a of links)found.add(a.href);break; }
+        }
+      }
+      if (found.size>1) fail("AMBIGUOUS_NATIVE_POST");
+      return JSON.stringify({ok:true,url:Array.from(found)[0]||null,caption_matches:captions.length});
     }
     if (op === "discover") {
       const re = new RegExp(request.pattern);

@@ -134,7 +134,9 @@ class UploadQueue:
                 old = self.load(request_id)
                 unstarted = (old['status'] == 'FAILED' and
                              old.get('result', {}).get('phase') == 'NOT_STARTED' and
-                             old.get('result', {}).get('code') in {'UPLOAD_CONTROL_MISSING', 'FILE_INPUT_NOT_CREATED', 'UPLOAD_CONTROL_REQUIRED'})
+                             (old.get('result', {}).get('code') in {'UPLOAD_CONTROL_MISSING', 'FILE_INPUT_NOT_CREATED', 'UPLOAD_CONTROL_REQUIRED'} or
+                              (old.get('result', {}).get('code') == 'HELPER_ERROR' and
+                               old.get('result', {}).get('detail') == 'FOREGROUND_TAB_PAUSED')))
                 old_scope = {k: v for k, v in old['public'].items() if k != 'trigger'}
                 new_scope = {k: v for k, v in public.items() if k != 'trigger'}
                 if (old_scope != new_scope or old['media_path'] != str(path) or

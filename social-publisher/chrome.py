@@ -11,7 +11,7 @@ from pathlib import Path
 from common import ROOT, Hold, atomic_json, canonical, digest, read_json, utc
 from settings import Settings
 
-READONLY = {'probe', 'snapshot', 'exists', 'assert', 'discover', 'readback', 'upload_status', 'clean_state', 'source_grid', 'source_modal','source_facebook_photo'}
+READONLY = {'probe', 'snapshot', 'exists', 'assert', 'discover', 'readback', 'upload_status', 'clean_state', 'source_grid', 'source_modal','source_facebook_photo','find_threads_post'}
 VERIFICATION = 'verification'
 
 

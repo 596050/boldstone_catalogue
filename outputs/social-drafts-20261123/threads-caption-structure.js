@@ -1,0 +1,1 @@
+JSON.stringify((()=>{const s=Array.from(document.querySelectorAll("span[dir=auto]")).find(e=>e.innerText==="Weight and Drift");const out=[];for(let e=s,i=0;e&&i<6;e=e.parentElement,i++)out.push({tag:e.tagName,cls:e.className,role:e.getAttribute("role"),text:e.innerText,html:e.outerHTML.slice(0,1400)});return out;})())

@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "description": "Threads original-photo posts through the existing signed-in Boldstone account. Native caption, author, photo and alt text are checked before one journalled Post; uncertainty is read-only. Preparation does not publish.",
+  "prepare": [
+    {
+      "op": "click",
+      "locator": [
+        {
+          "selector": "[role=button]",
+          "name": "New thread",
+          "accessible": true
+        }
+      ],
+      "unless": [
+        {
+          "selector": "[role=dialog] [contenteditable=true][role=textbox][aria-placeholder=\"What’s new?\"]",
+          "accessible": true
+        }
+      ]
+    },
+    {
+      "op": "wait",
+      "locator": [
+        {
+          "selector": "[role=dialog] [contenteditable=true][role=textbox][aria-placeholder=\"What’s new?\"]",
+          "accessible": true
+        }
+      ]
+    },
+    {
+      "op": "assert",
+      "checks": [
+        {
+          "purpose": "account",
+          "locator": [
+            {
+              "selector": "[role=dialog] img[height=\"36\"]",
+              "accessible": true
+            }
+          ],
+          "alt_text": "$profile_picture_label"
+        }
+      ]
+    },
+    {
+      "op": "set_text",
+      "locator": [
+        {
+          "selector": "[role=dialog] [contenteditable=true][role=textbox][aria-placeholder=\"What’s new?\"]",
+          "accessible": true
+        }
+      ],
+      "value": "$caption",
+      "method": "paste",
+      "wait_readback": true
+    },
+    {
+      "op": "upload",
+      "method": "input",
+      "locator": [
+        {
+          "selector": "[role=dialog] input[type=file]",
+          "hidden": true,
+          "accessible": true
+        }
+      ],
+      "preview": [
+        {
+          "selector": "[role=dialog] img[src^=\"blob:\"]",
+          "accessible": true
+        }
+      ]
+    },
+    {
+      "op": "photo_alt",
+      "value": "$alt_text",
+      "method": "paste",
+      "wait_readback": true,
+      "panel": [
+        {
+          "selector": "[contenteditable=true][role=textbox][aria-placeholder=\"Describe this for people with visual impairments...\"]",
+          "accessible": true
+        }
+      ],
+      "open": [
+        {
+          "selector": "[role=dialog] [role=button]",
+          "name": "Attachment actions",
+          "accessible": true
+        }
+      ],
+      "tab": [
+        {
+          "selector": "[role=menuitem]",
+          "name": "Add alt text",
+          "accessible": true
+        }
+      ],
+      "field": [
+        {
+          "selector": "[contenteditable=true][role=textbox][aria-placeholder=\"Describe this for people with visual impairments...\"]",
+          "accessible": true
+        }
+      ],
+      "apply": [
+        {
+          "selector": "[role=button]",
+          "name": "Done",
+          "accessible": true
+        }
+      ],
+      "cancel": [
+        {
+          "selector": "[role=button]",
+          "name": "Done",
+          "accessible": true
+        }
+      ]
+    }
+  ],
+  "ready": [
+    {
+      "purpose": "account",
+      "locator": [
+        {
+          "selector": "[role=dialog] img[height=\"36\"]",
+          "accessible": true
+        }
+      ],
+      "alt_text": "$profile_picture_label"
+    },
+    {
+      "purpose": "caption",
+      "locator": [
+        {
+          "selector": "[role=dialog] [contenteditable=true][role=textbox][aria-placeholder=\"What’s new?\"]",
+          "accessible": true
+        }
+      ],
+      "text": "$caption"
+    },
+    {
+      "purpose": "photo",
+      "locator": [
+        {
+          "selector": "[role=dialog] img[src^=\"blob:\"]",
+          "accessible": true
+        }
+      ],
+      "image": true,
+      "alt_text": "$alt_text"
+    }
+  ],
+  "submit": [
+    {
+      "selector": "[role=dialog] [role=button]",
+      "name": "Post",
+      "accessible": true
+    }
+  ],
+  "discover": {
+    "roots": [
+      {
+        "selector": "[role=status] a[href]",
+        "name": "View",
+        "accessible": true
+      },
+      {
+        "selector": "[role=alert] a[href]",
+        "name": "View",
+        "accessible": true
+      }
+    ]
+  },
+  "native_url_pattern": "https://www\\.threads\\.(?:com|net)/@boldstonesculpture/post/[A-Za-z0-9_-]+/?",
+  "readback": {
+    "root": [
+      {
+        "selector": "div.xrvj5dj.xd0jker.xb67y9k.x1vcxs9q",
+        "accessible": true
+      }
+    ],
+    "caption_selectors": [
+      "div.x1a6qonq"
+    ],
+    "author": [
+      {
+        "selector": "a[href=\"/@boldstonesculpture\"]",
+        "name": "$username",
+        "accessible": true
+      }
+    ],
+    "photo_selector": "a[href$=\"/media\"] picture img"
+  },
+  "clean_state": {
+    "caption": [
+      {
+        "selector": "[role=dialog] [contenteditable=true][role=textbox][aria-placeholder=\"What’s new?\"]",
+        "accessible": true
+      }
+    ],
+    "previews": [
+      {
+        "selector": "[role=dialog] img[src^=\"blob:\"]",
+        "accessible": true
+      }
+    ]
+  }
+}

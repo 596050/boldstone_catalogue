@@ -3,7 +3,8 @@
 AppleScript entry point and a Python 3.9+ standard-library supervisor for the
 **existing normal Google Chrome application**, using its signed-in sessions.
 Facebook and Instagram post separately through Meta Business Suite; LinkedIn
-posts through Sally Price’s normal composer. Accounts, routes, exact controls
+posts through Sally Price’s normal composer. Threads uses the signed-in
+`boldstonesculpture` account at threads.com. Accounts, routes, exact controls
 and recovery workflows are editable JSON. There are no browser-profile copies,
 social API tokens, browser debugging ports or Python dependencies to install.
 
@@ -156,6 +157,19 @@ confirmation uses **Don't share this post**, preserving account-wide settings.
 Photo alt text was entered and read back. Rich-text captions use the site's
 paste handler, with every line checked before submission.
 
+The current default enables **Share to Facebook story** in the Facebook
+workflow and requires it to read back as on before upload and before Publish.
+The Instagram workflow keeps **Post to** set to `boldstonesculpture` and enables
+Facebook Story sharing wherever Meta exposes that switch. The inspected
+Instagram-only composer does not show it, so the Facebook workflow handles the
+Facebook Story for a batch containing both destinations.
+
+Both workflows inspect the current destination before opening its menu. An
+already-correct selection is left alone. Account checkboxes and Story switches
+are read before any click and are pressed only when their state differs from
+the requested value; an unreadable state holds the draft. Scheduling and boost
+remain off. This applies equally to publishing and `--prepare-only`.
+
 Commerce product tags are mandatory for new Meta deliveries. The script checks
 the exact product name and price in the catalogue picker, saves the tag, reopens
 the photo editor to verify that selection, and checks that the composer shows
@@ -208,7 +222,60 @@ change the user's active tab, use the system clipboard or open a file picker.
 A user switching between other windows is allowed; using the reserved tab holds
 that delivery. Stable window and tab IDs avoid index shifts during tab changes.
 
-## Start here
+## Prepare drafts without publishing
+
+The script directory is `/Users/tprice/Documents/boldstone/social-publisher`.
+Use either command from that directory:
+
+```sh
+/usr/bin/python3 publisher.py prepare /path/to/manifest.json --tabs /path/to/tab-plan.json
+/usr/bin/osascript Run.applescript run --prepare-only --manifest /path/to/manifest.json --tabs /path/to/tab-plan.json
+```
+
+Both commands accept `publish_authorized: false`. They validate captions, media
+hashes, destination accounts and Commerce tags, then fill the native composers
+and leave them open. They never enqueue jobs, write a publish intent, schedule a
+post or click Post/Publish. Their browser transport also rejects submission
+operations. A later `run` or `watch` cannot pick up these drafts because they
+are separate from the outbox. Publishing still requires an explicitly authorized
+manifest and the normal enqueue/run path.
+
+Reserve a separate background Chrome tab for **each platform and sculpture**.
+Preparation never creates or activates tabs. `--tabs` names a JSON file such as:
+
+```json
+{
+  "schema_version": 1,
+  "verification": {"window_id": 123, "tab_id": 456},
+  "bindings": [
+    {"profile_id": "boldstone_threads", "post_key": "BSI-EXAMPLE", "window_id": 123, "tab_id": 457}
+  ]
+}
+```
+
+Use real IDs from `doctor --probe`. Each draft tab must be distinct from every
+other draft and the verification tab. An `about:blank` reserved tab is accepted.
+`prepare --profile boldstone_threads` and `--post-key BSI-...` can select a subset
+of the same frozen manifest. Results and checkpoints are in `state/drafts/`;
+rerunning the same preparation checks the retained drafts and does not discard
+an edited or unfinished composer. A changed manifest under the same batch ID
+is refused. Existing outbox deliveries are retained and cannot be reprepared by
+this command.
+
+Threads captions have a 500-character limit in this adapter. The workflow loads
+one original photograph through the existing public file input, saves and reads
+back its alt text, and checks the exact account and complete caption. It needs
+no additional extension permissions. A native post is only confirmed after its
+exact caption identifies a time/permalink link on the configured profile and
+that native post independently shows the author, caption, loaded image and
+authored links. A lost result never repeats Post. Profile details, native routes
+and selectors are editable in `profiles.json` and `workflows/threads.json`.
+
+On 23 November 2026, Threads preparation and read-only inspection of an existing
+photo post were checked live. The new batch was prepared without publishing;
+this does not claim a live test of a new Threads publication.
+
+## Diagnostics
 
 From this directory:
 
@@ -339,9 +406,10 @@ Accessibility access or System Events.
 Use `examples/batch.example.json` as the schema. Each sculpture has independent
 target captions and a hash of its reviewed original photograph. A five-sculpture,
 four-profile manifest creates 20 independently tracked deliveries. There is no
-automatic extra crosspost. The destination must read back as the intended
-platform alone. Ad-post mode, Story sharing, scheduling and boost controls are
-checked before upload and again before publication when exposed by the composer.
+automatic extra feed crosspost. The destination must read back as the intended
+feed platform alone. Facebook Story sharing is enabled as described above.
+Ad-post mode, Story sharing, scheduling and boost controls are checked before
+upload and again before publication when exposed by the composer.
 Google's target uses the `boldstone_google_business_profile` profile, a full
 description within 1,500 characters and an exact HTTPS `purchase_url` on the
 configured website. Its original PNG or JPEG must fit Google's 5 MB profile

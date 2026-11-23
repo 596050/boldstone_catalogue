@@ -1,0 +1,1 @@
+JSON.stringify((()=>{const im=document.querySelector("img[alt^=\"Photo by Sally Price\"]");const out=[];for(let e=im,i=0;e&&i<9;e=e.parentElement,i++)out.push({tag:e.tagName,cls:e.className,role:e.getAttribute("role"),text:e.innerText?.slice(0,1300),html:e.outerHTML.slice(0,1200)});return out;})())
