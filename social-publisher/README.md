@@ -8,6 +8,17 @@ posts through Sally Price’s normal composer. Threads uses the signed-in
 and recovery workflows are editable JSON. There are no browser-profile copies,
 social API tokens, browser debugging ports or Python dependencies to install.
 
+`reserve-background-tabs.applescript` can reserve blank tabs when the browser
+connector is unavailable. It uses an existing normal Chrome window that is
+currently behind the user's window. It never creates or shows a window and
+never calls Chrome's native URL setter. Only the selection caused by inserting
+its own new tab is restored inside that still-background window; a changed
+foreground window, application or user-selected tab pauses the operation.
+The JSON receipt records every created tab and verifies that all window
+selections were preserved. Existing receipt files are refused so an interrupted
+reservation must be inspected before retrying. The publisher then navigates
+these exact tab IDs in place and retains its usual ownership and focus checks.
+
 Google Business Profile Updates are supported by
 `workflows/google_business_profile.json` and `google_business.py`. Their original
 image uploads use the background AppleScript file-input path. A Google target

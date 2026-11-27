@@ -1,237 +1,325 @@
+"""Build the local photo checklist and its linked audits from the same Dropbox scan."""
+
 import html
 import json
-from collections import defaultdict
+from collections import Counter
 from datetime import datetime
-from pathlib import Path
 from urllib.parse import quote
 from zoneinfo import ZoneInfo
 
-
-BASE = Path(__file__).resolve().parent
-plan = json.loads((BASE / 'folder-plan.json').read_text())
-before = json.loads((BASE / 'inventory-before.json').read_text())
-current_inventory = BASE / 'inventory-in-situ.json'
-after = json.loads((current_inventory if current_inventory.exists() else BASE / 'inventory-after.json').read_text())
-in_situ = json.loads((BASE / 'in-situ-audit.json').read_text())
-assert in_situ['summary']['checked_at'] == after['checked_at']
-assert after['has_more'] is False, 'The final Dropbox scan is incomplete'
-entries = after['entries']
-assert len({e['file_id'] for e in entries}) == len(entries)
-by_path = {e['path'].casefold(): e for e in entries}
-by_id = {e['file_id']: e for e in entries}
-children = defaultdict(list)
-for entry in entries:
-    children[entry['path'].rsplit('/', 1)[0].casefold()].append(entry)
-
-receipts = [json.loads(line) for line in (BASE / 'creation-receipts.jsonl').read_text().splitlines()]
-successful = [r for r in receipts if r.get('status') in {'created', 'recovered_existing'}]
-creations = {r['response']['folder']['file_id']: r for r in successful if r.get('status') == 'created'}
-created_paths = {r['response']['folder']['path'].casefold() for r in creations.values()}
-assert len(created_paths) == len(creations), 'Duplicate creation receipt'
-assert len(created_paths) == len(plan['create']), 'Some planned folders lack creation receipts'
-for folder_id, receipt in creations.items():
-    actual = by_id[folder_id]
-    assert actual['path'].casefold() == receipt['requested']['path'].casefold()
-    assert actual['name'] == receipt['requested']['name']
-    assert actual['object_type'] == 'folder'
+from audit_in_situ import (
+    BASE, DETAIL, HIGH, ROLES, SITU, folder, in_situ_audit, load_tree, pathkey,
+    role_name, write_json,
+)
 
 
-def display_path(entry):
-    receipt = creations.get(entry['file_id'])
-    if receipt:
-        f = receipt['response']['folder']
-        if f.get('path_display'):
-            return f['path_display']
-    if entry.get('path_display'):
-        return entry['path_display']
-    return '/' + entry['path'].split('//', 1)[1]
-
-
-def link(entry):
-    return 'https://www.dropbox.com/home' + quote(display_path(entry), safe='/')
-
-
-rows = []
-targets = []
-for component in plan['components']:
-    current_component = by_id[component['file_id']]
-    assert current_component['path'].casefold() == component['path'].casefold()
-    row = {
-        'name': current_component['name'],
-        'family': component['family'],
-        'component_id': current_component['file_id'],
-        'component_path': display_path(current_component),
-        'component_url': link(current_component),
-        'folders': {},
-        'related_folders': [],
-    }
-    for target in component['targets']:
-        entry = by_path[target['path'].casefold()]
-        assert entry['object_type'] in {'folder', 'mount'}
-        assert entry['name'].casefold() == target['name'].casefold()
-        contents = children[entry['path'].casefold()]
-        record = {
-            'role': target['role'],
-            'name': entry['name'],
-            'id': entry['file_id'],
-            'path': display_path(entry),
-            'url': link(entry),
-            'empty': len(contents) == 0,
-            'child_count': len(contents),
-            'file_count': sum(c['object_type'] == 'file' for c in contents),
-            'created': entry['file_id'] in creations,
-            'created_at': creations[entry['file_id']]['completed_at'] if entry['file_id'] in creations else None,
+def report_data(tree, sit, creations):
+    situ_by_id = {r['component_id']: r for r in sit['components']}
+    rows = []
+    targets = []
+    used_ids = set()
+    for e in tree.components:
+        comp = tree.record(e)
+        sr = situ_by_id[comp['id']]
+        row = {
+            'component_id': comp['id'], 'name': comp['name'], 'family': sr['family'],
+            'component_path': comp['path'], 'component_url': comp['url'],
+            'folders': {}, 'coverage': {}, 'missing_roles': [], 'related_folders': [],
         }
-        row['folders'][target['role']] = record
-        targets.append(record)
-    required_ids = {f['id'] for f in row['folders'].values()}
-    # Preserve and link pre-existing folders whose names differ from the requested names.
-    for sibling in children[current_component['path'].casefold()]:
-        if sibling['object_type'] not in {'folder', 'mount'} or sibling['file_id'] in required_ids:
-            continue
-        row['related_folders'].append({
-            'name': sibling['name'], 'url': link(sibling),
-            'child_count': len(children[sibling['path'].casefold()]),
-        })
-    # Detail photographs already held beside, rather than within, the component directory.
-    parent_children = children[current_component['path'].rsplit('/', 1)[0].casefold()]
-    for sibling in parent_children:
-        if sibling['object_type'] in {'folder', 'mount'} and sibling['name'].casefold() == (current_component['name'] + ' Details').casefold():
-            row['related_folders'].append({
-                'name': sibling['name'], 'url': link(sibling),
-                'child_count': len(children[sibling['path'].casefold()]),
-            })
-    rows.append(row)
+        for role in ROLES:
+            if role == SITU:
+                dedicated, shared = sr['dedicated'], sr['shared']
+            else:
+                dedicated, shared = tree.coverage(e, role)
+            used_ids.update(f['id'] for f in dedicated + shared)
+            count = sum(f['image_count'] for f in dedicated)
+            group_count = sum(f['image_count'] for f in shared)
+            covered = bool(count or (role == SITU and group_count))
+            row['coverage'][role] = {
+                'dedicated': dedicated, 'shared': shared, 'dedicated_image_count': count,
+                'shared_image_count': group_count, 'covered': covered,
+            }
+            if not covered:
+                row['missing_roles'].append(role)
+            if role == SITU:
+                continue
+            # The filing view describes the actual role folder inside the component. Sibling
+            # Detail collections can supply photographs even when that subfolder is empty.
+            inside = [f for f in dedicated if f['match'] in ('named_subfolder', 'component_subfolder')]
+            if inside:
+                target = dict(inside[0])
+                target['created_at'] = creations.get(target['id'])
+            else:
+                target = {'name': role, 'id': None, 'path': None, 'url': None,
+                          'child_count': 0, 'file_count': 0, 'image_count': 0,
+                          'empty': False, 'created_at': None}
+            target.update(role=role, folder_missing=not inside, created=bool(target['created_at']))
+            row['folders'][role] = target
+            targets.append(target)
+        target_ids = {f['id'] for f in row['folders'].values()}
+        related = {sub['file_id']: tree.record(sub) for sub in tree.children[pathkey(e)]
+                   if folder(sub) and sub['file_id'] not in target_ids}
+        for role in (HIGH, DETAIL):
+            for f in row['coverage'][role]['dedicated']:
+                if f['id'] not in target_ids:
+                    related[f['id']] = f
+        row['related_folders'] = list(related.values())
+        rows.append(row)
 
-empty_targets = [f for f in targets if f['empty']]
-empty_rows = [r for r in rows if any(f['empty'] for f in r['folders'].values())]
-before_ids = {e['file_id'] for e in before['entries']}
-after_ids = set(by_id)
-other_additions = [by_id[fid] for fid in (after_ids - before_ids) - set(creations)]
-assert all(e['object_type'] == 'file' for e in other_additions), 'Additional folders require a scope recheck'
-assert set(creations) <= after_ids - before_ids, 'A created folder was already present in the opening inventory'
-missing_since_creation = [e for e in before['entries'] if e['file_id'] not in by_id]
-file_changes = []
-for old in before['entries']:
-    if old['object_type'] != 'file' or old['file_id'] not in by_id:
-        continue
-    new = by_id[old['file_id']]
-    fields = ['name', 'path', 'modified_time', 'file']
-    if any(old.get(k) != new.get(k) for k in fields):
-        file_changes.append(old['file_id'])
+    empty_rows = [r for r in rows if any(f['empty'] for f in r['folders'].values())]
+    filing_rows = [r for r in rows if any(not f['image_count'] for f in r['folders'].values())]
+    missing = Counter(role for r in rows for role in r['missing_roles'])
+    unassigned = {}
+    for candidates in (*tree.family_role_folders.values(), *tree.group_folders.values()):
+        for f in candidates:
+            if f['file_id'] not in used_ids and tree.image_counts[pathkey(f)]:
+                unassigned[f['file_id']] = dict(tree.record(f), role=role_name(f['name']))
+    review = [dict(tree.record(e), family=tree.family[e['file_id']],
+                   subfolders=[f['name'] for f in tree.children[pathkey(e)] if folder(f)])
+              for e in tree.review]
+    summary = {
+        'checked_at': tree.snapshot['checked_at'], 'started_at': tree.snapshot['started_at'],
+        'component_finish_folders': len(rows), 'families': len({r['family'] for r in rows}),
+        'components_with_any_gap': sum(bool(r['missing_roles']) for r in rows),
+        'components_missing_all_three': sum(len(r['missing_roles']) == 3 for r in rows),
+        'components_with_all_three': sum(not r['missing_roles'] for r in rows),
+        'missing_by_role': {role: missing[role] for role in ROLES},
+        'group_detail_only': sum(not r['coverage'][DETAIL]['covered'] and
+                                 bool(r['coverage'][DETAIL]['shared_image_count']) for r in rows),
+        'required_folders': len(targets), 'existing_role_subfolders': sum(bool(f['id']) for f in targets),
+        'empty_high_resolution': sum(f['role'] == HIGH and f['empty'] for f in targets),
+        'empty_in_detail': sum(f['role'] == DETAIL and f['empty'] for f in targets),
+        'empty_folders': sum(f['empty'] for f in targets),
+        'component_finish_folders_with_empty_folders': len(empty_rows),
+        'components_with_unfilled_role_subfolders': len(filing_rows),
+        'populated_folders': sum(bool(f['id']) and not f['empty'] for f in targets),
+        'recursive_pages_after': tree.snapshot['pages'], 'final_listing_complete': True,
+        'listed_folders': sum(folder(e) for e in tree.by_id.values()),
+        'listed_files': sum(not folder(e) for e in tree.by_id.values()),
+        'scope_review_folders': len(review),
+        'in_situ': sit['summary'],
+    }
+    audit = {
+        'summary': summary, 'root': tree.snapshot['root']['folder']['path_display'],
+        'components': rows, 'scope_review': review,
+        'unassigned_photo_folders': sorted(unassigned.values(), key=lambda f: f['path'].casefold()),
+    }
+    return audit, {'summary': summary, 'components': empty_rows}
 
-summary = {
-    'checked_at': after['checked_at'], 'component_finish_folders': len(rows),
-    'families': len({r['family'].casefold() for r in rows}),
-    'required_folders': len(targets), 'created': len(creations),
-    'already_present': len(plan['existing']), 'empty_folders': len(empty_targets),
-    'empty_high_resolution': sum(f['role'] == 'High Resolution' for f in empty_targets),
-    'empty_in_detail': sum(f['role'] == 'In Detail' for f in empty_targets),
-    'component_finish_folders_with_empty_folders': len(empty_rows),
-    'populated_folders': sum(not f['empty'] for f in targets),
-    'original_files_still_present': sum(e['object_type'] == 'file' and e['file_id'] in by_id for e in before['entries']),
-    'original_items_missing_since_creation': len(missing_since_creation),
-    'original_file_metadata_changes_since_creation': len(file_changes),
-    'additional_files_observed': len(other_additions),
-    'recursive_pages_after': after['pages'], 'final_listing_complete': True,
-    'in_situ': in_situ['summary'],
+
+def esc(value):
+    return html.escape(str(value), quote=True)
+
+
+def link(url, label, title=''):
+    tooltip = f' title="{esc(title)}"' if title else ''
+    return f'<a href="{esc(url)}"{tooltip} target="_blank" rel="noopener noreferrer">{esc(label)}</a>'
+
+
+def images(count):
+    return f'{count} image' + ('' if count == 1 else 's')
+
+
+def folder_evidence(f):
+    label = link(f['url'], f['name'], f['path'])
+    contents = images(f['image_count']) if f['image_count'] else ('Empty folder' if f['empty'] else 'No image files')
+    origin = ''
+    if f.get('match') == 'renamed_component_sibling':
+        origin = ' · filed under the former component name'
+    return f'<li>{label}<br><small>{contents}{origin}</small></li>'
+
+
+def role_cell(row, role):
+    info = row['coverage'][role]
+    fs, groups = info['dedicated'], info['shared']
+    count, group_count = info['dedicated_image_count'], info['shared_image_count']
+    if count:
+        label = images(count)
+    elif role == SITU and group_count:
+        label = 'Shared only · ' + images(group_count)
+    elif fs:
+        label = 'No individual images' if group_count else 'No images'
+    else:
+        label = 'No matching folder'
+    css = 'present' if info['covered'] else 'missing'
+    summary_label = esc(label)
+    if not count and group_count and role == DETAIL:
+        css += ' group-detail'
+        summary_label = (f'<span class="individual-label">{esc(label)}</span>'
+                         f'<span class="group-label">Shared only · {images(group_count)}</span>')
+    elif not count and group_count and role == SITU:
+        css += ' group-situ'
+    populated = [f for f in fs if f['image_count']]
+    simple = len(fs) == 1 and not groups and fs[0]['match'] in ('named_subfolder', 'named_sibling')
+    if simple:
+        body = link(fs[0]['url'], label, fs[0]['path'])
+    elif fs or groups:
+        body = '<details><summary>' + summary_label + '</summary><ul>'
+        body += ''.join(folder_evidence(f) for f in fs)
+        if groups:
+            body += '<li><small>Named group folders</small><ul>' + ''.join(folder_evidence(f) for f in groups) + '</ul></li>'
+        body += '</ul></details>'
+    else:
+        body = esc(label)
+    note = ''
+    if role in (HIGH, DETAIL) and count and not row['folders'][role]['image_count']:
+        note = 'Filed beside the component'
+    elif any(f['match'] == 'renamed_component_sibling' for f in populated):
+        note = 'Folder uses the former name'
+    elif any(f['match'] == 'component_subfolder' for f in populated):
+        note = 'Folder uses a different name'
+    elif role == DETAIL and not count and group_count:
+        note = f'{images(group_count)} in named group folders'
+    elif not count and not group_count and fs:
+        note = 'Empty folder' if all(f['empty'] for f in fs) else 'Folder has other items'
+    notes = f'<small class="cell-note">{esc(note)}</small>' if note else ''
+    return f'<td><div class="{css}">{body}</div>{notes}</td>'
+
+
+KEYS = {HIGH: 'high', DETAIL: 'detail', SITU: 'situ'}
+
+
+def render_row(r):
+    gaps = ' '.join(KEYS[x] for x in r['missing_roles'])
+    filing = any(not f['image_count'] for f in r['folders'].values())
+    component = link(r['component_url'], r['name'], r['component_path'])
+    return (f'<tr data-id="{esc(r["component_id"])}" data-search="{esc((r["family"] + " " + r["name"]).casefold())}" '
+            f'data-gaps="{gaps}" data-filing="{int(filing)}" '
+            f'data-situ-dedicated="{int(bool(r["coverage"][SITU]["dedicated_image_count"]))}" '
+            f'data-group-detail="{int(bool(r["coverage"][DETAIL]["shared_image_count"]))}">'
+            f'<th scope="row">{component}<small class="family">{esc(r["family"])}</small></th>'
+            + ''.join(role_cell(r, role) for role in (DETAIL, HIGH, SITU)) + '</tr>')
+
+
+STYLE = """
+:root{color-scheme:light;--ink:#24352a;--leaf:#255d43;--muted:#536258;--line:#d6ded4;--paper:#fcfbf8}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 system-ui,sans-serif}
+main{max-width:1280px;margin:auto;padding:32px 28px 54px}h1,h2,p{margin:0 0 12px}h1{font:500 clamp(29px,4vw,44px)/1.12 Georgia,serif}
+h2{font:500 24px Georgia,serif;margin-top:28px}a{color:var(--leaf);text-underline-offset:3px}small,.muted{color:var(--muted)}
+.totals{display:flex;flex-wrap:wrap;gap:12px 28px;margin:24px 0;padding:16px 0;border-block:1px solid var(--line)}
+.totals a{color:inherit;text-decoration:none}.totals a:hover{text-decoration:underline}.totals b{display:block;font-size:25px}
+.controls{display:flex;align-items:end;gap:12px 20px;flex-wrap:wrap;margin:20px 0 8px}
+.controls label.field{display:grid;gap:4px;font-size:14px;font-weight:600}
+input[type=search],select{font:inherit;padding:8px 10px;border:1px solid #9aa99d;border-radius:5px;background:white;color:var(--ink);max-width:100%}
+.check{font-size:14px}.row-count{margin:10px 0;font-size:14px}.tablewrap{overflow:auto}table{width:100%;min-width:680px;border-collapse:collapse;background:white;font-size:14px}
+th,td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+thead th{background:#e7ede6}tbody th{width:33%;font-weight:600}td{width:22%}.family,.cell-note{display:block;margin-top:3px;font-weight:400}
+summary{cursor:pointer}td summary{text-decoration:underline dotted;text-underline-offset:3px}td ul{padding-left:18px;max-width:29em;overflow-wrap:anywhere}td li{margin:6px 0}
+.missing,.missing>a{font-weight:600;color:#88481d}.present,.present>a{color:var(--leaf)}
+.group-label,.count-group-detail .individual-label{display:none}.count-group-detail .group-label{display:inline}
+.count-group-detail .group-detail{color:var(--leaf);font-weight:400}.dedicated-situ .group-situ{color:#88481d;font-weight:600}
+details.extra{margin:16px 0;padding:10px 14px;border:1px solid var(--line);border-radius:5px}details.extra summary{font-weight:600}
+.method{max-width:1050px;margin-top:20px;font-size:14px}.foot{margin-top:24px;font-size:13px}
+[hidden]{display:none!important}@media(max-width:650px){main{padding:22px 14px}.controls{align-items:start}.totals{gap:10px 24px}input[type=search]{width:100%}}
+"""
+
+SCRIPT = """
+const find = document.getElementById('search'), view = document.getElementById('view');
+const strict = document.getElementById('dedicatedOnly'), groupDetail = document.getElementById('groupDetail');
+const rows = [...document.querySelectorAll('#photoFolders tbody tr')];
+function update() {
+  let n = 0;
+  document.body.classList.toggle('dedicated-situ',strict.checked);
+  document.body.classList.toggle('count-group-detail',groupDetail.checked);
+  const query = find.value.trim().toLowerCase();
+  for (const row of rows) {
+    const gaps = new Set(row.dataset.gaps.split(' ').filter(Boolean));
+    if (strict.checked && row.dataset.situDedicated === '0') gaps.add('situ');
+    if (groupDetail.checked && row.dataset.groupDetail === '1') gaps.delete('detail');
+    const match = {any:gaps.size>0, every:gaps.size===3, complete:gaps.size===0,
+      all:true, filing:row.dataset.filing==='1'}[view.value] ?? gaps.has(view.value);
+    row.hidden = !(match && row.dataset.search.includes(query));
+    if (!row.hidden) n++;
+  }
+  document.getElementById('count').textContent = n + (n === 1 ? ' component shown' : ' components shown');
+  document.getElementById('none').hidden = n !== 0;
 }
-(BASE / 'folder-audit.json').write_text(json.dumps({'summary': summary, 'components': rows, 'additional_files_observed': other_additions,
-    'changes_since_original_snapshot': {'missing_items': missing_since_creation, 'changed_file_ids': file_changes},
-    'refresh_mode': 'read-only Dropbox inventory; local report regenerated'}, indent=2) + '\n')
-(BASE / 'empty-folder-links.json').write_text(json.dumps({'summary': summary, 'components': empty_rows}, indent=2) + '\n')
+const routes = {'missing-in-situ':'situ', 'empty-photo-folders':'filing',
+  'missing-in-detail':'detail','missing-high-resolution':'high','missing-all-three':'every',
+  'all-complete':'complete','photo-gaps':'any','all-components':'all'};
+function fromHash() {
+  const selected = routes[location.hash.slice(1)];
+  if (selected) view.value = selected;
+  update();
+}
+find.addEventListener('input',update);
+for (const el of [view,strict,groupDetail]) el.addEventListener('change',update);
+for (const a of document.querySelectorAll('.totals a, [data-filter-link]')) a.addEventListener('click',() => {
+  view.value=routes[a.hash.slice(1)]; find.value=''; strict.checked=false; groupDetail.checked=false; update();
+});
+window.addEventListener('hashchange',fromHash);
+fromHash();
+"""
 
-esc = html.escape
+
+def render(audit):
+    s, rows = audit['summary'], audit['components']
+    checked = datetime.fromisoformat(s['checked_at'].replace('Z', '+00:00')).astimezone(ZoneInfo('Europe/London'))
+    date_text = checked.strftime('%-d %B %Y at %H:%M %Z')
+    root_url = 'https://www.dropbox.com/home' + quote(audit['root'], safe='/')
+    parts = [f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Boldstone — Sculpture photo folder checklist</title><style>{STYLE}</style></head><body><main>
+<h1>Sculpture photo folder checklist</h1><p class="muted">Dropbox checked {esc(date_text)} · {s["component_finish_folders"]} component and finish folders in {s["families"]} families · {link(root_url, "01 Wall Sculptures")}</p>
+<p><strong>{s["components_with_any_gap"]} components are missing at least one image type.</strong> {s["components_with_all_three"]} have all three.</p><nav class="totals" aria-label="Filter by photo coverage">''']
+    for anchor, count, label in (
+        ('missing-in-detail', s['missing_by_role'][DETAIL], 'Missing individual In Detail'),
+        ('missing-high-resolution', s['missing_by_role'][HIGH], 'Missing High Resolution'),
+        ('missing-in-situ', s['missing_by_role'][SITU], 'Missing In Situ'),
+        ('missing-all-three', s['components_missing_all_three'], 'Missing all three'),
+        ('all-complete', s['components_with_all_three'], 'Have all three'),
+    ):
+        parts.append(f'<a id="{anchor}" href="#{anchor}"><b>{count}</b>{label}</a>')
+    parts.append('''</nav><section id="photo-gaps" aria-label="Component checklist"><div id="empty-photo-folders" class="controls">
+<label class="field">Find a component or family<input id="search" type="search" placeholder="Name or family"></label>
+<label class="field">Show<select id="view">
+<option value="any">Missing any image type</option><option value="every">Missing all three</option>
+<option value="detail">Missing In Detail</option><option value="high">Missing High Resolution</option>
+<option value="situ">Missing In Situ</option><option value="filing">High Resolution or In Detail subfolder needs filing</option>
+<option value="complete">Have all three</option><option value="all">All components</option></select></label>
+<label class="check"><input type="checkbox" id="dedicatedOnly"> Require dedicated In Situ</label>
+<label class="check"><input type="checkbox" id="groupDetail"> Count named group detail photos</label></div>
+<p id="count" class="row-count" role="status"></p><div class="tablewrap"><table id="photoFolders"><thead><tr>
+<th scope="col">Component and finish</th><th scope="col">In Detail</th><th scope="col">High Resolution</th><th scope="col">In Situ</th>
+</tr></thead><tbody>''')
+    parts.extend(render_row(r) for r in rows)
+    parts.append(f'''</tbody></table></div><p id="none" hidden>No components match these filters.</p></section>
+<p class="method">Counts use image files in labelled Dropbox folders, including their subfolders. An individually named <em>Details</em> folder beside a component counts towards its coverage. {s["group_detail_only"]} components have detail photos only in named group folders. The group detail checkbox includes those photos.</p>
+<p class="method">{s["in_situ"]["with_dedicated_images"]} components have dedicated In Situ images and {s["in_situ"]["with_shared_images_only"]} have them only in a group folder naming the component and finish. The High Resolution label follows the folder designation. Pixel dimensions and photo content were not inspected.</p>
+<p class="method"><a href="#empty-photo-folders" data-filter-link>Check component subfolders for filing</a> · {s["empty_in_detail"]} In Detail and {s["empty_high_resolution"]} High Resolution subfolders are empty. The component and image-count links open their current Dropbox folders.</p>''')
+    if audit['scope_review']:
+        parts.append('<details class="extra"><summary>Component folders to confirm (' + str(len(audit['scope_review'])) + ')</summary><ul>')
+        for f in audit['scope_review']:
+            label = link(f['url'], f['name'])
+            parts.append(f'<li>{label} · {images(f["image_count"])} under {esc(f["family"])}. Its status as a component and finish is unconfirmed. Subfolders include {esc(", ".join(f["subfolders"]) or "none")}.</li>')
+        parts.append('</ul></details>')
+    if audit['unassigned_photo_folders']:
+        parts.append('<details class="extra"><summary>Photo folders without a confirmed component and finish (' + str(len(audit['unassigned_photo_folders'])) + ')</summary><ul>')
+        for f in audit['unassigned_photo_folders']:
+            parts.append(f'<li>{link(f["url"], f["name"], f["path"])} · {images(f["image_count"])}</li>')
+        parts.append('</ul></details>')
+    parts.append('<p class="foot"><a href="folder-audit.json">Full component audit</a> · <a href="in-situ-audit.json">In Situ folder links</a> · <a href="empty-folder-links.json">Empty subfolders</a></p></main><script>' + SCRIPT + '</script></body></html>')
+    return '\n'.join(parts)
 
 
-def cell(folder):
-    status = 'Empty' if folder['empty'] else f"{folder['child_count']} item(s)"
-    created_date = datetime.fromisoformat(folder['created_at'].replace('Z', '+00:00')).strftime('%-d %b %Y') if folder['created_at'] else None
-    origin = 'Created ' + created_date if created_date else 'Already existed'
-    return (f'<td><a href="{esc(folder["url"], quote=True)}" target="_blank" rel="noopener noreferrer">'
-            f'{esc(folder["name"])}</a><br><span class="{"empty" if folder["empty"] else "filled"}">'
-            f'{status}</span> <small>{origin}</small></td>')
+def build(base=BASE):
+    tree = load_tree(base)
+    creations = {}
+    receipts = base / 'creation-receipts.jsonl'
+    if receipts.exists():
+        for line in receipts.read_text().splitlines():
+            r = json.loads(line)
+            if r.get('status') == 'created':
+                creations[r['response']['folder']['file_id']] = r['completed_at']
+    sit = in_situ_audit(tree)
+    audit, empty = report_data(tree, sit, creations)
+    page = render(audit)
+    write_json(base / 'in-situ-audit.json', sit)
+    write_json(base / 'folder-audit.json', audit)
+    write_json(base / 'empty-folder-links.json', empty)
+    write_json(base / 'verification.json', audit['summary'])
+    (base / 'empty-folder-list.html').write_text(page)
+    return audit
 
 
-table_rows = []
-for row in rows:
-    has_empty = any(f['empty'] for f in row['folders'].values())
-    notes = '<br>'.join(
-        f'<a href="{esc(n["url"], quote=True)}" target="_blank" rel="noopener noreferrer">{esc(n["name"])}</a>'
-        f' <small>({n["child_count"]} item(s))</small>' for n in row['related_folders']
-    )
-    search = esc((row['name'] + ' ' + row['family']).lower(), quote=True)
-    table_rows.append(
-        f'<tr data-search="{search}" data-empty="{str(has_empty).lower()}">'
-        f'<td><a class="component" href="{esc(row["component_url"], quote=True)}" target="_blank" rel="noopener noreferrer">'
-        f'{esc(row["name"])}</a><br><small>{esc(row["family"])}</small></td>'
-        + cell(row['folders']['High Resolution']) + cell(row['folders']['In Detail'])
-        + f'<td class="notes">{notes or "—"}</td></tr>'
-    )
-
-in_situ_rows = []
-for item in in_situ['components']:
-    if item['status'] == 'dedicated':
-        continue
-    dedicated_note = 'No dedicated In Situ folder'
-    if item['dedicated']:
-        dedicated_note = '<br>'.join(
-            f'<a href="{esc(f["url"], quote=True)}" target="_blank" rel="noopener noreferrer">{esc(f["name"])}</a>'
-            ' <small>(no image files)</small>' for f in item['dedicated']
-        )
-    shared_links = '<br>'.join(
-        f'<a href="{esc(f["url"], quote=True)}" target="_blank" rel="noopener noreferrer">{esc(f["name"])}</a>'
-        f' <small>({f["image_count"]} image(s))</small>' for f in item['shared'] if f['image_count']
-    )
-    status = 'Shared group folder available' if item['status'] == 'shared_only' else 'No matching In Situ images found'
-    search = esc((item['name'] + ' ' + item['family']).lower(), quote=True)
-    in_situ_rows.append(
-        f'<tr data-search="{search}" data-status="{item["status"]}">'
-        f'<td><a class="component" href="{esc(item["component_url"], quote=True)}" target="_blank" rel="noopener noreferrer">'
-        f'{esc(item["name"])}</a><br><small>{esc(item["family"])}</small></td>'
-        f'<td><span class="{"filled" if shared_links else "empty"}">{status}</span><br>{dedicated_note}</td>'
-        f'<td class="notes">{shared_links or "—"}</td></tr>'
-    )
-
-page = '''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Boldstone — Sculpture photo folder checklist</title><style>
-*{box-sizing:border-box}body{margin:28px;font:15px/1.5 system-ui,sans-serif;background:#f7f8f5;color:#25372c}
-h1{font-size:28px;margin-bottom:8px}p{max-width:1050px}a{color:#1e6846;text-underline-offset:3px}
-h2{font-size:23px;margin-top:32px;scroll-margin-top:20px}nav{display:flex;gap:24px;flex-wrap:wrap;margin:18px 0}.in-situ-table td{width:33.33%}
-.summary{padding:14px 18px;background:#e8efe7;border-radius:8px;max-width:1100px}.controls{display:flex;gap:20px;align-items:center;flex-wrap:wrap;margin:22px 0}
-input[type=search]{padding:11px;border:1px solid #b5c3b5;border-radius:5px;width:430px;max-width:90vw}
-table{width:100%;border-collapse:collapse;background:#fff}th,td{padding:14px;text-align:left;border-bottom:1px solid #dce4d9;vertical-align:top}
-th{background:#e8efe7;position:sticky;top:0}td{width:25%;overflow-wrap:anywhere}small{color:#657164}.component{font-weight:650}
-.empty{display:inline-block;padding:2px 7px;border-radius:4px;background:#fff0d7;color:#89550e;margin-top:7px}.filled{display:inline-block;padding:2px 7px;background:#e8f4e8;border-radius:4px;margin-top:7px}
-.notes{font-size:13px}.footnote{font-size:13px;color:#5d6b5b;margin-top:22px}tr[hidden]{display:none}
-@media(max-width:850px){body{margin:16px}.tablewrap{overflow-x:auto}table{min-width:950px}}
-</style><h1>Sculpture photo folder checklist</h1>
-'''
-is_summary = in_situ['summary']
-checked_label = datetime.fromisoformat(after['checked_at'].replace('Z', '+00:00')).astimezone(ZoneInfo('Europe/London')).strftime('%-d %B %Y at %H:%M %Z')
-page += '<nav><a href="#missing-in-situ">Missing In Situ</a><a href="#empty-photo-folders">Empty High Resolution / In Detail folders</a></nav>'
-page += '<h2 id="missing-in-situ">Components without In Situ</h2>'
-page += f'<p class="summary"><strong>{is_summary["without_matching_in_situ_images"]} component and finish entries</strong> have no matching In Situ folder containing image files.<br>{is_summary["with_shared_images_only"]} further entries have images only in named shared group In Situ folders; {is_summary["with_dedicated_images"]} have images in their own dedicated folder.<br><small>All {is_summary["checked_components"]} entries checked {esc(checked_label)}.</small></p>'
-page += '<p>Populated group In Situ folders count when their names identify the component and its finish. Use the checkbox to include all entries lacking a populated dedicated folder. This check uses Dropbox folder names and image-file presence; the photographs have not been visually re-reviewed.</p>'
-page += '<div class="controls"><input id="inSituSearch" type="search" placeholder="Search missing In Situ by component or family…" aria-label="Search missing In Situ"><label><input id="dedicatedOnly" type="checkbox"> Require a dedicated In Situ folder</label><span id="inSituCount"></span></div>'
-page += '<div class="tablewrap"><table id="inSituTable" class="in-situ-table"><thead><tr><th>Component and finish</th><th>In Situ status</th><th>Shared group In Situ folders</th></tr></thead><tbody>' + ''.join(in_situ_rows) + '</tbody></table></div>'
-page += '<p class="footnote">Component links open the existing sculpture folder. In Situ folder links are included when available. <a href="in-situ-audit.json">Full In Situ audit and folder links</a></p>'
-page += '<h2 id="empty-photo-folders">Empty High Resolution / In Detail folders</h2>'
-page += f'<p class="summary"><strong>{summary["empty_folders"]} empty folders</strong>: {summary["empty_high_resolution"]} High Resolution and {summary["empty_in_detail"]} In Detail, across {len(empty_rows)} component and finish folders.<br>{len(rows)} component and finish folders checked · {len(targets)} required photo folders verified.<br><small>Updated {esc(checked_label)}.</small></p>'
-page += '<p>Each folder name uses the full name of its existing component and finish folder. Open a linked empty folder to add photographs. The list shows folders with no files or subfolders at the time of the check.</p>'
-page += '<p>Existing folders with different names are linked in the last column. This includes two “Batersea” High Resolution folders and existing sibling Details folders; photographs there remain in their original locations.</p>'
-page += '<div class="controls"><input id="search" type="search" placeholder="Search component or family…" aria-label="Search component or family"><label><input id="showAll" type="checkbox"> Include components whose two folders are populated</label><span id="count"></span></div>'
-page += '<div class="tablewrap"><table id="photoFolders"><thead><tr><th>Component and finish</th><th>[Name] High Resolution</th><th>[Name] In Detail</th><th>Existing related folders</th></tr></thead><tbody>' + ''.join(table_rows) + '</tbody></table></div>'
-page += '<p class="footnote">All individual component and finish folders in the Wall Sculptures tree were checked, including existing Wall Circle pattern-source folders. Arrangement, In Situ, workshop, scene and catalogue document folders are outside the per-component folder list. Folder status reflects the Dropbox contents at the check time shown above.</p>'
-page += '<p class="footnote">The earlier folder additions are marked with their creation date. To undo those additions, request their removal; contents would be checked and deletion would require separate explicit confirmation. <a href="folder-audit.json">Full audit and exact folder paths</a> · <a href="empty-folder-links.json">Empty-folder list as JSON</a></p>'
-page += '''<script>
-const search=document.getElementById('search'),showAll=document.getElementById('showAll'),rows=[...document.querySelectorAll('#photoFolders tbody tr')];
-function update(){let count=0;for(const row of rows){row.hidden=!(row.dataset.search.includes(search.value.toLowerCase())&&(showAll.checked||row.dataset.empty==='true'));if(!row.hidden)count++;}document.getElementById('count').textContent=count+' component and finish folders';}
-search.addEventListener('input',update);showAll.addEventListener('change',update);update();
-const inSituSearch=document.getElementById('inSituSearch'),dedicatedOnly=document.getElementById('dedicatedOnly'),inSituRows=[...document.querySelectorAll('#inSituTable tbody tr')];
-function updateInSitu(){let count=0;for(const row of inSituRows){row.hidden=!(row.dataset.search.includes(inSituSearch.value.toLowerCase())&&(dedicatedOnly.checked||row.dataset.status==='missing'));if(!row.hidden)count++;}document.getElementById('inSituCount').textContent=count+' component and finish entries';}
-inSituSearch.addEventListener('input',updateInSitu);dedicatedOnly.addEventListener('change',updateInSitu);updateInSitu();
-</script></html>'''
-(BASE / 'empty-folder-list.html').write_text(page)
-(BASE / 'verification.json').write_text(json.dumps(summary, indent=2) + '\n')
-print(json.dumps(summary, indent=2))
+if __name__ == '__main__':
+    print(json.dumps(build()['summary'], indent=2))

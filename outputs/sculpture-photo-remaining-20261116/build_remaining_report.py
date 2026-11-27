@@ -9,12 +9,14 @@ from zoneinfo import ZoneInfo
 
 BASE = Path(__file__).resolve().parent
 ROOT = BASE.parents[1]
-inventory = json.loads((BASE / 'inventory.json').read_text())
-audit = json.loads((ROOT / 'outputs/wall-sculpture-photo-folders-20261113/folder-audit.json').read_text())
+checklist = ROOT / 'outputs/wall-sculpture-photo-folders-20261113'
+inventory = json.loads((checklist / 'inventory-in-situ.json').read_text())
+audit = json.loads((checklist / 'folder-audit.json').read_text())
 processing = json.loads((ROOT / 'outputs/sculpture-aidefector-20261116/manifest.json').read_text())
 mapping = json.loads((ROOT / 'outputs/sculpture-aidefector-20261116/dropbox-tabs.json').read_text())
 candidate_mapping = json.loads((ROOT / 'outputs/sculpture-aidefector-20261116/candidate-folder-matches.json').read_text())
 assert inventory['has_more'] is False
+assert inventory['checked_at'] == audit['summary']['checked_at']
 entries = inventory['entries']
 by_id = {e['file_id']: e for e in entries}
 by_path = {e['path'].casefold(): e for e in entries}
@@ -80,6 +82,12 @@ for old in audit['components']:
         'possible_processed_sets': pending_by_name.get(component['name'], []),
     }
     for role, old_folder in old['folders'].items():
+        if old_folder.get('folder_missing'):
+            row['folders'][role] = {
+                'id': None, 'name': role, 'path': None, 'url': row['url'],
+                'image_count': 0, 'direct_item_count': 0, 'folder_missing': True,
+            }
+            continue
         folder = by_id.get(old_folder['id'])
         assert folder is not None, (row['name'], role)
         row['folders'][role] = {
@@ -138,6 +146,8 @@ esc = html.escape
 def photo_cell(folder):
     count = folder['image_count']
     text = f'{count} image' + ('s' if count != 1 else '') if count else 'No images'
+    if folder.get('folder_missing'):
+        text = 'Folder absent · open component'
     return f'<a class="{"present" if count else "missing"}" href="{esc(folder["url"], quote=True)}" target="_blank" rel="noopener noreferrer">{text}</a>'
 
 
@@ -157,7 +167,7 @@ page = '''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewp
 body{font:16px/1.5 system-ui,sans-serif;background:#f7f6f2;color:#202722;margin:0}main{max-width:1480px;margin:auto;padding:40px 24px}h1{font:500 38px/1.1 Georgia,serif;margin:0 0 18px}h2{font:500 26px Georgia,serif;margin-top:42px}p{max-width:1050px}a{color:#235e51;text-underline-offset:3px}small,.muted{color:#657069}.counts{display:flex;gap:16px;flex-wrap:wrap;margin:26px 0}.counts div{background:white;border:1px solid #dce1d9;border-radius:8px;padding:16px 24px;min-width:145px}.counts strong{display:block;font-size:32px;line-height:1.2}input,select{font:inherit;padding:9px 12px;border:1px solid #b6c3bb;border-radius:5px;background:white}input{min-width:270px}.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:20px 0}.tablewrap{overflow:auto;background:white;border:1px solid #dce1d9;border-radius:8px}table{border-collapse:collapse;width:100%;font-size:14px}th,td{padding:13px;text-align:left;border-bottom:1px solid #e3e7e1;vertical-align:top}th{background:#eaf0e9;font-weight:600}td:nth-child(2){min-width:230px}td:last-child{max-width:390px}.missing{color:#a14428;font-weight:600}.present{color:#26735d}.note{background:#fff8e6;border-left:3px solid #d5aa52;padding:12px 18px}.foot{font-size:13px;color:#657069;margin-top:32px}[hidden]{display:none!important}
 </style><main><h1>Remaining sculpture photo folders</h1>'''
 page += f'<p><strong>{summary["confirmed_remaining_components"]} components</strong> have no matching set in the saved processing record and lack images in one or both requested Dropbox photo folders.</p><p class="muted">Dropbox checked {esc(checked)} · {len(rows)} catalogue components · {len(verified_labels)} verified processed sets, of which {len(processed_ids)} have confirmed component matches. {len(local_complete_labels)} complete sets currently remain in the local <em>Processed Sculptures</em> folder.</p>'
-page += f'<div class="counts"><div><strong>{len(remaining)}</strong>Remaining components</div><div><strong>{summary["both_folders_lack_images"]}</strong>Both folders lack images</div><div><strong>{summary["detail_only_lacks_images"]}</strong>In Detail only</div><div><strong>{len(uncertain_gaps)}</strong>Uncertain matches with gaps</div></div>'
+page += f'<div class="counts"><div><strong>{len(remaining)}</strong>Remaining components</div><div><strong>{summary["both_folders_lack_images"]}</strong>Both folders lack images</div><div><strong>{summary["detail_only_lacks_images"]}</strong>In Detail only</div><div><strong>{summary["high_resolution_only_lacks_images"]}</strong>High Resolution only</div><div><strong>{len(uncertain_gaps)}</strong>Uncertain matches with gaps</div></div>'
 page += f'<p class="note">{summary["remaining_components_with_alternative_photo_folders"]} listed components already have pictures in alternative named folders, linked in the notes. An empty requested folder may need existing images processed or filed. Image presence does not establish photo quality or sufficient resolution.</p>'
 page += '<div class="controls"><label>Find a component <input id="search" type="search" placeholder="Name or family"></label><label>Show <select id="kind"><option value="all">All remaining components</option><option value="both">Both folders lack images</option><option value="detail">In Detail only</option><option value="high">High Resolution only</option></select></label><span id="visible" aria-live="polite"></span></div><div class="tablewrap"><table id="remaining">' + table_head + '<tbody>' + ''.join(map(render_row, remaining)) + '</tbody></table></div>'
 candidate_status = (f'{len(uncertain_gaps)} candidate components still lack images in one or both requested folders.' if uncertain_gaps else 'All candidate components below currently have images in both requested folders, so none add to the remaining photo gaps.')

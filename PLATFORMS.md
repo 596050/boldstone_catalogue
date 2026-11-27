@@ -31,6 +31,7 @@ https://furnitures.co.uk/dashboard
 
 https://www.faire.com/brand-portal/brand-onboarding/upload-products
 
+whatnot.com
 
 
 **Added but has upfront fee:**
@@ -59,7 +60,6 @@ https://www.joor.com/industry/home-brands?utm_source=chatgpt.com
 https://worldwidebrands.com/supplier-submit/?utm_source=chatgpt.com
 https://uk.pinterest.com/business/catalogs
 brandboom.com
-whatnot.com
 behance.net
 sell.amazon.co.uk
 
@@ -79,6 +79,13 @@ Artfinder
 LinkedIn
 Yahoo
 
+|  |  |
+|---|---|
+| Pinterest (https://business.pinterest.com/en-gb/how-to-make-pins/) | Sculpture photographs linking directly to product pages. |
+| Homify (https://www.homify.co.uk/signup_expert) | An interiors-focused professional portfolio. |
+| Behance (https://help.behance.net/hc/en-us/articles/204483684-Guide-Create-Publish-A-Project) | Photo-led portfolios of Sally’s sculpture collections. |
+| ArtMajeur (https://www.artmajeur.com/en/artmajeur-for-interior-designers) | Sculpture listings reaching collectors and interior designers. |
+| Saatchi Art (https://www.saatchiart.com/whysell) |  |
 
 ///
 How to make hollow cast sculptures:
